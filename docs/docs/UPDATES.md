@@ -65,10 +65,10 @@ use danog\MadelineProto\EventHandler\Filter\FilterCommand;
 use danog\MadelineProto\EventHandler\Filter\FilterRegex;
 use danog\MadelineProto\EventHandler\Filter\FilterText;
 use danog\MadelineProto\EventHandler\Message;
-use danog\MadelineProto\EventHandler\Message\Service\DialogMessagePinned;
 use danog\MadelineProto\EventHandler\Message\Service\DialogPhotoChanged;
 use danog\MadelineProto\EventHandler\SimpleFilter\FromAdmin;
 use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
+use danog\MadelineProto\EventHandler\SimpleFilter\Outgoing;
 use danog\MadelineProto\Logger;
 use danog\MadelineProto\ParseMode;
 use danog\MadelineProto\Settings;
@@ -182,8 +182,56 @@ class MyEventHandler extends SimpleEventHandler
         $this->restart();
     }
 
+    /**
+     * Reposts a media file as a Telegram story.
+     */
+    #[FilterCommand('story')]
+    public function storyCommand(Message & FromAdmin $message): void
+    {
+        if ($this->isBot()) {
+            $message->reply("Only users can post Telegram Stories!");
+            return;
+        }
+        $media = $message->getReply(Message::class)?->media;
+        if (!$media) {
+            $message->reply("You should reply to a photo or video to repost it as a story!");
+            return;
+        }
+
+        $this->stories->sendStory(
+            media: $media,
+            caption: "This story was posted using [MadelineProto](https://t.me/MadelineProto)!",
+            parse_mode: ParseMode::MARKDOWN,
+            privacy_rules: [['_' => 'inputPrivacyValueAllowAll']]
+        );
+    }
+
+    /**
+     * Downloads all telegram stories of a user (including protected ones).
+     */
+    #[FilterCommand('dlStories')]
+    public function dlStoriesCommand(Message $message): void
+    {
+        if (!$message->commandArgs) {
+            $message->reply("You must specify the @nickname or the Telegram ID of a user to download their stories!");
+            return;
+        }
+
+        $stories = $this->stories->getUserStories(user_id: $message->commandArgs[0])['stories']['stories'];
+        // Skip deleted stories
+        $stories = array_filter($stories, fn (array $s): bool => $s['_'] === 'storyItem');
+
+        $result = "Total stories: ".count($stories)."\n\n";
+        foreach ($stories as $story) {
+            $message = self::markdownEscape($story['caption']);
+            $result .= "[$message]({$this->getDownloadLink($story)})\n";
+        }
+
+        $message->reply($result, parseMode: ParseMode::MARKDOWN);
+    }
+
     #[FilterCommand('broadcast')]
-    public function broadcastCommand(Incoming & Message & FromAdmin $message): void
+    public function broadcastCommand(Message & FromAdmin $message): void
     {
         // We can broadcast messages to all users with /broadcast
         if (!$message->replyToMsgId) {
@@ -199,7 +247,7 @@ class MyEventHandler extends SimpleEventHandler
     }
 
     #[FilterCommand('echo')]
-    public function echoCmd(Incoming & Message $message): void
+    public function echoCmd(Message $message): void
     {
         // Contains the arguments of the command
         $args = $message->commandArgs;
@@ -213,12 +261,14 @@ class MyEventHandler extends SimpleEventHandler
         $message->reply("Did you mean to write MadelineProto instead of ".$message->matches[1].'?');
     }
 
+    /**
+     * Incoming&Outgoing&Message is the same thing as just Message
+     */
     #[FilterText('hi')]
-    public function pingCommand(Incoming&Message $message): void
+    public function pingCommand(Incoming&Outgoing&Message $message): void
     {
         $message->reply('hello');
     }
-
 
     /**
      * Called when the dialog photo of a chat or channel changes.
@@ -228,9 +278,8 @@ class MyEventHandler extends SimpleEventHandler
     {
         if ($message->photo) {
             $message->reply("Nice! Here's a download link for the photo: ".$message->photo->getDownloadLink());
-        } else {
-            // The group photo was deleted
         }
+        // The group photo was deleted
     }
 
     /**

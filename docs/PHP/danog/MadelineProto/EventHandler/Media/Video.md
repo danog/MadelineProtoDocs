@@ -17,7 +17,7 @@ Represents a video.
 
 ## Properties
 * `$hasStickers`: `bool` If true; the current media has attached mask stickers.
-* `$duration`: `int` Video duration in seconds
+* `$duration`: `float` Video duration in seconds
 * `$supportsStreaming`: `bool` Whether the video supports streaming
 * `$width`: `int` Video width
 * `$height`: `int` Video height

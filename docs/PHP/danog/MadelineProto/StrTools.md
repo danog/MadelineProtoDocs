@@ -29,6 +29,7 @@ Some tools.
 * [`entitiesToHtml(string $message, array $entities, bool $allowTelegramTags = false): string`](#entitiestohtml-string-message-array-entities-bool-allowtelegramtags-false-string)
 * [`toCamelCase(string $input): string`](#tocamelcase-string-input-string)
 * [`toSnakeCase(string $input): string`](#tosnakecase-string-input-string)
+* [`markdownEscape(string $what): string`](#markdownescape-string-what-string)
 * [`getMimeFromExtension(string $extension, string $default): string`](#getmimefromextension-string-extension-string-default-string)
 * [`getExtensionFromMime(string $mime): string`](#getextensionfrommime-string-mime-string)
 * [`getExtensionFromLocation(mixed $location, string $default): string`](#getextensionfromlocation-mixed-location-string-default-string)
@@ -144,6 +145,17 @@ Convert to snake_case.
 Parameters:
 
 * `$input`: `string` String  
+
+
+
+### `markdownEscape(string $what): string`
+
+Escape string for markdown.
+
+
+Parameters:
+
+* `$what`: `string` String to escape  
 
 
 

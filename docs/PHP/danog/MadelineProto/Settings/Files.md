@@ -26,6 +26,8 @@ File management settings.
 * [`setDownloadParallelChunks(int $downloadParallelChunks): self`](#setdownloadparallelchunks-int-downloadparallelchunks-self)
 * [`getReportBrokenMedia(): bool`](#getreportbrokenmedia-bool)
 * [`setReportBrokenMedia(bool $reportBrokenMedia): self`](#setreportbrokenmedia-bool-reportbrokenmedia-self)
+* [`getDownloadLink(): ?string`](#getdownloadlink-string)
+* [`setDownloadLink(?string $downloadLink): self`](#setdownloadlink-string-downloadlink-self)
 
 ## Methods:
 ### `mergeArray(array $settings): void`
@@ -104,6 +106,25 @@ Set whether to report undownloadable media to TSF.
 Parameters:
 
 * `$reportBrokenMedia`: `bool` Whether to report undownloadable media to TSF  
+
+
+
+### `getDownloadLink(): ?string`
+
+Get custom download link URL for CLI bots, used by `getDownloadLink`.
+
+
+
+### `setDownloadLink(?string $downloadLink): self`
+
+Only needed for CLI bots, not bots started via web.
+Sets custom download link URL for CLI bots, used by `getDownloadLink`.  
+  
+Can be null, in which case MadelineProto will automatically generate a download link.
+
+Parameters:
+
+* `$downloadLink`: `?string` Custom download link URL for CLI bots, used by `getDownloadLink`.  
 
 
 

@@ -143,7 +143,7 @@ Main API wrapper for MadelineProto.
 * [`getDialogs(): list<array>`](#getdialogs-list-array)
 * [`getDownloadInfo(mixed $messageMedia): array{ext: string, name: string, mime: string, size: int, InputFileLocation: array}`](#getdownloadinfo-mixed-messagemedia-array-ext-string-name-string-mime-string-size-int-inputfilelocation-array)
 * [`getDownloadLink(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|array|string $media, ?string $scriptUrl = NULL, ?int $size = NULL, ?string $name = NULL, ?string $mime = NULL): string`](#getdownloadlink-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-media-array-string-media-string-scripturl-null-int-size-null-string-name-null-string-mime-null-string)
-* [`getEventHandler(?class-string<\danog\MadelineProto\PluginEventHandler> $class = NULL): \danog\MadelineProto\EventHandler|\danog\MadelineProto\Ipc\EventHandlerProxy|\__PHP_Incomplete_Class|null`](#geteventhandler-class-string-danog-madelineproto-plugineventhandler-class-null-danog-madelineproto-eventhandler-danog-madelineproto-ipc-eventhandlerproxy-__php_incomplete_class-null)
+* [`getEventHandler(class-string<\T>|null $class = NULL): \T|\EventHandlerProxy|\__PHP_Incomplete_Class|null`](#geteventhandler-class-string-t-null-class-null-t-eventhandlerproxy-__php_incomplete_class-null)
 * [`getExtensionFromLocation(mixed $location, string $default): string`](#getextensionfromlocation-mixed-location-string-default-string)
 * [`getExtensionFromMime(string $mime): string`](#getextensionfrommime-string-mime-string)
 * [`getFileInfo(mixed $constructor): array`](#getfileinfo-mixed-constructor-array)
@@ -175,6 +175,7 @@ Main API wrapper for MadelineProto.
 * [`getType(mixed $id): \danog\MadelineProto\API::PEER_TYPE_*`](#gettype-mixed-id-danog-madelineproto-api-peer_type_)
 * [`getUpdates(array{offset?: int, limit?: int, timeout?: float} $params = []): list<array{update_id: mixed, update: mixed}>`](#getupdates-array-offset-int-limit-int-timeout-float-params-list-array-update_id-mixed-update-mixed)
 * [`getWebMessage(string $message): string`](#getwebmessage-string-message-string)
+* [`hasAdmins(): bool`](#hasadmins-bool)
 * [`hasEventHandler(): bool`](#haseventhandler-bool)
 * [`hasPlugin(class-string<\danog\MadelineProto\EventHandler> $class): bool`](#hasplugin-class-string-danog-madelineproto-eventhandler-class-bool)
 * [`hasReportPeers(): bool`](#hasreportpeers-bool)
@@ -185,12 +186,15 @@ Main API wrapper for MadelineProto.
 * [`initSelfRestart(): void`](#initselfrestart-void)
 * [`isAltervista(): bool`](#isaltervista-bool)
 * [`isArrayOrAlike(mixed $var): bool`](#isarrayoralike-mixed-var-bool)
+* [`isBot(): bool`](#isbot-bool)
 * [`isForum(mixed $peer): bool`](#isforum-mixed-peer-bool)
 * [`isIpc(): bool`](#isipc-bool)
 * [`isIpcWorker(): bool`](#isipcworker-bool)
 * [`isPremium(): bool`](#ispremium-bool)
 * [`isSupergroup(int $id): bool`](#issupergroup-int-id-bool)
+* [`isUser(): bool`](#isuser-bool)
 * [`logger(mixed $param, int $level = \danog\MadelineProto\Logger::NOTICE, string $file = ''): void`](#logger-mixed-param-int-level-danog-madelineproto-logger-notice-string-file-void)
+* [`markdownEscape(string $what): string`](#markdownescape-string-what-string)
 * [`markdownToMessageEntities(string $markdown): \danog\MadelineProto\TL\Conversion\MarkdownEntities Object containing message and entities`](#markdowntomessageentities-string-markdown-danog-madelineproto-tl-conversion-markdownentities-object-containing-message-and-entities)
 * [`mbStrSplit(string $text, int $length): string[]`](#mbstrsplit-string-text-int-length-string)
 * [`mbStrlen(string $text): int`](#mbstrlen-string-text-int)
@@ -259,7 +263,7 @@ Main API wrapper for MadelineProto.
 * [`validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): list<\danog\MadelineProto\EventHandlerIssue>`](#validateeventhandlerclass-class-string-danog-madelineproto-eventhandler-class-list-danog-madelineproto-eventhandlerissue)
 * [`viewSponsoredMessage(int|array $peer, string|array{random_id: string} $message): bool`](#viewsponsoredmessage-int-array-peer-string-array-random_id-string-message-bool)
 * [`wrapMedia(array $media, bool $protected = false): ?\danog\MadelineProto\EventHandler\Media`](#wrapmedia-array-media-bool-protected-false-danog-madelineproto-eventhandler-media)
-* [`wrapMessage(array $message): ?\danog\MadelineProto\EventHandler\Message`](#wrapmessage-array-message-danog-madelineproto-eventhandler-message)
+* [`wrapMessage(array $message): ?\danog\MadelineProto\EventHandler\AbstractMessage`](#wrapmessage-array-message-danog-madelineproto-eventhandler-abstractmessage)
 * [`wrapUpdate(array $update): ?\danog\MadelineProto\EventHandler\Update`](#wrapupdate-array-update-danog-madelineproto-eventhandler-update)
 
 ## Methods:
@@ -948,7 +952,7 @@ Parameters:
 
 ### `getAdminIds(): array`
 
-Get admin IDs (equal to the report peers).
+Get admin IDs (equal to all user report peers).
 
 
 
@@ -1090,20 +1094,19 @@ Parameters:
 
 
 
-### `getEventHandler(?class-string<\danog\MadelineProto\PluginEventHandler> $class = NULL): \danog\MadelineProto\EventHandler|\danog\MadelineProto\Ipc\EventHandlerProxy|\__PHP_Incomplete_Class|null`
+### `getEventHandler(class-string<\T>|null $class = NULL): \T|\EventHandlerProxy|\__PHP_Incomplete_Class|null`
 
 Get event handler (or plugin instance).
 
 
 Parameters:
 
-* `$class`: `?class-string<\danog\MadelineProto\PluginEventHandler>`   
+* `$class`: `class-string<\T>|null`   
 
 
 #### See also: 
-* [`\danog\MadelineProto\PluginEventHandler`: Plugin event handler class.](../../danog/MadelineProto/PluginEventHandler.html)
-* [`\danog\MadelineProto\EventHandler`: Event handler.](../../danog/MadelineProto/EventHandler.html)
-* `\danog\MadelineProto\Ipc\EventHandlerProxy`
+* `\T`
+* `\EventHandlerProxy`
 * `\__PHP_Incomplete_Class`
 
 
@@ -1444,6 +1447,12 @@ Parameters:
 
 
 
+### `hasAdmins(): bool`
+
+Check if has admins.
+
+
+
 ### `hasEventHandler(): bool`
 
 Check if an event handler instance is present.
@@ -1549,6 +1558,12 @@ Parameters:
 
 
 
+### `isBot(): bool`
+
+Returns whether the current user is a bot.
+
+
+
 ### `isForum(mixed $peer): bool`
 
 Check if the specified peer is a forum.
@@ -1589,6 +1604,12 @@ Parameters:
 
 
 
+### `isUser(): bool`
+
+Returns whether the current user is a user.
+
+
+
 ### `logger(mixed $param, int $level = \danog\MadelineProto\Logger::NOTICE, string $file = ''): void`
 
 Logger.
@@ -1599,6 +1620,17 @@ Parameters:
 * `$param`: `mixed` Parameter  
 * `$level`: `int` Logging level  
 * `$file`: `string` File where the message originated  
+
+
+
+### `markdownEscape(string $what): string`
+
+Escape string for markdown.
+
+
+Parameters:
+
+* `$what`: `string` String to escape  
 
 
 
@@ -2510,7 +2542,7 @@ Parameters:
 
 
 
-### `wrapMessage(array $message): ?\danog\MadelineProto\EventHandler\Message`
+### `wrapMessage(array $message): ?\danog\MadelineProto\EventHandler\AbstractMessage`
 
 Wrap a Message constructor into an abstract Message object.
 
@@ -2521,7 +2553,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../danog/MadelineProto/EventHandler/Message.html)
+* [`\danog\MadelineProto\EventHandler\AbstractMessage`: Represents an incoming or outgoing message.](../../danog/MadelineProto/EventHandler/AbstractMessage.html)
 
 
 

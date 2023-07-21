@@ -44,9 +44,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="help.acceptTermsOfService.html" name="help.acceptTermsOfService">Accept the new terms of service: help.acceptTermsOfService</a>
 
-* <a href="channels.toggleUsername.html" name="channels.toggleUsername">Activate or deactivate a purchased fragment.com username associated to a supergroup or channel we own: channels.toggleUsername</a>
-
 * <a href="bots.toggleUsername.html" name="bots.toggleUsername">Activate or deactivate a purchased fragment.com username associated to a bot we own: bots.toggleUsername</a>
+
+* <a href="channels.toggleUsername.html" name="channels.toggleUsername">Activate or deactivate a purchased fragment.com username associated to a supergroup or channel we own: channels.toggleUsername</a>
 
 * <a href="account.toggleUsername.html" name="account.toggleUsername">Activate or deactivate a purchased fragment.com username associated to the currently logged-in user: account.toggleUsername</a>
 
@@ -130,6 +130,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#haseventhandler-bool" name="hasEventHandler">Check if an event handler instance is present: hasEventHandler</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#hasadmins-bool" name="hasAdmins">Check if has admins: hasAdmins</a>
+
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#hasreportpeers-bool" name="hasReportPeers">Check if has report peers: hasReportPeers</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#isarrayoralike-mixed-var-bool" name="isArrayOrAlike">Check if is array or similar (traversable && countable && arrayAccess): isArrayOrAlike</a>
@@ -194,9 +196,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#tdtomtproto-array-params-array" name="tdToMTProto">Convert TD to MTProto parameters: tdToMTProto</a>
 
-* <a href="channels.convertToGigagroup.html" name="channels.convertToGigagroup">Convert a supergroup to a gigagroup, when requested by channel suggestions: channels.convertToGigagroup</a>
-
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#entitiestohtml-string-message-array-entities-bool-allowtelegramtags-false-string" name="entitiesToHtml">Convert a message and a set of entities to HTML: entitiesToHtml</a>
+
+* <a href="channels.convertToGigagroup.html" name="channels.convertToGigagroup">Convert a supergroup to a gigagroup, when requested by channel suggestions: channels.convertToGigagroup</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#fromsupergroup-int-id-int" name="fromSupergroup">Convert bot API channel ID to MTProto channel ID: fromSupergroup</a>
 
@@ -220,11 +222,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels.createForumTopic.html" name="channels.createForumTopic">Create a forum topic; requires manage_topics rights: channels.createForumTopic</a>
 
-* <a href="channels.createChannel.html" name="channels.createChannel">Create a supergroup/channel: channels.createChannel</a>
-
 * <a href="phone.createGroupCall.html" name="phone.createGroupCall">Create a group call or livestream: phone.createGroupCall</a>
 
 * <a href="stickers.createStickerSet.html" name="stickers.createStickerSet">Create a stickerset, bots only: stickers.createStickerSet</a>
+
+* <a href="channels.createChannel.html" name="channels.createChannel">Create a supergroup/channel: channels.createChannel</a>
 
 * <a href="account.createTheme.html" name="account.createTheme">Create a theme: account.createTheme</a>
 
@@ -236,9 +238,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels.deleteChannel.html" name="channels.deleteChannel">Delete a channel/supergroup: channels.deleteChannel</a>
 
-* <a href="messages.deleteChat.html" name="messages.deleteChat">Delete a chat: messages.deleteChat</a>
-
 * <a href="messages.deleteExportedChatInvite.html" name="messages.deleteExportedChatInvite">Delete a chat invite: messages.deleteExportedChatInvite</a>
+
+* <a href="messages.deleteChat.html" name="messages.deleteChat">Delete a chat: messages.deleteChat</a>
 
 * <a href="chatlists.leaveChatlist.html" name="chatlists.leaveChatlist">Delete a folder imported using a chat folder deep link »: chatlists.leaveChatlist</a>
 
@@ -314,13 +316,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadserver-string-session-void" name="downloadServer">Downloads a file to the browser using the specified session file: downloadServer</a>
 
-* <a href="channels.editForumTopic.html" name="channels.editForumTopic">Edit forum topic; requires manage_topics rights: channels.editForumTopic</a>
-
 * <a href="chatlists.editExportedInvite.html" name="chatlists.editExportedInvite">Edit a chat folder deep link »: chatlists.editExportedInvite</a>
 
 * <a href="messages.editExportedChatInvite.html" name="messages.editExportedChatInvite">Edit an exported chat invite: messages.editExportedChatInvite</a>
 
 * <a href="messages.editInlineBotMessage.html" name="messages.editInlineBotMessage">Edit an inline bot message: messages.editInlineBotMessage</a>
+
+* <a href="channels.editForumTopic.html" name="channels.editForumTopic">Edit forum topic; requires manage_topics rights: channels.editForumTopic</a>
 
 * <a href="phone.editGroupCallParticipant.html" name="phone.editGroupCallParticipant">Edit information about a given group call participant: phone.editGroupCallParticipant</a>
 
@@ -344,13 +346,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels.toggleForum.html" name="channels.toggleForum">Enable or disable forum functionality in a supergroup: channels.toggleForum</a>
 
+* <a href="channels.toggleAntiSpam.html" name="channels.toggleAntiSpam">Enable or disable the native antispam system: channels.toggleAntiSpam</a>
+
 * <a href="messages.toggleBotInAttachMenu.html" name="messages.toggleBotInAttachMenu">Enable or disable web bot attachment menu »: messages.toggleBotInAttachMenu</a>
 
-* <a href="channels.toggleAntiSpam.html" name="channels.toggleAntiSpam">Enable or disable the native antispam system: channels.toggleAntiSpam</a>
+* <a href="channels.toggleSignatures.html" name="channels.toggleSignatures">Enable/disable message signatures in channels: channels.toggleSignatures</a>
 
 * <a href="contacts.toggleTopPeers.html" name="contacts.toggleTopPeers">Enable/disable top peers: contacts.toggleTopPeers</a>
 
-* <a href="channels.toggleSignatures.html" name="channels.toggleSignatures">Enable/disable message signatures in channels: channels.toggleSignatures</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#markdownescape-string-what-string" name="markdownEscape">Escape string for markdown: markdownEscape</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#broadcastcustom-action-action-danog-madelineproto-broadcast-filter-filter-null-int" name="broadcastCustom">Executes a custom broadcast action with all peers (users, chats, channels) of the bot: broadcastCustom</a>
 
@@ -408,30 +412,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#mbstrlen-string-text-int" name="mbStrlen">Get Telegram UTF-8 length of string: mbStrlen</a>
 
-* <a href="stats.getBroadcastStats.html" name="stats.getBroadcastStats">Get channel statistics: stats.getBroadcastStats</a>
-
-* <a href="channels.getAdminedPublicChannels.html" name="channels.getAdminedPublicChannels">Get channels/supergroups/geogroups we're admin in. Usually called when the user exceeds the limit for owned public channels/supergroups/geogroups, and the user is given the choice to remove one of his channels/supergroups/geogroups: channels.getAdminedPublicChannels</a>
-
-* <a href="messages.getDiscussionMessage.html" name="messages.getDiscussionMessage">Get discussion message from the associated discussion group of a channel to show it on top of the comment section, without actually joining the group: messages.getDiscussionMessage</a>
-
-* <a href="messages.getDialogFilters.html" name="messages.getDialogFilters">Get folders: messages.getDialogFilters</a>
-
-* <a href="messages.getWebPage.html" name="messages.getWebPage">Get instant view page: messages.getWebPage</a>
-
-* <a href="messages.getMessageReactionsList.html" name="messages.getMessageReactionsList">Get message reaction list, along with the sender of each reaction: messages.getMessageReactionsList</a>
-
-* <a href="messages.getMessagesReactions.html" name="messages.getMessagesReactions">Get message reactions »: messages.getMessagesReactions</a>
-
-* <a href="stats.getMessageStats.html" name="stats.getMessageStats">Get message statistics: stats.getMessageStats</a>
-
-* <a href="help.getPassportConfig.html" name="help.getPassportConfig">Get passport configuration: help.getPassportConfig</a>
-
-* <a href="messages.getSuggestedDialogFilters.html" name="messages.getSuggestedDialogFilters">Get suggested folders: messages.getSuggestedDialogFilters</a>
-
-* <a href="stats.getMegagroupStats.html" name="stats.getMegagroupStats">Get supergroup statistics: stats.getMegagroupStats</a>
-
-* <a href="channels.getForumTopics.html" name="channels.getForumTopics">Get topics of a forum: channels.getForumTopics</a>
-
 * <a href="messages.getDocumentByHash.html" name="messages.getDocumentByHash">Get a document by its SHA256 hash, mainly used for gifs: messages.getDocumentByHash</a>
 
 * <a href="channels.getLeftChannels.html" name="channels.getLeftChannels">Get a list of channels/supergroups we left: channels.getLeftChannels</a>
@@ -450,7 +430,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.getDefaultProfilePhotoEmojis.html" name="account.getDefaultProfilePhotoEmojis">Get a set of suggested custom emoji stickers that can be used as profile picture: account.getDefaultProfilePhotoEmojis</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getadminids-array" name="getAdminIds">Get admin IDs (equal to the report peers): getAdminIds</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getadminids-array" name="getAdminIds">Get admin IDs (equal to all user report peers): getAdminIds</a>
 
 * <a href="messages.getArchivedStickers.html" name="messages.getArchivedStickers">Get all archived stickers: messages.getArchivedStickers</a>
 
@@ -490,6 +470,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="help.getAppChangelog.html" name="help.getAppChangelog">Get changelog of current app.  : help.getAppChangelog</a>
 
+* <a href="stats.getBroadcastStats.html" name="stats.getBroadcastStats">Get channel statistics: stats.getBroadcastStats</a>
+
+* <a href="channels.getAdminedPublicChannels.html" name="channels.getAdminedPublicChannels">Get channels/supergroups/geogroups we're admin in. Usually called when the user exceeds the limit for owned public channels/supergroups/geogroups, and the user is given the choice to remove one of his channels/supergroups/geogroups: channels.getAdminedPublicChannels</a>
+
 * <a href="messages.getCommonChats.html" name="messages.getCommonChats">Get chats in common with a user: messages.getCommonChats</a>
 
 * <a href="help.getCdnConfig.html" name="help.getCdnConfig">Get configuration for CDN file downloads: help.getCdnConfig</a>
@@ -514,13 +498,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getdhconfig-array" name="getDhConfig">Get diffie-hellman configuration: getDhConfig</a>
 
+* <a href="messages.getDiscussionMessage.html" name="messages.getDiscussionMessage">Get discussion message from the associated discussion group of a channel to show it on top of the comment section, without actually joining the group: messages.getDiscussionMessage</a>
+
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getdownloadinfo-mixed-messagemedia-array-ext-string-name-string-mime-string-size-int-inputfilelocation-array" name="getDownloadInfo">Get download info of file: getDownloadInfo</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getpropicinfo-mixed-data-array" name="getPropicInfo">Get download info of the propic of a user: getPropicInfo</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getdownloadlink-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-media-array-string-media-string-scripturl-null-int-size-null-string-name-null-string-mime-null-string" name="getDownloadLink">Get download link of media file: getDownloadLink</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#geteventhandler-class-string-plugineventhandler-class-null-danog-madelineproto-eventhandler-danog-madelineproto-ipc-eventhandlerproxy-__php_incomplete_class-null" name="getEventHandler">Get event handler (or plugin instance): getEventHandler</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#geteventhandler-class-string-t-null-class-null-t-eventhandlerproxy-__php_incomplete_class-null" name="getEventHandler">Get event handler (or plugin instance): getEventHandler</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getextensionfromlocation-mixed-location-string-default-string" name="getExtensionFromLocation">Get extension from file location: getExtensionFromLocation</a>
 
@@ -533,6 +519,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#end-array-what-mixed" name="end">Get final element of array: end</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getfolderid-mixed-id-int" name="getFolderId">Get folder ID from object: getFolderId</a>
+
+* <a href="messages.getDialogFilters.html" name="messages.getDialogFilters">Get folders: messages.getDialogFilters</a>
 
 * <a href="channels.getForumTopicsByID.html" name="channels.getForumTopicsByID">Get forum topics by their ID: channels.getForumTopicsByID</a>
 
@@ -550,9 +538,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="phone.getGroupCallStreamChannels.html" name="phone.getGroupCallStreamChannels">Get info about RTMP streams in a group call or livestream.  : phone.getGroupCallStreamChannels</a>
 
-* <a href="channels.getParticipant.html" name="channels.getParticipant">Get info about a channel/supergroup participant: channels.getParticipant</a>
-
 * <a href="account.getWallPaper.html" name="account.getWallPaper">Get info about a certain wallpaper: account.getWallPaper</a>
+
+* <a href="channels.getParticipant.html" name="channels.getParticipant">Get info about a channel/supergroup participant: channels.getParticipant</a>
 
 * <a href="messages.getExportedChatInvite.html" name="messages.getExportedChatInvite">Get info about a chat invite: messages.getExportedChatInvite</a>
 
@@ -586,6 +574,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.getThemes.html" name="account.getThemes">Get installed themes: account.getThemes</a>
 
+* <a href="messages.getWebPage.html" name="messages.getWebPage">Get instant view page: messages.getWebPage</a>
+
 * <a href="channels.exportMessageLink.html" name="channels.exportMessageLink">Get link and embed info of a message in a channel/supergroup: channels.exportMessageLink</a>
 
 * <a href="messages.getRecentLocations.html" name="messages.getRecentLocations">Get live location history of a certain user: messages.getRecentLocations</a>
@@ -608,6 +598,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getSplitRanges.html" name="messages.getSplitRanges">Get message ranges for saving the user's chat history: messages.getSplitRanges</a>
 
+* <a href="messages.getMessageReactionsList.html" name="messages.getMessageReactionsList">Get message reaction list, along with the sender of each reaction: messages.getMessageReactionsList</a>
+
+* <a href="messages.getMessagesReactions.html" name="messages.getMessagesReactions">Get message reactions »: messages.getMessagesReactions</a>
+
+* <a href="stats.getMessageStats.html" name="stats.getMessageStats">Get message statistics: stats.getMessageStats</a>
+
 * <a href="messages.getReplies.html" name="messages.getReplies">Get messages in a reply thread: messages.getReplies</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getmimefrombuffer-string-buffer-string" name="getMimeFromBuffer">Get mime type from buffer: getMimeFromBuffer</a>
@@ -625,6 +621,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getmethodsnamespaced-array" name="getMethodsNamespaced">Get namespaced methods (method => namespace): getMethodsNamespaced</a>
 
 * <a href="langpack.getDifference.html" name="langpack.getDifference">Get new strings in language pack: langpack.getDifference</a>
+
+* <a href="help.getPassportConfig.html" name="help.getPassportConfig">Get passport configuration: help.getPassportConfig</a>
 
 * <a href="payments.getPaymentReceipt.html" name="payments.getPaymentReceipt">Get payment receipt: payments.getPaymentReceipt</a>
 
@@ -678,6 +676,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="langpack.getStrings.html" name="langpack.getStrings">Get strings from a language pack: langpack.getStrings</a>
 
+* <a href="messages.getSuggestedDialogFilters.html" name="messages.getSuggestedDialogFilters">Get suggested folders: messages.getSuggestedDialogFilters</a>
+
+* <a href="stats.getMegagroupStats.html" name="stats.getMegagroupStats">Get supergroup statistics: stats.getMegagroupStats</a>
+
 * <a href="account.getTmpPassword.html" name="account.getTmpPassword">Get temporary payment password: account.getTmpPassword</a>
 
 * <a href="channels.getAdminLog.html" name="channels.getAdminLog">Get the admin log of a channel/supergroup: channels.getAdminLog</a>
@@ -689,6 +691,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getbroadcastprogress-int-id-danog-madelineproto-broadcast-progress" name="getBroadcastProgress">Get the progress of a currently running broadcast: getBroadcastProgress</a>
 
 * <a href="account.getTheme.html" name="account.getTheme">Get theme information: account.getTheme</a>
+
+* <a href="channels.getForumTopics.html" name="channels.getForumTopics">Get topics of a forum: channels.getForumTopics</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#gettype-mixed-id-danog-madelineproto-api-peer_type_" name="getType">Get type of peer: getType</a>
 
@@ -752,11 +756,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#qrlogin-danog-madelineproto-tl-types-loginqrcode" name="qrLogin">Initiates QR code login: qrLogin</a>
 
-* <a href="account.installWallPaper.html" name="account.installWallPaper">Install wallpaper: account.installWallPaper</a>
-
 * <a href="messages.installStickerSet.html" name="messages.installStickerSet">Install a stickerset: messages.installStickerSet</a>
 
 * <a href="account.installTheme.html" name="account.installTheme">Install a theme: account.installTheme</a>
+
+* <a href="account.installWallPaper.html" name="account.installWallPaper">Install wallpaper: account.installWallPaper</a>
 
 * <a href="account.saveWallPaper.html" name="account.saveWallPaper">Install/uninstall wallpaper: account.saveWallPaper</a>
 
@@ -828,17 +832,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.markDialogUnread.html" name="messages.markDialogUnread">Manually mark dialog as unread: messages.markDialogUnread</a>
 
+* <a href="channels.viewSponsoredMessage.html" name="channels.viewSponsoredMessage">Mark a specific sponsored message as read: channels.viewSponsoredMessage</a>
+
+* <a href="messages.readDiscussion.html" name="messages.readDiscussion">Mark a thread as read: messages.readDiscussion</a>
+
 * <a href="channels.readHistory.html" name="channels.readHistory">Mark channel/supergroup history as read: channels.readHistory</a>
 
 * <a href="channels.readMessageContents.html" name="channels.readMessageContents">Mark channel/supergroup message contents as read: channels.readMessageContents</a>
 
-* <a href="messages.readReactions.html" name="messages.readReactions">Mark message reactions » as read: messages.readReactions</a>
-
-* <a href="messages.readDiscussion.html" name="messages.readDiscussion">Mark a thread as read: messages.readDiscussion</a>
-
-* <a href="channels.viewSponsoredMessage.html" name="channels.viewSponsoredMessage">Mark a specific sponsored message as read: channels.viewSponsoredMessage</a>
-
 * <a href="messages.readMentions.html" name="messages.readMentions">Mark mentions as read: messages.readMentions</a>
+
+* <a href="messages.readReactions.html" name="messages.readReactions">Mark message reactions » as read: messages.readReactions</a>
 
 * <a href="messages.readFeaturedStickers.html" name="messages.readFeaturedStickers">Mark new featured stickers as read: messages.readFeaturedStickers</a>
 
@@ -890,11 +894,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getupdates-array-offset-int-limit-int-timeout-float-params-list-array-update_id-mixed-update-mixed" name="getUpdates">Only useful when consuming MadelineProto updates through an API in another language (like Javascript), **absolutely not recommended when directly writing MadelineProto bots**: getUpdates</a>
 
-* <a href="messages.requestSimpleWebView.html" name="messages.requestSimpleWebView">Open a bot web app: messages.requestSimpleWebView</a>
-
 * <a href="messages.requestAppWebView.html" name="messages.requestAppWebView">Open a bot web app from a named bot web app deep link, sending over user information after user confirmation: messages.requestAppWebView</a>
 
 * <a href="messages.requestWebView.html" name="messages.requestWebView">Open a bot web app, sending over user information after user confirmation: messages.requestWebView</a>
+
+* <a href="messages.requestSimpleWebView.html" name="messages.requestSimpleWebView">Open a bot web app: messages.requestSimpleWebView</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#openfileappendonly-string-path-amp-file-file" name="openFileAppendOnly">Opens a file in append-only mode: openFileAppendOnly</a>
 
@@ -922,9 +926,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getInlineBotResults.html" name="messages.getInlineBotResults">Query an inline bot: messages.getInlineBotResults</a>
 
-* <a href="messages.rateTranscribedAudio.html" name="messages.rateTranscribedAudio">Rate transcribed voice message: messages.rateTranscribedAudio</a>
-
 * <a href="phone.setCallRating.html" name="phone.setCallRating">Rate a call, returns info about the rating message sent to the official VoIP bot: phone.setCallRating</a>
+
+* <a href="messages.rateTranscribedAudio.html" name="messages.rateTranscribedAudio">Rate transcribed voice message: messages.rateTranscribedAudio</a>
 
 * <a href="messages.sendReaction.html" name="messages.sendReaction">React to message: messages.sendReaction</a>
 
@@ -940,9 +944,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="stickers.renameStickerSet.html" name="stickers.renameStickerSet">Renames a stickerset, bots only: stickers.renameStickerSet</a>
 
-* <a href="messages.updateDialogFiltersOrder.html" name="messages.updateDialogFiltersOrder">Reorder folders: messages.updateDialogFiltersOrder</a>
-
 * <a href="channels.reorderUsernames.html" name="channels.reorderUsernames">Reorder active usernames: channels.reorderUsernames</a>
+
+* <a href="messages.updateDialogFiltersOrder.html" name="messages.updateDialogFiltersOrder">Reorder folders: messages.updateDialogFiltersOrder</a>
 
 * <a href="messages.reorderStickerSets.html" name="messages.reorderStickerSets">Reorder installed stickersets: messages.reorderStickerSets</a>
 
@@ -954,11 +958,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.reorderUsernames.html" name="account.reorderUsernames">Reorder usernames associated with the currently logged-in user: account.reorderUsernames</a>
 
+* <a href="messages.report.html" name="messages.report">Report a message in a chat for violation of telegram's Terms of Service: messages.report</a>
+
 * <a href="messages.reportReaction.html" name="messages.reportReaction">Report a message reaction: messages.reportReaction</a>
 
 * <a href="channels.reportAntiSpamFalsePositive.html" name="channels.reportAntiSpamFalsePositive">Report a native antispam false positive: channels.reportAntiSpamFalsePositive</a>
-
-* <a href="messages.report.html" name="messages.report">Report a message in a chat for violation of telegram's Terms of Service: messages.report</a>
 
 * <a href="messages.reportSpam.html" name="messages.reportSpam">Report a new incoming chat for spam, if the peer settings of the chat allow us to do that: messages.reportSpam</a>
 
@@ -974,11 +978,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels.reportSpam.html" name="channels.reportSpam">Reports some messages from a user in a supergroup as spam; requires administrator rights in the supergroup: channels.reportSpam</a>
 
-* <a href="messages.getEmojiGroups.html" name="messages.getEmojiGroups">Represents a list of emoji categories, to be used when selecting custom emojis: messages.getEmojiGroups</a>
-
 * <a href="messages.getEmojiStatusGroups.html" name="messages.getEmojiStatusGroups">Represents a list of emoji categories, to be used when selecting custom emojis to set as custom emoji status: messages.getEmojiStatusGroups</a>
 
 * <a href="messages.getEmojiProfilePhotoGroups.html" name="messages.getEmojiProfilePhotoGroups">Represents a list of emoji categories, to be used when selecting custom emojis to set as profile picture: messages.getEmojiProfilePhotoGroups</a>
+
+* <a href="messages.getEmojiGroups.html" name="messages.getEmojiGroups">Represents a list of emoji categories, to be used when selecting custom emojis: messages.getEmojiGroups</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#requestcall-mixed-user-mixed" name="requestCall">Request VoIP call: requestCall</a>
 
@@ -992,9 +996,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="auth.resendCode.html" name="auth.resendCode">Resend the login code via another medium, the phone code type is determined by the return value of the previous auth.sendCode/auth.resendCode: see login for more info: auth.resendCode</a>
 
-* <a href="contacts.resetTopPeerRating.html" name="contacts.resetTopPeerRating">Reset rating of top peer: contacts.resetTopPeerRating</a>
-
 * <a href="account.resetWebAuthorizations.html" name="account.resetWebAuthorizations">Reset all active web telegram login sessions: account.resetWebAuthorizations</a>
+
+* <a href="contacts.resetTopPeerRating.html" name="contacts.resetTopPeerRating">Reset rating of top peer: contacts.resetTopPeerRating</a>
 
 * <a href="auth.recoverPassword.html" name="auth.recoverPassword">Reset the 2FA password using the recovery code sent using auth.requestPasswordRecovery: auth.recoverPassword</a>
 
@@ -1062,7 +1066,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="contacts.search.html" name="contacts.search">Returns users found by username substring: contacts.search</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#isbot-bool" name="isBot">Returns whether the current user is a bot: isBot</a>
+
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#ispremium-bool" name="isPremium">Returns whether the current user is a premium user, cached: isPremium</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#isuser-bool" name="isUser">Returns whether the current user is a user: isUser</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadfromtgfile-mixed-media-callable-cb-null-bool-encrypted-false-mixed" name="uploadFromTgfile">Reupload telegram file: uploadFromTgfile</a>
 
@@ -1158,11 +1166,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.setBotCallbackAnswer.html" name="messages.setBotCallbackAnswer">Set the callback answer to a user button press (bots only): messages.setBotCallbackAnswer</a>
 
+* <a href="phone.saveDefaultGroupCallJoinAs.html" name="phone.saveDefaultGroupCallJoinAs">Set the default peer that will be used to join a group call in a specific dialog: phone.saveDefaultGroupCallJoinAs</a>
+
 * <a href="bots.setBotBroadcastDefaultAdminRights.html" name="bots.setBotBroadcastDefaultAdminRights">Set the default suggested admin rights for bots being added as admins to channels, see here for more info on how to handle them »: bots.setBotBroadcastDefaultAdminRights</a>
 
 * <a href="bots.setBotGroupDefaultAdminRights.html" name="bots.setBotGroupDefaultAdminRights">Set the default suggested admin rights for bots being added as admins to groups, see here for more info on how to handle them »: bots.setBotGroupDefaultAdminRights</a>
-
-* <a href="phone.saveDefaultGroupCallJoinAs.html" name="phone.saveDefaultGroupCallJoinAs">Set the default peer that will be used to join a group call in a specific dialog: phone.saveDefaultGroupCallJoinAs</a>
 
 * <a href="account.setAuthorizationTTL.html" name="account.setAuthorizationTTL">Set time-to-live of current session: account.setAuthorizationTTL</a>
 
@@ -1222,6 +1230,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels.toggleSlowMode.html" name="channels.toggleSlowMode">Toggle supergroup slow mode: if enabled, users will only be able to send one message every seconds seconds: channels.toggleSlowMode</a>
 
+* <a href="messages.transcribeAudio.html" name="messages.transcribeAudio">Transcribe voice message: messages.transcribeAudio</a>
+
 * <a href="channels.editCreator.html" name="channels.editCreator">Transfer channel ownership: channels.editCreator</a>
 
 * <a href="messages.translateText.html" name="messages.translateText">Translate a given text: messages.translateText</a>
@@ -1239,6 +1249,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#unpackdouble-string-value-float" name="unpackDouble">Unpack binary double: unpackDouble</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#unpackfileid-string-fileid-array-unpacked-file-id" name="unpackFileId">Unpack bot API file ID: unpackFileId</a>
+
+* <a href="messages.unpinAllMessages.html" name="messages.unpinAllMessages">Unpin all pinned messages: messages.unpinAllMessages</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#unseteventhandler-void" name="unsetEventHandler">Unset event handler: unsetEventHandler</a>
 
@@ -1310,7 +1322,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#isipcworker-bool" name="isIpcWorker">Whether we're an IPC server process (as opposed to an event handler): isIpcWorker</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#wrapmessage-array-message-danog-madelineproto-eventhandler-message" name="wrapMessage">Wrap a Message constructor into an abstract Message object: wrapMessage</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#wrapmessage-array-message-danog-madelineproto-eventhandler-abstractmessage" name="wrapMessage">Wrap a Message constructor into an abstract Message object: wrapMessage</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#wrapmedia-array-media-bool-protected-false-danog-madelineproto-eventhandler-media" name="wrapMedia">Wrap a media constructor into an abstract Media object: wrapMedia</a>
 
@@ -1388,14 +1400,54 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.updatePasswordSettings.html" name="account.updatePasswordSettings">You cannot use this method directly; use $MadelineProto->update2fa($params), instead (see https://docs.madelineproto.xyz for more info): account.updatePasswordSettings</a>
 
-* <a href="messages.transcribeAudio.html" name="messages.transcribeAudio">Transcribe voice message: messages.transcribeAudio</a>
-
-* <a href="messages.unpinAllMessages.html" name="messages.unpinAllMessages">Unpin all pinned messages: messages.unpinAllMessages</a>
+* <a href="account.invalidateSignInCodes.html" name="account.invalidateSignInCodes">account.invalidateSignInCodes</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#base64urldecode-string-data-string" name="base64urlDecode">base64URL decode: base64urlDecode</a>
+
+* <a href="channels.clickSponsoredMessage.html" name="channels.clickSponsoredMessage">channels.clickSponsoredMessage</a>
+
+* <a href="contacts.editCloseFriends.html" name="contacts.editCloseFriends">contacts.editCloseFriends</a>
+
+* <a href="contacts.toggleStoriesHidden.html" name="contacts.toggleStoriesHidden">contacts.toggleStoriesHidden</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rledecode-string-string-string" name="rleDecode">null-byte RLE decode: rleDecode</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleencode-string-string-string" name="rleEncode">null-byte RLE encode: rleEncode</a>
+
+* <a href="stories.deleteStories.html" name="stories.deleteStories">stories.deleteStories</a>
+
+* <a href="stories.editStory.html" name="stories.editStory">stories.editStory</a>
+
+* <a href="stories.exportStoryLink.html" name="stories.exportStoryLink">stories.exportStoryLink</a>
+
+* <a href="stories.getAllReadUserStories.html" name="stories.getAllReadUserStories">stories.getAllReadUserStories</a>
+
+* <a href="stories.getAllStories.html" name="stories.getAllStories">stories.getAllStories</a>
+
+* <a href="stories.getPinnedStories.html" name="stories.getPinnedStories">stories.getPinnedStories</a>
+
+* <a href="stories.getStoriesArchive.html" name="stories.getStoriesArchive">stories.getStoriesArchive</a>
+
+* <a href="stories.getStoriesByID.html" name="stories.getStoriesByID">stories.getStoriesByID</a>
+
+* <a href="stories.getStoriesViews.html" name="stories.getStoriesViews">stories.getStoriesViews</a>
+
+* <a href="stories.getStoryViewsList.html" name="stories.getStoryViewsList">stories.getStoryViewsList</a>
+
+* <a href="stories.getUserStories.html" name="stories.getUserStories">stories.getUserStories</a>
+
+* <a href="stories.incrementStoryViews.html" name="stories.incrementStoryViews">stories.incrementStoryViews</a>
+
+* <a href="stories.readStories.html" name="stories.readStories">stories.readStories</a>
+
+* <a href="stories.report.html" name="stories.report">stories.report</a>
+
+* <a href="stories.sendStory.html" name="stories.sendStory">stories.sendStory</a>
+
+* <a href="stories.toggleAllStoriesHidden.html" name="stories.toggleAllStoriesHidden">stories.toggleAllStoriesHidden</a>
+
+* <a href="stories.togglePinned.html" name="stories.togglePinned">stories.togglePinned</a>
+
+* <a href="users.getStoriesMaxIDs.html" name="users.getStoriesMaxIDs">users.getStoriesMaxIDs</a>
 
 

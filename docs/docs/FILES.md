@@ -26,6 +26,7 @@ Example bot: [`downloadRenameBot.php`](https://github.com/danog/MadelineProto/bl
 * [Uploading files](#uploading-files)
 * [Reusing uploaded files](#reusing-uploaded-files)
 * [Renaming files](#renaming-files)
+* [Forwarding protected content](#forwarding-protected-content)
 * [Downloading files](#downloading-files)
   * [Extracting download info](#extracting-download-info)
   * [Getting a download link](#getting-a-download-link)
@@ -417,6 +418,8 @@ $mimeType = '...';
 $link = $MadelineProto->getDownloadLink($botApiFileId, 'https://yourhost.com/dl.php', size: $fileSize, name: $fileName, mime: $mimeType);
 ```
 
+You can also pass your custom download link in the [Files settings, instead](https://docs.madelineproto.xyz/docs/FILES.html).  
+
 The dl.php script must have the following content:
 
 ```php
@@ -434,7 +437,7 @@ Note that `session.madeline` must be logged into exactly the same user/bot used 
 
 To login the first time, simple open `dl.php?login=1` in your browser: if the session is not logged in, a login prompt will be shown, otherwise the user/bot ID will be displayed.  
 
-The generated download `$link` will point to your own server, and the link will stream files directly to the browser (**no temporary files will be created**, **0** disk space will be used).  
+The link will stream files directly to the browser (**no temporary files will be created**, **0** disk space will be used).  
 
 ### Downloading profile pictures
 ```php

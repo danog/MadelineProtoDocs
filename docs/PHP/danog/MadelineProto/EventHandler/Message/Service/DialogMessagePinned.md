@@ -31,9 +31,9 @@ A message was pinned in a chat.
 
 ## Method list:
 * [`__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info)`](#__construct-danog-madelineproto-mtproto-api-array-rawmessage-array-info)
-* [`getPinnedMessage(): ?self`](#getpinnedmessage-self)
+* [`getPinnedMessage(class-string<\T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?\T`](#getpinnedmessage-class-string-t-class-danog-madelineproto-eventhandler-abstractmessage-t)
 * [`isReply(): bool`](#isreply-bool)
-* [`getReply(): ?self`](#getreply-self)
+* [`getReply(class-string<\T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?\T`](#getreply-class-string-t-class-danog-madelineproto-eventhandler-abstractmessage-t)
 * [`delete(bool $revoke = true): void`](#delete-bool-revoke-true-void)
 * [`reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`](#reply-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-nowebpage-false-bool-updatestickersetsorder-false-danog-madelineproto-eventhandler-message)
 
@@ -56,10 +56,20 @@ Parameters:
 
 
 
-### `getPinnedMessage(): ?self`
+### `getPinnedMessage(class-string<\T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?\T`
 
 Gets the pinned message.
 May return null if the pinned message was deleted.
+
+Parameters:
+
+* `$class`: `class-string<\T>` Only return a reply if it is of the specified type, return null otherwise.  
+
+
+#### See also: 
+* `\T`
+
+
 
 
 ### `isReply(): bool`
@@ -68,10 +78,20 @@ Check if the current message replies to another message.
 
 
 
-### `getReply(): ?self`
+### `getReply(class-string<\T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?\T`
 
 Get replied-to message.
-May return null if the replied-to message was deleted.
+May return null if the replied-to message was deleted or if the message does not reply to any other message.
+
+Parameters:
+
+* `$class`: `class-string<\T>` Only return a reply if it is of the specified type, return null otherwise.  
+
+
+#### See also: 
+* `\T`
+
+
 
 
 ### `delete(bool $revoke = true): void`

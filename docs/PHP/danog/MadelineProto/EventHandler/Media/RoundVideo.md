@@ -16,7 +16,7 @@ Represents a round video.
 
 
 ## Properties
-* `$duration`: `int` Video duration in seconds
+* `$duration`: `float` Video duration in seconds
 * `$supportsStreaming`: `bool` Whether the video supports streaming
 * `$width`: `int` Video width
 * `$height`: `int` Video height
