@@ -141,6 +141,7 @@ PHP implementation of telegram's MTProto protocol.
 * [\danog\MadelineProto\EventHandler\Message\Service\DialogCreated: A chat or channel was created.](/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogCreated.html)
 * [\danog\MadelineProto\EventHandler\Message\Service\DialogMemberLeft: A member left the chat or channel.](/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogMemberLeft.html)
 * [\danog\MadelineProto\EventHandler\Message\Service\DialogMembersJoined: Some members joined the chat or channel.](/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogMembersJoined.html)
+* [\danog\MadelineProto\EventHandler\Message\Service\DialogMessagePinned: A message was pinned in a chat.](/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogMessagePinned.html)
 * [\danog\MadelineProto\EventHandler\Message\Service\DialogPhotoChanged: The photo of the dialog was changed or deleted.](/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogPhotoChanged.html)
 * [\danog\MadelineProto\EventHandler\Message\Service\DialogTitleChanged: The title of a channel or group has changed.](/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogTitleChanged.html)
 * [\danog\MadelineProto\RPCError\FloodWaitError: Represents a FLOOD_WAIT_ RPC error returned by telegram.](/PHP/danog/MadelineProto/RPCError/FloodWaitError.html)
