@@ -9,40 +9,45 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 You can easily click inline buttons using MadelineProto, just access the correct button:
 
 ```php
-class MyEventHandler extends \danog\MadelineProto\EventHandler
+use danog\MadelineProto\SimpleEventHandler;
+use danog\MadelineProto\EventHandler\Attributes\Handler;
+use danog\MadelineProto\EventHandler\Message;
+use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
+
+class MyEventHandler extends SimpleEventHandler
 {
-    public function onUpdateNewChannelMessage($update)
+    #[Handler]
+    public function clickButton(Incoming&Message $message): void
     {
-        $this->onUpdateNewMessage($update);
-    }
-    public function onUpdateNewMessage($update)
-    {
-        if (isset($update['message']['out']) && $update['message']['out']) {
-            return;
+        if ($message->keyboard) {
+            // Press keyboard button by name
+            $result = $message->keyboard->press("Button name", waitForResult: true);
+
+            // Press keyboard button by coordinates
+            $result = $message->keyboard->pressByCoordinates(
+                row: 0,
+                column: 2,
+                waitForResult: true
+            );
+
+            // Or manually load button
+            $button = $message->keyboard->buttons[0][2];
+
+            $label = $button->label;
         }
-        
-        if (isset($update['message']['reply_markup']['rows'])) {
-            foreach ($update['message']['reply_markup']['rows'] as $row) {
-                foreach ($row['buttons'] as $button) {
-                    $button->click();
-                }
-            }
-        }
-        
     }
 }
 
 
-$settings = new \danog\MadelineProto\Settings;
-MyEventHandler::startAndLoop('session.madeline', $settings);
+MyEventHandler::startAndLoop('session.madeline');
 ```
 
-This peice of code will automatically click all buttons in all keyboards sent in any chat.
+This piece of code will automatically click all buttons in all keyboards sent in any chat.
 
-You can then access properties of `$button` (they vary depending on the [type of button](https://docs.madelineproto.xyz/API_docs/types/KeyboardButton.html)):
+You can also access properties of `$button` (they vary depending on the [type of button](https://docs.madelineproto.xyz/API_docs/types/KeyboardButton.html)):
 
 ```php
-$text = $button['text'];
+$label = $button->label;
 ```
 
 And click them:
