@@ -26,7 +26,6 @@ Example bot: [`downloadRenameBot.php`](https://github.com/danog/MadelineProto/bl
 * [Uploading files](#uploading-files)
 * [Reusing uploaded files](#reusing-uploaded-files)
 * [Renaming files](#renaming-files)
-* [Forwarding protected content](#forwarding-protected-content)
 * [Downloading files](#downloading-files)
   * [Extracting download info](#extracting-download-info)
   * [Getting a download link](#getting-a-download-link)
@@ -314,27 +313,6 @@ $sentMessage = $MadelineProto->messages->sendMedia([
     'parse_mode' => 'Markdown'
 ]);
 ```
-
-## Forwarding protected content
-
-Protected content can be forwarded by simply providing the `$Update` with the file to the sendMedia method thusly:  
-
-```php
-$sentMessage = $MadelineProto->messages->sendMedia([
-    'peer' => '@danogentili',
-    'media' => [
-        '_' => 'inputMediaUploadedDocument',
-        'file' => $Update,
-        'attributes' => [
-            ['_' => 'documentAttributeFilename', 'file_name' => $newName]
-        ]
-    ],
-    'message' => '[This is the caption](https://t.me/MadelineProto)',
-    'parse_mode' => 'Markdown'
-]);
-```
-
-You can also download protected content as described [here &raquo;](#downloading-files).  
 
 ## Downloading files
 

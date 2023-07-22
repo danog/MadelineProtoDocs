@@ -148,13 +148,13 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`initSelfRestart(): void`](#initselfrestart-void)
 * [`isAltervista(): bool`](#isaltervista-bool)
 * [`isArrayOrAlike(mixed $var): bool`](#isarrayoralike-mixed-var-bool)
-* [`isSelfBot(): bool`](#isselfbot-bool)
 * [`isForum(mixed $peer): bool`](#isforum-mixed-peer-bool)
 * [`isIpc(): bool`](#isipc-bool)
 * [`isIpcWorker(): bool`](#isipcworker-bool)
 * [`isPremium(): bool`](#ispremium-bool)
-* [`isSupergroup(int $id): bool`](#issupergroup-int-id-bool)
+* [`isSelfBot(): bool`](#isselfbot-bool)
 * [`isSelfUser(): bool`](#isselfuser-bool)
+* [`isSupergroup(int $id): bool`](#issupergroup-int-id-bool)
 * [`logger(mixed $param, int $level = \danog\MadelineProto\Logger::NOTICE, string $file = ''): void`](#logger-mixed-param-int-level-danog-madelineproto-logger-notice-string-file-void)
 * [`markdownEscape(string $what): string`](#markdownescape-string-what-string)
 * [`markdownToMessageEntities(string $markdown): \danog\MadelineProto\TL\Conversion\MarkdownEntities Object containing message and entities`](#markdowntomessageentities-string-markdown-danog-madelineproto-tl-conversion-markdownentities-object-containing-message-and-entities)
@@ -1549,12 +1549,6 @@ Parameters:
 
 
 
-### `isSelfBot(): bool`
-
-Returns whether the current user is a bot.
-
-
-
 ### `isForum(mixed $peer): bool`
 
 Check if the specified peer is a forum.
@@ -1584,6 +1578,18 @@ Returns whether the current user is a premium user, cached.
 
 
 
+### `isSelfBot(): bool`
+
+Returns whether the current user is a bot.
+
+
+
+### `isSelfUser(): bool`
+
+Returns whether the current user is a user.
+
+
+
 ### `isSupergroup(int $id): bool`
 
 Check whether provided bot API ID is a channel or supergroup.
@@ -1592,12 +1598,6 @@ Check whether provided bot API ID is a channel or supergroup.
 Parameters:
 
 * `$id`: `int` Bot API ID  
-
-
-
-### `isSelfUser(): bool`
-
-Returns whether the current user is a user.
 
 
 
