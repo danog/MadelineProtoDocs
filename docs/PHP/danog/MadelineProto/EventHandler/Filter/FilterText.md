@@ -17,13 +17,13 @@ Allow only messages with a specific content.
 
 
 ## Method list:
-* [`__construct(string $content)`](#__construct-string-content)
+* [`__construct(string $content, bool $caseInsensitive = false)`](#__construct-string-content-bool-caseinsensitive-false)
 * [`apply(\danog\MadelineProto\EventHandler\Update $update): bool`](#apply-danog-madelineproto-eventhandler-update-update-bool)
 * [`initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`](#initialize-danog-madelineproto-eventhandler-api-danog-madelineproto-eventhandler-filter-filter)
 * [`fromReflectionType(\ReflectionType $type): \danog\MadelineProto\EventHandler\Filter\Filter`](#fromreflectiontype-reflectiontype-type-danog-madelineproto-eventhandler-filter-filter)
 
 ## Methods:
-### `__construct(string $content)`
+### `__construct(string $content, bool $caseInsensitive = false)`
 
 
 
@@ -31,6 +31,7 @@ Allow only messages with a specific content.
 Parameters:
 
 * `$content`: `string`   
+* `$caseInsensitive`: `bool`   
 
 
 

@@ -270,11 +270,14 @@ class MyEventHandler extends SimpleEventHandler
         $message->reply("Did you mean to write MadelineProto instead of ".$message->matches[1].'?');
     }
 
-    /**
-     * Incoming&Outgoing&Message is the same thing as just Message.
-     */
-    #[FilterText('hi')]
-    public function pingCommand(Incoming&Outgoing&Message $message): void
+    #[FilterText('test')]
+    public function pingCommand(Message $message): void
+    {
+        $message->reply('test reply');
+    }
+
+    #[FilterText('hi', caseInsensitive: true)]
+    public function pingCommandCaseInsensitive(Message $message): void
     {
         $message->reply('hello');
     }
