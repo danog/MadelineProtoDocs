@@ -1,17 +1,17 @@
 ---
-title: "danog\\MadelineProto\\EventHandler\\Filter\\FilterText: Allow only messages with a specific content."
+title: "danog\\MadelineProto\\EventHandler\\Filter\\FilterTextCaseInsensitive: Allow only messages with a specific case-insensitive content."
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
 ---
-# `danog\MadelineProto\EventHandler\Filter\FilterText`
+# `danog\MadelineProto\EventHandler\Filter\FilterTextCaseInsensitive`
 [Back to index](../../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Allow only messages with a specific content.  
+Allow only messages with a specific case-insensitive content.  
 
 
 

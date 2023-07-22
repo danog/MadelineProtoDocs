@@ -109,6 +109,7 @@ PHP implementation of telegram's MTProto protocol.
 * [\danog\MadelineProto\EventHandler\Filter\FilterSender: Allow incoming or outgoing group messages made by a certain sender.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterSender.html)
 * [\danog\MadelineProto\EventHandler\Filter\FilterService: Allow only service messages of any type.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterService.html)
 * [\danog\MadelineProto\EventHandler\Filter\FilterText: Allow only messages with a specific content.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterText.html)
+* [\danog\MadelineProto\EventHandler\Filter\FilterTextCaseInsensitive: Allow only messages with a specific case-insensitive content.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterTextCaseInsensitive.html)
 * [\danog\MadelineProto\EventHandler\Filter\Combinator\FilterNot: NOTs a filter.](/PHP/danog/MadelineProto/EventHandler/Filter/Combinator/FilterNot.html)
 * [\danog\MadelineProto\EventHandler\Filter\Combinator\FiltersAnd: ANDs multiple filters.](/PHP/danog/MadelineProto/EventHandler/Filter/Combinator/FiltersAnd.html)
 * [\danog\MadelineProto\EventHandler\Filter\Combinator\FiltersOr: ORs multiple filters.](/PHP/danog/MadelineProto/EventHandler/Filter/Combinator/FiltersOr.html)
