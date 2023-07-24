@@ -137,6 +137,7 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`getType(mixed $id): \danog\MadelineProto\API::PEER_TYPE_*`](#gettype-mixed-id-danog-madelineproto-api-peer_type_)
 * [`getUpdates(array{offset?: int, limit?: int, timeout?: float} $params = []): list<array{update_id: mixed, update: mixed}>`](#getupdates-array-offset-int-limit-int-timeout-float-params-list-array-update_id-mixed-update-mixed)
 * [`getWebMessage(string $message): string`](#getwebmessage-string-message-string)
+* [`getWebWarnings(): string`](#getwebwarnings-string)
 * [`hasAdmins(): bool`](#hasadmins-bool)
 * [`hasEventHandler(): bool`](#haseventhandler-bool)
 * [`hasPlugin(class-string<\danog\MadelineProto\EventHandler> $class): bool`](#hasplugin-class-string-danog-madelineproto-eventhandler-class-bool)
@@ -1435,6 +1436,12 @@ Get a message to show to the user when starting the bot.
 Parameters:
 
 * `$message`: `string`   
+
+
+
+### `getWebWarnings(): string`
+
+Get various warnings to show to the user in the web UI.
 
 
 

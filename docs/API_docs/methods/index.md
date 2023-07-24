@@ -700,6 +700,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getUnreadReactions.html" name="messages.getUnreadReactions">Get unread reactions to messages you sent: messages.getUnreadReactions</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getwebwarnings-string" name="getWebWarnings">Get various warnings to show to the user in the web UI: getWebWarnings</a>
+
 * <a href="account.getWebAuthorizations.html" name="account.getWebAuthorizations">Get web login widget authorizations: account.getWebAuthorizations</a>
 
 * <a href="messages.getMessageReadParticipants.html" name="messages.getMessageReadParticipants">Get which users read a specific message: only available for groups and supergroups with less than chatreadmarksizethreshold members, read receipts will be stored for chatreadmarkexpireperiod seconds after the message was sent, see client configuration for more info »: messages.getMessageReadParticipants</a>
