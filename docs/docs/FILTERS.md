@@ -408,7 +408,7 @@ final class FilterNot extends Filter
 
     public function apply(Update $update): bool
     {
-        return !$this->apply($update);
+        return !$this->filter->apply($update);
     }
 }
 
