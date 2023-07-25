@@ -1,17 +1,17 @@
 ---
-title: "danog\\MadelineProto\\EventHandler\\Media\\Sticker: Represents a sticker."
+title: "danog\\MadelineProto\\EventHandler\\Media\\StaticSticker: Represents a static sticker."
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
 ---
-# `danog\MadelineProto\EventHandler\Media\Sticker`
+# `danog\MadelineProto\EventHandler\Media\StaticSticker`
 [Back to index](../../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Represents a sticker.  
+Represents a static sticker.  
 
 
 

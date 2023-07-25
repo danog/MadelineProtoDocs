@@ -1,21 +1,22 @@
 ---
-title: "danog\\MadelineProto\\EventHandler\\Media\\Sticker: Represents a sticker."
+title: "danog\\MadelineProto\\EventHandler\\Media\\VideoSticker: Represents a video sticker."
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
 ---
-# `danog\MadelineProto\EventHandler\Media\Sticker`
+# `danog\MadelineProto\EventHandler\Media\VideoSticker`
 [Back to index](../../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Represents a sticker.  
+Represents a video sticker.  
 
 
 
 ## Properties
+* `$duration`: `float` 
 * `$premiumSticker`: `bool` Whether this is a premium sticker and a premium sticker animation must be played.
 * `$emoji`: `string` Emoji representation of sticker
 * `$stickerset`: `array` Associated stickerset
