@@ -231,6 +231,7 @@ Here's the full list of filter attributes (see the [MTProto filters &raquo;](#mt
 * [danog\MadelineProto\EventHandler\Filter\FilterCommand(string $command, list<\CommandType> $types = [  0 =>   \danog\MadelineProto\EventHandler\CommandType::BANG,  1 =>   \danog\MadelineProto\EventHandler\CommandType::DOT,  2 =>   \danog\MadelineProto\EventHandler\CommandType::SLASH,]) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterCommand.html) - Allow only messages containing the specified command.
 * [danog\MadelineProto\EventHandler\Filter\FilterForwarded &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterForwarded.html) - Allow only forwarded messages.
 * [danog\MadelineProto\EventHandler\Filter\FilterFromAdmin &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterFromAdmin.html) - Allow only messages coming from the admin (defined as the first peer returned by getReportPeers).
+* [danog\MadelineProto\EventHandler\Filter\FilterFromSender(string|int $peer) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterFromSender.html) - Allow incoming or outgoing group messages made by a certain sender.
 * [danog\MadelineProto\EventHandler\Filter\FilterFromSenders(string|int ...$idOrUsername) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterFromSenders.html) - Allow incoming or outgoing group messages made by a certain list of senders.
 * [danog\MadelineProto\EventHandler\Filter\FilterGroup &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterGroup.html) - Allow only updates coming from groups.
 * [danog\MadelineProto\EventHandler\Filter\FilterIncoming &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterIncoming.html) - Allow only incoming messages.
@@ -313,7 +314,7 @@ final class FilterFromSenders extends Filter
 {
     /** @var array<string|int> */
     private readonly array $peers;
-    /** @var list<string|int> */
+    /** @var list<int> */
     private readonly array $peersResolved;
     public function __construct(string|int ...$idOrUsername)
     {
@@ -321,6 +322,9 @@ final class FilterFromSenders extends Filter
     }
     public function initialize(EventHandler $API): Filter
     {
+        if (\count($this->peers) === 1) {
+            return (new FilterFromSender(\array_values($this->peers)[0]))->initialize($API);
+        }
         $res = [];
         foreach ($this->peers as $peer) {
             $res []= $API->getId($peer);

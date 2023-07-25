@@ -95,6 +95,7 @@ PHP implementation of telegram's MTProto protocol.
 * [\danog\MadelineProto\EventHandler\Filter\FilterCommand: Allow only messages containing the specified command.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterCommand.html)
 * [\danog\MadelineProto\EventHandler\Filter\FilterForwarded: Allow only forwarded messages.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterForwarded.html)
 * [\danog\MadelineProto\EventHandler\Filter\FilterFromAdmin: Allow only messages coming from the admin (defined as the first peer returned by getReportPeers).](/PHP/danog/MadelineProto/EventHandler/Filter/FilterFromAdmin.html)
+* [\danog\MadelineProto\EventHandler\Filter\FilterFromSender: Allow incoming or outgoing group messages made by a certain sender.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterFromSender.html)
 * [\danog\MadelineProto\EventHandler\Filter\FilterFromSenders: Allow incoming or outgoing group messages made by a certain list of senders.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterFromSenders.html)
 * [\danog\MadelineProto\EventHandler\Filter\FilterGroup: Allow only updates coming from groups.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterGroup.html)
 * [\danog\MadelineProto\EventHandler\Filter\FilterIncoming: Allow only incoming messages.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterIncoming.html)
