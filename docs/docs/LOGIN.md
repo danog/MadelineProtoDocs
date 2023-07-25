@@ -126,7 +126,7 @@ function login(\danog\MadelineProto\API $MadelineProto): void {
         $cancel = new CompositeCancellation($expire, $login);
 
         try {
-            $result = Tools::readLine("Enter your phone number, or scan the above QR code to login", $cancel);
+            $result = Tools::readLine("Enter your phone number, or scan the above QR code to login: ", $cancel);
             break;
         } catch (CancelledException) {
             if ($login->isRequested()) {
