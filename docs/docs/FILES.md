@@ -361,6 +361,34 @@ $mimeType = '...';
 $link = $MadelineProto->getDownloadLink($botApiFileId, size: $fileSize, name: $fileName, mime: $mimeType);
 ```
 
+Event handler example with [bound methods](https://docs.madelineproto.xyz/docs/UPDATES.html#bound-methods):
+
+```php
+use danog\MadelineProto\SimpleEventHandler;
+use danog\MadelineProto\EventHandler\Filter\FilterCommand;
+use danog\MadelineProto\EventHandler\Message;
+use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
+
+class MyEventHandler extends SimpleEventHandler
+{
+    /**
+     * Gets a download link for any file up to 4GB!
+     */
+    #[FilterCommand('dl')]
+    public function downloadLink(Incoming&Message $message): void
+    {
+        $reply = $message->getReply(Message::class);
+        if (!$reply?->media) {
+            $message->reply("This command must reply to a media message!");
+            return;
+        }
+        $reply->reply("Download link: ".$reply->media->getDownloadLink());
+    }
+}
+
+MyEventHandler::startAndLoop('bot.madeline')
+```
+
 `$botApiFileId` can be a [MessageMedia](https://docs.madelineproto.xyz/API_docs/types/MessageMedia.html) object or a **bot API file ID** (files up to 4GB are supported!).
 
 This method will work automatically only when running via web (apache/php-fpm).  
@@ -394,6 +422,34 @@ $mimeType = '...';
 
 
 $link = $MadelineProto->getDownloadLink($botApiFileId, 'https://yourhost.com/dl.php', size: $fileSize, name: $fileName, mime: $mimeType);
+```
+
+Event handler example with [bound methods](https://docs.madelineproto.xyz/docs/UPDATES.html#bound-methods):
+
+```php
+use danog\MadelineProto\SimpleEventHandler;
+use danog\MadelineProto\EventHandler\Filter\FilterCommand;
+use danog\MadelineProto\EventHandler\Message;
+use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
+
+class MyEventHandler extends SimpleEventHandler
+{
+    /**
+     * Gets a download link for any file up to 4GB!
+     */
+    #[FilterCommand('dl')]
+    public function downloadLink(Incoming&Message $message): void
+    {
+        $reply = $message->getReply(Message::class);
+        if (!$reply?->media) {
+            $message->reply("This command must reply to a media message!");
+            return;
+        }
+        $reply->reply("Download link: ".$reply->media->getDownloadLink('https://yourhost.com/dl.php'));
+    }
+}
+
+MyEventHandler::startAndLoop('bot.madeline')
 ```
 
 You can also pass your custom download link in the [Files settings, instead](https://docs.madelineproto.xyz/docs/FILES.html).  
