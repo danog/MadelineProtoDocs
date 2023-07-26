@@ -45,6 +45,11 @@ Represents an incoming or outgoing message.
 * `$ttlPeriod`: `?int` Time-to-live of the message
 
 ## Method list:
+* [`pin(bool $pmOneside = false, bool $silent = false): ?\danog\MadelineProto\EventHandler\AbstractMessage`](#pin-bool-pmoneside-false-bool-silent-false-danog-madelineproto-eventhandler-abstractmessage)
+* [`unpin(bool $pmOneside = false, bool $silent = false): ?\danog\MadelineProto\EventHandler\Update`](#unpin-bool-pmoneside-false-bool-silent-false-danog-madelineproto-eventhandler-update)
+* [`getOurReactions(): list<string|int>`](#getourreactions-list-string-int)
+* [`addReaction(string|int $reaction, bool $big = false, bool $addToRecent = true): list<string|int>`](#addreaction-string-int-reaction-bool-big-false-bool-addtorecent-true-list-string-int)
+* [`delReaction(string|int $reaction): list<string|int>`](#delreaction-string-int-reaction-list-string-int)
 * [`getHTML(bool $allowTelegramTags = false): string`](#gethtml-bool-allowtelegramtags-false-string)
 * [`isReply(): bool`](#isreply-bool)
 * [`getReply(class-string<\T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?\T`](#getreply-class-string-t-class-danog-madelineproto-eventhandler-abstractmessage-t)
@@ -52,6 +57,70 @@ Represents an incoming or outgoing message.
 * [`reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`](#reply-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-nowebpage-false-bool-updatestickersetsorder-false-danog-madelineproto-eventhandler-message)
 
 ## Methods:
+### `pin(bool $pmOneside = false, bool $silent = false): ?\danog\MadelineProto\EventHandler\AbstractMessage`
+
+Pin a message.
+
+
+Parameters:
+
+* `$pmOneside`: `bool` Whether the message should only be pinned on the local side of a one-to-one chat  
+* `$silent`: `bool` Pin the message silently, without triggering a notification  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\AbstractMessage`: Represents an incoming or outgoing message.](../../../danog/MadelineProto/EventHandler/AbstractMessage.html)
+
+
+
+
+### `unpin(bool $pmOneside = false, bool $silent = false): ?\danog\MadelineProto\EventHandler\Update`
+
+Unpin a message.
+
+
+Parameters:
+
+* `$pmOneside`: `bool` Whether the message should only be pinned on the local side of a one-to-one chat  
+* `$silent`: `bool` Pin the message silently, without triggering a notification  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Update`: Represents a generic update.](../../../danog/MadelineProto/EventHandler/Update.html)
+
+
+
+
+### `getOurReactions(): list<string|int>`
+
+Get our reactions on the message.
+
+
+
+### `addReaction(string|int $reaction, bool $big = false, bool $addToRecent = true): list<string|int>`
+
+Add reaction to message.
+
+
+Parameters:
+
+* `$reaction`: `string|int` reaction  
+* `$big`: `bool` Whether a bigger and longer reaction should be shown  
+* `$addToRecent`: `bool` Add this reaction to the recent reactions list.  
+
+
+
+### `delReaction(string|int $reaction): list<string|int>`
+
+Delete reaction from message.
+
+
+Parameters:
+
+* `$reaction`: `string|int` string or int Reaction  
+
+
+
 ### `getHTML(bool $allowTelegramTags = false): string`
 
 Get an HTML version of the message.
