@@ -277,13 +277,11 @@ class MyEventHandler extends SimpleEventHandler
         $message->reply('test reply');
     }
 
-
     #[FilterCommand('react')]
     public function reactCommand(Message&IsReply $message): void
     {
         $message->getReply(Message::class)->addReaction('👌');
     }
-
 
     #[FilterCommand('unreact')]
     public function unreactCommand(Message&IsReply $message): void

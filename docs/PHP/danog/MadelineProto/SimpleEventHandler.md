@@ -157,6 +157,7 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`isSelfUser(): bool`](#isselfuser-bool)
 * [`isSupergroup(int $id): bool`](#issupergroup-int-id-bool)
 * [`logger(mixed $param, int $level = \danog\MadelineProto\Logger::NOTICE, string $file = ''): void`](#logger-mixed-param-int-level-danog-madelineproto-logger-notice-string-file-void)
+* [`markdownCodeblockEscape(string $what): string`](#markdowncodeblockescape-string-what-string)
 * [`markdownEscape(string $what): string`](#markdownescape-string-what-string)
 * [`markdownToMessageEntities(string $markdown): \danog\MadelineProto\TL\Conversion\MarkdownEntities Object containing message and entities`](#markdowntomessageentities-string-markdown-danog-madelineproto-tl-conversion-markdownentities-object-containing-message-and-entities)
 * [`mbStrSplit(string $text, int $length): string[]`](#mbstrsplit-string-text-int-length-string)
@@ -1618,6 +1619,17 @@ Parameters:
 * `$param`: `mixed` Parameter  
 * `$level`: `int` Logging level  
 * `$file`: `string` File where the message originated  
+
+
+
+### `markdownCodeblockEscape(string $what): string`
+
+Escape string for markdown codeblock.
+
+
+Parameters:
+
+* `$what`: `string` String to escape  
 
 
 

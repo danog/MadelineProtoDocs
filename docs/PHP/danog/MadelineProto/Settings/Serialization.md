@@ -46,7 +46,7 @@ Set serialization interval, in seconds.
 
 Parameters:
 
-* `$interval`: `int` Serialization interval, in seconds.  
+* `$interval`: `int` Serialization interval, in seconds (minimum 10 seconds).  
 
 
 

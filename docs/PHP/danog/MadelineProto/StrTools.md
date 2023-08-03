@@ -30,6 +30,8 @@ Some tools.
 * [`toCamelCase(string $input): string`](#tocamelcase-string-input-string)
 * [`toSnakeCase(string $input): string`](#tosnakecase-string-input-string)
 * [`markdownEscape(string $what): string`](#markdownescape-string-what-string)
+* [`markdownCodeblockEscape(string $what): string`](#markdowncodeblockescape-string-what-string)
+* [`markdownUrlEscape(string $what): string`](#markdownurlescape-string-what-string)
 * [`getMimeFromExtension(string $extension, string $default): string`](#getmimefromextension-string-extension-string-default-string)
 * [`getExtensionFromMime(string $mime): string`](#getextensionfrommime-string-mime-string)
 * [`getExtensionFromLocation(mixed $location, string $default): string`](#getextensionfromlocation-mixed-location-string-default-string)
@@ -151,6 +153,28 @@ Parameters:
 ### `markdownEscape(string $what): string`
 
 Escape string for markdown.
+
+
+Parameters:
+
+* `$what`: `string` String to escape  
+
+
+
+### `markdownCodeblockEscape(string $what): string`
+
+Escape string for markdown codeblock.
+
+
+Parameters:
+
+* `$what`: `string` String to escape  
+
+
+
+### `markdownUrlEscape(string $what): string`
+
+Escape string for URL.
 
 
 Parameters:

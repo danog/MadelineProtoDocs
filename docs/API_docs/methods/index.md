@@ -354,6 +354,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="contacts.toggleTopPeers.html" name="contacts.toggleTopPeers">Enable/disable top peers: contacts.toggleTopPeers</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#markdowncodeblockescape-string-what-string" name="markdownCodeblockEscape">Escape string for markdown codeblock: markdownCodeblockEscape</a>
+
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#markdownescape-string-what-string" name="markdownEscape">Escape string for markdown: markdownEscape</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#broadcastcustom-action-action-danog-madelineproto-broadcast-filter-filter-null-int" name="broadcastCustom">Executes a custom broadcast action with all peers (users, chats, channels) of the bot: broadcastCustom</a>
