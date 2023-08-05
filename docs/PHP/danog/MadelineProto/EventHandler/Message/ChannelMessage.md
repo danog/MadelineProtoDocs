@@ -52,6 +52,8 @@ Represents an incoming or outgoing channel message.
 * [`getOurReactions(): list<string|int>`](#getourreactions-list-string-int)
 * [`addReaction(string|int $reaction, bool $big = false, bool $addToRecent = true): list<string|int>`](#addreaction-string-int-reaction-bool-big-false-bool-addtorecent-true-list-string-int)
 * [`delReaction(string|int $reaction): list<string|int>`](#delreaction-string-int-reaction-list-string-int)
+* [`translate(string $toLang): string`](#translate-string-tolang-string)
+* [`editText(string $message, array|null $replyMarkup = NULL, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, int|null $scheduleDate = NULL, bool $noWebpage = false): \danog\MadelineProto\EventHandler\Message`](#edittext-string-message-array-null-replymarkup-null-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-int-null-scheduledate-null-bool-nowebpage-false-danog-madelineproto-eventhandler-message)
 * [`getHTML(bool $allowTelegramTags = false): string`](#gethtml-bool-allowtelegramtags-false-string)
 * [`isReply(): bool`](#isreply-bool)
 * [`getReply(class-string<\T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?\T`](#getreply-class-string-t-class-danog-madelineproto-eventhandler-abstractmessage-t)
@@ -120,6 +122,37 @@ Delete reaction from message.
 Parameters:
 
 * `$reaction`: `string|int` string or int Reaction  
+
+
+
+### `translate(string $toLang): string`
+
+Translate text message(for media translate it caption).
+
+
+Parameters:
+
+* `$toLang`: `string` Two-letter ISO 639-1 language code of the language to which the message is translated  
+
+
+
+### `editText(string $message, array|null $replyMarkup = NULL, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, int|null $scheduleDate = NULL, bool $noWebpage = false): \danog\MadelineProto\EventHandler\Message`
+
+Edit message text.
+
+
+Parameters:
+
+* `$message`: `string` New message  
+* `$replyMarkup`: `array|null` Reply markup for inline keyboards  
+* `$parseMode`: `\danog\MadelineProto\ParseMode` Whether to parse HTML or Markdown markup in the message  
+* `$scheduleDate`: `int|null` Scheduled message date for scheduled messages  
+* `$noWebpage`: `bool` Disable webpage preview  
+
+
+#### See also: 
+* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../danog/MadelineProto/ParseMode.html)
+
 
 
 

@@ -1,36 +1,36 @@
 ---
-title: "danog\\MadelineProto\\EventHandler\\Filter\\FilterRegex: Allow only messages or button queries matching the specified regex."
+title: "danog\\MadelineProto\\EventHandler\\Filter\\FilterButtonQueryData: Filters based on the content of a button query."
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
 ---
-# `danog\MadelineProto\EventHandler\Filter\FilterRegex`
+# `danog\MadelineProto\EventHandler\Filter\FilterButtonQueryData`
 [Back to index](../../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Allow only messages or button queries matching the specified regex.  
+Filters based on the content of a button query.  
 
 
 
 
 ## Method list:
-* [`__construct(string $regex)`](#__construct-string-regex)
+* [`__construct(string $content)`](#__construct-string-content)
 * [`apply(\danog\MadelineProto\EventHandler\Update $update): bool`](#apply-danog-madelineproto-eventhandler-update-update-bool)
 * [`initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`](#initialize-danog-madelineproto-eventhandler-api-danog-madelineproto-eventhandler-filter-filter)
 * [`fromReflectionType(\ReflectionType $type): \danog\MadelineProto\EventHandler\Filter\Filter`](#fromreflectiontype-reflectiontype-type-danog-madelineproto-eventhandler-filter-filter)
 
 ## Methods:
-### `__construct(string $regex)`
+### `__construct(string $content)`
 
 
 
 
 Parameters:
 
-* `$regex`: `string`   
+* `$content`: `string`   
 
 
 

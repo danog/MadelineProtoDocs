@@ -138,6 +138,7 @@ Here's the full list of simple filter interfaces (see [attribute filters](#attri
 <!-- cut_here simplefilters -->
 
 * [danog\MadelineProto\EventHandler\SimpleFilter\FromAdmin &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/FromAdmin.html) - Allows messages from the bot admin
+* [danog\MadelineProto\EventHandler\SimpleFilter\FromAdminOrOutgoing &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/FromAdminOrOutgoing.html) - Allows messages from the bot admin or outgoing messages
 * [danog\MadelineProto\EventHandler\SimpleFilter\HasAudio &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasAudio.html) - Allows only audio messages
 * [danog\MadelineProto\EventHandler\SimpleFilter\HasDocument &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasDocument.html) - Allows only documents
 * [danog\MadelineProto\EventHandler\SimpleFilter\HasDocumentPhoto &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasDocumentPhoto.html) - Allows only document photos
@@ -227,6 +228,7 @@ Here's the full list of filter attributes (see the [MTProto filters &raquo;](#mt
 <!-- cut_here attributefilters -->
 
 * [danog\MadelineProto\EventHandler\Filter\FilterAllowAll &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterAllowAll.html) - Allow all updates.
+* [danog\MadelineProto\EventHandler\Filter\FilterButtonQueryData(string $content) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterButtonQueryData.html) - Filters based on the content of a button query.
 * [danog\MadelineProto\EventHandler\Filter\FilterChannel &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterChannel.html) - Allow only updates coming from channels.
 * [danog\MadelineProto\EventHandler\Filter\FilterCommand(string $command, list<\CommandType> $types = [  0 =>   \danog\MadelineProto\EventHandler\CommandType::BANG,  1 =>   \danog\MadelineProto\EventHandler\CommandType::DOT,  2 =>   \danog\MadelineProto\EventHandler\CommandType::SLASH,]) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterCommand.html) - Allow only messages containing the specified command.
 * [danog\MadelineProto\EventHandler\Filter\FilterForwarded &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterForwarded.html) - Allow only forwarded messages.
@@ -241,7 +243,7 @@ Here's the full list of filter attributes (see the [MTProto filters &raquo;](#mt
 * [danog\MadelineProto\EventHandler\Filter\FilterOutgoing &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterOutgoing.html) - Allow only outgoing messages.
 * [danog\MadelineProto\EventHandler\Filter\FilterPeer(string|int $peer) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterPeer.html) - Allow messages coming from or sent to a certain peer.
 * [danog\MadelineProto\EventHandler\Filter\FilterPrivate &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterPrivate.html) - Allow only updates coming from private chats.
-* [danog\MadelineProto\EventHandler\Filter\FilterRegex(string $regex) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterRegex.html) - Allow only messages matching the specified regex.
+* [danog\MadelineProto\EventHandler\Filter\FilterRegex(string $regex) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterRegex.html) - Allow only messages or button queries matching the specified regex.
 * [danog\MadelineProto\EventHandler\Filter\FilterReply &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterReply.html) - Allow messages that reply to other messages.
 * [danog\MadelineProto\EventHandler\Filter\FilterReplyToSelf &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterReplyToSelf.html) - Allow messages that reply to one of our messages.
 * [danog\MadelineProto\EventHandler\Filter\FilterSender(string|int $peer) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterSender.html) - Allow incoming or outgoing group messages made by a certain sender.

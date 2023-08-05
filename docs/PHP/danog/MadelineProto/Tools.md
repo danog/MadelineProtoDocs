@@ -25,7 +25,7 @@ Some tools.
 * [`getMaps(): ?int`](#getmaps-int)
 * [`getMaxMaps(): ?int`](#getmaxmaps-int)
 * [`stringToStream(string $str): \Amp\ByteStream\ReadableBuffer`](#stringtostream-string-str-amp-bytestream-readablebuffer)
-* [`genVectorHash(array $ints): string`](#genvectorhash-array-ints-string)
+* [`genVectorHash(array $longs): string`](#genvectorhash-array-longs-string)
 * [`randomInt(int $modulus = 0): int`](#randomint-int-modulus-0-int)
 * [`random(int $length): string`](#random-int-length-string)
 * [`posmod(int $a, int $b): int`](#posmod-int-a-int-b-int)
@@ -112,14 +112,14 @@ Parameters:
 
 
 
-### `genVectorHash(array $ints): string`
+### `genVectorHash(array $longs): string`
 
 Generate MTProto vector hash.
 Returns a vector hash.
 
 Parameters:
 
-* `$ints`: `array` IDs  
+* `$longs`: `array` IDs  
 
 
 
