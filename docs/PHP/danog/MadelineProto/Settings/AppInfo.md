@@ -36,7 +36,7 @@ App information.
 * [`getLangPack(): string`](#getlangpack-string)
 * [`setLangPack(string $langPack): self`](#setlangpack-string-langpack-self)
 * [`getShowPrompt(): bool`](#getshowprompt-bool)
-* [`setShowPrompt(bool $showPrompt): self`](#setshowprompt-bool-showprompt-self)
+* [`setShowPrompt(bool $showPrompt): static`](#setshowprompt-bool-showprompt-static)
 
 ## Methods:
 ### `__construct()`
@@ -193,7 +193,7 @@ Get whether to show a prompt, asking to enter an API ID/API hash if none is prov
 
 
 
-### `setShowPrompt(bool $showPrompt): self`
+### `setShowPrompt(bool $showPrompt): static`
 
 Set whether to show a prompt, asking to enter an API ID/API hash if none is provided.
 

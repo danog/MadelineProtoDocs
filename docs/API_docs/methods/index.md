@@ -196,7 +196,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#tdtomtproto-array-params-array" name="tdToMTProto">Convert TD to MTProto parameters: tdToMTProto</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#entitiestohtml-string-message-array-entities-bool-allowtelegramtags-false-string" name="entitiesToHtml">Convert a message and a set of entities to HTML: entitiesToHtml</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#entitiestohtml-string-message-list-array-_-string-offset-int-length-int-entities-bool-allowtelegramtags-false-string" name="entitiesToHtml">Convert a message and a set of entities to HTML: entitiesToHtml</a>
 
 * <a href="channels.convertToGigagroup.html" name="channels.convertToGigagroup">Convert a supergroup to a gigagroup, when requested by channel suggestions: channels.convertToGigagroup</a>
 
