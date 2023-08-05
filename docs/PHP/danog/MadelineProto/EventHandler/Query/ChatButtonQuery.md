@@ -26,7 +26,7 @@ Represents a query sent by the user by clicking on a button in a chat.
 
 ## Method list:
 * [`answer(string $message, bool $alert = false, string|null $url = NULL, int $cacheTime = 300): bool`](#answer-string-message-bool-alert-false-string-null-url-null-int-cachetime-300-bool)
-* [`editText(string $message, array|null $replyMarkup = NULL, \ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, int|null $scheduleDate = NULL, bool $noWebpage = false): \danog\MadelineProto\EventHandler\Message`](#edittext-string-message-array-null-replymarkup-null-parsemode-parsemode-danog-madelineproto-parsemode-text-int-null-scheduledate-null-bool-nowebpage-false-danog-madelineproto-eventhandler-message)
+* [`editText(string $message, array|null $replyMarkup = NULL, \ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, bool $noWebpage = false, int|null $scheduleDate = NULL): \danog\MadelineProto\EventHandler\Message`](#edittext-string-message-array-null-replymarkup-null-parsemode-parsemode-danog-madelineproto-parsemode-text-bool-nowebpage-false-int-null-scheduledate-null-danog-madelineproto-eventhandler-message)
 
 ## Methods:
 ### `answer(string $message, bool $alert = false, string|null $url = NULL, int $cacheTime = 300): bool`
@@ -43,7 +43,7 @@ Parameters:
 
 
 
-### `editText(string $message, array|null $replyMarkup = NULL, \ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, int|null $scheduleDate = NULL, bool $noWebpage = false): \danog\MadelineProto\EventHandler\Message`
+### `editText(string $message, array|null $replyMarkup = NULL, \ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, bool $noWebpage = false, int|null $scheduleDate = NULL): \danog\MadelineProto\EventHandler\Message`
 
 Edit message text.
 
@@ -53,8 +53,8 @@ Parameters:
 * `$message`: `string` New message  
 * `$replyMarkup`: `array|null` Reply markup for inline keyboards  
 * `$parseMode`: `\ParseMode` Whether to parse HTML or Markdown markup in the message  
-* `$scheduleDate`: `int|null` Scheduled message date for scheduled messages  
 * `$noWebpage`: `bool` Disable webpage preview  
+* `$scheduleDate`: `int|null` Scheduled message date for scheduled messages  
 
 
 #### See also: 
