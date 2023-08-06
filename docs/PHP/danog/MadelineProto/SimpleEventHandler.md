@@ -93,7 +93,7 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`genVectorHash(array $longs): string`](#genvectorhash-array-longs-string)
 * [`getAdminIds(): array`](#getadminids-array)
 * [`getAllMethods(): array`](#getallmethods-array)
-* [`getAuthorization(): \danog\MadelineProto\API::NOT_LOGGED_IN|\danog\MadelineProto\API::WAITING_CODE|\danog\MadelineProto\API::WAITING_SIGNUP|\danog\MadelineProto\API::WAITING_PASSWORD|\danog\MadelineProto\API::LOGGED_IN`](#getauthorization-danog-madelineproto-api-not_logged_in-danog-madelineproto-api-waiting_code-danog-madelineproto-api-waiting_signup-danog-madelineproto-api-waiting_password-danog-madelineproto-api-logged_in)
+* [`getAuthorization(): \danog\MadelineProto\API::NOT_LOGGED_IN|\danog\MadelineProto\API::WAITING_CODE|\danog\MadelineProto\API::WAITING_SIGNUP|\danog\MadelineProto\API::WAITING_PASSWORD|\danog\MadelineProto\API::LOGGED_IN|\API::LOGGED_OUT`](#getauthorization-danog-madelineproto-api-not_logged_in-danog-madelineproto-api-waiting_code-danog-madelineproto-api-waiting_signup-danog-madelineproto-api-waiting_password-danog-madelineproto-api-logged_in-api-logged_out)
 * [`getBroadcastProgress(int $id): ?\danog\MadelineProto\Broadcast\Progress`](#getbroadcastprogress-int-id-danog-madelineproto-broadcast-progress)
 * [`getCachedConfig(): array`](#getcachedconfig-array)
 * [`getCall(int $call): array`](#getcall-int-call-array)
@@ -156,7 +156,9 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`isSelfBot(): bool`](#isselfbot-bool)
 * [`isSelfUser(): bool`](#isselfuser-bool)
 * [`isSupergroup(int $id): bool`](#issupergroup-int-id-bool)
+* [`isTestMode(): bool`](#istestmode-bool)
 * [`logger(mixed $param, int $level = \danog\MadelineProto\Logger::NOTICE, string $file = ''): void`](#logger-mixed-param-int-level-danog-madelineproto-logger-notice-string-file-void)
+* [`logout(): void`](#logout-void)
 * [`markdownCodeblockEscape(string $what): string`](#markdowncodeblockescape-string-what-string)
 * [`markdownEscape(string $what): string`](#markdownescape-string-what-string)
 * [`markdownToMessageEntities(string $markdown): \danog\MadelineProto\TL\Conversion\MarkdownEntities Object containing message and entities`](#markdowntomessageentities-string-markdown-danog-madelineproto-tl-conversion-markdownentities-object-containing-message-and-entities)
@@ -956,7 +958,7 @@ Get full list of MTProto and API methods.
 
 
 
-### `getAuthorization(): \danog\MadelineProto\API::NOT_LOGGED_IN|\danog\MadelineProto\API::WAITING_CODE|\danog\MadelineProto\API::WAITING_SIGNUP|\danog\MadelineProto\API::WAITING_PASSWORD|\danog\MadelineProto\API::LOGGED_IN`
+### `getAuthorization(): \danog\MadelineProto\API::NOT_LOGGED_IN|\danog\MadelineProto\API::WAITING_CODE|\danog\MadelineProto\API::WAITING_SIGNUP|\danog\MadelineProto\API::WAITING_PASSWORD|\danog\MadelineProto\API::LOGGED_IN|\API::LOGGED_OUT`
 
 Get authorization info.
 
@@ -967,6 +969,7 @@ Get authorization info.
 * `\danog\MadelineProto\API::WAITING_SIGNUP`
 * `\danog\MadelineProto\API::WAITING_PASSWORD`
 * `\danog\MadelineProto\API::LOGGED_IN`
+* `\API::LOGGED_OUT`
 
 
 
@@ -1610,6 +1613,12 @@ Parameters:
 
 
 
+### `isTestMode(): bool`
+
+Whether we're currently connected to the test DCs.
+
+
+
 ### `logger(mixed $param, int $level = \danog\MadelineProto\Logger::NOTICE, string $file = ''): void`
 
 Logger.
@@ -1620,6 +1629,12 @@ Parameters:
 * `$param`: `mixed` Parameter  
 * `$level`: `int` Logging level  
 * `$file`: `string` File where the message originated  
+
+
+
+### `logout(): void`
+
+Logout the session.
 
 
 

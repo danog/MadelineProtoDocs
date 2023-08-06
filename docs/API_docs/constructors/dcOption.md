@@ -24,7 +24,7 @@ Data center
 |id|[int](/API_docs/types/int.html) | Yes|DC ID|
 |ip\_address|[string](/API_docs/types/string.html) | Yes|IP address of DC|
 |port|[int](/API_docs/types/int.html) | Yes|Port|
-|secret|[bytes](/API_docs/types/bytes.html) | Optional|If the `tcpo_only` flag is set, specifies the secret to use when connecting using [transport obfuscation](https://core.telegram.org/mtproto/mtproto-transports#transport-obfuscation)|
+|secret|[string](/API_docs/types/string.html) | Optional|
 
 
 
@@ -34,5 +34,5 @@ Data center
 ### Example:
 
 ```
-$dcOption = ['_' => 'dcOption', 'ipv6' => Bool, 'media_only' => Bool, 'tcpo_only' => Bool, 'cdn' => Bool, 'static' => Bool, 'this_port_only' => Bool, 'id' => int, 'ip_address' => 'string', 'port' => int, 'secret' => 'bytes'];
+$dcOption = ['_' => 'dcOption', 'ipv6' => Bool, 'media_only' => Bool, 'tcpo_only' => Bool, 'cdn' => Bool, 'static' => Bool, 'this_port_only' => Bool, 'id' => int, 'ip_address' => 'string', 'port' => int, 'secret' => 'string'];
 ```  

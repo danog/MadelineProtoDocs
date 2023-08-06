@@ -662,7 +662,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$dataJSON](/API_docs/constructors/dataJSON.html) = \['data' => [string](/API_docs/types/string.html), \];<a name="dataJSON"></a>  
 
 ***
-<br><br>[$dcOption](/API_docs/constructors/dcOption.html) = \['ipv6' => [Bool](/API_docs/types/Bool.html), 'media_only' => [Bool](/API_docs/types/Bool.html), 'tcpo_only' => [Bool](/API_docs/types/Bool.html), 'cdn' => [Bool](/API_docs/types/Bool.html), 'static' => [Bool](/API_docs/types/Bool.html), 'this_port_only' => [Bool](/API_docs/types/Bool.html), 'id' => [int](/API_docs/types/int.html), 'ip_address' => [string](/API_docs/types/string.html), 'port' => [int](/API_docs/types/int.html), 'secret' => [bytes](/API_docs/types/bytes.html), \];<a name="dcOption"></a>  
+<br><br>[$dcOption](/API_docs/constructors/dcOption.html) = \['ipv6' => [Bool](/API_docs/types/Bool.html), 'media_only' => [Bool](/API_docs/types/Bool.html), 'tcpo_only' => [Bool](/API_docs/types/Bool.html), 'cdn' => [Bool](/API_docs/types/Bool.html), 'static' => [Bool](/API_docs/types/Bool.html), 'this_port_only' => [Bool](/API_docs/types/Bool.html), 'id' => [int](/API_docs/types/int.html), 'ip_address' => [string](/API_docs/types/string.html), 'port' => [int](/API_docs/types/int.html), 'secret' => [string](/API_docs/types/string.html), \];<a name="dcOption"></a>  
 
 ***
 <br><br>[$decryptedMessage\_73](/API_docs/constructors/decryptedMessage_73.html) = \['no_webpage' => [Bool](/API_docs/types/Bool.html), 'silent' => [Bool](/API_docs/types/Bool.html), 'ttl' => [int](/API_docs/types/int.html), 'message' => [string](/API_docs/types/string.html), 'media' => [DecryptedMessageMedia](/API_docs/types/DecryptedMessageMedia.html), 'entities' => \[[MessageEntity](/API_docs/types/MessageEntity.html)\], 'via_bot_name' => [string](/API_docs/types/string.html), 'reply_to_random_id' => [long](/API_docs/types/long.html), 'grouped_id' => [long](/API_docs/types/long.html), \];<a name="decryptedMessage_73"></a>  
@@ -3404,7 +3404,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$upload.file](/API_docs/constructors/upload.file.html) = \['type' => [storage.FileType](/API_docs/types/storage.FileType.html), 'mtime' => [int](/API_docs/types/int.html), 'bytes' => [bytes](/API_docs/types/bytes.html), \];<a name="upload.file"></a>  
 
 ***
-<br><br>[$upload.fileCdnRedirect](/API_docs/constructors/upload.fileCdnRedirect.html) = \['dc_id' => [int](/API_docs/types/int.html), 'file_token' => [string](/API_docs/types/string.html), 'encryption_key' => [bytes](/API_docs/types/bytes.html), 'encryption_iv' => [bytes](/API_docs/types/bytes.html), 'file_hashes' => \[[FileHash](/API_docs/types/FileHash.html)\], \];<a name="upload.fileCdnRedirect"></a>  
+<br><br>[$upload.fileCdnRedirect](/API_docs/constructors/upload.fileCdnRedirect.html) = \['dc_id' => [int](/API_docs/types/int.html), 'file_token' => [string](/API_docs/types/string.html), 'encryption_key' => [string](/API_docs/types/string.html), 'encryption_iv' => [string](/API_docs/types/string.html), 'file_hashes' => \[[FileHash](/API_docs/types/FileHash.html)\], \];<a name="upload.fileCdnRedirect"></a>  
 
 ***
 <br><br>[$upload.webFile](/API_docs/constructors/upload.webFile.html) = \['size' => [int](/API_docs/types/int.html), 'mime_type' => [string](/API_docs/types/string.html), 'file_type' => [storage.FileType](/API_docs/types/storage.FileType.html), 'mtime' => [int](/API_docs/types/int.html), 'bytes' => [bytes](/API_docs/types/bytes.html), \];<a name="upload.webFile"></a>  
