@@ -173,7 +173,7 @@ parent: "MadelineProto API"
 * `$tdesktop_key`: `mixed` 
 
 ## Method list:
-* [`importAuthorization(array<int, string> $authorization, int $main_dc_id, string $session, \danog\MadelineProto\SettingsAbstract|array $settings): \danog\MadelineProto\API`](#importauthorization-array-int-string-authorization-int-main_dc_id-string-session-danog-madelineproto-settingsabstract-array-settings-danog-madelineproto-api)
+* [`importAuthorization(array<int, string> $authorization, int $main_dc_id, string $session, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): \danog\MadelineProto\API`](#importauthorization-array-int-string-authorization-int-main_dc_id-string-session-danog-madelineproto-settingsabstract-settings-null-danog-madelineproto-api)
 * [`telethon(string $session, string $new_session, mixed $settings = []): mixed`](#telethon-string-session-string-new_session-mixed-settings-mixed)
 * [`pyrogram(string $session, string $new_session, mixed $settings = []): mixed`](#pyrogram-string-session-string-new_session-mixed-settings-mixed)
 * [`zerobias(mixed $session, mixed $new_session, mixed $settings = []): mixed`](#zerobias-mixed-session-mixed-new_session-mixed-settings-mixed)
@@ -185,7 +185,7 @@ parent: "MadelineProto API"
 * [`tdesktop(string $session, string $new_session, mixed $settings = []): mixed`](#tdesktop-string-session-string-new_session-mixed-settings-mixed)
 
 ## Methods:
-### `importAuthorization(array<int, string> $authorization, int $main_dc_id, string $session, \danog\MadelineProto\SettingsAbstract|array $settings): \danog\MadelineProto\API`
+### `importAuthorization(array<int, string> $authorization, int $main_dc_id, string $session, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): \danog\MadelineProto\API`
 
 Prepare API instance.
 
@@ -195,7 +195,7 @@ Parameters:
 * `$authorization`: `array<int, string>` Authorization info  
 * `$main_dc_id`: `int`   
 * `$session`: `string`   
-* `$settings`: `\danog\MadelineProto\SettingsAbstract|array`   
+* `$settings`: `?\danog\MadelineProto\SettingsAbstract`   
 
 
 #### See also: 

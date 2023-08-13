@@ -17,15 +17,15 @@ parent: "MadelineProto API"
 
 
 ## Method list:
-* [`__construct(string $ip, int $port, string $peerTag, bool $reflector, \danog\MadelineProto\VoIP $instance)`](#__construct-string-ip-int-port-string-peertag-bool-reflector-danog-madelineproto-voip-instance)
-* [`connect(): void`](#connect-void)
+* [`__construct(string $ip, int $port, string $peerTag, bool $reflector, bool $creator, string $authKey, \danog\MadelineProto\VoIP\MessageHandler $handler)`](#__construct-string-ip-int-port-string-peertag-bool-reflector-bool-creator-string-authkey-danog-madelineproto-voip-messagehandler-handler)
 * [`disconnect(): void`](#disconnect-void)
-* [`read(): mixed`](#read-mixed)
-* [`write(string $payload): void`](#write-string-payload-void)
-* [`getPeerTag(): string`](#getpeertag-string)
+* [`read(): ?array`](#read-array)
+* [`writeReliably(array $data): bool`](#writereliably-array-data-bool)
+* [`write(string $payload): bool`](#write-string-payload-bool)
+* [`udpPing(): bool`](#udpping-bool)
 
 ## Methods:
-### `__construct(string $ip, int $port, string $peerTag, bool $reflector, \danog\MadelineProto\VoIP $instance)`
+### `__construct(string $ip, int $port, string $peerTag, bool $reflector, bool $creator, string $authKey, \danog\MadelineProto\VoIP\MessageHandler $handler)`
 
 Create endpoint.
 
@@ -36,18 +36,14 @@ Parameters:
 * `$port`: `int`   
 * `$peerTag`: `string`   
 * `$reflector`: `bool`   
-* `$instance`: `\danog\MadelineProto\VoIP`   
+* `$creator`: `bool`   
+* `$authKey`: `string`   
+* `$handler`: `\danog\MadelineProto\VoIP\MessageHandler`   
 
 
 #### See also: 
-* `\danog\MadelineProto\VoIP`
+* `\danog\MadelineProto\VoIP\MessageHandler`
 
-
-
-
-### `connect(): void`
-
-Connect to endpoint.
 
 
 
@@ -57,13 +53,24 @@ Disconnect from endpoint.
 
 
 
-### `read(): mixed`
+### `read(): ?array`
 
 Read packet.
 
 
 
-### `write(string $payload): void`
+### `writeReliably(array $data): bool`
+
+
+
+
+Parameters:
+
+* `$data`: `array`   
+
+
+
+### `write(string $payload): bool`
 
 Write data.
 
@@ -74,9 +81,9 @@ Parameters:
 
 
 
-### `getPeerTag(): string`
+### `udpPing(): bool`
 
-Get peer tag.
+
 
 
 

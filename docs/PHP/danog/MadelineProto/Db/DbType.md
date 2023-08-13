@@ -1,5 +1,5 @@
 ---
-title: "danog\\MadelineProto\\Db\\DbType: "
+title: "danog\\MadelineProto\\Db\\DbType: DB type interface."
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
@@ -11,29 +11,127 @@ parent: "MadelineProto API"
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-  
+DB type interface.  
 
 
 
 
 ## Method list:
-* [`getInstance(string $table, \danog\MadelineProto\Db\DbType|array|null $previous, \danog\MadelineProto\Settings\DatabaseAbstract $settings): static`](#getinstance-string-table-danog-madelineproto-db-dbtype-array-null-previous-danog-madelineproto-settings-databaseabstract-settings-static)
+* [`isset(\TKey $key): bool`](#isset-tkey-key-bool)
+* [`unset(\TKey $key): void`](#unset-tkey-key-void)
+* [`set(\TKey $key, \TValue $value): void`](#set-tkey-key-tvalue-value-void)
+* [`offsetGet(\TKey $index): mixed`](#offsetget-tkey-index-mixed)
+* [`clear(): void`](#clear-void)
+* [`getIterator(): \Traversable<\TKey, \TValue>`](#getiterator-traversable-tkey-tvalue)
+* [`getInstance(string $table, ?\danog\MadelineProto\Db\DbType $previous, \danog\MadelineProto\Settings\DatabaseAbstract $settings): self`](#getinstance-string-table-danog-madelineproto-db-dbtype-previous-danog-madelineproto-settings-databaseabstract-settings-self)
+* [`count(): mixed`](#count-mixed)
 
 ## Methods:
-### `getInstance(string $table, \danog\MadelineProto\Db\DbType|array|null $previous, \danog\MadelineProto\Settings\DatabaseAbstract $settings): static`
+### `isset(\TKey $key): bool`
+
+Check if element is set.
 
 
+Parameters:
+
+* `$key`: `\TKey`   
+
+
+#### See also: 
+* `\TKey`
+
+
+
+
+### `unset(\TKey $key): void`
+
+Unset element.
+
+
+Parameters:
+
+* `$key`: `\TKey`   
+
+
+#### See also: 
+* `\TKey`
+
+
+
+
+### `set(\TKey $key, \TValue $value): void`
+
+Set element.
+
+
+Parameters:
+
+* `$key`: `\TKey`   
+* `$value`: `\TValue`   
+
+
+#### See also: 
+* `\TKey`
+* `\TValue`
+
+
+
+
+### `offsetGet(\TKey $index): mixed`
+
+Get element.
+
+
+Parameters:
+
+* `$index`: `\TKey`   
+
+
+#### See also: 
+* `\TKey`
+
+
+
+
+### `clear(): void`
+
+Clear all elements.
+
+
+
+### `getIterator(): \Traversable<\TKey, \TValue>`
+
+Get iterator.
+
+
+#### See also: 
+* `\TKey`
+* `\TValue`
+* `\Traversable`
+
+
+
+
+### `getInstance(string $table, ?\danog\MadelineProto\Db\DbType $previous, \danog\MadelineProto\Settings\DatabaseAbstract $settings): self`
+
+Get instance.
 
 
 Parameters:
 
 * `$table`: `string`   
-* `$previous`: `\danog\MadelineProto\Db\DbType|array|null`   
+* `$previous`: `?\danog\MadelineProto\Db\DbType`   
 * `$settings`: `\danog\MadelineProto\Settings\DatabaseAbstract`   
 
 
 #### See also: 
 * [`\danog\MadelineProto\Settings\DatabaseAbstract`: Base class for storage backends.](../../../danog/MadelineProto/Settings/DatabaseAbstract.html)
+
+
+
+
+### `count(): mixed`
+
 
 
 

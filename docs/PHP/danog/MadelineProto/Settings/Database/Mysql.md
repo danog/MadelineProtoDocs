@@ -17,7 +17,7 @@ MariaDb 10.2+ or Mysql 5.6+ required.
 
 
 ## Method list:
-* [`mergeArray(array $settings): void`](#mergearray-array-settings-void)
+* [`getDriverClass(): string`](#getdriverclass-string)
 * [`getMaxConnections(): int`](#getmaxconnections-int)
 * [`setMaxConnections(int $maxConnections): static`](#setmaxconnections-int-maxconnections-static)
 * [`getIdleTimeout(): int`](#getidletimeout-int)
@@ -47,14 +47,9 @@ MariaDb 10.2+ or Mysql 5.6+ required.
 * [`setEnablePeerInfoDb(bool $enablePeerInfoDb): self`](#setenablepeerinfodb-bool-enablepeerinfodb-self)
 
 ## Methods:
-### `mergeArray(array $settings): void`
+### `getDriverClass(): string`
 
 
-
-
-Parameters:
-
-* `$settings`: `array`   
 
 
 

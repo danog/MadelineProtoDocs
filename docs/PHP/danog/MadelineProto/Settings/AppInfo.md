@@ -19,7 +19,6 @@ App information.
 ## Method list:
 * [`__construct()`](#__construct)
 * [`init(): void`](#init-void)
-* [`mergeArray(array $settings): void`](#mergearray-array-settings-void)
 * [`hasApiInfo(): bool`](#hasapiinfo-bool)
 * [`getApiId(): int`](#getapiid-int)
 * [`setApiId(int $apiId): self`](#setapiid-int-apiid-self)
@@ -48,17 +47,6 @@ App information.
 ### `init(): void`
 
 
-
-
-
-### `mergeArray(array $settings): void`
-
-
-
-
-Parameters:
-
-* `$settings`: `array`   
 
 
 

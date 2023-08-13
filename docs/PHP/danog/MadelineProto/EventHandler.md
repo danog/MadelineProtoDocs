@@ -48,7 +48,7 @@ Event handler.
 * [`MTProtoToBotAPI(array $data): array`](#mtprototobotapi-array-data-array)
 * [`MTProtoToTd(mixed $params): mixed`](#mtprotototd-mixed-params-mixed)
 * [`MTProtoToTdcli(mixed $params): mixed`](#mtprotototdcli-mixed-params-mixed)
-* [`acceptCall(array $call): bool`](#acceptcall-array-call-bool)
+* [`acceptCall(int $id): void`](#acceptcall-int-id-void)
 * [`acceptSecretChat(array $params): void`](#acceptsecretchat-array-params-void)
 * [`arr(mixed ...$params): array`](#arr-mixed-params-array)
 * [`base64urlDecode(string $data): string`](#base64urldecode-string-data-string)
@@ -59,15 +59,15 @@ Event handler.
 * [`broadcastForwardMessages(mixed $from_peer, list<int> $message_ids, bool $drop_author = false, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, bool $pin = false): int`](#broadcastforwardmessages-mixed-from_peer-list-int-message_ids-bool-drop_author-false-danog-madelineproto-broadcast-filter-filter-null-bool-pin-false-int)
 * [`broadcastMessages(array $messages, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, bool $pin = false): int`](#broadcastmessages-array-messages-danog-madelineproto-broadcast-filter-filter-null-bool-pin-false-int)
 * [`callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<\T>`](#callfork-generator-amp-future-callable-callable-mixed-args-amp-future-t)
-* [`callStatus(int $id): int`](#callstatus-int-id-int)
+* [`callPlay(int $id, string $file): void`](#callplay-int-id-string-file-void)
+* [`callPlayOnHold(int $id, string[] $files): void`](#callplayonhold-int-id-string-files-void)
+* [`callStatus(int $id): ?\danog\MadelineProto\VoIP\CallState`](#callstatus-int-id-danog-madelineproto-voip-callstate)
 * [`cancelBroadcast(int $id): void`](#cancelbroadcast-int-id-void)
 * [`closeConnection(string $message): void`](#closeconnection-string-message-void)
 * [`complete2faLogin(string $password): array`](#complete2falogin-string-password-array)
-* [`completeCall(array $params): mixed`](#completecall-array-params-mixed)
 * [`completePhoneLogin(string $code): mixed`](#completephonelogin-string-code-mixed)
 * [`completeSignup(string $first_name, string $last_name = ''): array`](#completesignup-string-first_name-string-last_name-array)
-* [`confirmCall(array $params): mixed`](#confirmcall-array-params-mixed)
-* [`discardCall(array $call, array $reason, array $rating = [], bool $need_debug = true): ?\danog\MadelineProto\VoIP`](#discardcall-array-call-array-reason-array-rating-bool-need_debug-true-danog-madelineproto-voip)
+* [`discardCall(int $id, \danog\MadelineProto\VoIP\DiscardReason $reason = \danog\MadelineProto\VoIP\DiscardReason::HANGUP, int<\1, \5> $rating = NULL, string $comment = NULL): void`](#discardcall-int-id-danog-madelineproto-voip-discardreason-reason-danog-madelineproto-voip-discardreason-hangup-int-1-5-rating-null-string-comment-null-void)
 * [`discardSecretChat(int $chat): void`](#discardsecretchat-int-chat-void)
 * [`downloadServer(string $session): void`](#downloadserver-string-session-void)
 * [`downloadToBrowser(array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message $messageMedia, null|callable $cb = NULL, null|int $size = NULL, null|string $name = NULL, null|string $mime = NULL): void`](#downloadtobrowser-array-string-danog-madelineproto-filecallbackinterface-danog-madelineproto-eventhandler-message-messagemedia-null-callable-cb-null-null-int-size-null-null-string-name-null-null-string-mime-null-void)
@@ -96,7 +96,8 @@ Event handler.
 * [`getAuthorization(): \danog\MadelineProto\API::NOT_LOGGED_IN|\danog\MadelineProto\API::WAITING_CODE|\danog\MadelineProto\API::WAITING_SIGNUP|\danog\MadelineProto\API::WAITING_PASSWORD|\danog\MadelineProto\API::LOGGED_IN|\API::LOGGED_OUT`](#getauthorization-danog-madelineproto-api-not_logged_in-danog-madelineproto-api-waiting_code-danog-madelineproto-api-waiting_signup-danog-madelineproto-api-waiting_password-danog-madelineproto-api-logged_in-api-logged_out)
 * [`getBroadcastProgress(int $id): ?\danog\MadelineProto\Broadcast\Progress`](#getbroadcastprogress-int-id-danog-madelineproto-broadcast-progress)
 * [`getCachedConfig(): array`](#getcachedconfig-array)
-* [`getCall(int $call): array`](#getcall-int-call-array)
+* [`getCallByPeer(int $userId): ?\danog\MadelineProto\VoIP`](#getcallbypeer-int-userid-danog-madelineproto-voip)
+* [`getCallState(int $id): ?\danog\MadelineProto\VoIP\CallState`](#getcallstate-int-id-danog-madelineproto-voip-callstate)
 * [`getCdnConfig(): void`](#getcdnconfig-void)
 * [`getConfig(array $config = []): array`](#getconfig-array-config-array)
 * [`getDNSClient(): \Amp\Dns\DnsResolver`](#getdnsclient-amp-dns-dnsresolver)
@@ -347,14 +348,14 @@ Parameters:
 
 
 
-### `acceptCall(array $call): bool`
+### `acceptCall(int $id): void`
 
 Accept call.
 
 
 Parameters:
 
-* `$call`: `array` Call  
+* `$id`: `int`   
 
 
 
@@ -522,7 +523,31 @@ Parameters:
 
 
 
-### `callStatus(int $id): int`
+### `callPlay(int $id, string $file): void`
+
+Play file in call.
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$file`: `string`   
+
+
+
+### `callPlayOnHold(int $id, string[] $files): void`
+
+Play files on hold in call.
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$files`: `string[]`   
+
+
+
+### `callStatus(int $id): ?\danog\MadelineProto\VoIP\CallState`
 
 Get call status.
 
@@ -530,6 +555,11 @@ Get call status.
 Parameters:
 
 * `$id`: `int` Call ID  
+
+
+#### See also: 
+* [\danog\MadelineProto\VoIP\CallState](../../danog/MadelineProto/VoIP/CallState.html)
+
 
 
 
@@ -566,17 +596,6 @@ Parameters:
 
 
 
-### `completeCall(array $params): mixed`
-
-Complete call handshake.
-
-
-Parameters:
-
-* `$params`: `array` Params  
-
-
-
 ### `completePhoneLogin(string $code): mixed`
 
 Complet user login using login code.
@@ -600,32 +619,21 @@ Parameters:
 
 
 
-### `confirmCall(array $params): mixed`
-
-Confirm call.
-
-
-Parameters:
-
-* `$params`: `array` Params  
-
-
-
-### `discardCall(array $call, array $reason, array $rating = [], bool $need_debug = true): ?\danog\MadelineProto\VoIP`
+### `discardCall(int $id, \danog\MadelineProto\VoIP\DiscardReason $reason = \danog\MadelineProto\VoIP\DiscardReason::HANGUP, int<\1, \5> $rating = NULL, string $comment = NULL): void`
 
 Discard call.
 
 
 Parameters:
 
-* `$call`: `array` Call  
-* `$reason`: `array`   
-* `$rating`: `array` Rating  
-* `$need_debug`: `bool` Need debug?  
+* `$id`: `int`   
+* `$reason`: `\danog\MadelineProto\VoIP\DiscardReason`   
+* `$rating`: `int<\1, \5>` Call rating in stars  
+* `$comment`: `string` Additional comment on call quality.  
 
 
 #### See also: 
-* `\danog\MadelineProto\VoIP`
+* [`\danog\MadelineProto\VoIP\DiscardReason`: Why was the call discareded?](../../danog/MadelineProto/VoIP/DiscardReason.html)
 
 
 
@@ -765,7 +773,7 @@ Parameters:
 
 * `$messageMedia`: `mixed` File to download  
 * `$stream`: `mixed|\danog\MadelineProto\FileCallbackInterface|\resource|\Amp\ByteStream\WritableStream` Stream where to download file  
-* `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
+* `$cb`: `callable` Callback  
 * `$offset`: `int` Offset where to start downloading  
 * `$end`: `int` Offset where to end download  
 
@@ -998,14 +1006,35 @@ Get cached server-side config.
 
 
 
-### `getCall(int $call): array`
+### `getCallByPeer(int $userId): ?\danog\MadelineProto\VoIP`
 
-Get call info.
+Get the call with the specified user ID.
 
 
 Parameters:
 
-* `$call`: `int` Call ID  
+* `$userId`: `int`   
+
+
+#### See also: 
+* `\danog\MadelineProto\VoIP`
+
+
+
+
+### `getCallState(int $id): ?\danog\MadelineProto\VoIP\CallState`
+
+Get call state.
+
+
+Parameters:
+
+* `$id`: `int`   
+
+
+#### See also: 
+* [\danog\MadelineProto\VoIP\CallState](../../danog/MadelineProto/VoIP/CallState.html)
+
 
 
 
@@ -2432,7 +2461,7 @@ Parameters:
 
 * `$file`: `\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|\resource` File, URL or Telegram file to upload  
 * `$fileName`: `string` File name  
-* `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
+* `$cb`: `callable` Callback  
 * `$encrypted`: `bool` Whether to encrypt file for secret chats  
 
 
@@ -2455,7 +2484,7 @@ Parameters:
 
 * `$file`: `\danog\MadelineProto\FileCallbackInterface|string|array` File, URL or Telegram file to upload  
 * `$fileName`: `string` File name  
-* `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
+* `$cb`: `callable` Callback  
 
 
 #### See also: 
@@ -2493,7 +2522,7 @@ Parameters:
 * `$size`: `int` File size  
 * `$mime`: `string` Mime type  
 * `$fileName`: `string` File name  
-* `$cb`: `callable` Callback (DEPRECATED, use FileCallbackInterface)  
+* `$cb`: `callable` Callback  
 * `$encrypted`: `bool` Whether to encrypt file for secret chats  
 
 

@@ -38,7 +38,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="auth.acceptLoginToken.html" name="auth.acceptLoginToken">Accept QR code login token, logging in the app that generated it: auth.acceptLoginToken</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#acceptcall-array-call-bool" name="acceptCall">Accept call: acceptCall</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#acceptcall-int-id-void" name="acceptCall">Accept call: acceptCall</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#acceptsecretchat-array-params-void" name="acceptSecretChat">Accept secret chat: acceptSecretChat</a>
 
@@ -176,15 +176,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#complete2falogin-string-password-array" name="complete2faLogin">Complete 2FA login: complete2faLogin</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#completecall-array-params-mixed" name="completeCall">Complete call handshake: completeCall</a>
-
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#completesignup-string-first_name-string-last_name-array" name="completeSignup">Complete signup to Telegram: completeSignup</a>
 
 * <a href="messages.startHistoryImport.html" name="messages.startHistoryImport">Complete the history import process, importing all messages into the chat.  : messages.startHistoryImport</a>
 
 * <a href="account.confirmPhone.html" name="account.confirmPhone">Confirm a phone number to cancel account deletion, for more info click here »: account.confirmPhone</a>
-
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#confirmcall-array-params-mixed" name="confirmCall">Confirm call: confirmCall</a>
 
 * <a href="messages.receivedMessages.html" name="messages.receivedMessages">Confirms receipt of messages by a client, cancels PUSH-notification sending: messages.receivedMessages</a>
 
@@ -290,7 +286,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels.deactivateAllUsernames.html" name="channels.deactivateAllUsernames">Disable all purchased usernames of a supergroup or channel: channels.deactivateAllUsernames</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#discardcall-array-call-array-reason-array-rating-bool-need_debug-true-danog-madelineproto-voip" name="discardCall">Discard call: discardCall</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#discardcall-int-id-danog-madelineproto-voip-discardreason-reason-danog-madelineproto-voip-discardreason-hangup-int-1-5-rating-null-string-comment-null-void" name="discardCall">Discard call: discardCall</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#discardsecretchat-int-chat-void" name="discardSecretChat">Discard secret chat: discardSecretChat</a>
 
@@ -466,9 +462,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getcachedconfig-array" name="getCachedConfig">Get cached server-side config: getCachedConfig</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getcall-int-call-array" name="getCall">Get call info: getCall</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getcallstate-int-id-danog-madelineproto-voip-callstate" name="getCallState">Get call state: getCallState</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#callstatus-int-id-int" name="callStatus">Get call status: callStatus</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#callstatus-int-id-danog-madelineproto-voip-callstate" name="callStatus">Get call status: callStatus</a>
 
 * <a href="messages.getEmojiKeywordsDifference.html" name="messages.getEmojiKeywordsDifference">Get changed emoji keywords »: messages.getEmojiKeywordsDifference</a>
 
@@ -687,6 +683,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="account.getTmpPassword.html" name="account.getTmpPassword">Get temporary payment password: account.getTmpPassword</a>
 
 * <a href="channels.getAdminLog.html" name="channels.getAdminLog">Get the admin log of a channel/supergroup: channels.getAdminLog</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getcallbypeer-int-userid-danog-madelineproto-voip" name="getCallByPeer">Get the call with the specified user ID: getCallByPeer</a>
 
 * <a href="messages.getSearchCounters.html" name="messages.getSearchCounters">Get the number of results that would be found by a messages.search call with the same parameters: messages.getSearchCounters</a>
 
@@ -921,6 +919,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="channels.updatePinnedForumTopic.html" name="channels.updatePinnedForumTopic">Pin or unpin forum topics: channels.updatePinnedForumTopic</a>
 
 * <a href="messages.toggleDialogPin.html" name="messages.toggleDialogPin">Pin/unpin a dialog: messages.toggleDialogPin</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#callplay-int-id-string-file-void" name="callPlay">Play file in call: callPlay</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#callplayonhold-int-id-string-files-void" name="callPlayOnHold">Play files on hold in call: callPlayOnHold</a>
 
 * <a href="channels.getMessages.html" name="channels.getMessages">Please use the event handler: channels.getMessages</a>
 

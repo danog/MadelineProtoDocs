@@ -17,22 +17,10 @@ Secret chat settings.
 
 
 ## Method list:
-* [`mergeArray(array $settings): void`](#mergearray-array-settings-void)
 * [`getAccept(): bool|int[]`](#getaccept-bool-int)
 * [`setAccept(bool|int[] $accept): self`](#setaccept-bool-int-accept-self)
 
 ## Methods:
-### `mergeArray(array $settings): void`
-
-
-
-
-Parameters:
-
-* `$settings`: `array`   
-
-
-
 ### `getAccept(): bool|int[]`
 
 Get boolean or array of IDs.

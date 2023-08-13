@@ -17,7 +17,7 @@ Redis backend settings.
 
 
 ## Method list:
-* [`mergeArray(array $settings): void`](#mergearray-array-settings-void)
+* [`getDriverClass(): string`](#getdriverclass-string)
 * [`getDatabase(): int`](#getdatabase-int)
 * [`setDatabase(int $database): self`](#setdatabase-int-database-self)
 * [`getUri(): string`](#geturi-string)
@@ -41,14 +41,9 @@ Redis backend settings.
 * [`setEnablePeerInfoDb(bool $enablePeerInfoDb): self`](#setenablepeerinfodb-bool-enablepeerinfodb-self)
 
 ## Methods:
-### `mergeArray(array $settings): void`
+### `getDriverClass(): string`
 
 
-
-
-Parameters:
-
-* `$settings`: `array`   
 
 
 

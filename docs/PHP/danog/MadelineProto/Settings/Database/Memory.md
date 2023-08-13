@@ -17,6 +17,7 @@ Memory backend settings.
 
 
 ## Method list:
+* [`getDriverClass(): string`](#getdriverclass-string)
 * [`getEnableFileReferenceDb(): bool`](#getenablefilereferencedb-bool)
 * [`setEnableFileReferenceDb(bool $enableFileReferenceDb): self`](#setenablefilereferencedb-bool-enablefilereferencedb-self)
 * [`getEnableMinDb(): bool`](#getenablemindb-bool)
@@ -29,6 +30,12 @@ Memory backend settings.
 * [`setEnablePeerInfoDb(bool $enablePeerInfoDb): self`](#setenablepeerinfodb-bool-enablepeerinfodb-self)
 
 ## Methods:
+### `getDriverClass(): string`
+
+
+
+
+
 ### `getEnableFileReferenceDb(): bool`
 
 Get whether to enable the file reference database. If disabled, will break file downloads.

@@ -17,7 +17,6 @@ Logger settings.
 
 
 ## Method list:
-* [`mergeArray(array $settings): void`](#mergearray-array-settings-void)
 * [`__construct()`](#__construct)
 * [`getType(): \MadelineProtoLogger::LOGGER_*`](#gettype-madelineprotologger-logger_)
 * [`setType(\MadelineProtoLogger::LOGGER_* $type): self`](#settype-madelineprotologger-logger_-type-self)
@@ -29,17 +28,6 @@ Logger settings.
 * [`setMaxSize(int $maxSize): self`](#setmaxsize-int-maxsize-self)
 
 ## Methods:
-### `mergeArray(array $settings): void`
-
-
-
-
-Parameters:
-
-* `$settings`: `array`   
-
-
-
 ### `__construct()`
 
 

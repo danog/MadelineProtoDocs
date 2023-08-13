@@ -17,7 +17,6 @@ Peer database settings.
 
 
 ## Method list:
-* [`mergeArray(array $settings): void`](#mergearray-array-settings-void)
 * [`getFullInfoCacheTime(): int`](#getfullinfocachetime-int)
 * [`setFullInfoCacheTime(int $fullInfoCacheTime): self`](#setfullinfocachetime-int-fullinfocachetime-self)
 * [`getFullFetch(): bool`](#getfullfetch-bool)
@@ -26,17 +25,6 @@ Peer database settings.
 * [`setCacheAllPeersOnStartup(bool $cacheAllPeersOnStartup): self`](#setcacheallpeersonstartup-bool-cacheallpeersonstartup-self)
 
 ## Methods:
-### `mergeArray(array $settings): void`
-
-
-
-
-Parameters:
-
-* `$settings`: `array`   
-
-
-
 ### `getFullInfoCacheTime(): int`
 
 Get cache time for full peer information (seconds).

@@ -17,7 +17,6 @@ Connection settings.
 
 
 ## Method list:
-* [`mergeArray(array $settings): void`](#mergearray-array-settings-void)
 * [`__construct()`](#__construct)
 * [`init(): void`](#init-void)
 * [`getProtocol(): string`](#getprotocol-string)
@@ -57,17 +56,6 @@ Connection settings.
 * [`setTestRsaKeys(array $testRsaKeys): self`](#settestrsakeys-array-testrsakeys-self)
 
 ## Methods:
-### `mergeArray(array $settings): void`
-
-
-
-
-Parameters:
-
-* `$settings`: `array`   
-
-
-
 ### `__construct()`
 
 

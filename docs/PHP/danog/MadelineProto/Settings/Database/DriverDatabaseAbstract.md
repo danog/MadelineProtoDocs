@@ -17,7 +17,6 @@ Base class for database backends.
 
 
 ## Method list:
-* [`mergeArray(array $settings): void`](#mergearray-array-settings-void)
 * [`getKey(): string`](#getkey-string)
 * [`getCacheTtl(): int`](#getcachettl-int)
 * [`setCacheTtl(int|string $cacheTtl): static`](#setcachettl-int-string-cachettl-static)
@@ -38,19 +37,9 @@ Base class for database backends.
 * [`setEnableFullPeerDb(bool $enableFullPeerDb): self`](#setenablefullpeerdb-bool-enablefullpeerdb-self)
 * [`getEnablePeerInfoDb(): bool`](#getenablepeerinfodb-bool)
 * [`setEnablePeerInfoDb(bool $enablePeerInfoDb): self`](#setenablepeerinfodb-bool-enablepeerinfodb-self)
+* [`getDriverClass(): class-string<\danog\MadelineProto\Db\DbType>`](#getdriverclass-class-string-danog-madelineproto-db-dbtype)
 
 ## Methods:
-### `mergeArray(array $settings): void`
-
-
-
-
-Parameters:
-
-* `$settings`: `array`   
-
-
-
 ### `getKey(): string`
 
 Get DB key.
@@ -227,6 +216,17 @@ Set whether to enable the peer info database. If disabled, will break getInfo.
 Parameters:
 
 * `$enablePeerInfoDb`: `bool` Whether to enable the peer info database. If disabled, will break getInfo.  
+
+
+
+### `getDriverClass(): class-string<\danog\MadelineProto\Db\DbType>`
+
+
+
+
+#### See also: 
+* [`\danog\MadelineProto\Db\DbType`: DB type interface.](../../../../danog/MadelineProto/Db/DbType.html)
+
 
 
 

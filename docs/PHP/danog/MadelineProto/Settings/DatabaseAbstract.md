@@ -27,6 +27,7 @@ Base class for storage backends.
 * [`setEnableFullPeerDb(bool $enableFullPeerDb): self`](#setenablefullpeerdb-bool-enablefullpeerdb-self)
 * [`getEnablePeerInfoDb(): bool`](#getenablepeerinfodb-bool)
 * [`setEnablePeerInfoDb(bool $enablePeerInfoDb): self`](#setenablepeerinfodb-bool-enablepeerinfodb-self)
+* [`getDriverClass(): class-string<\danog\MadelineProto\Db\DbType>`](#getdriverclass-class-string-danog-madelineproto-db-dbtype)
 
 ## Methods:
 ### `getEnableFileReferenceDb(): bool`
@@ -111,6 +112,17 @@ Set whether to enable the peer info database. If disabled, will break getInfo.
 Parameters:
 
 * `$enablePeerInfoDb`: `bool` Whether to enable the peer info database. If disabled, will break getInfo.  
+
+
+
+### `getDriverClass(): class-string<\danog\MadelineProto\Db\DbType>`
+
+
+
+
+#### See also: 
+* [`\danog\MadelineProto\Db\DbType`: DB type interface.](../../../danog/MadelineProto/Db/DbType.html)
+
 
 
 

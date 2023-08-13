@@ -17,7 +17,6 @@ TL schema settings.
 
 
 ## Method list:
-* [`mergeArray(array $settings): void`](#mergearray-array-settings-void)
 * [`needsUpgrade(): bool`](#needsupgrade-bool)
 * [`upgrade(): void`](#upgrade-void)
 * [`getLayer(): int`](#getlayer-int)
@@ -32,17 +31,6 @@ TL schema settings.
 * [`setOther(array $other): self`](#setother-array-other-self)
 
 ## Methods:
-### `mergeArray(array $settings): void`
-
-
-
-
-Parameters:
-
-* `$settings`: `array`   
-
-
-
 ### `needsUpgrade(): bool`
 
 Returns whether the TL parser should re-parse the TL schemes.

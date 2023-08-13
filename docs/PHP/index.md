@@ -42,8 +42,7 @@ PHP implementation of telegram's MTProto protocol.
 * [\danog\MadelineProto\StrTools: Some tools.](/PHP/danog/MadelineProto/StrTools.html)
 * [\danog\MadelineProto\Tools: Some tools.](/PHP/danog/MadelineProto/Tools.html)
 * [\danog\MadelineProto\Broadcast\Action: Interface that represents a broadcast action.](/PHP/danog/MadelineProto/Broadcast/Action.html)
-* [\danog\MadelineProto\Db\DbArray: DB array interface.](/PHP/danog/MadelineProto/Db/DbArray.html)
-* [\danog\MadelineProto\Db\DbType](/PHP/danog/MadelineProto/Db/DbType.html)
+* [\danog\MadelineProto\Db\DbType: DB type interface.](/PHP/danog/MadelineProto/Db/DbType.html)
 * [\danog\MadelineProto\EventHandler\AbstractMessage: Represents an incoming or outgoing message.](/PHP/danog/MadelineProto/EventHandler/AbstractMessage.html)
 * [\danog\MadelineProto\EventHandler\CallbackQuery: Represents a query sent by the user by clicking on a button.](/PHP/danog/MadelineProto/EventHandler/CallbackQuery.html)
 * [\danog\MadelineProto\EventHandler\Keyboard: Represents an inline or reply keyboard.](/PHP/danog/MadelineProto/EventHandler/Keyboard.html)
@@ -75,6 +74,7 @@ PHP implementation of telegram's MTProto protocol.
 * [\danog\MadelineProto\LocalFile: Indicates a local file to upload.](/PHP/danog/MadelineProto/LocalFile.html)
 * [\danog\MadelineProto\Logger: Logger class.](/PHP/danog/MadelineProto/Logger.html)
 * [\danog\MadelineProto\MyTelegramOrgWrapper: Wrapper for my.telegram.org.](/PHP/danog/MadelineProto/MyTelegramOrgWrapper.html)
+* [\danog\MadelineProto\Ogg: Async OGG stream reader and writer.](/PHP/danog/MadelineProto/Ogg.html)
 * [\danog\MadelineProto\PTSException: Internal error indicating a problem with Telegram's servers.](/PHP/danog/MadelineProto/PTSException.html)
 * [\danog\MadelineProto\ParseMode: Indicates a parsing mode for text.](/PHP/danog/MadelineProto/ParseMode.html)
 * [\danog\MadelineProto\PeerNotInDbException: Indicates that a specified peer (user, chat, channel) was not found in the internal MadelineProto peer database.](/PHP/danog/MadelineProto/PeerNotInDbException.html)
@@ -185,7 +185,10 @@ PHP implementation of telegram's MTProto protocol.
 * [\danog\MadelineProto\TL\Types\Button: Clickable button.](/PHP/danog/MadelineProto/TL/Types/Button.html)
 * [\danog\MadelineProto\TL\Types\Bytes: Bytes wrapper.](/PHP/danog/MadelineProto/TL/Types/Bytes.html)
 * [\danog\MadelineProto\TL\Types\LoginQrCode: Represents a login QR code.](/PHP/danog/MadelineProto/TL/Types/LoginQrCode.html)
+* [\danog\MadelineProto\VoIP\CallState](/PHP/danog/MadelineProto/VoIP/CallState.html)
+* [\danog\MadelineProto\VoIP\DiscardReason: Why was the call discareded?](/PHP/danog/MadelineProto/VoIP/DiscardReason.html)
 * [\danog\MadelineProto\VoIP\Endpoint](/PHP/danog/MadelineProto/VoIP/Endpoint.html)
+* [\danog\MadelineProto\VoIP\VoIPState: VoIP protcol state.](/PHP/danog/MadelineProto/VoIP/VoIPState.html)
 
 ## Traits
 * [\danog\MadelineProto\Db\DbPropertiesTrait: Include this trait and call DbPropertiesTrait::initDb to use MadelineProto's database backend for properties.](/PHP/danog/MadelineProto/Db/DbPropertiesTrait.html)

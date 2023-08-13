@@ -17,24 +17,23 @@ Wrapper for my.telegram.org.
 
 
 ## Method list:
-* [`__construct(\danog\MadelineProto\SettingsAbstract|array $settings)`](#__construct-danog-madelineproto-settingsabstract-array-settings)
+* [`__construct(\danog\MadelineProto\SettingsAbstract $settings)`](#__construct-danog-madelineproto-settingsabstract-settings)
 * [`login(string $number): void`](#login-string-number-void)
 * [`completeLogin(string $password): mixed`](#completelogin-string-password-mixed)
 * [`loggedIn(): bool`](#loggedin-bool)
 * [`hasApp(): mixed`](#hasapp-mixed)
 * [`getApp(): mixed`](#getapp-mixed)
 * [`createApp(array $settings): mixed`](#createapp-array-settings-mixed)
-* [`loop(callable $callable): mixed`](#loop-callable-callable-mixed)
 
 ## Methods:
-### `__construct(\danog\MadelineProto\SettingsAbstract|array $settings)`
+### `__construct(\danog\MadelineProto\SettingsAbstract $settings)`
 
 Constructor.
 
 
 Parameters:
 
-* `$settings`: `\danog\MadelineProto\SettingsAbstract|array`   
+* `$settings`: `\danog\MadelineProto\SettingsAbstract`   
 
 
 #### See also: 
@@ -91,17 +90,6 @@ Create an app.
 Parameters:
 
 * `$settings`: `array` App parameters  
-
-
-
-### `loop(callable $callable): mixed`
-
-Run specified callable synchronously.
-
-
-Parameters:
-
-* `$callable`: `callable` Callable  
 
 
 
