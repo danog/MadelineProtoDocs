@@ -521,6 +521,13 @@ This downloads the given file to the given resource or [async AMPHP stream](http
 
 `$MessageMedia`can be either a [Message](https://docs.madelineproto.xyz/API_docs/types/Message.html), an [Update](https://docs.madelineproto.xyz/API_docs/types/Update.html), a [MessageMedia](https://docs.madelineproto.xyz/API_docs/types/MessageMedia.html) object, or a bot API file ID.
 
+
+You can also use `downloadToReturnedStream`, which returns an amphp `ReadableStream`, instead:
+
+```php
+$stream = $MadelineProto->downloadToStream($MessageMedia);
+```
+
 ### Download to callback
 ```php
 $MadelineProto->downloadToCallable($MessageMedia, $callable);

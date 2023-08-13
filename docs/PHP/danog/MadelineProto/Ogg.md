@@ -37,7 +37,7 @@ Async OGG stream reader and writer.
 
 ## Method list:
 * [`__construct(\danog\MadelineProto\Stream\BufferedStreamInterface $stream)`](#__construct-danog-madelineproto-stream-bufferedstreaminterface-stream)
-* [`convert(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $wavIn, string $oggOut): void`](#convert-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-wavin-string-oggout-void)
+* [`convert(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $wavIn, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $oggOut): void`](#convert-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-wavin-danog-madelineproto-localfile-amp-bytestream-writablestream-oggout-void)
 
 ## Methods:
 ### `__construct(\danog\MadelineProto\Stream\BufferedStreamInterface $stream)`
@@ -56,7 +56,7 @@ Parameters:
 
 
 
-### `convert(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $wavIn, string $oggOut): void`
+### `convert(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $wavIn, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $oggOut): void`
 
 
 
@@ -64,13 +64,14 @@ Parameters:
 Parameters:
 
 * `$wavIn`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
-* `$oggOut`: `string`   
+* `$oggOut`: `\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream`   
 
 
 #### See also: 
 * [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
 * [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
 * `\Amp\ByteStream\ReadableStream`
+* `\Amp\ByteStream\WritableStream`
 
 
 
