@@ -22,8 +22,7 @@ DB type interface.
 * [`set(\TKey $key, \TValue $value): void`](#set-tkey-key-tvalue-value-void)
 * [`offsetGet(\TKey $index): mixed`](#offsetget-tkey-index-mixed)
 * [`clear(): void`](#clear-void)
-* [`getIterator(): \Traversable<\TKey, \TValue>`](#getiterator-traversable-tkey-tvalue)
-* [`getInstance(string $table, ?\danog\MadelineProto\Db\DbType $previous, \danog\MadelineProto\Settings\DatabaseAbstract $settings): self`](#getinstance-string-table-danog-madelineproto-db-dbtype-previous-danog-madelineproto-settings-databaseabstract-settings-self)
+* [`getIterator(): \Traversable`](#getiterator-traversable)
 * [`count(): mixed`](#count-mixed)
 
 ## Methods:
@@ -99,33 +98,19 @@ Clear all elements.
 
 
 
-### `getIterator(): \Traversable<\TKey, \TValue>`
+### `getIterator(): \Traversable`
 
 Get iterator.
 
 
+Fully typed return value:
+```
+\Traversable<\TKey, \TValue>
+```
 #### See also: 
 * `\TKey`
 * `\TValue`
 * `\Traversable`
-
-
-
-
-### `getInstance(string $table, ?\danog\MadelineProto\Db\DbType $previous, \danog\MadelineProto\Settings\DatabaseAbstract $settings): self`
-
-Get instance.
-
-
-Parameters:
-
-* `$table`: `string`   
-* `$previous`: `?\danog\MadelineProto\Db\DbType`   
-* `$settings`: `\danog\MadelineProto\Settings\DatabaseAbstract`   
-
-
-#### See also: 
-* [`\danog\MadelineProto\Settings\DatabaseAbstract`: Base class for storage backends.](../../../danog/MadelineProto/Settings/DatabaseAbstract.html)
 
 
 

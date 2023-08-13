@@ -44,7 +44,7 @@ Generic db backend settings.
 * [`setEnableFullPeerDb(bool $enableFullPeerDb): self`](#setenablefullpeerdb-bool-enablefullpeerdb-self)
 * [`getEnablePeerInfoDb(): bool`](#getenablepeerinfodb-bool)
 * [`setEnablePeerInfoDb(bool $enablePeerInfoDb): self`](#setenablepeerinfodb-bool-enablepeerinfodb-self)
-* [`getDriverClass(): class-string<\danog\MadelineProto\Db\DbType>`](#getdriverclass-class-string-danog-madelineproto-db-dbtype)
+* [`getDriverClass(): class-string<\danog\MadelineProto\Db\DbArray>`](#getdriverclass-class-string-danog-madelineproto-db-dbarray)
 
 ## Methods:
 ### `getMaxConnections(): int`
@@ -288,13 +288,13 @@ Parameters:
 
 
 
-### `getDriverClass(): class-string<\danog\MadelineProto\Db\DbType>`
+### `getDriverClass(): class-string<\danog\MadelineProto\Db\DbArray>`
 
 
 
 
 #### See also: 
-* [`\danog\MadelineProto\Db\DbType`: DB type interface.](../../../../danog/MadelineProto/Db/DbType.html)
+* [`\danog\MadelineProto\Db\DbArray`: DB array interface.](../../../../danog/MadelineProto/Db/DbArray.html)
 
 
 

@@ -42,6 +42,7 @@ PHP implementation of telegram's MTProto protocol.
 * [\danog\MadelineProto\StrTools: Some tools.](/PHP/danog/MadelineProto/StrTools.html)
 * [\danog\MadelineProto\Tools: Some tools.](/PHP/danog/MadelineProto/Tools.html)
 * [\danog\MadelineProto\Broadcast\Action: Interface that represents a broadcast action.](/PHP/danog/MadelineProto/Broadcast/Action.html)
+* [\danog\MadelineProto\Db\DbArray: DB array interface.](/PHP/danog/MadelineProto/Db/DbArray.html)
 * [\danog\MadelineProto\Db\DbType: DB type interface.](/PHP/danog/MadelineProto/Db/DbType.html)
 * [\danog\MadelineProto\EventHandler\AbstractMessage: Represents an incoming or outgoing message.](/PHP/danog/MadelineProto/EventHandler/AbstractMessage.html)
 * [\danog\MadelineProto\EventHandler\CallbackQuery: Represents a query sent by the user by clicking on a button.](/PHP/danog/MadelineProto/EventHandler/CallbackQuery.html)
