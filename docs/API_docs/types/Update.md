@@ -239,6 +239,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateStoryID](/API_docs/constructors/updateStoryID.html)  
 
+[updateStoriesStealthMode](/API_docs/constructors/updateStoriesStealthMode.html)  
+
+[updateSentStoryReaction](/API_docs/constructors/updateSentStoryReaction.html)  
+
 
 
 ### Methods that return an object of this type (methods):

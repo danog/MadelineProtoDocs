@@ -805,7 +805,7 @@ $MadelineProto->[contacts->addContact](/API_docs/methods/contacts.addContact.htm
 
 ***
 <br><br>
-$MadelineProto->[contacts->block](/API_docs/methods/contacts.block.html)(\[id: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="contacts.block"></a>  
+$MadelineProto->[contacts->block](/API_docs/methods/contacts.block.html)(\[my_stories_from: $[Bool](/API_docs/types/Bool.html), id: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="contacts.block"></a>  
 
 ***
 <br><br>
@@ -829,7 +829,7 @@ $MadelineProto->[contacts->exportContactToken](/API_docs/methods/contacts.export
 
 ***
 <br><br>
-$MadelineProto->[contacts->getBlocked](/API_docs/methods/contacts.getBlocked.html)(\[offset: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), \]) === [$contacts.Blocked](/API_docs/types/contacts.Blocked.html)<a name="contacts.getBlocked"></a>  
+$MadelineProto->[contacts->getBlocked](/API_docs/methods/contacts.getBlocked.html)(\[my_stories_from: $[Bool](/API_docs/types/Bool.html), offset: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), \]) === [$contacts.Blocked](/API_docs/types/contacts.Blocked.html)<a name="contacts.getBlocked"></a>  
 
 ***
 <br><br>
@@ -885,6 +885,10 @@ $MadelineProto->[contacts->search](/API_docs/methods/contacts.search.html)(\[q: 
 
 ***
 <br><br>
+$MadelineProto->[contacts->setBlocked](/API_docs/methods/contacts.setBlocked.html)(\[my_stories_from: $[Bool](/API_docs/types/Bool.html), id: \[$[InputPeer](/API_docs/types/InputPeer.html)\], limit: $[int](/API_docs/types/int.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="contacts.setBlocked"></a>  
+
+***
+<br><br>
 $MadelineProto->[contacts->toggleStoriesHidden](/API_docs/methods/contacts.toggleStoriesHidden.html)(\[id: $[InputUser](/API_docs/types/InputUser.html), hidden: $[Bool](/API_docs/types/Bool.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="contacts.toggleStoriesHidden"></a>  
 
 ***
@@ -893,7 +897,7 @@ $MadelineProto->[contacts->toggleTopPeers](/API_docs/methods/contacts.toggleTopP
 
 ***
 <br><br>
-$MadelineProto->[contacts->unblock](/API_docs/methods/contacts.unblock.html)(\[id: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="contacts.unblock"></a>  
+$MadelineProto->[contacts->unblock](/API_docs/methods/contacts.unblock.html)(\[my_stories_from: $[Bool](/API_docs/types/Bool.html), id: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="contacts.unblock"></a>  
 
 ***
 <br><br>
@@ -2037,11 +2041,15 @@ $MadelineProto->[stickers->suggestShortName](/API_docs/methods/stickers.suggestS
 
 ***
 <br><br>
+$MadelineProto->[stories->activateStealthMode](/API_docs/methods/stories.activateStealthMode.html)(\[past: $[Bool](/API_docs/types/Bool.html), future: $[Bool](/API_docs/types/Bool.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="stories.activateStealthMode"></a>  
+
+***
+<br><br>
 $MadelineProto->[stories->deleteStories](/API_docs/methods/stories.deleteStories.html)(\[id: \[$[int](/API_docs/types/int.html)\], \]) === [$Vector\_of\_int](/API_docs/types/int.html)<a name="stories.deleteStories"></a>  
 
 ***
 <br><br>
-$MadelineProto->[stories->editStory](/API_docs/methods/stories.editStory.html)(\[id: $[int](/API_docs/types/int.html), media: $[InputMedia](/API_docs/types/InputMedia.html), caption: $[string](/API_docs/types/string.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], privacy_rules: \[$[InputPrivacyRule](/API_docs/types/InputPrivacyRule.html)\], \]) === [$Updates](/API_docs/types/Updates.html)<a name="stories.editStory"></a>  
+$MadelineProto->[stories->editStory](/API_docs/methods/stories.editStory.html)(\[id: $[int](/API_docs/types/int.html), media: $[InputMedia](/API_docs/types/InputMedia.html), media_areas: \[$[MediaArea](/API_docs/types/MediaArea.html)\], caption: $[string](/API_docs/types/string.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], privacy_rules: \[$[InputPrivacyRule](/API_docs/types/InputPrivacyRule.html)\], \]) === [$Updates](/API_docs/types/Updates.html)<a name="stories.editStory"></a>  
 
 ***
 <br><br>
@@ -2073,7 +2081,7 @@ $MadelineProto->[stories->getStoriesViews](/API_docs/methods/stories.getStoriesV
 
 ***
 <br><br>
-$MadelineProto->[stories->getStoryViewsList](/API_docs/methods/stories.getStoryViewsList.html)(\[id: $[int](/API_docs/types/int.html), offset_date: $[int](/API_docs/types/int.html), offset_id: $[long](/API_docs/types/long.html), limit: $[int](/API_docs/types/int.html), \]) === [$stories.StoryViewsList](/API_docs/types/stories.StoryViewsList.html)<a name="stories.getStoryViewsList"></a>  
+$MadelineProto->[stories->getStoryViewsList](/API_docs/methods/stories.getStoryViewsList.html)(\[just_contacts: $[Bool](/API_docs/types/Bool.html), reactions_first: $[Bool](/API_docs/types/Bool.html), q: $[string](/API_docs/types/string.html), id: $[int](/API_docs/types/int.html), offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$stories.StoryViewsList](/API_docs/types/stories.StoryViewsList.html)<a name="stories.getStoryViewsList"></a>  
 
 ***
 <br><br>
@@ -2093,7 +2101,11 @@ $MadelineProto->[stories->report](/API_docs/methods/stories.report.html)(\[user_
 
 ***
 <br><br>
-$MadelineProto->[stories->sendStory](/API_docs/methods/stories.sendStory.html)(\[pinned: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), media: $[InputMedia](/API_docs/types/InputMedia.html), caption: $[string](/API_docs/types/string.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], privacy_rules: \[$[InputPrivacyRule](/API_docs/types/InputPrivacyRule.html)\], period: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="stories.sendStory"></a>  
+$MadelineProto->[stories->sendReaction](/API_docs/methods/stories.sendReaction.html)(\[add_to_recent: $[Bool](/API_docs/types/Bool.html), user_id: $[InputUser](/API_docs/types/InputUser.html), story_id: $[int](/API_docs/types/int.html), reaction: $[Reaction](/API_docs/types/Reaction.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="stories.sendReaction"></a>  
+
+***
+<br><br>
+$MadelineProto->[stories->sendStory](/API_docs/methods/stories.sendStory.html)(\[pinned: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), media: $[InputMedia](/API_docs/types/InputMedia.html), media_areas: \[$[MediaArea](/API_docs/types/MediaArea.html)\], caption: $[string](/API_docs/types/string.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], privacy_rules: \[$[InputPrivacyRule](/API_docs/types/InputPrivacyRule.html)\], period: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="stories.sendStory"></a>  
 
 ***
 <br><br>

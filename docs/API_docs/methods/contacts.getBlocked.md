@@ -17,6 +17,7 @@ Returns the list of blocked users.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|my\_stories\_from|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |offset|[int](/API_docs/types/int.html) | The number of list elements to be skipped | Optional|
 |limit|[int](/API_docs/types/int.html) | The number of list elements to be returned | Optional|
 
@@ -38,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$contacts_Blocked = $MadelineProto->contacts->getBlocked(offset: $int, limit: $int, );
+$contacts_Blocked = $MadelineProto->contacts->getBlocked(my_stories_from: $Bool, offset: $int, limit: $int, );
 ```
 

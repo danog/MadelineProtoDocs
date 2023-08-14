@@ -15,8 +15,9 @@ A peer was blocked
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|blocked|[Bool](/API_docs/types/Bool.html) | Optional|
+|blocked\_my\_stories\_from|[Bool](/API_docs/types/Bool.html) | Optional|
 |peer\_id|[Peer](/API_docs/types/Peer.html) | Yes|The blocked peer|
-|blocked|[Bool](/API_docs/types/Bool.html) | Yes|Whether the peer was blocked or unblocked|
 
 
 
@@ -26,5 +27,5 @@ A peer was blocked
 ### Example:
 
 ```
-$updatePeerBlocked = ['_' => 'updatePeerBlocked', 'peer_id' => Peer, 'blocked' => Bool];
+$updatePeerBlocked = ['_' => 'updatePeerBlocked', 'blocked' => Bool, 'blocked_my_stories_from' => Bool, 'peer_id' => Peer];
 ```  

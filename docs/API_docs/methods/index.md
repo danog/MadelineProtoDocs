@@ -924,7 +924,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#callplay-int-id-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-file-void" name="callPlay">Play file in call: callPlay</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#callplayonhold-int-id-localfile-remoteurl-amp-bytestream-readablestream-files-void" name="callPlayOnHold">Play files on hold in call: callPlayOnHold</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#callplayonhold-int-id-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-files-void" name="callPlayOnHold">Play files on hold in call: callPlayOnHold</a>
 
 * <a href="channels.getMessages.html" name="channels.getMessages">Please use the event handler: channels.getMessages</a>
 
@@ -1428,11 +1428,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="contacts.editCloseFriends.html" name="contacts.editCloseFriends">contacts.editCloseFriends</a>
 
+* <a href="contacts.setBlocked.html" name="contacts.setBlocked">contacts.setBlocked</a>
+
 * <a href="contacts.toggleStoriesHidden.html" name="contacts.toggleStoriesHidden">contacts.toggleStoriesHidden</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rledecode-string-string-string" name="rleDecode">null-byte RLE decode: rleDecode</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleencode-string-string-string" name="rleEncode">null-byte RLE encode: rleEncode</a>
+
+* <a href="stories.activateStealthMode.html" name="stories.activateStealthMode">stories.activateStealthMode</a>
 
 * <a href="stories.deleteStories.html" name="stories.deleteStories">stories.deleteStories</a>
 
@@ -1461,6 +1465,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="stories.readStories.html" name="stories.readStories">stories.readStories</a>
 
 * <a href="stories.report.html" name="stories.report">stories.report</a>
+
+* <a href="stories.sendReaction.html" name="stories.sendReaction">stories.sendReaction</a>
 
 * <a href="stories.sendStory.html" name="stories.sendStory">stories.sendStory</a>
 

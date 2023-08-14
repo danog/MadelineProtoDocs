@@ -17,6 +17,7 @@ Adds the user to the blacklist.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|my\_stories\_from|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | User ID | Optional|
 
 
@@ -37,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->contacts->block(id: $InputPeer, );
+$Bool = $MadelineProto->contacts->block(my_stories_from: $Bool, id: $InputPeer, );
 ```
 

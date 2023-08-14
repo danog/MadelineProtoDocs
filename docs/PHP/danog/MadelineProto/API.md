@@ -100,7 +100,7 @@ Main API wrapper for MadelineProto.
 * [`broadcastMessages(array $messages, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, bool $pin = false): int`](#broadcastmessages-array-messages-danog-madelineproto-broadcast-filter-filter-null-bool-pin-false-int)
 * [`callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<\T>`](#callfork-generator-amp-future-callable-callable-mixed-args-amp-future-t)
 * [`callPlay(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): void`](#callplay-int-id-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-file-void)
-* [`callPlayOnHold(int $id, (\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream)[] $files): void`](#callplayonhold-int-id-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-files-void)
+* [`callPlayOnHold(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): void`](#callplayonhold-int-id-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-files-void)
 * [`cancelBroadcast(int $id): void`](#cancelbroadcast-int-id-void)
 * [`closeConnection(string $message): void`](#closeconnection-string-message-void)
 * [`complete2faLogin(string $password): array`](#complete2falogin-string-password-array)
@@ -557,7 +557,7 @@ Parameters:
 
 
 
-### `callPlayOnHold(int $id, (\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream)[] $files): void`
+### `callPlayOnHold(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): void`
 
 Play files on hold in call.
 
@@ -565,7 +565,7 @@ Play files on hold in call.
 Parameters:
 
 * `$id`: `int`   
-* `$files`: `(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream)[]`   
+* `...$files`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
 
 
 #### See also: 

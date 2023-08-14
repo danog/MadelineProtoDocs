@@ -15,9 +15,11 @@ redirect_from: /API_docs/methods/stories_getStoryViewsList.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
+|just\_contacts|[Bool](/API_docs/types/Bool.html) | Optional|
+|reactions\_first|[Bool](/API_docs/types/Bool.html) | Optional|
+|q|[string](/API_docs/types/string.html) | Optional|
 |id|[int](/API_docs/types/int.html) | Yes|
-|offset\_date|[int](/API_docs/types/int.html) | Yes|
-|offset\_id|[long](/API_docs/types/long.html) | Yes|
+|offset|[string](/API_docs/types/string.html) | Yes|
 |limit|[int](/API_docs/types/int.html) | Yes|
 
 
@@ -38,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$stories_StoryViewsList = $MadelineProto->stories->getStoryViewsList(id: $int, offset_date: $int, offset_id: $long, limit: $int, );
+$stories_StoryViewsList = $MadelineProto->stories->getStoryViewsList(just_contacts: $Bool, reactions_first: $Bool, q: 'string', id: $int, offset: 'string', limit: $int, );
 ```
 

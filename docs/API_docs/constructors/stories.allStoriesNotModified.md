@@ -15,6 +15,7 @@ redirect_from: /API_docs/constructors/stories_allStoriesNotModified.html
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |state|[string](/API_docs/types/string.html) | Yes|
+|stealth\_mode|[StoriesStealthMode](/API_docs/types/StoriesStealthMode.html) | Yes|
 
 
 
@@ -24,5 +25,5 @@ redirect_from: /API_docs/constructors/stories_allStoriesNotModified.html
 ### Example:
 
 ```
-$stories_allStoriesNotModified = ['_' => 'stories.allStoriesNotModified', 'state' => 'string'];
+$stories_allStoriesNotModified = ['_' => 'stories.allStoriesNotModified', 'state' => 'string', 'stealth_mode' => StoriesStealthMode];
 ```  

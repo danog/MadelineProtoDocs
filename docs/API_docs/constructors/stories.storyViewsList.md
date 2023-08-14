@@ -15,8 +15,10 @@ redirect_from: /API_docs/constructors/stories_storyViewsList.html
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |count|[int](/API_docs/types/int.html) | Yes|
+|reactions\_count|[int](/API_docs/types/int.html) | Yes|
 |views|Array of [StoryView](/API_docs/types/StoryView.html) | Yes|
 |users|Array of [User](/API_docs/types/User.html) | Yes|
+|next\_offset|[string](/API_docs/types/string.html) | Optional|
 
 
 
@@ -26,5 +28,5 @@ redirect_from: /API_docs/constructors/stories_storyViewsList.html
 ### Example:
 
 ```
-$stories_storyViewsList = ['_' => 'stories.storyViewsList', 'count' => int, 'views' => [StoryView, StoryView], 'users' => [User, User]];
+$stories_storyViewsList = ['_' => 'stories.storyViewsList', 'count' => int, 'reactions_count' => int, 'views' => [StoryView, StoryView], 'users' => [User, User], 'next_offset' => 'string'];
 ```  

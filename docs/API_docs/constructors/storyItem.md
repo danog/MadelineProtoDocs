@@ -28,8 +28,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Optional|
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
 |media|[MessageMedia](/API_docs/types/MessageMedia.html) | Optional|
+|media\_areas|Array of [MediaArea](/API_docs/types/MediaArea.html) | Optional|
 |privacy|Array of [PrivacyRule](/API_docs/types/PrivacyRule.html) | Optional|
 |views|[StoryViews](/API_docs/types/StoryViews.html) | Optional|
+|sent\_reaction|[Reaction](/API_docs/types/Reaction.html) | Optional|
 
 
 
@@ -99,5 +101,5 @@ pre-formatted fixed-width code block written in the PHP programming language
 ### Example:
 
 ```
-$storyItem = ['_' => 'storyItem', 'pinned' => Bool, 'public' => Bool, 'close_friends' => Bool, 'min' => Bool, 'noforwards' => Bool, 'edited' => Bool, 'contacts' => Bool, 'selected_contacts' => Bool, 'id' => int, 'date' => int, 'expire_date' => int, 'caption' => 'string', 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'media' => MessageMedia, 'privacy' => [PrivacyRule, PrivacyRule], 'views' => StoryViews];
+$storyItem = ['_' => 'storyItem', 'pinned' => Bool, 'public' => Bool, 'close_friends' => Bool, 'min' => Bool, 'noforwards' => Bool, 'edited' => Bool, 'contacts' => Bool, 'selected_contacts' => Bool, 'id' => int, 'date' => int, 'expire_date' => int, 'caption' => 'string', 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'media' => MessageMedia, 'media_areas' => [MediaArea, MediaArea], 'privacy' => [PrivacyRule, PrivacyRule], 'views' => StoryViews, 'sent_reaction' => Reaction];
 ```  

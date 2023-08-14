@@ -315,6 +315,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [MaskCoords](/API_docs/types/MaskCoords.html)<a name="MaskCoords"></a>  
 
+[MediaArea](/API_docs/types/MediaArea.html)<a name="MediaArea"></a>  
+
+[MediaAreaCoordinates](/API_docs/types/MediaAreaCoordinates.html)<a name="MediaAreaCoordinates"></a>  
+
 [Message](/API_docs/types/Message.html)<a name="Message"></a>  
 
 [MessageAction](/API_docs/types/MessageAction.html)<a name="MessageAction"></a>  
@@ -504,6 +508,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [StickerSet](/API_docs/types/StickerSet.html)<a name="StickerSet"></a>  
 
 [StickerSetCovered](/API_docs/types/StickerSetCovered.html)<a name="StickerSetCovered"></a>  
+
+[StoriesStealthMode](/API_docs/types/StoriesStealthMode.html)<a name="StoriesStealthMode"></a>  
 
 [StoryItem](/API_docs/types/StoryItem.html)<a name="StoryItem"></a>  
 

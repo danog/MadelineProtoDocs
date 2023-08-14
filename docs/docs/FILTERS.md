@@ -628,6 +628,8 @@ Here's a full list of all MTProto filters (click on each filter name to view the
 * [onUpdateStory &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateStory.html) - 
 * [onUpdateReadStories &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateReadStories.html) - 
 * [onUpdateStoryID &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateStoryID.html) - 
+* [onUpdateStoriesStealthMode &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateStoriesStealthMode.html) - 
+* [onUpdateSentStoryReaction &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateSentStoryReaction.html) - 
 
 
 <!-- cut_here_end mtprotofilters -->
