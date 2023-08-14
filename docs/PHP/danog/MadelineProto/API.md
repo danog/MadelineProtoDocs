@@ -99,8 +99,8 @@ Main API wrapper for MadelineProto.
 * [`broadcastForwardMessages(mixed $from_peer, list<int> $message_ids, bool $drop_author = false, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, bool $pin = false): int`](#broadcastforwardmessages-mixed-from_peer-list-int-message_ids-bool-drop_author-false-danog-madelineproto-broadcast-filter-filter-null-bool-pin-false-int)
 * [`broadcastMessages(array $messages, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, bool $pin = false): int`](#broadcastmessages-array-messages-danog-madelineproto-broadcast-filter-filter-null-bool-pin-false-int)
 * [`callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<\T>`](#callfork-generator-amp-future-callable-callable-mixed-args-amp-future-t)
-* [`callPlay(int $id, string $file): void`](#callplay-int-id-string-file-void)
-* [`callPlayOnHold(int $id, string[] $files): void`](#callplayonhold-int-id-string-files-void)
+* [`callPlay(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\Ipc\Wrapper\ReadableStream|string $file): void`](#callplay-int-id-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-ipc-wrapper-readablestream-string-file-void)
+* [`callPlayOnHold(int $id, (string|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream)[] $files): void`](#callplayonhold-int-id-string-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-files-void)
 * [`callStatus(int $id): ?\danog\MadelineProto\VoIP\CallState`](#callstatus-int-id-danog-madelineproto-voip-callstate)
 * [`cancelBroadcast(int $id): void`](#cancelbroadcast-int-id-void)
 * [`closeConnection(string $message): void`](#closeconnection-string-message-void)
@@ -535,7 +535,7 @@ Parameters:
 
 
 
-### `callPlay(int $id, string $file): void`
+### `callPlay(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\Ipc\Wrapper\ReadableStream|string $file): void`
 
 Play file in call.
 
@@ -543,11 +543,18 @@ Play file in call.
 Parameters:
 
 * `$id`: `int`   
-* `$file`: `string`   
+* `$file`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\Ipc\Wrapper\ReadableStream|string`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
+* `\danog\MadelineProto\Ipc\Wrapper\ReadableStream`
 
 
 
-### `callPlayOnHold(int $id, string[] $files): void`
+
+### `callPlayOnHold(int $id, (string|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream)[] $files): void`
 
 Play files on hold in call.
 
@@ -555,7 +562,14 @@ Play files on hold in call.
 Parameters:
 
 * `$id`: `int`   
-* `$files`: `string[]`   
+* `$files`: `(string|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream)[]`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
+* `\Amp\ByteStream\ReadableStream`
+
 
 
 
@@ -959,7 +973,7 @@ Parameters:
 
 ### `fullChatLastUpdated(mixed $id): int`
 
-When were full info for this chat last cached.
+When was full info for this chat last cached.
 
 
 Parameters:

@@ -922,9 +922,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.toggleDialogPin.html" name="messages.toggleDialogPin">Pin/unpin a dialog: messages.toggleDialogPin</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#callplay-int-id-string-file-void" name="callPlay">Play file in call: callPlay</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#callplay-int-id-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-ipc-wrapper-readablestream-string-file-void" name="callPlay">Play file in call: callPlay</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#callplayonhold-int-id-string-files-void" name="callPlayOnHold">Play files on hold in call: callPlayOnHold</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#callplayonhold-int-id-string-localfile-remoteurl-amp-bytestream-readablestream-files-void" name="callPlayOnHold">Play files on hold in call: callPlayOnHold</a>
 
 * <a href="channels.getMessages.html" name="channels.getMessages">Please use the event handler: channels.getMessages</a>
 
@@ -1324,7 +1324,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.updateDeviceLocked.html" name="account.updateDeviceLocked">When client-side passcode lock feature is enabled, will not show message texts in incoming PUSH notifications: account.updateDeviceLocked</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#fullchatlastupdated-mixed-id-int" name="fullChatLastUpdated">When were full info for this chat last cached: fullChatLastUpdated</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#fullchatlastupdated-mixed-id-int" name="fullChatLastUpdated">When was full info for this chat last cached: fullChatLastUpdated</a>
 
 * <a href="account.getContactSignUpNotification.html" name="account.getContactSignUpNotification">Whether the user will receive notifications when contacts sign up: account.getContactSignUpNotification</a>
 

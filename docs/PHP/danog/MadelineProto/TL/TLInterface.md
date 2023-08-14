@@ -25,7 +25,6 @@ parent: "MadelineProto API"
 * [`serializeObject(array $type, mixed $object, string $ctx, int $layer = -1): mixed`](#serializeobject-array-type-mixed-object-string-ctx-int-layer-1-mixed)
 * [`serializeMethod(string $method, mixed $arguments): mixed`](#serializemethod-string-method-mixed-arguments-mixed)
 * [`getLength(\resource|string $stream, array $type = [  'type' => '',]): int`](#getlength-resource-string-stream-array-type-type-int)
-* [`getSideEffects(): ?\Amp\Future`](#getsideeffects-amp-future)
 * [`deserialize(string|\resource $stream, array $type): mixed`](#deserialize-string-resource-stream-array-type-mixed)
 
 ## Methods:
@@ -108,17 +107,6 @@ Parameters:
 
 #### See also: 
 * `\resource`
-
-
-
-
-### `getSideEffects(): ?\Amp\Future`
-
-
-
-
-#### See also: 
-* `\Amp\Future`
 
 
 
