@@ -29,7 +29,7 @@ parent: "MadelineProto API"
 * [`then(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): self`](#then-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-file-self)
 * [`skip(): self`](#skip-self)
 * [`stop(): self`](#stop-self)
-* [`playOnHold((\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream)[] $files): self`](#playonhold-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-files-self)
+* [`playOnHold(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): self`](#playonhold-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-files-self)
 * [`getCallState(): \danog\MadelineProto\VoIP\CallState`](#getcallstate-danog-madelineproto-voip-callstate)
 
 ## Methods:
@@ -111,14 +111,14 @@ Stops playing all files, clears the main and the hold playlist.
 
 
 
-### `playOnHold((\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream)[] $files): self`
+### `playOnHold(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): self`
 
 Files to play on hold.
 
 
 Parameters:
 
-* `$files`: `(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream)[]`   
+* `...$files`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
 
 
 #### See also: 
