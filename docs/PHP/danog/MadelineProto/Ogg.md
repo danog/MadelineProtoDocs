@@ -34,37 +34,66 @@ Async OGG stream reader and writer.
 
 ## Properties
 * `$opusPackets`: `iterable<string>` 
+* `$vendorString`: `string` 
+* `$comments`: `list<string>` 
 
 ## Method list:
-* [`__construct(\danog\MadelineProto\Stream\BufferedStreamInterface $stream)`](#__construct-danog-madelineproto-stream-bufferedstreaminterface-stream)
-* [`convert(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $wavIn, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $oggOut): void`](#convert-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-wavin-danog-madelineproto-localfile-amp-bytestream-writablestream-oggout-void)
+* [`__construct(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL)`](#__construct-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-stream-amp-cancellation-cancellation-null)
+* [`validate(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, ?\Amp\Cancellation $cancellation = NULL): void`](#validate-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-file-amp-cancellation-cancellation-null-void)
+* [`convert(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $in, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $oggOut, ?\Amp\Cancellation $cancellation = NULL): void`](#convert-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-in-danog-madelineproto-localfile-amp-bytestream-writablestream-oggout-amp-cancellation-cancellation-null-void)
+* [`convertWav(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $wavIn, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $oggOut, ?\Amp\Cancellation $cancellation = NULL): void`](#convertwav-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-wavin-danog-madelineproto-localfile-amp-bytestream-writablestream-oggout-amp-cancellation-cancellation-null-void)
 
 ## Methods:
-### `__construct(\danog\MadelineProto\Stream\BufferedStreamInterface $stream)`
+### `__construct(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL)`
 
 Constructor.
 
 
 Parameters:
 
-* `$stream`: `\danog\MadelineProto\Stream\BufferedStreamInterface` The stream  
+* `$stream`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
+* `$cancellation`: `?\Amp\Cancellation`   
 
 
 #### See also: 
-* `\danog\MadelineProto\Stream\BufferedStreamInterface`
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
+* `\Amp\ByteStream\ReadableStream`
+* `\Amp\Cancellation`
 
 
 
 
-### `convert(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $wavIn, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $oggOut): void`
+### `validate(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, ?\Amp\Cancellation $cancellation = NULL): void`
 
-
+Validate that the specified file, URL or stream is a valid VoIP OGG OPUS file.
 
 
 Parameters:
 
-* `$wavIn`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
-* `$oggOut`: `\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream`   
+* `$file`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
+* `$cancellation`: `?\Amp\Cancellation`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
+* `\Amp\ByteStream\ReadableStream`
+* `\Amp\Cancellation`
+
+
+
+
+### `convert(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $in, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $oggOut, ?\Amp\Cancellation $cancellation = NULL): void`
+
+Converts a file, URL, or stream of any format (including video) into an OGG audio stream suitable for consumption by MadelineProto's VoIP implementation.
+
+
+Parameters:
+
+* `$in`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream` The input file, URL or stream.  
+* `$oggOut`: `\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream` The output file or stream.  
+* `$cancellation`: `?\Amp\Cancellation`   
 
 
 #### See also: 
@@ -72,6 +101,29 @@ Parameters:
 * [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
 * `\Amp\ByteStream\ReadableStream`
 * `\Amp\ByteStream\WritableStream`
+* `\Amp\Cancellation`
+
+
+
+
+### `convertWav(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $wavIn, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $oggOut, ?\Amp\Cancellation $cancellation = NULL): void`
+
+Converts a file, URL, or stream in WAV format @ 48khz into an OGG audio stream suitable for consumption by MadelineProto's VoIP implementation.
+
+
+Parameters:
+
+* `$wavIn`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream` The input file, URL or stream.  
+* `$oggOut`: `\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream` The output file or stream.  
+* `$cancellation`: `?\Amp\Cancellation`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
+* `\Amp\ByteStream\ReadableStream`
+* `\Amp\ByteStream\WritableStream`
+* `\Amp\Cancellation`
 
 
 

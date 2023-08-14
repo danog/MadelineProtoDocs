@@ -87,6 +87,7 @@ PHP implementation of telegram's MTProto protocol.
 * [\danog\MadelineProto\SecurityException: Indicates a security error.](/PHP/danog/MadelineProto/SecurityException.html)
 * [\danog\MadelineProto\Settings: Settings class used for configuring MadelineProto.](/PHP/danog/MadelineProto/Settings.html)
 * [\danog\MadelineProto\Shutdown: Class that controls script shutdown.](/PHP/danog/MadelineProto/Shutdown.html)
+* [\danog\MadelineProto\VoIP](/PHP/danog/MadelineProto/VoIP.html)
 * [\danog\MadelineProto\VoIPServerConfig: Manages storage of VoIP server config.](/PHP/danog/MadelineProto/VoIPServerConfig.html)
 * [\danog\MadelineProto\Broadcast\Filter: Broadcast filter.](/PHP/danog/MadelineProto/Broadcast/Filter.html)
 * [\danog\MadelineProto\Broadcast\Progress: Broadcast progress.](/PHP/danog/MadelineProto/Broadcast/Progress.html)

@@ -58,9 +58,8 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`broadcastForwardMessages(mixed $from_peer, list<int> $message_ids, bool $drop_author = false, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, bool $pin = false): int`](#broadcastforwardmessages-mixed-from_peer-list-int-message_ids-bool-drop_author-false-danog-madelineproto-broadcast-filter-filter-null-bool-pin-false-int)
 * [`broadcastMessages(array $messages, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, bool $pin = false): int`](#broadcastmessages-array-messages-danog-madelineproto-broadcast-filter-filter-null-bool-pin-false-int)
 * [`callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<\T>`](#callfork-generator-amp-future-callable-callable-mixed-args-amp-future-t)
-* [`callPlay(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\Ipc\Wrapper\ReadableStream|string $file): void`](#callplay-int-id-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-ipc-wrapper-readablestream-string-file-void)
-* [`callPlayOnHold(int $id, (string|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream)[] $files): void`](#callplayonhold-int-id-string-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-files-void)
-* [`callStatus(int $id): ?\danog\MadelineProto\VoIP\CallState`](#callstatus-int-id-danog-madelineproto-voip-callstate)
+* [`callPlay(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): void`](#callplay-int-id-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-file-void)
+* [`callPlayOnHold(int $id, (\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream)[] $files): void`](#callplayonhold-int-id-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-files-void)
 * [`cancelBroadcast(int $id): void`](#cancelbroadcast-int-id-void)
 * [`closeConnection(string $message): void`](#closeconnection-string-message-void)
 * [`complete2faLogin(string $password): array`](#complete2falogin-string-password-array)
@@ -96,6 +95,7 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`getAuthorization(): \danog\MadelineProto\API::NOT_LOGGED_IN|\danog\MadelineProto\API::WAITING_CODE|\danog\MadelineProto\API::WAITING_SIGNUP|\danog\MadelineProto\API::WAITING_PASSWORD|\danog\MadelineProto\API::LOGGED_IN|\API::LOGGED_OUT`](#getauthorization-danog-madelineproto-api-not_logged_in-danog-madelineproto-api-waiting_code-danog-madelineproto-api-waiting_signup-danog-madelineproto-api-waiting_password-danog-madelineproto-api-logged_in-api-logged_out)
 * [`getBroadcastProgress(int $id): ?\danog\MadelineProto\Broadcast\Progress`](#getbroadcastprogress-int-id-danog-madelineproto-broadcast-progress)
 * [`getCachedConfig(): array`](#getcachedconfig-array)
+* [`getCall(int $id): ?\danog\MadelineProto\VoIP`](#getcall-int-id-danog-madelineproto-voip)
 * [`getCallByPeer(int $userId): ?\danog\MadelineProto\VoIP`](#getcallbypeer-int-userid-danog-madelineproto-voip)
 * [`getCallState(int $id): ?\danog\MadelineProto\VoIP\CallState`](#getcallstate-int-id-danog-madelineproto-voip-callstate)
 * [`getCdnConfig(): void`](#getcdnconfig-void)
@@ -167,6 +167,7 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`mbStrSplit(string $text, int $length): string[]`](#mbstrsplit-string-text-int-length-string)
 * [`mbStrlen(string $text): int`](#mbstrlen-string-text-int)
 * [`mbSubstr(string $text, int $offset, null|int $length = NULL): string`](#mbsubstr-string-text-int-offset-null-int-length-null-string)
+* [`openBuffered(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL): callable`](#openbuffered-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-stream-amp-cancellation-cancellation-null-callable)
 * [`openFileAppendOnly(string $path): \Amp\File\File`](#openfileappendonly-string-path-amp-file-file)
 * [`packDouble(float $value): string`](#packdouble-float-value-string)
 * [`packSignedInt(int $value): string`](#packsignedint-int-value-string)
@@ -185,7 +186,7 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`rekey(int $chat): ?string`](#rekey-int-chat-string)
 * [`report(string $message, string $parseMode = ''): void`](#report-string-message-string-parsemode-void)
 * [`reportMemoryProfile(): void`](#reportmemoryprofile-void)
-* [`requestCall(mixed $user): mixed`](#requestcall-mixed-user-mixed)
+* [`requestCall(mixed $user): \danog\MadelineProto\VoIP`](#requestcall-mixed-user-danog-madelineproto-voip)
 * [`requestSecretChat(mixed $user): mixed`](#requestsecretchat-mixed-user-mixed)
 * [`resetUpdateState(): void`](#resetupdatestate-void)
 * [`restart(): void`](#restart-void)
@@ -202,9 +203,11 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`setReportPeers(int|string|(int|string)[] $userOrId): void`](#setreportpeers-int-string-int-string-userorid-void)
 * [`setWebhook(string $webhookUrl): void`](#setwebhook-string-webhookurl-void)
 * [`setupLogger(): void`](#setuplogger-void)
+* [`skipPlay(int $id): void`](#skipplay-int-id-void)
 * [`sleep(float $time): void`](#sleep-float-time-void)
 * [`start(): mixed`](#start-mixed)
 * [`stop(): void`](#stop-void)
+* [`stopPlay(int $id): void`](#stopplay-int-id-void)
 * [`stringToStream(string $str): \Amp\ByteStream\ReadableBuffer`](#stringtostream-string-str-amp-bytestream-readablebuffer)
 * [`subscribeToUpdates(mixed $channel): \bool False if we were already subscribed`](#subscribetoupdates-mixed-channel-bool-false-if-we-were-already-subscribed)
 * [`tdToMTProto(array $params): array`](#tdtomtproto-array-params-array)
@@ -523,7 +526,7 @@ Parameters:
 
 
 
-### `callPlay(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\Ipc\Wrapper\ReadableStream|string $file): void`
+### `callPlay(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): void`
 
 Play file in call.
 
@@ -531,26 +534,7 @@ Play file in call.
 Parameters:
 
 * `$id`: `int`   
-* `$file`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\Ipc\Wrapper\ReadableStream|string`   
-
-
-#### See also: 
-* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
-* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
-* `\danog\MadelineProto\Ipc\Wrapper\ReadableStream`
-
-
-
-
-### `callPlayOnHold(int $id, (string|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream)[] $files): void`
-
-Play files on hold in call.
-
-
-Parameters:
-
-* `$id`: `int`   
-* `$files`: `(string|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream)[]`   
+* `$file`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
 
 
 #### See also: 
@@ -561,18 +545,21 @@ Parameters:
 
 
 
-### `callStatus(int $id): ?\danog\MadelineProto\VoIP\CallState`
+### `callPlayOnHold(int $id, (\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream)[] $files): void`
 
-Get call status.
+Play files on hold in call.
 
 
 Parameters:
 
-* `$id`: `int` Call ID  
+* `$id`: `int`   
+* `$files`: `(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream)[]`   
 
 
 #### See also: 
-* [\danog\MadelineProto\VoIP\CallState](../../danog/MadelineProto/VoIP/CallState.html)
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
+* `\Amp\ByteStream\ReadableStream`
 
 
 
@@ -1039,9 +1026,25 @@ Get cached server-side config.
 
 
 
+### `getCall(int $id): ?\danog\MadelineProto\VoIP`
+
+Get phone call information.
+
+
+Parameters:
+
+* `$id`: `int`   
+
+
+#### See also: 
+* [\danog\MadelineProto\VoIP](../../danog/MadelineProto/VoIP.html)
+
+
+
+
 ### `getCallByPeer(int $userId): ?\danog\MadelineProto\VoIP`
 
-Get the call with the specified user ID.
+Get the phone call with the specified user ID.
 
 
 Parameters:
@@ -1050,7 +1053,7 @@ Parameters:
 
 
 #### See also: 
-* `\danog\MadelineProto\VoIP`
+* [\danog\MadelineProto\VoIP](../../danog/MadelineProto/VoIP.html)
 
 
 
@@ -1789,6 +1792,26 @@ Parameters:
 
 
 
+### `openBuffered(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL): callable`
+
+Provide a buffered reader for a file, URL or amp stream.
+
+
+Parameters:
+
+* `$stream`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
+* `$cancellation`: `?\Amp\Cancellation`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
+* `\Amp\ByteStream\ReadableStream`
+* `\Amp\Cancellation`
+
+
+
+
 ### `openFileAppendOnly(string $path): \Amp\File\File`
 
 Opens a file in append-only mode.
@@ -2000,7 +2023,7 @@ Report memory profile with memprof.
 
 
 
-### `requestCall(mixed $user): mixed`
+### `requestCall(mixed $user): \danog\MadelineProto\VoIP`
 
 Request VoIP call.
 
@@ -2008,6 +2031,11 @@ Request VoIP call.
 Parameters:
 
 * `$user`: `mixed` User  
+
+
+#### See also: 
+* [\danog\MadelineProto\VoIP](../../danog/MadelineProto/VoIP.html)
+
 
 
 
@@ -2265,6 +2293,17 @@ Setup logger.
 
 
 
+### `skipPlay(int $id): void`
+
+When called, skips to the next file in the playlist.
+
+
+Parameters:
+
+* `$id`: `int`   
+
+
+
 ### `sleep(float $time): void`
 
 Asynchronously sleep.
@@ -2285,6 +2324,17 @@ Log in to telegram (via CLI or web).
 ### `stop(): void`
 
 Stop update loop.
+
+
+
+### `stopPlay(int $id): void`
+
+Stops playing all files in the call, clears the main and the hold playlist.
+
+
+Parameters:
+
+* `$id`: `int`   
 
 
 

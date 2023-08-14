@@ -70,8 +70,10 @@ use danog\MadelineProto\EventHandler\Message\Service\DialogPhotoChanged;
 use danog\MadelineProto\EventHandler\SimpleFilter\FromAdmin;
 use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
 use danog\MadelineProto\EventHandler\SimpleFilter\IsReply;
+use danog\MadelineProto\LocalFile;
 use danog\MadelineProto\Logger;
 use danog\MadelineProto\ParseMode;
+use danog\MadelineProto\RemoteUrl;
 use danog\MadelineProto\Settings;
 use danog\MadelineProto\Settings\Database\Mysql;
 use danog\MadelineProto\Settings\Database\Postgres;
@@ -332,13 +334,13 @@ class MyEventHandler extends SimpleEventHandler
     #[FilterCommand('call')]
     public function callVoip(Incoming&Message $message): void
     {
-        $this->requestCall($message->senderId)->play(__DIR__.'/../music.ogg');
+        $this->requestCall($message->senderId)->play(new RemoteUrl('http://icestreaming.rai.it/1.mp3'));
     }
 
     #[Handler]
     public function handleIncomingCall(VoIP&Incoming $call): void
     {
-        $call->accept()->play(__DIR__.'/../music.ogg');
+        $c=$call->accept()->play(new RemoteUrl('http://icestreaming.rai.it/1.mp3'));
     }
 
     public static function getPluginPaths(): string|array|null
@@ -350,7 +352,9 @@ class MyEventHandler extends SimpleEventHandler
 $settings = new Settings;
 $settings->getLogger()->setLevel(Logger::LEVEL_ULTRA_VERBOSE);
 
-// You can also use Redis, MySQL or PostgreSQL
+// You can also use Redis, MySQL or PostgreSQL.
+// Data is migrated automatically.
+//
 // $settings->setDb((new Redis)->setDatabase(0)->setPassword('pony'));
 // $settings->setDb((new Postgres)->setDatabase('MadelineProto')->setUsername('daniil')->setPassword('pony'));
 // $settings->setDb((new Mysql)->setDatabase('MadelineProto')->setUsername('daniil')->setPassword('pony'));
