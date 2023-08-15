@@ -127,6 +127,8 @@ Accepting calls is just as easy:
 ```php
 <?php
 
+declare(strict_types=1);
+
 if (!file_exists('madeline.php')) {
     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
@@ -137,7 +139,7 @@ use danog\MadelineProto\VoIP;
 use danog\MadelineProto\RemoteUrl;
 use danog\MadelineProto\EventHandler\Attributes\Handler;
 
-class PonyHandler extends \danog\MadelineProto\EventHandler
+class PonyHandler extends \danog\MadelineProto\SimpleEventHandler
 {
     #[Handler]
     public function handleIncomingCall(VoIP&Incoming $call): void
