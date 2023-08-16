@@ -29,19 +29,18 @@ These settings are controlled by the following classes in the `\danog\MadelinePr
 
 These classes can be instantiated and passed individually to MadelineProto:  
 ```php
-$settings = (new Database\Mysql)
-    ->setUri('tcp://localhost')
-    ->setPassword('pass');
+$settings = (new \danog\MadelineProto\Settings\AppInfo)
+    ->setApiId(124)
+    ->setApiHash('xx');
 
 $API = new \danog\MadelineProto\API('session.madeline', $settings);
 ```
 
 To modify the settings of an already created instance, `updateSettings` must be used, as passing them to the constructor won't work for performance reasons:  
 ```php
-$settings = (new Database\Postgres)
-    ->setUri('tcp://localhost')
-    ->setPassword('pass');
-
+$settings = (new \danog\MadelineProto\Settings\AppInfo)
+    ->setApiId(124)
+    ->setApiHash('xx');
 
 $MadelineProto->updateSettings($settings);
 ```
@@ -54,9 +53,13 @@ You can also group settings in a single [\danog\MadelineProto\Settings](../PHP/d
 
 ```php
 $settings = new \danog\MadelineProto\Settings;
-$settings->setDb((new Database\Mysql)
+$settings->setDb((new \danog\MadelineProto\Settings\Database\Mysql)
     ->setUri('tcp://localhost')
     ->setPassword('pass')
+);
+$settings->setAppInfo((new \danog\MadelineProto\Settings\AppInfo)
+    ->setApiId(124)
+    ->setApiHash('xx')
 );
 $settings->getFiles()->setUploadParallelChunks(100);
 

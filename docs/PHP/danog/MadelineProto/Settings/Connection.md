@@ -31,7 +31,7 @@ Connection settings.
 * [`setRobinPeriod(int $robinPeriod): self`](#setrobinperiod-int-robinperiod-self)
 * [`getProxies(): array<class-string<\danog\MadelineProto\Stream\StreamInterface>, array>`](#getproxies-array-class-string-danog-madelineproto-stream-streaminterface-array)
 * [`addProxy(class-string<\danog\MadelineProto\Stream\StreamInterface> $proxy, array $extra = []): self`](#addproxy-class-string-danog-madelineproto-stream-streaminterface-proxy-array-extra-self)
-* [`setProxy(array $proxies): self`](#setproxy-array-proxies-self)
+* [`setProxies(array<class-string<\danog\MadelineProto\Stream\StreamInterface>, list<array>> $proxies): self`](#setproxies-array-class-string-danog-madelineproto-stream-streaminterface-list-array-proxies-self)
 * [`clearProxies(): self`](#clearproxies-self)
 * [`removeProxy(string $proxy, array $extra): self`](#removeproxy-string-proxy-array-extra-self)
 * [`getObfuscated(): bool`](#getobfuscated-bool)
@@ -233,14 +233,25 @@ Parameters:
 
 
 
-### `setProxy(array $proxies): self`
+### `setProxies(array<class-string<\danog\MadelineProto\Stream\StreamInterface>, list<array>> $proxies): self`
 
 Set proxies.
-
+The key must be one of:  
+  
+* `\danog\MadelineProto\Stream\MTProtoTransport\ObfuscatedStream::class`  
+* `\danog\MadelineProto\Stream\Proxy\HttpProxy::class`  
+* `\danog\MadelineProto\Stream\Proxy\SocksProxy::class`  
+  
+The value must be a list of extra (URI, username, password) for that proxy.
 
 Parameters:
 
-* `$proxies`: `array` Proxies  
+* `$proxies`: `array<class-string<\danog\MadelineProto\Stream\StreamInterface>, list<array>>` Proxies  
+
+
+#### See also: 
+* `\danog\MadelineProto\Stream\StreamInterface`
+
 
 
 

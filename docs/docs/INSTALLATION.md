@@ -66,7 +66,7 @@ composer.json:
     "authors": [
         {
             "name": "Daniil Gentili",
-            "email": "daniil.gentili.dg@gmail.com"
+            "email": "daniil@daniil.it"
         }
     ],
     "autoload": {
