@@ -1,8 +1,8 @@
 ---
-title: "Handling updates (new messages & other events)"
-description: "Update handling can be done in different ways: "
-nav_order: 11
+title: "Upgrading from MadelineProto v7 to v8"
+description: "MadelineProto v8 is a major MadelineProto update, that removes a large number of long-deprecated APIs: I've created this upgrade checklist, to simplify the upgrade process."
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+nav_exclude: true
 ---
 # Upgrading from MadelineProto v7 to v8
 
