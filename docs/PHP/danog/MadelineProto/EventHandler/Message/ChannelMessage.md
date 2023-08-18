@@ -16,7 +16,7 @@ Represents an incoming or outgoing channel message.
 
 
 ## Properties
-* `$views`: `int` View counter
+* `$views`: `?int` View counter
 * `$signature`: `?string` Author of the post, if signatures are enabled
 * `$message`: `string` Content of the message
 * `$fwdInfo`: `?\danog\MadelineProto\EventHandler\ForwardedInfo` Info about a forwarded message
