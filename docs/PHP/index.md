@@ -188,7 +188,7 @@ PHP implementation of telegram's MTProto protocol.
 * [\danog\MadelineProto\TL\Types\Bytes: Bytes wrapper.](/PHP/danog/MadelineProto/TL/Types/Bytes.html)
 * [\danog\MadelineProto\TL\Types\LoginQrCode: Represents a login QR code.](/PHP/danog/MadelineProto/TL/Types/LoginQrCode.html)
 * [\danog\MadelineProto\VoIP\CallState](/PHP/danog/MadelineProto/VoIP/CallState.html)
-* [\danog\MadelineProto\VoIP\DiscardReason: Why was the call discareded?](/PHP/danog/MadelineProto/VoIP/DiscardReason.html)
+* [\danog\MadelineProto\VoIP\DiscardReason: Why was the call discarded?](/PHP/danog/MadelineProto/VoIP/DiscardReason.html)
 * [\danog\MadelineProto\VoIP\Endpoint](/PHP/danog/MadelineProto/VoIP/Endpoint.html)
 * [\danog\MadelineProto\VoIP\VoIPState: VoIP protcol state.](/PHP/danog/MadelineProto/VoIP/VoIPState.html)
 

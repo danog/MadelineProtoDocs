@@ -646,7 +646,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\VoIP\DiscardReason`: Why was the call discareded?](../../danog/MadelineProto/VoIP/DiscardReason.html)
+* [`\danog\MadelineProto\VoIP\DiscardReason`: Why was the call discarded?](../../danog/MadelineProto/VoIP/DiscardReason.html)
 
 
 

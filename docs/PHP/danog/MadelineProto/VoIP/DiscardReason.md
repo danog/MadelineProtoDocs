@@ -1,5 +1,5 @@
 ---
-title: "danog\\MadelineProto\\VoIP\\DiscardReason: Why was the call discareded?"
+title: "danog\\MadelineProto\\VoIP\\DiscardReason: Why was the call discarded?"
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
@@ -11,7 +11,7 @@ parent: "MadelineProto API"
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Why was the call discareded?  
+Why was the call discarded?  
 
 
 
