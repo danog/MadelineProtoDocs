@@ -17,7 +17,7 @@ Why was the call discarded?
 
 
 ## Constants
-* `danog\MadelineProto\VoIP\DiscardReason::MISSED`: 
+* `danog\MadelineProto\VoIP\DiscardReason::MISSED`: We missed the call
 
 * `danog\MadelineProto\VoIP\DiscardReason::DISCONNECTED`: The phone call was disconnected
 
