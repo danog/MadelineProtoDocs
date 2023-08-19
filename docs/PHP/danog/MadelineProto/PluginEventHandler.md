@@ -135,6 +135,7 @@ Plugin event handler class.
 * [`getSessionName(): string`](#getsessionname-string)
 * [`getSettings(): \danog\MadelineProto\Settings`](#getsettings-danog-madelineproto-settings)
 * [`getSponsoredMessages(int|string|array $peer): ?array`](#getsponsoredmessages-int-string-array-peer-array)
+* [`getStreamPipe(): \Amp\ByteStream\Pipe`](#getstreampipe-amp-bytestream-pipe)
 * [`getTL(): \danog\MadelineProto\TL\TLInterface`](#gettl-danog-madelineproto-tl-tlinterface)
 * [`getType(mixed $id): \danog\MadelineProto\API::PEER_TYPE_*`](#gettype-mixed-id-danog-madelineproto-api-peer_type_)
 * [`getUpdates(array{offset?: int, limit?: int, timeout?: float} $params = []): list<array{update_id: mixed, update: mixed}>`](#getupdates-array-offset-int-limit-int-timeout-float-params-list-array-update_id-mixed-update-mixed)
@@ -228,8 +229,8 @@ Plugin event handler class.
 * [`updateSettings(\danog\MadelineProto\SettingsAbstract $settings): void`](#updatesettings-danog-madelineproto-settingsabstract-settings-void)
 * [`upload(\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|\resource $file, string $fileName = '', callable $cb = NULL, bool $encrypted = false): mixed`](#upload-danog-madelineproto-filecallbackinterface-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-string-array-resource-file-string-filename-callable-cb-null-bool-encrypted-false-mixed)
 * [`uploadEncrypted(\danog\MadelineProto\FileCallbackInterface|string|array $file, string $fileName = '', callable $cb = NULL): mixed`](#uploadencrypted-danog-madelineproto-filecallbackinterface-string-array-file-string-filename-callable-cb-null-mixed)
-* [`uploadFromCallable(mixed $callable, int $size, string $mime, string $fileName = '', callable $cb = NULL, bool $seekable = true, bool $encrypted = false): mixed`](#uploadfromcallable-mixed-callable-int-size-string-mime-string-filename-callable-cb-null-bool-seekable-true-bool-encrypted-false-mixed)
-* [`uploadFromStream(mixed $stream, int $size, string $mime, string $fileName = '', callable $cb = NULL, bool $encrypted = false): mixed`](#uploadfromstream-mixed-stream-int-size-string-mime-string-filename-callable-cb-null-bool-encrypted-false-mixed)
+* [`uploadFromCallable(mixed $callable, int $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable $cb = NULL, bool $seekable = true, bool $encrypted = false): mixed`](#uploadfromcallable-mixed-callable-int-size-0-string-mime-application-octet-stream-string-filename-callable-cb-null-bool-seekable-true-bool-encrypted-false-mixed)
+* [`uploadFromStream(mixed $stream, int $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable $cb = NULL, bool $encrypted = false): mixed`](#uploadfromstream-mixed-stream-int-size-0-string-mime-application-octet-stream-string-filename-callable-cb-null-bool-encrypted-false-mixed)
 * [`uploadFromTgfile(mixed $media, callable $cb = NULL, bool $encrypted = false): mixed`](#uploadfromtgfile-mixed-media-callable-cb-null-bool-encrypted-false-mixed)
 * [`uploadFromUrl(string|\danog\MadelineProto\FileCallbackInterface $url, int $size = 0, string $fileName = '', callable $cb = NULL, bool $encrypted = false): mixed`](#uploadfromurl-string-danog-madelineproto-filecallbackinterface-url-int-size-0-string-filename-callable-cb-null-bool-encrypted-false-mixed)
 * [`validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): list<\danog\MadelineProto\EventHandlerIssue>`](#validateeventhandlerclass-class-string-danog-madelineproto-eventhandler-class-list-danog-madelineproto-eventhandlerissue)
@@ -1470,6 +1471,17 @@ Parameters:
 
 
 
+### `getStreamPipe(): \Amp\ByteStream\Pipe`
+
+Obtains a pipe that can be used to upload a file from a stream.
+
+
+#### See also: 
+* `\Amp\ByteStream\Pipe`
+
+
+
+
 ### `getTL(): \danog\MadelineProto\TL\TLInterface`
 
 Get TL serializer.
@@ -2583,7 +2595,7 @@ Parameters:
 
 
 
-### `uploadFromCallable(mixed $callable, int $size, string $mime, string $fileName = '', callable $cb = NULL, bool $seekable = true, bool $encrypted = false): mixed`
+### `uploadFromCallable(mixed $callable, int $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable $cb = NULL, bool $seekable = true, bool $encrypted = false): mixed`
 
 Upload file from callable.
 The callable must accept two parameters: int $offset, int $size  
@@ -2601,7 +2613,7 @@ Parameters:
 
 
 
-### `uploadFromStream(mixed $stream, int $size, string $mime, string $fileName = '', callable $cb = NULL, bool $encrypted = false): mixed`
+### `uploadFromStream(mixed $stream, int $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable $cb = NULL, bool $encrypted = false): mixed`
 
 Upload file from stream.
 

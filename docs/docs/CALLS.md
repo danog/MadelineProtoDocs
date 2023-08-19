@@ -86,7 +86,7 @@ You can also play Telegram files, using AMP streams!
 
 Starting from MadelineProto 8, VoIP now works on webhosts, too, thanks to a pure PHP implementation of libtgvoip and a pure PHP OGG demuxer!
 
-The only limitation when running on webhosts is that audio files must be preconverted using by sending them to [@libtgvoip_bot](https://t.me/libtgvoip_bot), or by using the following script on your PC:
+The only limitation when running on webhosts is that audio files must be preconverted using by sending them to [@libtgvoip_bot](https://t.me/libtgvoip_bot) ([source code](https://github.com/danog/MadelineProto/blob/v8/examples/libtgvoipbot.php)), or by using the following script on your PC:
 
 ```php
 <?php

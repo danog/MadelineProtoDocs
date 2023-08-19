@@ -48,6 +48,7 @@ Some tools.
 * [`end(array $what): mixed`](#end-array-what-mixed)
 * [`isAltervista(): bool`](#isaltervista-bool)
 * [`openFileAppendOnly(string $path): \Amp\File\File`](#openfileappendonly-string-path-amp-file-file)
+* [`getStreamPipe(): \Amp\ByteStream\Pipe`](#getstreampipe-amp-bytestream-pipe)
 * [`openBuffered(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL): callable`](#openbuffered-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-stream-amp-cancellation-cancellation-null-callable)
 * [`validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): list<\danog\MadelineProto\EventHandlerIssue>`](#validateeventhandlerclass-class-string-danog-madelineproto-eventhandler-class-list-danog-madelineproto-eventhandlerissue)
 * [`rethrow(\Throwable $e): void`](#rethrow-throwable-e-void)
@@ -364,6 +365,17 @@ Parameters:
 
 #### See also: 
 * `\Amp\File\File`
+
+
+
+
+### `getStreamPipe(): \Amp\ByteStream\Pipe`
+
+Obtains a pipe that can be used to upload a file from a stream.
+
+
+#### See also: 
+* `\Amp\ByteStream\Pipe`
 
 
 

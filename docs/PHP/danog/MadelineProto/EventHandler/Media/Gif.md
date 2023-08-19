@@ -36,6 +36,7 @@ Represents a GIF (or an MPEG4 file without sound).
 
 ## Method list:
 * [`getDownloadLink(string|null $scriptUrl = NULL): string`](#getdownloadlink-string-null-scripturl-null-string)
+* [`getStream(): \Amp\ByteStream\ReadableStream`](#getstream-amp-bytestream-readablestream)
 
 ## Methods:
 ### `getDownloadLink(string|null $scriptUrl = NULL): string`
@@ -46,6 +47,17 @@ Gets a download link for any file up to 4GB.
 Parameters:
 
 * `$scriptUrl`: `string|null` Optional path to custom download script (not needed when running via web)  
+
+
+
+### `getStream(): \Amp\ByteStream\ReadableStream`
+
+Get a readable amp stream with the file contents.
+
+
+#### See also: 
+* `\Amp\ByteStream\ReadableStream`
+
 
 
 
