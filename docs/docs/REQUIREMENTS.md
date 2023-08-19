@@ -36,13 +36,12 @@ sudo LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
 sudo apt-get update
 sudo apt-get install php8.2 php8.2-dev php8.2-xml php8.2-zip php8.2-gmp php8.2-cli php8.2-mbstring php8.2-ffi php-pear libuv1-dev -y
 sudo pecl install uv
+echo extension=uv.so | sudo tee $(php --ini | sed '/additional .ini/!d;s/.*: //g')/uv.ini
 
 echo 262144 | sudo tee /proc/sys/vm/max_map_count
 echo vm.max_map_count=262144 | sudo tee /etc/sysctl.d/40-madelineproto.conf
 
 ```
-
-Next, add `extension=uv.so` to php.ini.  
 
 Finally, follow the instructions on [prime.madelineproto.xyz](https://prime.madelineproto.xyz) to install PrimeModule.
 
