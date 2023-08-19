@@ -23,22 +23,47 @@ VoIP protcol state.
 
 * `danog\MadelineProto\VoIP\VoIPState::WAIT_INIT_ACK`: 
 
+* `danog\MadelineProto\VoIP\VoIPState::WAIT_PONG`: 
+
+* `danog\MadelineProto\VoIP\VoIPState::WAIT_STREAM_INIT`: 
+
 * `danog\MadelineProto\VoIP\VoIPState::ESTABLISHED`: 
-
-* `danog\MadelineProto\VoIP\VoIPState::FAILED`: 
-
-* `danog\MadelineProto\VoIP\VoIPState::RECONNECTING`: 
 
 ## Properties
 * `$name`: `string` 
+* `$value`: `int` 
 
 ## Method list:
 * [`cases(): array`](#cases-array)
+* [`from(string|int $value): static`](#from-string-int-value-static)
+* [`tryFrom(string|int $value): ?static`](#tryfrom-string-int-value-static)
 
 ## Methods:
 ### `cases(): array`
 
 
+
+
+
+### `from(string|int $value): static`
+
+
+
+
+Parameters:
+
+* `$value`: `string|int`   
+
+
+
+### `tryFrom(string|int $value): ?static`
+
+
+
+
+Parameters:
+
+* `$value`: `string|int`   
 
 
 

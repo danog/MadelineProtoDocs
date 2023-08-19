@@ -88,7 +88,6 @@ PHP implementation of telegram's MTProto protocol.
 * [\danog\MadelineProto\Settings: Settings class used for configuring MadelineProto.](/PHP/danog/MadelineProto/Settings.html)
 * [\danog\MadelineProto\Shutdown: Class that controls script shutdown.](/PHP/danog/MadelineProto/Shutdown.html)
 * [\danog\MadelineProto\VoIP](/PHP/danog/MadelineProto/VoIP.html)
-* [\danog\MadelineProto\VoIPServerConfig: Manages storage of VoIP server config.](/PHP/danog/MadelineProto/VoIPServerConfig.html)
 * [\danog\MadelineProto\Broadcast\Filter: Broadcast filter.](/PHP/danog/MadelineProto/Broadcast/Filter.html)
 * [\danog\MadelineProto\Broadcast\Progress: Broadcast progress.](/PHP/danog/MadelineProto/Broadcast/Progress.html)
 * [\danog\MadelineProto\Broadcast\Status: Broadcast status.](/PHP/danog/MadelineProto/Broadcast/Status.html)
@@ -189,7 +188,6 @@ PHP implementation of telegram's MTProto protocol.
 * [\danog\MadelineProto\TL\Types\LoginQrCode: Represents a login QR code.](/PHP/danog/MadelineProto/TL/Types/LoginQrCode.html)
 * [\danog\MadelineProto\VoIP\CallState](/PHP/danog/MadelineProto/VoIP/CallState.html)
 * [\danog\MadelineProto\VoIP\DiscardReason: Why was the call discarded?](/PHP/danog/MadelineProto/VoIP/DiscardReason.html)
-* [\danog\MadelineProto\VoIP\Endpoint](/PHP/danog/MadelineProto/VoIP/Endpoint.html)
 * [\danog\MadelineProto\VoIP\VoIPState: VoIP protcol state.](/PHP/danog/MadelineProto/VoIP/VoIPState.html)
 
 ## Traits
