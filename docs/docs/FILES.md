@@ -231,12 +231,10 @@ More optional parameters are available, check the PHPDOC of the method in your I
 You can also upload a file from a stream (this is especially useful, for example, when downloading YouTube videos using `youtube-dl` with `ffmpeg` and [async AMPHP CLI streams](https://github.com/amphp/process)):  
 
 ```php
-$inputFile = $MadelineProto->uploadFromStream($stream, $size, $mime);
+$inputFile = $MadelineProto->uploadFromStream($stream);
 ```
 
 `$stream` - PHP resource or [async AMPHP stream](https://github.com/amphp/byte-stream).  
-`$size`   - Size of file to upload  
-`$mime`   - MIME type of file to upload  
 
 More optional parameters are available, check the PHPDOC of the method in your IDE.  
 You can also upload files from a callable:
@@ -248,8 +246,6 @@ $inputFile = $MadelineProto->uploadFromCallable($callable, $size, $mime);
 `$callable`:  
 The callable must accept two parameters: `int $offset, int $size`  
 The callable must return a string with the contest of the file at the specified offset and size.  
-`$size`   - Size of file to upload  
-`$mime`   - MIME type of file to upload 
 
 More optional parameters are available, check the PHPDOC of the method in your IDE.  
 
