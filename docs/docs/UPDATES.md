@@ -625,6 +625,8 @@ When running the event handler via web, MadelineProto will automatically enable 
 
 Locking will also be handled automatically (as well as disconnection from the user that opened the page), so even if you start the script via web several times, only one instance will be running at a time (no need to do flocking manually!).  
 
+>Please note that this self-restart logic may fail in case of a physical server reboot or web server/php-fpm restart, so it's always a better idea to run via CLI, or use a cron to periodically ping the bot's URL.
+
 It relies on the shutdown function, so you must not set a custom shutdown function in your code, and instead use the **MadelineProto shutdown static API**:  
 
 ```php
