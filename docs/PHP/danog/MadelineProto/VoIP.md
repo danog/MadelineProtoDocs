@@ -1,5 +1,5 @@
 ---
-title: "danog\\MadelineProto\\VoIP: "
+title: "danog\\MadelineProto\\VoIP: This update represents a VoIP Telegram call."
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
@@ -11,7 +11,7 @@ parent: "MadelineProto API"
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-  
+This update represents a VoIP Telegram call.  
 
 
 
@@ -30,6 +30,7 @@ parent: "MadelineProto API"
 * [`skip(): self`](#skip-self)
 * [`stop(): self`](#stop-self)
 * [`playOnHold(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): self`](#playonhold-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-files-self)
+* [`getCurrent(): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`](#getcurrent-danog-madelineproto-remoteurl-danog-madelineproto-localfile-string-null)
 * [`getCallState(): \danog\MadelineProto\VoIP\CallState`](#getcallstate-danog-madelineproto-voip-callstate)
 
 ## Methods:
@@ -125,6 +126,18 @@ Parameters:
 * [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
 * [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
 * `\Amp\ByteStream\ReadableStream`
+
+
+
+
+### `getCurrent(): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`
+
+Get the file that is currently being played.
+Will return a string with the object ID of the stream if we're currently playing a stream, otherwise returns the related LocalFile or RemoteUrl.
+
+#### See also: 
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
 
 
 

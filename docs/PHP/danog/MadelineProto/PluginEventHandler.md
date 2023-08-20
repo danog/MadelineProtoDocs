@@ -59,6 +59,7 @@ Plugin event handler class.
 * [`broadcastForwardMessages(mixed $from_peer, list<int> $message_ids, bool $drop_author = false, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, bool $pin = false): int`](#broadcastforwardmessages-mixed-from_peer-list-int-message_ids-bool-drop_author-false-danog-madelineproto-broadcast-filter-filter-null-bool-pin-false-int)
 * [`broadcastMessages(array $messages, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, bool $pin = false): int`](#broadcastmessages-array-messages-danog-madelineproto-broadcast-filter-filter-null-bool-pin-false-int)
 * [`callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<\T>`](#callfork-generator-amp-future-callable-callable-mixed-args-amp-future-t)
+* [`callGetCurrent(int $id): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`](#callgetcurrent-int-id-danog-madelineproto-remoteurl-danog-madelineproto-localfile-string-null)
 * [`callPlay(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): void`](#callplay-int-id-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-file-void)
 * [`callPlayOnHold(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): void`](#callplayonhold-int-id-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-files-void)
 * [`cancelBroadcast(int $id): void`](#cancelbroadcast-int-id-void)
@@ -204,7 +205,6 @@ Plugin event handler class.
 * [`setNoop(): void`](#setnoop-void)
 * [`setReportPeers(int|string|(int|string)[] $userOrId): void`](#setreportpeers-int-string-int-string-userorid-void)
 * [`setWebhook(string $webhookUrl): void`](#setwebhook-string-webhookurl-void)
-* [`setupLogger(): void`](#setuplogger-void)
 * [`skipPlay(int $id): void`](#skipplay-int-id-void)
 * [`sleep(float $time): void`](#sleep-float-time-void)
 * [`start(): mixed`](#start-mixed)
@@ -530,6 +530,23 @@ Parameters:
 * `\Generator`
 * `\Amp\Future`
 * `\T`
+
+
+
+
+### `callGetCurrent(int $id): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`
+
+Get the file that is currently being played.
+Will return a string with the object ID of the stream if we're currently playing a stream, otherwise returns the related LocalFile or RemoteUrl.
+
+Parameters:
+
+* `$id`: `int`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
 
 
 
@@ -1045,7 +1062,7 @@ Parameters:
 
 
 #### See also: 
-* [\danog\MadelineProto\VoIP](../../danog/MadelineProto/VoIP.html)
+* [`\danog\MadelineProto\VoIP`: This update represents a VoIP Telegram call.](../../danog/MadelineProto/VoIP.html)
 
 
 
@@ -1061,7 +1078,7 @@ Parameters:
 
 
 #### See also: 
-* [\danog\MadelineProto\VoIP](../../danog/MadelineProto/VoIP.html)
+* [`\danog\MadelineProto\VoIP`: This update represents a VoIP Telegram call.](../../danog/MadelineProto/VoIP.html)
 
 
 
@@ -2053,7 +2070,7 @@ Parameters:
 
 
 #### See also: 
-* [\danog\MadelineProto\VoIP](../../danog/MadelineProto/VoIP.html)
+* [`\danog\MadelineProto\VoIP`: This update represents a VoIP Telegram call.](../../danog/MadelineProto/VoIP.html)
 
 
 
@@ -2303,12 +2320,6 @@ Set webhook update handler.
 Parameters:
 
 * `$webhookUrl`: `string` Webhook URL  
-
-
-
-### `setupLogger(): void`
-
-Setup logger.
 
 
 
