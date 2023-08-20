@@ -1,14 +1,12 @@
 ---
 title: "Upgrading from MadelineProto v7 to v8"
-description: "MadelineProto v8 is a major MadelineProto update, that removes a large number of long-deprecated APIs: I've created this upgrade checklist, to simplify the upgrade process."
+description: "MadelineProto v8 is a major MadelineProto update, that removes a large number of long-deprecated APIs: I've created this upgrade checklist, to simplify the upgrade process.  "
+nav_order: 29
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
-nav_exclude: true
 ---
 # Upgrading from MadelineProto v7 to v8
 
-MadelineProto v8 is a major MadelineProto update, that removes a large number of long-deprecated APIs.
-
-I've created this upgrade checklist, to simplify the upgrade process.  
+MadelineProto v8 is a major MadelineProto update, that removes a large number of long-deprecated APIs: I've created this upgrade checklist, to simplify the upgrade process.  
 
 A much simpler way to check for backwards incompatible changes is to scan your project using [Psalm](https://psalm.dev), it's truly a lifesaver!
 
@@ -237,3 +235,5 @@ Also, MadelineProto will actively prevent new event handler code from using bloc
 - [BC] CHANGED: The return type of danog\MadelineProto\Tools::sleep() changed from Amp\Promise to void
 - [BC] CHANGED: The return type of danog\MadelineProto\Wrappers\Events#getEventHandler() changed from danog\MadelineProto\EventHandler to danog\MadelineProto\EventHandler|danog\MadelineProto\Ipc\EventHandlerProxy|__PHP_Incomplete_Class|null
 - [BC] CHANGED: The return type of danog\MadelineProto\Wrappers\Events#getEventHandler() changed from danog\MadelineProto\EventHandler to the non-covariant danog\MadelineProto\EventHandler|danog\MadelineProto\Ipc\EventHandlerProxy|__PHP_Incomplete_Class|null
+
+<a href="https://docs.madelineproto.xyz/docs/USING_METHODS.html">Next section</a>

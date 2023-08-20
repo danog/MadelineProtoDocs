@@ -444,6 +444,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getAllStickers.html" name="messages.getAllStickers">Get all installed stickers: messages.getAllStickers</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getallcalls-array-int-voip" name="getAllCalls">Get all pending and running calls, indexed by user ID: getAllCalls</a>
+
 * <a href="account.getAllSecureValues.html" name="account.getAllSecureValues">Get all saved Telegram Passport documents, for more info see the passport docs »: account.getAllSecureValues</a>
 
 * <a href="phone.exportGroupCallInvite.html" name="phone.exportGroupCallInvite">Get an invite link for a group call or livestream: phone.exportGroupCallInvite</a>
@@ -918,6 +920,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#updatesettings-settingsabstract-settings-void" name="updateSettings">Parse, update and store settings: updateSettings</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#pauseplay-int-id-void" name="pausePlay">Pauses playback of the current audio file in the call: pausePlay</a>
+
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#validateeventhandlerclass-class-string-eventhandler-class-list-eventhandlerissue" name="validateEventHandlerClass">Perform static analysis on a certain event handler class, to make sure it satisfies some performance requirements: validateEventHandlerClass</a>
 
 * <a href="messages.updatePinnedMessage.html" name="messages.updatePinnedMessage">Pin a message: messages.updatePinnedMessage</a>
@@ -1029,6 +1033,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="contacts.resolvePhone.html" name="contacts.resolvePhone">Resolve a phone number to get user info, if their privacy settings allow it: contacts.resolvePhone</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#restart-void" name="restart">Restart update loop: restart</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#resumeplay-int-id-void" name="resumePlay">Resumes playback of the current audio file in the call: resumePlay</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rethrow-throwable-e-void" name="rethrow">Rethrow exception into event loop: rethrow</a>
 
@@ -1333,6 +1339,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="account.updateDeviceLocked.html" name="account.updateDeviceLocked">When client-side passcode lock feature is enabled, will not show message texts in incoming PUSH notifications: account.updateDeviceLocked</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#fullchatlastupdated-mixed-id-int" name="fullChatLastUpdated">When was full info for this chat last cached: fullChatLastUpdated</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#isplaypaused-int-id-bool" name="isPlayPaused">Whether the currently playing audio file is paused: isPlayPaused</a>
 
 * <a href="account.getContactSignUpNotification.html" name="account.getContactSignUpNotification">Whether the user will receive notifications when contacts sign up: account.getContactSignUpNotification</a>
 

@@ -32,6 +32,7 @@ PHP implementation of telegram's MTProto protocol.
 * [\danog\MadelineProto\EventHandler\SimpleFilter\IsReply: Allows only messages that reply to other messages](/PHP/danog/MadelineProto/EventHandler/SimpleFilter/IsReply.html)
 * [\danog\MadelineProto\EventHandler\SimpleFilter\IsReplyToSelf: Allows only messages that reply to one of our messages](/PHP/danog/MadelineProto/EventHandler/SimpleFilter/IsReplyToSelf.html)
 * [\danog\MadelineProto\EventHandler\SimpleFilter\Outgoing: Represents an outgoing message](/PHP/danog/MadelineProto/EventHandler/SimpleFilter/Outgoing.html)
+* [\danog\MadelineProto\EventHandler\SimpleFilter\Running: Allow only currently running calls](/PHP/danog/MadelineProto/EventHandler/SimpleFilter/Running.html)
 
 ## Abstract classes
 * [\danog\MadelineProto\AsyncTools: Async tools.](/PHP/danog/MadelineProto/AsyncTools.html)
@@ -116,6 +117,7 @@ PHP implementation of telegram's MTProto protocol.
 * [\danog\MadelineProto\EventHandler\Filter\FilterRegex: Allow only messages or button queries matching the specified regex.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterRegex.html)
 * [\danog\MadelineProto\EventHandler\Filter\FilterReply: Allow messages that reply to other messages.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterReply.html)
 * [\danog\MadelineProto\EventHandler\Filter\FilterReplyToSelf: Allow messages that reply to one of our messages.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterReplyToSelf.html)
+* [\danog\MadelineProto\EventHandler\Filter\FilterRunning: Allow only running calls.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterRunning.html)
 * [\danog\MadelineProto\EventHandler\Filter\FilterSender: Allow incoming or outgoing group messages made by a certain sender.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterSender.html)
 * [\danog\MadelineProto\EventHandler\Filter\FilterService: Allow only service messages of any type.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterService.html)
 * [\danog\MadelineProto\EventHandler\Filter\FilterText: Allow only messages with a specific content.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterText.html)

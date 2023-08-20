@@ -191,4 +191,4 @@ This error can also be caused by an invalid ID, extracted manually from an updat
 This error can also be caused by referring to a user/chat/channel by its bot API ID, *only if the (user)bot has never seen the peer before*.  
 In this case, resolving a user/chat/channel `@username` with [getInfo](https://docs.madelineproto.xyz/getInfo.html) or importing an invite link with [messages.importChatInvite](https://docs.madelineproto.xyz/API_docs/methods/messages.importChatInvite.html) will automatically cache the peer into the database, allowing you to use the bot API ID again.  
 
-<a href="https://docs.madelineproto.xyz/docs/USING_METHODS.html">Next section</a>
+<a href="https://docs.madelineproto.xyz/docs/UPGRADING.html">Next section</a>

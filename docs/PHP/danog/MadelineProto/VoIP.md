@@ -29,6 +29,9 @@ This update represents a VoIP Telegram call.
 * [`then(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): self`](#then-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-file-self)
 * [`skip(): self`](#skip-self)
 * [`stop(): self`](#stop-self)
+* [`pause(): self`](#pause-self)
+* [`isPaused(): bool`](#ispaused-bool)
+* [`resume(): self`](#resume-self)
 * [`playOnHold(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): self`](#playonhold-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-files-self)
 * [`getCurrent(): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`](#getcurrent-danog-madelineproto-remoteurl-danog-madelineproto-localfile-string-null)
 * [`getCallState(): \danog\MadelineProto\VoIP\CallState`](#getcallstate-danog-madelineproto-voip-callstate)
@@ -109,6 +112,24 @@ When called, skips to the next file in the playlist.
 ### `stop(): self`
 
 Stops playing all files, clears the main and the hold playlist.
+
+
+
+### `pause(): self`
+
+Pauses the currently playing file.
+
+
+
+### `isPaused(): bool`
+
+Whether the currently playing file is paused.
+
+
+
+### `resume(): self`
+
+Resumes the currently playing file.
 
 
 

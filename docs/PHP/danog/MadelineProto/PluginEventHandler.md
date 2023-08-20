@@ -93,6 +93,7 @@ Plugin event handler class.
 * [`fullGetSelf(): array|false`](#fullgetself-array-false)
 * [`genVectorHash(array $longs): string`](#genvectorhash-array-longs-string)
 * [`getAdminIds(): array`](#getadminids-array)
+* [`getAllCalls(): array<int, \danog\MadelineProto\VoIP>`](#getallcalls-array-int-danog-madelineproto-voip)
 * [`getAllMethods(): array`](#getallmethods-array)
 * [`getAuthorization(): \danog\MadelineProto\API::NOT_LOGGED_IN|\danog\MadelineProto\API::WAITING_CODE|\danog\MadelineProto\API::WAITING_SIGNUP|\danog\MadelineProto\API::WAITING_PASSWORD|\danog\MadelineProto\API::LOGGED_IN|\API::LOGGED_OUT`](#getauthorization-danog-madelineproto-api-not_logged_in-danog-madelineproto-api-waiting_code-danog-madelineproto-api-waiting_signup-danog-madelineproto-api-waiting_password-danog-madelineproto-api-logged_in-api-logged_out)
 * [`getBroadcastProgress(int $id): ?\danog\MadelineProto\Broadcast\Progress`](#getbroadcastprogress-int-id-danog-madelineproto-broadcast-progress)
@@ -156,6 +157,7 @@ Plugin event handler class.
 * [`isForum(mixed $peer): bool`](#isforum-mixed-peer-bool)
 * [`isIpc(): bool`](#isipc-bool)
 * [`isIpcWorker(): bool`](#isipcworker-bool)
+* [`isPlayPaused(int $id): bool`](#isplaypaused-int-id-bool)
 * [`isPremium(): bool`](#ispremium-bool)
 * [`isSelfBot(): bool`](#isselfbot-bool)
 * [`isSelfUser(): bool`](#isselfuser-bool)
@@ -176,6 +178,7 @@ Plugin event handler class.
 * [`packSignedInt(int $value): string`](#packsignedint-int-value-string)
 * [`packSignedLong(int $value): string`](#packsignedlong-int-value-string)
 * [`packUnsignedInt(int $value): string`](#packunsignedint-int-value-string)
+* [`pausePlay(int $id): void`](#pauseplay-int-id-void)
 * [`peerIsset(mixed $id): bool`](#peerisset-mixed-id-bool)
 * [`phoneLogin(string $number, int $sms_type = 5): mixed`](#phonelogin-string-number-int-sms_type-5-mixed)
 * [`posmod(int $a, int $b): int`](#posmod-int-a-int-b-int)
@@ -193,6 +196,7 @@ Plugin event handler class.
 * [`requestSecretChat(mixed $user): mixed`](#requestsecretchat-mixed-user-mixed)
 * [`resetUpdateState(): void`](#resetupdatestate-void)
 * [`restart(): void`](#restart-void)
+* [`resumePlay(int $id): void`](#resumeplay-int-id-void)
 * [`rethrow(\Throwable $e): void`](#rethrow-throwable-e-void)
 * [`rleDecode(string $string): string`](#rledecode-string-string-string)
 * [`rleEncode(string $string): string`](#rleencode-string-string-string)
@@ -1005,6 +1009,17 @@ Get admin IDs (equal to all user report peers).
 
 
 
+### `getAllCalls(): array<int, \danog\MadelineProto\VoIP>`
+
+Get all pending and running calls, indexed by user ID.
+
+
+#### See also: 
+* [`\danog\MadelineProto\VoIP`: This update represents a VoIP Telegram call.](../../danog/MadelineProto/VoIP.html)
+
+
+
+
 ### `getAllMethods(): array`
 
 Get full list of MTProto and API methods.
@@ -1685,6 +1700,17 @@ Whether we're an IPC server process (as opposed to an event handler).
 
 
 
+### `isPlayPaused(int $id): bool`
+
+Whether the currently playing audio file is paused.
+
+
+Parameters:
+
+* `$id`: `int`   
+
+
+
 ### `isPremium(): bool`
 
 Returns whether the current user is a premium user, cached.
@@ -1908,6 +1934,17 @@ Parameters:
 
 
 
+### `pausePlay(int $id): void`
+
+Pauses playback of the current audio file in the call.
+
+
+Parameters:
+
+* `$id`: `int`   
+
+
+
 ### `peerIsset(mixed $id): bool`
 
 Check if peer is present in internal peer database.
@@ -2095,6 +2132,17 @@ Reset the update state and fetch all updates from the beginning.
 ### `restart(): void`
 
 Restart update loop.
+
+
+
+### `resumePlay(int $id): void`
+
+Resumes playback of the current audio file in the call.
+
+
+Parameters:
+
+* `$id`: `int`   
 
 
 

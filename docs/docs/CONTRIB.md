@@ -1,7 +1,7 @@
 ---
 title: "Contributing"
 description: "You can contribute in various ways.  "
-nav_order: 30
+nav_order: 31
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Contributing

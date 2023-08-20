@@ -35,7 +35,7 @@ sudo apt-get install software-properties-common -y
 sudo LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
 sudo apt-get update
 sudo apt-get install php8.2 php8.2-dev php8.2-xml php8.2-zip php8.2-gmp php8.2-cli php8.2-mbstring php8.2-ffi php-pear libuv1-dev -y
-sudo pecl install uv
+sudo pecl install uv-beta
 echo extension=uv.so | sudo tee $(php --ini | sed '/additional .ini/!d;s/.*: //g')/uv.ini
 
 echo 262144 | sudo tee /proc/sys/vm/max_map_count
