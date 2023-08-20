@@ -41,6 +41,7 @@ Async OGG stream reader and writer.
 * [`__construct(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL)`](#__construct-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-stream-amp-cancellation-cancellation-null)
 * [`validate(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, ?\Amp\Cancellation $cancellation = NULL): void`](#validate-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-file-amp-cancellation-cancellation-null-void)
 * [`convert(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $in, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $oggOut, ?\Amp\Cancellation $cancellation = NULL): void`](#convert-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-in-danog-madelineproto-localfile-amp-bytestream-writablestream-oggout-amp-cancellation-cancellation-null-void)
+* [`validateOgg(\danog\MadelineProto\LocalFile $f): void`](#validateogg-danog-madelineproto-localfile-f-void)
 * [`convertWav(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $wavIn, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $oggOut, ?\Amp\Cancellation $cancellation = NULL): void`](#convertwav-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-wavin-danog-madelineproto-localfile-amp-bytestream-writablestream-oggout-amp-cancellation-cancellation-null-void)
 
 ## Methods:
@@ -102,6 +103,22 @@ Parameters:
 * `\Amp\ByteStream\ReadableStream`
 * `\Amp\ByteStream\WritableStream`
 * `\Amp\Cancellation`
+
+
+
+
+### `validateOgg(\danog\MadelineProto\LocalFile $f): void`
+
+Validate that the specified OGG OPUS file can be played directly by MadelineProto, without doing any conversion.
+
+
+Parameters:
+
+* `$f`: `\danog\MadelineProto\LocalFile` File to open.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
 
 
 
