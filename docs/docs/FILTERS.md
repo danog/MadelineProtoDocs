@@ -164,6 +164,7 @@ Here's the full list of simple filter interfaces (see [attribute filters](#attri
 
 <!-- cut_here simplefilters -->
 
+* [danog\MadelineProto\EventHandler\SimpleFilter\Ended &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/Ended.html) - Represents an ended call
 * [danog\MadelineProto\EventHandler\SimpleFilter\FromAdmin &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/FromAdmin.html) - Allows messages from the bot admin
 * [danog\MadelineProto\EventHandler\SimpleFilter\FromAdminOrOutgoing &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/FromAdminOrOutgoing.html) - Allows messages from the bot admin or outgoing messages
 * [danog\MadelineProto\EventHandler\SimpleFilter\HasAudio &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasAudio.html) - Allows only audio messages
@@ -258,6 +259,7 @@ Here's the full list of filter attributes (see the [MTProto filters &raquo;](#mt
 * [danog\MadelineProto\EventHandler\Filter\FilterButtonQueryData(string $content) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterButtonQueryData.html) - Filters based on the content of a button query.
 * [danog\MadelineProto\EventHandler\Filter\FilterChannel &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterChannel.html) - Allow only updates coming from channels.
 * [danog\MadelineProto\EventHandler\Filter\FilterCommand(string $command, list<\CommandType> $types = [  0 =>   \danog\MadelineProto\EventHandler\CommandType::BANG,  1 =>   \danog\MadelineProto\EventHandler\CommandType::DOT,  2 =>   \danog\MadelineProto\EventHandler\CommandType::SLASH,]) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterCommand.html) - Allow only messages containing the specified command.
+* [danog\MadelineProto\EventHandler\Filter\FilterEnded &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterEnded.html) - Allow only ended calls.
 * [danog\MadelineProto\EventHandler\Filter\FilterForwarded &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterForwarded.html) - Allow only forwarded messages.
 * [danog\MadelineProto\EventHandler\Filter\FilterFromAdmin &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterFromAdmin.html) - Allow only messages coming from the admin (defined as the first peer returned by getReportPeers).
 * [danog\MadelineProto\EventHandler\Filter\FilterFromSender(string|int $peer) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterFromSender.html) - Allow incoming or outgoing group messages made by a certain sender.

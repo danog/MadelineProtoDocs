@@ -13,6 +13,7 @@ PHP implementation of telegram's MTProto protocol.
 
 
 ## Interfaces
+* [\danog\MadelineProto\EventHandler\SimpleFilter\Ended: Represents an ended call](/PHP/danog/MadelineProto/EventHandler/SimpleFilter/Ended.html)
 * [\danog\MadelineProto\EventHandler\SimpleFilter\FromAdmin: Allows messages from the bot admin](/PHP/danog/MadelineProto/EventHandler/SimpleFilter/FromAdmin.html)
 * [\danog\MadelineProto\EventHandler\SimpleFilter\FromAdminOrOutgoing: Allows messages from the bot admin or outgoing messages](/PHP/danog/MadelineProto/EventHandler/SimpleFilter/FromAdminOrOutgoing.html)
 * [\danog\MadelineProto\EventHandler\SimpleFilter\HasAudio: Allows only audio messages](/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasAudio.html)
@@ -99,6 +100,7 @@ PHP implementation of telegram's MTProto protocol.
 * [\danog\MadelineProto\EventHandler\Filter\FilterButtonQueryData: Filters based on the content of a button query.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterButtonQueryData.html)
 * [\danog\MadelineProto\EventHandler\Filter\FilterChannel: Allow only updates coming from channels.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterChannel.html)
 * [\danog\MadelineProto\EventHandler\Filter\FilterCommand: Allow only messages containing the specified command.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterCommand.html)
+* [\danog\MadelineProto\EventHandler\Filter\FilterEnded: Allow only ended calls.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterEnded.html)
 * [\danog\MadelineProto\EventHandler\Filter\FilterForwarded: Allow only forwarded messages.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterForwarded.html)
 * [\danog\MadelineProto\EventHandler\Filter\FilterFromAdmin: Allow only messages coming from the admin (defined as the first peer returned by getReportPeers).](/PHP/danog/MadelineProto/EventHandler/Filter/FilterFromAdmin.html)
 * [\danog\MadelineProto\EventHandler\Filter\FilterFromSender: Allow incoming or outgoing group messages made by a certain sender.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterFromSender.html)
