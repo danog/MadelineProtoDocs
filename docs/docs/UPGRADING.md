@@ -176,6 +176,25 @@ MyEventHandler::startAndLoop('bot.madeline', $settings);
 
 Also, MadelineProto will actively prevent new event handler code from using blocking functions like `file_get_contents`, `file_put_contents`, `curl`: see [here &raquo;](https://docs.madelineproto.xyz/docs/UPDATES.html#automatic-static-analysis) for a more detailed list of async alternatives.
 
+## No more snake_case methods
+
+You can't use `snake_case` variants of MadelineProto methods anymore (deprecated since v5).  
+
+Before:
+
+```php
+$info = $API->get_info('danogentili');
+$me = $API->get_self();
+```
+
+After:
+
+
+```php
+$info = $API->getInfo('danogentili');
+$me = $API->getSelf();
+```
+
 ## Full breaking changelog
 
 - [BC] REMOVED: the long-deprecated `setEventHandler` method, you should use `MyEventHandler::startAndLoop`, instead.
