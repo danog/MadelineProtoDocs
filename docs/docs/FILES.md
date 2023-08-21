@@ -521,7 +521,7 @@ This downloads the given file to the given resource or [async AMPHP stream](http
 You can also use `downloadToReturnedStream`, which returns an amphp `ReadableStream`, instead:
 
 ```php
-$stream = $MadelineProto->downloadToStream($MessageMedia);
+$stream = $MadelineProto->downloadToReturnedStream($MessageMedia);
 ```
 
 ### Download to callback
