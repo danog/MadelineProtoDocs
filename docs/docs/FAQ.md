@@ -96,12 +96,12 @@ See the [danog/loop](https://daniil.it/loop) documentation for more info.
 
 ## Do I need cron to run MadelineProto?
 
-No, you don't.  
+Generally, you don't.  
 
 To keep your MadelineProto bot online forever:
 
-- If running via web, do nothing: MadelineProto will self-restart automatically.  
-- If running via CLI, use [docker &raquo;](https://docs.madelineproto.xyz/docs/DOCKER.html).  
+- If running via CLI, use [docker &raquo;](https://docs.madelineproto.xyz/docs/DOCKER.html) or a `screen while :; php bot.php;done` session.  
+- If running via web: MadelineProto will self-restart automatically: however, please note that this self-restart logic may fail in case of a physical server reboot or web server/php-fpm restart, so it’s always a better idea to run via CLI, or use a cron to periodically ping the bot’s URL.
 
 ## How do I use a database in MadelineProto?
 
