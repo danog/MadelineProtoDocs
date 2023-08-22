@@ -50,7 +50,7 @@ class MyEventHandler {
     public function onUpdateNewMessage(array $update): \Generator
     {
         $this->callForkDefer(function () {
-            $this->sleep(1.0);
+            yield $this->sleep(1.0);
             yield $this->messages->sendMessage(...);
         });
         yield $this->messages->sendMessage(...);
