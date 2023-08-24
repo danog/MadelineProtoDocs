@@ -773,6 +773,8 @@ final class OnlinePlugin extends PluginEventHandler
 {
     private bool $isOnline = true;
 
+    public function __sleep(): array { return ['isOnline']; }
+
     public function setOnline(bool $online): void
     {
         $this->isOnline = $online;
