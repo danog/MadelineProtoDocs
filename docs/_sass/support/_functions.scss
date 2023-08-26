@@ -1,4 +1,4 @@
-@function rem($size, $unit: "") {
+@function remCustom($size, $unit: "") {
   $remSize: $size / $root-font-size;
 
   @if ($unit == false) {
