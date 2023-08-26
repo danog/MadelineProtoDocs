@@ -9,6 +9,7 @@ pipeline:
     secrets:
       - DEPLOY_KEY
     commands:
+      - apt-get update && apt-get -y install openssh-client git
       - mkdir -p $HOME/.ssh
       - ssh-keyscan -t rsa github.com >> $HOME/.ssh/known_hosts
       - echo "$DEPLOY_KEY" > $HOME/.ssh/id_rsa
