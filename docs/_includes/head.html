@@ -7,11 +7,6 @@
   <link rel="preload" href="{{ '/assets/css/just-the-docs-dark.css' | relative_url }}?v=2" as="style">
   <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-light.css' | relative_url }}?v=2">
 
-  {% if site.search_enabled != false %}
-  <script src="https://unpkg.com/lunr/lunr.js"></script>
-  {% endif %}
-  <script type="text/javascript" src="{{ '/assets/js/just-the-docs.js' | relative_url }}?v=2"></script>
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-site-verification" content="OIo7XVmU3hJT1uHL82H6-COTtQqeefBXIpZDznJPkOg" />
 
@@ -27,4 +22,9 @@
 
   {% include head_custom.html %}
 
+  {% if site.search_enabled != false %}
+  <script src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}" defer></script>
+  {% endif %}
+  <script type="text/javascript" src="{{ '/assets/js/just-the-docs.js' | relative_url }}?v=2" defer></script>
+  
 </head>
