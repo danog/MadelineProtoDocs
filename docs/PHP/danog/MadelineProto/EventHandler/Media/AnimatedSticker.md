@@ -36,7 +36,7 @@ Represents an animated sticker.
 
 ## Method list:
 * [`getDownloadLink(string|null $scriptUrl = NULL): string`](#getdownloadlink-string-null-scripturl-null-string)
-* [`getStream(): \Amp\ByteStream\ReadableStream`](#getstream-amp-bytestream-readablestream)
+* [`getStream(?callable $cb = NULL, int $offset = 0, int $end = -1): \Amp\ByteStream\ReadableStream`](#getstream-callable-cb-null-int-offset-0-int-end-1-amp-bytestream-readablestream)
 
 ## Methods:
 ### `getDownloadLink(string|null $scriptUrl = NULL): string`
@@ -50,9 +50,16 @@ Parameters:
 
 
 
-### `getStream(): \Amp\ByteStream\ReadableStream`
+### `getStream(?callable $cb = NULL, int $offset = 0, int $end = -1): \Amp\ByteStream\ReadableStream`
 
 Get a readable amp stream with the file contents.
+
+
+Parameters:
+
+* `$cb`: `?callable` Progress callback  
+* `$offset`: `int`   
+* `$end`: `int`   
 
 
 #### See also: 

@@ -773,7 +773,13 @@ final class OnlinePlugin extends PluginEventHandler
 {
     private bool $isOnline = true;
 
-    public function __sleep(): array { return ['isOnline']; }
+    /**
+     * Returns a list of names for properties that will be automatically saved to the session database (MySQL/postgres/redis if configured, the session file otherwise).
+     */
+    public function __sleep(): array
+    {
+        return ['isOnline'];
+    }
 
     public function setOnline(bool $online): void
     {

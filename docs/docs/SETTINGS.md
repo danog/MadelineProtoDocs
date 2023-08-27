@@ -36,7 +36,9 @@ $settings = (new \danog\MadelineProto\Settings\AppInfo)
 $API = new \danog\MadelineProto\API('session.madeline', $settings);
 ```
 
-To modify the settings of an already created instance, `updateSettings` must be used, as passing them to the constructor won't work for performance reasons:  
+**It's heavily recommended** to remove (or pass null) the second `$settings` parameter passed to the constructor once the instance is logged in, to avoid the performance overhead of needlessly updating settings every time API is instantiated:  
+
+To modify the settings of an already created instance, `updateSettings` should be used, instead:  
 ```php
 $settings = (new \danog\MadelineProto\Settings\AppInfo)
     ->setApiId(124)
