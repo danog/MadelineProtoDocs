@@ -864,6 +864,7 @@ class MyEventHandler extends SimpleEventHandler {
     private Logger $customLogger;
     public function onStart()
     {
+        // As documented in https://github.com/amphp/log
         $handler = new StreamHandler(Tools::openFileAppendOnly('file.log'));
 
         $this->customLogger = new Logger('main');

@@ -168,6 +168,8 @@ services:
     volumes:
       - ./app:/app
       - ./Caddyfile:/etc/caddy/Caddyfile
+      - ./caddy_data:/data
+      - ./caddy_config:/config
 ```
 
 Create the following `Caddyfile` in the same folder:
