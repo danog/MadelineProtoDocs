@@ -99,6 +99,9 @@ Here's the full list of all concrete types:
 * [danog\MadelineProto\EventHandler\CallbackQuery &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/CallbackQuery.html) - Represents a query sent by the user by clicking on a button.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/CallbackQuery.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/CallbackQuery.html#method-list)
+* [danog\MadelineProto\EventHandler\InlineQuery &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/InlineQuery.html) - An incoming inline query.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/InlineQuery.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/InlineQuery.html#method-list)
 * [danog\MadelineProto\EventHandler\Message &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message.html) - Represents an incoming or outgoing message.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message.html#method-list)
@@ -278,6 +281,7 @@ Here's the full list of filter attributes (see the [MTProto filters &raquo;](#mt
 * [danog\MadelineProto\EventHandler\Filter\FilterReplyToSelf &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterReplyToSelf.html) - Allow messages that reply to one of our messages.
 * [danog\MadelineProto\EventHandler\Filter\FilterRunning &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterRunning.html) - Allow only running calls.
 * [danog\MadelineProto\EventHandler\Filter\FilterSender(string|int $peer) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterSender.html) - Allow incoming or outgoing group messages made by a certain sender.
+* [danog\MadelineProto\EventHandler\Filter\FilterSenders(string|int ...$idOrUsername) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterSenders.html) - Allow incoming or outgoing group messages made by a certain list of senders.
 * [danog\MadelineProto\EventHandler\Filter\FilterService &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterService.html) - Allow only service messages of any type.
 * [danog\MadelineProto\EventHandler\Filter\FilterText(string $content) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterText.html) - Allow only messages with a specific content.
 * [danog\MadelineProto\EventHandler\Filter\FilterTextCaseInsensitive(string $content) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterTextCaseInsensitive.html) - Allow only messages with a specific case-insensitive content.
@@ -327,7 +331,7 @@ You can also optionally implement the `public function initialize(EventHandler $
 
 This function is useful to perform expensive one-time initialization tasks, to avoid performing them during filtering, for example:
 
-<!-- cut_here src/EventHandler/Filter/FilterFromSenders.php -->
+<!-- cut_here src/EventHandler/Filter/AbstractFilterFromSenders.php -->
 
 ```php
 <?php declare(strict_types=1);
@@ -348,16 +352,18 @@ This function is useful to perform expensive one-time initialization tasks, to a
 
 namespace danog\MadelineProto\EventHandler\Filter;
 
-use Attribute;
 use danog\MadelineProto\EventHandler;
+use danog\MadelineProto\EventHandler\InlineQuery;
 use danog\MadelineProto\EventHandler\Message\GroupMessage;
+use danog\MadelineProto\EventHandler\Query\ButtonQuery;
 use danog\MadelineProto\EventHandler\Update;
 
 /**
  * Allow incoming or outgoing group messages made by a certain list of senders.
+ *
+ * @internal
  */
-#[Attribute(Attribute::TARGET_METHOD)]
-final class FilterFromSenders extends Filter
+abstract class AbstractFilterFromSenders extends Filter
 {
     /** @var array<string|int> */
     private readonly array $peers;
@@ -383,12 +389,14 @@ final class FilterFromSenders extends Filter
     public function apply(Update $update): bool
     {
         return $update instanceof GroupMessage && \in_array($update->senderId, $this->peersResolved, true);
+            ($update instanceof ButtonQuery && \in_array($update->userId, $this->peersResolved, true)) ||
+            ($update instanceof InlineQuery && \in_array($update->userId, $this->peersResolved, true));
     }
 }
 
 ```
 
-<!-- cut_here_end src/EventHandler/Filter/FilterFromSenders.php -->
+<!-- cut_here_end src/EventHandler/Filter/AbstractFilterFromSenders.php -->
 
 Usually you should return `$this` from `initialize()`, but if you want to replace the current filter with another filter, you can return the new filter, instead:
 
