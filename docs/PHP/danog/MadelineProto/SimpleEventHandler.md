@@ -161,7 +161,7 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`isPremium(): bool`](#ispremium-bool)
 * [`isSelfBot(): bool`](#isselfbot-bool)
 * [`isSelfUser(): bool`](#isselfuser-bool)
-* [`isSupergroup(int $id): bool`](#issupergroup-int-id-bool)
+* [`isSupergroupOrChannel(int $id): bool`](#issupergrouporchannel-int-id-bool)
 * [`isTestMode(): bool`](#istestmode-bool)
 * [`logger(mixed $param, int $level = \danog\MadelineProto\Logger::NOTICE, string $file = ''): void`](#logger-mixed-param-int-level-danog-madelineproto-logger-notice-string-file-void)
 * [`logout(): void`](#logout-void)
@@ -1729,7 +1729,7 @@ Returns whether the current user is a user.
 
 
 
-### `isSupergroup(int $id): bool`
+### `isSupergroupOrChannel(int $id): bool`
 
 Check whether provided bot API ID is a channel or supergroup.
 

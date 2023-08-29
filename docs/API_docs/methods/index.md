@@ -146,7 +146,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.checkHistoryImportPeer.html" name="messages.checkHistoryImportPeer">Check whether chat history exported from another chat app can be imported into a specific Telegram chat, click here for more info »: messages.checkHistoryImportPeer</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#issupergroup-int-id-bool" name="isSupergroup">Check whether provided bot API ID is a channel or supergroup: isSupergroup</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#issupergrouporchannel-int-id-bool" name="isSupergroupOrChannel">Check whether provided bot API ID is a channel or supergroup: isSupergroupOrChannel</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#hassecretchat-array-int-chat-bool" name="hasSecretChat">Check whether secret chat exists: hasSecretChat</a>
 
