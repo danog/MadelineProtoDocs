@@ -16,8 +16,6 @@ Represents an incoming or outgoing channel message.
 
 
 ## Properties
-* `$views`: `?int` View counter
-* `$signature`: `?string` Author of the post, if signatures are enabled
 * `$message`: `string` Content of the message
 * `$fwdInfo`: `?\danog\MadelineProto\EventHandler\ForwardedInfo` Info about a forwarded message
 * `$command`: `?string` Bot command (if present)
@@ -33,6 +31,9 @@ Represents an incoming or outgoing channel message.
 * `$imported`: `bool` Whether this message was [imported from a foreign chat service](https://core.telegram.org/api/import)
 * `$psaType`: `?string` For Public Service Announcement messages, the PSA type
 * `$nextSent`: `?self` @readonly For sent messages, contains the next message in the chain if the original message had to be split.
+* `$views`: `?int` View counter for messages from channels or forwarded from channels
+* `$forwards`: `?int` Forward counter for messages from channels or forwarded from channels
+* `$signature`: `?string` Author of the post, if signatures are enabled for messages from channels or forwarded from channels
 * `$id`: `int` Message ID
 * `$out`: `bool` Whether the message is outgoing
 * `$chatId`: `int` ID of the chat where the message was sent
