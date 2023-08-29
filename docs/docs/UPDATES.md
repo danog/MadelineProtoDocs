@@ -376,6 +376,8 @@ The **new** `startAndLoop` method automatically initializes MadelineProto, **ena
 
 All events are handled concurrently thanks to async, [here's a full explanation](ASYNC.html).  
 
+All incoming events are **always handled**, **including old events that occurred while the script was turned off**.  
+
 To access the `$MadelineProto` instance inside of the event handler, simply access `$this`:
 ```php
 $this->messages->sendMessage(['peer' => '@danogentili', 'message' => 'hi']);
