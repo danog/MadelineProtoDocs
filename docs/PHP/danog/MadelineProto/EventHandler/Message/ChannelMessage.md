@@ -34,6 +34,7 @@ Represents an incoming or outgoing channel message.
 * `$views`: `?int` View counter for messages from channels or forwarded from channels
 * `$forwards`: `?int` Forward counter for messages from channels or forwarded from channels
 * `$signature`: `?string` Author of the post, if signatures are enabled for messages from channels or forwarded from channels
+* `$entities`: `list<\MessageEntity>` Message [entities](https://core.telegram.org/api/entities) for styled text
 * `$id`: `int` Message ID
 * `$out`: `bool` Whether the message is outgoing
 * `$chatId`: `int` ID of the chat where the message was sent
@@ -48,6 +49,9 @@ Represents an incoming or outgoing channel message.
 * `$ttlPeriod`: `?int` Time-to-live of the message
 
 ## Method list:
+* [`disableSignatures(): void`](#disablesignatures-void)
+* [`enableSignatures(): void`](#enablesignatures-void)
+* [`getMember(string|int $member): \danog\MadelineProto\EventHandler\Participant`](#getmember-string-int-member-danog-madelineproto-eventhandler-participant)
 * [`pin(bool $pmOneside = false, bool $silent = false): ?\danog\MadelineProto\EventHandler\AbstractMessage`](#pin-bool-pmoneside-false-bool-silent-false-danog-madelineproto-eventhandler-abstractmessage)
 * [`unpin(bool $pmOneside = false, bool $silent = false): ?\danog\MadelineProto\EventHandler\Update`](#unpin-bool-pmoneside-false-bool-silent-false-danog-madelineproto-eventhandler-update)
 * [`getOurReactions(): list<string|int>`](#getourreactions-list-string-int)
@@ -60,8 +64,38 @@ Represents an incoming or outgoing channel message.
 * [`getReply(class-string<\T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?\T`](#getreply-class-string-t-class-danog-madelineproto-eventhandler-abstractmessage-t)
 * [`delete(bool $revoke = true): void`](#delete-bool-revoke-true-void)
 * [`reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`](#reply-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-nowebpage-false-bool-updatestickersetsorder-false-danog-madelineproto-eventhandler-message)
+* [`block(bool $stories): bool`](#block-bool-stories-bool)
+* [`unblock(bool $stories): bool`](#unblock-bool-stories-bool)
 
 ## Methods:
+### `disableSignatures(): void`
+
+Disable message signatures in channels.
+
+
+
+### `enableSignatures(): void`
+
+Enable message signatures in channels.
+
+
+
+### `getMember(string|int $member): \danog\MadelineProto\EventHandler\Participant`
+
+Get info about a [channel/supergroup](https://core.telegram.org/api/channel) participant.
+
+
+Parameters:
+
+* `$member`: `string|int` Participant to get info about.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Participant`: Info about a channel participant.](../../../../danog/MadelineProto/EventHandler/Participant.html)
+
+
+
+
 ### `pin(bool $pmOneside = false, bool $silent = false): ?\danog\MadelineProto\EventHandler\AbstractMessage`
 
 Pin a message.
@@ -225,6 +259,28 @@ Parameters:
 * [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../danog/MadelineProto/ParseMode.html)
 * [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../danog/MadelineProto/EventHandler/Message.html)
 
+
+
+
+### `block(bool $stories): bool`
+
+Adds the user to the blacklist.
+
+
+Parameters:
+
+* `$stories`: `bool`   
+
+
+
+### `unblock(bool $stories): bool`
+
+Deletes the user from the blacklist.
+
+
+Parameters:
+
+* `$stories`: `bool`   
 
 
 

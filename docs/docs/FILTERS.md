@@ -120,9 +120,51 @@ Here's the full list of all concrete types:
 * [danog\MadelineProto\EventHandler\Message\ServiceMessage &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/ServiceMessage.html) - Represents info about a service message.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/ServiceMessage.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/ServiceMessage.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\AbstractDialogGroupCall &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/AbstractDialogGroupCall.html) - Represents a service message about a group call.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/AbstractDialogGroupCall.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/AbstractDialogGroupCall.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogChannelCreated &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogChannelCreated.html) - The channel was created.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogChannelCreated.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogChannelCreated.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogChannelMigrateFrom &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogChannelMigrateFrom.html) - Indicates the channel was [migrated](https://core.telegram.org/api/channel) from the specified chat.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogChannelMigrateFrom.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogChannelMigrateFrom.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogChatJoinedByLink &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogChatJoinedByLink.html) - A user joined the chat via an invite link.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogChatJoinedByLink.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogChatJoinedByLink.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogChatMigrateTo &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogChatMigrateTo.html) - Indicates the chat was [migrated](https://core.telegram.org/api/channel) to the specified supergroup.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogChatMigrateTo.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogChatMigrateTo.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogContactSignUp &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogContactSignUp.html) - A contact just signed up to telegram.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogContactSignUp.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogContactSignUp.html#method-list)
 * [danog\MadelineProto\EventHandler\Message\Service\DialogCreated &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogCreated.html) - A chat or channel was created.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogCreated.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogCreated.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogGameScore &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogGameScore.html) - Someone scored in a game.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogGameScore.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogGameScore.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogGeoProximityReached &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogGeoProximityReached.html) - A user of the chat is now in proximity of another user.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogGeoProximityReached.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogGeoProximityReached.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogGiftPremium &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogGiftPremium.html) - Info about a gifted Telegram Premium subscription.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogGiftPremium.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogGiftPremium.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogGroupCall\GroupCallEnded &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogGroupCall/GroupCallEnded.html) - The group call has ended.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogGroupCall/GroupCallEnded.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogGroupCall/GroupCallEnded.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogGroupCall\GroupCallInvited &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogGroupCall/GroupCallInvited.html) - A set of users was invited to the group call.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogGroupCall/GroupCallInvited.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogGroupCall/GroupCallInvited.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogGroupCall\GroupCallScheduled &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogGroupCall/GroupCallScheduled.html) - A group call was scheduled.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogGroupCall/GroupCallScheduled.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogGroupCall/GroupCallScheduled.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogHistoryCleared &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogHistoryCleared.html) - Chat history was cleared.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogHistoryCleared.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogHistoryCleared.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogMemberJoinedByRequest &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogMemberJoinedByRequest.html) - A user was accepted into the group by an admin.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogMemberJoinedByRequest.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogMemberJoinedByRequest.html#method-list)
 * [danog\MadelineProto\EventHandler\Message\Service\DialogMemberLeft &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogMemberLeft.html) - A member left the chat or channel.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogMemberLeft.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogMemberLeft.html#method-list)
@@ -132,12 +174,39 @@ Here's the full list of all concrete types:
 * [danog\MadelineProto\EventHandler\Message\Service\DialogMessagePinned &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogMessagePinned.html) - A message was pinned in a chat.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogMessagePinned.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogMessagePinned.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogPeerRequested &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogPeerRequested.html) - Contains info about a peer that the user shared with the bot after clicking on a [keyboardButtonRequestPeer](https://docs.madelineproto.xyz/API_docs/constructors/keyboardButtonRequestPeer.html) button.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogPeerRequested.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogPeerRequested.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogPhoneCall &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogPhoneCall.html) - A phone call.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogPhoneCall.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogPhoneCall.html#method-list)
 * [danog\MadelineProto\EventHandler\Message\Service\DialogPhotoChanged &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogPhotoChanged.html) - The photo of the dialog was changed or deleted.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogPhotoChanged.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogPhotoChanged.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogScreenshotTaken &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogScreenshotTaken.html) - A message was pinned in a chat.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogScreenshotTaken.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogScreenshotTaken.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogSetChatTheme &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogSetChatTheme.html) - The chat theme was changed.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogSetChatTheme.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogSetChatTheme.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogSetTTL.html) - The Time-To-Live of messages in this chat was changed.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogSetTTL.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogSetTTL.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogSuggestProfilePhoto &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogSuggestProfilePhoto.html) - A new profile picture was suggested using [photos.uploadContactProfilePhoto](https://docs.madelineproto.xyz/API_docs/methods/photos.uploadContactProfilePhoto.html).
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogSuggestProfilePhoto.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogSuggestProfilePhoto.html#method-list)
 * [danog\MadelineProto\EventHandler\Message\Service\DialogTitleChanged &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogTitleChanged.html) - The title of a channel or group has changed.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogTitleChanged.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogTitleChanged.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogTopicCreated &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogTopicCreated.html) - A [forum topic](https://core.telegram.org/api/forum#forum-topics) was created.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogTopicCreated.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogTopicCreated.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogTopicEdited &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogTopicEdited.html) - [Forum topic](https://core.telegram.org/api/forum#forum-topics) information was edited.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogTopicEdited.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogTopicEdited.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogWebView &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogWebView.html) - Data from an opened [reply keyboard bot web app](https://core.telegram.org/api/bots/webapps) was relayed to the bot that owns it (user & bot side service message).
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogWebView.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogWebView.html#method-list)
 * [danog\MadelineProto\EventHandler\Query\ButtonQuery &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Query/ButtonQuery.html) - Represents a query sent by the user by clicking on a button.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Query/ButtonQuery.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Query/ButtonQuery.html#method-list)

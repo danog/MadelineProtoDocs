@@ -63,7 +63,7 @@ Some tools.
 * [`mbStrSplit(string $text, int $length): string[]`](#mbstrsplit-string-text-int-length-string)
 * [`htmlToMessageEntities(string $html): \danog\MadelineProto\TL\Conversion\DOMEntities Object containing message and entities`](#htmltomessageentities-string-html-danog-madelineproto-tl-conversion-domentities-object-containing-message-and-entities)
 * [`markdownToMessageEntities(string $markdown): \danog\MadelineProto\TL\Conversion\MarkdownEntities Object containing message and entities`](#markdowntomessageentities-string-markdown-danog-madelineproto-tl-conversion-markdownentities-object-containing-message-and-entities)
-* [`entitiesToHtml(string $message, list<array{_: string, offset: int, length: int}> $entities, bool $allowTelegramTags = false): string`](#entitiestohtml-string-message-list-array-_-string-offset-int-length-int-entities-bool-allowtelegramtags-false-string)
+* [`entitiesToHtml(string $message, list<\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int}> $entities, bool $allowTelegramTags = false): string`](#entitiestohtml-string-message-list-danog-madelineproto-eventhandler-message-entities-messageentity-array-_-string-offset-int-length-int-entities-bool-allowtelegramtags-false-string)
 * [`toCamelCase(string $input): string`](#tocamelcase-string-input-string)
 * [`toSnakeCase(string $input): string`](#tosnakecase-string-input-string)
 * [`markdownEscape(string $what): string`](#markdownescape-string-what-string)
@@ -596,7 +596,7 @@ Return value: Object containing message and entities
 
 
 
-### `entitiesToHtml(string $message, list<array{_: string, offset: int, length: int}> $entities, bool $allowTelegramTags = false): string`
+### `entitiesToHtml(string $message, list<\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int}> $entities, bool $allowTelegramTags = false): string`
 
 Convert a message and a set of entities to HTML.
 
@@ -604,8 +604,13 @@ Convert a message and a set of entities to HTML.
 Parameters:
 
 * `$message`: `string`   
-* `$entities`: `list<array{_: string, offset: int, length: int}>`   
+* `$entities`: `list<\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int}>`   
 * `$allowTelegramTags`: `bool` Whether to allow telegram-specific tags like tg-spoiler, tg-emoji, mention links and so on...  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity`: Master class for message entities.](../../danog/MadelineProto/EventHandler/Message/Entities/MessageEntity.html)
+
 
 
 

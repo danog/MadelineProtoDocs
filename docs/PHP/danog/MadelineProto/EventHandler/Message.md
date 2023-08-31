@@ -34,6 +34,7 @@ Represents an incoming or outgoing message.
 * `$views`: `?int` View counter for messages from channels or forwarded from channels
 * `$forwards`: `?int` Forward counter for messages from channels or forwarded from channels
 * `$signature`: `?string` Author of the post, if signatures are enabled for messages from channels or forwarded from channels
+* `$entities`: `list<\MessageEntity>` Message [entities](https://core.telegram.org/api/entities) for styled text
 * `$id`: `int` Message ID
 * `$out`: `bool` Whether the message is outgoing
 * `$chatId`: `int` ID of the chat where the message was sent
@@ -60,6 +61,8 @@ Represents an incoming or outgoing message.
 * [`getReply(class-string<\T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?\T`](#getreply-class-string-t-class-danog-madelineproto-eventhandler-abstractmessage-t)
 * [`delete(bool $revoke = true): void`](#delete-bool-revoke-true-void)
 * [`reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`](#reply-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-nowebpage-false-bool-updatestickersetsorder-false-danog-madelineproto-eventhandler-message)
+* [`block(bool $stories): bool`](#block-bool-stories-bool)
+* [`unblock(bool $stories): bool`](#unblock-bool-stories-bool)
 
 ## Methods:
 ### `pin(bool $pmOneside = false, bool $silent = false): ?\danog\MadelineProto\EventHandler\AbstractMessage`
@@ -225,6 +228,28 @@ Parameters:
 * [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../danog/MadelineProto/ParseMode.html)
 * [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../danog/MadelineProto/EventHandler/Message.html)
 
+
+
+
+### `block(bool $stories): bool`
+
+Adds the user to the blacklist.
+
+
+Parameters:
+
+* `$stories`: `bool`   
+
+
+
+### `unblock(bool $stories): bool`
+
+Deletes the user from the blacklist.
+
+
+Parameters:
+
+* `$stories`: `bool`   
 
 
 

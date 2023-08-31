@@ -35,10 +35,24 @@ Represents a GIF (or an MPEG4 file without sound).
 * `$protected`: `bool` Whether this media is protected
 
 ## Method list:
+* [`save(): bool`](#save-bool)
+* [`unsave(): bool`](#unsave-bool)
 * [`getDownloadLink(string|null $scriptUrl = NULL): string`](#getdownloadlink-string-null-scripturl-null-string)
 * [`getStream(?callable $cb = NULL, int $offset = 0, int $end = -1): \Amp\ByteStream\ReadableStream`](#getstream-callable-cb-null-int-offset-0-int-end-1-amp-bytestream-readablestream)
 
 ## Methods:
+### `save(): bool`
+
+Add GIF to saved gifs list.
+
+
+
+### `unsave(): bool`
+
+Remove GIF from saved gifs list.
+
+
+
 ### `getDownloadLink(string|null $scriptUrl = NULL): string`
 
 Gets a download link for any file up to 4GB.

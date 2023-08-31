@@ -10,6 +10,8 @@ MadelineProto v8 is a major MadelineProto update, that removes a large number of
 
 A much simpler way to check for backwards incompatible changes is to scan your project using [Psalm](https://psalm.dev), it's truly a lifesaver!
 
+Make sure to recreate the session too, as v7 sessions are not compatible with v8.
+
 ## Settings
 
 The main breaking change is the removal of array settings, deprecated since v6.  
