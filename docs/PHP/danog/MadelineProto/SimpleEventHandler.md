@@ -79,7 +79,7 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`downloadToStream(mixed $messageMedia, mixed|\danog\MadelineProto\FileCallbackInterface|\resource|\Amp\ByteStream\WritableStream $stream, callable $cb = NULL, int $offset = 0, int $end = -1): mixed`](#downloadtostream-mixed-messagemedia-mixed-danog-madelineproto-filecallbackinterface-resource-amp-bytestream-writablestream-stream-callable-cb-null-int-offset-0-int-end-1-mixed)
 * [`echo(string $string): void`](#echo-string-string-void)
 * [`end(array $what): mixed`](#end-array-what-mixed)
-* [`entitiesToHtml(string $message, list<array{_: string, offset: int, length: int}> $entities, bool $allowTelegramTags = false): string`](#entitiestohtml-string-message-list-array-_-string-offset-int-length-int-entities-bool-allowtelegramtags-false-string)
+* [`entitiesToHtml(string $message, list<\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int}> $entities, bool $allowTelegramTags = false): string`](#entitiestohtml-string-message-list-danog-madelineproto-eventhandler-message-entities-messageentity-array-_-string-offset-int-length-int-entities-bool-allowtelegramtags-false-string)
 * [`exportAuthorization(): array{0: int|string, 1: string}`](#exportauthorization-array-0-int-string-1-string)
 * [`extractBotAPIFile(array $info): ?array`](#extractbotapifile-array-info-array)
 * [`extractMessage(array $updates): array`](#extractmessage-array-updates-array)
@@ -857,7 +857,7 @@ Parameters:
 
 
 
-### `entitiesToHtml(string $message, list<array{_: string, offset: int, length: int}> $entities, bool $allowTelegramTags = false): string`
+### `entitiesToHtml(string $message, list<\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int}> $entities, bool $allowTelegramTags = false): string`
 
 Convert a message and a set of entities to HTML.
 
@@ -865,8 +865,13 @@ Convert a message and a set of entities to HTML.
 Parameters:
 
 * `$message`: `string`   
-* `$entities`: `list<array{_: string, offset: int, length: int}>`   
+* `$entities`: `list<\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int}>`   
 * `$allowTelegramTags`: `bool` Whether to allow telegram-specific tags like tg-spoiler, tg-emoji, mention links and so on...  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity`: Master class for message entities.](../../danog/MadelineProto/EventHandler/Message/Entities/MessageEntity.html)
+
 
 
 

@@ -12,7 +12,7 @@ redirect_from: /API_docs/methods/messages_getHistory.html
 
 
 # Warning: flood wait
-**Warning: this method is prone to rate limiting with flood waits, please use the [updates event handler, instead &raquo;](/docs/UPDATES.html#async-event-driven)**
+**Warning: this method is prone to rate limiting with flood waits, **which can lead to !!! ACCOUNT BANS !!!**, please use the [updates event handler, instead (which is 100% safe) &raquo;](/docs/UPDATES.html#async-event-driven)**
 
 # Warning: non-realtime results
 **Warning: this method is not suitable for receiving messages in real-time from chats and users, please use the [updates event handler, instead &raquo;](/docs/UPDATES.html#async-event-driven)**
