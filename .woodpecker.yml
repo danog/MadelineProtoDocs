@@ -1,6 +1,6 @@
 platform: linux/arm64
 
-pipeline:
+steps:
   build:
     image: danog/gojekyll
     when:
