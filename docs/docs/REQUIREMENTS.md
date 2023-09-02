@@ -8,7 +8,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 MadelineProto requires the `mbstring`, `xml`, `json`, `fileinfo`, `gmp`, `ffi`, `openssl` extensions to function properly.
 
-The `ev` and `event` extensions are highly recommended to improve performance.
+The `uv` extension is highly recommended to improve performance.
 
 **PHP 8.1+ is required**.
 
