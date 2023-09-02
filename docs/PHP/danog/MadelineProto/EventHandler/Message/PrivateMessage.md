@@ -49,21 +49,21 @@ Represents an incoming or outgoing private message.
 * `$ttlPeriod`: `?int` Time-to-live of the message
 
 ## Method list:
-* [`screenShot(): \danog\MadelineProto\EventHandler\Message\Service\DialogScreenshotTaken`](#screenshot-danog-madelineproto-eventhandler-message-service-dialogscreenshottaken)
-* [`pin(bool $pmOneside = false, bool $silent = false): ?\danog\MadelineProto\EventHandler\AbstractMessage`](#pin-bool-pmoneside-false-bool-silent-false-danog-madelineproto-eventhandler-abstractmessage)
-* [`unpin(bool $pmOneside = false, bool $silent = false): ?\danog\MadelineProto\EventHandler\Update`](#unpin-bool-pmoneside-false-bool-silent-false-danog-madelineproto-eventhandler-update)
-* [`getOurReactions(): list<string|int>`](#getourreactions-list-string-int)
-* [`addReaction(string|int $reaction, bool $big = false, bool $addToRecent = true): list<string|int>`](#addreaction-string-int-reaction-bool-big-false-bool-addtorecent-true-list-string-int)
-* [`delReaction(string|int $reaction): list<string|int>`](#delreaction-string-int-reaction-list-string-int)
-* [`translate(string $toLang): string`](#translate-string-tolang-string)
-* [`editText(string $message, array|null $replyMarkup = NULL, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, int|null $scheduleDate = NULL, bool $noWebpage = false): \danog\MadelineProto\EventHandler\Message`](#edittext-string-message-array-null-replymarkup-null-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-int-null-scheduledate-null-bool-nowebpage-false-danog-madelineproto-eventhandler-message)
-* [`getHTML(bool $allowTelegramTags = false): string`](#gethtml-bool-allowtelegramtags-false-string)
-* [`isReply(): bool`](#isreply-bool)
-* [`getReply(class-string<\T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?\T`](#getreply-class-string-t-class-danog-madelineproto-eventhandler-abstractmessage-t)
-* [`delete(bool $revoke = true): void`](#delete-bool-revoke-true-void)
-* [`reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`](#reply-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-nowebpage-false-bool-updatestickersetsorder-false-danog-madelineproto-eventhandler-message)
-* [`block(bool $stories): bool`](#block-bool-stories-bool)
-* [`unblock(bool $stories): bool`](#unblock-bool-stories-bool)
+* [`screenShot(): \danog\MadelineProto\EventHandler\Message\Service\DialogScreenshotTaken`](#screenshot)
+* [`pin(bool $pmOneside = false, bool $silent = false): void`](#pin)
+* [`unpin(bool $pmOneside = false, bool $silent = false): ?\danog\MadelineProto\EventHandler\Update`](#unpin)
+* [`getOurReactions(): list<string|int>`](#getourreactions)
+* [`addReaction(string|int $reaction, bool $big = false, bool $addToRecent = true): list<string|int>`](#addreaction)
+* [`delReaction(string|int $reaction): list<string|int>`](#delreaction)
+* [`translate(string $toLang): string`](#translate)
+* [`editText(string $message, array|null $replyMarkup = NULL, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, int|null $scheduleDate = NULL, bool $noWebpage = false): \danog\MadelineProto\EventHandler\Message`](#edittext)
+* [`getHTML(bool $allowTelegramTags = false): string`](#gethtml)
+* [`isReply(): bool`](#isreply)
+* [`getReply(class-string<\T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?\T`](#getreply)
+* [`delete(bool $revoke = true): void`](#delete)
+* [`reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`](#reply)
+* [`block(bool $stories): bool`](#block)
+* [`unblock(bool $stories): bool`](#unblock)
 
 ## Methods:
 ### `screenShot(): \danog\MadelineProto\EventHandler\Message\Service\DialogScreenshotTaken`
@@ -77,7 +77,7 @@ Notify the other user in a private chat that a screenshot of the chat was taken.
 
 
 
-### `pin(bool $pmOneside = false, bool $silent = false): ?\danog\MadelineProto\EventHandler\AbstractMessage`
+### `pin(bool $pmOneside = false, bool $silent = false): void`
 
 Pin a message.
 
@@ -86,11 +86,6 @@ Parameters:
 
 * `$pmOneside`: `bool` Whether the message should only be pinned on the local side of a one-to-one chat  
 * `$silent`: `bool` Pin the message silently, without triggering a notification  
-
-
-#### See also: 
-* [`\danog\MadelineProto\EventHandler\AbstractMessage`: Represents an incoming or outgoing message.](../../../../danog/MadelineProto/EventHandler/AbstractMessage.html)
-
 
 
 

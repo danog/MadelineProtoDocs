@@ -17,12 +17,12 @@ Cast this object to a string ((string) $bytes) to obtain the inner bytes.
 
 
 ## Method list:
-* [`__construct(string $bytes)`](#__construct-string-bytes)
-* [`jsonSerialize(): array`](#jsonserialize-array)
-* [`offsetSet(int|null $offset, string $value): void`](#offsetset-int-null-offset-string-value-void)
-* [`offsetGet(int $offset): string`](#offsetget-int-offset-string)
-* [`offsetUnset(int $offset): void`](#offsetunset-int-offset-void)
-* [`offsetExists(int $offset): bool`](#offsetexists-int-offset-bool)
+* [`__construct(string $bytes)`](#__construct)
+* [`jsonSerialize(): array`](#jsonserialize)
+* [`offsetSet(int|null $offset, string $value): void`](#offsetset)
+* [`offsetGet(int $offset): string`](#offsetget)
+* [`offsetUnset(int $offset): void`](#offsetunset)
+* [`offsetExists(int $offset): bool`](#offsetexists)
 
 ## Methods:
 ### `__construct(string $bytes)`

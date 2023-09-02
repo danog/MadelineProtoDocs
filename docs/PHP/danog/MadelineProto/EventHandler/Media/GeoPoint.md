@@ -22,7 +22,7 @@ parent: "MadelineProto API"
 * `$accuracyRadius`: `int` The estimated horizontal accuracy of the location, in meters; as defined by the sender.
 
 ## Method list:
-* [`__construct(array $rawGeoPoint)`](#__construct-array-rawgeopoint)
+* [`__construct(array $rawGeoPoint)`](#__construct)
 
 ## Methods:
 ### `__construct(array $rawGeoPoint)`

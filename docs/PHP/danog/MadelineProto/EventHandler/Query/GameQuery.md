@@ -22,7 +22,7 @@ Represents a query sent by the user by clicking on a "Play game" button.
 * `$chatInstance`: `int` Global identifier, uniquely corresponding to the chat to which the message with the callback button was sent. Useful for high scores in games.
 
 ## Method list:
-* [`answer(string $message, bool $alert = false, string|null $url = NULL, int $cacheTime = 300): bool`](#answer-string-message-bool-alert-false-string-null-url-null-int-cachetime-300-bool)
+* [`answer(string $message, bool $alert = false, string|null $url = NULL, int $cacheTime = 300): bool`](#answer)
 
 ## Methods:
 ### `answer(string $message, bool $alert = false, string|null $url = NULL, int $cacheTime = 300): bool`

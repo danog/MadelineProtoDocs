@@ -1,5 +1,5 @@
 ---
-title: "danog\\MadelineProto\\EventHandler\\Filter\\FilterFromAdmin: Allow only messages coming from the admin (defined as the first peer returned by getReportPeers)."
+title: "danog\\MadelineProto\\EventHandler\\Filter\\FilterFromAdmin: Allow only messages coming from the admin (defined as the peers returned by getReportPeers)."
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
@@ -11,15 +11,15 @@ parent: "MadelineProto API"
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Allow only messages coming from the admin (defined as the first peer returned by getReportPeers).  
+Allow only messages coming from the admin (defined as the peers returned by getReportPeers).  
 
 
 
 
 ## Method list:
-* [`initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`](#initialize-danog-madelineproto-eventhandler-api-danog-madelineproto-eventhandler-filter-filter)
-* [`apply(\danog\MadelineProto\EventHandler\Update $update): bool`](#apply-danog-madelineproto-eventhandler-update-update-bool)
-* [`fromReflectionType(\ReflectionType $type): \danog\MadelineProto\EventHandler\Filter\Filter`](#fromreflectiontype-reflectiontype-type-danog-madelineproto-eventhandler-filter-filter)
+* [`initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`](#initialize)
+* [`apply(\danog\MadelineProto\EventHandler\Update $update): bool`](#apply)
+* [`fromReflectionType(\ReflectionType $type): \danog\MadelineProto\EventHandler\Filter\Filter`](#fromreflectiontype)
 
 ## Methods:
 ### `initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`

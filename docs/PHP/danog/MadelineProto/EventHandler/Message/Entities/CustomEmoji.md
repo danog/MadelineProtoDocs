@@ -21,7 +21,7 @@ Represents a custom emoji.
 * `$length`: `int` Length of message entity within message (in UTF-16 code units)
 
 ## Method list:
-* [`fromRawEntities(list<array> $entities): list<self>`](#fromrawentities-list-array-entities-list-self)
+* [`fromRawEntities(list<array> $entities): list<self>`](#fromrawentities)
 
 ## Methods:
 ### `fromRawEntities(list<array> $entities): list<self>`

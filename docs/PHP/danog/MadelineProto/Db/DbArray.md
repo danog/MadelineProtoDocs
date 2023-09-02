@@ -17,18 +17,18 @@ DB array interface.
 
 
 ## Method list:
-* [`offsetSet(\TKey $index, \TValue $value): void`](#offsetset-tkey-index-tvalue-value-void)
-* [`offsetUnset(\TKey $index): void`](#offsetunset-tkey-index-void)
-* [`offsetExists(\TKey $index): bool`](#offsetexists-tkey-index-bool)
-* [`getArrayCopy(): array`](#getarraycopy-array)
-* [`getInstance(string $table, ?self $previous, \danog\MadelineProto\Settings\DatabaseAbstract $settings): self`](#getinstance-string-table-self-previous-danog-madelineproto-settings-databaseabstract-settings-self)
-* [`isset(\TKey $key): bool`](#isset-tkey-key-bool)
-* [`unset(\TKey $key): void`](#unset-tkey-key-void)
-* [`set(\TKey $key, \TValue $value): void`](#set-tkey-key-tvalue-value-void)
-* [`offsetGet(\TKey $index): mixed`](#offsetget-tkey-index-mixed)
-* [`clear(): void`](#clear-void)
-* [`getIterator(): \Traversable`](#getiterator-traversable)
-* [`count(): mixed`](#count-mixed)
+* [`offsetSet(\TKey $index, \TValue $value): void`](#offsetset)
+* [`offsetUnset(\TKey $index): void`](#offsetunset)
+* [`offsetExists(\TKey $index): bool`](#offsetexists)
+* [`getArrayCopy(): array`](#getarraycopy)
+* [`getInstance(string $table, ?self $previous, \danog\MadelineProto\Settings\DatabaseAbstract $settings): self`](#getinstance)
+* [`isset(\TKey $key): bool`](#isset)
+* [`unset(\TKey $key): void`](#unset)
+* [`set(\TKey $key, \TValue $value): void`](#set)
+* [`offsetGet(\TKey $index): mixed`](#offsetget)
+* [`clear(): void`](#clear)
+* [`getIterator(): \Traversable`](#getiterator)
+* [`count(): mixed`](#count)
 
 ## Methods:
 ### `offsetSet(\TKey $index, \TValue $value): void`

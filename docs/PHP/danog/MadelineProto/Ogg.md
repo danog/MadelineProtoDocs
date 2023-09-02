@@ -38,11 +38,11 @@ Async OGG stream reader and writer.
 * `$comments`: `list<string>` 
 
 ## Method list:
-* [`__construct(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL)`](#__construct-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-stream-amp-cancellation-cancellation-null)
-* [`validate(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, ?\Amp\Cancellation $cancellation = NULL): void`](#validate-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-file-amp-cancellation-cancellation-null-void)
-* [`convert(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $in, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $oggOut, ?\Amp\Cancellation $cancellation = NULL): void`](#convert-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-in-danog-madelineproto-localfile-amp-bytestream-writablestream-oggout-amp-cancellation-cancellation-null-void)
-* [`validateOgg(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $f): void`](#validateogg-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-f-void)
-* [`convertWav(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $wavIn, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $oggOut, ?\Amp\Cancellation $cancellation = NULL): void`](#convertwav-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-wavin-danog-madelineproto-localfile-amp-bytestream-writablestream-oggout-amp-cancellation-cancellation-null-void)
+* [`__construct(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL)`](#__construct)
+* [`validate(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, ?\Amp\Cancellation $cancellation = NULL): void`](#validate)
+* [`convert(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $in, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $oggOut, ?\Amp\Cancellation $cancellation = NULL): void`](#convert)
+* [`validateOgg(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $f): void`](#validateogg)
+* [`convertWav(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $wavIn, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $oggOut, ?\Amp\Cancellation $cancellation = NULL): void`](#convertwav)
 
 ## Methods:
 ### `__construct(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL)`

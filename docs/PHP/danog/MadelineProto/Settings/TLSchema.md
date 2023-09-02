@@ -17,18 +17,18 @@ TL schema settings.
 
 
 ## Method list:
-* [`needsUpgrade(): bool`](#needsupgrade-bool)
-* [`upgrade(): void`](#upgrade-void)
-* [`getLayer(): int`](#getlayer-int)
-* [`setLayer(int $layer): self`](#setlayer-int-layer-self)
-* [`getMTProtoSchema(): string`](#getmtprotoschema-string)
-* [`setMTProtoSchema(string $MTProtoSchema): self`](#setmtprotoschema-string-mtprotoschema-self)
-* [`getAPISchema(): string`](#getapischema-string)
-* [`setAPISchema(string $APISchema): self`](#setapischema-string-apischema-self)
-* [`getSecretSchema(): string`](#getsecretschema-string)
-* [`setSecretSchema(string $secretSchema): self`](#setsecretschema-string-secretschema-self)
-* [`getOther(): array`](#getother-array)
-* [`setOther(array $other): self`](#setother-array-other-self)
+* [`needsUpgrade(): bool`](#needsupgrade)
+* [`upgrade(): void`](#upgrade)
+* [`getLayer(): int`](#getlayer)
+* [`setLayer(int $layer): self`](#setlayer)
+* [`getMTProtoSchema(): string`](#getmtprotoschema)
+* [`setMTProtoSchema(string $MTProtoSchema): self`](#setmtprotoschema)
+* [`getAPISchema(): string`](#getapischema)
+* [`setAPISchema(string $APISchema): self`](#setapischema)
+* [`getSecretSchema(): string`](#getsecretschema)
+* [`setSecretSchema(string $secretSchema): self`](#setsecretschema)
+* [`getOther(): array`](#getother)
+* [`setOther(array $other): self`](#setother)
 
 ## Methods:
 ### `needsUpgrade(): bool`

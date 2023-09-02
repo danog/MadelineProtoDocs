@@ -1,42 +1,30 @@
 ---
-title: "danog\\MadelineProto\\EventHandler\\Filter\\FilterFromSender: Allow incoming or outgoing group messages made by a certain sender."
+title: "danog\\MadelineProto\\EventHandler\\Filter\\FilterFromBot: Allow only messages coming from bots."
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
 ---
-# `danog\MadelineProto\EventHandler\Filter\FilterFromSender`
+# `danog\MadelineProto\EventHandler\Filter\FilterFromBot`
 [Back to index](../../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Allow incoming or outgoing group messages made by a certain sender.  
+Allow only messages coming from bots.  
 
 
 
 
 ## Method list:
-* [`__construct(string|int $peer)`](#__construct)
 * [`initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`](#initialize)
 * [`apply(\danog\MadelineProto\EventHandler\Update $update): bool`](#apply)
 * [`fromReflectionType(\ReflectionType $type): \danog\MadelineProto\EventHandler\Filter\Filter`](#fromreflectiontype)
 
 ## Methods:
-### `__construct(string|int $peer)`
-
-
-
-
-Parameters:
-
-* `$peer`: `string|int`   
-
-
-
 ### `initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`
 
-
+Run some initialization logic, optionally returning a new filter to replace the current one.
 
 
 Parameters:

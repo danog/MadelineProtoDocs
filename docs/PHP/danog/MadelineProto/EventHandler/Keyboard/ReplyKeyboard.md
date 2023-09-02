@@ -19,9 +19,9 @@ Represents a reply keyboard.
 * `$buttons`: `non-empty-list<non-empty-list<\Button>>` 
 
 ## Method list:
-* [`fromRawReplyMarkup(array $rawReplyMarkup): ?self`](#fromrawreplymarkup-array-rawreplymarkup-self)
-* [`pressByCoordinates(int $row, int $column, bool $waitForResult): mixed`](#pressbycoordinates-int-row-int-column-bool-waitforresult-mixed)
-* [`press(string $label, bool $waitForResult): mixed`](#press-string-label-bool-waitforresult-mixed)
+* [`fromRawReplyMarkup(array $rawReplyMarkup): ?self`](#fromrawreplymarkup)
+* [`pressByCoordinates(int $row, int $column, bool $waitForResult): mixed`](#pressbycoordinates)
+* [`press(string $label, bool $waitForResult): mixed`](#press)
 
 ## Methods:
 ### `fromRawReplyMarkup(array $rawReplyMarkup): ?self`

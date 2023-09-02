@@ -17,14 +17,14 @@ Indicates an error thrown when an unexpected response is received from telegram'
 
 
 ## Method list:
-* [`__construct(string $message = '', int $code = 0, ?\Throwable $previous = NULL)`](#__construct-string-message-int-code-0-throwable-previous-null)
-* [`getMessage(): string`](#getmessage-string)
-* [`getCode(): mixed`](#getcode-mixed)
-* [`getFile(): string`](#getfile-string)
-* [`getLine(): int`](#getline-int)
-* [`getTrace(): array`](#gettrace-array)
-* [`getPrevious(): ?\Throwable`](#getprevious-throwable)
-* [`getTraceAsString(): string`](#gettraceasstring-string)
+* [`__construct(string $message = '', int $code = 0, ?\Throwable $previous = NULL)`](#__construct)
+* [`getMessage(): string`](#getmessage)
+* [`getCode(): mixed`](#getcode)
+* [`getFile(): string`](#getfile)
+* [`getLine(): int`](#getline)
+* [`getTrace(): array`](#gettrace)
+* [`getPrevious(): ?\Throwable`](#getprevious)
+* [`getTraceAsString(): string`](#gettraceasstring)
 
 ## Methods:
 ### `__construct(string $message = '', int $code = 0, ?\Throwable $previous = NULL)`

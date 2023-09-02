@@ -20,18 +20,18 @@ This can usually be fixed by enabling `setFullFetch(true)` in the [peer database
 
 ## Method list:
 * [`__construct()`](#__construct)
-* [`extension(string $extensionName): self`](#extension-string-extensionname-self)
-* [`getMessage(): string`](#getmessage-string)
-* [`getCode(): mixed`](#getcode-mixed)
-* [`getFile(): string`](#getfile-string)
-* [`getLine(): int`](#getline-int)
-* [`getTrace(): array`](#gettrace-array)
-* [`getPrevious(): ?\Throwable`](#getprevious-throwable)
-* [`getTraceAsString(): string`](#gettraceasstring-string)
-* [`updateTLTrace(array $trace): void`](#updatetltrace-array-trace-void)
-* [`getTLTrace(): string`](#gettltrace-string)
-* [`setTLTrace(string $tlTrace): void`](#settltrace-string-tltrace-void)
-* [`prettifyTL(string $init = '', array $trace = NULL): void`](#prettifytl-string-init-array-trace-null-void)
+* [`extension(string $extensionName): self`](#extension)
+* [`getMessage(): string`](#getmessage)
+* [`getCode(): mixed`](#getcode)
+* [`getFile(): string`](#getfile)
+* [`getLine(): int`](#getline)
+* [`getTrace(): array`](#gettrace)
+* [`getPrevious(): ?\Throwable`](#getprevious)
+* [`getTraceAsString(): string`](#gettraceasstring)
+* [`updateTLTrace(array $trace): void`](#updatetltrace)
+* [`getTLTrace(): string`](#gettltrace)
+* [`setTLTrace(string $tlTrace): void`](#settltrace)
+* [`prettifyTL(string $init = '', array $trace = NULL): void`](#prettifytl)
 
 ## Methods:
 ### `__construct()`

@@ -18,7 +18,7 @@ IPC server settings.
 
 ## Method list:
 * [`__construct()`](#__construct)
-* [`getSlow(): bool`](#getslow-bool)
+* [`getSlow(): bool`](#getslow)
 
 ## Methods:
 ### `__construct()`

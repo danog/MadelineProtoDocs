@@ -19,7 +19,7 @@ Indicates a remote URL to upload.
 * `$url`: `string` 
 
 ## Method list:
-* [`__construct(string $url)`](#__construct-string-url)
+* [`__construct(string $url)`](#__construct)
 
 ## Methods:
 ### `__construct(string $url)`

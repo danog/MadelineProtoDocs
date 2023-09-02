@@ -34,9 +34,9 @@ VoIP protcol state.
 * `$value`: `int` 
 
 ## Method list:
-* [`cases(): array`](#cases-array)
-* [`from(string|int $value): static`](#from-string-int-value-static)
-* [`tryFrom(string|int $value): ?static`](#tryfrom-string-int-value-static)
+* [`cases(): array`](#cases)
+* [`from(string|int $value): static`](#from)
+* [`tryFrom(string|int $value): ?static`](#tryfrom)
 
 ## Methods:
 ### `cases(): array`

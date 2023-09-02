@@ -20,21 +20,21 @@ Indicates an error returned by Telegram's API.
 * `$tlTrace`: `string` TL trace.
 
 ## Method list:
-* [`localizeMessage(mixed $method, int $code, string $error): string`](#localizemessage-mixed-method-int-code-string-error-string)
-* [`getLocalization(): string`](#getlocalization-string)
-* [`setLocalization(string $localization): void`](#setlocalization-string-localization-void)
-* [`__construct(string $rpc, int $code = 0, mixed $caller = '', ?\danog\MadelineProto\Exception $previous = NULL)`](#__construct-string-rpc-int-code-0-mixed-caller-danog-madelineproto-exception-previous-null)
-* [`getMessage(): string`](#getmessage-string)
-* [`getCode(): mixed`](#getcode-mixed)
-* [`getFile(): string`](#getfile-string)
-* [`getLine(): int`](#getline-int)
-* [`getTrace(): array`](#gettrace-array)
-* [`getPrevious(): ?\Throwable`](#getprevious-throwable)
-* [`getTraceAsString(): string`](#gettraceasstring-string)
-* [`updateTLTrace(array $trace): void`](#updatetltrace-array-trace-void)
-* [`getTLTrace(): string`](#gettltrace-string)
-* [`setTLTrace(string $tlTrace): void`](#settltrace-string-tltrace-void)
-* [`prettifyTL(string $init = '', array $trace = NULL): void`](#prettifytl-string-init-array-trace-null-void)
+* [`localizeMessage(mixed $method, int $code, string $error): string`](#localizemessage)
+* [`getLocalization(): string`](#getlocalization)
+* [`setLocalization(string $localization): void`](#setlocalization)
+* [`__construct(string $rpc, int $code = 0, mixed $caller = '', ?\danog\MadelineProto\Exception $previous = NULL)`](#__construct)
+* [`getMessage(): string`](#getmessage)
+* [`getCode(): mixed`](#getcode)
+* [`getFile(): string`](#getfile)
+* [`getLine(): int`](#getline)
+* [`getTrace(): array`](#gettrace)
+* [`getPrevious(): ?\Throwable`](#getprevious)
+* [`getTraceAsString(): string`](#gettraceasstring)
+* [`updateTLTrace(array $trace): void`](#updatetltrace)
+* [`getTLTrace(): string`](#gettltrace)
+* [`setTLTrace(string $tlTrace): void`](#settltrace)
+* [`prettifyTL(string $init = '', array $trace = NULL): void`](#prettifytl)
 
 ## Methods:
 ### `localizeMessage(mixed $method, int $code, string $error): string`

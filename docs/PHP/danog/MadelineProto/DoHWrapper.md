@@ -24,8 +24,8 @@ parent: "MadelineProto API"
 * `$webSocketConnector`: `\Amp\Websocket\Client\Rfc6455Connector` DoH connector.
 
 ## Method list:
-* [`__construct(\danog\MadelineProto\Settings\Connection $settings, \danog\MadelineProto\LoggerGetter $loggerGetter, ?\Amp\Http\Client\Cookie\CookieJar $jar = NULL)`](#__construct-danog-madelineproto-settings-connection-settings-danog-madelineproto-loggergetter-loggergetter-amp-http-client-cookie-cookiejar-jar-null)
-* [`generateContexts(string $uri, ?\Amp\Socket\ConnectContext $context = NULL): \danog\MadelineProto\Stream\ConnectionContext[]`](#generatecontexts-string-uri-amp-socket-connectcontext-context-null-danog-madelineproto-stream-connectioncontext)
+* [`__construct(\danog\MadelineProto\Settings\Connection $settings, \danog\MadelineProto\LoggerGetter $loggerGetter, ?\Amp\Http\Client\Cookie\CookieJar $jar = NULL)`](#__construct)
+* [`generateContexts(string $uri, ?\Amp\Socket\ConnectContext $context = NULL): \danog\MadelineProto\Stream\ConnectionContext[]`](#generatecontexts)
 
 ## Methods:
 ### `__construct(\danog\MadelineProto\Settings\Connection $settings, \danog\MadelineProto\LoggerGetter $loggerGetter, ?\Amp\Http\Client\Cookie\CookieJar $jar = NULL)`

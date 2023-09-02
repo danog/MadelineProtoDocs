@@ -21,22 +21,22 @@ Some tools.
 
 
 ## Method list:
-* [`mbStrlen(string $text): int`](#mbstrlen-string-text-int)
-* [`mbSubstr(string $text, int $offset, null|int $length = NULL): string`](#mbsubstr-string-text-int-offset-null-int-length-null-string)
-* [`mbStrSplit(string $text, int $length): string[]`](#mbstrsplit-string-text-int-length-string)
-* [`htmlToMessageEntities(string $html): \danog\MadelineProto\TL\Conversion\DOMEntities Object containing message and entities`](#htmltomessageentities-string-html-danog-madelineproto-tl-conversion-domentities-object-containing-message-and-entities)
-* [`markdownToMessageEntities(string $markdown): \danog\MadelineProto\TL\Conversion\MarkdownEntities Object containing message and entities`](#markdowntomessageentities-string-markdown-danog-madelineproto-tl-conversion-markdownentities-object-containing-message-and-entities)
-* [`entitiesToHtml(string $message, list<\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int}> $entities, bool $allowTelegramTags = false): string`](#entitiestohtml-string-message-list-danog-madelineproto-eventhandler-message-entities-messageentity-array-_-string-offset-int-length-int-entities-bool-allowtelegramtags-false-string)
-* [`toCamelCase(string $input): string`](#tocamelcase-string-input-string)
-* [`toSnakeCase(string $input): string`](#tosnakecase-string-input-string)
-* [`markdownEscape(string $what): string`](#markdownescape-string-what-string)
-* [`markdownCodeblockEscape(string $what): string`](#markdowncodeblockescape-string-what-string)
-* [`markdownUrlEscape(string $what): string`](#markdownurlescape-string-what-string)
-* [`getMimeFromExtension(string $extension, string $default): string`](#getmimefromextension-string-extension-string-default-string)
-* [`getExtensionFromMime(string $mime): string`](#getextensionfrommime-string-mime-string)
-* [`getExtensionFromLocation(mixed $location, string $default): string`](#getextensionfromlocation-mixed-location-string-default-string)
-* [`getMimeFromFile(string $file): string`](#getmimefromfile-string-file-string)
-* [`getMimeFromBuffer(string $buffer): string`](#getmimefrombuffer-string-buffer-string)
+* [`mbStrlen(string $text): int`](#mbstrlen)
+* [`mbSubstr(string $text, int $offset, null|int $length = NULL): string`](#mbsubstr)
+* [`mbStrSplit(string $text, int $length): string[]`](#mbstrsplit)
+* [`htmlToMessageEntities(string $html): \danog\MadelineProto\TL\Conversion\DOMEntities Object containing message and entities`](#htmltomessageentities)
+* [`markdownToMessageEntities(string $markdown): \danog\MadelineProto\TL\Conversion\MarkdownEntities Object containing message and entities`](#markdowntomessageentities)
+* [`entitiesToHtml(string $message, list<\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int}> $entities, bool $allowTelegramTags = false): string`](#entitiestohtml)
+* [`toCamelCase(string $input): string`](#tocamelcase)
+* [`toSnakeCase(string $input): string`](#tosnakecase)
+* [`markdownEscape(string $what): string`](#markdownescape)
+* [`markdownCodeblockEscape(string $what): string`](#markdowncodeblockescape)
+* [`markdownUrlEscape(string $what): string`](#markdownurlescape)
+* [`getMimeFromExtension(string $extension, string $default): string`](#getmimefromextension)
+* [`getExtensionFromMime(string $mime): string`](#getextensionfrommime)
+* [`getExtensionFromLocation(mixed $location, string $default): string`](#getextensionfromlocation)
+* [`getMimeFromFile(string $file): string`](#getmimefromfile)
+* [`getMimeFromBuffer(string $buffer): string`](#getmimefrombuffer)
 
 ## Methods:
 ### `mbStrlen(string $text): int`

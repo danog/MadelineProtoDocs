@@ -32,8 +32,8 @@ Represents a voice message.
 * `$protected`: `bool` Whether this media is protected
 
 ## Method list:
-* [`getDownloadLink(string|null $scriptUrl = NULL): string`](#getdownloadlink-string-null-scripturl-null-string)
-* [`getStream(callable|null $cb = NULL, int $offset = 0, int $end = -1): \Amp\ByteStream\ReadableStream`](#getstream-callable-null-cb-null-int-offset-0-int-end-1-amp-bytestream-readablestream)
+* [`getDownloadLink(string|null $scriptUrl = NULL): string`](#getdownloadlink)
+* [`getStream(callable|null $cb = NULL, int $offset = 0, int $end = -1): \Amp\ByteStream\ReadableStream`](#getstream)
 
 ## Methods:
 ### `getDownloadLink(string|null $scriptUrl = NULL): string`

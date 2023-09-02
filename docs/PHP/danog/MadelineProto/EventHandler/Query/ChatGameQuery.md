@@ -24,8 +24,8 @@ Represents a query sent by the user by clicking on a "Play game" button in a cha
 * `$messageId`: `int` Message ID
 
 ## Method list:
-* [`answer(string $message, bool $alert = false, string|null $url = NULL, int $cacheTime = 300): bool`](#answer-string-message-bool-alert-false-string-null-url-null-int-cachetime-300-bool)
-* [`editText(string $message, array|null $replyMarkup = NULL, \ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, bool $noWebpage = false, int|null $scheduleDate = NULL): \danog\MadelineProto\EventHandler\Message`](#edittext-string-message-array-null-replymarkup-null-parsemode-parsemode-danog-madelineproto-parsemode-text-bool-nowebpage-false-int-null-scheduledate-null-danog-madelineproto-eventhandler-message)
+* [`answer(string $message, bool $alert = false, string|null $url = NULL, int $cacheTime = 300): bool`](#answer)
+* [`editText(string $message, array|null $replyMarkup = NULL, \ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, bool $noWebpage = false, int|null $scheduleDate = NULL): \danog\MadelineProto\EventHandler\Message`](#edittext)
 
 ## Methods:
 ### `answer(string $message, bool $alert = false, string|null $url = NULL, int $cacheTime = 300): bool`

@@ -17,13 +17,13 @@ DB type interface.
 
 
 ## Method list:
-* [`isset(\TKey $key): bool`](#isset-tkey-key-bool)
-* [`unset(\TKey $key): void`](#unset-tkey-key-void)
-* [`set(\TKey $key, \TValue $value): void`](#set-tkey-key-tvalue-value-void)
-* [`offsetGet(\TKey $index): mixed`](#offsetget-tkey-index-mixed)
-* [`clear(): void`](#clear-void)
-* [`getIterator(): \Traversable`](#getiterator-traversable)
-* [`count(): mixed`](#count-mixed)
+* [`isset(\TKey $key): bool`](#isset)
+* [`unset(\TKey $key): void`](#unset)
+* [`set(\TKey $key, \TValue $value): void`](#set)
+* [`offsetGet(\TKey $index): mixed`](#offsetget)
+* [`clear(): void`](#clear)
+* [`getIterator(): \Traversable`](#getiterator)
+* [`count(): mixed`](#count)
 
 ## Methods:
 ### `isset(\TKey $key): bool`

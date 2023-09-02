@@ -17,8 +17,8 @@ Serialization settings.
 
 
 ## Method list:
-* [`getInterval(): int`](#getinterval-int)
-* [`setInterval(int $interval): self`](#setinterval-int-interval-self)
+* [`getInterval(): int`](#getinterval)
+* [`setInterval(int $interval): self`](#setinterval)
 
 ## Methods:
 ### `getInterval(): int`

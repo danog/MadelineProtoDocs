@@ -173,16 +173,16 @@ parent: "MadelineProto API"
 * `$tdesktop_key`: `mixed` 
 
 ## Method list:
-* [`importAuthorization(array<int, string> $authorization, int $main_dc_id, string $session, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): \danog\MadelineProto\API`](#importauthorization-array-int-string-authorization-int-main_dc_id-string-session-danog-madelineproto-settingsabstract-settings-null-danog-madelineproto-api)
-* [`telethon(string $session, string $new_session, mixed $settings = []): mixed`](#telethon-string-session-string-new_session-mixed-settings-mixed)
-* [`pyrogram(string $session, string $new_session, mixed $settings = []): mixed`](#pyrogram-string-session-string-new_session-mixed-settings-mixed)
-* [`zerobias(mixed $session, mixed $new_session, mixed $settings = []): mixed`](#zerobias-mixed-session-mixed-new_session-mixed-settings-mixed)
-* [`tdesktop_md5(mixed $data): mixed`](#tdesktop_md5-mixed-data-mixed)
-* [`tdesktop_fopen(mixed $fileName, mixed $options = 3): mixed`](#tdesktop_fopen-mixed-filename-mixed-options-3-mixed)
-* [`tdesktop_fopen_encrypted(mixed $fileName, mixed $options = 3): mixed`](#tdesktop_fopen_encrypted-mixed-filename-mixed-options-3-mixed)
-* [`tdesktop_read_bytearray(mixed $fp, bool $asString = false): mixed`](#tdesktop_read_bytearray-mixed-fp-bool-asstring-false-mixed)
-* [`tdesktop_decrypt(mixed $data, mixed $auth_key): mixed`](#tdesktop_decrypt-mixed-data-mixed-auth_key-mixed)
-* [`tdesktop(string $session, string $new_session, mixed $settings = []): mixed`](#tdesktop-string-session-string-new_session-mixed-settings-mixed)
+* [`importAuthorization(array<int, string> $authorization, int $main_dc_id, string $session, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): \danog\MadelineProto\API`](#importauthorization)
+* [`telethon(string $session, string $new_session, mixed $settings = []): mixed`](#telethon)
+* [`pyrogram(string $session, string $new_session, mixed $settings = []): mixed`](#pyrogram)
+* [`zerobias(mixed $session, mixed $new_session, mixed $settings = []): mixed`](#zerobias)
+* [`tdesktop_md5(mixed $data): mixed`](#tdesktop_md5)
+* [`tdesktop_fopen(mixed $fileName, mixed $options = 3): mixed`](#tdesktop_fopen)
+* [`tdesktop_fopen_encrypted(mixed $fileName, mixed $options = 3): mixed`](#tdesktop_fopen_encrypted)
+* [`tdesktop_read_bytearray(mixed $fp, bool $asString = false): mixed`](#tdesktop_read_bytearray)
+* [`tdesktop_decrypt(mixed $data, mixed $auth_key): mixed`](#tdesktop_decrypt)
+* [`tdesktop(string $session, string $new_session, mixed $settings = []): mixed`](#tdesktop)
 
 ## Methods:
 ### `importAuthorization(array<int, string> $authorization, int $main_dc_id, string $session, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): \danog\MadelineProto\API`

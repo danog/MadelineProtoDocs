@@ -20,13 +20,13 @@ Represents a login QR code.
 * `$expiry`: `positive-int` The expiry date of the link
 
 ## Method list:
-* [`isExpired(): bool`](#isexpired-bool)
-* [`expiresIn(): int`](#expiresin-int)
-* [`getExpirationCancellation(): \Amp\Cancellation`](#getexpirationcancellation-amp-cancellation)
-* [`getLoginCancellation(): \Amp\Cancellation`](#getlogincancellation-amp-cancellation)
-* [`waitForLoginOrQrCodeExpiration(\Amp\Cancellation|null $customCancellation = NULL): ?self`](#waitforloginorqrcodeexpiration-amp-cancellation-null-customcancellation-null-self)
-* [`getQRSvg(int $size = 400, int $margin = 4): string`](#getqrsvg-int-size-400-int-margin-4-string)
-* [`getQRText(int $margin = 2): string`](#getqrtext-int-margin-2-string)
+* [`isExpired(): bool`](#isexpired)
+* [`expiresIn(): int`](#expiresin)
+* [`getExpirationCancellation(): \Amp\Cancellation`](#getexpirationcancellation)
+* [`getLoginCancellation(): \Amp\Cancellation`](#getlogincancellation)
+* [`waitForLoginOrQrCodeExpiration(\Amp\Cancellation|null $customCancellation = NULL): ?self`](#waitforloginorqrcodeexpiration)
+* [`getQRSvg(int $size = 400, int $margin = 4): string`](#getqrsvg)
+* [`getQRText(int $margin = 2): string`](#getqrtext)
 
 ## Methods:
 ### `isExpired(): bool`

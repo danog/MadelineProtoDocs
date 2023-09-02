@@ -22,10 +22,10 @@ Represents an event handler issue.
 * `$severe`: `bool` Whether the issue is severe enough to block inclusion
 
 ## Method list:
-* [`__construct(string $message, string $file, int $line, bool $severe)`](#__construct-string-message-string-file-int-line-bool-severe)
-* [`log(): void`](#log-void)
-* [`getHTML(): string`](#gethtml-string)
-* [`throw(): void`](#throw-void)
+* [`__construct(string $message, string $file, int $line, bool $severe)`](#__construct)
+* [`log(): void`](#log)
+* [`getHTML(): string`](#gethtml)
+* [`throw(): void`](#throw)
 
 ## Methods:
 ### `__construct(string $message, string $file, int $line, bool $severe)`

@@ -17,7 +17,7 @@ Interface that represents a broadcast action.
 
 
 ## Method list:
-* [`act(int $broadcastId, int $peer, \Amp\Cancellation $cancellation): void`](#act-int-broadcastid-int-peer-amp-cancellation-cancellation-void)
+* [`act(int $broadcastId, int $peer, \Amp\Cancellation $cancellation): void`](#act)
 
 ## Methods:
 ### `act(int $broadcastId, int $peer, \Amp\Cancellation $cancellation): void`

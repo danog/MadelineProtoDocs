@@ -17,17 +17,17 @@ Base class for storage backends.
 
 
 ## Method list:
-* [`getEnableFileReferenceDb(): bool`](#getenablefilereferencedb-bool)
-* [`setEnableFileReferenceDb(bool $enableFileReferenceDb): self`](#setenablefilereferencedb-bool-enablefilereferencedb-self)
-* [`getEnableMinDb(): bool`](#getenablemindb-bool)
-* [`setEnableMinDb(bool $enableMinDb): self`](#setenablemindb-bool-enablemindb-self)
-* [`getEnableUsernameDb(): bool`](#getenableusernamedb-bool)
-* [`setEnableUsernameDb(bool $enableUsernameDb): self`](#setenableusernamedb-bool-enableusernamedb-self)
-* [`getEnableFullPeerDb(): bool`](#getenablefullpeerdb-bool)
-* [`setEnableFullPeerDb(bool $enableFullPeerDb): self`](#setenablefullpeerdb-bool-enablefullpeerdb-self)
-* [`getEnablePeerInfoDb(): bool`](#getenablepeerinfodb-bool)
-* [`setEnablePeerInfoDb(bool $enablePeerInfoDb): self`](#setenablepeerinfodb-bool-enablepeerinfodb-self)
-* [`getDriverClass(): class-string<\danog\MadelineProto\Db\DbArray>`](#getdriverclass-class-string-danog-madelineproto-db-dbarray)
+* [`getEnableFileReferenceDb(): bool`](#getenablefilereferencedb)
+* [`setEnableFileReferenceDb(bool $enableFileReferenceDb): self`](#setenablefilereferencedb)
+* [`getEnableMinDb(): bool`](#getenablemindb)
+* [`setEnableMinDb(bool $enableMinDb): self`](#setenablemindb)
+* [`getEnableUsernameDb(): bool`](#getenableusernamedb)
+* [`setEnableUsernameDb(bool $enableUsernameDb): self`](#setenableusernamedb)
+* [`getEnableFullPeerDb(): bool`](#getenablefullpeerdb)
+* [`setEnableFullPeerDb(bool $enableFullPeerDb): self`](#setenablefullpeerdb)
+* [`getEnablePeerInfoDb(): bool`](#getenablepeerinfodb)
+* [`setEnablePeerInfoDb(bool $enablePeerInfoDb): self`](#setenablepeerinfodb)
+* [`getDriverClass(): class-string<\danog\MadelineProto\Db\DbArray>`](#getdriverclass)
 
 ## Methods:
 ### `getEnableFileReferenceDb(): bool`

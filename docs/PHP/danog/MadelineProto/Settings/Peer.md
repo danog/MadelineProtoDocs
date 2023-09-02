@@ -17,12 +17,12 @@ Peer database settings.
 
 
 ## Method list:
-* [`getFullInfoCacheTime(): int`](#getfullinfocachetime-int)
-* [`setFullInfoCacheTime(int $fullInfoCacheTime): self`](#setfullinfocachetime-int-fullinfocachetime-self)
-* [`getFullFetch(): bool`](#getfullfetch-bool)
-* [`setFullFetch(bool $fullFetch): self`](#setfullfetch-bool-fullfetch-self)
-* [`getCacheAllPeersOnStartup(): bool`](#getcacheallpeersonstartup-bool)
-* [`setCacheAllPeersOnStartup(bool $cacheAllPeersOnStartup): self`](#setcacheallpeersonstartup-bool-cacheallpeersonstartup-self)
+* [`getFullInfoCacheTime(): int`](#getfullinfocachetime)
+* [`setFullInfoCacheTime(int $fullInfoCacheTime): self`](#setfullinfocachetime)
+* [`getFullFetch(): bool`](#getfullfetch)
+* [`setFullFetch(bool $fullFetch): self`](#setfullfetch)
+* [`getCacheAllPeersOnStartup(): bool`](#getcacheallpeersonstartup)
+* [`setCacheAllPeersOnStartup(bool $cacheAllPeersOnStartup): self`](#setcacheallpeersonstartup)
 
 ## Methods:
 ### `getFullInfoCacheTime(): int`

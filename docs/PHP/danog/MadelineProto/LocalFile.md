@@ -19,7 +19,7 @@ Indicates a local file to upload.
 * `$file`: `string` 
 
 ## Method list:
-* [`__construct(string $file)`](#__construct-string-file)
+* [`__construct(string $file)`](#__construct)
 
 ## Methods:
 ### `__construct(string $file)`
