@@ -19,7 +19,7 @@ Basic exception.
 * `$tlTrace`: `string` TL trace.
 
 ## Method list:
-* [`__construct(mixed $message = NULL, mixed $code = 0, ?self $previous = NULL, mixed $file = NULL, mixed $line = NULL)`](#__construct)
+* [`__construct(mixed $message = NULL, mixed $code = 0, ?\Throwable $previous = NULL, mixed $file = NULL, mixed $line = NULL)`](#__construct)
 * [`extension(string $extensionName): self`](#extension)
 * [`getMessage(): string`](#getmessage)
 * [`getCode(): mixed`](#getcode)
@@ -34,7 +34,7 @@ Basic exception.
 * [`prettifyTL(string $init = '', array $trace = NULL): void`](#prettifytl)
 
 ## Methods:
-### `__construct(mixed $message = NULL, mixed $code = 0, ?self $previous = NULL, mixed $file = NULL, mixed $line = NULL)`
+### `__construct(mixed $message = NULL, mixed $code = 0, ?\Throwable $previous = NULL, mixed $file = NULL, mixed $line = NULL)`
 
 
 
@@ -43,9 +43,14 @@ Parameters:
 
 * `$message`: `mixed`   
 * `$code`: `mixed`   
-* `$previous`: `?self`   
+* `$previous`: `?\Throwable`   
 * `$file`: `mixed`   
 * `$line`: `mixed`   
+
+
+#### See also: 
+* `\Throwable`
+
 
 
 

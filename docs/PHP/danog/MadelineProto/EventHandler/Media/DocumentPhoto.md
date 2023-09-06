@@ -35,6 +35,8 @@ Represents a photo uploaded as a document.
 ## Method list:
 * [`getDownloadLink(string|null $scriptUrl = NULL): string`](#getdownloadlink)
 * [`getStream(callable|null $cb = NULL, int $offset = 0, int $end = -1): \Amp\ByteStream\ReadableStream`](#getstream)
+* [`downloadToDir(?string $path = NULL): string`](#downloadtodir)
+* [`downloadToFile(string $path): string`](#downloadtofile)
 
 ## Methods:
 ### `getDownloadLink(string|null $scriptUrl = NULL): string`
@@ -63,6 +65,28 @@ Parameters:
 #### See also: 
 * `\Amp\ByteStream\ReadableStream`
 
+
+
+
+### `downloadToDir(?string $path = NULL): string`
+
+Download the media to working directory or passed path.
+
+
+Parameters:
+
+* `$path`: `?string`   
+
+
+
+### `downloadToFile(string $path): string`
+
+Download the media to file.
+
+
+Parameters:
+
+* `$path`: `string`   
 
 
 

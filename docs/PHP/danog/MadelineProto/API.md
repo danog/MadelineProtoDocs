@@ -129,7 +129,6 @@ Main API wrapper for MadelineProto.
 * [`extractUpdates(array $updates): array[]`](#extractupdates)
 * [`fileGetContents(string $url): string`](#filegetcontents)
 * [`flock(string $file, int $operation, float $polling = 0.1, ?\Amp\Cancellation $token = NULL, ?\Closure $failureCb = NULL): mixed`](#flock)
-* [`fromSupergroup(int $id): int`](#fromsupergroup)
 * [`fullChatLastUpdated(mixed $id): int`](#fullchatlastupdated)
 * [`fullGetSelf(): array|false`](#fullgetself)
 * [`genVectorHash(array $longs): string`](#genvectorhash)
@@ -203,7 +202,6 @@ Main API wrapper for MadelineProto.
 * [`isPremium(): bool`](#ispremium)
 * [`isSelfBot(): bool`](#isselfbot)
 * [`isSelfUser(): bool`](#isselfuser)
-* [`isSupergroupOrChannel(int $id): bool`](#issupergrouporchannel)
 * [`isTestMode(): bool`](#istestmode)
 * [`logger(mixed $param, int $level = \danog\MadelineProto\Logger::NOTICE, string $file = ''): void`](#logger)
 * [`logout(): void`](#logout)
@@ -264,7 +262,6 @@ Main API wrapper for MadelineProto.
 * [`testFibers(int $fiberCount = 100000): array{maxFibers: int, realMemoryMb: int, maps: ?int, maxMaps: ?int}`](#testfibers)
 * [`toCamelCase(string $input): string`](#tocamelcase)
 * [`toSnakeCase(string $input): string`](#tosnakecase)
-* [`toSupergroup(int $id): int`](#tosupergroup)
 * [`unpackDouble(string $value): float`](#unpackdouble)
 * [`unpackFileId(string $fileId): \array Unpacked file ID`](#unpackfileid)
 * [`unpackSignedInt(string $value): int`](#unpacksignedint)
@@ -988,17 +985,6 @@ Parameters:
 * `\Amp\Cancellation`
 * `\Closure`
 
-
-
-
-### `fromSupergroup(int $id): int`
-
-Convert bot API channel ID to MTProto channel ID.
-
-
-Parameters:
-
-* `$id`: `int` Bot API channel ID  
 
 
 
@@ -1764,17 +1750,6 @@ Returns whether the current user is a bot.
 ### `isSelfUser(): bool`
 
 Returns whether the current user is a user.
-
-
-
-### `isSupergroupOrChannel(int $id): bool`
-
-Check whether provided bot API ID is a channel or supergroup.
-
-
-Parameters:
-
-* `$id`: `int` Bot API ID  
 
 
 
@@ -2547,17 +2522,6 @@ Convert to snake_case.
 Parameters:
 
 * `$input`: `string` String  
-
-
-
-### `toSupergroup(int $id): int`
-
-Convert MTProto channel ID to bot API channel ID.
-
-
-Parameters:
-
-* `$id`: `int` MTProto channel ID  
 
 
 

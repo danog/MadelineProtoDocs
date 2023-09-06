@@ -11,6 +11,10 @@ redirect_from: /API_docs/methods/updates_getState.html
 
 
 
+# Warning: this is a low-level, complex method that **must never** be used directly.
+The [event handler](https://docs.madelineproto.xyz/docs/UPDATES.html) provides a high-level abstraction that **must** be used instead of this method to fetch updates.
+If you want to fetch all users of a bot using a bot token, use [getDialogIds](https://docs.madelineproto.xyz/docs/DIALOGS.html) or the high-level [broadcast API](https://docs.madelineproto.xyz/docs/BROADCAST.html), instead.
+
 You cannot use this method directly, please use the [event handler](https://docs.madelineproto.xyz/docs/UPDATES.html), instead.
 
 

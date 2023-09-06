@@ -17,8 +17,8 @@ Change privacy settings of current account
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|key|[InputPrivacyKey](/API_docs/types/InputPrivacyKey.html) | Peers to which the privacy rules apply | Yes|
-|rules|Array of [InputPrivacyRule](/API_docs/types/InputPrivacyRule.html) | New privacy rules | Yes|
+|key|[InputPrivacyKey](/API_docs/types/InputPrivacyKey.html) | New privacy rule | Yes|
+|rules|Array of [InputPrivacyRule](/API_docs/types/InputPrivacyRule.html) | Peers to which the privacy rule will apply. | Yes|
 
 
 ### Return type: [account.PrivacyRules](/API_docs/types/account.PrivacyRules.html)

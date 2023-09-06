@@ -148,8 +148,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.checkHistoryImportPeer.html" name="messages.checkHistoryImportPeer">Check whether chat history exported from another chat app can be imported into a specific Telegram chat, click here for more info »: messages.checkHistoryImportPeer</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#issupergrouporchannel" name="isSupergroupOrChannel">Check whether provided bot API ID is a channel or supergroup: isSupergroupOrChannel</a>
-
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#hassecretchat" name="hasSecretChat">Check whether secret chat exists: hasSecretChat</a>
 
 * <a href="stickers.checkShortName.html" name="stickers.checkShortName">Check whether the given short name is available: stickers.checkShortName</a>
@@ -186,8 +184,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.receivedMessages.html" name="messages.receivedMessages">Confirms receipt of messages by a client, cancels PUSH-notification sending: messages.receivedMessages</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#tosupergroup" name="toSupergroup">Convert MTProto channel ID to bot API channel ID: toSupergroup</a>
-
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#mtprototobotapi" name="MTProtoToBotAPI">Convert MTProto parameters to bot API parameters: MTProtoToBotAPI</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#tdtotdcli" name="tdToTdcli">Convert TD parameters to tdcli: tdToTdcli</a>
@@ -197,8 +193,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#entitiestohtml" name="entitiesToHtml">Convert a message and a set of entities to HTML: entitiesToHtml</a>
 
 * <a href="channels.convertToGigagroup.html" name="channels.convertToGigagroup">Convert a supergroup to a gigagroup, when requested by channel suggestions: channels.convertToGigagroup</a>
-
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#fromsupergroup" name="fromSupergroup">Convert bot API channel ID to MTProto channel ID: fromSupergroup</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#botapitomtproto" name="botAPIToMTProto">Convert bot API parameters to MTProto parameters: botAPIToMTProto</a>
 

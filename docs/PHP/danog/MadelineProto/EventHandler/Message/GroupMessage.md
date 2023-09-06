@@ -50,20 +50,48 @@ Represents an incoming or outgoing group message.
 
 ## Method list:
 * [`getMember(string|int|null $member = NULL): \danog\MadelineProto\EventHandler\Participant`](#getmember)
+* [`hideMembers(): void`](#hidemembers)
+* [`unhideMembers(): void`](#unhidemembers)
+* [`hideHistory(): void`](#hidehistory)
+* [`unhideHistory(): void`](#unhidehistory)
+* [`ban(int $untilDate = 0): void`](#ban)
+* [`unban(int $untilDate = 0): void`](#unban)
+* [`kick(): void`](#kick)
+* [`deleteAll(bool $forEveryone = true, int $maxId = 0): void`](#deleteall)
+* [`deleteUserMessages(string|int|null $member = NULL): void`](#deleteusermessages)
+* [`toSuperGroup(): \int the channel id that migrate to`](#tosupergroup)
+* [`enableAntiSpam(): void`](#enableantispam)
+* [`disableAntiSpam(): void`](#disableantispam)
+* [`enableTopics(): void`](#enabletopics)
+* [`disableTopics(): void`](#disabletopics)
+* [`createTopic(string $title, \danog\MadelineProto\EventHandler\Topic\IconColor|int $icon = \danog\MadelineProto\EventHandler\Topic\IconColor::NONE): \danog\MadelineProto\EventHandler\Message\Service\DialogTopicCreated`](#createtopic)
+* [`editTopic(string $title, int $icon = 0, int|null $topicId = NULL): \danog\MadelineProto\EventHandler\Message\Service\DialogTopicEdited`](#edittopic)
+* [`openTopic(int|null $topicId = NULL): \danog\MadelineProto\EventHandler\Message\Service\DialogTopicEdited`](#opentopic)
+* [`closeTopic(int|null $topicId = NULL): \danog\MadelineProto\EventHandler\Message\Service\DialogTopicEdited`](#closetopic)
+* [`deleteTopic(int|null $topicId = NULL): void`](#deletetopic)
 * [`pin(bool $pmOneside = false, bool $silent = false): void`](#pin)
 * [`unpin(bool $pmOneside = false, bool $silent = false): ?\danog\MadelineProto\EventHandler\Update`](#unpin)
 * [`getOurReactions(): list<string|int>`](#getourreactions)
+* [`report(\danog\MadelineProto\EventHandler\Message\ReportReason $reason, string $message): bool`](#report)
+* [`saveContact(string $firstName, string|null $lastName = NULL, string|null $phoneNumber = NULL, bool $addPhonePrivacyException = false): void`](#savecontact)
+* [`removeContact(): void`](#removecontact)
+* [`inviteToChannel(string|int $channel): void`](#invitetochannel)
 * [`addReaction(string|int $reaction, bool $big = false, bool $addToRecent = true): list<string|int>`](#addreaction)
 * [`delReaction(string|int $reaction): list<string|int>`](#delreaction)
 * [`translate(string $toLang): string`](#translate)
-* [`editText(string $message, array|null $replyMarkup = NULL, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, int|null $scheduleDate = NULL, bool $noWebpage = false): \danog\MadelineProto\EventHandler\Message`](#edittext)
+* [`editText(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false): \danog\MadelineProto\EventHandler\Message`](#edittext)
 * [`getHTML(bool $allowTelegramTags = false): string`](#gethtml)
 * [`isReply(): bool`](#isreply)
 * [`getReply(class-string<\T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?\T`](#getreply)
 * [`delete(bool $revoke = true): void`](#delete)
-* [`reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`](#reply)
-* [`block(bool $stories): bool`](#block)
-* [`unblock(bool $stories): bool`](#unblock)
+* [`reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`](#reply)
+* [`block(): bool`](#block)
+* [`unblock(): bool`](#unblock)
+* [`getStories(): list<\danog\MadelineProto\EventHandler\AbstractStory>`](#getstories)
+* [`setAction(\danog\MadelineProto\EventHandler\Action $action = \danog\MadelineProto\EventHandler\Action\Typing::__set_state(array(]]): bool`](#setaction)
+* [`read(bool $readAll = false): \bool if set, read all messages in current chat.`](#read)
+* [`enableTTL(int $seconds = 86400): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`](#enablettl)
+* [`disableTTL(): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`](#disablettl)
 
 ## Methods:
 ### `getMember(string|int|null $member = NULL): \danog\MadelineProto\EventHandler\Participant`
@@ -79,6 +107,194 @@ Parameters:
 #### See also: 
 * [`\danog\MadelineProto\EventHandler\Participant`: Info about a channel participant.](../../../../danog/MadelineProto/EventHandler/Participant.html)
 
+
+
+
+### `hideMembers(): void`
+
+Hide the participants list in a [supergroup](https://core.telegram.org/api/channel).
+The supergroup must have at least `hidden_members_group_size_min` participants in order to use this method, as specified by the [client configuration parameters »](https://core.telegram.org/api/config#client-configuration).
+
+
+### `unhideMembers(): void`
+
+Display the participants list in a [supergroup](https://core.telegram.org/api/channel).
+The supergroup must have at least `hidden_members_group_size_min` participants in order to use this method, as specified by the [client configuration parameters »](https://core.telegram.org/api/config#client-configuration).
+
+
+### `hideHistory(): void`
+
+Hide message history for new supergroup users.
+
+
+
+### `unhideHistory(): void`
+
+Unhide message history for new supergroup users.
+
+
+
+### `ban(int $untilDate = 0): void`
+
+Ban message sender from current supergroup.
+
+
+Parameters:
+
+* `$untilDate`: `int` Validity of said permissions (it is considered forever any value less then 30 seconds or more then 366 days).  
+
+
+
+### `unban(int $untilDate = 0): void`
+
+Unban message sender from current supergroup.
+
+
+Parameters:
+
+* `$untilDate`: `int` Validity of said permissions (it is considered forever any value less then 30 seconds or more then 366 days).  
+
+
+
+### `kick(): void`
+
+Kick message sender from current supergroup.
+
+
+
+### `deleteAll(bool $forEveryone = true, int $maxId = 0): void`
+
+Delete all supergroup message.
+
+
+Parameters:
+
+* `$forEveryone`: `bool`   
+* `$maxId`: `int`   
+
+
+
+### `deleteUserMessages(string|int|null $member = NULL): void`
+
+Delete all messages sent by a specific participant of a given supergroup.
+
+
+Parameters:
+
+* `$member`: `string|int|null` The participant whose messages should be deleted, if null or absent defaults to the sender of the message.  
+
+
+
+### `toSuperGroup(): \int the channel id that migrate to`
+
+Turn a [basic group into a supergroup](https://core.telegram.org/api/channel#migration).
+
+
+Return value: the channel id that migrate to
+
+
+### `enableAntiSpam(): void`
+
+Enable the [native antispam system](https://core.telegram.org/api/antispam).
+
+
+
+### `disableAntiSpam(): void`
+
+Disable the [native antispam system](https://core.telegram.org/api/antispam).
+
+
+
+### `enableTopics(): void`
+
+Enable [forum functionality](https://core.telegram.org/api/forum) in a supergroup.
+
+
+
+### `disableTopics(): void`
+
+Disable [forum functionality](https://core.telegram.org/api/forum) in a supergroup.
+
+
+
+### `createTopic(string $title, \danog\MadelineProto\EventHandler\Topic\IconColor|int $icon = \danog\MadelineProto\EventHandler\Topic\IconColor::NONE): \danog\MadelineProto\EventHandler\Message\Service\DialogTopicCreated`
+
+Create a [forum topic](https://core.telegram.org/api/forum); requires [`manage_topics` rights](https://core.telegram.org/api/rights).
+
+
+Parameters:
+
+* `$title`: `string` Topic title (maximum UTF-8 length: 128)  
+* `$icon`: `\danog\MadelineProto\EventHandler\Topic\IconColor|int` Icon color, or ID of the [custom emoji](https://core.telegram.org/api/custom-emoji) used as topic icon.
+[Telegram Premium](https://core.telegram.org/api/premium) users can use any custom emoji, other users can only use the custom emojis contained in the [inputStickerSetEmojiDefaultTopicIcons](https://docs.madelineproto.xyz/API_docs/constructors/inputStickerSetEmojiDefaultTopicIcons.html) emoji pack.
+If no custom emoji icon is specified, specifies the color of the fallback topic icon  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Topic\IconColor`: Specifies the color of the fallback topic icon (RGB) if no custom emoji icon is specified.](../../../../danog/MadelineProto/EventHandler/Topic/IconColor.html)
+* [`\danog\MadelineProto\EventHandler\Message\Service\DialogTopicCreated`: A [forum topic](https://core.telegram.org/api/forum#forum-topics) was created.](../../../../danog/MadelineProto/EventHandler/Message/Service/DialogTopicCreated.html)
+
+
+
+
+### `editTopic(string $title, int $icon = 0, int|null $topicId = NULL): \danog\MadelineProto\EventHandler\Message\Service\DialogTopicEdited`
+
+Edit a [forum topic](https://core.telegram.org/api/forum); requires [`manage_topics` rights](https://core.telegram.org/api/rights).
+
+
+Parameters:
+
+* `$title`: `string` Topic title (maximum UTF-8 length: 128)  
+* `$icon`: `int` ID of the [custom emoji](https://core.telegram.org/api/custom-emoji) used as topic icon. [Telegram Premium](https://core.telegram.org/api/premium) users can use any custom emoji, other users can only use the custom emojis contained in the [inputStickerSetEmojiDefaultTopicIcons](https://docs.madelineproto.xyz/API_docs/constructors/inputStickerSetEmojiDefaultTopicIcons.html) emoji pack. Pass 0 to switch to the fallback topic icon.  
+* `$topicId`: `int|null` Topic ID, if absent defaults to the topic where this message was sent.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message\Service\DialogTopicEdited`: [Forum topic](https://core.telegram.org/api/forum#forum-topics) information was edited.](../../../../danog/MadelineProto/EventHandler/Message/Service/DialogTopicEdited.html)
+
+
+
+
+### `openTopic(int|null $topicId = NULL): \danog\MadelineProto\EventHandler\Message\Service\DialogTopicEdited`
+
+Open a [forum topic](https://core.telegram.org/api/forum); requires [`manage_topics` rights](https://core.telegram.org/api/rights).
+
+
+Parameters:
+
+* `$topicId`: `int|null` Topic ID, if absent defaults to the topic where this message was sent.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message\Service\DialogTopicEdited`: [Forum topic](https://core.telegram.org/api/forum#forum-topics) information was edited.](../../../../danog/MadelineProto/EventHandler/Message/Service/DialogTopicEdited.html)
+
+
+
+
+### `closeTopic(int|null $topicId = NULL): \danog\MadelineProto\EventHandler\Message\Service\DialogTopicEdited`
+
+Close a [forum topic](https://core.telegram.org/api/forum); requires [`manage_topics` rights](https://core.telegram.org/api/rights).
+
+
+Parameters:
+
+* `$topicId`: `int|null` Topic ID, if absent defaults to the topic where this message was sent.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message\Service\DialogTopicEdited`: [Forum topic](https://core.telegram.org/api/forum#forum-topics) information was edited.](../../../../danog/MadelineProto/EventHandler/Message/Service/DialogTopicEdited.html)
+
+
+
+
+### `deleteTopic(int|null $topicId = NULL): void`
+
+Delete message history of a [forum topic](https://core.telegram.org/api/forum).
+
+
+Parameters:
+
+* `$topicId`: `int|null` Topic ID, if absent defaults to the topic where this message was sent.  
 
 
 
@@ -117,6 +333,54 @@ Get our reactions on the message.
 
 
 
+### `report(\danog\MadelineProto\EventHandler\Message\ReportReason $reason, string $message): bool`
+
+Report a message in a chat for violation of telegram’s Terms of Service.
+
+
+Parameters:
+
+* `$reason`: `\danog\MadelineProto\EventHandler\Message\ReportReason` Why are these messages being reported  
+* `$message`: `string` Comment for report moderation  
+
+
+#### See also: 
+* [\danog\MadelineProto\EventHandler\Message\ReportReason](../../../../danog/MadelineProto/EventHandler/Message/ReportReason.html)
+
+
+
+
+### `saveContact(string $firstName, string|null $lastName = NULL, string|null $phoneNumber = NULL, bool $addPhonePrivacyException = false): void`
+
+Save message sender to your account contacts.
+
+
+Parameters:
+
+* `$firstName`: `string` First name  
+* `$lastName`: `string|null` Last name  
+* `$phoneNumber`: `string|null` Telegram ID of the other user  
+* `$addPhonePrivacyException`: `bool` Allow the other user to see our phone number?  
+
+
+
+### `removeContact(): void`
+
+Remove message sender from your account contacts.
+
+
+
+### `inviteToChannel(string|int $channel): void`
+
+Invite message sender to requested channel.
+
+
+Parameters:
+
+* `$channel`: `string|int` Username, Channel ID  
+
+
+
 ### `addReaction(string|int $reaction, bool $big = false, bool $addToRecent = true): list<string|int>`
 
 Add reaction to message.
@@ -152,7 +416,7 @@ Parameters:
 
 
 
-### `editText(string $message, array|null $replyMarkup = NULL, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, int|null $scheduleDate = NULL, bool $noWebpage = false): \danog\MadelineProto\EventHandler\Message`
+### `editText(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false): \danog\MadelineProto\EventHandler\Message`
 
 Edit message text.
 
@@ -160,8 +424,8 @@ Edit message text.
 Parameters:
 
 * `$message`: `string` New message  
-* `$replyMarkup`: `array|null` Reply markup for inline keyboards  
 * `$parseMode`: `\danog\MadelineProto\ParseMode` Whether to parse HTML or Markdown markup in the message  
+* `$replyMarkup`: `array|null` Reply markup for inline keyboards  
 * `$scheduleDate`: `int|null` Scheduled message date for scheduled messages  
 * `$noWebpage`: `bool` Disable webpage preview  
 
@@ -216,7 +480,7 @@ Parameters:
 
 
 
-### `reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`
+### `reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`
 
 Reply to the message.
 
@@ -228,11 +492,11 @@ Parameters:
 * `$replyMarkup`: `array|null` Keyboard information.  
 * `$sendAs`: `int|null` Peer to send the message as.  
 * `$scheduleDate`: `int|null` Schedule date.  
+* `$noWebpage`: `bool` Set this flag to disable generation of the webpage preview  
 * `$silent`: `bool` Whether to send the message silently, without triggering notifications.  
 * `$noForwards`: `bool`   
 * `$background`: `bool` Send this message as background message  
 * `$clearDraft`: `bool` Clears the draft field  
-* `$noWebpage`: `bool` Set this flag to disable generation of the webpage preview  
 * `$updateStickersetsOrder`: `bool` Whether to move used stickersets to top  
 
 
@@ -243,25 +507,83 @@ Parameters:
 
 
 
-### `block(bool $stories): bool`
+### `block(): bool`
 
 Adds the user to the blacklist.
 
 
-Parameters:
 
-* `$stories`: `bool`   
-
-
-
-### `unblock(bool $stories): bool`
+### `unblock(): bool`
 
 Deletes the user from the blacklist.
 
 
+
+### `getStories(): list<\danog\MadelineProto\EventHandler\AbstractStory>`
+
+Get user stories.
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\AbstractStory`: Represents a Telegram Story.](../../../../danog/MadelineProto/EventHandler/AbstractStory.html)
+
+
+
+
+### `setAction(\danog\MadelineProto\EventHandler\Action $action = \danog\MadelineProto\EventHandler\Action\Typing::__set_state(array(]]): bool`
+
+Sends a current user typing event
+(see [SendMessageAction](https://docs.madelineproto.xyz/API_docs/types/SendMessageAction.html) for all event types) to a conversation partner or group.
+
+
 Parameters:
 
-* `$stories`: `bool`   
+* `$action`: `\danog\MadelineProto\EventHandler\Action`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Action`: In-progress actions.](../../../../danog/MadelineProto/EventHandler/Action.html)
+
+
+
+
+### `read(bool $readAll = false): \bool if set, read all messages in current chat.`
+
+Mark selected message as read.
+
+
+Parameters:
+
+* `$readAll`: `bool`   
+
+
+Return value: if set, read all messages in current chat.
+
+
+### `enableTTL(int $seconds = 86400): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`
+
+Set maximum Time-To-Live of all messages in the specified chat.
+
+
+Parameters:
+
+* `$seconds`: `int` Automatically delete all messages sent in the chat after this many seconds  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`: The Time-To-Live of messages in this chat was changed.](../../../../danog/MadelineProto/EventHandler/Message/Service/DialogSetTTL.html)
+
+
+
+
+### `disableTTL(): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`
+
+Disable Time-To-Live of all messages in the specified chat.
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`: The Time-To-Live of messages in this chat was changed.](../../../../danog/MadelineProto/EventHandler/Message/Service/DialogSetTTL.html)
+
 
 
 

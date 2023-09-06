@@ -1,6 +1,6 @@
 ---
 title: "phone.exportGroupCallInvite"
-description: "Get an [invite link](https://core.telegram.org/api/links#video-chatlivestream-links) for a group call or livestream"
+description: "Get an [invite link](https://core.telegram.org/api/links#video-chat-livestream-links) for a group call or livestream"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/phone_exportGroupCallInvite.html
 
 
 
-Get an [invite link](https://core.telegram.org/api/links#video-chatlivestream-links) for a group call or livestream
+Get an [invite link](https://core.telegram.org/api/links#video-chat-livestream-links) for a group call or livestream
 
 ### Parameters:
 

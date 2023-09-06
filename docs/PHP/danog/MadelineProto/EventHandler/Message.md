@@ -52,17 +52,26 @@ Represents an incoming or outgoing message.
 * [`pin(bool $pmOneside = false, bool $silent = false): void`](#pin)
 * [`unpin(bool $pmOneside = false, bool $silent = false): ?\danog\MadelineProto\EventHandler\Update`](#unpin)
 * [`getOurReactions(): list<string|int>`](#getourreactions)
+* [`report(\danog\MadelineProto\EventHandler\Message\ReportReason $reason, string $message): bool`](#report)
+* [`saveContact(string $firstName, string|null $lastName = NULL, string|null $phoneNumber = NULL, bool $addPhonePrivacyException = false): void`](#savecontact)
+* [`removeContact(): void`](#removecontact)
+* [`inviteToChannel(string|int $channel): void`](#invitetochannel)
 * [`addReaction(string|int $reaction, bool $big = false, bool $addToRecent = true): list<string|int>`](#addreaction)
 * [`delReaction(string|int $reaction): list<string|int>`](#delreaction)
 * [`translate(string $toLang): string`](#translate)
-* [`editText(string $message, array|null $replyMarkup = NULL, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, int|null $scheduleDate = NULL, bool $noWebpage = false): \danog\MadelineProto\EventHandler\Message`](#edittext)
+* [`editText(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false): \danog\MadelineProto\EventHandler\Message`](#edittext)
 * [`getHTML(bool $allowTelegramTags = false): string`](#gethtml)
 * [`isReply(): bool`](#isreply)
 * [`getReply(class-string<\T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?\T`](#getreply)
 * [`delete(bool $revoke = true): void`](#delete)
-* [`reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`](#reply)
-* [`block(bool $stories): bool`](#block)
-* [`unblock(bool $stories): bool`](#unblock)
+* [`reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`](#reply)
+* [`block(): bool`](#block)
+* [`unblock(): bool`](#unblock)
+* [`getStories(): list<\danog\MadelineProto\EventHandler\AbstractStory>`](#getstories)
+* [`setAction(\danog\MadelineProto\EventHandler\Action $action = \danog\MadelineProto\EventHandler\Action\Typing::__set_state(array(]]): bool`](#setaction)
+* [`read(bool $readAll = false): \bool if set, read all messages in current chat.`](#read)
+* [`enableTTL(int $seconds = 86400): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`](#enablettl)
+* [`disableTTL(): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`](#disablettl)
 
 ## Methods:
 ### `pin(bool $pmOneside = false, bool $silent = false): void`
@@ -97,6 +106,54 @@ Parameters:
 ### `getOurReactions(): list<string|int>`
 
 Get our reactions on the message.
+
+
+
+### `report(\danog\MadelineProto\EventHandler\Message\ReportReason $reason, string $message): bool`
+
+Report a message in a chat for violation of telegram’s Terms of Service.
+
+
+Parameters:
+
+* `$reason`: `\danog\MadelineProto\EventHandler\Message\ReportReason` Why are these messages being reported  
+* `$message`: `string` Comment for report moderation  
+
+
+#### See also: 
+* [\danog\MadelineProto\EventHandler\Message\ReportReason](../../../danog/MadelineProto/EventHandler/Message/ReportReason.html)
+
+
+
+
+### `saveContact(string $firstName, string|null $lastName = NULL, string|null $phoneNumber = NULL, bool $addPhonePrivacyException = false): void`
+
+Save message sender to your account contacts.
+
+
+Parameters:
+
+* `$firstName`: `string` First name  
+* `$lastName`: `string|null` Last name  
+* `$phoneNumber`: `string|null` Telegram ID of the other user  
+* `$addPhonePrivacyException`: `bool` Allow the other user to see our phone number?  
+
+
+
+### `removeContact(): void`
+
+Remove message sender from your account contacts.
+
+
+
+### `inviteToChannel(string|int $channel): void`
+
+Invite message sender to requested channel.
+
+
+Parameters:
+
+* `$channel`: `string|int` Username, Channel ID  
 
 
 
@@ -135,7 +192,7 @@ Parameters:
 
 
 
-### `editText(string $message, array|null $replyMarkup = NULL, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, int|null $scheduleDate = NULL, bool $noWebpage = false): \danog\MadelineProto\EventHandler\Message`
+### `editText(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false): \danog\MadelineProto\EventHandler\Message`
 
 Edit message text.
 
@@ -143,8 +200,8 @@ Edit message text.
 Parameters:
 
 * `$message`: `string` New message  
-* `$replyMarkup`: `array|null` Reply markup for inline keyboards  
 * `$parseMode`: `\danog\MadelineProto\ParseMode` Whether to parse HTML or Markdown markup in the message  
+* `$replyMarkup`: `array|null` Reply markup for inline keyboards  
 * `$scheduleDate`: `int|null` Scheduled message date for scheduled messages  
 * `$noWebpage`: `bool` Disable webpage preview  
 
@@ -199,7 +256,7 @@ Parameters:
 
 
 
-### `reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`
+### `reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`
 
 Reply to the message.
 
@@ -211,11 +268,11 @@ Parameters:
 * `$replyMarkup`: `array|null` Keyboard information.  
 * `$sendAs`: `int|null` Peer to send the message as.  
 * `$scheduleDate`: `int|null` Schedule date.  
+* `$noWebpage`: `bool` Set this flag to disable generation of the webpage preview  
 * `$silent`: `bool` Whether to send the message silently, without triggering notifications.  
 * `$noForwards`: `bool`   
 * `$background`: `bool` Send this message as background message  
 * `$clearDraft`: `bool` Clears the draft field  
-* `$noWebpage`: `bool` Set this flag to disable generation of the webpage preview  
 * `$updateStickersetsOrder`: `bool` Whether to move used stickersets to top  
 
 
@@ -226,25 +283,83 @@ Parameters:
 
 
 
-### `block(bool $stories): bool`
+### `block(): bool`
 
 Adds the user to the blacklist.
 
 
-Parameters:
 
-* `$stories`: `bool`   
-
-
-
-### `unblock(bool $stories): bool`
+### `unblock(): bool`
 
 Deletes the user from the blacklist.
 
 
+
+### `getStories(): list<\danog\MadelineProto\EventHandler\AbstractStory>`
+
+Get user stories.
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\AbstractStory`: Represents a Telegram Story.](../../../danog/MadelineProto/EventHandler/AbstractStory.html)
+
+
+
+
+### `setAction(\danog\MadelineProto\EventHandler\Action $action = \danog\MadelineProto\EventHandler\Action\Typing::__set_state(array(]]): bool`
+
+Sends a current user typing event
+(see [SendMessageAction](https://docs.madelineproto.xyz/API_docs/types/SendMessageAction.html) for all event types) to a conversation partner or group.
+
+
 Parameters:
 
-* `$stories`: `bool`   
+* `$action`: `\danog\MadelineProto\EventHandler\Action`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Action`: In-progress actions.](../../../danog/MadelineProto/EventHandler/Action.html)
+
+
+
+
+### `read(bool $readAll = false): \bool if set, read all messages in current chat.`
+
+Mark selected message as read.
+
+
+Parameters:
+
+* `$readAll`: `bool`   
+
+
+Return value: if set, read all messages in current chat.
+
+
+### `enableTTL(int $seconds = 86400): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`
+
+Set maximum Time-To-Live of all messages in the specified chat.
+
+
+Parameters:
+
+* `$seconds`: `int` Automatically delete all messages sent in the chat after this many seconds  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`: The Time-To-Live of messages in this chat was changed.](../../../danog/MadelineProto/EventHandler/Message/Service/DialogSetTTL.html)
+
+
+
+
+### `disableTTL(): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`
+
+Disable Time-To-Live of all messages in the specified chat.
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`: The Time-To-Live of messages in this chat was changed.](../../../danog/MadelineProto/EventHandler/Message/Service/DialogSetTTL.html)
+
 
 
 

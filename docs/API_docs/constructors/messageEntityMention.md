@@ -1,6 +1,6 @@
 ---
 title: "messageEntityMention"
-description: "Message entity mentioning the current user"
+description: "Message entity mentioning a user by @username; messageEntityMentionName can also be used to mention users by their ID."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Message entity [mentioning](https://core.telegram.org/api/mentions) the current user
+Message entity [mentioning](https://core.telegram.org/api/mentions) a user by `@username`; [messageEntityMentionName](../constructors/messageEntityMentionName.html) can also be used to mention users by their ID.
 
 ### Attributes:
 

@@ -39,6 +39,8 @@ Represents a GIF (or an MPEG4 file without sound).
 * [`unsave(): bool`](#unsave)
 * [`getDownloadLink(string|null $scriptUrl = NULL): string`](#getdownloadlink)
 * [`getStream(callable|null $cb = NULL, int $offset = 0, int $end = -1): \Amp\ByteStream\ReadableStream`](#getstream)
+* [`downloadToDir(?string $path = NULL): string`](#downloadtodir)
+* [`downloadToFile(string $path): string`](#downloadtofile)
 
 ## Methods:
 ### `save(): bool`
@@ -79,6 +81,28 @@ Parameters:
 #### See also: 
 * `\Amp\ByteStream\ReadableStream`
 
+
+
+
+### `downloadToDir(?string $path = NULL): string`
+
+Download the media to working directory or passed path.
+
+
+Parameters:
+
+* `$path`: `?string`   
+
+
+
+### `downloadToFile(string $path): string`
+
+Download the media to file.
+
+
+Parameters:
+
+* `$path`: `string`   
 
 
 

@@ -225,6 +225,8 @@ $me = $API->getSelf();
 - [BC] REMOVED: Method danog\MadelineProto\Wrappers\Events#setEventHandler() was removed
 - [BC] REMOVED: Method danog\MadelineProto\Wrappers\Loop#loopFork() was removed
 - [BC] REMOVED: Method danog\MadelineProto\Wrappers\Loop#loop() was removed
+- [BC] CHANGED: the isSupergroup, toSupergroup, fromSupergroup methods to a DialogId class, which also has many other useful methods to work with bot API IDs.
+- [BC] CHANGED: All download methods except for downloadToFile and downloadToDir now return null instead of true.
 - [BC] CHANGED: All `danog\MadelineProto\VoIP` constants were replaced with the `danog\MadelineProto\VoIP\CallState`, `danog\MadelineProto\VoIP\VoIPState` enums.
 - [BC] CHANGED: The `danog\MadelineProto\VoIP` class was completely refactored, check out the [new API](docs.madelineproto.xyz/PHP/danog/MadelineProto/VoIP.html) for more info.
 - [BC] CHANGED: ORM properties can directly be iterated upon in a foreach without using getIterator (which will not return an amphp iterator anymore). 

@@ -19,7 +19,7 @@ You cannot use this method directly, use the upload, downloadToStream, downloadT
 |----------|---------------|-------------|----------|
 |file\_id|[long](/API_docs/types/long.html) | Random file identifier created by the client | Yes|
 |file\_part|[int](/API_docs/types/int.html) | Numerical order of a part | Optional|
-|bytes|[bytes](/API_docs/types/bytes.html) | Binary data, contend of a part | Yes|
+|bytes|[bytes](/API_docs/types/bytes.html) | Binary data, content of a part | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
