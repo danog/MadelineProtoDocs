@@ -12,7 +12,7 @@ A list of all of the methods that can be called with MadelineProto can be found 
 
  [Now fully async!](https://docs.madelineproto.xyz/docs/ASYNC.html)
 
-* [Named arguments (PHP 8+)](#named-arguments)
+* [Named arguments](#named-arguments)
 * [Peers](#peers)
 * [Files](https://docs.madelineproto.xyz/docs/FILES.html)
 * [Secret chats](#secret-chats)
@@ -26,20 +26,11 @@ A list of all of the methods that can be called with MadelineProto can be found 
 
 ## Named arguments
 
-MadelineProto supports PHP 7, but PHP 8.1+ is recommended.
-
-On PHP 8, you can use named arguments instead of arrays to provide method arguments, which allows for much cleaner syntax:
+You must use named arguments instead of arrays to provide method arguments, which allows for much cleaner syntax:
 
 ```php
 $MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'Testing MadelineProto...');
 ```
-
-On PHP 7, you can use the old array syntax, instead:
-
-```php
-$MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => 'Testing MadelineProto...']);
-```
-
 
 ## Peers
 [Full example](https://github.com/danog/MadelineProto/blob/v8/bot.php)
