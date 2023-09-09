@@ -1,14 +1,14 @@
 ---
 title: "Requirements"
-description: "MadelineProto requires the mbstring, xml, json, fileinfo, gmp, ffi, openssl extensions to function properly."
+description: "MadelineProto requires the mbstring, xml, json, fileinfo, gmp, openssl, iconv extensions to function properly."
 nav_order: 7
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Requirements
 
-MadelineProto requires the `mbstring`, `xml`, `json`, `fileinfo`, `gmp`, `ffi`, `openssl` extensions to function properly.
+MadelineProto requires the `mbstring`, `xml`, `json`, `fileinfo`, `gmp`, `openssl`, `iconv` extensions to function properly.
 
-The `uv` extension is highly recommended to improve performance.
+The `ffi` and `uv` extensions and the [PrimeModule](https://prime.madelineproto.xyz/) and `nghttp2` libraries are also highly recommended to improve performance.
 
 **PHP 8.1+ is required**.
 
@@ -34,16 +34,20 @@ sudo apt-get update
 sudo apt-get install software-properties-common -y
 sudo LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
 sudo apt-get update
-sudo apt-get install php8.2 php8.2-dev php8.2-xml php8.2-zip php8.2-gmp php8.2-cli php8.2-mbstring php8.2-ffi php-pear libuv1-dev -y
+sudo apt-get install php8.2 php8.2-dev php8.2-xml php8.2-zip php8.2-gmp php8.2-cli php8.2-mbstring php8.2-ffi php8.2-iconv php-pear libuv1-dev nghttp2 -y
 sudo pecl install uv-beta
 echo extension=uv.so | sudo tee $(php --ini | sed '/additional .ini/!d;s/.*: //g')/uv.ini
+echo ffi.enable=1 | sudo tee $(php --ini | sed '/additional .ini/!d;s/.*: //g')/ffi.ini
 
 echo 262144 | sudo tee /proc/sys/vm/max_map_count
 echo vm.max_map_count=262144 | sudo tee /etc/sysctl.d/40-madelineproto.conf
 
-```
+cd /tmp
+sudo apt-get install build-essential
+git clone https://github.com/danog/PrimeModule-ext
+cd PrimeModule-ext && make -j$(nproc) && sudo make install
 
-Finally, follow the instructions on [prime.madelineproto.xyz](https://prime.madelineproto.xyz) to install PrimeModule.
+```
 
 The `max_map_count` sysctl configuration is required to avoid "Fiber stack allocate failed" and "Fiber stack protect failed" errors, since the PHP engine mmaps two memory regions per fiber.  
 
