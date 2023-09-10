@@ -1432,6 +1432,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#base64urldecode" name="base64urlDecode">base64URL decode: base64urlDecode</a>
 
+* <a href="bots.allowSendMessage.html" name="bots.allowSendMessage">bots.allowSendMessage</a>
+
+* <a href="bots.canSendMessage.html" name="bots.canSendMessage">bots.canSendMessage</a>
+
+* <a href="bots.invokeWebViewCustomMethod.html" name="bots.invokeWebViewCustomMethod">bots.invokeWebViewCustomMethod</a>
+
 * <a href="channels.clickSponsoredMessage.html" name="channels.clickSponsoredMessage">channels.clickSponsoredMessage</a>
 
 * <a href="contacts.editCloseFriends.html" name="contacts.editCloseFriends">contacts.editCloseFriends</a>
@@ -1445,6 +1451,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleencode" name="rleEncode">null-byte RLE encode: rleEncode</a>
 
 * <a href="stories.activateStealthMode.html" name="stories.activateStealthMode">stories.activateStealthMode</a>
+
+* <a href="stories.canSendStory.html" name="stories.canSendStory">stories.canSendStory</a>
 
 * <a href="stories.deleteStories.html" name="stories.deleteStories">stories.deleteStories</a>
 

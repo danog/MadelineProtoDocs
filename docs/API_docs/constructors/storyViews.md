@@ -13,6 +13,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
+|has\_viewers|[Bool](/API_docs/types/Bool.html) | Optional|
 |views\_count|[int](/API_docs/types/int.html) | Yes|
 |reactions\_count|[int](/API_docs/types/int.html) | Yes|
 |recent\_viewers|Array of [long](/API_docs/types/long.html) | Optional|
@@ -25,5 +26,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$storyViews = ['_' => 'storyViews', 'views_count' => int, 'reactions_count' => int, 'recent_viewers' => [long, long]];
+$storyViews = ['_' => 'storyViews', 'has_viewers' => Bool, 'views_count' => int, 'reactions_count' => int, 'recent_viewers' => [long, long]];
 ```  

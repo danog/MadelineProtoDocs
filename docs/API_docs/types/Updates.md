@@ -176,6 +176,8 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->channels->toggleParticipantsHidden](/API_docs/methods/channels.toggleParticipantsHidden.html)  
 
+[$MadelineProto->bots->allowSendMessage](/API_docs/methods/bots.allowSendMessage.html)  
+
 [$MadelineProto->payments->assignAppStoreTransaction](/API_docs/methods/payments.assignAppStoreTransaction.html)  
 
 [$MadelineProto->payments->assignPlayMarketTransaction](/API_docs/methods/payments.assignPlayMarketTransaction.html)  

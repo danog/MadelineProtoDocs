@@ -26,6 +26,7 @@ parent: "MadelineProto API"
 * [`serializeMethod(string $method, mixed $arguments): mixed`](#serializemethod)
 * [`getLength(\resource|string $stream, array $type = [  'type' => '',]): int`](#getlength)
 * [`deserialize(string|\resource $stream, array $type): mixed`](#deserialize)
+* [`getSecretLayer(): int`](#getsecretlayer)
 
 ## Methods:
 ### `getConstructors(): \danog\MadelineProto\TL\TLConstructors`
@@ -125,6 +126,12 @@ Parameters:
 #### See also: 
 * `\resource`
 
+
+
+
+### `getSecretLayer(): int`
+
+Get secret chat layer version.
 
 
 

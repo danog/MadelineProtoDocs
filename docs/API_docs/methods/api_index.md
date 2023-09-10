@@ -477,7 +477,15 @@ $MadelineProto->[auth->signUp](/API_docs/methods/auth.signUp.html)(\[phone_numbe
 
 ***
 <br><br>
+$MadelineProto->[bots->allowSendMessage](/API_docs/methods/bots.allowSendMessage.html)(\[bot: $[InputUser](/API_docs/types/InputUser.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="bots.allowSendMessage"></a>  
+
+***
+<br><br>
 $MadelineProto->[bots->answerWebhookJSONQuery](/API_docs/methods/bots.answerWebhookJSONQuery.html)(\[query_id: $[long](/API_docs/types/long.html), data: $[DataJSON](/API_docs/types/DataJSON.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="bots.answerWebhookJSONQuery"></a>  
+
+***
+<br><br>
+$MadelineProto->[bots->canSendMessage](/API_docs/methods/bots.canSendMessage.html)(\[bot: $[InputUser](/API_docs/types/InputUser.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="bots.canSendMessage"></a>  
 
 ***
 <br><br>
@@ -490,6 +498,10 @@ $MadelineProto->[bots->getBotInfo](/API_docs/methods/bots.getBotInfo.html)(\[bot
 ***
 <br><br>
 $MadelineProto->[bots->getBotMenuButton](/API_docs/methods/bots.getBotMenuButton.html)(\[user_id: $[InputUser](/API_docs/types/InputUser.html), \]) === [$BotMenuButton](/API_docs/types/BotMenuButton.html)<a name="bots.getBotMenuButton"></a>  
+
+***
+<br><br>
+$MadelineProto->[bots->invokeWebViewCustomMethod](/API_docs/methods/bots.invokeWebViewCustomMethod.html)(\[bot: $[InputUser](/API_docs/types/InputUser.html), custom_method: $[string](/API_docs/types/string.html), params: $[DataJSON](/API_docs/types/DataJSON.html), \]) === [$DataJSON](/API_docs/types/DataJSON.html)<a name="bots.invokeWebViewCustomMethod"></a>  
 
 ***
 <br><br>
@@ -2042,6 +2054,10 @@ $MadelineProto->[stickers->suggestShortName](/API_docs/methods/stickers.suggestS
 ***
 <br><br>
 $MadelineProto->[stories->activateStealthMode](/API_docs/methods/stories.activateStealthMode.html)(\[past: $[Bool](/API_docs/types/Bool.html), future: $[Bool](/API_docs/types/Bool.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="stories.activateStealthMode"></a>  
+
+***
+<br><br>
+$MadelineProto->[stories->canSendStory](/API_docs/methods/stories.canSendStory.html)(\[\]) === [$Bool](/API_docs/types/Bool.html)<a name="stories.canSendStory"></a>  
 
 ***
 <br><br>
