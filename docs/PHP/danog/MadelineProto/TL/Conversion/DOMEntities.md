@@ -20,7 +20,7 @@ Class that converts HTML to a message + set of entities.
 * `$message`: `string` Converted message
 
 ## Method list:
-* [`__construct(string $html)`](#__construct)
+* [`__construct(string $html)`](#__construct-string-html)
 
 ## Methods:
 ### `__construct(string $html)`

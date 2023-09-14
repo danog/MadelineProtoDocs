@@ -21,7 +21,7 @@ Message entity representing a preformatted codeblock, allowing the user to speci
 * `$length`: `int` Length of message entity within message (in UTF-16 code units)
 
 ## Method list:
-* [`fromRawEntities(list<array> $entities): list<self>`](#fromrawentities)
+* [`fromRawEntities(list<array> $entities): list<self>`](#fromrawentities-list-array-entities-list-self)
 
 ## Methods:
 ### `fromRawEntities(list<array> $entities): list<self>`

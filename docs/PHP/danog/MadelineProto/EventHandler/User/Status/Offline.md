@@ -20,8 +20,8 @@ The user’s offline status.
 * `$userId`: `int` User identifier
 
 ## Method list:
-* [`__construct(\danog\MadelineProto\MTProto $API, array $rowUserStatus)`](#__construct)
-* [`fromRawStatus(\danog\MadelineProto\MTProto $API, array $rowUserStatus): ?\danog\MadelineProto\EventHandler\User\Status`](#fromrawstatus)
+* [`__construct(\danog\MadelineProto\MTProto $API, array $rowUserStatus)`](#__construct-danog-madelineproto-mtproto-api-array-rowuserstatus)
+* [`fromRawStatus(\danog\MadelineProto\MTProto $API, array $rowUserStatus): ?\danog\MadelineProto\EventHandler\User\Status`](#fromrawstatus-danog-madelineproto-mtproto-api-array-rowuserstatus-danog-madelineproto-eventhandler-user-status)
 
 ## Methods:
 ### `__construct(\danog\MadelineProto\MTProto $API, array $rowUserStatus)`

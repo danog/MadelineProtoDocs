@@ -21,11 +21,11 @@ Manages generation of extensions for files.
 
 
 ## Method list:
-* [`getMimeFromExtension(string $extension, string $default): string`](#getmimefromextension)
-* [`getExtensionFromMime(string $mime): string`](#getextensionfrommime)
-* [`getExtensionFromLocation(mixed $location, string $default): string`](#getextensionfromlocation)
-* [`getMimeFromFile(string $file): string`](#getmimefromfile)
-* [`getMimeFromBuffer(string $buffer): string`](#getmimefrombuffer)
+* [`getMimeFromExtension(string $extension, string $default): string`](#getmimefromextension-string-extension-string-default-string)
+* [`getExtensionFromMime(string $mime): string`](#getextensionfrommime-string-mime-string)
+* [`getExtensionFromLocation(mixed $location, string $default): string`](#getextensionfromlocation-mixed-location-string-default-string)
+* [`getMimeFromFile(string $file): string`](#getmimefromfile-string-file-string)
+* [`getMimeFromBuffer(string $buffer): string`](#getmimefrombuffer-string-buffer-string)
 
 ## Methods:
 ### `getMimeFromExtension(string $extension, string $default): string`

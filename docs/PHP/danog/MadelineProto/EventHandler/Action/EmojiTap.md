@@ -22,8 +22,8 @@ User has clicked on an animated emoji triggering a [reaction, click here for mor
 * `$id`: `int` Message ID of the animated emoji that was clicked
 
 ## Method list:
-* [`__construct(string $emoticon, float $tapTime, int $animation, ?int $id)`](#__construct)
-* [`toRawAction(): array`](#torawaction)
+* [`__construct(string $emoticon, float $tapTime, int $animation, ?int $id)`](#__construct-string-emoticon-float-taptime-int-animation-int-id)
+* [`toRawAction(): array`](#torawaction-array)
 
 ## Methods:
 ### `__construct(string $emoticon, float $tapTime, int $animation, ?int $id)`

@@ -31,18 +31,18 @@ The title of a channel or group has changed.
 * `$ttlPeriod`: `?int` Time-to-live of the message
 
 ## Method list:
-* [`__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info, string $title)`](#__construct)
-* [`isReply(): bool`](#isreply)
-* [`getReply(class-string<\T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?\T`](#getreply)
-* [`delete(bool $revoke = true): void`](#delete)
-* [`reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`](#reply)
-* [`block(): bool`](#block)
-* [`unblock(): bool`](#unblock)
-* [`getStories(): list<\danog\MadelineProto\EventHandler\AbstractStory>`](#getstories)
-* [`setAction(\danog\MadelineProto\EventHandler\Action $action = \danog\MadelineProto\EventHandler\Action\Typing::__set_state(array(]]): bool`](#setaction)
-* [`read(bool $readAll = false): \bool if set, read all messages in current chat.`](#read)
-* [`enableTTL(int $seconds = 86400): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`](#enablettl)
-* [`disableTTL(): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`](#disablettl)
+* [`__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info, string $title)`](#__construct-danog-madelineproto-mtproto-api-array-rawmessage-array-info-string-title)
+* [`isReply(): bool`](#isreply-bool)
+* [`getReply(class-string<\T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?\T`](#getreply-class-string-t-class-danog-madelineproto-eventhandler-abstractmessage-t)
+* [`delete(bool $revoke = true): void`](#delete-bool-revoke-true-void)
+* [`reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`](#reply-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-nowebpage-false-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-updatestickersetsorder-false-danog-madelineproto-eventhandler-message)
+* [`block(): bool`](#block-bool)
+* [`unblock(): bool`](#unblock-bool)
+* [`getStories(): list<\danog\MadelineProto\EventHandler\AbstractStory>`](#getstories-list-danog-madelineproto-eventhandler-abstractstory)
+* [`setAction(\danog\MadelineProto\EventHandler\Action $action = \danog\MadelineProto\EventHandler\Action\Typing::__set_state(array(]]): bool`](#setaction-danog-madelineproto-eventhandler-action-action-danog-madelineproto-eventhandler-action-typing-__set_state-array-bool)
+* [`read(bool $readAll = false): \bool if set, read all messages in current chat.`](#read-bool-readall-false-bool-if-set-read-all-messages-in-current-chat)
+* [`enableTTL(int $seconds = 86400): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`](#enablettl-int-seconds-86400-danog-madelineproto-eventhandler-message-service-dialogsetttl)
+* [`disableTTL(): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`](#disablettl-danog-madelineproto-eventhandler-message-service-dialogsetttl)
 
 ## Methods:
 ### `__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info, string $title)`

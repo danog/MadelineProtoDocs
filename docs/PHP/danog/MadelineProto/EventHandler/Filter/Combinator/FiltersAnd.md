@@ -17,10 +17,10 @@ ANDs multiple filters.
 
 
 ## Method list:
-* [`__construct(\danog\MadelineProto\EventHandler\Filter\Filter ...$filters)`](#__construct)
-* [`initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`](#initialize)
-* [`apply(\danog\MadelineProto\EventHandler\Update $update): bool`](#apply)
-* [`fromReflectionType(\ReflectionType $type): \danog\MadelineProto\EventHandler\Filter\Filter`](#fromreflectiontype)
+* [`__construct(\danog\MadelineProto\EventHandler\Filter\Filter ...$filters)`](#__construct-danog-madelineproto-eventhandler-filter-filter-filters)
+* [`initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`](#initialize-danog-madelineproto-eventhandler-api-danog-madelineproto-eventhandler-filter-filter)
+* [`apply(\danog\MadelineProto\EventHandler\Update $update): bool`](#apply-danog-madelineproto-eventhandler-update-update-bool)
+* [`fromReflectionType(\ReflectionType $type): \danog\MadelineProto\EventHandler\Filter\Filter`](#fromreflectiontype-reflectiontype-type-danog-madelineproto-eventhandler-filter-filter)
 
 ## Methods:
 ### `__construct(\danog\MadelineProto\EventHandler\Filter\Filter ...$filters)`

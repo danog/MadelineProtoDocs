@@ -24,8 +24,8 @@ Represents a query sent by the user by clicking on a button in an inline message
 * `$inlineMessageId`: `string` Inline message ID
 
 ## Method list:
-* [`answer(string $message, bool $alert = false, string|null $url = NULL, int $cacheTime = 300): bool`](#answer)
-* [`editText(string $message, array|null $replyMarkup = NULL, \ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, bool $noWebpage = false): void`](#edittext)
+* [`answer(string $message, bool $alert = false, string|null $url = NULL, int $cacheTime = 300): bool`](#answer-string-message-bool-alert-false-string-null-url-null-int-cachetime-300-bool)
+* [`editText(string $message, array|null $replyMarkup = NULL, \ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, bool $noWebpage = false): void`](#edittext-string-message-array-null-replymarkup-null-parsemode-parsemode-danog-madelineproto-parsemode-text-bool-nowebpage-false-void)
 
 ## Methods:
 ### `answer(string $message, bool $alert = false, string|null $url = NULL, int $cacheTime = 300): bool`

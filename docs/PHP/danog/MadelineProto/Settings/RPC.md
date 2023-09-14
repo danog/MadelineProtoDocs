@@ -17,16 +17,16 @@ RPC settings.
 
 
 ## Method list:
-* [`getRpcDropTimeout(): int`](#getrpcdroptimeout)
-* [`setRpcDropTimeout(int $rpcDropTimeout): self`](#setrpcdroptimeout)
-* [`getRpcResendTimeout(): int`](#getrpcresendtimeout)
-* [`setRpcResendTimeout(int $rpcResendTimeout): self`](#setrpcresendtimeout)
-* [`getFloodTimeout(): int`](#getfloodtimeout)
-* [`setFloodTimeout(int $floodTimeout): self`](#setfloodtimeout)
-* [`getLimitCallQueue(): int`](#getlimitcallqueue)
-* [`setLimitCallQueue(int $limitCallQueue): self`](#setlimitcallqueue)
-* [`getGzipEncodeIfGt(): int`](#getgzipencodeifgt)
-* [`setGzipEncodeIfGt(int $gzipEncodeIfGt): self`](#setgzipencodeifgt)
+* [`getRpcDropTimeout(): int`](#getrpcdroptimeout-int)
+* [`setRpcDropTimeout(int $rpcDropTimeout): self`](#setrpcdroptimeout-int-rpcdroptimeout-self)
+* [`getRpcResendTimeout(): int`](#getrpcresendtimeout-int)
+* [`setRpcResendTimeout(int $rpcResendTimeout): self`](#setrpcresendtimeout-int-rpcresendtimeout-self)
+* [`getFloodTimeout(): int`](#getfloodtimeout-int)
+* [`setFloodTimeout(int $floodTimeout): self`](#setfloodtimeout-int-floodtimeout-self)
+* [`getLimitCallQueue(): int`](#getlimitcallqueue-int)
+* [`setLimitCallQueue(int $limitCallQueue): self`](#setlimitcallqueue-int-limitcallqueue-self)
+* [`getGzipEncodeIfGt(): int`](#getgzipencodeifgt-int)
+* [`setGzipEncodeIfGt(int $gzipEncodeIfGt): self`](#setgzipencodeifgt-int-gzipencodeifgt-self)
 
 ## Methods:
 ### `getRpcDropTimeout(): int`

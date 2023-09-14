@@ -24,8 +24,8 @@ Broadcast filter.
 * `$whitelist`: `list<int>|null` If null all IDs are allowed (*)
 
 ## Method list:
-* [`__construct(bool $allowUsers, bool $allowBots, bool $allowGroups, bool $allowChannels, array $blacklist = [], ?array $whitelist = NULL)`](#__construct)
-* [`default(): self`](#default)
+* [`__construct(bool $allowUsers, bool $allowBots, bool $allowGroups, bool $allowChannels, array $blacklist = [], ?array $whitelist = NULL)`](#__construct-bool-allowusers-bool-allowbots-bool-allowgroups-bool-allowchannels-array-blacklist-array-whitelist-null)
+* [`default(): self`](#default-self)
 
 ## Methods:
 ### `__construct(bool $allowUsers, bool $allowBots, bool $allowGroups, bool $allowChannels, array $blacklist = [], ?array $whitelist = NULL)`

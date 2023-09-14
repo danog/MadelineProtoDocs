@@ -19,18 +19,18 @@ Internal error indicating a problem with Telegram's servers.
 * `$tlTrace`: `string` TL trace.
 
 ## Method list:
-* [`__construct(mixed $message, mixed $file = '')`](#__construct)
-* [`getMessage(): string`](#getmessage)
-* [`getCode(): mixed`](#getcode)
-* [`getFile(): string`](#getfile)
-* [`getLine(): int`](#getline)
-* [`getTrace(): array`](#gettrace)
-* [`getPrevious(): ?\Throwable`](#getprevious)
-* [`getTraceAsString(): string`](#gettraceasstring)
-* [`updateTLTrace(array $trace): void`](#updatetltrace)
-* [`getTLTrace(): string`](#gettltrace)
-* [`setTLTrace(string $tlTrace): void`](#settltrace)
-* [`prettifyTL(string $init = '', array $trace = NULL): void`](#prettifytl)
+* [`__construct(mixed $message, mixed $file = '')`](#__construct-mixed-message-mixed-file)
+* [`getMessage(): string`](#getmessage-string)
+* [`getCode(): mixed`](#getcode-mixed)
+* [`getFile(): string`](#getfile-string)
+* [`getLine(): int`](#getline-int)
+* [`getTrace(): array`](#gettrace-array)
+* [`getPrevious(): ?\Throwable`](#getprevious-throwable)
+* [`getTraceAsString(): string`](#gettraceasstring-string)
+* [`updateTLTrace(array $trace): void`](#updatetltrace-array-trace-void)
+* [`getTLTrace(): string`](#gettltrace-string)
+* [`setTLTrace(string $tlTrace): void`](#settltrace-string-tltrace-void)
+* [`prettifyTL(string $init = '', array $trace = NULL): void`](#prettifytl-string-init-array-trace-null-void)
 
 ## Methods:
 ### `__construct(mixed $message, mixed $file = '')`

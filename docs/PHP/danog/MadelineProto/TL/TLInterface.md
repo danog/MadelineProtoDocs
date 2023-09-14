@@ -17,16 +17,16 @@ parent: "MadelineProto API"
 
 
 ## Method list:
-* [`getConstructors(): \danog\MadelineProto\TL\TLConstructors`](#getconstructors)
-* [`getMethods(): \danog\MadelineProto\TL\TLMethods`](#getmethods)
-* [`getDescriptions(): array`](#getdescriptions)
-* [`getMethodNamespaces(): array`](#getmethodnamespaces)
-* [`getMethodsNamespaced(): array`](#getmethodsnamespaced)
-* [`serializeObject(array $type, mixed $object, string $ctx, int $layer = -1): mixed`](#serializeobject)
-* [`serializeMethod(string $method, mixed $arguments): mixed`](#serializemethod)
-* [`getLength(\resource|string $stream, array $type = [  'type' => '',]): int`](#getlength)
-* [`deserialize(string|\resource $stream, array $type): mixed`](#deserialize)
-* [`getSecretLayer(): int`](#getsecretlayer)
+* [`getConstructors(): \danog\MadelineProto\TL\TLConstructors`](#getconstructors-danog-madelineproto-tl-tlconstructors)
+* [`getMethods(): \danog\MadelineProto\TL\TLMethods`](#getmethods-danog-madelineproto-tl-tlmethods)
+* [`getDescriptions(): array`](#getdescriptions-array)
+* [`getMethodNamespaces(): array`](#getmethodnamespaces-array)
+* [`getMethodsNamespaced(): array`](#getmethodsnamespaced-array)
+* [`serializeObject(array $type, mixed $object, string $ctx, int $layer = -1): mixed`](#serializeobject-array-type-mixed-object-string-ctx-int-layer-1-mixed)
+* [`serializeMethod(string $method, mixed $arguments): mixed`](#serializemethod-string-method-mixed-arguments-mixed)
+* [`getLength(\resource|string $stream, array $type = [  'type' => '',]): int`](#getlength-resource-string-stream-array-type-type-int)
+* [`deserialize(string|\resource $stream, array $type): mixed`](#deserialize-string-resource-stream-array-type-mixed)
+* [`getSecretLayer(): int`](#getsecretlayer-int)
 
 ## Methods:
 ### `getConstructors(): \danog\MadelineProto\TL\TLConstructors`

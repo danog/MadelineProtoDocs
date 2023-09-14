@@ -17,7 +17,7 @@ parent: "MadelineProto API"
 
 
 ## Method list:
-* [`getLogger(): \danog\MadelineProto\Logger`](#getlogger)
+* [`getLogger(): \danog\MadelineProto\Logger`](#getlogger-danog-madelineproto-logger)
 
 ## Methods:
 ### `getLogger(): \danog\MadelineProto\Logger`

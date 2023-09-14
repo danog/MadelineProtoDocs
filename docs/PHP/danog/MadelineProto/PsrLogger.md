@@ -17,16 +17,16 @@ PSR-3 wrapper for MadelineProto's Logger.
 
 
 ## Method list:
-* [`__construct(\danog\MadelineProto\Logger $logger)`](#__construct)
-* [`log(mixed $level, mixed $message, array $context = []): void`](#log)
-* [`emergency(string|\Stringable $message, array $context = []): void`](#emergency)
-* [`alert(string|\Stringable $message, array $context = []): void`](#alert)
-* [`critical(string|\Stringable $message, array $context = []): void`](#critical)
-* [`error(string|\Stringable $message, array $context = []): void`](#error)
-* [`warning(string|\Stringable $message, array $context = []): void`](#warning)
-* [`notice(string|\Stringable $message, array $context = []): void`](#notice)
-* [`info(string|\Stringable $message, array $context = []): void`](#info)
-* [`debug(string|\Stringable $message, array $context = []): void`](#debug)
+* [`__construct(\danog\MadelineProto\Logger $logger)`](#__construct-danog-madelineproto-logger-logger)
+* [`log(mixed $level, mixed $message, array $context = []): void`](#log-mixed-level-mixed-message-array-context-void)
+* [`emergency(string|\Stringable $message, array $context = []): void`](#emergency-string-stringable-message-array-context-void)
+* [`alert(string|\Stringable $message, array $context = []): void`](#alert-string-stringable-message-array-context-void)
+* [`critical(string|\Stringable $message, array $context = []): void`](#critical-string-stringable-message-array-context-void)
+* [`error(string|\Stringable $message, array $context = []): void`](#error-string-stringable-message-array-context-void)
+* [`warning(string|\Stringable $message, array $context = []): void`](#warning-string-stringable-message-array-context-void)
+* [`notice(string|\Stringable $message, array $context = []): void`](#notice-string-stringable-message-array-context-void)
+* [`info(string|\Stringable $message, array $context = []): void`](#info-string-stringable-message-array-context-void)
+* [`debug(string|\Stringable $message, array $context = []): void`](#debug-string-stringable-message-array-context-void)
 
 ## Methods:
 ### `__construct(\danog\MadelineProto\Logger $logger)`

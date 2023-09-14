@@ -17,9 +17,9 @@ Allow only forwarded messages.
 
 
 ## Method list:
-* [`apply(\danog\MadelineProto\EventHandler\Update $update): bool`](#apply)
-* [`initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`](#initialize)
-* [`fromReflectionType(\ReflectionType $type): \danog\MadelineProto\EventHandler\Filter\Filter`](#fromreflectiontype)
+* [`apply(\danog\MadelineProto\EventHandler\Update $update): bool`](#apply-danog-madelineproto-eventhandler-update-update-bool)
+* [`initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`](#initialize-danog-madelineproto-eventhandler-api-danog-madelineproto-eventhandler-filter-filter)
+* [`fromReflectionType(\ReflectionType $type): \danog\MadelineProto\EventHandler\Filter\Filter`](#fromreflectiontype-reflectiontype-type-danog-madelineproto-eventhandler-filter-filter)
 
 ## Methods:
 ### `apply(\danog\MadelineProto\EventHandler\Update $update): bool`

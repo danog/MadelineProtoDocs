@@ -22,19 +22,19 @@ This update represents a VoIP Telegram call.
 * `$date`: `int` When was the call created
 
 ## Method list:
-* [`accept(): self`](#accept)
-* [`discard(\danog\MadelineProto\VoIP\DiscardReason $reason = \danog\MadelineProto\VoIP\DiscardReason::HANGUP, int<\1, \5> $rating = NULL, string $comment = NULL): self`](#discard)
-* [`getVisualization(): ?array{0: \: string, 1: \: string, 2: \: string, 3: \: string}`](#getvisualization)
-* [`play(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): self`](#play)
-* [`then(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): self`](#then)
-* [`skip(): self`](#skip)
-* [`stop(): self`](#stop)
-* [`pause(): self`](#pause)
-* [`isPaused(): bool`](#ispaused)
-* [`resume(): self`](#resume)
-* [`playOnHold(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): self`](#playonhold)
-* [`getCurrent(): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`](#getcurrent)
-* [`getCallState(): \danog\MadelineProto\VoIP\CallState`](#getcallstate)
+* [`accept(): self`](#accept-self)
+* [`discard(\danog\MadelineProto\VoIP\DiscardReason $reason = \danog\MadelineProto\VoIP\DiscardReason::HANGUP, int<\1, \5> $rating = NULL, string $comment = NULL): self`](#discard-danog-madelineproto-voip-discardreason-reason-danog-madelineproto-voip-discardreason-hangup-int-1-5-rating-null-string-comment-null-self)
+* [`getVisualization(): ?array{0: \: string, 1: \: string, 2: \: string, 3: \: string}`](#getvisualization-array-0-string-1-string-2-string-3-string)
+* [`play(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): self`](#play-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-file-self)
+* [`then(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): self`](#then-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-file-self)
+* [`skip(): self`](#skip-self)
+* [`stop(): self`](#stop-self)
+* [`pause(): self`](#pause-self)
+* [`isPaused(): bool`](#ispaused-bool)
+* [`resume(): self`](#resume-self)
+* [`playOnHold(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): self`](#playonhold-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-files-self)
+* [`getCurrent(): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`](#getcurrent-danog-madelineproto-remoteurl-danog-madelineproto-localfile-string-null)
+* [`getCallState(): \danog\MadelineProto\VoIP\CallState`](#getcallstate-danog-madelineproto-voip-callstate)
 
 ## Methods:
 ### `accept(): self`

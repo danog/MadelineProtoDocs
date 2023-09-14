@@ -33,10 +33,10 @@ Represents an audio file.
 * `$protected`: `bool` Whether this media is protected
 
 ## Method list:
-* [`getDownloadLink(string|null $scriptUrl = NULL): string`](#getdownloadlink)
-* [`getStream(callable|null $cb = NULL, int $offset = 0, int $end = -1): \Amp\ByteStream\ReadableStream`](#getstream)
-* [`downloadToDir(?string $path = NULL): string`](#downloadtodir)
-* [`downloadToFile(string $path): string`](#downloadtofile)
+* [`getDownloadLink(string|null $scriptUrl = NULL): string`](#getdownloadlink-string-null-scripturl-null-string)
+* [`getStream(callable|null $cb = NULL, int $offset = 0, int $end = -1): \Amp\ByteStream\ReadableStream`](#getstream-callable-null-cb-null-int-offset-0-int-end-1-amp-bytestream-readablestream)
+* [`downloadToDir(?string $path = NULL): string`](#downloadtodir-string-path-null-string)
+* [`downloadToFile(string $path): string`](#downloadtofile-string-path-string)
 
 ## Methods:
 ### `getDownloadLink(string|null $scriptUrl = NULL): string`

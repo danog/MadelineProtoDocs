@@ -22,7 +22,7 @@ Indicates a bot API file ID to upload using sendDocument, sendPhoto etc.
 * `$protected`: `bool` 
 
 ## Method list:
-* [`__construct(string $fileId, int $size, string $fileName, bool $protected)`](#__construct)
+* [`__construct(string $fileId, int $size, string $fileName, bool $protected)`](#__construct-string-fileid-int-size-string-filename-bool-protected)
 
 ## Methods:
 ### `__construct(string $fileId, int $size, string $fileName, bool $protected)`

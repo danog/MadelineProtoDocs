@@ -17,8 +17,8 @@ Web and CLI template settings for login.
 
 
 ## Method list:
-* [`getHtmlTemplate(): string`](#gethtmltemplate)
-* [`setHtmlTemplate(string $htmlTemplate): self`](#sethtmltemplate)
+* [`getHtmlTemplate(): string`](#gethtmltemplate-string)
+* [`setHtmlTemplate(string $htmlTemplate): self`](#sethtmltemplate-string-htmltemplate-self)
 
 ## Methods:
 ### `getHtmlTemplate(): string`

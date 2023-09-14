@@ -21,7 +21,7 @@ Message entity representing a [user mention](https://core.telegram.org/api/menti
 * `$length`: `int` Length of message entity within message (in UTF-16 code units)
 
 ## Method list:
-* [`fromRawEntities(list<array> $entities): list<self>`](#fromrawentities)
+* [`fromRawEntities(list<array> $entities): list<self>`](#fromrawentities-list-array-entities-list-self)
 
 ## Methods:
 ### `fromRawEntities(list<array> $entities): list<self>`

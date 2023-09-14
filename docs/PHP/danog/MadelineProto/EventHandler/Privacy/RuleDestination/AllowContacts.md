@@ -17,7 +17,7 @@ Allow all contacts.
 
 
 ## Method list:
-* [`fromRawRule(array $rawRule): \danog\MadelineProto\EventHandler\Privacy\RuleDestination`](#fromrawrule)
+* [`fromRawRule(array $rawRule): \danog\MadelineProto\EventHandler\Privacy\RuleDestination`](#fromrawrule-array-rawrule-danog-madelineproto-eventhandler-privacy-ruledestination)
 
 ## Methods:
 ### `fromRawRule(array $rawRule): \danog\MadelineProto\EventHandler\Privacy\RuleDestination`

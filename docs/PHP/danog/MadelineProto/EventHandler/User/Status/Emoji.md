@@ -21,8 +21,8 @@ The [emoji status](https://core.telegram.org/api/emoji-status) of a certain user
 * `$userId`: `int` User identifier
 
 ## Method list:
-* [`__construct(\danog\MadelineProto\MTProto $API, array $rawEmojiStatus)`](#__construct)
-* [`fromRawStatus(\danog\MadelineProto\MTProto $API, array $rowUserStatus): ?\danog\MadelineProto\EventHandler\User\Status`](#fromrawstatus)
+* [`__construct(\danog\MadelineProto\MTProto $API, array $rawEmojiStatus)`](#__construct-danog-madelineproto-mtproto-api-array-rawemojistatus)
+* [`fromRawStatus(\danog\MadelineProto\MTProto $API, array $rowUserStatus): ?\danog\MadelineProto\EventHandler\User\Status`](#fromrawstatus-danog-madelineproto-mtproto-api-array-rowuserstatus-danog-madelineproto-eventhandler-user-status)
 
 ## Methods:
 ### `__construct(\danog\MadelineProto\MTProto $API, array $rawEmojiStatus)`

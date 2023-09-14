@@ -17,12 +17,12 @@ Cryptography settings.
 
 
 ## Method list:
-* [`getDefaultTempAuthKeyExpiresIn(): int`](#getdefaulttempauthkeyexpiresin)
-* [`setDefaultTempAuthKeyExpiresIn(int $defaultTempAuthKeyExpiresIn): self`](#setdefaulttempauthkeyexpiresin)
-* [`getPfs(): bool`](#getpfs)
-* [`setPfs(bool $pfs): self`](#setpfs)
-* [`getMaxAuthTries(): int`](#getmaxauthtries)
-* [`setMaxAuthTries(int $maxAuthTries): self`](#setmaxauthtries)
+* [`getDefaultTempAuthKeyExpiresIn(): int`](#getdefaulttempauthkeyexpiresin-int)
+* [`setDefaultTempAuthKeyExpiresIn(int $defaultTempAuthKeyExpiresIn): self`](#setdefaulttempauthkeyexpiresin-int-defaulttempauthkeyexpiresin-self)
+* [`getPfs(): bool`](#getpfs-bool)
+* [`setPfs(bool $pfs): self`](#setpfs-bool-pfs-self)
+* [`getMaxAuthTries(): int`](#getmaxauthtries-int)
+* [`setMaxAuthTries(int $maxAuthTries): self`](#setmaxauthtries-int-maxauthtries-self)
 
 ## Methods:
 ### `getDefaultTempAuthKeyExpiresIn(): int`

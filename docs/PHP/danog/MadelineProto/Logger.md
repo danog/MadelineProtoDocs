@@ -41,12 +41,12 @@ Logger class.
 * `$default`: `?self` Default logger instance.
 
 ## Method list:
-* [`constructorFromSettings(\danog\MadelineProto\Settings\Logger $settings): self`](#constructorfromsettings)
-* [`__construct(\danog\MadelineProto\Settings\Logger $settings, string $prefix = '')`](#__construct)
-* [`truncate(): void`](#truncate)
-* [`log(mixed $param, int $level = \self::NOTICE): void`](#log)
-* [`logger(mixed $param, int $level = \self::NOTICE, string $file = ''): void`](#logger)
-* [`getPsrLogger(): \Psr\Log\LoggerInterface`](#getpsrlogger)
+* [`constructorFromSettings(\danog\MadelineProto\Settings\Logger $settings): self`](#constructorfromsettings-danog-madelineproto-settings-logger-settings-self)
+* [`__construct(\danog\MadelineProto\Settings\Logger $settings, string $prefix = '')`](#__construct-danog-madelineproto-settings-logger-settings-string-prefix)
+* [`truncate(): void`](#truncate-void)
+* [`log(mixed $param, int $level = \self::NOTICE): void`](#log-mixed-param-int-level-self-notice-void)
+* [`logger(mixed $param, int $level = \self::NOTICE, string $file = ''): void`](#logger-mixed-param-int-level-self-notice-string-file-void)
+* [`getPsrLogger(): \Psr\Log\LoggerInterface`](#getpsrlogger-psr-log-loggerinterface)
 
 ## Methods:
 ### `constructorFromSettings(\danog\MadelineProto\Settings\Logger $settings): self`

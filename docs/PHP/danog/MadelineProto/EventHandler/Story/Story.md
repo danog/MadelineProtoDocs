@@ -37,16 +37,16 @@ Represents a Telegram story.
 * `$id`: `int` Story ID
 
 ## Method list:
-* [`reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`](#reply)
-* [`delete(): void`](#delete)
-* [`exportLink(): string`](#exportlink)
-* [`report(\danog\MadelineProto\EventHandler\Message\ReportReason $reason, string $message = ''): bool`](#report)
-* [`pin(): void`](#pin)
-* [`unpin(): void`](#unpin)
-* [`view(): bool`](#view)
-* [`addReaction(int|string $reaction, bool $recent = true): \danog\MadelineProto\EventHandler\Story\StoryReaction`](#addreaction)
-* [`delReaction(bool $recent = true): \danog\MadelineProto\EventHandler\Story\StoryReaction`](#delreaction)
-* [`getHTML(bool $allowTelegramTags = false): string`](#gethtml)
+* [`reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`](#reply-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-array-null-replymarkup-null-int-null-scheduledate-null-bool-silent-false-bool-background-false-bool-cleardraft-false-bool-nowebpage-false-bool-updatestickersetsorder-false-danog-madelineproto-eventhandler-message)
+* [`delete(): void`](#delete-void)
+* [`exportLink(): string`](#exportlink-string)
+* [`report(\danog\MadelineProto\EventHandler\Message\ReportReason $reason, string $message = ''): bool`](#report-danog-madelineproto-eventhandler-message-reportreason-reason-string-message-bool)
+* [`pin(): void`](#pin-void)
+* [`unpin(): void`](#unpin-void)
+* [`view(): bool`](#view-bool)
+* [`addReaction(int|string $reaction, bool $recent = true): \danog\MadelineProto\EventHandler\Story\StoryReaction`](#addreaction-int-string-reaction-bool-recent-true-danog-madelineproto-eventhandler-story-storyreaction)
+* [`delReaction(bool $recent = true): \danog\MadelineProto\EventHandler\Story\StoryReaction`](#delreaction-bool-recent-true-danog-madelineproto-eventhandler-story-storyreaction)
+* [`getHTML(bool $allowTelegramTags = false): string`](#gethtml-bool-allowtelegramtags-false-string)
 
 ## Methods:
 ### `reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`

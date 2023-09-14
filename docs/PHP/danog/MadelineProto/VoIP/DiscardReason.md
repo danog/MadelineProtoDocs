@@ -29,7 +29,7 @@ Why was the call discarded?
 * `$name`: `string` 
 
 ## Method list:
-* [`cases(): array`](#cases)
+* [`cases(): array`](#cases-array)
 
 ## Methods:
 ### `cases(): array`

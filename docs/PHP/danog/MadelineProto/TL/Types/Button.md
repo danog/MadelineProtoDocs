@@ -19,12 +19,12 @@ Clickable button.
 * `$label`: `string` Button label
 
 ## Method list:
-* [`click(bool $donotwait = true): mixed`](#click)
-* [`jsonSerialize(): array`](#jsonserialize)
-* [`offsetSet(mixed $name, mixed $value): void`](#offsetset)
-* [`offsetGet(mixed $name): mixed`](#offsetget)
-* [`offsetUnset(mixed $name): void`](#offsetunset)
-* [`offsetExists(mixed $name): bool`](#offsetexists)
+* [`click(bool $donotwait = true): mixed`](#click-bool-donotwait-true-mixed)
+* [`jsonSerialize(): array`](#jsonserialize-array)
+* [`offsetSet(mixed $name, mixed $value): void`](#offsetset-mixed-name-mixed-value-void)
+* [`offsetGet(mixed $name): mixed`](#offsetget-mixed-name-mixed)
+* [`offsetUnset(mixed $name): void`](#offsetunset-mixed-name-void)
+* [`offsetExists(mixed $name): bool`](#offsetexists-mixed-name-bool)
 
 ## Methods:
 ### `click(bool $donotwait = true): mixed`

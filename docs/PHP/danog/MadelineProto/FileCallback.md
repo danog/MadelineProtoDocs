@@ -20,8 +20,8 @@ File callback interface.
 * `$file`: `mixed` 
 
 ## Method list:
-* [`__construct(mixed $file, callable $callback)`](#__construct)
-* [`getFile(): mixed`](#getfile)
+* [`__construct(mixed $file, callable $callback)`](#__construct-mixed-file-callable-callback)
+* [`getFile(): mixed`](#getfile-mixed)
 
 ## Methods:
 ### `__construct(mixed $file, callable $callback)`

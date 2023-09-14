@@ -29,16 +29,16 @@ Represents the type of a bot API dialog ID.
 * `$name`: `string` 
 
 ## Method list:
-* [`getType(int $id): self`](#gettype)
-* [`fromSecretChatId(int $id): \int Bot API secret chat ID`](#fromsecretchatid)
-* [`toSecretChatId(int $id): \int MTProto secret chat ID`](#tosecretchatid)
-* [`fromSupergroupOrChannel(int $id): int`](#fromsupergrouporchannel)
-* [`toSupergroupOrChannel(int $id): int`](#tosupergrouporchannel)
-* [`isSupergroupOrChannel(int $id): bool`](#issupergrouporchannel)
-* [`isChat(int $id): bool`](#ischat)
-* [`isUser(int $id): bool`](#isuser)
-* [`isSecretChat(int $id): bool`](#issecretchat)
-* [`cases(): array`](#cases)
+* [`getType(int $id): self`](#gettype-int-id-self)
+* [`fromSecretChatId(int $id): \int Bot API secret chat ID`](#fromsecretchatid-int-id-int-bot-api-secret-chat-id)
+* [`toSecretChatId(int $id): \int MTProto secret chat ID`](#tosecretchatid-int-id-int-mtproto-secret-chat-id)
+* [`fromSupergroupOrChannel(int $id): int`](#fromsupergrouporchannel-int-id-int)
+* [`toSupergroupOrChannel(int $id): int`](#tosupergrouporchannel-int-id-int)
+* [`isSupergroupOrChannel(int $id): bool`](#issupergrouporchannel-int-id-bool)
+* [`isChat(int $id): bool`](#ischat-int-id-bool)
+* [`isUser(int $id): bool`](#isuser-int-id-bool)
+* [`isSecretChat(int $id): bool`](#issecretchat-int-id-bool)
+* [`cases(): array`](#cases-array)
 
 ## Methods:
 ### `getType(int $id): self`

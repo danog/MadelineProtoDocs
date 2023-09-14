@@ -30,9 +30,9 @@ Broadcast status.
 * `$value`: `string` 
 
 ## Method list:
-* [`cases(): array`](#cases)
-* [`from(string|int $value): static`](#from)
-* [`tryFrom(string|int $value): ?static`](#tryfrom)
+* [`cases(): array`](#cases-array)
+* [`from(string|int $value): static`](#from-string-int-value-static)
+* [`tryFrom(string|int $value): ?static`](#tryfrom-string-int-value-static)
 
 ## Methods:
 ### `cases(): array`
