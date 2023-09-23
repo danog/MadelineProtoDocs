@@ -275,6 +275,7 @@ PHP implementation of telegram's MTProto protocol.
 * [\danog\MadelineProto\EventHandler\User\Status\Recently: Online status: last seen recently.](/PHP/danog/MadelineProto/EventHandler/User/Status/Recently.html)
 * [\danog\MadelineProto\MTProtoTools\DialogId: Represents the type of a bot API dialog ID.](/PHP/danog/MadelineProto/MTProtoTools/DialogId.html)
 * [\danog\MadelineProto\RPCError\FloodWaitError: Represents a FLOOD_WAIT_ RPC error returned by telegram.](/PHP/danog/MadelineProto/RPCError/FloodWaitError.html)
+* [\danog\MadelineProto\SecretChats\SecretChat: Represents a secret chat.](/PHP/danog/MadelineProto/SecretChats/SecretChat.html)
 * [\danog\MadelineProto\Settings\AppInfo: App information.](/PHP/danog/MadelineProto/Settings/AppInfo.html)
 * [\danog\MadelineProto\Settings\Auth: Cryptography settings.](/PHP/danog/MadelineProto/Settings/Auth.html)
 * [\danog\MadelineProto\Settings\Connection: Connection settings.](/PHP/danog/MadelineProto/Settings/Connection.html)

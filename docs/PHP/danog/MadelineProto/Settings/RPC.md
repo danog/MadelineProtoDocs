@@ -23,8 +23,6 @@ RPC settings.
 * [`setRpcResendTimeout(int $rpcResendTimeout): self`](#setrpcresendtimeout-int-rpcresendtimeout-self)
 * [`getFloodTimeout(): int`](#getfloodtimeout-int)
 * [`setFloodTimeout(int $floodTimeout): self`](#setfloodtimeout-int-floodtimeout-self)
-* [`getLimitCallQueue(): int`](#getlimitcallqueue-int)
-* [`setLimitCallQueue(int $limitCallQueue): self`](#setlimitcallqueue-int-limitcallqueue-self)
 * [`getGzipEncodeIfGt(): int`](#getgzipencodeifgt-int)
 * [`setGzipEncodeIfGt(int $gzipEncodeIfGt): self`](#setgzipencodeifgt-int-gzipencodeifgt-self)
 
@@ -77,23 +75,6 @@ Must be bigger than 5.
 Parameters:
 
 * `$floodTimeout`: `int` Flood timeout: if FLOOD_WAIT_ time is bigger than this, throw exception instead of waiting asynchronously  
-
-
-
-### `getLimitCallQueue(): int`
-
-Get maximum number of messages to consider when using call queues.
-
-
-
-### `setLimitCallQueue(int $limitCallQueue): self`
-
-Set maximum number of messages to consider when using call queues.
-
-
-Parameters:
-
-* `$limitCallQueue`: `int` Maximum number of messages to consider when using call queues  
 
 
 

@@ -132,7 +132,7 @@ Plugin event handler class.
 * [`getPropicInfo(mixed $data): array`](#getpropicinfo-mixed-data-array)
 * [`getPsrLogger(): \Psr\Log\LoggerInterface`](#getpsrlogger-psr-log-loggerinterface)
 * [`getPwrChat(mixed $id, bool $fullfetch = true): array`](#getpwrchat-mixed-id-bool-fullfetch-true-array)
-* [`getSecretChat(array|int $chat): array`](#getsecretchat-array-int-chat-array)
+* [`getSecretChat(array|int $chat): \danog\MadelineProto\SecretChats\SecretChat`](#getsecretchat-array-int-chat-danog-madelineproto-secretchats-secretchat)
 * [`getSelf(): array|false`](#getself-array-false)
 * [`getSessionName(): string`](#getsessionname-string)
 * [`getSettings(): \danog\MadelineProto\Settings`](#getsettings-danog-madelineproto-settings)
@@ -189,7 +189,6 @@ Plugin event handler class.
 * [`readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL): string`](#readline-string-prompt-amp-cancellation-cancel-null-string)
 * [`refreshFullPeerCache(mixed $id): void`](#refreshfullpeercache-mixed-id-void)
 * [`refreshPeerCache(mixed ...$ids): void`](#refreshpeercache-mixed-ids-void)
-* [`rekey(int $chat): ?string`](#rekey-int-chat-string)
 * [`report(string $message, string $parseMode = ''): void`](#report-string-message-string-parsemode-void)
 * [`reportMemoryProfile(): void`](#reportmemoryprofile-void)
 * [`requestCall(mixed $user): \danog\MadelineProto\VoIP`](#requestcall-mixed-user-danog-madelineproto-voip)
@@ -200,7 +199,6 @@ Plugin event handler class.
 * [`rethrow(\Throwable $e): void`](#rethrow-throwable-e-void)
 * [`rleDecode(string $string): string`](#rledecode-string-string-string)
 * [`rleEncode(string $string): string`](#rleencode-string-string-string)
-* [`secretChatStatus(int $chat): \int One of \danog\MadelineProto\API::SECRET_EMPTY, \danog\MadelineProto\API::SECRET_REQUESTED, \danog\MadelineProto\API::SECRET_READY`](#secretchatstatus-int-chat-int-one-of-danog-madelineproto-api-secret_empty-danog-madelineproto-api-secret_requested-danog-madelineproto-api-secret_ready)
 * [`sendCustomEvent(mixed $payload): void`](#sendcustomevent-mixed-payload-void)
 * [`sendDocument(int|string $peer, \danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?string $mimeType = NULL, ?int $ttl = NULL, bool $spoiler = false, int|null $replyToMsgId = NULL, int|null $topMsgId = NULL, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`](#senddocument-int-string-peer-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-media-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-amp-bytestream-readablestream-file-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-media-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-amp-bytestream-readablestream-null-thumb-null-string-caption-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-callable-callback-null-string-filename-null-string-mimetype-null-int-ttl-null-bool-spoiler-false-int-null-replytomsgid-null-int-null-topmsgid-null-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-updatestickersetsorder-false-danog-madelineproto-eventhandler-message)
 * [`sendMessage(int|string $peer, string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, int|null $replyToMsgId = NULL, int|null $topMsgId = NULL, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`](#sendmessage-int-string-peer-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-int-null-replytomsgid-null-int-null-topmsgid-null-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-nowebpage-false-bool-updatestickersetsorder-false-danog-madelineproto-eventhandler-message)
@@ -1320,7 +1318,8 @@ Parameters:
 ### `getInfo(mixed $id, \danog\MadelineProto\API::INFO_TYPE_* $type = \danog\MadelineProto\API::INFO_TYPE_ALL): mixed`
 
 Get info about peer, returns an Info object.
-
+If passed a secret chat ID, returns information about the user, not about the secret chat.  
+Use getSecretChat to return information about the secret chat.
 
 Parameters:
 
@@ -1464,7 +1463,7 @@ Parameters:
 
 
 
-### `getSecretChat(array|int $chat): array`
+### `getSecretChat(array|int $chat): \danog\MadelineProto\SecretChats\SecretChat`
 
 Get secret chat.
 
@@ -1472,6 +1471,11 @@ Get secret chat.
 Parameters:
 
 * `$chat`: `array|int` Secret chat ID  
+
+
+#### See also: 
+* [`\danog\MadelineProto\SecretChats\SecretChat`: Represents a secret chat.](../../danog/MadelineProto/SecretChats/SecretChat.html)
+
 
 
 
@@ -2075,17 +2079,6 @@ Parameters:
 
 
 
-### `rekey(int $chat): ?string`
-
-Rekey secret chat.
-
-
-Parameters:
-
-* `$chat`: `int` Secret chat to rekey  
-
-
-
 ### `report(string $message, string $parseMode = ''): void`
 
 Report an error to the previously set peer.
@@ -2190,19 +2183,6 @@ Parameters:
 
 * `$string`: `string` Data to encode  
 
-
-
-### `secretChatStatus(int $chat): \int One of \danog\MadelineProto\API::SECRET_EMPTY, \danog\MadelineProto\API::SECRET_REQUESTED, \danog\MadelineProto\API::SECRET_READY`
-
-Get secret chat status.
-
-
-Parameters:
-
-* `$chat`: `int` Chat ID  
-
-
-Return value: One of \danog\MadelineProto\API::SECRET_EMPTY, \danog\MadelineProto\API::SECRET_REQUESTED, \danog\MadelineProto\API::SECRET_READY
 
 
 ### `sendCustomEvent(mixed $payload): void`
