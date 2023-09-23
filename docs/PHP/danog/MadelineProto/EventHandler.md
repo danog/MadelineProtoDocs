@@ -231,7 +231,7 @@ Event handler.
 * [`updateSettings(\danog\MadelineProto\SettingsAbstract $settings): void`](#updatesettings-danog-madelineproto-settingsabstract-settings-void)
 * [`upload(\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|\resource $file, string $fileName = '', callable $cb = NULL, bool $encrypted = false): \array InputFile constructor`](#upload-danog-madelineproto-filecallbackinterface-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-string-array-resource-file-string-filename-callable-cb-null-bool-encrypted-false-array-inputfile-constructor)
 * [`uploadEncrypted(\danog\MadelineProto\FileCallbackInterface|string|array $file, string $fileName = '', callable $cb = NULL): \array InputFile constructor`](#uploadencrypted-danog-madelineproto-filecallbackinterface-string-array-file-string-filename-callable-cb-null-array-inputfile-constructor)
-* [`uploadFromCallable(mixed $callable, int $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable $cb = NULL, bool $seekable = true, bool $encrypted = false): \array InputFile constructor`](#uploadfromcallable-mixed-callable-int-size-0-string-mime-application-octet-stream-string-filename-callable-cb-null-bool-seekable-true-bool-encrypted-false-array-inputfile-constructor)
+* [`uploadFromCallable(callable $callable, int $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable $cb = NULL, bool $seekable = true, bool $encrypted = false): \array InputFile constructor`](#uploadfromcallable-callable-callable-int-size-0-string-mime-application-octet-stream-string-filename-callable-cb-null-bool-seekable-true-bool-encrypted-false-array-inputfile-constructor)
 * [`uploadFromStream(mixed $stream, int $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable $cb = NULL, bool $encrypted = false): \array InputFile constructor`](#uploadfromstream-mixed-stream-int-size-0-string-mime-application-octet-stream-string-filename-callable-cb-null-bool-encrypted-false-array-inputfile-constructor)
 * [`uploadFromTgfile(mixed $media, callable $cb = NULL, bool $encrypted = false): \array InputFile constructor`](#uploadfromtgfile-mixed-media-callable-cb-null-bool-encrypted-false-array-inputfile-constructor)
 * [`uploadFromUrl(string|\danog\MadelineProto\FileCallbackInterface $url, int $size = 0, string $fileName = '', callable $cb = NULL, bool $encrypted = false): \array InputFile constructor`](#uploadfromurl-string-danog-madelineproto-filecallbackinterface-url-int-size-0-string-filename-callable-cb-null-bool-encrypted-false-array-inputfile-constructor)
@@ -2648,7 +2648,7 @@ Return value: InputFile constructor
 
 
 
-### `uploadFromCallable(mixed $callable, int $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable $cb = NULL, bool $seekable = true, bool $encrypted = false): \array InputFile constructor`
+### `uploadFromCallable(callable $callable, int $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable $cb = NULL, bool $seekable = true, bool $encrypted = false): \array InputFile constructor`
 
 Upload file from callable.
 The callable must accept two parameters: int $offset, int $size  
@@ -2656,11 +2656,11 @@ The callable must return a string with the contest of the file at the specified 
 
 Parameters:
 
-* `$callable`: `mixed` Callable  
+* `$callable`: `callable` Callable (offset, length) => data  
 * `$size`: `int` File size  
 * `$mime`: `string` Mime type  
 * `$fileName`: `string` File name  
-* `$cb`: `callable` Callback  
+* `$cb`: `callable` Status callback  
 * `$seekable`: `bool` Whether chunks can be fetched out of order  
 * `$encrypted`: `bool` Whether to encrypt file for secret chats  
 

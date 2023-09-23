@@ -20,25 +20,35 @@ File callback interface.
 * `$file`: `mixed` 
 
 ## Method list:
-* [`__construct(mixed $file, callable $callback)`](#__construct-mixed-file-callable-callback)
-* [`getFile(): mixed`](#getfile-mixed)
+* [`__construct(\TT $file, callable $callback)`](#__construct-tt-file-callable-callback)
+* [`getFile(): \TT`](#getfile-tt)
 
 ## Methods:
-### `__construct(mixed $file, callable $callback)`
+### `__construct(\TT $file, callable $callback)`
 
 Construct file callback.
 
 
 Parameters:
 
-* `$file`: `mixed` File to download/upload  
+* `$file`: `\TT` File to download/upload  
 * `$callback`: `callable`   
 
 
+#### See also: 
+* `\TT`
 
-### `getFile(): mixed`
+
+
+
+### `getFile(): \TT`
 
 Get file.
+
+
+#### See also: 
+* `\TT`
+
 
 
 
