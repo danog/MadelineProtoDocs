@@ -15,7 +15,7 @@ redirect_from: /API_docs/methods/stories_report.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 |id|Array of [int](/API_docs/types/int.html) | Yes|
 |reason|[ReportReason](/API_docs/types/ReportReason.html) | Yes|
 |message|[string](/API_docs/types/string.html) | Yes|
@@ -38,7 +38,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->stories->report(user_id: $InputUser, id: [$int, $int], reason: $ReportReason, message: 'string', );
+$Bool = $MadelineProto->stories->report(peer: $InputPeer, id: [$int, $int], reason: $ReportReason, message: 'string', );
 ```
 
 

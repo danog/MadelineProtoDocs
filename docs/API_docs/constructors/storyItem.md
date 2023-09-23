@@ -21,6 +21,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |edited|[Bool](/API_docs/types/Bool.html) | Optional|
 |contacts|[Bool](/API_docs/types/Bool.html) | Optional|
 |selected\_contacts|[Bool](/API_docs/types/Bool.html) | Optional|
+|out|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[int](/API_docs/types/int.html) | Yes|
 |date|[int](/API_docs/types/int.html) | Yes|
 |expire\_date|[int](/API_docs/types/int.html) | Yes|
@@ -101,5 +102,5 @@ pre-formatted fixed-width code block written in the PHP programming language
 ### Example:
 
 ```
-$storyItem = ['_' => 'storyItem', 'pinned' => Bool, 'public' => Bool, 'close_friends' => Bool, 'min' => Bool, 'noforwards' => Bool, 'edited' => Bool, 'contacts' => Bool, 'selected_contacts' => Bool, 'id' => int, 'date' => int, 'expire_date' => int, 'caption' => 'string', 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'media' => MessageMedia, 'media_areas' => [MediaArea, MediaArea], 'privacy' => [PrivacyRule, PrivacyRule], 'views' => StoryViews, 'sent_reaction' => Reaction];
+$storyItem = ['_' => 'storyItem', 'pinned' => Bool, 'public' => Bool, 'close_friends' => Bool, 'min' => Bool, 'noforwards' => Bool, 'edited' => Bool, 'contacts' => Bool, 'selected_contacts' => Bool, 'out' => Bool, 'id' => int, 'date' => int, 'expire_date' => int, 'caption' => 'string', 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'media' => MessageMedia, 'media_areas' => [MediaArea, MediaArea], 'privacy' => [PrivacyRule, PrivacyRule], 'views' => StoryViews, 'sent_reaction' => Reaction];
 ```  

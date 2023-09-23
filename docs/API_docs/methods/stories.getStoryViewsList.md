@@ -17,6 +17,7 @@ redirect_from: /API_docs/methods/stories_getStoryViewsList.html
 |----------|---------------|----------|
 |just\_contacts|[Bool](/API_docs/types/Bool.html) | Optional|
 |reactions\_first|[Bool](/API_docs/types/Bool.html) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 |q|[string](/API_docs/types/string.html) | Optional|
 |id|[int](/API_docs/types/int.html) | Yes|
 |offset|[string](/API_docs/types/string.html) | Yes|
@@ -40,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$stories_StoryViewsList = $MadelineProto->stories->getStoryViewsList(just_contacts: $Bool, reactions_first: $Bool, q: 'string', id: $int, offset: 'string', limit: $int, );
+$stories_StoryViewsList = $MadelineProto->stories->getStoryViewsList(just_contacts: $Bool, reactions_first: $Bool, peer: $InputPeer, q: 'string', id: $int, offset: 'string', limit: $int, );
 ```
 

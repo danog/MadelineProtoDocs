@@ -39,6 +39,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [Bool](/API_docs/types/Bool.html)<a name="Bool"></a>  
 
+[Booster](/API_docs/types/Booster.html)<a name="Booster"></a>  
+
 [BotApp](/API_docs/types/BotApp.html)<a name="BotApp"></a>  
 
 [BotCommand](/API_docs/types/BotCommand.html)<a name="BotCommand"></a>  
@@ -393,6 +395,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [PeerSettings](/API_docs/types/PeerSettings.html)<a name="PeerSettings"></a>  
 
+[PeerStories](/API_docs/types/PeerStories.html)<a name="PeerStories"></a>  
+
 [PhoneCall](/API_docs/types/PhoneCall.html)<a name="PhoneCall"></a>  
 
 [PhoneCallDiscardReason](/API_docs/types/PhoneCallDiscardReason.html)<a name="PhoneCallDiscardReason"></a>  
@@ -544,8 +548,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [UserProfilePhoto](/API_docs/types/UserProfilePhoto.html)<a name="UserProfilePhoto"></a>  
 
 [UserStatus](/API_docs/types/UserStatus.html)<a name="UserStatus"></a>  
-
-[UserStories](/API_docs/types/UserStories.html)<a name="UserStories"></a>  
 
 [Username](/API_docs/types/Username.html)<a name="Username"></a>  
 
@@ -831,13 +833,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [stories.AllStories](/API_docs/types/stories.AllStories.html)<a name="stories.AllStories"></a>  
 
+[stories.BoostersList](/API_docs/types/stories.BoostersList.html)<a name="stories.BoostersList"></a>  
+
+[stories.BoostsStatus](/API_docs/types/stories.BoostsStatus.html)<a name="stories.BoostsStatus"></a>  
+
+[stories.CanApplyBoostResult](/API_docs/types/stories.CanApplyBoostResult.html)<a name="stories.CanApplyBoostResult"></a>  
+
+[stories.PeerStories](/API_docs/types/stories.PeerStories.html)<a name="stories.PeerStories"></a>  
+
 [stories.Stories](/API_docs/types/stories.Stories.html)<a name="stories.Stories"></a>  
 
 [stories.StoryViews](/API_docs/types/stories.StoryViews.html)<a name="stories.StoryViews"></a>  
 
 [stories.StoryViewsList](/API_docs/types/stories.StoryViewsList.html)<a name="stories.StoryViewsList"></a>  
-
-[stories.UserStories](/API_docs/types/stories.UserStories.html)<a name="stories.UserStories"></a>  
 
 [updates.ChannelDifference](/API_docs/types/updates.ChannelDifference.html)<a name="updates.ChannelDifference"></a>  
 

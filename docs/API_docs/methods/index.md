@@ -1444,13 +1444,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="contacts.setBlocked.html" name="contacts.setBlocked">contacts.setBlocked</a>
 
-* <a href="contacts.toggleStoriesHidden.html" name="contacts.toggleStoriesHidden">contacts.toggleStoriesHidden</a>
-
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rledecode-string-string-string" name="rleDecode">null-byte RLE decode: rleDecode</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleencode-string-string-string" name="rleEncode">null-byte RLE encode: rleEncode</a>
 
 * <a href="stories.activateStealthMode.html" name="stories.activateStealthMode">stories.activateStealthMode</a>
+
+* <a href="stories.applyBoost.html" name="stories.applyBoost">stories.applyBoost</a>
+
+* <a href="stories.canApplyBoost.html" name="stories.canApplyBoost">stories.canApplyBoost</a>
 
 * <a href="stories.canSendStory.html" name="stories.canSendStory">stories.canSendStory</a>
 
@@ -1460,9 +1462,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="stories.exportStoryLink.html" name="stories.exportStoryLink">stories.exportStoryLink</a>
 
-* <a href="stories.getAllReadUserStories.html" name="stories.getAllReadUserStories">stories.getAllReadUserStories</a>
+* <a href="stories.getAllReadPeerStories.html" name="stories.getAllReadPeerStories">stories.getAllReadPeerStories</a>
 
 * <a href="stories.getAllStories.html" name="stories.getAllStories">stories.getAllStories</a>
+
+* <a href="stories.getBoostersList.html" name="stories.getBoostersList">stories.getBoostersList</a>
+
+* <a href="stories.getBoostsStatus.html" name="stories.getBoostsStatus">stories.getBoostsStatus</a>
+
+* <a href="stories.getChatsToSend.html" name="stories.getChatsToSend">stories.getChatsToSend</a>
+
+* <a href="stories.getPeerMaxIDs.html" name="stories.getPeerMaxIDs">stories.getPeerMaxIDs</a>
+
+* <a href="stories.getPeerStories.html" name="stories.getPeerStories">stories.getPeerStories</a>
 
 * <a href="stories.getPinnedStories.html" name="stories.getPinnedStories">stories.getPinnedStories</a>
 
@@ -1473,8 +1485,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="stories.getStoriesViews.html" name="stories.getStoriesViews">stories.getStoriesViews</a>
 
 * <a href="stories.getStoryViewsList.html" name="stories.getStoryViewsList">stories.getStoryViewsList</a>
-
-* <a href="stories.getUserStories.html" name="stories.getUserStories">stories.getUserStories</a>
 
 * <a href="stories.incrementStoryViews.html" name="stories.incrementStoryViews">stories.incrementStoryViews</a>
 
@@ -1488,8 +1498,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="stories.toggleAllStoriesHidden.html" name="stories.toggleAllStoriesHidden">stories.toggleAllStoriesHidden</a>
 
-* <a href="stories.togglePinned.html" name="stories.togglePinned">stories.togglePinned</a>
+* <a href="stories.togglePeerStoriesHidden.html" name="stories.togglePeerStoriesHidden">stories.togglePeerStoriesHidden</a>
 
-* <a href="users.getStoriesMaxIDs.html" name="users.getStoriesMaxIDs">users.getStoriesMaxIDs</a>
+* <a href="stories.togglePinned.html" name="stories.togglePinned">stories.togglePinned</a>
 
 

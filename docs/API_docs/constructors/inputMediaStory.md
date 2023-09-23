@@ -13,7 +13,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 |id|[int](/API_docs/types/int.html) | Yes|
 
 
@@ -24,5 +24,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$inputMediaStory = ['_' => 'inputMediaStory', 'user_id' => InputUser, 'id' => int];
+$inputMediaStory = ['_' => 'inputMediaStory', 'peer' => InputPeer, 'id' => int];
 ```  

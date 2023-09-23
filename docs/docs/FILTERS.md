@@ -691,6 +691,7 @@ Here's a full list of all MTProto filters (click on each filter name to view the
 * [onUpdateChatParticipants &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateChatParticipants.html) - Composition of chat participants changed.
 * [onUpdateUserStatus &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateUserStatus.html) - Contact status update.
 * [onUpdateUserName &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateUserName.html) - Changes the user's first name, last name and username.
+* [onUpdateNewAuthorization &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateNewAuthorization.html) - 
 * [onUpdateNewEncryptedMessage &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateNewEncryptedMessage.html) - New encrypted message.
 * [onUpdateEncryptedChatTyping &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateEncryptedChatTyping.html) - Interlocutor is typing a message in an encrypted chat. Update period is 6 second. If upon this time there is no repeated update, it shall be considered that the interlocutor stopped typing.
 * [onUpdateEncryption &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateEncryption.html) - Change of state in an encrypted chat.

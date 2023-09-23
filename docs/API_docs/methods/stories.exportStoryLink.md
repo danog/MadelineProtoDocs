@@ -15,7 +15,7 @@ redirect_from: /API_docs/methods/stories_exportStoryLink.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 |id|[int](/API_docs/types/int.html) | Yes|
 
 
@@ -36,6 +36,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$ExportedStoryLink = $MadelineProto->stories->exportStoryLink(user_id: $InputUser, id: $int, );
+$ExportedStoryLink = $MadelineProto->stories->exportStoryLink(peer: $InputPeer, id: $int, );
 ```
 

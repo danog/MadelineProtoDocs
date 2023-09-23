@@ -15,6 +15,7 @@ redirect_from: /API_docs/methods/stories_togglePinned.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 |id|Array of [int](/API_docs/types/int.html) | Yes|
 |pinned|[Bool](/API_docs/types/Bool.html) | Yes|
 
@@ -36,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Vector_of_int = $MadelineProto->stories->togglePinned(id: [$int, $int], pinned: $Bool, );
+$Vector_of_int = $MadelineProto->stories->togglePinned(peer: $InputPeer, id: [$int, $int], pinned: $Bool, );
 ```
 

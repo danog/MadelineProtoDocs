@@ -1,17 +1,17 @@
 ---
-title: UserStories
-description: constructors and methods of type UserStories
+title: PeerStories
+description: constructors and methods of type PeerStories
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Type: UserStories
+# Type: PeerStories
 [Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[userStories](/API_docs/constructors/userStories.html)  
+[peerStories](/API_docs/constructors/peerStories.html)  
 
 
 

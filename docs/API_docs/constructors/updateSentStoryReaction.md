@@ -13,7 +13,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|peer|[Peer](/API_docs/types/Peer.html) | Yes|
 |story\_id|[int](/API_docs/types/int.html) | Yes|
 |reaction|[Reaction](/API_docs/types/Reaction.html) | Optional|
 
@@ -25,5 +25,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$updateSentStoryReaction = ['_' => 'updateSentStoryReaction', 'user_id' => long, 'story_id' => int, 'reaction' => Reaction];
+$updateSentStoryReaction = ['_' => 'updateSentStoryReaction', 'peer' => Peer, 'story_id' => int, 'reaction' => Reaction];
 ```  

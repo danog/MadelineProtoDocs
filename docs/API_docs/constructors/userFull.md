@@ -43,7 +43,7 @@ Extended user info
 |bot\_broadcast\_admin\_rights|[ChatAdminRights](/API_docs/types/ChatAdminRights.html) | Optional|A [suggested set of administrator rights](https://core.telegram.org/api/rights#suggested-bot-rights) for the bot, to be shown when adding the bot as admin to a channel, see [here for more info on how to handle them »](https://core.telegram.org/api/rights#suggested-bot-rights).|
 |premium\_gifts|Array of [PremiumGiftOption](/API_docs/types/PremiumGiftOption.html) | Optional|Telegram Premium subscriptions gift options|
 |wallpaper|[WallPaper](/API_docs/types/WallPaper.html) | Optional|[Wallpaper](https://core.telegram.org/api/wallpapers) to use in the private chat with the user.|
-|stories|[UserStories](/API_docs/types/UserStories.html) | Optional|
+|stories|[PeerStories](/API_docs/types/PeerStories.html) | Optional|
 
 
 
@@ -53,5 +53,5 @@ Extended user info
 ### Example:
 
 ```
-$userFull = ['_' => 'userFull', 'blocked' => Bool, 'phone_calls_available' => Bool, 'phone_calls_private' => Bool, 'can_pin_message' => Bool, 'has_scheduled' => Bool, 'video_calls_available' => Bool, 'voice_messages_forbidden' => Bool, 'translations_disabled' => Bool, 'stories_pinned_available' => Bool, 'blocked_my_stories_from' => Bool, 'id' => long, 'about' => 'string', 'settings' => PeerSettings, 'personal_photo' => Photo, 'profile_photo' => Photo, 'fallback_photo' => Photo, 'notify_settings' => PeerNotifySettings, 'bot_info' => BotInfo, 'pinned_msg_id' => int, 'common_chats_count' => int, 'folder_id' => int, 'ttl_period' => int, 'theme_emoticon' => 'string', 'private_forward_name' => 'string', 'bot_group_admin_rights' => ChatAdminRights, 'bot_broadcast_admin_rights' => ChatAdminRights, 'premium_gifts' => [PremiumGiftOption, PremiumGiftOption], 'wallpaper' => WallPaper, 'stories' => UserStories];
+$userFull = ['_' => 'userFull', 'blocked' => Bool, 'phone_calls_available' => Bool, 'phone_calls_private' => Bool, 'can_pin_message' => Bool, 'has_scheduled' => Bool, 'video_calls_available' => Bool, 'voice_messages_forbidden' => Bool, 'translations_disabled' => Bool, 'stories_pinned_available' => Bool, 'blocked_my_stories_from' => Bool, 'id' => long, 'about' => 'string', 'settings' => PeerSettings, 'personal_photo' => Photo, 'profile_photo' => Photo, 'fallback_photo' => Photo, 'notify_settings' => PeerNotifySettings, 'bot_info' => BotInfo, 'pinned_msg_id' => int, 'common_chats_count' => int, 'folder_id' => int, 'ttl_period' => int, 'theme_emoticon' => 'string', 'private_forward_name' => 'string', 'bot_group_admin_rights' => ChatAdminRights, 'bot_broadcast_admin_rights' => ChatAdminRights, 'premium_gifts' => [PremiumGiftOption, PremiumGiftOption], 'wallpaper' => WallPaper, 'stories' => PeerStories];
 ```  

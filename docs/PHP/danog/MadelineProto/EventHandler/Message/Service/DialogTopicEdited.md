@@ -16,10 +16,10 @@ parent: "MadelineProto API"
 
 
 ## Properties
-* `$title`: `?string` Topic name.
-* `$iconEmojiId`: `?int` ID of the [custom emoji](https://core.telegram.org/api/custom-emoji) used as topic icon.
-* `$closed`: `bool` Whether the topic was closed.
-* `$hidden`: `bool` Whether the topic was hidden (only valid for the “General” topic, id=1).
+* `$title`: `?string` If not null, indicates that the topic name has changed, contains the new topic name.
+* `$iconEmojiId`: `?int` If not null, indicates that the topic icon has changed, and contains the ID of the new [custom emoji](https://core.telegram.org/api/custom-emoji) used as topic icon (0 if it was removed).
+* `$closed`: `?bool` If not null, indicates whether the topic was opened or closed.
+* `$hidden`: `?bool` If not null, indicates whether the topic was hidden or unhidden (only valid for the “General” topic, id=1).
 * `$id`: `int` Message ID
 * `$out`: `bool` Whether the message is outgoing
 * `$chatId`: `int` ID of the chat where the message was sent
@@ -34,7 +34,7 @@ parent: "MadelineProto API"
 * `$ttlPeriod`: `?int` Time-to-live of the message
 
 ## Method list:
-* [`__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info, ?string $title, ?int $iconEmojiId, bool $closed, bool $hidden)`](#__construct-danog-madelineproto-mtproto-api-array-rawmessage-array-info-string-title-int-iconemojiid-bool-closed-bool-hidden)
+* [`__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info, ?string $title, ?int $iconEmojiId, ?bool $closed, ?bool $hidden)`](#__construct-danog-madelineproto-mtproto-api-array-rawmessage-array-info-string-title-int-iconemojiid-bool-closed-bool-hidden)
 * [`isReply(): bool`](#isreply-bool)
 * [`getReply(class-string<\T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?\T`](#getreply-class-string-t-class-danog-madelineproto-eventhandler-abstractmessage-t)
 * [`delete(bool $revoke = true): void`](#delete-bool-revoke-true-void)
@@ -48,7 +48,7 @@ parent: "MadelineProto API"
 * [`disableTTL(): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`](#disablettl-danog-madelineproto-eventhandler-message-service-dialogsetttl)
 
 ## Methods:
-### `__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info, ?string $title, ?int $iconEmojiId, bool $closed, bool $hidden)`
+### `__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info, ?string $title, ?int $iconEmojiId, ?bool $closed, ?bool $hidden)`
 
 
 
@@ -60,8 +60,8 @@ Parameters:
 * `$info`: `array`   
 * `$title`: `?string`   
 * `$iconEmojiId`: `?int`   
-* `$closed`: `bool`   
-* `$hidden`: `bool`   
+* `$closed`: `?bool`   
+* `$hidden`: `?bool`   
 
 
 #### See also: 

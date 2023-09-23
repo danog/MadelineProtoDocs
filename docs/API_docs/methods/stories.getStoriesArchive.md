@@ -15,6 +15,7 @@ redirect_from: /API_docs/methods/stories_getStoriesArchive.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 |offset\_id|[int](/API_docs/types/int.html) | Yes|
 |limit|[int](/API_docs/types/int.html) | Yes|
 
@@ -36,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$stories_Stories = $MadelineProto->stories->getStoriesArchive(offset_id: $int, limit: $int, );
+$stories_Stories = $MadelineProto->stories->getStoriesArchive(peer: $InputPeer, offset_id: $int, limit: $int, );
 ```
 

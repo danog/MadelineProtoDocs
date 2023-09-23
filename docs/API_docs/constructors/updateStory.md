@@ -13,7 +13,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|peer|[Peer](/API_docs/types/Peer.html) | Yes|
 |story|[StoryItem](/API_docs/types/StoryItem.html) | Yes|
 
 
@@ -24,5 +24,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$updateStory = ['_' => 'updateStory', 'user_id' => long, 'story' => StoryItem];
+$updateStory = ['_' => 'updateStory', 'peer' => Peer, 'story' => StoryItem];
 ```  

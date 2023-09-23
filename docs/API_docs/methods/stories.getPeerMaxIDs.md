@@ -1,19 +1,24 @@
 ---
-title: "stories.getAllReadUserStories"
-description: "stories.getAllReadUserStories parameters, return type and example"
+title: "stories.getPeerMaxIDs"
+description: "stories.getPeerMaxIDs parameters, return type and example"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
-redirect_from: /API_docs/methods/stories_getAllReadUserStories.html
+redirect_from: /API_docs/methods/stories_getPeerMaxIDs.html
 ---
-# Method: stories.getAllReadUserStories
+# Method: stories.getPeerMaxIDs
 [Back to methods index](index.html)
 
 
 
+### Parameters:
+
+| Name     |    Type       | Required |
+|----------|---------------|----------|
+|id|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Yes|
 
 
-### Return type: [Updates](/API_docs/types/Updates.html)
+### Return type: [Vector\_of\_int](/API_docs/types/int.html)
 
 ### Can bots use this method: **YES**
 
@@ -30,6 +35,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->stories->getAllReadUserStories();
+$Vector_of_int = $MadelineProto->stories->getPeerMaxIDs(id: [$InputPeer, $InputPeer], );
 ```
 

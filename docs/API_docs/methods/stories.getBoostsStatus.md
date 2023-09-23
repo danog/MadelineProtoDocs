@@ -1,12 +1,12 @@
 ---
-title: "stories.getUserStories"
-description: "stories.getUserStories parameters, return type and example"
+title: "stories.getBoostsStatus"
+description: "stories.getBoostsStatus parameters, return type and example"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
-redirect_from: /API_docs/methods/stories_getUserStories.html
+redirect_from: /API_docs/methods/stories_getBoostsStatus.html
 ---
-# Method: stories.getUserStories
+# Method: stories.getBoostsStatus
 [Back to methods index](index.html)
 
 
@@ -15,10 +15,10 @@ redirect_from: /API_docs/methods/stories_getUserStories.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 
 
-### Return type: [stories.UserStories](/API_docs/types/stories.UserStories.html)
+### Return type: [stories.BoostsStatus](/API_docs/types/stories.BoostsStatus.html)
 
 ### Can bots use this method: **YES**
 
@@ -35,6 +35,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$stories_UserStories = $MadelineProto->stories->getUserStories(user_id: $InputUser, );
+$stories_BoostsStatus = $MadelineProto->stories->getBoostsStatus(peer: $InputPeer, );
 ```
 

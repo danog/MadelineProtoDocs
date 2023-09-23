@@ -18,6 +18,7 @@ Contains information about a [named bot web app](https://core.telegram.org/api/b
 |----------|---------------|----------|-------------|
 |inactive|[Bool](/API_docs/types/Bool.html) | Optional|Whether the web app was never used by the user, and confirmation must be asked from the user before opening it.|
 |request\_write\_access|[Bool](/API_docs/types/Bool.html) | Optional|The bot is asking permission to send messages to the user: if the user agrees, set the `write_allowed` flag when invoking [messages.requestAppWebView](../methods/messages.requestAppWebView.html).|
+|has\_settings|[Bool](/API_docs/types/Bool.html) | Optional|
 |app|[BotApp](/API_docs/types/BotApp.html) | Yes|Bot app information|
 
 
@@ -28,5 +29,5 @@ Contains information about a [named bot web app](https://core.telegram.org/api/b
 ### Example:
 
 ```
-$messages_botApp = ['_' => 'messages.botApp', 'inactive' => Bool, 'request_write_access' => Bool, 'app' => BotApp];
+$messages_botApp = ['_' => 'messages.botApp', 'inactive' => Bool, 'request_write_access' => Bool, 'has_settings' => Bool, 'app' => BotApp];
 ```  

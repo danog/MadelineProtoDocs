@@ -27,6 +27,7 @@ Full info about a [channel](https://core.telegram.org/api/channel#channels), [su
 |antispam|[Bool](/API_docs/types/Bool.html) | Optional|
 |participants\_hidden|[Bool](/API_docs/types/Bool.html) | Optional|
 |translations\_disabled|[Bool](/API_docs/types/Bool.html) | Optional|
+|stories\_pinned\_available|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[long](/API_docs/types/long.html) | Yes|ID of the channel|
 |about|[string](/API_docs/types/string.html) | Yes|Info about the channel|
 |participants\_count|[int](/API_docs/types/int.html) | Optional|Number of participants of the channel|
@@ -62,6 +63,7 @@ Full info about a [channel](https://core.telegram.org/api/channel#channels), [su
 |recent\_requesters|Array of [long](/API_docs/types/long.html) | Optional|IDs of users who requested to join recently|
 |default\_send\_as|[Peer](/API_docs/types/Peer.html) | Optional|Default peer used for sending messages to this channel|
 |available\_reactions|[ChatReactions](/API_docs/types/ChatReactions.html) | Optional|Allowed [message reactions »](https://core.telegram.org/api/reactions)|
+|stories|[PeerStories](/API_docs/types/PeerStories.html) | Optional|
 
 
 
@@ -71,5 +73,5 @@ Full info about a [channel](https://core.telegram.org/api/channel#channels), [su
 ### Example:
 
 ```
-$channelFull = ['_' => 'channelFull', 'can_view_participants' => Bool, 'can_set_username' => Bool, 'can_set_stickers' => Bool, 'hidden_prehistory' => Bool, 'can_set_location' => Bool, 'has_scheduled' => Bool, 'can_view_stats' => Bool, 'blocked' => Bool, 'can_delete_channel' => Bool, 'antispam' => Bool, 'participants_hidden' => Bool, 'translations_disabled' => Bool, 'id' => long, 'about' => 'string', 'participants_count' => int, 'admins_count' => int, 'kicked_count' => int, 'banned_count' => int, 'online_count' => int, 'read_inbox_max_id' => int, 'read_outbox_max_id' => int, 'unread_count' => int, 'chat_photo' => Photo, 'notify_settings' => PeerNotifySettings, 'exported_invite' => ExportedChatInvite, 'bot_info' => [BotInfo, BotInfo], 'migrated_from_chat_id' => long, 'migrated_from_max_id' => int, 'pinned_msg_id' => int, 'stickerset' => StickerSet, 'available_min_id' => int, 'folder_id' => int, 'linked_chat_id' => long, 'location' => ChannelLocation, 'slowmode_seconds' => int, 'slowmode_next_send_date' => int, 'stats_dc' => int, 'pts' => int, 'call' => InputGroupCall, 'ttl_period' => int, 'pending_suggestions' => ['string', 'string'], 'groupcall_default_join_as' => Peer, 'theme_emoticon' => 'string', 'requests_pending' => int, 'recent_requesters' => [long, long], 'default_send_as' => Peer, 'available_reactions' => ChatReactions];
+$channelFull = ['_' => 'channelFull', 'can_view_participants' => Bool, 'can_set_username' => Bool, 'can_set_stickers' => Bool, 'hidden_prehistory' => Bool, 'can_set_location' => Bool, 'has_scheduled' => Bool, 'can_view_stats' => Bool, 'blocked' => Bool, 'can_delete_channel' => Bool, 'antispam' => Bool, 'participants_hidden' => Bool, 'translations_disabled' => Bool, 'stories_pinned_available' => Bool, 'id' => long, 'about' => 'string', 'participants_count' => int, 'admins_count' => int, 'kicked_count' => int, 'banned_count' => int, 'online_count' => int, 'read_inbox_max_id' => int, 'read_outbox_max_id' => int, 'unread_count' => int, 'chat_photo' => Photo, 'notify_settings' => PeerNotifySettings, 'exported_invite' => ExportedChatInvite, 'bot_info' => [BotInfo, BotInfo], 'migrated_from_chat_id' => long, 'migrated_from_max_id' => int, 'pinned_msg_id' => int, 'stickerset' => StickerSet, 'available_min_id' => int, 'folder_id' => int, 'linked_chat_id' => long, 'location' => ChannelLocation, 'slowmode_seconds' => int, 'slowmode_next_send_date' => int, 'stats_dc' => int, 'pts' => int, 'call' => InputGroupCall, 'ttl_period' => int, 'pending_suggestions' => ['string', 'string'], 'groupcall_default_join_as' => Peer, 'theme_emoticon' => 'string', 'requests_pending' => int, 'recent_requesters' => [long, long], 'default_send_as' => Peer, 'available_reactions' => ChatReactions, 'stories' => PeerStories];
 ```  

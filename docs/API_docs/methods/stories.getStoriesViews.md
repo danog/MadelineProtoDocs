@@ -15,6 +15,7 @@ redirect_from: /API_docs/methods/stories_getStoriesViews.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 |id|Array of [int](/API_docs/types/int.html) | Yes|
 
 
@@ -35,6 +36,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$stories_StoryViews = $MadelineProto->stories->getStoriesViews(id: [$int, $int], );
+$stories_StoryViews = $MadelineProto->stories->getStoriesViews(peer: $InputPeer, id: [$int, $int], );
 ```
 

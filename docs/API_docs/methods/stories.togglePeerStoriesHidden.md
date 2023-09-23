@@ -1,12 +1,12 @@
 ---
-title: "stories.deleteStories"
-description: "stories.deleteStories parameters, return type and example"
+title: "stories.togglePeerStoriesHidden"
+description: "stories.togglePeerStoriesHidden parameters, return type and example"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
-redirect_from: /API_docs/methods/stories_deleteStories.html
+redirect_from: /API_docs/methods/stories_togglePeerStoriesHidden.html
 ---
-# Method: stories.deleteStories
+# Method: stories.togglePeerStoriesHidden
 [Back to methods index](index.html)
 
 
@@ -16,10 +16,10 @@ redirect_from: /API_docs/methods/stories_deleteStories.html
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|id|Array of [int](/API_docs/types/int.html) | Yes|
+|hidden|[Bool](/API_docs/types/Bool.html) | Yes|
 
 
-### Return type: [Vector\_of\_int](/API_docs/types/int.html)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can bots use this method: **YES**
 
@@ -36,6 +36,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Vector_of_int = $MadelineProto->stories->deleteStories(peer: $InputPeer, id: [$int, $int], );
+$Bool = $MadelineProto->stories->togglePeerStoriesHidden(peer: $InputPeer, hidden: $Bool, );
 ```
 

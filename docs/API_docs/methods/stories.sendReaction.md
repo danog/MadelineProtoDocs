@@ -16,7 +16,7 @@ redirect_from: /API_docs/methods/stories_sendReaction.html
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |add\_to\_recent|[Bool](/API_docs/types/Bool.html) | Optional|
-|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 |story\_id|[int](/API_docs/types/int.html) | Yes|
 |reaction|[Reaction](/API_docs/types/Reaction.html) | Optional|
 
@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->stories->sendReaction(add_to_recent: $Bool, user_id: $InputUser, story_id: $int, reaction: $Reaction, );
+$Updates = $MadelineProto->stories->sendReaction(add_to_recent: $Bool, peer: $InputPeer, story_id: $int, reaction: $Reaction, );
 ```
 

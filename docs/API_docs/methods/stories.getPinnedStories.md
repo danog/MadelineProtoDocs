@@ -15,7 +15,7 @@ redirect_from: /API_docs/methods/stories_getPinnedStories.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 |offset\_id|[int](/API_docs/types/int.html) | Yes|
 |limit|[int](/API_docs/types/int.html) | Yes|
 
@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$stories_Stories = $MadelineProto->stories->getPinnedStories(user_id: $InputUser, offset_id: $int, limit: $int, );
+$stories_Stories = $MadelineProto->stories->getPinnedStories(peer: $InputPeer, offset_id: $int, limit: $int, );
 ```
 

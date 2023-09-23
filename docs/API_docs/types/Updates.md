@@ -224,11 +224,11 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->stories->editStory](/API_docs/methods/stories.editStory.html)  
 
-[$MadelineProto->stories->getAllReadUserStories](/API_docs/methods/stories.getAllReadUserStories.html)  
-
 [$MadelineProto->stories->activateStealthMode](/API_docs/methods/stories.activateStealthMode.html)  
 
 [$MadelineProto->stories->sendReaction](/API_docs/methods/stories.sendReaction.html)  
+
+[$MadelineProto->stories->getAllReadPeerStories](/API_docs/methods/stories.getAllReadPeerStories.html)  
 
 
 

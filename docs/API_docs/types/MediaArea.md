@@ -17,6 +17,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [mediaAreaGeoPoint](/API_docs/constructors/mediaAreaGeoPoint.html)  
 
+[mediaAreaSuggestedReaction](/API_docs/constructors/mediaAreaSuggestedReaction.html)  
+
 
 
 ### Methods that return an object of this type (methods):

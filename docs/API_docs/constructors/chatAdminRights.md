@@ -27,6 +27,9 @@ Represents the rights of an admin in a [channel/supergroup](https://core.telegra
 |manage\_call|[Bool](/API_docs/types/Bool.html) | Optional|If set, allows the admin to change group call/livestream settings|
 |other|[Bool](/API_docs/types/Bool.html) | Optional|Set this flag if none of the other flags are set, but you still want the user to be an admin: if this or any of the other flags are set, the admin can get the chat [admin log](https://core.telegram.org/api/recent-actions), get [chat statistics](https://core.telegram.org/api/stats), get [message statistics in channels](https://core.telegram.org/api/stats), get channel members, see anonymous administrators in supergroups and ignore slow mode.|
 |manage\_topics|[Bool](/API_docs/types/Bool.html) | Optional|If set, allows the admin to create, delete or modify [forum topics »](https://core.telegram.org/api/forum#forum-topics).|
+|post\_stories|[Bool](/API_docs/types/Bool.html) | Optional|
+|edit\_stories|[Bool](/API_docs/types/Bool.html) | Optional|
+|delete\_stories|[Bool](/API_docs/types/Bool.html) | Optional|
 
 
 
@@ -36,5 +39,5 @@ Represents the rights of an admin in a [channel/supergroup](https://core.telegra
 ### Example:
 
 ```
-$chatAdminRights = ['_' => 'chatAdminRights', 'change_info' => Bool, 'post_messages' => Bool, 'edit_messages' => Bool, 'delete_messages' => Bool, 'ban_users' => Bool, 'invite_users' => Bool, 'pin_messages' => Bool, 'add_admins' => Bool, 'anonymous' => Bool, 'manage_call' => Bool, 'other' => Bool, 'manage_topics' => Bool];
+$chatAdminRights = ['_' => 'chatAdminRights', 'change_info' => Bool, 'post_messages' => Bool, 'edit_messages' => Bool, 'delete_messages' => Bool, 'ban_users' => Bool, 'invite_users' => Bool, 'pin_messages' => Bool, 'add_admins' => Bool, 'anonymous' => Bool, 'manage_call' => Bool, 'other' => Bool, 'manage_topics' => Bool, 'post_stories' => Bool, 'edit_stories' => Bool, 'delete_stories' => Bool];
 ```  

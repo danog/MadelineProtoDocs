@@ -16,6 +16,7 @@ redirect_from: /API_docs/constructors/stories_stories.html
 |----------|---------------|----------|
 |count|[int](/API_docs/types/int.html) | Yes|
 |stories|Array of [StoryItem](/API_docs/types/StoryItem.html) | Yes|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
 |users|Array of [User](/API_docs/types/User.html) | Yes|
 
 
@@ -26,5 +27,5 @@ redirect_from: /API_docs/constructors/stories_stories.html
 ### Example:
 
 ```
-$stories_stories = ['_' => 'stories.stories', 'count' => int, 'stories' => [StoryItem, StoryItem], 'users' => [User, User]];
+$stories_stories = ['_' => 'stories.stories', 'count' => int, 'stories' => [StoryItem, StoryItem], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

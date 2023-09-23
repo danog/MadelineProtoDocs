@@ -1,12 +1,12 @@
 ---
-title: "contacts.toggleStoriesHidden"
-description: "contacts.toggleStoriesHidden parameters, return type and example"
+title: "stories.applyBoost"
+description: "stories.applyBoost parameters, return type and example"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
-redirect_from: /API_docs/methods/contacts_toggleStoriesHidden.html
+redirect_from: /API_docs/methods/stories_applyBoost.html
 ---
-# Method: contacts.toggleStoriesHidden
+# Method: stories.applyBoost
 [Back to methods index](index.html)
 
 
@@ -15,8 +15,7 @@ redirect_from: /API_docs/methods/contacts_toggleStoriesHidden.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
-|hidden|[Bool](/API_docs/types/Bool.html) | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
@@ -36,6 +35,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->contacts->toggleStoriesHidden(id: $InputUser, hidden: $Bool, );
+$Bool = $MadelineProto->stories->applyBoost(peer: $InputPeer, );
 ```
 

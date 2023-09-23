@@ -17,7 +17,8 @@ redirect_from: /API_docs/constructors/stories_allStories.html
 |has\_more|[Bool](/API_docs/types/Bool.html) | Optional|
 |count|[int](/API_docs/types/int.html) | Yes|
 |state|[string](/API_docs/types/string.html) | Yes|
-|user\_stories|Array of [UserStories](/API_docs/types/UserStories.html) | Yes|
+|peer\_stories|Array of [PeerStories](/API_docs/types/PeerStories.html) | Yes|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
 |users|Array of [User](/API_docs/types/User.html) | Yes|
 |stealth\_mode|[StoriesStealthMode](/API_docs/types/StoriesStealthMode.html) | Yes|
 
@@ -29,5 +30,5 @@ redirect_from: /API_docs/constructors/stories_allStories.html
 ### Example:
 
 ```
-$stories_allStories = ['_' => 'stories.allStories', 'has_more' => Bool, 'count' => int, 'state' => 'string', 'user_stories' => [UserStories, UserStories], 'users' => [User, User], 'stealth_mode' => StoriesStealthMode];
+$stories_allStories = ['_' => 'stories.allStories', 'has_more' => Bool, 'count' => int, 'state' => 'string', 'peer_stories' => [PeerStories, PeerStories], 'chats' => [Chat, Chat], 'users' => [User, User], 'stealth_mode' => StoriesStealthMode];
 ```  

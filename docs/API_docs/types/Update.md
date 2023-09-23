@@ -27,6 +27,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateUserName](/API_docs/constructors/updateUserName.html)  
 
+[updateNewAuthorization](/API_docs/constructors/updateNewAuthorization.html)  
+
 [updateNewEncryptedMessage](/API_docs/constructors/updateNewEncryptedMessage.html)  
 
 [updateEncryptedChatTyping](/API_docs/constructors/updateEncryptedChatTyping.html)  

@@ -13,7 +13,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|peer|[Peer](/API_docs/types/Peer.html) | Yes|
 |max\_id|[int](/API_docs/types/int.html) | Yes|
 
 
@@ -24,5 +24,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$updateReadStories = ['_' => 'updateReadStories', 'user_id' => long, 'max_id' => int];
+$updateReadStories = ['_' => 'updateReadStories', 'peer' => Peer, 'max_id' => int];
 ```  

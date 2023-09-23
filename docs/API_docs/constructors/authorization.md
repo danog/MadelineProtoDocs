@@ -20,6 +20,7 @@ Logged-in session
 |password\_pending|[Bool](/API_docs/types/Bool.html) | Optional|Whether the session is still waiting for a 2FA password|
 |encrypted\_requests\_disabled|[Bool](/API_docs/types/Bool.html) | Optional|Whether this session will accept encrypted chats|
 |call\_requests\_disabled|[Bool](/API_docs/types/Bool.html) | Optional|Whether this session will accept phone calls|
+|unconfirmed|[Bool](/API_docs/types/Bool.html) | Optional|
 |hash|[long](/API_docs/types/long.html) | Yes|Identifier|
 |device\_model|[string](/API_docs/types/string.html) | Yes|Device model|
 |platform|[string](/API_docs/types/string.html) | Yes|Platform|
@@ -41,5 +42,5 @@ Logged-in session
 ### Example:
 
 ```
-$authorization = ['_' => 'authorization', 'current' => Bool, 'official_app' => Bool, 'password_pending' => Bool, 'encrypted_requests_disabled' => Bool, 'call_requests_disabled' => Bool, 'hash' => long, 'device_model' => 'string', 'platform' => 'string', 'system_version' => 'string', 'api_id' => int, 'app_name' => 'string', 'app_version' => 'string', 'date_created' => int, 'date_active' => int, 'ip' => 'string', 'country' => 'string', 'region' => 'string'];
+$authorization = ['_' => 'authorization', 'current' => Bool, 'official_app' => Bool, 'password_pending' => Bool, 'encrypted_requests_disabled' => Bool, 'call_requests_disabled' => Bool, 'unconfirmed' => Bool, 'hash' => long, 'device_model' => 'string', 'platform' => 'string', 'system_version' => 'string', 'api_id' => int, 'app_name' => 'string', 'app_version' => 'string', 'date_created' => int, 'date_active' => int, 'ip' => 'string', 'country' => 'string', 'region' => 'string'];
 ```  

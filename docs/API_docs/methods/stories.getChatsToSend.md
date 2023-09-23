@@ -1,24 +1,19 @@
 ---
-title: "users.getStoriesMaxIDs"
-description: "users.getStoriesMaxIDs parameters, return type and example"
+title: "stories.getChatsToSend"
+description: "stories.getChatsToSend parameters, return type and example"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
-redirect_from: /API_docs/methods/users_getStoriesMaxIDs.html
+redirect_from: /API_docs/methods/stories_getChatsToSend.html
 ---
-# Method: users.getStoriesMaxIDs
+# Method: stories.getChatsToSend
 [Back to methods index](index.html)
 
 
 
-### Parameters:
-
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|Array of [Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Yes|
 
 
-### Return type: [Vector\_of\_int](/API_docs/types/int.html)
+### Return type: [messages.Chats](/API_docs/types/messages.Chats.html)
 
 ### Can bots use this method: **YES**
 
@@ -35,6 +30,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Vector_of_int = $MadelineProto->users->getStoriesMaxIDs(id: [$InputUser, $InputUser], );
+$messages_Chats = $MadelineProto->stories->getChatsToSend();
 ```
 
