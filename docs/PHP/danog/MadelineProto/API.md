@@ -19,12 +19,6 @@ Main API wrapper for MadelineProto.
 ## Constants
 * `danog\MadelineProto\API::RELEASE`: Release version.
 
-* `danog\MadelineProto\API::SECRET_EMPTY`: Secret chat was not found.
-
-* `danog\MadelineProto\API::SECRET_REQUESTED`: Secret chat was requested.
-
-* `danog\MadelineProto\API::SECRET_READY`: Secret chat was found.
-
 * `danog\MadelineProto\API::NOT_LOGGED_IN`: We're not logged in.
 
 * `danog\MadelineProto\API::WAITING_CODE`: We're waiting for the login code.
