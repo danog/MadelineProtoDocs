@@ -1,21 +1,24 @@
 ---
-title: "danog\\MadelineProto\\EventHandler\\Message\\Service\\DialogHistoryCleared: Chat history was cleared."
-description: ""
+title: "danog\\MadelineProto\\EventHandler\\Message\\Service\\DialogBotAllowed: We have given the bot permission to send us direct messages."
+description: "The optional fields specify how did we authorize the bot to send us messages."
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
 ---
-# `danog\MadelineProto\EventHandler\Message\Service\DialogHistoryCleared`
+# `danog\MadelineProto\EventHandler\Message\Service\DialogBotAllowed`
 [Back to index](../../../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Chat history was cleared.  
+We have given the bot permission to send us direct messages.  
 
-
+The optional fields specify how did we authorize the bot to send us messages.
 
 ## Properties
+* `$attachMenu`: `bool` We have authorized the bot to send us messages by installing the bot’s [attachment menu](https://core.telegram.org/api/bots/attach).
+* `$domain`: `string` We have authorized the bot to send us messages by logging into a website via [Telegram Login »](https://core.telegram.org/widgets/login); this field contains the domain name of the website on which the user has logged in.
+* `$app`: `?\BotApp` We have authorized the bot to send us messages by opening the specified [bot web app](https://core.telegram.org/api/bots/webapps).
 * `$id`: `int` Message ID
 * `$out`: `bool` Whether the message is outgoing
 * `$chatId`: `int` ID of the chat where the message was sent
@@ -30,7 +33,6 @@ Chat history was cleared.
 * `$ttlPeriod`: `?int` Time-to-live of the message
 
 ## Method list:
-* [`__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info)`](#__construct-danog-madelineproto-mtproto-api-array-rawmessage-array-info)
 * [`isReply(): bool`](#isreply-bool)
 * [`getReply(class-string<\T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?\T`](#getreply-class-string-t-class-danog-madelineproto-eventhandler-abstractmessage-t)
 * [`delete(bool $revoke = true): void`](#delete-bool-revoke-true-void)
@@ -46,24 +48,6 @@ Chat history was cleared.
 * [`disableAutoTranslate(): bool`](#disableautotranslate-bool)
 
 ## Methods:
-### `__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info)`
-
-
-
-
-Parameters:
-
-* `$API`: `\danog\MadelineProto\MTProto`   
-* `$rawMessage`: `array`   
-* `$info`: `array`   
-
-
-#### See also: 
-* `\danog\MadelineProto\MTProto`
-
-
-
-
 ### `isReply(): bool`
 
 Check if the current message replies to another message.

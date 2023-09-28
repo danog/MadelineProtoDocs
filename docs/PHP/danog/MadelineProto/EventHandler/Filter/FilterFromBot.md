@@ -24,7 +24,7 @@ Allow only messages coming from bots.
 ## Methods:
 ### `initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`
 
-Run some initialization logic, optionally returning a new filter to replace the current one.
+
 
 
 Parameters:

@@ -16,7 +16,7 @@ Represents a reaction to a story.
 
 
 ## Properties
-* `$userId`: `int` ID of the sender of the story
+* `$senderId`: `int` ID of the sender of the story
 * `$id`: `int` Story ID
 * `$reaction`: `string|int|null` 
 ---

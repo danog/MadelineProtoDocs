@@ -1,21 +1,23 @@
 ---
-title: "danog\\MadelineProto\\EventHandler\\Message\\Service\\DialogHistoryCleared: Chat history was cleared."
+title: "danog\\MadelineProto\\EventHandler\\Message\\Service\\DialogSetChatWallPaper: The [wallpaper](https://core.telegram.org/api/wallpapers) of the current chat was changed."
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
 ---
-# `danog\MadelineProto\EventHandler\Message\Service\DialogHistoryCleared`
+# `danog\MadelineProto\EventHandler\Message\Service\DialogSetChatWallPaper`
 [Back to index](../../../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Chat history was cleared.  
+The [wallpaper](https://core.telegram.org/api/wallpapers) of the current chat was changed.  
 
 
 
 ## Properties
+* `$wallpaper`: `\Wallpaper` New [wallpaper](https://core.telegram.org/api/wallpapers)
+* `$same`: `bool` Whether the user applied a wallpaper previously sent by the other user in a DialogSetChatWallPaper message.
 * `$id`: `int` Message ID
 * `$out`: `bool` Whether the message is outgoing
 * `$chatId`: `int` ID of the chat where the message was sent
@@ -30,7 +32,7 @@ Chat history was cleared.
 * `$ttlPeriod`: `?int` Time-to-live of the message
 
 ## Method list:
-* [`__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info)`](#__construct-danog-madelineproto-mtproto-api-array-rawmessage-array-info)
+* [`__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info, \danog\MadelineProto\EventHandler\Wallpaper $wallpaper, bool $same = false)`](#__construct-danog-madelineproto-mtproto-api-array-rawmessage-array-info-danog-madelineproto-eventhandler-wallpaper-wallpaper-bool-same-false)
 * [`isReply(): bool`](#isreply-bool)
 * [`getReply(class-string<\T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?\T`](#getreply-class-string-t-class-danog-madelineproto-eventhandler-abstractmessage-t)
 * [`delete(bool $revoke = true): void`](#delete-bool-revoke-true-void)
@@ -46,7 +48,7 @@ Chat history was cleared.
 * [`disableAutoTranslate(): bool`](#disableautotranslate-bool)
 
 ## Methods:
-### `__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info)`
+### `__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info, \danog\MadelineProto\EventHandler\Wallpaper $wallpaper, bool $same = false)`
 
 
 
@@ -56,10 +58,13 @@ Parameters:
 * `$API`: `\danog\MadelineProto\MTProto`   
 * `$rawMessage`: `array`   
 * `$info`: `array`   
+* `$wallpaper`: `\danog\MadelineProto\EventHandler\Wallpaper`   
+* `$same`: `bool`   
 
 
 #### See also: 
 * `\danog\MadelineProto\MTProto`
+* [`\danog\MadelineProto\EventHandler\Wallpaper`: Represents a [wallpaper](https://core.telegram.org/api/wallpapers).](../../../../../danog/MadelineProto/EventHandler/Wallpaper.html)
 
 
 

@@ -123,6 +123,9 @@ Here's the full list of all concrete types:
 * [danog\MadelineProto\EventHandler\Message\ServiceMessage &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/ServiceMessage.html) - Represents info about a service message.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/ServiceMessage.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/ServiceMessage.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogBotAllowed &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogBotAllowed.html) - We have given the bot permission to send us direct messages.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogBotAllowed.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogBotAllowed.html#method-list)
 * [danog\MadelineProto\EventHandler\Message\Service\DialogChannelCreated &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogChannelCreated.html) - The channel was created.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogChannelCreated.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogChannelCreated.html#method-list)
@@ -186,12 +189,15 @@ Here's the full list of all concrete types:
 * [danog\MadelineProto\EventHandler\Message\Service\DialogPhotoChanged &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogPhotoChanged.html) - The photo of the dialog was changed or deleted.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogPhotoChanged.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogPhotoChanged.html#method-list)
-* [danog\MadelineProto\EventHandler\Message\Service\DialogScreenshotTaken &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogScreenshotTaken.html) - A message was pinned in a chat.
+* [danog\MadelineProto\EventHandler\Message\Service\DialogScreenshotTaken &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogScreenshotTaken.html) - A screenshot of the chat was taken.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogScreenshotTaken.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogScreenshotTaken.html#method-list)
 * [danog\MadelineProto\EventHandler\Message\Service\DialogSetChatTheme &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogSetChatTheme.html) - The chat theme was changed.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogSetChatTheme.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogSetChatTheme.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogSetChatWallPaper &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogSetChatWallPaper.html) - The [wallpaper](https://core.telegram.org/api/wallpapers) of the current chat was changed.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogSetChatWallPaper.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogSetChatWallPaper.html#method-list)
 * [danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogSetTTL.html) - The Time-To-Live of messages in this chat was changed.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogSetTTL.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogSetTTL.html#method-list)
@@ -243,6 +249,9 @@ Here's the full list of all concrete types:
 * [danog\MadelineProto\EventHandler\Typing &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Typing.html) - A user is typing.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Typing.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Typing.html#method-list)
+* [danog\MadelineProto\EventHandler\Typing\ChatUserTyping &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Typing/ChatUserTyping.html) - The user is preparing a message in a group; typing, recording, uploading, etc. This update is valid for 6 seconds. If no further updates of this kind are received after 6 seconds, it should be considered that the user stopped doing whatever they were doing.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Typing/ChatUserTyping.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Typing/ChatUserTyping.html#method-list)
 * [danog\MadelineProto\EventHandler\Typing\SupergroupUserTyping &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Typing/SupergroupUserTyping.html) - A user is typing in a [supergroup](https://core.telegram.org/api/channel).
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Typing/SupergroupUserTyping.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Typing/SupergroupUserTyping.html#method-list)
@@ -311,7 +320,9 @@ Here's the full list of simple filter interfaces (see [attribute filters](#attri
 * [danog\MadelineProto\EventHandler\SimpleFilter\HasVideo &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasVideo.html) - Allows only videos
 * [danog\MadelineProto\EventHandler\SimpleFilter\HasVoice &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasVoice.html) - Allows only voice messages
 * [danog\MadelineProto\EventHandler\SimpleFilter\Incoming &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/Incoming.html) - Represents an incoming message
+* [danog\MadelineProto\EventHandler\SimpleFilter\IsEdited &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/IsEdited.html) - Allows messages that were edited.
 * [danog\MadelineProto\EventHandler\SimpleFilter\IsForwarded &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/IsForwarded.html) - Allows only forwarded messages
+* [danog\MadelineProto\EventHandler\SimpleFilter\IsNotEdited &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/IsNotEdited.html) - Allows messages that weren't edited.
 * [danog\MadelineProto\EventHandler\SimpleFilter\IsReply &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/IsReply.html) - Allows only messages that reply to other messages
 * [danog\MadelineProto\EventHandler\SimpleFilter\IsReplyToSelf &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/IsReplyToSelf.html) - Allows only messages that reply to one of our messages
 * [danog\MadelineProto\EventHandler\SimpleFilter\Outgoing &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/Outgoing.html) - Represents an outgoing message
@@ -392,6 +403,7 @@ Here's the full list of filter attributes (see the [MTProto filters &raquo;](#mt
 * [danog\MadelineProto\EventHandler\Filter\FilterButtonQueryData(string $content) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterButtonQueryData.html) - Filters based on the content of a button query.
 * [danog\MadelineProto\EventHandler\Filter\FilterChannel &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterChannel.html) - Allow only updates coming from channels.
 * [danog\MadelineProto\EventHandler\Filter\FilterCommand(string $command, list<\CommandType> $types = [  0 =>   \danog\MadelineProto\EventHandler\CommandType::BANG,  1 =>   \danog\MadelineProto\EventHandler\CommandType::DOT,  2 =>   \danog\MadelineProto\EventHandler\CommandType::SLASH,]) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterCommand.html) - Allow only messages containing the specified command.
+* [danog\MadelineProto\EventHandler\Filter\FilterEdited &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterEdited.html) - Allows messages that were edited.
 * [danog\MadelineProto\EventHandler\Filter\FilterEnded &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterEnded.html) - Allow only ended calls.
 * [danog\MadelineProto\EventHandler\Filter\FilterForwarded &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterForwarded.html) - Allow only forwarded messages.
 * [danog\MadelineProto\EventHandler\Filter\FilterFromAdmin &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterFromAdmin.html) - Allow only messages coming from the admin (defined as the peers returned by getReportPeers).
@@ -403,6 +415,7 @@ Here's the full list of filter attributes (see the [MTProto filters &raquo;](#mt
 * [danog\MadelineProto\EventHandler\Filter\FilterMedia &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterMedia.html) - Allow any media messages.
 * [danog\MadelineProto\EventHandler\Filter\FilterMessage &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterMessage.html) - Allow any non-service message.
 * [danog\MadelineProto\EventHandler\Filter\FilterNoMedia &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterNoMedia.html) - Allow any messages except media messages.
+* [danog\MadelineProto\EventHandler\Filter\FilterNotEdited &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterNotEdited.html) - Allows messages that weren't edited.
 * [danog\MadelineProto\EventHandler\Filter\FilterOutgoing &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterOutgoing.html) - Allow only outgoing messages.
 * [danog\MadelineProto\EventHandler\Filter\FilterPeer(string|int $peer) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterPeer.html) - Allow messages coming from or sent to a certain peer.
 * [danog\MadelineProto\EventHandler\Filter\FilterPrivate &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterPrivate.html) - Allow only updates coming from private chats.
@@ -483,10 +496,18 @@ This function is useful to perform expensive one-time initialization tasks, to a
 namespace danog\MadelineProto\EventHandler\Filter;
 
 use danog\MadelineProto\EventHandler;
+use danog\MadelineProto\EventHandler\AbstractStory;
 use danog\MadelineProto\EventHandler\InlineQuery;
 use danog\MadelineProto\EventHandler\Message\GroupMessage;
 use danog\MadelineProto\EventHandler\Query\ButtonQuery;
+use danog\MadelineProto\EventHandler\Story\StoryReaction;
+use danog\MadelineProto\EventHandler\Typing;
 use danog\MadelineProto\EventHandler\Update;
+use danog\MadelineProto\EventHandler\User\Blocked;
+use danog\MadelineProto\EventHandler\User\BotStopped;
+use danog\MadelineProto\EventHandler\User\Phone;
+use danog\MadelineProto\EventHandler\User\Status;
+use danog\MadelineProto\EventHandler\User\Username;
 
 /**
  * Allow incoming or outgoing group messages made by a certain list of senders.
@@ -519,8 +540,16 @@ abstract class AbstractFilterFromSenders extends Filter
     public function apply(Update $update): bool
     {
         return $update instanceof GroupMessage && \in_array($update->senderId, $this->peersResolved, true) ||
+            ($update instanceof AbstractStory && \in_array($update->senderId, $this->peersResolved, true)) ||
+            ($update instanceof StoryReaction && \in_array($update->senderId, $this->peersResolved, true)) ||
             ($update instanceof ButtonQuery && \in_array($update->userId, $this->peersResolved, true)) ||
-            ($update instanceof InlineQuery && \in_array($update->userId, $this->peersResolved, true));
+            ($update instanceof InlineQuery && \in_array($update->userId, $this->peersResolved, true)) ||
+            ($update instanceof Typing && \in_array($update->userId, $this->peersResolved, true)) ||
+            ($update instanceof Blocked && \in_array($update->userId, $this->peersResolved, true)) ||
+            ($update instanceof BotStopped && \in_array($update->userId, $this->peersResolved, true)) ||
+            ($update instanceof Phone && \in_array($update->userId, $this->peersResolved, true)) ||
+            ($update instanceof Status && \in_array($update->userId, $this->peersResolved, true)) ||
+            ($update instanceof Username && \in_array($update->userId, $this->peersResolved, true));
     }
 }
 

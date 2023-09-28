@@ -33,6 +33,7 @@ Represents a Telegram story.
 * `$reactionCount`: `?int` Reaction counter
 * `$views`: `?int` View counter
 * `$recentViewers`: `list<int>` List of users who recently viewed the story
+* `$matches`: `list<string>` Regex matches, if a filter regex is present
 * `$senderId`: `int` ID of the sender of the story
 * `$id`: `int` Story ID
 

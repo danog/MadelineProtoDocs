@@ -39,8 +39,10 @@ Represents an incoming or outgoing message.
 * [`getStories(): list<\danog\MadelineProto\EventHandler\AbstractStory>`](#getstories-list-danog-madelineproto-eventhandler-abstractstory)
 * [`setAction(\danog\MadelineProto\EventHandler\Action $action = \danog\MadelineProto\EventHandler\Action\Typing::__set_state(array(]]): bool`](#setaction-danog-madelineproto-eventhandler-action-action-danog-madelineproto-eventhandler-action-typing-__set_state-array-bool)
 * [`read(bool $readAll = false): \bool if set, read all messages in current chat.`](#read-bool-readall-false-bool-if-set-read-all-messages-in-current-chat)
-* [`enableTTL(int $seconds = 86400): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`](#enablettl-int-seconds-86400-danog-madelineproto-eventhandler-message-service-dialogsetttl)
+* [`enableTTL(int<\1, \max> $seconds = 86400): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`](#enablettl-int-1-max-seconds-86400-danog-madelineproto-eventhandler-message-service-dialogsetttl)
 * [`disableTTL(): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`](#disablettl-danog-madelineproto-eventhandler-message-service-dialogsetttl)
+* [`enableAutoTranslate(): bool`](#enableautotranslate-bool)
+* [`disableAutoTranslate(): bool`](#disableautotranslate-bool)
 
 ## Methods:
 ### `isReply(): bool`
@@ -156,17 +158,18 @@ Parameters:
 Return value: if set, read all messages in current chat.
 
 
-### `enableTTL(int $seconds = 86400): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`
+### `enableTTL(int<\1, \max> $seconds = 86400): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`
 
 Set maximum Time-To-Live of all messages in the specified chat.
 
 
 Parameters:
 
-* `$seconds`: `int` Automatically delete all messages sent in the chat after this many seconds  
+* `$seconds`: `int<\1, \max>` Automatically delete all messages sent in the chat after this many seconds  
 
 
 #### See also: 
+* `\max`
 * [`\danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`: The Time-To-Live of messages in this chat was changed.](../../../danog/MadelineProto/EventHandler/Message/Service/DialogSetTTL.html)
 
 
@@ -180,6 +183,18 @@ Disable Time-To-Live of all messages in the specified chat.
 #### See also: 
 * [`\danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`: The Time-To-Live of messages in this chat was changed.](../../../danog/MadelineProto/EventHandler/Message/Service/DialogSetTTL.html)
 
+
+
+
+### `enableAutoTranslate(): bool`
+
+Show the [real-time chat translation popup](https://core.telegram.org/api/translation) for a certain chat.
+
+
+
+### `disableAutoTranslate(): bool`
+
+Hide the [real-time chat translation popup](https://core.telegram.org/api/translation) for a certain chat.
 
 
 

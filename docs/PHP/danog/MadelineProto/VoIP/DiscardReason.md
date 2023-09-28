@@ -27,14 +27,39 @@ Why was the call discarded?
 
 ## Properties
 * `$name`: `string` 
+* `$value`: `string` 
 
 ## Method list:
 * [`cases(): array`](#cases-array)
+* [`from(string|int $value): static`](#from-string-int-value-static)
+* [`tryFrom(string|int $value): ?static`](#tryfrom-string-int-value-static)
 
 ## Methods:
 ### `cases(): array`
 
 
+
+
+
+### `from(string|int $value): static`
+
+
+
+
+Parameters:
+
+* `$value`: `string|int`   
+
+
+
+### `tryFrom(string|int $value): ?static`
+
+
+
+
+Parameters:
+
+* `$value`: `string|int`   
 
 
 

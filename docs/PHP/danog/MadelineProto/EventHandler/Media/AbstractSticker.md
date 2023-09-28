@@ -36,8 +36,8 @@ Represents a generic sticker.
 ## Method list:
 * [`getDownloadLink(string|null $scriptUrl = NULL): string`](#getdownloadlink-string-null-scripturl-null-string)
 * [`getStream(callable|null $cb = NULL, int $offset = 0, int $end = -1): \Amp\ByteStream\ReadableStream`](#getstream-callable-null-cb-null-int-offset-0-int-end-1-amp-bytestream-readablestream)
-* [`downloadToDir(?string $path = NULL): string`](#downloadtodir-string-path-null-string)
-* [`downloadToFile(string $path): string`](#downloadtofile-string-path-string)
+* [`downloadToDir(string $dir = NULL, callable|null $cb = NULL): string`](#downloadtodir-string-dir-null-callable-null-cb-null-string)
+* [`downloadToFile(string $file, callable|null $cb = NULL): string`](#downloadtofile-string-file-callable-null-cb-null-string)
 
 ## Methods:
 ### `getDownloadLink(string|null $scriptUrl = NULL): string`
@@ -69,25 +69,27 @@ Parameters:
 
 
 
-### `downloadToDir(?string $path = NULL): string`
+### `downloadToDir(string $dir = NULL, callable|null $cb = NULL): string`
 
 Download the media to working directory or passed path.
 
 
 Parameters:
 
-* `$path`: `?string`   
+* `$dir`: `string` Directory where to download the file  
+* `$cb`: `callable|null` Progress callback  
 
 
 
-### `downloadToFile(string $path): string`
+### `downloadToFile(string $file, callable|null $cb = NULL): string`
 
 Download the media to file.
 
 
 Parameters:
 
-* `$path`: `string`   
+* `$file`: `string` Downloaded file path  
+* `$cb`: `callable|null` Progress callback  
 
 
 

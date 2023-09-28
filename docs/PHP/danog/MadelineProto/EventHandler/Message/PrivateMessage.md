@@ -61,6 +61,7 @@ Represents an incoming or outgoing private message.
 * [`delReaction(string|int $reaction): list<string|int>`](#delreaction-string-int-reaction-list-string-int)
 * [`translate(string $toLang): string`](#translate-string-tolang-string)
 * [`editText(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false): \danog\MadelineProto\EventHandler\Message`](#edittext-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-array-null-replymarkup-null-int-null-scheduledate-null-bool-nowebpage-false-danog-madelineproto-eventhandler-message)
+* [`replyOrEdit(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false): \danog\MadelineProto\EventHandler\Message`](#replyoredit-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-array-null-replymarkup-null-int-null-scheduledate-null-bool-nowebpage-false-danog-madelineproto-eventhandler-message)
 * [`getHTML(bool $allowTelegramTags = false): string`](#gethtml-bool-allowtelegramtags-false-string)
 * [`isReply(): bool`](#isreply-bool)
 * [`getReply(class-string<\T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?\T`](#getreply-class-string-t-class-danog-madelineproto-eventhandler-abstractmessage-t)
@@ -71,8 +72,10 @@ Represents an incoming or outgoing private message.
 * [`getStories(): list<\danog\MadelineProto\EventHandler\AbstractStory>`](#getstories-list-danog-madelineproto-eventhandler-abstractstory)
 * [`setAction(\danog\MadelineProto\EventHandler\Action $action = \danog\MadelineProto\EventHandler\Action\Typing::__set_state(array(]]): bool`](#setaction-danog-madelineproto-eventhandler-action-action-danog-madelineproto-eventhandler-action-typing-__set_state-array-bool)
 * [`read(bool $readAll = false): \bool if set, read all messages in current chat.`](#read-bool-readall-false-bool-if-set-read-all-messages-in-current-chat)
-* [`enableTTL(int $seconds = 86400): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`](#enablettl-int-seconds-86400-danog-madelineproto-eventhandler-message-service-dialogsetttl)
+* [`enableTTL(int<\1, \max> $seconds = 86400): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`](#enablettl-int-1-max-seconds-86400-danog-madelineproto-eventhandler-message-service-dialogsetttl)
 * [`disableTTL(): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`](#disablettl-danog-madelineproto-eventhandler-message-service-dialogsetttl)
+* [`enableAutoTranslate(): bool`](#enableautotranslate-bool)
+* [`disableAutoTranslate(): bool`](#disableautotranslate-bool)
 
 ## Methods:
 ### `screenShot(): \danog\MadelineProto\EventHandler\Message\Service\DialogScreenshotTaken`
@@ -81,7 +84,7 @@ Notify the other user in a private chat that a screenshot of the chat was taken.
 
 
 #### See also: 
-* [`\danog\MadelineProto\EventHandler\Message\Service\DialogScreenshotTaken`: A message was pinned in a chat.](../../../../danog/MadelineProto/EventHandler/Message/Service/DialogScreenshotTaken.html)
+* [`\danog\MadelineProto\EventHandler\Message\Service\DialogScreenshotTaken`: A screenshot of the chat was taken.](../../../../danog/MadelineProto/EventHandler/Message/Service/DialogScreenshotTaken.html)
 
 
 
@@ -224,6 +227,26 @@ Parameters:
 
 
 
+### `replyOrEdit(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false): \danog\MadelineProto\EventHandler\Message`
+
+If the message is outgoing, will edit the message's text, otherwise will reply to the message.
+
+
+Parameters:
+
+* `$message`: `string` New message  
+* `$parseMode`: `\danog\MadelineProto\ParseMode` Whether to parse HTML or Markdown markup in the message  
+* `$replyMarkup`: `array|null` Reply markup for inline keyboards  
+* `$scheduleDate`: `int|null` Scheduled message date for scheduled messages  
+* `$noWebpage`: `bool` Disable webpage preview  
+
+
+#### See also: 
+* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../danog/MadelineProto/ParseMode.html)
+
+
+
+
 ### `getHTML(bool $allowTelegramTags = false): string`
 
 Get an HTML version of the message.
@@ -348,17 +371,18 @@ Parameters:
 Return value: if set, read all messages in current chat.
 
 
-### `enableTTL(int $seconds = 86400): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`
+### `enableTTL(int<\1, \max> $seconds = 86400): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`
 
 Set maximum Time-To-Live of all messages in the specified chat.
 
 
 Parameters:
 
-* `$seconds`: `int` Automatically delete all messages sent in the chat after this many seconds  
+* `$seconds`: `int<\1, \max>` Automatically delete all messages sent in the chat after this many seconds  
 
 
 #### See also: 
+* `\max`
 * [`\danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`: The Time-To-Live of messages in this chat was changed.](../../../../danog/MadelineProto/EventHandler/Message/Service/DialogSetTTL.html)
 
 
@@ -372,6 +396,18 @@ Disable Time-To-Live of all messages in the specified chat.
 #### See also: 
 * [`\danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`: The Time-To-Live of messages in this chat was changed.](../../../../danog/MadelineProto/EventHandler/Message/Service/DialogSetTTL.html)
 
+
+
+
+### `enableAutoTranslate(): bool`
+
+Show the [real-time chat translation popup](https://core.telegram.org/api/translation) for a certain chat.
+
+
+
+### `disableAutoTranslate(): bool`
+
+Hide the [real-time chat translation popup](https://core.telegram.org/api/translation) for a certain chat.
 
 
 

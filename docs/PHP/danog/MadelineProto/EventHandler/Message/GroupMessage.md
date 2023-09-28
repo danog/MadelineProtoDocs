@@ -69,6 +69,12 @@ Represents an incoming or outgoing group message.
 * [`openTopic(int|null $topicId = NULL): \danog\MadelineProto\EventHandler\Message\Service\DialogTopicEdited`](#opentopic-int-null-topicid-null-danog-madelineproto-eventhandler-message-service-dialogtopicedited)
 * [`closeTopic(int|null $topicId = NULL): \danog\MadelineProto\EventHandler\Message\Service\DialogTopicEdited`](#closetopic-int-null-topicid-null-danog-madelineproto-eventhandler-message-service-dialogtopicedited)
 * [`deleteTopic(int|null $topicId = NULL): void`](#deletetopic-int-null-topicid-null-void)
+* [`enableSlowMode(int $seconds): void`](#enableslowmode-int-seconds-void)
+* [`disableSlowMode(): void`](#disableslowmode-void)
+* [`enableProtection(): void`](#enableprotection-void)
+* [`disableProtection(): void`](#disableprotection-void)
+* [`enableJoinToComment(): void`](#enablejointocomment-void)
+* [`disableJoinToComment(): void`](#disablejointocomment-void)
 * [`pin(bool $pmOneside = false, bool $silent = false): void`](#pin-bool-pmoneside-false-bool-silent-false-void)
 * [`unpin(bool $pmOneside = false, bool $silent = false): ?\danog\MadelineProto\EventHandler\Update`](#unpin-bool-pmoneside-false-bool-silent-false-danog-madelineproto-eventhandler-update)
 * [`getOurReactions(): list<string|int>`](#getourreactions-list-string-int)
@@ -80,6 +86,7 @@ Represents an incoming or outgoing group message.
 * [`delReaction(string|int $reaction): list<string|int>`](#delreaction-string-int-reaction-list-string-int)
 * [`translate(string $toLang): string`](#translate-string-tolang-string)
 * [`editText(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false): \danog\MadelineProto\EventHandler\Message`](#edittext-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-array-null-replymarkup-null-int-null-scheduledate-null-bool-nowebpage-false-danog-madelineproto-eventhandler-message)
+* [`replyOrEdit(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false): \danog\MadelineProto\EventHandler\Message`](#replyoredit-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-array-null-replymarkup-null-int-null-scheduledate-null-bool-nowebpage-false-danog-madelineproto-eventhandler-message)
 * [`getHTML(bool $allowTelegramTags = false): string`](#gethtml-bool-allowtelegramtags-false-string)
 * [`isReply(): bool`](#isreply-bool)
 * [`getReply(class-string<\T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?\T`](#getreply-class-string-t-class-danog-madelineproto-eventhandler-abstractmessage-t)
@@ -90,8 +97,10 @@ Represents an incoming or outgoing group message.
 * [`getStories(): list<\danog\MadelineProto\EventHandler\AbstractStory>`](#getstories-list-danog-madelineproto-eventhandler-abstractstory)
 * [`setAction(\danog\MadelineProto\EventHandler\Action $action = \danog\MadelineProto\EventHandler\Action\Typing::__set_state(array(]]): bool`](#setaction-danog-madelineproto-eventhandler-action-action-danog-madelineproto-eventhandler-action-typing-__set_state-array-bool)
 * [`read(bool $readAll = false): \bool if set, read all messages in current chat.`](#read-bool-readall-false-bool-if-set-read-all-messages-in-current-chat)
-* [`enableTTL(int $seconds = 86400): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`](#enablettl-int-seconds-86400-danog-madelineproto-eventhandler-message-service-dialogsetttl)
+* [`enableTTL(int<\1, \max> $seconds = 86400): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`](#enablettl-int-1-max-seconds-86400-danog-madelineproto-eventhandler-message-service-dialogsetttl)
 * [`disableTTL(): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`](#disablettl-danog-madelineproto-eventhandler-message-service-dialogsetttl)
+* [`enableAutoTranslate(): bool`](#enableautotranslate-bool)
+* [`disableAutoTranslate(): bool`](#disableautotranslate-bool)
 
 ## Methods:
 ### `getMember(string|int|null $member = NULL): \danog\MadelineProto\EventHandler\Participant`
@@ -298,6 +307,47 @@ Parameters:
 
 
 
+### `enableSlowMode(int $seconds): void`
+
+Toggle supergroup slow mode: Users will only be able to send one message every `$seconds` seconds.
+
+
+Parameters:
+
+* `$seconds`: `int` Users will only be able to send one message every `$seconds` seconds  
+
+
+
+### `disableSlowMode(): void`
+
+Disable supergroup slow mode.
+
+
+
+### `enableProtection(): void`
+
+Enable or disable [content protection](https://telegram.org/blog/protected-content-delete-by-date-and-more) on a chat.
+
+
+
+### `disableProtection(): void`
+
+Enable or disable [content protection](https://telegram.org/blog/protected-content-delete-by-date-and-more) on a chat.
+
+
+
+### `enableJoinToComment(): void`
+
+Enable to all users [should join a discussion group in order to comment on a post »](https://core.telegram.org/api/discussion#requiring-users-to-join-the-group).
+
+
+
+### `disableJoinToComment(): void`
+
+Disable to all users [should join a discussion group in order to comment on a post »](https://core.telegram.org/api/discussion#requiring-users-to-join-the-group).
+
+
+
 ### `pin(bool $pmOneside = false, bool $silent = false): void`
 
 Pin a message.
@@ -419,6 +469,26 @@ Parameters:
 ### `editText(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false): \danog\MadelineProto\EventHandler\Message`
 
 Edit message text.
+
+
+Parameters:
+
+* `$message`: `string` New message  
+* `$parseMode`: `\danog\MadelineProto\ParseMode` Whether to parse HTML or Markdown markup in the message  
+* `$replyMarkup`: `array|null` Reply markup for inline keyboards  
+* `$scheduleDate`: `int|null` Scheduled message date for scheduled messages  
+* `$noWebpage`: `bool` Disable webpage preview  
+
+
+#### See also: 
+* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../danog/MadelineProto/ParseMode.html)
+
+
+
+
+### `replyOrEdit(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false): \danog\MadelineProto\EventHandler\Message`
+
+If the message is outgoing, will edit the message's text, otherwise will reply to the message.
 
 
 Parameters:
@@ -560,17 +630,18 @@ Parameters:
 Return value: if set, read all messages in current chat.
 
 
-### `enableTTL(int $seconds = 86400): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`
+### `enableTTL(int<\1, \max> $seconds = 86400): \danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`
 
 Set maximum Time-To-Live of all messages in the specified chat.
 
 
 Parameters:
 
-* `$seconds`: `int` Automatically delete all messages sent in the chat after this many seconds  
+* `$seconds`: `int<\1, \max>` Automatically delete all messages sent in the chat after this many seconds  
 
 
 #### See also: 
+* `\max`
 * [`\danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`: The Time-To-Live of messages in this chat was changed.](../../../../danog/MadelineProto/EventHandler/Message/Service/DialogSetTTL.html)
 
 
@@ -584,6 +655,18 @@ Disable Time-To-Live of all messages in the specified chat.
 #### See also: 
 * [`\danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`: The Time-To-Live of messages in this chat was changed.](../../../../danog/MadelineProto/EventHandler/Message/Service/DialogSetTTL.html)
 
+
+
+
+### `enableAutoTranslate(): bool`
+
+Show the [real-time chat translation popup](https://core.telegram.org/api/translation) for a certain chat.
+
+
+
+### `disableAutoTranslate(): bool`
+
+Hide the [real-time chat translation popup](https://core.telegram.org/api/translation) for a certain chat.
 
 
 
