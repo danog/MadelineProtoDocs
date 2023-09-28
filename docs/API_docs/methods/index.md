@@ -708,6 +708,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getMessageReadParticipants.html" name="messages.getMessageReadParticipants">Get which users read a specific message: only available for groups and supergroups with less than chatreadmarksizethreshold members, read receipts will be stored for chatreadmarkexpireperiod seconds after the message was sent, see client configuration for more info »: messages.getMessageReadParticipants</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getsecretmessage-int-chatid-int-randomid-array" name="getSecretMessage">Gets a secret chat message: getSecretMessage</a>
+
 * <a href="account.getNotifySettings.html" name="account.getNotifySettings">Gets current notification settings for a given user/group, from all users/all groups: account.getNotifySettings</a>
 
 * <a href="messages.getFeaturedEmojiStickers.html" name="messages.getFeaturedEmojiStickers">Gets featured custom emoji stickersets: messages.getFeaturedEmojiStickers</a>

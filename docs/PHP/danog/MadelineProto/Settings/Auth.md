@@ -22,7 +22,7 @@ Cryptography settings.
 * [`getPfs(): bool`](#getpfs-bool)
 * [`setPfs(bool $pfs): self`](#setpfs-bool-pfs-self)
 * [`getMaxAuthTries(): int`](#getmaxauthtries-int)
-* [`setMaxAuthTries(int $maxAuthTries): self`](#setmaxauthtries-int-maxauthtries-self)
+* [`setMaxAuthTries(int<\1, \max> $maxAuthTries): self`](#setmaxauthtries-int-1-max-maxauthtries-self)
 
 ## Methods:
 ### `getDefaultTempAuthKeyExpiresIn(): int`
@@ -65,14 +65,19 @@ Get max tries for generating auth key.
 
 
 
-### `setMaxAuthTries(int $maxAuthTries): self`
+### `setMaxAuthTries(int<\1, \max> $maxAuthTries): self`
 
 Set max tries for generating auth key.
 
 
 Parameters:
 
-* `$maxAuthTries`: `int` Max tries for generating auth key  
+* `$maxAuthTries`: `int<\1, \max>` Max tries for generating auth key  
+
+
+#### See also: 
+* `\max`
+
 
 
 

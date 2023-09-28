@@ -32,6 +32,8 @@ App information.
 * [`setAppVersion(string $appVersion): self`](#setappversion-string-appversion-self)
 * [`getLangCode(): string`](#getlangcode-string)
 * [`setLangCode(string $langCode): self`](#setlangcode-string-langcode-self)
+* [`getSystemLangCode(): string`](#getsystemlangcode-string)
+* [`setSystemLangCode(string $langCode): self`](#setsystemlangcode-string-langcode-self)
 * [`getLangPack(): string`](#getlangpack-string)
 * [`setLangPack(string $langPack): self`](#setlangpack-string-langpack-self)
 * [`getShowPrompt(): bool`](#getshowprompt-bool)
@@ -150,6 +152,23 @@ Get language code.
 ### `setLangCode(string $langCode): self`
 
 Set language code.
+
+
+Parameters:
+
+* `$langCode`: `string` Language code.  
+
+
+
+### `getSystemLangCode(): string`
+
+Get system language code.
+
+
+
+### `setSystemLangCode(string $langCode): self`
+
+Set system language code.
 
 
 Parameters:

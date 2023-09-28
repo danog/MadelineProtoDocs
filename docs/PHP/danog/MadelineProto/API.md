@@ -167,6 +167,7 @@ Main API wrapper for MadelineProto.
 * [`getPsrLogger(): \Psr\Log\LoggerInterface`](#getpsrlogger-psr-log-loggerinterface)
 * [`getPwrChat(mixed $id, bool $fullfetch = true): array`](#getpwrchat-mixed-id-bool-fullfetch-true-array)
 * [`getSecretChat(array|int $chat): \danog\MadelineProto\SecretChats\SecretChat`](#getsecretchat-array-int-chat-danog-madelineproto-secretchats-secretchat)
+* [`getSecretMessage(int $chatId, int $randomId): array`](#getsecretmessage-int-chatid-int-randomid-array)
 * [`getSelf(): array|false`](#getself-array-false)
 * [`getSessionName(): string`](#getsessionname-string)
 * [`getSettings(): \danog\MadelineProto\Settings`](#getsettings-danog-madelineproto-settings)
@@ -1475,6 +1476,18 @@ Parameters:
 #### See also: 
 * [`\danog\MadelineProto\SecretChats\SecretChat`: Represents a secret chat.](../../danog/MadelineProto/SecretChats/SecretChat.html)
 
+
+
+
+### `getSecretMessage(int $chatId, int $randomId): array`
+
+Gets a secret chat message.
+
+
+Parameters:
+
+* `$chatId`: `int` Secret chat ID.  
+* `$randomId`: `int` Secret chat message ID.  
 
 
 
