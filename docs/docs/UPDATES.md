@@ -463,6 +463,9 @@ Here's a full list of the concrete object types on which bound methods and prope
 * [danog\MadelineProto\EventHandler\AbstractMessage &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/AbstractMessage.html) - Represents an incoming or outgoing message.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/AbstractMessage.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/AbstractMessage.html#method-list)
+* [danog\MadelineProto\EventHandler\AbstractPrivateMessage &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/AbstractPrivateMessage.html) - Represents a private or secret chat message.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/AbstractPrivateMessage.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/AbstractPrivateMessage.html#method-list)
 * [danog\MadelineProto\EventHandler\AbstractStory &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/AbstractStory.html) - Represents a Telegram Story.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/AbstractStory.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/AbstractStory.html#method-list)
@@ -484,6 +487,9 @@ Here's a full list of the concrete object types on which bound methods and prope
 * [danog\MadelineProto\EventHandler\Message\PrivateMessage &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/PrivateMessage.html) - Represents an incoming or outgoing private message.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/PrivateMessage.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/PrivateMessage.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\SecretMessage &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/SecretMessage.html) - Represents New encrypted message.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/SecretMessage.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/SecretMessage.html#method-list)
 * [danog\MadelineProto\EventHandler\Message\ServiceMessage &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/ServiceMessage.html) - Represents info about a service message.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/ServiceMessage.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/ServiceMessage.html#method-list)
@@ -511,6 +517,9 @@ Here's a full list of the concrete object types on which bound methods and prope
 * [danog\MadelineProto\EventHandler\Message\Service\DialogCreated &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogCreated.html) - A chat or channel was created.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogCreated.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogCreated.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogDeleteMessages &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogDeleteMessages.html) - Deleted messages.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogDeleteMessages.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogDeleteMessages.html#method-list)
 * [danog\MadelineProto\EventHandler\Message\Service\DialogGameScore &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogGameScore.html) - Someone scored in a game.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogGameScore.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogGameScore.html#method-list)
@@ -556,6 +565,9 @@ Here's a full list of the concrete object types on which bound methods and prope
 * [danog\MadelineProto\EventHandler\Message\Service\DialogPhotoChanged &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogPhotoChanged.html) - The photo of the dialog was changed or deleted.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogPhotoChanged.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogPhotoChanged.html#method-list)
+* [danog\MadelineProto\EventHandler\Message\Service\DialogReadMessages &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogReadMessages.html) - Messages marked as read.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogReadMessages.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogReadMessages.html#method-list)
 * [danog\MadelineProto\EventHandler\Message\Service\DialogScreenshotTaken &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogScreenshotTaken.html) - A screenshot of the chat was taken.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogScreenshotTaken.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Message/Service/DialogScreenshotTaken.html#method-list)
@@ -619,6 +631,9 @@ Here's a full list of the concrete object types on which bound methods and prope
 * [danog\MadelineProto\EventHandler\Typing\ChatUserTyping &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Typing/ChatUserTyping.html) - The user is preparing a message in a group; typing, recording, uploading, etc. This update is valid for 6 seconds. If no further updates of this kind are received after 6 seconds, it should be considered that the user stopped doing whatever they were doing.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Typing/ChatUserTyping.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Typing/ChatUserTyping.html#method-list)
+* [danog\MadelineProto\EventHandler\Typing\SecretUserTyping &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Typing/SecretUserTyping.html) - The user is preparing a message in a secret chat; typing, recording, uploading, etc. This update is valid for 6 seconds. If no further updates of this kind are received after 6 seconds, it should be considered that the user stopped doing whatever they were doing.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Typing/SecretUserTyping.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Typing/SecretUserTyping.html#method-list)
 * [danog\MadelineProto\EventHandler\Typing\SupergroupUserTyping &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Typing/SupergroupUserTyping.html) - A user is typing in a [supergroup](https://core.telegram.org/api/channel).
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Typing/SupergroupUserTyping.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Typing/SupergroupUserTyping.html#method-list)

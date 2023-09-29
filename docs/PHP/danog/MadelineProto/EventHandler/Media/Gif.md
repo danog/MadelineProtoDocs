@@ -41,6 +41,7 @@ Represents a GIF (or an MPEG4 file without sound).
 * [`getStream(callable|null $cb = NULL, int $offset = 0, int $end = -1): \Amp\ByteStream\ReadableStream`](#getstream-callable-null-cb-null-int-offset-0-int-end-1-amp-bytestream-readablestream)
 * [`downloadToDir(string $dir = NULL, callable|null $cb = NULL): string`](#downloadtodir-string-dir-null-callable-null-cb-null-string)
 * [`downloadToFile(string $file, callable|null $cb = NULL): string`](#downloadtofile-string-file-callable-null-cb-null-string)
+* [`getDownloadInfo(): array{ext: string, name: string, mime: string, size: int, InputFileLocation: array, key_fingerprint?: string, key?: string, iv?: string}`](#getdownloadinfo-array-ext-string-name-string-mime-string-size-int-inputfilelocation-array-key_fingerprint-string-key-string-iv-string)
 
 ## Methods:
 ### `save(): bool`
@@ -105,6 +106,12 @@ Parameters:
 
 * `$file`: `string` Downloaded file path  
 * `$cb`: `callable|null` Progress callback  
+
+
+
+### `getDownloadInfo(): array{ext: string, name: string, mime: string, size: int, InputFileLocation: array, key_fingerprint?: string, key?: string, iv?: string}`
+
+
 
 
 

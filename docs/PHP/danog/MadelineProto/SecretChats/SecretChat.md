@@ -22,10 +22,10 @@ Represents a secret chat.
 * `$otherID`: `int` User ID of the other peer in the chat
 
 ## Method list:
-* [`getMessage(int $randomId): array`](#getmessage-int-randomid-array)
+* [`getMessage(int $randomId): \danog\MadelineProto\EventHandler\Message\SecretMessage`](#getmessage-int-randomid-danog-madelineproto-eventhandler-message-secretmessage)
 
 ## Methods:
-### `getMessage(int $randomId): array`
+### `getMessage(int $randomId): \danog\MadelineProto\EventHandler\Message\SecretMessage`
 
 Gets a secret chat message.
 
@@ -33,6 +33,11 @@ Gets a secret chat message.
 Parameters:
 
 * `$randomId`: `int` Secret chat message ID.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message\SecretMessage`: Represents New encrypted message.](../../../danog/MadelineProto/EventHandler/Message/SecretMessage.html)
+
 
 
 

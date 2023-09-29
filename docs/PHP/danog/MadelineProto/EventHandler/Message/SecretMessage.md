@@ -1,17 +1,17 @@
 ---
-title: "danog\\MadelineProto\\EventHandler\\Message\\PrivateMessage: Represents an incoming or outgoing private message."
+title: "danog\\MadelineProto\\EventHandler\\Message\\SecretMessage: Represents New encrypted message."
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
 ---
-# `danog\MadelineProto\EventHandler\Message\PrivateMessage`
+# `danog\MadelineProto\EventHandler\Message\SecretMessage`
 [Back to index](../../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Represents an incoming or outgoing private message.  
+Represents New encrypted message.  
 
 
 
@@ -49,6 +49,7 @@ Represents an incoming or outgoing private message.
 * `$ttlPeriod`: `?int` Time-to-live of the message
 
 ## Method list:
+* [`getReply(string $class = 'danog\\MadelineProto\\EventHandler\\Message\\SecretMessage'): ?\danog\MadelineProto\EventHandler\Message\SecretMessage`](#getreply-string-class-danog-madelineproto-eventhandler-message-secretmessage-danog-madelineproto-eventhandler-message-secretmessage)
 * [`screenShot(): \danog\MadelineProto\EventHandler\Message\Service\DialogScreenshotTaken`](#screenshot-danog-madelineproto-eventhandler-message-service-dialogscreenshottaken)
 * [`pin(bool $pmOneside = false, bool $silent = false): void`](#pin-bool-pmoneside-false-bool-silent-false-void)
 * [`unpin(bool $pmOneside = false, bool $silent = false): ?\danog\MadelineProto\EventHandler\Update`](#unpin-bool-pmoneside-false-bool-silent-false-danog-madelineproto-eventhandler-update)
@@ -64,7 +65,6 @@ Represents an incoming or outgoing private message.
 * [`replyOrEdit(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false): \danog\MadelineProto\EventHandler\Message`](#replyoredit-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-array-null-replymarkup-null-int-null-scheduledate-null-bool-nowebpage-false-danog-madelineproto-eventhandler-message)
 * [`getHTML(bool $allowTelegramTags = false): string`](#gethtml-bool-allowtelegramtags-false-string)
 * [`isReply(): bool`](#isreply-bool)
-* [`getReply(class-string<\T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?\T`](#getreply-class-string-t-class-danog-madelineproto-eventhandler-abstractmessage-t)
 * [`delete(bool $revoke = true): void`](#delete-bool-revoke-true-void)
 * [`reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`](#reply-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-nowebpage-false-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-updatestickersetsorder-false-danog-madelineproto-eventhandler-message)
 * [`block(): bool`](#block-bool)
@@ -78,6 +78,17 @@ Represents an incoming or outgoing private message.
 * [`disableAutoTranslate(): bool`](#disableautotranslate-bool)
 
 ## Methods:
+### `getReply(string $class = 'danog\\MadelineProto\\EventHandler\\Message\\SecretMessage'): ?\danog\MadelineProto\EventHandler\Message\SecretMessage`
+
+
+
+
+Parameters:
+
+* `$class`: `string`   
+
+
+
 ### `screenShot(): \danog\MadelineProto\EventHandler\Message\Service\DialogScreenshotTaken`
 
 
@@ -261,22 +272,6 @@ Parameters:
 ### `isReply(): bool`
 
 Check if the current message replies to another message.
-
-
-
-### `getReply(class-string<\T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?\T`
-
-Get replied-to message.
-May return null if the replied-to message was deleted or if the message does not reply to any other message.
-
-Parameters:
-
-* `$class`: `class-string<\T>` Only return a reply if it is of the specified type, return null otherwise.  
-
-
-#### See also: 
-* `\T`
-
 
 
 

@@ -1,17 +1,17 @@
 ---
-title: "danog\\MadelineProto\\EventHandler\\Message\\PrivateMessage: Represents an incoming or outgoing private message."
+title: "danog\\MadelineProto\\EventHandler\\AbstractPrivateMessage: Represents a private or secret chat message."
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
 ---
-# `danog\MadelineProto\EventHandler\Message\PrivateMessage`
-[Back to index](../../../../index.html)
+# `danog\MadelineProto\EventHandler\AbstractPrivateMessage`
+[Back to index](../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Represents an incoming or outgoing private message.  
+Represents a private or secret chat message.  
 
 
 
@@ -80,11 +80,11 @@ Represents an incoming or outgoing private message.
 ## Methods:
 ### `screenShot(): \danog\MadelineProto\EventHandler\Message\Service\DialogScreenshotTaken`
 
-
+Notify the other user in a private chat that a screenshot of the chat was taken.
 
 
 #### See also: 
-* [`\danog\MadelineProto\EventHandler\Message\Service\DialogScreenshotTaken`: A screenshot of the chat was taken.](../../../../danog/MadelineProto/EventHandler/Message/Service/DialogScreenshotTaken.html)
+* [`\danog\MadelineProto\EventHandler\Message\Service\DialogScreenshotTaken`: A screenshot of the chat was taken.](../../../danog/MadelineProto/EventHandler/Message/Service/DialogScreenshotTaken.html)
 
 
 
@@ -113,7 +113,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\EventHandler\Update`: Represents a generic update.](../../../../danog/MadelineProto/EventHandler/Update.html)
+* [`\danog\MadelineProto\EventHandler\Update`: Represents a generic update.](../../../danog/MadelineProto/EventHandler/Update.html)
 
 
 
@@ -136,7 +136,7 @@ Parameters:
 
 
 #### See also: 
-* [\danog\MadelineProto\EventHandler\Message\ReportReason](../../../../danog/MadelineProto/EventHandler/Message/ReportReason.html)
+* [\danog\MadelineProto\EventHandler\Message\ReportReason](../../../danog/MadelineProto/EventHandler/Message/ReportReason.html)
 
 
 
@@ -222,7 +222,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../danog/MadelineProto/ParseMode.html)
+* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../danog/MadelineProto/ParseMode.html)
 
 
 
@@ -242,7 +242,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../danog/MadelineProto/ParseMode.html)
+* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../danog/MadelineProto/ParseMode.html)
 
 
 
@@ -312,8 +312,8 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../danog/MadelineProto/ParseMode.html)
-* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../danog/MadelineProto/EventHandler/Message.html)
+* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../danog/MadelineProto/ParseMode.html)
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../danog/MadelineProto/EventHandler/Message.html)
 
 
 
@@ -336,7 +336,7 @@ Get user stories.
 
 
 #### See also: 
-* [`\danog\MadelineProto\EventHandler\AbstractStory`: Represents a Telegram Story.](../../../../danog/MadelineProto/EventHandler/AbstractStory.html)
+* [`\danog\MadelineProto\EventHandler\AbstractStory`: Represents a Telegram Story.](../../../danog/MadelineProto/EventHandler/AbstractStory.html)
 
 
 
@@ -353,7 +353,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\EventHandler\Action`: In-progress actions.](../../../../danog/MadelineProto/EventHandler/Action.html)
+* [`\danog\MadelineProto\EventHandler\Action`: In-progress actions.](../../../danog/MadelineProto/EventHandler/Action.html)
 
 
 
@@ -383,7 +383,7 @@ Parameters:
 
 #### See also: 
 * `\max`
-* [`\danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`: The Time-To-Live of messages in this chat was changed.](../../../../danog/MadelineProto/EventHandler/Message/Service/DialogSetTTL.html)
+* [`\danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`: The Time-To-Live of messages in this chat was changed.](../../../danog/MadelineProto/EventHandler/Message/Service/DialogSetTTL.html)
 
 
 
@@ -394,7 +394,7 @@ Disable Time-To-Live of all messages in the specified chat.
 
 
 #### See also: 
-* [`\danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`: The Time-To-Live of messages in this chat was changed.](../../../../danog/MadelineProto/EventHandler/Message/Service/DialogSetTTL.html)
+* [`\danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`: The Time-To-Live of messages in this chat was changed.](../../../danog/MadelineProto/EventHandler/Message/Service/DialogSetTTL.html)
 
 
 

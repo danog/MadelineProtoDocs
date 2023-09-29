@@ -1,22 +1,22 @@
 ---
-title: "danog\\MadelineProto\\EventHandler\\Message\\Service\\DialogScreenshotTaken: A screenshot of the chat was taken."
+title: "danog\\MadelineProto\\EventHandler\\Message\\Service\\DialogReadMessages: Messages marked as read."
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
 ---
-# `danog\MadelineProto\EventHandler\Message\Service\DialogScreenshotTaken`
+# `danog\MadelineProto\EventHandler\Message\Service\DialogReadMessages`
 [Back to index](../../../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-A screenshot of the chat was taken.  
+Messages marked as read.  
 
 
 
 ## Properties
-* `$ids`: `array` $ids list<int> List of affected message ids that appeared on the screenshot, only for secret chats.
+* `$ids`: `list<int>` List of message IDs.
 * `$id`: `int` Message ID
 * `$out`: `bool` Whether the message is outgoing
 * `$chatId`: `int` ID of the chat where the message was sent
@@ -31,7 +31,6 @@ A screenshot of the chat was taken.
 * `$ttlPeriod`: `?int` Time-to-live of the message
 
 ## Method list:
-* [`__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info, array $ids = [])`](#__construct-danog-madelineproto-mtproto-api-array-rawmessage-array-info-array-ids)
 * [`isReply(): bool`](#isreply-bool)
 * [`getReply(class-string<\T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?\T`](#getreply-class-string-t-class-danog-madelineproto-eventhandler-abstractmessage-t)
 * [`delete(bool $revoke = true): void`](#delete-bool-revoke-true-void)
@@ -47,25 +46,6 @@ A screenshot of the chat was taken.
 * [`disableAutoTranslate(): bool`](#disableautotranslate-bool)
 
 ## Methods:
-### `__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info, array $ids = [])`
-
-
-
-
-Parameters:
-
-* `$API`: `\danog\MadelineProto\MTProto`   
-* `$rawMessage`: `array`   
-* `$info`: `array`   
-* `$ids`: `array`   
-
-
-#### See also: 
-* `\danog\MadelineProto\MTProto`
-
-
-
-
 ### `isReply(): bool`
 
 Check if the current message replies to another message.
