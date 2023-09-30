@@ -17,9 +17,6 @@ Represents a photo.
 
 ## Properties
 * `$hasStickers`: `bool` If true; the current media has attached mask stickers.
-* `$thumb`: `?\danog\MadelineProto\TL\Types\Bytes` Content of thumbnail file (JPEGfile, quality 55, set in a square 90x90) only for secret chats.
-* `$thumbHeight`: `?int` Thumbnail height only for secret chats.
-* `$thumbWidth`: `?int` Thumbnail width only for secret chats.
 * `$size`: `int` Media filesize
 * `$fileName`: `string` Media file name
 * `$fileExt`: `string` Media file extension
@@ -31,6 +28,10 @@ Represents a photo.
 * `$spoiler`: `bool` Whether the media should be hidden behind a spoiler
 * `$botApiFileId`: `string` File ID in bot API format (always present even for users)
 * `$botApiFileUniqueId`: `string` Unique file ID in bot API format (always present even for users)
+* `$encrypted`: `bool` Whether this media originates from a secret chat.
+* `$thumb`: `?\danog\MadelineProto\TL\Types\Bytes` Content of thumbnail file (JPEGfile, quality 55, set in a square 90x90) only for secret chats.
+* `$thumbHeight`: `?int` Thumbnail height only for secret chats.
+* `$thumbWidth`: `?int` Thumbnail width only for secret chats.
 * `$protected`: `bool` Whether this media is protected
 
 ## Method list:
