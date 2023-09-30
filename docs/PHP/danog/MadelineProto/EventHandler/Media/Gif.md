@@ -42,9 +42,9 @@ Represents a GIF (or an MPEG4 file without sound).
 * [`save(): bool`](#save-bool)
 * [`unsave(): bool`](#unsave-bool)
 * [`getDownloadLink(string|null $scriptUrl = NULL): string`](#getdownloadlink-string-null-scripturl-null-string)
-* [`getStream(callable|null $cb = NULL, int $offset = 0, int $end = -1): \Amp\ByteStream\ReadableStream`](#getstream-callable-null-cb-null-int-offset-0-int-end-1-amp-bytestream-readablestream)
-* [`downloadToDir(string $dir = NULL, callable|null $cb = NULL): string`](#downloadtodir-string-dir-null-callable-null-cb-null-string)
-* [`downloadToFile(string $file, callable|null $cb = NULL): string`](#downloadtofile-string-file-callable-null-cb-null-string)
+* [`getStream(callable|null $cb = NULL, int $offset = 0, int $end = -1, ?\Amp\Cancellation $cancellation = NULL): \Amp\ByteStream\ReadableStream`](#getstream-callable-null-cb-null-int-offset-0-int-end-1-amp-cancellation-cancellation-null-amp-bytestream-readablestream)
+* [`downloadToDir(string $dir = NULL, callable|null $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): string`](#downloadtodir-string-dir-null-callable-null-cb-null-amp-cancellation-cancellation-null-string)
+* [`downloadToFile(string $file, callable|null $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): string`](#downloadtofile-string-file-callable-null-cb-null-amp-cancellation-cancellation-null-string)
 * [`getDownloadInfo(): array{ext: string, name: string, mime: string, size: int, InputFileLocation: array, key_fingerprint?: string, key?: string, iv?: string}`](#getdownloadinfo-array-ext-string-name-string-mime-string-size-int-inputfilelocation-array-key_fingerprint-string-key-string-iv-string)
 
 ## Methods:
@@ -71,7 +71,7 @@ Parameters:
 
 
 
-### `getStream(callable|null $cb = NULL, int $offset = 0, int $end = -1): \Amp\ByteStream\ReadableStream`
+### `getStream(callable|null $cb = NULL, int $offset = 0, int $end = -1, ?\Amp\Cancellation $cancellation = NULL): \Amp\ByteStream\ReadableStream`
 
 Get a readable amp stream with the file contents.
 
@@ -81,15 +81,17 @@ Parameters:
 * `$cb`: `callable|null` Progress callback  
 * `$offset`: `int`   
 * `$end`: `int`   
+* `$cancellation`: `?\Amp\Cancellation`   
 
 
 #### See also: 
+* `\Amp\Cancellation`
 * `\Amp\ByteStream\ReadableStream`
 
 
 
 
-### `downloadToDir(string $dir = NULL, callable|null $cb = NULL): string`
+### `downloadToDir(string $dir = NULL, callable|null $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): string`
 
 Download the media to working directory or passed path.
 
@@ -98,10 +100,16 @@ Parameters:
 
 * `$dir`: `string` Directory where to download the file  
 * `$cb`: `callable|null` Progress callback  
+* `$cancellation`: `?\Amp\Cancellation`   
+
+
+#### See also: 
+* `\Amp\Cancellation`
 
 
 
-### `downloadToFile(string $file, callable|null $cb = NULL): string`
+
+### `downloadToFile(string $file, callable|null $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): string`
 
 Download the media to file.
 
@@ -110,6 +118,12 @@ Parameters:
 
 * `$file`: `string` Downloaded file path  
 * `$cb`: `callable|null` Progress callback  
+* `$cancellation`: `?\Amp\Cancellation`   
+
+
+#### See also: 
+* `\Amp\Cancellation`
+
 
 
 
