@@ -593,7 +593,7 @@ final class FilterPrivateAdmin extends Filter
 {
     public function initialize(EventHandler $API): Filter
     {
-        return new FiltersAnd(new FilterPrivate, new FilterFromAdmin);
+        return (new FiltersAnd(new FilterPrivate, new FilterFromAdmin))->initialize($API);
     }
 
     public function apply(Update $update): bool
