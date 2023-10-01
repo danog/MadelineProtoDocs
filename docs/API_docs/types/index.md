@@ -789,6 +789,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messages.VotesList](/API_docs/types/messages.VotesList.html)<a name="messages.VotesList"></a>  
 
+[messages.WebPage](/API_docs/types/messages.WebPage.html)<a name="messages.WebPage"></a>  
+
 [payments.BankCardData](/API_docs/types/payments.BankCardData.html)<a name="payments.BankCardData"></a>  
 
 [payments.ExportedInvoice](/API_docs/types/payments.ExportedInvoice.html)<a name="payments.ExportedInvoice"></a>  

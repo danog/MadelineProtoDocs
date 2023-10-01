@@ -2180,6 +2180,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$messages.votesList](/API_docs/constructors/messages.votesList.html) = \['count' => [int](/API_docs/types/int.html), 'votes' => \[[MessagePeerVote](/API_docs/types/MessagePeerVote.html)\], 'chats' => \[[Chat](/API_docs/types/Chat.html)\], 'users' => \[[User](/API_docs/types/User.html)\], 'next_offset' => [string](/API_docs/types/string.html), \];<a name="messages.votesList"></a>  
 
 ***
+<br><br>[$messages.webPage](/API_docs/constructors/messages.webPage.html) = \['webpage' => [WebPage](/API_docs/types/WebPage.html), 'chats' => \[[Chat](/API_docs/types/Chat.html)\], 'users' => \[[User](/API_docs/types/User.html)\], \];<a name="messages.webPage"></a>  
+
+***
 <br><br>[$nearestDc](/API_docs/constructors/nearestDc.html) = \['country' => [string](/API_docs/types/string.html), 'this_dc' => [int](/API_docs/types/int.html), 'nearest_dc' => [int](/API_docs/types/int.html), \];<a name="nearestDc"></a>  
 
 ***
@@ -2915,7 +2918,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$stories.boostersList](/API_docs/constructors/stories.boostersList.html) = \['count' => [int](/API_docs/types/int.html), 'boosters' => \[[Booster](/API_docs/types/Booster.html)\], 'next_offset' => [string](/API_docs/types/string.html), 'users' => \[[User](/API_docs/types/User.html)\], \];<a name="stories.boostersList"></a>  
 
 ***
-<br><br>[$stories.boostsStatus](/API_docs/constructors/stories.boostsStatus.html) = \['my_boost' => [Bool](/API_docs/types/Bool.html), 'level' => [int](/API_docs/types/int.html), 'current_level_boosts' => [int](/API_docs/types/int.html), 'boosts' => [int](/API_docs/types/int.html), 'next_level_boosts' => [int](/API_docs/types/int.html), 'premium_audience' => [StatsPercentValue](/API_docs/types/StatsPercentValue.html), \];<a name="stories.boostsStatus"></a>  
+<br><br>[$stories.boostsStatus](/API_docs/constructors/stories.boostsStatus.html) = \['my_boost' => [Bool](/API_docs/types/Bool.html), 'level' => [int](/API_docs/types/int.html), 'current_level_boosts' => [int](/API_docs/types/int.html), 'boosts' => [int](/API_docs/types/int.html), 'next_level_boosts' => [int](/API_docs/types/int.html), 'premium_audience' => [StatsPercentValue](/API_docs/types/StatsPercentValue.html), 'boost_url' => [string](/API_docs/types/string.html), \];<a name="stories.boostsStatus"></a>  
 
 ***
 <br><br>[$stories.canApplyBoostOk](/API_docs/constructors/stories.canApplyBoostOk.html) = \[\];<a name="stories.canApplyBoostOk"></a>  

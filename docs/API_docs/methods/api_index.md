@@ -1457,7 +1457,7 @@ $MadelineProto->[messages->getUnreadReactions](/API_docs/methods/messages.getUnr
 
 ***
 <br><br>
-$MadelineProto->[messages->getWebPage](/API_docs/methods/messages.getWebPage.html)(\[url: $[string](/API_docs/types/string.html), hash: $[int](/API_docs/types/int.html), \]) === [$WebPage](/API_docs/types/WebPage.html)<a name="messages.getWebPage"></a>  
+$MadelineProto->[messages->getWebPage](/API_docs/methods/messages.getWebPage.html)(\[url: $[string](/API_docs/types/string.html), hash: $[int](/API_docs/types/int.html), \]) === [$messages.WebPage](/API_docs/types/messages.WebPage.html)<a name="messages.getWebPage"></a>  
 
 ***
 <br><br>

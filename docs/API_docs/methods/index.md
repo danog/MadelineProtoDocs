@@ -294,19 +294,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.hideAllChatJoinRequests.html" name="messages.hideAllChatJoinRequests">Dismiss or approve all join requests related to a specific chat or channel: messages.hideAllChatJoinRequests</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadtoresponse-array-string-filecallbackinterface-danog-madelineproto-eventhandler-message-messagemedia-amp-http-server-request-request-callable-cb-null-null-int-size-null-null-string-mime-null-null-string-name-null-amp-http-server-response" name="downloadToResponse">Download file to amphp/http-server response: downloadToResponse</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadtoresponse-array-string-filecallbackinterface-danog-madelineproto-eventhandler-message-messagemedia-amp-http-server-request-request-callable-cb-null-null-int-size-null-null-string-mime-null-null-string-name-null-amp-cancellation-cancellation-null-amp-http-server-response" name="downloadToResponse">Download file to amphp/http-server response: downloadToResponse</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadtoreturnedstream-mixed-messagemedia-callable-cb-null-int-offset-0-int-end-1-amp-bytestream-readablestream" name="downloadToReturnedStream">Download file to an amphp stream, returning it: downloadToReturnedStream</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadtoreturnedstream-mixed-messagemedia-callable-cb-null-int-offset-0-int-end-1-amp-cancellation-cancellation-null-amp-bytestream-readablestream" name="downloadToReturnedStream">Download file to an amphp stream, returning it: downloadToReturnedStream</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadtobrowser-array-string-filecallbackinterface-danog-madelineproto-eventhandler-message-messagemedia-null-callable-cb-null-null-int-size-null-null-string-name-null-null-string-mime-null-void" name="downloadToBrowser">Download file to browser: downloadToBrowser</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadtobrowser-array-string-filecallbackinterface-danog-madelineproto-eventhandler-message-messagemedia-null-callable-cb-null-null-int-size-null-null-string-name-null-null-string-mime-null-amp-cancellation-cancellation-null-void" name="downloadToBrowser">Download file to browser: downloadToBrowser</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadtocallable-mixed-messagemedia-callable-filecallbackinterface-callable-callable-cb-null-bool-seekable-true-int-offset-0-int-end-1-int-part_size-null-void" name="downloadToCallable">Download file to callable: downloadToCallable</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadtocallable-mixed-messagemedia-callable-filecallbackinterface-callable-callable-cb-null-bool-seekable-true-int-offset-0-int-end-1-int-part_size-null-amp-cancellation-cancellation-null-void" name="downloadToCallable">Download file to callable: downloadToCallable</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadtodir-mixed-messagemedia-string-filecallbackinterface-dir-callable-cb-null-non-empty-string-downloaded-file-name" name="downloadToDir">Download file to directory: downloadToDir</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadtodir-mixed-messagemedia-string-filecallbackinterface-dir-callable-cb-null-amp-cancellation-cancellation-null-non-empty-string-downloaded-file-name" name="downloadToDir">Download file to directory: downloadToDir</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadtostream-mixed-messagemedia-mixed-filecallbackinterface-resource-amp-bytestream-writablestream-stream-callable-cb-null-int-offset-0-int-end-1-void" name="downloadToStream">Download file to stream: downloadToStream</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadtostream-mixed-messagemedia-mixed-filecallbackinterface-resource-amp-bytestream-writablestream-stream-callable-cb-null-int-offset-0-int-end-1-amp-cancellation-cancellation-null-void" name="downloadToStream">Download file to stream: downloadToStream</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadtofile-mixed-messagemedia-string-filecallbackinterface-file-callable-cb-null-non-empty-string-downloaded-file-name" name="downloadToFile">Download file: downloadToFile</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadtofile-mixed-messagemedia-string-filecallbackinterface-file-callable-cb-null-amp-cancellation-cancellation-null-non-empty-string-downloaded-file-name" name="downloadToFile">Download file: downloadToFile</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#downloadserver-string-session-void" name="downloadServer">Downloads a file to the browser using the specified session file: downloadServer</a>
 
@@ -942,7 +942,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#openbuffered-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-stream-amp-cancellation-cancellation-null-callable" name="openBuffered">Provide a buffered reader for a file, URL or amp stream: openBuffered</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getstream-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-media-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-amp-bytestream-readablestream-stream-amp-bytestream-readablestream" name="getStream">Provide a stream for a file, URL or amp stream: getStream</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getstream-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-media-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-amp-bytestream-readablestream-stream-amp-cancellation-cancellation-null-amp-bytestream-readablestream" name="getStream">Provide a stream for a file, URL or amp stream: getStream</a>
 
 * <a href="messages.getInlineBotResults.html" name="messages.getInlineBotResults">Query an inline bot: messages.getInlineBotResults</a>
 
@@ -1140,7 +1140,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="bots.sendCustomRequest.html" name="bots.sendCustomRequest">Sends a custom request; for bots only: bots.sendCustomRequest</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#senddocument-int-string-peer-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-media-localfile-remoteurl-botapifileid-amp-bytestream-readablestream-file-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-media-localfile-remoteurl-botapifileid-amp-bytestream-readablestream-null-thumb-string-caption-parsemode-parsemode-callable-callback-string-filename-string-mimetype-int-ttl-bool-spoiler-int-null-replytomsgid-int-null-topmsgid-array-null-replymarkup-int-null-sendas-int-null-scheduledate-bool-silent-bool-noforwards-bool-background-bool-cleardraft-bool-updatestickersetsorder-bool-forceresend-amp-cancellation-cancellation-null-danog-madelineproto-eventhandler-message" name="sendDocument">Sends a document: sendDocument</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#senddocument-int-string-peer-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-media-localfile-remoteurl-botapifileid-amp-bytestream-readablestream-file-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-media-localfile-remoteurl-botapifileid-amp-bytestream-readablestream-null-thumb-null-string-caption-parsemode-parsemode-danog-madelineproto-parsemode-text-callable-callback-null-string-filename-null-string-mimetype-null-int-ttl-null-bool-spoiler-false-int-null-replytomsgid-null-int-null-topmsgid-null-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-updatestickersetsorder-false-bool-forceresend-false-amp-cancellation-cancellation-null-danog-madelineproto-eventhandler-message" name="sendDocument">Sends a document: sendDocument</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#broadcastmessages-array-messages-danog-madelineproto-broadcast-filter-filter-null-bool-pin-false-int" name="broadcastMessages">Sends a list of messages to all peers (users, chats, channels) of the bot: broadcastMessages</a>
 

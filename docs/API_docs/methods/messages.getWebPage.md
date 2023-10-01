@@ -21,7 +21,7 @@ Get [instant view](https://instantview.telegram.org) page
 |hash|Array of [long](/API_docs/types/long.html) |  | Optional|
 
 
-### Return type: [WebPage](/API_docs/types/WebPage.html)
+### Return type: [messages.WebPage](/API_docs/types/messages.WebPage.html)
 
 ### Can bots use this method: **NO**
 
@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$WebPage = $MadelineProto->messages->getWebPage(url: 'string', hash: [$long, $long], );
+$messages_WebPage = $MadelineProto->messages->getWebPage(url: 'string', hash: [$long, $long], );
 ```
 

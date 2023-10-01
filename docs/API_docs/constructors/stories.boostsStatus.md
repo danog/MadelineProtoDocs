@@ -20,6 +20,7 @@ redirect_from: /API_docs/constructors/stories_boostsStatus.html
 |boosts|[int](/API_docs/types/int.html) | Yes|
 |next\_level\_boosts|[int](/API_docs/types/int.html) | Optional|
 |premium\_audience|[StatsPercentValue](/API_docs/types/StatsPercentValue.html) | Optional|
+|boost\_url|[string](/API_docs/types/string.html) | Yes|
 
 
 
@@ -29,5 +30,5 @@ redirect_from: /API_docs/constructors/stories_boostsStatus.html
 ### Example:
 
 ```
-$stories_boostsStatus = ['_' => 'stories.boostsStatus', 'my_boost' => Bool, 'level' => int, 'current_level_boosts' => int, 'boosts' => int, 'next_level_boosts' => int, 'premium_audience' => StatsPercentValue];
+$stories_boostsStatus = ['_' => 'stories.boostsStatus', 'my_boost' => Bool, 'level' => int, 'current_level_boosts' => int, 'boosts' => int, 'next_level_boosts' => int, 'premium_audience' => StatsPercentValue, 'boost_url' => 'string'];
 ```  

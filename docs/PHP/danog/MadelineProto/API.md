@@ -105,13 +105,13 @@ Main API wrapper for MadelineProto.
 * [`discardCall(int $id, \danog\MadelineProto\VoIP\DiscardReason $reason = \danog\MadelineProto\VoIP\DiscardReason::HANGUP, int<\1, \5> $rating = NULL, string $comment = NULL): void`](#discardcall-int-id-danog-madelineproto-voip-discardreason-reason-danog-madelineproto-voip-discardreason-hangup-int-1-5-rating-null-string-comment-null-void)
 * [`discardSecretChat(int $chat): void`](#discardsecretchat-int-chat-void)
 * [`downloadServer(string $session): void`](#downloadserver-string-session-void)
-* [`downloadToBrowser(array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message $messageMedia, null|callable $cb = NULL, null|int $size = NULL, null|string $name = NULL, null|string $mime = NULL): void`](#downloadtobrowser-array-string-danog-madelineproto-filecallbackinterface-danog-madelineproto-eventhandler-message-messagemedia-null-callable-cb-null-null-int-size-null-null-string-name-null-null-string-mime-null-void)
-* [`downloadToCallable(mixed $messageMedia, callable|\danog\MadelineProto\FileCallbackInterface $callable, callable $cb = NULL, bool $seekable = true, int $offset = 0, int $end = -1, int $part_size = NULL): void`](#downloadtocallable-mixed-messagemedia-callable-danog-madelineproto-filecallbackinterface-callable-callable-cb-null-bool-seekable-true-int-offset-0-int-end-1-int-part_size-null-void)
-* [`downloadToDir(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $dir, callable $cb = NULL): \non-empty-string Downloaded file name`](#downloadtodir-mixed-messagemedia-string-danog-madelineproto-filecallbackinterface-dir-callable-cb-null-non-empty-string-downloaded-file-name)
-* [`downloadToFile(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $file, callable $cb = NULL): \non-empty-string Downloaded file name`](#downloadtofile-mixed-messagemedia-string-danog-madelineproto-filecallbackinterface-file-callable-cb-null-non-empty-string-downloaded-file-name)
-* [`downloadToResponse(array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message $messageMedia, \Amp\Http\Server\Request $request, callable $cb = NULL, null|int $size = NULL, null|string $mime = NULL, null|string $name = NULL): \Amp\Http\Server\Response`](#downloadtoresponse-array-string-danog-madelineproto-filecallbackinterface-danog-madelineproto-eventhandler-message-messagemedia-amp-http-server-request-request-callable-cb-null-null-int-size-null-null-string-mime-null-null-string-name-null-amp-http-server-response)
-* [`downloadToReturnedStream(mixed $messageMedia, callable $cb = NULL, int $offset = 0, int $end = -1): \Amp\ByteStream\ReadableStream`](#downloadtoreturnedstream-mixed-messagemedia-callable-cb-null-int-offset-0-int-end-1-amp-bytestream-readablestream)
-* [`downloadToStream(mixed $messageMedia, mixed|\danog\MadelineProto\FileCallbackInterface|\resource|\Amp\ByteStream\WritableStream $stream, callable $cb = NULL, int $offset = 0, int $end = -1): void`](#downloadtostream-mixed-messagemedia-mixed-danog-madelineproto-filecallbackinterface-resource-amp-bytestream-writablestream-stream-callable-cb-null-int-offset-0-int-end-1-void)
+* [`downloadToBrowser(array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message $messageMedia, null|callable $cb = NULL, null|int $size = NULL, null|string $name = NULL, null|string $mime = NULL, ?\Amp\Cancellation $cancellation = NULL): void`](#downloadtobrowser-array-string-danog-madelineproto-filecallbackinterface-danog-madelineproto-eventhandler-message-messagemedia-null-callable-cb-null-null-int-size-null-null-string-name-null-null-string-mime-null-amp-cancellation-cancellation-null-void)
+* [`downloadToCallable(mixed $messageMedia, callable|\danog\MadelineProto\FileCallbackInterface $callable, callable $cb = NULL, bool $seekable = true, int $offset = 0, int $end = -1, int $part_size = NULL, ?\Amp\Cancellation $cancellation = NULL): void`](#downloadtocallable-mixed-messagemedia-callable-danog-madelineproto-filecallbackinterface-callable-callable-cb-null-bool-seekable-true-int-offset-0-int-end-1-int-part_size-null-amp-cancellation-cancellation-null-void)
+* [`downloadToDir(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $dir, callable $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): \non-empty-string Downloaded file name`](#downloadtodir-mixed-messagemedia-string-danog-madelineproto-filecallbackinterface-dir-callable-cb-null-amp-cancellation-cancellation-null-non-empty-string-downloaded-file-name)
+* [`downloadToFile(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $file, callable $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): \non-empty-string Downloaded file name`](#downloadtofile-mixed-messagemedia-string-danog-madelineproto-filecallbackinterface-file-callable-cb-null-amp-cancellation-cancellation-null-non-empty-string-downloaded-file-name)
+* [`downloadToResponse(array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message $messageMedia, \Amp\Http\Server\Request $request, callable $cb = NULL, null|int $size = NULL, null|string $mime = NULL, null|string $name = NULL, ?\Amp\Cancellation $cancellation = NULL): \Amp\Http\Server\Response`](#downloadtoresponse-array-string-danog-madelineproto-filecallbackinterface-danog-madelineproto-eventhandler-message-messagemedia-amp-http-server-request-request-callable-cb-null-null-int-size-null-null-string-mime-null-null-string-name-null-amp-cancellation-cancellation-null-amp-http-server-response)
+* [`downloadToReturnedStream(mixed $messageMedia, callable $cb = NULL, int $offset = 0, int $end = -1, ?\Amp\Cancellation $cancellation = NULL): \Amp\ByteStream\ReadableStream`](#downloadtoreturnedstream-mixed-messagemedia-callable-cb-null-int-offset-0-int-end-1-amp-cancellation-cancellation-null-amp-bytestream-readablestream)
+* [`downloadToStream(mixed $messageMedia, mixed|\danog\MadelineProto\FileCallbackInterface|\resource|\Amp\ByteStream\WritableStream $stream, callable $cb = NULL, int $offset = 0, int $end = -1, ?\Amp\Cancellation $cancellation = NULL): void`](#downloadtostream-mixed-messagemedia-mixed-danog-madelineproto-filecallbackinterface-resource-amp-bytestream-writablestream-stream-callable-cb-null-int-offset-0-int-end-1-amp-cancellation-cancellation-null-void)
 * [`echo(string $string): void`](#echo-string-string-void)
 * [`end(\T[] $what): \T`](#end-t-what-t)
 * [`entitiesToHtml(string $message, list<\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int}> $entities, bool $allowTelegramTags = false): string`](#entitiestohtml-string-message-list-danog-madelineproto-eventhandler-message-entities-messageentity-array-_-string-offset-int-length-int-entities-bool-allowtelegramtags-false-string)
@@ -172,7 +172,7 @@ Main API wrapper for MadelineProto.
 * [`getSessionName(): string`](#getsessionname-string)
 * [`getSettings(): \danog\MadelineProto\Settings`](#getsettings-danog-madelineproto-settings)
 * [`getSponsoredMessages(int|string|array $peer): ?array`](#getsponsoredmessages-int-string-array-peer-array)
-* [`getStream(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream $stream): \Amp\ByteStream\ReadableStream`](#getstream-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-media-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-amp-bytestream-readablestream-stream-amp-bytestream-readablestream)
+* [`getStream(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL): \Amp\ByteStream\ReadableStream`](#getstream-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-media-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-amp-bytestream-readablestream-stream-amp-cancellation-cancellation-null-amp-bytestream-readablestream)
 * [`getStreamPipe(): \Amp\ByteStream\Pipe`](#getstreampipe-amp-bytestream-pipe)
 * [`getTL(): \danog\MadelineProto\TL\TLInterface`](#gettl-danog-madelineproto-tl-tlinterface)
 * [`getType(mixed $id): \danog\MadelineProto\API::PEER_TYPE_*`](#gettype-mixed-id-danog-madelineproto-api-peer_type_)
@@ -236,7 +236,7 @@ Main API wrapper for MadelineProto.
 * [`rleDecode(string $string): string`](#rledecode-string-string-string)
 * [`rleEncode(string $string): string`](#rleencode-string-string-string)
 * [`sendCustomEvent(mixed $payload): void`](#sendcustomevent-mixed-payload-void)
-* [`sendDocument(int|string $peer, \danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null $thumb, string $caption, \danog\MadelineProto\ParseMode $parseMode, ?callable $callback, ?string $fileName, ?string $mimeType, ?int $ttl, bool $spoiler, int|null $replyToMsgId, int|null $topMsgId, array|null $replyMarkup, int|null $sendAs, int|null $scheduleDate, bool $silent, bool $noForwards, bool $background, bool $clearDraft, bool $updateStickersetsOrder, bool $forceResend, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#senddocument-int-string-peer-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-media-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-amp-bytestream-readablestream-file-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-media-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-amp-bytestream-readablestream-null-thumb-string-caption-danog-madelineproto-parsemode-parsemode-callable-callback-string-filename-string-mimetype-int-ttl-bool-spoiler-int-null-replytomsgid-int-null-topmsgid-array-null-replymarkup-int-null-sendas-int-null-scheduledate-bool-silent-bool-noforwards-bool-background-bool-cleardraft-bool-updatestickersetsorder-bool-forceresend-amp-cancellation-cancellation-null-danog-madelineproto-eventhandler-message)
+* [`sendDocument(int|string $peer, \danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?string $mimeType = NULL, ?int $ttl = NULL, bool $spoiler = false, int|null $replyToMsgId = NULL, int|null $topMsgId = NULL, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $updateStickersetsOrder = false, bool $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#senddocument-int-string-peer-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-media-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-amp-bytestream-readablestream-file-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-media-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-amp-bytestream-readablestream-null-thumb-null-string-caption-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-callable-callback-null-string-filename-null-string-mimetype-null-int-ttl-null-bool-spoiler-false-int-null-replytomsgid-null-int-null-topmsgid-null-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-updatestickersetsorder-false-bool-forceresend-false-amp-cancellation-cancellation-null-danog-madelineproto-eventhandler-message)
 * [`sendMessage(int|string $peer, string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, int|null $replyToMsgId = NULL, int|null $topMsgId = NULL, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`](#sendmessage-int-string-peer-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-int-null-replytomsgid-null-int-null-topmsgid-null-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-nowebpage-false-bool-updatestickersetsorder-false-danog-madelineproto-eventhandler-message)
 * [`sendMessageToAdmins(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false): list<\danog\MadelineProto\EventHandler\Message>`](#sendmessagetoadmins-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-array-null-replymarkup-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-nowebpage-false-list-danog-madelineproto-eventhandler-message)
 * [`sendPhoto(int|string $peer, \danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream $file, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?int $ttl = NULL, bool $spoiler = false, int|null $replyToMsgId = NULL, int|null $topMsgId = NULL, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $updateStickersetsOrder = false, bool $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#sendphoto-int-string-peer-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-media-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-amp-bytestream-readablestream-file-string-caption-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-callable-callback-null-string-filename-null-int-ttl-null-bool-spoiler-false-int-null-replytomsgid-null-int-null-topmsgid-null-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-updatestickersetsorder-false-bool-forceresend-false-amp-cancellation-cancellation-null-danog-madelineproto-eventhandler-message)
@@ -694,7 +694,7 @@ Parameters:
 
 
 
-### `downloadToBrowser(array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message $messageMedia, null|callable $cb = NULL, null|int $size = NULL, null|string $name = NULL, null|string $mime = NULL): void`
+### `downloadToBrowser(array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message $messageMedia, null|callable $cb = NULL, null|int $size = NULL, null|string $name = NULL, null|string $mime = NULL, ?\Amp\Cancellation $cancellation = NULL): void`
 
 Download file to browser.
 Supports HEAD requests and content-ranges for parallel and resumed downloads.
@@ -706,16 +706,18 @@ Parameters:
 * `$size`: `null|int` Size of file to download, required for bot API file IDs.  
 * `$name`: `null|string` Name of file to download, required for bot API file IDs.  
 * `$mime`: `null|string` MIME type of file to download, required for bot API file IDs.  
+* `$cancellation`: `?\Amp\Cancellation`   
 
 
 #### See also: 
 * [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
 * [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../danog/MadelineProto/EventHandler/Message.html)
+* `\Amp\Cancellation`
 
 
 
 
-### `downloadToCallable(mixed $messageMedia, callable|\danog\MadelineProto\FileCallbackInterface $callable, callable $cb = NULL, bool $seekable = true, int $offset = 0, int $end = -1, int $part_size = NULL): void`
+### `downloadToCallable(mixed $messageMedia, callable|\danog\MadelineProto\FileCallbackInterface $callable, callable $cb = NULL, bool $seekable = true, int $offset = 0, int $end = -1, int $part_size = NULL, ?\Amp\Cancellation $cancellation = NULL): void`
 
 Download file to callable.
 The callable must accept two parameters: string $payload, int $offset  
@@ -730,15 +732,17 @@ Parameters:
 * `$offset`: `int` Offset where to start downloading  
 * `$end`: `int` Offset where to stop downloading (inclusive)  
 * `$part_size`: `int` Size of each chunk  
+* `$cancellation`: `?\Amp\Cancellation`   
 
 
 #### See also: 
 * [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
+* `\Amp\Cancellation`
 
 
 
 
-### `downloadToDir(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $dir, callable $cb = NULL): \non-empty-string Downloaded file name`
+### `downloadToDir(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $dir, callable $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): \non-empty-string Downloaded file name`
 
 Download file to directory.
 
@@ -748,17 +752,19 @@ Parameters:
 * `$messageMedia`: `mixed` File to download  
 * `$dir`: `string|\danog\MadelineProto\FileCallbackInterface` Directory where to download the file  
 * `$cb`: `callable` Callback  
+* `$cancellation`: `?\Amp\Cancellation`   
 
 
 Return value: Downloaded file name
 
 #### See also: 
 * [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
+* `\Amp\Cancellation`
 
 
 
 
-### `downloadToFile(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $file, callable $cb = NULL): \non-empty-string Downloaded file name`
+### `downloadToFile(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $file, callable $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): \non-empty-string Downloaded file name`
 
 Download file.
 
@@ -768,17 +774,19 @@ Parameters:
 * `$messageMedia`: `mixed` File to download  
 * `$file`: `string|\danog\MadelineProto\FileCallbackInterface` Downloaded file path  
 * `$cb`: `callable` Callback  
+* `$cancellation`: `?\Amp\Cancellation`   
 
 
 Return value: Downloaded file name
 
 #### See also: 
 * [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
+* `\Amp\Cancellation`
 
 
 
 
-### `downloadToResponse(array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message $messageMedia, \Amp\Http\Server\Request $request, callable $cb = NULL, null|int $size = NULL, null|string $mime = NULL, null|string $name = NULL): \Amp\Http\Server\Response`
+### `downloadToResponse(array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message $messageMedia, \Amp\Http\Server\Request $request, callable $cb = NULL, null|int $size = NULL, null|string $mime = NULL, null|string $name = NULL, ?\Amp\Cancellation $cancellation = NULL): \Amp\Http\Server\Response`
 
 Download file to amphp/http-server response.
 Supports HEAD requests and content-ranges for parallel and resumed downloads.
@@ -791,18 +799,20 @@ Parameters:
 * `$size`: `null|int` Size of file to download, required for bot API file IDs.  
 * `$mime`: `null|string` MIME type of file to download, required for bot API file IDs.  
 * `$name`: `null|string` Name of file to download, required for bot API file IDs.  
+* `$cancellation`: `?\Amp\Cancellation`   
 
 
 #### See also: 
 * [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
 * [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../danog/MadelineProto/EventHandler/Message.html)
 * `\Amp\Http\Server\Request`
+* `\Amp\Cancellation`
 * `\Amp\Http\Server\Response`
 
 
 
 
-### `downloadToReturnedStream(mixed $messageMedia, callable $cb = NULL, int $offset = 0, int $end = -1): \Amp\ByteStream\ReadableStream`
+### `downloadToReturnedStream(mixed $messageMedia, callable $cb = NULL, int $offset = 0, int $end = -1, ?\Amp\Cancellation $cancellation = NULL): \Amp\ByteStream\ReadableStream`
 
 Download file to an amphp stream, returning it.
 
@@ -813,15 +823,17 @@ Parameters:
 * `$cb`: `callable` Callback  
 * `$offset`: `int` Offset where to start downloading  
 * `$end`: `int` Offset where to end download  
+* `$cancellation`: `?\Amp\Cancellation`   
 
 
 #### See also: 
+* `\Amp\Cancellation`
 * `\Amp\ByteStream\ReadableStream`
 
 
 
 
-### `downloadToStream(mixed $messageMedia, mixed|\danog\MadelineProto\FileCallbackInterface|\resource|\Amp\ByteStream\WritableStream $stream, callable $cb = NULL, int $offset = 0, int $end = -1): void`
+### `downloadToStream(mixed $messageMedia, mixed|\danog\MadelineProto\FileCallbackInterface|\resource|\Amp\ByteStream\WritableStream $stream, callable $cb = NULL, int $offset = 0, int $end = -1, ?\Amp\Cancellation $cancellation = NULL): void`
 
 Download file to stream.
 
@@ -833,12 +845,14 @@ Parameters:
 * `$cb`: `callable` Callback  
 * `$offset`: `int` Offset where to start downloading  
 * `$end`: `int` Offset where to end download  
+* `$cancellation`: `?\Amp\Cancellation`   
 
 
 #### See also: 
 * [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
 * `\resource`
 * `\Amp\ByteStream\WritableStream`
+* `\Amp\Cancellation`
 
 
 
@@ -1533,7 +1547,7 @@ Parameters:
 
 
 
-### `getStream(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream $stream): \Amp\ByteStream\ReadableStream`
+### `getStream(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL): \Amp\ByteStream\ReadableStream`
 
 Provide a stream for a file, URL or amp stream.
 
@@ -1541,6 +1555,7 @@ Provide a stream for a file, URL or amp stream.
 Parameters:
 
 * `$stream`: `\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream`   
+* `$cancellation`: `?\Amp\Cancellation`   
 
 
 #### See also: 
@@ -1550,6 +1565,7 @@ Parameters:
 * [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
 * [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc.](../../danog/MadelineProto/BotApiFileId.html)
 * `\Amp\ByteStream\ReadableStream`
+* `\Amp\Cancellation`
 
 
 
@@ -2235,7 +2251,7 @@ Parameters:
 
 
 
-### `sendDocument(int|string $peer, \danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null $thumb, string $caption, \danog\MadelineProto\ParseMode $parseMode, ?callable $callback, ?string $fileName, ?string $mimeType, ?int $ttl, bool $spoiler, int|null $replyToMsgId, int|null $topMsgId, array|null $replyMarkup, int|null $sendAs, int|null $scheduleDate, bool $silent, bool $noForwards, bool $background, bool $clearDraft, bool $updateStickersetsOrder, bool $forceResend, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`
+### `sendDocument(int|string $peer, \danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?string $mimeType = NULL, ?int $ttl = NULL, bool $spoiler = false, int|null $replyToMsgId = NULL, int|null $topMsgId = NULL, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $updateStickersetsOrder = false, bool $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`
 
 Sends a document.
 Please use named arguments to call this method.
