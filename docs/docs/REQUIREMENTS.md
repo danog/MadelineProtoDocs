@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Requirements
 
-MadelineProto requires the `mbstring`, `xml`, `json`, `fileinfo`, `gmp`, `openssl`, `iconv` extensions to function properly.
+MadelineProto requires the `mbstring`, `xml`, `json`, `fileinfo`, `gmp`, `openssl`, `iconv`, `gd` extensions to function properly.
 
 The `ffi` and `uv` extensions and the [PrimeModule](https://prime.madelineproto.xyz/) and `nghttp2` libraries are also highly recommended to improve performance.
 
