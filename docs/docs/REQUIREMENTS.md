@@ -1,6 +1,6 @@
 ---
 title: "Requirements"
-description: "MadelineProto requires the mbstring, xml, json, fileinfo, gmp, openssl, iconv extensions to function properly."
+description: "MadelineProto requires the mbstring, xml, json, fileinfo, gmp, openssl, iconv, gd extensions to function properly."
 nav_order: 7
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
