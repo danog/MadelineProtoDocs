@@ -229,12 +229,12 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`unsetEventHandler(): void`](#unseteventhandler-void)
 * [`update2fa(array{password?: string, new_password?: string, email?: string, hint?: string} $params): void`](#update2fa-array-password-string-new_password-string-email-string-hint-string-params-void)
 * [`updateSettings(\danog\MadelineProto\SettingsAbstract $settings): void`](#updatesettings-danog-madelineproto-settingsabstract-settings-void)
-* [`upload(\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|\resource $file, string $fileName = '', callable $cb = NULL, bool $encrypted = false): \array InputFile constructor`](#upload-danog-madelineproto-filecallbackinterface-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-string-array-resource-file-string-filename-callable-cb-null-bool-encrypted-false-array-inputfile-constructor)
-* [`uploadEncrypted(\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|\resource $file, string $fileName = '', callable $cb = NULL): \array InputFile constructor`](#uploadencrypted-danog-madelineproto-filecallbackinterface-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-string-array-resource-file-string-filename-callable-cb-null-array-inputfile-constructor)
-* [`uploadFromCallable(callable $callable, int $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable $cb = NULL, bool $seekable = true, bool $encrypted = false): \array InputFile constructor`](#uploadfromcallable-callable-callable-int-size-0-string-mime-application-octet-stream-string-filename-callable-cb-null-bool-seekable-true-bool-encrypted-false-array-inputfile-constructor)
-* [`uploadFromStream(mixed $stream, int $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable $cb = NULL, bool $encrypted = false): \array InputFile constructor`](#uploadfromstream-mixed-stream-int-size-0-string-mime-application-octet-stream-string-filename-callable-cb-null-bool-encrypted-false-array-inputfile-constructor)
-* [`uploadFromTgfile(mixed $media, callable $cb = NULL, bool $encrypted = false): \array InputFile constructor`](#uploadfromtgfile-mixed-media-callable-cb-null-bool-encrypted-false-array-inputfile-constructor)
-* [`uploadFromUrl(string|\danog\MadelineProto\FileCallbackInterface $url, int $size = 0, string $fileName = '', callable $cb = NULL, bool $encrypted = false): \array InputFile constructor`](#uploadfromurl-string-danog-madelineproto-filecallbackinterface-url-int-size-0-string-filename-callable-cb-null-bool-encrypted-false-array-inputfile-constructor)
+* [`upload(\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|\resource $file, string $fileName = '', callable $cb = NULL, bool $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): \array InputFile constructor`](#upload-danog-madelineproto-filecallbackinterface-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-string-array-resource-file-string-filename-callable-cb-null-bool-encrypted-false-amp-cancellation-cancellation-null-array-inputfile-constructor)
+* [`uploadEncrypted(\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|\resource $file, string $fileName = '', callable $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): \array InputFile constructor`](#uploadencrypted-danog-madelineproto-filecallbackinterface-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-string-array-resource-file-string-filename-callable-cb-null-amp-cancellation-cancellation-null-array-inputfile-constructor)
+* [`uploadFromCallable(callable $callable, int $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable $cb = NULL, bool $seekable = true, bool $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): \array InputFile constructor`](#uploadfromcallable-callable-callable-int-size-0-string-mime-application-octet-stream-string-filename-callable-cb-null-bool-seekable-true-bool-encrypted-false-amp-cancellation-cancellation-null-array-inputfile-constructor)
+* [`uploadFromStream(mixed $stream, int $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable $cb = NULL, bool $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): \array InputFile constructor`](#uploadfromstream-mixed-stream-int-size-0-string-mime-application-octet-stream-string-filename-callable-cb-null-bool-encrypted-false-amp-cancellation-cancellation-null-array-inputfile-constructor)
+* [`uploadFromTgfile(mixed $media, callable $cb = NULL, bool $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): \array InputFile constructor`](#uploadfromtgfile-mixed-media-callable-cb-null-bool-encrypted-false-amp-cancellation-cancellation-null-array-inputfile-constructor)
+* [`uploadFromUrl(string|\danog\MadelineProto\FileCallbackInterface $url, int $size = 0, string $fileName = '', callable $cb = NULL, bool $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): \array InputFile constructor`](#uploadfromurl-string-danog-madelineproto-filecallbackinterface-url-int-size-0-string-filename-callable-cb-null-bool-encrypted-false-amp-cancellation-cancellation-null-array-inputfile-constructor)
 * [`validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): list<\danog\MadelineProto\EventHandlerIssue>`](#validateeventhandlerclass-class-string-danog-madelineproto-eventhandler-class-list-danog-madelineproto-eventhandlerissue)
 * [`viewSponsoredMessage(int|array $peer, string|array{random_id: string} $message): bool`](#viewsponsoredmessage-int-array-peer-string-array-random_id-string-message-bool)
 * [`wrapMedia(array $media, bool $protected = false): ?\danog\MadelineProto\EventHandler\Media`](#wrapmedia-array-media-bool-protected-false-danog-madelineproto-eventhandler-media)
@@ -2645,7 +2645,7 @@ Parameters:
 
 
 
-### `upload(\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|\resource $file, string $fileName = '', callable $cb = NULL, bool $encrypted = false): \array InputFile constructor`
+### `upload(\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|\resource $file, string $fileName = '', callable $cb = NULL, bool $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): \array InputFile constructor`
 
 Upload file.
 
@@ -2656,6 +2656,7 @@ Parameters:
 * `$fileName`: `string` File name  
 * `$cb`: `callable` Callback  
 * `$encrypted`: `bool` Whether to encrypt file for secret chats  
+* `$cancellation`: `?\Amp\Cancellation`   
 
 
 Return value: InputFile constructor
@@ -2666,11 +2667,12 @@ Return value: InputFile constructor
 * [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
 * [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc.](../../danog/MadelineProto/BotApiFileId.html)
 * `\resource`
+* `\Amp\Cancellation`
 
 
 
 
-### `uploadEncrypted(\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|\resource $file, string $fileName = '', callable $cb = NULL): \array InputFile constructor`
+### `uploadEncrypted(\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|\resource $file, string $fileName = '', callable $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): \array InputFile constructor`
 
 Upload file to secret chat.
 
@@ -2680,6 +2682,7 @@ Parameters:
 * `$file`: `\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|\resource` File, URL or Telegram file to upload  
 * `$fileName`: `string` File name  
 * `$cb`: `callable` Callback  
+* `$cancellation`: `?\Amp\Cancellation`   
 
 
 Return value: InputFile constructor
@@ -2690,11 +2693,12 @@ Return value: InputFile constructor
 * [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
 * [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc.](../../danog/MadelineProto/BotApiFileId.html)
 * `\resource`
+* `\Amp\Cancellation`
 
 
 
 
-### `uploadFromCallable(callable $callable, int $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable $cb = NULL, bool $seekable = true, bool $encrypted = false): \array InputFile constructor`
+### `uploadFromCallable(callable $callable, int $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable $cb = NULL, bool $seekable = true, bool $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): \array InputFile constructor`
 
 Upload file from callable.
 The callable must accept two parameters: int $offset, int $size  
@@ -2709,12 +2713,18 @@ Parameters:
 * `$cb`: `callable` Status callback  
 * `$seekable`: `bool` Whether chunks can be fetched out of order  
 * `$encrypted`: `bool` Whether to encrypt file for secret chats  
+* `$cancellation`: `?\Amp\Cancellation`   
 
 
 Return value: InputFile constructor
 
+#### See also: 
+* `\Amp\Cancellation`
 
-### `uploadFromStream(mixed $stream, int $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable $cb = NULL, bool $encrypted = false): \array InputFile constructor`
+
+
+
+### `uploadFromStream(mixed $stream, int $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable $cb = NULL, bool $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): \array InputFile constructor`
 
 Upload file from stream.
 
@@ -2727,12 +2737,18 @@ Parameters:
 * `$fileName`: `string` File name  
 * `$cb`: `callable` Callback  
 * `$encrypted`: `bool` Whether to encrypt file for secret chats  
+* `$cancellation`: `?\Amp\Cancellation`   
 
 
 Return value: InputFile constructor
 
+#### See also: 
+* `\Amp\Cancellation`
 
-### `uploadFromTgfile(mixed $media, callable $cb = NULL, bool $encrypted = false): \array InputFile constructor`
+
+
+
+### `uploadFromTgfile(mixed $media, callable $cb = NULL, bool $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): \array InputFile constructor`
 
 Reupload telegram file.
 
@@ -2742,12 +2758,18 @@ Parameters:
 * `$media`: `mixed` Telegram file  
 * `$cb`: `callable` Callback  
 * `$encrypted`: `bool` Whether to encrypt file for secret chats  
+* `$cancellation`: `?\Amp\Cancellation`   
 
 
 Return value: InputFile constructor
 
+#### See also: 
+* `\Amp\Cancellation`
 
-### `uploadFromUrl(string|\danog\MadelineProto\FileCallbackInterface $url, int $size = 0, string $fileName = '', callable $cb = NULL, bool $encrypted = false): \array InputFile constructor`
+
+
+
+### `uploadFromUrl(string|\danog\MadelineProto\FileCallbackInterface $url, int $size = 0, string $fileName = '', callable $cb = NULL, bool $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): \array InputFile constructor`
 
 Upload file from URL.
 
@@ -2759,12 +2781,14 @@ Parameters:
 * `$fileName`: `string` File name  
 * `$cb`: `callable` Callback  
 * `$encrypted`: `bool` Whether to encrypt file for secret chats  
+* `$cancellation`: `?\Amp\Cancellation`   
 
 
 Return value: InputFile constructor
 
 #### See also: 
 * [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
+* `\Amp\Cancellation`
 
 
 

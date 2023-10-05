@@ -1092,7 +1092,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#isselfuser-bool" name="isSelfUser">Returns whether the current user is a user: isSelfUser</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadfromtgfile-mixed-media-callable-cb-null-bool-encrypted-false-array-inputfile-constructor" name="uploadFromTgfile">Reupload telegram file: uploadFromTgfile</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadfromtgfile-mixed-media-callable-cb-null-bool-encrypted-false-amp-cancellation-cancellation-null-array-inputfile-constructor" name="uploadFromTgfile">Reupload telegram file: uploadFromTgfile</a>
 
 * <a href="messages.saveDraft.html" name="messages.saveDraft">Save a message draft associated to a chat: messages.saveDraft</a>
 
@@ -1294,15 +1294,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.uploadEncryptedFile.html" name="messages.uploadEncryptedFile">Upload encrypted file and associate it to a secret chat: messages.uploadEncryptedFile</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadfromurl-string-filecallbackinterface-url-int-size-0-string-filename-callable-cb-null-bool-encrypted-false-array-inputfile-constructor" name="uploadFromUrl">Upload file from URL: uploadFromUrl</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadfromurl-string-filecallbackinterface-url-int-size-0-string-filename-callable-cb-null-bool-encrypted-false-amp-cancellation-cancellation-null-array-inputfile-constructor" name="uploadFromUrl">Upload file from URL: uploadFromUrl</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadfromcallable-callable-callable-int-size-0-string-mime-application-octet-stream-string-filename-callable-cb-null-bool-seekable-true-bool-encrypted-false-array-inputfile-constructor" name="uploadFromCallable">Upload file from callable: uploadFromCallable</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadfromcallable-callable-callable-int-size-0-string-mime-application-octet-stream-string-filename-callable-cb-null-bool-seekable-true-bool-encrypted-false-amp-cancellation-cancellation-null-array-inputfile-constructor" name="uploadFromCallable">Upload file from callable: uploadFromCallable</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadfromstream-mixed-stream-int-size-0-string-mime-application-octet-stream-string-filename-callable-cb-null-bool-encrypted-false-array-inputfile-constructor" name="uploadFromStream">Upload file from stream: uploadFromStream</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadfromstream-mixed-stream-int-size-0-string-mime-application-octet-stream-string-filename-callable-cb-null-bool-encrypted-false-amp-cancellation-cancellation-null-array-inputfile-constructor" name="uploadFromStream">Upload file from stream: uploadFromStream</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadencrypted-filecallbackinterface-localfile-remoteurl-botapifileid-string-array-resource-file-string-filename-callable-cb-null-array-inputfile-constructor" name="uploadEncrypted">Upload file to secret chat: uploadEncrypted</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadencrypted-filecallbackinterface-localfile-remoteurl-botapifileid-string-array-resource-file-string-filename-callable-cb-null-amp-cancellation-cancellation-null-array-inputfile-constructor" name="uploadEncrypted">Upload file to secret chat: uploadEncrypted</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#upload-filecallbackinterface-localfile-remoteurl-botapifileid-string-array-resource-file-string-filename-callable-cb-null-bool-encrypted-false-array-inputfile-constructor" name="upload">Upload file: upload</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#upload-filecallbackinterface-localfile-remoteurl-botapifileid-string-array-resource-file-string-filename-callable-cb-null-bool-encrypted-false-amp-cancellation-cancellation-null-array-inputfile-constructor" name="upload">Upload file: upload</a>
 
 * <a href="account.uploadRingtone.html" name="account.uploadRingtone">Upload notification sound, use account.saveRingtone to convert it and add it to the list of saved notification sounds: account.uploadRingtone</a>
 
