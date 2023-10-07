@@ -97,7 +97,7 @@ class EventHandler extends \danog\MadelineProto\EventHandler
 ```
 
 You can use the above syntax if don't want the request to block, and you don't need the result of the function.  
-This is allowed, but the order of the function calls will not be guaranteed: you can use [call queues](https://docs.madelineproto.xyz/docs/USING_METHODS.html#queues) if you want to make sure the order of the calls remains the same.
+Note that the order of execution of the function calls will not be guaranteed.  
 See [async forking](#async-forking-does-async-green-thread-forking).  
 
 ### Combining async operations
@@ -217,8 +217,7 @@ $this->flush();
 
 This is the preferred way of combining multiple method calls: this way, the MadelineProto async WriteLoop will combine all method calls in one container, making everything WAY faster.  
 
-The order of method calls is not guaranteed by default.  
-To enforce a strict server-side execution order for all calls to the same DC, use [call queues &raquo;](USING_METHODS.html#queues).  
+Note that the execution order of method calls is not guaranteed by default.  
 
 #### Cancellation
 

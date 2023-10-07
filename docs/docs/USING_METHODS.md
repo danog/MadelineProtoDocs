@@ -20,7 +20,6 @@ A list of all of the methods that can be called with MadelineProto can be found 
 * [reply_markup (keyboards & inline keyboards)](#reply_markup)
 * [bot API objects](#bot-api-objects)
 * [No result](#no-result)
-* [Queues](#queues)
 * [Multiple method calls](#multiple-method-calls)
 * [FULL API Documentation with descriptions](https://docs.madelineproto.xyz/API_docs/methods/)
 
@@ -106,17 +105,6 @@ MadelineProto also [supports bot API file IDs when working with files](FILES.htm
 ## No result
 
 See [ignored async](https://docs.madelineproto.xyz/docs/ASYNC.html#ignored-async).  
-
-## Queues
-
-Usually, concurrent method calls are executed in arbitrary order: with the `queueId` option, strict ordering for requests **to the same chat/datacenter** can be enforced by specifying the same queue ID for all methods that require strictly ordered execution.  
-Use the [amphp/sync](https://github.com/amphp/sync/) primitives to provide synchronization across different chats.  
-
-```php
-$MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'lel', queueId: 'queue_name');
-```
-
-If the queue if the specified queue name does not exist, it will be created.
 
 ## Multiple method calls
 

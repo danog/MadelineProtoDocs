@@ -263,7 +263,6 @@ Want to add your own open-source project to this list? [Click here!](https://doc
   * [reply_markup (keyboards & inline keyboards)](https://docs.madelineproto.xyz/docs/USING_METHODS.html#reply_markup)
   * [bot API objects](https://docs.madelineproto.xyz/docs/USING_METHODS.html#bot-api-objects)
   * [No result](https://docs.madelineproto.xyz/docs/USING_METHODS.html#no-result)
-  * [Queues](https://docs.madelineproto.xyz/docs/USING_METHODS.html#queues)
   * [Multiple method calls](https://docs.madelineproto.xyz/docs/USING_METHODS.html#multiple-method-calls)
   * [FULL API Documentation with descriptions](https://docs.madelineproto.xyz/API_docs/methods/)
     * [Login](https://docs.madelineproto.xyz/docs/LOGIN.html)
