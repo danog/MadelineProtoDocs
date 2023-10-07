@@ -21,6 +21,7 @@ A list of all of the methods that can be called with MadelineProto can be found 
 * [bot API objects](#bot-api-objects)
 * [No result](#no-result)
 * [Multiple method calls](#multiple-method-calls)
+* [Cancellation](#cancellation)
 * [FULL API Documentation with descriptions](https://docs.madelineproto.xyz/API_docs/methods/)
 
 ## Named arguments
@@ -109,5 +110,9 @@ See [ignored async](https://docs.madelineproto.xyz/docs/ASYNC.html#ignored-async
 ## Multiple method calls
 
 See [multiple async](https://docs.madelineproto.xyz/docs/ASYNC.html#multiple-async).  
+
+## Multiple method calls
+
+See [cancellation &raquo;](https://docs.madelineproto.xyz/docs/ASYNC.html#cancellation).  
 
 <a href="https://docs.madelineproto.xyz/docs/CONTRIB.html">Next section</a>

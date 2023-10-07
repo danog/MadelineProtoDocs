@@ -229,7 +229,7 @@ Example:
 use danog\MadelineProto\RemoteUrl;
 
 
-$deferredCancellation = new Amp\DeferredCancellation();
+$deferredCancellation = new \Amp\DeferredCancellation();
 $res1 = async($MadelineProto->sendDocument(...), peer: '@danogentili', file: new RemoteUrl($url), cancellation: $deferredCancellation->getCancellation());
 
 
