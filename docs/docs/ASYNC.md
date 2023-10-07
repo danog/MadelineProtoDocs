@@ -92,28 +92,13 @@ class EventHandler extends \danog\MadelineProto\EventHandler
 ### Ignored async
 
 ```php
-\Revolt\EventLoop::queue($MadelineProto->messages->sendMessage(...), ['peer' => '@danogentili', 'message' => 'a']);
-\Revolt\EventLoop::queue($MadelineProto->messages->sendMessage(...), ['peer' => '@danogentili', 'message' => 'b']);
+\Revolt\EventLoop::queue(fn () => $MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'a'));
+\Revolt\EventLoop::queue(fn () => $MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'b'));
 ```
 
 You can use the above syntax if don't want the request to block, and you don't need the result of the function.  
 This is allowed, but the order of the function calls will not be guaranteed: you can use [call queues](https://docs.madelineproto.xyz/docs/USING_METHODS.html#queues) if you want to make sure the order of the calls remains the same.
 See [async forking](#async-forking-does-async-green-thread-forking).  
-
-### Multiple async
-
-```php
-$MadelineProto->messages->sendMessage([
-    'multiple' => true,
-    ['peer' => '@danogentili', 'message' => 'hi'],
-    ['peer' => '@apony', 'message' => 'hi']
-]);
-```
-
-This is the preferred way of combining multiple method calls: this way, the MadelineProto async WriteLoop will combine all method calls in one container, making everything WAY faster.  
-The result of this will be an array of results, whose type is determined by the original return type of the method (see [API docs](https://docs.madelineproto.xyz/API_docs)).  
-
-The order of method calls can be guaranteed (server-side, not by MadelineProto) by using [call queues](USING_METHODS.html#queues).
 
 ### Combining async operations
 
@@ -195,15 +180,62 @@ $result = $MadelineProto->fileGetContents('https://myurl');
 Useful if you need to start a process in the background.  
 
 ```php
-\Revolt\EventLoop::queue($MadelineProto->messages->sendMessage(...), ['peer' => 'danogentili', 'message' => 'test']);
+\Revolt\EventLoop::queue(fn () => $MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'test'));
 ```
 
 If the method throws an exception, it will surface out of the event loop, unless it's intercepted by the configured Revolt exception handler ([startAndLoop](https://docs.madelineproto.xyz/docs/UPDATES.html) automatically sets up an exception handler that reports exception to the userbot's admin).  
-This is usually not good practice, so it's best to use `\Amp\async` instead, which returns a future that will resolve or fail according to the result of the function.  
+Also, the method result can't be used: this is usually not good practice, so it's best to use `\Amp\async` instead, which returns a future that will resolve or fail according to the result of the function.  
 
 ```php
-$future = \Amp\async($MadelineProto->messages->sendMessage(...), ['peer' => 'danogentili', 'message' => 'test']);
+$future = \Amp\async(fn () => $MadelineProto->messages->sendMessage(peer: 'danogentili', message: 'test'));
 // Use $future to register a callback with catch, use it with combinator functions, and much more...
+```
+
+#### Multiple async
+
+When starting [multiple concurrent requests using `\Amp\async`](#async-forking-does-async-green-thread-forking), the `postpone` flag may also be used postpone execution of all methods until the first method call with `postpone = false` to the same DC or a call to flush() is made, bundling all queued in a single container for higher efficiency.
+
+```php
+$res1 = async(fn () => $MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'hi 1', postpone: true));
+$res2 = async(fn () => $MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'hi 2', postpone: true));
+$res3 = async(fn () => $MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'hi 3', postpone: false));
+
+[$res1, $res2, $res3] = await([$res1, $res2, $res3]);
+```
+
+Or
+
+```php
+$res1 = async(fn () => $MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'hi 1', postpone: true));
+$res2 = async(fn () => $MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'hi 2', postpone: true));
+$res3 = async(fn () => $MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'hi 3', postpone: true));
+
+$this->flush();
+
+[$res1, $res2, $res3] = await([$res1, $res2, $res3]);
+```
+
+This is the preferred way of combining multiple method calls: this way, the MadelineProto async WriteLoop will combine all method calls in one container, making everything WAY faster.  
+
+The order of method calls is not guaranteed by default.  
+To enforce a strict server-side execution order for all calls to the same DC, use [call queues &raquo;](USING_METHODS.html#queues).  
+
+#### Cancellation
+
+All MadelineProto and amphp methods allow cancelling an in-progress operation, by passing an `\Amp\Cancellation` object to the last parameter of any method, see the [amphp](https://amphp.org/amp#cancellation) documentation for more info.  
+
+Example:
+
+```
+use danog\MadelineProto\RemoteUrl;
+
+
+$deferredCancellation = new Amp\DeferredCancellation();
+$res1 = async($MadelineProto->sendDocument(...), peer: '@danogentili', file: new RemoteUrl($url), cancellation: $deferredCancellation->getCancellation());
+
+
+// Sometime later, if the user decides to /cancel...
+$deferredCancellation->cancel();
 ```
 
 #### Async flock

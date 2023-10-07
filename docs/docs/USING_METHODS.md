@@ -38,7 +38,7 @@ $MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'Testing Ma
 If an object of type User, InputUser, Chat, InputChannel, Peer or InputPeer must be provided as a parameter to a method, you can substitute it with the user/group/channel's username (`@username`), bot API id (`-1029449`, `1249421`, `-100412412901`), or update.  
 
 ```php
-$MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => 'Testing MadelineProto...']);
+$MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'Testing MadelineProto...');
 ```
 
 If you want to check if a bot API id is a supergroup/channel ID:
@@ -62,7 +62,7 @@ Uses logarithmic conversion to avoid problems on 32 bit systems.
 If an object of type InputSecretChat must be provided as a parameter to a method, you can substitute it with the secret chat's id, the updateNewEncrypted message or the decryptedMessage:
 
 ```php
-$MadelineProto->messages->sendEncrypted(['peer' => $update, 'message' => ['_' => 'decryptedMessage', 'ttl' => 0, 'message' => 'Hi']]);
+$MadelineProto->messages->sendEncrypted(peer: $update, message: ['_' => 'decryptedMessage', 'ttl' => 0, 'message' => 'Hi']);
 ```
 
 
@@ -71,8 +71,8 @@ $MadelineProto->messages->sendEncrypted(['peer' => $update, 'message' => ['_' =>
 Methods that allow sending message entities ([messages.sendMessage](http://docs.madelineproto.xyz/API_docs/methods/messages_sendMessage.html) for example) also have an additional `parse_mode` parameter that enables or disables html/markdown parsing of the message to be sent.
 
 ```php
-$MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => '[Testing Markdown in MadelineProto](https://docs.madelineproto.xyz)', 'parse_mode' => 'Markdown']);
-$MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => '<a href="https://docs.madelineproto.xyz">Testing HTML in MadelineProto</a>', 'parse_mode' => 'HTML']);
+$MadelineProto->messages->sendMessage(peer: '@danogentili', message: '[Testing Markdown in MadelineProto](https://docs.madelineproto.xyz)', parse_mode:  'Markdown');
+$MadelineProto->messages->sendMessage(peer: '@danogentili', message: '<a href="https://docs.madelineproto.xyz">Testing HTML in MadelineProto</a>', parse_mode:  'HTML');
 ```
 
 
@@ -89,15 +89,15 @@ $bot_API_markup = ['inline_keyboard' =>
         ]
     ]
 ];
-$MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => 'lel', 'reply_markup' => $bot_API_markup]);
+$MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'lel', reply_markup: $bot_API_markup);
 ```
 
 
 ## Bot API objects
-To convert the results of methods to bot API objects you must provide a second parameter to method wrappers, containing an array with the `botAPI` key set to true.
+To convert the results of methods to bot API objects you can use the MTProtoToBotAPI method.
 
 ```php
-$bot_API_object = $MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => 'lel'], ['botAPI' => true]);
+$bot_API_object = $MadelineProto->MTProtoToBotAPI($MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'lel'));
 ```
 
 MadelineProto also [supports bot API file IDs when working with files](FILES.html)
@@ -105,24 +105,21 @@ MadelineProto also [supports bot API file IDs when working with files](FILES.htm
 
 ## No result
 
-Also see [ignored async](https://docs.madelineproto.xyz/docs/ASYNC.html#ignored-async).  
-To disable fetching the result of a method, the array that must be provided as second parameter to method wrapper must have the `noResponse` key set to true.
-
-```php
-$MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => 'lel'], ['noResponse' => true]);
-```
-
+See [ignored async](https://docs.madelineproto.xyz/docs/ASYNC.html#ignored-async).  
 
 ## Queues
-Method calls may be executed at diferent times server-side: to avoid this, method calls can be queued (this is especially useful when using [ignored async](https://docs.madelineproto.xyz/docs/ASYNC.html#ignored-async)):
+
+Usually, concurrent method calls are executed in arbitrary order: with the `queueId` option, strict ordering for requests **to the same chat/datacenter** can be enforced by specifying the same queue ID for all methods that require strictly ordered execution.  
+Use the [amphp/sync](https://github.com/amphp/sync/) primitives to provide synchronization across different chats.  
 
 ```php
-$MadelineProto->messages->sendMessage(['peer' => '@danogentili', 'message' => 'lel'], ['queue' => 'queue_name']);
+$MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'lel', queueId: 'queue_name');
 ```
 
 If the queue if the specified queue name does not exist, it will be created.
 
 ## Multiple method calls
+
 See [multiple async](https://docs.madelineproto.xyz/docs/ASYNC.html#multiple-async).  
 
 <a href="https://docs.madelineproto.xyz/docs/CONTRIB.html">Next section</a>
