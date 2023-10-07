@@ -264,6 +264,7 @@ Want to add your own open-source project to this list? [Click here!](https://doc
   * [bot API objects](https://docs.madelineproto.xyz/docs/USING_METHODS.html#bot-api-objects)
   * [No result](https://docs.madelineproto.xyz/docs/USING_METHODS.html#no-result)
   * [Multiple method calls](https://docs.madelineproto.xyz/docs/USING_METHODS.html#multiple-method-calls)
+  * [Cancellation](https://docs.madelineproto.xyz/docs/USING_METHODS.html#cancellation)
   * [FULL API Documentation with descriptions](https://docs.madelineproto.xyz/API_docs/methods/)
     * [Login](https://docs.madelineproto.xyz/docs/LOGIN.html)
     * [Change 2FA password: update2FA](https://docs.madelineproto.xyz/update2fa.html)
