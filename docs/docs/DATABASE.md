@@ -34,6 +34,9 @@ $settings = (new \danog\MadelineProto\Settings\Database\Mysql)
 $API = new \danog\MadelineProto\API('session.madeline', $settings);
 ```
 
+**WARNING**: Make sure to run `SET GLOBAL max_connections = 100000;` as root in the mysql/mariadb console, **regardless of the limit you set in the settings**.  
+Make sure to run the command **after every system restart**, or modify the database configuration file to set the maximum connection limit to `100000`.  
+
 ### Postgres example (low memory usage):
 
 ```php
