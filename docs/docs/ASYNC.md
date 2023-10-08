@@ -225,7 +225,7 @@ All MadelineProto and amphp methods allow cancelling an in-progress operation, b
 
 Example:
 
-```
+```php
 use danog\MadelineProto\RemoteUrl;
 
 
