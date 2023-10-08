@@ -111,7 +111,7 @@ See [ignored async](https://docs.madelineproto.xyz/docs/ASYNC.html#ignored-async
 
 See [multiple async](https://docs.madelineproto.xyz/docs/ASYNC.html#multiple-async).  
 
-## Multiple method calls
+## Cancellation
 
 See [cancellation &raquo;](https://docs.madelineproto.xyz/docs/ASYNC.html#cancellation).  
 
