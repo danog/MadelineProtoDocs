@@ -230,7 +230,12 @@ use danog\MadelineProto\RemoteUrl;
 
 
 $deferredCancellation = new \Amp\DeferredCancellation();
-$res1 = async($MadelineProto->sendDocument(...), peer: '@danogentili', file: new RemoteUrl($url), cancellation: $deferredCancellation->getCancellation());
+$res1 = async(
+     $MadelineProto->sendDocument(...),
+     peer: '@danogentili',
+     file: new RemoteUrl($url),
+     cancellation: $deferredCancellation->getCancellation()
+);
 
 
 // Sometime later, if the user decides to /cancel...
