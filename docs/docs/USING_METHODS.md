@@ -41,21 +41,6 @@ If an object of type User, InputUser, Chat, InputChannel, Peer or InputPeer must
 $MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'Testing MadelineProto...');
 ```
 
-If you want to check if a bot API id is a supergroup/channel ID:
-```php
-$Bool = $MadelineProto->isSupergroup($id);
-```
-
-Uses logarithmic conversion to avoid problems on 32 bit systems.
-
-
-If you want to convert an MTProto API id to a supergroup/channel bot API ID:
-```php
-$bot_api_id = $MadelineProto->toSupergroup($id);
-```
-
-Uses logarithmic conversion to avoid problems on 32 bit systems.
-
 
 ## Secret chats
 [Full example](https://github.com/danog/MadelineProto/blob/v8/examples/secret_bot.php)
