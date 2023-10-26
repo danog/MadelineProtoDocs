@@ -255,6 +255,7 @@ PHP implementation of telegram's MTProto protocol.
 * [\danog\MadelineProto\EventHandler\Participant\MySelf: Myself.](/PHP/danog/MadelineProto/EventHandler/Participant/MySelf.html)
 * [\danog\MadelineProto\EventHandler\Participant\Rights\Admin: Represents the rights of an admin in a [channel/supergroup](https://core.telegram.org/api/channel).](/PHP/danog/MadelineProto/EventHandler/Participant/Rights/Admin.html)
 * [\danog\MadelineProto\EventHandler\Participant\Rights\Banned: Represents the rights of a normal user in a [supergroup/channel/chat](https://core.telegram.org/api/channel). In this case, the flags are inverted: if set, a flag does not allow a user to do X.](/PHP/danog/MadelineProto/EventHandler/Participant/Rights/Banned.html)
+* [\danog\MadelineProto\EventHandler\Plugin\RestartPlugin: Plugin that offers a /restart command to admins that can be used to restart the bot, applying changes.](/PHP/danog/MadelineProto/EventHandler/Plugin/RestartPlugin.html)
 * [\danog\MadelineProto\EventHandler\Privacy\Rule: Represents a privacy rule.](/PHP/danog/MadelineProto/EventHandler/Privacy/Rule.html)
 * [\danog\MadelineProto\EventHandler\Privacy\RuleDestination\AllowAll: Allow all users.](/PHP/danog/MadelineProto/EventHandler/Privacy/RuleDestination/AllowAll.html)
 * [\danog\MadelineProto\EventHandler\Privacy\RuleDestination\AllowChatParticipants: Allow all participants of certain chats.](/PHP/danog/MadelineProto/EventHandler/Privacy/RuleDestination/AllowChatParticipants.html)

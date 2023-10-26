@@ -11,6 +11,7 @@ MadelineProto offers a native plugin system, based on [event handlers](https://d
 * [Installing plugins](#installing-plugins)
   * [Simple installation](#simple-installation)
   * [Composer installation](#composer-installation)
+  * [Builtin plugins](#builtin-plugins)
 * [Creating plugins](#creating-plugins)
   * [Full plugin example](#full-plugin-example)
   * [Limitations](#limitations)
@@ -118,6 +119,95 @@ BaseHandler::startAndLoop('bot.madeline', $settings);
 ```
 
 You can combine plugins installed with this mode with plugins installed using a [plugin path](#simple-installation).  
+
+### Builtin plugins
+
+MadelineProto itself also offers some useful builtin plugins that can be optionally enabled by returning them from the `getPlugins` function:
+
+<!-- cut_here plugins -->
+
+* [danog\MadelineProto\EventHandler\Plugin\RestartPlugin &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Plugin/RestartPlugin.html) - Plugin that offers a /restart command to admins that can be used to restart the bot, applying changes.
+
+
+<!-- cut_here_end plugins -->
+
+Example:
+
+<!-- cut_here examples/simpleBot.php -->
+
+```php
+<?php declare(strict_types=1);
+
+// Simple example bot.
+// PHP 8.1.15+ or 8.2.4+ is required.
+
+// Run via CLI (recommended: `screen php bot.php`) or via web.
+
+// To reduce RAM usage, follow these instructions: https://docs.madelineproto.xyz/docs/DATABASE.html
+
+use danog\MadelineProto\EventHandler\Attributes\Handler;
+use danog\MadelineProto\EventHandler\Message;
+use danog\MadelineProto\EventHandler\Plugin\RestartPlugin;
+use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
+use danog\MadelineProto\SimpleEventHandler;
+
+// Load via composer (RECOMMENDED, see https://docs.madelineproto.xyz/docs/INSTALLATION.html#composer-from-scratch)
+if (file_exists('vendor/autoload.php')) {
+    require_once 'vendor/autoload.php';
+} else {
+    // Otherwise download an !!! alpha !!! version of MadelineProto via madeline.php
+    if (!file_exists('madeline.php')) {
+        copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+    }
+    require_once 'madeline.php';
+}
+
+class MyEventHandler extends SimpleEventHandler
+{
+    // !!! Change this to your username !!!
+    const ADMIN = "@me";
+
+    /**
+     * Get peer(s) where to report errors.
+     */
+    public function getReportPeers()
+    {
+        return [self::ADMIN];
+    }
+
+    /**
+     * Returns a set of plugins to activate.
+     * 
+     * See here for more info on plugins: https://docs.madelineproto.xyz/docs/PLUGINS.html
+     */
+    public static function getPlugins(): array
+    {
+        return [
+            // Offers a /restart command to admins that can be used to restart the bot, applying changes.
+            RestartPlugin::class
+        ];
+    }
+
+    /**
+     * Handle incoming updates from users, chats and channels.
+     */
+    #[Handler]
+    public function handleMessage(Incoming&Message $message): void
+    {
+        // Code that uses $message...
+        // See the following pages for more examples and documentation:
+        // - https://github.com/danog/MadelineProto/blob/v8/examples/bot.php
+        // - https://docs.madelineproto.xyz/docs/UPDATES.html
+        // - https://docs.madelineproto.xyz/docs/FILTERS.html
+        // - https://docs.madelineproto.xyz/
+    }
+}
+
+MyEventHandler::startAndLoop('bot.madeline');
+
+```
+
+<!-- cut_here_end examples/simpleBot.php -->
 
 ## Creating plugins
 

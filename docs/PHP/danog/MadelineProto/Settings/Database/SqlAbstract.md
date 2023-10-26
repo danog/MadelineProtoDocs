@@ -17,10 +17,10 @@ Generic db backend settings.
 
 
 ## Method list:
-* [`getMaxConnections(): int`](#getmaxconnections-int)
-* [`setMaxConnections(int $maxConnections): static`](#setmaxconnections-int-maxconnections-static)
-* [`getIdleTimeout(): int`](#getidletimeout-int)
-* [`setIdleTimeout(int $idleTimeout): static`](#setidletimeout-int-idletimeout-static)
+* [`getMaxConnections(): \positive-int`](#getmaxconnections-positive-int)
+* [`setMaxConnections(\positive-int $maxConnections): static`](#setmaxconnections-positive-int-maxconnections-static)
+* [`getIdleTimeout(): \positive-int`](#getidletimeout-positive-int)
+* [`setIdleTimeout(\positive-int $idleTimeout): static`](#setidletimeout-positive-int-idletimeout-static)
 * [`getDatabase(): string`](#getdatabase-string)
 * [`setDatabase(string $database): static`](#setdatabase-string-database-static)
 * [`getUsername(): string`](#getusername-string)
@@ -47,37 +47,37 @@ Generic db backend settings.
 * [`getDriverClass(): class-string<\danog\MadelineProto\Db\DbArray>`](#getdriverclass-class-string-danog-madelineproto-db-dbarray)
 
 ## Methods:
-### `getMaxConnections(): int`
+### `getMaxConnections(): \positive-int`
 
 Get maximum connection limit.
 
 
 
-### `setMaxConnections(int $maxConnections): static`
+### `setMaxConnections(\positive-int $maxConnections): static`
 
 Set maximum connection limit.
 
 
 Parameters:
 
-* `$maxConnections`: `int` Maximum connection limit.  
+* `$maxConnections`: `\positive-int` Maximum connection limit.  
 
 
 
-### `getIdleTimeout(): int`
+### `getIdleTimeout(): \positive-int`
 
 Get idle timeout.
 
 
 
-### `setIdleTimeout(int $idleTimeout): static`
+### `setIdleTimeout(\positive-int $idleTimeout): static`
 
 Set idle timeout.
 
 
 Parameters:
 
-* `$idleTimeout`: `int` Idle timeout.  
+* `$idleTimeout`: `\positive-int` Idle timeout.  
 
 
 

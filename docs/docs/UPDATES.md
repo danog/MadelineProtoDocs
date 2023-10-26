@@ -47,6 +47,7 @@ Simple example:
 
 use danog\MadelineProto\EventHandler\Attributes\Handler;
 use danog\MadelineProto\EventHandler\Message;
+use danog\MadelineProto\EventHandler\Plugin\RestartPlugin;
 use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
 use danog\MadelineProto\SimpleEventHandler;
 
@@ -72,6 +73,19 @@ class MyEventHandler extends SimpleEventHandler
     public function getReportPeers()
     {
         return [self::ADMIN];
+    }
+
+    /**
+     * Returns a set of plugins to activate.
+     * 
+     * See here for more info on plugins: https://docs.madelineproto.xyz/docs/PLUGINS.html
+     */
+    public static function getPlugins(): array
+    {
+        return [
+            // Offers a /restart command to admins that can be used to restart the bot, applying changes.
+            RestartPlugin::class
+        ];
     }
 
     /**
@@ -131,6 +145,7 @@ use danog\MadelineProto\EventHandler\Filter\FilterText;
 use danog\MadelineProto\EventHandler\Filter\FilterTextCaseInsensitive;
 use danog\MadelineProto\EventHandler\Message;
 use danog\MadelineProto\EventHandler\Message\Service\DialogPhotoChanged;
+use danog\MadelineProto\EventHandler\Plugin\RestartPlugin;
 use danog\MadelineProto\EventHandler\SimpleFilter\FromAdmin;
 use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
 use danog\MadelineProto\EventHandler\SimpleFilter\IsReply;
@@ -202,6 +217,17 @@ class MyEventHandler extends SimpleEventHandler
         $this->logger($this->getFullInfo('MadelineProto'));
 
         $this->sendMessageToAdmins("The bot was started!");
+    }
+
+    /**
+     * Returns a set of plugins to activate.
+     */
+    public static function getPlugins(): array
+    {
+        return [
+            // Offers a /restart command to admins that can be used to restart the bot, applying changes.
+            RestartPlugin::class
+        ];
     }
 
     /**
