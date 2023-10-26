@@ -177,7 +177,7 @@ class MyEventHandler extends SimpleEventHandler
 
     /**
      * Returns a set of plugins to activate.
-     * 
+     *
      * See here for more info on plugins: https://docs.madelineproto.xyz/docs/PLUGINS.html
      */
     public static function getPlugins(): array
