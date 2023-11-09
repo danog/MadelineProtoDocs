@@ -15,6 +15,7 @@ Webpage preview
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|has\_large\_media|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[long](/API_docs/types/long.html) | Yes|Preview ID|
 |url|[string](/API_docs/types/string.html) | Yes|URL of previewed webpage|
 |display\_url|[string](/API_docs/types/string.html) | Yes|Webpage URL to be displayed to the user|
@@ -42,5 +43,5 @@ Webpage preview
 ### Example:
 
 ```
-$webPage = ['_' => 'webPage', 'id' => long, 'url' => 'string', 'display_url' => 'string', 'hash' => int, 'type' => 'string', 'site_name' => 'string', 'title' => 'string', 'description' => 'string', 'photo' => Photo, 'embed_url' => 'string', 'embed_type' => 'string', 'embed_width' => int, 'embed_height' => int, 'duration' => int, 'author' => 'string', 'document' => Document, 'cached_page' => Page, 'attributes' => [WebPageAttribute, WebPageAttribute]];
+$webPage = ['_' => 'webPage', 'has_large_media' => Bool, 'id' => long, 'url' => 'string', 'display_url' => 'string', 'hash' => int, 'type' => 'string', 'site_name' => 'string', 'title' => 'string', 'description' => 'string', 'photo' => Photo, 'embed_url' => 'string', 'embed_type' => 'string', 'embed_width' => int, 'embed_height' => int, 'duration' => int, 'author' => 'string', 'document' => Document, 'cached_page' => Page, 'attributes' => [WebPageAttribute, WebPageAttribute]];
 ```  

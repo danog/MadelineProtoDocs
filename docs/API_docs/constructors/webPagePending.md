@@ -16,6 +16,7 @@ A preview of the webpage is currently being generated
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |id|[long](/API_docs/types/long.html) | Yes|ID of preview|
+|url|[string](/API_docs/types/string.html) | Optional|
 |date|[int](/API_docs/types/int.html) | Yes|When was the processing started|
 
 
@@ -26,5 +27,5 @@ A preview of the webpage is currently being generated
 ### Example:
 
 ```
-$webPagePending = ['_' => 'webPagePending', 'id' => long, 'date' => int];
+$webPagePending = ['_' => 'webPagePending', 'id' => long, 'url' => 'string', 'date' => int];
 ```  

@@ -35,6 +35,7 @@ Plugin event handler class.
 * `$stats`: `\danog\MadelineProto\Namespace\Stats` 
 * `$chatlists`: `\danog\MadelineProto\Namespace\Chatlists` 
 * `$stories`: `\danog\MadelineProto\Namespace\Stories` 
+* `$premium`: `\danog\MadelineProto\Namespace\Premium` 
 
 ## Method list:
 * [`getPluginPaths(): array|string|null`](#getpluginpaths-array-string-null)

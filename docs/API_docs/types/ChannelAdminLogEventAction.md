@@ -97,6 +97,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [channelAdminLogEventActionToggleAntiSpam](/API_docs/constructors/channelAdminLogEventActionToggleAntiSpam.html)  
 
+[channelAdminLogEventActionChangeColor](/API_docs/constructors/channelAdminLogEventActionChangeColor.html)  
+
+[channelAdminLogEventActionChangeBackgroundEmoji](/API_docs/constructors/channelAdminLogEventActionChangeBackgroundEmoji.html)  
+
 
 
 ### Methods that return an object of this type (methods):

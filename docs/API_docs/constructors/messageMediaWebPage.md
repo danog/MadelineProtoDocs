@@ -15,6 +15,10 @@ Preview of webpage
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|force\_large\_media|[Bool](/API_docs/types/Bool.html) | Optional|
+|force\_small\_media|[Bool](/API_docs/types/Bool.html) | Optional|
+|manual|[Bool](/API_docs/types/Bool.html) | Optional|
+|safe|[Bool](/API_docs/types/Bool.html) | Optional|
 |webpage|[WebPage](/API_docs/types/WebPage.html) | Optional|Webpage preview|
 
 
@@ -25,5 +29,5 @@ Preview of webpage
 ### Example:
 
 ```
-$messageMediaWebPage = ['_' => 'messageMediaWebPage', 'webpage' => WebPage];
+$messageMediaWebPage = ['_' => 'messageMediaWebPage', 'force_large_media' => Bool, 'force_small_media' => Bool, 'manual' => Bool, 'safe' => Bool, 'webpage' => WebPage];
 ```  

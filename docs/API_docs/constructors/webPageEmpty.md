@@ -16,6 +16,7 @@ No preview is available for the webpage
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |id|[long](/API_docs/types/long.html) | Yes|Preview ID|
+|url|[string](/API_docs/types/string.html) | Optional|
 
 
 
@@ -25,5 +26,5 @@ No preview is available for the webpage
 ### Example:
 
 ```
-$webPageEmpty = ['_' => 'webPageEmpty', 'id' => long];
+$webPageEmpty = ['_' => 'webPageEmpty', 'id' => long, 'url' => 'string'];
 ```  

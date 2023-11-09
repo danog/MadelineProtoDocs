@@ -45,13 +45,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageEntityStrike](/API_docs/constructors/messageEntityStrike.html)  
 
-[messageEntityBlockquote](/API_docs/constructors/messageEntityBlockquote.html)  
-
 [messageEntityBankCard](/API_docs/constructors/messageEntityBankCard.html)  
 
 [messageEntitySpoiler](/API_docs/constructors/messageEntitySpoiler.html)  
 
 [messageEntityCustomEmoji](/API_docs/constructors/messageEntityCustomEmoji.html)  
+
+[messageEntityBlockquote](/API_docs/constructors/messageEntityBlockquote.html)  
 
 
 

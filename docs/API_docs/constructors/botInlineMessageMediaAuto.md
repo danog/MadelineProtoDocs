@@ -15,6 +15,7 @@ Send whatever media is attached to the [botInlineMediaResult](../constructors/bo
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|invert\_media|[Bool](/API_docs/types/Bool.html) | Optional|
 |message|[string](/API_docs/types/string.html) | Yes|Caption|
 |entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Optional|[Message entities for styled text](https://core.telegram.org/api/entities)|
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
@@ -88,5 +89,5 @@ pre-formatted fixed-width code block written in the PHP programming language
 ### Example:
 
 ```
-$botInlineMessageMediaAuto = ['_' => 'botInlineMessageMediaAuto', 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'reply_markup' => ReplyMarkup];
+$botInlineMessageMediaAuto = ['_' => 'botInlineMessageMediaAuto', 'invert_media' => Bool, 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'reply_markup' => ReplyMarkup];
 ```  

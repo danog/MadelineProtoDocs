@@ -1430,7 +1430,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.updatePasswordSettings.html" name="account.updatePasswordSettings">You cannot use this method directly; use $MadelineProto->update2fa($params), instead (see https://docs.madelineproto.xyz for more info): account.updatePasswordSettings</a>
 
+* <a href="account.getDefaultBackgroundEmojis.html" name="account.getDefaultBackgroundEmojis">account.getDefaultBackgroundEmojis</a>
+
 * <a href="account.invalidateSignInCodes.html" name="account.invalidateSignInCodes">account.invalidateSignInCodes</a>
+
+* <a href="account.updateColor.html" name="account.updateColor">account.updateColor</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#base64urldecode-string-data-string" name="base64urlDecode">base64URL decode: base64urlDecode</a>
 
@@ -1442,6 +1446,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels.clickSponsoredMessage.html" name="channels.clickSponsoredMessage">channels.clickSponsoredMessage</a>
 
+* <a href="channels.updateColor.html" name="channels.updateColor">channels.updateColor</a>
+
 * <a href="contacts.editCloseFriends.html" name="contacts.editCloseFriends">contacts.editCloseFriends</a>
 
 * <a href="contacts.setBlocked.html" name="contacts.setBlocked">contacts.setBlocked</a>
@@ -1450,11 +1456,25 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleencode-string-string-string" name="rleEncode">null-byte RLE encode: rleEncode</a>
 
+* <a href="payments.applyGiftCode.html" name="payments.applyGiftCode">payments.applyGiftCode</a>
+
+* <a href="payments.checkGiftCode.html" name="payments.checkGiftCode">payments.checkGiftCode</a>
+
+* <a href="payments.getGiveawayInfo.html" name="payments.getGiveawayInfo">payments.getGiveawayInfo</a>
+
+* <a href="payments.getPremiumGiftCodeOptions.html" name="payments.getPremiumGiftCodeOptions">payments.getPremiumGiftCodeOptions</a>
+
+* <a href="payments.launchPrepaidGiveaway.html" name="payments.launchPrepaidGiveaway">payments.launchPrepaidGiveaway</a>
+
+* <a href="premium.applyBoost.html" name="premium.applyBoost">premium.applyBoost</a>
+
+* <a href="premium.getBoostsList.html" name="premium.getBoostsList">premium.getBoostsList</a>
+
+* <a href="premium.getBoostsStatus.html" name="premium.getBoostsStatus">premium.getBoostsStatus</a>
+
+* <a href="premium.getMyBoosts.html" name="premium.getMyBoosts">premium.getMyBoosts</a>
+
 * <a href="stories.activateStealthMode.html" name="stories.activateStealthMode">stories.activateStealthMode</a>
-
-* <a href="stories.applyBoost.html" name="stories.applyBoost">stories.applyBoost</a>
-
-* <a href="stories.canApplyBoost.html" name="stories.canApplyBoost">stories.canApplyBoost</a>
 
 * <a href="stories.canSendStory.html" name="stories.canSendStory">stories.canSendStory</a>
 
@@ -1467,10 +1487,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="stories.getAllReadPeerStories.html" name="stories.getAllReadPeerStories">stories.getAllReadPeerStories</a>
 
 * <a href="stories.getAllStories.html" name="stories.getAllStories">stories.getAllStories</a>
-
-* <a href="stories.getBoostersList.html" name="stories.getBoostersList">stories.getBoostersList</a>
-
-* <a href="stories.getBoostsStatus.html" name="stories.getBoostsStatus">stories.getBoostsStatus</a>
 
 * <a href="stories.getChatsToSend.html" name="stories.getChatsToSend">stories.getChatsToSend</a>
 

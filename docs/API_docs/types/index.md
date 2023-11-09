@@ -39,7 +39,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [Bool](/API_docs/types/Bool.html)<a name="Bool"></a>  
 
-[Booster](/API_docs/types/Booster.html)<a name="Booster"></a>  
+[Boost](/API_docs/types/Boost.html)<a name="Boost"></a>  
 
 [BotApp](/API_docs/types/BotApp.html)<a name="BotApp"></a>  
 
@@ -351,6 +351,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [MessagesFilter](/API_docs/types/MessagesFilter.html)<a name="MessagesFilter"></a>  
 
+[MyBoost](/API_docs/types/MyBoost.html)<a name="MyBoost"></a>  
+
 [NearestDc](/API_docs/types/NearestDc.html)<a name="NearestDc"></a>  
 
 [NotificationSound](/API_docs/types/NotificationSound.html)<a name="NotificationSound"></a>  
@@ -421,9 +423,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [PostAddress](/API_docs/types/PostAddress.html)<a name="PostAddress"></a>  
 
+[PremiumGiftCodeOption](/API_docs/types/PremiumGiftCodeOption.html)<a name="PremiumGiftCodeOption"></a>  
+
 [PremiumGiftOption](/API_docs/types/PremiumGiftOption.html)<a name="PremiumGiftOption"></a>  
 
 [PremiumSubscriptionOption](/API_docs/types/PremiumSubscriptionOption.html)<a name="PremiumSubscriptionOption"></a>  
+
+[PrepaidGiveaway](/API_docs/types/PrepaidGiveaway.html)<a name="PrepaidGiveaway"></a>  
 
 [PrivacyKey](/API_docs/types/PrivacyKey.html)<a name="PrivacyKey"></a>  
 
@@ -793,7 +799,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [payments.BankCardData](/API_docs/types/payments.BankCardData.html)<a name="payments.BankCardData"></a>  
 
+[payments.CheckedGiftCode](/API_docs/types/payments.CheckedGiftCode.html)<a name="payments.CheckedGiftCode"></a>  
+
 [payments.ExportedInvoice](/API_docs/types/payments.ExportedInvoice.html)<a name="payments.ExportedInvoice"></a>  
+
+[payments.GiveawayInfo](/API_docs/types/payments.GiveawayInfo.html)<a name="payments.GiveawayInfo"></a>  
 
 [payments.PaymentForm](/API_docs/types/payments.PaymentForm.html)<a name="payments.PaymentForm"></a>  
 
@@ -823,6 +833,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [photos.Photos](/API_docs/types/photos.Photos.html)<a name="photos.Photos"></a>  
 
+[premium.BoostsList](/API_docs/types/premium.BoostsList.html)<a name="premium.BoostsList"></a>  
+
+[premium.BoostsStatus](/API_docs/types/premium.BoostsStatus.html)<a name="premium.BoostsStatus"></a>  
+
+[premium.MyBoosts](/API_docs/types/premium.MyBoosts.html)<a name="premium.MyBoosts"></a>  
+
 [stats.BroadcastStats](/API_docs/types/stats.BroadcastStats.html)<a name="stats.BroadcastStats"></a>  
 
 [stats.MegagroupStats](/API_docs/types/stats.MegagroupStats.html)<a name="stats.MegagroupStats"></a>  
@@ -834,12 +850,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [storage.FileType](/API_docs/types/storage.FileType.html)<a name="storage.FileType"></a>  
 
 [stories.AllStories](/API_docs/types/stories.AllStories.html)<a name="stories.AllStories"></a>  
-
-[stories.BoostersList](/API_docs/types/stories.BoostersList.html)<a name="stories.BoostersList"></a>  
-
-[stories.BoostsStatus](/API_docs/types/stories.BoostsStatus.html)<a name="stories.BoostsStatus"></a>  
-
-[stories.CanApplyBoostResult](/API_docs/types/stories.CanApplyBoostResult.html)<a name="stories.CanApplyBoostResult"></a>  
 
 [stories.PeerStories](/API_docs/types/stories.PeerStories.html)<a name="stories.PeerStories"></a>  
 

@@ -52,6 +52,8 @@ Indicates info about a certain user
 |emoji\_status|[EmojiStatus](/API_docs/types/EmojiStatus.html) | Optional|[Emoji status](https://core.telegram.org/api/emoji-status)|
 |usernames|Array of [Username](/API_docs/types/Username.html) | Optional|
 |stories\_max\_id|[int](/API_docs/types/int.html) | Optional|
+|color|[int](/API_docs/types/int.html) | Optional|
+|background\_emoji\_id|[long](/API_docs/types/long.html) | Optional|
 
 
 
@@ -61,5 +63,5 @@ Indicates info about a certain user
 ### Example:
 
 ```
-$user = ['_' => 'user', 'self' => Bool, 'contact' => Bool, 'mutual_contact' => Bool, 'deleted' => Bool, 'bot' => Bool, 'bot_chat_history' => Bool, 'bot_nochats' => Bool, 'verified' => Bool, 'restricted' => Bool, 'min' => Bool, 'bot_inline_geo' => Bool, 'support' => Bool, 'scam' => Bool, 'apply_min_photo' => Bool, 'fake' => Bool, 'bot_attach_menu' => Bool, 'premium' => Bool, 'attach_menu_enabled' => Bool, 'bot_can_edit' => Bool, 'close_friend' => Bool, 'stories_hidden' => Bool, 'stories_unavailable' => Bool, 'id' => long, 'access_hash' => long, 'first_name' => 'string', 'last_name' => 'string', 'username' => 'string', 'phone' => 'string', 'photo' => UserProfilePhoto, 'status' => UserStatus, 'bot_info_version' => int, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'bot_inline_placeholder' => 'string', 'lang_code' => 'string', 'emoji_status' => EmojiStatus, 'usernames' => [Username, Username], 'stories_max_id' => int];
+$user = ['_' => 'user', 'self' => Bool, 'contact' => Bool, 'mutual_contact' => Bool, 'deleted' => Bool, 'bot' => Bool, 'bot_chat_history' => Bool, 'bot_nochats' => Bool, 'verified' => Bool, 'restricted' => Bool, 'min' => Bool, 'bot_inline_geo' => Bool, 'support' => Bool, 'scam' => Bool, 'apply_min_photo' => Bool, 'fake' => Bool, 'bot_attach_menu' => Bool, 'premium' => Bool, 'attach_menu_enabled' => Bool, 'bot_can_edit' => Bool, 'close_friend' => Bool, 'stories_hidden' => Bool, 'stories_unavailable' => Bool, 'id' => long, 'access_hash' => long, 'first_name' => 'string', 'last_name' => 'string', 'username' => 'string', 'phone' => 'string', 'photo' => UserProfilePhoto, 'status' => UserStatus, 'bot_info_version' => int, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'bot_inline_placeholder' => 'string', 'lang_code' => 'string', 'emoji_status' => EmojiStatus, 'usernames' => [Username, Username], 'stories_max_id' => int, 'color' => int, 'background_emoji_id' => long];
 ```  

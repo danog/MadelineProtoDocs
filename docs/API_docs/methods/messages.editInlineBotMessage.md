@@ -18,6 +18,7 @@ Edit an inline bot message
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |no\_webpage|[Bool](/API_docs/types/Bool.html) | Disable webpage preview | Optional|
+|invert\_media|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |id|[InputBotInlineMessageID](/API_docs/types/InputBotInlineMessageID.html) | Sent inline message ID | Yes|
 |message|[string](/API_docs/types/string.html) | Message | Optional|
 |media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) | Media | Optional|
@@ -43,7 +44,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->editInlineBotMessage(no_webpage: $Bool, id: $InputBotInlineMessageID, message: 'string', media: $InputMedia, reply_markup: $ReplyMarkup, entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', );
+$Bool = $MadelineProto->messages->editInlineBotMessage(no_webpage: $Bool, invert_media: $Bool, id: $InputBotInlineMessageID, message: 'string', media: $InputMedia, reply_markup: $ReplyMarkup, entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', );
 ```
 
 

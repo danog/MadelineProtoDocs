@@ -18,6 +18,7 @@ Edit message
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |no\_webpage|[Bool](/API_docs/types/Bool.html) | Disable webpage preview | Optional|
+|invert\_media|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Where was the message sent | Optional|
 |id|[int](/API_docs/types/int.html) | ID of the message to edit | Optional|
 |message|[string](/API_docs/types/string.html) | New message | Optional|
@@ -45,7 +46,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->editMessage(no_webpage: $Bool, peer: $InputPeer, id: $int, message: 'string', media: $InputMedia, reply_markup: $ReplyMarkup, entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', schedule_date: $int, );
+$Updates = $MadelineProto->messages->editMessage(no_webpage: $Bool, invert_media: $Bool, peer: $InputPeer, id: $int, message: 'string', media: $InputMedia, reply_markup: $ReplyMarkup, entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', schedule_date: $int, );
 ```
 
 

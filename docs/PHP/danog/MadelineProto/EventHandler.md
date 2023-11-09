@@ -35,6 +35,7 @@ Event handler.
 * `$stats`: `\danog\MadelineProto\Namespace\Stats` 
 * `$chatlists`: `\danog\MadelineProto\Namespace\Chatlists` 
 * `$stories`: `\danog\MadelineProto\Namespace\Stories` 
+* `$premium`: `\danog\MadelineProto\Namespace\Premium` 
 
 ## Method list:
 * [`startAndLoop(string $session, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): void`](#startandloop-string-session-danog-madelineproto-settingsabstract-settings-null-void)

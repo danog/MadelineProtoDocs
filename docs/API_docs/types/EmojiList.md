@@ -23,6 +23,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$MadelineProto->account->getDefaultGroupPhotoEmojis](/API_docs/methods/account.getDefaultGroupPhotoEmojis.html)  
 
+[$MadelineProto->account->getDefaultBackgroundEmojis](/API_docs/methods/account.getDefaultBackgroundEmojis.html)  
+
 [$MadelineProto->messages->searchCustomEmoji](/API_docs/methods/messages.searchCustomEmoji.html)  
 
 

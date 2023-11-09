@@ -35,6 +35,7 @@ Represents a private or secret chat message.
 * `$forwards`: `?int` Forward counter for messages from channels or forwarded from channels
 * `$signature`: `?string` Author of the post, if signatures are enabled for messages from channels or forwarded from channels
 * `$entities`: `list<\MessageEntity>` Message [entities](https://core.telegram.org/api/entities) for styled text
+* `$groupedId`: `?int` Group ID for albums.
 * `$id`: `int` Message ID
 * `$out`: `bool` Whether the message is outgoing
 * `$chatId`: `int` ID of the chat where the message was sent

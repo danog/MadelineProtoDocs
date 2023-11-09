@@ -176,11 +176,17 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->channels->toggleParticipantsHidden](/API_docs/methods/channels.toggleParticipantsHidden.html)  
 
+[$MadelineProto->channels->updateColor](/API_docs/methods/channels.updateColor.html)  
+
 [$MadelineProto->bots->allowSendMessage](/API_docs/methods/bots.allowSendMessage.html)  
 
 [$MadelineProto->payments->assignAppStoreTransaction](/API_docs/methods/payments.assignAppStoreTransaction.html)  
 
 [$MadelineProto->payments->assignPlayMarketTransaction](/API_docs/methods/payments.assignPlayMarketTransaction.html)  
+
+[$MadelineProto->payments->applyGiftCode](/API_docs/methods/payments.applyGiftCode.html)  
+
+[$MadelineProto->payments->launchPrepaidGiveaway](/API_docs/methods/payments.launchPrepaidGiveaway.html)  
 
 [$MadelineProto->phone->discardCall](/API_docs/methods/phone.discardCall.html)  
 

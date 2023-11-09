@@ -89,6 +89,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageActionSetSameChatWallPaper](/API_docs/constructors/messageActionSetSameChatWallPaper.html)  
 
+[messageActionGiftCode](/API_docs/constructors/messageActionGiftCode.html)  
+
+[messageActionGiveawayLaunch](/API_docs/constructors/messageActionGiveawayLaunch.html)  
+
 
 
 ### Methods that return an object of this type (methods):

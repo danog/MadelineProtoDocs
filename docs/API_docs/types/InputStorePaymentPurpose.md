@@ -15,6 +15,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [inputStorePaymentGiftPremium](/API_docs/constructors/inputStorePaymentGiftPremium.html)  
 
+[inputStorePaymentPremiumGiftCode](/API_docs/constructors/inputStorePaymentPremiumGiftCode.html)  
+
+[inputStorePaymentPremiumGiveaway](/API_docs/constructors/inputStorePaymentPremiumGiveaway.html)  
+
 
 
 ### Methods that return an object of this type (methods):

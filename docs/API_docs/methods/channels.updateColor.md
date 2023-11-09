@@ -1,12 +1,12 @@
 ---
-title: "stories.canApplyBoost"
-description: "stories.canApplyBoost parameters, return type and example"
+title: "channels.updateColor"
+description: "channels.updateColor parameters, return type and example"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
-redirect_from: /API_docs/methods/stories_canApplyBoost.html
+redirect_from: /API_docs/methods/channels_updateColor.html
 ---
-# Method: stories.canApplyBoost
+# Method: channels.updateColor
 [Back to methods index](index.html)
 
 
@@ -15,12 +15,14 @@ redirect_from: /API_docs/methods/stories_canApplyBoost.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
+|color|[int](/API_docs/types/int.html) | Yes|
+|background\_emoji\_id|[long](/API_docs/types/long.html) | Optional|
 
 
-### Return type: [stories.CanApplyBoostResult](/API_docs/types/stories.CanApplyBoostResult.html)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
-### Can bots use this method: **NO**
+### Can bots use this method: **YES**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
@@ -35,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$stories_CanApplyBoostResult = $MadelineProto->stories->canApplyBoost(peer: $InputPeer, );
+$Updates = $MadelineProto->channels->updateColor(channel: $InputChannel, color: $int, background_emoji_id: $long, );
 ```
 

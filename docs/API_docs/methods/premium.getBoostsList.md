@@ -1,12 +1,12 @@
 ---
-title: "stories.getBoostersList"
-description: "stories.getBoostersList parameters, return type and example"
+title: "premium.getBoostsList"
+description: "premium.getBoostsList parameters, return type and example"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
-redirect_from: /API_docs/methods/stories_getBoostersList.html
+redirect_from: /API_docs/methods/premium_getBoostsList.html
 ---
-# Method: stories.getBoostersList
+# Method: premium.getBoostsList
 [Back to methods index](index.html)
 
 
@@ -15,14 +15,15 @@ redirect_from: /API_docs/methods/stories_getBoostersList.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
+|gifts|[Bool](/API_docs/types/Bool.html) | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 |offset|[string](/API_docs/types/string.html) | Yes|
 |limit|[int](/API_docs/types/int.html) | Yes|
 
 
-### Return type: [stories.BoostersList](/API_docs/types/stories.BoostersList.html)
+### Return type: [premium.BoostsList](/API_docs/types/premium.BoostsList.html)
 
-### Can bots use this method: **NO**
+### Can bots use this method: **YES**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
@@ -37,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$stories_BoostersList = $MadelineProto->stories->getBoostersList(peer: $InputPeer, offset: 'string', limit: $int, );
+$premium_BoostsList = $MadelineProto->premium->getBoostsList(gifts: $Bool, peer: $InputPeer, offset: 'string', limit: $int, );
 ```
 

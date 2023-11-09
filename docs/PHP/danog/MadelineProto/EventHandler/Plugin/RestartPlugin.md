@@ -35,6 +35,7 @@ Plugin that offers a /restart command to admins that can be used to restart the 
 * `$stats`: `\danog\MadelineProto\Namespace\Stats` 
 * `$chatlists`: `\danog\MadelineProto\Namespace\Chatlists` 
 * `$stories`: `\danog\MadelineProto\Namespace\Stories` 
+* `$premium`: `\danog\MadelineProto\Namespace\Premium` 
 
 ## Method list:
 * [`cmd(\danog\MadelineProto\EventHandler\SimpleFilter\Incoming&\danog\MadelineProto\EventHandler\Message&\danog\MadelineProto\EventHandler\SimpleFilter\FromAdmin $_): void`](#cmd-danog-madelineproto-eventhandler-simplefilter-incoming-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-simplefilter-fromadmin-_-void)

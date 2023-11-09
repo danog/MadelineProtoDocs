@@ -28,6 +28,7 @@ Chat invite info
 |photo|[Photo](/API_docs/types/Photo.html) | Optional|Chat/supergroup/channel photo|
 |participants\_count|[int](/API_docs/types/int.html) | Yes|Participant count|
 |participants|Array of [User](/API_docs/types/User.html) | Optional|A few of the participants that are in the group|
+|color|[int](/API_docs/types/int.html) | Yes|
 
 
 
@@ -37,5 +38,5 @@ Chat invite info
 ### Example:
 
 ```
-$chatInvite = ['_' => 'chatInvite', 'channel' => Bool, 'broadcast' => Bool, 'public' => Bool, 'megagroup' => Bool, 'request_needed' => Bool, 'verified' => Bool, 'scam' => Bool, 'fake' => Bool, 'title' => 'string', 'about' => 'string', 'photo' => Photo, 'participants_count' => int, 'participants' => [User, User]];
+$chatInvite = ['_' => 'chatInvite', 'channel' => Bool, 'broadcast' => Bool, 'public' => Bool, 'megagroup' => Bool, 'request_needed' => Bool, 'verified' => Bool, 'scam' => Bool, 'fake' => Bool, 'title' => 'string', 'about' => 'string', 'photo' => Photo, 'participants_count' => int, 'participants' => [User, User], 'color' => int];
 ```  
