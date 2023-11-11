@@ -1,5 +1,5 @@
 ---
-title: "danog\\MadelineProto\\EventHandler\\Delete\\DeleteMessages: Some messages were deleted in a private chat or simple group"
+title: "danog\\MadelineProto\\EventHandler\\Delete\\DeleteMessages: Some messages were deleted in a private chat or simple group."
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
@@ -11,7 +11,7 @@ parent: "MadelineProto API"
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Some messages were deleted in a private chat or simple group  
+Some messages were deleted in a private chat or simple group.  
 
 
 

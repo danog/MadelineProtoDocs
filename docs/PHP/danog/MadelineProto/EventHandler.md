@@ -241,6 +241,7 @@ Event handler.
 * [`viewSponsoredMessage(int|array $peer, string|array{random_id: string} $message): bool`](#viewsponsoredmessage-int-array-peer-string-array-random_id-string-message-bool)
 * [`wrapMedia(array $media, bool $protected = false): ?\danog\MadelineProto\EventHandler\Media`](#wrapmedia-array-media-bool-protected-false-danog-madelineproto-eventhandler-media)
 * [`wrapMessage(array $message): ?\danog\MadelineProto\EventHandler\AbstractMessage`](#wrapmessage-array-message-danog-madelineproto-eventhandler-abstractmessage)
+* [`wrapPin(array $message): ?\danog\MadelineProto\EventHandler\Pinned`](#wrappin-array-message-danog-madelineproto-eventhandler-pinned)
 * [`wrapUpdate(array $update): ?\danog\MadelineProto\EventHandler\Update`](#wrapupdate-array-update-danog-madelineproto-eventhandler-update)
 
 ## Methods:
@@ -2863,6 +2864,22 @@ Parameters:
 
 #### See also: 
 * [`\danog\MadelineProto\EventHandler\AbstractMessage`: Represents an incoming or outgoing message.](../../danog/MadelineProto/EventHandler/AbstractMessage.html)
+
+
+
+
+### `wrapPin(array $message): ?\danog\MadelineProto\EventHandler\Pinned`
+
+Wrap a Pin constructor into an abstract Pinned object.
+
+
+Parameters:
+
+* `$message`: `array`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Pinned`: Indicates that some messages were pinned/unpinned.](../../danog/MadelineProto/EventHandler/Pinned.html)
 
 
 

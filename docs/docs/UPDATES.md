@@ -65,7 +65,7 @@ if (file_exists('vendor/autoload.php')) {
 class MyEventHandler extends SimpleEventHandler
 {
     // !!! Change this to your username !!!
-    const ADMIN = "@me";
+    public const ADMIN = "@me";
 
     /**
      * Get peer(s) where to report errors.
@@ -85,7 +85,7 @@ class MyEventHandler extends SimpleEventHandler
         return [
             // Offers a /restart command to admins that can be used to restart the bot, applying changes.
             // Make sure to run in a bash while loop when running via CLI to allow self-restarts.
-            RestartPlugin::class
+            RestartPlugin::class,
         ];
     }
 
@@ -185,7 +185,7 @@ class MyEventHandler extends SimpleEventHandler
     /**
      * @var int|string Username or ID of bot admin
      */
-    const ADMIN = "@me"; // !!! Change this to your username !!!
+    public const ADMIN = "@me"; // !!! Change this to your username !!!
 
     /**
      * @var array<int, bool>
@@ -228,7 +228,7 @@ class MyEventHandler extends SimpleEventHandler
         return [
             // Offers a /restart command to admins that can be used to restart the bot, applying changes.
             // Make sure to run in a bash while loop when running via CLI to allow self-restarts.
-            RestartPlugin::class
+            RestartPlugin::class,
         ];
     }
 
@@ -301,9 +301,9 @@ class MyEventHandler extends SimpleEventHandler
 
         $stories = $this->stories->getUserStories(user_id: $message->commandArgs[0])['stories']['stories'];
         // Skip deleted stories
-        $stories = array_filter($stories, fn (array $s): bool => $s['_'] === 'storyItem');
+        $stories = array_filter($stories, static fn (array $s): bool => $s['_'] === 'storyItem');
         // Sort by date
-        usort($stories, fn ($a, $b) => $a['date'] <=> $b['date']);
+        usort($stories, static fn ($a, $b) => $a['date'] <=> $b['date']);
 
         $result = "Total stories: ".count($stories)."\n\n";
         foreach ($stories as $story) {
@@ -518,7 +518,7 @@ Here's a full list of the concrete object types on which bound methods and prope
 * [danog\MadelineProto\EventHandler\Delete\DeleteChannelMessages &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Delete/DeleteChannelMessages.html) - Some messages in a [supergroup/channel](https://core.telegram.org/api/channel) were deleted.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Delete/DeleteChannelMessages.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Delete/DeleteChannelMessages.html#method-list)
-* [danog\MadelineProto\EventHandler\Delete\DeleteMessages &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Delete/DeleteMessages.html) - Some messages were deleted in a private chat or simple group
+* [danog\MadelineProto\EventHandler\Delete\DeleteMessages &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Delete/DeleteMessages.html) - Some messages were deleted in a private chat or simple group.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Delete/DeleteMessages.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Delete/DeleteMessages.html#method-list)
 * [danog\MadelineProto\EventHandler\Delete\DeleteScheduledMessages &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Delete/DeleteScheduledMessages.html) - Some [scheduled messages](https://core.telegram.org/api/scheduled-messages) were deleted from the schedule queue of a chat.
@@ -656,7 +656,7 @@ Here's a full list of the concrete object types on which bound methods and prope
 * [danog\MadelineProto\EventHandler\Pinned\PinnedGroupMessages &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Pinned/PinnedGroupMessages.html) - Represents messages that were pinned/unpinned in a [chat/supergroup](https://core.telegram.org/api/channel).
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Pinned/PinnedGroupMessages.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Pinned/PinnedGroupMessages.html#method-list)
-* [danog\MadelineProto\EventHandler\Pinned\PinnedPrivateMessages &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Pinned/PinnedPrivateMessages.html) - Some messages were pinned in a private chat
+* [danog\MadelineProto\EventHandler\Pinned\PinnedPrivateMessages &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Pinned/PinnedPrivateMessages.html) - Some messages were pinned in a private chat.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Pinned/PinnedPrivateMessages.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Pinned/PinnedPrivateMessages.html#method-list)
 * [danog\MadelineProto\EventHandler\Privacy &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Privacy.html) - Indicates some privacy rules for a user or set of users.

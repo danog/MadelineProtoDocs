@@ -1,5 +1,5 @@
 ---
-title: "danog\\MadelineProto\\EventHandler\\ChatInvite\\ChatInviteExported: Represents an exported chat invite"
+title: "danog\\MadelineProto\\EventHandler\\ChatInvite\\ChatInviteExported: Represents an exported chat invite."
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
@@ -11,7 +11,7 @@ parent: "MadelineProto API"
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Represents an exported chat invite  
+Represents an exported chat invite.  
 
 
 

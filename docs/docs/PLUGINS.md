@@ -165,7 +165,7 @@ if (file_exists('vendor/autoload.php')) {
 class MyEventHandler extends SimpleEventHandler
 {
     // !!! Change this to your username !!!
-    const ADMIN = "@me";
+    public const ADMIN = "@me";
 
     /**
      * Get peer(s) where to report errors.
@@ -185,7 +185,7 @@ class MyEventHandler extends SimpleEventHandler
         return [
             // Offers a /restart command to admins that can be used to restart the bot, applying changes.
             // Make sure to run in a bash while loop when running via CLI to allow self-restarts.
-            RestartPlugin::class
+            RestartPlugin::class,
         ];
     }
 

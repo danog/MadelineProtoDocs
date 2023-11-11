@@ -1,5 +1,5 @@
 ---
-title: "danog\\MadelineProto\\EventHandler\\Pinned\\PinnedPrivateMessages: Some messages were pinned in a private chat"
+title: "danog\\MadelineProto\\EventHandler\\Pinned\\PinnedPrivateMessages: Some messages were pinned in a private chat."
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
@@ -11,7 +11,7 @@ parent: "MadelineProto API"
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Some messages were pinned in a private chat  
+Some messages were pinned in a private chat.  
 
 
 
