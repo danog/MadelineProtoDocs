@@ -88,7 +88,7 @@ The prefix may be the same if different databases are used.
 
 This is useful when running MadelineProto inside docker containers without volumes, using just a database.  
 
-Note that the session folder must still NEVER be deleted *if* MadelineProto is running, or else the session will be dropped from the database due to `AUTH_KEY_DUPLICATED`` errors.  
+Note that the session folder must still NEVER be deleted *if* MadelineProto is running, or else the session will be dropped from the database due to `AUTH_KEY_DUPLICATED` errors.  
 
 Stopping the container gracefully and then deleting the session folder (i.e. by deleting or recreating the container itself) is 100% OK though.  
 
