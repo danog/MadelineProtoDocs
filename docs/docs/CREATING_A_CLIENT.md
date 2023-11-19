@@ -1,10 +1,12 @@
 ---
 title: "Creating a client"
-description: "To create the session and set the serialization destination file, do the following:"
+description: "This page explains how to create a MadelineProto instance."
 nav_order: 4
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Creating a client
+
+This page explains how to create a MadelineProto instance.
 
 To create the session and set the serialization destination file, do the following:
 

@@ -48,8 +48,12 @@ services:
       #- postgres
       #- redis
     tty: true
+
+    # Optional, can be removed if ephemeral filesystem support is enabled
+    # See https://docs.madelineproto.xyz/docs/DATABASE.html#ephemeral-filesystems for more info
     volumes:
       - ./app:/app
+
     command: php /app/bot.php
 ```
 
@@ -111,30 +115,13 @@ services:
 
 ```
 
-If you want to use the mysql backend for lower memory usage, uncomment all `mariadb` sections and use the following MadelineProto settings to connect:
+If you want to use the mysql backend for lower memory usage, uncomment all `mariadb` sections and use [these MadelineProto settings to connect &raquo;](https://docs.madelineproto.xyz/docs/DATABASE.html#mysql-example-low-memory-usage).  
 
-```php
-$settings = (new \danog\MadelineProto\Settings\Database\Mysql)
-    ->setUri('tcp://mariadb')
-    ->setPassword('replace_me_with_a_secure_password');
-```
+If you want to use the postgres backend for lower memory usage, uncomment all `postgres` sections and use [these MadelineProto settings to connect &raquo;](https://docs.madelineproto.xyz/docs/DATABASE.html#postgres-example-low-memory-usage).  
 
-If you want to use the postgres backend for lower memory usage, uncomment all `postgres` sections and use the following MadelineProto settings to connect:
+If you want to use the redis backend, uncomment all `redis` sections and use these [MadelineProto settings to connect](https://docs.madelineproto.xyz/docs/DATABASE.html#redis-example-medium-memory-usage-faster-access).  
 
-```php
-$settings = (new \danog\MadelineProto\Settings\Database\Postgres)
-    ->setUri('tcp://postgres')
-    ->setDatabase('madeline')
-    ->setUsername('admin')
-    ->setPassword('replace_me_with_a_secure_password');
-```
-
-If you want to use the redis backend, uncomment all `redis` sections and use the following MadelineProto settings to connect:
-
-```php
-$settings = (new \danog\MadelineProto\Settings\Database\Redis)
-    ->setUri('tcp://redis');
-```
+**NOTE**: MadelineProto can also be configured to run on ephemeral filesystems (i.e. docker containers with no volumes, storing all data on MySQL/Postgres/Redis) by setting a table prefix manually in the settings, as specified [here &raquo;](https://docs.madelineproto.xyz/docs/DATABASE.html#ephemeral-filesystems).  
 
 ### Web docker
 
