@@ -18,4 +18,6 @@ Do the same to load a serialized session:
 $MadelineProto = new \danog\MadelineProto\API('session.madeline', $settings);  // The session will be loaded from session.madeline
 ```
 
+MadelineProto can also be configured to run on ephemeral filesystems (i.e. docker containers with no volumes, storing all data on MySQL/Postgres/Redis) by setting a table prefix manually in the settings, as specified [here &raquo;](https://docs.madelineproto.xyz/docs/DATABASE.html).  
+
 <a href="https://docs.madelineproto.xyz/docs/LOGIN.html">Next section</a>

@@ -37,6 +37,9 @@ $API = new \danog\MadelineProto\API('session.madeline', $settings);
 **WARNING**: Make sure to run `SET GLOBAL max_connections = 100000;` as root in the mysql/mariadb console, **regardless of the limit you set in the MadelineProto settings**.  
 Make sure to run the command **after every system restart**, or modify the database configuration file to set the maximum connection limit to `100000`.  
 
+MadelineProto can also be configured to run on ephemeral filesystems (i.e. docker containers with no volumes, storing all data on MySQL) by setting a table prefix manually in the settings, as specified [here &raquo;](#ephemeral-filesystems).  
+
+
 ### Postgres example (low memory usage):
 
 ```php
@@ -44,6 +47,8 @@ $settings = (new \danog\MadelineProto\Settings\Database\Postgres)
     ->setUri('tcp://localhost')
     ->setPassword('pass');
 ```
+
+MadelineProto can also be configured to run on ephemeral filesystems (i.e. docker containers with no volumes, storing all data on Postgres) by setting a table prefix manually in the settings, as specified [here &raquo;](#ephemeral-filesystems).  
 
 ### Redis example (medium memory usage, faster access):
 
@@ -53,15 +58,19 @@ $settings = (new \danog\MadelineProto\Settings\Database\Redis)
     ->setPassword('pass');
 ```
 
+MadelineProto can also be configured to run on ephemeral filesystems (i.e. docker containers with no volumes, storing all data on Redis) by setting a table prefix manually in the settings, as specified [here &raquo;](#ephemeral-filesystems).  
+
 ### Memory example (medium-high memory usage, fastest access):
 
 ```php
 $settings = new \danog\MadelineProto\Settings\Database\Memory;
 ```
 
+This mode, unlike [mysql](#mysql-example-low-memory-usage), [postgres](#postgres-example-low-memory-usage) and [redis](#redis-example-medium-memory-usage-faster-access) does not support [ephemeral filesystems](#ephemeral-filesystems), thus a persistent filesystem must be used for the session folder.  
+
 ### Ephemeral filesystems
 
-MadelineProto can also be configured to run on ephemeral filesystems (i.e. docker containers with no volumes, storing all data on MySQL/Postgres/Redis) by setting a table prefix manually in the settings:
+MadelineProto can also be configured to run on ephemeral filesystems (i.e. docker containers with no volumes, storing all data on [MySQL](#mysql-example-low-memory-usage)/[Postgres](#postgres-example-low-memory-usage)/[Redis](#redis-example-medium-memory-usage-faster-access)) by setting a table prefix manually in the settings:
 
 ```php
 $settings = (new \danog\MadelineProto\Settings\Database\Mysql)
@@ -72,7 +81,7 @@ $settings = (new \danog\MadelineProto\Settings\Database\Mysql)
 $API = new \danog\MadelineProto\API('session.madeline', $settings);
 ```
 
-This setting indicates that the filesystem is ephemeral, and thus session files will not be used to store persistent data.  
+The `setEphemeralFilesystemPrefix` setting indicates that the filesystem is ephemeral, and thus session files will not be used to store persistent data.  
 
 The prefix must contain a unique string, used as prefix for database tables, different for every session.  
 The prefix may be the same if different databases are used.  
@@ -81,6 +90,6 @@ This is useful when running MadelineProto inside docker containers without volum
 
 Note that the session folder must still NEVER be deleted *if* MadelineProto is running, or else the session will be dropped from the database due to `AUTH_KEY_DUPLICATED`` errors.  
 
-Stopping the container and then deleting the session folder (i.e. by deleting or recreating the container itself) is 100% OK though.  
+Stopping the container gracefully and then deleting the session folder (i.e. by deleting or recreating the container itself) is 100% OK though.  
 
 <a href="https://docs.madelineproto.xyz/docs/SETTINGS.html">Next section</a>
