@@ -1,4 +1,4 @@
-color_scheme: light
+color_scheme: dark
 
 plugins:
   - jekyll-sitemap
