@@ -22,7 +22,8 @@ Redis backend settings.
 * [`setDatabase(int $database): self`](#setdatabase-int-database-self)
 * [`getUri(): string`](#geturi-string)
 * [`setUri(string $uri): static`](#seturi-string-uri-static)
-* [`getKey(): string`](#getkey-string)
+* [`getEphemeralFilesystemPrefix(): ?string`](#getephemeralfilesystemprefix-string)
+* [`setEphemeralFilesystemPrefix(?string $ephemeralFilesystemPrefix): static`](#setephemeralfilesystemprefix-string-ephemeralfilesystemprefix-static)
 * [`getCacheTtl(): int`](#getcachettl-int)
 * [`setCacheTtl(int|string $cacheTtl): static`](#setcachettl-int-string-cachettl-static)
 * [`getPassword(): string`](#getpassword-string)
@@ -30,15 +31,15 @@ Redis backend settings.
 * [`getSerializer(): ?\danog\MadelineProto\Settings\Database\SerializerType`](#getserializer-danog-madelineproto-settings-database-serializertype)
 * [`setSerializer(?\danog\MadelineProto\Settings\Database\SerializerType $serializer): static`](#setserializer-danog-madelineproto-settings-database-serializertype-serializer-static)
 * [`getEnableFileReferenceDb(): bool`](#getenablefilereferencedb-bool)
-* [`setEnableFileReferenceDb(bool $enableFileReferenceDb): self`](#setenablefilereferencedb-bool-enablefilereferencedb-self)
+* [`setEnableFileReferenceDb(bool $enableFileReferenceDb): static`](#setenablefilereferencedb-bool-enablefilereferencedb-static)
 * [`getEnableMinDb(): bool`](#getenablemindb-bool)
-* [`setEnableMinDb(bool $enableMinDb): self`](#setenablemindb-bool-enablemindb-self)
+* [`setEnableMinDb(bool $enableMinDb): static`](#setenablemindb-bool-enablemindb-static)
 * [`getEnableUsernameDb(): bool`](#getenableusernamedb-bool)
-* [`setEnableUsernameDb(bool $enableUsernameDb): self`](#setenableusernamedb-bool-enableusernamedb-self)
+* [`setEnableUsernameDb(bool $enableUsernameDb): static`](#setenableusernamedb-bool-enableusernamedb-static)
 * [`getEnableFullPeerDb(): bool`](#getenablefullpeerdb-bool)
-* [`setEnableFullPeerDb(bool $enableFullPeerDb): self`](#setenablefullpeerdb-bool-enablefullpeerdb-self)
+* [`setEnableFullPeerDb(bool $enableFullPeerDb): static`](#setenablefullpeerdb-bool-enablefullpeerdb-static)
 * [`getEnablePeerInfoDb(): bool`](#getenablepeerinfodb-bool)
-* [`setEnablePeerInfoDb(bool $enablePeerInfoDb): self`](#setenablepeerinfodb-bool-enablepeerinfodb-self)
+* [`setEnablePeerInfoDb(bool $enablePeerInfoDb): static`](#setenablepeerinfodb-bool-enablepeerinfodb-static)
 
 ## Methods:
 ### `getDriverClass(): string`
@@ -81,9 +82,36 @@ Parameters:
 
 
 
-### `getKey(): string`
+### `getEphemeralFilesystemPrefix(): ?string`
 
-Get DB key.
+If set, indicates that the filesystem is ephemeral, and thus session files will not be used to store persistent data.
+Must contain a unique string, used as prefix for database tables, different for every session.  
+The prefix may be the same if different databases are used.  
+  
+This is useful when running MadelineProto inside docker containers without volumes, using just a database.  
+  
+Note that the session folder must still NEVER be deleted *if* MadelineProto is running,  
+or else the session will be dropped from the database due to AUTH_KEY_DUPLICATED errors.  
+  
+Stopping the container and then deleting the session folder is 100%% OK though.
+
+
+### `setEphemeralFilesystemPrefix(?string $ephemeralFilesystemPrefix): static`
+
+If set, indicates that the filesystem is ephemeral, and thus session files will not be used to store persistent data.
+Must contain a unique string, used as prefix for database tables, different for every session.  
+The prefix may be the same if different databases are used.  
+  
+This is useful when running MadelineProto inside docker containers without volumes, using just a database.  
+  
+Note that the session folder must still NEVER be deleted *if* MadelineProto is running,  
+or else the session will be dropped from the database due to AUTH_KEY_DUPLICATED errors.  
+  
+Stopping the container and then deleting the session folder is 100%% OK though.
+
+Parameters:
+
+* `$ephemeralFilesystemPrefix`: `?string` The database prefix  
 
 
 
@@ -158,7 +186,7 @@ Get whether to enable the file reference database. If disabled, will break file 
 
 
 
-### `setEnableFileReferenceDb(bool $enableFileReferenceDb): self`
+### `setEnableFileReferenceDb(bool $enableFileReferenceDb): static`
 
 Set whether to enable the file reference database. If disabled, will break file downloads.
 
@@ -175,7 +203,7 @@ Get whether to enable the min database. If disabled, will break sendMessage (and
 
 
 
-### `setEnableMinDb(bool $enableMinDb): self`
+### `setEnableMinDb(bool $enableMinDb): static`
 
 Set whether to enable the min database. If disabled, will break sendMessage (and other methods) in certain conditions.
 
@@ -192,7 +220,7 @@ Get whether to enable the username database. If disabled, will break sendMessage
 
 
 
-### `setEnableUsernameDb(bool $enableUsernameDb): self`
+### `setEnableUsernameDb(bool $enableUsernameDb): static`
 
 Set whether to enable the username database. If disabled, will break sendMessage (and other methods) with usernames.
 
@@ -209,7 +237,7 @@ Get whether to enable the full peer info database. If disabled, will break getFu
 
 
 
-### `setEnableFullPeerDb(bool $enableFullPeerDb): self`
+### `setEnableFullPeerDb(bool $enableFullPeerDb): static`
 
 Set whether to enable the full peer info database. If disabled, will break getFullInfo.
 
@@ -226,7 +254,7 @@ Get whether to enable the peer info database. If disabled, will break getInfo.
 
 
 
-### `setEnablePeerInfoDb(bool $enablePeerInfoDb): self`
+### `setEnablePeerInfoDb(bool $enablePeerInfoDb): static`
 
 Set whether to enable the peer info database. If disabled, will break getInfo.
 

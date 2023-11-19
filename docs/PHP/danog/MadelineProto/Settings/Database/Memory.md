@@ -19,15 +19,15 @@ Memory backend settings.
 ## Method list:
 * [`getDriverClass(): string`](#getdriverclass-string)
 * [`getEnableFileReferenceDb(): bool`](#getenablefilereferencedb-bool)
-* [`setEnableFileReferenceDb(bool $enableFileReferenceDb): self`](#setenablefilereferencedb-bool-enablefilereferencedb-self)
+* [`setEnableFileReferenceDb(bool $enableFileReferenceDb): static`](#setenablefilereferencedb-bool-enablefilereferencedb-static)
 * [`getEnableMinDb(): bool`](#getenablemindb-bool)
-* [`setEnableMinDb(bool $enableMinDb): self`](#setenablemindb-bool-enablemindb-self)
+* [`setEnableMinDb(bool $enableMinDb): static`](#setenablemindb-bool-enablemindb-static)
 * [`getEnableUsernameDb(): bool`](#getenableusernamedb-bool)
-* [`setEnableUsernameDb(bool $enableUsernameDb): self`](#setenableusernamedb-bool-enableusernamedb-self)
+* [`setEnableUsernameDb(bool $enableUsernameDb): static`](#setenableusernamedb-bool-enableusernamedb-static)
 * [`getEnableFullPeerDb(): bool`](#getenablefullpeerdb-bool)
-* [`setEnableFullPeerDb(bool $enableFullPeerDb): self`](#setenablefullpeerdb-bool-enablefullpeerdb-self)
+* [`setEnableFullPeerDb(bool $enableFullPeerDb): static`](#setenablefullpeerdb-bool-enablefullpeerdb-static)
 * [`getEnablePeerInfoDb(): bool`](#getenablepeerinfodb-bool)
-* [`setEnablePeerInfoDb(bool $enablePeerInfoDb): self`](#setenablepeerinfodb-bool-enablepeerinfodb-self)
+* [`setEnablePeerInfoDb(bool $enablePeerInfoDb): static`](#setenablepeerinfodb-bool-enablepeerinfodb-static)
 
 ## Methods:
 ### `getDriverClass(): string`
@@ -42,7 +42,7 @@ Get whether to enable the file reference database. If disabled, will break file 
 
 
 
-### `setEnableFileReferenceDb(bool $enableFileReferenceDb): self`
+### `setEnableFileReferenceDb(bool $enableFileReferenceDb): static`
 
 Set whether to enable the file reference database. If disabled, will break file downloads.
 
@@ -59,7 +59,7 @@ Get whether to enable the min database. If disabled, will break sendMessage (and
 
 
 
-### `setEnableMinDb(bool $enableMinDb): self`
+### `setEnableMinDb(bool $enableMinDb): static`
 
 Set whether to enable the min database. If disabled, will break sendMessage (and other methods) in certain conditions.
 
@@ -76,7 +76,7 @@ Get whether to enable the username database. If disabled, will break sendMessage
 
 
 
-### `setEnableUsernameDb(bool $enableUsernameDb): self`
+### `setEnableUsernameDb(bool $enableUsernameDb): static`
 
 Set whether to enable the username database. If disabled, will break sendMessage (and other methods) with usernames.
 
@@ -93,7 +93,7 @@ Get whether to enable the full peer info database. If disabled, will break getFu
 
 
 
-### `setEnableFullPeerDb(bool $enableFullPeerDb): self`
+### `setEnableFullPeerDb(bool $enableFullPeerDb): static`
 
 Set whether to enable the full peer info database. If disabled, will break getFullInfo.
 
@@ -110,7 +110,7 @@ Get whether to enable the peer info database. If disabled, will break getInfo.
 
 
 
-### `setEnablePeerInfoDb(bool $enablePeerInfoDb): self`
+### `setEnablePeerInfoDb(bool $enablePeerInfoDb): static`
 
 Set whether to enable the peer info database. If disabled, will break getInfo.
 
