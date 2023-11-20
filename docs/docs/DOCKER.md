@@ -48,16 +48,14 @@ services:
       #- postgres
       #- redis
     tty: true
-
-    # Optional, can be removed if ephemeral filesystem support is enabled
-    # See https://docs.madelineproto.xyz/docs/DATABASE.html#ephemeral-filesystems for more info
     volumes:
       - ./app:/app
-
     command: php /app/bot.php
 ```
 
 Then, create an `app` folder, and an `app/bot.php` file with your code.  
+
+**Mac OS note**: If you encounter issues on Mac OS, make sure to enable ephemeral filesystem support with a database [as described here &raquo;](https://docs.madelineproto.xyz/docs/DATABASE.html#ephemeral-filesystems), and change the session path in `bot.php` to point to a unique path in `/tmp`, not in `/app`.  
 
 Then, run this command to log into the bot:
 
