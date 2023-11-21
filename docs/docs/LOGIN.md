@@ -175,7 +175,7 @@ if (isset($_GET['waitQrCodeOrLogin']) || isset($_GET['getQrCode'])) {
             $qr = $qr?->waitForLoginOrQrCodeExpiration(new TimeoutCancellation(5.0));
         }
     } catch (CancelledException) {
-        $qr = $this->qrLogin();
+        $qr = $MadelineProto->qrLogin();
     }
     if ($qr) {
         $result = [

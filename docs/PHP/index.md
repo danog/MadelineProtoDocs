@@ -219,6 +219,7 @@ PHP implementation of telegram's MTProto protocol.
 * [\danog\MadelineProto\EventHandler\Message\Entities\CustomEmoji: Represents a custom emoji.](/PHP/danog/MadelineProto/EventHandler/Message/Entities/CustomEmoji.html)
 * [\danog\MadelineProto\EventHandler\Message\Entities\Email: Message entity representing an email@example.com.](/PHP/danog/MadelineProto/EventHandler/Message/Entities/Email.html)
 * [\danog\MadelineProto\EventHandler\Message\Entities\Hashtag: #hashtag message entity.](/PHP/danog/MadelineProto/EventHandler/Message/Entities/Hashtag.html)
+* [\danog\MadelineProto\EventHandler\Message\Entities\InputMentionName: Message entity representing a [user mention](https://core.telegram.org/api/mentions) created by the user, not returned by the API.](/PHP/danog/MadelineProto/EventHandler/Message/Entities/InputMentionName.html)
 * [\danog\MadelineProto\EventHandler\Message\Entities\Italic: Message entity representing italic text.](/PHP/danog/MadelineProto/EventHandler/Message/Entities/Italic.html)
 * [\danog\MadelineProto\EventHandler\Message\Entities\Mention: Message entity mentioning the current user.](/PHP/danog/MadelineProto/EventHandler/Message/Entities/Mention.html)
 * [\danog\MadelineProto\EventHandler\Message\Entities\MentionName: Message entity representing a [user mention](https://core.telegram.org/api/mentions).](/PHP/danog/MadelineProto/EventHandler/Message/Entities/MentionName.html)

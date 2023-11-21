@@ -1,6 +1,6 @@
 ---
 title: "inputInvoiceSlug"
-description: "An invoice slug taken from an invoice deep link or from the premiuminvoiceslug app config parameter »"
+description: "An invoice slug taken from an invoice deep link or from the premium_invoice_slug app config parameter »"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---

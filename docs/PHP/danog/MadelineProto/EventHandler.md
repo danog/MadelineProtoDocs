@@ -168,6 +168,7 @@ Event handler.
 * [`isTestMode(): bool`](#istestmode-bool)
 * [`logger(mixed $param, int $level = \danog\MadelineProto\Logger::NOTICE, string $file = ''): void`](#logger-mixed-param-int-level-danog-madelineproto-logger-notice-string-file-void)
 * [`logout(): void`](#logout-void)
+* [`markdownCodeEscape(string $what): string`](#markdowncodeescape-string-what-string)
 * [`markdownCodeblockEscape(string $what): string`](#markdowncodeblockescape-string-what-string)
 * [`markdownEscape(string $what): string`](#markdownescape-string-what-string)
 * [`markdownToMessageEntities(string $markdown): \danog\MadelineProto\TL\Conversion\MarkdownEntities Object containing message and entities`](#markdowntomessageentities-string-markdown-danog-madelineproto-tl-conversion-markdownentities-object-containing-message-and-entities)
@@ -1832,6 +1833,17 @@ Parameters:
 ### `logout(): void`
 
 Logout the session.
+
+
+
+### `markdownCodeEscape(string $what): string`
+
+Escape string for markdown code section.
+
+
+Parameters:
+
+* `$what`: `string` String to escape  
 
 
 

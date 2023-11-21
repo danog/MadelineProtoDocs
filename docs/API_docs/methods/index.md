@@ -350,6 +350,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#markdownurlescape-string-what-string" name="markdownUrlEscape">Escape string for URL: markdownUrlEscape</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#markdowncodeescape-string-what-string" name="markdownCodeEscape">Escape string for markdown code section: markdownCodeEscape</a>
+
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#markdowncodeblockescape-string-what-string" name="markdownCodeblockEscape">Escape string for markdown codeblock: markdownCodeblockEscape</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#markdownescape-string-what-string" name="markdownEscape">Escape string for markdown: markdownEscape</a>
@@ -374,7 +376,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getCustomEmojiDocuments.html" name="messages.getCustomEmojiDocuments">Fetch custom emoji stickers »: messages.getCustomEmojiDocuments</a>
 
-* <a href="chatlists.getChatlistUpdates.html" name="chatlists.getChatlistUpdates">Fetch new chats associated with an imported chat folder deep link ». Must be invoked at most every chatlistupdateperiod seconds (as per the related client configuration parameter »): chatlists.getChatlistUpdates</a>
+* <a href="chatlists.getChatlistUpdates.html" name="chatlists.getChatlistUpdates">Fetch new chats associated with an imported chat folder deep link ». Must be invoked at most every chatlist_update_period seconds (as per the related client configuration parameter »): chatlists.getChatlistUpdates</a>
 
 * <a href="account.getSavedRingtones.html" name="account.getSavedRingtones">Fetch saved notification sounds: account.getSavedRingtones</a>
 
@@ -708,7 +710,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.getWebAuthorizations.html" name="account.getWebAuthorizations">Get web login widget authorizations: account.getWebAuthorizations</a>
 
-* <a href="messages.getMessageReadParticipants.html" name="messages.getMessageReadParticipants">Get which users read a specific message: only available for groups and supergroups with less than chatreadmarksizethreshold members, read receipts will be stored for chatreadmarkexpireperiod seconds after the message was sent, see client configuration for more info »: messages.getMessageReadParticipants</a>
+* <a href="messages.getMessageReadParticipants.html" name="messages.getMessageReadParticipants">Get which users read a specific message: only available for groups and supergroups with less than chat_read_mark_size_threshold members, read receipts will be stored for chat_read_mark_expire_period seconds after the message was sent, see client configuration for more info »: messages.getMessageReadParticipants</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getsecretmessage-int-chatid-int-randomid-danog-madelineproto-eventhandler-message-secretmessage" name="getSecretMessage">Gets a secret chat message: getSecretMessage</a>
 
