@@ -973,6 +973,7 @@ To dynamically start a new event handler in the background, use `Tools::callFork
 ```php
 use danog\MadelineProto\EventHandler;
 use danog\MadelineProto\Tools;
+use Revolt\EventLoop;
 
 // Normal event handler definition as above
 
@@ -983,6 +984,8 @@ foreach ([
 ] as $session => $message) {
     Tools::callFork(MyEventHandler::startAndLoop(...), $session);
 }
+
+EventLoop::run(); // Or continue using some other async code...
 ```
 
 ### Automatic static analysis
