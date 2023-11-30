@@ -66,6 +66,7 @@ Some tools.
 * [`entitiesToHtml(string $message, list<\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int}> $entities, bool $allowTelegramTags = false): string`](#entitiestohtml-string-message-list-danog-madelineproto-eventhandler-message-entities-messageentity-array-_-string-offset-int-length-int-entities-bool-allowtelegramtags-false-string)
 * [`toCamelCase(string $input): string`](#tocamelcase-string-input-string)
 * [`toSnakeCase(string $input): string`](#tosnakecase-string-input-string)
+* [`htmlEscape(string $what): string`](#htmlescape-string-what-string)
 * [`markdownEscape(string $what): string`](#markdownescape-string-what-string)
 * [`markdownCodeblockEscape(string $what): string`](#markdowncodeblockescape-string-what-string)
 * [`markdownCodeEscape(string $what): string`](#markdowncodeescape-string-what-string)
@@ -639,6 +640,17 @@ Convert to snake_case.
 Parameters:
 
 * `$input`: `string` String  
+
+
+
+### `htmlEscape(string $what): string`
+
+Escape string for MadelineProto's HTML entity converter.
+
+
+Parameters:
+
+* `$what`: `string` String to escape  
 
 
 

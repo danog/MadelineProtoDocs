@@ -186,6 +186,7 @@ Main API wrapper for MadelineProto.
 * [`hasPlugin(class-string<\danog\MadelineProto\EventHandler> $class): bool`](#hasplugin-class-string-danog-madelineproto-eventhandler-class-bool)
 * [`hasReportPeers(): bool`](#hasreportpeers-bool)
 * [`hasSecretChat(array|int $chat): bool`](#hassecretchat-array-int-chat-bool)
+* [`htmlEscape(string $what): string`](#htmlescape-string-what-string)
 * [`htmlToMessageEntities(string $html): \danog\MadelineProto\TL\Conversion\DOMEntities Object containing message and entities`](#htmltomessageentities-string-html-danog-madelineproto-tl-conversion-domentities-object-containing-message-and-entities)
 * [`importAuthorization(array<int, string> $authorization, int $mainDcID): array`](#importauthorization-array-int-string-authorization-int-maindcid-array)
 * [`inflateStripped(string $stripped): string`](#inflatestripped-string-stripped-string)
@@ -1685,6 +1686,17 @@ Check whether secret chat exists.
 Parameters:
 
 * `$chat`: `array|int` Secret chat ID  
+
+
+
+### `htmlEscape(string $what): string`
+
+Escape string for MadelineProto's HTML entity converter.
+
+
+Parameters:
+
+* `$what`: `string` String to escape  
 
 
 

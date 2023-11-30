@@ -955,7 +955,6 @@ foreach ([
     'user.madeline' => 'Userbot login',
     'user2.madeline' => 'Userbot login (2)'
 ] as $session => $message) {
-    Logger::log($message, Logger::WARNING);
     $MadelineProtos []= new API($session);
 }
 

@@ -348,6 +348,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="contacts.toggleTopPeers.html" name="contacts.toggleTopPeers">Enable/disable top peers: contacts.toggleTopPeers</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#htmlescape-string-what-string" name="htmlEscape">Escape string for MadelineProto's HTML entity converter: htmlEscape</a>
+
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#markdownurlescape-string-what-string" name="markdownUrlEscape">Escape string for URL: markdownUrlEscape</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#markdowncodeescape-string-what-string" name="markdownCodeEscape">Escape string for markdown code section: markdownCodeEscape</a>
