@@ -23,31 +23,32 @@ foreach ($pwr_chat['participants'] as $participant) {
 
 Use `getPwrChat` to get full chat info, including the full list of members, see [here for the parameters and the result](https://docs.madelineproto.xyz/getPwrChat.html).  
 
-* Completeness: full
-* Speed: medium
-* Caching: medium
+Please avoid using this method if possible, use [getInfo](#getinfo) or at least [getFullInfo](#getfullinfo) to avoid flood waits.
+
+* Speed: slow
+* Caching: partial
 
 ## getFullInfo
 ```php
 $full_chat = $MadelineProto->getFullInfo(-10028941842);
 ```
 
-You can also use `getFullInfo` to get full chat info, without the full list of members, see [here for the parameters and the result](https://docs.madelineproto.xyz/getFullInfo.html).  
+You can use `getFullInfo` to get full chat info, without the full list of members, see [here for the parameters and the result](https://docs.madelineproto.xyz/getFullInfo.html).
 
-* Completeness: medium
+Please avoid using this method if possible, use [getInfo](#getinfo) to avoid flood waits.  
+
 * Speed: medium-fast
-* Caching: full
+* Caching: partial, and an initial RPC query is always made, so please use [getInfo](#getinfo) if possible to avoid flood waits.
 
 ## getInfo
 ```php
 $chat = $MadelineProto->getInfo(-10028941842);
 ```
 
-You can also use `getInfo` to get chat info, see [here for the parameters and the result](https://docs.madelineproto.xyz/getInfo.html)
+You can use `getInfo` to get chat info, see [here for the parameters and the result](https://docs.madelineproto.xyz/getInfo.html)
 
-* Completeness: small
-* Speed: very fast
-* Caching: full
+* Speed: fast
+* Caching: full, 0 RPC queries are made unless an unknown username is passed.
 
 ## getId
 ```php
@@ -57,6 +58,6 @@ $id = $MadelineProto->getID($update);
 You can also use `getId` to get chat ID from updates, messages and other objects.
 
 * Speed: very fast
-* Caching: full
+* Caching: full, 0 RPC queries are made unless an unknown username is passed.
 
 <a href="https://docs.madelineproto.xyz/docs/DIALOGS.html">Next section</a>
