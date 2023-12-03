@@ -178,6 +178,8 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->channels->updateColor](/API_docs/methods/channels.updateColor.html)  
 
+[$MadelineProto->channels->toggleViewForumAsMessages](/API_docs/methods/channels.toggleViewForumAsMessages.html)  
+
 [$MadelineProto->bots->allowSendMessage](/API_docs/methods/bots.allowSendMessage.html)  
 
 [$MadelineProto->payments->assignAppStoreTransaction](/API_docs/methods/payments.assignAppStoreTransaction.html)  

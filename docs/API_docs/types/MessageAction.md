@@ -87,11 +87,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageActionSetChatWallPaper](/API_docs/constructors/messageActionSetChatWallPaper.html)  
 
-[messageActionSetSameChatWallPaper](/API_docs/constructors/messageActionSetSameChatWallPaper.html)  
-
 [messageActionGiftCode](/API_docs/constructors/messageActionGiftCode.html)  
 
 [messageActionGiveawayLaunch](/API_docs/constructors/messageActionGiveawayLaunch.html)  
+
+[messageActionGiveawayResults](/API_docs/constructors/messageActionGiveawayResults.html)  
 
 
 

@@ -51,8 +51,7 @@ Channel/supergroup info
 |participants\_count|[int](/API_docs/types/int.html) | Optional|Participant count|
 |usernames|Array of [Username](/API_docs/types/Username.html) | Optional|
 |stories\_max\_id|[int](/API_docs/types/int.html) | Optional|
-|color|[int](/API_docs/types/int.html) | Optional|
-|background\_emoji\_id|[long](/API_docs/types/long.html) | Optional|
+|color|[PeerColor](/API_docs/types/PeerColor.html) | Optional|
 
 
 
@@ -62,5 +61,5 @@ Channel/supergroup info
 ### Example:
 
 ```
-$channel = ['_' => 'channel', 'creator' => Bool, 'left' => Bool, 'broadcast' => Bool, 'verified' => Bool, 'megagroup' => Bool, 'restricted' => Bool, 'signatures' => Bool, 'min' => Bool, 'scam' => Bool, 'has_link' => Bool, 'has_geo' => Bool, 'slowmode_enabled' => Bool, 'call_active' => Bool, 'call_not_empty' => Bool, 'fake' => Bool, 'gigagroup' => Bool, 'noforwards' => Bool, 'join_to_send' => Bool, 'join_request' => Bool, 'forum' => Bool, 'stories_hidden' => Bool, 'stories_hidden_min' => Bool, 'stories_unavailable' => Bool, 'id' => long, 'access_hash' => long, 'title' => 'string', 'username' => 'string', 'photo' => ChatPhoto, 'date' => int, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'admin_rights' => ChatAdminRights, 'banned_rights' => ChatBannedRights, 'default_banned_rights' => ChatBannedRights, 'participants_count' => int, 'usernames' => [Username, Username], 'stories_max_id' => int, 'color' => int, 'background_emoji_id' => long];
+$channel = ['_' => 'channel', 'creator' => Bool, 'left' => Bool, 'broadcast' => Bool, 'verified' => Bool, 'megagroup' => Bool, 'restricted' => Bool, 'signatures' => Bool, 'min' => Bool, 'scam' => Bool, 'has_link' => Bool, 'has_geo' => Bool, 'slowmode_enabled' => Bool, 'call_active' => Bool, 'call_not_empty' => Bool, 'fake' => Bool, 'gigagroup' => Bool, 'noforwards' => Bool, 'join_to_send' => Bool, 'join_request' => Bool, 'forum' => Bool, 'stories_hidden' => Bool, 'stories_hidden_min' => Bool, 'stories_unavailable' => Bool, 'id' => long, 'access_hash' => long, 'title' => 'string', 'username' => 'string', 'photo' => ChatPhoto, 'date' => int, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'admin_rights' => ChatAdminRights, 'banned_rights' => ChatBannedRights, 'default_banned_rights' => ChatBannedRights, 'participants_count' => int, 'usernames' => [Username, Username], 'stories_max_id' => int, 'color' => PeerColor];
 ```  

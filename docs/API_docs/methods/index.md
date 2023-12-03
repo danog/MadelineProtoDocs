@@ -1452,11 +1452,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels.clickSponsoredMessage.html" name="channels.clickSponsoredMessage">channels.clickSponsoredMessage</a>
 
+* <a href="channels.getChannelRecommendations.html" name="channels.getChannelRecommendations">channels.getChannelRecommendations</a>
+
+* <a href="channels.toggleViewForumAsMessages.html" name="channels.toggleViewForumAsMessages">channels.toggleViewForumAsMessages</a>
+
 * <a href="channels.updateColor.html" name="channels.updateColor">channels.updateColor</a>
 
 * <a href="contacts.editCloseFriends.html" name="contacts.editCloseFriends">contacts.editCloseFriends</a>
 
 * <a href="contacts.setBlocked.html" name="contacts.setBlocked">contacts.setBlocked</a>
+
+* <a href="help.getPeerColors.html" name="help.getPeerColors">help.getPeerColors</a>
+
+* <a href="help.getPeerProfileColors.html" name="help.getPeerProfileColors">help.getPeerProfileColors</a>
+
+* <a href="messages.searchEmojiStickerSets.html" name="messages.searchEmojiStickerSets">messages.searchEmojiStickerSets</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rledecode-string-string-string" name="rleDecode">null-byte RLE decode: rleDecode</a>
 
@@ -1479,6 +1489,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="premium.getBoostsStatus.html" name="premium.getBoostsStatus">premium.getBoostsStatus</a>
 
 * <a href="premium.getMyBoosts.html" name="premium.getMyBoosts">premium.getMyBoosts</a>
+
+* <a href="premium.getUserBoosts.html" name="premium.getUserBoosts">premium.getUserBoosts</a>
+
+* <a href="stats.getStoryPublicForwards.html" name="stats.getStoryPublicForwards">stats.getStoryPublicForwards</a>
+
+* <a href="stats.getStoryStats.html" name="stats.getStoryStats">stats.getStoryStats</a>
 
 * <a href="stories.activateStealthMode.html" name="stories.activateStealthMode">stories.activateStealthMode</a>
 

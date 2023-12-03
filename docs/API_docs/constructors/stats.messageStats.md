@@ -17,6 +17,7 @@ Message statistics
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |views\_graph|[StatsGraph](/API_docs/types/StatsGraph.html) | Yes|Message view graph|
+|reactions\_by\_emotion\_graph|[StatsGraph](/API_docs/types/StatsGraph.html) | Yes|
 
 
 
@@ -26,5 +27,5 @@ Message statistics
 ### Example:
 
 ```
-$stats_messageStats = ['_' => 'stats.messageStats', 'views_graph' => StatsGraph];
+$stats_messageStats = ['_' => 'stats.messageStats', 'views_graph' => StatsGraph, 'reactions_by_emotion_graph' => StatsGraph];
 ```  

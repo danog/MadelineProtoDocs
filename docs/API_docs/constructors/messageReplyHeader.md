@@ -25,6 +25,7 @@ Message replies and [thread](https://core.telegram.org/api/threads) information
 |reply\_to\_top\_id|[int](/API_docs/types/int.html) | Optional|ID of the message that started this [message thread](https://core.telegram.org/api/threads)|
 |quote\_text|[string](/API_docs/types/string.html) | Optional|
 |quote\_entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Optional|
+|quote\_offset|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -34,5 +35,5 @@ Message replies and [thread](https://core.telegram.org/api/threads) information
 ### Example:
 
 ```
-$messageReplyHeader = ['_' => 'messageReplyHeader', 'reply_to_scheduled' => Bool, 'forum_topic' => Bool, 'quote' => Bool, 'reply_to_msg_id' => int, 'reply_to_peer_id' => Peer, 'reply_from' => MessageFwdHeader, 'reply_media' => MessageMedia, 'reply_to_top_id' => int, 'quote_text' => 'string', 'quote_entities' => [MessageEntity, MessageEntity]];
+$messageReplyHeader = ['_' => 'messageReplyHeader', 'reply_to_scheduled' => Bool, 'forum_topic' => Bool, 'quote' => Bool, 'reply_to_msg_id' => int, 'reply_to_peer_id' => Peer, 'reply_from' => MessageFwdHeader, 'reply_media' => MessageMedia, 'reply_to_top_id' => int, 'quote_text' => 'string', 'quote_entities' => [MessageEntity, MessageEntity], 'quote_offset' => int];
 ```  

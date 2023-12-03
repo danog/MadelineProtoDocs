@@ -32,6 +32,8 @@ redirect_from: /API_docs/types/messages_Chats.html
 
 [$MadelineProto->channels->getGroupsForDiscussion](/API_docs/methods/channels.getGroupsForDiscussion.html)  
 
+[$MadelineProto->channels->getChannelRecommendations](/API_docs/methods/channels.getChannelRecommendations.html)  
+
 [$MadelineProto->stories->getChatsToSend](/API_docs/methods/stories.getChatsToSend.html)  
 
 

@@ -17,6 +17,7 @@ redirect_from: /API_docs/methods/stories_sendStory.html
 |----------|---------------|----------|
 |pinned|[Bool](/API_docs/types/Bool.html) | Optional|
 |noforwards|[Bool](/API_docs/types/Bool.html) | Optional|
+|fwd\_modified|[Bool](/API_docs/types/Bool.html) | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 |media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) | Optional|
 |media\_areas|Array of [MediaArea](/API_docs/types/MediaArea.html) | Optional|
@@ -25,6 +26,8 @@ redirect_from: /API_docs/methods/stories_sendStory.html
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
 |privacy\_rules|Array of [InputPrivacyRule](/API_docs/types/InputPrivacyRule.html) | Yes|
 |period|[int](/API_docs/types/int.html) | Optional|
+|fwd\_from\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+|fwd\_from\_story|[int](/API_docs/types/int.html) | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -44,7 +47,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->stories->sendStory(pinned: $Bool, noforwards: $Bool, peer: $InputPeer, media: $InputMedia, media_areas: [$MediaArea, $MediaArea], caption: 'string', entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', privacy_rules: [$InputPrivacyRule, $InputPrivacyRule], period: $int, );
+$Updates = $MadelineProto->stories->sendStory(pinned: $Bool, noforwards: $Bool, fwd_modified: $Bool, peer: $InputPeer, media: $InputMedia, media_areas: [$MediaArea, $MediaArea], caption: 'string', entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', privacy_rules: [$InputPrivacyRule, $InputPrivacyRule], period: $int, fwd_from_id: $InputPeer, fwd_from_story: $int, );
 ```
 
 

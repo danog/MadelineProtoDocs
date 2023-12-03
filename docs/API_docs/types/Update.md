@@ -245,6 +245,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateSentStoryReaction](/API_docs/constructors/updateSentStoryReaction.html)  
 
+[updateBotChatBoost](/API_docs/constructors/updateBotChatBoost.html)  
+
+[updateChannelViewForumAsMessages](/API_docs/constructors/updateChannelViewForumAsMessages.html)  
+
+[updatePeerWallpaper](/API_docs/constructors/updatePeerWallpaper.html)  
+
 
 
 ### Methods that return an object of this type (methods):

@@ -341,7 +341,7 @@ $MadelineProto->[account->unregisterDevice](/API_docs/methods/account.unregister
 
 ***
 <br><br>
-$MadelineProto->[account->updateColor](/API_docs/methods/account.updateColor.html)(\[color: $[int](/API_docs/types/int.html), background_emoji_id: $[long](/API_docs/types/long.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.updateColor"></a>  
+$MadelineProto->[account->updateColor](/API_docs/methods/account.updateColor.html)(\[for_profile: $[Bool](/API_docs/types/Bool.html), color: $[int](/API_docs/types/int.html), background_emoji_id: $[long](/API_docs/types/long.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.updateColor"></a>  
 
 ***
 <br><br>
@@ -633,6 +633,10 @@ $MadelineProto->[channels->getAdminedPublicChannels](/API_docs/methods/channels.
 
 ***
 <br><br>
+$MadelineProto->[channels->getChannelRecommendations](/API_docs/methods/channels.getChannelRecommendations.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), \]) === [$messages.Chats](/API_docs/types/messages.Chats.html)<a name="channels.getChannelRecommendations"></a>  
+
+***
+<br><br>
 $MadelineProto->[channels->getChannels](/API_docs/methods/channels.getChannels.html)(\[id: \[$[InputChannel](/API_docs/types/InputChannel.html)\], \]) === [$messages.Chats](/API_docs/types/messages.Chats.html)<a name="channels.getChannels"></a>  
 
 ***
@@ -758,6 +762,10 @@ $MadelineProto->[channels->toggleSlowMode](/API_docs/methods/channels.toggleSlow
 ***
 <br><br>
 $MadelineProto->[channels->toggleUsername](/API_docs/methods/channels.toggleUsername.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), username: $[string](/API_docs/types/string.html), active: $[Bool](/API_docs/types/Bool.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="channels.toggleUsername"></a>  
+
+***
+<br><br>
+$MadelineProto->[channels->toggleViewForumAsMessages](/API_docs/methods/channels.toggleViewForumAsMessages.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), enabled: $[Bool](/API_docs/types/Bool.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.toggleViewForumAsMessages"></a>  
 
 ***
 <br><br>
@@ -974,6 +982,14 @@ $MadelineProto->[help->getNearestDc](/API_docs/methods/help.getNearestDc.html)(\
 ***
 <br><br>
 $MadelineProto->[help->getPassportConfig](/API_docs/methods/help.getPassportConfig.html)(\[hash: $[int](/API_docs/types/int.html), \]) === [$help.PassportConfig](/API_docs/types/help.PassportConfig.html)<a name="help.getPassportConfig"></a>  
+
+***
+<br><br>
+$MadelineProto->[help->getPeerColors](/API_docs/methods/help.getPeerColors.html)(\[hash: $[int](/API_docs/types/int.html), \]) === [$help.PeerColors](/API_docs/types/help.PeerColors.html)<a name="help.getPeerColors"></a>  
+
+***
+<br><br>
+$MadelineProto->[help->getPeerProfileColors](/API_docs/methods/help.getPeerProfileColors.html)(\[hash: $[int](/API_docs/types/int.html), \]) === [$help.PeerColors](/API_docs/types/help.PeerColors.html)<a name="help.getPeerProfileColors"></a>  
 
 ***
 <br><br>
@@ -1621,6 +1637,10 @@ $MadelineProto->[messages->searchCustomEmoji](/API_docs/methods/messages.searchC
 
 ***
 <br><br>
+$MadelineProto->[messages->searchEmojiStickerSets](/API_docs/methods/messages.searchEmojiStickerSets.html)(\[exclude_featured: $[Bool](/API_docs/types/Bool.html), q: $[string](/API_docs/types/string.html), hash: $[long](/API_docs/types/long.html), \]) === [$messages.FoundStickerSets](/API_docs/types/messages.FoundStickerSets.html)<a name="messages.searchEmojiStickerSets"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->searchGlobal](/API_docs/methods/messages.searchGlobal.html)(\[folder_id: $[int](/API_docs/types/int.html), q: $[string](/API_docs/types/string.html), filter: $[MessagesFilter](/API_docs/types/MessagesFilter.html), min_date: $[int](/API_docs/types/int.html), max_date: $[int](/API_docs/types/int.html), offset_rate: $[int](/API_docs/types/int.html), offset_peer: $[InputPeer](/API_docs/types/InputPeer.html), offset_id: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), \]) === [$messages.Messages](/API_docs/types/messages.Messages.html)<a name="messages.searchGlobal"></a>  
 
 ***
@@ -1709,7 +1729,7 @@ $MadelineProto->[messages->setChatTheme](/API_docs/methods/messages.setChatTheme
 
 ***
 <br><br>
-$MadelineProto->[messages->setChatWallPaper](/API_docs/methods/messages.setChatWallPaper.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), wallpaper: $[InputWallPaper](/API_docs/types/InputWallPaper.html), settings: $[WallPaperSettings](/API_docs/types/WallPaperSettings.html), id: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.setChatWallPaper"></a>  
+$MadelineProto->[messages->setChatWallPaper](/API_docs/methods/messages.setChatWallPaper.html)(\[for_both: $[Bool](/API_docs/types/Bool.html), revert: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), wallpaper: $[InputWallPaper](/API_docs/types/InputWallPaper.html), settings: $[WallPaperSettings](/API_docs/types/WallPaperSettings.html), id: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.setChatWallPaper"></a>  
 
 ***
 <br><br>
@@ -2037,6 +2057,10 @@ $MadelineProto->[premium->getMyBoosts](/API_docs/methods/premium.getMyBoosts.htm
 
 ***
 <br><br>
+$MadelineProto->[premium->getUserBoosts](/API_docs/methods/premium.getUserBoosts.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), user_id: $[InputUser](/API_docs/types/InputUser.html), \]) === [$premium.BoostsList](/API_docs/types/premium.BoostsList.html)<a name="premium.getUserBoosts"></a>  
+
+***
+<br><br>
 $MadelineProto->[stats->getBroadcastStats](/API_docs/methods/stats.getBroadcastStats.html)(\[dark: $[Bool](/API_docs/types/Bool.html), channel: $[InputChannel](/API_docs/types/InputChannel.html), \]) === [$stats.BroadcastStats](/API_docs/types/stats.BroadcastStats.html)<a name="stats.getBroadcastStats"></a>  
 
 ***
@@ -2050,6 +2074,14 @@ $MadelineProto->[stats->getMessagePublicForwards](/API_docs/methods/stats.getMes
 ***
 <br><br>
 $MadelineProto->[stats->getMessageStats](/API_docs/methods/stats.getMessageStats.html)(\[dark: $[Bool](/API_docs/types/Bool.html), channel: $[InputChannel](/API_docs/types/InputChannel.html), msg_id: $[int](/API_docs/types/int.html), \]) === [$stats.MessageStats](/API_docs/types/stats.MessageStats.html)<a name="stats.getMessageStats"></a>  
+
+***
+<br><br>
+$MadelineProto->[stats->getStoryPublicForwards](/API_docs/methods/stats.getStoryPublicForwards.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), id: $[int](/API_docs/types/int.html), offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$stats.PublicForwards](/API_docs/types/stats.PublicForwards.html)<a name="stats.getStoryPublicForwards"></a>  
+
+***
+<br><br>
+$MadelineProto->[stats->getStoryStats](/API_docs/methods/stats.getStoryStats.html)(\[dark: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), id: $[int](/API_docs/types/int.html), \]) === [$stats.StoryStats](/API_docs/types/stats.StoryStats.html)<a name="stats.getStoryStats"></a>  
 
 ***
 <br><br>
@@ -2173,7 +2205,7 @@ $MadelineProto->[stories->sendReaction](/API_docs/methods/stories.sendReaction.h
 
 ***
 <br><br>
-$MadelineProto->[stories->sendStory](/API_docs/methods/stories.sendStory.html)(\[pinned: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), media: $[InputMedia](/API_docs/types/InputMedia.html), media_areas: \[$[MediaArea](/API_docs/types/MediaArea.html)\], caption: $[string](/API_docs/types/string.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], privacy_rules: \[$[InputPrivacyRule](/API_docs/types/InputPrivacyRule.html)\], period: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="stories.sendStory"></a>  
+$MadelineProto->[stories->sendStory](/API_docs/methods/stories.sendStory.html)(\[pinned: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), fwd_modified: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), media: $[InputMedia](/API_docs/types/InputMedia.html), media_areas: \[$[MediaArea](/API_docs/types/MediaArea.html)\], caption: $[string](/API_docs/types/string.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], privacy_rules: \[$[InputPrivacyRule](/API_docs/types/InputPrivacyRule.html)\], period: $[int](/API_docs/types/int.html), fwd_from_id: $[InputPeer](/API_docs/types/InputPeer.html), fwd_from_story: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="stories.sendStory"></a>  
 
 ***
 <br><br>

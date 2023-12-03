@@ -15,7 +15,8 @@ redirect_from: /API_docs/methods/account_updateColor.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|color|[int](/API_docs/types/int.html) | Yes|
+|for\_profile|[Bool](/API_docs/types/Bool.html) | Optional|
+|color|[int](/API_docs/types/int.html) | Optional|
 |background\_emoji\_id|[long](/API_docs/types/long.html) | Optional|
 
 
@@ -36,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->account->updateColor(color: $int, background_emoji_id: $long, );
+$Bool = $MadelineProto->account->updateColor(for_profile: $Bool, color: $int, background_emoji_id: $long, );
 ```
 

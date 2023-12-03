@@ -1,17 +1,17 @@
 ---
-title: MessageInteractionCounters
-description: constructors and methods of type MessageInteractionCounters
+title: StoryFwdHeader
+description: constructors and methods of type StoryFwdHeader
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Type: MessageInteractionCounters
+# Type: StoryFwdHeader
 [Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[messageInteractionCounters](/API_docs/constructors/messageInteractionCounters.html)  
+[storyFwdHeader](/API_docs/constructors/storyFwdHeader.html)  
 
 
 

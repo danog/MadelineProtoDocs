@@ -17,6 +17,8 @@ Set a custom [wallpaper »](https://core.telegram.org/api/wallpapers) in a speci
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|for\_both|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|revert|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The private chat where the wallpaper will be set | Optional|
 |wallpaper|[InputWallPaper](/API_docs/types/InputWallPaper.html) | The [wallpaper »](https://core.telegram.org/api/wallpapers), obtained as described in the [wallpaper documentation »](https://core.telegram.org/api/wallpapers#uploading-wallpapers); must **not** be provided when installing a wallpaper obtained from a [messageActionSetChatWallPaper](../constructors/messageActionSetChatWallPaper.html) service message (`id` must be provided, instead). | Optional|
 |settings|[WallPaperSettings](/API_docs/types/WallPaperSettings.html) | Wallpaper settings, obtained as described in the [wallpaper documentation »](https://core.telegram.org/api/wallpapers#uploading-wallpapers) or from [messageActionSetChatWallPaper](../constructors/messageActionSetChatWallPaper.html).`wallpaper`.`settings`. | Optional|
@@ -40,6 +42,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->setChatWallPaper(peer: $InputPeer, wallpaper: $InputWallPaper, settings: $WallPaperSettings, id: $int, );
+$Updates = $MadelineProto->messages->setChatWallPaper(for_both: $Bool, revert: $Bool, peer: $InputPeer, wallpaper: $InputWallPaper, settings: $WallPaperSettings, id: $int, );
 ```
 

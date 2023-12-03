@@ -22,5 +22,7 @@ redirect_from: /API_docs/types/messages_FoundStickerSets.html
 
 [$MadelineProto->messages->searchStickerSets](/API_docs/methods/messages.searchStickerSets.html)  
 
+[$MadelineProto->messages->searchEmojiStickerSets](/API_docs/methods/messages.searchEmojiStickerSets.html)  
+
 
 

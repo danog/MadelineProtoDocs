@@ -20,5 +20,7 @@ redirect_from: /API_docs/types/premium_BoostsList.html
 
 [$MadelineProto->premium->getBoostsList](/API_docs/methods/premium.getBoostsList.html)  
 
+[$MadelineProto->premium->getUserBoosts](/API_docs/methods/premium.getUserBoosts.html)  
+
 
 

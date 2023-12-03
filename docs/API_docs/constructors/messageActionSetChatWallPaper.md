@@ -15,6 +15,8 @@ The [wallpaper »](https://core.telegram.org/api/wallpapers) of the current chat
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|same|[Bool](/API_docs/types/Bool.html) | Optional|
+|for\_both|[Bool](/API_docs/types/Bool.html) | Optional|
 |wallpaper|[WallPaper](/API_docs/types/WallPaper.html) | Yes|New [wallpaper](https://core.telegram.org/api/wallpapers)|
 
 
@@ -25,5 +27,5 @@ The [wallpaper »](https://core.telegram.org/api/wallpapers) of the current chat
 ### Example:
 
 ```
-$messageActionSetChatWallPaper = ['_' => 'messageActionSetChatWallPaper', 'wallpaper' => WallPaper];
+$messageActionSetChatWallPaper = ['_' => 'messageActionSetChatWallPaper', 'same' => Bool, 'for_both' => Bool, 'wallpaper' => WallPaper];
 ```  

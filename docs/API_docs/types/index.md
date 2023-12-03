@@ -331,8 +331,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [MessageFwdHeader](/API_docs/types/MessageFwdHeader.html)<a name="MessageFwdHeader"></a>  
 
-[MessageInteractionCounters](/API_docs/types/MessageInteractionCounters.html)<a name="MessageInteractionCounters"></a>  
-
 [MessageMedia](/API_docs/types/MessageMedia.html)<a name="MessageMedia"></a>  
 
 [MessagePeerReaction](/API_docs/types/MessagePeerReaction.html)<a name="MessagePeerReaction"></a>  
@@ -391,6 +389,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [PeerBlocked](/API_docs/types/PeerBlocked.html)<a name="PeerBlocked"></a>  
 
+[PeerColor](/API_docs/types/PeerColor.html)<a name="PeerColor"></a>  
+
 [PeerLocated](/API_docs/types/PeerLocated.html)<a name="PeerLocated"></a>  
 
 [PeerNotifySettings](/API_docs/types/PeerNotifySettings.html)<a name="PeerNotifySettings"></a>  
@@ -423,6 +423,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [PostAddress](/API_docs/types/PostAddress.html)<a name="PostAddress"></a>  
 
+[PostInteractionCounters](/API_docs/types/PostInteractionCounters.html)<a name="PostInteractionCounters"></a>  
+
 [PremiumGiftCodeOption](/API_docs/types/PremiumGiftCodeOption.html)<a name="PremiumGiftCodeOption"></a>  
 
 [PremiumGiftOption](/API_docs/types/PremiumGiftOption.html)<a name="PremiumGiftOption"></a>  
@@ -434,6 +436,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [PrivacyKey](/API_docs/types/PrivacyKey.html)<a name="PrivacyKey"></a>  
 
 [PrivacyRule](/API_docs/types/PrivacyRule.html)<a name="PrivacyRule"></a>  
+
+[PublicForward](/API_docs/types/PublicForward.html)<a name="PublicForward"></a>  
 
 [Reaction](/API_docs/types/Reaction.html)<a name="Reaction"></a>  
 
@@ -520,6 +524,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [StickerSetCovered](/API_docs/types/StickerSetCovered.html)<a name="StickerSetCovered"></a>  
 
 [StoriesStealthMode](/API_docs/types/StoriesStealthMode.html)<a name="StoriesStealthMode"></a>  
+
+[StoryFwdHeader](/API_docs/types/StoryFwdHeader.html)<a name="StoryFwdHeader"></a>  
 
 [StoryItem](/API_docs/types/StoryItem.html)<a name="StoryItem"></a>  
 
@@ -678,6 +684,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [help.InviteText](/API_docs/types/help.InviteText.html)<a name="help.InviteText"></a>  
 
 [help.PassportConfig](/API_docs/types/help.PassportConfig.html)<a name="help.PassportConfig"></a>  
+
+[help.PeerColorOption](/API_docs/types/help.PeerColorOption.html)<a name="help.PeerColorOption"></a>  
+
+[help.PeerColorSet](/API_docs/types/help.PeerColorSet.html)<a name="help.PeerColorSet"></a>  
+
+[help.PeerColors](/API_docs/types/help.PeerColors.html)<a name="help.PeerColors"></a>  
 
 [help.PremiumPromo](/API_docs/types/help.PremiumPromo.html)<a name="help.PremiumPromo"></a>  
 
@@ -844,6 +856,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [stats.MegagroupStats](/API_docs/types/stats.MegagroupStats.html)<a name="stats.MegagroupStats"></a>  
 
 [stats.MessageStats](/API_docs/types/stats.MessageStats.html)<a name="stats.MessageStats"></a>  
+
+[stats.PublicForwards](/API_docs/types/stats.PublicForwards.html)<a name="stats.PublicForwards"></a>  
+
+[stats.StoryStats](/API_docs/types/stats.StoryStats.html)<a name="stats.StoryStats"></a>  
 
 [stickers.SuggestedShortName](/API_docs/types/stickers.SuggestedShortName.html)<a name="stickers.SuggestedShortName"></a>  
 
