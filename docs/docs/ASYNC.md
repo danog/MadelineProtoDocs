@@ -13,7 +13,6 @@ MadelineProto now features async, for **incredible speed improvements**, and par
   * [Multiple async](#multiple-async)
   * [Ignored async](#ignored-async)
   * [Combining async operations](#combining-async-operations)
-  * [Blocking async](#blocking-async)
   * [MadelineProto and AMPHP async APIs](#madelineproto-and-amphp-async-apis)
     * [Helper methods](#helper-methods)
       * [Async sleep](#async-sleep-does-not-block-the-main-thread)
@@ -115,16 +114,6 @@ $result = $MadelineProto->timeout($promise, 2)
 // Waits for the result for 2 seconds, returns the result or null (which is the result of sleep())
 $result = $MadelineProto->first([$promise, $MadelineProto->sleep(2)]);
 ```
-
-### Blocking async
-
-```php
-$result = blocking_function();
-```
-
-Sometimes, you have to call non-async functions in your code: that is allowed in async MadelineProto, you just have to call your functions normally.  
-However, you **shouldn't** do (or need to do) this, because this renders async completely useless.  
-AMPHP and MadelineProto already provide async versions of curl, `file_get_contents`, MySQL, redis, postgres, and many more native PHP functions, as you can see in the following sections:
 
 ## MadelineProto and AMPHP async APIs
 
