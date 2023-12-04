@@ -62,7 +62,7 @@ if (file_exists('vendor/autoload.php')) {
     require_once 'madeline.php';
 }
 
-class MyEventHandler extends SimpleEventHandler
+class BasicEventHandler extends SimpleEventHandler
 {
     // !!! Change this to your username !!!
     public const ADMIN = "@me";
@@ -104,7 +104,7 @@ class MyEventHandler extends SimpleEventHandler
     }
 }
 
-MyEventHandler::startAndLoop('bot.madeline');
+BasicEventHandler::startAndLoop('bot.madeline');
 
 ```
 
@@ -1013,7 +1013,7 @@ Here's a list of common uses for files, and what they can be replaced with:
 
 #### Configuration
 
-Configuration can be done entirely using persistent properties, for example:
+Configuration can be done entirely using persistent properties, for example **DON'T** do this:
 
 ```php
 <?php

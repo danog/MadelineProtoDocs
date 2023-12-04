@@ -162,7 +162,7 @@ if (file_exists('vendor/autoload.php')) {
     require_once 'madeline.php';
 }
 
-class MyEventHandler extends SimpleEventHandler
+class BasicEventHandler extends SimpleEventHandler
 {
     // !!! Change this to your username !!!
     public const ADMIN = "@me";
@@ -204,7 +204,7 @@ class MyEventHandler extends SimpleEventHandler
     }
 }
 
-MyEventHandler::startAndLoop('bot.madeline');
+BasicEventHandler::startAndLoop('bot.madeline');
 
 ```
 
