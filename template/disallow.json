@@ -1,7 +1,7 @@
 {
-    "messages.getHistory": "Please use the [event handler](https://docs.madelineproto.xyz/docs/UPDATES.html)",
-    "channels.getMessages": "Please use the [event handler](https://docs.madelineproto.xyz/docs/UPDATES.html)",
-    "messages.getMessages": "Please use the [event handler](https://docs.madelineproto.xyz/docs/UPDATES.html)",
+    "__messages.getHistory": "Please use the [event handler](https://docs.madelineproto.xyz/docs/UPDATES.html)",
+    "__channels.getMessages": "Please use the [event handler](https://docs.madelineproto.xyz/docs/UPDATES.html)",
+    "__messages.getMessages": "Please use the [event handler](https://docs.madelineproto.xyz/docs/UPDATES.html)",
     "account.updatePasswordSettings": "You cannot use this method directly; use $MadelineProto->update2fa($params), instead (see https:\/\/docs.madelineproto.xyz for more info)",
     "account.getPasswordSettings": "You cannot use this method directly; use $MadelineProto->update2fa($params), instead (see https:\/\/docs.madelineproto.xyz for more info)",
     "messages.receivedQueue": "You cannot use this method directly",
