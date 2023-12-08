@@ -30,7 +30,7 @@ A single media in an [album or grouped media](https://core.telegram.org/api/file
 
 Set parse_mode to html to enable HTML parsing of the message.  
 
-Set parse_mode to Markdown to enable markown AND html parsing of the message.  
+Set parse_mode to Markdown to enable markdown parsing of the message.  
 
 The following tags are currently supported:
 
