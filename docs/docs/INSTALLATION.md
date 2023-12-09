@@ -29,7 +29,7 @@ This code will automatically download, auto-update and include MadelineProto.
 The `madeline.php` install script is as an alpha/beta-level distribution channel for MadelineProto with frequent breaking changes distributed with automatic updates.  
 If you require a stable, semantically versioned install of MadelineProto with no automatic updates, [please install MadelineProto using composer &raquo;](#composer-from-existing-project).
 
-For this reason, `madeline.php` is not compatible with pre-existing composer installs, [please install MadelineProto using composer](#simple-manual) if you already have a composer project.  
+For this reason, `madeline.php` is not compatible with pre-existing composer installs, [please install MadelineProto using composer](#composer-from-existing-project) if you already have a composer project.  
 
 ## Phar file
 
@@ -39,7 +39,7 @@ Head over to the [GitHub releases section](https://github.com/danog/MadelineProt
 require_once 'madeline81.phar';
 ```
 
-**Warning:** `madeline81.phar` is not compatible with pre-existing composer installs, [please install MadelineProto using composer](#simple-manual) if you already have a composer project.  
+**Warning:** `madeline81.phar` is not compatible with pre-existing composer installs, [please install MadelineProto using composer](#composer-from-existing-project) if you already have a composer project.  
 
 ## Composer from existing project
 
