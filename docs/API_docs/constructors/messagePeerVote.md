@@ -13,7 +13,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|
 |option|[bytes](/API_docs/types/bytes.html) | Yes|
 |date|[int](/API_docs/types/int.html) | Yes|
 
@@ -25,5 +25,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$messagePeerVote = ['_' => 'messagePeerVote', 'peer' => Peer, 'option' => 'bytes', 'date' => int];
+$messagePeerVote = ['_' => 'messagePeerVote', 'peer' => long, 'option' => 'bytes', 'date' => int];
 ```  

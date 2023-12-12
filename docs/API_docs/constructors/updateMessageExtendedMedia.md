@@ -15,7 +15,7 @@ Extended media update
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|Peer|
+|peer|[long](/API_docs/types/long.html) | Yes|
 |msg\_id|[int](/API_docs/types/int.html) | Yes|Message ID|
 |extended\_media|[MessageExtendedMedia](/API_docs/types/MessageExtendedMedia.html) | Yes|Extended media|
 
@@ -27,5 +27,5 @@ Extended media update
 ### Example:
 
 ```
-$updateMessageExtendedMedia = ['_' => 'updateMessageExtendedMedia', 'peer' => Peer, 'msg_id' => int, 'extended_media' => MessageExtendedMedia];
+$updateMessageExtendedMedia = ['_' => 'updateMessageExtendedMedia', 'peer' => long, 'msg_id' => int, 'extended_media' => MessageExtendedMedia];
 ```  

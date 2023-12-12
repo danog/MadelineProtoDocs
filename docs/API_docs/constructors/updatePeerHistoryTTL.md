@@ -15,7 +15,7 @@ The Time-To-Live for messages sent by the current user in a specific chat has ch
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|The chat|
+|peer|[long](/API_docs/types/long.html) | Yes|
 |ttl\_period|[int](/API_docs/types/int.html) | Optional|The new Time-To-Live|
 
 
@@ -26,5 +26,5 @@ The Time-To-Live for messages sent by the current user in a specific chat has ch
 ### Example:
 
 ```
-$updatePeerHistoryTTL = ['_' => 'updatePeerHistoryTTL', 'peer' => Peer, 'ttl_period' => int];
+$updatePeerHistoryTTL = ['_' => 'updatePeerHistoryTTL', 'peer' => long, 'ttl_period' => int];
 ```  

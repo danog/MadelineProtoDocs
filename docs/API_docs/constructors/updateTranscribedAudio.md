@@ -16,7 +16,7 @@ A pending [voice message transcription »](https://core.telegram.org/api/transcr
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |pending|[Bool](/API_docs/types/Bool.html) | Optional|Whether this transcription is still pending and further [updateTranscribedAudio](../constructors/updateTranscribedAudio.html) about it will be sent in the future.|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|Peer of the transcribed message|
+|peer|[long](/API_docs/types/long.html) | Yes|
 |msg\_id|[int](/API_docs/types/int.html) | Yes|Transcribed message ID|
 |transcription\_id|[long](/API_docs/types/long.html) | Yes|Transcription ID|
 |text|[string](/API_docs/types/string.html) | Yes|Transcribed text|
@@ -29,5 +29,5 @@ A pending [voice message transcription »](https://core.telegram.org/api/transcr
 ### Example:
 
 ```
-$updateTranscribedAudio = ['_' => 'updateTranscribedAudio', 'pending' => Bool, 'peer' => Peer, 'msg_id' => int, 'transcription_id' => long, 'text' => 'string'];
+$updateTranscribedAudio = ['_' => 'updateTranscribedAudio', 'pending' => Bool, 'peer' => long, 'msg_id' => int, 'transcription_id' => long, 'text' => 'string'];
 ```  

@@ -15,7 +15,7 @@ Peer-specific media autosave settings
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|The peer|
+|peer|[long](/API_docs/types/long.html) | Yes|
 |settings|[AutoSaveSettings](/API_docs/types/AutoSaveSettings.html) | Yes|Media autosave settings|
 
 
@@ -26,5 +26,5 @@ Peer-specific media autosave settings
 ### Example:
 
 ```
-$autoSaveException = ['_' => 'autoSaveException', 'peer' => Peer, 'settings' => AutoSaveSettings];
+$autoSaveException = ['_' => 'autoSaveException', 'peer' => long, 'settings' => AutoSaveSettings];
 ```  

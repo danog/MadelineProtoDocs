@@ -16,7 +16,7 @@ Contains info about a peer that the user shared with the bot after clicking on a
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |button\_id|[int](/API_docs/types/int.html) | Yes|`button_id` contained in the [keyboardButtonRequestPeer](../constructors/keyboardButtonRequestPeer.html)|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|The shared peer|
+|peer|[long](/API_docs/types/long.html) | Yes|
 
 
 
@@ -26,5 +26,5 @@ Contains info about a peer that the user shared with the bot after clicking on a
 ### Example:
 
 ```
-$messageActionRequestedPeer = ['_' => 'messageActionRequestedPeer', 'button_id' => int, 'peer' => Peer];
+$messageActionRequestedPeer = ['_' => 'messageActionRequestedPeer', 'button_id' => int, 'peer' => long];
 ```  

@@ -13,7 +13,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|
 |max\_read\_id|[int](/API_docs/types/int.html) | Optional|
 |stories|Array of [StoryItem](/API_docs/types/StoryItem.html) | Yes|
 
@@ -25,5 +25,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$peerStories = ['_' => 'peerStories', 'peer' => Peer, 'max_read_id' => int, 'stories' => [StoryItem, StoryItem]];
+$peerStories = ['_' => 'peerStories', 'peer' => long, 'max_read_id' => int, 'stories' => [StoryItem, StoryItem]];
 ```  

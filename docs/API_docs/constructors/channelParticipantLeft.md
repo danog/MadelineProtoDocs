@@ -15,7 +15,7 @@ A participant that left the channel/supergroup
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|The peer that left|
+|peer|[long](/API_docs/types/long.html) | Yes|
 
 
 
@@ -25,5 +25,5 @@ A participant that left the channel/supergroup
 ### Example:
 
 ```
-$channelParticipantLeft = ['_' => 'channelParticipantLeft', 'peer' => Peer];
+$channelParticipantLeft = ['_' => 'channelParticipantLeft', 'peer' => long];
 ```  

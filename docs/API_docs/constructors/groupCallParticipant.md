@@ -25,7 +25,7 @@ Info about a group call participant
 |volume\_by\_admin|[Bool](/API_docs/types/Bool.html) | Optional|Whether our volume can only changed by an admin|
 |self|[Bool](/API_docs/types/Bool.html) | Optional|Whether this participant is the current user|
 |video\_joined|[Bool](/API_docs/types/Bool.html) | Optional|Whether this participant is currently broadcasting video|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|Peer information|
+|peer|[long](/API_docs/types/long.html) | Yes|
 |date|[int](/API_docs/types/int.html) | Yes|When did this participant join the group call|
 |active\_date|[int](/API_docs/types/int.html) | Optional|When was this participant last active in the group call|
 |source|[int](/API_docs/types/int.html) | Yes|Source ID|
@@ -43,5 +43,5 @@ Info about a group call participant
 ### Example:
 
 ```
-$groupCallParticipant = ['_' => 'groupCallParticipant', 'muted' => Bool, 'left' => Bool, 'can_self_unmute' => Bool, 'just_joined' => Bool, 'versioned' => Bool, 'min' => Bool, 'muted_by_you' => Bool, 'volume_by_admin' => Bool, 'self' => Bool, 'video_joined' => Bool, 'peer' => Peer, 'date' => int, 'active_date' => int, 'source' => int, 'volume' => int, 'about' => 'string', 'raise_hand_rating' => long, 'video' => GroupCallParticipantVideo, 'presentation' => GroupCallParticipantVideo];
+$groupCallParticipant = ['_' => 'groupCallParticipant', 'muted' => Bool, 'left' => Bool, 'can_self_unmute' => Bool, 'just_joined' => Bool, 'versioned' => Bool, 'min' => Bool, 'muted_by_you' => Bool, 'volume_by_admin' => Bool, 'self' => Bool, 'video_joined' => Bool, 'peer' => long, 'date' => int, 'active_date' => int, 'source' => int, 'volume' => int, 'about' => 'string', 'raise_hand_rating' => long, 'video' => GroupCallParticipantVideo, 'presentation' => GroupCallParticipantVideo];
 ```  

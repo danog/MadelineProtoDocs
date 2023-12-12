@@ -13,7 +13,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|
 |id|[int](/API_docs/types/int.html) | Yes|
 |story|[StoryItem](/API_docs/types/StoryItem.html) | Optional|
 
@@ -25,5 +25,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$webPageAttributeStory = ['_' => 'webPageAttributeStory', 'peer' => Peer, 'id' => int, 'story' => StoryItem];
+$webPageAttributeStory = ['_' => 'webPageAttributeStory', 'peer' => long, 'id' => int, 'story' => StoryItem];
 ```  

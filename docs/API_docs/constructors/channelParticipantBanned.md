@@ -16,7 +16,7 @@ Banned/kicked user
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |left|[Bool](/API_docs/types/Bool.html) | Optional|Whether the user has left the group|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|The banned peer|
+|peer|[long](/API_docs/types/long.html) | Yes|
 |kicked\_by|[long](/API_docs/types/long.html) | Yes|User was kicked by the specified admin|
 |date|[int](/API_docs/types/int.html) | Yes|When did the user join the group|
 |banned\_rights|[ChatBannedRights](/API_docs/types/ChatBannedRights.html) | Yes|Banned [rights](https://core.telegram.org/api/rights)|
@@ -29,5 +29,5 @@ Banned/kicked user
 ### Example:
 
 ```
-$channelParticipantBanned = ['_' => 'channelParticipantBanned', 'left' => Bool, 'peer' => Peer, 'kicked_by' => long, 'date' => int, 'banned_rights' => ChatBannedRights];
+$channelParticipantBanned = ['_' => 'channelParticipantBanned', 'left' => Bool, 'peer' => long, 'kicked_by' => long, 'date' => int, 'banned_rights' => ChatBannedRights];
 ```  

@@ -13,7 +13,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|
 |story|[StoryItem](/API_docs/types/StoryItem.html) | Yes|
 
 
@@ -24,5 +24,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$publicForwardStory = ['_' => 'publicForwardStory', 'peer' => Peer, 'story' => StoryItem];
+$publicForwardStory = ['_' => 'publicForwardStory', 'peer' => long, 'story' => StoryItem];
 ```  

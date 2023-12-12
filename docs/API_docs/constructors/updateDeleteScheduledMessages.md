@@ -15,7 +15,7 @@ Some [scheduled messages](https://core.telegram.org/api/scheduled-messages) were
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|Peer|
+|peer|[long](/API_docs/types/long.html) | Yes|
 |messages|Array of [int](/API_docs/types/int.html) | Yes|Deleted scheduled messages|
 
 
@@ -26,5 +26,5 @@ Some [scheduled messages](https://core.telegram.org/api/scheduled-messages) were
 ### Example:
 
 ```
-$updateDeleteScheduledMessages = ['_' => 'updateDeleteScheduledMessages', 'peer' => Peer, 'messages' => [int, int]];
+$updateDeleteScheduledMessages = ['_' => 'updateDeleteScheduledMessages', 'peer' => long, 'messages' => [int, int]];
 ```  

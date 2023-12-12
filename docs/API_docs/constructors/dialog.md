@@ -18,7 +18,7 @@ Chat
 |pinned|[Bool](/API_docs/types/Bool.html) | Optional|Is the dialog pinned|
 |unread\_mark|[Bool](/API_docs/types/Bool.html) | Optional|Whether the chat was manually marked as unread|
 |view\_forum\_as\_messages|[Bool](/API_docs/types/Bool.html) | Optional|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|The chat|
+|peer|[long](/API_docs/types/long.html) | Yes|
 |top\_message|[int](/API_docs/types/int.html) | Yes|The latest message ID|
 |read\_inbox\_max\_id|[int](/API_docs/types/int.html) | Yes|Position up to which all incoming messages are read.|
 |read\_outbox\_max\_id|[int](/API_docs/types/int.html) | Yes|Position up to which all outgoing messages are read.|
@@ -39,5 +39,5 @@ Chat
 ### Example:
 
 ```
-$dialog = ['_' => 'dialog', 'pinned' => Bool, 'unread_mark' => Bool, 'view_forum_as_messages' => Bool, 'peer' => Peer, 'top_message' => int, 'read_inbox_max_id' => int, 'read_outbox_max_id' => int, 'unread_count' => int, 'unread_mentions_count' => int, 'unread_reactions_count' => int, 'notify_settings' => PeerNotifySettings, 'pts' => int, 'draft' => DraftMessage, 'folder_id' => int, 'ttl_period' => int];
+$dialog = ['_' => 'dialog', 'pinned' => Bool, 'unread_mark' => Bool, 'view_forum_as_messages' => Bool, 'peer' => long, 'top_message' => int, 'read_inbox_max_id' => int, 'read_outbox_max_id' => int, 'unread_count' => int, 'unread_mentions_count' => int, 'unread_reactions_count' => int, 'notify_settings' => PeerNotifySettings, 'pts' => int, 'draft' => DraftMessage, 'folder_id' => int, 'ttl_period' => int];
 ```  

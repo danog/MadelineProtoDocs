@@ -15,7 +15,7 @@ Peer geolocated nearby
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|Peer|
+|peer|[long](/API_docs/types/long.html) | Yes|
 |expires|[int](/API_docs/types/int.html) | Yes|Validity period of current data|
 |distance|[int](/API_docs/types/int.html) | Yes|Distance from the peer in meters|
 
@@ -27,5 +27,5 @@ Peer geolocated nearby
 ### Example:
 
 ```
-$peerLocated = ['_' => 'peerLocated', 'peer' => Peer, 'expires' => int, 'distance' => int];
+$peerLocated = ['_' => 'peerLocated', 'peer' => long, 'expires' => int, 'distance' => int];
 ```  

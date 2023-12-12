@@ -15,7 +15,7 @@ Peer
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|Peer|
+|peer|[long](/API_docs/types/long.html) | Yes|
 
 
 
@@ -25,5 +25,5 @@ Peer
 ### Example:
 
 ```
-$dialogPeer = ['_' => 'dialogPeer', 'peer' => Peer];
+$dialogPeer = ['_' => 'dialogPeer', 'peer' => long];
 ```  

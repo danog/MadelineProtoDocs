@@ -16,7 +16,7 @@ Resolved peer
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|The peer|
+|peer|[long](/API_docs/types/long.html) | Yes|
 |chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Chats|
 |users|Array of [User](/API_docs/types/User.html) | Yes|Users|
 
@@ -28,5 +28,5 @@ Resolved peer
 ### Example:
 
 ```
-$contacts_resolvedPeer = ['_' => 'contacts.resolvedPeer', 'peer' => Peer, 'chats' => [Chat, Chat], 'users' => [User, User]];
+$contacts_resolvedPeer = ['_' => 'contacts.resolvedPeer', 'peer' => long, 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

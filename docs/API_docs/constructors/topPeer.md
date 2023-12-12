@@ -15,7 +15,7 @@ Top peer
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|Peer|
+|peer|[long](/API_docs/types/long.html) | Yes|
 |rating|[double](/API_docs/types/double.html) | Yes|Rating as computed in [top peer rating »](https://core.telegram.org/api/top-rating)|
 
 
@@ -26,5 +26,5 @@ Top peer
 ### Example:
 
 ```
-$topPeer = ['_' => 'topPeer', 'peer' => Peer, 'rating' => double];
+$topPeer = ['_' => 'topPeer', 'peer' => long, 'rating' => double];
 ```  

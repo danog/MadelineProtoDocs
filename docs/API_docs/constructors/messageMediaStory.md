@@ -14,7 +14,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |via\_mention|[Bool](/API_docs/types/Bool.html) | Optional|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|
 |id|[int](/API_docs/types/int.html) | Yes|
 |story|[StoryItem](/API_docs/types/StoryItem.html) | Optional|
 
@@ -26,5 +26,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$messageMediaStory = ['_' => 'messageMediaStory', 'via_mention' => Bool, 'peer' => Peer, 'id' => int, 'story' => StoryItem];
+$messageMediaStory = ['_' => 'messageMediaStory', 'via_mention' => Bool, 'peer' => long, 'id' => int, 'story' => StoryItem];
 ```  

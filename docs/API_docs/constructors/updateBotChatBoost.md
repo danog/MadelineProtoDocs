@@ -13,7 +13,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|
 |boost|[Boost](/API_docs/types/Boost.html) | Yes|
 |qts|[int](/API_docs/types/int.html) | Yes|
 
@@ -25,5 +25,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$updateBotChatBoost = ['_' => 'updateBotChatBoost', 'peer' => Peer, 'boost' => Boost, 'qts' => int];
+$updateBotChatBoost = ['_' => 'updateBotChatBoost', 'peer' => long, 'boost' => Boost, 'qts' => int];
 ```  

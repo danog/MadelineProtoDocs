@@ -15,7 +15,7 @@ Notifies a change of a message [draft](https://core.telegram.org/api/drafts).
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|The peer to which the draft is associated|
+|peer|[long](/API_docs/types/long.html) | Yes|
 |top\_msg\_id|[int](/API_docs/types/int.html) | Optional|ID of the [forum topic](https://core.telegram.org/api/forum#forum-topics) to which the draft is associated|
 |draft|[DraftMessage](/API_docs/types/DraftMessage.html) | Optional|The draft|
 
@@ -27,5 +27,5 @@ Notifies a change of a message [draft](https://core.telegram.org/api/drafts).
 ### Example:
 
 ```
-$updateDraftMessage = ['_' => 'updateDraftMessage', 'peer' => Peer, 'top_msg_id' => int, 'draft' => DraftMessage];
+$updateDraftMessage = ['_' => 'updateDraftMessage', 'peer' => long, 'top_msg_id' => int, 'draft' => DraftMessage];
 ```  

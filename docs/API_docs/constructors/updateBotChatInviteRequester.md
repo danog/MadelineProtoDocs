@@ -15,7 +15,7 @@ Someone has requested to join a chat or channel (bots only, users will receive a
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|The chat or channel in question|
+|peer|[long](/API_docs/types/long.html) | Yes|
 |date|[int](/API_docs/types/int.html) | Yes|When was the [join request »](https://core.telegram.org/api/invites#join-requests) made|
 |user\_id|[long](/API_docs/types/long.html) | Yes|The user ID that is asking to join the chat or channel|
 |about|[string](/API_docs/types/string.html) | Yes|Bio of the user|
@@ -30,5 +30,5 @@ Someone has requested to join a chat or channel (bots only, users will receive a
 ### Example:
 
 ```
-$updateBotChatInviteRequester = ['_' => 'updateBotChatInviteRequester', 'peer' => Peer, 'date' => int, 'user_id' => long, 'about' => 'string', 'invite' => ExportedChatInvite, 'qts' => int];
+$updateBotChatInviteRequester = ['_' => 'updateBotChatInviteRequester', 'peer' => long, 'date' => int, 'user_id' => long, 'about' => 'string', 'invite' => ExportedChatInvite, 'qts' => int];
 ```  

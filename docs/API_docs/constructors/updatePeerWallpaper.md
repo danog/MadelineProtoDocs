@@ -14,7 +14,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |wallpaper\_overridden|[Bool](/API_docs/types/Bool.html) | Optional|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|
 |wallpaper|[WallPaper](/API_docs/types/WallPaper.html) | Optional|
 
 
@@ -25,5 +25,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$updatePeerWallpaper = ['_' => 'updatePeerWallpaper', 'wallpaper_overridden' => Bool, 'peer' => Peer, 'wallpaper' => WallPaper];
+$updatePeerWallpaper = ['_' => 'updatePeerWallpaper', 'wallpaper_overridden' => Bool, 'peer' => long, 'wallpaper' => WallPaper];
 ```  

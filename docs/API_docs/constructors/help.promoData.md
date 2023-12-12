@@ -18,7 +18,7 @@ MTProxy/Public Service Announcement information
 |----------|---------------|----------|-------------|
 |proxy|[Bool](/API_docs/types/Bool.html) | Optional|MTProxy-related channel|
 |expires|[int](/API_docs/types/int.html) | Yes|Expiry of PSA/MTProxy info|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|MTProxy/PSA peer|
+|peer|[long](/API_docs/types/long.html) | Yes|
 |chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Chat info|
 |users|Array of [User](/API_docs/types/User.html) | Yes|User info|
 |psa\_type|[string](/API_docs/types/string.html) | Optional|PSA type|
@@ -32,5 +32,5 @@ MTProxy/Public Service Announcement information
 ### Example:
 
 ```
-$help_promoData = ['_' => 'help.promoData', 'proxy' => Bool, 'expires' => int, 'peer' => Peer, 'chats' => [Chat, Chat], 'users' => [User, User], 'psa_type' => 'string', 'psa_message' => 'string'];
+$help_promoData = ['_' => 'help.promoData', 'proxy' => Bool, 'expires' => int, 'peer' => long, 'chats' => [Chat, Chat], 'users' => [User, User], 'psa_type' => 'string', 'psa_message' => 'string'];
 ```  

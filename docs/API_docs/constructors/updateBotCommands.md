@@ -15,7 +15,7 @@ The [command set](https://core.telegram.org/api/bots/commands) of a certain bot 
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|The affected chat|
+|peer|[long](/API_docs/types/long.html) | Yes|
 |bot\_id|[long](/API_docs/types/long.html) | Yes|ID of the bot that changed its command set|
 |commands|Array of [BotCommand](/API_docs/types/BotCommand.html) | Yes|New bot commands|
 
@@ -27,5 +27,5 @@ The [command set](https://core.telegram.org/api/bots/commands) of a certain bot 
 ### Example:
 
 ```
-$updateBotCommands = ['_' => 'updateBotCommands', 'peer' => Peer, 'bot_id' => long, 'commands' => [BotCommand, BotCommand]];
+$updateBotCommands = ['_' => 'updateBotCommands', 'peer' => long, 'bot_id' => long, 'commands' => [BotCommand, BotCommand]];
 ```  

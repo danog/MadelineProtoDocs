@@ -15,7 +15,7 @@ Settings of a certain peer have changed
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|The peer|
+|peer|[long](/API_docs/types/long.html) | Yes|
 |settings|[PeerSettings](/API_docs/types/PeerSettings.html) | Yes|Associated peer settings|
 
 
@@ -26,5 +26,5 @@ Settings of a certain peer have changed
 ### Example:
 
 ```
-$updatePeerSettings = ['_' => 'updatePeerSettings', 'peer' => Peer, 'settings' => PeerSettings];
+$updatePeerSettings = ['_' => 'updatePeerSettings', 'peer' => long, 'settings' => PeerSettings];
 ```  

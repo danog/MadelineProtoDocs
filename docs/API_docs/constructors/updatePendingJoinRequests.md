@@ -15,7 +15,7 @@ Someone has requested to join a chat or channel
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|Chat or channel|
+|peer|[long](/API_docs/types/long.html) | Yes|
 |requests\_pending|[int](/API_docs/types/int.html) | Yes|Number of pending [join requests »](https://core.telegram.org/api/invites#join-requests) for the chat or channel|
 |recent\_requesters|Array of [long](/API_docs/types/long.html) | Yes|IDs of users that have recently requested to join|
 
@@ -27,5 +27,5 @@ Someone has requested to join a chat or channel
 ### Example:
 
 ```
-$updatePendingJoinRequests = ['_' => 'updatePendingJoinRequests', 'peer' => Peer, 'requests_pending' => int, 'recent_requesters' => [long, long]];
+$updatePendingJoinRequests = ['_' => 'updatePendingJoinRequests', 'peer' => long, 'requests_pending' => int, 'recent_requesters' => [long, long]];
 ```  

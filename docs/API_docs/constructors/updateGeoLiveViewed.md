@@ -15,7 +15,7 @@ Live geoposition message was viewed
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|The user that viewed the live geoposition|
+|peer|[long](/API_docs/types/long.html) | Yes|
 |msg\_id|[int](/API_docs/types/int.html) | Yes|Message ID of geoposition message|
 
 
@@ -26,5 +26,5 @@ Live geoposition message was viewed
 ### Example:
 
 ```
-$updateGeoLiveViewed = ['_' => 'updateGeoLiveViewed', 'peer' => Peer, 'msg_id' => int];
+$updateGeoLiveViewed = ['_' => 'updateGeoLiveViewed', 'peer' => long, 'msg_id' => int];
 ```  

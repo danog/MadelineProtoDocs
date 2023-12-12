@@ -15,7 +15,7 @@ Peer in a folder
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Peer](/API_docs/types/Peer.html) | Yes|Folder peer info|
+|peer|[long](/API_docs/types/long.html) | Yes|
 |folder\_id|[int](/API_docs/types/int.html) | Yes|[Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders)|
 
 
@@ -26,5 +26,5 @@ Peer in a folder
 ### Example:
 
 ```
-$folderPeer = ['_' => 'folderPeer', 'peer' => Peer, 'folder_id' => int];
+$folderPeer = ['_' => 'folderPeer', 'peer' => long, 'folder_id' => int];
 ```  
