@@ -17,7 +17,7 @@ A callback button was pressed, and the button data was sent to the bot that crea
 |----------|---------------|----------|-------------|
 |query\_id|[long](/API_docs/types/long.html) | Yes|Query ID|
 |user\_id|[long](/API_docs/types/long.html) | Yes|ID of the user that pressed the button|
-|peer|[long](/API_docs/types/long.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|Chat where the inline keyboard was sent|
 |msg\_id|[int](/API_docs/types/int.html) | Yes|Message ID|
 |chat\_instance|[long](/API_docs/types/long.html) | Yes|Global identifier, uniquely corresponding to the chat to which the message with the callback button was sent. Useful for high scores in games.|
 |data|[bytes](/API_docs/types/bytes.html) | Optional|Callback data|

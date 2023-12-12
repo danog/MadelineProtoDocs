@@ -15,7 +15,7 @@ Peer in a folder
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[long](/API_docs/types/long.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|Folder peer info|
 |folder\_id|[int](/API_docs/types/int.html) | Yes|[Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders)|
 
 

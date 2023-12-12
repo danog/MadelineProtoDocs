@@ -25,7 +25,7 @@ Info about a group call participant
 |volume\_by\_admin|[Bool](/API_docs/types/Bool.html) | Optional|Whether our volume can only changed by an admin|
 |self|[Bool](/API_docs/types/Bool.html) | Optional|Whether this participant is the current user|
 |video\_joined|[Bool](/API_docs/types/Bool.html) | Optional|Whether this participant is currently broadcasting video|
-|peer|[long](/API_docs/types/long.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|Peer information|
 |date|[int](/API_docs/types/int.html) | Yes|When did this participant join the group call|
 |active\_date|[int](/API_docs/types/int.html) | Optional|When was this participant last active in the group call|
 |source|[int](/API_docs/types/int.html) | Yes|Source ID|

@@ -16,7 +16,7 @@ Banned/kicked user
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |left|[Bool](/API_docs/types/Bool.html) | Optional|Whether the user has left the group|
-|peer|[long](/API_docs/types/long.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|The banned peer|
 |kicked\_by|[long](/API_docs/types/long.html) | Yes|User was kicked by the specified admin|
 |date|[int](/API_docs/types/int.html) | Yes|When did the user join the group|
 |banned\_rights|[ChatBannedRights](/API_docs/types/ChatBannedRights.html) | Yes|Banned [rights](https://core.telegram.org/api/rights)|

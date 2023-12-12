@@ -15,7 +15,7 @@ Settings of a certain peer have changed
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[long](/API_docs/types/long.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|The peer|
 |settings|[PeerSettings](/API_docs/types/PeerSettings.html) | Yes|Associated peer settings|
 
 

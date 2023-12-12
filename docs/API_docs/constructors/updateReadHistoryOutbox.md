@@ -15,7 +15,7 @@ Outgoing messages were read
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[long](/API_docs/types/long.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|Peer|
 |max\_id|[int](/API_docs/types/int.html) | Yes|Maximum ID of read outgoing messages|
 |pts|[int](/API_docs/types/int.html) | Yes|[Event count after generation](https://core.telegram.org/api/updates)|
 |pts\_count|[int](/API_docs/types/int.html) | Yes|[Number of events that were generated](https://core.telegram.org/api/updates)|

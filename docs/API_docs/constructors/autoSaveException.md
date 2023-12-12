@@ -15,7 +15,7 @@ Peer-specific media autosave settings
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[long](/API_docs/types/long.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|The peer|
 |settings|[AutoSaveSettings](/API_docs/types/AutoSaveSettings.html) | Yes|Media autosave settings|
 
 

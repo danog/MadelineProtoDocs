@@ -18,7 +18,7 @@ MTProxy/Public Service Announcement information
 |----------|---------------|----------|-------------|
 |proxy|[Bool](/API_docs/types/Bool.html) | Optional|MTProxy-related channel|
 |expires|[int](/API_docs/types/int.html) | Yes|Expiry of PSA/MTProxy info|
-|peer|[long](/API_docs/types/long.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|MTProxy/PSA peer|
 |chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Chat info|
 |users|Array of [User](/API_docs/types/User.html) | Yes|User info|
 |psa\_type|[string](/API_docs/types/string.html) | Optional|PSA type|

@@ -15,7 +15,7 @@ Extended media update
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[long](/API_docs/types/long.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|Peer|
 |msg\_id|[int](/API_docs/types/int.html) | Yes|Message ID|
 |extended\_media|[MessageExtendedMedia](/API_docs/types/MessageExtendedMedia.html) | Yes|Extended media|
 

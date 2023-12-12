@@ -17,7 +17,7 @@ Dialog in folder
 |----------|---------------|----------|-------------|
 |pinned|[Bool](/API_docs/types/Bool.html) | Optional|Is this folder pinned|
 |folder|[Folder](/API_docs/types/Folder.html) | Yes|The folder|
-|peer|[long](/API_docs/types/long.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|Peer in folder|
 |top\_message|[int](/API_docs/types/int.html) | Yes|Latest message ID of dialog|
 |unread\_muted\_peers\_count|[int](/API_docs/types/int.html) | Yes|Number of unread muted peers in folder|
 |unread\_unmuted\_peers\_count|[int](/API_docs/types/int.html) | Yes|Number of unread unmuted peers in folder|

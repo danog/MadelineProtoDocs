@@ -16,7 +16,7 @@ Contains info about a peer that the user shared with the bot after clicking on a
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |button\_id|[int](/API_docs/types/int.html) | Yes|`button_id` contained in the [keyboardButtonRequestPeer](../constructors/keyboardButtonRequestPeer.html)|
-|peer|[long](/API_docs/types/long.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|The shared peer|
 
 
 

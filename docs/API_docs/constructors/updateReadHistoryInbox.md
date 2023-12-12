@@ -16,7 +16,7 @@ Incoming messages were read
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |folder\_id|[int](/API_docs/types/int.html) | Optional|[Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders)|
-|peer|[long](/API_docs/types/long.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|Peer|
 |max\_id|[int](/API_docs/types/int.html) | Yes|Maximum ID of messages read|
 |still\_unread\_count|[int](/API_docs/types/int.html) | Yes|Number of messages that are still unread|
 |pts|[int](/API_docs/types/int.html) | Yes|[Event count after generation](https://core.telegram.org/api/updates)|

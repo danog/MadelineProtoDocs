@@ -15,7 +15,7 @@ Live geoposition message was viewed
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[long](/API_docs/types/long.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|The user that viewed the live geoposition|
 |msg\_id|[int](/API_docs/types/int.html) | Yes|Message ID of geoposition message|
 
 

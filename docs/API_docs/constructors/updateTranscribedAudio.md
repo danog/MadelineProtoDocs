@@ -16,7 +16,7 @@ A pending [voice message transcription »](https://core.telegram.org/api/transcr
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |pending|[Bool](/API_docs/types/Bool.html) | Optional|Whether this transcription is still pending and further [updateTranscribedAudio](../constructors/updateTranscribedAudio.html) about it will be sent in the future.|
-|peer|[long](/API_docs/types/long.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|Peer of the transcribed message|
 |msg\_id|[int](/API_docs/types/int.html) | Yes|Transcribed message ID|
 |transcription\_id|[long](/API_docs/types/long.html) | Yes|Transcription ID|
 |text|[string](/API_docs/types/string.html) | Yes|Transcribed text|

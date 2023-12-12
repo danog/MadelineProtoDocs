@@ -15,7 +15,7 @@ The Time-To-Live for messages sent by the current user in a specific chat has ch
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[long](/API_docs/types/long.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|The chat|
 |ttl\_period|[int](/API_docs/types/int.html) | Optional|The new Time-To-Live|
 
 

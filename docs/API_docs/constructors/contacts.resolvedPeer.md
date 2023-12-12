@@ -16,7 +16,7 @@ Resolved peer
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[long](/API_docs/types/long.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|The peer|
 |chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Chats|
 |users|Array of [User](/API_docs/types/User.html) | Yes|Users|
 

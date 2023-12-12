@@ -15,7 +15,7 @@ Someone has requested to join a chat or channel
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[long](/API_docs/types/long.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|Chat or channel|
 |requests\_pending|[int](/API_docs/types/int.html) | Yes|Number of pending [join requests »](https://core.telegram.org/api/invites#join-requests) for the chat or channel|
 |recent\_requesters|Array of [long](/API_docs/types/long.html) | Yes|IDs of users that have recently requested to join|
 

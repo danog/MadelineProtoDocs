@@ -15,7 +15,7 @@ Some [scheduled messages](https://core.telegram.org/api/scheduled-messages) were
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[long](/API_docs/types/long.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|Peer|
 |messages|Array of [int](/API_docs/types/int.html) | Yes|Deleted scheduled messages|
 
 

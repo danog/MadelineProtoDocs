@@ -15,7 +15,7 @@ Peer geolocated nearby
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[long](/API_docs/types/long.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|Peer|
 |expires|[int](/API_docs/types/int.html) | Yes|Validity period of current data|
 |distance|[int](/API_docs/types/int.html) | Yes|Distance from the peer in meters|
 

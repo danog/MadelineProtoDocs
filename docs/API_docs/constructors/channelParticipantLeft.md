@@ -15,7 +15,7 @@ A participant that left the channel/supergroup
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[long](/API_docs/types/long.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|The peer that left|
 
 
 

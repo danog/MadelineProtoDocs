@@ -15,7 +15,7 @@ Default banned rights in a [normal chat](https://core.telegram.org/api/channel) 
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[long](/API_docs/types/long.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|The chat|
 |default\_banned\_rights|[ChatBannedRights](/API_docs/types/ChatBannedRights.html) | Yes|New default banned rights|
 |version|[int](/API_docs/types/int.html) | Yes|Version|
 

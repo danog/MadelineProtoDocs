@@ -18,7 +18,7 @@ Chat
 |pinned|[Bool](/API_docs/types/Bool.html) | Optional|Is the dialog pinned|
 |unread\_mark|[Bool](/API_docs/types/Bool.html) | Optional|Whether the chat was manually marked as unread|
 |view\_forum\_as\_messages|[Bool](/API_docs/types/Bool.html) | Optional|
-|peer|[long](/API_docs/types/long.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|The chat|
 |top\_message|[int](/API_docs/types/int.html) | Yes|The latest message ID|
 |read\_inbox\_max\_id|[int](/API_docs/types/int.html) | Yes|Position up to which all incoming messages are read.|
 |read\_outbox\_max\_id|[int](/API_docs/types/int.html) | Yes|Position up to which all outgoing messages are read.|

@@ -16,7 +16,7 @@ Indicates a peer that can be used to send messages
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |premium\_required|[Bool](/API_docs/types/Bool.html) | Optional|Whether a Telegram Premium account is required to send messages as this peer|
-|peer|[long](/API_docs/types/long.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|Peer|
 
 
 

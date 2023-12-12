@@ -15,7 +15,7 @@ Someone has requested to join a chat or channel (bots only, users will receive a
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[long](/API_docs/types/long.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|The chat or channel in question|
 |date|[int](/API_docs/types/int.html) | Yes|When was the [join request »](https://core.telegram.org/api/invites#join-requests) made|
 |user\_id|[long](/API_docs/types/long.html) | Yes|The user ID that is asking to join the chat or channel|
 |about|[string](/API_docs/types/string.html) | Yes|Bio of the user|
