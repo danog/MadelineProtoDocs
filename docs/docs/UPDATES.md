@@ -978,7 +978,7 @@ foreach ($this->dataStoredOnDb as $key => $value) {
 
 Each element of the array is stored in a separate database row (MySQL, Postgres or Redis, configured as specified [here &raquo;](https://docs.madelineproto.xyz/docs/DATABASE.html)), and is only kept in memory for the number of seconds specified in the [cache TTL setting](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/Settings/Database/DriverDatabaseAbstract.html#setcachettl-int-string-cachettl-static); when the TTL expires, any updated value is flushed to the database, and the row is removed from memory.  
 
-Pros of using ORM `DbArray` properties over raw properties returned in `__sleep`:
+Pros of using ORM `DbArray` properties over [raw properties &raquo;](#persisting-data-and-ipc) returned in `__sleep`:
 
 * Much lower RAM usage
 * Added possibility of storing even gigabytes of data in a single `DbArray`, without keeping it all in memory.  
