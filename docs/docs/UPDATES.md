@@ -998,7 +998,7 @@ foreach ($this->dataStoredOnDb as $key => $value) {
 
 [Psalm](https://psalm.dev) generic typing is supported.  
 
-Each element of the array is stored in a separate database row (MySQL, Postgres or Redis, configured as specified [here &raquo;](https://docs.madelineproto.xyz/docs/DATABASE.html)), and is only kept in memory for the number of seconds specified in the cache TTL setting; when the TTL expires, any updated value is flushed to the database, and the row is removed from memory.  
+Each element of the array is stored in a separate database row (MySQL, Postgres or Redis, configured as specified [here &raquo;](https://docs.madelineproto.xyz/docs/DATABASE.html)), and is only kept in memory for the number of seconds specified in the cache TTL setting; when the TTL expires, any updated value is written to the database, and the row is removed from memory.  
 
 Pros of using ORM `DbArray` properties instead of raw properties:
 
