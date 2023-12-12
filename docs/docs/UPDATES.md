@@ -907,14 +907,22 @@ You can also directly connect to any database using the same [async MySQL/Postgr
 
 To do so, simply [specify the database settings](DATABASE.html), and declare a static `$dbProperties` property to initialize the async database mapper:  
 ```php
+
+use danog\MadelineProto\Db\DbArray;
+use danog\MadelineProto\SimpleEventHandler;
+use danog\MadelineProto\Settings\Database\SerializerType;
+
+/**
+ * @psalm-import-type TOrmConfig from DbArray
+ */
 class MyEventHandler extends SimpleEventHandler {
     /**
-     * List of properties automatically stored in database (MySQL, Postgres, redis or memory).
+     * List of properties automatically stored in database through the ORM (MySQL, Postgres, redis or session file).
      * @see https://docs.madelineproto.xyz/docs/DATABASE.html
-     * @var array
+     * @var array<string, TOrmConfig>
      */
     protected static array $dbProperties = [
-        'dataStoredOnDb' => [
+        'ormProperty' => [
             // Fully optional settings array for the property, can be empty
             
             // Serialization method (one of the SerializerType constants).
@@ -927,7 +935,7 @@ class MyEventHandler extends SimpleEventHandler {
             //
             // 'enableCache' => true,
 
-            // If the cache is enabled, specifies the cache TTL.
+            // If the cache is enabled, specifies the cache TTL in seconds.
             // If absent, defaults to the cache TTL specified in the global settings
             // 'cacheTtl' => 5*60, 
 
@@ -943,10 +951,24 @@ class MyEventHandler extends SimpleEventHandler {
     /**
      * @var DbArray<array-key, mixed>
      * 
+     * This ORM property is also persisted to the database, and is *not* fully kept in RAM at all times.
+     * 
      * You can also provide more specific type parameters (i.e. <string, int>; <int, someClass> etc)
      */
-    protected DbArray $dataStoredOnDb;
+    protected DbArray $ormProperty;
 
+    /**
+     * This raw property is also persisted to the database, but is always kept in RAM at all times.
+     */
+    private array $rawProperty = [];
+
+    /**
+     * Returns a list of names for properties that will be automatically saved to the session database (MySQL/postgres/redis if configured, the session file otherwise).
+     */
+    public function __sleep(): array
+    {
+        return ['ormProperty', 'rawProperty'];
+    }
     // ...
 }
 ```
@@ -978,14 +1000,20 @@ foreach ($this->dataStoredOnDb as $key => $value) {
 
 Each element of the array is stored in a separate database row (MySQL, Postgres or Redis, configured as specified [here &raquo;](https://docs.madelineproto.xyz/docs/DATABASE.html)), and is only kept in memory for the number of seconds specified in the [cache TTL setting](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/Settings/Database/DriverDatabaseAbstract.html#setcachettl-int-string-cachettl-static); when the TTL expires, any updated value is flushed to the database, and the row is removed from memory.  
 
-Pros of using ORM `DbArray` properties over [raw properties &raquo;](#persisting-data-and-ipc) returned in `__sleep`:
+Pros of using ORM `DbArray` properties instead of raw properties:
 
-* Much lower RAM usage
+* Much lower RAM usage, as the entire array is **not** kept in RAM at all times, only the most frequently used elements, according to the configured TTL. 
 * Added possibility of storing even gigabytes of data in a single `DbArray`, without keeping it all in memory.  
+* If caching is disabled, the array is **never** kept in RAM, significantly hindering performance but further reducing RAM usage for truly **huge** elements (gigabyte-level).  
 
-Cons of using ORM `DbArray`:
+Cons of using ORM `DbArray` properties:
 
 * Reads and writes are not atomic. Since each handler is started in a concurrent green thread, race conditions may ensue, thus accesses must be syncronized where and if needed using [amphp/sync](https://github.com/amphp/sync).  
+* Slower than raw properties (**much** slower if caching is fully disabled).
+
+Both raw properties and ORM `DbArray` properties are ultimately persisted on the database.  
+
+If no database is configured in the global settings, ORM properties behave pretty much like raw array properties, kept entirely in RAM and persisted to the session file.  
 
 ### IPC
 
