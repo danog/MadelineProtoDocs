@@ -894,9 +894,134 @@ include 'madeline.php';
 
 $a = new API('bot.madeline');
 
-$plugin = $a->getPlugin(PingPlugin::class);
+$handler = $a->getEventHandler(PingPlugin::class);
 
-$plugin->setPongText('UwU');
+$handler->setPongText('UwU');
+```
+
+#### Built-in ORM
+
+You can also directly connect to any database using the same [async MySQL/Postgres/Redis ORM](DATABASE.html) used by MadelineProto internally.  
+
+To do so, simply [specify the database settings](DATABASE.html), and declare a static `$dbProperties` property to initialize the async database mapper:  
+```php
+class MyEventHandler extends SimpleEventHandler {
+    /**
+     * List of properties automatically stored in database (MySQL, Postgres, redis or memory).
+     * @see https://docs.madelineproto.xyz/docs/DATABASE.html
+     * @var array
+     */
+    protected static array $dbProperties = [
+        'dataStoredOnDb' => 'array'
+    ];
+
+    /**
+     * @var DbArray<array-key, mixed>
+     * 
+     * You can also provide more specific type parameters (i.e. <string, int>; <int, someClass> etc)
+     */
+    protected DbArray $dataStoredOnDb;
+
+    // ...
+```
+
+And use the newly created `$dataStoredOnDb` property to access the database:  
+```php
+// Can be anything serializable, an array, an int, an object
+$myData = [];
+
+// Use the isset method to check whether some data exists in the database
+if (isset($this->dataStoredOnDb['yourKey'])) {
+    // Always when fetching data
+    $myData = $this->dataStoredOnDb['yourKey'];
+}
+$this->dataStoredOnDb['yourKey'] = $myData + ['moreStuff' => 'yay'];
+
+$this->dataStoredOnDb['otherKey'] = 0;
+unset($this->dataStoredOnDb['otherKey']);
+
+$this->logger("Count: ".count($this->dataStoredOnDb));
+
+foreach ($this->dataStoredOnDb as $key => $value) {
+    $this->logger($key);
+    $this->logger($value);
+}
+```
+
+[Psalm](https://psalm.dev) generic typing is supported.  
+
+Each element of the array is stored in a separate database row (MySQL, Postgres or Redis, configured as specified [here &raquo;](https://docs.madelineproto.xyz/docs/DATABASE.html)), and is only kept in memory for the number of seconds specified in the [cache TTL setting](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/Settings/Database/DriverDatabaseAbstract.html#setcachettl-int-string-cachettl-static); when the TTL expires, any updated value is flushed to the database, and the row is removed from memory.  
+
+Pros of using ORM `DbArray` properties over raw properties returned in `__sleep`:
+
+* Much lower RAM usage
+* Added possibility of storing even gigabytes of data in a single `DbArray`, without keeping it all in memory.  
+
+Cons of using ORM `DbArray`:
+
+* Reads and writes are not atomic. Since each handler is started in a concurrent green thread, race conditions may ensue, thus accesses must be syncronized where and if needed using [amphp/sync](https://github.com/amphp/sync).  
+
+### IPC
+
+You can communicate with the event handler from the outside, by invoking methods on the proxy returned by getEventHandler:
+
+bot.php:
+
+```php
+<?php declare(strict_types=1);
+
+use danog\MadelineProto\EventHandler\Attributes\Handler;
+use danog\MadelineProto\EventHandler\Message;
+use danog\MadelineProto\EventHandler\Plugin\RestartPlugin;
+use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
+use danog\MadelineProto\SimpleEventHandler;
+
+if (!file_exists('madeline.php')) {
+     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+final class MyEventHandler extends SimpleEventHandler {
+
+    public function someMethod(): string {
+        return "Some data";
+    }
+
+
+    /**
+     * Handle incoming updates from users, chats and channels.
+     */
+    #[Handler]
+    public function handleMessage(Incoming&Message $message): void
+    {
+        // Code that uses $message...
+        // See the following pages for more examples and documentation:
+        // - https://github.com/danog/MadelineProto/blob/v8/examples/bot.php
+        // - https://docs.madelineproto.xyz/docs/UPDATES.html
+        // - https://docs.madelineproto.xyz/docs/FILTERS.html
+        // - https://docs.madelineproto.xyz/
+    }
+}
+
+MyEventHandler::startAndLoop('bot.madeline');
+```
+
+
+script.php:
+
+```php
+use danog\MadelineProto\API;
+
+if (!file_exists('madeline.php')) {
+     copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$a = new API('bot.madeline');
+
+$handler = $a->getEventHandler(MyEventHandler::class);
+
+$handler->someMethod();
 ```
 
 ### Restarting
