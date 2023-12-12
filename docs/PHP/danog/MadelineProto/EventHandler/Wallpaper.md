@@ -24,7 +24,7 @@ Represents a [wallpaper](https://core.telegram.org/api/wallpapers).
 * `$dark`: `bool` Whether this wallpaper should be used in dark mode.
 * `$uniqueId`: `string` Unique wallpaper ID, used when generating [wallpaper links](https://core.telegram.org/api/links#wallpaper-links) or [importing wallpaper links](https://core.telegram.org/api/wallpapers).
 * `$media`: `\DocumentPhoto` The actual wallpaper
-* `$settings`: `mixed` Info on how to generate the wallpaper, according to [these instructions](https://core.telegram.org/api/wallpapers).
+* `$settings`: `?\danog\MadelineProto\EventHandler\Wallpaper\WallpaperSettings` Info on how to generate the wallpaper, according to [these instructions](https://core.telegram.org/api/wallpapers).
 
 ## Method list:
 * [`__construct(\danog\MadelineProto\MTProto $API, array $rawWallpaper)`](#__construct-danog-madelineproto-mtproto-api-array-rawwallpaper)

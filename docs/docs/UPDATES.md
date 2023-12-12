@@ -18,6 +18,8 @@ Update handling can be done in different ways:
   * [Plugins](https://docs.madelineproto.xyz/docs/PLUGINS.html)
   * [Cron](#cron)
   * [Persisting data and IPC](#persisting-data-and-ipc)
+  * [Built-in ORM](#built-in-orm)
+  * [IPC](#ipc)
   * [Restarting](#restarting)
   * [Self-restart on webhosts](#self-restart-on-webhosts)
   * [Multi-account](#multiaccount)
@@ -912,7 +914,30 @@ class MyEventHandler extends SimpleEventHandler {
      * @var array
      */
     protected static array $dbProperties = [
-        'dataStoredOnDb' => 'array'
+        'dataStoredOnDb' => [
+            // Fully optional settings array for the property, can be empty
+            
+            // Serialization method (one of the SerializerType constants).
+            // If absent, defaults to automatic.
+            //
+            // 'serializer' => SerializerType::*,
+
+            // Whether to enable the cache.
+            // If absent, defaults to true.
+            //
+            // 'enableCache' => true,
+
+            // If the cache is enabled, specifies the cache TTL.
+            // If absent, defaults to the cache TTL specified in the global settings
+            // 'cacheTtl' => 5*60, 
+
+            // Specifies the table name postfix. 
+            // Internally concatenated with the session prefix specified in the global settings,
+            //  or with the session ID if the session prefix is not specified in the global settings.
+            // Defaults to {$className}_{$propertyName}
+            // 
+            // 'table' => 'tableName'
+        ]
     ];
 
     /**
@@ -923,6 +948,7 @@ class MyEventHandler extends SimpleEventHandler {
     protected DbArray $dataStoredOnDb;
 
     // ...
+}
 ```
 
 And use the newly created `$dataStoredOnDb` property to access the database:  
