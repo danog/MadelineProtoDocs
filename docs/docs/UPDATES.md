@@ -1008,7 +1008,7 @@ Pros of using ORM `DbArray` properties instead of raw properties:
 
 Cons of using ORM `DbArray` properties:
 
-* Reads and writes are not atomic. Since each handler is started in a concurrent green thread, race conditions may ensue, thus accesses must be syncronized where and if needed using [amphp/sync](https://github.com/amphp/sync).  
+* Reads and writes are not atomic. Since each handler is started in a concurrent green thread (fiber), race conditions may ensue, thus accesses must be syncronized where and if needed using [amphp/sync](https://github.com/amphp/sync).  
 * Slower than raw properties (**much** slower if caching is fully disabled).
 
 Both raw properties and ORM `DbArray` properties are ultimately persisted on the database.  
