@@ -60,7 +60,7 @@ Represents an incoming or outgoing group message.
 * [`kick(): void`](#kick-void)
 * [`deleteAll(bool $forEveryone = true, int $maxId = 0): void`](#deleteall-bool-foreveryone-true-int-maxid-0-void)
 * [`deleteUserMessages(string|int|null $member = NULL): void`](#deleteusermessages-string-int-null-member-null-void)
-* [`toSuperGroup(): \int the channel id that migrate to`](#tosupergroup-int-the-channel-id-that-migrate-to)
+* [`toSuperGroup(): \int the channel id we migrated to`](#tosupergroup-int-the-channel-id-we-migrated-to)
 * [`enableAntiSpam(): void`](#enableantispam-void)
 * [`disableAntiSpam(): void`](#disableantispam-void)
 * [`enableTopics(): void`](#enabletopics-void)
@@ -196,12 +196,12 @@ Parameters:
 
 
 
-### `toSuperGroup(): \int the channel id that migrate to`
+### `toSuperGroup(): \int the channel id we migrated to`
 
 Turn a [basic group into a supergroup](https://core.telegram.org/api/channel#migration).
 
 
-Return value: the channel id that migrate to
+Return value: the channel id we migrated to
 
 
 ### `enableAntiSpam(): void`

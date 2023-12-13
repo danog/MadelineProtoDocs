@@ -50,6 +50,7 @@ Represents an incoming or outgoing channel message.
 * `$ttlPeriod`: `?int` Time-to-live of the message
 
 ## Method list:
+* [`getDiscussion(): \danog\MadelineProto\EventHandler\Message\GroupMessage`](#getdiscussion-danog-madelineproto-eventhandler-message-groupmessage)
 * [`disableSignatures(): void`](#disablesignatures-void)
 * [`enableSignatures(): void`](#enablesignatures-void)
 * [`getMember(string|int $member): \danog\MadelineProto\EventHandler\Participant`](#getmember-string-int-member-danog-madelineproto-eventhandler-participant)
@@ -87,6 +88,21 @@ Represents an incoming or outgoing channel message.
 * [`disableAutoTranslate(): bool`](#disableautotranslate-bool)
 
 ## Methods:
+### `getDiscussion(): \danog\MadelineProto\EventHandler\Message\GroupMessage`
+
+Obtains the copy of the current message, that was sent to the linked group.
+Can be used to reply in the comment section, for example:  
+  
+```php  
+$update->getDiscussion()->reply("Comment");  
+```
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message\GroupMessage`: Represents an incoming or outgoing group message.](../../../../danog/MadelineProto/EventHandler/Message/GroupMessage.html)
+
+
+
+
 ### `disableSignatures(): void`
 
 Disable message signatures in channels.
