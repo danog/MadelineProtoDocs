@@ -13,7 +13,7 @@ Database to memory migration is also supported.
 
 Databases and tables will be created automatically.  
 
-You can also directly connect the [event handler](/docs/UPDATES.html#built-in-database-driver) using the same async MySQL/Postgres/Redis ORM used by MadelineProto internally.  
+You can also directly connect the [event handler](/docs/UPDATES.html#built-in-orm) using the same async MySQL/Postgres/Redis ORM used by MadelineProto internally.  
 
 Related settings:  
 
