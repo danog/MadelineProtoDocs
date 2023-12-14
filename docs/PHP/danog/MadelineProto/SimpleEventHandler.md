@@ -89,7 +89,6 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`extractUpdates(array $updates): array[]`](#extractupdates-array-updates-array)
 * [`fileGetContents(string $url): string`](#filegetcontents-string-url-string)
 * [`flock(string $file, int $operation, float $polling = 0.1, ?\Amp\Cancellation $token = NULL, ?\Closure $failureCb = NULL): mixed`](#flock-string-file-int-operation-float-polling-0-1-amp-cancellation-token-null-closure-failurecb-null-mixed)
-* [`flush(): void`](#flush-void)
 * [`fullChatLastUpdated(mixed $id): int`](#fullchatlastupdated-mixed-id-int)
 * [`fullGetSelf(): array|false`](#fullgetself-array-false)
 * [`genVectorHash(array $longs): string`](#genvectorhash-array-longs-string)
@@ -992,12 +991,6 @@ Parameters:
 * `\Amp\Cancellation`
 * `\Closure`
 
-
-
-
-### `flush(): void`
-
-Flush all postponed messages.
 
 
 
