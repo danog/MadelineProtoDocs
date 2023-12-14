@@ -1128,7 +1128,11 @@ API::startAndLoopMulti($MadelineProtos, MyEventHandler::class);
 
 This will create an event handler class `EventHandler`, create a **combined** MadelineProto session with session files `bot.madeline`, `user.madeline`, `user2.madeline`, and set the event handler class to our newly created event handler.
 
-Usage is the same as for [the normal event handler](#async-event-driven), with the difference is that multiple accounts can receive and handle updates in parallel, each with its own event handler instance.
+Usage is the same as for [the normal event handler](#async-event-driven), with the difference is that multiple accounts can receive and handle updates in parallel, each with its own event handler instance.  
+
+Errors thrown inside of the event loop will be reported to the report peers specified by each separate instance.  
+
+Note that for performance reasons, some internal or connection errors not thrown from the event loop may still get reported only to the last configured report peer.  
 
 To dynamically start a new event handler in the background, use `EventLoop::queue(MyEventHandler::startAndLoop(...), 'session.madeline', $settings))`.  
 
