@@ -1132,7 +1132,7 @@ Usage is the same as for [the normal event handler](#async-event-driven), with t
 
 Errors thrown inside of the event loop will be reported to the report peers specified by each separate instance.  
 
-Note that for performance reasons, some internal or connection exceptions not thrown from the event loop and exceptions thrown from `onStart` may still get reported (only to, or also to) the last configured report peer.  
+Note that for performance reasons, some internal or connection exceptions not thrown from the EventHandler and exceptions thrown from `onStart` may still get reported (only to, or also to) the last configured report peer.  
 
 To dynamically start a new event handler in the background, use `EventLoop::queue(MyEventHandler::startAndLoop(...), 'session.madeline', $settings))`.  
 
