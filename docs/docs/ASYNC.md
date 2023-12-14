@@ -187,26 +187,14 @@ When starting [multiple concurrent requests using `\Amp\async`](#async-forking-d
 ```php
 $res1 = async(fn () => $MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'hi 1', postpone: true));
 $res2 = async(fn () => $MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'hi 2', postpone: true));
-$res3 = async(fn () => $MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'hi 3', postpone: false));
-
-[$res1, $res2, $res3] = await([$res1, $res2, $res3]);
-```
-
-Or
-
-```php
-$res1 = async(fn () => $MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'hi 1', postpone: true));
-$res2 = async(fn () => $MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'hi 2', postpone: true));
 $res3 = async(fn () => $MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'hi 3', postpone: true));
-
-$this->flush();
 
 [$res1, $res2, $res3] = await([$res1, $res2, $res3]);
 ```
 
 This is the preferred way of combining multiple method calls: this way, the MadelineProto async WriteLoop will combine all method calls in one container, making everything WAY faster.  
 
-Note that the execution order of method calls is not guaranteed by default.  
+Note that the execution order of method calls is not guaranteed in this case, unless a `queueId` argument is also provided, in which case it will be guaranteed.  
 
 #### Cancellation
 

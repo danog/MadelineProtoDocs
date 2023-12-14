@@ -18,7 +18,7 @@ Indicates someone has requested to join a chat or channel (bots only).
 ## Properties
 * `$date`: `int` When was the [join request »](https://core.telegram.org/api/invites#join-requests) made
 * `$userId`: `int` The user ID that is asking to join the chat or channel
-* `$about`: `int` Bio of the user
+* `$about`: `string` Bio of the user
 * `$invite`: `\danog\MadelineProto\EventHandler\ChatInvite` Chat invite link that was used by the user to send the [join request »](https://core.telegram.org/api/invites#join-requests)
 * `$chatId`: `int` The chat or channel in question
 ---
