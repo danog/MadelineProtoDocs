@@ -1130,9 +1130,9 @@ This will create an event handler class `EventHandler`, create a **combined** Ma
 
 Usage is the same as for [the normal event handler](#async-event-driven), with the difference is that multiple accounts can receive and handle updates in parallel, each with its own event handler instance.
 
-To dynamically start a new event handler in the background, use `Tools::callFork(MyEventHandler::startAndLoop(...), 'session.madeline', $settings))`.  
+To dynamically start a new event handler in the background, use `EventLoop::queue(MyEventHandler::startAndLoop(...), 'session.madeline', $settings))`.  
 
-**Warning**: this can only be done with already logged-in sessions, if your sessions aren't logged in yet use `startAndLoopMulti`.  
+**Warning**: this can only be done with already logged-in sessions, if your sessions aren't logged in yet use `startAndLoopMulti`, or login first.  
 
 ```php
 use danog\MadelineProto\EventHandler;
@@ -1146,7 +1146,7 @@ foreach ([
     'user.madeline' => 'Userbot login',
     'user2.madeline' => 'Userbot login (2)'
 ] as $session => $message) {
-    Tools::callFork(MyEventHandler::startAndLoop(...), $session);
+    EventLoop::queue(MyEventHandler::startAndLoop(...), $session);
 }
 
 EventLoop::run(); // Or continue using some other async code...

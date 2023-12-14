@@ -182,19 +182,31 @@ $future = \Amp\async(fn () => $MadelineProto->messages->sendMessage(peer: 'danog
 
 #### Multiple async
 
-When starting [multiple concurrent requests using `\Amp\async`](#async-forking-does-async-green-thread-forking), the `postpone` flag may also be used postpone execution of all methods until the first method call with `postpone = false` to the same DC or a call to flush() is made, bundling all queued in a single container for higher efficiency.
+Multiple concurrent requests can be started [using `\Amp\async`](#async-forking-does-async-green-thread-forking), this will queue bundle all requests in a single container for higher efficiency, if there are no method calls inbetween the `async` calls.
 
 ```php
-$res1 = async(fn () => $MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'hi 1', postpone: true));
-$res2 = async(fn () => $MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'hi 2', postpone: true));
-$res3 = async(fn () => $MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'hi 3', postpone: true));
+$res1 = async(fn () => $MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'hi 1'));
+$res2 = async(fn () => $MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'hi 2'));
+$res3 = async(fn () => $MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'hi 3'));
 
+// The await will send all 3 methods in a single container: ['hi 1', 'hi 2', 'hi 3']
+[$res1, $res2, $res3] = await([$res1, $res2, $res3]);
+
+$res1 = async(fn () => $MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'hi 1'));
+
+// This non-async call will send request hi 1 and hi 2 direct in a single container: ['hi 1', 'hi 2 direct']
+$MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'hi 2 direct');
+
+$res2 = async(fn () => $MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'hi 2'));
+$res3 = async(fn () => $MadelineProto->messages->sendMessage(peer: '@danogentili', message: 'hi 3'));
+
+// The await will send the remaining 2 calls in two container: ['hi 2', 'hi 3']
 [$res1, $res2, $res3] = await([$res1, $res2, $res3]);
 ```
 
 This is the preferred way of combining multiple method calls: this way, the MadelineProto async WriteLoop will combine all method calls in one container, making everything WAY faster.  
 
-Note that the execution order of method calls is not guaranteed in this case, unless a `queueId` argument is also provided, in which case it will be guaranteed.  
+Note that the execution order of method calls is not guaranteed in this case, unless a `queueId` argument is also provided, in which case it will be guaranteed to be equal to the queueing order (each method call is queued by the `async` call).  
 
 #### Cancellation
 
