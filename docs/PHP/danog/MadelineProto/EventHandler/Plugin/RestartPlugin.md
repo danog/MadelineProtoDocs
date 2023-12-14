@@ -108,7 +108,6 @@ Plugin that offers a /restart command to admins that can be used to restart the 
 * [`getDNSClient(): \Amp\Dns\DnsResolver`](#getdnsclient-amp-dns-dnsresolver)
 * [`getDhConfig(): array`](#getdhconfig-array)
 * [`getDialogIds(): list<int>`](#getdialogids-list-int)
-* [`getDialogs(): list<array>`](#getdialogs-list-array)
 * [`getDownloadInfo(mixed $messageMedia): array{ext: string, name: string, mime: string, size: int, InputFileLocation: array, key_fingerprint?: string, key?: string, iv?: string, thumb_size?: string}`](#getdownloadinfo-mixed-messagemedia-array-ext-string-name-string-mime-string-size-int-inputfilelocation-array-key_fingerprint-string-key-string-iv-string-thumb_size-string)
 * [`getDownloadLink(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|array|string $media, ?string $scriptUrl = NULL, ?int $size = NULL, ?string $name = NULL, ?string $mime = NULL): string`](#getdownloadlink-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-media-array-string-media-string-scripturl-null-int-size-null-string-name-null-string-mime-null-string)
 * [`getEventHandler(class-string<\T>|null $class = NULL): \T|\danog\MadelineProto\Ipc\EventHandlerProxy|\__PHP_Incomplete_Class|null`](#geteventhandler-class-string-t-null-class-null-t-danog-madelineproto-ipc-eventhandlerproxy-__php_incomplete_class-null)
@@ -1189,12 +1188,6 @@ Get diffie-hellman configuration.
 ### `getDialogIds(): list<int>`
 
 Get dialog IDs.
-
-
-
-### `getDialogs(): list<array>`
-
-Get dialog peers.
 
 
 

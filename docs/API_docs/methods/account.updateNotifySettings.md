@@ -17,7 +17,7 @@ Edits notification settings from a given user/group, from all users/all groups.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputNotifyPeer](/API_docs/types/InputNotifyPeer.html) | Notification source | Yes|
+|peer|[InputNotifyPeer](/API_docs/types/InputNotifyPeer.html) | Notification source | Yes|
 |settings|[InputPeerNotifySettings](/API_docs/types/InputPeerNotifySettings.html) | Notification settings | Yes|
 
 

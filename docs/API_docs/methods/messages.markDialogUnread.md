@@ -18,7 +18,7 @@ Manually mark dialog as unread
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |unread|[Bool](/API_docs/types/Bool.html) | Mark as unread/read | Optional|
-|peer|[Username, chat ID, Update, Message or InputDialogPeer](/API_docs/types/InputDialogPeer.html) | Dialog | Yes|
+|peer|[InputDialogPeer](/API_docs/types/InputDialogPeer.html) | Dialog | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

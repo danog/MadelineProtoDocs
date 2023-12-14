@@ -17,7 +17,7 @@ Gets current notification settings for a given user/group, from all users/all gr
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputNotifyPeer](/API_docs/types/InputNotifyPeer.html) | Notification source | Yes|
+|peer|[InputNotifyPeer](/API_docs/types/InputNotifyPeer.html) | Notification source | Yes|
 
 
 ### Return type: [PeerNotifySettings](/API_docs/types/PeerNotifySettings.html)

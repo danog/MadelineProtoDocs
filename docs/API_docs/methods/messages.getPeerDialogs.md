@@ -17,7 +17,7 @@ Get dialog info of specified peers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peers|Array of [Username, chat ID, Update, Message or InputDialogPeer](/API_docs/types/InputDialogPeer.html) | Peers | Yes|
+|peers|Array of [InputDialogPeer](/API_docs/types/InputDialogPeer.html) | Peers | Yes|
 
 
 ### Return type: [messages.PeerDialogs](/API_docs/types/messages.PeerDialogs.html)
