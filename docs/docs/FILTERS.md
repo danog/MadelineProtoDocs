@@ -108,6 +108,9 @@ Here's the full list of all concrete types:
 * [danog\MadelineProto\EventHandler\CallbackQuery &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/CallbackQuery.html) - Represents a query sent by the user by clicking on a button.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/CallbackQuery.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/CallbackQuery.html#method-list)
+* [danog\MadelineProto\EventHandler\Channel\ChannelParticipant &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Channel/ChannelParticipant.html) - A participant has left, joined, was banned or admined in a [channel or supergroup](https://core.telegram.org/api/channel).
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Channel/ChannelParticipant.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Channel/ChannelParticipant.html#method-list)
 * [danog\MadelineProto\EventHandler\Channel\MessageForwards &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Channel/MessageForwards.html) - Indicates that the forward counter of a message in a channel has changed.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Channel/MessageForwards.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Channel/MessageForwards.html#method-list)
@@ -489,6 +492,7 @@ Here's the full list of filter attributes (see the [MTProto filters &raquo;](#mt
 * [danog\MadelineProto\EventHandler\Filter\FilterService &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterService.html) - Allow only service messages of any type.
 * [danog\MadelineProto\EventHandler\Filter\FilterText(string $content) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterText.html) - Allow only messages with a specific content.
 * [danog\MadelineProto\EventHandler\Filter\FilterTextCaseInsensitive(string $content) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterTextCaseInsensitive.html) - Allow only messages with a specific case-insensitive content.
+* [danog\MadelineProto\EventHandler\Filter\FilterTopicId(int $topicId) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterTopicId.html) - Allow only messages with a specific topic id (Supergroups only).
 * [danog\MadelineProto\EventHandler\Filter\Combinator\FilterNot(Filter $filter) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/Combinator/FilterNot.html) - NOTs a filter.
 * [danog\MadelineProto\EventHandler\Filter\Combinator\FiltersAnd(Filter ...$filters) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/Combinator/FiltersAnd.html) - ANDs multiple filters.
 * [danog\MadelineProto\EventHandler\Filter\Combinator\FiltersOr(Filter ...$filters) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/Combinator/FiltersOr.html) - ORs multiple filters.
