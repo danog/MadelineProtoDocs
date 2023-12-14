@@ -113,7 +113,6 @@ Plugin event handler class.
 * [`getExtensionFromLocation(mixed $location, string $default): string`](#getextensionfromlocation-mixed-location-string-default-string)
 * [`getExtensionFromMime(string $mime): string`](#getextensionfrommime-string-mime-string)
 * [`getFileInfo(mixed $constructor): array`](#getfileinfo-mixed-constructor-array)
-* [`getFolderId(mixed $id): ?int`](#getfolderid-mixed-id-int)
 * [`getFullDialogs(): array<int, array>`](#getfulldialogs-array-int-array)
 * [`getFullInfo(mixed $id): array`](#getfullinfo-mixed-id-array)
 * [`getHTTPClient(): \Amp\Http\Client\HttpClient`](#gethttpclient-amp-http-client-httpclient)
@@ -1264,17 +1263,6 @@ Get info about file.
 Parameters:
 
 * `$constructor`: `mixed` File ID  
-
-
-
-### `getFolderId(mixed $id): ?int`
-
-Get folder ID from object.
-
-
-Parameters:
-
-* `$id`: `mixed` Object  
 
 
 

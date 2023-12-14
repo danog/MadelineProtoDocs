@@ -207,6 +207,9 @@ $me = $API->getSelf();
 
 ## Full breaking changelog
 
+- [BC] REMOVED: the `getDialogs` method, please use the `getDialogIds` method, instead.
+- [BC] CHANGED: all `peerUser`, `peerChat`, `peerChannel` constructors were replaced with integer IDs.
+- [BC] REMOVED: internal `Input*` fields returned by `getInfo`
 - [BC] REMOVED: the long-deprecated `setEventHandler` method, you should use `MyEventHandler::startAndLoop`, instead.
 - [BC] REMOVED: the deprecated $MadelineProto->startAndLoop method. Please use MyEventHandler::startAndLoop instead, remove any new \danog\MadelineProto\API line you have in your code if you're using only the event handler.
 - [BC] REMOVED: support for the deprecated onLoop method.
