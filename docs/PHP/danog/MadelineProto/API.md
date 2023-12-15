@@ -1268,7 +1268,7 @@ Parameters:
 ### `getFullDialogs(): array<int, array>`
 
 Get full info of all dialogs.
-Bots should use getDialogs or getDialogIds, instead.
+Bots should use getDialogIds, instead.
 
 
 ### `getFullInfo(mixed $id): array`
