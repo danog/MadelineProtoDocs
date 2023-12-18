@@ -21,9 +21,9 @@ Use [contacts.importContacts](../methods/contacts.importContacts.html) to add co
 |----------|---------------|-------------|----------|
 |add\_phone\_privacy\_exception|[Bool](/API_docs/types/Bool.html) | Allow the other user to see our phone number? | Optional|
 |id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Telegram ID of the other user | Optional|
-|first\_name|[string](/API_docs/types/string.html) | First name | Yes|
-|last\_name|[string](/API_docs/types/string.html) | Last name | Yes|
-|phone|[string](/API_docs/types/string.html) | User's phone number | Yes|
+|first\_name|[string](/API_docs/types/string.html) | First name | Optional|
+|last\_name|[string](/API_docs/types/string.html) | Last name | Optional|
+|phone|[string](/API_docs/types/string.html) | User's phone number | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

@@ -17,8 +17,8 @@ Reset the [login email »](https://core.telegram.org/api/auth#email-verification
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_number|[string](/API_docs/types/string.html) | Phone number of the account | Yes|
-|phone\_code\_hash|[string](/API_docs/types/string.html) | Phone code hash, obtained as described in the [documentation »](https://core.telegram.org/api/auth) | Yes|
+|phone\_number|[string](/API_docs/types/string.html) | Phone number of the account | Optional|
+|phone\_code\_hash|[string](/API_docs/types/string.html) | Phone code hash, obtained as described in the [documentation »](https://core.telegram.org/api/auth) | Optional|
 
 
 ### Return type: [auth.SentCode](/API_docs/types/auth.SentCode.html)

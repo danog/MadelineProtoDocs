@@ -17,7 +17,7 @@ Get changed [emoji keywords »](https://core.telegram.org/api/custom-emoji#emoji
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|lang\_code|[string](/API_docs/types/string.html) | Language code | Yes|
+|lang\_code|[string](/API_docs/types/string.html) | Language code | Optional|
 |from\_version|[int](/API_docs/types/int.html) | Previous stored emoji keyword list `version` | Optional|
 
 

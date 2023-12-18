@@ -19,7 +19,7 @@ Start a conversation with a bot using a [deep linking parameter](https://core.te
 |----------|---------------|-------------|----------|
 |bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The bot | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The chat where to start the bot, can be the bot's private chat or a group | Optional|
-|start\_param|[string](/API_docs/types/string.html) | [Deep linking parameter](https://core.telegram.org/api/links#bot-links) | Yes|
+|start\_param|[string](/API_docs/types/string.html) | [Deep linking parameter](https://core.telegram.org/api/links#bot-links) | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

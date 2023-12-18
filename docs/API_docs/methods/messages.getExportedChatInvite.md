@@ -18,7 +18,7 @@ Get info about a chat invite
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Chat | Optional|
-|link|[string](/API_docs/types/string.html) | Invite link | Yes|
+|link|[string](/API_docs/types/string.html) | Invite link | Optional|
 
 
 ### Return type: [messages.ExportedChatInvite](/API_docs/types/messages.ExportedChatInvite.html)

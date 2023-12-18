@@ -17,7 +17,7 @@ Get info about an unsupported deep link, see [here for more info »](https://cor
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|path|[string](/API_docs/types/string.html) | Path component of a `tg:` link | Yes|
+|path|[string](/API_docs/types/string.html) | Path component of a `tg:` link | Optional|
 
 
 ### Return type: [help.DeepLinkInfo](/API_docs/types/help.DeepLinkInfo.html)

@@ -17,7 +17,7 @@ Get stickers by emoji
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|emoticon|[string](/API_docs/types/string.html) | The emoji | Yes|
+|emoticon|[string](/API_docs/types/string.html) | The emoji | Optional|
 |hash|Array of [long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 

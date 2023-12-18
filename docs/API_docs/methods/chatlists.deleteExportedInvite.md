@@ -18,7 +18,7 @@ Delete a previously created [chat folder deep link »](https://core.telegram.org
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |chatlist|[InputChatlist](/API_docs/types/InputChatlist.html) | The related folder | Yes|
-|slug|[string](/API_docs/types/string.html) | `slug` obtained from the [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links). | Yes|
+|slug|[string](/API_docs/types/string.html) | `slug` obtained from the [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links). | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

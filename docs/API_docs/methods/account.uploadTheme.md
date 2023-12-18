@@ -19,8 +19,8 @@ Upload theme
 |----------|---------------|-------------|----------|
 |file|[File path or InputFile](/API_docs/types/InputFile.html) | [Previously uploaded](https://core.telegram.org/api/themes#uploading-theme-files) theme file with platform-specific colors for UI components, can be left unset when creating themes that only modify the wallpaper or accent colors. | Yes|
 |thumb|[File path or InputFile](/API_docs/types/InputFile.html) | Thumbnail | Optional|
-|file\_name|[string](/API_docs/types/string.html) | File name | Yes|
-|mime\_type|[string](/API_docs/types/string.html) | MIME type, must be `application/x-tgtheme-{format}`, where `format` depends on the client | Yes|
+|file\_name|[string](/API_docs/types/string.html) | File name | Optional|
+|mime\_type|[string](/API_docs/types/string.html) | MIME type, must be `application/x-tgtheme-{format}`, where `format` depends on the client | Optional|
 
 
 ### Return type: [Document](/API_docs/types/Document.html)

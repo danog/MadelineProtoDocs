@@ -17,7 +17,7 @@ Suggests a short name for a given stickerpack name
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|title|[string](/API_docs/types/string.html) | Sticker pack name | Yes|
+|title|[string](/API_docs/types/string.html) | Sticker pack name | Optional|
 
 
 ### Return type: [stickers.SuggestedShortName](/API_docs/types/stickers.SuggestedShortName.html)

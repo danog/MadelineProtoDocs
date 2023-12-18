@@ -26,7 +26,7 @@ Send a media
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Destination | Optional|
 |reply\_to|[InputReplyTo](/API_docs/types/InputReplyTo.html) |  | Optional|
 |media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) | Attached media | Optional|
-|message|[string](/API_docs/types/string.html) | Caption | Yes|
+|message|[string](/API_docs/types/string.html) | Caption | Optional|
 |reply\_markup|[ReplyMarkup](/API_docs/types/ReplyMarkup.html) | Reply markup for bot keyboards | Optional|
 |entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Message [entities](https://core.telegram.org/api/entities) for styled text | Optional|
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |

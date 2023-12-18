@@ -19,7 +19,7 @@ Register device to receive [PUSH notifications](https://core.telegram.org/api/pu
 |----------|---------------|-------------|----------|
 |no\_muted|[Bool](/API_docs/types/Bool.html) | Avoid receiving (silent and invisible background) notifications. Useful to save battery. | Optional|
 |token\_type|[int](/API_docs/types/int.html) | Device token type, see [PUSH updates](https://core.telegram.org/api/push-updates#subscribing-to-notifications) for the possible values. | Optional|
-|token|[string](/API_docs/types/string.html) | Device token, see [PUSH updates](https://core.telegram.org/api/push-updates#subscribing-to-notifications) for the possible values. | Yes|
+|token|[string](/API_docs/types/string.html) | Device token, see [PUSH updates](https://core.telegram.org/api/push-updates#subscribing-to-notifications) for the possible values. | Optional|
 |app\_sandbox|[Bool](/API_docs/types/Bool.html) | If [(boolTrue)](../constructors/boolTrue.html) is transmitted, a sandbox-certificate will be used during transmission. | Yes|
 |secret|[bytes](/API_docs/types/bytes.html) | For FCM and APNS VoIP, optional encryption key used to encrypt push notifications | Yes|
 |other\_uids|Array of [long](/API_docs/types/long.html) | List of user identifiers of other users currently using the client | Yes|

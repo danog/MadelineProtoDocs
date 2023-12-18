@@ -17,8 +17,8 @@ Resend the login code via another medium, the phone code type is determined by t
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_number|[string](/API_docs/types/string.html) | The phone number | Yes|
-|phone\_code\_hash|[string](/API_docs/types/string.html) | The phone code hash obtained from [auth.sendCode](../methods/auth.sendCode.html) | Yes|
+|phone\_number|[string](/API_docs/types/string.html) | The phone number | Optional|
+|phone\_code\_hash|[string](/API_docs/types/string.html) | The phone code hash obtained from [auth.sendCode](../methods/auth.sendCode.html) | Optional|
 
 
 ### Return type: [auth.SentCode](/API_docs/types/auth.SentCode.html)

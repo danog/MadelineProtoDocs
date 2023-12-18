@@ -17,8 +17,8 @@ Cancel the login verification code
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_number|[string](/API_docs/types/string.html) | Phone number | Yes|
-|phone\_code\_hash|[string](/API_docs/types/string.html) | Phone code hash from [auth.sendCode](../methods/auth.sendCode.html) | Yes|
+|phone\_number|[string](/API_docs/types/string.html) | Phone number | Optional|
+|phone\_code\_hash|[string](/API_docs/types/string.html) | Phone code hash from [auth.sendCode](../methods/auth.sendCode.html) | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

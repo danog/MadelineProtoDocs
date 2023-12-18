@@ -17,7 +17,7 @@ Returns an HTTP URL which can be used to automatically log in into translation p
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|lang\_code|[string](/API_docs/types/string.html) | Language code for which the emoji keywords will be suggested | Yes|
+|lang\_code|[string](/API_docs/types/string.html) | Language code for which the emoji keywords will be suggested | Optional|
 
 
 ### Return type: [EmojiURL](/API_docs/types/EmojiURL.html)

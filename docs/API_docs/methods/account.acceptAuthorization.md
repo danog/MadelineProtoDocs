@@ -18,8 +18,8 @@ Sends a Telegram Passport authorization form, effectively sharing data with the 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |bot\_id|[long](/API_docs/types/long.html) | Bot ID | Yes|
-|scope|[string](/API_docs/types/string.html) | Telegram Passport element types requested by the service | Yes|
-|public\_key|[string](/API_docs/types/string.html) | Service's public key | Yes|
+|scope|[string](/API_docs/types/string.html) | Telegram Passport element types requested by the service | Optional|
+|public\_key|[string](/API_docs/types/string.html) | Service's public key | Optional|
 |value\_hashes|Array of [SecureValueHash](/API_docs/types/SecureValueHash.html) | Types of values sent and their hashes | Yes|
 |credentials|[SecureCredentialsEncrypted](/API_docs/types/SecureCredentialsEncrypted.html) | Encrypted values | Yes|
 

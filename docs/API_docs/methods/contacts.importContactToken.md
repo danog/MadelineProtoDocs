@@ -17,7 +17,7 @@ Obtain user info from a [temporary profile link](https://core.telegram.org/api/l
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|token|[string](/API_docs/types/string.html) | The token extracted from the [temporary profile link](https://core.telegram.org/api/links#temporary-profile-links). | Yes|
+|token|[string](/API_docs/types/string.html) | The token extracted from the [temporary profile link](https://core.telegram.org/api/links#temporary-profile-links). | Optional|
 
 
 ### Return type: [User](/API_docs/types/User.html)

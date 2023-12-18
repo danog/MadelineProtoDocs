@@ -18,7 +18,7 @@ Create a [forum topic](https://core.telegram.org/api/forum); requires [`manage_t
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | [The forum](https://core.telegram.org/api/forum) | Optional|
-|title|[string](/API_docs/types/string.html) | Topic title (maximum UTF-8 length: 128) | Yes|
+|title|[string](/API_docs/types/string.html) | Topic title (maximum UTF-8 length: 128) | Optional|
 |icon\_color|[int](/API_docs/types/int.html) | If no custom emoji icon is specified, specifies the color of the fallback topic icon (RGB), one of `0x6FB9F0`, `0xFFD67E`, `0xCB86DB`, `0x8EEE98`, `0xFF93B2`, or `0xFB6F5F`. | Optional|
 |icon\_emoji\_id|[long](/API_docs/types/long.html) | ID of the [custom emoji](https://core.telegram.org/api/custom-emoji) used as topic icon. [Telegram Premium](https://core.telegram.org/api/premium) users can use any custom emoji, other users can only use the custom emojis contained in the [inputStickerSetEmojiDefaultTopicIcons](../constructors/inputStickerSetEmojiDefaultTopicIcons.html) emoji pack. | Optional|
 |send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Create the topic as the specified peer | Optional|

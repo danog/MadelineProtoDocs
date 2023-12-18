@@ -18,7 +18,7 @@ Changes chat name and sends a service message on it.
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |chat\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
-|title|[string](/API_docs/types/string.html) | New chat name, different from the old one | Yes|
+|title|[string](/API_docs/types/string.html) | New chat name, different from the old one | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

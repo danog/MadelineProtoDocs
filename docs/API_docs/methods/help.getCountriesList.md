@@ -17,7 +17,7 @@ Get name, ISO code, localized name and phone codes/patterns of all available cou
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|lang\_code|[string](/API_docs/types/string.html) | Language code of the current user | Yes|
+|lang\_code|[string](/API_docs/types/string.html) | Language code of the current user | Optional|
 |hash|Array of [long](/API_docs/types/long.html) |  | Optional|
 
 

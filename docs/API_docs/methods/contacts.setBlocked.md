@@ -17,7 +17,7 @@ redirect_from: /API_docs/methods/contacts_setBlocked.html
 |----------|---------------|----------|
 |my\_stories\_from|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Yes|
-|limit|[int](/API_docs/types/int.html) | Yes|
+|limit|[int](/API_docs/types/int.html) | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

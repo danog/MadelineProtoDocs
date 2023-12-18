@@ -17,7 +17,7 @@ Verify a new phone number to associate to the current account
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_number|[string](/API_docs/types/string.html) | New phone number | Yes|
+|phone\_number|[string](/API_docs/types/string.html) | New phone number | Optional|
 |settings|[CodeSettings](/API_docs/types/CodeSettings.html) | Phone code settings | Yes|
 
 

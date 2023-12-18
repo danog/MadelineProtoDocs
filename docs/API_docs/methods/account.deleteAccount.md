@@ -19,7 +19,7 @@ Can also be used to delete the account of a user that provided the login code, b
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|reason|[string](/API_docs/types/string.html) | Why is the account being deleted, can be empty | Yes|
+|reason|[string](/API_docs/types/string.html) | Why is the account being deleted, can be empty | Optional|
 |password|[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html) | [2FA password](https://core.telegram.org/api/srp): this field can be omitted even for accounts with 2FA enabled: in this case account account deletion will be delayed by 7 days [as specified in the docs »](https://core.telegram.org/api/account-deletion) | Optional|
 
 

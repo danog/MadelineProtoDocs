@@ -17,7 +17,7 @@ Check whether the given short name is available
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|short\_name|[string](/API_docs/types/string.html) | Short name | Yes|
+|short\_name|[string](/API_docs/types/string.html) | Short name | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

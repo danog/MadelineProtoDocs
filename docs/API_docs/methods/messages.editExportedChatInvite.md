@@ -19,7 +19,7 @@ Edit an exported chat invite
 |----------|---------------|-------------|----------|
 |revoked|[Bool](/API_docs/types/Bool.html) | Whether to revoke the chat invite | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Chat | Optional|
-|link|[string](/API_docs/types/string.html) | Invite link | Yes|
+|link|[string](/API_docs/types/string.html) | Invite link | Optional|
 |expire\_date|[int](/API_docs/types/int.html) | New expiration date | Optional|
 |usage\_limit|[int](/API_docs/types/int.html) | Maximum number of users that can join using this link | Optional|
 |request\_needed|[Bool](/API_docs/types/Bool.html) | Whether admin confirmation is required before admitting each separate user into the chat | Optional|

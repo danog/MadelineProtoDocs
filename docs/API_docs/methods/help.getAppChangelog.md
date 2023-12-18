@@ -18,7 +18,7 @@ Typically, an [updates](../constructors/updates.html) constructor will be return
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|prev\_app\_version|[string](/API_docs/types/string.html) | Previous app version | Yes|
+|prev\_app\_version|[string](/API_docs/types/string.html) | Previous app version | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

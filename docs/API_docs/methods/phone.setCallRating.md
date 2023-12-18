@@ -20,7 +20,7 @@ Rate a call, returns info about the rating message sent to the official VoIP bot
 |user\_initiative|[Bool](/API_docs/types/Bool.html) | Whether the user decided on their own initiative to rate the call | Optional|
 |peer|[InputPhoneCall](/API_docs/types/InputPhoneCall.html) | The call to rate | Yes|
 |rating|[int](/API_docs/types/int.html) | Rating in `1-5` stars | Optional|
-|comment|[string](/API_docs/types/string.html) | An additional comment | Yes|
+|comment|[string](/API_docs/types/string.html) | An additional comment | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

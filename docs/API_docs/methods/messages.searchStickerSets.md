@@ -18,7 +18,7 @@ Search for stickersets
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |exclude\_featured|[Bool](/API_docs/types/Bool.html) | Exclude featured stickersets from results | Optional|
-|q|[string](/API_docs/types/string.html) | Query string | Yes|
+|q|[string](/API_docs/types/string.html) | Query string | Optional|
 |hash|Array of [long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 

@@ -17,7 +17,7 @@ Send confirmation code to cancel account deletion, for more info [click here »]
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[string](/API_docs/types/string.html) | The hash from the service notification, for more info [click here »](https://core.telegram.org/api/account-deletion) | Yes|
+|hash|[string](/API_docs/types/string.html) | The hash from the service notification, for more info [click here »](https://core.telegram.org/api/account-deletion) | Optional|
 |settings|[CodeSettings](/API_docs/types/CodeSettings.html) | Phone code settings | Yes|
 
 

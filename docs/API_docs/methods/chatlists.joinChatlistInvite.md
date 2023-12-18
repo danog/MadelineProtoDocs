@@ -17,7 +17,7 @@ Import a [chat folder deep link »](https://core.telegram.org/api/links#chat-fol
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|slug|[string](/API_docs/types/string.html) | `slug` obtained from a [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links). | Yes|
+|slug|[string](/API_docs/types/string.html) | `slug` obtained from a [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links). | Optional|
 |peers|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | List of new chats to join, fetched using [chatlists.checkChatlistInvite](../methods/chatlists.checkChatlistInvite.html) and filtered as specified in the [documentation »](https://core.telegram.org/api/folders#shared-folders). | Yes|
 
 

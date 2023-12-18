@@ -17,7 +17,7 @@ Get theme information
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|format|[string](/API_docs/types/string.html) | Theme format, a string that identifies the theming engines supported by the client | Yes|
+|format|[string](/API_docs/types/string.html) | Theme format, a string that identifies the theming engines supported by the client | Optional|
 |theme|[InputTheme](/API_docs/types/InputTheme.html) | Theme | Yes|
 
 

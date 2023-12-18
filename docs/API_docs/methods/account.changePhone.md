@@ -17,9 +17,9 @@ Change the phone number of the current account
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_number|[string](/API_docs/types/string.html) | New phone number | Yes|
-|phone\_code\_hash|[string](/API_docs/types/string.html) | Phone code hash received when calling [account.sendChangePhoneCode](../methods/account.sendChangePhoneCode.html) | Yes|
-|phone\_code|[string](/API_docs/types/string.html) | Phone code received when calling [account.sendChangePhoneCode](../methods/account.sendChangePhoneCode.html) | Yes|
+|phone\_number|[string](/API_docs/types/string.html) | New phone number | Optional|
+|phone\_code\_hash|[string](/API_docs/types/string.html) | Phone code hash received when calling [account.sendChangePhoneCode](../methods/account.sendChangePhoneCode.html) | Optional|
+|phone\_code|[string](/API_docs/types/string.html) | Phone code received when calling [account.sendChangePhoneCode](../methods/account.sendChangePhoneCode.html) | Optional|
 
 
 ### Return type: [User](/API_docs/types/User.html)

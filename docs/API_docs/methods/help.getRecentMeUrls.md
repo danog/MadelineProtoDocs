@@ -20,7 +20,7 @@ If, after downloading the application, the user creates a new account (instead o
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|referer|[string](/API_docs/types/string.html) | Referrer | Yes|
+|referer|[string](/API_docs/types/string.html) | Referrer | Optional|
 
 
 ### Return type: [help.RecentMeUrls](/API_docs/types/help.RecentMeUrls.html)

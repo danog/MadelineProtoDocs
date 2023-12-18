@@ -16,8 +16,8 @@ redirect_from: /API_docs/methods/stories_getPinnedStories.html
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|offset\_id|[int](/API_docs/types/int.html) | Yes|
-|limit|[int](/API_docs/types/int.html) | Yes|
+|offset\_id|[int](/API_docs/types/int.html) | Optional|
+|limit|[int](/API_docs/types/int.html) | Optional|
 
 
 ### Return type: [stories.Stories](/API_docs/types/stories.Stories.html)

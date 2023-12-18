@@ -15,7 +15,7 @@ redirect_from: /API_docs/methods/payments_applyGiftCode.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|slug|[string](/API_docs/types/string.html) | Yes|
+|slug|[string](/API_docs/types/string.html) | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

@@ -17,10 +17,10 @@ You cannot use this method directly, use the completeSignup method instead (see 
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_number|[string](/API_docs/types/string.html) | Phone number in the international format | Yes|
-|phone\_code\_hash|[string](/API_docs/types/string.html) | SMS-message ID | Yes|
-|first\_name|[string](/API_docs/types/string.html) | New user first name | Yes|
-|last\_name|[string](/API_docs/types/string.html) | New user last name | Yes|
+|phone\_number|[string](/API_docs/types/string.html) | Phone number in the international format | Optional|
+|phone\_code\_hash|[string](/API_docs/types/string.html) | SMS-message ID | Optional|
+|first\_name|[string](/API_docs/types/string.html) | New user first name | Optional|
+|last\_name|[string](/API_docs/types/string.html) | New user last name | Optional|
 
 
 ### Return type: [auth.Authorization](/API_docs/types/auth.Authorization.html)

@@ -18,8 +18,8 @@ Used by the user to relay data from an opened [reply keyboard bot web app](https
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Bot that owns the web app | Optional|
-|button\_text|[string](/API_docs/types/string.html) | Text of the [keyboardButtonSimpleWebView](../constructors/keyboardButtonSimpleWebView.html) that was pressed to open the web app. | Yes|
-|data|[string](/API_docs/types/string.html) | Data to relay to the bot, obtained from a [`web_app_data_send` JS event](https://core.telegram.org/api/web-events#web-app-data-send). | Yes|
+|button\_text|[string](/API_docs/types/string.html) | Text of the [keyboardButtonSimpleWebView](../constructors/keyboardButtonSimpleWebView.html) that was pressed to open the web app. | Optional|
+|data|[string](/API_docs/types/string.html) | Data to relay to the bot, obtained from a [`web_app_data_send` JS event](https://core.telegram.org/api/web-events#web-app-data-send). | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

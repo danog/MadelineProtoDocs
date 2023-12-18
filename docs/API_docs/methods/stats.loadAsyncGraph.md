@@ -17,7 +17,7 @@ Load [channel statistics graph](https://core.telegram.org/api/stats) asynchronou
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|token|[string](/API_docs/types/string.html) | Graph token from [statsGraphAsync](../constructors/statsGraphAsync.html) constructor | Yes|
+|token|[string](/API_docs/types/string.html) | Graph token from [statsGraphAsync](../constructors/statsGraphAsync.html) constructor | Optional|
 |x|[long](/API_docs/types/long.html) | Zoom value, if required | Optional|
 
 

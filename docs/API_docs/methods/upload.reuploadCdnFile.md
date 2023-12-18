@@ -17,7 +17,7 @@ You cannot use this method directly, use the upload, downloadToStream, downloadT
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|file\_token|[string](/API_docs/types/string.html) |  | Yes|
+|file\_token|[string](/API_docs/types/string.html) |  | Optional|
 |request\_token|[bytes](/API_docs/types/bytes.html) | Request token | Yes|
 
 

@@ -17,7 +17,7 @@ Get [instant view](https://instantview.telegram.org) page
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|url|[string](/API_docs/types/string.html) | URL of IV page to fetch | Yes|
+|url|[string](/API_docs/types/string.html) | URL of IV page to fetch | Optional|
 |hash|Array of [long](/API_docs/types/long.html) |  | Optional|
 
 

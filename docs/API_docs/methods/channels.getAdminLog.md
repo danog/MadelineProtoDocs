@@ -18,7 +18,7 @@ Get the admin log of a [channel/supergroup](https://core.telegram.org/api/channe
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Channel | Optional|
-|q|[string](/API_docs/types/string.html) | Search query, can be empty | Yes|
+|q|[string](/API_docs/types/string.html) | Search query, can be empty | Optional|
 |events\_filter|[ChannelAdminLogEventsFilter](/API_docs/types/ChannelAdminLogEventsFilter.html) | Event filter | Optional|
 |admins|Array of [Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Only show events from these admins | Optional|
 |max\_id|[long](/API_docs/types/long.html) | Maximum ID of message to return (see [pagination](https://core.telegram.org/api/offsets)) | Yes|

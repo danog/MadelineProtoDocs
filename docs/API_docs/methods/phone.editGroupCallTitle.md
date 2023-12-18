@@ -18,7 +18,7 @@ Edit the title of a group call or livestream
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Group call | Yes|
-|title|[string](/API_docs/types/string.html) | New title | Yes|
+|title|[string](/API_docs/types/string.html) | New title | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

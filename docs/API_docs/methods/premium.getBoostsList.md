@@ -17,8 +17,8 @@ redirect_from: /API_docs/methods/premium_getBoostsList.html
 |----------|---------------|----------|
 |gifts|[Bool](/API_docs/types/Bool.html) | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|offset|[string](/API_docs/types/string.html) | Yes|
-|limit|[int](/API_docs/types/int.html) | Yes|
+|offset|[string](/API_docs/types/string.html) | Optional|
+|limit|[int](/API_docs/types/int.html) | Optional|
 
 
 ### Return type: [premium.BoostsList](/API_docs/types/premium.BoostsList.html)

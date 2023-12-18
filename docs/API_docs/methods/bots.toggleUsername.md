@@ -18,7 +18,7 @@ Activate or deactivate a purchased [fragment.com](https://fragment.com) username
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The bot | Optional|
-|username|[string](/API_docs/types/string.html) | Username | Yes|
+|username|[string](/API_docs/types/string.html) | Username | Optional|
 |active|[Bool](/API_docs/types/Bool.html) | Whether to activate or deactivate it | Yes|
 
 

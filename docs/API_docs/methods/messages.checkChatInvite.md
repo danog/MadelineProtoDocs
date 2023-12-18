@@ -17,7 +17,7 @@ Check the validity of a chat invite link and get basic info about it
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[string](/API_docs/types/string.html) | Invite hash from [chat invite deep link »](https://core.telegram.org/api/links#chat-invite-links). | Yes|
+|hash|[string](/API_docs/types/string.html) | Invite hash from [chat invite deep link »](https://core.telegram.org/api/links#chat-invite-links). | Optional|
 
 
 ### Return type: [ChatInvite](/API_docs/types/ChatInvite.html)

@@ -18,7 +18,7 @@ Edit the name of a [channel/supergroup](https://core.telegram.org/api/channel)
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Channel/supergroup | Optional|
-|title|[string](/API_docs/types/string.html) | New name | Yes|
+|title|[string](/API_docs/types/string.html) | New name | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

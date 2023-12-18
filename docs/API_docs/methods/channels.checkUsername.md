@@ -18,7 +18,7 @@ Check if a username is free and can be assigned to a channel/supergroup
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | The [channel/supergroup](https://core.telegram.org/api/channel) that will assigned the specified username | Optional|
-|username|[string](/API_docs/types/string.html) | The username to check | Yes|
+|username|[string](/API_docs/types/string.html) | The username to check | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

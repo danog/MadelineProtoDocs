@@ -16,7 +16,7 @@ redirect_from: /API_docs/methods/stories_readStories.html
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|max\_id|[int](/API_docs/types/int.html) | Yes|
+|max\_id|[int](/API_docs/types/int.html) | Optional|
 
 
 ### Return type: [Vector\_of\_int](/API_docs/types/int.html)

@@ -18,7 +18,7 @@ Deletes a device by its token, stops sending PUSH-notifications to it.
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |token\_type|[int](/API_docs/types/int.html) | Device token type, see [PUSH updates](https://core.telegram.org/api/push-updates#subscribing-to-notifications) for the possible values. | Optional|
-|token|[string](/API_docs/types/string.html) | Device token, see [PUSH updates](https://core.telegram.org/api/push-updates#subscribing-to-notifications) for the possible values. | Yes|
+|token|[string](/API_docs/types/string.html) | Device token, see [PUSH updates](https://core.telegram.org/api/push-updates#subscribing-to-notifications) for the possible values. | Optional|
 |other\_uids|Array of [long](/API_docs/types/long.html) | List of user identifiers of other users currently using the client | Yes|
 
 

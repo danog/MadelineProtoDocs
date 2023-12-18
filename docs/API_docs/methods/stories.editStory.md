@@ -16,7 +16,7 @@ redirect_from: /API_docs/methods/stories_editStory.html
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|id|[int](/API_docs/types/int.html) | Yes|
+|id|[int](/API_docs/types/int.html) | Optional|
 |media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) | Optional|
 |media\_areas|Array of [MediaArea](/API_docs/types/MediaArea.html) | Optional|
 |caption|[string](/API_docs/types/string.html) | Optional|

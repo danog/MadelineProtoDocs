@@ -17,7 +17,7 @@ Obtain information about a [chat folder deep link »](https://core.telegram.org/
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|slug|[string](/API_docs/types/string.html) | `slug` obtained from the [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links) | Yes|
+|slug|[string](/API_docs/types/string.html) | `slug` obtained from the [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links) | Optional|
 
 
 ### Return type: [chatlists.ChatlistInvite](/API_docs/types/chatlists.ChatlistInvite.html)

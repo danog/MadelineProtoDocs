@@ -17,7 +17,7 @@ Validates a username and checks availability.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|username|[string](/API_docs/types/string.html) | username<br>Accepted characters: A-z (case-insensitive), 0-9 and underscores.<br>Length: 5-32 characters. | Yes|
+|username|[string](/API_docs/types/string.html) | username<br>Accepted characters: A-z (case-insensitive), 0-9 and underscores.<br>Length: 5-32 characters. | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

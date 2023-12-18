@@ -18,7 +18,7 @@ Set bot command list
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |scope|[BotCommandScope](/API_docs/types/BotCommandScope.html) | Command scope | Yes|
-|lang\_code|[string](/API_docs/types/string.html) | Language code | Yes|
+|lang\_code|[string](/API_docs/types/string.html) | Language code | Optional|
 |commands|Array of [BotCommand](/API_docs/types/BotCommand.html) | Bot commands | Yes|
 
 

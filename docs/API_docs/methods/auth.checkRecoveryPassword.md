@@ -17,7 +17,7 @@ Check if the [2FA recovery code](https://core.telegram.org/api/srp) sent using [
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|code|[string](/API_docs/types/string.html) | Code received via email | Yes|
+|code|[string](/API_docs/types/string.html) | Code received via email | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

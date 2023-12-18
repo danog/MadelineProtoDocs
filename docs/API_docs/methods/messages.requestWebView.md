@@ -26,7 +26,7 @@ After calling this method, until the user closes the webview, [messages.prolongW
 |url|[string](/API_docs/types/string.html) | [Web app URL](https://core.telegram.org/api/bots/webapps) | Optional|
 |start\_param|[string](/API_docs/types/string.html) | If the web app was opened from the attachment menu using a [attachment menu deep link](https://core.telegram.org/api/links#bot-attachment-menu-links), `start_param` should contain the `data` from the `startattach` parameter. | Optional|
 |theme\_params|[DataJSON](/API_docs/types/DataJSON.html) | [Theme parameters »](https://core.telegram.org/api/bots/webapps#theme-parameters) | Optional|
-|platform|[string](/API_docs/types/string.html) | Short name of the application; 0-64 English letters, digits, and underscores | Yes|
+|platform|[string](/API_docs/types/string.html) | Short name of the application; 0-64 English letters, digits, and underscores | Optional|
 |reply\_to|[InputReplyTo](/API_docs/types/InputReplyTo.html) |  | Optional|
 |send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Open the web app as the specified peer, sending the resulting the message as the specified peer. | Optional|
 

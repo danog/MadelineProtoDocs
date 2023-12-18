@@ -17,7 +17,7 @@ Sends a custom request; for bots only
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|custom\_method|[string](/API_docs/types/string.html) | The method name | Yes|
+|custom\_method|[string](/API_docs/types/string.html) | The method name | Optional|
 |params|[DataJSON](/API_docs/types/DataJSON.html) | JSON-serialized method parameters | Yes|
 
 

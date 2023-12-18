@@ -18,7 +18,7 @@ This method does not support pagination.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|q|[string](/API_docs/types/string.html) | Optional search query | Yes|
+|q|[string](/API_docs/types/string.html) | Optional search query | Optional|
 |filter|[MessagesFilter](/API_docs/types/MessagesFilter.html) | Message filter | Optional|
 |limit|[int](/API_docs/types/int.html) | Maximum number of results to return (max 100). | Optional|
 

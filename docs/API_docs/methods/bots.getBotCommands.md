@@ -18,7 +18,7 @@ Obtain a list of bot commands for the specified bot scope and language code
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |scope|[BotCommandScope](/API_docs/types/BotCommandScope.html) | Command scope | Yes|
-|lang\_code|[string](/API_docs/types/string.html) | Language code | Yes|
+|lang\_code|[string](/API_docs/types/string.html) | Language code | Optional|
 
 
 ### Return type: [Vector\_of\_BotCommand](/API_docs/types/BotCommand.html)

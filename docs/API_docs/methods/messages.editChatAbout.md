@@ -18,7 +18,7 @@ Edit the description of a [group/supergroup/channel](https://core.telegram.org/a
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The [group/supergroup/channel](https://core.telegram.org/api/channel). | Optional|
-|about|[string](/API_docs/types/string.html) | The new description | Yes|
+|about|[string](/API_docs/types/string.html) | The new description | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

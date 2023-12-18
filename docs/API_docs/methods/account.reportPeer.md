@@ -19,7 +19,7 @@ Report a peer for violation of telegram's Terms of Service
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer to report | Optional|
 |reason|[ReportReason](/API_docs/types/ReportReason.html) | The reason why this peer is being reported | Yes|
-|message|[string](/API_docs/types/string.html) | Comment for report moderation | Yes|
+|message|[string](/API_docs/types/string.html) | Comment for report moderation | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

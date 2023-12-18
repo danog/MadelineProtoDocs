@@ -19,7 +19,7 @@ Create and upload a new [wallpaper](https://core.telegram.org/api/wallpapers)
 |----------|---------------|-------------|----------|
 |for\_chat|[Bool](/API_docs/types/Bool.html) | Set this flag when uploading wallpapers to be passed to [messages.setChatWallPaper](../methods/messages.setChatWallPaper.html). | Optional|
 |file|[File path or InputFile](/API_docs/types/InputFile.html) | The JPG/PNG wallpaper | Yes|
-|mime\_type|[string](/API_docs/types/string.html) | MIME type of uploaded wallpaper | Yes|
+|mime\_type|[string](/API_docs/types/string.html) | MIME type of uploaded wallpaper | Optional|
 |settings|[WallPaperSettings](/API_docs/types/WallPaperSettings.html) | Wallpaper settings | Yes|
 
 

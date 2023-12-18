@@ -18,8 +18,8 @@ You cannot use this method directly, use the botLogin method instead (see https:
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |api\_id|[int](/API_docs/types/int.html) | Application identifier (see. [App configuration](https://core.telegram.org/myapp)) | Optional|
-|api\_hash|[string](/API_docs/types/string.html) | Application identifier hash (see. [App configuration](https://core.telegram.org/myapp)) | Yes|
-|bot\_auth\_token|[string](/API_docs/types/string.html) | Bot token (see [bots](https://core.telegram.org/bots)) | Yes|
+|api\_hash|[string](/API_docs/types/string.html) | Application identifier hash (see. [App configuration](https://core.telegram.org/myapp)) | Optional|
+|bot\_auth\_token|[string](/API_docs/types/string.html) | Bot token (see [bots](https://core.telegram.org/bots)) | Optional|
 
 
 ### Return type: [auth.Authorization](/API_docs/types/auth.Authorization.html)

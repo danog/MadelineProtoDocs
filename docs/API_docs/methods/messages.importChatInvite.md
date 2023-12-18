@@ -17,7 +17,7 @@ Import a chat invite and join a private chat/supergroup/channel
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|[string](/API_docs/types/string.html) | `hash` from a [chat invite deep link](https://core.telegram.org/api/links#chat-invite-links) | Yes|
+|hash|[string](/API_docs/types/string.html) | `hash` from a [chat invite deep link](https://core.telegram.org/api/links#chat-invite-links) | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

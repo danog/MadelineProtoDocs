@@ -17,7 +17,7 @@ Returns users found by username substring.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|q|[string](/API_docs/types/string.html) | Target substring | Yes|
+|q|[string](/API_docs/types/string.html) | Target substring | Optional|
 |limit|[int](/API_docs/types/int.html) | Maximum number of users to be returned | Optional|
 
 

@@ -17,7 +17,7 @@ Resolve a phone number to get user info, if their privacy settings allow it.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone|[string](/API_docs/types/string.html) | Phone number in international format, possibly obtained from a [phone number deep link](https://core.telegram.org/api/links#phone-number-links). | Yes|
+|phone|[string](/API_docs/types/string.html) | Phone number in international format, possibly obtained from a [phone number deep link](https://core.telegram.org/api/links#phone-number-links). | Optional|
 
 
 ### Return type: [contacts.ResolvedPeer](/API_docs/types/contacts.ResolvedPeer.html)

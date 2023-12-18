@@ -19,9 +19,9 @@ redirect_from: /API_docs/methods/stories_getStoryViewsList.html
 |reactions\_first|[Bool](/API_docs/types/Bool.html) | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 |q|[string](/API_docs/types/string.html) | Optional|
-|id|[int](/API_docs/types/int.html) | Yes|
-|offset|[string](/API_docs/types/string.html) | Yes|
-|limit|[int](/API_docs/types/int.html) | Yes|
+|id|[int](/API_docs/types/int.html) | Optional|
+|offset|[string](/API_docs/types/string.html) | Optional|
+|limit|[int](/API_docs/types/int.html) | Optional|
 
 
 ### Return type: [stories.StoryViewsList](/API_docs/types/stories.StoryViewsList.html)

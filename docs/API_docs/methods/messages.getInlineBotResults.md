@@ -20,8 +20,8 @@ Query an inline bot
 |bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The bot to query | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The currently opened chat | Optional|
 |geo\_point|[InputGeoPoint](/API_docs/types/InputGeoPoint.html) | The geolocation, if requested | Optional|
-|query|[string](/API_docs/types/string.html) | The query | Yes|
-|offset|[string](/API_docs/types/string.html) | The offset within the results, will be passed directly as-is to the bot. | Yes|
+|query|[string](/API_docs/types/string.html) | The query | Optional|
+|offset|[string](/API_docs/types/string.html) | The offset within the results, will be passed directly as-is to the bot. | Optional|
 
 
 ### Return type: [messages.BotResults](/API_docs/types/messages.BotResults.html)

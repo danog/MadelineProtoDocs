@@ -18,7 +18,7 @@ Renames a stickerset, bots only.
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |stickerset|[InputStickerSet](/API_docs/types/InputStickerSet.html) | Stickerset to rename | Optional|
-|title|[string](/API_docs/types/string.html) | New stickerset title | Yes|
+|title|[string](/API_docs/types/string.html) | New stickerset title | Optional|
 
 
 ### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.html)

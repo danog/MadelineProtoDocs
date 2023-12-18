@@ -20,7 +20,7 @@ Modify the admin rights of a user in a [supergroup/channel](https://core.telegra
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | The [supergroup/channel](https://core.telegram.org/api/channel). | Optional|
 |user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The ID of the user whose admin rights should be modified | Optional|
 |admin\_rights|[ChatAdminRights](/API_docs/types/ChatAdminRights.html) | The admin rights | Yes|
-|rank|[string](/API_docs/types/string.html) | Indicates the role (rank) of the admin in the group: just an arbitrary string | Yes|
+|rank|[string](/API_docs/types/string.html) | Indicates the role (rank) of the admin in the group: just an arbitrary string | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

@@ -18,7 +18,7 @@ Set localized name, about text and description of a bot (or of the current accou
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | If called by a user, **must** contain the peer of a bot we own. | Optional|
-|lang\_code|[string](/API_docs/types/string.html) | Language code, if left empty update the fallback about text and description | Yes|
+|lang\_code|[string](/API_docs/types/string.html) | Language code, if left empty update the fallback about text and description | Optional|
 |name|[string](/API_docs/types/string.html) | New bot name | Optional|
 |about|[string](/API_docs/types/string.html) | New about text | Optional|
 |description|[string](/API_docs/types/string.html) | New description | Optional|

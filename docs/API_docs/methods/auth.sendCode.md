@@ -17,9 +17,9 @@ You cannot use this method directly, use the phoneLogin method instead (see http
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_number|[string](/API_docs/types/string.html) | Phone number in international format | Yes|
+|phone\_number|[string](/API_docs/types/string.html) | Phone number in international format | Optional|
 |api\_id|[int](/API_docs/types/int.html) | Application identifier (see [App configuration](https://core.telegram.org/myapp)) | Optional|
-|api\_hash|[string](/API_docs/types/string.html) | Application secret hash (see [App configuration](https://core.telegram.org/myapp)) | Yes|
+|api\_hash|[string](/API_docs/types/string.html) | Application secret hash (see [App configuration](https://core.telegram.org/myapp)) | Optional|
 |settings|[CodeSettings](/API_docs/types/CodeSettings.html) | Settings for the code type to send | Yes|
 
 

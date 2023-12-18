@@ -17,7 +17,7 @@ Reset the [2FA password](https://core.telegram.org/api/srp) using the recovery c
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|code|[string](/API_docs/types/string.html) | Code received via email | Yes|
+|code|[string](/API_docs/types/string.html) | Code received via email | Optional|
 |new\_settings|[account.PasswordInputSettings](/API_docs/types/account.PasswordInputSettings.html) | New password | Optional|
 
 

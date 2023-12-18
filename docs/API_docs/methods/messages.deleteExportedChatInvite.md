@@ -18,7 +18,7 @@ Delete a chat invite
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer | Optional|
-|link|[string](/API_docs/types/string.html) | Invite link | Yes|
+|link|[string](/API_docs/types/string.html) | Invite link | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

@@ -17,9 +17,9 @@ Verify a phone number for telegram [passport](https://core.telegram.org/passport
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_number|[string](/API_docs/types/string.html) | Phone number | Yes|
-|phone\_code\_hash|[string](/API_docs/types/string.html) | Phone code hash received from the call to [account.sendVerifyPhoneCode](../methods/account.sendVerifyPhoneCode.html) | Yes|
-|phone\_code|[string](/API_docs/types/string.html) | Code received after the call to [account.sendVerifyPhoneCode](../methods/account.sendVerifyPhoneCode.html) | Yes|
+|phone\_number|[string](/API_docs/types/string.html) | Phone number | Optional|
+|phone\_code\_hash|[string](/API_docs/types/string.html) | Phone code hash received from the call to [account.sendVerifyPhoneCode](../methods/account.sendVerifyPhoneCode.html) | Optional|
+|phone\_code|[string](/API_docs/types/string.html) | Code received after the call to [account.sendVerifyPhoneCode](../methods/account.sendVerifyPhoneCode.html) | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

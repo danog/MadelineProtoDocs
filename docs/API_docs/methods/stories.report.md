@@ -18,7 +18,7 @@ redirect_from: /API_docs/methods/stories_report.html
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 |id|Array of [int](/API_docs/types/int.html) | Yes|
 |reason|[ReportReason](/API_docs/types/ReportReason.html) | Yes|
-|message|[string](/API_docs/types/string.html) | Yes|
+|message|[string](/API_docs/types/string.html) | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

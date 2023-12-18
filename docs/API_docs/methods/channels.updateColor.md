@@ -16,7 +16,7 @@ redirect_from: /API_docs/methods/channels_updateColor.html
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
-|color|[int](/API_docs/types/int.html) | Yes|
+|color|[int](/API_docs/types/int.html) | Optional|
 |background\_emoji\_id|[long](/API_docs/types/long.html) | Optional|
 
 

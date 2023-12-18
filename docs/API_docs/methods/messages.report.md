@@ -20,7 +20,7 @@ Report a message in a chat for violation of telegram's Terms of Service
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer | Optional|
 |id|Array of [int](/API_docs/types/int.html) | IDs of messages to report | Yes|
 |reason|[ReportReason](/API_docs/types/ReportReason.html) | Why are these messages being reported | Yes|
-|message|[string](/API_docs/types/string.html) | Comment for report moderation | Yes|
+|message|[string](/API_docs/types/string.html) | Comment for report moderation | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

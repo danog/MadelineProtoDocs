@@ -17,7 +17,7 @@ Terminate webview interaction started with [messages.requestWebView](../methods/
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|bot\_query\_id|[string](/API_docs/types/string.html) | Webview interaction ID obtained from [messages.requestWebView](../methods/messages.requestWebView.html) | Yes|
+|bot\_query\_id|[string](/API_docs/types/string.html) | Webview interaction ID obtained from [messages.requestWebView](../methods/messages.requestWebView.html) | Optional|
 |result|[InputBotInlineResult](/API_docs/types/InputBotInlineResult.html) | Message to send | Yes|
 
 

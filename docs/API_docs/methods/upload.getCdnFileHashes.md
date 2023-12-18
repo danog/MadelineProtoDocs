@@ -17,7 +17,7 @@ You cannot use this method directly, use the upload, downloadToStream, downloadT
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|file\_token|[string](/API_docs/types/string.html) |  | Yes|
+|file\_token|[string](/API_docs/types/string.html) |  | Optional|
 |offset|[long](/API_docs/types/long.html) | Offset from which to start getting hashes | Yes|
 
 

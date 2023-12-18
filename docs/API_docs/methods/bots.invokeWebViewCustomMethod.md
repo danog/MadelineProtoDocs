@@ -16,7 +16,7 @@ redirect_from: /API_docs/methods/bots_invokeWebViewCustomMethod.html
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
-|custom\_method|[string](/API_docs/types/string.html) | Yes|
+|custom\_method|[string](/API_docs/types/string.html) | Optional|
 |params|[DataJSON](/API_docs/types/DataJSON.html) | Yes|
 
 

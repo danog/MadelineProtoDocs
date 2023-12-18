@@ -24,7 +24,7 @@ Send a result obtained using [messages.getInlineBotResults](../methods/messages.
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Destination | Optional|
 |reply\_to|[InputReplyTo](/API_docs/types/InputReplyTo.html) |  | Optional|
 |query\_id|[long](/API_docs/types/long.html) | Query ID from [messages.getInlineBotResults](../methods/messages.getInlineBotResults.html) | Yes|
-|id|[string](/API_docs/types/string.html) | Result ID from [messages.getInlineBotResults](../methods/messages.getInlineBotResults.html) | Yes|
+|id|[string](/API_docs/types/string.html) | Result ID from [messages.getInlineBotResults](../methods/messages.getInlineBotResults.html) | Optional|
 |schedule\_date|[int](/API_docs/types/int.html) | Scheduled message date for scheduled messages | Optional|
 |send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Send this message as the specified peer | Optional|
 

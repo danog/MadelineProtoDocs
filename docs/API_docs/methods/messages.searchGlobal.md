@@ -18,7 +18,7 @@ Search for messages and peers globally
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |folder\_id|[int](/API_docs/types/int.html) | [Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders) | Optional|
-|q|[string](/API_docs/types/string.html) | Query | Yes|
+|q|[string](/API_docs/types/string.html) | Query | Optional|
 |filter|[MessagesFilter](/API_docs/types/MessagesFilter.html) | Global search filter | Optional|
 |min\_date|[int](/API_docs/types/int.html) | If a positive value was specified, the method will return only messages with date bigger than min\_date | Optional|
 |max\_date|[int](/API_docs/types/int.html) | If a positive value was transferred, the method will return only messages with date smaller than max\_date | Optional|

@@ -17,7 +17,7 @@ redirect_from: /API_docs/methods/stories_sendReaction.html
 |----------|---------------|----------|
 |add\_to\_recent|[Bool](/API_docs/types/Bool.html) | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|story\_id|[int](/API_docs/types/int.html) | Yes|
+|story\_id|[int](/API_docs/types/int.html) | Optional|
 |reaction|[Reaction](/API_docs/types/Reaction.html) | Optional|
 
 

@@ -18,8 +18,8 @@ Upload notification sound, use [account.saveRingtone](../methods/account.saveRin
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |file|[File path or InputFile](/API_docs/types/InputFile.html) | Notification sound | Yes|
-|file\_name|[string](/API_docs/types/string.html) | File name | Yes|
-|mime\_type|[string](/API_docs/types/string.html) | MIME type of file | Yes|
+|file\_name|[string](/API_docs/types/string.html) | File name | Optional|
+|mime\_type|[string](/API_docs/types/string.html) | MIME type of file | Optional|
 
 
 ### Return type: [Document](/API_docs/types/Document.html)

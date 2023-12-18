@@ -18,7 +18,7 @@ Export a [folder »](https://core.telegram.org/api/folders), creating a [chat fo
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |chatlist|[InputChatlist](/API_docs/types/InputChatlist.html) | The folder to export | Yes|
-|title|[string](/API_docs/types/string.html) | An optional name for the link | Yes|
+|title|[string](/API_docs/types/string.html) | An optional name for the link | Optional|
 |peers|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The list of channels, group and supergroups to share with the link. Basic groups will automatically be [converted to supergroups](https://core.telegram.org/api/channel#migration) when invoking the method. | Yes|
 
 

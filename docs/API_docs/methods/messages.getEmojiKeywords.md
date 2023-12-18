@@ -17,7 +17,7 @@ Get localized [emoji keywords »](https://core.telegram.org/api/custom-emoji#emo
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|lang\_code|[string](/API_docs/types/string.html) | Language code | Yes|
+|lang\_code|[string](/API_docs/types/string.html) | Language code | Optional|
 
 
 ### Return type: [EmojiKeywordsDifference](/API_docs/types/EmojiKeywordsDifference.html)

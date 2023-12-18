@@ -16,7 +16,7 @@ redirect_from: /API_docs/methods/messages_searchEmojiStickerSets.html
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |exclude\_featured|[Bool](/API_docs/types/Bool.html) | Optional|
-|q|[string](/API_docs/types/string.html) | Yes|
+|q|[string](/API_docs/types/string.html) | Optional|
 |hash|Array of [long](/API_docs/types/long.html) | Optional|
 
 

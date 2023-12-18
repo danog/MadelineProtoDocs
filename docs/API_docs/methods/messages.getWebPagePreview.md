@@ -17,7 +17,7 @@ Get preview of webpage
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|message|[string](/API_docs/types/string.html) | Message from which to extract the preview | Yes|
+|message|[string](/API_docs/types/string.html) | Message from which to extract the preview | Optional|
 |entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | [Message entities for styled text](https://core.telegram.org/api/entities) | Optional|
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
 

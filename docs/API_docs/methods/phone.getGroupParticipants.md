@@ -20,7 +20,7 @@ Get group call participants
 |call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Group call | Yes|
 |ids|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | If specified, will fetch group participant info about the specified peers | Yes|
 |sources|Array of [int](/API_docs/types/int.html) | If specified, will fetch group participant info about the specified WebRTC source IDs | Yes|
-|offset|[string](/API_docs/types/string.html) | Offset for results, taken from the `next_offset` field of [phone.groupParticipants](../constructors/phone.groupParticipants.html), initially an empty string. <br>Note: if no more results are available, the method call will return an empty `next_offset`; thus, avoid providing the `next_offset` returned in [phone.groupParticipants](../constructors/phone.groupParticipants.html) if it is empty, to avoid an infinite loop. | Yes|
+|offset|[string](/API_docs/types/string.html) | Offset for results, taken from the `next_offset` field of [phone.groupParticipants](../constructors/phone.groupParticipants.html), initially an empty string. <br>Note: if no more results are available, the method call will return an empty `next_offset`; thus, avoid providing the `next_offset` returned in [phone.groupParticipants](../constructors/phone.groupParticipants.html) if it is empty, to avoid an infinite loop. | Optional|
 |limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
 
 

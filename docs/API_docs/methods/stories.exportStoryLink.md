@@ -16,7 +16,7 @@ redirect_from: /API_docs/methods/stories_exportStoryLink.html
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|id|[int](/API_docs/types/int.html) | Yes|
+|id|[int](/API_docs/types/int.html) | Optional|
 
 
 ### Return type: [ExportedStoryLink](/API_docs/types/ExportedStoryLink.html)

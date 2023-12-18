@@ -18,7 +18,7 @@ Edit a [chat folder deep link »](https://core.telegram.org/api/links#chat-folde
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |chatlist|[InputChatlist](/API_docs/types/InputChatlist.html) | Folder ID | Yes|
-|slug|[string](/API_docs/types/string.html) | `slug` obtained from the [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links). | Yes|
+|slug|[string](/API_docs/types/string.html) | `slug` obtained from the [chat folder deep link »](https://core.telegram.org/api/links#chat-folder-links). | Optional|
 |title|[string](/API_docs/types/string.html) | If set, sets a new name for the link | Optional|
 |peers|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | If set, changes the list of peers shared with the link | Optional|
 

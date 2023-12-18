@@ -17,7 +17,7 @@ redirect_from: /API_docs/methods/stats_getStoryStats.html
 |----------|---------------|----------|
 |dark|[Bool](/API_docs/types/Bool.html) | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|id|[int](/API_docs/types/int.html) | Yes|
+|id|[int](/API_docs/types/int.html) | Optional|
 
 
 ### Return type: [stats.StoryStats](/API_docs/types/stats.StoryStats.html)

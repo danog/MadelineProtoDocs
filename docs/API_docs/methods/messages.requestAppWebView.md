@@ -24,7 +24,7 @@ After calling this method, until the user closes the webview, [messages.prolongW
 |app|[InputBotApp](/API_docs/types/InputBotApp.html) | The app obtained by invoking [messages.getBotApp](../methods/messages.getBotApp.html) as specified in the [named bot web app deep link](https://core.telegram.org/api/links#named-bot-web-app-links) docs. | Yes|
 |start\_param|[string](/API_docs/types/string.html) | If the `startapp` query string parameter is present in the [named bot web app deep link](https://core.telegram.org/api/links#named-bot-web-app-links), pass it to `start_param`. | Optional|
 |theme\_params|[DataJSON](/API_docs/types/DataJSON.html) | [Theme parameters »](https://core.telegram.org/api/bots/webapps#theme-parameters) | Optional|
-|platform|[string](/API_docs/types/string.html) | Short name of the application; 0-64 English letters, digits, and underscores | Yes|
+|platform|[string](/API_docs/types/string.html) | Short name of the application; 0-64 English letters, digits, and underscores | Optional|
 
 
 ### Return type: [AppWebViewResult](/API_docs/types/AppWebViewResult.html)

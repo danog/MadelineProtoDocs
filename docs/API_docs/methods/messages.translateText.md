@@ -22,7 +22,7 @@ Translate a given text.
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | If the text is a chat message, the peer ID | Optional|
 |id|Array of [int](/API_docs/types/int.html) | A list of message IDs to translate | Optional|
 |text|Array of [TextWithEntities](/API_docs/types/TextWithEntities.html) | A list of styled messages to translate | Optional|
-|to\_lang|[string](/API_docs/types/string.html) | Two-letter ISO 639-1 language code of the language to which the message is translated | Yes|
+|to\_lang|[string](/API_docs/types/string.html) | Two-letter ISO 639-1 language code of the language to which the message is translated | Optional|
 
 
 ### Return type: [messages.TranslatedText](/API_docs/types/messages.TranslatedText.html)

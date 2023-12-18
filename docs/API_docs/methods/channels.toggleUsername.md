@@ -18,7 +18,7 @@ Activate or deactivate a purchased [fragment.com](https://fragment.com) username
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | [Supergroup or channel](https://core.telegram.org/api/channel) | Optional|
-|username|[string](/API_docs/types/string.html) | Username | Yes|
+|username|[string](/API_docs/types/string.html) | Username | Optional|
 |active|[Bool](/API_docs/types/Bool.html) | Whether to activate or deactivate the username | Yes|
 
 

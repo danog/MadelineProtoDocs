@@ -17,12 +17,12 @@ Initialize connection
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |api\_id|[int](/API_docs/types/int.html) | Application identifier (see. [App configuration](https://core.telegram.org/myapp)) | Optional|
-|device\_model|[string](/API_docs/types/string.html) | Device model | Yes|
-|system\_version|[string](/API_docs/types/string.html) | Operation system version | Yes|
-|app\_version|[string](/API_docs/types/string.html) | Application version | Yes|
-|system\_lang\_code|[string](/API_docs/types/string.html) | Code for the language used on the device's OS, ISO 639-1 standard | Yes|
-|lang\_pack|[string](/API_docs/types/string.html) | Language pack to use | Yes|
-|lang\_code|[string](/API_docs/types/string.html) | Code for the language used on the client, ISO 639-1 standard | Yes|
+|device\_model|[string](/API_docs/types/string.html) | Device model | Optional|
+|system\_version|[string](/API_docs/types/string.html) | Operation system version | Optional|
+|app\_version|[string](/API_docs/types/string.html) | Application version | Optional|
+|system\_lang\_code|[string](/API_docs/types/string.html) | Code for the language used on the device's OS, ISO 639-1 standard | Optional|
+|lang\_pack|[string](/API_docs/types/string.html) | Language pack to use | Optional|
+|lang\_code|[string](/API_docs/types/string.html) | Code for the language used on the client, ISO 639-1 standard | Optional|
 |proxy|[InputClientProxy](/API_docs/types/InputClientProxy.html) | Info about an MTProto proxy | Optional|
 |params|[JSONValue](/API_docs/types/JSONValue.html) | Additional initConnection parameters. <br>For now, only the `tz_offset` field is supported, for specifying timezone offset in seconds. | Optional|
 |query|[!X](/API_docs/types/!X.html) | The query itself | Yes|

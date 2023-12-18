@@ -18,7 +18,7 @@ Change the chat theme of a certain chat
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Private chat where to change theme | Optional|
-|emoticon|[string](/API_docs/types/string.html) | Emoji, identifying a specific chat theme; a list of chat themes can be fetched using [account.getChatThemes](../methods/account.getChatThemes.html) | Yes|
+|emoticon|[string](/API_docs/types/string.html) | Emoji, identifying a specific chat theme; a list of chat themes can be fetched using [account.getChatThemes](../methods/account.getChatThemes.html) | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

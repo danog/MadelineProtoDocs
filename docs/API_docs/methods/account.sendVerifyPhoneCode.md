@@ -17,7 +17,7 @@ Send the verification phone code for telegram [passport](https://core.telegram.o
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|phone\_number|[string](/API_docs/types/string.html) | The phone number to verify | Yes|
+|phone\_number|[string](/API_docs/types/string.html) | The phone number to verify | Optional|
 |settings|[CodeSettings](/API_docs/types/CodeSettings.html) | Phone code settings | Yes|
 
 

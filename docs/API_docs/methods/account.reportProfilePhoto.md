@@ -20,7 +20,7 @@ Report a profile photo of a dialog
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The dialog | Optional|
 |photo\_id|[MessageMedia, Update, Message or InputPhoto](/API_docs/types/InputPhoto.html) | Dialog photo ID | Optional|
 |reason|[ReportReason](/API_docs/types/ReportReason.html) | Report reason | Yes|
-|message|[string](/API_docs/types/string.html) | Comment for report moderation | Yes|
+|message|[string](/API_docs/types/string.html) | Comment for report moderation | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

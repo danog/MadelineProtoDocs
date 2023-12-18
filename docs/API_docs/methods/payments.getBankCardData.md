@@ -17,7 +17,7 @@ Get info about a credit card
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|number|[string](/API_docs/types/string.html) | Credit card number | Yes|
+|number|[string](/API_docs/types/string.html) | Credit card number | Optional|
 
 
 ### Return type: [payments.BankCardData](/API_docs/types/payments.BankCardData.html)

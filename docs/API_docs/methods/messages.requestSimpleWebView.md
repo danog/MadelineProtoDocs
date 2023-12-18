@@ -23,7 +23,7 @@ Open a [bot web app](https://core.telegram.org/api/bots/webapps).
 |url|[string](/API_docs/types/string.html) | Web app URL | Optional|
 |start\_param|[string](/API_docs/types/string.html) |  | Optional|
 |theme\_params|[DataJSON](/API_docs/types/DataJSON.html) | [Theme parameters »](https://core.telegram.org/api/bots/webapps#theme-parameters) | Optional|
-|platform|[string](/API_docs/types/string.html) | Short name of the application; 0-64 English letters, digits, and underscores | Yes|
+|platform|[string](/API_docs/types/string.html) | Short name of the application; 0-64 English letters, digits, and underscores | Optional|
 
 
 ### Return type: [SimpleWebViewResult](/API_docs/types/SimpleWebViewResult.html)

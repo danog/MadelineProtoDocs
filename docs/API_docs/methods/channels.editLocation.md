@@ -19,7 +19,7 @@ Edit location of geogroup
 |----------|---------------|-------------|----------|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | [Geogroup](https://core.telegram.org/api/channel) | Optional|
 |geo\_point|[InputGeoPoint](/API_docs/types/InputGeoPoint.html) | New geolocation | Optional|
-|address|[string](/API_docs/types/string.html) | Address string | Yes|
+|address|[string](/API_docs/types/string.html) | Address string | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

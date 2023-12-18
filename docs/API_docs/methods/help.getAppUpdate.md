@@ -17,7 +17,7 @@ Returns information on update availability for the current application.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|source|[string](/API_docs/types/string.html) | Source | Yes|
+|source|[string](/API_docs/types/string.html) | Source | Optional|
 
 
 ### Return type: [help.AppUpdate](/API_docs/types/help.AppUpdate.html)

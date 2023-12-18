@@ -19,7 +19,7 @@ Upload a media file associated with an [imported chat, click here for more info 
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The Telegram chat where the media will be imported | Optional|
 |import\_id|[long](/API_docs/types/long.html) | Identifier of a [history import session](https://core.telegram.org/api/import), returned by [messages.initHistoryImport](../methods/messages.initHistoryImport.html) | Yes|
-|file\_name|[string](/API_docs/types/string.html) | File name | Yes|
+|file\_name|[string](/API_docs/types/string.html) | File name | Optional|
 |media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) | Media metadata | Optional|
 
 

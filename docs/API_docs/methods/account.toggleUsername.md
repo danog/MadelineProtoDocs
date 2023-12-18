@@ -17,7 +17,7 @@ Activate or deactivate a purchased [fragment.com](https://fragment.com) username
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|username|[string](/API_docs/types/string.html) | Username | Yes|
+|username|[string](/API_docs/types/string.html) | Username | Optional|
 |active|[Bool](/API_docs/types/Bool.html) | Whether to activate or deactivate it | Yes|
 
 

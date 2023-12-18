@@ -18,7 +18,7 @@ Send an email verification code.
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |purpose|[EmailVerifyPurpose](/API_docs/types/EmailVerifyPurpose.html) | Verification purpose. | Yes|
-|email|[string](/API_docs/types/string.html) | The email where to send the code. | Yes|
+|email|[string](/API_docs/types/string.html) | The email where to send the code. | Optional|
 
 
 ### Return type: [account.SentEmailCode](/API_docs/types/account.SentEmailCode.html)

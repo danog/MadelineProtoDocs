@@ -18,8 +18,8 @@ Returns a Telegram Passport authorization form for sharing data with a service
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |bot\_id|[long](/API_docs/types/long.html) | User identifier of the service's bot | Yes|
-|scope|[string](/API_docs/types/string.html) | Telegram Passport element types requested by the service | Yes|
-|public\_key|[string](/API_docs/types/string.html) | Service's public key | Yes|
+|scope|[string](/API_docs/types/string.html) | Telegram Passport element types requested by the service | Optional|
+|public\_key|[string](/API_docs/types/string.html) | Service's public key | Optional|
 
 
 ### Return type: [account.AuthorizationForm](/API_docs/types/account.AuthorizationForm.html)

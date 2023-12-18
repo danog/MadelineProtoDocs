@@ -17,8 +17,8 @@ Get new strings in language pack
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|lang\_pack|[string](/API_docs/types/string.html) | Language pack | Yes|
-|lang\_code|[string](/API_docs/types/string.html) | Language code | Yes|
+|lang\_pack|[string](/API_docs/types/string.html) | Language pack | Optional|
+|lang\_code|[string](/API_docs/types/string.html) | Language code | Optional|
 |from\_version|[int](/API_docs/types/int.html) | Previous localization pack version | Optional|
 
 
