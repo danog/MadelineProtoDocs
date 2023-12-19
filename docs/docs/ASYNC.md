@@ -103,18 +103,6 @@ See [async forking](#async-forking-does-async-green-thread-forking).
 
 There are AMPHP methods can be used to execute multiple async operations simultaneously and wait for the result of all of them, see the [amphp docs](https://amphp.org/amp#combinators) for more info.  
 
-### Handling timeouts
-
-These methods can be used to wait for a certain amount of time for a result, and then throw an `Amp\TimeoutException` or simply continue execution if no result was obtained.  
-
-```php
-// Waits for the result for 2 seconds and then throws an \Amp\TimeoutException
-$result = $MadelineProto->timeout($promise, 2)
-
-// Waits for the result for 2 seconds, returns the result or null (which is the result of sleep())
-$result = $MadelineProto->first([$promise, $MadelineProto->sleep(2)]);
-```
-
 ## MadelineProto and AMPHP async APIs
 
 MadelineProto and AMPHP (through Revolt) both provide a lot of async functions: all of MadelineProto's functions are async, for example; and AMPHP provides [multiple packages](https://amphp.org/packages) to work asynchronously with HTTP requests, websockets, databases (HTTP, MySQL, redis, postgres, DNS, sockets and [much more](https://github.com/amphp/))!  
