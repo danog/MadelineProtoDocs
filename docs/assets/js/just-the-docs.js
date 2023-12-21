@@ -3,6 +3,15 @@ layout: empty
 ---
 (function (jtd, undefined) {
 
+// Switch theme
+
+jtd.setTheme = function(theme) {
+  if (!theme || theme === 'null') theme = 'dark';
+  window.localStorage.setItem('theme', theme);
+  var cssFile = document.querySelector('[rel="stylesheet"]');
+  cssFile.setAttribute('href', '/assets/css/just-the-docs-' + theme + '.css');
+}
+
 // Event handling
 
 jtd.addEvent = function(el, type, handler) {
@@ -465,22 +474,6 @@ function update() {
     parent.appendChild(span);
   }
 }
-
-// Switch theme
-
-jtd.getTheme = function() {
-  var cssFileHref = document.querySelector('[rel="stylesheet"]').getAttribute('href');
-  return cssFileHref.substring(cssFileHref.lastIndexOf('-') + 1, cssFileHref.length - 4);
-}
-
-jtd.setTheme = function(theme) {
-  if (!theme || theme === 'null') theme = 'light';
-  window.localStorage.setItem('theme', theme);
-  var cssFile = document.querySelector('[rel="stylesheet"]');
-  cssFile.setAttribute('href', '/assets/css/just-the-docs-' + theme + '.css');
-}
-jtd.setTheme(window.localStorage.getItem('theme'));
-
 // Document ready
 
 jtd.onReady(function(){

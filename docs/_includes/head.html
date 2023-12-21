@@ -4,9 +4,14 @@
 
   <title>{{ page.title }}</title>
 
-  <link rel="preload" href="{{ '/assets/css/just-the-docs-dark.css' | relative_url }}?v=2" as="style">
-  <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-light.css' | relative_url }}?v=2">
+  <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-dark.css' | relative_url }}?v=2">
+  <link rel="preload" href="{{ '/assets/css/just-the-docs-light.css' | relative_url }}?v=2" as="style">
 
+  <script>
+    if (window.localStorage.getItem('theme') === 'light') {
+      document.querySelector('[rel="stylesheet"]').setAttribute('href', '/assets/css/just-the-docs-light.css');
+    }
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-site-verification" content="OIo7XVmU3hJT1uHL82H6-COTtQqeefBXIpZDznJPkOg" />
 
