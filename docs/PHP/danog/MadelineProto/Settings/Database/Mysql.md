@@ -17,8 +17,6 @@ MariaDb 10.2+ or Mysql 5.6+ required.
 
 
 ## Method list:
-* [`setOptimizeIfWastedGtMb(int<\1, \max>|null $optimizeIfWastedGtMb): self`](#setoptimizeifwastedgtmb-int-1-max-null-optimizeifwastedgtmb-self)
-* [`getOptimizeIfWastedGtMb(): int<\1, \max>|null`](#getoptimizeifwastedgtmb-int-1-max-null)
 * [`getDriverClass(): string`](#getdriverclass-string)
 * [`getMaxConnections(): \positive-int`](#getmaxconnections-positive-int)
 * [`setMaxConnections(\positive-int $maxConnections): static`](#setmaxconnections-positive-int-maxconnections-static)
@@ -50,37 +48,6 @@ MariaDb 10.2+ or Mysql 5.6+ required.
 * [`setEnablePeerInfoDb(bool $enablePeerInfoDb): static`](#setenablepeerinfodb-bool-enablepeerinfodb-static)
 
 ## Methods:
-### `setOptimizeIfWastedGtMb(int<\1, \max>|null $optimizeIfWastedGtMb): self`
-
-Whether to optimize MySQL tables automatically if more than the specified amount of megabytes is wasted by the MySQL engine.
-Be careful when tweaking this setting as it may lead to slowdowns on startup.  
-  
-A good setting is 10mb.
-
-Parameters:
-
-* `$optimizeIfWastedGtMb`: `int<\1, \max>|null`   
-
-
-#### See also: 
-* `\max`
-
-
-
-
-### `getOptimizeIfWastedGtMb(): int<\1, \max>|null`
-
-Whether to optimize MySQL tables automatically if more than the specified amount of bytes is wasted by the MySQL engine.
-Be careful when tweaking this setting as it may lead to slowdowns on startup.  
-  
-A good setting is 10mb.
-
-#### See also: 
-* `\max`
-
-
-
-
 ### `getDriverClass(): string`
 
 
