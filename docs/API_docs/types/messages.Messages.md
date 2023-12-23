@@ -48,7 +48,5 @@ redirect_from: /API_docs/types/messages_Messages.html
 
 [$MadelineProto->channels->getMessages](/API_docs/methods/channels.getMessages.html)  
 
-[$MadelineProto->stats->getMessagePublicForwards](/API_docs/methods/stats.getMessagePublicForwards.html)  
-
 
 

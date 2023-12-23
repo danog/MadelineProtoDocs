@@ -126,8 +126,6 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->messages->setChatWallPaper](/API_docs/methods/messages.setChatWallPaper.html)  
 
-[$MadelineProto->help->getAppChangelog](/API_docs/methods/help.getAppChangelog.html)  
-
 [$MadelineProto->channels->createChannel](/API_docs/methods/channels.createChannel.html)  
 
 [$MadelineProto->channels->editAdmin](/API_docs/methods/channels.editAdmin.html)  
@@ -179,6 +177,8 @@ $message = $MadelineProto->extractMessageId($Updates);
 [$MadelineProto->channels->updateColor](/API_docs/methods/channels.updateColor.html)  
 
 [$MadelineProto->channels->toggleViewForumAsMessages](/API_docs/methods/channels.toggleViewForumAsMessages.html)  
+
+[$MadelineProto->channels->updateEmojiStatus](/API_docs/methods/channels.updateEmojiStatus.html)  
 
 [$MadelineProto->bots->allowSendMessage](/API_docs/methods/bots.allowSendMessage.html)  
 

@@ -14,9 +14,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |only\_new\_subscribers|[Bool](/API_docs/types/Bool.html) | Optional|
+|winners\_are\_visible|[Bool](/API_docs/types/Bool.html) | Optional|
 |boost\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 |additional\_peers|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 |countries\_iso2|Array of [string](/API_docs/types/string.html) | Optional|
+|prize\_description|[string](/API_docs/types/string.html) | Optional|
 |until\_date|[int](/API_docs/types/int.html) | Yes|
 |currency|[string](/API_docs/types/string.html) | Yes|
 |amount|[long](/API_docs/types/long.html) | Yes|
@@ -29,5 +31,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$inputStorePaymentPremiumGiveaway = ['_' => 'inputStorePaymentPremiumGiveaway', 'only_new_subscribers' => Bool, 'boost_peer' => InputPeer, 'additional_peers' => [InputPeer, InputPeer], 'countries_iso2' => ['string', 'string'], 'until_date' => int, 'currency' => 'string', 'amount' => long];
+$inputStorePaymentPremiumGiveaway = ['_' => 'inputStorePaymentPremiumGiveaway', 'only_new_subscribers' => Bool, 'winners_are_visible' => Bool, 'boost_peer' => InputPeer, 'additional_peers' => [InputPeer, InputPeer], 'countries_iso2' => ['string', 'string'], 'prize_description' => 'string', 'until_date' => int, 'currency' => 'string', 'amount' => long];
 ```  

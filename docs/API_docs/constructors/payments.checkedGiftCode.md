@@ -15,7 +15,7 @@ redirect_from: /API_docs/constructors/payments_checkedGiftCode.html
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |via\_giveaway|[Bool](/API_docs/types/Bool.html) | Optional|
-|from\_id|[Peer](/API_docs/types/Peer.html) | Yes|
+|from\_id|[Peer](/API_docs/types/Peer.html) | Optional|
 |giveaway\_msg\_id|[int](/API_docs/types/int.html) | Optional|
 |to\_id|[long](/API_docs/types/long.html) | Optional|
 |date|[int](/API_docs/types/int.html) | Yes|

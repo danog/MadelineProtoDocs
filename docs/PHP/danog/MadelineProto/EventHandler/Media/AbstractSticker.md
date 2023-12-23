@@ -18,8 +18,8 @@ Represents a generic sticker.
 ## Properties
 * `$emoji`: `string` Emoji representation of sticker
 * `$stickerset`: `array` Associated stickerset
-* `$width`: `int` 
-* `$height`: `int` 
+* `$width`: `?int` 
+* `$height`: `?int` 
 * `$size`: `int` Media filesize
 * `$fileName`: `string` Media file name
 * `$fileExt`: `string` Media file extension

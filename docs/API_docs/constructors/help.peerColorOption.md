@@ -18,6 +18,7 @@ redirect_from: /API_docs/constructors/help_peerColorOption.html
 |color\_id|[int](/API_docs/types/int.html) | Yes|
 |colors|[help.PeerColorSet](/API_docs/constructors/help.PeerColorSet.html) | Optional|
 |dark\_colors|[help.PeerColorSet](/API_docs/constructors/help.PeerColorSet.html) | Optional|
+|channel\_min\_level|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -27,5 +28,5 @@ redirect_from: /API_docs/constructors/help_peerColorOption.html
 ### Example:
 
 ```
-$help_peerColorOption = ['_' => 'help.peerColorOption', 'hidden' => Bool, 'color_id' => int, 'colors' => help.PeerColorSet, 'dark_colors' => help.PeerColorSet];
+$help_peerColorOption = ['_' => 'help.peerColorOption', 'hidden' => Bool, 'color_id' => int, 'colors' => help.PeerColorSet, 'dark_colors' => help.PeerColorSet, 'channel_min_level' => int];
 ```  

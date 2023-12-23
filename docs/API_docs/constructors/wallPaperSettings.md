@@ -23,6 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |fourth\_background\_color|[int](/API_docs/types/int.html) | Optional|Used for [freeform gradient »](https://core.telegram.org/api/wallpapers#freeform-gradient-fill) fills.|
 |intensity|[int](/API_docs/types/int.html) | Optional|Used for [pattern wallpapers »](https://core.telegram.org/api/wallpapers#pattern-wallpapers).|
 |rotation|[int](/API_docs/types/int.html) | Optional|Clockwise rotation angle of the gradient, in degrees; 0-359. Should be always divisible by 45.|
+|emoticon|[string](/API_docs/types/string.html) | Optional|
 
 
 
@@ -32,5 +33,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$wallPaperSettings = ['_' => 'wallPaperSettings', 'blur' => Bool, 'motion' => Bool, 'background_color' => int, 'second_background_color' => int, 'third_background_color' => int, 'fourth_background_color' => int, 'intensity' => int, 'rotation' => int];
+$wallPaperSettings = ['_' => 'wallPaperSettings', 'blur' => Bool, 'motion' => Bool, 'background_color' => int, 'second_background_color' => int, 'third_background_color' => int, 'fourth_background_color' => int, 'intensity' => int, 'rotation' => int, 'emoticon' => 'string'];
 ```  

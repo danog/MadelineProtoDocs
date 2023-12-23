@@ -20,13 +20,11 @@ Will return a list of [messages](../constructors/message.html) with `peer_id` eq
 |----------|---------------|-------------|----------|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Source channel | Optional|
 |msg\_id|[int](/API_docs/types/int.html) | Source message ID | Optional|
-|offset\_rate|[int](/API_docs/types/int.html) | Initially 0, then set to the `next_rate` parameter of [messages.messagesSlice](../constructors/messages.messagesSlice.html) | Optional|
-|offset\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
-|offset\_id|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
+|offset|[string](/API_docs/types/string.html) |  | Optional|
 |limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
 
 
-### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)
+### Return type: [stats.PublicForwards](/API_docs/types/stats.PublicForwards.html)
 
 ### Can bots use this method: **NO**
 
@@ -43,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Messages = $MadelineProto->stats->getMessagePublicForwards(channel: $InputChannel, msg_id: $int, offset_rate: $int, offset_peer: $InputPeer, offset_id: $int, limit: $int, );
+$stats_PublicForwards = $MadelineProto->stats->getMessagePublicForwards(channel: $InputChannel, msg_id: $int, offset: 'string', limit: $int, );
 ```
 

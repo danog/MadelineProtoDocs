@@ -24,5 +24,7 @@ redirect_from: /API_docs/types/account_EmojiStatuses.html
 
 [$MadelineProto->account->getRecentEmojiStatuses](/API_docs/methods/account.getRecentEmojiStatuses.html)  
 
+[$MadelineProto->account->getChannelDefaultEmojiStatuses](/API_docs/methods/account.getChannelDefaultEmojiStatuses.html)  
+
 
 

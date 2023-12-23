@@ -251,6 +251,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updatePeerWallpaper](/API_docs/constructors/updatePeerWallpaper.html)  
 
+[updateBotMessageReaction](/API_docs/constructors/updateBotMessageReaction.html)  
+
+[updateBotMessageReactions](/API_docs/constructors/updateBotMessageReactions.html)  
+
 
 
 ### Methods that return an object of this type (methods):

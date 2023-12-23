@@ -19,6 +19,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [mediaAreaSuggestedReaction](/API_docs/constructors/mediaAreaSuggestedReaction.html)  
 
+[mediaAreaChannelPost](/API_docs/constructors/mediaAreaChannelPost.html)  
+
+[inputMediaAreaChannelPost](/API_docs/constructors/inputMediaAreaChannelPost.html)  
+
 
 
 ### Methods that return an object of this type (methods):

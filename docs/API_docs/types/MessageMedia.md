@@ -41,6 +41,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageMediaGiveaway](/API_docs/constructors/messageMediaGiveaway.html)  
 
+[messageMediaGiveawayResults](/API_docs/constructors/messageMediaGiveawayResults.html)  
+
 
 
 ### Methods that return an object of this type (methods):

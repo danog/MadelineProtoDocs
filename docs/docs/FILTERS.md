@@ -897,6 +897,8 @@ Here's a full list of all MTProto filters (click on each filter name to view the
 * [onUpdateBotChatBoost &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBotChatBoost.html) - 
 * [onUpdateChannelViewForumAsMessages &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateChannelViewForumAsMessages.html) - 
 * [onUpdatePeerWallpaper &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updatePeerWallpaper.html) - 
+* [onUpdateBotMessageReaction &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBotMessageReaction.html) - 
+* [onUpdateBotMessageReactions &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBotMessageReactions.html) - 
 
 
 <!-- cut_here_end mtprotofilters -->

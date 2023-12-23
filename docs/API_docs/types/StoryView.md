@@ -13,6 +13,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [storyView](/API_docs/constructors/storyView.html)  
 
+[storyViewPublicForward](/API_docs/constructors/storyViewPublicForward.html)  
+
+[storyViewPublicRepost](/API_docs/constructors/storyViewPublicRepost.html)  
+
 
 
 ### Methods that return an object of this type (methods):

@@ -19,8 +19,8 @@ Represents a static sticker.
 * `$premiumSticker`: `bool` Whether this is a premium sticker and a premium sticker animation must be played.
 * `$emoji`: `string` Emoji representation of sticker
 * `$stickerset`: `array` Associated stickerset
-* `$width`: `int` 
-* `$height`: `int` 
+* `$width`: `?int` 
+* `$height`: `?int` 
 * `$size`: `int` Media filesize
 * `$fileName`: `string` Media file name
 * `$fileExt`: `string` Media file extension

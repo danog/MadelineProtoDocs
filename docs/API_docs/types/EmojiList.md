@@ -25,6 +25,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$MadelineProto->account->getDefaultBackgroundEmojis](/API_docs/methods/account.getDefaultBackgroundEmojis.html)  
 
+[$MadelineProto->account->getChannelRestrictedStatusEmojis](/API_docs/methods/account.getChannelRestrictedStatusEmojis.html)  
+
 [$MadelineProto->messages->searchCustomEmoji](/API_docs/methods/messages.searchCustomEmoji.html)  
 
 

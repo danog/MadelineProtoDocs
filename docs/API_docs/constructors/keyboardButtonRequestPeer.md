@@ -18,6 +18,7 @@ Prompts the user to select and share a peer with the bot using [messages.sendBot
 |text|[string](/API_docs/types/string.html) | Yes|Button text|
 |button\_id|[int](/API_docs/types/int.html) | Yes|Button ID, to be passed to [messages.sendBotRequestedPeer](../methods/messages.sendBotRequestedPeer.html).|
 |peer\_type|[RequestPeerType](/API_docs/types/RequestPeerType.html) | Yes|Filtering criteria to use for the peer selection list shown to the user. <br>The list should display all existing peers of the specified type, and should also offer an option for the user to create and immediately use a peer of the specified type, if needed.|
+|max\_quantity|[int](/API_docs/types/int.html) | Yes|
 
 
 
@@ -27,5 +28,5 @@ Prompts the user to select and share a peer with the bot using [messages.sendBot
 ### Example:
 
 ```
-$keyboardButtonRequestPeer = ['_' => 'keyboardButtonRequestPeer', 'text' => 'string', 'button_id' => int, 'peer_type' => RequestPeerType];
+$keyboardButtonRequestPeer = ['_' => 'keyboardButtonRequestPeer', 'text' => 'string', 'button_id' => int, 'peer_type' => RequestPeerType, 'max_quantity' => int];
 ```  

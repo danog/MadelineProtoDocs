@@ -22,6 +22,7 @@ Represents a stickerset (stickerpack)
 |videos|[Bool](/API_docs/types/Bool.html) | Optional|Is this a video stickerpack|
 |emojis|[Bool](/API_docs/types/Bool.html) | Optional|This is a custom emoji stickerset|
 |text\_color|[Bool](/API_docs/types/Bool.html) | Optional|
+|channel\_emoji\_status|[Bool](/API_docs/types/Bool.html) | Optional|
 |installed\_date|[int](/API_docs/types/int.html) | Optional|When was this stickerset installed|
 |id|[long](/API_docs/types/long.html) | Yes|ID of the stickerset|
 |access\_hash|[long](/API_docs/types/long.html) | Yes|Access hash of stickerset|
@@ -42,5 +43,5 @@ Represents a stickerset (stickerpack)
 ### Example:
 
 ```
-$stickerSet = ['_' => 'stickerSet', 'archived' => Bool, 'official' => Bool, 'masks' => Bool, 'animated' => Bool, 'videos' => Bool, 'emojis' => Bool, 'text_color' => Bool, 'installed_date' => int, 'id' => long, 'access_hash' => long, 'title' => 'string', 'short_name' => 'string', 'thumbs' => [PhotoSize, PhotoSize], 'thumb_dc_id' => int, 'thumb_version' => int, 'thumb_document_id' => long, 'count' => int, 'hash' => int];
+$stickerSet = ['_' => 'stickerSet', 'archived' => Bool, 'official' => Bool, 'masks' => Bool, 'animated' => Bool, 'videos' => Bool, 'emojis' => Bool, 'text_color' => Bool, 'channel_emoji_status' => Bool, 'installed_date' => int, 'id' => long, 'access_hash' => long, 'title' => 'string', 'short_name' => 'string', 'thumbs' => [PhotoSize, PhotoSize], 'thumb_dc_id' => int, 'thumb_version' => int, 'thumb_document_id' => long, 'count' => int, 'hash' => int];
 ```  

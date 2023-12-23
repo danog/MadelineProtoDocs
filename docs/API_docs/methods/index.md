@@ -470,8 +470,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getEmojiKeywordsDifference.html" name="messages.getEmojiKeywordsDifference">Get changed emoji keywords »: messages.getEmojiKeywordsDifference</a>
 
-* <a href="help.getAppChangelog.html" name="help.getAppChangelog">Get changelog of current app.  : help.getAppChangelog</a>
-
 * <a href="stats.getBroadcastStats.html" name="stats.getBroadcastStats">Get channel statistics: stats.getBroadcastStats</a>
 
 * <a href="channels.getMessages.html" name="channels.getMessages">Get channel/supergroup messages: channels.getMessages</a>
@@ -1432,6 +1430,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.updatePasswordSettings.html" name="account.updatePasswordSettings">You cannot use this method directly; use $MadelineProto->update2fa($params), instead (see https://docs.madelineproto.xyz for more info): account.updatePasswordSettings</a>
 
+* <a href="account.getChannelDefaultEmojiStatuses.html" name="account.getChannelDefaultEmojiStatuses">account.getChannelDefaultEmojiStatuses</a>
+
+* <a href="account.getChannelRestrictedStatusEmojis.html" name="account.getChannelRestrictedStatusEmojis">account.getChannelRestrictedStatusEmojis</a>
+
 * <a href="account.getDefaultBackgroundEmojis.html" name="account.getDefaultBackgroundEmojis">account.getDefaultBackgroundEmojis</a>
 
 * <a href="account.invalidateSignInCodes.html" name="account.invalidateSignInCodes">account.invalidateSignInCodes</a>
@@ -1453,6 +1455,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="channels.toggleViewForumAsMessages.html" name="channels.toggleViewForumAsMessages">channels.toggleViewForumAsMessages</a>
 
 * <a href="channels.updateColor.html" name="channels.updateColor">channels.updateColor</a>
+
+* <a href="channels.updateEmojiStatus.html" name="channels.updateEmojiStatus">channels.updateEmojiStatus</a>
 
 * <a href="contacts.editCloseFriends.html" name="contacts.editCloseFriends">contacts.editCloseFriends</a>
 
@@ -1519,6 +1523,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="stories.getStoriesByID.html" name="stories.getStoriesByID">stories.getStoriesByID</a>
 
 * <a href="stories.getStoriesViews.html" name="stories.getStoriesViews">stories.getStoriesViews</a>
+
+* <a href="stories.getStoryReactionsList.html" name="stories.getStoryReactionsList">stories.getStoryReactionsList</a>
 
 * <a href="stories.getStoryViewsList.html" name="stories.getStoryViewsList">stories.getStoryViewsList</a>
 

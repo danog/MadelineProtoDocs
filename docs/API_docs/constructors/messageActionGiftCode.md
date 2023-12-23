@@ -18,6 +18,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |boost\_peer|[Peer](/API_docs/types/Peer.html) | Optional|
 |months|[int](/API_docs/types/int.html) | Yes|
 |slug|[string](/API_docs/types/string.html) | Yes|
+|currency|[string](/API_docs/types/string.html) | Optional|
+|amount|[long](/API_docs/types/long.html) | Optional|
+|crypto\_currency|[string](/API_docs/types/string.html) | Optional|
+|crypto\_amount|[long](/API_docs/types/long.html) | Optional|
 
 
 
@@ -27,5 +31,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$messageActionGiftCode = ['_' => 'messageActionGiftCode', 'via_giveaway' => Bool, 'unclaimed' => Bool, 'boost_peer' => Peer, 'months' => int, 'slug' => 'string'];
+$messageActionGiftCode = ['_' => 'messageActionGiftCode', 'via_giveaway' => Bool, 'unclaimed' => Bool, 'boost_peer' => Peer, 'months' => int, 'slug' => 'string', 'currency' => 'string', 'amount' => long, 'crypto_currency' => 'string', 'crypto_amount' => long];
 ```  

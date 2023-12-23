@@ -117,6 +117,14 @@ $MadelineProto->[account->getAutoSaveSettings](/API_docs/methods/account.getAuto
 
 ***
 <br><br>
+$MadelineProto->[account->getChannelDefaultEmojiStatuses](/API_docs/methods/account.getChannelDefaultEmojiStatuses.html)(\[hash: $[long](/API_docs/types/long.html), \]) === [$account.EmojiStatuses](/API_docs/types/account.EmojiStatuses.html)<a name="account.getChannelDefaultEmojiStatuses"></a>  
+
+***
+<br><br>
+$MadelineProto->[account->getChannelRestrictedStatusEmojis](/API_docs/methods/account.getChannelRestrictedStatusEmojis.html)(\[hash: $[long](/API_docs/types/long.html), \]) === [$EmojiList](/API_docs/types/EmojiList.html)<a name="account.getChannelRestrictedStatusEmojis"></a>  
+
+***
+<br><br>
 $MadelineProto->[account->getChatThemes](/API_docs/methods/account.getChatThemes.html)(\[hash: $[long](/API_docs/types/long.html), \]) === [$account.Themes](/API_docs/types/account.Themes.html)<a name="account.getChatThemes"></a>  
 
 ***
@@ -769,7 +777,11 @@ $MadelineProto->[channels->toggleViewForumAsMessages](/API_docs/methods/channels
 
 ***
 <br><br>
-$MadelineProto->[channels->updateColor](/API_docs/methods/channels.updateColor.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), color: $[int](/API_docs/types/int.html), background_emoji_id: $[long](/API_docs/types/long.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.updateColor"></a>  
+$MadelineProto->[channels->updateColor](/API_docs/methods/channels.updateColor.html)(\[for_profile: $[Bool](/API_docs/types/Bool.html), channel: $[InputChannel](/API_docs/types/InputChannel.html), color: $[int](/API_docs/types/int.html), background_emoji_id: $[long](/API_docs/types/long.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.updateColor"></a>  
+
+***
+<br><br>
+$MadelineProto->[channels->updateEmojiStatus](/API_docs/methods/channels.updateEmojiStatus.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), emoji_status: $[EmojiStatus](/API_docs/types/EmojiStatus.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.updateEmojiStatus"></a>  
 
 ***
 <br><br>
@@ -942,10 +954,6 @@ $MadelineProto->[help->dismissSuggestion](/API_docs/methods/help.dismissSuggesti
 ***
 <br><br>
 $MadelineProto->[help->editUserInfo](/API_docs/methods/help.editUserInfo.html)(\[user_id: $[InputUser](/API_docs/types/InputUser.html), message: $[string](/API_docs/types/string.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], \]) === [$help.UserInfo](/API_docs/types/help.UserInfo.html)<a name="help.editUserInfo"></a>  
-
-***
-<br><br>
-$MadelineProto->[help->getAppChangelog](/API_docs/methods/help.getAppChangelog.html)(\[prev_app_version: $[string](/API_docs/types/string.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="help.getAppChangelog"></a>  
 
 ***
 <br><br>
@@ -1653,7 +1661,7 @@ $MadelineProto->[messages->searchStickerSets](/API_docs/methods/messages.searchS
 
 ***
 <br><br>
-$MadelineProto->[messages->sendBotRequestedPeer](/API_docs/methods/messages.sendBotRequestedPeer.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), msg_id: $[int](/API_docs/types/int.html), button_id: $[int](/API_docs/types/int.html), requested_peer: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendBotRequestedPeer"></a>  
+$MadelineProto->[messages->sendBotRequestedPeer](/API_docs/methods/messages.sendBotRequestedPeer.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), msg_id: $[int](/API_docs/types/int.html), button_id: $[int](/API_docs/types/int.html), requested_peers: \[$[InputPeer](/API_docs/types/InputPeer.html)\], \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendBotRequestedPeer"></a>  
 
 ***
 <br><br>
@@ -2069,7 +2077,7 @@ $MadelineProto->[stats->getMegagroupStats](/API_docs/methods/stats.getMegagroupS
 
 ***
 <br><br>
-$MadelineProto->[stats->getMessagePublicForwards](/API_docs/methods/stats.getMessagePublicForwards.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), msg_id: $[int](/API_docs/types/int.html), offset_rate: $[int](/API_docs/types/int.html), offset_peer: $[InputPeer](/API_docs/types/InputPeer.html), offset_id: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), \]) === [$messages.Messages](/API_docs/types/messages.Messages.html)<a name="stats.getMessagePublicForwards"></a>  
+$MadelineProto->[stats->getMessagePublicForwards](/API_docs/methods/stats.getMessagePublicForwards.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), msg_id: $[int](/API_docs/types/int.html), offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$stats.PublicForwards](/API_docs/types/stats.PublicForwards.html)<a name="stats.getMessagePublicForwards"></a>  
 
 ***
 <br><br>
@@ -2185,7 +2193,11 @@ $MadelineProto->[stories->getStoriesViews](/API_docs/methods/stories.getStoriesV
 
 ***
 <br><br>
-$MadelineProto->[stories->getStoryViewsList](/API_docs/methods/stories.getStoryViewsList.html)(\[just_contacts: $[Bool](/API_docs/types/Bool.html), reactions_first: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), q: $[string](/API_docs/types/string.html), id: $[int](/API_docs/types/int.html), offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$stories.StoryViewsList](/API_docs/types/stories.StoryViewsList.html)<a name="stories.getStoryViewsList"></a>  
+$MadelineProto->[stories->getStoryReactionsList](/API_docs/methods/stories.getStoryReactionsList.html)(\[forwards_first: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), id: $[int](/API_docs/types/int.html), reaction: $[Reaction](/API_docs/types/Reaction.html), offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$stories.StoryReactionsList](/API_docs/types/stories.StoryReactionsList.html)<a name="stories.getStoryReactionsList"></a>  
+
+***
+<br><br>
+$MadelineProto->[stories->getStoryViewsList](/API_docs/methods/stories.getStoryViewsList.html)(\[just_contacts: $[Bool](/API_docs/types/Bool.html), reactions_first: $[Bool](/API_docs/types/Bool.html), forwards_first: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), q: $[string](/API_docs/types/string.html), id: $[int](/API_docs/types/int.html), offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$stories.StoryViewsList](/API_docs/types/stories.StoryViewsList.html)<a name="stories.getStoryViewsList"></a>  
 
 ***
 <br><br>

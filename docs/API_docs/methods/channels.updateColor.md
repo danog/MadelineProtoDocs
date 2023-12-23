@@ -15,6 +15,7 @@ redirect_from: /API_docs/methods/channels_updateColor.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
+|for\_profile|[Bool](/API_docs/types/Bool.html) | Optional|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
 |color|[int](/API_docs/types/int.html) | Optional|
 |background\_emoji\_id|[long](/API_docs/types/long.html) | Optional|
@@ -37,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->channels->updateColor(channel: $InputChannel, color: $int, background_emoji_id: $long, );
+$Updates = $MadelineProto->channels->updateColor(for_profile: $Bool, channel: $InputChannel, color: $int, background_emoji_id: $long, );
 ```
 

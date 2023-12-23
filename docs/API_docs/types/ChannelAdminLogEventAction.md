@@ -97,9 +97,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [channelAdminLogEventActionToggleAntiSpam](/API_docs/constructors/channelAdminLogEventActionToggleAntiSpam.html)  
 
-[channelAdminLogEventActionChangeColor](/API_docs/constructors/channelAdminLogEventActionChangeColor.html)  
+[channelAdminLogEventActionChangePeerColor](/API_docs/constructors/channelAdminLogEventActionChangePeerColor.html)  
 
-[channelAdminLogEventActionChangeBackgroundEmoji](/API_docs/constructors/channelAdminLogEventActionChangeBackgroundEmoji.html)  
+[channelAdminLogEventActionChangeProfilePeerColor](/API_docs/constructors/channelAdminLogEventActionChangeProfilePeerColor.html)  
+
+[channelAdminLogEventActionChangeWallpaper](/API_docs/constructors/channelAdminLogEventActionChangeWallpaper.html)  
+
+[channelAdminLogEventActionChangeEmojiStatus](/API_docs/constructors/channelAdminLogEventActionChangeEmojiStatus.html)  
 
 
 

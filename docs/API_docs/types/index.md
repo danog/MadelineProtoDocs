@@ -529,6 +529,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [StoryItem](/API_docs/types/StoryItem.html)<a name="StoryItem"></a>  
 
+[StoryReaction](/API_docs/types/StoryReaction.html)<a name="StoryReaction"></a>  
+
 [StoryView](/API_docs/types/StoryView.html)<a name="StoryView"></a>  
 
 [StoryViews](/API_docs/types/StoryViews.html)<a name="StoryViews"></a>  
@@ -870,6 +872,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [stories.PeerStories](/API_docs/types/stories.PeerStories.html)<a name="stories.PeerStories"></a>  
 
 [stories.Stories](/API_docs/types/stories.Stories.html)<a name="stories.Stories"></a>  
+
+[stories.StoryReactionsList](/API_docs/types/stories.StoryReactionsList.html)<a name="stories.StoryReactionsList"></a>  
 
 [stories.StoryViews](/API_docs/types/stories.StoryViews.html)<a name="stories.StoryViews"></a>  
 
