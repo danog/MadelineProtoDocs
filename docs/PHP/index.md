@@ -93,6 +93,7 @@ PHP implementation of telegram's MTProto protocol.
 * [\danog\MadelineProto\Logger: Logger class.](/PHP/danog/MadelineProto/Logger.html)
 * [\danog\MadelineProto\MyTelegramOrgWrapper: Wrapper for my.telegram.org.](/PHP/danog/MadelineProto/MyTelegramOrgWrapper.html)
 * [\danog\MadelineProto\Ogg: Async OGG stream reader and writer.](/PHP/danog/MadelineProto/Ogg.html)
+* [\danog\MadelineProto\OggWriter: Async OGG stream writer.](/PHP/danog/MadelineProto/OggWriter.html)
 * [\danog\MadelineProto\PTSException: Internal error indicating a problem with Telegram's servers.](/PHP/danog/MadelineProto/PTSException.html)
 * [\danog\MadelineProto\ParseMode: Indicates a parsing mode for text.](/PHP/danog/MadelineProto/ParseMode.html)
 * [\danog\MadelineProto\PeerNotInDbException: Indicates that a specified peer (user, chat, channel) was not found in the internal MadelineProto peer database.](/PHP/danog/MadelineProto/PeerNotInDbException.html)

@@ -26,6 +26,7 @@ This update represents a VoIP Telegram call.
 * [`discard(\danog\MadelineProto\VoIP\DiscardReason $reason = \danog\MadelineProto\VoIP\DiscardReason::HANGUP, int<\1, \5> $rating = NULL, string $comment = NULL): self`](#discard-danog-madelineproto-voip-discardreason-reason-danog-madelineproto-voip-discardreason-hangup-int-1-5-rating-null-string-comment-null-self)
 * [`getVisualization(): ?array{0: \: string, 1: \: string, 2: \: string, 3: \: string}`](#getvisualization-array-0-string-1-string-2-string-3-string)
 * [`play(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): self`](#play-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-file-self)
+* [`setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file): self`](#setoutput-danog-madelineproto-localfile-amp-bytestream-writablestream-file-self)
 * [`then(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): self`](#then-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-file-self)
 * [`skip(): self`](#skip-self)
 * [`stop(): self`](#stop-self)
@@ -81,6 +82,23 @@ Parameters:
 * [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
 * [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
 * `\Amp\ByteStream\ReadableStream`
+
+
+
+
+### `setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file): self`
+
+Set output file or stream for incoming OPUS audio packets.
+Will write an OGG OPUS stream to the specified file or stream.
+
+Parameters:
+
+* `$file`: `\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
+* `\Amp\ByteStream\WritableStream`
 
 
 

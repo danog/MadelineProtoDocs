@@ -42,8 +42,6 @@ class MyEventHandler extends SimpleEventHandler
 MyEventHandler::startAndLoop('session.madeline');
 ```
 
-This piece of code will automatically click all buttons in all keyboards sent in any chat.
-
 You can also access properties of `$button` (they vary depending on the [type of button](https://docs.madelineproto.xyz/API_docs/types/KeyboardButton.html)):
 
 ```php

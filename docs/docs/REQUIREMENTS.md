@@ -10,7 +10,7 @@ MadelineProto requires the `mbstring`, `xml`, `json`, `fileinfo`, `gmp`, `openss
 
 The `ffi` and `uv` extensions and the [PrimeModule](https://prime.madelineproto.xyz/) and `nghttp2` libraries are also highly recommended to improve performance.
 
-**PHP 8.1+ is required**.
+**PHP 8.2+ is required**.
 
 MadelineProto explicitly supports Linux and UNIX systems (including Mac OS).  
 I **don't recommend using Windows**: MadelineProto generally works on Windows, though there might be some random issues caused by AV engines, so I personally recommend using Linux.  
