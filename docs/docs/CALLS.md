@@ -151,4 +151,45 @@ class PonyHandler extends \danog\MadelineProto\SimpleEventHandler
 PonyHandler::startAndLoop('session.madeline');
 ```
 
+## Recording calls
+
+To record the incoming audio stream in a call, simply use `setOutput`:
+
+```php
+<?php
+
+declare(strict_types=1);
+
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
+use danog\MadelineProto\VoIP;
+use danog\MadelineProto\RemoteUrl;
+use danog\MadelineProto\LocalFile;
+use danog\MadelineProto\EventHandler\Attributes\Handler;
+use Amp\ByteStream\WritableStream;
+
+class PonyHandler extends \danog\MadelineProto\SimpleEventHandler
+{
+    #[Handler]
+    public function handleIncomingCall(VoIP&Incoming $call): void
+    {
+        $call->accept();
+        $call->play(new RemoteUrl('http://icestreaming.rai.it/1.mp3'));
+
+        $call->setOutput(new LocalFile('output.ogg'));
+        
+        // $stream can also be a WritableStream.
+        // Can be used to pipe OGG OPUS audio data to ffmpeg, asterisk via amphp/process, amphp/socket, etc...
+        //
+        //$call->setOutput($stream);
+    }
+}
+
+PonyHandler::startAndLoop('session.madeline');
+```
+
 <a href="https://docs.madelineproto.xyz/docs/FILES.html">Next section</a>
