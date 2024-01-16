@@ -1157,6 +1157,10 @@ $MadelineProto->[messages->deleteRevokedExportedChatInvites](/API_docs/methods/m
 
 ***
 <br><br>
+$MadelineProto->[messages->deleteSavedHistory](/API_docs/methods/messages.deleteSavedHistory.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), max_id: $[int](/API_docs/types/int.html), min_date: $[int](/API_docs/types/int.html), max_date: $[int](/API_docs/types/int.html), \]) === [$messages.AffectedHistory](/API_docs/types/messages.AffectedHistory.html)<a name="messages.deleteSavedHistory"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->deleteScheduledMessages](/API_docs/methods/messages.deleteScheduledMessages.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), id: \[$[int](/API_docs/types/int.html)\], \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.deleteScheduledMessages"></a>  
 
 ***
@@ -1266,6 +1270,10 @@ $MadelineProto->[messages->getCustomEmojiDocuments](/API_docs/methods/messages.g
 ***
 <br><br>
 $MadelineProto->[messages->getDefaultHistoryTTL](/API_docs/methods/messages.getDefaultHistoryTTL.html)(\[\]) === [$DefaultHistoryTTL](/API_docs/types/DefaultHistoryTTL.html)<a name="messages.getDefaultHistoryTTL"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->getDefaultTagReactions](/API_docs/methods/messages.getDefaultTagReactions.html)(\[hash: $[long](/API_docs/types/long.html), \]) === [$messages.Reactions](/API_docs/types/messages.Reactions.html)<a name="messages.getDefaultTagReactions"></a>  
 
 ***
 <br><br>
@@ -1417,6 +1425,10 @@ $MadelineProto->[messages->getPinnedDialogs](/API_docs/methods/messages.getPinne
 
 ***
 <br><br>
+$MadelineProto->[messages->getPinnedSavedDialogs](/API_docs/methods/messages.getPinnedSavedDialogs.html)(\[\]) === [$messages.SavedDialogs](/API_docs/types/messages.SavedDialogs.html)<a name="messages.getPinnedSavedDialogs"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->getPollResults](/API_docs/methods/messages.getPollResults.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), msg_id: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.getPollResults"></a>  
 
 ***
@@ -1441,7 +1453,19 @@ $MadelineProto->[messages->getReplies](/API_docs/methods/messages.getReplies.htm
 
 ***
 <br><br>
+$MadelineProto->[messages->getSavedDialogs](/API_docs/methods/messages.getSavedDialogs.html)(\[exclude_pinned: $[Bool](/API_docs/types/Bool.html), offset_date: $[int](/API_docs/types/int.html), offset_id: $[int](/API_docs/types/int.html), offset_peer: $[InputPeer](/API_docs/types/InputPeer.html), limit: $[int](/API_docs/types/int.html), hash: $[long](/API_docs/types/long.html), \]) === [$messages.SavedDialogs](/API_docs/types/messages.SavedDialogs.html)<a name="messages.getSavedDialogs"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->getSavedGifs](/API_docs/methods/messages.getSavedGifs.html)(\[hash: $[long](/API_docs/types/long.html), \]) === [$messages.SavedGifs](/API_docs/types/messages.SavedGifs.html)<a name="messages.getSavedGifs"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->getSavedHistory](/API_docs/methods/messages.getSavedHistory.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), offset_id: $[int](/API_docs/types/int.html), offset_date: $[int](/API_docs/types/int.html), add_offset: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), max_id: $[int](/API_docs/types/int.html), min_id: $[int](/API_docs/types/int.html), hash: $[long](/API_docs/types/long.html), \]) === [$messages.Messages](/API_docs/types/messages.Messages.html)<a name="messages.getSavedHistory"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->getSavedReactionTags](/API_docs/methods/messages.getSavedReactionTags.html)(\[hash: $[long](/API_docs/types/long.html), \]) === [$messages.SavedReactionTags](/API_docs/types/messages.SavedReactionTags.html)<a name="messages.getSavedReactionTags"></a>  
 
 ***
 <br><br>
@@ -1453,15 +1477,15 @@ $MadelineProto->[messages->getScheduledMessages](/API_docs/methods/messages.getS
 
 ***
 <br><br>
-$MadelineProto->[messages->getSearchCounters](/API_docs/methods/messages.getSearchCounters.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), top_msg_id: $[int](/API_docs/types/int.html), filters: \[$[MessagesFilter](/API_docs/types/MessagesFilter.html)\], \]) === [$Vector\_of\_messages.SearchCounter](/API_docs/types/messages.SearchCounter.html)<a name="messages.getSearchCounters"></a>  
+$MadelineProto->[messages->getSearchCounters](/API_docs/methods/messages.getSearchCounters.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), saved_peer_id: $[InputPeer](/API_docs/types/InputPeer.html), top_msg_id: $[int](/API_docs/types/int.html), filters: \[$[MessagesFilter](/API_docs/types/MessagesFilter.html)\], \]) === [$Vector\_of\_messages.SearchCounter](/API_docs/types/messages.SearchCounter.html)<a name="messages.getSearchCounters"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->getSearchResultsCalendar](/API_docs/methods/messages.getSearchResultsCalendar.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), filter: $[MessagesFilter](/API_docs/types/MessagesFilter.html), offset_id: $[int](/API_docs/types/int.html), offset_date: $[int](/API_docs/types/int.html), \]) === [$messages.SearchResultsCalendar](/API_docs/types/messages.SearchResultsCalendar.html)<a name="messages.getSearchResultsCalendar"></a>  
+$MadelineProto->[messages->getSearchResultsCalendar](/API_docs/methods/messages.getSearchResultsCalendar.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), saved_peer_id: $[InputPeer](/API_docs/types/InputPeer.html), filter: $[MessagesFilter](/API_docs/types/MessagesFilter.html), offset_id: $[int](/API_docs/types/int.html), offset_date: $[int](/API_docs/types/int.html), \]) === [$messages.SearchResultsCalendar](/API_docs/types/messages.SearchResultsCalendar.html)<a name="messages.getSearchResultsCalendar"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->getSearchResultsPositions](/API_docs/methods/messages.getSearchResultsPositions.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), filter: $[MessagesFilter](/API_docs/types/MessagesFilter.html), offset_id: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), \]) === [$messages.SearchResultsPositions](/API_docs/types/messages.SearchResultsPositions.html)<a name="messages.getSearchResultsPositions"></a>  
+$MadelineProto->[messages->getSearchResultsPositions](/API_docs/methods/messages.getSearchResultsPositions.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), saved_peer_id: $[InputPeer](/API_docs/types/InputPeer.html), filter: $[MessagesFilter](/API_docs/types/MessagesFilter.html), offset_id: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), \]) === [$messages.SearchResultsPositions](/API_docs/types/messages.SearchResultsPositions.html)<a name="messages.getSearchResultsPositions"></a>  
 
 ***
 <br><br>
@@ -1581,6 +1605,10 @@ $MadelineProto->[messages->reorderPinnedDialogs](/API_docs/methods/messages.reor
 
 ***
 <br><br>
+$MadelineProto->[messages->reorderPinnedSavedDialogs](/API_docs/methods/messages.reorderPinnedSavedDialogs.html)(\[force: $[Bool](/API_docs/types/Bool.html), order: \[$[InputDialogPeer](/API_docs/types/InputDialogPeer.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.reorderPinnedSavedDialogs"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->reorderStickerSets](/API_docs/methods/messages.reorderStickerSets.html)(\[masks: $[Bool](/API_docs/types/Bool.html), emojis: $[Bool](/API_docs/types/Bool.html), order: \[$[long](/API_docs/types/long.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.reorderStickerSets"></a>  
 
 ***
@@ -1637,7 +1665,7 @@ $MadelineProto->[messages->saveRecentSticker](/API_docs/methods/messages.saveRec
 
 ***
 <br><br>
-$MadelineProto->[messages->search](/API_docs/methods/messages.search.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), q: $[string](/API_docs/types/string.html), from_id: $[InputPeer](/API_docs/types/InputPeer.html), top_msg_id: $[int](/API_docs/types/int.html), filter: $[MessagesFilter](/API_docs/types/MessagesFilter.html), min_date: $[int](/API_docs/types/int.html), max_date: $[int](/API_docs/types/int.html), offset_id: $[int](/API_docs/types/int.html), add_offset: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), max_id: $[int](/API_docs/types/int.html), min_id: $[int](/API_docs/types/int.html), hash: $[long](/API_docs/types/long.html), \]) === [$messages.Messages](/API_docs/types/messages.Messages.html)<a name="messages.search"></a>  
+$MadelineProto->[messages->search](/API_docs/methods/messages.search.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), q: $[string](/API_docs/types/string.html), from_id: $[InputPeer](/API_docs/types/InputPeer.html), saved_peer_id: $[InputPeer](/API_docs/types/InputPeer.html), saved_reaction: \[$[Reaction](/API_docs/types/Reaction.html)\], top_msg_id: $[int](/API_docs/types/int.html), filter: $[MessagesFilter](/API_docs/types/MessagesFilter.html), min_date: $[int](/API_docs/types/int.html), max_date: $[int](/API_docs/types/int.html), offset_id: $[int](/API_docs/types/int.html), add_offset: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), max_id: $[int](/API_docs/types/int.html), min_id: $[int](/API_docs/types/int.html), hash: $[long](/API_docs/types/long.html), \]) === [$messages.Messages](/API_docs/types/messages.Messages.html)<a name="messages.search"></a>  
 
 ***
 <br><br>
@@ -1797,6 +1825,10 @@ $MadelineProto->[messages->togglePeerTranslations](/API_docs/methods/messages.to
 
 ***
 <br><br>
+$MadelineProto->[messages->toggleSavedDialogPin](/API_docs/methods/messages.toggleSavedDialogPin.html)(\[pinned: $[Bool](/API_docs/types/Bool.html), peer: $[InputDialogPeer](/API_docs/types/InputDialogPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.toggleSavedDialogPin"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->toggleStickerSets](/API_docs/methods/messages.toggleStickerSets.html)(\[uninstall: $[Bool](/API_docs/types/Bool.html), archive: $[Bool](/API_docs/types/Bool.html), unarchive: $[Bool](/API_docs/types/Bool.html), stickersets: \[$[InputStickerSet](/API_docs/types/InputStickerSet.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.toggleStickerSets"></a>  
 
 ***
@@ -1826,6 +1858,10 @@ $MadelineProto->[messages->updateDialogFiltersOrder](/API_docs/methods/messages.
 ***
 <br><br>
 $MadelineProto->[messages->updatePinnedMessage](/API_docs/methods/messages.updatePinnedMessage.html)(\[silent: $[Bool](/API_docs/types/Bool.html), unpin: $[Bool](/API_docs/types/Bool.html), pm_oneside: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), id: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.updatePinnedMessage"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->updateSavedReactionTag](/API_docs/methods/messages.updateSavedReactionTag.html)(\[reaction: $[Reaction](/API_docs/types/Reaction.html), title: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.updateSavedReactionTag"></a>  
 
 ***
 <br><br>

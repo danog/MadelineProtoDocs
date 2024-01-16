@@ -21,6 +21,7 @@ Can return partial results for the last returned day.
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where to search | Optional|
+|saved\_peer\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
 |filter|[MessagesFilter](/API_docs/types/MessagesFilter.html) | Message filter, [inputMessagesFilterEmpty](../constructors/inputMessagesFilterEmpty.html), [inputMessagesFilterMyMentions](../constructors/inputMessagesFilterMyMentions.html) filters are not supported by this method. | Optional|
 |offset\_id|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
 |offset\_date|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
@@ -43,6 +44,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_SearchResultsCalendar = $MadelineProto->messages->getSearchResultsCalendar(peer: $InputPeer, filter: $MessagesFilter, offset_id: $int, offset_date: $int, );
+$messages_SearchResultsCalendar = $MadelineProto->messages->getSearchResultsCalendar(peer: $InputPeer, saved_peer_id: $InputPeer, filter: $MessagesFilter, offset_id: $int, offset_date: $int, );
 ```
 

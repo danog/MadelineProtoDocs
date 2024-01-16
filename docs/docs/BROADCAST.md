@@ -221,7 +221,7 @@ $MadelineProto->start();
 // Send messages, showing the "Forwarded from" header
 $id = $MadelineProto->broadcastForwardMessages(
     from_peer: 101374607,
-    ids: [1, 2, 3, 4],
+    message_ids: [1, 2, 3, 4],
     drop_author: false,
     filter: new Filter(
         allowUsers: true,

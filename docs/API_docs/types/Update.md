@@ -255,6 +255,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateBotMessageReactions](/API_docs/constructors/updateBotMessageReactions.html)  
 
+[updateSavedDialogPinned](/API_docs/constructors/updateSavedDialogPinned.html)  
+
+[updatePinnedSavedDialogs](/API_docs/constructors/updatePinnedSavedDialogs.html)  
+
+[updateSavedReactionTags](/API_docs/constructors/updateSavedReactionTags.html)  
+
 
 
 ### Methods that return an object of this type (methods):

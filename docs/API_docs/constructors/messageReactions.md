@@ -17,6 +17,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |----------|---------------|----------|-------------|
 |min|[Bool](/API_docs/types/Bool.html) | Optional|Similar to [min](https://core.telegram.org/api/min) objects, used for [message reaction »](https://core.telegram.org/api/reactions) constructors that are the same for all users so they don't have the reactions sent by the current user (you can use [messages.getMessagesReactions](../methods/messages.getMessagesReactions.html) to get the full reaction info).|
 |can\_see\_list|[Bool](/API_docs/types/Bool.html) | Optional|Whether [messages.getMessageReactionsList](../methods/messages.getMessageReactionsList.html) can be used to see how each specific peer reacted to the message|
+|reactions\_as\_tags|[Bool](/API_docs/types/Bool.html) | Optional|
 |results|Array of [ReactionCount](/API_docs/types/ReactionCount.html) | Yes|Reactions|
 |recent\_reactions|Array of [MessagePeerReaction](/API_docs/types/MessagePeerReaction.html) | Optional|List of recent peers and their reactions|
 
@@ -28,5 +29,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$messageReactions = ['_' => 'messageReactions', 'min' => Bool, 'can_see_list' => Bool, 'results' => [ReactionCount, ReactionCount], 'recent_reactions' => [MessagePeerReaction, MessagePeerReaction]];
+$messageReactions = ['_' => 'messageReactions', 'min' => Bool, 'can_see_list' => Bool, 'reactions_as_tags' => Bool, 'results' => [ReactionCount, ReactionCount], 'recent_reactions' => [MessagePeerReaction, MessagePeerReaction]];
 ```  

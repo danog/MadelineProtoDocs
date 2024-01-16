@@ -20,6 +20,8 @@ Returns found messages
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | User or chat, histories with which are searched, or [(inputPeerEmpty)](../constructors/inputPeerEmpty.html) constructor for global search | Optional|
 |q|[string](/API_docs/types/string.html) | Text search request | Optional|
 |from\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Only return messages sent by the specified user ID | Optional|
+|saved\_peer\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
+|saved\_reaction|Array of [Reaction](/API_docs/types/Reaction.html) |  | Optional|
 |top\_msg\_id|[int](/API_docs/types/int.html) | [Thread ID](https://core.telegram.org/api/threads) | Optional|
 |filter|[MessagesFilter](/API_docs/types/MessagesFilter.html) | Filter to return only specified message types | Optional|
 |min\_date|[int](/API_docs/types/int.html) | If a positive value was transferred, only messages with a sending date bigger than the transferred one will be returned | Optional|
@@ -49,6 +51,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Messages = $MadelineProto->messages->search(peer: $InputPeer, q: 'string', from_id: $InputPeer, top_msg_id: $int, filter: $MessagesFilter, min_date: $int, max_date: $int, offset_id: $int, add_offset: $int, limit: $int, max_id: $int, min_id: $int, hash: [$long, $long], );
+$messages_Messages = $MadelineProto->messages->search(peer: $InputPeer, q: 'string', from_id: $InputPeer, saved_peer_id: $InputPeer, saved_reaction: [$Reaction, $Reaction], top_msg_id: $int, filter: $MessagesFilter, min_date: $int, max_date: $int, offset_id: $int, add_offset: $int, limit: $int, max_id: $int, min_id: $int, hash: [$long, $long], );
 ```
 

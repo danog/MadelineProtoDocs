@@ -1176,6 +1176,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.setHistoryTTL.html" name="messages.setHistoryTTL">Set maximum Time-To-Live of all messages in the specified chat: messages.setHistoryTTL</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#callsetoutput-int-id-danog-madelineproto-localfile-amp-bytestream-writablestream-file-void" name="callSetOutput">Set output file or stream for incoming OPUS audio packets in a call: callSetOutput</a>
+
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#setreportpeers-int-string-int-string-userorid-void" name="setReportPeers">Set peer(s) where to send errors occurred in the event loop: setReportPeers</a>
 
 * <a href="account.setContentSettings.html" name="account.setContentSettings">Set sensitive content settings (for viewing or hiding NSFW content): account.setContentSettings</a>
@@ -1466,7 +1468,25 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="help.getPeerProfileColors.html" name="help.getPeerProfileColors">help.getPeerProfileColors</a>
 
+* <a href="messages.deleteSavedHistory.html" name="messages.deleteSavedHistory">messages.deleteSavedHistory</a>
+
+* <a href="messages.getDefaultTagReactions.html" name="messages.getDefaultTagReactions">messages.getDefaultTagReactions</a>
+
+* <a href="messages.getPinnedSavedDialogs.html" name="messages.getPinnedSavedDialogs">messages.getPinnedSavedDialogs</a>
+
+* <a href="messages.getSavedDialogs.html" name="messages.getSavedDialogs">messages.getSavedDialogs</a>
+
+* <a href="messages.getSavedHistory.html" name="messages.getSavedHistory">messages.getSavedHistory</a>
+
+* <a href="messages.getSavedReactionTags.html" name="messages.getSavedReactionTags">messages.getSavedReactionTags</a>
+
+* <a href="messages.reorderPinnedSavedDialogs.html" name="messages.reorderPinnedSavedDialogs">messages.reorderPinnedSavedDialogs</a>
+
 * <a href="messages.searchEmojiStickerSets.html" name="messages.searchEmojiStickerSets">messages.searchEmojiStickerSets</a>
+
+* <a href="messages.toggleSavedDialogPin.html" name="messages.toggleSavedDialogPin">messages.toggleSavedDialogPin</a>
+
+* <a href="messages.updateSavedReactionTag.html" name="messages.updateSavedReactionTag">messages.updateSavedReactionTag</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rledecode-string-string-string" name="rleDecode">null-byte RLE decode: rleDecode</a>
 

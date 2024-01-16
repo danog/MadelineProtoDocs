@@ -46,6 +46,8 @@ redirect_from: /API_docs/types/messages_Messages.html
 
 [$MadelineProto->messages->searchSentMedia](/API_docs/methods/messages.searchSentMedia.html)  
 
+[$MadelineProto->messages->getSavedHistory](/API_docs/methods/messages.getSavedHistory.html)  
+
 [$MadelineProto->channels->getMessages](/API_docs/methods/channels.getMessages.html)  
 
 

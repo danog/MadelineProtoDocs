@@ -26,6 +26,8 @@ redirect_from: /API_docs/types/messages_AffectedHistory.html
 
 [$MadelineProto->messages->readReactions](/API_docs/methods/messages.readReactions.html)  
 
+[$MadelineProto->messages->deleteSavedHistory](/API_docs/methods/messages.deleteSavedHistory.html)  
+
 [$MadelineProto->channels->deleteParticipantHistory](/API_docs/methods/channels.deleteParticipantHistory.html)  
 
 [$MadelineProto->channels->deleteTopicHistory](/API_docs/methods/channels.deleteTopicHistory.html)  

@@ -24,5 +24,7 @@ redirect_from: /API_docs/types/messages_Reactions.html
 
 [$MadelineProto->messages->getRecentReactions](/API_docs/methods/messages.getRecentReactions.html)  
 
+[$MadelineProto->messages->getDefaultTagReactions](/API_docs/methods/messages.getDefaultTagReactions.html)  
+
 
 

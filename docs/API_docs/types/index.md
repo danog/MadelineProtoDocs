@@ -461,6 +461,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [SavedContact](/API_docs/types/SavedContact.html)<a name="SavedContact"></a>  
 
+[SavedDialog](/API_docs/types/SavedDialog.html)<a name="SavedDialog"></a>  
+
+[SavedReactionTag](/API_docs/types/SavedReactionTag.html)<a name="SavedReactionTag"></a>  
+
 [SearchResultsCalendarPeriod](/API_docs/types/SearchResultsCalendarPeriod.html)<a name="SearchResultsCalendarPeriod"></a>  
 
 [SearchResultsPosition](/API_docs/types/SearchResultsPosition.html)<a name="SearchResultsPosition"></a>  
@@ -785,7 +789,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messages.RecentStickers](/API_docs/types/messages.RecentStickers.html)<a name="messages.RecentStickers"></a>  
 
+[messages.SavedDialogs](/API_docs/types/messages.SavedDialogs.html)<a name="messages.SavedDialogs"></a>  
+
 [messages.SavedGifs](/API_docs/types/messages.SavedGifs.html)<a name="messages.SavedGifs"></a>  
+
+[messages.SavedReactionTags](/API_docs/types/messages.SavedReactionTags.html)<a name="messages.SavedReactionTags"></a>  
 
 [messages.SearchCounter](/API_docs/types/messages.SearchCounter.html)<a name="messages.SearchCounter"></a>  
 

@@ -63,6 +63,7 @@ Plugin event handler class.
 * [`callGetCurrent(int $id): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`](#callgetcurrent-int-id-danog-madelineproto-remoteurl-danog-madelineproto-localfile-string-null)
 * [`callPlay(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): void`](#callplay-int-id-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-file-void)
 * [`callPlayOnHold(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): void`](#callplayonhold-int-id-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-files-void)
+* [`callSetOutput(int $id, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file): void`](#callsetoutput-int-id-danog-madelineproto-localfile-amp-bytestream-writablestream-file-void)
 * [`canConvertOgg(): bool`](#canconvertogg-bool)
 * [`cancelBroadcast(int $id): void`](#cancelbroadcast-int-id-void)
 * [`closeConnection(string $message): void`](#closeconnection-string-message-void)
@@ -590,6 +591,24 @@ Parameters:
 * [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
 * [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
 * `\Amp\ByteStream\ReadableStream`
+
+
+
+
+### `callSetOutput(int $id, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file): void`
+
+Set output file or stream for incoming OPUS audio packets in a call.
+Will write an OGG OPUS stream to the specified file or stream.
+
+Parameters:
+
+* `$id`: `int`   
+* `$file`: `\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
+* `\Amp\ByteStream\WritableStream`
 
 
 

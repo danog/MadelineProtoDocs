@@ -899,6 +899,9 @@ Here's a full list of all MTProto filters (click on each filter name to view the
 * [onUpdatePeerWallpaper &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updatePeerWallpaper.html) - 
 * [onUpdateBotMessageReaction &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBotMessageReaction.html) - 
 * [onUpdateBotMessageReactions &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBotMessageReactions.html) - 
+* [onUpdateSavedDialogPinned &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateSavedDialogPinned.html) - 
+* [onUpdatePinnedSavedDialogs &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updatePinnedSavedDialogs.html) - 
+* [onUpdateSavedReactionTags &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateSavedReactionTags.html) - 
 
 
 <!-- cut_here_end mtprotofilters -->

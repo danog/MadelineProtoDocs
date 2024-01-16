@@ -16,6 +16,7 @@ Info about a forwarded message
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |imported|[Bool](/API_docs/types/Bool.html) | Optional|Whether this message was [imported from a foreign chat service, click here for more info »](https://core.telegram.org/api/import)|
+|saved\_out|[Bool](/API_docs/types/Bool.html) | Optional|
 |from\_id|[Peer](/API_docs/types/Peer.html) | Optional|The ID of the user that originally sent the message|
 |from\_name|[string](/API_docs/types/string.html) | Optional|The name of the user that originally sent the message|
 |date|[int](/API_docs/types/int.html) | Yes|When was the message originally sent|
@@ -23,6 +24,9 @@ Info about a forwarded message
 |post\_author|[string](/API_docs/types/string.html) | Optional|For channels and if signatures are enabled, author of the channel message|
 |saved\_from\_peer|[Peer](/API_docs/types/Peer.html) | Optional|Only for messages forwarded to the current user (inputPeerSelf), full info about the user/channel that originally sent the message|
 |saved\_from\_msg\_id|[int](/API_docs/types/int.html) | Optional|Only for messages forwarded to the current user (inputPeerSelf), ID of the message that was forwarded from the original user/channel|
+|saved\_from\_id|[Peer](/API_docs/types/Peer.html) | Optional|
+|saved\_from\_name|[string](/API_docs/types/string.html) | Optional|
+|saved\_date|[int](/API_docs/types/int.html) | Optional|
 |psa\_type|[string](/API_docs/types/string.html) | Optional|PSA type|
 
 
@@ -33,5 +37,5 @@ Info about a forwarded message
 ### Example:
 
 ```
-$messageFwdHeader = ['_' => 'messageFwdHeader', 'imported' => Bool, 'from_id' => Peer, 'from_name' => 'string', 'date' => int, 'channel_post' => int, 'post_author' => 'string', 'saved_from_peer' => Peer, 'saved_from_msg_id' => int, 'psa_type' => 'string'];
+$messageFwdHeader = ['_' => 'messageFwdHeader', 'imported' => Bool, 'saved_out' => Bool, 'from_id' => Peer, 'from_name' => 'string', 'date' => int, 'channel_post' => int, 'post_author' => 'string', 'saved_from_peer' => Peer, 'saved_from_msg_id' => int, 'saved_from_id' => Peer, 'saved_from_name' => 'string', 'saved_date' => int, 'psa_type' => 'string'];
 ```  
