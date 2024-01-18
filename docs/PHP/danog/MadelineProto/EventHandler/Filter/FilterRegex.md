@@ -17,13 +17,13 @@ Allow only messages or button queries matching the specified regex.
 
 
 ## Method list:
-* [`__construct(\non-empty-string $regex)`](#__construct-non-empty-string-regex)
+* [`__construct(\non-empty-string $regex, int $flags = 0, int $offset = 0)`](#__construct-non-empty-string-regex-int-flags-0-int-offset-0)
 * [`apply(\danog\MadelineProto\EventHandler\Update $update): bool`](#apply-danog-madelineproto-eventhandler-update-update-bool)
 * [`initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`](#initialize-danog-madelineproto-eventhandler-api-danog-madelineproto-eventhandler-filter-filter)
 * [`fromReflectionType(\ReflectionType $type): \danog\MadelineProto\EventHandler\Filter\Filter`](#fromreflectiontype-reflectiontype-type-danog-madelineproto-eventhandler-filter-filter)
 
 ## Methods:
-### `__construct(\non-empty-string $regex)`
+### `__construct(\non-empty-string $regex, int $flags = 0, int $offset = 0)`
 
 
 
@@ -31,6 +31,8 @@ Allow only messages or button queries matching the specified regex.
 Parameters:
 
 * `$regex`: `\non-empty-string`   
+* `$flags`: `int`   
+* `$offset`: `int`   
 
 
 

@@ -359,6 +359,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [Null](/API_docs/types/Null.html)<a name="Null"></a>  
 
+[OutboxReadDate](/API_docs/types/OutboxReadDate.html)<a name="OutboxReadDate"></a>  
+
 [Page](/API_docs/types/Page.html)<a name="Page"></a>  
 
 [PageBlock](/API_docs/types/PageBlock.html)<a name="PageBlock"></a>  

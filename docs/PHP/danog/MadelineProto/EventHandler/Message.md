@@ -36,6 +36,7 @@ Represents an incoming or outgoing message.
 * `$signature`: `?string` Author of the post, if signatures are enabled for messages from channels or forwarded from channels
 * `$entities`: `list<\MessageEntity>` Message [entities](https://core.telegram.org/api/entities) for styled text
 * `$groupedId`: `?int` Group ID for albums.
+* `$poll`: `?\danog\MadelineProto\EventHandler\AbstractPoll` The poll
 * `$id`: `int` Message ID
 * `$out`: `bool` Whether the message is outgoing
 * `$chatId`: `int` ID of the chat where the message was sent
@@ -61,6 +62,7 @@ Represents an incoming or outgoing message.
 * [`delReaction(string|int $reaction): list<string|int>`](#delreaction-string-int-reaction-list-string-int)
 * [`translate(string $toLang): string`](#translate-string-tolang-string)
 * [`editText(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false): \danog\MadelineProto\EventHandler\Message`](#edittext-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-array-null-replymarkup-null-int-null-scheduledate-null-bool-nowebpage-false-danog-madelineproto-eventhandler-message)
+* [`editReplyMarkup(array $replyMarkup): \danog\MadelineProto\EventHandler\Message`](#editreplymarkup-array-replymarkup-danog-madelineproto-eventhandler-message)
 * [`replyOrEdit(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false): \danog\MadelineProto\EventHandler\Message`](#replyoredit-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-array-null-replymarkup-null-int-null-scheduledate-null-bool-nowebpage-false-danog-madelineproto-eventhandler-message)
 * [`getHTML(bool $allowTelegramTags = false): string`](#gethtml-bool-allowtelegramtags-false-string)
 * [`isReply(): bool`](#isreply-bool)
@@ -214,6 +216,17 @@ Parameters:
 #### See also: 
 * [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../danog/MadelineProto/ParseMode.html)
 
+
+
+
+### `editReplyMarkup(array $replyMarkup): \danog\MadelineProto\EventHandler\Message`
+
+Edit message keyboard.
+
+
+Parameters:
+
+* `$replyMarkup`: `array` Reply markup for inline keyboards  
 
 
 

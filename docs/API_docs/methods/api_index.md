@@ -1413,6 +1413,10 @@ $MadelineProto->[messages->getOnlines](/API_docs/methods/messages.getOnlines.htm
 
 ***
 <br><br>
+$MadelineProto->[messages->getOutboxReadDate](/API_docs/methods/messages.getOutboxReadDate.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), msg_id: $[int](/API_docs/types/int.html), \]) === [$OutboxReadDate](/API_docs/types/OutboxReadDate.html)<a name="messages.getOutboxReadDate"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->getPeerDialogs](/API_docs/methods/messages.getPeerDialogs.html)(\[peers: \[$[InputDialogPeer](/API_docs/types/InputDialogPeer.html)\], \]) === [$messages.PeerDialogs](/API_docs/types/messages.PeerDialogs.html)<a name="messages.getPeerDialogs"></a>  
 
 ***
@@ -2314,6 +2318,10 @@ $MadelineProto->[upload->saveFilePart](/API_docs/methods/upload.saveFilePart.htm
 ***
 <br><br>
 $MadelineProto->[users->getFullUser](/API_docs/methods/users.getFullUser.html)(\[id: $[InputUser](/API_docs/types/InputUser.html), \]) === [$users.UserFull](/API_docs/types/users.UserFull.html)<a name="users.getFullUser"></a>  
+
+***
+<br><br>
+$MadelineProto->[users->getIsPremiumRequiredToContact](/API_docs/methods/users.getIsPremiumRequiredToContact.html)(\[id: \[$[InputUser](/API_docs/types/InputUser.html)\], \]) === [$Vector\_of\_Bool](/API_docs/types/Bool.html)<a name="users.getIsPremiumRequiredToContact"></a>  
 
 ***
 <br><br>

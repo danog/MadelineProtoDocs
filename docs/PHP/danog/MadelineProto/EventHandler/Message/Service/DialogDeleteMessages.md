@@ -31,6 +31,7 @@ Deleted messages.
 * `$ttlPeriod`: `?int` Time-to-live of the message
 
 ## Method list:
+* [`__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info, array $ids)`](#__construct-danog-madelineproto-mtproto-api-array-rawmessage-array-info-array-ids)
 * [`isReply(): bool`](#isreply-bool)
 * [`getReply(class-string<\T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?\T`](#getreply-class-string-t-class-danog-madelineproto-eventhandler-abstractmessage-t)
 * [`delete(bool $revoke = true): void`](#delete-bool-revoke-true-void)
@@ -47,6 +48,25 @@ Deleted messages.
 * [`disableAutoTranslate(): bool`](#disableautotranslate-bool)
 
 ## Methods:
+### `__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info, array $ids)`
+
+
+
+
+Parameters:
+
+* `$API`: `\danog\MadelineProto\MTProto`   
+* `$rawMessage`: `array`   
+* `$info`: `array`   
+* `$ids`: `array`   
+
+
+#### See also: 
+* `\danog\MadelineProto\MTProto`
+
+
+
+
 ### `isReply(): bool`
 
 Check if the current message replies to another message.

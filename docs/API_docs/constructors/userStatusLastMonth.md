@@ -11,6 +11,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 Online status: last seen last month
 
+### Attributes:
+
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|by\_me|[Bool](/API_docs/types/Bool.html) | Optional|
 
 
 
@@ -20,5 +25,5 @@ Online status: last seen last month
 ### Example:
 
 ```
-$userStatusLastMonth = ['_' => 'userStatusLastMonth'];
+$userStatusLastMonth = ['_' => 'userStatusLastMonth', 'by_me' => Bool];
 ```  

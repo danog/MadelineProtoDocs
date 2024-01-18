@@ -17,7 +17,7 @@ Contains info about a peer that the user shared with the bot after clicking on a
 
 ## Properties
 * `$buttonId`: `int` buttonId contained in the [keyboardButtonRequestPeer](https://docs.madelineproto.xyz/API_docs/constructors/keyboardButtonRequestPeer.html)
-* `$peer`: `int` The shared peer
+* `$peers`: `list<int>` The shared peers
 * `$id`: `int` Message ID
 * `$out`: `bool` Whether the message is outgoing
 * `$chatId`: `int` ID of the chat where the message was sent
@@ -32,7 +32,6 @@ Contains info about a peer that the user shared with the bot after clicking on a
 * `$ttlPeriod`: `?int` Time-to-live of the message
 
 ## Method list:
-* [`__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info, int $buttonId, int $peer)`](#__construct-danog-madelineproto-mtproto-api-array-rawmessage-array-info-int-buttonid-int-peer)
 * [`isReply(): bool`](#isreply-bool)
 * [`getReply(class-string<\T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?\T`](#getreply-class-string-t-class-danog-madelineproto-eventhandler-abstractmessage-t)
 * [`delete(bool $revoke = true): void`](#delete-bool-revoke-true-void)
@@ -49,26 +48,6 @@ Contains info about a peer that the user shared with the bot after clicking on a
 * [`disableAutoTranslate(): bool`](#disableautotranslate-bool)
 
 ## Methods:
-### `__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info, int $buttonId, int $peer)`
-
-
-
-
-Parameters:
-
-* `$API`: `\danog\MadelineProto\MTProto`   
-* `$rawMessage`: `array`   
-* `$info`: `array`   
-* `$buttonId`: `int`   
-* `$peer`: `int`   
-
-
-#### See also: 
-* `\danog\MadelineProto\MTProto`
-
-
-
-
 ### `isReply(): bool`
 
 Check if the current message replies to another message.

@@ -19,27 +19,9 @@ User status has not been set yet.
 * `$userId`: `int` User identifier
 
 ## Method list:
-* [`__construct(\danog\MadelineProto\MTProto $API, array $rowUserStatus)`](#__construct-danog-madelineproto-mtproto-api-array-rowuserstatus)
 * [`fromRawStatus(\danog\MadelineProto\MTProto $API, array $rowUserStatus): ?\danog\MadelineProto\EventHandler\User\Status`](#fromrawstatus-danog-madelineproto-mtproto-api-array-rowuserstatus-danog-madelineproto-eventhandler-user-status)
 
 ## Methods:
-### `__construct(\danog\MadelineProto\MTProto $API, array $rowUserStatus)`
-
-
-
-
-Parameters:
-
-* `$API`: `\danog\MadelineProto\MTProto`   
-* `$rowUserStatus`: `array`   
-
-
-#### See also: 
-* `\danog\MadelineProto\MTProto`
-
-
-
-
 ### `fromRawStatus(\danog\MadelineProto\MTProto $API, array $rowUserStatus): ?\danog\MadelineProto\EventHandler\User\Status`
 
 

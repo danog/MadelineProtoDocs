@@ -27,6 +27,7 @@ Represents a query sent by the user by clicking on a button in a chat.
 ## Method list:
 * [`answer(string $message, bool $alert = false, string|null $url = NULL, int $cacheTime = 300): bool`](#answer-string-message-bool-alert-false-string-null-url-null-int-cachetime-300-bool)
 * [`editText(string $message, array|null $replyMarkup = NULL, \ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, bool $noWebpage = false, int|null $scheduleDate = NULL): \danog\MadelineProto\EventHandler\Message`](#edittext-string-message-array-null-replymarkup-null-parsemode-parsemode-danog-madelineproto-parsemode-text-bool-nowebpage-false-int-null-scheduledate-null-danog-madelineproto-eventhandler-message)
+* [`editReplyMarkup(array $replyMarkup): \danog\MadelineProto\EventHandler\Message`](#editreplymarkup-array-replymarkup-danog-madelineproto-eventhandler-message)
 * [`delete(bool $revoke = true): void`](#delete-bool-revoke-true-void)
 * [`pin(bool $pmOneside = false, bool $silent = false): void`](#pin-bool-pmoneside-false-bool-silent-false-void)
 * [`unpin(bool $pmOneside = false, bool $silent = false): ?\danog\MadelineProto\EventHandler\Update`](#unpin-bool-pmoneside-false-bool-silent-false-danog-madelineproto-eventhandler-update)
@@ -63,6 +64,22 @@ Parameters:
 
 #### See also: 
 * `\ParseMode`
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../danog/MadelineProto/EventHandler/Message.html)
+
+
+
+
+### `editReplyMarkup(array $replyMarkup): \danog\MadelineProto\EventHandler\Message`
+
+Edit message keyboard.
+
+
+Parameters:
+
+* `$replyMarkup`: `array` Reply markup for inline keyboards  
+
+
+#### See also: 
 * [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../danog/MadelineProto/EventHandler/Message.html)
 
 

@@ -16,7 +16,7 @@ Message entity representing a [user mention](https://core.telegram.org/api/menti
 
 
 ## Properties
-* `$userId`: `int|string` Identifier of the user that was mentioned
+* `$userId`: `string|int` Identifier of the user that was mentioned
 * `$offset`: `int` Offset of message entity within message (in UTF-16 code units)
 * `$length`: `int` Length of message entity within message (in UTF-16 code units)
 

@@ -42,7 +42,7 @@ Plugin event handler class.
 * [`isPluginEnabled(): bool`](#ispluginenabled-bool)
 * [`startAndLoop(string $session, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): void`](#startandloop-string-session-danog-madelineproto-settingsabstract-settings-null-void)
 * [`startAndLoopBot(string $session, string $token, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): void`](#startandloopbot-string-session-string-token-danog-madelineproto-settingsabstract-settings-null-void)
-* [`getPeriodicLoop(string $name): \danog\Loop\PeriodicLoop`](#getperiodicloop-string-name-danog-loop-periodicloop)
+* [`getPeriodicLoop(string $name): ?\danog\Loop\PeriodicLoop`](#getperiodicloop-string-name-danog-loop-periodicloop)
 * [`getPeriodicLoops(): array<string, \danog\Loop\PeriodicLoop>`](#getperiodicloops-array-string-danog-loop-periodicloop)
 * [`getReportPeers(): string|int|(string|int)[]`](#getreportpeers-string-int-string-int)
 * [`getPlugins(): class-string<\danog\MadelineProto\EventHandler>[]`](#getplugins-class-string-danog-madelineproto-eventhandler)
@@ -293,7 +293,7 @@ Parameters:
 
 
 
-### `getPeriodicLoop(string $name): \danog\Loop\PeriodicLoop`
+### `getPeriodicLoop(string $name): ?\danog\Loop\PeriodicLoop`
 
 Obtain a PeriodicLoop instance created by the Cron attribute.
 

@@ -17,8 +17,8 @@ The optional fields specify how did we authorize the bot to send us messages.
 
 ## Properties
 * `$attachMenu`: `bool` We have authorized the bot to send us messages by installing the bot’s [attachment menu](https://core.telegram.org/api/bots/attach).
-* `$domain`: `string` We have authorized the bot to send us messages by logging into a website via [Telegram Login »](https://core.telegram.org/widgets/login); this field contains the domain name of the website on which the user has logged in.
-* `$app`: `?\BotApp` We have authorized the bot to send us messages by opening the specified [bot web app](https://core.telegram.org/api/bots/webapps).
+* `$domain`: `?string` We have authorized the bot to send us messages by logging into a website via [Telegram Login »](https://core.telegram.org/widgets/login); this field contains the domain name of the website on which the user has logged in.
+* `$app`: `?\danog\MadelineProto\EventHandler\BotApp` We have authorized the bot to send us messages by opening the specified [bot web app](https://core.telegram.org/api/bots/webapps).
 * `$id`: `int` Message ID
 * `$out`: `bool` Whether the message is outgoing
 * `$chatId`: `int` ID of the chat where the message was sent

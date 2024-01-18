@@ -25,6 +25,7 @@ Represents a query sent by the user by clicking on a "Play game" button in an in
 ## Method list:
 * [`answer(string $message, bool $alert = false, string|null $url = NULL, int $cacheTime = 300): bool`](#answer-string-message-bool-alert-false-string-null-url-null-int-cachetime-300-bool)
 * [`editText(string $message, array|null $replyMarkup = NULL, \ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, bool $noWebpage = false): void`](#edittext-string-message-array-null-replymarkup-null-parsemode-parsemode-danog-madelineproto-parsemode-text-bool-nowebpage-false-void)
+* [`editReplyMarkup(array $replyMarkup): void`](#editreplymarkup-array-replymarkup-void)
 
 ## Methods:
 ### `answer(string $message, bool $alert = false, string|null $url = NULL, int $cacheTime = 300): bool`
@@ -57,6 +58,17 @@ Parameters:
 #### See also: 
 * `\ParseMode`
 
+
+
+
+### `editReplyMarkup(array $replyMarkup): void`
+
+Edit message keyboard.
+
+
+Parameters:
+
+* `$replyMarkup`: `array` Reply markup for inline keyboards  
 
 
 

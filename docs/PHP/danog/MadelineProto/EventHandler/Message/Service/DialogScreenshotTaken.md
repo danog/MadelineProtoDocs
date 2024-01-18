@@ -16,7 +16,7 @@ A screenshot of the chat was taken.
 
 
 ## Properties
-* `$ids`: `array` $ids list<int> List of affected message ids that appeared on the screenshot, only for secret chats.
+* `$ids`: `list<int>` List of affected message ids that appeared on the screenshot, only for secret chats.
 * `$id`: `int` Message ID
 * `$out`: `bool` Whether the message is outgoing
 * `$chatId`: `int` ID of the chat where the message was sent

@@ -1472,6 +1472,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getDefaultTagReactions.html" name="messages.getDefaultTagReactions">messages.getDefaultTagReactions</a>
 
+* <a href="messages.getOutboxReadDate.html" name="messages.getOutboxReadDate">messages.getOutboxReadDate</a>
+
 * <a href="messages.getPinnedSavedDialogs.html" name="messages.getPinnedSavedDialogs">messages.getPinnedSavedDialogs</a>
 
 * <a href="messages.getSavedDialogs.html" name="messages.getSavedDialogs">messages.getSavedDialogs</a>
@@ -1563,5 +1565,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="stories.togglePeerStoriesHidden.html" name="stories.togglePeerStoriesHidden">stories.togglePeerStoriesHidden</a>
 
 * <a href="stories.togglePinned.html" name="stories.togglePinned">stories.togglePinned</a>
+
+* <a href="users.getIsPremiumRequiredToContact.html" name="users.getIsPremiumRequiredToContact">users.getIsPremiumRequiredToContact</a>
 
 
