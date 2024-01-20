@@ -8,103 +8,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 Here's a list of common MadelineProto questions and answers.
 
-## How does the MadelineProto session work?
-
-MadelineProto's session folder contains a large amount of information needed for MadelineProto to work.  
-
-This information can be stored:
-
-* In RAM (default), saved to the session files every 30 seconds and on shutdown.  
-* On MySQL/Postgres/Redis, according to the [database settings &raquo;](https://docs.madelineproto.xyz/docs/DATABASE.html).  
-
-The default in-RAM storage is the fastest, but obviously uses much more memory than the MySQL/Postgres backends.  
-
-The session data consists of multiple databases, used to greatly improve performance and reduce [flood waits](https://docs.madelineproto.xyz/docs/FLOOD_WAIT.html) through caching.  
-
-Some of these databases *optionally* be disabled according to the [database settings &raquo;](https://docs.madelineproto.xyz/docs/DATABASE.html), in order to use less RAM/disk space: however, this usually leads to performance issues, increased flood waits (& bans) and disabled MadelineProto features, so please avoid tweaking the database configuration unless absolutely necessary.  
-
-* Authorization & **session keys** to identify and communicate with Telegram's MTProto servers.  
-* Peer database, containing the **access hash** (needed to interact with users and chats via MTProto) and other information (name, type & other info returned by getInfo/getFullInfo) about chats and users met during normal operation.  
-
-  Without the **access hash** handled automatically by MadelineProto's peer database, you wouldn't be able to interact with users and chats by using their ID: for this reason, completely disabling the peer database **is not allowed**.  
-  
-  However, through the [database settings &raquo;](https://docs.madelineproto.xyz/docs/DATABASE.html), the peer database can be *optionally* configured to only store the **access hash+basic info**, or just the **access hash**, without all the extra information: this will break `getInfo`/`getFullInfo` and other MadelineProto features that rely on it, like the [event handler](https://docs.madelineproto.xyz/docs/UPDATES.html).  
-
-* Username database, used by MadelineProt to map usernames to IDs for quicker `@username` lookups.  
-  
-  Through the [database settings &raquo;](https://docs.madelineproto.xyz/docs/DATABASE.html), the username database can be *optionally* disabled, completely disabling and breaking username resolution in all MadelineProto methods.  
-
-* Min database, containing min peer location information.
-
-  MadelineProto uses the min database automatically to populate the peer database when working with [min peers](https://core.telegram.org/api/min).  
-
-  Through the [database settings &raquo;](https://docs.madelineproto.xyz/docs/DATABASE.html), the min database can be *optionally* disabled, which can lead to `PeerNotInDbException` exceptions when working with certain peers.  
-
-* File reference database, containing location information about files
-
-  MadelineProto uses the file database automatically to populate expired [file references](https://core.telegram.org/api/file_reference) when downloading and resending files.  
-
-  Through the [database settings &raquo;](https://docs.madelineproto.xyz/docs/DATABASE.html), the file reference database can be *optionally* disabled, which can lead to `FILE_REFERENCE_*` errors when working with files.  
-
-* Secret chat database, containing [secret chat](https://docs.madelineproto.xyz/docs/SECRET_CHATS.html) info&messages.  
-
-This session structure is very similar to the structure of official graphical clients: all official clients use the same databases in order to work, and sometimes have even more databases for other purposes.  
-
-Some third-party unofficial clients with very few abstractions, however, only store the session keys, allowing users to export the session as a "string session".  
-
-This mode is not provided by MadelineProto for a number of reasons:
-
-* **The most important reason**: Telegram **does not allow using the same auth keys from two clients at the same time**.  
-  This is a very important detail: if Telegram's servers detect 2+ connections that use the same copied string session, the session is automatically deleted, emitting an `AUTH_KEY_DUPLICATED` error.   
-
-* Providing just the auth keys as a string session will completely break almost all MadelineProto abstractions, caching and all the other features which make MadelineProto so fast and easy to use.  
-* A string session containing even just auth keys + the peer database will be too large to store manually.
-
-
-Another detail worth exploring is the concept 
-
-## Why did I get a AUTH_KEY_DUPLICATED error?
-
-This error happened because you copied the session folder, and started another parallel instance of MadelineProto on the new copied folder.  
-
-To avoid it, avoid copying the session folder, and instead login again.  
-
-The reason why the error is emitted is simple: Telegram **does not allow using the same auth keys from two clients at the same time**.  
-
-If Telegram's servers detect 2+ connections that use the same auth key, the session is automatically deleted, emitting an `AUTH_KEY_DUPLICATED` error.   
-
-This is usually **not a problem for MadelineProto**, because the session folder is exclusively locked, allowing only one special instance of MadelineProto to use the auth keys and handle requests from all client MadelineProto processes: this special server instance of MadelineProto is the  **MadelineProto IPC server**.  
-
-When more than one or more **client** instances of MadelineProto are created using `new API`, they all asynchronously forward requests to the same **MadelineProto IPC server** using IPC (UNIX sockets on Linux/UNIX, TCP sockets on Windows).  
-
-This allows MadelineProto to:
-
-* Avoid the `AUTH_KEY_DUPLICATED` errors, by opening only one MTProto connection from a single MadelineProto IPC server instance.  
-* Asynchronously handle requests from multiple parallel client processes, **without waiting** for the previous request to finish in order to handle the next one.  
-
-
-#### How do I start the MadelineProto IPC server?
-
-The MadelineProto IPC server is started automatically by client instances when running `new API` (if it is not already running).  
-
-However, if an [event handler](https://docs.madelineproto.xyz/docs/UPDATES.html) is configured, it will automatically act as a MadelineProto IPC server, and client instances will **not** be able to start it: it must be kept running in order to handle requests from `new API` instances.
-
-
-## What is the "MadelineProto worker" process, can I kill it?
-
-No, you must never kill it.  
-
-The MadelineProto worker process is like apache2: it keeps running in the background, waiting for incoming requests from MadelineProto.  
-
-Don't kill it, or else MadelineProto will take 30+ seconds to start, every time you make a request.  
-
-You don't kill your apache2/nginx webserver just because there are no incoming requests, and the same goes for the MadelineProto worker process.  
-
-When there are no incoming requests, CPU usage is extremely low (`~0%`), and RAM usage can be reduced by using the [database](#how-do-i-use-a-database-in-madelineproto) (don't forget to use `updateSettings` to update the settings).  
-
 ## How do I solve "Fiber stack allocate failed" and "Fiber stack protect failed" errors?
 
 The PHP engine mmap's two memory regions for each forked green thread: one for the stack, and one for the final guard page.  
+
+MadelineProto can use hundreds or even thousands of concurrent, low-overhead green threads to handle updates with the maximum performance.  
 
 This error is emitted when the maximum number of configured mmap'ed regions is reached: you must increase the vm.max_map_count kernel config to 262144 to fix.  
 
@@ -261,6 +169,18 @@ You can fork a new green thread using this code:
 Make sure to never use blocking functions in the forked thread (NO `file_get_contents`, `PDO`), only use [async amphp libraries](https://amphp.org) (i.e. [amphp/file](https://amphp.org/file), [amphp/mysql](https://amphp.org/mysql), and [so on...](https://amphp.org/installation)).  
 
 See the [async docs &raquo;](https://docs.madelineproto.xyz/docs/ASYNC.html) for more info.  
+
+## What is the "MadelineProto worker" process, can I kill it?
+
+No, you must never kill it.  
+
+The MadelineProto worker process is like apache2: it keeps running in the background, waiting for incoming requests from MadelineProto.  
+
+Don't kill it, or else MadelineProto will take 30+ seconds to start, every time you make a request.  
+
+You don't kill your apache2/nginx webserver just because there are no incoming requests, and the same goes for the MadelineProto worker process.  
+
+When there are no incoming requests, CPU usage is extremely low (`~0%`), and RAM usage can be reduced by using the [database](#how-do-i-use-a-database-in-madelineproto) (don't forget to use `updateSettings` to update the settings).  
 
 ## What is the "This peer is not present in the internal peer database" error (also known as PeerNotInDbException)?
 
