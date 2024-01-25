@@ -29,6 +29,8 @@ TL schema settings.
 * [`setSecretSchema(string $secretSchema): self`](#setsecretschema-string-secretschema-self)
 * [`getOther(): array`](#getother-array)
 * [`setOther(array $other): self`](#setother-array-other-self)
+* [`getFuzzMode(): bool`](#getfuzzmode-bool)
+* [`setFuzzMode(bool $fuzz): self`](#setfuzzmode-bool-fuzz-self)
 
 ## Methods:
 ### `needsUpgrade(): bool`
@@ -125,6 +127,23 @@ Set the value of other.
 Parameters:
 
 * `$other`: `array`   
+
+
+
+### `getFuzzMode(): bool`
+
+Get the value of the fuzz mode.
+
+
+
+### `setFuzzMode(bool $fuzz): self`
+
+Set the value of the fuzz mode.
+
+
+Parameters:
+
+* `$fuzz`: `bool`   
 
 
 
