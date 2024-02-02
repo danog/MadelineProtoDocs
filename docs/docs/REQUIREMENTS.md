@@ -15,7 +15,7 @@ The `ffi` and `uv` extensions and the [PrimeModule](https://prime.madelineproto.
 MadelineProto explicitly supports Linux and UNIX systems (including Mac OS).  
 I **don't recommend using Windows**: MadelineProto generally works on Windows, though there might be some random issues caused by AV engines, so I personally recommend using Linux.  
 
-**Mac OS note**: If you encounter issues running MadelineProto on Docker on Mac OS, make sure to enable ephemeral filesystem support with a database [as described here &raquo;](https://docs.madelineproto.xyz/docs/DATABASE.html#ephemeral-filesystems), and change the session path in `bot.php` to point to a unique path in `/tmp`, not in `/app`.
+**Mac OS+Docker note**: If you encounter issues running MadelineProto on Docker on Mac OS, make sure to enable ephemeral filesystem support with a database [as described here &raquo;](https://docs.madelineproto.xyz/docs/DATABASE.html#ephemeral-filesystems), and change the session path in `bot.php` to point to a unique path in `/tmp`, not in a mounted volume.
 
 Running on webservers and webhosts is fully supported, but I highly recommend running long-running applications like [event handler bots](https://docs.madelineproto.xyz/docs/UPDATES.html) via CLI.  
 
