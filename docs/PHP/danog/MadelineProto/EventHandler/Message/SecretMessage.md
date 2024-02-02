@@ -66,11 +66,12 @@ Represents New encrypted message.
 * [`editText(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false): \danog\MadelineProto\EventHandler\Message`](#edittext-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-array-null-replymarkup-null-int-null-scheduledate-null-bool-nowebpage-false-danog-madelineproto-eventhandler-message)
 * [`editReplyMarkup(array $replyMarkup): \danog\MadelineProto\EventHandler\Message`](#editreplymarkup-array-replymarkup-danog-madelineproto-eventhandler-message)
 * [`replyOrEdit(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false): \danog\MadelineProto\EventHandler\Message`](#replyoredit-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-array-null-replymarkup-null-int-null-scheduledate-null-bool-nowebpage-false-danog-madelineproto-eventhandler-message)
+* [`forward(int|string $peer, list<int> $id = [], bool $dropAuthor = false, bool $dropCaption = false, int $topicId = 1, bool $silent = false, bool $noForwards = false, bool $background = false, bool $score = false, int|null $scheduleDate = NULL, int|string|null $sendAs = NULL): array`](#forward-int-string-peer-list-int-id-bool-dropauthor-false-bool-dropcaption-false-int-topicid-1-bool-silent-false-bool-noforwards-false-bool-background-false-bool-score-false-int-null-scheduledate-null-int-string-null-sendas-null-array)
 * [`getHTML(bool $allowTelegramTags = false): string`](#gethtml-bool-allowtelegramtags-false-string)
 * [`isReply(): bool`](#isreply-bool)
 * [`delete(bool $revoke = true): void`](#delete-bool-revoke-true-void)
-* [`reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $updateStickersetsOrder = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#reply-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-nowebpage-false-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-updatestickersetsorder-false-amp-cancellation-cancellation-null-danog-madelineproto-eventhandler-message)
-* [`sendText(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $updateStickersetsOrder = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#sendtext-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-nowebpage-false-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-updatestickersetsorder-false-amp-cancellation-cancellation-null-danog-madelineproto-eventhandler-message)
+* [`reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|string|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $updateStickersetsOrder = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#reply-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-array-null-replymarkup-null-int-string-null-sendas-null-int-null-scheduledate-null-bool-nowebpage-false-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-updatestickersetsorder-false-amp-cancellation-cancellation-null-danog-madelineproto-eventhandler-message)
+* [`sendText(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|string|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $updateStickersetsOrder = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#sendtext-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-array-null-replymarkup-null-int-string-null-sendas-null-int-null-scheduledate-null-bool-nowebpage-false-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-updatestickersetsorder-false-amp-cancellation-cancellation-null-danog-madelineproto-eventhandler-message)
 * [`block(): bool`](#block-bool)
 * [`unblock(): bool`](#unblock-bool)
 * [`getStories(): list<\danog\MadelineProto\EventHandler\AbstractStory>`](#getstories-list-danog-madelineproto-eventhandler-abstractstory)
@@ -273,6 +274,27 @@ Parameters:
 
 
 
+### `forward(int|string $peer, list<int> $id = [], bool $dropAuthor = false, bool $dropCaption = false, int $topicId = 1, bool $silent = false, bool $noForwards = false, bool $background = false, bool $score = false, int|null $scheduleDate = NULL, int|string|null $sendAs = NULL): array`
+
+Forwards messages by their IDs.
+
+
+Parameters:
+
+* `$peer`: `int|string` Destination peer  
+* `$id`: `list<int>` IDs of messages  
+* `$dropAuthor`: `bool` Whether to forward messages without quoting the original author  
+* `$dropCaption`: `bool` Whether to strip captions from media  
+* `$topicId`: `int` Destination [forum topic](https://core.telegram.org/api/forum#forum-topics)  
+* `$silent`: `bool` Whether to send the message silently, without triggering notifications.  
+* `$noForwards`: `bool` Only for bots, disallows further re-forwarding and saving of the messages, even if the destination chat doesn’t have [content protection](https://telegram.org/blog/protected-content-delete-by-date-and-more) enabled  
+* `$background`: `bool` Send this message as background message  
+* `$score`: `bool` When forwarding games, whether to include your score in the game  
+* `$scheduleDate`: `int|null` Schedule date.  
+* `$sendAs`: `int|string|null` Peer to send the message as.  
+
+
+
 ### `getHTML(bool $allowTelegramTags = false): string`
 
 Get an HTML version of the message.
@@ -301,7 +323,7 @@ Parameters:
 
 
 
-### `reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $updateStickersetsOrder = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`
+### `reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|string|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $updateStickersetsOrder = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`
 
 Reply to the message.
 
@@ -311,11 +333,11 @@ Parameters:
 * `$message`: `string` Message to send  
 * `$parseMode`: `\danog\MadelineProto\ParseMode` Parse mode  
 * `$replyMarkup`: `array|null` Keyboard information.  
-* `$sendAs`: `int|null` Peer to send the message as.  
+* `$sendAs`: `int|string|null` Peer to send the message as.  
 * `$scheduleDate`: `int|null` Schedule date.  
 * `$noWebpage`: `bool` Set this flag to disable generation of the webpage preview  
 * `$silent`: `bool` Whether to send the message silently, without triggering notifications.  
-* `$noForwards`: `bool`   
+* `$noForwards`: `bool` Only for bots, disallows further re-forwarding and saving of the messages, even if the destination chat doesn’t have [content protection](https://telegram.org/blog/protected-content-delete-by-date-and-more) enabled  
 * `$background`: `bool` Send this message as background message  
 * `$clearDraft`: `bool` Clears the draft field  
 * `$updateStickersetsOrder`: `bool` Whether to move used stickersets to top  
@@ -330,7 +352,7 @@ Parameters:
 
 
 
-### `sendText(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $updateStickersetsOrder = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`
+### `sendText(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|string|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $noWebpage = false, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $updateStickersetsOrder = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`
 
 Send a text message.
 
@@ -340,11 +362,11 @@ Parameters:
 * `$message`: `string` Message to send  
 * `$parseMode`: `\danog\MadelineProto\ParseMode` Parse mode  
 * `$replyMarkup`: `array|null` Keyboard information.  
-* `$sendAs`: `int|null` Peer to send the message as.  
+* `$sendAs`: `int|string|null` Peer to send the message as.  
 * `$scheduleDate`: `int|null` Schedule date.  
 * `$noWebpage`: `bool` Set this flag to disable generation of the webpage preview  
 * `$silent`: `bool` Whether to send the message silently, without triggering notifications.  
-* `$noForwards`: `bool`   
+* `$noForwards`: `bool` Only for bots, disallows further re-forwarding and saving of the messages, even if the destination chat doesn’t have [content protection](https://telegram.org/blog/protected-content-delete-by-date-and-more) enabled  
 * `$background`: `bool` Send this message as background message  
 * `$clearDraft`: `bool` Clears the draft field  
 * `$updateStickersetsOrder`: `bool` Whether to move used stickersets to top  

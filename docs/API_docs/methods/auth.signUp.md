@@ -17,6 +17,7 @@ You cannot use this method directly, use the completeSignup method instead (see 
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|no\_joined\_notifications|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |phone\_number|[string](/API_docs/types/string.html) | Phone number in the international format | Optional|
 |phone\_code\_hash|[string](/API_docs/types/string.html) | SMS-message ID | Optional|
 |first\_name|[string](/API_docs/types/string.html) | New user first name | Optional|
@@ -40,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth_Authorization = $MadelineProto->auth->signUp(phone_number: 'string', phone_code_hash: 'string', first_name: 'string', last_name: 'string', );
+$auth_Authorization = $MadelineProto->auth->signUp(no_joined_notifications: $Bool, phone_number: 'string', phone_code_hash: 'string', first_name: 'string', last_name: 'string', );
 ```
 

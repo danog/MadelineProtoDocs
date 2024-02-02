@@ -15,6 +15,7 @@ redirect_from: /API_docs/methods/messages_getSavedReactionTags.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 |hash|Array of [long](/API_docs/types/long.html) | Optional|
 
 
@@ -35,6 +36,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_SavedReactionTags = $MadelineProto->messages->getSavedReactionTags(hash: [$long, $long], );
+$messages_SavedReactionTags = $MadelineProto->messages->getSavedReactionTags(peer: $InputPeer, hash: [$long, $long], );
 ```
 

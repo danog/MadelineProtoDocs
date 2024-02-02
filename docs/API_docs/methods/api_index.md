@@ -489,7 +489,7 @@ $MadelineProto->[auth->signIn](/API_docs/methods/auth.signIn.html)(\[phone_numbe
 
 ***
 <br><br>
-$MadelineProto->[auth->signUp](/API_docs/methods/auth.signUp.html)(\[phone_number: $[string](/API_docs/types/string.html), phone_code_hash: $[string](/API_docs/types/string.html), first_name: $[string](/API_docs/types/string.html), last_name: $[string](/API_docs/types/string.html), \]) === [$auth.Authorization](/API_docs/types/auth.Authorization.html)<a name="auth.signUp"></a>  
+$MadelineProto->[auth->signUp](/API_docs/methods/auth.signUp.html)(\[no_joined_notifications: $[Bool](/API_docs/types/Bool.html), phone_number: $[string](/API_docs/types/string.html), phone_code_hash: $[string](/API_docs/types/string.html), first_name: $[string](/API_docs/types/string.html), last_name: $[string](/API_docs/types/string.html), \]) === [$auth.Authorization](/API_docs/types/auth.Authorization.html)<a name="auth.signUp"></a>  
 
 ***
 <br><br>
@@ -1469,7 +1469,7 @@ $MadelineProto->[messages->getSavedHistory](/API_docs/methods/messages.getSavedH
 
 ***
 <br><br>
-$MadelineProto->[messages->getSavedReactionTags](/API_docs/methods/messages.getSavedReactionTags.html)(\[hash: $[long](/API_docs/types/long.html), \]) === [$messages.SavedReactionTags](/API_docs/types/messages.SavedReactionTags.html)<a name="messages.getSavedReactionTags"></a>  
+$MadelineProto->[messages->getSavedReactionTags](/API_docs/methods/messages.getSavedReactionTags.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), hash: $[long](/API_docs/types/long.html), \]) === [$messages.SavedReactionTags](/API_docs/types/messages.SavedReactionTags.html)<a name="messages.getSavedReactionTags"></a>  
 
 ***
 <br><br>
