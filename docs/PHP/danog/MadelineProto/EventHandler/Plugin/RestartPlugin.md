@@ -57,9 +57,9 @@ Plugin that offers a /restart command to admins that can be used to restart the 
 * [`base64urlEncode(string $data): string`](#base64urlencode-string-data-string)
 * [`botAPIToMTProto(array $arguments): array`](#botapitomtproto-array-arguments-array)
 * [`botLogin(string $token): ?array`](#botlogin-string-token-array)
-* [`broadcastCustom(\danog\MadelineProto\Broadcast\Action $action, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL): int`](#broadcastcustom-danog-madelineproto-broadcast-action-action-danog-madelineproto-broadcast-filter-filter-null-int)
-* [`broadcastForwardMessages(mixed $from_peer, list<int> $message_ids, bool $drop_author = false, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, bool $pin = false): int`](#broadcastforwardmessages-mixed-from_peer-list-int-message_ids-bool-drop_author-false-danog-madelineproto-broadcast-filter-filter-null-bool-pin-false-int)
-* [`broadcastMessages(array $messages, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, bool $pin = false): int`](#broadcastmessages-array-messages-danog-madelineproto-broadcast-filter-filter-null-bool-pin-false-int)
+* [`broadcastCustom(\danog\MadelineProto\Broadcast\Action $action, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, float|null $delay = NULL): int`](#broadcastcustom-danog-madelineproto-broadcast-action-action-danog-madelineproto-broadcast-filter-filter-null-float-null-delay-null-int)
+* [`broadcastForwardMessages(mixed $from_peer, list<int> $message_ids, bool $drop_author = false, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, bool $pin = false, float|null $delay = NULL): int`](#broadcastforwardmessages-mixed-from_peer-list-int-message_ids-bool-drop_author-false-danog-madelineproto-broadcast-filter-filter-null-bool-pin-false-float-null-delay-null-int)
+* [`broadcastMessages(array $messages, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, bool $pin = false, float|null $delay = NULL): int`](#broadcastmessages-array-messages-danog-madelineproto-broadcast-filter-filter-null-bool-pin-false-float-null-delay-null-int)
 * [`callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<\T>`](#callfork-generator-amp-future-callable-callable-mixed-args-amp-future-t)
 * [`callGetCurrent(int $id): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`](#callgetcurrent-int-id-danog-madelineproto-remoteurl-danog-madelineproto-localfile-string-null)
 * [`callPlay(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): void`](#callplay-int-id-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-file-void)
@@ -454,7 +454,7 @@ Parameters:
 
 
 
-### `broadcastCustom(\danog\MadelineProto\Broadcast\Action $action, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL): int`
+### `broadcastCustom(\danog\MadelineProto\Broadcast\Action $action, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, float|null $delay = NULL): int`
 
 Executes a custom broadcast action with all peers (users, chats, channels) of the bot.
 Will return an integer ID that can be used to:  
@@ -470,6 +470,7 @@ Parameters:
 
 * `$action`: `\danog\MadelineProto\Broadcast\Action` A custom, serializable Action class that will be called once for every peer.  
 * `$filter`: `?\danog\MadelineProto\Broadcast\Filter`   
+* `$delay`: `float|null` Number of seconds to wait between each peer.  
 
 
 #### See also: 
@@ -479,7 +480,7 @@ Parameters:
 
 
 
-### `broadcastForwardMessages(mixed $from_peer, list<int> $message_ids, bool $drop_author = false, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, bool $pin = false): int`
+### `broadcastForwardMessages(mixed $from_peer, list<int> $message_ids, bool $drop_author = false, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, bool $pin = false, float|null $delay = NULL): int`
 
 Forwards a list of messages to all peers (users, chats, channels) of the bot.
 Will return an integer ID that can be used to:  
@@ -498,6 +499,7 @@ Parameters:
 * `$drop_author`: `bool` If true, will forward messages without quoting the original author.  
 * `$filter`: `?\danog\MadelineProto\Broadcast\Filter`   
 * `$pin`: `bool` Whether to also pin the last sent message.  
+* `$delay`: `float|null` Number of seconds to wait between each peer.  
 
 
 #### See also: 
@@ -506,7 +508,7 @@ Parameters:
 
 
 
-### `broadcastMessages(array $messages, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, bool $pin = false): int`
+### `broadcastMessages(array $messages, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, bool $pin = false, float|null $delay = NULL): int`
 
 Sends a list of messages to all peers (users, chats, channels) of the bot.
 A simplified version of this method is also available: broadcastForwardMessages can work with pre-prepared messages.  
@@ -525,6 +527,7 @@ Parameters:
 * `$messages`: `array` The messages to send: an array of arrays, containing parameters to pass to messages.sendMessage.  
 * `$filter`: `?\danog\MadelineProto\Broadcast\Filter`   
 * `$pin`: `bool` Whether to also pin the last sent message.  
+* `$delay`: `float|null` Number of seconds to wait between each peer.  
 
 
 #### See also: 
