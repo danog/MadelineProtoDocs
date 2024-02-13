@@ -10,7 +10,7 @@ MadelineProto provides **fully parallelized** wrapper methods to upload and down
 
 Maximum file size is of 4 GB.
 
-Example bot: [`downloadRenameBot.php`](https://github.com/danog/MadelineProto/blob/v8/examples/downloadRenameBot.php) - download files by URL and rename Telegram files using this async parallelized bot!
+Example bot: [`downloadRenameBot.php`](https://github.com/danog/downloadRenameBot/blob/main/bot.php) - download files by URL and rename Telegram files using this async parallelized bot!
 
 
 * [Bot API file IDs](#bot-api-file-ids)
