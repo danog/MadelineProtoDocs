@@ -17,31 +17,12 @@ Cryptography settings.
 
 
 ## Method list:
-* [`getDefaultTempAuthKeyExpiresIn(): int`](#getdefaulttempauthkeyexpiresin-int)
-* [`setDefaultTempAuthKeyExpiresIn(int $defaultTempAuthKeyExpiresIn): self`](#setdefaulttempauthkeyexpiresin-int-defaulttempauthkeyexpiresin-self)
 * [`getPfs(): bool`](#getpfs-bool)
 * [`setPfs(bool $pfs): self`](#setpfs-bool-pfs-self)
 * [`getMaxAuthTries(): int`](#getmaxauthtries-int)
 * [`setMaxAuthTries(int<\1, \max> $maxAuthTries): self`](#setmaxauthtries-int-1-max-maxauthtries-self)
 
 ## Methods:
-### `getDefaultTempAuthKeyExpiresIn(): int`
-
-Get validity period of the binding of temporary and permanent keys.
-
-
-
-### `setDefaultTempAuthKeyExpiresIn(int $defaultTempAuthKeyExpiresIn): self`
-
-Set validity period of the binding of temporary and permanent keys.
-
-
-Parameters:
-
-* `$defaultTempAuthKeyExpiresIn`: `int` Validity period of the binding of temporary and permanent keys.  
-
-
-
 ### `getPfs(): bool`
 
 Get whether to use PFS.
