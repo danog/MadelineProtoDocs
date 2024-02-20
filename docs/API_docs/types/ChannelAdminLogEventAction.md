@@ -105,6 +105,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [channelAdminLogEventActionChangeEmojiStatus](/API_docs/constructors/channelAdminLogEventActionChangeEmojiStatus.html)  
 
+[channelAdminLogEventActionChangeEmojiStickerSet](/API_docs/constructors/channelAdminLogEventActionChangeEmojiStickerSet.html)  
+
 
 
 ### Methods that return an object of this type (methods):

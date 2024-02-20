@@ -28,6 +28,7 @@ A message
 |invert\_media|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[int](/API_docs/types/int.html) | Yes|ID of the message|
 |from\_id|[Peer](/API_docs/types/Peer.html) | Optional|ID of the sender of the message|
+|from\_boosts\_applied|[int](/API_docs/types/int.html) | Optional|
 |peer\_id|[Peer](/API_docs/types/Peer.html) | Yes|Peer ID, the chat where this message was sent|
 |saved\_peer\_id|[Peer](/API_docs/types/Peer.html) | Optional|
 |fwd\_from|[MessageFwdHeader](/API_docs/types/MessageFwdHeader.html) | Optional|Info about forwarded messages|
@@ -117,5 +118,5 @@ pre-formatted fixed-width code block written in the PHP programming language
 ### Example:
 
 ```
-$message = ['_' => 'message', 'out' => Bool, 'mentioned' => Bool, 'media_unread' => Bool, 'silent' => Bool, 'post' => Bool, 'from_scheduled' => Bool, 'legacy' => Bool, 'edit_hide' => Bool, 'pinned' => Bool, 'noforwards' => Bool, 'invert_media' => Bool, 'id' => int, 'from_id' => Peer, 'peer_id' => Peer, 'saved_peer_id' => Peer, 'fwd_from' => MessageFwdHeader, 'via_bot_id' => long, 'reply_to' => MessageReplyHeader, 'date' => int, 'message' => 'string', 'media' => MessageMedia, 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'views' => int, 'forwards' => int, 'replies' => MessageReplies, 'edit_date' => int, 'post_author' => 'string', 'grouped_id' => long, 'reactions' => MessageReactions, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'ttl_period' => int];
+$message = ['_' => 'message', 'out' => Bool, 'mentioned' => Bool, 'media_unread' => Bool, 'silent' => Bool, 'post' => Bool, 'from_scheduled' => Bool, 'legacy' => Bool, 'edit_hide' => Bool, 'pinned' => Bool, 'noforwards' => Bool, 'invert_media' => Bool, 'id' => int, 'from_id' => Peer, 'from_boosts_applied' => int, 'peer_id' => Peer, 'saved_peer_id' => Peer, 'fwd_from' => MessageFwdHeader, 'via_bot_id' => long, 'reply_to' => MessageReplyHeader, 'date' => int, 'message' => 'string', 'media' => MessageMedia, 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'views' => int, 'forwards' => int, 'replies' => MessageReplies, 'edit_date' => int, 'post_author' => 'string', 'grouped_id' => long, 'reactions' => MessageReactions, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'ttl_period' => int];
 ```  

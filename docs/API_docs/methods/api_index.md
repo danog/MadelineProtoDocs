@@ -729,7 +729,15 @@ $MadelineProto->[channels->reportSpam](/API_docs/methods/channels.reportSpam.htm
 
 ***
 <br><br>
+$MadelineProto->[channels->setBoostsToUnblockRestrictions](/API_docs/methods/channels.setBoostsToUnblockRestrictions.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), boosts: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.setBoostsToUnblockRestrictions"></a>  
+
+***
+<br><br>
 $MadelineProto->[channels->setDiscussionGroup](/API_docs/methods/channels.setDiscussionGroup.html)(\[broadcast: $[InputChannel](/API_docs/types/InputChannel.html), group: $[InputChannel](/API_docs/types/InputChannel.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="channels.setDiscussionGroup"></a>  
+
+***
+<br><br>
+$MadelineProto->[channels->setEmojiStickers](/API_docs/methods/channels.setEmojiStickers.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), stickerset: $[InputStickerSet](/API_docs/types/InputStickerSet.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="channels.setEmojiStickers"></a>  
 
 ***
 <br><br>

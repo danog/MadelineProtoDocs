@@ -1454,6 +1454,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels.getChannelRecommendations.html" name="channels.getChannelRecommendations">channels.getChannelRecommendations</a>
 
+* <a href="channels.setBoostsToUnblockRestrictions.html" name="channels.setBoostsToUnblockRestrictions">channels.setBoostsToUnblockRestrictions</a>
+
+* <a href="channels.setEmojiStickers.html" name="channels.setEmojiStickers">channels.setEmojiStickers</a>
+
 * <a href="channels.toggleViewForumAsMessages.html" name="channels.toggleViewForumAsMessages">channels.toggleViewForumAsMessages</a>
 
 * <a href="channels.updateColor.html" name="channels.updateColor">channels.updateColor</a>

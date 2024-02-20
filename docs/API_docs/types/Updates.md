@@ -180,6 +180,8 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->channels->updateEmojiStatus](/API_docs/methods/channels.updateEmojiStatus.html)  
 
+[$MadelineProto->channels->setBoostsToUnblockRestrictions](/API_docs/methods/channels.setBoostsToUnblockRestrictions.html)  
+
 [$MadelineProto->bots->allowSendMessage](/API_docs/methods/bots.allowSendMessage.html)  
 
 [$MadelineProto->payments->assignAppStoreTransaction](/API_docs/methods/payments.assignAppStoreTransaction.html)  
