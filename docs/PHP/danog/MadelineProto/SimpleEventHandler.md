@@ -36,6 +36,7 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * `$chatlists`: `\danog\MadelineProto\Namespace\Chatlists` 
 * `$stories`: `\danog\MadelineProto\Namespace\Stories` 
 * `$premium`: `\danog\MadelineProto\Namespace\Premium` 
+* `$smsjobs`: `\danog\MadelineProto\Namespace\Smsjobs` 
 
 ## Method list:
 * [`startAndLoop(string $session, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): void`](#startandloop-string-session-danog-madelineproto-settingsabstract-settings-null-void)

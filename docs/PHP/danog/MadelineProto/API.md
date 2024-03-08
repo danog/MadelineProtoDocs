@@ -74,6 +74,7 @@ Main API wrapper for MadelineProto.
 * `$chatlists`: `\danog\MadelineProto\Namespace\Chatlists` 
 * `$stories`: `\danog\MadelineProto\Namespace\Stories` 
 * `$premium`: `\danog\MadelineProto\Namespace\Premium` 
+* `$smsjobs`: `\danog\MadelineProto\Namespace\Smsjobs` 
 
 ## Method list:
 * [`getWebAPITemplate(): string`](#getwebapitemplate-string)
