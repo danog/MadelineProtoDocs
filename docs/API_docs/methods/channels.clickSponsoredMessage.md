@@ -1,6 +1,6 @@
 ---
 title: "channels.clickSponsoredMessage"
-description: "channels.clickSponsoredMessage parameters, return type and example"
+description: "Informs the server that the user has either"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,17 @@ redirect_from: /API_docs/methods/channels_clickSponsoredMessage.html
 
 
 
+Informs the server that the user has either:
+
+- Clicked on a link in the sponsored message
+- Has opened a sponsored chat or a sponsored website via the associated button
+- Has opened the sponsored chat via the sponsored message name, the sponsored message photo, or a mention in the sponsored message
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Channel where the sponsored message was posted | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

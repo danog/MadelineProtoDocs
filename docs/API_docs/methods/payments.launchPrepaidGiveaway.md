@@ -1,6 +1,6 @@
 ---
 title: "payments.launchPrepaidGiveaway"
-description: "payments.launchPrepaidGiveaway parameters, return type and example"
+description: "Launch a [prepaid giveaway »](https://core.telegram.org/api/giveaways)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/payments_launchPrepaidGiveaway.html
 
 
 
+Launch a [prepaid giveaway »](https://core.telegram.org/api/giveaways).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|giveaway\_id|[long](/API_docs/types/long.html) | Yes|
-|purpose|[InputStorePaymentPurpose](/API_docs/types/InputStorePaymentPurpose.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer where to launch the giveaway. | Optional|
+|giveaway\_id|[long](/API_docs/types/long.html) | The prepaid giveaway ID. | Yes|
+|purpose|[InputStorePaymentPurpose](/API_docs/types/InputStorePaymentPurpose.html) | Giveway parameters | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

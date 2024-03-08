@@ -1,6 +1,6 @@
 ---
 title: "postInteractionCountersStory"
-description: "postInteractionCountersStory attributes, type and example"
+description: "Interaction counters for a story."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,14 +9,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Interaction counters for a story.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|story\_id|[int](/API_docs/types/int.html) | Yes|
-|views|[int](/API_docs/types/int.html) | Yes|
-|forwards|[int](/API_docs/types/int.html) | Yes|
-|reactions|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|story\_id|[int](/API_docs/types/int.html) | Yes|Story ID|
+|views|[int](/API_docs/types/int.html) | Yes|Number of views|
+|forwards|[int](/API_docs/types/int.html) | Yes|Number of forwards and reposts to public chats and channels|
+|reactions|[int](/API_docs/types/int.html) | Yes|Number of reactions|
 
 
 

@@ -19,8 +19,8 @@ redirect_from: /API_docs/constructors/messages_transcribedAudio.html
 |pending|[Bool](/API_docs/types/Bool.html) | Optional|Whether the transcription is partial because audio transcription is still in progress, if set the user may receive further [updateTranscribedAudio](../constructors/updateTranscribedAudio.html) updates with the updated transcription.|
 |transcription\_id|[long](/API_docs/types/long.html) | Yes|Transcription ID|
 |text|[string](/API_docs/types/string.html) | Yes|Transcripted text|
-|trial\_remains\_num|[int](/API_docs/types/int.html) | Optional|
-|trial\_remains\_until\_date|[int](/API_docs/types/int.html) | Optional|
+|trial\_remains\_num|[int](/API_docs/types/int.html) | Optional|For non-[Premium](https://core.telegram.org/api/premium) users, this flag will be set, indicating the remaining transcriptions in the free trial period.|
+|trial\_remains\_until\_date|[int](/API_docs/types/int.html) | Optional|For non-[Premium](https://core.telegram.org/api/premium) users, this flag will be set, indicating the date when the `trial_remains_num` counter will be reset to the maximum value of [transcribe\_audio\_trial\_weekly\_number](https://core.telegram.org/api/config#transcribe-audio-trial-weekly-number).|
 
 
 

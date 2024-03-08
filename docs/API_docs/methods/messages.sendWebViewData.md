@@ -1,6 +1,6 @@
 ---
 title: "messages.sendWebViewData"
-description: "Used by the user to relay data from an opened [reply keyboard bot web app](https://core.telegram.org/api/bots/webapps) to the bot that owns it."
+description: "Used by the user to relay data from an opened [reply keyboard bot mini app](https://core.telegram.org/api/bots/webapps) to the bot that owns it."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/messages_sendWebViewData.html
 
 
 
-Used by the user to relay data from an opened [reply keyboard bot web app](https://core.telegram.org/api/bots/webapps) to the bot that owns it.
+Used by the user to relay data from an opened [reply keyboard bot mini app](https://core.telegram.org/api/bots/webapps) to the bot that owns it.
 
 ### Parameters:
 

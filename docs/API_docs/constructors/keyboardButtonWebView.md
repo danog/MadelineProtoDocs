@@ -1,6 +1,6 @@
 ---
 title: "keyboardButtonWebView"
-description: "Button to open a bot web app using messages.requestWebView, sending over user information after user confirmation."
+description: "Button to open a bot mini app using messages.requestWebView, sending over user information after user confirmation."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Button to open a [bot web app](https://core.telegram.org/api/bots/webapps) using [messages.requestWebView](../methods/messages.requestWebView.html), sending over user information after user confirmation.
+Button to open a [bot mini app](https://core.telegram.org/api/bots/webapps) using [messages.requestWebView](../methods/messages.requestWebView.html), sending over user information after user confirmation.
 
 Can only be sent or received as part of an inline keyboard, use [keyboardButtonSimpleWebView](../constructors/keyboardButtonSimpleWebView.html) for reply keyboards.
 

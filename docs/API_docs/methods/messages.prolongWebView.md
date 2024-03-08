@@ -23,7 +23,7 @@ If the method returns a `QUERY_ID_INVALID` error, the webview must be closed.
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Dialog where the web app was opened. | Optional|
 |bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Bot that owns the [web app](https://core.telegram.org/api/bots/webapps) | Optional|
 |query\_id|[long](/API_docs/types/long.html) | Web app interaction ID obtained from [messages.requestWebView](../methods/messages.requestWebView.html) | Yes|
-|reply\_to|[InputReplyTo](/API_docs/types/InputReplyTo.html) |  | Optional|
+|reply\_to|[InputReplyTo](/API_docs/types/InputReplyTo.html) | If set, indicates that the inline message that will be sent by the bot on behalf of the user once the web app interaction is [terminated](../methods/messages.sendWebViewResultMessage.html) should be sent in reply to the specified message or story. | Optional|
 |send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Open the web app as the specified peer | Optional|
 
 

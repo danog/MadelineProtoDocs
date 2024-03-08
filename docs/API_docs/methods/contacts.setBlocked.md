@@ -1,6 +1,6 @@
 ---
 title: "contacts.setBlocked"
-description: "contacts.setBlocked parameters, return type and example"
+description: "Replace the contents of an entire [blocklist, see here for more info »](https://core.telegram.org/api/block)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/contacts_setBlocked.html
 
 
 
+Replace the contents of an entire [blocklist, see here for more info »](https://core.telegram.org/api/block).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|my\_stories\_from|[Bool](/API_docs/types/Bool.html) | Optional|
-|id|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Yes|
-|limit|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|my\_stories\_from|[Bool](/API_docs/types/Bool.html) | Whether to edit the story blocklist; if not set, will edit the main blocklist. See [here »](https://core.telegram.org/api/block) for differences between the two. | Optional|
+|id|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Full content of the blocklist. | Yes|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

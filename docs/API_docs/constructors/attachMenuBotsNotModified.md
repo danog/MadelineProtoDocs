@@ -1,6 +1,6 @@
 ---
 title: "attachMenuBotsNotModified"
-description: "The list of bot web apps hasn't changed"
+description: "The list of bot mini apps hasn't changed"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-The list of bot web apps hasn't changed
+The list of bot mini apps hasn't changed
 
 
 

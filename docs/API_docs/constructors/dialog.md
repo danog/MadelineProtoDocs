@@ -17,7 +17,7 @@ Chat
 |----------|---------------|----------|-------------|
 |pinned|[Bool](/API_docs/types/Bool.html) | Optional|Is the dialog pinned|
 |unread\_mark|[Bool](/API_docs/types/Bool.html) | Optional|Whether the chat was manually marked as unread|
-|view\_forum\_as\_messages|[Bool](/API_docs/types/Bool.html) | Optional|
+|view\_forum\_as\_messages|[Bool](/API_docs/types/Bool.html) | Optional|Users may also choose to display messages from all topics of a [forum](https://core.telegram.org/api/forum) as if they were sent to a normal group, using a "View as messages" setting in the local client.  <br>This setting only affects the current account, and is synced to other logged in sessions using the [channels.toggleViewForumAsMessages](../methods/channels.toggleViewForumAsMessages.html) method; invoking this method will update the value of this flag.|
 |peer|[long](/API_docs/types/long.html) | Yes|The chat|
 |top\_message|[int](/API_docs/types/int.html) | Yes|The latest message ID|
 |read\_inbox\_max\_id|[int](/API_docs/types/int.html) | Yes|Position up to which all incoming messages are read.|

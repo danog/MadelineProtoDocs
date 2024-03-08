@@ -1,6 +1,6 @@
 ---
 title: "premium.getUserBoosts"
-description: "premium.getUserBoosts parameters, return type and example"
+description: "Returns the lists of boost that were applied to a channel by a specific user (admins only)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/premium_getUserBoosts.html
 
 
 
+Returns the lists of boost that were applied to a channel by a specific user (admins only)
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The channel | Optional|
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The user | Optional|
 
 
 ### Return type: [premium.BoostsList](/API_docs/types/premium.BoostsList.html)

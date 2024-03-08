@@ -1,6 +1,6 @@
 ---
 title: "messages.deleteSavedHistory"
-description: "messages.deleteSavedHistory parameters, return type and example"
+description: "Deletes messages forwarded from a specific peer to [saved messages »](https://core.telegram.org/api/saved-messages)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,16 @@ redirect_from: /API_docs/methods/messages_deleteSavedHistory.html
 
 
 
+Deletes messages forwarded from a specific peer to [saved messages »](https://core.telegram.org/api/saved-messages).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|max\_id|[int](/API_docs/types/int.html) | Optional|
-|min\_date|[int](/API_docs/types/int.html) | Optional|
-|max\_date|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer, whose messages will be deleted from [saved messages »](https://core.telegram.org/api/saved-messages) | Optional|
+|max\_id|[int](/API_docs/types/int.html) | Maximum ID of message to delete | Optional|
+|min\_date|[int](/API_docs/types/int.html) | Delete all messages newer than this UNIX timestamp | Optional|
+|max\_date|[int](/API_docs/types/int.html) | Delete all messages older than this UNIX timestamp | Optional|
 
 
 ### Return type: [messages.AffectedHistory](/API_docs/types/messages.AffectedHistory.html)

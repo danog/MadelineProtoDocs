@@ -1,6 +1,6 @@
 ---
 title: "account.getChatThemes"
-description: "Get all available chat themes"
+description: "Get all available chat [themes »](https://core.telegram.org/api/themes)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/account_getChatThemes.html
 
 
 
-Get all available chat themes
+Get all available chat [themes »](https://core.telegram.org/api/themes).
 
 ### Parameters:
 

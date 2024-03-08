@@ -1,6 +1,6 @@
 ---
 title: "messageActionRequestedPeer"
-description: "Contains info about a peer that the user shared with the bot after clicking on a keyboardButtonRequestPeer button."
+description: "Contains info about one or more peers that the user shared with the bot after clicking on a keyboardButtonRequestPeer button."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,14 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Contains info about a peer that the user shared with the bot after clicking on a [keyboardButtonRequestPeer](../constructors/keyboardButtonRequestPeer.html) button.
+Contains info about one or more peers that the user shared with the bot after clicking on a [keyboardButtonRequestPeer](../constructors/keyboardButtonRequestPeer.html) button.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |button\_id|[int](/API_docs/types/int.html) | Yes|`button_id` contained in the [keyboardButtonRequestPeer](../constructors/keyboardButtonRequestPeer.html)|
-|peers|Array of [Peer](/API_docs/types/Peer.html) | Yes|
+|peers|Array of [Peer](/API_docs/types/Peer.html) | Yes|The shared peers|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "messages.saveDefaultSendAs"
-description: "Change the default peer that should be used when sending messages to a specific group"
+description: "Change the default peer that should be used when sending messages, reactions, poll votes to a specific group"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/messages_saveDefaultSendAs.html
 
 
 
-Change the default peer that should be used when sending messages to a specific group
+Change the default peer that should be used when sending messages, reactions, poll votes to a specific group
 
 ### Parameters:
 

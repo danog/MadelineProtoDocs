@@ -13,6 +13,8 @@ redirect_from: /API_docs/methods/messages_sendVote.html
 
 Vote in a [poll](../constructors/poll.html)
 
+Starting from layer 159, the vote will be sent from the peer specified using [messages.saveDefaultSendAs](../methods/messages.saveDefaultSendAs.html).
+
 ### Parameters:
 
 | Name     |    Type       | Description | Required |

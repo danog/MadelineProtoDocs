@@ -18,7 +18,7 @@ Edit message
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |no\_webpage|[Bool](/API_docs/types/Bool.html) | Disable webpage preview | Optional|
-|invert\_media|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|invert\_media|[Bool](/API_docs/types/Bool.html) | If set, any eventual webpage preview will be shown on top of the message instead of at the bottom. | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Where was the message sent | Optional|
 |id|[int](/API_docs/types/int.html) | ID of the message to edit | Optional|
 |message|[string](/API_docs/types/string.html) | New message | Optional|
@@ -27,6 +27,7 @@ Edit message
 |entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | [Message entities for styled text](https://core.telegram.org/api/entities) | Optional|
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
 |schedule\_date|[int](/API_docs/types/int.html) | Scheduled message date for [scheduled messages](https://core.telegram.org/api/scheduled-messages) | Optional|
+|quick\_reply\_shortcut\_id|[int](/API_docs/types/int.html) |  | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -46,7 +47,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->editMessage(no_webpage: $Bool, invert_media: $Bool, peer: $InputPeer, id: $int, message: 'string', media: $InputMedia, reply_markup: $ReplyMarkup, entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', schedule_date: $int, );
+$Updates = $MadelineProto->messages->editMessage(no_webpage: $Bool, invert_media: $Bool, peer: $InputPeer, id: $int, message: 'string', media: $InputMedia, reply_markup: $ReplyMarkup, entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', schedule_date: $int, quick_reply_shortcut_id: $int, );
 ```
 
 

@@ -23,7 +23,7 @@ Use [contacts.importContacts](../methods/contacts.importContacts.html) to add co
 |id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Telegram ID of the other user | Optional|
 |first\_name|[string](/API_docs/types/string.html) | First name | Optional|
 |last\_name|[string](/API_docs/types/string.html) | Last name | Optional|
-|phone|[string](/API_docs/types/string.html) | User's phone number | Optional|
+|phone|[string](/API_docs/types/string.html) | User's phone number, may be omitted to simply add the user to the contact list, without a phone number. | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

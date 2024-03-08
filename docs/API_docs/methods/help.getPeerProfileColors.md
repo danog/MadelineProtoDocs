@@ -1,6 +1,6 @@
 ---
 title: "help.getPeerProfileColors"
-description: "help.getPeerProfileColors parameters, return type and example"
+description: "Get the set of [accent color palettes »](https://core.telegram.org/api/colors) that can be used in profile page backgrounds."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/help_getPeerProfileColors.html
 
 
 
+Get the set of [accent color palettes »](https://core.telegram.org/api/colors) that can be used in profile page backgrounds.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|Array of [long](/API_docs/types/long.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hash|Array of [long](/API_docs/types/long.html) |  | Optional|
 
 
 ### Return type: [help.PeerColors](/API_docs/types/help.PeerColors.html)

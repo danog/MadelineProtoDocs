@@ -1,6 +1,6 @@
 ---
 title: "stats.publicForwards"
-description: "stats.publicForwards attributes, type and example"
+description: "Contains info about the forwards of a story as a message to public chats and reposts by public channels."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/stats_publicForwards.html
@@ -10,15 +10,17 @@ redirect_from: /API_docs/constructors/stats_publicForwards.html
 
 
 
+Contains info about the forwards of a [story](https://core.telegram.org/api/stories) as a message to public chats and reposts by public channels.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|count|[int](/API_docs/types/int.html) | Yes|
-|forwards|Array of [PublicForward](/API_docs/types/PublicForward.html) | Yes|
-|next\_offset|[string](/API_docs/types/string.html) | Optional|
-|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
-|users|Array of [User](/API_docs/types/User.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|count|[int](/API_docs/types/int.html) | Yes|Total number of results|
+|forwards|Array of [PublicForward](/API_docs/types/PublicForward.html) | Yes|Info about the forwards of a story.|
+|next\_offset|[string](/API_docs/types/string.html) | Optional|Offset used for [pagination](https://core.telegram.org/api/offsets).|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Mentioned chats|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Mentioned users|
 
 
 

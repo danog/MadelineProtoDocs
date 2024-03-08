@@ -1,6 +1,6 @@
 ---
 title: "payments.getGiveawayInfo"
-description: "payments.getGiveawayInfo parameters, return type and example"
+description: "Obtain information about a [Telegram Premium giveaway »](https://core.telegram.org/api/giveaways)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/payments_getGiveawayInfo.html
 
 
 
+Obtain information about a [Telegram Premium giveaway »](https://core.telegram.org/api/giveaways).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer where the giveaway was posted. | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | Message ID of the [messageActionGiveawayLaunch](../constructors/messageActionGiveawayLaunch.html) service message | Optional|
 
 
 ### Return type: [payments.GiveawayInfo](/API_docs/types/payments.GiveawayInfo.html)

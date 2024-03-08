@@ -18,10 +18,10 @@ Notification settings.
 |show\_previews|[Bool](/API_docs/types/Bool.html) | Optional|If the text of the message shall be displayed in notification|
 |silent|[Bool](/API_docs/types/Bool.html) | Optional|Peer was muted?|
 |mute\_until|[int](/API_docs/types/int.html) | Optional|Date until which all notifications shall be switched off|
-|sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|Name of an audio file for notification|
-|stories\_muted|[Bool](/API_docs/types/Bool.html) | Optional|
-|stories\_hide\_sender|[Bool](/API_docs/types/Bool.html) | Optional|
-|stories\_sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|
+|sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|Identifier of an audio file to play for notifications.|
+|stories\_muted|[Bool](/API_docs/types/Bool.html) | Optional|Whether story notifications should be disabled.|
+|stories\_hide\_sender|[Bool](/API_docs/types/Bool.html) | Optional|Whether the sender name should be displayed in story notifications.|
+|stories\_sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|Identifier of an audio file to play for story notifications.|
 
 
 

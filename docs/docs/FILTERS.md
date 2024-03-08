@@ -808,7 +808,7 @@ Here's a full list of all MTProto filters (click on each filter name to view the
 * [onUpdateChatParticipants &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateChatParticipants.html) - Composition of chat participants changed.
 * [onUpdateUserStatus &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateUserStatus.html) - Contact status update.
 * [onUpdateUserName &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateUserName.html) - Changes the user's first name, last name and username.
-* [onUpdateNewAuthorization &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateNewAuthorization.html) - 
+* [onUpdateNewAuthorization &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateNewAuthorization.html) - A new session logged into the current user's account through an unknown device.
 * [onUpdateNewEncryptedMessage &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateNewEncryptedMessage.html) - New encrypted message.
 * [onUpdateEncryptedChatTyping &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateEncryptedChatTyping.html) - Interlocutor is typing a message in an encrypted chat. Update period is 6 second. If upon this time there is no repeated update, it shall be considered that the interlocutor stopped typing.
 * [onUpdateEncryption &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateEncryption.html) - Change of state in an encrypted chat.
@@ -825,7 +825,7 @@ Here's a full list of all MTProto filters (click on each filter name to view the
 * [onUpdateWebPage &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateWebPage.html) - An [instant view](https://instantview.telegram.org) webpage preview was generated
 * [onUpdateReadMessagesContents &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateReadMessagesContents.html) - Contents of messages in the common [message box](https://core.telegram.org/api/updates) were read
 * [onUpdateChannelTooLong &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateChannelTooLong.html) - There are new updates in the specified channel, the client must fetch them.  
-* [onUpdateChannel &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateChannel.html) - A new channel is available
+* [onUpdateChannel &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateChannel.html) - A new channel or supergroup is available, or info about an existing channel has changed and must be refeteched.
 * [onUpdateNewChannelMessage &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateNewChannelMessage.html) - A new message was sent in a [channel/supergroup](https://core.telegram.org/api/channel)
 * [onUpdateReadChannelInbox &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateReadChannelInbox.html) - Incoming messages in a [channel/supergroup](https://core.telegram.org/api/channel) were read
 * [onUpdateDeleteChannelMessages &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateDeleteChannelMessages.html) - Some messages in a [supergroup/channel](https://core.telegram.org/api/channel) were deleted
@@ -872,7 +872,7 @@ Here's a full list of all MTProto filters (click on each filter name to view the
 * [onUpdateTheme &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateTheme.html) - A cloud theme was updated
 * [onUpdateGeoLiveViewed &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateGeoLiveViewed.html) - Live geoposition message was viewed
 * [onUpdateLoginToken &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateLoginToken.html) - A login token (for login via QR code) was accepted.
-* [onUpdateMessagePollVote &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateMessagePollVote.html) - A specific user has voted in a poll
+* [onUpdateMessagePollVote &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateMessagePollVote.html) - A specific peer has voted in a poll
 * [onUpdateDialogFilter &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateDialogFilter.html) - A new [folder](https://core.telegram.org/api/folders) was added
 * [onUpdateDialogFilterOrder &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateDialogFilterOrder.html) - New [folder](https://core.telegram.org/api/folders) order
 * [onUpdateDialogFilters &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateDialogFilters.html) - Clients should update [folder](https://core.telegram.org/api/folders) info
@@ -880,7 +880,7 @@ Here's a full list of all MTProto filters (click on each filter name to view the
 * [onUpdateChannelMessageForwards &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateChannelMessageForwards.html) - The forward counter of a message in a channel has changed
 * [onUpdateReadChannelDiscussionInbox &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateReadChannelDiscussionInbox.html) - Incoming comments in a [discussion thread](https://core.telegram.org/api/threads) were marked as read
 * [onUpdateReadChannelDiscussionOutbox &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateReadChannelDiscussionOutbox.html) - Outgoing comments in a [discussion thread](https://core.telegram.org/api/threads) were marked as read
-* [onUpdatePeerBlocked &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updatePeerBlocked.html) - A peer was blocked
+* [onUpdatePeerBlocked &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updatePeerBlocked.html) - We blocked a peer, see [here »](https://core.telegram.org/api/block) for more info on blocklists.
 * [onUpdateChannelUserTyping &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateChannelUserTyping.html) - A user is typing in a [supergroup, channel](https://core.telegram.org/api/channel) or [message thread](https://core.telegram.org/api/threads)
 * [onUpdatePinnedMessages &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updatePinnedMessages.html) - Some messages were pinned in a chat
 * [onUpdatePinnedChannelMessages &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updatePinnedChannelMessages.html) - Messages were pinned/unpinned in a [channel/supergroup](https://core.telegram.org/api/channel)
@@ -912,19 +912,25 @@ Here's a full list of all MTProto filters (click on each filter name to view the
 * [onUpdateUser &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateUser.html) - User information was updated, it must be refetched using [users.getFullUser](https://docs.madelineproto.xyz/API_docs/methods/users.getFullUser.html).
 * [onUpdateAutoSaveSettings &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateAutoSaveSettings.html) - Media autosave settings have changed and must be refetched using [account.getAutoSaveSettings](https://docs.madelineproto.xyz/API_docs/methods/account.getAutoSaveSettings.html).
 * [onUpdateGroupInvitePrivacyForbidden &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateGroupInvitePrivacyForbidden.html) - 0-N updates of this type may be returned only when invoking [messages.addChatUser](https://docs.madelineproto.xyz/API_docs/methods/messages.addChatUser.html), [channels.inviteToChannel](https://docs.madelineproto.xyz/API_docs/methods/channels.inviteToChannel.html) or [messages.createChat](https://docs.madelineproto.xyz/API_docs/methods/messages.createChat.html): it indicates we couldn't add a user to a chat because of their privacy settings; if required, an [invite link](https://core.telegram.org/api/invites) can be shared with the user, instead.
-* [onUpdateStory &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateStory.html) - 
-* [onUpdateReadStories &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateReadStories.html) - 
-* [onUpdateStoryID &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateStoryID.html) - 
-* [onUpdateStoriesStealthMode &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateStoriesStealthMode.html) - 
-* [onUpdateSentStoryReaction &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateSentStoryReaction.html) - 
-* [onUpdateBotChatBoost &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBotChatBoost.html) - 
-* [onUpdateChannelViewForumAsMessages &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateChannelViewForumAsMessages.html) - 
-* [onUpdatePeerWallpaper &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updatePeerWallpaper.html) - 
-* [onUpdateBotMessageReaction &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBotMessageReaction.html) - 
-* [onUpdateBotMessageReactions &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBotMessageReactions.html) - 
-* [onUpdateSavedDialogPinned &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateSavedDialogPinned.html) - 
-* [onUpdatePinnedSavedDialogs &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updatePinnedSavedDialogs.html) - 
+* [onUpdateStory &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateStory.html) - A new story was posted.
+* [onUpdateReadStories &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateReadStories.html) - Stories of a specific peer were marked as read.
+* [onUpdateStoryID &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateStoryID.html) - A story was successfully uploaded.
+* [onUpdateStoriesStealthMode &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateStoriesStealthMode.html) - Indicates that [stories stealth mode](https://core.telegram.org/api/stories#stealth-mode) was activated.
+* [onUpdateSentStoryReaction &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateSentStoryReaction.html) - Indicates we [reacted to a story »](https://core.telegram.org/api/stories#reactions).
+* [onUpdateBotChatBoost &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBotChatBoost.html) - A [channel boost](https://core.telegram.org/api/boost) has changed (bots only)
+* [onUpdateChannelViewForumAsMessages &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateChannelViewForumAsMessages.html) - Users may also choose to display messages from all topics as if they were sent to a normal group, using a "View as messages" setting in the local client.  
+* [onUpdatePeerWallpaper &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updatePeerWallpaper.html) - The [wallpaper »](https://core.telegram.org/api/wallpapers) of a given peer has changed.
+* [onUpdateBotMessageReaction &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBotMessageReaction.html) - Bots only: a user has changed their reactions on a message with public reactions.
+* [onUpdateBotMessageReactions &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBotMessageReactions.html) - Bots only: the number of reactions on a message with anonymous reactions has changed.
+* [onUpdateSavedDialogPinned &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateSavedDialogPinned.html) - A [saved message dialog](https://core.telegram.org/api/saved-messages) was pinned/unpinned
+* [onUpdatePinnedSavedDialogs &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updatePinnedSavedDialogs.html) - [Pinned saved dialogs »](https://core.telegram.org/api/saved-messages) were updated
 * [onUpdateSavedReactionTags &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateSavedReactionTags.html) - 
+* [onUpdateSmsJob &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateSmsJob.html) - 
+* [onUpdateQuickReplies &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateQuickReplies.html) - 
+* [onUpdateNewQuickReply &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateNewQuickReply.html) - 
+* [onUpdateDeleteQuickReply &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateDeleteQuickReply.html) - 
+* [onUpdateQuickReplyMessage &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateQuickReplyMessage.html) - 
+* [onUpdateDeleteQuickReplyMessages &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateDeleteQuickReplyMessages.html) - 
 
 
 <!-- cut_here_end mtprotofilters -->

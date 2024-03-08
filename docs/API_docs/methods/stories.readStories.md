@@ -1,6 +1,6 @@
 ---
 title: "stories.readStories"
-description: "stories.readStories parameters, return type and example"
+description: "Mark all stories up to a certain ID as read, for a given peer; will emit an [updateReadStories](../constructors/updateReadStories.html) update to all logged-in sessions."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/stories_readStories.html
 
 
 
+Mark all stories up to a certain ID as read, for a given peer; will emit an [updateReadStories](../constructors/updateReadStories.html) update to all logged-in sessions.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|max\_id|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer whose stories should be marked as read. | Optional|
+|max\_id|[int](/API_docs/types/int.html) | Mark all stories up to and including this ID as read | Optional|
 
 
 ### Return type: [Vector\_of\_int](/API_docs/types/int.html)

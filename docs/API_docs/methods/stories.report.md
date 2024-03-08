@@ -1,6 +1,6 @@
 ---
 title: "stories.report"
-description: "stories.report parameters, return type and example"
+description: "Report a story."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,16 @@ redirect_from: /API_docs/methods/stories_report.html
 
 
 
+Report a story.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|id|Array of [int](/API_docs/types/int.html) | Yes|
-|reason|[ReportReason](/API_docs/types/ReportReason.html) | Yes|
-|message|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer that uploaded the story. | Optional|
+|id|Array of [int](/API_docs/types/int.html) | IDs of the stories to report. | Yes|
+|reason|[ReportReason](/API_docs/types/ReportReason.html) | Why are these storeis being reported. | Yes|
+|message|[string](/API_docs/types/string.html) | Comment for report moderation | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

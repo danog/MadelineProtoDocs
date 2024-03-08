@@ -1,6 +1,6 @@
 ---
 title: "messages.getSavedHistory"
-description: "messages.getSavedHistory parameters, return type and example"
+description: "Returns [saved messages »](https://core.telegram.org/api/saved-messages) forwarded from a specific peer"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,18 +11,20 @@ redirect_from: /API_docs/methods/messages_getSavedHistory.html
 
 
 
+Returns [saved messages »](https://core.telegram.org/api/saved-messages) forwarded from a specific peer
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|offset\_id|[int](/API_docs/types/int.html) | Optional|
-|offset\_date|[int](/API_docs/types/int.html) | Optional|
-|add\_offset|[int](/API_docs/types/int.html) | Optional|
-|limit|[int](/API_docs/types/int.html) | Optional|
-|max\_id|[int](/API_docs/types/int.html) | Optional|
-|min\_id|[int](/API_docs/types/int.html) | Optional|
-|hash|Array of [long](/API_docs/types/long.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Target peer | Optional|
+|offset\_id|[int](/API_docs/types/int.html) | Only return messages starting from the specified message ID | Optional|
+|offset\_date|[int](/API_docs/types/int.html) | Only return messages sent before the specified date | Optional|
+|add\_offset|[int](/API_docs/types/int.html) | Number of list elements to be skipped, negative values are also accepted. | Optional|
+|limit|[int](/API_docs/types/int.html) | Number of results to return | Optional|
+|max\_id|[int](/API_docs/types/int.html) | If a positive value was transferred, the method will return only messages with IDs less than **max\_id** | Optional|
+|min\_id|[int](/API_docs/types/int.html) | If a positive value was transferred, the method will return only messages with IDs more than **min\_id** | Optional|
+|hash|Array of [long](/API_docs/types/long.html) | [Result hash](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)

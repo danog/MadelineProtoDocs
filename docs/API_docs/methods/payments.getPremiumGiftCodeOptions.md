@@ -1,6 +1,6 @@
 ---
 title: "payments.getPremiumGiftCodeOptions"
-description: "payments.getPremiumGiftCodeOptions parameters, return type and example"
+description: "Obtain a list of Telegram Premium [giveaway/gift code »](https://core.telegram.org/api/giveaways) options."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/payments_getPremiumGiftCodeOptions.html
 
 
 
+Obtain a list of Telegram Premium [giveaway/gift code »](https://core.telegram.org/api/giveaways) options.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|boost\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|boost\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The channel that will start the giveaway | Optional|
 
 
 ### Return type: [Vector\_of\_PremiumGiftCodeOption](/API_docs/types/PremiumGiftCodeOption.html)

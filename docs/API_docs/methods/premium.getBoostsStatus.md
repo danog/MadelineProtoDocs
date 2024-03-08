@@ -1,6 +1,6 @@
 ---
 title: "premium.getBoostsStatus"
-description: "premium.getBoostsStatus parameters, return type and example"
+description: "Gets the current [number of boosts](https://core.telegram.org/api/boost) of a channel."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/premium_getBoostsStatus.html
 
 
 
+Gets the current [number of boosts](https://core.telegram.org/api/boost) of a channel.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer. | Optional|
 
 
 ### Return type: [premium.BoostsStatus](/API_docs/types/premium.BoostsStatus.html)

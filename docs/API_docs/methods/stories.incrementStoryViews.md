@@ -1,6 +1,6 @@
 ---
 title: "stories.incrementStoryViews"
-description: "stories.incrementStoryViews parameters, return type and example"
+description: "Increment the view counter of one or more stories."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/stories_incrementStoryViews.html
 
 
 
+Increment the view counter of one or more stories.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|id|Array of [int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where the stories were posted. | Optional|
+|id|Array of [int](/API_docs/types/int.html) | IDs of the stories (maximum 200 at a time). | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

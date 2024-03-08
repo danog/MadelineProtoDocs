@@ -18,7 +18,7 @@ How users voted in a poll
 |----------|---------------|----------|-------------|
 |count|[int](/API_docs/types/int.html) | Yes|Total number of votes for all options (or only for the chosen `option`, if provided to [messages.getPollVotes](../methods/messages.getPollVotes.html))|
 |votes|Array of [MessagePeerVote](/API_docs/types/MessagePeerVote.html) | Yes|Vote info for each user|
-|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Mentioned chats|
 |users|Array of [User](/API_docs/types/User.html) | Yes|Info about users that voted in the poll|
 |next\_offset|[string](/API_docs/types/string.html) | Optional|Offset to use with the next [messages.getPollVotes](../methods/messages.getPollVotes.html) request, empty string if no more results are available.|
 

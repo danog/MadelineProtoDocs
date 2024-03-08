@@ -18,7 +18,7 @@ Get the number of results that would be found by a [messages.search](../methods/
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where to search | Optional|
-|saved\_peer\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
+|saved\_peer\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Search within the [saved message dialog »](https://core.telegram.org/api/saved-messages) with this ID. | Optional|
 |top\_msg\_id|[int](/API_docs/types/int.html) | If set, consider only messages within the specified [forum topic](https://core.telegram.org/api/forum#forum-topics) | Optional|
 |filters|Array of [MessagesFilter](/API_docs/types/MessagesFilter.html) | Search filters | Yes|
 

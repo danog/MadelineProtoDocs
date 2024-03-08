@@ -1,6 +1,6 @@
 ---
 title: "stories.getPeerStories"
-description: "stories.getPeerStories parameters, return type and example"
+description: "Fetch the full active [story list](https://core.telegram.org/api/stories#watching-stories) of a specific peer."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/stories_getPeerStories.html
 
 
 
+Fetch the full active [story list](https://core.telegram.org/api/stories#watching-stories) of a specific peer.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer whose stories should be fetched | Optional|
 
 
 ### Return type: [stories.PeerStories](/API_docs/types/stories.PeerStories.html)

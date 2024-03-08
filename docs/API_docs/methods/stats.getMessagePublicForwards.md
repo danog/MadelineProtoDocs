@@ -20,7 +20,7 @@ Will return a list of [messages](../constructors/message.html) with `peer_id` eq
 |----------|---------------|-------------|----------|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Source channel | Optional|
 |msg\_id|[int](/API_docs/types/int.html) | Source message ID | Optional|
-|offset|[string](/API_docs/types/string.html) |  | Optional|
+|offset|[string](/API_docs/types/string.html) | Offset for [pagination](https://core.telegram.org/api/offsets), empty string on first call, then use the `next_offset` field of the returned constructor (if present, otherwise no more results are available). | Optional|
 |limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
 
 

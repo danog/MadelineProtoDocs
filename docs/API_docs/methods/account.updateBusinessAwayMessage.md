@@ -1,0 +1,46 @@
+---
+title: "account.updateBusinessAwayMessage"
+description: "account.updateBusinessAwayMessage parameters, return type and example"
+grand_parent: "Telegram RPC API"
+parent: "Methods"
+image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
+redirect_from: /API_docs/methods/account_updateBusinessAwayMessage.html
+---
+# Method: account.updateBusinessAwayMessage
+[Back to methods index](index.html)
+
+
+
+### Parameters:
+
+| Name     |    Type       | Required |
+|----------|---------------|----------|
+|message|[InputBusinessAwayMessage](/API_docs/types/InputBusinessAwayMessage.html) | Optional|
+
+
+### Return type: [Bool](/API_docs/types/Bool.html)
+
+### Can bots use this method: **YES**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$Bool = $MadelineProto->account->updateBusinessAwayMessage(message: $InputBusinessAwayMessage, );
+```
+
+
+## Return value 
+
+If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [Bool](../types/Bool.html) will be returned instead.
+
+

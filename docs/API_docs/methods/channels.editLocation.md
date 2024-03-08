@@ -1,6 +1,6 @@
 ---
 title: "channels.editLocation"
-description: "Edit location of geogroup"
+description: "Edit location of geogroup, see [here »](https://core.telegram.org/api/nearby) for more info on geogroups."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/channels_editLocation.html
 
 
 
-Edit location of geogroup
+Edit location of geogroup, see [here »](https://core.telegram.org/api/nearby) for more info on geogroups.
 
 ### Parameters:
 

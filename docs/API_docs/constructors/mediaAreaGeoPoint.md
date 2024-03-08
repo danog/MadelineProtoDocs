@@ -1,6 +1,6 @@
 ---
 title: "mediaAreaGeoPoint"
-description: "mediaAreaGeoPoint attributes, type and example"
+description: "Represents a geolocation tag attached to a story."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents a geolocation tag attached to a [story](https://core.telegram.org/api/stories).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|coordinates|[MediaAreaCoordinates](/API_docs/types/MediaAreaCoordinates.html) | Yes|
-|geo|[GeoPoint](/API_docs/types/GeoPoint.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|coordinates|[MediaAreaCoordinates](/API_docs/types/MediaAreaCoordinates.html) | Yes|The size and position of the media area corresponding to the location sticker on top of the story media.|
+|geo|[GeoPoint](/API_docs/types/GeoPoint.html) | Optional|Coordinates of the geolocation tag.|
 
 
 

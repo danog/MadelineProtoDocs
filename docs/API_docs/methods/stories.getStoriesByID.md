@@ -1,6 +1,6 @@
 ---
 title: "stories.getStoriesByID"
-description: "stories.getStoriesByID parameters, return type and example"
+description: "Obtain full info about a set of [stories](https://core.telegram.org/api/stories) by their IDs."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/stories_getStoriesByID.html
 
 
 
+Obtain full info about a set of [stories](https://core.telegram.org/api/stories) by their IDs.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|id|Array of [int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where the stories were posted | Optional|
+|id|Array of [int](/API_docs/types/int.html) | Story IDs | Yes|
 
 
 ### Return type: [stories.Stories](/API_docs/types/stories.Stories.html)

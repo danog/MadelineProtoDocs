@@ -1,6 +1,6 @@
 ---
 title: "stories.getChatsToSend"
-description: "stories.getChatsToSend parameters, return type and example"
+description: "Obtain a list of channels where the user can post [stories](https://core.telegram.org/api/stories)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -10,6 +10,8 @@ redirect_from: /API_docs/methods/stories_getChatsToSend.html
 [Back to methods index](index.html)
 
 
+
+Obtain a list of channels where the user can post [stories](https://core.telegram.org/api/stories)
 
 
 

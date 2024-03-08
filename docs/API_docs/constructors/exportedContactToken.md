@@ -16,7 +16,7 @@ Describes a [temporary profile link](https://core.telegram.org/api/links#tempora
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |url|[string](/API_docs/types/string.html) | Yes|The [temporary profile link](https://core.telegram.org/api/links#temporary-profile-links).|
-|expires|[int](/API_docs/types/int.html) | Yes|Its expiry date|
+|expires|[int](/API_docs/types/int.html) | Yes|Its expiration date|
 
 
 

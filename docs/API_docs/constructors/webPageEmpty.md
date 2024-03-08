@@ -16,7 +16,7 @@ No preview is available for the webpage
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |id|[long](/API_docs/types/long.html) | Yes|Preview ID|
-|url|[string](/API_docs/types/string.html) | Optional|
+|url|[string](/API_docs/types/string.html) | Optional|URL of the webpage.|
 
 
 

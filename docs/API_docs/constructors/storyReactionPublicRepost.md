@@ -1,6 +1,6 @@
 ---
 title: "storyReactionPublicRepost"
-description: "storyReactionPublicRepost attributes, type and example"
+description: "A certain peer has reposted the story."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A certain peer has reposted the story.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer\_id|[Peer](/API_docs/types/Peer.html) | Yes|
-|story|[StoryItem](/API_docs/types/StoryItem.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer\_id|[Peer](/API_docs/types/Peer.html) | Yes|The peer that reposted the story.|
+|story|[StoryItem](/API_docs/types/StoryItem.html) | Yes|The reposted story.|
 
 
 

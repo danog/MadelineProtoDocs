@@ -1,6 +1,6 @@
 ---
 title: "contacts.getContactIDs"
-description: "Get contact by telegram IDs"
+description: "Get the telegram IDs of all contacts.  "
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,8 @@ redirect_from: /API_docs/methods/contacts_getContactIDs.html
 
 
 
-Get contact by telegram IDs
+Get the telegram IDs of all contacts.  
+Returns an array of Telegram user IDs for all contacts (0 if a contact does not have an associated Telegram account or have hidden their account using privacy settings).
 
 ### Parameters:
 

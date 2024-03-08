@@ -1,6 +1,6 @@
 ---
 title: "attachMenuBotIconColor"
-description: "Represents an attachment menu icon color for bot web apps »"
+description: "Represents an attachment menu icon color for bot mini apps »"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Represents an attachment menu icon color for [bot web apps »](https://core.telegram.org/api/bots/attach)
+Represents an attachment menu icon color for [bot mini apps »](https://core.telegram.org/api/bots/attach)
 
 ### Attributes:
 

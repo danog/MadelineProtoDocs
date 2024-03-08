@@ -22,11 +22,11 @@ You cannot use this method directly, please use the [event handler](https://docs
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |pts|[int](/API_docs/types/int.html) | PTS, see [updates](https://core.telegram.org/api/updates). | Optional|
-|pts\_limit|[int](/API_docs/types/int.html) |  | Optional|
+|pts\_limit|[int](/API_docs/types/int.html) | PTS limit | Optional|
 |pts\_total\_limit|[int](/API_docs/types/int.html) | For fast updating: if provided and `pts + pts_total_limit < remote pts`, [updates.differenceTooLong](../constructors/updates.differenceTooLong.html) will be returned.<br>Simply tells the server to not return the difference if it is bigger than `pts_total_limit`<br>If the remote pts is too big (&gt; ~4000000), this field will default to 1000000 | Optional|
 |date|[int](/API_docs/types/int.html) | date, see [updates](https://core.telegram.org/api/updates). | Optional|
 |qts|[int](/API_docs/types/int.html) | QTS, see [updates](https://core.telegram.org/api/updates). | Optional|
-|qts\_limit|[int](/API_docs/types/int.html) |  | Optional|
+|qts\_limit|[int](/API_docs/types/int.html) | QTS limit | Optional|
 
 
 ### Return type: [updates.Difference](/API_docs/types/updates.Difference.html)

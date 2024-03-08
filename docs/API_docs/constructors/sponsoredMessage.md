@@ -22,12 +22,12 @@ A [sponsored message](https://core.telegram.org/api/sponsored-messages).
 |chat\_invite\_hash|[string](/API_docs/types/string.html) | Optional|Chat invite|
 |channel\_post|[int](/API_docs/types/int.html) | Optional|Optional link to a channel post if `from_id` points to a channel|
 |start\_param|[string](/API_docs/types/string.html) | Optional|Parameter for the bot start message if the sponsored chat is a chat with a bot.|
-|webpage|[SponsoredWebPage](/API_docs/types/SponsoredWebPage.html) | Optional|
-|app|[BotApp](/API_docs/types/BotApp.html) | Optional|
+|webpage|[SponsoredWebPage](/API_docs/types/SponsoredWebPage.html) | Optional|Sponsored website|
+|app|[BotApp](/API_docs/types/BotApp.html) | Optional|[Mini App »](https://core.telegram.org/api/bots/webapps) to open when the sponsored message is clicked.|
 |message|[string](/API_docs/types/string.html) | Yes|Sponsored message|
 |entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Optional|[Message entities for styled text](https://core.telegram.org/api/entities)|
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
-|button\_text|[string](/API_docs/types/string.html) | Optional|
+|button\_text|[string](/API_docs/types/string.html) | Optional|Text of the sponsored message button.|
 |sponsor\_info|[string](/API_docs/types/string.html) | Optional|If set, contains additional information about the sponsor to be shown along with the message.|
 |additional\_info|[string](/API_docs/types/string.html) | Optional|If set, contains additional information about the sponsored message to be shown along with the message.|
 

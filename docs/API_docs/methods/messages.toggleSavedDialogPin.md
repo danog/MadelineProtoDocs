@@ -1,6 +1,6 @@
 ---
 title: "messages.toggleSavedDialogPin"
-description: "messages.toggleSavedDialogPin parameters, return type and example"
+description: "Pin or unpin a [saved message dialog »](https://core.telegram.org/api/saved-messages)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/messages_toggleSavedDialogPin.html
 
 
 
+Pin or unpin a [saved message dialog »](https://core.telegram.org/api/saved-messages).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|pinned|[Bool](/API_docs/types/Bool.html) | Optional|
-|peer|[InputDialogPeer](/API_docs/types/InputDialogPeer.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|pinned|[Bool](/API_docs/types/Bool.html) | Whether to pin or unpin the dialog | Optional|
+|peer|[InputDialogPeer](/API_docs/types/InputDialogPeer.html) | The dialog to pin | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

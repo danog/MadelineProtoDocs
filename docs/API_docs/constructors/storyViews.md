@@ -1,6 +1,6 @@
 ---
 title: "storyViews"
-description: "storyViews attributes, type and example"
+description: "Aggregated view and reaction information of a story."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,16 +9,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Aggregated view and reaction information of a [story](https://core.telegram.org/api/stories).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|has\_viewers|[Bool](/API_docs/types/Bool.html) | Optional|
-|views\_count|[int](/API_docs/types/int.html) | Yes|
-|forwards\_count|[int](/API_docs/types/int.html) | Optional|
-|reactions|Array of [ReactionCount](/API_docs/types/ReactionCount.html) | Optional|
-|reactions\_count|[int](/API_docs/types/int.html) | Optional|
-|recent\_viewers|Array of [long](/API_docs/types/long.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|has\_viewers|[Bool](/API_docs/types/Bool.html) | Optional|If set, indicates that the viewers list is currently viewable, and was not yet deleted because the story has expired while the user didn't have a [Premium](https://core.telegram.org/api/premium) account.|
+|views\_count|[int](/API_docs/types/int.html) | Yes|View counter of the story|
+|forwards\_count|[int](/API_docs/types/int.html) | Optional|Forward counter of the story|
+|reactions|Array of [ReactionCount](/API_docs/types/ReactionCount.html) | Optional|All reactions sent to this story|
+|reactions\_count|[int](/API_docs/types/int.html) | Optional|Number of reactions added to the story|
+|recent\_viewers|Array of [long](/API_docs/types/long.html) | Optional|User IDs of some recent viewers of the story|
 
 
 

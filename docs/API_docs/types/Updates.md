@@ -46,6 +46,8 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->account->getNotifyExceptions](/API_docs/methods/account.getNotifyExceptions.html)  
 
+[$MadelineProto->account->updateConnectedBot](/API_docs/methods/account.updateConnectedBot.html)  
+
 [$MadelineProto->contacts->deleteContacts](/API_docs/methods/contacts.deleteContacts.html)  
 
 [$MadelineProto->contacts->addContact](/API_docs/methods/contacts.addContact.html)  
@@ -125,6 +127,10 @@ $message = $MadelineProto->extractMessageId($Updates);
 [$MadelineProto->messages->sendBotRequestedPeer](/API_docs/methods/messages.sendBotRequestedPeer.html)  
 
 [$MadelineProto->messages->setChatWallPaper](/API_docs/methods/messages.setChatWallPaper.html)  
+
+[$MadelineProto->messages->sendQuickReplyMessages](/API_docs/methods/messages.sendQuickReplyMessages.html)  
+
+[$MadelineProto->messages->deleteQuickReplyMessages](/API_docs/methods/messages.deleteQuickReplyMessages.html)  
 
 [$MadelineProto->channels->createChannel](/API_docs/methods/channels.createChannel.html)  
 

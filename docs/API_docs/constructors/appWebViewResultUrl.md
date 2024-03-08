@@ -1,6 +1,6 @@
 ---
 title: "appWebViewResultUrl"
-description: "Contains the link that must be used to open a named bot web app."
+description: "Contains the link that must be used to open a direct link Mini App."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Contains the link that must be used to open a [named bot web app](https://core.telegram.org/api/bots/webapps#named-bot-web-apps).
+Contains the link that must be used to open a [direct link Mini App](https://core.telegram.org/api/bots/webapps#direct-link-mini-apps).
 
 ### Attributes:
 

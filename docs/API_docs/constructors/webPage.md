@@ -15,7 +15,7 @@ Webpage preview
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|has\_large\_media|[Bool](/API_docs/types/Bool.html) | Optional|
+|has\_large\_media|[Bool](/API_docs/types/Bool.html) | Optional|Whether the size of the media in the preview can be changed.|
 |id|[long](/API_docs/types/long.html) | Yes|Preview ID|
 |url|[string](/API_docs/types/string.html) | Yes|URL of previewed webpage|
 |display\_url|[string](/API_docs/types/string.html) | Yes|Webpage URL to be displayed to the user|

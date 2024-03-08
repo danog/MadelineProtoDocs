@@ -1,6 +1,6 @@
 ---
 title: "channelAdminLogEventActionChangePeerColor"
-description: "channelAdminLogEventActionChangePeerColor attributes, type and example"
+description: "The message accent color was changed"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+The [message accent color](https://core.telegram.org/api/colors) was changed
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|prev\_value|[PeerColor](/API_docs/types/PeerColor.html) | Yes|
-|new\_value|[PeerColor](/API_docs/types/PeerColor.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|prev\_value|[PeerColor](/API_docs/types/PeerColor.html) | Yes|Previous accent palette|
+|new\_value|[PeerColor](/API_docs/types/PeerColor.html) | Yes|New accent palette|
 
 
 

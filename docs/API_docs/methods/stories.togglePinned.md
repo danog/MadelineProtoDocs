@@ -1,6 +1,6 @@
 ---
 title: "stories.togglePinned"
-description: "stories.togglePinned parameters, return type and example"
+description: "Pin or unpin one or more stories"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/stories_togglePinned.html
 
 
 
+Pin or unpin one or more stories
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|id|Array of [int](/API_docs/types/int.html) | Yes|
-|pinned|[Bool](/API_docs/types/Bool.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where to pin or unpin stories | Optional|
+|id|Array of [int](/API_docs/types/int.html) | IDs of stories to pin or unpin | Yes|
+|pinned|[Bool](/API_docs/types/Bool.html) | Whether to pin or unpin the stories | Yes|
 
 
 ### Return type: [Vector\_of\_int](/API_docs/types/int.html)

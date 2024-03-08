@@ -1,6 +1,6 @@
 ---
 title: "mediaAreaCoordinates"
-description: "mediaAreaCoordinates attributes, type and example"
+description: "Coordinates and size of a clicable rectangular area on top of a story."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,15 +9,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Coordinates and size of a clicable rectangular area on top of a story.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|x|[double](/API_docs/types/double.html) | Yes|
-|y|[double](/API_docs/types/double.html) | Yes|
-|w|[double](/API_docs/types/double.html) | Yes|
-|h|[double](/API_docs/types/double.html) | Yes|
-|rotation|[double](/API_docs/types/double.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|x|[double](/API_docs/types/double.html) | Yes|The abscissa of the rectangle's center, as a percentage of the media width (0-100).|
+|y|[double](/API_docs/types/double.html) | Yes|The ordinate of the rectangle's center, as a percentage of the media height (0-100).|
+|w|[double](/API_docs/types/double.html) | Yes|The width of the rectangle, as a percentage of the media width (0-100).|
+|h|[double](/API_docs/types/double.html) | Yes|The height of the rectangle, as a percentage of the media height (0-100).|
+|rotation|[double](/API_docs/types/double.html) | Yes|Clockwise rotation angle of the rectangle, in degrees (0-360).|
 
 
 

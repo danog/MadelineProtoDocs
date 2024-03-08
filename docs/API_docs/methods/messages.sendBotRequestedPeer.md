@@ -1,6 +1,6 @@
 ---
 title: "messages.sendBotRequestedPeer"
-description: "Send a chosen peer, as requested by a [keyboardButtonRequestPeer](../constructors/keyboardButtonRequestPeer.html) button."
+description: "Send one or more chosen peers, as requested by a [keyboardButtonRequestPeer](../constructors/keyboardButtonRequestPeer.html) button."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/messages_sendBotRequestedPeer.html
 
 
 
-Send a chosen peer, as requested by a [keyboardButtonRequestPeer](../constructors/keyboardButtonRequestPeer.html) button.
+Send one or more chosen peers, as requested by a [keyboardButtonRequestPeer](../constructors/keyboardButtonRequestPeer.html) button.
 
 ### Parameters:
 
@@ -20,7 +20,7 @@ Send a chosen peer, as requested by a [keyboardButtonRequestPeer](../constructor
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The bot that sent the [keyboardButtonRequestPeer](../constructors/keyboardButtonRequestPeer.html) button. | Optional|
 |msg\_id|[int](/API_docs/types/int.html) | ID of the message that contained the reply keyboard with the [keyboardButtonRequestPeer](../constructors/keyboardButtonRequestPeer.html) button. | Optional|
 |button\_id|[int](/API_docs/types/int.html) | The `button_id` field from the [keyboardButtonRequestPeer](../constructors/keyboardButtonRequestPeer.html) constructor. | Optional|
-|requested\_peers|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Yes|
+|requested\_peers|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The chosen peers. | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

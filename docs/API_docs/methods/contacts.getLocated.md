@@ -1,6 +1,6 @@
 ---
 title: "contacts.getLocated"
-description: "Get contacts near you"
+description: "Get users and geochats near you, see [here »](https://core.telegram.org/api/nearby) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/contacts_getLocated.html
 
 
 
-Get contacts near you
+Get users and geochats near you, see [here »](https://core.telegram.org/api/nearby) for more info.
 
 ### Parameters:
 

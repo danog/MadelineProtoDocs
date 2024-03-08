@@ -20,7 +20,7 @@ Logged-in session
 |password\_pending|[Bool](/API_docs/types/Bool.html) | Optional|Whether the session is still waiting for a 2FA password|
 |encrypted\_requests\_disabled|[Bool](/API_docs/types/Bool.html) | Optional|Whether this session will accept encrypted chats|
 |call\_requests\_disabled|[Bool](/API_docs/types/Bool.html) | Optional|Whether this session will accept phone calls|
-|unconfirmed|[Bool](/API_docs/types/Bool.html) | Optional|
+|unconfirmed|[Bool](/API_docs/types/Bool.html) | Optional|Whether the session is [unconfirmed, see here »](https://core.telegram.org/api/auth#confirming-login) for more info.|
 |hash|[long](/API_docs/types/long.html) | Yes|Identifier|
 |device\_model|[string](/API_docs/types/string.html) | Yes|Device model|
 |platform|[string](/API_docs/types/string.html) | Yes|Platform|

@@ -1,6 +1,6 @@
 ---
 title: "updateBotChatBoost"
-description: "updateBotChatBoost attributes, type and example"
+description: "A channel boost has changed (bots only)"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A [channel boost](https://core.telegram.org/api/boost) has changed (bots only)
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[long](/API_docs/types/long.html) | Yes|
-|boost|[Boost](/API_docs/types/Boost.html) | Yes|
-|qts|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer|[long](/API_docs/types/long.html) | Yes|Channel|
+|boost|[Boost](/API_docs/types/Boost.html) | Yes|New boost information|
+|qts|[int](/API_docs/types/int.html) | Yes|[QTS](https://core.telegram.org/api/updates) event sequence identifier|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "botInlineMessageMediaWebPage"
-description: "botInlineMessageMediaWebPage attributes, type and example"
+description: "Specifies options that must be used to generate the link preview for the message, or even a standalone link preview without an attached message."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,20 +9,22 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Specifies options that must be used to generate the link preview for the message, or even a standalone link preview without an attached message.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|invert\_media|[Bool](/API_docs/types/Bool.html) | Optional|
-|force\_large\_media|[Bool](/API_docs/types/Bool.html) | Optional|
-|force\_small\_media|[Bool](/API_docs/types/Bool.html) | Optional|
-|manual|[Bool](/API_docs/types/Bool.html) | Optional|
-|safe|[Bool](/API_docs/types/Bool.html) | Optional|
-|message|[string](/API_docs/types/string.html) | Yes|
-|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|invert\_media|[Bool](/API_docs/types/Bool.html) | Optional|If set, any eventual webpage preview will be shown on top of the message instead of at the bottom.|
+|force\_large\_media|[Bool](/API_docs/types/Bool.html) | Optional|If set, specifies that a large media preview should be used.|
+|force\_small\_media|[Bool](/API_docs/types/Bool.html) | Optional|If set, specifies that a small media preview should be used.|
+|manual|[Bool](/API_docs/types/Bool.html) | Optional|If set, indicates that the URL used for the webpage preview was specified manually using [inputMediaWebPage](../constructors/inputMediaWebPage.html), and may not be related to any of the URLs specified in the message.|
+|safe|[Bool](/API_docs/types/Bool.html) | Optional|If set, the link can be opened directly without user confirmation.|
+|message|[string](/API_docs/types/string.html) | Yes|The message, can be empty.|
+|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Optional|[Message entities for styled text](https://core.telegram.org/api/entities)|
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
-|url|[string](/API_docs/types/string.html) | Yes|
-|reply\_markup|[ReplyMarkup](/API_docs/types/ReplyMarkup.html) | Optional|
+|url|[string](/API_docs/types/string.html) | Yes|The URL to use for the link preview.|
+|reply\_markup|[ReplyMarkup](/API_docs/types/ReplyMarkup.html) | Optional|Reply markup for sending bot buttons|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "contacts.acceptContact"
-description: "If the [peer settings](../constructors/peerSettings.html) of a new user allow us to add them as contact, add that user as contact"
+description: "If the [add contact action bar is active](https://core.telegram.org/api/action-bar#add-contact), add that user as contact"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/contacts_acceptContact.html
 
 
 
-If the [peer settings](../constructors/peerSettings.html) of a new user allow us to add them as contact, add that user as contact
+If the [add contact action bar is active](https://core.telegram.org/api/action-bar#add-contact), add that user as contact
 
 ### Parameters:
 

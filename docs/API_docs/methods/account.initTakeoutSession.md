@@ -1,6 +1,6 @@
 ---
 title: "account.initTakeoutSession"
-description: "Initialize account takeout session"
+description: "Initialize a [takeout session, see here » for more info](https://core.telegram.org/api/takeout)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/account_initTakeoutSession.html
 
 
 
-Initialize account takeout session
+Initialize a [takeout session, see here » for more info](https://core.telegram.org/api/takeout).
 
 ### Parameters:
 

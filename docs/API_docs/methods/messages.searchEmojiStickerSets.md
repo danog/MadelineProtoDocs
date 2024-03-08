@@ -1,6 +1,6 @@
 ---
 title: "messages.searchEmojiStickerSets"
-description: "messages.searchEmojiStickerSets parameters, return type and example"
+description: "Search for [custom emoji stickersets »](https://core.telegram.org/api/custom-emoji)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/messages_searchEmojiStickerSets.html
 
 
 
+Search for [custom emoji stickersets »](https://core.telegram.org/api/custom-emoji)
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|exclude\_featured|[Bool](/API_docs/types/Bool.html) | Optional|
-|q|[string](/API_docs/types/string.html) | Optional|
-|hash|Array of [long](/API_docs/types/long.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|exclude\_featured|[Bool](/API_docs/types/Bool.html) | Exclude featured stickersets from results | Optional|
+|q|[string](/API_docs/types/string.html) | Query string | Optional|
+|hash|Array of [long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [messages.FoundStickerSets](/API_docs/types/messages.FoundStickerSets.html)

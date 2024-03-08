@@ -1,6 +1,6 @@
 ---
 title: "inputReplyToStory"
-description: "inputReplyToStory attributes, type and example"
+description: "Reply to a story."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Reply to a story.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|story\_id|[int](/API_docs/types/int.html) | Yes|
+|story\_id|[int](/API_docs/types/int.html) | Yes|ID of the story to reply to.|
 
 
 

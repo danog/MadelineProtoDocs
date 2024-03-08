@@ -1,6 +1,6 @@
 ---
 title: "messages.savedDialogs"
-description: "messages.savedDialogs attributes, type and example"
+description: "Represents some saved message dialogs »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_savedDialogs.html
@@ -10,14 +10,16 @@ redirect_from: /API_docs/constructors/messages_savedDialogs.html
 
 
 
+Represents some [saved message dialogs »](https://core.telegram.org/api/saved-messages).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|dialogs|Array of [SavedDialog](/API_docs/types/SavedDialog.html) | Yes|
-|messages|Array of [Message](/API_docs/types/Message.html) | Yes|
-|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
-|users|Array of [User](/API_docs/types/User.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|dialogs|Array of [SavedDialog](/API_docs/types/SavedDialog.html) | Yes|[Saved message dialogs »](https://core.telegram.org/api/saved-messages).|
+|messages|Array of [Message](/API_docs/types/Message.html) | Yes|List of last messages from each saved dialog|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Mentioned chats|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Mentioned users|
 
 
 

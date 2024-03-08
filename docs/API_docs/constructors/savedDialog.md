@@ -1,6 +1,6 @@
 ---
 title: "savedDialog"
-description: "savedDialog attributes, type and example"
+description: "Represents a saved dialog »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents a [saved dialog »](https://core.telegram.org/api/saved-messages).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|pinned|[Bool](/API_docs/types/Bool.html) | Optional|
-|peer|[long](/API_docs/types/long.html) | Yes|
-|top\_message|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|pinned|[Bool](/API_docs/types/Bool.html) | Optional|Is the dialog pinned|
+|peer|[long](/API_docs/types/long.html) | Yes|The dialog|
+|top\_message|[int](/API_docs/types/int.html) | Yes|The latest message ID|
 
 
 

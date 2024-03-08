@@ -17,7 +17,7 @@ Message statistics
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |views\_graph|[StatsGraph](/API_docs/types/StatsGraph.html) | Yes|Message view graph|
-|reactions\_by\_emotion\_graph|[StatsGraph](/API_docs/types/StatsGraph.html) | Yes|
+|reactions\_by\_emotion\_graph|[StatsGraph](/API_docs/types/StatsGraph.html) | Yes|A graph containing the number of reactions on stories categorized by emotion|
 
 
 

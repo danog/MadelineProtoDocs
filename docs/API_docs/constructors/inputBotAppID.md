@@ -1,6 +1,6 @@
 ---
 title: "inputBotAppID"
-description: "Used to fetch information about a named bot web app by its ID"
+description: "Used to fetch information about a direct link Mini App by its ID"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Used to fetch information about a [named bot web app](https://core.telegram.org/api/bots/webapps#named-bot-web-apps) by its ID
+Used to fetch information about a [direct link Mini App](https://core.telegram.org/api/bots/webapps#direct-link-mini-apps) by its ID
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|id|[long](/API_docs/types/long.html) | Yes|[named bot web app](https://core.telegram.org/api/bots/webapps#named-bot-web-apps) ID.|
+|id|[long](/API_docs/types/long.html) | Yes|[direct link Mini App](https://core.telegram.org/api/bots/webapps#direct-link-mini-apps) ID.|
 |access\_hash|[long](/API_docs/types/long.html) | Yes|Access hash, obtained from the [botApp](../constructors/botApp.html) constructor.|
 
 

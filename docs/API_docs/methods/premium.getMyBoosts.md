@@ -1,6 +1,6 @@
 ---
 title: "premium.getMyBoosts"
-description: "premium.getMyBoosts parameters, return type and example"
+description: "Obtain which peers are we currently [boosting](https://core.telegram.org/api/boost), and how many [boost slots](https://core.telegram.org/api/boost) we have left."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -10,6 +10,8 @@ redirect_from: /API_docs/methods/premium_getMyBoosts.html
 [Back to methods index](index.html)
 
 
+
+Obtain which peers are we currently [boosting](https://core.telegram.org/api/boost), and how many [boost slots](https://core.telegram.org/api/boost) we have left.
 
 
 

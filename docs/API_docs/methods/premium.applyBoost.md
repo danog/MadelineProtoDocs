@@ -1,6 +1,6 @@
 ---
 title: "premium.applyBoost"
-description: "premium.applyBoost parameters, return type and example"
+description: "Apply one or more [boosts »](https://core.telegram.org/api/boost) to a peer."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/premium_applyBoost.html
 
 
 
+Apply one or more [boosts »](https://core.telegram.org/api/boost) to a peer.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|slots|Array of [int](/API_docs/types/int.html) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|slots|Array of [int](/API_docs/types/int.html) | Which [boost slots](https://core.telegram.org/api/boost) to assign to this peer. | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer to boost. | Optional|
 
 
 ### Return type: [premium.MyBoosts](/API_docs/types/premium.MyBoosts.html)

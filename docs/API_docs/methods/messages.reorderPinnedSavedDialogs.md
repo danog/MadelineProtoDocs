@@ -1,6 +1,6 @@
 ---
 title: "messages.reorderPinnedSavedDialogs"
-description: "messages.reorderPinnedSavedDialogs parameters, return type and example"
+description: "Reorder pinned [saved message dialogs »](https://core.telegram.org/api/saved-messages)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/messages_reorderPinnedSavedDialogs.html
 
 
 
+Reorder pinned [saved message dialogs »](https://core.telegram.org/api/saved-messages).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|force|[Bool](/API_docs/types/Bool.html) | Optional|
-|order|Array of [InputDialogPeer](/API_docs/types/InputDialogPeer.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|force|[Bool](/API_docs/types/Bool.html) | If set, dialogs pinned server-side but not present in the `order` field will be unpinned. | Optional|
+|order|Array of [InputDialogPeer](/API_docs/types/InputDialogPeer.html) | New dialog order | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

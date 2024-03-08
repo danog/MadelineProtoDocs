@@ -1,6 +1,6 @@
 ---
 title: "stats.getStoryStats"
-description: "stats.getStoryStats parameters, return type and example"
+description: "Get [statistics](https://core.telegram.org/api/stats) for a certain [story](https://core.telegram.org/api/stories)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/stats_getStoryStats.html
 
 
 
+Get [statistics](https://core.telegram.org/api/stats) for a certain [story](https://core.telegram.org/api/stories).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|dark|[Bool](/API_docs/types/Bool.html) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|id|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|dark|[Bool](/API_docs/types/Bool.html) | Whether to enable the dark theme for graph colors | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer that posted the story | Optional|
+|id|[int](/API_docs/types/int.html) | Story ID | Optional|
 
 
 ### Return type: [stats.StoryStats](/API_docs/types/stats.StoryStats.html)

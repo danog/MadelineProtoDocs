@@ -1,6 +1,6 @@
 ---
 title: "stories.allStoriesNotModified"
-description: "stories.allStoriesNotModified attributes, type and example"
+description: "The list of active (or active and hidden) stories has not changed."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/stories_allStoriesNotModified.html
@@ -10,12 +10,14 @@ redirect_from: /API_docs/constructors/stories_allStoriesNotModified.html
 
 
 
+The list of active (or active and hidden) [stories](https://core.telegram.org/api/stories#watching-stories) has not changed.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|state|[string](/API_docs/types/string.html) | Yes|
-|stealth\_mode|[StoriesStealthMode](/API_docs/types/StoriesStealthMode.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|state|[string](/API_docs/types/string.html) | Yes|State to use to ask for updates|
+|stealth\_mode|[StoriesStealthMode](/API_docs/types/StoriesStealthMode.html) | Yes|Current [stealth mode](https://core.telegram.org/api/stories#stealth-mode) information|
 
 
 

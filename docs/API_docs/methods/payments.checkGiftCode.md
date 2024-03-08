@@ -1,6 +1,6 @@
 ---
 title: "payments.checkGiftCode"
-description: "payments.checkGiftCode parameters, return type and example"
+description: "Obtain information about a [Telegram Premium giftcode »](https://core.telegram.org/api/giveaways)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/payments_checkGiftCode.html
 
 
 
+Obtain information about a [Telegram Premium giftcode »](https://core.telegram.org/api/giveaways)
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|slug|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|slug|[string](/API_docs/types/string.html) | The giftcode to check | Optional|
 
 
 ### Return type: [payments.CheckedGiftCode](/API_docs/types/payments.CheckedGiftCode.html)

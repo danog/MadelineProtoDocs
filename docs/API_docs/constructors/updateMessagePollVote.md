@@ -1,6 +1,6 @@
 ---
 title: "updateMessagePollVote"
-description: "A specific user has voted in a poll"
+description: "A specific peer has voted in a poll"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,14 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-A specific user has voted in a poll
+A specific peer has voted in a poll
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |poll\_id|[long](/API_docs/types/long.html) | Yes|Poll ID|
-|peer|[long](/API_docs/types/long.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|The peer that voted in the poll|
 |options|Array of [bytes](/API_docs/types/bytes.html) | Yes|Chosen option(s)|
 |qts|[int](/API_docs/types/int.html) | Yes|New **qts** value, see [updates »](https://core.telegram.org/api/updates) for more info.|
 

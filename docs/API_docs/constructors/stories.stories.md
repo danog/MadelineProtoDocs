@@ -1,6 +1,6 @@
 ---
 title: "stories.stories"
-description: "stories.stories attributes, type and example"
+description: "List of stories"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/stories_stories.html
@@ -10,14 +10,16 @@ redirect_from: /API_docs/constructors/stories_stories.html
 
 
 
+List of [stories](https://core.telegram.org/api/stories#pinned-or-archived-stories)
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|count|[int](/API_docs/types/int.html) | Yes|
-|stories|Array of [StoryItem](/API_docs/types/StoryItem.html) | Yes|
-|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
-|users|Array of [User](/API_docs/types/User.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|count|[int](/API_docs/types/int.html) | Yes|Total number of stories that can be fetched|
+|stories|Array of [StoryItem](/API_docs/types/StoryItem.html) | Yes|Stories|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Mentioned chats|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Mentioned users|
 
 
 

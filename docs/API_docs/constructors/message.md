@@ -24,13 +24,13 @@ A message
 |legacy|[Bool](/API_docs/types/Bool.html) | Optional|This is a legacy message: it has to be refetched with the new layer|
 |edit\_hide|[Bool](/API_docs/types/Bool.html) | Optional|Whether the message should be shown as not modified to the user, even if an edit date is present|
 |pinned|[Bool](/API_docs/types/Bool.html) | Optional|Whether this message is [pinned](https://core.telegram.org/api/pin)|
-|noforwards|[Bool](/API_docs/types/Bool.html) | Optional|Whether this message is [protected](https://telegram.org/blog/protected-content-delete-by-date-and-more) and thus cannot be forwarded|
-|invert\_media|[Bool](/API_docs/types/Bool.html) | Optional|
+|noforwards|[Bool](/API_docs/types/Bool.html) | Optional|Whether this message is [protected](https://telegram.org/blog/protected-content-delete-by-date-and-more) and thus cannot be forwarded; clients should also prevent users from saving attached media (i.e. videos should only be streamed, photos should be kept in RAM, et cetera).|
+|invert\_media|[Bool](/API_docs/types/Bool.html) | Optional|If set, any eventual webpage preview will be shown on top of the message instead of at the bottom.|
 |id|[int](/API_docs/types/int.html) | Yes|ID of the message|
 |from\_id|[Peer](/API_docs/types/Peer.html) | Optional|ID of the sender of the message|
 |from\_boosts\_applied|[int](/API_docs/types/int.html) | Optional|
 |peer\_id|[Peer](/API_docs/types/Peer.html) | Yes|Peer ID, the chat where this message was sent|
-|saved\_peer\_id|[Peer](/API_docs/types/Peer.html) | Optional|
+|saved\_peer\_id|[Peer](/API_docs/types/Peer.html) | Optional|Messages fetched from a [saved messages dialog »](https://core.telegram.org/api/saved-messages) will have `peer`=[inputPeerSelf](../constructors/inputPeerSelf.html) and the `saved_peer_id` flag set to the ID of the saved dialog.<br>|
 |fwd\_from|[MessageFwdHeader](/API_docs/types/MessageFwdHeader.html) | Optional|Info about forwarded messages|
 |via\_bot\_id|[long](/API_docs/types/long.html) | Optional|ID of the inline bot that generated the message|
 |reply\_to|[MessageReplyHeader](/API_docs/types/MessageReplyHeader.html) | Optional|Reply information|
@@ -49,6 +49,7 @@ A message
 |reactions|[MessageReactions](/API_docs/types/MessageReactions.html) | Optional|Reactions to this message|
 |restriction\_reason|Array of [RestrictionReason](/API_docs/types/RestrictionReason.html) | Optional|Contains the reason why access to this message must be restricted.|
 |ttl\_period|[int](/API_docs/types/int.html) | Optional|Time To Live of the message, once message.date+message.ttl\_period === time(), the message will be deleted on the server, and must be deleted locally as well.|
+|quick\_reply\_shortcut\_id|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -118,5 +119,5 @@ pre-formatted fixed-width code block written in the PHP programming language
 ### Example:
 
 ```
-$message = ['_' => 'message', 'out' => Bool, 'mentioned' => Bool, 'media_unread' => Bool, 'silent' => Bool, 'post' => Bool, 'from_scheduled' => Bool, 'legacy' => Bool, 'edit_hide' => Bool, 'pinned' => Bool, 'noforwards' => Bool, 'invert_media' => Bool, 'id' => int, 'from_id' => Peer, 'from_boosts_applied' => int, 'peer_id' => Peer, 'saved_peer_id' => Peer, 'fwd_from' => MessageFwdHeader, 'via_bot_id' => long, 'reply_to' => MessageReplyHeader, 'date' => int, 'message' => 'string', 'media' => MessageMedia, 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'views' => int, 'forwards' => int, 'replies' => MessageReplies, 'edit_date' => int, 'post_author' => 'string', 'grouped_id' => long, 'reactions' => MessageReactions, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'ttl_period' => int];
+$message = ['_' => 'message', 'out' => Bool, 'mentioned' => Bool, 'media_unread' => Bool, 'silent' => Bool, 'post' => Bool, 'from_scheduled' => Bool, 'legacy' => Bool, 'edit_hide' => Bool, 'pinned' => Bool, 'noforwards' => Bool, 'invert_media' => Bool, 'id' => int, 'from_id' => Peer, 'from_boosts_applied' => int, 'peer_id' => Peer, 'saved_peer_id' => Peer, 'fwd_from' => MessageFwdHeader, 'via_bot_id' => long, 'reply_to' => MessageReplyHeader, 'date' => int, 'message' => 'string', 'media' => MessageMedia, 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'views' => int, 'forwards' => int, 'replies' => MessageReplies, 'edit_date' => int, 'post_author' => 'string', 'grouped_id' => long, 'reactions' => MessageReactions, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'ttl_period' => int, 'quick_reply_shortcut_id' => int];
 ```  

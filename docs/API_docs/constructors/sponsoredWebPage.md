@@ -1,6 +1,6 @@
 ---
 title: "sponsoredWebPage"
-description: "sponsoredWebPage attributes, type and example"
+description: "Represents a sponsored website."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents a sponsored website.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|url|[string](/API_docs/types/string.html) | Yes|
-|site\_name|[string](/API_docs/types/string.html) | Yes|
-|photo|[Photo](/API_docs/types/Photo.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|url|[string](/API_docs/types/string.html) | Yes|Web page URL.|
+|site\_name|[string](/API_docs/types/string.html) | Yes|Website name.|
+|photo|[Photo](/API_docs/types/Photo.html) | Optional|Optional image preview.|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "contacts.blockFromReplies"
-description: "Stop getting notifications about [thread replies](https://core.telegram.org/api/threads) of a certain user in `@replies`"
+description: "Stop getting notifications about [discussion replies](https://core.telegram.org/api/discussion) of a certain user in `@replies`"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/contacts_blockFromReplies.html
 
 
 
-Stop getting notifications about [thread replies](https://core.telegram.org/api/threads) of a certain user in `@replies`
+Stop getting notifications about [discussion replies](https://core.telegram.org/api/discussion) of a certain user in `@replies`
 
 ### Parameters:
 
@@ -20,7 +20,7 @@ Stop getting notifications about [thread replies](https://core.telegram.org/api/
 |delete\_message|[Bool](/API_docs/types/Bool.html) | Whether to delete the specified message as well | Optional|
 |delete\_history|[Bool](/API_docs/types/Bool.html) | Whether to delete all `@replies` messages from this user as well | Optional|
 |report\_spam|[Bool](/API_docs/types/Bool.html) | Whether to also report this user for spam | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | ID of the message in the [@replies](https://core.telegram.org/api/threads#replies) chat | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | ID of the message in the [@replies](https://core.telegram.org/api/discussion#replies) chat | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

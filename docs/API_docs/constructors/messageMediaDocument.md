@@ -17,11 +17,11 @@ Document (video, audio, voice, sticker, any media type except photo)
 |----------|---------------|----------|-------------|
 |nopremium|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a normal sticker, if not set this is a premium sticker and a premium sticker animation must be played.|
 |spoiler|[Bool](/API_docs/types/Bool.html) | Optional|Whether this media should be hidden behind a spoiler warning|
-|video|[Bool](/API_docs/types/Bool.html) | Optional|
-|round|[Bool](/API_docs/types/Bool.html) | Optional|
-|voice|[Bool](/API_docs/types/Bool.html) | Optional|
+|video|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a video.|
+|round|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a round video.|
+|voice|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a voice message.|
 |document|[Document](/API_docs/types/Document.html) | Optional|Attached document|
-|alt\_document|[Document](/API_docs/types/Document.html) | Optional|
+|alt\_document|[Document](/API_docs/types/Document.html) | Optional|Currently only used for story videos, may contain an alternative version of the story video, explicitly encoded using H.264 (in MPEG4 transport) at a lower resolution than `document`.|
 |ttl\_seconds|[int](/API_docs/types/int.html) | Optional|Time to live of self-destructing document|
 
 

@@ -1,6 +1,6 @@
 ---
 title: "inputStickerSetEmojiChannelDefaultStatuses"
-description: "inputStickerSetEmojiChannelDefaultStatuses attributes, type and example"
+description: "Default custom emoji status stickerset for channel statuses"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -8,6 +8,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+Default [custom emoji status](https://core.telegram.org/api/emoji-status) stickerset for channel statuses
 
 
 

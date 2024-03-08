@@ -1,6 +1,6 @@
 ---
 title: "updateStoriesStealthMode"
-description: "updateStoriesStealthMode attributes, type and example"
+description: "Indicates that stories stealth mode was activated."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Indicates that [stories stealth mode](https://core.telegram.org/api/stories#stealth-mode) was activated.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|stealth\_mode|[StoriesStealthMode](/API_docs/types/StoriesStealthMode.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|stealth\_mode|[StoriesStealthMode](/API_docs/types/StoriesStealthMode.html) | Yes|Information about the current [stealth mode](https://core.telegram.org/api/stories#stealth-mode) session.|
 
 
 

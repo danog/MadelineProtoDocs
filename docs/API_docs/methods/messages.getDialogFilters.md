@@ -15,7 +15,7 @@ Get [folders](https://core.telegram.org/api/folders)
 
 
 
-### Return type: [Vector\_of\_DialogFilter](/API_docs/types/DialogFilter.html)
+### Return type: [messages.DialogFilters](/API_docs/types/messages.DialogFilters.html)
 
 ### Can bots use this method: **NO**
 
@@ -32,6 +32,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Vector_of_DialogFilter = $MadelineProto->messages->getDialogFilters();
+$messages_DialogFilters = $MadelineProto->messages->getDialogFilters();
 ```
 

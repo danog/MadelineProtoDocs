@@ -1,6 +1,6 @@
 ---
 title: "help.peerColors"
-description: "help.peerColors attributes, type and example"
+description: "Contains info about multiple color palettes »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/help_peerColors.html
@@ -10,12 +10,14 @@ redirect_from: /API_docs/constructors/help_peerColors.html
 
 
 
+Contains info about multiple [color palettes »](https://core.telegram.org/api/colors).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
 |hash|[int](/API_docs/types/int.html) | Yes|
-|colors|Array of [help.PeerColorOption](/API_docs/constructors/help.PeerColorOption.html) | Yes|
+|colors|Array of [help.PeerColorOption](/API_docs/constructors/help.PeerColorOption.html) | Yes|Usable [color palettes](https://core.telegram.org/api/colors).|
 
 
 

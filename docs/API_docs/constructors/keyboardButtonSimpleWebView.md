@@ -1,6 +1,6 @@
 ---
 title: "keyboardButtonSimpleWebView"
-description: "Button to open a bot web app using messages.requestSimpleWebView, without sending user information to the web app."
+description: "Button to open a bot mini app using messages.requestSimpleWebView, without sending user information to the web app."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Button to open a [bot web app](https://core.telegram.org/api/bots/webapps) using [messages.requestSimpleWebView](../methods/messages.requestSimpleWebView.html), without sending user information to the web app.
+Button to open a [bot mini app](https://core.telegram.org/api/bots/webapps) using [messages.requestSimpleWebView](../methods/messages.requestSimpleWebView.html), without sending user information to the web app.
 
 Can only be sent or received as part of a reply keyboard, use [keyboardButtonWebView](../constructors/keyboardButtonWebView.html) for inline keyboards.
 

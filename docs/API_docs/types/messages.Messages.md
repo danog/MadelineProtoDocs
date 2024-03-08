@@ -48,6 +48,8 @@ redirect_from: /API_docs/types/messages_Messages.html
 
 [$MadelineProto->messages->getSavedHistory](/API_docs/methods/messages.getSavedHistory.html)  
 
+[$MadelineProto->messages->getQuickReplyMessages](/API_docs/methods/messages.getQuickReplyMessages.html)  
+
 [$MadelineProto->channels->getMessages](/API_docs/methods/channels.getMessages.html)  
 
 

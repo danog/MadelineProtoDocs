@@ -20,7 +20,7 @@ Result of a query to an inline bot
 |query\_id|[long](/API_docs/types/long.html) | Yes|Query ID|
 |next\_offset|[string](/API_docs/types/string.html) | Optional|The next offset to use when navigating through results|
 |switch\_pm|[InlineBotSwitchPM](/API_docs/types/InlineBotSwitchPM.html) | Optional|Shown as a button on top of the remaining inline result list; if clicked, redirects the user to a private chat with the bot with the specified start parameter.|
-|switch\_webview|[InlineBotWebView](/API_docs/types/InlineBotWebView.html) | Optional|Shown as a button on top of the remaining inline result list; if clicked, opens the specified [bot web app](https://core.telegram.org/api/bots/webapps#simple-web-apps).|
+|switch\_webview|[InlineBotWebView](/API_docs/types/InlineBotWebView.html) | Optional|Shown as a button on top of the remaining inline result list; if clicked, opens the specified [inline mode mini app](https://core.telegram.org/api/bots/webapps#inline-mode-mini-apps).|
 |results|Array of [BotInlineResult](/API_docs/types/BotInlineResult.html) | Yes|The results|
 |cache\_time|[int](/API_docs/types/int.html) | Yes|Caching validity of the results|
 |users|Array of [User](/API_docs/types/User.html) | Yes|Users mentioned in the results|

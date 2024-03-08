@@ -1,6 +1,6 @@
 ---
 title: "stats.getStoryPublicForwards"
-description: "stats.getStoryPublicForwards parameters, return type and example"
+description: "Obtain forwards of a [story](https://core.telegram.org/api/stories) as a message to public chats and reposts by public channels."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,16 @@ redirect_from: /API_docs/methods/stats_getStoryPublicForwards.html
 
 
 
+Obtain forwards of a [story](https://core.telegram.org/api/stories) as a message to public chats and reposts by public channels.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|id|[int](/API_docs/types/int.html) | Optional|
-|offset|[string](/API_docs/types/string.html) | Optional|
-|limit|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where the story was originally posted | Optional|
+|id|[int](/API_docs/types/int.html) | [Story](https://core.telegram.org/api/stories) ID | Optional|
+|offset|[string](/API_docs/types/string.html) | Offset for pagination, from [stats.PublicForwards](../constructors/stats.publicForwards.html).`next_offset`. | Optional|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [stats.PublicForwards](/API_docs/types/stats.PublicForwards.html)

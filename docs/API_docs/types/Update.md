@@ -261,6 +261,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateSavedReactionTags](/API_docs/constructors/updateSavedReactionTags.html)  
 
+[updateSmsJob](/API_docs/constructors/updateSmsJob.html)  
+
+[updateQuickReplies](/API_docs/constructors/updateQuickReplies.html)  
+
+[updateNewQuickReply](/API_docs/constructors/updateNewQuickReply.html)  
+
+[updateDeleteQuickReply](/API_docs/constructors/updateDeleteQuickReply.html)  
+
+[updateQuickReplyMessage](/API_docs/constructors/updateQuickReplyMessage.html)  
+
+[updateDeleteQuickReplyMessages](/API_docs/constructors/updateDeleteQuickReplyMessages.html)  
+
 
 
 ### Methods that return an object of this type (methods):

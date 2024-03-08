@@ -18,7 +18,7 @@ Venue
 |geo|[GeoPoint](/API_docs/types/GeoPoint.html) | Optional|Geolocation of venue|
 |title|[string](/API_docs/types/string.html) | Yes|Venue name|
 |address|[string](/API_docs/types/string.html) | Yes|Address|
-|provider|[string](/API_docs/types/string.html) | Yes|Venue provider: currently only "foursquare" needs to be supported|
+|provider|[string](/API_docs/types/string.html) | Yes|Venue provider: currently only "foursquare" and "gplaces" (Google Places) need to be supported|
 |venue\_id|[string](/API_docs/types/string.html) | Yes|Venue ID in the provider's database|
 |venue\_type|[string](/API_docs/types/string.html) | Yes|Venue type in the provider's database|
 

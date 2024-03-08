@@ -1,6 +1,6 @@
 ---
 title: "channels.getChannelRecommendations"
-description: "channels.getChannelRecommendations parameters, return type and example"
+description: "Obtain a list of similarly themed public channels, selected based on similarities in their **subscriber bases**."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/channels_getChannelRecommendations.html
 
 
 
+Obtain a list of similarly themed public channels, selected based on similarities in their **subscriber bases**.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | The method will return channels related to the passed `channel`. | Optional|
 
 
 ### Return type: [messages.Chats](/API_docs/types/messages.Chats.html)

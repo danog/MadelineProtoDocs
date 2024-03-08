@@ -20,15 +20,15 @@ Chat invite info
 |public|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a public [channel/supergroup](https://core.telegram.org/api/channel)|
 |megagroup|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a [supergroup](https://core.telegram.org/api/channel)|
 |request\_needed|[Bool](/API_docs/types/Bool.html) | Optional|Whether the [join request »](https://core.telegram.org/api/invites#join-requests) must be first approved by an administrator|
-|verified|[Bool](/API_docs/types/Bool.html) | Optional|
-|scam|[Bool](/API_docs/types/Bool.html) | Optional|
-|fake|[Bool](/API_docs/types/Bool.html) | Optional|
+|verified|[Bool](/API_docs/types/Bool.html) | Optional|Is this chat or channel verified by Telegram?|
+|scam|[Bool](/API_docs/types/Bool.html) | Optional|This chat is probably a scam|
+|fake|[Bool](/API_docs/types/Bool.html) | Optional|If set, this chat was reported by many users as a fake or scam: be careful when interacting with it.|
 |title|[string](/API_docs/types/string.html) | Yes|Chat/supergroup/channel title|
 |about|[string](/API_docs/types/string.html) | Optional|Description of the group of channel|
 |photo|[Photo](/API_docs/types/Photo.html) | Optional|Chat/supergroup/channel photo|
 |participants\_count|[int](/API_docs/types/int.html) | Yes|Participant count|
 |participants|Array of [User](/API_docs/types/User.html) | Optional|A few of the participants that are in the group|
-|color|[int](/API_docs/types/int.html) | Yes|
+|color|[int](/API_docs/types/int.html) | Yes|[Profile color palette ID](https://core.telegram.org/api/colors)|
 
 
 

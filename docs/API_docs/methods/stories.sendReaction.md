@@ -1,6 +1,6 @@
 ---
 title: "stories.sendReaction"
-description: "stories.sendReaction parameters, return type and example"
+description: "React to a story."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,16 @@ redirect_from: /API_docs/methods/stories_sendReaction.html
 
 
 
+React to a story.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|add\_to\_recent|[Bool](/API_docs/types/Bool.html) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|story\_id|[int](/API_docs/types/int.html) | Optional|
-|reaction|[Reaction](/API_docs/types/Reaction.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|add\_to\_recent|[Bool](/API_docs/types/Bool.html) | Whether to add this reaction to the [recent reactions list »](https://core.telegram.org/api/reactions#recent-reactions). | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer that sent the story | Optional|
+|story\_id|[int](/API_docs/types/int.html) | ID of the story to react to | Optional|
+|reaction|[Reaction](/API_docs/types/Reaction.html) | Reaction | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

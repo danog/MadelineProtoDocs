@@ -1,6 +1,6 @@
 ---
 title: "stories.deleteStories"
-description: "stories.deleteStories parameters, return type and example"
+description: "Deletes some posted [stories](https://core.telegram.org/api/stories)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/stories_deleteStories.html
 
 
 
+Deletes some posted [stories](https://core.telegram.org/api/stories).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|id|Array of [int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Channel/user from where to delete stories. | Optional|
+|id|Array of [int](/API_docs/types/int.html) | IDs of stories to delete. | Yes|
 
 
 ### Return type: [Vector\_of\_int](/API_docs/types/int.html)

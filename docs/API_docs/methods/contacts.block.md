@@ -1,6 +1,6 @@
 ---
 title: "contacts.block"
-description: "Adds the user to the blacklist."
+description: "Adds a peer to a blocklist, see [here »](https://core.telegram.org/api/block) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,14 @@ redirect_from: /API_docs/methods/contacts_block.html
 
 
 
-Adds the user to the blacklist.
+Adds a peer to a blocklist, see [here »](https://core.telegram.org/api/block) for more info.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|my\_stories\_from|[Bool](/API_docs/types/Bool.html) |  | Optional|
-|id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | User ID | Optional|
+|my\_stories\_from|[Bool](/API_docs/types/Bool.html) | Whether the peer should be added to the story blocklist; if not set, the peer will be added to the main blocklist, see [here »](https://core.telegram.org/api/block) for more info. | Optional|
+|id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

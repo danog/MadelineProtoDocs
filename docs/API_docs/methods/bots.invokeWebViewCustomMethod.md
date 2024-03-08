@@ -1,6 +1,6 @@
 ---
 title: "bots.invokeWebViewCustomMethod"
-description: "bots.invokeWebViewCustomMethod parameters, return type and example"
+description: "Send a custom request from a [mini bot app](https://core.telegram.org/api/bots/webapps), triggered by a [web\_app\_invoke\_custom\_method event »](https://core.telegram.org/api/web-events#web-app-invoke-custom-method)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,17 @@ redirect_from: /API_docs/methods/bots_invokeWebViewCustomMethod.html
 
 
 
+Send a custom request from a [mini bot app](https://core.telegram.org/api/bots/webapps), triggered by a [web\_app\_invoke\_custom\_method event »](https://core.telegram.org/api/web-events#web-app-invoke-custom-method).
+
+The response should be sent using a [custom\_method\_invoked](https://core.telegram.org/api/bots/webapps#custom-method-invoked) event, [see here »](https://core.telegram.org/api/web-events#web-app-invoke-custom-method) for more info on the flow.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
-|custom\_method|[string](/API_docs/types/string.html) | Optional|
-|params|[DataJSON](/API_docs/types/DataJSON.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Identifier of the bot associated to the [mini bot app](https://core.telegram.org/api/bots/webapps) | Optional|
+|custom\_method|[string](/API_docs/types/string.html) | Identifier of the custom method to invoke | Optional|
+|params|[DataJSON](/API_docs/types/DataJSON.html) | Method parameters | Yes|
 
 
 ### Return type: [DataJSON](/API_docs/types/DataJSON.html)

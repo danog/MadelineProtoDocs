@@ -1,6 +1,6 @@
 ---
 title: "storyItemSkipped"
-description: "storyItemSkipped attributes, type and example"
+description: "Represents an active story, whose full information was omitted for space and performance reasons; use stories.getStoriesByID to fetch full info about the skipped story when and if needed."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,14 +9,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents an active story, whose full information was omitted for space and performance reasons; use [stories.getStoriesByID](../methods/stories.getStoriesByID.html) to fetch full info about the skipped story when and if needed.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|close\_friends|[Bool](/API_docs/types/Bool.html) | Optional|
-|id|[int](/API_docs/types/int.html) | Yes|
-|date|[int](/API_docs/types/int.html) | Yes|
-|expire\_date|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|close\_friends|[Bool](/API_docs/types/Bool.html) | Optional|Whether this story can only be viewed by [our close friends, see here »](https://core.telegram.org/api/privacy) for more info|
+|id|[int](/API_docs/types/int.html) | Yes|Story ID|
+|date|[int](/API_docs/types/int.html) | Yes|When was the story posted.|
+|expire\_date|[int](/API_docs/types/int.html) | Yes|When does the story expire.|
 
 
 

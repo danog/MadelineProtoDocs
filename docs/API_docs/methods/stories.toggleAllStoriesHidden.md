@@ -1,6 +1,6 @@
 ---
 title: "stories.toggleAllStoriesHidden"
-description: "stories.toggleAllStoriesHidden parameters, return type and example"
+description: "Hide the active stories of a specific peer, preventing them from being displayed on the action bar on the homescreen."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/stories_toggleAllStoriesHidden.html
 
 
 
+Hide the active stories of a specific peer, preventing them from being displayed on the action bar on the homescreen.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hidden|[Bool](/API_docs/types/Bool.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hidden|[Bool](/API_docs/types/Bool.html) | Whether to hide or unhide all active stories of the peer | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

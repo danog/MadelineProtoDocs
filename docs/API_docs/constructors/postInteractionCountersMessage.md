@@ -1,6 +1,6 @@
 ---
 title: "postInteractionCountersMessage"
-description: "postInteractionCountersMessage attributes, type and example"
+description: "Interaction counters for a message."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,14 +9,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Interaction counters for a message.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|msg\_id|[int](/API_docs/types/int.html) | Yes|
-|views|[int](/API_docs/types/int.html) | Yes|
-|forwards|[int](/API_docs/types/int.html) | Yes|
-|reactions|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|msg\_id|[int](/API_docs/types/int.html) | Yes|Message ID|
+|views|[int](/API_docs/types/int.html) | Yes|Number of views|
+|forwards|[int](/API_docs/types/int.html) | Yes|Number of forwards to public channels|
+|reactions|[int](/API_docs/types/int.html) | Yes|Number of reactions|
 
 
 

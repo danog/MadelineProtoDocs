@@ -1,6 +1,6 @@
 ---
 title: "messages.getAttachMenuBots"
-description: "Returns installed attachment menu [bot web apps »](https://core.telegram.org/api/bots/attach)"
+description: "Returns installed attachment menu [bot mini apps »](https://core.telegram.org/api/bots/attach)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/messages_getAttachMenuBots.html
 
 
 
-Returns installed attachment menu [bot web apps »](https://core.telegram.org/api/bots/attach)
+Returns installed attachment menu [bot mini apps »](https://core.telegram.org/api/bots/attach)
 
 ### Parameters:
 

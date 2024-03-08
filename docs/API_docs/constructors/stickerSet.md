@@ -21,8 +21,8 @@ Represents a stickerset (stickerpack)
 |animated|[Bool](/API_docs/types/Bool.html) | Optional|Is this an animated stickerpack|
 |videos|[Bool](/API_docs/types/Bool.html) | Optional|Is this a video stickerpack|
 |emojis|[Bool](/API_docs/types/Bool.html) | Optional|This is a custom emoji stickerset|
-|text\_color|[Bool](/API_docs/types/Bool.html) | Optional|
-|channel\_emoji\_status|[Bool](/API_docs/types/Bool.html) | Optional|
+|text\_color|[Bool](/API_docs/types/Bool.html) | Optional|Whether the color of this TGS custom emoji stickerset should be changed to the text color when used in messages, the accent color if used as emoji status, white on chat photos, or another appropriate color based on context.|
+|channel\_emoji\_status|[Bool](/API_docs/types/Bool.html) | Optional|If set, this custom emoji stickerset can be used in [channel emoji statuses](https://core.telegram.org/api/emoji-status).|
 |installed\_date|[int](/API_docs/types/int.html) | Optional|When was this stickerset installed|
 |id|[long](/API_docs/types/long.html) | Yes|ID of the stickerset|
 |access\_hash|[long](/API_docs/types/long.html) | Yes|Access hash of stickerset|

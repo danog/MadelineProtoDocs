@@ -1,6 +1,6 @@
 ---
 title: "messageReplyStoryHeader"
-description: "messageReplyStoryHeader attributes, type and example"
+description: "Represents a reply to a story"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents a reply to a [story](https://core.telegram.org/api/stories)
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
 |peer|[long](/API_docs/types/long.html) | Yes|
-|story\_id|[int](/API_docs/types/int.html) | Yes|
+|story\_id|[int](/API_docs/types/int.html) | Yes|Story ID|
 
 
 

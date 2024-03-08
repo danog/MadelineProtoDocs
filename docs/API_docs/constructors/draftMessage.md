@@ -16,12 +16,12 @@ Represents a message [draft](https://core.telegram.org/api/drafts).
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |no\_webpage|[Bool](/API_docs/types/Bool.html) | Optional|Whether no webpage preview will be generated|
-|invert\_media|[Bool](/API_docs/types/Bool.html) | Optional|
-|reply\_to|[InputReplyTo](/API_docs/types/InputReplyTo.html) | Optional|
+|invert\_media|[Bool](/API_docs/types/Bool.html) | Optional|If set, any eventual webpage preview will be shown on top of the message instead of at the bottom.|
+|reply\_to|[InputReplyTo](/API_docs/types/InputReplyTo.html) | Optional|If set, indicates that the message should be sent in reply to the specified message or story.|
 |message|[string](/API_docs/types/string.html) | Yes|The draft|
 |entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Optional|Message [entities](https://core.telegram.org/api/entities) for styled text.|
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
-|media|[InputMedia](/API_docs/types/InputMedia.html) | Optional|
+|media|[InputMedia](/API_docs/types/InputMedia.html) | Optional|Media.|
 |date|[int](/API_docs/types/int.html) | Yes|Date of last update of the draft.|
 
 

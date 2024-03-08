@@ -26,6 +26,7 @@ Dialog filter AKA [folder](https://core.telegram.org/api/folders)
 |id|[int](/API_docs/types/int.html) | Yes|[Folder](https://core.telegram.org/api/folders) ID|
 |title|[string](/API_docs/types/string.html) | Yes|[Folder](https://core.telegram.org/api/folders) name|
 |emoticon|[string](/API_docs/types/string.html) | Optional|Emoji to use as icon for the folder.|
+|color|[int](/API_docs/types/int.html) | Optional|
 |pinned\_peers|Array of [InputPeer](/API_docs/types/InputPeer.html) | Yes|Pinned chats, [folders](https://core.telegram.org/api/folders) can have unlimited pinned chats|
 |include\_peers|Array of [InputPeer](/API_docs/types/InputPeer.html) | Yes|Include the following chats in this [folder](https://core.telegram.org/api/folders)|
 |exclude\_peers|Array of [InputPeer](/API_docs/types/InputPeer.html) | Yes|Exclude the following chats from this [folder](https://core.telegram.org/api/folders)|
@@ -38,5 +39,5 @@ Dialog filter AKA [folder](https://core.telegram.org/api/folders)
 ### Example:
 
 ```
-$dialogFilter = ['_' => 'dialogFilter', 'contacts' => Bool, 'non_contacts' => Bool, 'groups' => Bool, 'broadcasts' => Bool, 'bots' => Bool, 'exclude_muted' => Bool, 'exclude_read' => Bool, 'exclude_archived' => Bool, 'id' => int, 'title' => 'string', 'emoticon' => 'string', 'pinned_peers' => [InputPeer, InputPeer], 'include_peers' => [InputPeer, InputPeer], 'exclude_peers' => [InputPeer, InputPeer]];
+$dialogFilter = ['_' => 'dialogFilter', 'contacts' => Bool, 'non_contacts' => Bool, 'groups' => Bool, 'broadcasts' => Bool, 'bots' => Bool, 'exclude_muted' => Bool, 'exclude_read' => Bool, 'exclude_archived' => Bool, 'id' => int, 'title' => 'string', 'emoticon' => 'string', 'color' => int, 'pinned_peers' => [InputPeer, InputPeer], 'include_peers' => [InputPeer, InputPeer], 'exclude_peers' => [InputPeer, InputPeer]];
 ```  

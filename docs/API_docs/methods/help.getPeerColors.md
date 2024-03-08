@@ -1,6 +1,6 @@
 ---
 title: "help.getPeerColors"
-description: "help.getPeerColors parameters, return type and example"
+description: "Get the set of [accent color palettes »](https://core.telegram.org/api/colors) that can be used for message accents."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/help_getPeerColors.html
 
 
 
+Get the set of [accent color palettes »](https://core.telegram.org/api/colors) that can be used for message accents.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|Array of [long](/API_docs/types/long.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hash|Array of [long](/API_docs/types/long.html) |  | Optional|
 
 
 ### Return type: [help.PeerColors](/API_docs/types/help.PeerColors.html)

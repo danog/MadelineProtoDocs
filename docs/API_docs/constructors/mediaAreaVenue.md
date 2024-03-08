@@ -1,6 +1,6 @@
 ---
 title: "mediaAreaVenue"
-description: "mediaAreaVenue attributes, type and example"
+description: "Represents a location tag attached to a story, with additional venue information."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,17 +9,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents a location tag attached to a [story](https://core.telegram.org/api/stories), with additional venue information.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|coordinates|[MediaAreaCoordinates](/API_docs/types/MediaAreaCoordinates.html) | Yes|
-|geo|[GeoPoint](/API_docs/types/GeoPoint.html) | Optional|
-|title|[string](/API_docs/types/string.html) | Yes|
-|address|[string](/API_docs/types/string.html) | Yes|
-|provider|[string](/API_docs/types/string.html) | Yes|
-|venue\_id|[string](/API_docs/types/string.html) | Yes|
-|venue\_type|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|coordinates|[MediaAreaCoordinates](/API_docs/types/MediaAreaCoordinates.html) | Yes|The size and location of the media area corresponding to the location sticker on top of the story media.|
+|geo|[GeoPoint](/API_docs/types/GeoPoint.html) | Optional|Coordinates of the venue|
+|title|[string](/API_docs/types/string.html) | Yes|Venue name|
+|address|[string](/API_docs/types/string.html) | Yes|Address|
+|provider|[string](/API_docs/types/string.html) | Yes|Venue provider: currently only "foursquare" needs to be supported.|
+|venue\_id|[string](/API_docs/types/string.html) | Yes|Venue ID in the provider's database|
+|venue\_type|[string](/API_docs/types/string.html) | Yes|Venue type in the provider's database|
 
 
 

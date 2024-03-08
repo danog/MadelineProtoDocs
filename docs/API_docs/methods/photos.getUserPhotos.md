@@ -19,7 +19,7 @@ Returns the list of user photos.
 |----------|---------------|-------------|----------|
 |user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | User ID | Optional|
 |offset|[int](/API_docs/types/int.html) | Number of list elements to be skipped | Optional|
-|max\_id|[long](/API_docs/types/long.html) | If a positive value was transferred, the method will return only photos with IDs less than the set one | Yes|
+|max\_id|[long](/API_docs/types/long.html) | If a positive value was transferred, the method will return only photos with IDs less than the set one. This parameter is often useful when [refetching file references »](https://core.telegram.org/api/file_reference), as in conjuction with `limit=1` and `offset=-1` the [photo](../constructors/photo.html) object with the `id` specified in `max_id` can be fetched. | Yes|
 |limit|[int](/API_docs/types/int.html) | Number of list elements to be returned | Optional|
 
 

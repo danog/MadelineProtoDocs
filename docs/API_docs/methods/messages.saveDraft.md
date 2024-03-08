@@ -18,13 +18,13 @@ Save a message [draft](https://core.telegram.org/api/drafts) associated to a cha
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |no\_webpage|[Bool](/API_docs/types/Bool.html) | Disable generation of the webpage preview | Optional|
-|invert\_media|[Bool](/API_docs/types/Bool.html) |  | Optional|
-|reply\_to|[InputReplyTo](/API_docs/types/InputReplyTo.html) |  | Optional|
+|invert\_media|[Bool](/API_docs/types/Bool.html) | If set, any eventual webpage preview will be shown on top of the message instead of at the bottom. | Optional|
+|reply\_to|[InputReplyTo](/API_docs/types/InputReplyTo.html) | If set, indicates that the message should be sent in reply to the specified message or story. | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Destination of the message that should be sent | Optional|
 |message|[string](/API_docs/types/string.html) | The draft | Optional|
 |entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Message [entities](https://core.telegram.org/api/entities) for styled text | Optional|
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
-|media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) |  | Optional|
+|media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) | Attached media | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

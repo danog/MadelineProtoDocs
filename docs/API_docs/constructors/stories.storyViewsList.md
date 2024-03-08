@@ -1,6 +1,6 @@
 ---
 title: "stories.storyViewsList"
-description: "stories.storyViewsList attributes, type and example"
+description: "Reaction and view counters for a story"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/stories_storyViewsList.html
@@ -10,18 +10,20 @@ redirect_from: /API_docs/constructors/stories_storyViewsList.html
 
 
 
+Reaction and view counters for a [story](https://core.telegram.org/api/stories)
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|count|[int](/API_docs/types/int.html) | Yes|
-|views\_count|[int](/API_docs/types/int.html) | Yes|
-|forwards\_count|[int](/API_docs/types/int.html) | Yes|
-|reactions\_count|[int](/API_docs/types/int.html) | Yes|
-|views|Array of [StoryView](/API_docs/types/StoryView.html) | Yes|
-|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
-|users|Array of [User](/API_docs/types/User.html) | Yes|
-|next\_offset|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|count|[int](/API_docs/types/int.html) | Yes|Total number of results that can be fetched|
+|views\_count|[int](/API_docs/types/int.html) | Yes|Total number of story views|
+|forwards\_count|[int](/API_docs/types/int.html) | Yes|Total number of story forwards/reposts|
+|reactions\_count|[int](/API_docs/types/int.html) | Yes|Number of reactions that were added to the story|
+|views|Array of [StoryView](/API_docs/types/StoryView.html) | Yes|Story view date and reaction information|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Mentioned chats|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Mentioned users|
+|next\_offset|[string](/API_docs/types/string.html) | Optional|Offset for pagination|
 
 
 

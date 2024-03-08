@@ -1,6 +1,6 @@
 ---
 title: "storyItemDeleted"
-description: "storyItemDeleted attributes, type and example"
+description: "Represents a previously active story, that was deleted"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents a previously active story, that was deleted
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[int](/API_docs/types/int.html) | Yes|Story ID|
 
 
 

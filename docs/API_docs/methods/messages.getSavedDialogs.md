@@ -1,6 +1,6 @@
 ---
 title: "messages.getSavedDialogs"
-description: "messages.getSavedDialogs parameters, return type and example"
+description: "Returns the current saved dialog list, see [here »](https://core.telegram.org/api/saved-messages) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,16 +11,18 @@ redirect_from: /API_docs/methods/messages_getSavedDialogs.html
 
 
 
+Returns the current saved dialog list, see [here »](https://core.telegram.org/api/saved-messages) for more info.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|exclude\_pinned|[Bool](/API_docs/types/Bool.html) | Optional|
-|offset\_date|[int](/API_docs/types/int.html) | Optional|
-|offset\_id|[int](/API_docs/types/int.html) | Optional|
-|offset\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|limit|[int](/API_docs/types/int.html) | Optional|
-|hash|Array of [long](/API_docs/types/long.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|exclude\_pinned|[Bool](/API_docs/types/Bool.html) | Exclude pinned dialogs | Optional|
+|offset\_date|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
+|offset\_id|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) (`top_message` ID used for pagination) | Optional|
+|offset\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | [Offset peer for pagination](https://core.telegram.org/api/offsets) | Optional|
+|limit|[int](/API_docs/types/int.html) | Number of list elements to be returned | Optional|
+|hash|Array of [long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [messages.SavedDialogs](/API_docs/types/messages.SavedDialogs.html)

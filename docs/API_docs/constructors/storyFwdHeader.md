@@ -1,6 +1,6 @@
 ---
 title: "storyFwdHeader"
-description: "storyFwdHeader attributes, type and example"
+description: "Contains info about the original poster of a reposted story."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,14 +9,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Contains info about the original poster of a reposted story.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|modified|[Bool](/API_docs/types/Bool.html) | Optional|
-|from|[Peer](/API_docs/types/Peer.html) | Optional|
-|from\_name|[string](/API_docs/types/string.html) | Optional|
-|story\_id|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|modified|[Bool](/API_docs/types/Bool.html) | Optional|Whether the story media was modified before reposting it (for example by overlaying a round video with a reaction).|
+|from|[Peer](/API_docs/types/Peer.html) | Optional|Peer that originally posted the story; will be empty for stories forwarded from a user with forwards privacy enabled, in which case `from_name` will be set, instead.|
+|from\_name|[string](/API_docs/types/string.html) | Optional|Will be set for stories forwarded from a user with forwards privacy enabled, in which case `from` will also be empty.|
+|story\_id|[int](/API_docs/types/int.html) | Optional|, contains the story ID|
 
 
 

@@ -19,13 +19,13 @@ Autodownload settings
 |video\_preload\_large|[Bool](/API_docs/types/Bool.html) | Optional|Whether to preload the first seconds of videos larger than the specified limit|
 |audio\_preload\_next|[Bool](/API_docs/types/Bool.html) | Optional|Whether to preload the next audio track when you're listening to music|
 |phonecalls\_less\_data|[Bool](/API_docs/types/Bool.html) | Optional|Whether to enable data saving mode in phone calls|
-|stories\_preload|[Bool](/API_docs/types/Bool.html) | Optional|
+|stories\_preload|[Bool](/API_docs/types/Bool.html) | Optional|Whether to preload [stories](https://core.telegram.org/api/stories); in particular, the first [documentAttributeVideo](../constructors/documentAttributeVideo.html).`preload_prefix_size` bytes of story videos should be preloaded.|
 |photo\_size\_max|[int](/API_docs/types/int.html) | Yes|Maximum size of photos to preload|
 |video\_size\_max|[long](/API_docs/types/long.html) | Yes|Maximum size of videos to preload|
 |file\_size\_max|[long](/API_docs/types/long.html) | Yes|Maximum size of other files to preload|
 |video\_upload\_maxbitrate|[int](/API_docs/types/int.html) | Yes|Maximum suggested bitrate for **uploading** videos|
-|small\_queue\_active\_operations\_max|[int](/API_docs/types/int.html) | Yes|
-|large\_queue\_active\_operations\_max|[int](/API_docs/types/int.html) | Yes|
+|small\_queue\_active\_operations\_max|[int](/API_docs/types/int.html) | Yes|A limit, specifying the maximum number of files that should be downloaded in parallel from the same DC, for files smaller than 20MB.|
+|large\_queue\_active\_operations\_max|[int](/API_docs/types/int.html) | Yes|A limit, specifying the maximum number of files that should be downloaded in parallel from the same DC, for files bigger than 20MB.|
 
 
 

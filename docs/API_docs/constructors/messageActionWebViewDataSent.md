@@ -1,6 +1,6 @@
 ---
 title: "messageActionWebViewDataSent"
-description: "Data from an opened reply keyboard bot web app was relayed to the bot that owns it (user side service message)."
+description: "Data from an opened reply keyboard bot mini app was relayed to the bot that owns it (user side service message)."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Data from an opened [reply keyboard bot web app](https://core.telegram.org/api/bots/webapps) was relayed to the bot that owns it (user side service message).
+Data from an opened [reply keyboard bot mini app](https://core.telegram.org/api/bots/webapps) was relayed to the bot that owns it (user side service message).
 
 Clients should display a service message with the text `Data from the «$text» button was transferred to the bot.`
 

@@ -19,7 +19,7 @@ Venue
 |long|[double](/API_docs/types/double.html) | Yes|Longitude of venue|
 |title|[string](/API_docs/types/string.html) | Yes|Venue name|
 |address|[string](/API_docs/types/string.html) | Yes|Address|
-|provider|[string](/API_docs/types/string.html) | Yes|Venue provider: currently only "foursquare" needs to be supported|
+|provider|[string](/API_docs/types/string.html) | Yes|Venue provider: currently only "foursquare" and "gplaces" (Google Places) need to be supported|
 |venue\_id|[string](/API_docs/types/string.html) | Yes|Venue ID in the provider's database|
 
 

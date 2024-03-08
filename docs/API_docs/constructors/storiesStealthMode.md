@@ -1,6 +1,6 @@
 ---
 title: "storiesStealthMode"
-description: "storiesStealthMode attributes, type and example"
+description: "Information about the current stealth mode session."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Information about the current [stealth mode](https://core.telegram.org/api/stories#stealth-mode) session.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|active\_until\_date|[int](/API_docs/types/int.html) | Optional|
-|cooldown\_until\_date|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|active\_until\_date|[int](/API_docs/types/int.html) | Optional|The date up to which stealth mode will be active.|
+|cooldown\_until\_date|[int](/API_docs/types/int.html) | Optional|The date starting from which the user will be allowed to re-enable stealth mode again.|
 
 
 

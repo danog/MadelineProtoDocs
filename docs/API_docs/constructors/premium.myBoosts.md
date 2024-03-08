@@ -1,6 +1,6 @@
 ---
 title: "premium.myBoosts"
-description: "premium.myBoosts attributes, type and example"
+description: "A list of peers we are currently boosting, and how many boost slots we have left."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/premium_myBoosts.html
@@ -10,13 +10,15 @@ redirect_from: /API_docs/constructors/premium_myBoosts.html
 
 
 
+A list of peers we are currently [boosting](https://core.telegram.org/api/boost), and how many [boost slots](https://core.telegram.org/api/boost) we have left.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|my\_boosts|Array of [MyBoost](/API_docs/types/MyBoost.html) | Yes|
-|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
-|users|Array of [User](/API_docs/types/User.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|my\_boosts|Array of [MyBoost](/API_docs/types/MyBoost.html) | Yes|Info about boosted peers and remaining boost slots.|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Referenced chats|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Referenced users|
 
 
 

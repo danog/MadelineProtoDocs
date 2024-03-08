@@ -1,6 +1,6 @@
 ---
 title: "bots.allowSendMessage"
-description: "bots.allowSendMessage parameters, return type and example"
+description: "Allow the specified bot to send us messages"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/bots_allowSendMessage.html
 
 
 
+Allow the specified bot to send us messages
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The bot | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

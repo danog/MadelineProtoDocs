@@ -1,6 +1,6 @@
 ---
 title: "updateStory"
-description: "updateStory attributes, type and example"
+description: "A new story was posted."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A new story was posted.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[long](/API_docs/types/long.html) | Yes|
-|story|[StoryItem](/API_docs/types/StoryItem.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer|[long](/API_docs/types/long.html) | Yes|ID of the poster.|
+|story|[StoryItem](/API_docs/types/StoryItem.html) | Yes|The story that was posted.|
 
 
 

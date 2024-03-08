@@ -1,6 +1,6 @@
 ---
 title: "stories.getPeerMaxIDs"
-description: "stories.getPeerMaxIDs parameters, return type and example"
+description: "Get the IDs of the maximum read stories for a set of peers."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/stories_getPeerMaxIDs.html
 
 
 
+Get the IDs of the maximum read stories for a set of peers.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|id|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peers | Yes|
 
 
 ### Return type: [Vector\_of\_int](/API_docs/types/int.html)

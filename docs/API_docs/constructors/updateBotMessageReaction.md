@@ -1,6 +1,6 @@
 ---
 title: "updateBotMessageReaction"
-description: "updateBotMessageReaction attributes, type and example"
+description: "Bots only: a user has changed their reactions on a message with public reactions."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,17 +9,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Bots only: a user has changed their reactions on a message with public reactions.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[long](/API_docs/types/long.html) | Yes|
-|msg\_id|[int](/API_docs/types/int.html) | Yes|
-|date|[int](/API_docs/types/int.html) | Yes|
-|actor|[Peer](/API_docs/types/Peer.html) | Yes|
-|old\_reactions|Array of [Reaction](/API_docs/types/Reaction.html) | Yes|
-|new\_reactions|Array of [Reaction](/API_docs/types/Reaction.html) | Yes|
-|qts|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer|[long](/API_docs/types/long.html) | Yes|Peer of the reacted-to message.|
+|msg\_id|[int](/API_docs/types/int.html) | Yes|ID of the reacted-to message.|
+|date|[int](/API_docs/types/int.html) | Yes|Date of the change.|
+|actor|[Peer](/API_docs/types/Peer.html) | Yes|The user that (un)reacted to the message.|
+|old\_reactions|Array of [Reaction](/API_docs/types/Reaction.html) | Yes|Old reactions|
+|new\_reactions|Array of [Reaction](/API_docs/types/Reaction.html) | Yes|New reactions|
+|qts|[int](/API_docs/types/int.html) | Yes|[QTS](https://core.telegram.org/api/updates) event sequence identifier|
 
 
 

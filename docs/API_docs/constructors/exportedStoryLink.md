@@ -1,6 +1,6 @@
 ---
 title: "exportedStoryLink"
-description: "exportedStoryLink attributes, type and example"
+description: "Represents a story deep link."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents a [story deep link](https://core.telegram.org/api/stories#story-links).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|link|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|link|[string](/API_docs/types/string.html) | Yes|The [story deep link](https://core.telegram.org/api/stories#story-links).|
 
 
 

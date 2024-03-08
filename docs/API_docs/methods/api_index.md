@@ -129,6 +129,10 @@ $MadelineProto->[account->getChatThemes](/API_docs/methods/account.getChatThemes
 
 ***
 <br><br>
+$MadelineProto->[account->getConnectedBots](/API_docs/methods/account.getConnectedBots.html)(\[\]) === [$account.ConnectedBots](/API_docs/types/account.ConnectedBots.html)<a name="account.getConnectedBots"></a>  
+
+***
+<br><br>
 $MadelineProto->[account->getContactSignUpNotification](/API_docs/methods/account.getContactSignUpNotification.html)(\[\]) === [$Bool](/API_docs/types/Bool.html)<a name="account.getContactSignUpNotification"></a>  
 
 ***
@@ -349,7 +353,27 @@ $MadelineProto->[account->unregisterDevice](/API_docs/methods/account.unregister
 
 ***
 <br><br>
+$MadelineProto->[account->updateBusinessAwayMessage](/API_docs/methods/account.updateBusinessAwayMessage.html)(\[message: $[InputBusinessAwayMessage](/API_docs/types/InputBusinessAwayMessage.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.updateBusinessAwayMessage"></a>  
+
+***
+<br><br>
+$MadelineProto->[account->updateBusinessGreetingMessage](/API_docs/methods/account.updateBusinessGreetingMessage.html)(\[message: $[InputBusinessGreetingMessage](/API_docs/types/InputBusinessGreetingMessage.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.updateBusinessGreetingMessage"></a>  
+
+***
+<br><br>
+$MadelineProto->[account->updateBusinessLocation](/API_docs/methods/account.updateBusinessLocation.html)(\[geo_point: $[InputGeoPoint](/API_docs/types/InputGeoPoint.html), address: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.updateBusinessLocation"></a>  
+
+***
+<br><br>
+$MadelineProto->[account->updateBusinessWorkHours](/API_docs/methods/account.updateBusinessWorkHours.html)(\[business_work_hours: $[BusinessWorkHours](/API_docs/types/BusinessWorkHours.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.updateBusinessWorkHours"></a>  
+
+***
+<br><br>
 $MadelineProto->[account->updateColor](/API_docs/methods/account.updateColor.html)(\[for_profile: $[Bool](/API_docs/types/Bool.html), color: $[int](/API_docs/types/int.html), background_emoji_id: $[long](/API_docs/types/long.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.updateColor"></a>  
+
+***
+<br><br>
+$MadelineProto->[account->updateConnectedBot](/API_docs/methods/account.updateConnectedBot.html)(\[can_reply: $[Bool](/API_docs/types/Bool.html), deleted: $[Bool](/API_docs/types/Bool.html), bot: $[InputUser](/API_docs/types/InputUser.html), recipients: $[InputBusinessRecipients](/API_docs/types/InputBusinessRecipients.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="account.updateConnectedBot"></a>  
 
 ***
 <br><br>
@@ -1033,6 +1057,10 @@ $MadelineProto->[help->getTermsOfServiceUpdate](/API_docs/methods/help.getTermsO
 
 ***
 <br><br>
+$MadelineProto->[help->getTimezonesList](/API_docs/methods/help.getTimezonesList.html)(\[hash: $[int](/API_docs/types/int.html), \]) === [$help.TimezonesList](/API_docs/types/help.TimezonesList.html)<a name="help.getTimezonesList"></a>  
+
+***
+<br><br>
 $MadelineProto->[help->getUserInfo](/API_docs/methods/help.getUserInfo.html)(\[user_id: $[InputUser](/API_docs/types/InputUser.html), \]) === [$help.UserInfo](/API_docs/types/help.UserInfo.html)<a name="help.getUserInfo"></a>  
 
 ***
@@ -1121,6 +1149,10 @@ $MadelineProto->[messages->checkHistoryImportPeer](/API_docs/methods/messages.ch
 
 ***
 <br><br>
+$MadelineProto->[messages->checkQuickReplyShortcut](/API_docs/methods/messages.checkQuickReplyShortcut.html)(\[shortcut: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.checkQuickReplyShortcut"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->clearAllDrafts](/API_docs/methods/messages.clearAllDrafts.html)(\[\]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.clearAllDrafts"></a>  
 
 ***
@@ -1158,6 +1190,14 @@ $MadelineProto->[messages->deleteMessages](/API_docs/methods/messages.deleteMess
 ***
 <br><br>
 $MadelineProto->[messages->deletePhoneCallHistory](/API_docs/methods/messages.deletePhoneCallHistory.html)(\[revoke: $[Bool](/API_docs/types/Bool.html), \]) === [$messages.AffectedFoundMessages](/API_docs/types/messages.AffectedFoundMessages.html)<a name="messages.deletePhoneCallHistory"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->deleteQuickReplyMessages](/API_docs/methods/messages.deleteQuickReplyMessages.html)(\[shortcut_id: $[int](/API_docs/types/int.html), id: \[$[int](/API_docs/types/int.html)\], \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.deleteQuickReplyMessages"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->deleteQuickReplyShortcut](/API_docs/methods/messages.deleteQuickReplyShortcut.html)(\[shortcut_id: $[int](/API_docs/types/int.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.deleteQuickReplyShortcut"></a>  
 
 ***
 <br><br>
@@ -1205,7 +1245,11 @@ $MadelineProto->[messages->editInlineBotMessage](/API_docs/methods/messages.edit
 
 ***
 <br><br>
-$MadelineProto->[messages->editMessage](/API_docs/methods/messages.editMessage.html)(\[no_webpage: $[Bool](/API_docs/types/Bool.html), invert_media: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), id: $[int](/API_docs/types/int.html), message: $[string](/API_docs/types/string.html), media: $[InputMedia](/API_docs/types/InputMedia.html), reply_markup: $[ReplyMarkup](/API_docs/types/ReplyMarkup.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], schedule_date: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.editMessage"></a>  
+$MadelineProto->[messages->editMessage](/API_docs/methods/messages.editMessage.html)(\[no_webpage: $[Bool](/API_docs/types/Bool.html), invert_media: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), id: $[int](/API_docs/types/int.html), message: $[string](/API_docs/types/string.html), media: $[InputMedia](/API_docs/types/InputMedia.html), reply_markup: $[ReplyMarkup](/API_docs/types/ReplyMarkup.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], schedule_date: $[int](/API_docs/types/int.html), quick_reply_shortcut_id: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.editMessage"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->editQuickReplyShortcut](/API_docs/methods/messages.editQuickReplyShortcut.html)(\[shortcut_id: $[int](/API_docs/types/int.html), shortcut: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.editQuickReplyShortcut"></a>  
 
 ***
 <br><br>
@@ -1217,7 +1261,7 @@ $MadelineProto->[messages->faveSticker](/API_docs/methods/messages.faveSticker.h
 
 ***
 <br><br>
-$MadelineProto->[messages->forwardMessages](/API_docs/methods/messages.forwardMessages.html)(\[silent: $[Bool](/API_docs/types/Bool.html), background: $[Bool](/API_docs/types/Bool.html), with_my_score: $[Bool](/API_docs/types/Bool.html), drop_author: $[Bool](/API_docs/types/Bool.html), drop_media_captions: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), from_peer: $[InputPeer](/API_docs/types/InputPeer.html), id: \[$[int](/API_docs/types/int.html)\], to_peer: $[InputPeer](/API_docs/types/InputPeer.html), top_msg_id: $[int](/API_docs/types/int.html), schedule_date: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.forwardMessages"></a>  
+$MadelineProto->[messages->forwardMessages](/API_docs/methods/messages.forwardMessages.html)(\[silent: $[Bool](/API_docs/types/Bool.html), background: $[Bool](/API_docs/types/Bool.html), with_my_score: $[Bool](/API_docs/types/Bool.html), drop_author: $[Bool](/API_docs/types/Bool.html), drop_media_captions: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), from_peer: $[InputPeer](/API_docs/types/InputPeer.html), id: \[$[int](/API_docs/types/int.html)\], to_peer: $[InputPeer](/API_docs/types/InputPeer.html), top_msg_id: $[int](/API_docs/types/int.html), schedule_date: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), quick_reply_shortcut: $[InputQuickReplyShortcut](/API_docs/types/InputQuickReplyShortcut.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.forwardMessages"></a>  
 
 ***
 <br><br>
@@ -1289,7 +1333,7 @@ $MadelineProto->[messages->getDhConfig](/API_docs/methods/messages.getDhConfig.h
 
 ***
 <br><br>
-$MadelineProto->[messages->getDialogFilters](/API_docs/methods/messages.getDialogFilters.html)(\[\]) === [$Vector\_of\_DialogFilter](/API_docs/types/DialogFilter.html)<a name="messages.getDialogFilters"></a>  
+$MadelineProto->[messages->getDialogFilters](/API_docs/methods/messages.getDialogFilters.html)(\[\]) === [$messages.DialogFilters](/API_docs/types/messages.DialogFilters.html)<a name="messages.getDialogFilters"></a>  
 
 ***
 <br><br>
@@ -1446,6 +1490,14 @@ $MadelineProto->[messages->getPollResults](/API_docs/methods/messages.getPollRes
 ***
 <br><br>
 $MadelineProto->[messages->getPollVotes](/API_docs/methods/messages.getPollVotes.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), id: $[int](/API_docs/types/int.html), option: $[bytes](/API_docs/types/bytes.html), offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$messages.VotesList](/API_docs/types/messages.VotesList.html)<a name="messages.getPollVotes"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->getQuickReplies](/API_docs/methods/messages.getQuickReplies.html)(\[hash: $[long](/API_docs/types/long.html), \]) === [$messages.QuickReplies](/API_docs/types/messages.QuickReplies.html)<a name="messages.getQuickReplies"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->getQuickReplyMessages](/API_docs/methods/messages.getQuickReplyMessages.html)(\[shortcut_id: $[int](/API_docs/types/int.html), id: \[$[int](/API_docs/types/int.html)\], hash: $[long](/API_docs/types/long.html), \]) === [$messages.Messages](/API_docs/types/messages.Messages.html)<a name="messages.getQuickReplyMessages"></a>  
 
 ***
 <br><br>
@@ -1621,6 +1673,10 @@ $MadelineProto->[messages->reorderPinnedSavedDialogs](/API_docs/methods/messages
 
 ***
 <br><br>
+$MadelineProto->[messages->reorderQuickReplies](/API_docs/methods/messages.reorderQuickReplies.html)(\[order: \[$[int](/API_docs/types/int.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.reorderQuickReplies"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->reorderStickerSets](/API_docs/methods/messages.reorderStickerSets.html)(\[masks: $[Bool](/API_docs/types/Bool.html), emojis: $[Bool](/API_docs/types/Bool.html), order: \[$[long](/API_docs/types/long.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.reorderStickerSets"></a>  
 
 ***
@@ -1717,19 +1773,23 @@ $MadelineProto->[messages->sendEncryptedService](/API_docs/methods/messages.send
 
 ***
 <br><br>
-$MadelineProto->[messages->sendInlineBotResult](/API_docs/methods/messages.sendInlineBotResult.html)(\[silent: $[Bool](/API_docs/types/Bool.html), background: $[Bool](/API_docs/types/Bool.html), clear_draft: $[Bool](/API_docs/types/Bool.html), hide_via: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), reply_to: $[InputReplyTo](/API_docs/types/InputReplyTo.html), query_id: $[long](/API_docs/types/long.html), id: $[string](/API_docs/types/string.html), schedule_date: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendInlineBotResult"></a>  
+$MadelineProto->[messages->sendInlineBotResult](/API_docs/methods/messages.sendInlineBotResult.html)(\[silent: $[Bool](/API_docs/types/Bool.html), background: $[Bool](/API_docs/types/Bool.html), clear_draft: $[Bool](/API_docs/types/Bool.html), hide_via: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), reply_to: $[InputReplyTo](/API_docs/types/InputReplyTo.html), query_id: $[long](/API_docs/types/long.html), id: $[string](/API_docs/types/string.html), schedule_date: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), quick_reply_shortcut: $[InputQuickReplyShortcut](/API_docs/types/InputQuickReplyShortcut.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendInlineBotResult"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->sendMedia](/API_docs/methods/messages.sendMedia.html)(\[silent: $[Bool](/API_docs/types/Bool.html), background: $[Bool](/API_docs/types/Bool.html), clear_draft: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), update_stickersets_order: $[Bool](/API_docs/types/Bool.html), invert_media: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), reply_to: $[InputReplyTo](/API_docs/types/InputReplyTo.html), media: $[InputMedia](/API_docs/types/InputMedia.html), message: $[string](/API_docs/types/string.html), reply_markup: $[ReplyMarkup](/API_docs/types/ReplyMarkup.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], schedule_date: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendMedia"></a>  
+$MadelineProto->[messages->sendMedia](/API_docs/methods/messages.sendMedia.html)(\[silent: $[Bool](/API_docs/types/Bool.html), background: $[Bool](/API_docs/types/Bool.html), clear_draft: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), update_stickersets_order: $[Bool](/API_docs/types/Bool.html), invert_media: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), reply_to: $[InputReplyTo](/API_docs/types/InputReplyTo.html), media: $[InputMedia](/API_docs/types/InputMedia.html), message: $[string](/API_docs/types/string.html), reply_markup: $[ReplyMarkup](/API_docs/types/ReplyMarkup.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], schedule_date: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), quick_reply_shortcut: $[InputQuickReplyShortcut](/API_docs/types/InputQuickReplyShortcut.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendMedia"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->sendMessage](/API_docs/methods/messages.sendMessage.html)(\[no_webpage: $[Bool](/API_docs/types/Bool.html), silent: $[Bool](/API_docs/types/Bool.html), background: $[Bool](/API_docs/types/Bool.html), clear_draft: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), update_stickersets_order: $[Bool](/API_docs/types/Bool.html), invert_media: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), reply_to: $[InputReplyTo](/API_docs/types/InputReplyTo.html), message: $[string](/API_docs/types/string.html), reply_markup: $[ReplyMarkup](/API_docs/types/ReplyMarkup.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], schedule_date: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendMessage"></a>  
+$MadelineProto->[messages->sendMessage](/API_docs/methods/messages.sendMessage.html)(\[no_webpage: $[Bool](/API_docs/types/Bool.html), silent: $[Bool](/API_docs/types/Bool.html), background: $[Bool](/API_docs/types/Bool.html), clear_draft: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), update_stickersets_order: $[Bool](/API_docs/types/Bool.html), invert_media: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), reply_to: $[InputReplyTo](/API_docs/types/InputReplyTo.html), message: $[string](/API_docs/types/string.html), reply_markup: $[ReplyMarkup](/API_docs/types/ReplyMarkup.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], schedule_date: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), quick_reply_shortcut: $[InputQuickReplyShortcut](/API_docs/types/InputQuickReplyShortcut.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendMessage"></a>  
 
 ***
 <br><br>
-$MadelineProto->[messages->sendMultiMedia](/API_docs/methods/messages.sendMultiMedia.html)(\[silent: $[Bool](/API_docs/types/Bool.html), background: $[Bool](/API_docs/types/Bool.html), clear_draft: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), update_stickersets_order: $[Bool](/API_docs/types/Bool.html), invert_media: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), reply_to: $[InputReplyTo](/API_docs/types/InputReplyTo.html), multi_media: \[$[InputSingleMedia](/API_docs/types/InputSingleMedia.html)\], schedule_date: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendMultiMedia"></a>  
+$MadelineProto->[messages->sendMultiMedia](/API_docs/methods/messages.sendMultiMedia.html)(\[silent: $[Bool](/API_docs/types/Bool.html), background: $[Bool](/API_docs/types/Bool.html), clear_draft: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), update_stickersets_order: $[Bool](/API_docs/types/Bool.html), invert_media: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), reply_to: $[InputReplyTo](/API_docs/types/InputReplyTo.html), multi_media: \[$[InputSingleMedia](/API_docs/types/InputSingleMedia.html)\], schedule_date: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), quick_reply_shortcut: $[InputQuickReplyShortcut](/API_docs/types/InputQuickReplyShortcut.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendMultiMedia"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->sendQuickReplyMessages](/API_docs/methods/messages.sendQuickReplyMessages.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), shortcut_id: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendQuickReplyMessages"></a>  
 
 ***
 <br><br>
@@ -1822,6 +1882,10 @@ $MadelineProto->[messages->startHistoryImport](/API_docs/methods/messages.startH
 ***
 <br><br>
 $MadelineProto->[messages->toggleBotInAttachMenu](/API_docs/methods/messages.toggleBotInAttachMenu.html)(\[write_allowed: $[Bool](/API_docs/types/Bool.html), bot: $[InputUser](/API_docs/types/InputUser.html), enabled: $[Bool](/API_docs/types/Bool.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.toggleBotInAttachMenu"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->toggleDialogFilterTags](/API_docs/methods/messages.toggleDialogFilterTags.html)(\[enabled: $[Bool](/API_docs/types/Bool.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.toggleDialogFilterTags"></a>  
 
 ***
 <br><br>
@@ -2114,6 +2178,34 @@ $MadelineProto->[premium->getMyBoosts](/API_docs/methods/premium.getMyBoosts.htm
 ***
 <br><br>
 $MadelineProto->[premium->getUserBoosts](/API_docs/methods/premium.getUserBoosts.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), user_id: $[InputUser](/API_docs/types/InputUser.html), \]) === [$premium.BoostsList](/API_docs/types/premium.BoostsList.html)<a name="premium.getUserBoosts"></a>  
+
+***
+<br><br>
+$MadelineProto->[smsjobs->finishJob](/API_docs/methods/smsjobs.finishJob.html)(\[job_id: $[string](/API_docs/types/string.html), error: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="smsjobs.finishJob"></a>  
+
+***
+<br><br>
+$MadelineProto->[smsjobs->getSmsJob](/API_docs/methods/smsjobs.getSmsJob.html)(\[job_id: $[string](/API_docs/types/string.html), \]) === [$SmsJob](/API_docs/types/SmsJob.html)<a name="smsjobs.getSmsJob"></a>  
+
+***
+<br><br>
+$MadelineProto->[smsjobs->getStatus](/API_docs/methods/smsjobs.getStatus.html)(\[\]) === [$smsjobs.Status](/API_docs/types/smsjobs.Status.html)<a name="smsjobs.getStatus"></a>  
+
+***
+<br><br>
+$MadelineProto->[smsjobs->isEligibleToJoin](/API_docs/methods/smsjobs.isEligibleToJoin.html)(\[\]) === [$smsjobs.EligibilityToJoin](/API_docs/types/smsjobs.EligibilityToJoin.html)<a name="smsjobs.isEligibleToJoin"></a>  
+
+***
+<br><br>
+$MadelineProto->[smsjobs->join](/API_docs/methods/smsjobs.join.html)(\[\]) === [$Bool](/API_docs/types/Bool.html)<a name="smsjobs.join"></a>  
+
+***
+<br><br>
+$MadelineProto->[smsjobs->leave](/API_docs/methods/smsjobs.leave.html)(\[\]) === [$Bool](/API_docs/types/Bool.html)<a name="smsjobs.leave"></a>  
+
+***
+<br><br>
+$MadelineProto->[smsjobs->updateSettings](/API_docs/methods/smsjobs.updateSettings.html)(\[allow_international: $[Bool](/API_docs/types/Bool.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="smsjobs.updateSettings"></a>  
 
 ***
 <br><br>

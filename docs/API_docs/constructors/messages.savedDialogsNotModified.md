@@ -1,6 +1,6 @@
 ---
 title: "messages.savedDialogsNotModified"
-description: "messages.savedDialogsNotModified attributes, type and example"
+description: "The saved dialogs haven't changed"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_savedDialogsNotModified.html
@@ -10,11 +10,13 @@ redirect_from: /API_docs/constructors/messages_savedDialogsNotModified.html
 
 
 
+The saved dialogs haven't changed
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|count|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|count|[int](/API_docs/types/int.html) | Yes|Number of [saved dialogs](https://core.telegram.org/api/saved-messages) found server-side by the query|
 
 
 

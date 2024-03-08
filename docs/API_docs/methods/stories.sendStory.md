@@ -1,6 +1,6 @@
 ---
 title: "stories.sendStory"
-description: "stories.sendStory parameters, return type and example"
+description: "Uploads a [Telegram Story](https://core.telegram.org/api/stories)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,23 +11,25 @@ redirect_from: /API_docs/methods/stories_sendStory.html
 
 
 
+Uploads a [Telegram Story](https://core.telegram.org/api/stories).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|pinned|[Bool](/API_docs/types/Bool.html) | Optional|
-|noforwards|[Bool](/API_docs/types/Bool.html) | Optional|
-|fwd\_modified|[Bool](/API_docs/types/Bool.html) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) | Optional|
-|media\_areas|Array of [MediaArea](/API_docs/types/MediaArea.html) | Optional|
-|caption|[string](/API_docs/types/string.html) | Optional|
-|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|pinned|[Bool](/API_docs/types/Bool.html) | Whether to add the story to the profile automatically upon expiration. If not set, the story will only be added to the archive, see [here »](https://core.telegram.org/api/stories) for more info. | Optional|
+|noforwards|[Bool](/API_docs/types/Bool.html) | If set, disables forwards, screenshots, and downloads. | Optional|
+|fwd\_modified|[Bool](/API_docs/types/Bool.html) | Set this flag when reposting stories with `fwd_from_id`+`fwd_from_id`, if the `media` was modified before reposting. | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer to send the story as. | Optional|
+|media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) | The story media. | Optional|
+|media\_areas|Array of [MediaArea](/API_docs/types/MediaArea.html) | [Media areas](https://core.telegram.org/api/stories#media-areas) associated to the story, see [here »](https://core.telegram.org/api/stories#media-areas) for more info. | Optional|
+|caption|[string](/API_docs/types/string.html) | Story caption. | Optional|
+|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | [Message entities for styled text](https://core.telegram.org/api/entities), if allowed by the [`stories_entities` client configuration parameter »](https://core.telegram.org/api/config#stories-entities). | Optional|
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
-|privacy\_rules|Array of [InputPrivacyRule](/API_docs/types/InputPrivacyRule.html) | Yes|
-|period|[int](/API_docs/types/int.html) | Optional|
-|fwd\_from\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|fwd\_from\_story|[int](/API_docs/types/int.html) | Optional|
+|privacy\_rules|Array of [InputPrivacyRule](/API_docs/types/InputPrivacyRule.html) | [Privacy rules](https://core.telegram.org/api/privacy) for the story, indicating who can or can't view the story. | Yes|
+|period|[int](/API_docs/types/int.html) | Period after which the story is moved to archive (and to the profile if `pinned` is set), in seconds; must be one of `6 * 3600`, `12 * 3600`, `86400`, or `2 * 86400` for Telegram Premium users, and `86400` otherwise. | Optional|
+|fwd\_from\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | If set, indicates that this story is a repost of story with ID `fwd_from_story` posted by the peer in `fwd_from_id`. | Optional|
+|fwd\_from\_story|[int](/API_docs/types/int.html) | If set, indicates that this story is a repost of story with ID `fwd_from_story` posted by the peer in `fwd_from_id`. | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

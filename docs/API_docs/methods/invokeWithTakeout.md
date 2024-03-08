@@ -1,6 +1,6 @@
 ---
 title: "invokeWithTakeout"
-description: "Invoke a method within a takeout session"
+description: "Invoke a method within a [takeout session, see here » for more info](https://core.telegram.org/api/takeout)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -10,13 +10,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Invoke a method within a takeout session
+Invoke a method within a [takeout session, see here » for more info](https://core.telegram.org/api/takeout).
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|takeout\_id|[long](/API_docs/types/long.html) | Takeout session ID | Yes|
+|takeout\_id|[long](/API_docs/types/long.html) | [Takeout session ID »](https://core.telegram.org/api/takeout) | Yes|
 |query|[!X](/API_docs/types/!X.html) | Query | Yes|
 
 

@@ -1,6 +1,6 @@
 ---
 title: "messages.requestWebView"
-description: "Open a [bot web app](https://core.telegram.org/bots/webapps), sending over user information after user confirmation."
+description: "Open a [bot mini app](https://core.telegram.org/bots/webapps), sending over user information after user confirmation."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/messages_requestWebView.html
 
 
 
-Open a [bot web app](https://core.telegram.org/bots/webapps), sending over user information after user confirmation.
+Open a [bot mini app](https://core.telegram.org/bots/webapps), sending over user information after user confirmation.
 
 After calling this method, until the user closes the webview, [messages.prolongWebView](../methods/messages.prolongWebView.html) must be called every 60 seconds.
 
@@ -24,10 +24,10 @@ After calling this method, until the user closes the webview, [messages.prolongW
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Dialog where the web app is being opened, and where the resulting message will be sent (see the [docs for more info »](https://core.telegram.org/api/bots/webapps)). | Optional|
 |bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Bot that owns the [web app](https://core.telegram.org/api/bots/webapps) | Optional|
 |url|[string](/API_docs/types/string.html) | [Web app URL](https://core.telegram.org/api/bots/webapps) | Optional|
-|start\_param|[string](/API_docs/types/string.html) | If the web app was opened from the attachment menu using a [attachment menu deep link](https://core.telegram.org/api/links#bot-attachment-menu-links), `start_param` should contain the `data` from the `startattach` parameter. | Optional|
+|start\_param|[string](/API_docs/types/string.html) | If the web app was opened from the attachment menu using a [attachment menu deep link](https://core.telegram.org/api/links#bot-attachment-or-side-menu-links), `start_param` should contain the `data` from the `startattach` parameter. | Optional|
 |theme\_params|[DataJSON](/API_docs/types/DataJSON.html) | [Theme parameters »](https://core.telegram.org/api/bots/webapps#theme-parameters) | Optional|
 |platform|[string](/API_docs/types/string.html) | Short name of the application; 0-64 English letters, digits, and underscores | Optional|
-|reply\_to|[InputReplyTo](/API_docs/types/InputReplyTo.html) |  | Optional|
+|reply\_to|[InputReplyTo](/API_docs/types/InputReplyTo.html) | If set, indicates that the inline message that will be sent by the bot on behalf of the user once the web app interaction is [terminated](../methods/messages.sendWebViewResultMessage.html) should be sent in reply to the specified message or story. | Optional|
 |send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Open the web app as the specified peer, sending the resulting the message as the specified peer. | Optional|
 
 

@@ -1,6 +1,6 @@
 ---
 title: "messageActionGiveawayResults"
-description: "messageActionGiveawayResults attributes, type and example"
+description: "A giveaway has ended."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A [giveaway](https://core.telegram.org/api/giveaways) has ended.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|winners\_count|[int](/API_docs/types/int.html) | Yes|
-|unclaimed\_count|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|winners\_count|[int](/API_docs/types/int.html) | Yes|Number of winners in the giveaway|
+|unclaimed\_count|[int](/API_docs/types/int.html) | Yes|Number of undistributed prizes|
 
 
 

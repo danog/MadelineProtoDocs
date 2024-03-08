@@ -1,6 +1,6 @@
 ---
 title: "messages.requestSimpleWebView"
-description: "Open a [bot web app](https://core.telegram.org/api/bots/webapps)."
+description: "Open a [bot mini app](https://core.telegram.org/api/bots/webapps)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,17 +11,17 @@ redirect_from: /API_docs/methods/messages_requestSimpleWebView.html
 
 
 
-Open a [bot web app](https://core.telegram.org/api/bots/webapps).
+Open a [bot mini app](https://core.telegram.org/api/bots/webapps).
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |from\_switch\_webview|[Bool](/API_docs/types/Bool.html) | Whether the webapp was opened by clicking on the `switch_webview` button shown on top of the inline results list returned by [messages.getInlineBotResults](../methods/messages.getInlineBotResults.html). | Optional|
-|from\_side\_menu|[Bool](/API_docs/types/Bool.html) |  | Optional|
-|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Bot that owns the webapp | Optional|
-|url|[string](/API_docs/types/string.html) | Web app URL | Optional|
-|start\_param|[string](/API_docs/types/string.html) |  | Optional|
+|from\_side\_menu|[Bool](/API_docs/types/Bool.html) | Set this flag if opening the Mini App from the installed [side menu entry »](https://core.telegram.org/api/bots/attach) or from a [Mini App link »](https://core.telegram.org/api/links#mini-app-links). | Optional|
+|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Bot that owns the mini app | Optional|
+|url|[string](/API_docs/types/string.html) | Web app URL, if opening from a keyboard button or inline result | Optional|
+|start\_param|[string](/API_docs/types/string.html) | Start parameter, if opening from a [Mini App link »](https://core.telegram.org/api/links#mini-app-links). | Optional|
 |theme\_params|[DataJSON](/API_docs/types/DataJSON.html) | [Theme parameters »](https://core.telegram.org/api/bots/webapps#theme-parameters) | Optional|
 |platform|[string](/API_docs/types/string.html) | Short name of the application; 0-64 English letters, digits, and underscores | Optional|
 

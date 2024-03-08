@@ -18,7 +18,7 @@ Contents of messages in the common [message box](https://core.telegram.org/api/u
 |messages|Array of [int](/API_docs/types/int.html) | Yes|IDs of read messages|
 |pts|[int](/API_docs/types/int.html) | Yes|[Event count after generation](https://core.telegram.org/api/updates)|
 |pts\_count|[int](/API_docs/types/int.html) | Yes|[Number of events that were generated](https://core.telegram.org/api/updates)|
-|date|[int](/API_docs/types/int.html) | Optional|
+|date|[int](/API_docs/types/int.html) | Optional|When was the last message in `messages` marked as read.|
 
 
 

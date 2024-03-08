@@ -15,7 +15,7 @@ A media
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|invert\_media|[Bool](/API_docs/types/Bool.html) | Optional|
+|invert\_media|[Bool](/API_docs/types/Bool.html) | Optional|If set, any eventual webpage preview will be shown on top of the message instead of at the bottom.|
 |message|[string](/API_docs/types/string.html) | Yes|Caption|
 |entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Optional|[Message entities for styled text](https://core.telegram.org/api/entities)|
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |

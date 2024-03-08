@@ -1,6 +1,6 @@
 ---
 title: "contacts.editCloseFriends"
-description: "contacts.editCloseFriends parameters, return type and example"
+description: "Edit the [close friends list, see here »](https://core.telegram.org/api/privacy) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/contacts_editCloseFriends.html
 
 
 
+Edit the [close friends list, see here »](https://core.telegram.org/api/privacy) for more info.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|Array of [long](/API_docs/types/long.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|id|Array of [long](/API_docs/types/long.html) | Full list of user IDs of close friends, see [here](https://core.telegram.org/api/privacy) for more info. | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

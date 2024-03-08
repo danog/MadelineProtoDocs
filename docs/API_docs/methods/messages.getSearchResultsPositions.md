@@ -20,7 +20,7 @@ Returns the results in reverse chronological order (i.e., in order of decreasing
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where to search | Optional|
-|saved\_peer\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
+|saved\_peer\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Search within the [saved message dialog »](https://core.telegram.org/api/saved-messages) with this ID. | Optional|
 |filter|[MessagesFilter](/API_docs/types/MessagesFilter.html) | Message filter, [inputMessagesFilterEmpty](../constructors/inputMessagesFilterEmpty.html), [inputMessagesFilterMyMentions](../constructors/inputMessagesFilterMyMentions.html) filters are not supported by this method. | Optional|
 |offset\_id|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
 |limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|

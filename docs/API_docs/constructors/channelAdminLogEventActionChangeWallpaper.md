@@ -1,6 +1,6 @@
 ---
 title: "channelAdminLogEventActionChangeWallpaper"
-description: "channelAdminLogEventActionChangeWallpaper attributes, type and example"
+description: "The wallpaper was changed"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+The [wallpaper](https://core.telegram.org/api/wallpapers) was changed
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|prev\_value|[WallPaper](/API_docs/types/WallPaper.html) | Yes|
-|new\_value|[WallPaper](/API_docs/types/WallPaper.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|prev\_value|[WallPaper](/API_docs/types/WallPaper.html) | Yes|Previous wallpaper|
+|new\_value|[WallPaper](/API_docs/types/WallPaper.html) | Yes|New wallpaper|
 
 
 

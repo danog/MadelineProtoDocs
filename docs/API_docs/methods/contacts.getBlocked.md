@@ -17,7 +17,7 @@ Returns the list of blocked users.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|my\_stories\_from|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|my\_stories\_from|[Bool](/API_docs/types/Bool.html) | Whether to fetch the story blocklist; if not set, will fetch the main blocklist. See [here »](https://core.telegram.org/api/block) for differences between the two. | Optional|
 |offset|[int](/API_docs/types/int.html) | The number of list elements to be skipped | Optional|
 |limit|[int](/API_docs/types/int.html) | The number of list elements to be returned | Optional|
 

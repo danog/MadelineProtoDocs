@@ -1,6 +1,6 @@
 ---
 title: "updateSentStoryReaction"
-description: "updateSentStoryReaction attributes, type and example"
+description: "Indicates we reacted to a story »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Indicates we [reacted to a story »](https://core.telegram.org/api/stories#reactions).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[long](/API_docs/types/long.html) | Yes|
-|story\_id|[int](/API_docs/types/int.html) | Yes|
-|reaction|[Reaction](/API_docs/types/Reaction.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer|[long](/API_docs/types/long.html) | Yes|The peer that sent the story|
+|story\_id|[int](/API_docs/types/int.html) | Yes|ID of the story we reacted to|
+|reaction|[Reaction](/API_docs/types/Reaction.html) | Optional|The reaction that was sent|
 
 
 

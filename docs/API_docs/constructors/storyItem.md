@@ -1,6 +1,6 @@
 ---
 title: "storyItem"
-description: "storyItem attributes, type and example"
+description: "Represents a story."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,32 +9,34 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents a [story](https://core.telegram.org/api/stories).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|pinned|[Bool](/API_docs/types/Bool.html) | Optional|
-|public|[Bool](/API_docs/types/Bool.html) | Optional|
-|close\_friends|[Bool](/API_docs/types/Bool.html) | Optional|
-|min|[Bool](/API_docs/types/Bool.html) | Optional|
-|noforwards|[Bool](/API_docs/types/Bool.html) | Optional|
-|edited|[Bool](/API_docs/types/Bool.html) | Optional|
-|contacts|[Bool](/API_docs/types/Bool.html) | Optional|
-|selected\_contacts|[Bool](/API_docs/types/Bool.html) | Optional|
-|out|[Bool](/API_docs/types/Bool.html) | Optional|
-|id|[int](/API_docs/types/int.html) | Yes|
-|date|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|pinned|[Bool](/API_docs/types/Bool.html) | Optional|Whether this story is pinned on the user's profile|
+|public|[Bool](/API_docs/types/Bool.html) | Optional|Whether this story is public and can be viewed by everyone|
+|close\_friends|[Bool](/API_docs/types/Bool.html) | Optional|Whether this story can only be viewed by [our close friends, see here »](https://core.telegram.org/api/privacy) for more info|
+|min|[Bool](/API_docs/types/Bool.html) | Optional|Full information about this story was omitted for space and performance reasons; use [stories.getStoriesByID](../methods/stories.getStoriesByID.html) to fetch full info about this story when and if needed.|
+|noforwards|[Bool](/API_docs/types/Bool.html) | Optional|Whether this story is [protected](https://telegram.org/blog/protected-content-delete-by-date-and-more) and thus cannot be forwarded; clients should also prevent users from saving attached media (i.e. videos should only be streamed, photos should be kept in RAM, et cetera).|
+|edited|[Bool](/API_docs/types/Bool.html) | Optional|Indicates whether the story was edited.|
+|contacts|[Bool](/API_docs/types/Bool.html) | Optional|Whether this story can only be viewed by our contacts|
+|selected\_contacts|[Bool](/API_docs/types/Bool.html) | Optional|Whether this story can only be viewed by a select list of our contacts|
+|out|[Bool](/API_docs/types/Bool.html) | Optional|indicates whether we sent this story.|
+|id|[int](/API_docs/types/int.html) | Yes|ID of the story.|
+|date|[int](/API_docs/types/int.html) | Yes|When was the story posted.|
 |from\_id|[Peer](/API_docs/types/Peer.html) | Optional|
-|fwd\_from|[StoryFwdHeader](/API_docs/types/StoryFwdHeader.html) | Optional|
-|expire\_date|[int](/API_docs/types/int.html) | Yes|
-|caption|[string](/API_docs/types/string.html) | Optional|
-|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Optional|
+|fwd\_from|[StoryFwdHeader](/API_docs/types/StoryFwdHeader.html) | Optional|For [reposted stories »](https://core.telegram.org/api/stories#reposting-stories), contains info about the original story.|
+|expire\_date|[int](/API_docs/types/int.html) | Yes|When does the story expire.|
+|caption|[string](/API_docs/types/string.html) | Optional|Story caption.|
+|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Optional|[Message entities for styled text](https://core.telegram.org/api/entities)|
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
-|media|[MessageMedia](/API_docs/types/MessageMedia.html) | Optional|
-|media\_areas|Array of [MediaArea](/API_docs/types/MediaArea.html) | Optional|
-|privacy|Array of [PrivacyRule](/API_docs/types/PrivacyRule.html) | Optional|
-|views|[StoryViews](/API_docs/types/StoryViews.html) | Optional|
-|sent\_reaction|[Reaction](/API_docs/types/Reaction.html) | Optional|
+|media|[MessageMedia](/API_docs/types/MessageMedia.html) | Optional|Story media.|
+|media\_areas|Array of [MediaArea](/API_docs/types/MediaArea.html) | Optional|List of media areas, see [here »](https://core.telegram.org/api/stories#media-areas) for more info on media areas.|
+|privacy|Array of [PrivacyRule](/API_docs/types/PrivacyRule.html) | Optional|[Privacy rules](https://core.telegram.org/api/privacy) indicating who can and can't view this story|
+|views|[StoryViews](/API_docs/types/StoryViews.html) | Optional|View date and reaction information|
+|sent\_reaction|[Reaction](/API_docs/types/Reaction.html) | Optional|The reaction we sent.|
 
 
 

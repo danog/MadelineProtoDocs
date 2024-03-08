@@ -1,6 +1,6 @@
 ---
 title: "bots.canSendMessage"
-description: "bots.canSendMessage parameters, return type and example"
+description: "Check whether the specified bot can send us messages"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/bots_canSendMessage.html
 
 
 
+Check whether the specified bot can send us messages
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The bot | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

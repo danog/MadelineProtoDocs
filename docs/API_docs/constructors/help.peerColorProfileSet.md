@@ -1,6 +1,6 @@
 ---
 title: "help.peerColorProfileSet"
-description: "help.peerColorProfileSet attributes, type and example"
+description: "Represents a color palette that can be used in profile pages »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/help_peerColorProfileSet.html
@@ -10,13 +10,15 @@ redirect_from: /API_docs/constructors/help_peerColorProfileSet.html
 
 
 
+Represents a [color palette that can be used in profile pages »](https://core.telegram.org/api/colors).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|palette\_colors|Array of [int](/API_docs/types/int.html) | Yes|
-|bg\_colors|Array of [int](/API_docs/types/int.html) | Yes|
-|story\_colors|Array of [int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|palette\_colors|Array of [int](/API_docs/types/int.html) | Yes|A list of 1-2 colors in RGB format, shown in the color palette settings to describe the current palette.|
+|bg\_colors|Array of [int](/API_docs/types/int.html) | Yes|A list of 1-2 colors in RGB format describing the colors used to generate the actual background used in the profile page.|
+|story\_colors|Array of [int](/API_docs/types/int.html) | Yes|A list of 2 colors in RGB format describing the colors of the gradient used for the unread active story indicator around the profile photo.|
 
 
 

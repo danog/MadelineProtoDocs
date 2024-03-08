@@ -1,6 +1,6 @@
 ---
 title: "stories.peerStories"
-description: "stories.peerStories attributes, type and example"
+description: "Active story list of a specific peer."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/stories_peerStories.html
@@ -10,13 +10,15 @@ redirect_from: /API_docs/constructors/stories_peerStories.html
 
 
 
+[Active story list](https://core.telegram.org/api/stories#watching-stories) of a specific peer.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|stories|[PeerStories](/API_docs/types/PeerStories.html) | Yes|
-|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
-|users|Array of [User](/API_docs/types/User.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|stories|[PeerStories](/API_docs/types/PeerStories.html) | Yes|Stories|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Mentioned chats|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Mentioned users|
 
 
 

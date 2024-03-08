@@ -1,6 +1,6 @@
 ---
 title: "storyViewPublicForward"
-description: "storyViewPublicForward attributes, type and example"
+description: "A certain peer has forwarded the story as a message to a public chat or channel."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A certain peer has forwarded the story as a message to a public chat or channel.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|blocked|[Bool](/API_docs/types/Bool.html) | Optional|
-|blocked\_my\_stories\_from|[Bool](/API_docs/types/Bool.html) | Optional|
-|message|[Message](/API_docs/types/Message.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|blocked|[Bool](/API_docs/types/Bool.html) | Optional|Whether we have [completely blocked](https://core.telegram.org/api/block) this user, including from viewing more of our stories.|
+|blocked\_my\_stories\_from|[Bool](/API_docs/types/Bool.html) | Optional|Whether we have [blocked](https://core.telegram.org/api/block) this user from viewing more of our stories.|
+|message|[Message](/API_docs/types/Message.html) | Optional|The message with the forwarded story.|
 
 
 

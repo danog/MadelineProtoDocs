@@ -1,6 +1,6 @@
 ---
 title: "publicForwardMessage"
-description: "publicForwardMessage attributes, type and example"
+description: "Contains info about a forward of a story as a message."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Contains info about a forward of a [story](https://core.telegram.org/api/stories) as a message.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|message|[Message](/API_docs/types/Message.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|message|[Message](/API_docs/types/Message.html) | Optional|Info about the message with the reposted story.|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "contacts.getSaved"
-description: "Get all contacts"
+description: "Get all contacts, requires a [takeout session, see here » for more info](https://core.telegram.org/api/takeout)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/contacts_getSaved.html
 
 
 
-Get all contacts
+Get all contacts, requires a [takeout session, see here » for more info](https://core.telegram.org/api/takeout).
 
 
 

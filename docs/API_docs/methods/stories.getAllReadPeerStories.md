@@ -1,6 +1,6 @@
 ---
 title: "stories.getAllReadPeerStories"
-description: "stories.getAllReadPeerStories parameters, return type and example"
+description: "Obtain the latest read story ID for all peers when first logging in, returned as a list of [updateReadStories](../constructors/updateReadStories.html) updates, see [here »](https://core.telegram.org/api/stories#watching-stories) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -10,6 +10,8 @@ redirect_from: /API_docs/methods/stories_getAllReadPeerStories.html
 [Back to methods index](index.html)
 
 
+
+Obtain the latest read story ID for all peers when first logging in, returned as a list of [updateReadStories](../constructors/updateReadStories.html) updates, see [here »](https://core.telegram.org/api/stories#watching-stories) for more info.
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "stories.activateStealthMode"
-description: "stories.activateStealthMode parameters, return type and example"
+description: "Activates [stories stealth mode](https://core.telegram.org/api/stories#stealth-mode), see [here »](https://core.telegram.org/api/stories#stealth-mode) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,16 @@ redirect_from: /API_docs/methods/stories_activateStealthMode.html
 
 
 
+Activates [stories stealth mode](https://core.telegram.org/api/stories#stealth-mode), see [here »](https://core.telegram.org/api/stories#stealth-mode) for more info.
+
+Will return an [updateStoriesStealthMode](../constructors/updateStoriesStealthMode.html).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|past|[Bool](/API_docs/types/Bool.html) | Optional|
-|future|[Bool](/API_docs/types/Bool.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|past|[Bool](/API_docs/types/Bool.html) | Whether to erase views from any stories opened in the past [`stories_stealth_past_period` seconds »](https://core.telegram.org/api/config#stories-stealth-past-period), as specified by the [client configuration](https://core.telegram.org/api/config#client-configuration). | Optional|
+|future|[Bool](/API_docs/types/Bool.html) | Whether to hide future story views for the next [`stories_stealth_future_period` seconds »](https://core.telegram.org/api/config#stories-stealth-future-period), as specified by the [client configuration](https://core.telegram.org/api/config#client-configuration). | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

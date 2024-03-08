@@ -1,6 +1,6 @@
 ---
 title: "messages.getPinnedSavedDialogs"
-description: "messages.getPinnedSavedDialogs parameters, return type and example"
+description: "Get pinned [saved dialogs, see here »](https://core.telegram.org/api/saved-messages) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -10,6 +10,8 @@ redirect_from: /API_docs/methods/messages_getPinnedSavedDialogs.html
 [Back to methods index](index.html)
 
 
+
+Get pinned [saved dialogs, see here »](https://core.telegram.org/api/saved-messages) for more info.
 
 
 

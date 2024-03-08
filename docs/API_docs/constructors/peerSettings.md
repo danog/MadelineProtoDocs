@@ -1,6 +1,6 @@
 ---
 title: "peerSettings"
-description: "List of actions that are possible when interacting with this user, to be shown as suggested actions in the chat bar"
+description: "List of actions that are possible when interacting with this user, to be shown as suggested actions in the chat action bar », see here » for more info."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-List of actions that are possible when interacting with this user, to be shown as suggested actions in the chat bar
+List of actions that are possible when interacting with this user, to be shown as suggested actions in the [chat action bar »](https://core.telegram.org/api/action-bar), see [here »](https://core.telegram.org/api/action-bar) for more info.
 
 ### Attributes:
 

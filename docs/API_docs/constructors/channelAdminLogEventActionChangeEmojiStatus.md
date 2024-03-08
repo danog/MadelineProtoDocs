@@ -1,6 +1,6 @@
 ---
 title: "channelAdminLogEventActionChangeEmojiStatus"
-description: "channelAdminLogEventActionChangeEmojiStatus attributes, type and example"
+description: "The emoji status was changed"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+The [emoji status](https://core.telegram.org/api/emoji-status) was changed
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|prev\_value|[EmojiStatus](/API_docs/types/EmojiStatus.html) | Optional|
-|new\_value|[EmojiStatus](/API_docs/types/EmojiStatus.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|prev\_value|[EmojiStatus](/API_docs/types/EmojiStatus.html) | Optional|Previous emoji status|
+|new\_value|[EmojiStatus](/API_docs/types/EmojiStatus.html) | Optional|New emoji status|
 
 
 

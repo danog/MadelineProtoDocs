@@ -1,6 +1,6 @@
 ---
 title: "stories.storyViews"
-description: "stories.storyViews attributes, type and example"
+description: "Reaction and view counters for a list of stories"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/stories_storyViews.html
@@ -10,12 +10,14 @@ redirect_from: /API_docs/constructors/stories_storyViews.html
 
 
 
+Reaction and view counters for a list of [stories](https://core.telegram.org/api/stories)
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|views|Array of [StoryViews](/API_docs/types/StoryViews.html) | Yes|
-|users|Array of [User](/API_docs/types/User.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|views|Array of [StoryViews](/API_docs/types/StoryViews.html) | Yes|View date and reaction information of multiple stories|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Mentioned users|
 
 
 

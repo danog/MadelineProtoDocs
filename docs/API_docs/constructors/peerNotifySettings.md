@@ -21,11 +21,11 @@ Notification settings.
 |ios\_sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|Notification sound for the official iOS application|
 |android\_sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|Notification sound for the official android application|
 |other\_sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|Notification sound for other applications|
-|stories\_muted|[Bool](/API_docs/types/Bool.html) | Optional|
-|stories\_hide\_sender|[Bool](/API_docs/types/Bool.html) | Optional|
-|stories\_ios\_sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|
-|stories\_android\_sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|
-|stories\_other\_sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|
+|stories\_muted|[Bool](/API_docs/types/Bool.html) | Optional|Whether story notifications should be disabled.|
+|stories\_hide\_sender|[Bool](/API_docs/types/Bool.html) | Optional|Whether the sender name should be displayed in story notifications.|
+|stories\_ios\_sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|Sound for story notifications on the official iOS application|
+|stories\_android\_sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|Sound for story notifications on the official Android application|
+|stories\_other\_sound|[NotificationSound](/API_docs/types/NotificationSound.html) | Optional|Sound for story notifications on other applications|
 
 
 

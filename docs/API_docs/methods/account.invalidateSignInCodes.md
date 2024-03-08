@@ -1,6 +1,6 @@
 ---
 title: "account.invalidateSignInCodes"
-description: "account.invalidateSignInCodes parameters, return type and example"
+description: "Invalidate the specified login codes, see [here »](https://core.telegram.org/api/auth#invalidating-login-codes) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/account_invalidateSignInCodes.html
 
 
 
+Invalidate the specified login codes, see [here »](https://core.telegram.org/api/auth#invalidating-login-codes) for more info.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|codes|Array of [string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|codes|Array of [string](/API_docs/types/string.html) | The login codes to invalidate. | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

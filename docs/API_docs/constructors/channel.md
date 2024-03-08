@@ -16,7 +16,7 @@ Channel/supergroup info
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |creator|[Bool](/API_docs/types/Bool.html) | Optional|Whether the current user is the creator of this channel|
-|left|[Bool](/API_docs/types/Bool.html) | Optional|Whether the current user has left this channel|
+|left|[Bool](/API_docs/types/Bool.html) | Optional|Whether the current user has left or is not a member of this channel|
 |broadcast|[Bool](/API_docs/types/Bool.html) | Optional|Is this a channel?|
 |verified|[Bool](/API_docs/types/Bool.html) | Optional|Is this channel verified by telegram?|
 |megagroup|[Bool](/API_docs/types/Bool.html) | Optional|Is this a supergroup?|

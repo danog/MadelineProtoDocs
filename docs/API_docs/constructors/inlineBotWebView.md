@@ -1,6 +1,6 @@
 ---
 title: "inlineBotWebView"
-description: "Specifies a bot web app button, shown on top of the inline query results list."
+description: "Specifies an inline mode mini app button, shown on top of the inline query results list."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Specifies a [bot web app](https://core.telegram.org/api/bots/webapps#simple-web-apps) button, shown on top of the inline query results list.
+Specifies an [inline mode mini app](https://core.telegram.org/api/bots/webapps#inline-mode-mini-apps) button, shown on top of the inline query results list.
 
 ### Attributes:
 

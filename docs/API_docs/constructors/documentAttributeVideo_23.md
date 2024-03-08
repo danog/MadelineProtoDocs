@@ -15,7 +15,7 @@ Defines a video
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|duration|[int](/API_docs/types/int.html) | Optional|
+|duration|[int](/API_docs/types/int.html) | Optional|Duration in seconds|
 |w|[int](/API_docs/types/int.html) | Optional|Video width|
 |h|[int](/API_docs/types/int.html) | Optional|Video height|
 

@@ -1,6 +1,6 @@
 ---
 title: "contacts.getStatuses"
-description: "Returns the list of contact statuses."
+description: "Use this method to obtain the online statuses of all contacts with an accessible Telegram account."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/contacts_getStatuses.html
 
 
 
-Returns the list of contact statuses.
+Use this method to obtain the online statuses of all contacts with an accessible Telegram account.
 
 
 

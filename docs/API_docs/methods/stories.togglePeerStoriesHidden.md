@@ -1,6 +1,6 @@
 ---
 title: "stories.togglePeerStoriesHidden"
-description: "stories.togglePeerStoriesHidden parameters, return type and example"
+description: "Hide the active stories of a user, preventing them from being displayed on the action bar on the homescreen, see [here »](https://core.telegram.org/api/stories#hiding-stories-of-other-users) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/stories_togglePeerStoriesHidden.html
 
 
 
+Hide the active stories of a user, preventing them from being displayed on the action bar on the homescreen, see [here »](https://core.telegram.org/api/stories#hiding-stories-of-other-users) for more info.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|hidden|[Bool](/API_docs/types/Bool.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer whose stories should be (un)hidden. | Optional|
+|hidden|[Bool](/API_docs/types/Bool.html) | Whether to hide or unhide stories. | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

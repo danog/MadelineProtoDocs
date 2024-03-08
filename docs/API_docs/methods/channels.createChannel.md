@@ -23,8 +23,8 @@ Create a [supergroup/channel](https://core.telegram.org/api/channel).
 |forum|[Bool](/API_docs/types/Bool.html) | Whether to create a [forum](https://core.telegram.org/api/forum) | Optional|
 |title|[string](/API_docs/types/string.html) | Channel title | Optional|
 |about|[string](/API_docs/types/string.html) | Channel description | Optional|
-|geo\_point|[InputGeoPoint](/API_docs/types/InputGeoPoint.html) | Geogroup location | Optional|
-|address|[string](/API_docs/types/string.html) | Geogroup address | Optional|
+|geo\_point|[InputGeoPoint](/API_docs/types/InputGeoPoint.html) | Geogroup location, see [here »](https://core.telegram.org/api/nearby) for more info on geogroups. | Optional|
+|address|[string](/API_docs/types/string.html) | Geogroup address, see [here »](https://core.telegram.org/api/nearby) for more info on geogroups. | Optional|
 |ttl\_period|[int](/API_docs/types/int.html) | Time-to-live of all messages that will be sent in the supergroup: once message.date+message.ttl\_period === time(), the message will be deleted on the server, and must be deleted locally as well. You can use [messages.setDefaultHistoryTTL](../methods/messages.setDefaultHistoryTTL.html) to edit this value later. | Optional|
 
 

@@ -17,7 +17,7 @@ Reorder pinned forum topics
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|force|[Bool](/API_docs/types/Bool.html) | If set, topics pinned server-side but not present in the order field will be unpinned. | Optional|
+|force|[Bool](/API_docs/types/Bool.html) | If not set, the order of only the topics present both server-side and in `order` will be changed (i.e. mentioning topics not pinned server-side in `order` will not pin them, and not mentioning topics pinned server-side will not unpin them).  <br>If set, the entire server-side pinned topic list will be replaced with `order` (i.e. mentioning topics not pinned server-side in `order` will pin them, and not mentioning topics pinned server-side will unpin them) | Optional|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Supergroup ID | Optional|
 |order|Array of [int](/API_docs/types/int.html) | [Topic IDs »](https://core.telegram.org/api/forum) | Yes|
 

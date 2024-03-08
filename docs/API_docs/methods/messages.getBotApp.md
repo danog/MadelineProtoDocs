@@ -1,6 +1,6 @@
 ---
 title: "messages.getBotApp"
-description: "Obtain information about a [named bot web app](https://core.telegram.org/api/bots/webapps#named-bot-web-apps)"
+description: "Obtain information about a [direct link Mini App](https://core.telegram.org/api/bots/webapps#direct-link-mini-apps)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,13 @@ redirect_from: /API_docs/methods/messages_getBotApp.html
 
 
 
-Obtain information about a [named bot web app](https://core.telegram.org/api/bots/webapps#named-bot-web-apps)
+Obtain information about a [direct link Mini App](https://core.telegram.org/api/bots/webapps#direct-link-mini-apps)
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|app|[InputBotApp](/API_docs/types/InputBotApp.html) | Bot app information obtained from a [named bot web app deep link »](https://core.telegram.org/api/links#named-bot-web-app-links). | Yes|
+|app|[InputBotApp](/API_docs/types/InputBotApp.html) | Bot app information obtained from a [Direct Mini App deep link »](https://core.telegram.org/api/links#direct-mini-app-links). | Yes|
 |hash|Array of [long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 

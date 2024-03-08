@@ -1,6 +1,6 @@
 ---
 title: "stories.exportStoryLink"
-description: "stories.exportStoryLink parameters, return type and example"
+description: "Generate a [story deep link](https://core.telegram.org/api/links#story-links) for a specific story"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/stories_exportStoryLink.html
 
 
 
+Generate a [story deep link](https://core.telegram.org/api/links#story-links) for a specific story
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|id|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where the story was posted | Optional|
+|id|[int](/API_docs/types/int.html) | Story ID | Optional|
 
 
 ### Return type: [ExportedStoryLink](/API_docs/types/ExportedStoryLink.html)

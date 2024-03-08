@@ -1,6 +1,6 @@
 ---
 title: "updateReadStories"
-description: "updateReadStories attributes, type and example"
+description: "Stories of a specific peer were marked as read."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Stories of a specific peer were marked as read.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[long](/API_docs/types/long.html) | Yes|
-|max\_id|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer|[long](/API_docs/types/long.html) | Yes|The peer|
+|max\_id|[int](/API_docs/types/int.html) | Yes|ID of the last story that was marked as read|
 
 
 

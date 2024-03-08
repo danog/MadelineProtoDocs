@@ -1,6 +1,6 @@
 ---
 title: "mediaAreaChannelPost"
-description: "mediaAreaChannelPost attributes, type and example"
+description: "Represents a channel post."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents a channel post.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|coordinates|[MediaAreaCoordinates](/API_docs/types/MediaAreaCoordinates.html) | Yes|
-|channel\_id|[long](/API_docs/types/long.html) | Yes|
-|msg\_id|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|coordinates|[MediaAreaCoordinates](/API_docs/types/MediaAreaCoordinates.html) | Yes|The size and location of the media area corresponding to the location sticker on top of the story media.|
+|channel\_id|[long](/API_docs/types/long.html) | Yes|The channel that posted the message|
+|msg\_id|[int](/API_docs/types/int.html) | Yes|ID of the channel message|
 
 
 

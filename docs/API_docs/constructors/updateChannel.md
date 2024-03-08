@@ -1,6 +1,6 @@
 ---
 title: "updateChannel"
-description: "A new channel is available"
+description: "A new channel or supergroup is available, or info about an existing channel has changed and must be refeteched."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-A new channel is available
+A new channel or supergroup is available, or info about an existing channel has changed and must be refeteched.
 
 ### Attributes:
 

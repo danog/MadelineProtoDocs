@@ -24,7 +24,7 @@ Answer an inline query, for bots only
 |cache\_time|[int](/API_docs/types/int.html) | The maximum amount of time in seconds that the result of the inline query may be cached on the server. Defaults to 300. | Optional|
 |next\_offset|[string](/API_docs/types/string.html) | Pass the offset that a client should send in the next query with the same text to receive more results. Pass an empty string if there are no more results or if you don't support pagination. Offset length can't exceed 64 bytes. | Optional|
 |switch\_pm|[InlineBotSwitchPM](/API_docs/types/InlineBotSwitchPM.html) | If passed, clients will display a button on top of the remaining inline result list with the specified text, that switches the user to a private chat with the bot and sends the bot a start message with a certain parameter. | Optional|
-|switch\_webview|[InlineBotWebView](/API_docs/types/InlineBotWebView.html) | If passed, clients will display a button on top of the remaining inline result list with the specified text, that switches the user to the specified [bot web app](https://core.telegram.org/api/bots/webapps#simple-web-apps). | Optional|
+|switch\_webview|[InlineBotWebView](/API_docs/types/InlineBotWebView.html) | If passed, clients will display a button on top of the remaining inline result list with the specified text, that switches the user to the specified [inline mode mini app](https://core.telegram.org/api/bots/webapps#inline-mode-mini-apps). | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
