@@ -30,10 +30,6 @@ Represents the type of a bot API dialog ID.
 
 ## Method list:
 * [`getType(int $id): self`](#gettype-int-id-self)
-* [`fromSecretChatId(int $id): \int Bot API secret chat ID`](#fromsecretchatid-int-id-int-bot-api-secret-chat-id)
-* [`toSecretChatId(int $id): \int MTProto secret chat ID`](#tosecretchatid-int-id-int-mtproto-secret-chat-id)
-* [`fromSupergroupOrChannel(int $id): int`](#fromsupergrouporchannel-int-id-int)
-* [`toSupergroupOrChannel(int $id): int`](#tosupergrouporchannel-int-id-int)
 * [`isSupergroupOrChannel(int $id): bool`](#issupergrouporchannel-int-id-bool)
 * [`isChat(int $id): bool`](#ischat-int-id-bool)
 * [`isUser(int $id): bool`](#isuser-int-id-bool)
@@ -49,54 +45,6 @@ For more detailed types, use API::getType, instead.
 Parameters:
 
 * `$id`: `int` Bot API ID.  
-
-
-
-### `fromSecretChatId(int $id): \int Bot API secret chat ID`
-
-Convert MTProto secret chat ID to bot API secret chat ID.
-
-
-Parameters:
-
-* `$id`: `int` MTProto secret chat ID  
-
-
-Return value: Bot API secret chat ID
-
-
-### `toSecretChatId(int $id): \int MTProto secret chat ID`
-
-Convert bot API secret chat ID to MTProto secret chat ID.
-
-
-Parameters:
-
-* `$id`: `int` Bot API secret chat ID  
-
-
-Return value: MTProto secret chat ID
-
-
-### `fromSupergroupOrChannel(int $id): int`
-
-Convert MTProto channel ID to bot API channel ID.
-
-
-Parameters:
-
-* `$id`: `int` MTProto channel ID  
-
-
-
-### `toSupergroupOrChannel(int $id): int`
-
-Convert bot API channel ID to MTProto channel ID.
-
-
-Parameters:
-
-* `$id`: `int` Bot API channel ID  
 
 
 
