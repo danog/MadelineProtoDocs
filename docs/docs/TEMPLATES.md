@@ -1,5 +1,5 @@
 ---
-title: "Web templates for `$MadelineProto->start()`"
+title: "Web templates for `$qfsledger->start()`"
 description: "The web template used for the $MadelineProto->start() and API ID web UIs can be changed."
 nav_order: 32
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -15,7 +15,7 @@ By default, it is equal to:
 <!DOCTYPE html>
 <html>
         <head>
-        <title>MadelineProto</title>
+        <title>qfsledger</title>
         </head>
         <body>
         <h1>MadelineProto</h1>
