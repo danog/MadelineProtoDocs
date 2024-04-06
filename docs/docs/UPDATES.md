@@ -889,58 +889,29 @@ $handler->setPongText('UwU');
 
 #### Built-in ORM
 
-You can also directly connect to any database using the same [async MySQL/Postgres/Redis ORM](DATABASE.html) used by MadelineProto internally.  
+You can also directly connect to any database using the same [async MySQL/Postgres/Redis ORM](DATABASE.html) used by MadelineProto internally, [danog/AsyncOrm](https://github.com/danog/AsyncOrm)!  
 
-To do so, simply [specify the database settings](DATABASE.html), and declare a static `$dbProperties` property to initialize the async database mapper:  
+To do so, simply [specify the database settings](DATABASE.html), and use the `OrmMappedArray` attribute to initialize the async database mapper:  
 ```php
 
-use danog\MadelineProto\Db\DbArray;
+use danog\AsyncOrm\Annotations\OrmMappedArray;
+use danog\AsyncOrm\DbArray;
+use danog\AsyncOrm\KeyType;
+use danog\AsyncOrm\ValueType;
 use danog\MadelineProto\SimpleEventHandler;
-use danog\MadelineProto\Settings\Database\SerializerType;
 
-/**
- * @psalm-import-type TOrmConfig from DbArray
- */
 class MyEventHandler extends SimpleEventHandler {
     /**
-     * List of properties automatically stored in database through the ORM (MySQL, Postgres, redis or session file).
-     * @see https://docs.madelineproto.xyz/docs/DATABASE.html
-     * @var array<string, TOrmConfig>
-     */
-    protected static array $dbProperties = [
-        'ormProperty' => [
-            // Fully optional settings array for the property, can be empty
-            
-            // Serialization method (one of the SerializerType constants).
-            // If absent, defaults to automatic.
-            //
-            // 'serializer' => SerializerType::*,
-
-            // Whether to enable the cache.
-            // If absent, defaults to true.
-            //
-            // 'enableCache' => true,
-
-            // If the cache is enabled, specifies the cache TTL in seconds.
-            // If absent, defaults to the cache TTL specified in the global settings
-            // 'cacheTtl' => 5*60, 
-
-            // Specifies the table name postfix. 
-            // Internally concatenated with the session prefix specified in the global settings,
-            //  or with the session ID if the session prefix is not specified in the global settings.
-            // Defaults to {$className}_{$propertyName}
-            // 
-            // 'table' => 'tableName'
-        ]
-    ];
-
-    /**
-     * @var DbArray<array-key, mixed>
+     * @var DbArray<string, int>
      * 
      * This ORM property is also persisted to the database, and is *not* fully kept in RAM at all times.
      * 
-     * You can also provide more specific type parameters (i.e. <string, int>; <int, someClass> etc)
+     * You can also provide more specific type parameters (i.e. <string, int>; <int, someClass> etc),
+     * as well as custom caching settings.  
+     * 
+     * See https://github.com/danog/AsyncOrm for full documentation and more examples.  
      */
+    #[OrmMappedArray(KeyType::STRING, ValueType::INT)]
     protected DbArray $ormProperty;
 
     /**
@@ -969,7 +940,7 @@ if (isset($this->dataStoredOnDb['yourKey'])) {
     // Always when fetching data
     $myData = $this->dataStoredOnDb['yourKey'];
 }
-$this->dataStoredOnDb['yourKey'] = $myData + ['moreStuff' => 'yay'];
+$this->dataStoredOnDb['yourKey'] = 123;
 
 $this->dataStoredOnDb['otherKey'] = 0;
 unset($this->dataStoredOnDb['otherKey']);

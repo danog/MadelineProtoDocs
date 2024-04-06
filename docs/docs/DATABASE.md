@@ -8,6 +8,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 MadelineProto *optionally* can keep some of its internal data in a database, such as mysql, mariadb, postgres or redis (you can also [add your own](https://github.com/danog/MadelineProto/tree/v8/src/Db)!), reducing RAM usage.   
 
+MadelineProto uses the [danog/AsyncOrm](https://github.com/danog/AsyncOrm) library to store all data to the chosen database backend: this library can also be used standalone, without MadelineProto.  
+
 On first start after switching type all data will be migrated from the previous backend to the new one. 
 Database to memory migration is also supported.
 
