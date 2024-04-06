@@ -17,21 +17,21 @@ Peer database settings.
 
 
 ## Method list:
-* [`getFullInfoCacheTime(): int`](#getfullinfocachetime-int)
-* [`setFullInfoCacheTime(int $fullInfoCacheTime): self`](#setfullinfocachetime-int-fullinfocachetime-self)
-* [`getFullFetch(): bool`](#getfullfetch-bool)
-* [`setFullFetch(bool $fullFetch): self`](#setfullfetch-bool-fullfetch-self)
-* [`getCacheAllPeersOnStartup(): bool`](#getcacheallpeersonstartup-bool)
-* [`setCacheAllPeersOnStartup(bool $cacheAllPeersOnStartup): self`](#setcacheallpeersonstartup-bool-cacheallpeersonstartup-self)
+* [`getFullInfoCacheTime(): int`](#getFullInfoCacheTime)
+* [`setFullInfoCacheTime(int $fullInfoCacheTime): self`](#setFullInfoCacheTime)
+* [`getFullFetch(): bool`](#getFullFetch)
+* [`setFullFetch(bool $fullFetch): self`](#setFullFetch)
+* [`getCacheAllPeersOnStartup(): bool`](#getCacheAllPeersOnStartup)
+* [`setCacheAllPeersOnStartup(bool $cacheAllPeersOnStartup): self`](#setCacheAllPeersOnStartup)
 
 ## Methods:
-### `getFullInfoCacheTime(): int`
+### <a name="getFullInfoCacheTime"></a> `getFullInfoCacheTime(): int`
 
 Get cache time for full peer information (seconds).
 
 
 
-### `setFullInfoCacheTime(int $fullInfoCacheTime): self`
+### <a name="setFullInfoCacheTime"></a> `setFullInfoCacheTime(int $fullInfoCacheTime): self`
 
 Set cache time for full peer information (seconds).
 
@@ -42,13 +42,13 @@ Parameters:
 
 
 
-### `getFullFetch(): bool`
+### <a name="getFullFetch"></a> `getFullFetch(): bool`
 
 Get should madeline fetch the full member list of every group it meets?
 
 
 
-### `setFullFetch(bool $fullFetch): self`
+### <a name="setFullFetch"></a> `setFullFetch(bool $fullFetch): self`
 
 Set should madeline fetch the full member list of every group it meets?
 
@@ -59,13 +59,13 @@ Parameters:
 
 
 
-### `getCacheAllPeersOnStartup(): bool`
+### <a name="getCacheAllPeersOnStartup"></a> `getCacheAllPeersOnStartup(): bool`
 
 Get whether to cache all peers on startup for userbots.
 
 
 
-### `setCacheAllPeersOnStartup(bool $cacheAllPeersOnStartup): self`
+### <a name="setCacheAllPeersOnStartup"></a> `setCacheAllPeersOnStartup(bool $cacheAllPeersOnStartup): self`
 
 Set whether to cache all peers on startup for userbots.
 

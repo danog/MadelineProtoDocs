@@ -21,15 +21,15 @@ A participant has left, joined, was banned or admined in a [channel or supergrou
 * `$date`: `int` Date of the event
 * `$actorId`: `int` User that triggered the change (inviter, admin that kicked the user, or the even the userId itself)
 * `$userId`: `int` User that was affected by the change
-* `$prevParticipant`: `?\danog\MadelineProto\EventHandler\Participant` Previous participant status
-* `$newParticipant`: `?\danog\MadelineProto\EventHandler\Participant` New participant status
-* `$inviteLink`: `?\danog\MadelineProto\EventHandler\ChatInvite` Chat invite used to join the channel/supergroup
+* `$prevParticipant`: `?danog\MadelineProto\EventHandler\Participant` Previous participant status
+* `$newParticipant`: `?danog\MadelineProto\EventHandler\Participant` New participant status
+* `$inviteLink`: `?danog\MadelineProto\EventHandler\ChatInvite` Chat invite used to join the channel/supergroup
 
 ## Method list:
-* [`__construct(\danog\MadelineProto\MTProto $API, array $rawChannelParticipant)`](#__construct-danog-madelineproto-mtproto-api-array-rawchannelparticipant)
+* [`__construct(\danog\MadelineProto\MTProto $API, array $rawChannelParticipant)`](#__construct)
 
 ## Methods:
-### `__construct(\danog\MadelineProto\MTProto $API, array $rawChannelParticipant)`
+### <a name="__construct"></a> `__construct(\danog\MadelineProto\MTProto $API, array $rawChannelParticipant)`
 
 
 

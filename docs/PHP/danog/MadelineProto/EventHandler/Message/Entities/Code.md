@@ -20,10 +20,10 @@ Message entity representing a codeblock.
 * `$length`: `int` Length of message entity within message (in UTF-16 code units)
 
 ## Method list:
-* [`fromRawEntities(list<array> $entities): list<self>`](#fromrawentities-list-array-entities-list-self)
+* [`fromRawEntities(list<array> $entities): list<self>`](#fromRawEntities)
 
 ## Methods:
-### `fromRawEntities(list<array> $entities): list<self>`
+### <a name="fromRawEntities"></a> `fromRawEntities(list<array> $entities): list<self>`
 
 
 

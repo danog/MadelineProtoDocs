@@ -21,33 +21,33 @@ Async tools.
 
 
 ## Method list:
-* [`rethrow(\Throwable $e): void`](#rethrow-throwable-e-void)
-* [`callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<\T>`](#callfork-generator-amp-future-callable-callable-mixed-args-amp-future-t)
-* [`flock(string $file, int $operation, float $polling = 0.1, ?\Amp\Cancellation $token = NULL, ?\Closure $failureCb = NULL): mixed`](#flock-string-file-int-operation-float-polling-0-1-amp-cancellation-token-null-closure-failurecb-null-mixed)
-* [`sleep(float $time): void`](#sleep-float-time-void)
-* [`readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL): string`](#readline-string-prompt-amp-cancellation-cancel-null-string)
-* [`echo(string $string): void`](#echo-string-string-void)
-* [`mbStrlen(string $text): int`](#mbstrlen-string-text-int)
-* [`mbSubstr(string $text, int $offset, null|int $length = NULL): string`](#mbsubstr-string-text-int-offset-null-int-length-null-string)
-* [`mbStrSplit(string $text, int $length): string[]`](#mbstrsplit-string-text-int-length-string)
-* [`htmlToMessageEntities(string $html): \danog\MadelineProto\TL\Conversion\DOMEntities Object containing message and entities`](#htmltomessageentities-string-html-danog-madelineproto-tl-conversion-domentities-object-containing-message-and-entities)
-* [`markdownToMessageEntities(string $markdown): \danog\MadelineProto\TL\Conversion\MarkdownEntities Object containing message and entities`](#markdowntomessageentities-string-markdown-danog-madelineproto-tl-conversion-markdownentities-object-containing-message-and-entities)
-* [`entitiesToHtml(string $message, list<\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int}> $entities, bool $allowTelegramTags = false): string`](#entitiestohtml-string-message-list-danog-madelineproto-eventhandler-message-entities-messageentity-array-_-string-offset-int-length-int-entities-bool-allowtelegramtags-false-string)
-* [`toCamelCase(string $input): string`](#tocamelcase-string-input-string)
-* [`toSnakeCase(string $input): string`](#tosnakecase-string-input-string)
-* [`htmlEscape(string $what): string`](#htmlescape-string-what-string)
-* [`markdownEscape(string $what): string`](#markdownescape-string-what-string)
-* [`markdownCodeblockEscape(string $what): string`](#markdowncodeblockescape-string-what-string)
-* [`markdownCodeEscape(string $what): string`](#markdowncodeescape-string-what-string)
-* [`markdownUrlEscape(string $what): string`](#markdownurlescape-string-what-string)
-* [`getMimeFromExtension(string $extension, string $default): string`](#getmimefromextension-string-extension-string-default-string)
-* [`getExtensionFromMime(string $mime): string`](#getextensionfrommime-string-mime-string)
-* [`getExtensionFromLocation(mixed $location, string $default): string`](#getextensionfromlocation-mixed-location-string-default-string)
-* [`getMimeFromFile(string $file): string`](#getmimefromfile-string-file-string)
-* [`getMimeFromBuffer(string $buffer): string`](#getmimefrombuffer-string-buffer-string)
+* [`rethrow(\Throwable $e): void`](#rethrow)
+* [`callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<T>`](#callFork)
+* [`flock(string $file, integer $operation, float $polling = 0.1, ?\Amp\Cancellation $token = NULL, ?\Closure $failureCb = NULL): ($token is null ? Closure(): void : (Closure(): void | null))`](#flock)
+* [`sleep(float $time): void`](#sleep)
+* [`readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL): string`](#readLine)
+* [`echo(string $string): void`](#echo)
+* [`mbStrlen(string $text): int`](#mbStrlen)
+* [`mbSubstr(string $text, integer $offset, (null|int) $length = NULL): string`](#mbSubstr)
+* [`mbStrSplit(string $text, integer $length): array<string>`](#mbStrSplit)
+* [`htmlToMessageEntities(string $html): \danog\MadelineProto\TL\Conversion\DOMEntities`](#htmlToMessageEntities)
+* [`markdownToMessageEntities(string $markdown): \danog\MadelineProto\TL\Conversion\MarkdownEntities`](#markdownToMessageEntities)
+* [`entitiesToHtml(string $message, list<(\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int})> $entities, bool $allowTelegramTags = false): string`](#entitiesToHtml)
+* [`toCamelCase(string $input): string`](#toCamelCase)
+* [`toSnakeCase(string $input): string`](#toSnakeCase)
+* [`htmlEscape(string $what): string`](#htmlEscape)
+* [`markdownEscape(string $what): string`](#markdownEscape)
+* [`markdownCodeblockEscape(string $what): string`](#markdownCodeblockEscape)
+* [`markdownCodeEscape(string $what): string`](#markdownCodeEscape)
+* [`markdownUrlEscape(string $what): string`](#markdownUrlEscape)
+* [`getMimeFromExtension(string $extension, string $default): string`](#getMimeFromExtension)
+* [`getExtensionFromMime(string $mime): string`](#getExtensionFromMime)
+* [`getExtensionFromLocation(mixed $location, string $default): string`](#getExtensionFromLocation)
+* [`getMimeFromFile(string $file): string`](#getMimeFromFile)
+* [`getMimeFromBuffer(string $buffer): string`](#getMimeFromBuffer)
 
 ## Methods:
-### `rethrow(\Throwable $e): void`
+### <a name="rethrow"></a> `rethrow(\Throwable $e): void`
 
 Rethrow exception into event loop.
 
@@ -63,7 +63,7 @@ Parameters:
 
 
 
-### `callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<\T>`
+### <a name="callFork"></a> `callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<T>`
 
 Fork a new green thread and execute the passed function in the background.
 
@@ -77,21 +77,20 @@ Parameters:
 #### See also: 
 * `\Generator`
 * `\Amp\Future`
-* `\T`
 
 
 
 
-### `flock(string $file, int $operation, float $polling = 0.1, ?\Amp\Cancellation $token = NULL, ?\Closure $failureCb = NULL): mixed`
+### <a name="flock"></a> `flock(string $file, integer $operation, float $polling = 0.1, ?\Amp\Cancellation $token = NULL, ?\Closure $failureCb = NULL): ($token is null ? Closure(): void : (Closure(): void | null))`
 
 Asynchronously lock a file
-Resolves with a callbable that MUST eventually be called in order to release the lock.
+Resolves with a callbable that MUST eventually be called in order to release the lock.  
 
 
 Parameters:
 
 * `$file`: `string` File to lock  
-* `$operation`: `int` Locking mode  
+* `$operation`: `integer` Locking mode  
 * `$polling`: `float` Polling interval  
 * `$token`: `?\Amp\Cancellation` Cancellation token  
 * `$failureCb`: `?\Closure` Failure callback, called only once if the first locking attempt fails.  
@@ -104,7 +103,7 @@ Parameters:
 
 
 
-### `sleep(float $time): void`
+### <a name="sleep"></a> `sleep(float $time): void`
 
 Asynchronously sleep.
 
@@ -115,7 +114,7 @@ Parameters:
 
 
 
-### `readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL): string`
+### <a name="readLine"></a> `readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL): string`
 
 Asynchronously read line.
 
@@ -132,7 +131,7 @@ Parameters:
 
 
 
-### `echo(string $string): void`
+### <a name="echo"></a> `echo(string $string): void`
 
 Asynchronously write to stdout/browser.
 
@@ -143,7 +142,7 @@ Parameters:
 
 
 
-### `mbStrlen(string $text): int`
+### <a name="mbStrlen"></a> `mbStrlen(string $text): int`
 
 Get Telegram UTF-8 length of string.
 
@@ -154,7 +153,7 @@ Parameters:
 
 
 
-### `mbSubstr(string $text, int $offset, null|int $length = NULL): string`
+### <a name="mbSubstr"></a> `mbSubstr(string $text, integer $offset, (null|int) $length = NULL): string`
 
 Telegram UTF-8 multibyte substring.
 
@@ -162,12 +161,12 @@ Telegram UTF-8 multibyte substring.
 Parameters:
 
 * `$text`: `string` Text to substring  
-* `$offset`: `int` Offset  
-* `$length`: `null|int` Length  
+* `$offset`: `integer` Offset  
+* `$length`: `(null|int)` Length  
 
 
 
-### `mbStrSplit(string $text, int $length): string[]`
+### <a name="mbStrSplit"></a> `mbStrSplit(string $text, integer $length): array<string>`
 
 Telegram UTF-8 multibyte split.
 
@@ -175,16 +174,18 @@ Telegram UTF-8 multibyte split.
 Parameters:
 
 * `$text`: `string` Text  
-* `$length`: `int` Length  
+* `$length`: `integer` Length  
 
 
 
-### `htmlToMessageEntities(string $html): \danog\MadelineProto\TL\Conversion\DOMEntities Object containing message and entities`
+### <a name="htmlToMessageEntities"></a> `htmlToMessageEntities(string $html): \danog\MadelineProto\TL\Conversion\DOMEntities`
 
 Manually convert HTML to a message and a set of entities.
+  
 NOTE: You don't have to use this method to send HTML messages.  
   
-This method is already called automatically by using parse_mode: "HTML" in messages.sendMessage, messages.sendMedia, et cetera...
+This method is already called automatically by using parse_mode: "HTML" in messages.sendMessage, messages.sendMedia, et cetera...  
+
 
 Parameters:
 
@@ -195,16 +196,19 @@ Return value: Object containing message and entities
 
 #### See also: 
 * [https://docs.madelineproto.xyz/API_docs/methods/messages.sendMessage.html#usage-of-parse_mode](https://docs.madelineproto.xyz/API_docs/methods/messages.sendMessage.html#usage-of-parse_mode)
+* [`\danog\MadelineProto\TL\Conversion\DOMEntities`: Class that converts HTML to a message + set of entities.](../../danog/MadelineProto/TL/Conversion/DOMEntities.html)
 
 
 
 
-### `markdownToMessageEntities(string $markdown): \danog\MadelineProto\TL\Conversion\MarkdownEntities Object containing message and entities`
+### <a name="markdownToMessageEntities"></a> `markdownToMessageEntities(string $markdown): \danog\MadelineProto\TL\Conversion\MarkdownEntities`
 
 Manually convert markdown to a message and a set of entities.
+  
 NOTE: You don't have to use this method to send Markdown messages.  
   
-This method is already called automatically by using parse_mode: "Markdown" in messages.sendMessage, messages.sendMedia, et cetera...
+This method is already called automatically by using parse_mode: "Markdown" in messages.sendMessage, messages.sendMedia, et cetera...  
+
 
 Parameters:
 
@@ -215,11 +219,12 @@ Return value: Object containing message and entities
 
 #### See also: 
 * [https://docs.madelineproto.xyz/API_docs/methods/messages.sendMessage.html#usage-of-parse_mode](https://docs.madelineproto.xyz/API_docs/methods/messages.sendMessage.html#usage-of-parse_mode)
+* [`\danog\MadelineProto\TL\Conversion\MarkdownEntities`: Class that converts Markdown to a message + set of entities.](../../danog/MadelineProto/TL/Conversion/MarkdownEntities.html)
 
 
 
 
-### `entitiesToHtml(string $message, list<\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int}> $entities, bool $allowTelegramTags = false): string`
+### <a name="entitiesToHtml"></a> `entitiesToHtml(string $message, list<(\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int})> $entities, bool $allowTelegramTags = false): string`
 
 Convert a message and a set of entities to HTML.
 
@@ -227,7 +232,7 @@ Convert a message and a set of entities to HTML.
 Parameters:
 
 * `$message`: `string`   
-* `$entities`: `list<\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int}>`   
+* `$entities`: `list<(\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int})>`   
 * `$allowTelegramTags`: `bool` Whether to allow telegram-specific tags like tg-spoiler, tg-emoji, mention links and so on...  
 
 
@@ -237,7 +242,7 @@ Parameters:
 
 
 
-### `toCamelCase(string $input): string`
+### <a name="toCamelCase"></a> `toCamelCase(string $input): string`
 
 Convert to camelCase.
 
@@ -248,7 +253,7 @@ Parameters:
 
 
 
-### `toSnakeCase(string $input): string`
+### <a name="toSnakeCase"></a> `toSnakeCase(string $input): string`
 
 Convert to snake_case.
 
@@ -259,7 +264,7 @@ Parameters:
 
 
 
-### `htmlEscape(string $what): string`
+### <a name="htmlEscape"></a> `htmlEscape(string $what): string`
 
 Escape string for MadelineProto's HTML entity converter.
 
@@ -270,7 +275,7 @@ Parameters:
 
 
 
-### `markdownEscape(string $what): string`
+### <a name="markdownEscape"></a> `markdownEscape(string $what): string`
 
 Escape string for markdown.
 
@@ -281,7 +286,7 @@ Parameters:
 
 
 
-### `markdownCodeblockEscape(string $what): string`
+### <a name="markdownCodeblockEscape"></a> `markdownCodeblockEscape(string $what): string`
 
 Escape string for markdown codeblock.
 
@@ -292,7 +297,7 @@ Parameters:
 
 
 
-### `markdownCodeEscape(string $what): string`
+### <a name="markdownCodeEscape"></a> `markdownCodeEscape(string $what): string`
 
 Escape string for markdown code section.
 
@@ -303,7 +308,7 @@ Parameters:
 
 
 
-### `markdownUrlEscape(string $what): string`
+### <a name="markdownUrlEscape"></a> `markdownUrlEscape(string $what): string`
 
 Escape string for URL.
 
@@ -314,7 +319,7 @@ Parameters:
 
 
 
-### `getMimeFromExtension(string $extension, string $default): string`
+### <a name="getMimeFromExtension"></a> `getMimeFromExtension(string $extension, string $default): string`
 
 Get mime type from file extension.
 
@@ -326,7 +331,7 @@ Parameters:
 
 
 
-### `getExtensionFromMime(string $mime): string`
+### <a name="getExtensionFromMime"></a> `getExtensionFromMime(string $mime): string`
 
 Get extension from mime type.
 
@@ -337,7 +342,7 @@ Parameters:
 
 
 
-### `getExtensionFromLocation(mixed $location, string $default): string`
+### <a name="getExtensionFromLocation"></a> `getExtensionFromLocation(mixed $location, string $default): string`
 
 Get extension from file location.
 
@@ -349,7 +354,7 @@ Parameters:
 
 
 
-### `getMimeFromFile(string $file): string`
+### <a name="getMimeFromFile"></a> `getMimeFromFile(string $file): string`
 
 Get mime type of file.
 
@@ -360,7 +365,7 @@ Parameters:
 
 
 
-### `getMimeFromBuffer(string $buffer): string`
+### <a name="getMimeFromBuffer"></a> `getMimeFromBuffer(string $buffer): string`
 
 Get mime type from buffer.
 

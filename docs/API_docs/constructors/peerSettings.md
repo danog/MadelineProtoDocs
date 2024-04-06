@@ -24,9 +24,13 @@ List of actions that are possible when interacting with this user, to be shown a
 |autoarchived|[Bool](/API_docs/types/Bool.html) | Optional|Whether this peer was automatically archived according to [privacy settings](../constructors/globalPrivacySettings.html) and can be unarchived|
 |invite\_members|[Bool](/API_docs/types/Bool.html) | Optional|If set, this is a recently created group chat to which new members can be invited|
 |request\_chat\_broadcast|[Bool](/API_docs/types/Bool.html) | Optional|This flag is set if `request_chat_title` and `request_chat_date` fields are set and the [join request »](https://core.telegram.org/api/invites#join-requests) is related to a channel (otherwise if only the request fields are set, the [join request »](https://core.telegram.org/api/invites#join-requests) is related to a chat).|
+|business\_bot\_paused|[Bool](/API_docs/types/Bool.html) | Optional|
+|business\_bot\_can\_reply|[Bool](/API_docs/types/Bool.html) | Optional|
 |geo\_distance|[int](/API_docs/types/int.html) | Optional|Distance in meters between us and this peer|
 |request\_chat\_title|[string](/API_docs/types/string.html) | Optional|If set, this is a private chat with an administrator of a chat or channel to which the user sent a join request, and this field contains the chat/channel's title.|
 |request\_chat\_date|[int](/API_docs/types/int.html) | Optional|If set, this is a private chat with an administrator of a chat or channel to which the user sent a join request, and this field contains the timestamp when the [join request »](https://core.telegram.org/api/invites#join-requests) was sent.|
+|business\_bot\_id|[long](/API_docs/types/long.html) | Optional|
+|business\_bot\_manage\_url|[string](/API_docs/types/string.html) | Optional|
 
 
 
@@ -36,5 +40,5 @@ List of actions that are possible when interacting with this user, to be shown a
 ### Example:
 
 ```
-$peerSettings = ['_' => 'peerSettings', 'report_spam' => Bool, 'add_contact' => Bool, 'block_contact' => Bool, 'share_contact' => Bool, 'need_contacts_exception' => Bool, 'report_geo' => Bool, 'autoarchived' => Bool, 'invite_members' => Bool, 'request_chat_broadcast' => Bool, 'geo_distance' => int, 'request_chat_title' => 'string', 'request_chat_date' => int];
+$peerSettings = ['_' => 'peerSettings', 'report_spam' => Bool, 'add_contact' => Bool, 'block_contact' => Bool, 'share_contact' => Bool, 'need_contacts_exception' => Bool, 'report_geo' => Bool, 'autoarchived' => Bool, 'invite_members' => Bool, 'request_chat_broadcast' => Bool, 'business_bot_paused' => Bool, 'business_bot_can_reply' => Bool, 'geo_distance' => int, 'request_chat_title' => 'string', 'request_chat_date' => int, 'business_bot_id' => long, 'business_bot_manage_url' => 'string'];
 ```  

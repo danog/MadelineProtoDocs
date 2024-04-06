@@ -18,80 +18,100 @@ Logger settings.
 
 ## Method list:
 * [`__construct()`](#__construct)
-* [`getType(): \MadelineProtoLogger::LOGGER_*`](#gettype-madelineprotologger-logger_)
-* [`setType(\MadelineProtoLogger::LOGGER_* $type): self`](#settype-madelineprotologger-logger_-type-self)
-* [`getExtra(): callable|string|null`](#getextra-callable-string-null)
-* [`setExtra(null|callable|string $extra): self`](#setextra-null-callable-string-extra-self)
-* [`getLevel(): \MadelineProtoLogger::LEVEL_*`](#getlevel-madelineprotologger-level_)
-* [`setLevel(\MadelineProtoLogger::LEVEL_* $level): self`](#setlevel-madelineprotologger-level_-level-self)
-* [`getMaxSize(): int`](#getmaxsize-int)
-* [`setMaxSize(int $maxSize): self`](#setmaxsize-int-maxsize-self)
+* [`getType(): MadelineProtoLogger::LOGGER_*`](#getType)
+* [`setType(MadelineProtoLogger::LOGGER_* $type): self`](#setType)
+* [`getExtra(): callable|string|null`](#getExtra)
+* [`setExtra((null|callable|string) $extra): self`](#setExtra)
+* [`getLevel(): MadelineProtoLogger::LEVEL_*`](#getLevel)
+* [`setLevel(MadelineProtoLogger::LEVEL_* $level): self`](#setLevel)
+* [`getMaxSize(): int`](#getMaxSize)
+* [`setMaxSize(int $maxSize): self`](#setMaxSize)
 
 ## Methods:
-### `__construct()`
+### <a name="__construct"></a> `__construct()`
 
 
 
 
 
-### `getType(): \MadelineProtoLogger::LOGGER_*`
+### <a name="getType"></a> `getType(): MadelineProtoLogger::LOGGER_*`
 
 Get $type Logger type.
 
 
+#### See also: 
+* `MadelineProtoLogger::LOGGER_*`
 
-### `setType(\MadelineProtoLogger::LOGGER_* $type): self`
+
+
+
+### <a name="setType"></a> `setType(MadelineProtoLogger::LOGGER_* $type): self`
 
 Set $type Logger type.
 
 
 Parameters:
 
-* `$type`: `\MadelineProtoLogger::LOGGER_*` $type Logger type.  
+* `$type`: `MadelineProtoLogger::LOGGER_*` $type Logger type.  
+
+
+#### See also: 
+* `MadelineProtoLogger::LOGGER_*`
 
 
 
-### `getExtra(): callable|string|null`
+
+### <a name="getExtra"></a> `getExtra(): callable|string|null`
 
 Get extra parameter for logger.
 
 
 
-### `setExtra(null|callable|string $extra): self`
+### <a name="setExtra"></a> `setExtra((null|callable|string) $extra): self`
 
 Set extra parameter for logger.
 
 
 Parameters:
 
-* `$extra`: `null|callable|string` Extra parameter for logger.  
+* `$extra`: `(null|callable|string)` Extra parameter for logger.  
 
 
 
-### `getLevel(): \MadelineProtoLogger::LEVEL_*`
+### <a name="getLevel"></a> `getLevel(): MadelineProtoLogger::LEVEL_*`
 
 Get logging level.
 
 
+#### See also: 
+* `MadelineProtoLogger::LEVEL_*`
 
-### `setLevel(\MadelineProtoLogger::LEVEL_* $level): self`
+
+
+
+### <a name="setLevel"></a> `setLevel(MadelineProtoLogger::LEVEL_* $level): self`
 
 Set logging level.
 
 
 Parameters:
 
-* `$level`: `\MadelineProtoLogger::LEVEL_*` Logging level.  
+* `$level`: `MadelineProtoLogger::LEVEL_*` Logging level.  
+
+
+#### See also: 
+* `MadelineProtoLogger::LEVEL_*`
 
 
 
-### `getMaxSize(): int`
+
+### <a name="getMaxSize"></a> `getMaxSize(): int`
 
 Get maximum filesize for logger, in case of file logging.
 
 
 
-### `setMaxSize(int $maxSize): self`
+### <a name="setMaxSize"></a> `setMaxSize(int $maxSize): self`
 
 Set maximum filesize for logger, in case of file logging.
 

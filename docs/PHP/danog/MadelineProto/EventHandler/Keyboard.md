@@ -16,15 +16,15 @@ Represents an inline or reply keyboard.
 
 
 ## Properties
-* `$buttons`: `non-empty-list<non-empty-list<\Button>>` 
+* `$buttons`: `non-empty-list<non-empty-list<Button>>` 
 
 ## Method list:
-* [`fromRawReplyMarkup(array $rawReplyMarkup): ?self`](#fromrawreplymarkup-array-rawreplymarkup-self)
-* [`pressByCoordinates(int $row, int $column, bool $waitForResult): mixed`](#pressbycoordinates-int-row-int-column-bool-waitforresult-mixed)
-* [`press(string $label, bool $waitForResult): mixed`](#press-string-label-bool-waitforresult-mixed)
+* [`fromRawReplyMarkup(array $rawReplyMarkup): ?self`](#fromRawReplyMarkup)
+* [`pressByCoordinates(int $row, int $column, bool $waitForResult): mixed`](#pressByCoordinates)
+* [`press(string $label, bool $waitForResult): mixed`](#press)
 
 ## Methods:
-### `fromRawReplyMarkup(array $rawReplyMarkup): ?self`
+### <a name="fromRawReplyMarkup"></a> `fromRawReplyMarkup(array $rawReplyMarkup): ?self`
 
 
 
@@ -35,7 +35,7 @@ Parameters:
 
 
 
-### `pressByCoordinates(int $row, int $column, bool $waitForResult): mixed`
+### <a name="pressByCoordinates"></a> `pressByCoordinates(int $row, int $column, bool $waitForResult): mixed`
 
 Press button at the specified keyboard coordinates.
 
@@ -48,7 +48,7 @@ Parameters:
 
 
 
-### `press(string $label, bool $waitForResult): mixed`
+### <a name="press"></a> `press(string $label, bool $waitForResult): mixed`
 
 Presses the first keyboard button with the specified label.
 

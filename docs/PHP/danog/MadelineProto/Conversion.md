@@ -21,20 +21,20 @@ parent: "MadelineProto API"
 * `$tdesktop_key`: `mixed` 
 
 ## Method list:
-* [`importAuthorization(array<int, string> $authorization, int $main_dc_id, string $session, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): \danog\MadelineProto\API`](#importauthorization-array-int-string-authorization-int-main_dc_id-string-session-danog-madelineproto-settingsabstract-settings-null-danog-madelineproto-api)
-* [`telethon(string $session, string $new_session, \danog\MadelineProto\SettingsAbstract|null $settings = NULL): \danog\MadelineProto\API`](#telethon-string-session-string-new_session-danog-madelineproto-settingsabstract-null-settings-null-danog-madelineproto-api)
-* [`pyrogram(string $session, string $new_session, \danog\MadelineProto\SettingsAbstract|null $settings = NULL): \danog\MadelineProto\API`](#pyrogram-string-session-string-new_session-danog-madelineproto-settingsabstract-null-settings-null-danog-madelineproto-api)
-* [`zerobias(array|string $session, string $new_session, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): \danog\MadelineProto\API`](#zerobias-array-string-session-string-new_session-danog-madelineproto-settingsabstract-settings-null-danog-madelineproto-api)
+* [`importAuthorization(array<int, string> $authorization, int $main_dc_id, string $session, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): \danog\MadelineProto\API`](#importAuthorization)
+* [`telethon(string $session, string $new_session, (\danog\MadelineProto\SettingsAbstract|null) $settings = NULL): \danog\MadelineProto\API`](#telethon)
+* [`pyrogram(string $session, string $new_session, (\danog\MadelineProto\SettingsAbstract|null) $settings = NULL): \danog\MadelineProto\API`](#pyrogram)
+* [`zerobias(array|string $session, string $new_session, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): \danog\MadelineProto\API`](#zerobias)
 
 ## Methods:
-### `importAuthorization(array<int, string> $authorization, int $main_dc_id, string $session, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): \danog\MadelineProto\API`
+### <a name="importAuthorization"></a> `importAuthorization(array<int, string> $authorization, int $main_dc_id, string $session, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): \danog\MadelineProto\API`
 
 Prepare API instance.
 
 
 Parameters:
 
-* `$authorization`: `array<int, string>` Authorization info  
+* `$authorization`: `array<int, string>` Authorization info, DC ID => auth key  
 * `$main_dc_id`: `int`   
 * `$session`: `string`   
 * `$settings`: `?\danog\MadelineProto\SettingsAbstract`   
@@ -47,7 +47,7 @@ Parameters:
 
 
 
-### `telethon(string $session, string $new_session, \danog\MadelineProto\SettingsAbstract|null $settings = NULL): \danog\MadelineProto\API`
+### <a name="telethon"></a> `telethon(string $session, string $new_session, (\danog\MadelineProto\SettingsAbstract|null) $settings = NULL): \danog\MadelineProto\API`
 
 Convert telethon session.
 
@@ -56,7 +56,7 @@ Parameters:
 
 * `$session`: `string` Telethon session file  
 * `$new_session`: `string` MadelineProto session directory to create  
-* `$settings`: `\danog\MadelineProto\SettingsAbstract|null` Settings  
+* `$settings`: `(\danog\MadelineProto\SettingsAbstract|null)` Settings  
 
 
 #### See also: 
@@ -66,7 +66,7 @@ Parameters:
 
 
 
-### `pyrogram(string $session, string $new_session, \danog\MadelineProto\SettingsAbstract|null $settings = NULL): \danog\MadelineProto\API`
+### <a name="pyrogram"></a> `pyrogram(string $session, string $new_session, (\danog\MadelineProto\SettingsAbstract|null) $settings = NULL): \danog\MadelineProto\API`
 
 Convert pyrogram session.
 
@@ -75,7 +75,7 @@ Parameters:
 
 * `$session`: `string` Pyrogram session file  
 * `$new_session`: `string` MadelineProto session directory to create  
-* `$settings`: `\danog\MadelineProto\SettingsAbstract|null` Settings  
+* `$settings`: `(\danog\MadelineProto\SettingsAbstract|null)` Settings  
 
 
 #### See also: 
@@ -85,7 +85,7 @@ Parameters:
 
 
 
-### `zerobias(array|string $session, string $new_session, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): \danog\MadelineProto\API`
+### <a name="zerobias"></a> `zerobias(array|string $session, string $new_session, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): \danog\MadelineProto\API`
 
 
 

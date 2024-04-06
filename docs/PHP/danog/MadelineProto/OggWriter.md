@@ -19,12 +19,12 @@ Async OGG stream writer.
 * `$streamId`: `int` 
 
 ## Method list:
-* [`__construct(\Amp\ByteStream\WritableStream $out, ?int $streamId = NULL)`](#__construct-amp-bytestream-writablestream-out-int-streamid-null)
-* [`writeHeader(int $channels, int $sampleRate, string $opusVersion): void`](#writeheader-int-channels-int-samplerate-string-opusversion-void)
-* [`writeChunk(string $chunk, int $granuleDiff, bool $eos): void`](#writechunk-string-chunk-int-granulediff-bool-eos-void)
+* [`__construct(\Amp\ByteStream\WritableStream $out, ?int $streamId = NULL)`](#__construct)
+* [`writeHeader(int $channels, int $sampleRate, string $opusVersion): void`](#writeHeader)
+* [`writeChunk(string $chunk, int $granuleDiff, bool $eos): void`](#writeChunk)
 
 ## Methods:
-### `__construct(\Amp\ByteStream\WritableStream $out, ?int $streamId = NULL)`
+### <a name="__construct"></a> `__construct(\Amp\ByteStream\WritableStream $out, ?int $streamId = NULL)`
 
 Write an ogg OPUS file.
 
@@ -41,7 +41,7 @@ Parameters:
 
 
 
-### `writeHeader(int $channels, int $sampleRate, string $opusVersion): void`
+### <a name="writeHeader"></a> `writeHeader(int $channels, int $sampleRate, string $opusVersion): void`
 
 
 
@@ -54,7 +54,7 @@ Parameters:
 
 
 
-### `writeChunk(string $chunk, int $granuleDiff, bool $eos): void`
+### <a name="writeChunk"></a> `writeChunk(string $chunk, int $granuleDiff, bool $eos): void`
 
 
 

@@ -17,22 +17,22 @@ Represents a quiz (with wrong and correct answers, results shown in the return t
 
 ## Properties
 * `$solution`: `?string` Explanation of quiz solution
-* `$entities`: `list<\MessageEntity>` Message [entities](https://core.telegram.org/api/entities) for styled text in quiz solution
+* `$entities`: `list<MessageEntity>` Message [entities](https://core.telegram.org/api/entities) for styled text in quiz solution
 * `$id`: `int` ID of the poll
 * `$closed`: `bool` Whether the poll is closed and doesn’t accept any more answers
 * `$question`: `string` The question of the poll
-* `$answers`: `list<\PollAnswer>` The possible answers
+* `$answers`: `list<PollAnswer>` The possible answers
 * `$closePeriod`: `?int` Amount of time in seconds the poll will be active after creation, 5-600
 * `$closeDate`: `?int` Point in time (Unix timestamp) when the poll will be automatically closed. Must be at least 5 and no more than 600 seconds in the future
 * `$recentVoters`: `list<int>` IDs of the last users that recently voted in the poll
 * `$totalVoters`: `int` Total number of people that voted in the poll
 
 ## Method list:
-* [`getHTML(bool $allowTelegramTags = false): ?string`](#gethtml-bool-allowtelegramtags-false-string)
-* [`fromRawPoll(array $rawPoll): \danog\MadelineProto\EventHandler\AbstractPoll`](#fromrawpoll-array-rawpoll-danog-madelineproto-eventhandler-abstractpoll)
+* [`getHTML(bool $allowTelegramTags = false): ?string`](#getHTML)
+* [`fromRawPoll(array $rawPoll): \danog\MadelineProto\EventHandler\AbstractPoll`](#fromRawPoll)
 
 ## Methods:
-### `getHTML(bool $allowTelegramTags = false): ?string`
+### <a name="getHTML"></a> `getHTML(bool $allowTelegramTags = false): ?string`
 
 Get an HTML version of the solution.
 
@@ -43,7 +43,7 @@ Parameters:
 
 
 
-### `fromRawPoll(array $rawPoll): \danog\MadelineProto\EventHandler\AbstractPoll`
+### <a name="fromRawPoll"></a> `fromRawPoll(array $rawPoll): \danog\MadelineProto\EventHandler\AbstractPoll`
 
 
 

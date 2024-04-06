@@ -37,11 +37,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [BaseTheme](/API_docs/types/BaseTheme.html)<a name="BaseTheme"></a>  
 
+[Birthday](/API_docs/types/Birthday.html)<a name="Birthday"></a>  
+
 [Bool](/API_docs/types/Bool.html)<a name="Bool"></a>  
 
 [Boost](/API_docs/types/Boost.html)<a name="Boost"></a>  
 
 [BotApp](/API_docs/types/BotApp.html)<a name="BotApp"></a>  
+
+[BotBusinessConnection](/API_docs/types/BotBusinessConnection.html)<a name="BotBusinessConnection"></a>  
 
 [BotCommand](/API_docs/types/BotCommand.html)<a name="BotCommand"></a>  
 
@@ -55,11 +59,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [BotMenuButton](/API_docs/types/BotMenuButton.html)<a name="BotMenuButton"></a>  
 
+[BroadcastRevenueTransaction](/API_docs/types/BroadcastRevenueTransaction.html)<a name="BroadcastRevenueTransaction"></a>  
+
 [BusinessAwayMessage](/API_docs/types/BusinessAwayMessage.html)<a name="BusinessAwayMessage"></a>  
 
 [BusinessAwayMessageSchedule](/API_docs/types/BusinessAwayMessageSchedule.html)<a name="BusinessAwayMessageSchedule"></a>  
 
+[BusinessBotRecipients](/API_docs/types/BusinessBotRecipients.html)<a name="BusinessBotRecipients"></a>  
+
+[BusinessChatLink](/API_docs/types/BusinessChatLink.html)<a name="BusinessChatLink"></a>  
+
 [BusinessGreetingMessage](/API_docs/types/BusinessGreetingMessage.html)<a name="BusinessGreetingMessage"></a>  
+
+[BusinessIntro](/API_docs/types/BusinessIntro.html)<a name="BusinessIntro"></a>  
 
 [BusinessLocation](/API_docs/types/BusinessLocation.html)<a name="BusinessLocation"></a>  
 
@@ -118,6 +130,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [ConnectedBot](/API_docs/types/ConnectedBot.html)<a name="ConnectedBot"></a>  
 
 [Contact](/API_docs/types/Contact.html)<a name="Contact"></a>  
+
+[ContactBirthday](/API_docs/types/ContactBirthday.html)<a name="ContactBirthday"></a>  
 
 [ContactStatus](/API_docs/types/ContactStatus.html)<a name="ContactStatus"></a>  
 
@@ -233,7 +247,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [InputBusinessAwayMessage](/API_docs/types/InputBusinessAwayMessage.html)<a name="InputBusinessAwayMessage"></a>  
 
+[InputBusinessBotRecipients](/API_docs/types/InputBusinessBotRecipients.html)<a name="InputBusinessBotRecipients"></a>  
+
+[InputBusinessChatLink](/API_docs/types/InputBusinessChatLink.html)<a name="InputBusinessChatLink"></a>  
+
 [InputBusinessGreetingMessage](/API_docs/types/InputBusinessGreetingMessage.html)<a name="InputBusinessGreetingMessage"></a>  
+
+[InputBusinessIntro](/API_docs/types/InputBusinessIntro.html)<a name="InputBusinessIntro"></a>  
 
 [InputBusinessRecipients](/API_docs/types/InputBusinessRecipients.html)<a name="InputBusinessRecipients"></a>  
 
@@ -246,6 +266,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html)<a name="InputCheckPasswordSRP"></a>  
 
 [InputClientProxy](/API_docs/types/InputClientProxy.html)<a name="InputClientProxy"></a>  
+
+[InputCollectible](/API_docs/types/InputCollectible.html)<a name="InputCollectible"></a>  
 
 [InputContact](/API_docs/types/InputContact.html)<a name="InputContact"></a>  
 
@@ -373,6 +395,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [MessagesFilter](/API_docs/types/MessagesFilter.html)<a name="MessagesFilter"></a>  
 
+[MissingInvitee](/API_docs/types/MissingInvitee.html)<a name="MissingInvitee"></a>  
+
 [MyBoost](/API_docs/types/MyBoost.html)<a name="MyBoost"></a>  
 
 [NearestDc](/API_docs/types/NearestDc.html)<a name="NearestDc"></a>  
@@ -483,6 +507,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [RequestPeerType](/API_docs/types/RequestPeerType.html)<a name="RequestPeerType"></a>  
 
+[RequestedPeer](/API_docs/types/RequestedPeer.html)<a name="RequestedPeer"></a>  
+
 [RestrictionReason](/API_docs/types/RestrictionReason.html)<a name="RestrictionReason"></a>  
 
 [RichText](/API_docs/types/RichText.html)<a name="RichText"></a>  
@@ -530,6 +556,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [SmsJob](/API_docs/types/SmsJob.html)<a name="SmsJob"></a>  
 
 [SponsoredMessage](/API_docs/types/SponsoredMessage.html)<a name="SponsoredMessage"></a>  
+
+[SponsoredMessageReportOption](/API_docs/types/SponsoredMessageReportOption.html)<a name="SponsoredMessageReportOption"></a>  
 
 [SponsoredWebPage](/API_docs/types/SponsoredWebPage.html)<a name="SponsoredWebPage"></a>  
 
@@ -629,6 +657,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [account.AutoSaveSettings](/API_docs/types/account.AutoSaveSettings.html)<a name="account.AutoSaveSettings"></a>  
 
+[account.BusinessChatLinks](/API_docs/types/account.BusinessChatLinks.html)<a name="account.BusinessChatLinks"></a>  
+
 [account.ConnectedBots](/API_docs/types/account.ConnectedBots.html)<a name="account.ConnectedBots"></a>  
 
 [account.ContentSettings](/API_docs/types/account.ContentSettings.html)<a name="account.ContentSettings"></a>  
@@ -646,6 +676,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [account.PrivacyRules](/API_docs/types/account.PrivacyRules.html)<a name="account.PrivacyRules"></a>  
 
 [account.ResetPasswordResult](/API_docs/types/account.ResetPasswordResult.html)<a name="account.ResetPasswordResult"></a>  
+
+[account.ResolvedBusinessChatLinks](/API_docs/types/account.ResolvedBusinessChatLinks.html)<a name="account.ResolvedBusinessChatLinks"></a>  
 
 [account.SavedRingtone](/API_docs/types/account.SavedRingtone.html)<a name="account.SavedRingtone"></a>  
 
@@ -689,6 +721,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [channels.SendAsPeers](/API_docs/types/channels.SendAsPeers.html)<a name="channels.SendAsPeers"></a>  
 
+[channels.SponsoredMessageReportResult](/API_docs/types/channels.SponsoredMessageReportResult.html)<a name="channels.SponsoredMessageReportResult"></a>  
+
 [chatlists.ChatlistInvite](/API_docs/types/chatlists.ChatlistInvite.html)<a name="chatlists.ChatlistInvite"></a>  
 
 [chatlists.ChatlistUpdates](/API_docs/types/chatlists.ChatlistUpdates.html)<a name="chatlists.ChatlistUpdates"></a>  
@@ -699,6 +733,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [contacts.Blocked](/API_docs/types/contacts.Blocked.html)<a name="contacts.Blocked"></a>  
 
+[contacts.ContactBirthdays](/API_docs/types/contacts.ContactBirthdays.html)<a name="contacts.ContactBirthdays"></a>  
+
 [contacts.Contacts](/API_docs/types/contacts.Contacts.html)<a name="contacts.Contacts"></a>  
 
 [contacts.Found](/API_docs/types/contacts.Found.html)<a name="contacts.Found"></a>  
@@ -708,6 +744,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [contacts.ResolvedPeer](/API_docs/types/contacts.ResolvedPeer.html)<a name="contacts.ResolvedPeer"></a>  
 
 [contacts.TopPeers](/API_docs/types/contacts.TopPeers.html)<a name="contacts.TopPeers"></a>  
+
+[fragment.CollectibleInfo](/API_docs/types/fragment.CollectibleInfo.html)<a name="fragment.CollectibleInfo"></a>  
 
 [help.AppConfig](/API_docs/types/help.AppConfig.html)<a name="help.AppConfig"></a>  
 
@@ -811,6 +849,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messages.InactiveChats](/API_docs/types/messages.InactiveChats.html)<a name="messages.InactiveChats"></a>  
 
+[messages.InvitedUsers](/API_docs/types/messages.InvitedUsers.html)<a name="messages.InvitedUsers"></a>  
+
 [messages.MessageEditData](/API_docs/types/messages.MessageEditData.html)<a name="messages.MessageEditData"></a>  
 
 [messages.MessageReactionsList](/API_docs/types/messages.MessageReactionsList.html)<a name="messages.MessageReactionsList"></a>  
@@ -818,6 +858,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [messages.MessageViews](/API_docs/types/messages.MessageViews.html)<a name="messages.MessageViews"></a>  
 
 [messages.Messages](/API_docs/types/messages.Messages.html)<a name="messages.Messages"></a>  
+
+[messages.MyStickers](/API_docs/types/messages.MyStickers.html)<a name="messages.MyStickers"></a>  
 
 [messages.PeerDialogs](/API_docs/types/messages.PeerDialogs.html)<a name="messages.PeerDialogs"></a>  
 
@@ -904,6 +946,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [smsjobs.EligibilityToJoin](/API_docs/types/smsjobs.EligibilityToJoin.html)<a name="smsjobs.EligibilityToJoin"></a>  
 
 [smsjobs.Status](/API_docs/types/smsjobs.Status.html)<a name="smsjobs.Status"></a>  
+
+[stats.BroadcastRevenueStats](/API_docs/types/stats.BroadcastRevenueStats.html)<a name="stats.BroadcastRevenueStats"></a>  
+
+[stats.BroadcastRevenueTransactions](/API_docs/types/stats.BroadcastRevenueTransactions.html)<a name="stats.BroadcastRevenueTransactions"></a>  
+
+[stats.BroadcastRevenueWithdrawalUrl](/API_docs/types/stats.BroadcastRevenueWithdrawalUrl.html)<a name="stats.BroadcastRevenueWithdrawalUrl"></a>  
 
 [stats.BroadcastStats](/API_docs/types/stats.BroadcastStats.html)<a name="stats.BroadcastStats"></a>  
 

@@ -17,17 +17,17 @@ Indicates a security error.
 
 
 ## Method list:
-* [`__construct(string $message = '', int $code = 0, ?\Throwable $previous = NULL)`](#__construct-string-message-int-code-0-throwable-previous-null)
-* [`getMessage(): string`](#getmessage-string)
-* [`getCode(): mixed`](#getcode-mixed)
-* [`getFile(): string`](#getfile-string)
-* [`getLine(): int`](#getline-int)
-* [`getTrace(): array`](#gettrace-array)
-* [`getPrevious(): ?\Throwable`](#getprevious-throwable)
-* [`getTraceAsString(): string`](#gettraceasstring-string)
+* [`__construct(string $message = '', int $code = 0, ?Throwable $previous = NULL)`](#__construct)
+* [`getMessage(): string`](#getMessage)
+* [`getCode()`](#getCode)
+* [`getFile(): string`](#getFile)
+* [`getLine(): int`](#getLine)
+* [`getTrace(): array`](#getTrace)
+* [`getPrevious(): ?Throwable`](#getPrevious)
+* [`getTraceAsString(): string`](#getTraceAsString)
 
 ## Methods:
-### `__construct(string $message = '', int $code = 0, ?\Throwable $previous = NULL)`
+### <a name="__construct"></a> `__construct(string $message = '', int $code = 0, ?Throwable $previous = NULL)`
 
 
 
@@ -36,57 +36,57 @@ Parameters:
 
 * `$message`: `string`   
 * `$code`: `int`   
-* `$previous`: `?\Throwable`   
+* `$previous`: `?Throwable`   
 
 
 #### See also: 
-* `\Throwable`
+* `Throwable`
 
 
 
 
-### `getMessage(): string`
-
-
-
-
-
-### `getCode(): mixed`
+### <a name="getMessage"></a> `getMessage(): string`
 
 
 
 
 
-### `getFile(): string`
+### <a name="getCode"></a> `getCode()`
 
 
 
 
 
-### `getLine(): int`
+### <a name="getFile"></a> `getFile(): string`
 
 
 
 
 
-### `getTrace(): array`
+### <a name="getLine"></a> `getLine(): int`
 
 
 
 
 
-### `getPrevious(): ?\Throwable`
+### <a name="getTrace"></a> `getTrace(): array`
+
+
+
+
+
+### <a name="getPrevious"></a> `getPrevious(): ?Throwable`
 
 
 
 
 #### See also: 
-* `\Throwable`
+* `Throwable`
 
 
 
 
-### `getTraceAsString(): string`
+### <a name="getTraceAsString"></a> `getTraceAsString(): string`
 
 
 

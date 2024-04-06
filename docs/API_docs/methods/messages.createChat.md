@@ -24,7 +24,7 @@ May also return 0-N updates of type [updateGroupInvitePrivacyForbidden](../const
 |ttl\_period|[int](/API_docs/types/int.html) | Time-to-live of all messages that will be sent in the chat: once message.date+message.ttl\_period === time(), the message will be deleted on the server, and must be deleted locally as well. You can use [messages.setDefaultHistoryTTL](../methods/messages.setDefaultHistoryTTL.html) to edit this value later. | Optional|
 
 
-### Return type: [Updates](/API_docs/types/Updates.html)
+### Return type: [messages.InvitedUsers](/API_docs/types/messages.InvitedUsers.html)
 
 ### Can bots use this method: **NO**
 
@@ -41,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->createChat(users: [$InputUser, $InputUser], title: 'string', ttl_period: $int, );
+$messages_InvitedUsers = $MadelineProto->messages->createChat(users: [$InputUser, $InputUser], title: 'string', ttl_period: $int, );
 ```
 

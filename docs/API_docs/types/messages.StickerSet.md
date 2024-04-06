@@ -36,5 +36,7 @@ redirect_from: /API_docs/types/messages_StickerSet.html
 
 [$MadelineProto->stickers->renameStickerSet](/API_docs/methods/stickers.renameStickerSet.html)  
 
+[$MadelineProto->stickers->replaceSticker](/API_docs/methods/stickers.replaceSticker.html)  
+
 
 

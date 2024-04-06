@@ -17,41 +17,41 @@ TL schema settings.
 
 
 ## Method list:
-* [`needsUpgrade(): bool`](#needsupgrade-bool)
-* [`upgrade(): void`](#upgrade-void)
-* [`getLayer(): int`](#getlayer-int)
-* [`setLayer(int $layer): self`](#setlayer-int-layer-self)
-* [`getMTProtoSchema(): string`](#getmtprotoschema-string)
-* [`setMTProtoSchema(string $MTProtoSchema): self`](#setmtprotoschema-string-mtprotoschema-self)
-* [`getAPISchema(): string`](#getapischema-string)
-* [`setAPISchema(string $APISchema): self`](#setapischema-string-apischema-self)
-* [`getSecretSchema(): string`](#getsecretschema-string)
-* [`setSecretSchema(string $secretSchema): self`](#setsecretschema-string-secretschema-self)
-* [`getOther(): array`](#getother-array)
-* [`setOther(array $other): self`](#setother-array-other-self)
-* [`getFuzzMode(): bool`](#getfuzzmode-bool)
-* [`setFuzzMode(bool $fuzz): self`](#setfuzzmode-bool-fuzz-self)
+* [`needsUpgrade(): bool`](#needsUpgrade)
+* [`upgrade(): void`](#upgrade)
+* [`getLayer(): int`](#getLayer)
+* [`setLayer(int $layer): self`](#setLayer)
+* [`getMTProtoSchema(): string`](#getMTProtoSchema)
+* [`setMTProtoSchema(string $MTProtoSchema): self`](#setMTProtoSchema)
+* [`getAPISchema(): string`](#getAPISchema)
+* [`setAPISchema(string $APISchema): self`](#setAPISchema)
+* [`getSecretSchema(): string`](#getSecretSchema)
+* [`setSecretSchema(string $secretSchema): self`](#setSecretSchema)
+* [`getOther(): array`](#getOther)
+* [`setOther(array $other): self`](#setOther)
+* [`getFuzzMode(): bool`](#getFuzzMode)
+* [`setFuzzMode(bool $fuzz): self`](#setFuzzMode)
 
 ## Methods:
-### `needsUpgrade(): bool`
+### <a name="needsUpgrade"></a> `needsUpgrade(): bool`
 
 Returns whether the TL parser should re-parse the TL schemes.
 
 
 
-### `upgrade(): void`
+### <a name="upgrade"></a> `upgrade(): void`
 
 Signal that scheme was re-parsed.
 
 
 
-### `getLayer(): int`
+### <a name="getLayer"></a> `getLayer(): int`
 
 Get TL layer version.
 
 
 
-### `setLayer(int $layer): self`
+### <a name="setLayer"></a> `setLayer(int $layer): self`
 
 Set TL layer version.
 
@@ -62,13 +62,13 @@ Parameters:
 
 
 
-### `getMTProtoSchema(): string`
+### <a name="getMTProtoSchema"></a> `getMTProtoSchema(): string`
 
 Get MTProto schema path.
 
 
 
-### `setMTProtoSchema(string $MTProtoSchema): self`
+### <a name="setMTProtoSchema"></a> `setMTProtoSchema(string $MTProtoSchema): self`
 
 Set MTProto schema path.
 
@@ -79,13 +79,13 @@ Parameters:
 
 
 
-### `getAPISchema(): string`
+### <a name="getAPISchema"></a> `getAPISchema(): string`
 
 Get API schema path.
 
 
 
-### `setAPISchema(string $APISchema): self`
+### <a name="setAPISchema"></a> `setAPISchema(string $APISchema): self`
 
 Set API schema path.
 
@@ -96,13 +96,13 @@ Parameters:
 
 
 
-### `getSecretSchema(): string`
+### <a name="getSecretSchema"></a> `getSecretSchema(): string`
 
 Get secret schema path.
 
 
 
-### `setSecretSchema(string $secretSchema): self`
+### <a name="setSecretSchema"></a> `setSecretSchema(string $secretSchema): self`
 
 Set secret schema path.
 
@@ -113,13 +113,13 @@ Parameters:
 
 
 
-### `getOther(): array`
+### <a name="getOther"></a> `getOther(): array`
 
 Get the value of other.
 
 
 
-### `setOther(array $other): self`
+### <a name="setOther"></a> `setOther(array $other): self`
 
 Set the value of other.
 
@@ -130,13 +130,13 @@ Parameters:
 
 
 
-### `getFuzzMode(): bool`
+### <a name="getFuzzMode"></a> `getFuzzMode(): bool`
 
 Get the value of the fuzz mode.
 
 
 
-### `setFuzzMode(bool $fuzz): self`
+### <a name="setFuzzMode"></a> `setFuzzMode(bool $fuzz): self`
 
 Set the value of the fuzz mode.
 

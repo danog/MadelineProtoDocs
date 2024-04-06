@@ -20,13 +20,13 @@ Banned/kicked user.
 * `$peer`: `int` The banned peer
 * `$kickedBy`: `int` User was kicked by the specified admin
 * `$date`: `int` When did the user join the group
-* `$bannedRights`: `\danog\MadelineProto\EventHandler\Participant\Rights\Banned` Banned [rights](https://core.telegram.org/api/rights)
+* `$bannedRights`: `danog\MadelineProto\EventHandler\Participant\Rights\Banned` Banned [rights](https://core.telegram.org/api/rights)
 
 ## Method list:
-* [`fromRawParticipant(array $rawParticipant): self`](#fromrawparticipant-array-rawparticipant-self)
+* [`fromRawParticipant(array $rawParticipant): self`](#fromRawParticipant)
 
 ## Methods:
-### `fromRawParticipant(array $rawParticipant): self`
+### <a name="fromRawParticipant"></a> `fromRawParticipant(array $rawParticipant): self`
 
 
 

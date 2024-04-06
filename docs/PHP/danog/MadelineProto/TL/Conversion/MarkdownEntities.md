@@ -20,10 +20,10 @@ Class that converts Markdown to a message + set of entities.
 * `$message`: `string` Converted message
 
 ## Method list:
-* [`__construct(string $markdown)`](#__construct-string-markdown)
+* [`__construct(string $markdown)`](#__construct)
 
 ## Methods:
-### `__construct(string $markdown)`
+### <a name="__construct"></a> `__construct(string $markdown)`
 
 
 

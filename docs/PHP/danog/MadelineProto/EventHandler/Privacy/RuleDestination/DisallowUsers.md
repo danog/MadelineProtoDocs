@@ -19,10 +19,10 @@ Disallow only certain users.
 * `$users`: `array` Allowed users
 
 ## Method list:
-* [`fromRawRule(array $rawRule): \danog\MadelineProto\EventHandler\Privacy\RuleDestination`](#fromrawrule-array-rawrule-danog-madelineproto-eventhandler-privacy-ruledestination)
+* [`fromRawRule(array $rawRule): \danog\MadelineProto\EventHandler\Privacy\RuleDestination`](#fromRawRule)
 
 ## Methods:
-### `fromRawRule(array $rawRule): \danog\MadelineProto\EventHandler\Privacy\RuleDestination`
+### <a name="fromRawRule"></a> `fromRawRule(array $rawRule): \danog\MadelineProto\EventHandler\Privacy\RuleDestination`
 
 
 

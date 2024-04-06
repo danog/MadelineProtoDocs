@@ -17,13 +17,13 @@ NOTs a filter.
 
 
 ## Method list:
-* [`__construct(\danog\MadelineProto\EventHandler\Filter\Filter $filter)`](#__construct-danog-madelineproto-eventhandler-filter-filter-filter)
-* [`initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`](#initialize-danog-madelineproto-eventhandler-api-danog-madelineproto-eventhandler-filter-filter)
-* [`apply(\danog\MadelineProto\EventHandler\Update $update): bool`](#apply-danog-madelineproto-eventhandler-update-update-bool)
-* [`fromReflectionType(\ReflectionType $type): \danog\MadelineProto\EventHandler\Filter\Filter`](#fromreflectiontype-reflectiontype-type-danog-madelineproto-eventhandler-filter-filter)
+* [`__construct(\danog\MadelineProto\EventHandler\Filter\Filter $filter)`](#__construct)
+* [`initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`](#initialize)
+* [`apply(\danog\MadelineProto\EventHandler\Update $update): bool`](#apply)
+* [`fromReflectionType(\ReflectionType $type): \danog\MadelineProto\EventHandler\Filter\Filter`](#fromReflectionType)
 
 ## Methods:
-### `__construct(\danog\MadelineProto\EventHandler\Filter\Filter $filter)`
+### <a name="__construct"></a> `__construct(\danog\MadelineProto\EventHandler\Filter\Filter $filter)`
 
 
 
@@ -39,7 +39,7 @@ Parameters:
 
 
 
-### `initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`
+### <a name="initialize"></a> `initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`
 
 
 
@@ -56,7 +56,7 @@ Parameters:
 
 
 
-### `apply(\danog\MadelineProto\EventHandler\Update $update): bool`
+### <a name="apply"></a> `apply(\danog\MadelineProto\EventHandler\Update $update): bool`
 
 
 
@@ -72,7 +72,7 @@ Parameters:
 
 
 
-### `fromReflectionType(\ReflectionType $type): \danog\MadelineProto\EventHandler\Filter\Filter`
+### <a name="fromReflectionType"></a> `fromReflectionType(\ReflectionType $type): \danog\MadelineProto\EventHandler\Filter\Filter`
 
 
 

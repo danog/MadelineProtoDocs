@@ -17,10 +17,10 @@ Chat invite link that was used by the user to send the [join request »](https:/
 
 
 ## Method list:
-* [`fromRawChatInvite(array $rawChatInvite): self`](#fromrawchatinvite-array-rawchatinvite-self)
+* [`fromRawChatInvite(array $rawChatInvite): self`](#fromRawChatInvite)
 
 ## Methods:
-### `fromRawChatInvite(array $rawChatInvite): self`
+### <a name="fromRawChatInvite"></a> `fromRawChatInvite(array $rawChatInvite): self`
 
 
 

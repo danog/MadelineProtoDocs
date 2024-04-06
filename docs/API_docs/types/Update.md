@@ -233,8 +233,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateAutoSaveSettings](/API_docs/constructors/updateAutoSaveSettings.html)  
 
-[updateGroupInvitePrivacyForbidden](/API_docs/constructors/updateGroupInvitePrivacyForbidden.html)  
-
 [updateStory](/API_docs/constructors/updateStory.html)  
 
 [updateReadStories](/API_docs/constructors/updateReadStories.html)  
@@ -272,6 +270,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [updateQuickReplyMessage](/API_docs/constructors/updateQuickReplyMessage.html)  
 
 [updateDeleteQuickReplyMessages](/API_docs/constructors/updateDeleteQuickReplyMessages.html)  
+
+[updateBotBusinessConnect](/API_docs/constructors/updateBotBusinessConnect.html)  
+
+[updateBotNewBusinessMessage](/API_docs/constructors/updateBotNewBusinessMessage.html)  
+
+[updateBotEditBusinessMessage](/API_docs/constructors/updateBotEditBusinessMessage.html)  
+
+[updateBotDeleteBusinessMessage](/API_docs/constructors/updateBotDeleteBusinessMessage.html)  
 
 
 

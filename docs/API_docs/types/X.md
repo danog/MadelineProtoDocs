@@ -29,5 +29,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$MadelineProto->invokeWithTakeout](/API_docs/methods/invokeWithTakeout.html)  
 
+[$MadelineProto->invokeWithBusinessConnection](/API_docs/methods/invokeWithBusinessConnection.html)  
+
 
 

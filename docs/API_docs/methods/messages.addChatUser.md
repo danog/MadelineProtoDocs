@@ -24,7 +24,7 @@ May also return 0-N updates of type [updateGroupInvitePrivacyForbidden](../const
 |fwd\_limit|[int](/API_docs/types/int.html) | Number of last messages to be forwarded | Optional|
 
 
-### Return type: [Updates](/API_docs/types/Updates.html)
+### Return type: [messages.InvitedUsers](/API_docs/types/messages.InvitedUsers.html)
 
 ### Can bots use this method: **NO**
 
@@ -41,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->addChatUser(chat_id: $InputPeer, user_id: $InputUser, fwd_limit: $int, );
+$messages_InvitedUsers = $MadelineProto->messages->addChatUser(chat_id: $InputPeer, user_id: $InputUser, fwd_limit: $int, );
 ```
 

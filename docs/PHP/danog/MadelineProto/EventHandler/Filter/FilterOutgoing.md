@@ -17,12 +17,12 @@ Allow only outgoing messages.
 
 
 ## Method list:
-* [`apply(\danog\MadelineProto\EventHandler\Update $update): bool`](#apply-danog-madelineproto-eventhandler-update-update-bool)
-* [`initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`](#initialize-danog-madelineproto-eventhandler-api-danog-madelineproto-eventhandler-filter-filter)
-* [`fromReflectionType(\ReflectionType $type): \danog\MadelineProto\EventHandler\Filter\Filter`](#fromreflectiontype-reflectiontype-type-danog-madelineproto-eventhandler-filter-filter)
+* [`apply(\danog\MadelineProto\EventHandler\Update $update): bool`](#apply)
+* [`initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`](#initialize)
+* [`fromReflectionType(\ReflectionType $type): \danog\MadelineProto\EventHandler\Filter\Filter`](#fromReflectionType)
 
 ## Methods:
-### `apply(\danog\MadelineProto\EventHandler\Update $update): bool`
+### <a name="apply"></a> `apply(\danog\MadelineProto\EventHandler\Update $update): bool`
 
 
 
@@ -38,7 +38,7 @@ Parameters:
 
 
 
-### `initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`
+### <a name="initialize"></a> `initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`
 
 Run some initialization logic, optionally returning a new filter to replace the current one.
 
@@ -54,7 +54,7 @@ Parameters:
 
 
 
-### `fromReflectionType(\ReflectionType $type): \danog\MadelineProto\EventHandler\Filter\Filter`
+### <a name="fromReflectionType"></a> `fromReflectionType(\ReflectionType $type): \danog\MadelineProto\EventHandler\Filter\Filter`
 
 
 

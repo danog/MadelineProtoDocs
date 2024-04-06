@@ -22,14 +22,14 @@ Admin.
 * `$inviterId`: `?int` User that invited the admin to the channel/group
 * `$promotedBy`: `int` User that promoted the user to admin
 * `$date`: `int` When did the user join
-* `$adminRights`: `\danog\MadelineProto\EventHandler\Participant\Rights\Admin` Admin [rights](https://core.telegram.org/api/rights)
+* `$adminRights`: `danog\MadelineProto\EventHandler\Participant\Rights\Admin` Admin [rights](https://core.telegram.org/api/rights)
 * `$rank`: `string` The role (rank) of the admin in the group: just an arbitrary string, `admin` by default
 
 ## Method list:
-* [`fromRawParticipant(array $rawParticipant): self`](#fromrawparticipant-array-rawparticipant-self)
+* [`fromRawParticipant(array $rawParticipant): self`](#fromRawParticipant)
 
 ## Methods:
-### `fromRawParticipant(array $rawParticipant): self`
+### <a name="fromRawParticipant"></a> `fromRawParticipant(array $rawParticipant): self`
 
 
 

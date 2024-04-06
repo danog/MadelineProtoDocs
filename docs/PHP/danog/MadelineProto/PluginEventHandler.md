@@ -37,232 +37,237 @@ Plugin event handler class.
 * `$stories`: `\danog\MadelineProto\Namespace\Stories` 
 * `$premium`: `\danog\MadelineProto\Namespace\Premium` 
 * `$smsjobs`: `\danog\MadelineProto\Namespace\Smsjobs` 
+* `$fragment`: `\danog\MadelineProto\Namespace\Fragment` 
 
 ## Method list:
-* [`getPluginPaths(): array|string|null`](#getpluginpaths-array-string-null)
-* [`isPluginEnabled(): bool`](#ispluginenabled-bool)
-* [`startAndLoop(string $session, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): void`](#startandloop-string-session-danog-madelineproto-settingsabstract-settings-null-void)
-* [`startAndLoopBot(string $session, string $token, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): void`](#startandloopbot-string-session-string-token-danog-madelineproto-settingsabstract-settings-null-void)
-* [`getPeriodicLoop(string $name): ?\danog\Loop\PeriodicLoop`](#getperiodicloop-string-name-danog-loop-periodicloop)
-* [`getPeriodicLoops(): array<string, \danog\Loop\PeriodicLoop>`](#getperiodicloops-array-string-danog-loop-periodicloop)
-* [`getReportPeers(): string|int|(string|int)[]`](#getreportpeers-string-int-string-int)
-* [`getPlugins(): class-string<\danog\MadelineProto\EventHandler>[]`](#getplugins-class-string-danog-madelineproto-eventhandler)
-* [`MTProtoToBotAPI(array $data): array`](#mtprototobotapi-array-data-array)
-* [`MTProtoToTd(mixed $params): array`](#mtprotototd-mixed-params-array)
-* [`MTProtoToTdcli(mixed $params): array`](#mtprotototdcli-mixed-params-array)
-* [`acceptCall(int $id): void`](#acceptcall-int-id-void)
-* [`acceptSecretChat(array $params): void`](#acceptsecretchat-array-params-void)
-* [`arr(mixed ...$params): array`](#arr-mixed-params-array)
-* [`base64urlDecode(string $data): string`](#base64urldecode-string-data-string)
-* [`base64urlEncode(string $data): string`](#base64urlencode-string-data-string)
-* [`botAPIToMTProto(array $arguments): array`](#botapitomtproto-array-arguments-array)
-* [`botLogin(string $token): ?array`](#botlogin-string-token-array)
-* [`broadcastCustom(\danog\MadelineProto\Broadcast\Action $action, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, float|null $delay = NULL): int`](#broadcastcustom-danog-madelineproto-broadcast-action-action-danog-madelineproto-broadcast-filter-filter-null-float-null-delay-null-int)
-* [`broadcastForwardMessages(mixed $from_peer, list<int> $message_ids, bool $drop_author = false, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, bool $pin = false, float|null $delay = NULL): int`](#broadcastforwardmessages-mixed-from_peer-list-int-message_ids-bool-drop_author-false-danog-madelineproto-broadcast-filter-filter-null-bool-pin-false-float-null-delay-null-int)
-* [`broadcastMessages(array $messages, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, bool $pin = false, float|null $delay = NULL): int`](#broadcastmessages-array-messages-danog-madelineproto-broadcast-filter-filter-null-bool-pin-false-float-null-delay-null-int)
-* [`callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<\T>`](#callfork-generator-amp-future-callable-callable-mixed-args-amp-future-t)
-* [`callGetCurrent(int $id): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`](#callgetcurrent-int-id-danog-madelineproto-remoteurl-danog-madelineproto-localfile-string-null)
-* [`callPlay(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): void`](#callplay-int-id-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-file-void)
-* [`callPlayOnHold(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): void`](#callplayonhold-int-id-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-files-void)
-* [`callSetOutput(int $id, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file): void`](#callsetoutput-int-id-danog-madelineproto-localfile-amp-bytestream-writablestream-file-void)
-* [`canConvertOgg(): bool`](#canconvertogg-bool)
-* [`cancelBroadcast(int $id): void`](#cancelbroadcast-int-id-void)
-* [`closeConnection(string $message): void`](#closeconnection-string-message-void)
-* [`complete2faLogin(string $password): array`](#complete2falogin-string-password-array)
-* [`completePhoneLogin(string $code): array`](#completephonelogin-string-code-array)
-* [`completeSignup(string $first_name, string $last_name = ''): array`](#completesignup-string-first_name-string-last_name-array)
-* [`discardCall(int $id, \danog\MadelineProto\VoIP\DiscardReason $reason = \danog\MadelineProto\VoIP\DiscardReason::HANGUP, int<\1, \5> $rating = NULL, string $comment = NULL): void`](#discardcall-int-id-danog-madelineproto-voip-discardreason-reason-danog-madelineproto-voip-discardreason-hangup-int-1-5-rating-null-string-comment-null-void)
-* [`discardSecretChat(int $chat): void`](#discardsecretchat-int-chat-void)
-* [`downloadServer(string $session): void`](#downloadserver-string-session-void)
-* [`downloadToBrowser(array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message $messageMedia, null|callable $cb = NULL, null|int $size = NULL, null|string $name = NULL, null|string $mime = NULL, ?\Amp\Cancellation $cancellation = NULL): void`](#downloadtobrowser-array-string-danog-madelineproto-filecallbackinterface-danog-madelineproto-eventhandler-message-messagemedia-null-callable-cb-null-null-int-size-null-null-string-name-null-null-string-mime-null-amp-cancellation-cancellation-null-void)
-* [`downloadToCallable(mixed $messageMedia, callable|\danog\MadelineProto\FileCallbackInterface $callable, callable $cb = NULL, bool $seekable = true, int $offset = 0, int $end = -1, int $part_size = NULL, ?\Amp\Cancellation $cancellation = NULL): void`](#downloadtocallable-mixed-messagemedia-callable-danog-madelineproto-filecallbackinterface-callable-callable-cb-null-bool-seekable-true-int-offset-0-int-end-1-int-part_size-null-amp-cancellation-cancellation-null-void)
-* [`downloadToDir(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $dir, callable $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): \non-empty-string Downloaded file name`](#downloadtodir-mixed-messagemedia-string-danog-madelineproto-filecallbackinterface-dir-callable-cb-null-amp-cancellation-cancellation-null-non-empty-string-downloaded-file-name)
-* [`downloadToFile(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $file, callable $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): \non-empty-string Downloaded file name`](#downloadtofile-mixed-messagemedia-string-danog-madelineproto-filecallbackinterface-file-callable-cb-null-amp-cancellation-cancellation-null-non-empty-string-downloaded-file-name)
-* [`downloadToResponse(array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message $messageMedia, \Amp\Http\Server\Request $request, callable $cb = NULL, null|int $size = NULL, null|string $mime = NULL, null|string $name = NULL, ?\Amp\Cancellation $cancellation = NULL): \Amp\Http\Server\Response`](#downloadtoresponse-array-string-danog-madelineproto-filecallbackinterface-danog-madelineproto-eventhandler-message-messagemedia-amp-http-server-request-request-callable-cb-null-null-int-size-null-null-string-mime-null-null-string-name-null-amp-cancellation-cancellation-null-amp-http-server-response)
-* [`downloadToReturnedStream(mixed $messageMedia, callable $cb = NULL, int $offset = 0, int $end = -1, ?\Amp\Cancellation $cancellation = NULL): \Amp\ByteStream\ReadableStream`](#downloadtoreturnedstream-mixed-messagemedia-callable-cb-null-int-offset-0-int-end-1-amp-cancellation-cancellation-null-amp-bytestream-readablestream)
-* [`downloadToStream(mixed $messageMedia, mixed|\danog\MadelineProto\FileCallbackInterface|\resource|\Amp\ByteStream\WritableStream $stream, callable $cb = NULL, int $offset = 0, int $end = -1, ?\Amp\Cancellation $cancellation = NULL): void`](#downloadtostream-mixed-messagemedia-mixed-danog-madelineproto-filecallbackinterface-resource-amp-bytestream-writablestream-stream-callable-cb-null-int-offset-0-int-end-1-amp-cancellation-cancellation-null-void)
-* [`echo(string $string): void`](#echo-string-string-void)
-* [`end(\T[] $what): \T`](#end-t-what-t)
-* [`entitiesToHtml(string $message, list<\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int}> $entities, bool $allowTelegramTags = false): string`](#entitiestohtml-string-message-list-danog-madelineproto-eventhandler-message-entities-messageentity-array-_-string-offset-int-length-int-entities-bool-allowtelegramtags-false-string)
-* [`exportAuthorization(): array{0: int|string, 1: string}`](#exportauthorization-array-0-int-string-1-string)
-* [`extractBotAPIFile(array $info): ?array`](#extractbotapifile-array-info-array)
-* [`extractMessage(array $updates): array`](#extractmessage-array-updates-array)
-* [`extractMessageId(array $updates): int`](#extractmessageid-array-updates-int)
-* [`extractMessageUpdate(array $updates): array`](#extractmessageupdate-array-updates-array)
-* [`extractUpdates(array $updates): array[]`](#extractupdates-array-updates-array)
-* [`fileGetContents(string $url): string`](#filegetcontents-string-url-string)
-* [`flock(string $file, int $operation, float $polling = 0.1, ?\Amp\Cancellation $token = NULL, ?\Closure $failureCb = NULL): mixed`](#flock-string-file-int-operation-float-polling-0-1-amp-cancellation-token-null-closure-failurecb-null-mixed)
-* [`fullChatLastUpdated(mixed $id): int`](#fullchatlastupdated-mixed-id-int)
-* [`fullGetSelf(): array|false`](#fullgetself-array-false)
-* [`genVectorHash(array $longs): string`](#genvectorhash-array-longs-string)
-* [`getAdminIds(): array`](#getadminids-array)
-* [`getAllCalls(): array<int, \danog\MadelineProto\VoIP>`](#getallcalls-array-int-danog-madelineproto-voip)
-* [`getAllMethods(): array`](#getallmethods-array)
-* [`getAuthorization(): \danog\MadelineProto\API::NOT_LOGGED_IN|\danog\MadelineProto\API::WAITING_CODE|\danog\MadelineProto\API::WAITING_SIGNUP|\danog\MadelineProto\API::WAITING_PASSWORD|\danog\MadelineProto\API::LOGGED_IN|\API::LOGGED_OUT`](#getauthorization-danog-madelineproto-api-not_logged_in-danog-madelineproto-api-waiting_code-danog-madelineproto-api-waiting_signup-danog-madelineproto-api-waiting_password-danog-madelineproto-api-logged_in-api-logged_out)
-* [`getBroadcastProgress(int $id): ?\danog\MadelineProto\Broadcast\Progress`](#getbroadcastprogress-int-id-danog-madelineproto-broadcast-progress)
-* [`getCachedConfig(): array`](#getcachedconfig-array)
-* [`getCall(int $id): ?\danog\MadelineProto\VoIP`](#getcall-int-id-danog-madelineproto-voip)
-* [`getCallByPeer(int $userId): ?\danog\MadelineProto\VoIP`](#getcallbypeer-int-userid-danog-madelineproto-voip)
-* [`getCallState(int $id): ?\danog\MadelineProto\VoIP\CallState`](#getcallstate-int-id-danog-madelineproto-voip-callstate)
-* [`getCdnConfig(): void`](#getcdnconfig-void)
-* [`getConfig(array $config = []): array`](#getconfig-array-config-array)
-* [`getDNSClient(): \Amp\Dns\DnsResolver`](#getdnsclient-amp-dns-dnsresolver)
-* [`getDhConfig(): array`](#getdhconfig-array)
-* [`getDialogIds(): list<int>`](#getdialogids-list-int)
-* [`getDownloadInfo(mixed $messageMedia): array{ext: string, name: string, mime: string, size: int, InputFileLocation: array, key_fingerprint?: string, key?: string, iv?: string, thumb_size?: string}`](#getdownloadinfo-mixed-messagemedia-array-ext-string-name-string-mime-string-size-int-inputfilelocation-array-key_fingerprint-string-key-string-iv-string-thumb_size-string)
-* [`getDownloadLink(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|array|string $media, ?string $scriptUrl = NULL, ?int $size = NULL, ?string $name = NULL, ?string $mime = NULL): string`](#getdownloadlink-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-media-array-string-media-string-scripturl-null-int-size-null-string-name-null-string-mime-null-string)
-* [`getEventHandler(class-string<\T>|null $class = NULL): \T|\danog\MadelineProto\Ipc\EventHandlerProxy|\__PHP_Incomplete_Class|null`](#geteventhandler-class-string-t-null-class-null-t-danog-madelineproto-ipc-eventhandlerproxy-__php_incomplete_class-null)
-* [`getExtensionFromLocation(mixed $location, string $default): string`](#getextensionfromlocation-mixed-location-string-default-string)
-* [`getExtensionFromMime(string $mime): string`](#getextensionfrommime-string-mime-string)
-* [`getFileInfo(mixed $constructor): array`](#getfileinfo-mixed-constructor-array)
-* [`getFullDialogs(): array<int, array>`](#getfulldialogs-array-int-array)
-* [`getFullInfo(mixed $id): array`](#getfullinfo-mixed-id-array)
-* [`getHTTPClient(): \Amp\Http\Client\HttpClient`](#gethttpclient-amp-http-client-httpclient)
-* [`getHint(): string`](#gethint-string)
-* [`getId(mixed $id): int`](#getid-mixed-id-int)
-* [`getInfo(mixed $id, \danog\MadelineProto\API::INFO_TYPE_* $type = \danog\MadelineProto\API::INFO_TYPE_ALL): mixed`](#getinfo-mixed-id-danog-madelineproto-api-info_type_-type-danog-madelineproto-api-info_type_all-mixed)
-* [`getLogger(): \danog\MadelineProto\Logger`](#getlogger-danog-madelineproto-logger)
-* [`getMaps(): ?int`](#getmaps-int)
-* [`getMaxMaps(): ?int`](#getmaxmaps-int)
-* [`getMethodNamespaces(): array`](#getmethodnamespaces-array)
-* [`getMethodsNamespaced(): array`](#getmethodsnamespaced-array)
-* [`getMimeFromBuffer(string $buffer): string`](#getmimefrombuffer-string-buffer-string)
-* [`getMimeFromExtension(string $extension, string $default): string`](#getmimefromextension-string-extension-string-default-string)
-* [`getMimeFromFile(string $file): string`](#getmimefromfile-string-file-string)
-* [`getPlugin(class-string<\T> $class): \danog\MadelineProto\PluginEventHandler|\danog\MadelineProto\Ipc\EventHandlerProxy|null`](#getplugin-class-string-t-class-danog-madelineproto-plugineventhandler-danog-madelineproto-ipc-eventhandlerproxy-null)
-* [`getPropicInfo(mixed $data): array`](#getpropicinfo-mixed-data-array)
-* [`getPsrLogger(): \Psr\Log\LoggerInterface`](#getpsrlogger-psr-log-loggerinterface)
-* [`getPwrChat(mixed $id, bool $fullfetch = true): array`](#getpwrchat-mixed-id-bool-fullfetch-true-array)
-* [`getSecretChat(array|int $chat): \danog\MadelineProto\SecretChats\SecretChat`](#getsecretchat-array-int-chat-danog-madelineproto-secretchats-secretchat)
-* [`getSecretMessage(int $chatId, int $randomId): \danog\MadelineProto\EventHandler\Message\SecretMessage`](#getsecretmessage-int-chatid-int-randomid-danog-madelineproto-eventhandler-message-secretmessage)
-* [`getSelf(): array|false`](#getself-array-false)
-* [`getSessionName(): string`](#getsessionname-string)
-* [`getSettings(): \danog\MadelineProto\Settings`](#getsettings-danog-madelineproto-settings)
-* [`getSponsoredMessages(int|string|array $peer): ?array`](#getsponsoredmessages-int-string-array-peer-array)
-* [`getStream(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL): \Amp\ByteStream\ReadableStream`](#getstream-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-media-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-amp-bytestream-readablestream-stream-amp-cancellation-cancellation-null-amp-bytestream-readablestream)
-* [`getStreamPipe(): \Amp\ByteStream\Pipe`](#getstreampipe-amp-bytestream-pipe)
-* [`getTL(): \danog\MadelineProto\TL\TLInterface`](#gettl-danog-madelineproto-tl-tlinterface)
-* [`getType(mixed $id): \danog\MadelineProto\API::PEER_TYPE_*`](#gettype-mixed-id-danog-madelineproto-api-peer_type_)
-* [`getUpdates(array{offset?: int, limit?: int, timeout?: float} $params = []): list<array{update_id: mixed, update: mixed}>`](#getupdates-array-offset-int-limit-int-timeout-float-params-list-array-update_id-mixed-update-mixed)
-* [`getWebMessage(string $message): string`](#getwebmessage-string-message-string)
-* [`getWebWarnings(): string`](#getwebwarnings-string)
-* [`hasAdmins(): bool`](#hasadmins-bool)
-* [`hasEventHandler(): bool`](#haseventhandler-bool)
-* [`hasPlugin(class-string<\danog\MadelineProto\EventHandler> $class): bool`](#hasplugin-class-string-danog-madelineproto-eventhandler-class-bool)
-* [`hasReportPeers(): bool`](#hasreportpeers-bool)
-* [`hasSecretChat(array|int $chat): bool`](#hassecretchat-array-int-chat-bool)
-* [`htmlEscape(string $what): string`](#htmlescape-string-what-string)
-* [`htmlToMessageEntities(string $html): \danog\MadelineProto\TL\Conversion\DOMEntities Object containing message and entities`](#htmltomessageentities-string-html-danog-madelineproto-tl-conversion-domentities-object-containing-message-and-entities)
-* [`importAuthorization(array<int, string> $authorization, int $mainDcID): array`](#importauthorization-array-int-string-authorization-int-maindcid-array)
-* [`inflateStripped(string $stripped): string`](#inflatestripped-string-stripped-string)
-* [`initSelfRestart(): void`](#initselfrestart-void)
-* [`isAltervista(): bool`](#isaltervista-bool)
-* [`isArrayOrAlike(mixed $var): bool`](#isarrayoralike-mixed-var-bool)
-* [`isBot(mixed $peer): bool`](#isbot-mixed-peer-bool)
-* [`isForum(mixed $peer): bool`](#isforum-mixed-peer-bool)
-* [`isIpc(): bool`](#isipc-bool)
-* [`isIpcWorker(): bool`](#isipcworker-bool)
-* [`isPlayPaused(int $id): bool`](#isplaypaused-int-id-bool)
-* [`isPremium(): bool`](#ispremium-bool)
-* [`isSelfBot(): bool`](#isselfbot-bool)
-* [`isSelfUser(): bool`](#isselfuser-bool)
-* [`isTestMode(): bool`](#istestmode-bool)
-* [`logger(mixed $param, int $level = \danog\MadelineProto\Logger::NOTICE, string $file = ''): void`](#logger-mixed-param-int-level-danog-madelineproto-logger-notice-string-file-void)
-* [`logout(): void`](#logout-void)
-* [`markdownCodeEscape(string $what): string`](#markdowncodeescape-string-what-string)
-* [`markdownCodeblockEscape(string $what): string`](#markdowncodeblockescape-string-what-string)
-* [`markdownEscape(string $what): string`](#markdownescape-string-what-string)
-* [`markdownToMessageEntities(string $markdown): \danog\MadelineProto\TL\Conversion\MarkdownEntities Object containing message and entities`](#markdowntomessageentities-string-markdown-danog-madelineproto-tl-conversion-markdownentities-object-containing-message-and-entities)
-* [`markdownUrlEscape(string $what): string`](#markdownurlescape-string-what-string)
-* [`mbStrSplit(string $text, int $length): string[]`](#mbstrsplit-string-text-int-length-string)
-* [`mbStrlen(string $text): int`](#mbstrlen-string-text-int)
-* [`mbSubstr(string $text, int $offset, null|int $length = NULL): string`](#mbsubstr-string-text-int-offset-null-int-length-null-string)
-* [`openBuffered(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL): callable`](#openbuffered-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-stream-amp-cancellation-cancellation-null-callable)
-* [`openFileAppendOnly(string $path): \Amp\File\File`](#openfileappendonly-string-path-amp-file-file)
-* [`packDouble(float $value): string`](#packdouble-float-value-string)
-* [`packSignedInt(int $value): string`](#packsignedint-int-value-string)
-* [`packSignedLong(int $value): string`](#packsignedlong-int-value-string)
-* [`packUnsignedInt(int $value): string`](#packunsignedint-int-value-string)
-* [`pausePlay(int $id): void`](#pauseplay-int-id-void)
-* [`peerIsset(mixed $id): bool`](#peerisset-mixed-id-bool)
-* [`phoneLogin(string $number, int $sms_type = 5): array`](#phonelogin-string-number-int-sms_type-5-array)
-* [`posmod(int $a, int $b): int`](#posmod-int-a-int-b-int)
-* [`processDownloadServerPing(string $path, string $payload): void`](#processdownloadserverping-string-path-string-payload-void)
-* [`qrLogin(): ?\danog\MadelineProto\TL\Types\LoginQrCode`](#qrlogin-danog-madelineproto-tl-types-loginqrcode)
-* [`random(int $length): string`](#random-int-length-string)
-* [`randomInt(int $modulus = 0): int`](#randomint-int-modulus-0-int)
-* [`readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL): string`](#readline-string-prompt-amp-cancellation-cancel-null-string)
-* [`refreshFullPeerCache(mixed $id): void`](#refreshfullpeercache-mixed-id-void)
-* [`refreshPeerCache(mixed ...$ids): void`](#refreshpeercache-mixed-ids-void)
-* [`report(string $message, string $parseMode = ''): void`](#report-string-message-string-parsemode-void)
-* [`reportMemoryProfile(): void`](#reportmemoryprofile-void)
-* [`requestCall(mixed $user): \danog\MadelineProto\VoIP`](#requestcall-mixed-user-danog-madelineproto-voip)
-* [`requestSecretChat(mixed $user): int`](#requestsecretchat-mixed-user-int)
-* [`resetUpdateState(): void`](#resetupdatestate-void)
-* [`restart(): void`](#restart-void)
-* [`resumePlay(int $id): void`](#resumeplay-int-id-void)
-* [`rethrow(\Throwable $e): void`](#rethrow-throwable-e-void)
-* [`rleDecode(string $string): string`](#rledecode-string-string-string)
-* [`rleEncode(string $string): string`](#rleencode-string-string-string)
-* [`sendCustomEvent(mixed $payload): void`](#sendcustomevent-mixed-payload-void)
-* [`sendDocument(int|string $peer, \danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?string $mimeType = NULL, ?int $ttl = NULL, bool $spoiler = false, int|null $replyToMsgId = NULL, int|null $topMsgId = NULL, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $updateStickersetsOrder = false, bool $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#senddocument-int-string-peer-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-media-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-amp-bytestream-readablestream-file-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-media-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-amp-bytestream-readablestream-null-thumb-null-string-caption-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-callable-callback-null-string-filename-null-string-mimetype-null-int-ttl-null-bool-spoiler-false-int-null-replytomsgid-null-int-null-topmsgid-null-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-updatestickersetsorder-false-bool-forceresend-false-amp-cancellation-cancellation-null-danog-madelineproto-eventhandler-message)
-* [`sendMessage(int|string $peer, string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, int|null $replyToMsgId = NULL, int|null $topMsgId = NULL, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, bool $updateStickersetsOrder = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#sendmessage-int-string-peer-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-int-null-replytomsgid-null-int-null-topmsgid-null-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-nowebpage-false-bool-updatestickersetsorder-false-amp-cancellation-cancellation-null-danog-madelineproto-eventhandler-message)
-* [`sendMessageToAdmins(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, ?\Amp\Cancellation $cancellation = NULL): list<\danog\MadelineProto\EventHandler\Message>`](#sendmessagetoadmins-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-array-null-replymarkup-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-nowebpage-false-amp-cancellation-cancellation-null-list-danog-madelineproto-eventhandler-message)
-* [`sendPhoto(int|string $peer, \danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream $file, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?int $ttl = NULL, bool $spoiler = false, int|null $replyToMsgId = NULL, int|null $topMsgId = NULL, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $updateStickersetsOrder = false, bool $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#sendphoto-int-string-peer-danog-madelineproto-eventhandler-message-danog-madelineproto-eventhandler-media-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-amp-bytestream-readablestream-file-string-caption-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-callable-callback-null-string-filename-null-int-ttl-null-bool-spoiler-false-int-null-replytomsgid-null-int-null-topmsgid-null-array-null-replymarkup-null-int-null-sendas-null-int-null-scheduledate-null-bool-silent-false-bool-noforwards-false-bool-background-false-bool-cleardraft-false-bool-updatestickersetsorder-false-bool-forceresend-false-amp-cancellation-cancellation-null-danog-madelineproto-eventhandler-message)
-* [`setNoop(): void`](#setnoop-void)
-* [`setReportPeers(int|string|(int|string)[] $userOrId): void`](#setreportpeers-int-string-int-string-userorid-void)
-* [`setWebhook(string $webhookUrl): void`](#setwebhook-string-webhookurl-void)
-* [`skipPlay(int $id): void`](#skipplay-int-id-void)
-* [`sleep(float $time): void`](#sleep-float-time-void)
-* [`start(): array`](#start-array)
-* [`stop(): void`](#stop-void)
-* [`stopPlay(int $id): void`](#stopplay-int-id-void)
-* [`stringToStream(string $str): \Amp\ByteStream\ReadableBuffer`](#stringtostream-string-str-amp-bytestream-readablebuffer)
-* [`subscribeToUpdates(mixed $channel): \bool False if we were already subscribed`](#subscribetoupdates-mixed-channel-bool-false-if-we-were-already-subscribed)
-* [`tdToMTProto(array $params): array`](#tdtomtproto-array-params-array)
-* [`tdToTdcli(mixed $params): array`](#tdtotdcli-mixed-params-array)
-* [`tdcliToTd(mixed $params, array $key = NULL): array`](#tdclitotd-mixed-params-array-key-null-array)
-* [`testFibers(int $fiberCount = 100000): array{maxFibers: int, realMemoryMb: int, maps: ?int, maxMaps: ?int}`](#testfibers-int-fibercount-100000-array-maxfibers-int-realmemorymb-int-maps-int-maxmaps-int)
-* [`toCamelCase(string $input): string`](#tocamelcase-string-input-string)
-* [`toSnakeCase(string $input): string`](#tosnakecase-string-input-string)
-* [`unpackDouble(string $value): float`](#unpackdouble-string-value-float)
-* [`unpackFileId(string $fileId): \array Unpacked file ID`](#unpackfileid-string-fileid-array-unpacked-file-id)
-* [`unpackSignedInt(string $value): int`](#unpacksignedint-string-value-int)
-* [`unpackSignedLong(string $value): int`](#unpacksignedlong-string-value-int)
-* [`unpackSignedLongString(string|int|array $value): string`](#unpacksignedlongstring-string-int-array-value-string)
-* [`unsetEventHandler(): void`](#unseteventhandler-void)
-* [`update2fa(array{password?: string, new_password?: string, email?: string, hint?: string} $params): void`](#update2fa-array-password-string-new_password-string-email-string-hint-string-params-void)
-* [`updateSettings(\danog\MadelineProto\SettingsAbstract $settings): void`](#updatesettings-danog-madelineproto-settingsabstract-settings-void)
-* [`upload(\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|\resource $file, string $fileName = '', callable $cb = NULL, bool $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): \array InputFile constructor`](#upload-danog-madelineproto-filecallbackinterface-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-string-array-resource-file-string-filename-callable-cb-null-bool-encrypted-false-amp-cancellation-cancellation-null-array-inputfile-constructor)
-* [`uploadEncrypted(\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|\resource $file, string $fileName = '', callable $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): \array InputFile constructor`](#uploadencrypted-danog-madelineproto-filecallbackinterface-danog-madelineproto-localfile-danog-madelineproto-remoteurl-danog-madelineproto-botapifileid-string-array-resource-file-string-filename-callable-cb-null-amp-cancellation-cancellation-null-array-inputfile-constructor)
-* [`uploadFromCallable(callable $callable, int $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable $cb = NULL, bool $seekable = true, bool $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): \array InputFile constructor`](#uploadfromcallable-callable-callable-int-size-0-string-mime-application-octet-stream-string-filename-callable-cb-null-bool-seekable-true-bool-encrypted-false-amp-cancellation-cancellation-null-array-inputfile-constructor)
-* [`uploadFromStream(mixed $stream, int $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable $cb = NULL, bool $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): \array InputFile constructor`](#uploadfromstream-mixed-stream-int-size-0-string-mime-application-octet-stream-string-filename-callable-cb-null-bool-encrypted-false-amp-cancellation-cancellation-null-array-inputfile-constructor)
-* [`uploadFromTgfile(mixed $media, callable $cb = NULL, bool $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): \array InputFile constructor`](#uploadfromtgfile-mixed-media-callable-cb-null-bool-encrypted-false-amp-cancellation-cancellation-null-array-inputfile-constructor)
-* [`uploadFromUrl(string|\danog\MadelineProto\FileCallbackInterface $url, int $size = 0, string $fileName = '', callable $cb = NULL, bool $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): \array InputFile constructor`](#uploadfromurl-string-danog-madelineproto-filecallbackinterface-url-int-size-0-string-filename-callable-cb-null-bool-encrypted-false-amp-cancellation-cancellation-null-array-inputfile-constructor)
-* [`validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): list<\danog\MadelineProto\EventHandlerIssue>`](#validateeventhandlerclass-class-string-danog-madelineproto-eventhandler-class-list-danog-madelineproto-eventhandlerissue)
-* [`viewSponsoredMessage(int|array $peer, string|array{random_id: string} $message): bool`](#viewsponsoredmessage-int-array-peer-string-array-random_id-string-message-bool)
-* [`wrapMedia(array $media, bool $protected = false): ?\danog\MadelineProto\EventHandler\Media`](#wrapmedia-array-media-bool-protected-false-danog-madelineproto-eventhandler-media)
-* [`wrapMessage(array $message): ?\danog\MadelineProto\EventHandler\AbstractMessage`](#wrapmessage-array-message-danog-madelineproto-eventhandler-abstractmessage)
-* [`wrapPin(array $message): ?\danog\MadelineProto\EventHandler\Pinned`](#wrappin-array-message-danog-madelineproto-eventhandler-pinned)
-* [`wrapUpdate(array $update): ?\danog\MadelineProto\EventHandler\Update`](#wrapupdate-array-update-danog-madelineproto-eventhandler-update)
+* [`getPluginPaths(): array|string|null`](#getPluginPaths)
+* [`isPluginEnabled(): bool`](#isPluginEnabled)
+* [`startAndLoop(string $session, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): void`](#startAndLoop)
+* [`startAndLoopBot(string $session, string $token, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): void`](#startAndLoopBot)
+* [`getPeriodicLoop(string $name): ?\danog\Loop\PeriodicLoop`](#getPeriodicLoop)
+* [`getPeriodicLoops(): array<string, \danog\Loop\PeriodicLoop>`](#getPeriodicLoops)
+* [`getReportPeers(): (string|int|array<(string|int)>)`](#getReportPeers)
+* [`getPlugins(): array<class-string<\danog\MadelineProto\EventHandler>>`](#getPlugins)
+* [`MTProtoToBotAPI(array $data): array`](#MTProtoToBotAPI)
+* [`MTProtoToTd(mixed $params): array`](#MTProtoToTd)
+* [`MTProtoToTdcli(mixed $params): array`](#MTProtoToTdcli)
+* [`acceptCall(int $id): void`](#acceptCall)
+* [`acceptSecretChat(array $params): void`](#acceptSecretChat)
+* [`arr(mixed ...$params): array`](#arr)
+* [`base64urlDecode(string $data): string`](#base64urlDecode)
+* [`base64urlEncode(string $data): string`](#base64urlEncode)
+* [`botAPIToMTProto(array $arguments): array`](#botAPIToMTProto)
+* [`botLogin(string $token): ?array`](#botLogin)
+* [`broadcastCustom(\danog\MadelineProto\Broadcast\Action $action, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, (float|null) $delay = NULL): int`](#broadcastCustom)
+* [`broadcastForwardMessages(mixed $from_peer, list<int> $message_ids, bool $drop_author = false, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, bool $pin = false, (float|null) $delay = NULL): int`](#broadcastForwardMessages)
+* [`broadcastMessages(array $messages, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, bool $pin = false, (float|null) $delay = NULL): int`](#broadcastMessages)
+* [`callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<T>`](#callFork)
+* [`callGetCurrent(int $id): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`](#callGetCurrent)
+* [`callPlay(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): void`](#callPlay)
+* [`callPlayOnHold(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): void`](#callPlayOnHold)
+* [`callSetOutput(int $id, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file): void`](#callSetOutput)
+* [`canConvertOgg(): bool`](#canConvertOgg)
+* [`cancelBroadcast(integer $id): void`](#cancelBroadcast)
+* [`closeConnection(string $message): void`](#closeConnection)
+* [`complete2faLogin(string $password): array`](#complete2faLogin)
+* [`completePhoneLogin(string $code): array`](#completePhoneLogin)
+* [`completeSignup(string $first_name, string $last_name = ''): array`](#completeSignup)
+* [`discardCall(int $id, \danog\MadelineProto\VoIP\DiscardReason $reason = \danog\MadelineProto\VoIP\DiscardReason::HANGUP, int<1, 5> $rating = NULL, string $comment = NULL): void`](#discardCall)
+* [`discardSecretChat(int $chat): void`](#discardSecretChat)
+* [`downloadServer(string $session): void`](#downloadServer)
+* [`downloadToBrowser((array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message) $messageMedia, (null|callable) $cb = NULL, (null|int) $size = NULL, (null|string) $name = NULL, (null|string) $mime = NULL, ?\Amp\Cancellation $cancellation = NULL): void`](#downloadToBrowser)
+* [`downloadToCallable(mixed $messageMedia, (callable|\danog\MadelineProto\FileCallbackInterface) $callable, callable $cb = NULL, bool $seekable = true, int $offset = 0, int $end = -1, int $part_size = NULL, ?\Amp\Cancellation $cancellation = NULL): void`](#downloadToCallable)
+* [`downloadToDir(mixed $messageMedia, (string|\danog\MadelineProto\FileCallbackInterface) $dir, callable $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): non-empty-string`](#downloadToDir)
+* [`downloadToFile(mixed $messageMedia, (string|\danog\MadelineProto\FileCallbackInterface) $file, callable $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): non-empty-string`](#downloadToFile)
+* [`downloadToResponse((array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message) $messageMedia, \Amp\Http\Server\Request $request, callable $cb = NULL, (null|int) $size = NULL, (null|string) $mime = NULL, (null|string) $name = NULL, ?\Amp\Cancellation $cancellation = NULL): \Amp\Http\Server\Response`](#downloadToResponse)
+* [`downloadToReturnedStream(mixed $messageMedia, callable $cb = NULL, int $offset = 0, int $end = -1, ?\Amp\Cancellation $cancellation = NULL): \Amp\ByteStream\ReadableStream`](#downloadToReturnedStream)
+* [`downloadToStream(mixed $messageMedia, (mixed|\danog\MadelineProto\FileCallbackInterface|resource|\Amp\ByteStream\WritableStream) $stream, callable $cb = NULL, int $offset = 0, int $end = -1, ?\Amp\Cancellation $cancellation = NULL): void`](#downloadToStream)
+* [`echo(string $string): void`](#echo)
+* [`end(array<T> $what): T`](#end)
+* [`entitiesToHtml(string $message, list<(\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int})> $entities, bool $allowTelegramTags = false): string`](#entitiesToHtml)
+* [`exportAuthorization(): array{0: (int|string), 1: string}`](#exportAuthorization)
+* [`extractBotAPIFile(array $info): ?array`](#extractBotAPIFile)
+* [`extractMessage(array $updates): array`](#extractMessage)
+* [`extractMessageId(array $updates): int`](#extractMessageId)
+* [`extractMessageUpdate(array $updates): array`](#extractMessageUpdate)
+* [`extractUpdates(array $updates): array<array>`](#extractUpdates)
+* [`fileGetContents(string $url): string`](#fileGetContents)
+* [`flock(string $file, integer $operation, float $polling = 0.1, ?\Amp\Cancellation $token = NULL, ?\Closure $failureCb = NULL): ($token is null ? Closure(): void : (Closure(): void | null))`](#flock)
+* [`fullChatLastUpdated(mixed $id): int`](#fullChatLastUpdated)
+* [`fullGetSelf(): array|false`](#fullGetSelf)
+* [`genVectorHash(array $longs): string`](#genVectorHash)
+* [`getAdminIds(): array`](#getAdminIds)
+* [`getAllCalls(): array<int, \danog\MadelineProto\VoIP>`](#getAllCalls)
+* [`getAllMethods(): array`](#getAllMethods)
+* [`getAuthorization(): (\danog\MadelineProto\API::NOT_LOGGED_IN|\danog\MadelineProto\API::WAITING_CODE|\danog\MadelineProto\API::WAITING_SIGNUP|\danog\MadelineProto\API::WAITING_PASSWORD|\danog\MadelineProto\API::LOGGED_IN|API::LOGGED_OUT)`](#getAuthorization)
+* [`getBroadcastProgress(integer $id): ?\danog\MadelineProto\Broadcast\Progress`](#getBroadcastProgress)
+* [`getCachedConfig(): array`](#getCachedConfig)
+* [`getCall(int $id): ?\danog\MadelineProto\VoIP`](#getCall)
+* [`getCallByPeer(int $userId): ?\danog\MadelineProto\VoIP`](#getCallByPeer)
+* [`getCallState(int $id): ?\danog\MadelineProto\VoIP\CallState`](#getCallState)
+* [`getCdnConfig(): void`](#getCdnConfig)
+* [`getConfig(array $config = []): array`](#getConfig)
+* [`getDNSClient(): \Amp\Dns\DnsResolver`](#getDNSClient)
+* [`getDhConfig(): array`](#getDhConfig)
+* [`getDialogIds(): list<int>`](#getDialogIds)
+* [`getDownloadInfo(mixed $messageMedia): array{ext: string, name: string, mime: string, size: int, InputFileLocation: array, key_fingerprint?: string, key?: string, iv?: string, thumb_size?: string}`](#getDownloadInfo)
+* [`getDownloadLink(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|array|string $media, ?string $scriptUrl = NULL, ?int $size = NULL, ?string $name = NULL, ?string $mime = NULL): string`](#getDownloadLink)
+* [`getEventHandler((class-string<T>|null) $class = NULL): (T|\danog\MadelineProto\Ipc\EventHandlerProxy|\__PHP_Incomplete_Class|null)`](#getEventHandler)
+* [`getExtensionFromLocation(mixed $location, string $default): string`](#getExtensionFromLocation)
+* [`getExtensionFromMime(string $mime): string`](#getExtensionFromMime)
+* [`getFileInfo(mixed $constructor): array`](#getFileInfo)
+* [`getFullDialogs(): array<int, array>`](#getFullDialogs)
+* [`getFullInfo(mixed $id): array`](#getFullInfo)
+* [`getHTTPClient(): \Amp\Http\Client\HttpClient`](#getHTTPClient)
+* [`getHint(): string`](#getHint)
+* [`getId(mixed $id): int`](#getId)
+* [`getInfo(mixed $id, \danog\MadelineProto\API::INFO_TYPE_* $type = \danog\MadelineProto\API::INFO_TYPE_ALL): (\$type is \danog\MadelineProto\API::INFO_TYPE_ALL ? array{User?: array, Chat?: array, bot_api_id: int, user_id?: int, chat_id?: int, channel_id?: int, type: string} : ($type is API::INFO_TYPE_TYPE ? string : ($type is \danog\MadelineProto\API::INFO_TYPE_ID ? int : (array{_: string, user_id?: int, access_hash?: int, min?: bool, chat_id?: int, channel_id?: int} | array{_: string, user_id?: int, access_hash?: int, min?: bool} | array{_: string, channel_id: int, access_hash: int, min: bool}))))`](#getInfo)
+* [`getLogger(): \danog\MadelineProto\Logger`](#getLogger)
+* [`getMaps(): ?int`](#getMaps)
+* [`getMaxMaps(): ?int`](#getMaxMaps)
+* [`getMethodNamespaces(): array`](#getMethodNamespaces)
+* [`getMethodsNamespaced(): array`](#getMethodsNamespaced)
+* [`getMimeFromBuffer(string $buffer): string`](#getMimeFromBuffer)
+* [`getMimeFromExtension(string $extension, string $default): string`](#getMimeFromExtension)
+* [`getMimeFromFile(string $file): string`](#getMimeFromFile)
+* [`getPlugin(class-string<T> $class): \danog\MadelineProto\PluginEventHandler|\danog\MadelineProto\Ipc\EventHandlerProxy|null`](#getPlugin)
+* [`getPropicInfo(mixed $data): array`](#getPropicInfo)
+* [`getPsrLogger(): \Psr\Log\LoggerInterface`](#getPsrLogger)
+* [`getPwrChat(mixed $id, bool $fullfetch = true): array`](#getPwrChat)
+* [`getSecretChat((array|int) $chat): \danog\MadelineProto\SecretChats\SecretChat`](#getSecretChat)
+* [`getSecretMessage(integer $chatId, integer $randomId): \danog\MadelineProto\EventHandler\Message\SecretMessage`](#getSecretMessage)
+* [`getSelf(): array|false`](#getSelf)
+* [`getSessionName(): string`](#getSessionName)
+* [`getSettings(): \danog\MadelineProto\Settings`](#getSettings)
+* [`getSponsoredMessages((int|string|array) $peer): ?array`](#getSponsoredMessages)
+* [`getStream(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL): \Amp\ByteStream\ReadableStream`](#getStream)
+* [`getStreamPipe(): \Amp\ByteStream\Pipe`](#getStreamPipe)
+* [`getTL(): \danog\MadelineProto\TL\TLInterface`](#getTL)
+* [`getType(mixed $id): \danog\MadelineProto\API::PEER_TYPE_*`](#getType)
+* [`getUpdates(array{offset?: int, limit?: int, timeout?: float} $params = []): list<array{update_id: mixed, update: mixed}>`](#getUpdates)
+* [`getWebMessage(string $message): string`](#getWebMessage)
+* [`getWebWarnings(): string`](#getWebWarnings)
+* [`hasAdmins(): bool`](#hasAdmins)
+* [`hasEventHandler(): bool`](#hasEventHandler)
+* [`hasPlugin(class-string<\danog\MadelineProto\EventHandler> $class): bool`](#hasPlugin)
+* [`hasReportPeers(): bool`](#hasReportPeers)
+* [`hasSecretChat((array|int) $chat): bool`](#hasSecretChat)
+* [`htmlEscape(string $what): string`](#htmlEscape)
+* [`htmlToMessageEntities(string $html): \danog\MadelineProto\TL\Conversion\DOMEntities`](#htmlToMessageEntities)
+* [`importAuthorization(array<int, string> $authorization, int $mainDcID): array`](#importAuthorization)
+* [`inflateStripped(string $stripped): string`](#inflateStripped)
+* [`initSelfRestart(): void`](#initSelfRestart)
+* [`isAltervista(): bool`](#isAltervista)
+* [`isArrayOrAlike(mixed $var): bool`](#isArrayOrAlike)
+* [`isBot(mixed $peer): bool`](#isBot)
+* [`isForum(mixed $peer): bool`](#isForum)
+* [`isIpc(): bool`](#isIpc)
+* [`isIpcWorker(): bool`](#isIpcWorker)
+* [`isPlayPaused(int $id): bool`](#isPlayPaused)
+* [`isPremium(): bool`](#isPremium)
+* [`isSelfBot(): bool`](#isSelfBot)
+* [`isSelfUser(): bool`](#isSelfUser)
+* [`isTestMode(): boolean`](#isTestMode)
+* [`logger(mixed $param, int $level = \danog\MadelineProto\Logger::NOTICE, string $file = ''): void`](#logger)
+* [`logout(): void`](#logout)
+* [`markdownCodeEscape(string $what): string`](#markdownCodeEscape)
+* [`markdownCodeblockEscape(string $what): string`](#markdownCodeblockEscape)
+* [`markdownEscape(string $what): string`](#markdownEscape)
+* [`markdownToMessageEntities(string $markdown): \danog\MadelineProto\TL\Conversion\MarkdownEntities`](#markdownToMessageEntities)
+* [`markdownUrlEscape(string $what): string`](#markdownUrlEscape)
+* [`mbStrSplit(string $text, integer $length): array<string>`](#mbStrSplit)
+* [`mbStrlen(string $text): int`](#mbStrlen)
+* [`mbSubstr(string $text, integer $offset, (null|int) $length = NULL): string`](#mbSubstr)
+* [`openBuffered(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL): Closure(int): ?string`](#openBuffered)
+* [`openFileAppendOnly(string $path): \Amp\File\File`](#openFileAppendOnly)
+* [`packDouble(float $value): string`](#packDouble)
+* [`packSignedInt(integer $value): string`](#packSignedInt)
+* [`packSignedLong(int $value): string`](#packSignedLong)
+* [`packUnsignedInt(int $value): string`](#packUnsignedInt)
+* [`pausePlay(int $id): void`](#pausePlay)
+* [`peerIsset(mixed $id): bool`](#peerIsset)
+* [`phoneLogin(string $number, integer $sms_type = 5): array`](#phoneLogin)
+* [`posmod(int $a, int $b): int`](#posmod)
+* [`processDownloadServerPing(string $path, string $payload): void`](#processDownloadServerPing)
+* [`qrLogin(): ?\danog\MadelineProto\TL\Types\LoginQrCode`](#qrLogin)
+* [`random(integer $length): string`](#random)
+* [`randomInt(integer $modulus = 0): int`](#randomInt)
+* [`readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL): string`](#readLine)
+* [`refreshFullPeerCache(mixed $id): void`](#refreshFullPeerCache)
+* [`refreshPeerCache(mixed ...$ids): void`](#refreshPeerCache)
+* [`report(string $message, string $parseMode = ''): void`](#report)
+* [`reportMemoryProfile(): void`](#reportMemoryProfile)
+* [`requestCall(mixed $user): \danog\MadelineProto\VoIP`](#requestCall)
+* [`requestSecretChat(mixed $user): int`](#requestSecretChat)
+* [`resetUpdateState(): void`](#resetUpdateState)
+* [`restart(): void`](#restart)
+* [`resumePlay(int $id): void`](#resumePlay)
+* [`rethrow(Throwable $e): void`](#rethrow)
+* [`rleDecode(string $string): string`](#rleDecode)
+* [`rleEncode(string $string): string`](#rleEncode)
+* [`sendCustomEvent(mixed $payload): void`](#sendCustomEvent)
+* [`sendDocument((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?string $mimeType = NULL, ?int $ttl = NULL, bool $spoiler = false, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#sendDocument)
+* [`sendMessage((integer|string) $peer, string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $noWebpage = false, boolean $updateStickersetsOrder = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#sendMessage)
+* [`sendMessageToAdmins(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, (array|null) $replyMarkup = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $noWebpage = false, ?\Amp\Cancellation $cancellation = NULL): list<\danog\MadelineProto\EventHandler\Message>`](#sendMessageToAdmins)
+* [`sendPhoto((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?int $ttl = NULL, bool $spoiler = false, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#sendPhoto)
+* [`setNoop(): void`](#setNoop)
+* [`setReportPeers((int|string|array<(int|string)>) $userOrId): void`](#setReportPeers)
+* [`setWebhook(string $webhookUrl): void`](#setWebhook)
+* [`skipPlay(int $id): void`](#skipPlay)
+* [`sleep(float $time): void`](#sleep)
+* [`start(): array`](#start)
+* [`stop(): void`](#stop)
+* [`stopPlay(int $id): void`](#stopPlay)
+* [`stringToStream(string $str): \Amp\ByteStream\ReadableBuffer`](#stringToStream)
+* [`subscribeToUpdates(mixed $channel): bool`](#subscribeToUpdates)
+* [`tdToMTProto(array $params): array`](#tdToMTProto)
+* [`tdToTdcli(mixed $params): array`](#tdToTdcli)
+* [`tdcliToTd(mixed $params, array $key = NULL): array`](#tdcliToTd)
+* [`testFibers(int $fiberCount = 100000): array{maxFibers: int, realMemoryMb: int, maps: ?int, maxMaps: ?int}`](#testFibers)
+* [`toCamelCase(string $input): string`](#toCamelCase)
+* [`toSnakeCase(string $input): string`](#toSnakeCase)
+* [`unpackDouble(string $value): float`](#unpackDouble)
+* [`unpackFileId(string $fileId): array`](#unpackFileId)
+* [`unpackSignedInt(string $value): int`](#unpackSignedInt)
+* [`unpackSignedLong(string $value): int`](#unpackSignedLong)
+* [`unpackSignedLongString((string|int|array) $value): string`](#unpackSignedLongString)
+* [`unsetEventHandler(): void`](#unsetEventHandler)
+* [`update2fa(array{password?: string, new_password?: string, email?: string, hint?: string} $params): void`](#update2fa)
+* [`updateSettings(\danog\MadelineProto\SettingsAbstract $settings): void`](#updateSettings)
+* [`upload((\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|resource) $file, string $fileName = '', callable $cb = NULL, boolean $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): array`](#upload)
+* [`uploadEncrypted((\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|resource) $file, string $fileName = '', callable $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): array`](#uploadEncrypted)
+* [`uploadFromCallable(callable(int, int, ?Cancellation): strin) $callable, integer $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable(float, float, float): voi) $cb = NULL, boolean $seekable = true, boolean $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): array`](#uploadFromCallable)
+* [`uploadFromStream(mixed $stream, integer $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable $cb = NULL, boolean $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): array`](#uploadFromStream)
+* [`uploadFromTgfile(mixed $media, callable $cb = NULL, boolean $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): array`](#uploadFromTgfile)
+* [`uploadFromUrl((string|\danog\MadelineProto\FileCallbackInterface) $url, integer $size = 0, string $fileName = '', callable $cb = NULL, boolean $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): array`](#uploadFromUrl)
+* [`validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): list<\danog\MadelineProto\EventHandlerIssue>`](#validateEventHandlerClass)
+* [`viewSponsoredMessage((int|array) $peer, (string|array{random_id: string}) $message): bool`](#viewSponsoredMessage)
+* [`wrapMedia(array $media, bool $protected = false): ?\danog\MadelineProto\EventHandler\Media`](#wrapMedia)
+* [`wrapMessage(array $message): ?\danog\MadelineProto\EventHandler\AbstractMessage`](#wrapMessage)
+* [`wrapPin(array $message): ?\danog\MadelineProto\EventHandler\Pinned`](#wrapPin)
+* [`wrapUpdate(array $update): ?\danog\MadelineProto\EventHandler\Update`](#wrapUpdate)
+* [`initDbProperties(\danog\AsyncOrm\Settings $settings, string $tablePrefix): void`](#initDbProperties)
+* [`saveDbProperties(): void`](#saveDbProperties)
 
 ## Methods:
-### `getPluginPaths(): array|string|null`
+### <a name="getPluginPaths"></a> `getPluginPaths(): array|string|null`
 
 Plugins can require other plugins ONLY with the getPlugins() method.
 
 
 
-### `isPluginEnabled(): bool`
+### <a name="isPluginEnabled"></a> `isPluginEnabled(): bool`
 
 Whether the plugin is enabled.
 
 
 
-### `startAndLoop(string $session, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): void`
+### <a name="startAndLoop"></a> `startAndLoop(string $session, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): void`
 
 Start MadelineProto and the event handler.
-Also initializes error reporting, catching and reporting all errors surfacing from the event loop.
+  
+Also initializes error reporting, catching and reporting all errors surfacing from the event loop.  
+
 
 Parameters:
 
@@ -276,10 +281,12 @@ Parameters:
 
 
 
-### `startAndLoopBot(string $session, string $token, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): void`
+### <a name="startAndLoopBot"></a> `startAndLoopBot(string $session, string $token, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): void`
 
 Start MadelineProto as a bot and the event handler.
-Also initializes error reporting, catching and reporting all errors surfacing from the event loop.
+  
+Also initializes error reporting, catching and reporting all errors surfacing from the event loop.  
+
 
 Parameters:
 
@@ -294,7 +301,7 @@ Parameters:
 
 
 
-### `getPeriodicLoop(string $name): ?\danog\Loop\PeriodicLoop`
+### <a name="getPeriodicLoop"></a> `getPeriodicLoop(string $name): ?\danog\Loop\PeriodicLoop`
 
 Obtain a PeriodicLoop instance created by the Cron attribute.
 
@@ -310,7 +317,7 @@ Parameters:
 
 
 
-### `getPeriodicLoops(): array<string, \danog\Loop\PeriodicLoop>`
+### <a name="getPeriodicLoops"></a> `getPeriodicLoops(): array<string, \danog\Loop\PeriodicLoop>`
 
 Obtain all PeriodicLoop instances created by the Cron attribute.
 
@@ -321,19 +328,19 @@ Obtain all PeriodicLoop instances created by the Cron attribute.
 
 
 
-### `getReportPeers(): string|int|(string|int)[]`
+### <a name="getReportPeers"></a> `getReportPeers(): (string|int|array<(string|int)>)`
 
 Get peers where to send error reports.
 
 
 
-### `getPlugins(): class-string<\danog\MadelineProto\EventHandler>[]`
+### <a name="getPlugins"></a> `getPlugins(): array<class-string<\danog\MadelineProto\EventHandler>>`
 
 Obtain a list of plugin event handlers to use, in addition with those found by getPluginPath.
 
 
 
-### `MTProtoToBotAPI(array $data): array`
+### <a name="MTProtoToBotAPI"></a> `MTProtoToBotAPI(array $data): array`
 
 Convert MTProto parameters to bot API parameters.
 
@@ -344,7 +351,7 @@ Parameters:
 
 
 
-### `MTProtoToTd(mixed $params): array`
+### <a name="MTProtoToTd"></a> `MTProtoToTd(mixed $params): array`
 
 MTProto to TD params.
 
@@ -355,7 +362,7 @@ Parameters:
 
 
 
-### `MTProtoToTdcli(mixed $params): array`
+### <a name="MTProtoToTdcli"></a> `MTProtoToTdcli(mixed $params): array`
 
 MTProto to TDCLI params.
 
@@ -366,7 +373,7 @@ Parameters:
 
 
 
-### `acceptCall(int $id): void`
+### <a name="acceptCall"></a> `acceptCall(int $id): void`
 
 Accept call.
 
@@ -377,7 +384,7 @@ Parameters:
 
 
 
-### `acceptSecretChat(array $params): void`
+### <a name="acceptSecretChat"></a> `acceptSecretChat(array $params): void`
 
 Accept secret chat.
 
@@ -388,7 +395,7 @@ Parameters:
 
 
 
-### `arr(mixed ...$params): array`
+### <a name="arr"></a> `arr(mixed ...$params): array`
 
 Create array.
 
@@ -399,7 +406,7 @@ Parameters:
 
 
 
-### `base64urlDecode(string $data): string`
+### <a name="base64urlDecode"></a> `base64urlDecode(string $data): string`
 
 base64URL decode.
 
@@ -410,7 +417,7 @@ Parameters:
 
 
 
-### `base64urlEncode(string $data): string`
+### <a name="base64urlEncode"></a> `base64urlEncode(string $data): string`
 
 Base64URL encode.
 
@@ -421,7 +428,7 @@ Parameters:
 
 
 
-### `botAPIToMTProto(array $arguments): array`
+### <a name="botAPIToMTProto"></a> `botAPIToMTProto(array $arguments): array`
 
 Convert bot API parameters to MTProto parameters.
 
@@ -432,7 +439,7 @@ Parameters:
 
 
 
-### `botLogin(string $token): ?array`
+### <a name="botLogin"></a> `botLogin(string $token): ?array`
 
 Login as bot.
 
@@ -443,9 +450,10 @@ Parameters:
 
 
 
-### `broadcastCustom(\danog\MadelineProto\Broadcast\Action $action, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, float|null $delay = NULL): int`
+### <a name="broadcastCustom"></a> `broadcastCustom(\danog\MadelineProto\Broadcast\Action $action, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, (float|null) $delay = NULL): int`
 
 Executes a custom broadcast action with all peers (users, chats, channels) of the bot.
+  
 Will return an integer ID that can be used to:  
   
 - Get the current broadcast progress with getBroadcastProgress  
@@ -453,13 +461,14 @@ Will return an integer ID that can be used to:
   
 Note that to avoid manually polling the progress,  
 MadelineProto will also periodically emit updateBroadcastProgress updates,  
-containing a Progress object for all broadcasts currently in-progress.
+containing a Progress object for all broadcasts currently in-progress.  
+
 
 Parameters:
 
 * `$action`: `\danog\MadelineProto\Broadcast\Action` A custom, serializable Action class that will be called once for every peer.  
 * `$filter`: `?\danog\MadelineProto\Broadcast\Filter`   
-* `$delay`: `float|null` Number of seconds to wait between each peer.  
+* `$delay`: `(float|null)` Number of seconds to wait between each peer.  
 
 
 #### See also: 
@@ -469,9 +478,10 @@ Parameters:
 
 
 
-### `broadcastForwardMessages(mixed $from_peer, list<int> $message_ids, bool $drop_author = false, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, bool $pin = false, float|null $delay = NULL): int`
+### <a name="broadcastForwardMessages"></a> `broadcastForwardMessages(mixed $from_peer, list<int> $message_ids, bool $drop_author = false, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, bool $pin = false, (float|null) $delay = NULL): int`
 
 Forwards a list of messages to all peers (users, chats, channels) of the bot.
+  
 Will return an integer ID that can be used to:  
   
 - Get the current broadcast progress with getBroadcastProgress  
@@ -479,7 +489,8 @@ Will return an integer ID that can be used to:
   
 Note that to avoid manually polling the progress,  
 MadelineProto will also periodically emit updateBroadcastProgress updates,  
-containing a Progress object for all broadcasts currently in-progress.
+containing a Progress object for all broadcasts currently in-progress.  
+
 
 Parameters:
 
@@ -488,7 +499,7 @@ Parameters:
 * `$drop_author`: `bool` If true, will forward messages without quoting the original author.  
 * `$filter`: `?\danog\MadelineProto\Broadcast\Filter`   
 * `$pin`: `bool` Whether to also pin the last sent message.  
-* `$delay`: `float|null` Number of seconds to wait between each peer.  
+* `$delay`: `(float|null)` Number of seconds to wait between each peer.  
 
 
 #### See also: 
@@ -497,9 +508,10 @@ Parameters:
 
 
 
-### `broadcastMessages(array $messages, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, bool $pin = false, float|null $delay = NULL): int`
+### <a name="broadcastMessages"></a> `broadcastMessages(array $messages, ?\danog\MadelineProto\Broadcast\Filter $filter = NULL, bool $pin = false, (float|null) $delay = NULL): int`
 
 Sends a list of messages to all peers (users, chats, channels) of the bot.
+  
 A simplified version of this method is also available: broadcastForwardMessages can work with pre-prepared messages.  
   
 Will return an integer ID that can be used to:  
@@ -509,14 +521,15 @@ Will return an integer ID that can be used to:
   
 Note that to avoid manually polling the progress,  
 MadelineProto will also periodically emit updateBroadcastProgress updates,  
-containing a Progress object for all broadcasts currently in-progress.
+containing a Progress object for all broadcasts currently in-progress.  
+
 
 Parameters:
 
 * `$messages`: `array` The messages to send: an array of arrays, containing parameters to pass to messages.sendMessage.  
 * `$filter`: `?\danog\MadelineProto\Broadcast\Filter`   
 * `$pin`: `bool` Whether to also pin the last sent message.  
-* `$delay`: `float|null` Number of seconds to wait between each peer.  
+* `$delay`: `(float|null)` Number of seconds to wait between each peer.  
 
 
 #### See also: 
@@ -525,7 +538,7 @@ Parameters:
 
 
 
-### `callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<\T>`
+### <a name="callFork"></a> `callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<T>`
 
 Fork a new green thread and execute the passed function in the background.
 
@@ -539,15 +552,16 @@ Parameters:
 #### See also: 
 * `\Generator`
 * `\Amp\Future`
-* `\T`
 
 
 
 
-### `callGetCurrent(int $id): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`
+### <a name="callGetCurrent"></a> `callGetCurrent(int $id): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`
 
 Get the file that is currently being played.
-Will return a string with the object ID of the stream if we're currently playing a stream, otherwise returns the related LocalFile or RemoteUrl.
+  
+Will return a string with the object ID of the stream if we're currently playing a stream, otherwise returns the related LocalFile or RemoteUrl.  
+
 
 Parameters:
 
@@ -561,7 +575,7 @@ Parameters:
 
 
 
-### `callPlay(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): void`
+### <a name="callPlay"></a> `callPlay(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): void`
 
 Play file in call.
 
@@ -580,7 +594,7 @@ Parameters:
 
 
 
-### `callPlayOnHold(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): void`
+### <a name="callPlayOnHold"></a> `callPlayOnHold(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): void`
 
 Play files on hold in call.
 
@@ -599,10 +613,12 @@ Parameters:
 
 
 
-### `callSetOutput(int $id, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file): void`
+### <a name="callSetOutput"></a> `callSetOutput(int $id, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file): void`
 
 Set output file or stream for incoming OPUS audio packets in a call.
-Will write an OGG OPUS stream to the specified file or stream.
+  
+Will write an OGG OPUS stream to the specified file or stream.  
+
 
 Parameters:
 
@@ -617,24 +633,24 @@ Parameters:
 
 
 
-### `canConvertOgg(): bool`
+### <a name="canConvertOgg"></a> `canConvertOgg(): bool`
 
 Whether we can convert any audio/video file to a VoIP OGG OPUS file, or the files must be preconverted using @libtgvoipbot.
 
 
 
-### `cancelBroadcast(int $id): void`
+### <a name="cancelBroadcast"></a> `cancelBroadcast(integer $id): void`
 
 Cancel a running broadcast.
 
 
 Parameters:
 
-* `$id`: `int` Broadcast ID  
+* `$id`: `integer` Broadcast ID  
 
 
 
-### `closeConnection(string $message): void`
+### <a name="closeConnection"></a> `closeConnection(string $message): void`
 
 Close connection with client, connected via web.
 
@@ -645,7 +661,7 @@ Parameters:
 
 
 
-### `complete2faLogin(string $password): array`
+### <a name="complete2faLogin"></a> `complete2faLogin(string $password): array`
 
 Complete 2FA login.
 
@@ -656,7 +672,7 @@ Parameters:
 
 
 
-### `completePhoneLogin(string $code): array`
+### <a name="completePhoneLogin"></a> `completePhoneLogin(string $code): array`
 
 Complet user login using login code.
 
@@ -667,7 +683,7 @@ Parameters:
 
 
 
-### `completeSignup(string $first_name, string $last_name = ''): array`
+### <a name="completeSignup"></a> `completeSignup(string $first_name, string $last_name = ''): array`
 
 Complete signup to Telegram.
 
@@ -679,7 +695,7 @@ Parameters:
 
 
 
-### `discardCall(int $id, \danog\MadelineProto\VoIP\DiscardReason $reason = \danog\MadelineProto\VoIP\DiscardReason::HANGUP, int<\1, \5> $rating = NULL, string $comment = NULL): void`
+### <a name="discardCall"></a> `discardCall(int $id, \danog\MadelineProto\VoIP\DiscardReason $reason = \danog\MadelineProto\VoIP\DiscardReason::HANGUP, int<1, 5> $rating = NULL, string $comment = NULL): void`
 
 Discard call.
 
@@ -688,7 +704,7 @@ Parameters:
 
 * `$id`: `int`   
 * `$reason`: `\danog\MadelineProto\VoIP\DiscardReason`   
-* `$rating`: `int<\1, \5>` Call rating in stars  
+* `$rating`: `int<1, 5>` Call rating in stars  
 * `$comment`: `string` Additional comment on call quality.  
 
 
@@ -698,7 +714,7 @@ Parameters:
 
 
 
-### `discardSecretChat(int $chat): void`
+### <a name="discardSecretChat"></a> `discardSecretChat(int $chat): void`
 
 Discard secret chat.
 
@@ -709,7 +725,7 @@ Parameters:
 
 
 
-### `downloadServer(string $session): void`
+### <a name="downloadServer"></a> `downloadServer(string $session): void`
 
 Downloads a file to the browser using the specified session file.
 
@@ -720,18 +736,20 @@ Parameters:
 
 
 
-### `downloadToBrowser(array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message $messageMedia, null|callable $cb = NULL, null|int $size = NULL, null|string $name = NULL, null|string $mime = NULL, ?\Amp\Cancellation $cancellation = NULL): void`
+### <a name="downloadToBrowser"></a> `downloadToBrowser((array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message) $messageMedia, (null|callable) $cb = NULL, (null|int) $size = NULL, (null|string) $name = NULL, (null|string) $mime = NULL, ?\Amp\Cancellation $cancellation = NULL): void`
 
 Download file to browser.
-Supports HEAD requests and content-ranges for parallel and resumed downloads.
+  
+Supports HEAD requests and content-ranges for parallel and resumed downloads.  
+
 
 Parameters:
 
-* `$messageMedia`: `array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message` File to download  
-* `$cb`: `null|callable` Status callback (can also use FileCallback)  
-* `$size`: `null|int` Size of file to download, required for bot API file IDs.  
-* `$name`: `null|string` Name of file to download, required for bot API file IDs.  
-* `$mime`: `null|string` MIME type of file to download, required for bot API file IDs.  
+* `$messageMedia`: `(array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message)` File to download  
+* `$cb`: `(null|callable)` Status callback (can also use FileCallback)  
+* `$size`: `(null|int)` Size of file to download, required for bot API file IDs.  
+* `$name`: `(null|string)` Name of file to download, required for bot API file IDs.  
+* `$mime`: `(null|string)` MIME type of file to download, required for bot API file IDs.  
 * `$cancellation`: `?\Amp\Cancellation`   
 
 
@@ -743,16 +761,17 @@ Parameters:
 
 
 
-### `downloadToCallable(mixed $messageMedia, callable|\danog\MadelineProto\FileCallbackInterface $callable, callable $cb = NULL, bool $seekable = true, int $offset = 0, int $end = -1, int $part_size = NULL, ?\Amp\Cancellation $cancellation = NULL): void`
+### <a name="downloadToCallable"></a> `downloadToCallable(mixed $messageMedia, (callable|\danog\MadelineProto\FileCallbackInterface) $callable, callable $cb = NULL, bool $seekable = true, int $offset = 0, int $end = -1, int $part_size = NULL, ?\Amp\Cancellation $cancellation = NULL): void`
 
 Download file to callable.
 The callable must accept two parameters: string $payload, int $offset  
-The callable will be called (possibly out of order, depending on the value of $seekable).
+The callable will be called (possibly out of order, depending on the value of $seekable).  
+
 
 Parameters:
 
 * `$messageMedia`: `mixed` File to download  
-* `$callable`: `callable|\danog\MadelineProto\FileCallbackInterface` Chunk callback  
+* `$callable`: `(callable|\danog\MadelineProto\FileCallbackInterface)` Chunk callback  
 * `$cb`: `callable` Status callback  
 * `$seekable`: `bool` Whether the callable can be called out of order  
 * `$offset`: `int` Offset where to start downloading  
@@ -768,7 +787,7 @@ Parameters:
 
 
 
-### `downloadToDir(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $dir, callable $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): \non-empty-string Downloaded file name`
+### <a name="downloadToDir"></a> `downloadToDir(mixed $messageMedia, (string|\danog\MadelineProto\FileCallbackInterface) $dir, callable $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): non-empty-string`
 
 Download file to directory.
 
@@ -776,7 +795,7 @@ Download file to directory.
 Parameters:
 
 * `$messageMedia`: `mixed` File to download  
-* `$dir`: `string|\danog\MadelineProto\FileCallbackInterface` Directory where to download the file  
+* `$dir`: `(string|\danog\MadelineProto\FileCallbackInterface)` Directory where to download the file  
 * `$cb`: `callable` Callback  
 * `$cancellation`: `?\Amp\Cancellation`   
 
@@ -786,11 +805,12 @@ Return value: Downloaded file name
 #### See also: 
 * [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
 * `\Amp\Cancellation`
+* `non-empty-string`
 
 
 
 
-### `downloadToFile(mixed $messageMedia, string|\danog\MadelineProto\FileCallbackInterface $file, callable $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): \non-empty-string Downloaded file name`
+### <a name="downloadToFile"></a> `downloadToFile(mixed $messageMedia, (string|\danog\MadelineProto\FileCallbackInterface) $file, callable $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): non-empty-string`
 
 Download file.
 
@@ -798,7 +818,7 @@ Download file.
 Parameters:
 
 * `$messageMedia`: `mixed` File to download  
-* `$file`: `string|\danog\MadelineProto\FileCallbackInterface` Downloaded file path  
+* `$file`: `(string|\danog\MadelineProto\FileCallbackInterface)` Downloaded file path  
 * `$cb`: `callable` Callback  
 * `$cancellation`: `?\Amp\Cancellation`   
 
@@ -808,23 +828,26 @@ Return value: Downloaded file name
 #### See also: 
 * [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
 * `\Amp\Cancellation`
+* `non-empty-string`
 
 
 
 
-### `downloadToResponse(array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message $messageMedia, \Amp\Http\Server\Request $request, callable $cb = NULL, null|int $size = NULL, null|string $mime = NULL, null|string $name = NULL, ?\Amp\Cancellation $cancellation = NULL): \Amp\Http\Server\Response`
+### <a name="downloadToResponse"></a> `downloadToResponse((array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message) $messageMedia, \Amp\Http\Server\Request $request, callable $cb = NULL, (null|int) $size = NULL, (null|string) $mime = NULL, (null|string) $name = NULL, ?\Amp\Cancellation $cancellation = NULL): \Amp\Http\Server\Response`
 
 Download file to amphp/http-server response.
-Supports HEAD requests and content-ranges for parallel and resumed downloads.
+  
+Supports HEAD requests and content-ranges for parallel and resumed downloads.  
+
 
 Parameters:
 
-* `$messageMedia`: `array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message` File to download  
+* `$messageMedia`: `(array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message)` File to download  
 * `$request`: `\Amp\Http\Server\Request` Request  
 * `$cb`: `callable` Status callback (can also use FileCallback)  
-* `$size`: `null|int` Size of file to download, required for bot API file IDs.  
-* `$mime`: `null|string` MIME type of file to download, required for bot API file IDs.  
-* `$name`: `null|string` Name of file to download, required for bot API file IDs.  
+* `$size`: `(null|int)` Size of file to download, required for bot API file IDs.  
+* `$mime`: `(null|string)` MIME type of file to download, required for bot API file IDs.  
+* `$name`: `(null|string)` Name of file to download, required for bot API file IDs.  
 * `$cancellation`: `?\Amp\Cancellation`   
 
 
@@ -838,7 +861,7 @@ Parameters:
 
 
 
-### `downloadToReturnedStream(mixed $messageMedia, callable $cb = NULL, int $offset = 0, int $end = -1, ?\Amp\Cancellation $cancellation = NULL): \Amp\ByteStream\ReadableStream`
+### <a name="downloadToReturnedStream"></a> `downloadToReturnedStream(mixed $messageMedia, callable $cb = NULL, int $offset = 0, int $end = -1, ?\Amp\Cancellation $cancellation = NULL): \Amp\ByteStream\ReadableStream`
 
 Download file to an amphp stream, returning it.
 
@@ -859,7 +882,7 @@ Parameters:
 
 
 
-### `downloadToStream(mixed $messageMedia, mixed|\danog\MadelineProto\FileCallbackInterface|\resource|\Amp\ByteStream\WritableStream $stream, callable $cb = NULL, int $offset = 0, int $end = -1, ?\Amp\Cancellation $cancellation = NULL): void`
+### <a name="downloadToStream"></a> `downloadToStream(mixed $messageMedia, (mixed|\danog\MadelineProto\FileCallbackInterface|resource|\Amp\ByteStream\WritableStream) $stream, callable $cb = NULL, int $offset = 0, int $end = -1, ?\Amp\Cancellation $cancellation = NULL): void`
 
 Download file to stream.
 
@@ -867,7 +890,7 @@ Download file to stream.
 Parameters:
 
 * `$messageMedia`: `mixed` File to download  
-* `$stream`: `mixed|\danog\MadelineProto\FileCallbackInterface|\resource|\Amp\ByteStream\WritableStream` Stream where to download file  
+* `$stream`: `(mixed|\danog\MadelineProto\FileCallbackInterface|resource|\Amp\ByteStream\WritableStream)` Stream where to download file  
 * `$cb`: `callable` Callback  
 * `$offset`: `int` Offset where to start downloading  
 * `$end`: `int` Offset where to end download  
@@ -876,14 +899,14 @@ Parameters:
 
 #### See also: 
 * [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
-* `\resource`
+* `resource`
 * `\Amp\ByteStream\WritableStream`
 * `\Amp\Cancellation`
 
 
 
 
-### `echo(string $string): void`
+### <a name="echo"></a> `echo(string $string): void`
 
 Asynchronously write to stdout/browser.
 
@@ -894,23 +917,18 @@ Parameters:
 
 
 
-### `end(\T[] $what): \T`
+### <a name="end"></a> `end(array<T> $what): T`
 
 Get final element of array.
 
 
 Parameters:
 
-* `$what`: `\T[]` Array  
-
-
-#### See also: 
-* `\T`
+* `$what`: `array<T>` Array  
 
 
 
-
-### `entitiesToHtml(string $message, list<\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int}> $entities, bool $allowTelegramTags = false): string`
+### <a name="entitiesToHtml"></a> `entitiesToHtml(string $message, list<(\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int})> $entities, bool $allowTelegramTags = false): string`
 
 Convert a message and a set of entities to HTML.
 
@@ -918,7 +936,7 @@ Convert a message and a set of entities to HTML.
 Parameters:
 
 * `$message`: `string`   
-* `$entities`: `list<\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int}>`   
+* `$entities`: `list<(\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int})>`   
 * `$allowTelegramTags`: `bool` Whether to allow telegram-specific tags like tg-spoiler, tg-emoji, mention links and so on...  
 
 
@@ -928,13 +946,13 @@ Parameters:
 
 
 
-### `exportAuthorization(): array{0: int|string, 1: string}`
+### <a name="exportAuthorization"></a> `exportAuthorization(): array{0: (int|string), 1: string}`
 
 Export authorization.
 
 
 
-### `extractBotAPIFile(array $info): ?array`
+### <a name="extractBotAPIFile"></a> `extractBotAPIFile(array $info): ?array`
 
 Extract file info from bot API message.
 
@@ -945,7 +963,7 @@ Parameters:
 
 
 
-### `extractMessage(array $updates): array`
+### <a name="extractMessage"></a> `extractMessage(array $updates): array`
 
 Extract a message constructor from an Updates constructor.
 
@@ -956,7 +974,7 @@ Parameters:
 
 
 
-### `extractMessageId(array $updates): int`
+### <a name="extractMessageId"></a> `extractMessageId(array $updates): int`
 
 Extract a message ID from an Updates constructor.
 
@@ -967,7 +985,7 @@ Parameters:
 
 
 
-### `extractMessageUpdate(array $updates): array`
+### <a name="extractMessageUpdate"></a> `extractMessageUpdate(array $updates): array`
 
 Extract an update message constructor from an Updates constructor.
 
@@ -978,7 +996,7 @@ Parameters:
 
 
 
-### `extractUpdates(array $updates): array[]`
+### <a name="extractUpdates"></a> `extractUpdates(array $updates): array<array>`
 
 Extract Update constructors from an Updates constructor.
 
@@ -989,7 +1007,7 @@ Parameters:
 
 
 
-### `fileGetContents(string $url): string`
+### <a name="fileGetContents"></a> `fileGetContents(string $url): string`
 
 Get contents of remote file asynchronously.
 
@@ -1000,16 +1018,16 @@ Parameters:
 
 
 
-### `flock(string $file, int $operation, float $polling = 0.1, ?\Amp\Cancellation $token = NULL, ?\Closure $failureCb = NULL): mixed`
+### <a name="flock"></a> `flock(string $file, integer $operation, float $polling = 0.1, ?\Amp\Cancellation $token = NULL, ?\Closure $failureCb = NULL): ($token is null ? Closure(): void : (Closure(): void | null))`
 
 Asynchronously lock a file
-Resolves with a callbable that MUST eventually be called in order to release the lock.
+Resolves with a callbable that MUST eventually be called in order to release the lock.  
 
 
 Parameters:
 
 * `$file`: `string` File to lock  
-* `$operation`: `int` Locking mode  
+* `$operation`: `integer` Locking mode  
 * `$polling`: `float` Polling interval  
 * `$token`: `?\Amp\Cancellation` Cancellation token  
 * `$failureCb`: `?\Closure` Failure callback, called only once if the first locking attempt fails.  
@@ -1022,7 +1040,7 @@ Parameters:
 
 
 
-### `fullChatLastUpdated(mixed $id): int`
+### <a name="fullChatLastUpdated"></a> `fullChatLastUpdated(mixed $id): int`
 
 When was full info for this chat last cached.
 
@@ -1033,16 +1051,18 @@ Parameters:
 
 
 
-### `fullGetSelf(): array|false`
+### <a name="fullGetSelf"></a> `fullGetSelf(): array|false`
 
 Get info about the logged-in user, not cached.
 
 
 
-### `genVectorHash(array $longs): string`
+### <a name="genVectorHash"></a> `genVectorHash(array $longs): string`
 
 Generate MTProto vector hash.
-Returns a vector hash.
+  
+Returns a vector hash.  
+
 
 Parameters:
 
@@ -1050,13 +1070,13 @@ Parameters:
 
 
 
-### `getAdminIds(): array`
+### <a name="getAdminIds"></a> `getAdminIds(): array`
 
 Get admin IDs (equal to all user report peers).
 
 
 
-### `getAllCalls(): array<int, \danog\MadelineProto\VoIP>`
+### <a name="getAllCalls"></a> `getAllCalls(): array<int, \danog\MadelineProto\VoIP>`
 
 Get all pending and running calls, indexed by user ID.
 
@@ -1067,13 +1087,13 @@ Get all pending and running calls, indexed by user ID.
 
 
 
-### `getAllMethods(): array`
+### <a name="getAllMethods"></a> `getAllMethods(): array`
 
 Get full list of MTProto and API methods.
 
 
 
-### `getAuthorization(): \danog\MadelineProto\API::NOT_LOGGED_IN|\danog\MadelineProto\API::WAITING_CODE|\danog\MadelineProto\API::WAITING_SIGNUP|\danog\MadelineProto\API::WAITING_PASSWORD|\danog\MadelineProto\API::LOGGED_IN|\API::LOGGED_OUT`
+### <a name="getAuthorization"></a> `getAuthorization(): (\danog\MadelineProto\API::NOT_LOGGED_IN|\danog\MadelineProto\API::WAITING_CODE|\danog\MadelineProto\API::WAITING_SIGNUP|\danog\MadelineProto\API::WAITING_PASSWORD|\danog\MadelineProto\API::LOGGED_IN|API::LOGGED_OUT)`
 
 Get authorization info.
 
@@ -1084,21 +1104,23 @@ Get authorization info.
 * `\danog\MadelineProto\API::WAITING_SIGNUP`
 * `\danog\MadelineProto\API::WAITING_PASSWORD`
 * `\danog\MadelineProto\API::LOGGED_IN`
-* `\API::LOGGED_OUT`
+* `API::LOGGED_OUT`
 
 
 
 
-### `getBroadcastProgress(int $id): ?\danog\MadelineProto\Broadcast\Progress`
+### <a name="getBroadcastProgress"></a> `getBroadcastProgress(integer $id): ?\danog\MadelineProto\Broadcast\Progress`
 
 Get the progress of a currently running broadcast.
+  
 Will return null if the broadcast doesn't exist, has already completed or was cancelled.  
   
-Use updateBroadcastProgress updates to get real-time progress status without polling.
+Use updateBroadcastProgress updates to get real-time progress status without polling.  
+
 
 Parameters:
 
-* `$id`: `int` Broadcast ID  
+* `$id`: `integer` Broadcast ID  
 
 
 #### See also: 
@@ -1107,13 +1129,13 @@ Parameters:
 
 
 
-### `getCachedConfig(): array`
+### <a name="getCachedConfig"></a> `getCachedConfig(): array`
 
 Get cached server-side config.
 
 
 
-### `getCall(int $id): ?\danog\MadelineProto\VoIP`
+### <a name="getCall"></a> `getCall(int $id): ?\danog\MadelineProto\VoIP`
 
 Get phone call information.
 
@@ -1129,7 +1151,7 @@ Parameters:
 
 
 
-### `getCallByPeer(int $userId): ?\danog\MadelineProto\VoIP`
+### <a name="getCallByPeer"></a> `getCallByPeer(int $userId): ?\danog\MadelineProto\VoIP`
 
 Get the phone call with the specified user ID.
 
@@ -1145,7 +1167,7 @@ Parameters:
 
 
 
-### `getCallState(int $id): ?\danog\MadelineProto\VoIP\CallState`
+### <a name="getCallState"></a> `getCallState(int $id): ?\danog\MadelineProto\VoIP\CallState`
 
 Get call state.
 
@@ -1161,13 +1183,13 @@ Parameters:
 
 
 
-### `getCdnConfig(): void`
+### <a name="getCdnConfig"></a> `getCdnConfig(): void`
 
 Store RSA keys for CDN datacenters.
 
 
 
-### `getConfig(array $config = []): array`
+### <a name="getConfig"></a> `getConfig(array $config = []): array`
 
 Get cached (or eventually re-fetch) server-side config.
 
@@ -1178,7 +1200,7 @@ Parameters:
 
 
 
-### `getDNSClient(): \Amp\Dns\DnsResolver`
+### <a name="getDNSClient"></a> `getDNSClient(): \Amp\Dns\DnsResolver`
 
 Get async DNS client.
 
@@ -1189,26 +1211,28 @@ Get async DNS client.
 
 
 
-### `getDhConfig(): array`
+### <a name="getDhConfig"></a> `getDhConfig(): array`
 
 Get diffie-hellman configuration.
 
 
 
-### `getDialogIds(): list<int>`
+### <a name="getDialogIds"></a> `getDialogIds(): list<int>`
 
 Get dialog IDs.
 
 
 
-### `getDownloadInfo(mixed $messageMedia): array{ext: string, name: string, mime: string, size: int, InputFileLocation: array, key_fingerprint?: string, key?: string, iv?: string, thumb_size?: string}`
+### <a name="getDownloadInfo"></a> `getDownloadInfo(mixed $messageMedia): array{ext: string, name: string, mime: string, size: int, InputFileLocation: array, key_fingerprint?: string, key?: string, iv?: string, thumb_size?: string}`
 
 Get download info of file
-Returns an array with the following structure:.
+Returns an array with the following structure:.  
+  
 `$info['ext']` - The file extension  
 `$info['name']` - The file name, without the extension  
 `$info['mime']` - The file mime type  
-`$info['size']` - The file size
+`$info['size']` - The file size  
+
 
 Parameters:
 
@@ -1216,7 +1240,7 @@ Parameters:
 
 
 
-### `getDownloadLink(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|array|string $media, ?string $scriptUrl = NULL, ?int $size = NULL, ?string $name = NULL, ?string $mime = NULL): string`
+### <a name="getDownloadLink"></a> `getDownloadLink(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|array|string $media, ?string $scriptUrl = NULL, ?int $size = NULL, ?string $name = NULL, ?string $mime = NULL): string`
 
 Get download link of media file.
 
@@ -1237,25 +1261,24 @@ Parameters:
 
 
 
-### `getEventHandler(class-string<\T>|null $class = NULL): \T|\danog\MadelineProto\Ipc\EventHandlerProxy|\__PHP_Incomplete_Class|null`
+### <a name="getEventHandler"></a> `getEventHandler((class-string<T>|null) $class = NULL): (T|\danog\MadelineProto\Ipc\EventHandlerProxy|\__PHP_Incomplete_Class|null)`
 
 Get event handler (or plugin instance).
 
 
 Parameters:
 
-* `$class`: `class-string<\T>|null`   
+* `$class`: `(class-string<T>|null)`   
 
 
 #### See also: 
-* `\T`
 * `\danog\MadelineProto\Ipc\EventHandlerProxy`
 * `\__PHP_Incomplete_Class`
 
 
 
 
-### `getExtensionFromLocation(mixed $location, string $default): string`
+### <a name="getExtensionFromLocation"></a> `getExtensionFromLocation(mixed $location, string $default): string`
 
 Get extension from file location.
 
@@ -1267,7 +1290,7 @@ Parameters:
 
 
 
-### `getExtensionFromMime(string $mime): string`
+### <a name="getExtensionFromMime"></a> `getExtensionFromMime(string $mime): string`
 
 Get extension from mime type.
 
@@ -1278,7 +1301,7 @@ Parameters:
 
 
 
-### `getFileInfo(mixed $constructor): array`
+### <a name="getFileInfo"></a> `getFileInfo(mixed $constructor): array`
 
 Get info about file.
 
@@ -1289,13 +1312,15 @@ Parameters:
 
 
 
-### `getFullDialogs(): array<int, array>`
+### <a name="getFullDialogs"></a> `getFullDialogs(): array<int, array>`
 
 Get full info of all dialogs.
-Bots should use getDialogIds, instead.
+  
+Bots should use getDialogIds, instead.  
 
 
-### `getFullInfo(mixed $id): array`
+
+### <a name="getFullInfo"></a> `getFullInfo(mixed $id): array`
 
 Get full info about peer, returns an FullInfo object.
 
@@ -1311,7 +1336,7 @@ Parameters:
 
 
 
-### `getHTTPClient(): \Amp\Http\Client\HttpClient`
+### <a name="getHTTPClient"></a> `getHTTPClient(): \Amp\Http\Client\HttpClient`
 
 Get async HTTP client.
 
@@ -1322,13 +1347,13 @@ Get async HTTP client.
 
 
 
-### `getHint(): string`
+### <a name="getHint"></a> `getHint(): string`
 
 Get current password hint.
 
 
 
-### `getId(mixed $id): int`
+### <a name="getId"></a> `getId(mixed $id): int`
 
 Get the bot API ID of a peer.
 
@@ -1339,11 +1364,13 @@ Parameters:
 
 
 
-### `getInfo(mixed $id, \danog\MadelineProto\API::INFO_TYPE_* $type = \danog\MadelineProto\API::INFO_TYPE_ALL): mixed`
+### <a name="getInfo"></a> `getInfo(mixed $id, \danog\MadelineProto\API::INFO_TYPE_* $type = \danog\MadelineProto\API::INFO_TYPE_ALL): (\$type is \danog\MadelineProto\API::INFO_TYPE_ALL ? array{User?: array, Chat?: array, bot_api_id: int, user_id?: int, chat_id?: int, channel_id?: int, type: string} : ($type is API::INFO_TYPE_TYPE ? string : ($type is \danog\MadelineProto\API::INFO_TYPE_ID ? int : (array{_: string, user_id?: int, access_hash?: int, min?: bool, chat_id?: int, channel_id?: int} | array{_: string, user_id?: int, access_hash?: int, min?: bool} | array{_: string, channel_id: int, access_hash: int, min: bool}))))`
 
 Get info about peer, returns an Info object.
+  
 If passed a secret chat ID, returns information about the user, not about the secret chat.  
-Use getSecretChat to return information about the secret chat.
+Use getSecretChat to return information about the secret chat.  
+
 
 Parameters:
 
@@ -1353,11 +1380,12 @@ Parameters:
 
 #### See also: 
 * [https://docs.madelineproto.xyz/Info.html](https://docs.madelineproto.xyz/Info.html)
+* `\danog\MadelineProto\API::INFO_TYPE_*`
 
 
 
 
-### `getLogger(): \danog\MadelineProto\Logger`
+### <a name="getLogger"></a> `getLogger(): \danog\MadelineProto\Logger`
 
 Get logger.
 
@@ -1368,31 +1396,32 @@ Get logger.
 
 
 
-### `getMaps(): ?int`
+### <a name="getMaps"></a> `getMaps(): ?int`
 
 Get current number of memory-mapped regions, UNIX only.
 
 
 
-### `getMaxMaps(): ?int`
+### <a name="getMaxMaps"></a> `getMaxMaps(): ?int`
 
 Get maximum number of memory-mapped regions, UNIX only.
-Use testFibers to get the maximum number of fibers on any platform.
+Use testFibers to get the maximum number of fibers on any platform.  
 
 
-### `getMethodNamespaces(): array`
+
+### <a name="getMethodNamespaces"></a> `getMethodNamespaces(): array`
 
 Get TL namespaces.
 
 
 
-### `getMethodsNamespaced(): array`
+### <a name="getMethodsNamespaced"></a> `getMethodsNamespaced(): array`
 
 Get namespaced methods (method => namespace).
 
 
 
-### `getMimeFromBuffer(string $buffer): string`
+### <a name="getMimeFromBuffer"></a> `getMimeFromBuffer(string $buffer): string`
 
 Get mime type from buffer.
 
@@ -1403,7 +1432,7 @@ Parameters:
 
 
 
-### `getMimeFromExtension(string $extension, string $default): string`
+### <a name="getMimeFromExtension"></a> `getMimeFromExtension(string $extension, string $default): string`
 
 Get mime type from file extension.
 
@@ -1415,7 +1444,7 @@ Parameters:
 
 
 
-### `getMimeFromFile(string $file): string`
+### <a name="getMimeFromFile"></a> `getMimeFromFile(string $file): string`
 
 Get mime type of file.
 
@@ -1426,32 +1455,35 @@ Parameters:
 
 
 
-### `getPlugin(class-string<\T> $class): \danog\MadelineProto\PluginEventHandler|\danog\MadelineProto\Ipc\EventHandlerProxy|null`
+### <a name="getPlugin"></a> `getPlugin(class-string<T> $class): \danog\MadelineProto\PluginEventHandler|\danog\MadelineProto\Ipc\EventHandlerProxy|null`
 
 Obtain a certain event handler plugin instance.
 
 
 Parameters:
 
-* `$class`: `class-string<\T>`   
+* `$class`: `class-string<T>` 
+
+return T|null  
 
 
 #### See also: 
-* `\T`
 * [`\danog\MadelineProto\PluginEventHandler`: Plugin event handler class.](../../danog/MadelineProto/PluginEventHandler.html)
 * `\danog\MadelineProto\Ipc\EventHandlerProxy`
 
 
 
 
-### `getPropicInfo(mixed $data): array`
+### <a name="getPropicInfo"></a> `getPropicInfo(mixed $data): array`
 
 Get download info of the propic of a user
-Returns an array with the following structure:.
+Returns an array with the following structure:.  
+  
 `$info['ext']` - The file extension  
 `$info['name']` - The file name, without the extension  
 `$info['mime']` - The file mime type  
-`$info['size']` - The file size
+`$info['size']` - The file size  
+
 
 Parameters:
 
@@ -1459,7 +1491,7 @@ Parameters:
 
 
 
-### `getPsrLogger(): \Psr\Log\LoggerInterface`
+### <a name="getPsrLogger"></a> `getPsrLogger(): \Psr\Log\LoggerInterface`
 
 Get PSR logger.
 
@@ -1470,7 +1502,7 @@ Get PSR logger.
 
 
 
-### `getPwrChat(mixed $id, bool $fullfetch = true): array`
+### <a name="getPwrChat"></a> `getPwrChat(mixed $id, bool $fullfetch = true): array`
 
 Get full info about peer (including full list of channel members), returns a Chat object.
 
@@ -1487,14 +1519,14 @@ Parameters:
 
 
 
-### `getSecretChat(array|int $chat): \danog\MadelineProto\SecretChats\SecretChat`
+### <a name="getSecretChat"></a> `getSecretChat((array|int) $chat): \danog\MadelineProto\SecretChats\SecretChat`
 
 Get secret chat.
 
 
 Parameters:
 
-* `$chat`: `array|int` Secret chat ID  
+* `$chat`: `(array|int)` Secret chat ID  
 
 
 #### See also: 
@@ -1503,15 +1535,15 @@ Parameters:
 
 
 
-### `getSecretMessage(int $chatId, int $randomId): \danog\MadelineProto\EventHandler\Message\SecretMessage`
+### <a name="getSecretMessage"></a> `getSecretMessage(integer $chatId, integer $randomId): \danog\MadelineProto\EventHandler\Message\SecretMessage`
 
 Gets a secret chat message.
 
 
 Parameters:
 
-* `$chatId`: `int` Secret chat ID.  
-* `$randomId`: `int` Secret chat message ID.  
+* `$chatId`: `integer` Secret chat ID.  
+* `$randomId`: `integer` Secret chat message ID.  
 
 
 #### See also: 
@@ -1520,19 +1552,21 @@ Parameters:
 
 
 
-### `getSelf(): array|false`
+### <a name="getSelf"></a> `getSelf(): array|false`
 
 Get info about the logged-in user, cached.
-Use fullGetSelf to bypass the cache.
+  
+Use fullGetSelf to bypass the cache.  
 
 
-### `getSessionName(): string`
+
+### <a name="getSessionName"></a> `getSessionName(): string`
 
 Returns the session name.
 
 
 
-### `getSettings(): \danog\MadelineProto\Settings`
+### <a name="getSettings"></a> `getSettings(): \danog\MadelineProto\Settings`
 
 Return current settings.
 
@@ -1543,20 +1577,21 @@ Return current settings.
 
 
 
-### `getSponsoredMessages(int|string|array $peer): ?array`
+### <a name="getSponsoredMessages"></a> `getSponsoredMessages((int|string|array) $peer): ?array`
 
 Get sponsored messages for channel.
 This method will return an array of [sponsored message objects](https://docs.madelineproto.xyz/API_docs/constructors/sponsoredMessage.html).  
   
-See [the API documentation](https://core.telegram.org/api/sponsored-messages) for more info on how to handle sponsored messages.
+See [the API documentation](https://core.telegram.org/api/sponsored-messages) for more info on how to handle sponsored messages.  
+
 
 Parameters:
 
-* `$peer`: `int|string|array` Channel ID, or Update, or Message, or Peer.  
+* `$peer`: `(int|string|array)` Channel ID, or Update, or Message, or Peer.  
 
 
 
-### `getStream(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL): \Amp\ByteStream\ReadableStream`
+### <a name="getStream"></a> `getStream(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL): \Amp\ByteStream\ReadableStream`
 
 Provide a stream for a file, URL or amp stream.
 
@@ -1572,14 +1607,14 @@ Parameters:
 * [`\danog\MadelineProto\EventHandler\Media`: Represents a generic media.](../../danog/MadelineProto/EventHandler/Media.html)
 * [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
 * [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
-* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc.](../../danog/MadelineProto/BotApiFileId.html)
+* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](../../danog/MadelineProto/BotApiFileId.html)
 * `\Amp\ByteStream\ReadableStream`
 * `\Amp\Cancellation`
 
 
 
 
-### `getStreamPipe(): \Amp\ByteStream\Pipe`
+### <a name="getStreamPipe"></a> `getStreamPipe(): \Amp\ByteStream\Pipe`
 
 Obtains a pipe that can be used to upload a file from a stream.
 
@@ -1590,7 +1625,7 @@ Obtains a pipe that can be used to upload a file from a stream.
 
 
 
-### `getTL(): \danog\MadelineProto\TL\TLInterface`
+### <a name="getTL"></a> `getTL(): \danog\MadelineProto\TL\TLInterface`
 
 Get TL serializer.
 
@@ -1601,7 +1636,7 @@ Get TL serializer.
 
 
 
-### `getType(mixed $id): \danog\MadelineProto\API::PEER_TYPE_*`
+### <a name="getType"></a> `getType(mixed $id): \danog\MadelineProto\API::PEER_TYPE_*`
 
 Get type of peer.
 
@@ -1611,13 +1646,20 @@ Parameters:
 * `$id`: `mixed` Peer  
 
 
+#### See also: 
+* `\danog\MadelineProto\API::PEER_TYPE_*`
 
-### `getUpdates(array{offset?: int, limit?: int, timeout?: float} $params = []): list<array{update_id: mixed, update: mixed}>`
+
+
+
+### <a name="getUpdates"></a> `getUpdates(array{offset?: int, limit?: int, timeout?: float} $params = []): list<array{update_id: mixed, update: mixed}>`
 
 Only useful when consuming MadelineProto updates through an API in another language (like Javascript), **absolutely not recommended when directly writing MadelineProto bots**.
+  
 `getUpdates` will **greatly slow down your bot** if used directly inside of PHP code.  
   
-**Only use the [event handler](#async-event-driven) when writing a MadelineProto bot**, because update handling in the **event handler** is completely parallelized and non-blocking.
+**Only use the [event handler](#async-event-driven) when writing a MadelineProto bot**, because update handling in the **event handler** is completely parallelized and non-blocking.  
+
 
 Parameters:
 
@@ -1625,7 +1667,7 @@ Parameters:
 
 
 
-### `getWebMessage(string $message): string`
+### <a name="getWebMessage"></a> `getWebMessage(string $message): string`
 
 Get a message to show to the user when starting the bot.
 
@@ -1636,25 +1678,25 @@ Parameters:
 
 
 
-### `getWebWarnings(): string`
+### <a name="getWebWarnings"></a> `getWebWarnings(): string`
 
 Get various warnings to show to the user in the web UI.
 
 
 
-### `hasAdmins(): bool`
+### <a name="hasAdmins"></a> `hasAdmins(): bool`
 
 Check if has admins.
 
 
 
-### `hasEventHandler(): bool`
+### <a name="hasEventHandler"></a> `hasEventHandler(): bool`
 
 Check if an event handler instance is present.
 
 
 
-### `hasPlugin(class-string<\danog\MadelineProto\EventHandler> $class): bool`
+### <a name="hasPlugin"></a> `hasPlugin(class-string<\danog\MadelineProto\EventHandler> $class): bool`
 
 Check if a certain event handler plugin is installed.
 
@@ -1670,24 +1712,24 @@ Parameters:
 
 
 
-### `hasReportPeers(): bool`
+### <a name="hasReportPeers"></a> `hasReportPeers(): bool`
 
 Check if has report peers.
 
 
 
-### `hasSecretChat(array|int $chat): bool`
+### <a name="hasSecretChat"></a> `hasSecretChat((array|int) $chat): bool`
 
 Check whether secret chat exists.
 
 
 Parameters:
 
-* `$chat`: `array|int` Secret chat ID  
+* `$chat`: `(array|int)` Secret chat ID  
 
 
 
-### `htmlEscape(string $what): string`
+### <a name="htmlEscape"></a> `htmlEscape(string $what): string`
 
 Escape string for MadelineProto's HTML entity converter.
 
@@ -1698,12 +1740,14 @@ Parameters:
 
 
 
-### `htmlToMessageEntities(string $html): \danog\MadelineProto\TL\Conversion\DOMEntities Object containing message and entities`
+### <a name="htmlToMessageEntities"></a> `htmlToMessageEntities(string $html): \danog\MadelineProto\TL\Conversion\DOMEntities`
 
 Manually convert HTML to a message and a set of entities.
+  
 NOTE: You don't have to use this method to send HTML messages.  
   
-This method is already called automatically by using parse_mode: "HTML" in messages.sendMessage, messages.sendMedia, et cetera...
+This method is already called automatically by using parse_mode: "HTML" in messages.sendMessage, messages.sendMedia, et cetera...  
+
 
 Parameters:
 
@@ -1714,11 +1758,12 @@ Return value: Object containing message and entities
 
 #### See also: 
 * [https://docs.madelineproto.xyz/API_docs/methods/messages.sendMessage.html#usage-of-parse_mode](https://docs.madelineproto.xyz/API_docs/methods/messages.sendMessage.html#usage-of-parse_mode)
+* [`\danog\MadelineProto\TL\Conversion\DOMEntities`: Class that converts HTML to a message + set of entities.](../../danog/MadelineProto/TL/Conversion/DOMEntities.html)
 
 
 
 
-### `importAuthorization(array<int, string> $authorization, int $mainDcID): array`
+### <a name="importAuthorization"></a> `importAuthorization(array<int, string> $authorization, int $mainDcID): array`
 
 Import authorization.
 
@@ -1730,7 +1775,7 @@ Parameters:
 
 
 
-### `inflateStripped(string $stripped): string`
+### <a name="inflateStripped"></a> `inflateStripped(string $stripped): string`
 
 Inflate stripped photosize to full JPG payload.
 
@@ -1741,19 +1786,19 @@ Parameters:
 
 
 
-### `initSelfRestart(): void`
+### <a name="initSelfRestart"></a> `initSelfRestart(): void`
 
 Initialize self-restart hack.
 
 
 
-### `isAltervista(): bool`
+### <a name="isAltervista"></a> `isAltervista(): bool`
 
 Whether this is altervista.
 
 
 
-### `isArrayOrAlike(mixed $var): bool`
+### <a name="isArrayOrAlike"></a> `isArrayOrAlike(mixed $var): bool`
 
 Check if is array or similar (traversable && countable && arrayAccess).
 
@@ -1764,7 +1809,7 @@ Parameters:
 
 
 
-### `isBot(mixed $peer): bool`
+### <a name="isBot"></a> `isBot(mixed $peer): bool`
 
 Check if the specified peer is a bot.
 
@@ -1775,7 +1820,7 @@ Parameters:
 
 
 
-### `isForum(mixed $peer): bool`
+### <a name="isForum"></a> `isForum(mixed $peer): bool`
 
 Check if the specified peer is a forum.
 
@@ -1786,19 +1831,19 @@ Parameters:
 
 
 
-### `isIpc(): bool`
+### <a name="isIpc"></a> `isIpc(): bool`
 
 Whether we're an IPC client instance.
 
 
 
-### `isIpcWorker(): bool`
+### <a name="isIpcWorker"></a> `isIpcWorker(): bool`
 
 Whether we're an IPC server process (as opposed to an event handler).
 
 
 
-### `isPlayPaused(int $id): bool`
+### <a name="isPlayPaused"></a> `isPlayPaused(int $id): bool`
 
 Whether the currently playing audio file is paused.
 
@@ -1809,31 +1854,31 @@ Parameters:
 
 
 
-### `isPremium(): bool`
+### <a name="isPremium"></a> `isPremium(): bool`
 
 Returns whether the current user is a premium user, cached.
 
 
 
-### `isSelfBot(): bool`
+### <a name="isSelfBot"></a> `isSelfBot(): bool`
 
 Returns whether the current user is a bot.
 
 
 
-### `isSelfUser(): bool`
+### <a name="isSelfUser"></a> `isSelfUser(): bool`
 
 Returns whether the current user is a user.
 
 
 
-### `isTestMode(): bool`
+### <a name="isTestMode"></a> `isTestMode(): boolean`
 
 Whether we're currently connected to the test DCs.
 
 
 
-### `logger(mixed $param, int $level = \danog\MadelineProto\Logger::NOTICE, string $file = ''): void`
+### <a name="logger"></a> `logger(mixed $param, int $level = \danog\MadelineProto\Logger::NOTICE, string $file = ''): void`
 
 Logger.
 
@@ -1846,13 +1891,13 @@ Parameters:
 
 
 
-### `logout(): void`
+### <a name="logout"></a> `logout(): void`
 
 Logout the session.
 
 
 
-### `markdownCodeEscape(string $what): string`
+### <a name="markdownCodeEscape"></a> `markdownCodeEscape(string $what): string`
 
 Escape string for markdown code section.
 
@@ -1863,7 +1908,7 @@ Parameters:
 
 
 
-### `markdownCodeblockEscape(string $what): string`
+### <a name="markdownCodeblockEscape"></a> `markdownCodeblockEscape(string $what): string`
 
 Escape string for markdown codeblock.
 
@@ -1874,7 +1919,7 @@ Parameters:
 
 
 
-### `markdownEscape(string $what): string`
+### <a name="markdownEscape"></a> `markdownEscape(string $what): string`
 
 Escape string for markdown.
 
@@ -1885,12 +1930,14 @@ Parameters:
 
 
 
-### `markdownToMessageEntities(string $markdown): \danog\MadelineProto\TL\Conversion\MarkdownEntities Object containing message and entities`
+### <a name="markdownToMessageEntities"></a> `markdownToMessageEntities(string $markdown): \danog\MadelineProto\TL\Conversion\MarkdownEntities`
 
 Manually convert markdown to a message and a set of entities.
+  
 NOTE: You don't have to use this method to send Markdown messages.  
   
-This method is already called automatically by using parse_mode: "Markdown" in messages.sendMessage, messages.sendMedia, et cetera...
+This method is already called automatically by using parse_mode: "Markdown" in messages.sendMessage, messages.sendMedia, et cetera...  
+
 
 Parameters:
 
@@ -1901,11 +1948,12 @@ Return value: Object containing message and entities
 
 #### See also: 
 * [https://docs.madelineproto.xyz/API_docs/methods/messages.sendMessage.html#usage-of-parse_mode](https://docs.madelineproto.xyz/API_docs/methods/messages.sendMessage.html#usage-of-parse_mode)
+* [`\danog\MadelineProto\TL\Conversion\MarkdownEntities`: Class that converts Markdown to a message + set of entities.](../../danog/MadelineProto/TL/Conversion/MarkdownEntities.html)
 
 
 
 
-### `markdownUrlEscape(string $what): string`
+### <a name="markdownUrlEscape"></a> `markdownUrlEscape(string $what): string`
 
 Escape string for URL.
 
@@ -1916,7 +1964,7 @@ Parameters:
 
 
 
-### `mbStrSplit(string $text, int $length): string[]`
+### <a name="mbStrSplit"></a> `mbStrSplit(string $text, integer $length): array<string>`
 
 Telegram UTF-8 multibyte split.
 
@@ -1924,11 +1972,11 @@ Telegram UTF-8 multibyte split.
 Parameters:
 
 * `$text`: `string` Text  
-* `$length`: `int` Length  
+* `$length`: `integer` Length  
 
 
 
-### `mbStrlen(string $text): int`
+### <a name="mbStrlen"></a> `mbStrlen(string $text): int`
 
 Get Telegram UTF-8 length of string.
 
@@ -1939,7 +1987,7 @@ Parameters:
 
 
 
-### `mbSubstr(string $text, int $offset, null|int $length = NULL): string`
+### <a name="mbSubstr"></a> `mbSubstr(string $text, integer $offset, (null|int) $length = NULL): string`
 
 Telegram UTF-8 multibyte substring.
 
@@ -1947,12 +1995,12 @@ Telegram UTF-8 multibyte substring.
 Parameters:
 
 * `$text`: `string` Text to substring  
-* `$offset`: `int` Offset  
-* `$length`: `null|int` Length  
+* `$offset`: `integer` Offset  
+* `$length`: `(null|int)` Length  
 
 
 
-### `openBuffered(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL): callable`
+### <a name="openBuffered"></a> `openBuffered(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL): Closure(int): ?string`
 
 Provide a buffered reader for a file, URL or amp stream.
 
@@ -1972,7 +2020,7 @@ Parameters:
 
 
 
-### `openFileAppendOnly(string $path): \Amp\File\File`
+### <a name="openFileAppendOnly"></a> `openFileAppendOnly(string $path): \Amp\File\File`
 
 Opens a file in append-only mode.
 
@@ -1988,7 +2036,7 @@ Parameters:
 
 
 
-### `packDouble(float $value): string`
+### <a name="packDouble"></a> `packDouble(float $value): string`
 
 Convert double to binary version.
 
@@ -1999,18 +2047,18 @@ Parameters:
 
 
 
-### `packSignedInt(int $value): string`
+### <a name="packSignedInt"></a> `packSignedInt(integer $value): string`
 
 Convert integer to base256 signed int.
 
 
 Parameters:
 
-* `$value`: `int` Value to convert  
+* `$value`: `integer` Value to convert  
 
 
 
-### `packSignedLong(int $value): string`
+### <a name="packSignedLong"></a> `packSignedLong(int $value): string`
 
 Convert integer to base256 long.
 
@@ -2021,7 +2069,7 @@ Parameters:
 
 
 
-### `packUnsignedInt(int $value): string`
+### <a name="packUnsignedInt"></a> `packUnsignedInt(int $value): string`
 
 Convert value to unsigned base256 int.
 
@@ -2032,7 +2080,7 @@ Parameters:
 
 
 
-### `pausePlay(int $id): void`
+### <a name="pausePlay"></a> `pausePlay(int $id): void`
 
 Pauses playback of the current audio file in the call.
 
@@ -2043,7 +2091,7 @@ Parameters:
 
 
 
-### `peerIsset(mixed $id): bool`
+### <a name="peerIsset"></a> `peerIsset(mixed $id): bool`
 
 Check if peer is present in internal peer database.
 
@@ -2054,7 +2102,7 @@ Parameters:
 
 
 
-### `phoneLogin(string $number, int $sms_type = 5): array`
+### <a name="phoneLogin"></a> `phoneLogin(string $number, integer $sms_type = 5): array`
 
 Login as user.
 
@@ -2062,14 +2110,14 @@ Login as user.
 Parameters:
 
 * `$number`: `string` Phone number  
-* `$sms_type`: `int` SMS type  
+* `$sms_type`: `integer` SMS type  
 
 
 
-### `posmod(int $a, int $b): int`
+### <a name="posmod"></a> `posmod(int $a, int $b): int`
 
 Positive modulo
-Works just like the % (modulus) operator, only returns always a postive number.
+Works just like the % (modulus) operator, only returns always a postive number.  
 
 
 Parameters:
@@ -2079,7 +2127,7 @@ Parameters:
 
 
 
-### `processDownloadServerPing(string $path, string $payload): void`
+### <a name="processDownloadServerPing"></a> `processDownloadServerPing(string $path, string $payload): void`
 
 Internal endpoint used by the download server.
 
@@ -2091,12 +2139,14 @@ Parameters:
 
 
 
-### `qrLogin(): ?\danog\MadelineProto\TL\Types\LoginQrCode`
+### <a name="qrLogin"></a> `qrLogin(): ?\danog\MadelineProto\TL\Types\LoginQrCode`
 
 Initiates QR code login.
+  
 Returns a QR code login helper object, that can be used to render the QR code, display the link directly, wait for login, QR code expiration and much more.  
   
-Returns null if we're already logged in, or if we're waiting for a password (use getAuthorization to distinguish between the two cases).
+Returns null if we're already logged in, or if we're waiting for a password (use getAuthorization to distinguish between the two cases).  
+
 
 #### See also: 
 * [`\danog\MadelineProto\TL\Types\LoginQrCode`: Represents a login QR code.](../../danog/MadelineProto/TL/Types/LoginQrCode.html)
@@ -2104,29 +2154,29 @@ Returns null if we're already logged in, or if we're waiting for a password (use
 
 
 
-### `random(int $length): string`
+### <a name="random"></a> `random(integer $length): string`
 
 Get secure random string of specified length.
 
 
 Parameters:
 
-* `$length`: `int` Length  
+* `$length`: `integer` Length  
 
 
 
-### `randomInt(int $modulus = 0): int`
+### <a name="randomInt"></a> `randomInt(integer $modulus = 0): int`
 
 Get random integer.
 
 
 Parameters:
 
-* `$modulus`: `int` Modulus  
+* `$modulus`: `integer` Modulus  
 
 
 
-### `readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL): string`
+### <a name="readLine"></a> `readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL): string`
 
 Asynchronously read line.
 
@@ -2143,7 +2193,7 @@ Parameters:
 
 
 
-### `refreshFullPeerCache(mixed $id): void`
+### <a name="refreshFullPeerCache"></a> `refreshFullPeerCache(mixed $id): void`
 
 Refresh full peer cache for a certain peer.
 
@@ -2154,7 +2204,7 @@ Parameters:
 
 
 
-### `refreshPeerCache(mixed ...$ids): void`
+### <a name="refreshPeerCache"></a> `refreshPeerCache(mixed ...$ids): void`
 
 Refresh peer cache for a certain peer.
 
@@ -2165,7 +2215,7 @@ Parameters:
 
 
 
-### `report(string $message, string $parseMode = ''): void`
+### <a name="report"></a> `report(string $message, string $parseMode = ''): void`
 
 Report an error to the previously set peer.
 
@@ -2177,13 +2227,13 @@ Parameters:
 
 
 
-### `reportMemoryProfile(): void`
+### <a name="reportMemoryProfile"></a> `reportMemoryProfile(): void`
 
 Report memory profile with memprof.
 
 
 
-### `requestCall(mixed $user): \danog\MadelineProto\VoIP`
+### <a name="requestCall"></a> `requestCall(mixed $user): \danog\MadelineProto\VoIP`
 
 Request VoIP call.
 
@@ -2199,7 +2249,7 @@ Parameters:
 
 
 
-### `requestSecretChat(mixed $user): int`
+### <a name="requestSecretChat"></a> `requestSecretChat(mixed $user): int`
 
 Request secret chat.
 
@@ -2210,19 +2260,19 @@ Parameters:
 
 
 
-### `resetUpdateState(): void`
+### <a name="resetUpdateState"></a> `resetUpdateState(): void`
 
 Reset the update state and fetch all updates from the beginning.
 
 
 
-### `restart(): void`
+### <a name="restart"></a> `restart(): void`
 
 Restart update loop.
 
 
 
-### `resumePlay(int $id): void`
+### <a name="resumePlay"></a> `resumePlay(int $id): void`
 
 Resumes playback of the current audio file in the call.
 
@@ -2233,23 +2283,23 @@ Parameters:
 
 
 
-### `rethrow(\Throwable $e): void`
+### <a name="rethrow"></a> `rethrow(Throwable $e): void`
 
 Rethrow exception into event loop.
 
 
 Parameters:
 
-* `$e`: `\Throwable`   
+* `$e`: `Throwable`   
 
 
 #### See also: 
-* `\Throwable`
+* `Throwable`
 
 
 
 
-### `rleDecode(string $string): string`
+### <a name="rleDecode"></a> `rleDecode(string $string): string`
 
 null-byte RLE decode.
 
@@ -2260,7 +2310,7 @@ Parameters:
 
 
 
-### `rleEncode(string $string): string`
+### <a name="rleEncode"></a> `rleEncode(string $string): string`
 
 null-byte RLE encode.
 
@@ -2271,7 +2321,7 @@ Parameters:
 
 
 
-### `sendCustomEvent(mixed $payload): void`
+### <a name="sendCustomEvent"></a> `sendCustomEvent(mixed $payload): void`
 
 Sends an updateCustomEvent update to the event handler.
 
@@ -2282,16 +2332,18 @@ Parameters:
 
 
 
-### `sendDocument(int|string $peer, \danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?string $mimeType = NULL, ?int $ttl = NULL, bool $spoiler = false, int|null $replyToMsgId = NULL, int|null $topMsgId = NULL, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $updateStickersetsOrder = false, bool $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`
+### <a name="sendDocument"></a> `sendDocument((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?string $mimeType = NULL, ?int $ttl = NULL, bool $spoiler = false, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`
 
 Sends a document.
-Please use named arguments to call this method.
+  
+Please use named arguments to call this method.  
+
 
 Parameters:
 
-* `$peer`: `int|string` Destination peer or username.  
-* `$file`: `\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream` File to upload: can be a message to reuse media present in a message.  
-* `$thumb`: `\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null` Optional: Thumbnail to upload  
+* `$peer`: `(integer|string)` Destination peer or username.  
+* `$file`: `(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream)` File to upload: can be a message to reuse media present in a message.  
+* `$thumb`: `(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null)` Optional: Thumbnail to upload  
 * `$caption`: `string` Caption of document  
 * `$parseMode`: `\danog\MadelineProto\ParseMode` Text parse mode for the caption  
 * `$callback`: `?callable`   
@@ -2299,17 +2351,17 @@ Parameters:
 * `$mimeType`: `?string`   
 * `$ttl`: `?int`   
 * `$spoiler`: `bool`   
-* `$replyToMsgId`: `int|null` ID of message to reply to.  
-* `$topMsgId`: `int|null` ID of thread where to send the message.  
-* `$replyMarkup`: `array|null` Keyboard information.  
-* `$sendAs`: `int|null` Peer to send the message as.  
-* `$scheduleDate`: `int|null` Schedule date.  
-* `$silent`: `bool` Whether to send the message silently, without triggering notifications.  
+* `$replyToMsgId`: `(integer|null)` ID of message to reply to.  
+* `$topMsgId`: `(integer|null)` ID of thread where to send the message.  
+* `$replyMarkup`: `(array|null)` Keyboard information.  
+* `$sendAs`: `(integer|null)` Peer to send the message as.  
+* `$scheduleDate`: `(integer|null)` Schedule date.  
+* `$silent`: `boolean` Whether to send the message silently, without triggering notifications.  
 * `$noForwards`: `bool`   
-* `$background`: `bool` Send this message as background message  
-* `$clearDraft`: `bool` Clears the draft field  
-* `$updateStickersetsOrder`: `bool` Whether to move used stickersets to top  
-* `$forceResend`: `bool` Whether to forcefully resend the file, even if its type and name are the same.  
+* `$background`: `boolean` Send this message as background message  
+* `$clearDraft`: `boolean` Clears the draft field  
+* `$updateStickersetsOrder`: `boolean` Whether to move used stickersets to top  
+* `$forceResend`: `boolean` Whether to forcefully resend the file, even if its type and name are the same.  
 * `$cancellation`: `\Amp\Cancellation` Cancellation.  
 
 
@@ -2318,7 +2370,7 @@ Parameters:
 * [`\danog\MadelineProto\EventHandler\Media`: Represents a generic media.](../../danog/MadelineProto/EventHandler/Media.html)
 * [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
 * [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
-* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc.](../../danog/MadelineProto/BotApiFileId.html)
+* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](../../danog/MadelineProto/BotApiFileId.html)
 * `\Amp\ByteStream\ReadableStream`
 * [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../danog/MadelineProto/ParseMode.html)
 * `\Amp\Cancellation`
@@ -2326,27 +2378,27 @@ Parameters:
 
 
 
-### `sendMessage(int|string $peer, string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, int|null $replyToMsgId = NULL, int|null $topMsgId = NULL, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, bool $updateStickersetsOrder = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`
+### <a name="sendMessage"></a> `sendMessage((integer|string) $peer, string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $noWebpage = false, boolean $updateStickersetsOrder = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`
 
 Sends a message.
 
 
 Parameters:
 
-* `$peer`: `int|string` Destination peer or username.  
+* `$peer`: `(integer|string)` Destination peer or username.  
 * `$message`: `string` Message to send  
 * `$parseMode`: `\danog\MadelineProto\ParseMode` Parse mode  
-* `$replyToMsgId`: `int|null` ID of message to reply to.  
-* `$topMsgId`: `int|null` ID of thread where to send the message.  
-* `$replyMarkup`: `array|null` Keyboard information.  
-* `$sendAs`: `int|null` Peer to send the message as.  
-* `$scheduleDate`: `int|null` Schedule date.  
-* `$silent`: `bool` Whether to send the message silently, without triggering notifications.  
+* `$replyToMsgId`: `(integer|null)` ID of message to reply to.  
+* `$topMsgId`: `(integer|null)` ID of thread where to send the message.  
+* `$replyMarkup`: `(array|null)` Keyboard information.  
+* `$sendAs`: `(integer|null)` Peer to send the message as.  
+* `$scheduleDate`: `(integer|null)` Schedule date.  
+* `$silent`: `boolean` Whether to send the message silently, without triggering notifications.  
 * `$noForwards`: `bool`   
-* `$background`: `bool` Send this message as background message  
-* `$clearDraft`: `bool` Clears the draft field  
-* `$noWebpage`: `bool` Set this flag to disable generation of the webpage preview  
-* `$updateStickersetsOrder`: `bool` Whether to move used stickersets to top  
+* `$background`: `boolean` Send this message as background message  
+* `$clearDraft`: `boolean` Clears the draft field  
+* `$noWebpage`: `boolean` Set this flag to disable generation of the webpage preview  
+* `$updateStickersetsOrder`: `boolean` Whether to move used stickersets to top  
 * `$cancellation`: `?\Amp\Cancellation` Cancellation  
 
 
@@ -2358,7 +2410,7 @@ Parameters:
 
 
 
-### `sendMessageToAdmins(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, ?\Amp\Cancellation $cancellation = NULL): list<\danog\MadelineProto\EventHandler\Message>`
+### <a name="sendMessageToAdmins"></a> `sendMessageToAdmins(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, (array|null) $replyMarkup = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $noWebpage = false, ?\Amp\Cancellation $cancellation = NULL): list<\danog\MadelineProto\EventHandler\Message>`
 
 Sends a message to all report peers (admins of the bot).
 
@@ -2367,13 +2419,13 @@ Parameters:
 
 * `$message`: `string` Message to send  
 * `$parseMode`: `\danog\MadelineProto\ParseMode` Parse mode  
-* `$replyMarkup`: `array|null` Keyboard information.  
-* `$scheduleDate`: `int|null` Schedule date.  
-* `$silent`: `bool` Whether to send the message silently, without triggering notifications.  
+* `$replyMarkup`: `(array|null)` Keyboard information.  
+* `$scheduleDate`: `(integer|null)` Schedule date.  
+* `$silent`: `boolean` Whether to send the message silently, without triggering notifications.  
 * `$noForwards`: `bool`   
-* `$background`: `bool` Send this message as background message  
-* `$clearDraft`: `bool` Clears the draft field  
-* `$noWebpage`: `bool` Set this flag to disable generation of the webpage preview  
+* `$background`: `boolean` Send this message as background message  
+* `$clearDraft`: `boolean` Clears the draft field  
+* `$noWebpage`: `boolean` Set this flag to disable generation of the webpage preview  
 * `$cancellation`: `?\Amp\Cancellation`   
 
 
@@ -2385,32 +2437,34 @@ Parameters:
 
 
 
-### `sendPhoto(int|string $peer, \danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream $file, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?int $ttl = NULL, bool $spoiler = false, int|null $replyToMsgId = NULL, int|null $topMsgId = NULL, array|null $replyMarkup = NULL, int|null $sendAs = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $noForwards = false, bool $background = false, bool $clearDraft = false, bool $updateStickersetsOrder = false, bool $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`
+### <a name="sendPhoto"></a> `sendPhoto((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?int $ttl = NULL, bool $spoiler = false, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`
 
 Sends a photo.
-Please use named arguments to call this method.
+  
+Please use named arguments to call this method.  
+
 
 Parameters:
 
-* `$peer`: `int|string` Destination peer or username.  
-* `$file`: `\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream` File to upload: can be a message to reuse media present in a message.  
+* `$peer`: `(integer|string)` Destination peer or username.  
+* `$file`: `(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream)` File to upload: can be a message to reuse media present in a message.  
 * `$caption`: `string` Caption of document  
 * `$parseMode`: `\danog\MadelineProto\ParseMode` Text parse mode for the caption  
 * `$callback`: `?callable`   
 * `$fileName`: `?string` Optional file name, if absent will be extracted from the passed $file.  
 * `$ttl`: `?int`   
 * `$spoiler`: `bool`   
-* `$replyToMsgId`: `int|null` ID of message to reply to.  
-* `$topMsgId`: `int|null` ID of thread where to send the message.  
-* `$replyMarkup`: `array|null` Keyboard information.  
-* `$sendAs`: `int|null` Peer to send the message as.  
-* `$scheduleDate`: `int|null` Schedule date.  
-* `$silent`: `bool` Whether to send the message silently, without triggering notifications.  
+* `$replyToMsgId`: `(integer|null)` ID of message to reply to.  
+* `$topMsgId`: `(integer|null)` ID of thread where to send the message.  
+* `$replyMarkup`: `(array|null)` Keyboard information.  
+* `$sendAs`: `(integer|null)` Peer to send the message as.  
+* `$scheduleDate`: `(integer|null)` Schedule date.  
+* `$silent`: `boolean` Whether to send the message silently, without triggering notifications.  
 * `$noForwards`: `bool`   
-* `$background`: `bool` Send this message as background message  
-* `$clearDraft`: `bool` Clears the draft field  
-* `$updateStickersetsOrder`: `bool` Whether to move used stickersets to top  
-* `$forceResend`: `bool` Whether to forcefully resend the file, even if its type and name are the same.  
+* `$background`: `boolean` Send this message as background message  
+* `$clearDraft`: `boolean` Clears the draft field  
+* `$updateStickersetsOrder`: `boolean` Whether to move used stickersets to top  
+* `$forceResend`: `boolean` Whether to forcefully resend the file, even if its type and name are the same.  
 * `$cancellation`: `\Amp\Cancellation` Cancellation.  
 
 
@@ -2419,7 +2473,7 @@ Parameters:
 * [`\danog\MadelineProto\EventHandler\Media`: Represents a generic media.](../../danog/MadelineProto/EventHandler/Media.html)
 * [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
 * [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
-* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc.](../../danog/MadelineProto/BotApiFileId.html)
+* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](../../danog/MadelineProto/BotApiFileId.html)
 * `\Amp\ByteStream\ReadableStream`
 * [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../danog/MadelineProto/ParseMode.html)
 * `\Amp\Cancellation`
@@ -2427,24 +2481,24 @@ Parameters:
 
 
 
-### `setNoop(): void`
+### <a name="setNoop"></a> `setNoop(): void`
 
 Set NOOP update handler, ignoring all updates.
 
 
 
-### `setReportPeers(int|string|(int|string)[] $userOrId): void`
+### <a name="setReportPeers"></a> `setReportPeers((int|string|array<(int|string)>) $userOrId): void`
 
 Set peer(s) where to send errors occurred in the event loop.
 
 
 Parameters:
 
-* `$userOrId`: `int|string|(int|string)[]` Username(s) or peer ID(s)  
+* `$userOrId`: `(int|string|array<(int|string)>)` Username(s) or peer ID(s)  
 
 
 
-### `setWebhook(string $webhookUrl): void`
+### <a name="setWebhook"></a> `setWebhook(string $webhookUrl): void`
 
 Set webhook update handler.
 
@@ -2455,7 +2509,7 @@ Parameters:
 
 
 
-### `skipPlay(int $id): void`
+### <a name="skipPlay"></a> `skipPlay(int $id): void`
 
 When called, skips to the next file in the playlist.
 
@@ -2466,7 +2520,7 @@ Parameters:
 
 
 
-### `sleep(float $time): void`
+### <a name="sleep"></a> `sleep(float $time): void`
 
 Asynchronously sleep.
 
@@ -2477,19 +2531,19 @@ Parameters:
 
 
 
-### `start(): array`
+### <a name="start"></a> `start(): array`
 
 Log in to telegram (via CLI or web).
 
 
 
-### `stop(): void`
+### <a name="stop"></a> `stop(): void`
 
 Stop update loop.
 
 
 
-### `stopPlay(int $id): void`
+### <a name="stopPlay"></a> `stopPlay(int $id): void`
 
 Stops playing all files in the call, clears the main and the hold playlist.
 
@@ -2500,7 +2554,7 @@ Parameters:
 
 
 
-### `stringToStream(string $str): \Amp\ByteStream\ReadableBuffer`
+### <a name="stringToStream"></a> `stringToStream(string $str): \Amp\ByteStream\ReadableBuffer`
 
 Converts a string into an async amphp stream.
 
@@ -2516,7 +2570,7 @@ Parameters:
 
 
 
-### `subscribeToUpdates(mixed $channel): \bool False if we were already subscribed`
+### <a name="subscribeToUpdates"></a> `subscribeToUpdates(mixed $channel): bool`
 
 Subscribe to event handler updates for a channel/supergroup we're not a member of.
 
@@ -2529,7 +2583,7 @@ Parameters:
 Return value: False if we were already subscribed
 
 
-### `tdToMTProto(array $params): array`
+### <a name="tdToMTProto"></a> `tdToMTProto(array $params): array`
 
 Convert TD to MTProto parameters.
 
@@ -2540,7 +2594,7 @@ Parameters:
 
 
 
-### `tdToTdcli(mixed $params): array`
+### <a name="tdToTdcli"></a> `tdToTdcli(mixed $params): array`
 
 Convert TD parameters to tdcli.
 
@@ -2551,7 +2605,7 @@ Parameters:
 
 
 
-### `tdcliToTd(mixed $params, array $key = NULL): array`
+### <a name="tdcliToTd"></a> `tdcliToTd(mixed $params, array $key = NULL): array`
 
 Convert tdcli parameters to tdcli.
 
@@ -2563,7 +2617,7 @@ Parameters:
 
 
 
-### `testFibers(int $fiberCount = 100000): array{maxFibers: int, realMemoryMb: int, maps: ?int, maxMaps: ?int}`
+### <a name="testFibers"></a> `testFibers(int $fiberCount = 100000): array{maxFibers: int, realMemoryMb: int, maps: ?int, maxMaps: ?int}`
 
 Test fibers.
 
@@ -2574,7 +2628,7 @@ Parameters:
 
 
 
-### `toCamelCase(string $input): string`
+### <a name="toCamelCase"></a> `toCamelCase(string $input): string`
 
 Convert to camelCase.
 
@@ -2585,7 +2639,7 @@ Parameters:
 
 
 
-### `toSnakeCase(string $input): string`
+### <a name="toSnakeCase"></a> `toSnakeCase(string $input): string`
 
 Convert to snake_case.
 
@@ -2596,7 +2650,7 @@ Parameters:
 
 
 
-### `unpackDouble(string $value): float`
+### <a name="unpackDouble"></a> `unpackDouble(string $value): float`
 
 Unpack binary double.
 
@@ -2607,7 +2661,7 @@ Parameters:
 
 
 
-### `unpackFileId(string $fileId): \array Unpacked file ID`
+### <a name="unpackFileId"></a> `unpackFileId(string $fileId): array`
 
 Unpack bot API file ID.
 
@@ -2620,7 +2674,7 @@ Parameters:
 Return value: Unpacked file ID
 
 
-### `unpackSignedInt(string $value): int`
+### <a name="unpackSignedInt"></a> `unpackSignedInt(string $value): int`
 
 Unpack base256 signed int.
 
@@ -2631,7 +2685,7 @@ Parameters:
 
 
 
-### `unpackSignedLong(string $value): int`
+### <a name="unpackSignedLong"></a> `unpackSignedLong(string $value): int`
 
 Unpack base256 signed long.
 
@@ -2642,27 +2696,29 @@ Parameters:
 
 
 
-### `unpackSignedLongString(string|int|array $value): string`
+### <a name="unpackSignedLongString"></a> `unpackSignedLongString((string|int|array) $value): string`
 
 Unpack base256 signed long to string.
 
 
 Parameters:
 
-* `$value`: `string|int|array` base256 long  
+* `$value`: `(string|int|array)` base256 long  
 
 
 
-### `unsetEventHandler(): void`
+### <a name="unsetEventHandler"></a> `unsetEventHandler(): void`
 
 Unset event handler.
 
 
 
-### `update2fa(array{password?: string, new_password?: string, email?: string, hint?: string} $params): void`
+### <a name="update2fa"></a> `update2fa(array{password?: string, new_password?: string, email?: string, hint?: string} $params): void`
 
 Update the 2FA password.
-The params array can contain password, new_password, email and hint params.
+  
+The params array can contain password, new_password, email and hint params.  
+
 
 Parameters:
 
@@ -2670,7 +2726,7 @@ Parameters:
 
 
 
-### `updateSettings(\danog\MadelineProto\SettingsAbstract $settings): void`
+### <a name="updateSettings"></a> `updateSettings(\danog\MadelineProto\SettingsAbstract $settings): void`
 
 Parse, update and store settings.
 
@@ -2686,17 +2742,17 @@ Parameters:
 
 
 
-### `upload(\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|\resource $file, string $fileName = '', callable $cb = NULL, bool $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): \array InputFile constructor`
+### <a name="upload"></a> `upload((\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|resource) $file, string $fileName = '', callable $cb = NULL, boolean $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): array`
 
 Upload file.
 
 
 Parameters:
 
-* `$file`: `\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|\resource` File, URL or Telegram file to upload  
+* `$file`: `(\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|resource)` File, URL or Telegram file to upload  
 * `$fileName`: `string` File name  
 * `$cb`: `callable` Callback  
-* `$encrypted`: `bool` Whether to encrypt file for secret chats  
+* `$encrypted`: `boolean` Whether to encrypt file for secret chats  
 * `$cancellation`: `?\Amp\Cancellation`   
 
 
@@ -2706,21 +2762,21 @@ Return value: InputFile constructor
 * [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
 * [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
 * [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
-* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc.](../../danog/MadelineProto/BotApiFileId.html)
-* `\resource`
+* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](../../danog/MadelineProto/BotApiFileId.html)
+* `resource`
 * `\Amp\Cancellation`
 
 
 
 
-### `uploadEncrypted(\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|\resource $file, string $fileName = '', callable $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): \array InputFile constructor`
+### <a name="uploadEncrypted"></a> `uploadEncrypted((\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|resource) $file, string $fileName = '', callable $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): array`
 
 Upload file to secret chat.
 
 
 Parameters:
 
-* `$file`: `\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|\resource` File, URL or Telegram file to upload  
+* `$file`: `(\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|resource)` File, URL or Telegram file to upload  
 * `$fileName`: `string` File name  
 * `$cb`: `callable` Callback  
 * `$cancellation`: `?\Amp\Cancellation`   
@@ -2732,28 +2788,30 @@ Return value: InputFile constructor
 * [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../danog/MadelineProto/FileCallbackInterface.html)
 * [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
 * [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
-* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc.](../../danog/MadelineProto/BotApiFileId.html)
-* `\resource`
+* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](../../danog/MadelineProto/BotApiFileId.html)
+* `resource`
 * `\Amp\Cancellation`
 
 
 
 
-### `uploadFromCallable(callable $callable, int $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable $cb = NULL, bool $seekable = true, bool $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): \array InputFile constructor`
+### <a name="uploadFromCallable"></a> `uploadFromCallable(callable(int, int, ?Cancellation): strin) $callable, integer $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable(float, float, float): voi) $cb = NULL, boolean $seekable = true, boolean $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): array`
 
 Upload file from callable.
+  
 The callable must accept two parameters: int $offset, int $size  
-The callable must return a string with the contest of the file at the specified offset and size.
+The callable must return a string with the contest of the file at the specified offset and size.  
+
 
 Parameters:
 
-* `$callable`: `callable` Callable (offset, length) => data  
-* `$size`: `int` File size  
+* `$callable`: `callable(int, int, ?Cancellation): strin)` Callable (offset, length) => data  
+* `$size`: `integer` File size  
 * `$mime`: `string` Mime type  
 * `$fileName`: `string` File name  
-* `$cb`: `callable` Status callback  
-* `$seekable`: `bool` Whether chunks can be fetched out of order  
-* `$encrypted`: `bool` Whether to encrypt file for secret chats  
+* `$cb`: `callable(float, float, float): voi)` Status callback  
+* `$seekable`: `boolean` Whether chunks can be fetched out of order  
+* `$encrypted`: `boolean` Whether to encrypt file for secret chats  
 * `$cancellation`: `?\Amp\Cancellation`   
 
 
@@ -2765,7 +2823,7 @@ Return value: InputFile constructor
 
 
 
-### `uploadFromStream(mixed $stream, int $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable $cb = NULL, bool $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): \array InputFile constructor`
+### <a name="uploadFromStream"></a> `uploadFromStream(mixed $stream, integer $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable $cb = NULL, boolean $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): array`
 
 Upload file from stream.
 
@@ -2773,11 +2831,11 @@ Upload file from stream.
 Parameters:
 
 * `$stream`: `mixed` PHP resource or AMPHP async stream  
-* `$size`: `int` File size  
+* `$size`: `integer` File size  
 * `$mime`: `string` Mime type  
 * `$fileName`: `string` File name  
 * `$cb`: `callable` Callback  
-* `$encrypted`: `bool` Whether to encrypt file for secret chats  
+* `$encrypted`: `boolean` Whether to encrypt file for secret chats  
 * `$cancellation`: `?\Amp\Cancellation`   
 
 
@@ -2789,7 +2847,7 @@ Return value: InputFile constructor
 
 
 
-### `uploadFromTgfile(mixed $media, callable $cb = NULL, bool $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): \array InputFile constructor`
+### <a name="uploadFromTgfile"></a> `uploadFromTgfile(mixed $media, callable $cb = NULL, boolean $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): array`
 
 Reupload telegram file.
 
@@ -2798,7 +2856,7 @@ Parameters:
 
 * `$media`: `mixed` Telegram file  
 * `$cb`: `callable` Callback  
-* `$encrypted`: `bool` Whether to encrypt file for secret chats  
+* `$encrypted`: `boolean` Whether to encrypt file for secret chats  
 * `$cancellation`: `?\Amp\Cancellation`   
 
 
@@ -2810,18 +2868,18 @@ Return value: InputFile constructor
 
 
 
-### `uploadFromUrl(string|\danog\MadelineProto\FileCallbackInterface $url, int $size = 0, string $fileName = '', callable $cb = NULL, bool $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): \array InputFile constructor`
+### <a name="uploadFromUrl"></a> `uploadFromUrl((string|\danog\MadelineProto\FileCallbackInterface) $url, integer $size = 0, string $fileName = '', callable $cb = NULL, boolean $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): array`
 
 Upload file from URL.
 
 
 Parameters:
 
-* `$url`: `string|\danog\MadelineProto\FileCallbackInterface` URL of file  
-* `$size`: `int` Size of file  
+* `$url`: `(string|\danog\MadelineProto\FileCallbackInterface)` URL of file  
+* `$size`: `integer` Size of file  
 * `$fileName`: `string` File name  
 * `$cb`: `callable` Callback  
-* `$encrypted`: `bool` Whether to encrypt file for secret chats  
+* `$encrypted`: `boolean` Whether to encrypt file for secret chats  
 * `$cancellation`: `?\Amp\Cancellation`   
 
 
@@ -2834,7 +2892,7 @@ Return value: InputFile constructor
 
 
 
-### `validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): list<\danog\MadelineProto\EventHandlerIssue>`
+### <a name="validateEventHandlerClass"></a> `validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): list<\danog\MadelineProto\EventHandlerIssue>`
 
 Perform static analysis on a certain event handler class, to make sure it satisfies some performance requirements.
 
@@ -2851,19 +2909,19 @@ Parameters:
 
 
 
-### `viewSponsoredMessage(int|array $peer, string|array{random_id: string} $message): bool`
+### <a name="viewSponsoredMessage"></a> `viewSponsoredMessage((int|array) $peer, (string|array{random_id: string}) $message): bool`
 
 Mark sponsored message as read.
 
 
 Parameters:
 
-* `$peer`: `int|array` Channel ID, or Update, or Message, or Peer.  
-* `$message`: `string|array{random_id: string}` Random ID or sponsored message to mark as read.  
+* `$peer`: `(int|array)` Channel ID, or Update, or Message, or Peer.  
+* `$message`: `(string|array{random_id: string})` Random ID or sponsored message to mark as read.  
 
 
 
-### `wrapMedia(array $media, bool $protected = false): ?\danog\MadelineProto\EventHandler\Media`
+### <a name="wrapMedia"></a> `wrapMedia(array $media, bool $protected = false): ?\danog\MadelineProto\EventHandler\Media`
 
 Wrap a media constructor into an abstract Media object.
 
@@ -2880,7 +2938,7 @@ Parameters:
 
 
 
-### `wrapMessage(array $message): ?\danog\MadelineProto\EventHandler\AbstractMessage`
+### <a name="wrapMessage"></a> `wrapMessage(array $message): ?\danog\MadelineProto\EventHandler\AbstractMessage`
 
 Wrap a Message constructor into an abstract Message object.
 
@@ -2896,7 +2954,7 @@ Parameters:
 
 
 
-### `wrapPin(array $message): ?\danog\MadelineProto\EventHandler\Pinned`
+### <a name="wrapPin"></a> `wrapPin(array $message): ?\danog\MadelineProto\EventHandler\Pinned`
 
 Wrap a Pin constructor into an abstract Pinned object.
 
@@ -2912,7 +2970,7 @@ Parameters:
 
 
 
-### `wrapUpdate(array $update): ?\danog\MadelineProto\EventHandler\Update`
+### <a name="wrapUpdate"></a> `wrapUpdate(array $update): ?\danog\MadelineProto\EventHandler\Update`
 
 Wrap an Update constructor into an abstract Update object.
 
@@ -2925,6 +2983,29 @@ Parameters:
 #### See also: 
 * [`\danog\MadelineProto\EventHandler\Update`: Represents a generic update.](../../danog/MadelineProto/EventHandler/Update.html)
 
+
+
+
+### <a name="initDbProperties"></a> `initDbProperties(\danog\AsyncOrm\Settings $settings, string $tablePrefix): void`
+
+Initialize database properties.
+
+
+Parameters:
+
+* `$settings`: `\danog\AsyncOrm\Settings`   
+* `$tablePrefix`: `string`   
+
+
+#### See also: 
+* `\danog\AsyncOrm\Settings`
+
+
+
+
+### <a name="saveDbProperties"></a> `saveDbProperties(): void`
+
+Save all properties.
 
 
 

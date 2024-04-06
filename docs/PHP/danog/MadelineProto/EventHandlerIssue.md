@@ -22,13 +22,13 @@ Represents an event handler issue.
 * `$severe`: `bool` Whether the issue is severe enough to block inclusion
 
 ## Method list:
-* [`__construct(string $message, string $file, int $line, bool $severe)`](#__construct-string-message-string-file-int-line-bool-severe)
-* [`log(): void`](#log-void)
-* [`getHTML(): string`](#gethtml-string)
-* [`throw(): void`](#throw-void)
+* [`__construct(string $message, string $file, int $line, bool $severe)`](#__construct)
+* [`log(): void`](#log)
+* [`getHTML(): string`](#getHTML)
+* [`throw(): void`](#throw)
 
 ## Methods:
-### `__construct(string $message, string $file, int $line, bool $severe)`
+### <a name="__construct"></a> `__construct(string $message, string $file, int $line, bool $severe)`
 
 
 
@@ -42,19 +42,19 @@ Parameters:
 
 
 
-### `log(): void`
+### <a name="log"></a> `log(): void`
 
 
 
 
 
-### `getHTML(): string`
+### <a name="getHTML"></a> `getHTML(): string`
 
 
 
 
 
-### `throw(): void`
+### <a name="throw"></a> `throw(): void`
 
 
 

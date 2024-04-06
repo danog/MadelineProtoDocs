@@ -17,17 +17,12 @@ File callback interface.
 
 
 ## Method list:
-* [`getFile(): \T`](#getfile-t)
+* [`getFile(): T`](#getFile)
 
 ## Methods:
-### `getFile(): \T`
+### <a name="getFile"></a> `getFile(): T`
 
 Get file.
-
-
-#### See also: 
-* `\T`
-
 
 
 

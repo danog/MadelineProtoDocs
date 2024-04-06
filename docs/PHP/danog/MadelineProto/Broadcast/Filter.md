@@ -21,14 +21,14 @@ Broadcast filter.
 * `$allowGroups`: `bool` 
 * `$allowChannels`: `bool` 
 * `$blacklist`: `list<int>` 
-* `$whitelist`: `list<int>|null` If null all IDs are allowed (*)
+* `$whitelist`: `(list<int> | null)` If null all IDs are allowed (*)
 
 ## Method list:
-* [`__construct(bool $allowUsers, bool $allowBots, bool $allowGroups, bool $allowChannels, array $blacklist = [], ?array $whitelist = NULL)`](#__construct-bool-allowusers-bool-allowbots-bool-allowgroups-bool-allowchannels-array-blacklist-array-whitelist-null)
-* [`default(): self`](#default-self)
+* [`__construct(bool $allowUsers, bool $allowBots, bool $allowGroups, bool $allowChannels, array $blacklist = [], ?array $whitelist = NULL)`](#__construct)
+* [`default(): self`](#default)
 
 ## Methods:
-### `__construct(bool $allowUsers, bool $allowBots, bool $allowGroups, bool $allowChannels, array $blacklist = [], ?array $whitelist = NULL)`
+### <a name="__construct"></a> `__construct(bool $allowUsers, bool $allowBots, bool $allowGroups, bool $allowChannels, array $blacklist = [], ?array $whitelist = NULL)`
 
 
 
@@ -44,7 +44,7 @@ Parameters:
 
 
 
-### `default(): self`
+### <a name="default"></a> `default(): self`
 
 
 

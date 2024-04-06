@@ -19,11 +19,11 @@ Chat history is being imported.
 * `$progress`: `?int` Progress percentage
 
 ## Method list:
-* [`__construct(?int $progress)`](#__construct-int-progress)
-* [`toRawAction(): array`](#torawaction-array)
+* [`__construct(?int $progress)`](#__construct)
+* [`toRawAction(): array`](#toRawAction)
 
 ## Methods:
-### `__construct(?int $progress)`
+### <a name="__construct"></a> `__construct(?int $progress)`
 
 
 
@@ -34,7 +34,7 @@ Parameters:
 
 
 
-### `toRawAction(): array`
+### <a name="toRawAction"></a> `toRawAction(): array`
 
 
 

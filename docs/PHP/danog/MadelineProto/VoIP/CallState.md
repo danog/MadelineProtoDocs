@@ -33,10 +33,10 @@ parent: "MadelineProto API"
 * `$name`: `string` 
 
 ## Method list:
-* [`cases(): array`](#cases-array)
+* [`cases(): array`](#cases)
 
 ## Methods:
-### `cases(): array`
+### <a name="cases"></a> `cases(): array`
 
 
 

@@ -22,10 +22,10 @@ Myself.
 * `$date`: `int` When did I join the channel/supergroup
 
 ## Method list:
-* [`fromRawParticipant(array $rawParticipant): self`](#fromrawparticipant-array-rawparticipant-self)
+* [`fromRawParticipant(array $rawParticipant): self`](#fromRawParticipant)
 
 ## Methods:
-### `fromRawParticipant(array $rawParticipant): self`
+### <a name="fromRawParticipant"></a> `fromRawParticipant(array $rawParticipant): self`
 
 
 

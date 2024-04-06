@@ -48,6 +48,8 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->account->updateConnectedBot](/API_docs/methods/account.updateConnectedBot.html)  
 
+[$MadelineProto->account->getBotBusinessConnection](/API_docs/methods/account.getBotBusinessConnection.html)  
+
 [$MadelineProto->contacts->deleteContacts](/API_docs/methods/contacts.deleteContacts.html)  
 
 [$MadelineProto->contacts->addContact](/API_docs/methods/contacts.addContact.html)  
@@ -68,11 +70,7 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->messages->editChatPhoto](/API_docs/methods/messages.editChatPhoto.html)  
 
-[$MadelineProto->messages->addChatUser](/API_docs/methods/messages.addChatUser.html)  
-
 [$MadelineProto->messages->deleteChatUser](/API_docs/methods/messages.deleteChatUser.html)  
-
-[$MadelineProto->messages->createChat](/API_docs/methods/messages.createChat.html)  
 
 [$MadelineProto->messages->importChatInvite](/API_docs/methods/messages.importChatInvite.html)  
 
@@ -144,8 +142,6 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->channels->leaveChannel](/API_docs/methods/channels.leaveChannel.html)  
 
-[$MadelineProto->channels->inviteToChannel](/API_docs/methods/channels.inviteToChannel.html)  
-
 [$MadelineProto->channels->deleteChannel](/API_docs/methods/channels.deleteChannel.html)  
 
 [$MadelineProto->channels->toggleSignatures](/API_docs/methods/channels.toggleSignatures.html)  
@@ -187,6 +183,8 @@ $message = $MadelineProto->extractMessageId($Updates);
 [$MadelineProto->channels->updateEmojiStatus](/API_docs/methods/channels.updateEmojiStatus.html)  
 
 [$MadelineProto->channels->setBoostsToUnblockRestrictions](/API_docs/methods/channels.setBoostsToUnblockRestrictions.html)  
+
+[$MadelineProto->channels->restrictSponsoredMessages](/API_docs/methods/channels.restrictSponsoredMessages.html)  
 
 [$MadelineProto->bots->allowSendMessage](/API_docs/methods/bots.allowSendMessage.html)  
 

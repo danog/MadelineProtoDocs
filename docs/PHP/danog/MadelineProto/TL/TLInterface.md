@@ -17,19 +17,19 @@ parent: "MadelineProto API"
 
 
 ## Method list:
-* [`getConstructors(): \danog\MadelineProto\TL\TLConstructors`](#getconstructors-danog-madelineproto-tl-tlconstructors)
-* [`getMethods(): \danog\MadelineProto\TL\TLMethods`](#getmethods-danog-madelineproto-tl-tlmethods)
-* [`getDescriptions(): array`](#getdescriptions-array)
-* [`getMethodNamespaces(): array`](#getmethodnamespaces-array)
-* [`getMethodsNamespaced(): array`](#getmethodsnamespaced-array)
-* [`serializeObject(array $type, mixed $object, string $ctx, int $layer = -1): mixed`](#serializeobject-array-type-mixed-object-string-ctx-int-layer-1-mixed)
-* [`serializeMethod(string $method, mixed $arguments): mixed`](#serializemethod-string-method-mixed-arguments-mixed)
-* [`getLength(\resource|string $stream, array $type = [  'type' => '',]): int`](#getlength-resource-string-stream-array-type-type-int)
-* [`deserialize(string|\resource $stream, array $type): mixed`](#deserialize-string-resource-stream-array-type-mixed)
-* [`getSecretLayer(): int`](#getsecretlayer-int)
+* [`getConstructors(): \danog\MadelineProto\TL\TLConstructors`](#getConstructors)
+* [`getMethods(): \danog\MadelineProto\TL\TLMethods`](#getMethods)
+* [`getDescriptions(): array`](#getDescriptions)
+* [`getMethodNamespaces(): array`](#getMethodNamespaces)
+* [`getMethodsNamespaced(): array`](#getMethodsNamespaced)
+* [`serializeObject(array $type, mixed $object, string $ctx, integer $layer = -1)`](#serializeObject)
+* [`serializeMethod(string $method, mixed $arguments)`](#serializeMethod)
+* [`getLength((resource|string) $stream, array $type = [  'type' => '',]): int`](#getLength)
+* [`deserialize((string|resource) $stream, array $type)`](#deserialize)
+* [`getSecretLayer(): int`](#getSecretLayer)
 
 ## Methods:
-### `getConstructors(): \danog\MadelineProto\TL\TLConstructors`
+### <a name="getConstructors"></a> `getConstructors(): \danog\MadelineProto\TL\TLConstructors`
 
 Get constructors.
 
@@ -40,7 +40,7 @@ Get constructors.
 
 
 
-### `getMethods(): \danog\MadelineProto\TL\TLMethods`
+### <a name="getMethods"></a> `getMethods(): \danog\MadelineProto\TL\TLMethods`
 
 Get methods.
 
@@ -51,25 +51,25 @@ Get methods.
 
 
 
-### `getDescriptions(): array`
+### <a name="getDescriptions"></a> `getDescriptions(): array`
 
 Get descriptions.
 
 
 
-### `getMethodNamespaces(): array`
+### <a name="getMethodNamespaces"></a> `getMethodNamespaces(): array`
 
 Get TL namespaces.
 
 
 
-### `getMethodsNamespaced(): array`
+### <a name="getMethodsNamespaced"></a> `getMethodsNamespaced(): array`
 
 Get namespaced methods (method => namespace).
 
 
 
-### `serializeObject(array $type, mixed $object, string $ctx, int $layer = -1): mixed`
+### <a name="serializeObject"></a> `serializeObject(array $type, mixed $object, string $ctx, integer $layer = -1)`
 
 Serialize TL object.
 
@@ -79,11 +79,11 @@ Parameters:
 * `$type`: `array` TL type definition  
 * `$object`: `mixed` Object to serialize  
 * `$ctx`: `string` Context  
-* `$layer`: `int` Layer version  
+* `$layer`: `integer` Layer version  
 
 
 
-### `serializeMethod(string $method, mixed $arguments): mixed`
+### <a name="serializeMethod"></a> `serializeMethod(string $method, mixed $arguments)`
 
 Serialize method.
 
@@ -95,41 +95,41 @@ Parameters:
 
 
 
-### `getLength(\resource|string $stream, array $type = [  'type' => '',]): int`
+### <a name="getLength"></a> `getLength((resource|string) $stream, array $type = [  'type' => '',]): int`
 
 Get length of TL payload.
 
 
 Parameters:
 
-* `$stream`: `\resource|string` Stream  
+* `$stream`: `(resource|string)` Stream  
 * `$type`: `array` Type identifier  
 
 
 #### See also: 
-* `\resource`
+* `resource`
 
 
 
 
-### `deserialize(string|\resource $stream, array $type): mixed`
+### <a name="deserialize"></a> `deserialize((string|resource) $stream, array $type)`
 
 Deserialize TL object.
 
 
 Parameters:
 
-* `$stream`: `string|\resource` Stream  
+* `$stream`: `(string|resource)` Stream  
 * `$type`: `array` Type identifier  
 
 
 #### See also: 
-* `\resource`
+* `resource`
 
 
 
 
-### `getSecretLayer(): int`
+### <a name="getSecretLayer"></a> `getSecretLayer(): int`
 
 Get secret chat layer version.
 

@@ -18,16 +18,16 @@ IPC server settings.
 
 ## Method list:
 * [`__construct()`](#__construct)
-* [`getSlow(): bool`](#getslow-bool)
+* [`getSlow(): bool`](#getSlow)
 
 ## Methods:
-### `__construct()`
+### <a name="__construct"></a> `__construct()`
 
 
 
 
 
-### `getSlow(): bool`
+### <a name="getSlow"></a> `getSlow(): bool`
 
 Get WARNING: this will cause slow startup if enabled.
 

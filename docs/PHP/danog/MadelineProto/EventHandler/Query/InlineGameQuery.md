@@ -23,12 +23,12 @@ Represents a query sent by the user by clicking on a "Play game" button in an in
 * `$inlineMessageId`: `string` Inline message ID
 
 ## Method list:
-* [`answer(string $message, bool $alert = false, string|null $url = NULL, int $cacheTime = 300): bool`](#answer-string-message-bool-alert-false-string-null-url-null-int-cachetime-300-bool)
-* [`editText(string $message, array|null $replyMarkup = NULL, \ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, bool $noWebpage = false): void`](#edittext-string-message-array-null-replymarkup-null-parsemode-parsemode-danog-madelineproto-parsemode-text-bool-nowebpage-false-void)
-* [`editReplyMarkup(array $replyMarkup): void`](#editreplymarkup-array-replymarkup-void)
+* [`answer(string $message, bool $alert = false, (string|null) $url = NULL, int $cacheTime = 300): bool`](#answer)
+* [`editText(string $message, (array|null) $replyMarkup = NULL, ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, bool $noWebpage = false): void`](#editText)
+* [`editReplyMarkup(array $replyMarkup): void`](#editReplyMarkup)
 
 ## Methods:
-### `answer(string $message, bool $alert = false, string|null $url = NULL, int $cacheTime = 300): bool`
+### <a name="answer"></a> `answer(string $message, bool $alert = false, (string|null) $url = NULL, int $cacheTime = 300): bool`
 
 
 
@@ -37,12 +37,12 @@ Parameters:
 
 * `$message`: `string` Popup to show  
 * `$alert`: `bool` Whether to show the message as a popup instead of a toast notification  
-* `$url`: `string|null` URL to open  
+* `$url`: `(string|null)` URL to open  
 * `$cacheTime`: `int` Cache validity (default set to 5 min based on telegram official docs ...)  
 
 
 
-### `editText(string $message, array|null $replyMarkup = NULL, \ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, bool $noWebpage = false): void`
+### <a name="editText"></a> `editText(string $message, (array|null) $replyMarkup = NULL, ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, bool $noWebpage = false): void`
 
 Edit message text.
 
@@ -50,18 +50,18 @@ Edit message text.
 Parameters:
 
 * `$message`: `string` New message  
-* `$replyMarkup`: `array|null` Reply markup for inline keyboards  
-* `$parseMode`: `\ParseMode` Whether to parse HTML or Markdown markup in the message  
+* `$replyMarkup`: `(array|null)` Reply markup for inline keyboards  
+* `$parseMode`: `ParseMode` Whether to parse HTML or Markdown markup in the message  
 * `$noWebpage`: `bool` Disable webpage preview  
 
 
 #### See also: 
-* `\ParseMode`
+* `ParseMode`
 
 
 
 
-### `editReplyMarkup(array $replyMarkup): void`
+### <a name="editReplyMarkup"></a> `editReplyMarkup(array $replyMarkup): void`
 
 Edit message keyboard.
 

@@ -69,6 +69,10 @@ $MadelineProto->[account->confirmPhone](/API_docs/methods/account.confirmPhone.h
 
 ***
 <br><br>
+$MadelineProto->[account->createBusinessChatLink](/API_docs/methods/account.createBusinessChatLink.html)(\[link: $[InputBusinessChatLink](/API_docs/types/InputBusinessChatLink.html), \]) === [$BusinessChatLink](/API_docs/types/BusinessChatLink.html)<a name="account.createBusinessChatLink"></a>  
+
+***
+<br><br>
 $MadelineProto->[account->createTheme](/API_docs/methods/account.createTheme.html)(\[slug: $[string](/API_docs/types/string.html), title: $[string](/API_docs/types/string.html), document: $[InputDocument](/API_docs/types/InputDocument.html), settings: \[$[InputThemeSettings](/API_docs/types/InputThemeSettings.html)\], \]) === [$Theme](/API_docs/types/Theme.html)<a name="account.createTheme"></a>  
 
 ***
@@ -85,7 +89,19 @@ $MadelineProto->[account->deleteAutoSaveExceptions](/API_docs/methods/account.de
 
 ***
 <br><br>
+$MadelineProto->[account->deleteBusinessChatLink](/API_docs/methods/account.deleteBusinessChatLink.html)(\[slug: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.deleteBusinessChatLink"></a>  
+
+***
+<br><br>
 $MadelineProto->[account->deleteSecureValue](/API_docs/methods/account.deleteSecureValue.html)(\[types: \[$[SecureValueType](/API_docs/types/SecureValueType.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.deleteSecureValue"></a>  
+
+***
+<br><br>
+$MadelineProto->[account->disablePeerConnectedBot](/API_docs/methods/account.disablePeerConnectedBot.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.disablePeerConnectedBot"></a>  
+
+***
+<br><br>
+$MadelineProto->[account->editBusinessChatLink](/API_docs/methods/account.editBusinessChatLink.html)(\[slug: $[string](/API_docs/types/string.html), link: $[InputBusinessChatLink](/API_docs/types/InputBusinessChatLink.html), \]) === [$BusinessChatLink](/API_docs/types/BusinessChatLink.html)<a name="account.editBusinessChatLink"></a>  
 
 ***
 <br><br>
@@ -114,6 +130,14 @@ $MadelineProto->[account->getAutoDownloadSettings](/API_docs/methods/account.get
 ***
 <br><br>
 $MadelineProto->[account->getAutoSaveSettings](/API_docs/methods/account.getAutoSaveSettings.html)(\[\]) === [$account.AutoSaveSettings](/API_docs/types/account.AutoSaveSettings.html)<a name="account.getAutoSaveSettings"></a>  
+
+***
+<br><br>
+$MadelineProto->[account->getBotBusinessConnection](/API_docs/methods/account.getBotBusinessConnection.html)(\[connection_id: $[string](/API_docs/types/string.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="account.getBotBusinessConnection"></a>  
+
+***
+<br><br>
+$MadelineProto->[account->getBusinessChatLinks](/API_docs/methods/account.getBusinessChatLinks.html)(\[\]) === [$account.BusinessChatLinks](/API_docs/types/account.BusinessChatLinks.html)<a name="account.getBusinessChatLinks"></a>  
 
 ***
 <br><br>
@@ -281,6 +305,10 @@ $MadelineProto->[account->resetWebAuthorizations](/API_docs/methods/account.rese
 
 ***
 <br><br>
+$MadelineProto->[account->resolveBusinessChatLink](/API_docs/methods/account.resolveBusinessChatLink.html)(\[slug: $[string](/API_docs/types/string.html), \]) === [$account.ResolvedBusinessChatLinks](/API_docs/types/account.ResolvedBusinessChatLinks.html)<a name="account.resolveBusinessChatLink"></a>  
+
+***
+<br><br>
 $MadelineProto->[account->saveAutoDownloadSettings](/API_docs/methods/account.saveAutoDownloadSettings.html)(\[low: $[Bool](/API_docs/types/Bool.html), high: $[Bool](/API_docs/types/Bool.html), settings: $[AutoDownloadSettings](/API_docs/types/AutoDownloadSettings.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.saveAutoDownloadSettings"></a>  
 
 ***
@@ -345,6 +373,10 @@ $MadelineProto->[account->setPrivacy](/API_docs/methods/account.setPrivacy.html)
 
 ***
 <br><br>
+$MadelineProto->[account->toggleConnectedBotPaused](/API_docs/methods/account.toggleConnectedBotPaused.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), paused: $[Bool](/API_docs/types/Bool.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.toggleConnectedBotPaused"></a>  
+
+***
+<br><br>
 $MadelineProto->[account->toggleUsername](/API_docs/methods/account.toggleUsername.html)(\[username: $[string](/API_docs/types/string.html), active: $[Bool](/API_docs/types/Bool.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.toggleUsername"></a>  
 
 ***
@@ -353,11 +385,19 @@ $MadelineProto->[account->unregisterDevice](/API_docs/methods/account.unregister
 
 ***
 <br><br>
+$MadelineProto->[account->updateBirthday](/API_docs/methods/account.updateBirthday.html)(\[birthday: $[Birthday](/API_docs/types/Birthday.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.updateBirthday"></a>  
+
+***
+<br><br>
 $MadelineProto->[account->updateBusinessAwayMessage](/API_docs/methods/account.updateBusinessAwayMessage.html)(\[message: $[InputBusinessAwayMessage](/API_docs/types/InputBusinessAwayMessage.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.updateBusinessAwayMessage"></a>  
 
 ***
 <br><br>
 $MadelineProto->[account->updateBusinessGreetingMessage](/API_docs/methods/account.updateBusinessGreetingMessage.html)(\[message: $[InputBusinessGreetingMessage](/API_docs/types/InputBusinessGreetingMessage.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.updateBusinessGreetingMessage"></a>  
+
+***
+<br><br>
+$MadelineProto->[account->updateBusinessIntro](/API_docs/methods/account.updateBusinessIntro.html)(\[intro: $[InputBusinessIntro](/API_docs/types/InputBusinessIntro.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.updateBusinessIntro"></a>  
 
 ***
 <br><br>
@@ -373,7 +413,7 @@ $MadelineProto->[account->updateColor](/API_docs/methods/account.updateColor.htm
 
 ***
 <br><br>
-$MadelineProto->[account->updateConnectedBot](/API_docs/methods/account.updateConnectedBot.html)(\[can_reply: $[Bool](/API_docs/types/Bool.html), deleted: $[Bool](/API_docs/types/Bool.html), bot: $[InputUser](/API_docs/types/InputUser.html), recipients: $[InputBusinessRecipients](/API_docs/types/InputBusinessRecipients.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="account.updateConnectedBot"></a>  
+$MadelineProto->[account->updateConnectedBot](/API_docs/methods/account.updateConnectedBot.html)(\[can_reply: $[Bool](/API_docs/types/Bool.html), deleted: $[Bool](/API_docs/types/Bool.html), bot: $[InputUser](/API_docs/types/InputUser.html), recipients: $[InputBusinessBotRecipients](/API_docs/types/InputBusinessBotRecipients.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="account.updateConnectedBot"></a>  
 
 ***
 <br><br>
@@ -390,6 +430,10 @@ $MadelineProto->[account->updateNotifySettings](/API_docs/methods/account.update
 ***
 <br><br>
 $MadelineProto->[account->updatePasswordSettings](/API_docs/methods/account.updatePasswordSettings.html)(\[password: $[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html), new_settings: $[account.PasswordInputSettings](/API_docs/types/account.PasswordInputSettings.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.updatePasswordSettings"></a>  
+
+***
+<br><br>
+$MadelineProto->[account->updatePersonalChannel](/API_docs/methods/account.updatePersonalChannel.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.updatePersonalChannel"></a>  
 
 ***
 <br><br>
@@ -661,7 +705,7 @@ $MadelineProto->[channels->getAdminLog](/API_docs/methods/channels.getAdminLog.h
 
 ***
 <br><br>
-$MadelineProto->[channels->getAdminedPublicChannels](/API_docs/methods/channels.getAdminedPublicChannels.html)(\[by_location: $[Bool](/API_docs/types/Bool.html), check_limit: $[Bool](/API_docs/types/Bool.html), \]) === [$messages.Chats](/API_docs/types/messages.Chats.html)<a name="channels.getAdminedPublicChannels"></a>  
+$MadelineProto->[channels->getAdminedPublicChannels](/API_docs/methods/channels.getAdminedPublicChannels.html)(\[by_location: $[Bool](/API_docs/types/Bool.html), check_limit: $[Bool](/API_docs/types/Bool.html), for_personal: $[Bool](/API_docs/types/Bool.html), \]) === [$messages.Chats](/API_docs/types/messages.Chats.html)<a name="channels.getAdminedPublicChannels"></a>  
 
 ***
 <br><br>
@@ -717,7 +761,7 @@ $MadelineProto->[channels->getSponsoredMessages](/API_docs/methods/channels.getS
 
 ***
 <br><br>
-$MadelineProto->[channels->inviteToChannel](/API_docs/methods/channels.inviteToChannel.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), users: \[$[InputUser](/API_docs/types/InputUser.html)\], \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.inviteToChannel"></a>  
+$MadelineProto->[channels->inviteToChannel](/API_docs/methods/channels.inviteToChannel.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), users: \[$[InputUser](/API_docs/types/InputUser.html)\], \]) === [$messages.InvitedUsers](/API_docs/types/messages.InvitedUsers.html)<a name="channels.inviteToChannel"></a>  
 
 ***
 <br><br>
@@ -750,6 +794,14 @@ $MadelineProto->[channels->reportAntiSpamFalsePositive](/API_docs/methods/channe
 ***
 <br><br>
 $MadelineProto->[channels->reportSpam](/API_docs/methods/channels.reportSpam.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), participant: $[InputPeer](/API_docs/types/InputPeer.html), id: \[$[int](/API_docs/types/int.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="channels.reportSpam"></a>  
+
+***
+<br><br>
+$MadelineProto->[channels->reportSponsoredMessage](/API_docs/methods/channels.reportSponsoredMessage.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), option: $[bytes](/API_docs/types/bytes.html), \]) === [$channels.SponsoredMessageReportResult](/API_docs/types/channels.SponsoredMessageReportResult.html)<a name="channels.reportSponsoredMessage"></a>  
+
+***
+<br><br>
+$MadelineProto->[channels->restrictSponsoredMessages](/API_docs/methods/channels.restrictSponsoredMessages.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), restricted: $[Bool](/API_docs/types/Bool.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.restrictSponsoredMessages"></a>  
 
 ***
 <br><br>
@@ -905,6 +957,10 @@ $MadelineProto->[contacts->exportContactToken](/API_docs/methods/contacts.export
 
 ***
 <br><br>
+$MadelineProto->[contacts->getBirthdays](/API_docs/methods/contacts.getBirthdays.html)(\[\]) === [$contacts.ContactBirthdays](/API_docs/types/contacts.ContactBirthdays.html)<a name="contacts.getBirthdays"></a>  
+
+***
+<br><br>
 $MadelineProto->[contacts->getBlocked](/API_docs/methods/contacts.getBlocked.html)(\[my_stories_from: $[Bool](/API_docs/types/Bool.html), offset: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), \]) === [$contacts.Blocked](/API_docs/types/contacts.Blocked.html)<a name="contacts.getBlocked"></a>  
 
 ***
@@ -974,6 +1030,10 @@ $MadelineProto->[contacts->unblock](/API_docs/methods/contacts.unblock.html)(\[m
 ***
 <br><br>
 $MadelineProto->[folders->editPeerFolders](/API_docs/methods/folders.editPeerFolders.html)(\[folder_peers: \[$[InputFolderPeer](/API_docs/types/InputFolderPeer.html)\], \]) === [$Updates](/API_docs/types/Updates.html)<a name="folders.editPeerFolders"></a>  
+
+***
+<br><br>
+$MadelineProto->[fragment->getCollectibleInfo](/API_docs/methods/fragment.getCollectibleInfo.html)(\[collectible: $[InputCollectible](/API_docs/types/InputCollectible.html), \]) === [$fragment.CollectibleInfo](/API_docs/types/fragment.CollectibleInfo.html)<a name="fragment.getCollectibleInfo"></a>  
 
 ***
 <br><br>
@@ -1089,6 +1149,10 @@ $MadelineProto->[invokeAfterMsgs](/API_docs/methods/invokeAfterMsgs.html)(\[msg_
 
 ***
 <br><br>
+$MadelineProto->[invokeWithBusinessConnection](/API_docs/methods/invokeWithBusinessConnection.html)(\[connection_id: $[string](/API_docs/types/string.html), query: $[!X](/API_docs/types/!X.html), \]) === [$X](/API_docs/types/X.html)<a name="invokeWithBusinessConnection"></a>  
+
+***
+<br><br>
 $MadelineProto->[invokeWithLayer](/API_docs/methods/invokeWithLayer.html)(\[layer: $[int](/API_docs/types/int.html), query: $[!X](/API_docs/types/!X.html), \]) === [$X](/API_docs/types/X.html)<a name="invokeWithLayer"></a>  
 
 ***
@@ -1133,7 +1197,7 @@ $MadelineProto->[messages->acceptUrlAuth](/API_docs/methods/messages.acceptUrlAu
 
 ***
 <br><br>
-$MadelineProto->[messages->addChatUser](/API_docs/methods/messages.addChatUser.html)(\[chat_id: $[InputPeer](/API_docs/types/InputPeer.html), user_id: $[InputUser](/API_docs/types/InputUser.html), fwd_limit: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.addChatUser"></a>  
+$MadelineProto->[messages->addChatUser](/API_docs/methods/messages.addChatUser.html)(\[chat_id: $[InputPeer](/API_docs/types/InputPeer.html), user_id: $[InputUser](/API_docs/types/InputUser.html), fwd_limit: $[int](/API_docs/types/int.html), \]) === [$messages.InvitedUsers](/API_docs/types/messages.InvitedUsers.html)<a name="messages.addChatUser"></a>  
 
 ***
 <br><br>
@@ -1165,7 +1229,7 @@ $MadelineProto->[messages->clearRecentStickers](/API_docs/methods/messages.clear
 
 ***
 <br><br>
-$MadelineProto->[messages->createChat](/API_docs/methods/messages.createChat.html)(\[users: \[$[InputUser](/API_docs/types/InputUser.html)\], title: $[string](/API_docs/types/string.html), ttl_period: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.createChat"></a>  
+$MadelineProto->[messages->createChat](/API_docs/methods/messages.createChat.html)(\[users: \[$[InputUser](/API_docs/types/InputUser.html)\], title: $[string](/API_docs/types/string.html), ttl_period: $[int](/API_docs/types/int.html), \]) === [$messages.InvitedUsers](/API_docs/types/messages.InvitedUsers.html)<a name="messages.createChat"></a>  
 
 ***
 <br><br>
@@ -1454,6 +1518,10 @@ $MadelineProto->[messages->getMessagesReactions](/API_docs/methods/messages.getM
 ***
 <br><br>
 $MadelineProto->[messages->getMessagesViews](/API_docs/methods/messages.getMessagesViews.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), id: \[$[int](/API_docs/types/int.html)\], increment: $[Bool](/API_docs/types/Bool.html), \]) === [$messages.MessageViews](/API_docs/types/messages.MessageViews.html)<a name="messages.getMessagesViews"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->getMyStickers](/API_docs/methods/messages.getMyStickers.html)(\[offset_id: $[long](/API_docs/types/long.html), limit: $[int](/API_docs/types/int.html), \]) === [$messages.MyStickers](/API_docs/types/messages.MyStickers.html)<a name="messages.getMyStickers"></a>  
 
 ***
 <br><br>
@@ -1789,7 +1857,7 @@ $MadelineProto->[messages->sendMultiMedia](/API_docs/methods/messages.sendMultiM
 
 ***
 <br><br>
-$MadelineProto->[messages->sendQuickReplyMessages](/API_docs/methods/messages.sendQuickReplyMessages.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), shortcut_id: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendQuickReplyMessages"></a>  
+$MadelineProto->[messages->sendQuickReplyMessages](/API_docs/methods/messages.sendQuickReplyMessages.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), shortcut_id: $[int](/API_docs/types/int.html), id: \[$[int](/API_docs/types/int.html)\], \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendQuickReplyMessages"></a>  
 
 ***
 <br><br>
@@ -1949,7 +2017,7 @@ $MadelineProto->[messages->uploadImportedMedia](/API_docs/methods/messages.uploa
 
 ***
 <br><br>
-$MadelineProto->[messages->uploadMedia](/API_docs/methods/messages.uploadMedia.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), media: $[InputMedia](/API_docs/types/InputMedia.html), \]) === [$MessageMedia](/API_docs/types/MessageMedia.html)<a name="messages.uploadMedia"></a>  
+$MadelineProto->[messages->uploadMedia](/API_docs/methods/messages.uploadMedia.html)(\[business_connection_id: $[string](/API_docs/types/string.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), media: $[InputMedia](/API_docs/types/InputMedia.html), \]) === [$MessageMedia](/API_docs/types/MessageMedia.html)<a name="messages.uploadMedia"></a>  
 
 ***
 <br><br>
@@ -2209,6 +2277,18 @@ $MadelineProto->[smsjobs->updateSettings](/API_docs/methods/smsjobs.updateSettin
 
 ***
 <br><br>
+$MadelineProto->[stats->getBroadcastRevenueStats](/API_docs/methods/stats.getBroadcastRevenueStats.html)(\[dark: $[Bool](/API_docs/types/Bool.html), channel: $[InputChannel](/API_docs/types/InputChannel.html), \]) === [$stats.BroadcastRevenueStats](/API_docs/types/stats.BroadcastRevenueStats.html)<a name="stats.getBroadcastRevenueStats"></a>  
+
+***
+<br><br>
+$MadelineProto->[stats->getBroadcastRevenueTransactions](/API_docs/methods/stats.getBroadcastRevenueTransactions.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), offset: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), \]) === [$stats.BroadcastRevenueTransactions](/API_docs/types/stats.BroadcastRevenueTransactions.html)<a name="stats.getBroadcastRevenueTransactions"></a>  
+
+***
+<br><br>
+$MadelineProto->[stats->getBroadcastRevenueWithdrawalUrl](/API_docs/methods/stats.getBroadcastRevenueWithdrawalUrl.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), password: $[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html), \]) === [$stats.BroadcastRevenueWithdrawalUrl](/API_docs/types/stats.BroadcastRevenueWithdrawalUrl.html)<a name="stats.getBroadcastRevenueWithdrawalUrl"></a>  
+
+***
+<br><br>
 $MadelineProto->[stats->getBroadcastStats](/API_docs/methods/stats.getBroadcastStats.html)(\[dark: $[Bool](/API_docs/types/Bool.html), channel: $[InputChannel](/API_docs/types/InputChannel.html), \]) === [$stats.BroadcastStats](/API_docs/types/stats.BroadcastStats.html)<a name="stats.getBroadcastStats"></a>  
 
 ***
@@ -2253,7 +2333,7 @@ $MadelineProto->[stickers->checkShortName](/API_docs/methods/stickers.checkShort
 
 ***
 <br><br>
-$MadelineProto->[stickers->createStickerSet](/API_docs/methods/stickers.createStickerSet.html)(\[masks: $[Bool](/API_docs/types/Bool.html), animated: $[Bool](/API_docs/types/Bool.html), videos: $[Bool](/API_docs/types/Bool.html), emojis: $[Bool](/API_docs/types/Bool.html), text_color: $[Bool](/API_docs/types/Bool.html), user_id: $[InputUser](/API_docs/types/InputUser.html), title: $[string](/API_docs/types/string.html), short_name: $[string](/API_docs/types/string.html), thumb: $[InputDocument](/API_docs/types/InputDocument.html), stickers: \[$[InputStickerSetItem](/API_docs/types/InputStickerSetItem.html)\], software: $[string](/API_docs/types/string.html), \]) === [$messages.StickerSet](/API_docs/types/messages.StickerSet.html)<a name="stickers.createStickerSet"></a>  
+$MadelineProto->[stickers->createStickerSet](/API_docs/methods/stickers.createStickerSet.html)(\[masks: $[Bool](/API_docs/types/Bool.html), emojis: $[Bool](/API_docs/types/Bool.html), text_color: $[Bool](/API_docs/types/Bool.html), user_id: $[InputUser](/API_docs/types/InputUser.html), title: $[string](/API_docs/types/string.html), short_name: $[string](/API_docs/types/string.html), thumb: $[InputDocument](/API_docs/types/InputDocument.html), stickers: \[$[InputStickerSetItem](/API_docs/types/InputStickerSetItem.html)\], software: $[string](/API_docs/types/string.html), \]) === [$messages.StickerSet](/API_docs/types/messages.StickerSet.html)<a name="stickers.createStickerSet"></a>  
 
 ***
 <br><br>
@@ -2266,6 +2346,10 @@ $MadelineProto->[stickers->removeStickerFromSet](/API_docs/methods/stickers.remo
 ***
 <br><br>
 $MadelineProto->[stickers->renameStickerSet](/API_docs/methods/stickers.renameStickerSet.html)(\[stickerset: $[InputStickerSet](/API_docs/types/InputStickerSet.html), title: $[string](/API_docs/types/string.html), \]) === [$messages.StickerSet](/API_docs/types/messages.StickerSet.html)<a name="stickers.renameStickerSet"></a>  
+
+***
+<br><br>
+$MadelineProto->[stickers->replaceSticker](/API_docs/methods/stickers.replaceSticker.html)(\[sticker: $[InputDocument](/API_docs/types/InputDocument.html), new_sticker: $[InputStickerSetItem](/API_docs/types/InputStickerSetItem.html), \]) === [$messages.StickerSet](/API_docs/types/messages.StickerSet.html)<a name="stickers.replaceSticker"></a>  
 
 ***
 <br><br>

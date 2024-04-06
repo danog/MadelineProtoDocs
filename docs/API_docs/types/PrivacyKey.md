@@ -31,6 +31,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [privacyKeyAbout](/API_docs/constructors/privacyKeyAbout.html)  
 
+[privacyKeyBirthday](/API_docs/constructors/privacyKeyBirthday.html)  
+
 
 
 ### Methods that return an object of this type (methods):

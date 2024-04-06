@@ -19,10 +19,10 @@ Attribute that enables periodic execution of a certain method.
 * `$period`: `float` 
 
 ## Method list:
-* [`__construct(float $period)`](#__construct-float-period)
+* [`__construct(float $period)`](#__construct)
 
 ## Methods:
-### `__construct(float $period)`
+### <a name="__construct"></a> `__construct(float $period)`
 
 
 

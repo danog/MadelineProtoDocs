@@ -21,64 +21,64 @@ Some tools.
 
 
 ## Method list:
-* [`testFibers(int $fiberCount = 100000): array{maxFibers: int, realMemoryMb: int, maps: ?int, maxMaps: ?int}`](#testfibers-int-fibercount-100000-array-maxfibers-int-realmemorymb-int-maps-int-maxmaps-int)
-* [`getMaps(): ?int`](#getmaps-int)
-* [`getMaxMaps(): ?int`](#getmaxmaps-int)
-* [`stringToStream(string $str): \Amp\ByteStream\ReadableBuffer`](#stringtostream-string-str-amp-bytestream-readablebuffer)
-* [`genVectorHash(array $longs): string`](#genvectorhash-array-longs-string)
-* [`randomInt(int $modulus = 0): int`](#randomint-int-modulus-0-int)
-* [`random(int $length): string`](#random-int-length-string)
-* [`posmod(int $a, int $b): int`](#posmod-int-a-int-b-int)
-* [`unpackSignedInt(string $value): int`](#unpacksignedint-string-value-int)
-* [`unpackSignedLong(string $value): int`](#unpacksignedlong-string-value-int)
-* [`unpackSignedLongString(string|int|array $value): string`](#unpacksignedlongstring-string-int-array-value-string)
-* [`packSignedInt(int $value): string`](#packsignedint-int-value-string)
-* [`packSignedLong(int $value): string`](#packsignedlong-int-value-string)
-* [`packUnsignedInt(int $value): string`](#packunsignedint-int-value-string)
-* [`packDouble(float $value): string`](#packdouble-float-value-string)
-* [`unpackDouble(string $value): float`](#unpackdouble-string-value-float)
-* [`isArrayOrAlike(mixed $var): bool`](#isarrayoralike-mixed-var-bool)
-* [`arr(mixed ...$params): array`](#arr-mixed-params-array)
-* [`base64urlDecode(string $data): string`](#base64urldecode-string-data-string)
-* [`base64urlEncode(string $data): string`](#base64urlencode-string-data-string)
-* [`rleDecode(string $string): string`](#rledecode-string-string-string)
-* [`rleEncode(string $string): string`](#rleencode-string-string-string)
-* [`inflateStripped(string $stripped): string`](#inflatestripped-string-stripped-string)
-* [`closeConnection(string $message): void`](#closeconnection-string-message-void)
-* [`end(\T[] $what): \T`](#end-t-what-t)
-* [`isAltervista(): bool`](#isaltervista-bool)
-* [`openFileAppendOnly(string $path): \Amp\File\File`](#openfileappendonly-string-path-amp-file-file)
-* [`getStreamPipe(): \Amp\ByteStream\Pipe`](#getstreampipe-amp-bytestream-pipe)
-* [`openBuffered(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL): callable`](#openbuffered-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-stream-amp-cancellation-cancellation-null-callable)
-* [`validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): list<\danog\MadelineProto\EventHandlerIssue>`](#validateeventhandlerclass-class-string-danog-madelineproto-eventhandler-class-list-danog-madelineproto-eventhandlerissue)
-* [`canConvertOgg(): bool`](#canconvertogg-bool)
-* [`rethrow(\Throwable $e): void`](#rethrow-throwable-e-void)
-* [`callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<\T>`](#callfork-generator-amp-future-callable-callable-mixed-args-amp-future-t)
-* [`flock(string $file, int $operation, float $polling = 0.1, ?\Amp\Cancellation $token = NULL, ?\Closure $failureCb = NULL): mixed`](#flock-string-file-int-operation-float-polling-0-1-amp-cancellation-token-null-closure-failurecb-null-mixed)
-* [`sleep(float $time): void`](#sleep-float-time-void)
-* [`readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL): string`](#readline-string-prompt-amp-cancellation-cancel-null-string)
-* [`echo(string $string): void`](#echo-string-string-void)
-* [`mbStrlen(string $text): int`](#mbstrlen-string-text-int)
-* [`mbSubstr(string $text, int $offset, null|int $length = NULL): string`](#mbsubstr-string-text-int-offset-null-int-length-null-string)
-* [`mbStrSplit(string $text, int $length): string[]`](#mbstrsplit-string-text-int-length-string)
-* [`htmlToMessageEntities(string $html): \danog\MadelineProto\TL\Conversion\DOMEntities Object containing message and entities`](#htmltomessageentities-string-html-danog-madelineproto-tl-conversion-domentities-object-containing-message-and-entities)
-* [`markdownToMessageEntities(string $markdown): \danog\MadelineProto\TL\Conversion\MarkdownEntities Object containing message and entities`](#markdowntomessageentities-string-markdown-danog-madelineproto-tl-conversion-markdownentities-object-containing-message-and-entities)
-* [`entitiesToHtml(string $message, list<\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int}> $entities, bool $allowTelegramTags = false): string`](#entitiestohtml-string-message-list-danog-madelineproto-eventhandler-message-entities-messageentity-array-_-string-offset-int-length-int-entities-bool-allowtelegramtags-false-string)
-* [`toCamelCase(string $input): string`](#tocamelcase-string-input-string)
-* [`toSnakeCase(string $input): string`](#tosnakecase-string-input-string)
-* [`htmlEscape(string $what): string`](#htmlescape-string-what-string)
-* [`markdownEscape(string $what): string`](#markdownescape-string-what-string)
-* [`markdownCodeblockEscape(string $what): string`](#markdowncodeblockescape-string-what-string)
-* [`markdownCodeEscape(string $what): string`](#markdowncodeescape-string-what-string)
-* [`markdownUrlEscape(string $what): string`](#markdownurlescape-string-what-string)
-* [`getMimeFromExtension(string $extension, string $default): string`](#getmimefromextension-string-extension-string-default-string)
-* [`getExtensionFromMime(string $mime): string`](#getextensionfrommime-string-mime-string)
-* [`getExtensionFromLocation(mixed $location, string $default): string`](#getextensionfromlocation-mixed-location-string-default-string)
-* [`getMimeFromFile(string $file): string`](#getmimefromfile-string-file-string)
-* [`getMimeFromBuffer(string $buffer): string`](#getmimefrombuffer-string-buffer-string)
+* [`testFibers(int $fiberCount = 100000): array{maxFibers: int, realMemoryMb: int, maps: ?int, maxMaps: ?int}`](#testFibers)
+* [`getMaps(): ?int`](#getMaps)
+* [`getMaxMaps(): ?int`](#getMaxMaps)
+* [`stringToStream(string $str): \Amp\ByteStream\ReadableBuffer`](#stringToStream)
+* [`genVectorHash(array $longs): string`](#genVectorHash)
+* [`randomInt(integer $modulus = 0): int`](#randomInt)
+* [`random(integer $length): string`](#random)
+* [`posmod(int $a, int $b): int`](#posmod)
+* [`unpackSignedInt(string $value): int`](#unpackSignedInt)
+* [`unpackSignedLong(string $value): int`](#unpackSignedLong)
+* [`unpackSignedLongString((string|int|array) $value): string`](#unpackSignedLongString)
+* [`packSignedInt(integer $value): string`](#packSignedInt)
+* [`packSignedLong(int $value): string`](#packSignedLong)
+* [`packUnsignedInt(int $value): string`](#packUnsignedInt)
+* [`packDouble(float $value): string`](#packDouble)
+* [`unpackDouble(string $value): float`](#unpackDouble)
+* [`isArrayOrAlike(mixed $var): bool`](#isArrayOrAlike)
+* [`arr(mixed ...$params): array`](#arr)
+* [`base64urlDecode(string $data): string`](#base64urlDecode)
+* [`base64urlEncode(string $data): string`](#base64urlEncode)
+* [`rleDecode(string $string): string`](#rleDecode)
+* [`rleEncode(string $string): string`](#rleEncode)
+* [`inflateStripped(string $stripped): string`](#inflateStripped)
+* [`closeConnection(string $message): void`](#closeConnection)
+* [`end(array<T> $what): T`](#end)
+* [`isAltervista(): bool`](#isAltervista)
+* [`openFileAppendOnly(string $path): \Amp\File\File`](#openFileAppendOnly)
+* [`getStreamPipe(): \Amp\ByteStream\Pipe`](#getStreamPipe)
+* [`openBuffered(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL): Closure(int): ?string`](#openBuffered)
+* [`validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): list<\danog\MadelineProto\EventHandlerIssue>`](#validateEventHandlerClass)
+* [`canConvertOgg(): bool`](#canConvertOgg)
+* [`rethrow(\Throwable $e): void`](#rethrow)
+* [`callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<T>`](#callFork)
+* [`flock(string $file, integer $operation, float $polling = 0.1, ?\Amp\Cancellation $token = NULL, ?\Closure $failureCb = NULL): ($token is null ? Closure(): void : (Closure(): void | null))`](#flock)
+* [`sleep(float $time): void`](#sleep)
+* [`readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL): string`](#readLine)
+* [`echo(string $string): void`](#echo)
+* [`mbStrlen(string $text): int`](#mbStrlen)
+* [`mbSubstr(string $text, integer $offset, (null|int) $length = NULL): string`](#mbSubstr)
+* [`mbStrSplit(string $text, integer $length): array<string>`](#mbStrSplit)
+* [`htmlToMessageEntities(string $html): \danog\MadelineProto\TL\Conversion\DOMEntities`](#htmlToMessageEntities)
+* [`markdownToMessageEntities(string $markdown): \danog\MadelineProto\TL\Conversion\MarkdownEntities`](#markdownToMessageEntities)
+* [`entitiesToHtml(string $message, list<(\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int})> $entities, bool $allowTelegramTags = false): string`](#entitiesToHtml)
+* [`toCamelCase(string $input): string`](#toCamelCase)
+* [`toSnakeCase(string $input): string`](#toSnakeCase)
+* [`htmlEscape(string $what): string`](#htmlEscape)
+* [`markdownEscape(string $what): string`](#markdownEscape)
+* [`markdownCodeblockEscape(string $what): string`](#markdownCodeblockEscape)
+* [`markdownCodeEscape(string $what): string`](#markdownCodeEscape)
+* [`markdownUrlEscape(string $what): string`](#markdownUrlEscape)
+* [`getMimeFromExtension(string $extension, string $default): string`](#getMimeFromExtension)
+* [`getExtensionFromMime(string $mime): string`](#getExtensionFromMime)
+* [`getExtensionFromLocation(mixed $location, string $default): string`](#getExtensionFromLocation)
+* [`getMimeFromFile(string $file): string`](#getMimeFromFile)
+* [`getMimeFromBuffer(string $buffer): string`](#getMimeFromBuffer)
 
 ## Methods:
-### `testFibers(int $fiberCount = 100000): array{maxFibers: int, realMemoryMb: int, maps: ?int, maxMaps: ?int}`
+### <a name="testFibers"></a> `testFibers(int $fiberCount = 100000): array{maxFibers: int, realMemoryMb: int, maps: ?int, maxMaps: ?int}`
 
 Test fibers.
 
@@ -89,19 +89,20 @@ Parameters:
 
 
 
-### `getMaps(): ?int`
+### <a name="getMaps"></a> `getMaps(): ?int`
 
 Get current number of memory-mapped regions, UNIX only.
 
 
 
-### `getMaxMaps(): ?int`
+### <a name="getMaxMaps"></a> `getMaxMaps(): ?int`
 
 Get maximum number of memory-mapped regions, UNIX only.
-Use testFibers to get the maximum number of fibers on any platform.
+Use testFibers to get the maximum number of fibers on any platform.  
 
 
-### `stringToStream(string $str): \Amp\ByteStream\ReadableBuffer`
+
+### <a name="stringToStream"></a> `stringToStream(string $str): \Amp\ByteStream\ReadableBuffer`
 
 Converts a string into an async amphp stream.
 
@@ -117,10 +118,12 @@ Parameters:
 
 
 
-### `genVectorHash(array $longs): string`
+### <a name="genVectorHash"></a> `genVectorHash(array $longs): string`
 
 Generate MTProto vector hash.
-Returns a vector hash.
+  
+Returns a vector hash.  
+
 
 Parameters:
 
@@ -128,32 +131,32 @@ Parameters:
 
 
 
-### `randomInt(int $modulus = 0): int`
+### <a name="randomInt"></a> `randomInt(integer $modulus = 0): int`
 
 Get random integer.
 
 
 Parameters:
 
-* `$modulus`: `int` Modulus  
+* `$modulus`: `integer` Modulus  
 
 
 
-### `random(int $length): string`
+### <a name="random"></a> `random(integer $length): string`
 
 Get secure random string of specified length.
 
 
 Parameters:
 
-* `$length`: `int` Length  
+* `$length`: `integer` Length  
 
 
 
-### `posmod(int $a, int $b): int`
+### <a name="posmod"></a> `posmod(int $a, int $b): int`
 
 Positive modulo
-Works just like the % (modulus) operator, only returns always a postive number.
+Works just like the % (modulus) operator, only returns always a postive number.  
 
 
 Parameters:
@@ -163,7 +166,7 @@ Parameters:
 
 
 
-### `unpackSignedInt(string $value): int`
+### <a name="unpackSignedInt"></a> `unpackSignedInt(string $value): int`
 
 Unpack base256 signed int.
 
@@ -174,7 +177,7 @@ Parameters:
 
 
 
-### `unpackSignedLong(string $value): int`
+### <a name="unpackSignedLong"></a> `unpackSignedLong(string $value): int`
 
 Unpack base256 signed long.
 
@@ -185,29 +188,29 @@ Parameters:
 
 
 
-### `unpackSignedLongString(string|int|array $value): string`
+### <a name="unpackSignedLongString"></a> `unpackSignedLongString((string|int|array) $value): string`
 
 Unpack base256 signed long to string.
 
 
 Parameters:
 
-* `$value`: `string|int|array` base256 long  
+* `$value`: `(string|int|array)` base256 long  
 
 
 
-### `packSignedInt(int $value): string`
+### <a name="packSignedInt"></a> `packSignedInt(integer $value): string`
 
 Convert integer to base256 signed int.
 
 
 Parameters:
 
-* `$value`: `int` Value to convert  
+* `$value`: `integer` Value to convert  
 
 
 
-### `packSignedLong(int $value): string`
+### <a name="packSignedLong"></a> `packSignedLong(int $value): string`
 
 Convert integer to base256 long.
 
@@ -218,7 +221,7 @@ Parameters:
 
 
 
-### `packUnsignedInt(int $value): string`
+### <a name="packUnsignedInt"></a> `packUnsignedInt(int $value): string`
 
 Convert value to unsigned base256 int.
 
@@ -229,7 +232,7 @@ Parameters:
 
 
 
-### `packDouble(float $value): string`
+### <a name="packDouble"></a> `packDouble(float $value): string`
 
 Convert double to binary version.
 
@@ -240,7 +243,7 @@ Parameters:
 
 
 
-### `unpackDouble(string $value): float`
+### <a name="unpackDouble"></a> `unpackDouble(string $value): float`
 
 Unpack binary double.
 
@@ -251,7 +254,7 @@ Parameters:
 
 
 
-### `isArrayOrAlike(mixed $var): bool`
+### <a name="isArrayOrAlike"></a> `isArrayOrAlike(mixed $var): bool`
 
 Check if is array or similar (traversable && countable && arrayAccess).
 
@@ -262,7 +265,7 @@ Parameters:
 
 
 
-### `arr(mixed ...$params): array`
+### <a name="arr"></a> `arr(mixed ...$params): array`
 
 Create array.
 
@@ -273,7 +276,7 @@ Parameters:
 
 
 
-### `base64urlDecode(string $data): string`
+### <a name="base64urlDecode"></a> `base64urlDecode(string $data): string`
 
 base64URL decode.
 
@@ -284,7 +287,7 @@ Parameters:
 
 
 
-### `base64urlEncode(string $data): string`
+### <a name="base64urlEncode"></a> `base64urlEncode(string $data): string`
 
 Base64URL encode.
 
@@ -295,7 +298,7 @@ Parameters:
 
 
 
-### `rleDecode(string $string): string`
+### <a name="rleDecode"></a> `rleDecode(string $string): string`
 
 null-byte RLE decode.
 
@@ -306,7 +309,7 @@ Parameters:
 
 
 
-### `rleEncode(string $string): string`
+### <a name="rleEncode"></a> `rleEncode(string $string): string`
 
 null-byte RLE encode.
 
@@ -317,7 +320,7 @@ Parameters:
 
 
 
-### `inflateStripped(string $stripped): string`
+### <a name="inflateStripped"></a> `inflateStripped(string $stripped): string`
 
 Inflate stripped photosize to full JPG payload.
 
@@ -328,7 +331,7 @@ Parameters:
 
 
 
-### `closeConnection(string $message): void`
+### <a name="closeConnection"></a> `closeConnection(string $message): void`
 
 Close connection with client, connected via web.
 
@@ -339,29 +342,24 @@ Parameters:
 
 
 
-### `end(\T[] $what): \T`
+### <a name="end"></a> `end(array<T> $what): T`
 
 Get final element of array.
 
 
 Parameters:
 
-* `$what`: `\T[]` Array  
-
-
-#### See also: 
-* `\T`
+* `$what`: `array<T>` Array  
 
 
 
-
-### `isAltervista(): bool`
+### <a name="isAltervista"></a> `isAltervista(): bool`
 
 Whether this is altervista.
 
 
 
-### `openFileAppendOnly(string $path): \Amp\File\File`
+### <a name="openFileAppendOnly"></a> `openFileAppendOnly(string $path): \Amp\File\File`
 
 Opens a file in append-only mode.
 
@@ -377,7 +375,7 @@ Parameters:
 
 
 
-### `getStreamPipe(): \Amp\ByteStream\Pipe`
+### <a name="getStreamPipe"></a> `getStreamPipe(): \Amp\ByteStream\Pipe`
 
 Obtains a pipe that can be used to upload a file from a stream.
 
@@ -388,7 +386,7 @@ Obtains a pipe that can be used to upload a file from a stream.
 
 
 
-### `openBuffered(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL): callable`
+### <a name="openBuffered"></a> `openBuffered(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL): Closure(int): ?string`
 
 Provide a buffered reader for a file, URL or amp stream.
 
@@ -408,7 +406,7 @@ Parameters:
 
 
 
-### `validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): list<\danog\MadelineProto\EventHandlerIssue>`
+### <a name="validateEventHandlerClass"></a> `validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): list<\danog\MadelineProto\EventHandlerIssue>`
 
 Perform static analysis on a certain event handler class, to make sure it satisfies some performance requirements.
 
@@ -425,13 +423,13 @@ Parameters:
 
 
 
-### `canConvertOgg(): bool`
+### <a name="canConvertOgg"></a> `canConvertOgg(): bool`
 
 Whether we can convert any audio/video file to a VoIP OGG OPUS file, or the files must be preconverted using @libtgvoipbot.
 
 
 
-### `rethrow(\Throwable $e): void`
+### <a name="rethrow"></a> `rethrow(\Throwable $e): void`
 
 Rethrow exception into event loop.
 
@@ -447,7 +445,7 @@ Parameters:
 
 
 
-### `callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<\T>`
+### <a name="callFork"></a> `callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<T>`
 
 Fork a new green thread and execute the passed function in the background.
 
@@ -461,21 +459,20 @@ Parameters:
 #### See also: 
 * `\Generator`
 * `\Amp\Future`
-* `\T`
 
 
 
 
-### `flock(string $file, int $operation, float $polling = 0.1, ?\Amp\Cancellation $token = NULL, ?\Closure $failureCb = NULL): mixed`
+### <a name="flock"></a> `flock(string $file, integer $operation, float $polling = 0.1, ?\Amp\Cancellation $token = NULL, ?\Closure $failureCb = NULL): ($token is null ? Closure(): void : (Closure(): void | null))`
 
 Asynchronously lock a file
-Resolves with a callbable that MUST eventually be called in order to release the lock.
+Resolves with a callbable that MUST eventually be called in order to release the lock.  
 
 
 Parameters:
 
 * `$file`: `string` File to lock  
-* `$operation`: `int` Locking mode  
+* `$operation`: `integer` Locking mode  
 * `$polling`: `float` Polling interval  
 * `$token`: `?\Amp\Cancellation` Cancellation token  
 * `$failureCb`: `?\Closure` Failure callback, called only once if the first locking attempt fails.  
@@ -488,7 +485,7 @@ Parameters:
 
 
 
-### `sleep(float $time): void`
+### <a name="sleep"></a> `sleep(float $time): void`
 
 Asynchronously sleep.
 
@@ -499,7 +496,7 @@ Parameters:
 
 
 
-### `readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL): string`
+### <a name="readLine"></a> `readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL): string`
 
 Asynchronously read line.
 
@@ -516,7 +513,7 @@ Parameters:
 
 
 
-### `echo(string $string): void`
+### <a name="echo"></a> `echo(string $string): void`
 
 Asynchronously write to stdout/browser.
 
@@ -527,7 +524,7 @@ Parameters:
 
 
 
-### `mbStrlen(string $text): int`
+### <a name="mbStrlen"></a> `mbStrlen(string $text): int`
 
 Get Telegram UTF-8 length of string.
 
@@ -538,7 +535,7 @@ Parameters:
 
 
 
-### `mbSubstr(string $text, int $offset, null|int $length = NULL): string`
+### <a name="mbSubstr"></a> `mbSubstr(string $text, integer $offset, (null|int) $length = NULL): string`
 
 Telegram UTF-8 multibyte substring.
 
@@ -546,12 +543,12 @@ Telegram UTF-8 multibyte substring.
 Parameters:
 
 * `$text`: `string` Text to substring  
-* `$offset`: `int` Offset  
-* `$length`: `null|int` Length  
+* `$offset`: `integer` Offset  
+* `$length`: `(null|int)` Length  
 
 
 
-### `mbStrSplit(string $text, int $length): string[]`
+### <a name="mbStrSplit"></a> `mbStrSplit(string $text, integer $length): array<string>`
 
 Telegram UTF-8 multibyte split.
 
@@ -559,16 +556,18 @@ Telegram UTF-8 multibyte split.
 Parameters:
 
 * `$text`: `string` Text  
-* `$length`: `int` Length  
+* `$length`: `integer` Length  
 
 
 
-### `htmlToMessageEntities(string $html): \danog\MadelineProto\TL\Conversion\DOMEntities Object containing message and entities`
+### <a name="htmlToMessageEntities"></a> `htmlToMessageEntities(string $html): \danog\MadelineProto\TL\Conversion\DOMEntities`
 
 Manually convert HTML to a message and a set of entities.
+  
 NOTE: You don't have to use this method to send HTML messages.  
   
-This method is already called automatically by using parse_mode: "HTML" in messages.sendMessage, messages.sendMedia, et cetera...
+This method is already called automatically by using parse_mode: "HTML" in messages.sendMessage, messages.sendMedia, et cetera...  
+
 
 Parameters:
 
@@ -579,16 +578,19 @@ Return value: Object containing message and entities
 
 #### See also: 
 * [https://docs.madelineproto.xyz/API_docs/methods/messages.sendMessage.html#usage-of-parse_mode](https://docs.madelineproto.xyz/API_docs/methods/messages.sendMessage.html#usage-of-parse_mode)
+* [`\danog\MadelineProto\TL\Conversion\DOMEntities`: Class that converts HTML to a message + set of entities.](../../danog/MadelineProto/TL/Conversion/DOMEntities.html)
 
 
 
 
-### `markdownToMessageEntities(string $markdown): \danog\MadelineProto\TL\Conversion\MarkdownEntities Object containing message and entities`
+### <a name="markdownToMessageEntities"></a> `markdownToMessageEntities(string $markdown): \danog\MadelineProto\TL\Conversion\MarkdownEntities`
 
 Manually convert markdown to a message and a set of entities.
+  
 NOTE: You don't have to use this method to send Markdown messages.  
   
-This method is already called automatically by using parse_mode: "Markdown" in messages.sendMessage, messages.sendMedia, et cetera...
+This method is already called automatically by using parse_mode: "Markdown" in messages.sendMessage, messages.sendMedia, et cetera...  
+
 
 Parameters:
 
@@ -599,11 +601,12 @@ Return value: Object containing message and entities
 
 #### See also: 
 * [https://docs.madelineproto.xyz/API_docs/methods/messages.sendMessage.html#usage-of-parse_mode](https://docs.madelineproto.xyz/API_docs/methods/messages.sendMessage.html#usage-of-parse_mode)
+* [`\danog\MadelineProto\TL\Conversion\MarkdownEntities`: Class that converts Markdown to a message + set of entities.](../../danog/MadelineProto/TL/Conversion/MarkdownEntities.html)
 
 
 
 
-### `entitiesToHtml(string $message, list<\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int}> $entities, bool $allowTelegramTags = false): string`
+### <a name="entitiesToHtml"></a> `entitiesToHtml(string $message, list<(\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int})> $entities, bool $allowTelegramTags = false): string`
 
 Convert a message and a set of entities to HTML.
 
@@ -611,7 +614,7 @@ Convert a message and a set of entities to HTML.
 Parameters:
 
 * `$message`: `string`   
-* `$entities`: `list<\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int}>`   
+* `$entities`: `list<(\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int})>`   
 * `$allowTelegramTags`: `bool` Whether to allow telegram-specific tags like tg-spoiler, tg-emoji, mention links and so on...  
 
 
@@ -621,7 +624,7 @@ Parameters:
 
 
 
-### `toCamelCase(string $input): string`
+### <a name="toCamelCase"></a> `toCamelCase(string $input): string`
 
 Convert to camelCase.
 
@@ -632,7 +635,7 @@ Parameters:
 
 
 
-### `toSnakeCase(string $input): string`
+### <a name="toSnakeCase"></a> `toSnakeCase(string $input): string`
 
 Convert to snake_case.
 
@@ -643,7 +646,7 @@ Parameters:
 
 
 
-### `htmlEscape(string $what): string`
+### <a name="htmlEscape"></a> `htmlEscape(string $what): string`
 
 Escape string for MadelineProto's HTML entity converter.
 
@@ -654,7 +657,7 @@ Parameters:
 
 
 
-### `markdownEscape(string $what): string`
+### <a name="markdownEscape"></a> `markdownEscape(string $what): string`
 
 Escape string for markdown.
 
@@ -665,7 +668,7 @@ Parameters:
 
 
 
-### `markdownCodeblockEscape(string $what): string`
+### <a name="markdownCodeblockEscape"></a> `markdownCodeblockEscape(string $what): string`
 
 Escape string for markdown codeblock.
 
@@ -676,7 +679,7 @@ Parameters:
 
 
 
-### `markdownCodeEscape(string $what): string`
+### <a name="markdownCodeEscape"></a> `markdownCodeEscape(string $what): string`
 
 Escape string for markdown code section.
 
@@ -687,7 +690,7 @@ Parameters:
 
 
 
-### `markdownUrlEscape(string $what): string`
+### <a name="markdownUrlEscape"></a> `markdownUrlEscape(string $what): string`
 
 Escape string for URL.
 
@@ -698,7 +701,7 @@ Parameters:
 
 
 
-### `getMimeFromExtension(string $extension, string $default): string`
+### <a name="getMimeFromExtension"></a> `getMimeFromExtension(string $extension, string $default): string`
 
 Get mime type from file extension.
 
@@ -710,7 +713,7 @@ Parameters:
 
 
 
-### `getExtensionFromMime(string $mime): string`
+### <a name="getExtensionFromMime"></a> `getExtensionFromMime(string $mime): string`
 
 Get extension from mime type.
 
@@ -721,7 +724,7 @@ Parameters:
 
 
 
-### `getExtensionFromLocation(mixed $location, string $default): string`
+### <a name="getExtensionFromLocation"></a> `getExtensionFromLocation(mixed $location, string $default): string`
 
 Get extension from file location.
 
@@ -733,7 +736,7 @@ Parameters:
 
 
 
-### `getMimeFromFile(string $file): string`
+### <a name="getMimeFromFile"></a> `getMimeFromFile(string $file): string`
 
 Get mime type of file.
 
@@ -744,7 +747,7 @@ Parameters:
 
 
 
-### `getMimeFromBuffer(string $buffer): string`
+### <a name="getMimeFromBuffer"></a> `getMimeFromBuffer(string $buffer): string`
 
 Get mime type from buffer.
 

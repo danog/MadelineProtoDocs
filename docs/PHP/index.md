@@ -50,8 +50,6 @@ PHP implementation of telegram's MTProto protocol.
 * [\danog\MadelineProto\StrTools: Some tools.](/PHP/danog/MadelineProto/StrTools.html)
 * [\danog\MadelineProto\Tools: Some tools.](/PHP/danog/MadelineProto/Tools.html)
 * [\danog\MadelineProto\Broadcast\Action: Interface that represents a broadcast action.](/PHP/danog/MadelineProto/Broadcast/Action.html)
-* [\danog\MadelineProto\Db\DbArray: DB array interface.](/PHP/danog/MadelineProto/Db/DbArray.html)
-* [\danog\MadelineProto\Db\DbType: DB type interface.](/PHP/danog/MadelineProto/Db/DbType.html)
 * [\danog\MadelineProto\EventHandler\AbstractMessage: Represents an incoming or outgoing message.](/PHP/danog/MadelineProto/EventHandler/AbstractMessage.html)
 * [\danog\MadelineProto\EventHandler\AbstractPoll: Poll](/PHP/danog/MadelineProto/EventHandler/AbstractPoll.html)
 * [\danog\MadelineProto\EventHandler\AbstractPrivateMessage: Represents a private or secret chat message.](/PHP/danog/MadelineProto/EventHandler/AbstractPrivateMessage.html)
@@ -90,7 +88,7 @@ PHP implementation of telegram's MTProto protocol.
 
 ## Classes
 * [\danog\MadelineProto\API: Main API wrapper for MadelineProto.](/PHP/danog/MadelineProto/API.html)
-* [\danog\MadelineProto\BotApiFileId: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc.](/PHP/danog/MadelineProto/BotApiFileId.html)
+* [\danog\MadelineProto\BotApiFileId: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](/PHP/danog/MadelineProto/BotApiFileId.html)
 * [\danog\MadelineProto\Conversion](/PHP/danog/MadelineProto/Conversion.html)
 * [\danog\MadelineProto\EventHandlerIssue: Represents an event handler issue.](/PHP/danog/MadelineProto/EventHandlerIssue.html)
 * [\danog\MadelineProto\Exception: Basic exception.](/PHP/danog/MadelineProto/Exception.html)
@@ -370,8 +368,6 @@ PHP implementation of telegram's MTProto protocol.
 * [\danog\MadelineProto\VoIP\DiscardReason: Why was the call discarded?](/PHP/danog/MadelineProto/VoIP/DiscardReason.html)
 * [\danog\MadelineProto\VoIP\VoIPState: VoIP protcol state.](/PHP/danog/MadelineProto/VoIP/VoIPState.html)
 
-## Traits
-* [\danog\MadelineProto\Db\DbPropertiesTrait: Include this trait and call DbPropertiesTrait::initDb to use MadelineProto's database backend for properties.](/PHP/danog/MadelineProto/Db/DbPropertiesTrait.html)
 
 
 ---

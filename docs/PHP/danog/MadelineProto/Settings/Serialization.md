@@ -17,17 +17,17 @@ Serialization settings.
 
 
 ## Method list:
-* [`getInterval(): int`](#getinterval-int)
-* [`setInterval(int $interval): self`](#setinterval-int-interval-self)
+* [`getInterval(): int`](#getInterval)
+* [`setInterval(int $interval): self`](#setInterval)
 
 ## Methods:
-### `getInterval(): int`
+### <a name="getInterval"></a> `getInterval(): int`
 
 Get serialization interval, in seconds.
 
 
 
-### `setInterval(int $interval): self`
+### <a name="setInterval"></a> `setInterval(int $interval): self`
 
 Set serialization interval, in seconds.
 

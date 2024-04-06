@@ -1,6 +1,6 @@
 ---
 title: "danog\\MadelineProto\\TL\\Types\\Bytes: Bytes wrapper."
-description: "Cast this object to a string ((string) $bytes) to obtain the inner bytes."
+description: "\nCast this object to a string ((string) $bytes) to obtain the inner bytes.\n"
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
@@ -13,19 +13,21 @@ parent: "MadelineProto API"
 
 Bytes wrapper.  
 
+
 Cast this object to a string ((string) $bytes) to obtain the inner bytes.
 
 
+
 ## Method list:
-* [`__construct(string $bytes)`](#__construct-string-bytes)
-* [`jsonSerialize(): array`](#jsonserialize-array)
-* [`offsetSet(int|null $offset, string $value): void`](#offsetset-int-null-offset-string-value-void)
-* [`offsetGet(int $offset): string`](#offsetget-int-offset-string)
-* [`offsetUnset(int $offset): void`](#offsetunset-int-offset-void)
-* [`offsetExists(int $offset): bool`](#offsetexists-int-offset-bool)
+* [`__construct(string $bytes)`](#__construct)
+* [`jsonSerialize(): array`](#jsonSerialize)
+* [`offsetSet((integer|null) $offset, string $value): void`](#offsetSet)
+* [`offsetGet(integer $offset): string`](#offsetGet)
+* [`offsetUnset(integer $offset): void`](#offsetUnset)
+* [`offsetExists(integer $offset): bool`](#offsetExists)
 
 ## Methods:
-### `__construct(string $bytes)`
+### <a name="__construct"></a> `__construct(string $bytes)`
 
 Constructor function.
 
@@ -36,54 +38,54 @@ Parameters:
 
 
 
-### `jsonSerialize(): array`
+### <a name="jsonSerialize"></a> `jsonSerialize(): array`
 
 Obtain values for JSON-encoding.
 
 
 
-### `offsetSet(int|null $offset, string $value): void`
+### <a name="offsetSet"></a> `offsetSet((integer|null) $offset, string $value): void`
 
 Set char at offset.
 
 
 Parameters:
 
-* `$offset`: `int|null` Offset  
+* `$offset`: `(integer|null)` Offset  
 * `$value`: `string` Char  
 
 
 
-### `offsetGet(int $offset): string`
+### <a name="offsetGet"></a> `offsetGet(integer $offset): string`
 
 Get char at offset.
 
 
 Parameters:
 
-* `$offset`: `int` Name  
+* `$offset`: `integer` Name  
 
 
 
-### `offsetUnset(int $offset): void`
+### <a name="offsetUnset"></a> `offsetUnset(integer $offset): void`
 
 Unset char at offset.
 
 
 Parameters:
 
-* `$offset`: `int` Offset  
+* `$offset`: `integer` Offset  
 
 
 
-### `offsetExists(int $offset): bool`
+### <a name="offsetExists"></a> `offsetExists(integer $offset): bool`
 
 Check if char at offset exists.
 
 
 Parameters:
 
-* `$offset`: `int` Offset  
+* `$offset`: `integer` Offset  
 
 
 

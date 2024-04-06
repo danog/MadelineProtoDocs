@@ -17,18 +17,18 @@ Interface that represents a broadcast action.
 
 
 ## Method list:
-* [`act(int $broadcastId, int $peer, \Amp\Cancellation $cancellation): void`](#act-int-broadcastid-int-peer-amp-cancellation-cancellation-void)
+* [`act(integer $broadcastId, integer $peer, \Amp\Cancellation $cancellation): void`](#act)
 
 ## Methods:
-### `act(int $broadcastId, int $peer, \Amp\Cancellation $cancellation): void`
+### <a name="act"></a> `act(integer $broadcastId, integer $peer, \Amp\Cancellation $cancellation): void`
 
 Do something with a single peer.
 
 
 Parameters:
 
-* `$broadcastId`: `int` Broadcast ID  
-* `$peer`: `int` Broadcast peer  
+* `$broadcastId`: `integer` Broadcast ID  
+* `$peer`: `integer` Broadcast peer  
 * `$cancellation`: `\Amp\Cancellation` Cancellation token  
 
 

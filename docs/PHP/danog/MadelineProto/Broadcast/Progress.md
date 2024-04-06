@@ -18,7 +18,7 @@ Broadcast progress.
 ## Properties
 * `$percent`: `int` Completion percentage.
 * `$broadcastId`: `int` Broadcast ID
-* `$status`: `\danog\MadelineProto\Broadcast\Status` Broadcast status
+* `$status`: `danog\MadelineProto\Broadcast\Status` Broadcast status
 * `$pendingCount`: `int` Pending number of peers
 * `$successCount`: `int` Successful number of peers
 * `$failCount`: `int` Failed number of peers

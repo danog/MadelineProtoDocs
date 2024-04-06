@@ -18,8 +18,6 @@ Create a stickerset, bots only.
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |masks|[Bool](/API_docs/types/Bool.html) | Whether this is a mask stickerset | Optional|
-|animated|[Bool](/API_docs/types/Bool.html) | Whether this is an animated stickerset | Optional|
-|videos|[Bool](/API_docs/types/Bool.html) | Whether this is a video stickerset | Optional|
 |emojis|[Bool](/API_docs/types/Bool.html) | Whether this is a [custom emoji](https://core.telegram.org/api/custom-emoji) stickerset. | Optional|
 |text\_color|[Bool](/API_docs/types/Bool.html) | Whether the color of TGS custom emojis contained in this set should be changed to the text color when used in messages, the accent color if used as emoji status, white on chat photos, or another appropriate color based on context. For custom emoji stickersets only. | Optional|
 |user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Stickerset owner | Optional|
@@ -47,6 +45,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_StickerSet = $MadelineProto->stickers->createStickerSet(masks: $Bool, animated: $Bool, videos: $Bool, emojis: $Bool, text_color: $Bool, user_id: $InputUser, title: 'string', short_name: 'string', thumb: $InputDocument, stickers: [$InputStickerSetItem, $InputStickerSetItem], software: 'string', );
+$messages_StickerSet = $MadelineProto->stickers->createStickerSet(masks: $Bool, emojis: $Bool, text_color: $Bool, user_id: $InputUser, title: 'string', short_name: 'string', thumb: $InputDocument, stickers: [$InputStickerSetItem, $InputStickerSetItem], software: 'string', );
 ```
 

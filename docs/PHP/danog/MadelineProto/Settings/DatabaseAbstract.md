@@ -17,26 +17,26 @@ Base class for storage backends.
 
 
 ## Method list:
-* [`getEnableFileReferenceDb(): bool`](#getenablefilereferencedb-bool)
-* [`setEnableFileReferenceDb(bool $enableFileReferenceDb): static`](#setenablefilereferencedb-bool-enablefilereferencedb-static)
-* [`getEnableMinDb(): bool`](#getenablemindb-bool)
-* [`setEnableMinDb(bool $enableMinDb): static`](#setenablemindb-bool-enablemindb-static)
-* [`getEnableUsernameDb(): bool`](#getenableusernamedb-bool)
-* [`setEnableUsernameDb(bool $enableUsernameDb): static`](#setenableusernamedb-bool-enableusernamedb-static)
-* [`getEnableFullPeerDb(): bool`](#getenablefullpeerdb-bool)
-* [`setEnableFullPeerDb(bool $enableFullPeerDb): static`](#setenablefullpeerdb-bool-enablefullpeerdb-static)
-* [`getEnablePeerInfoDb(): bool`](#getenablepeerinfodb-bool)
-* [`setEnablePeerInfoDb(bool $enablePeerInfoDb): static`](#setenablepeerinfodb-bool-enablepeerinfodb-static)
-* [`getDriverClass(): class-string<\danog\MadelineProto\Db\DbArray>`](#getdriverclass-class-string-danog-madelineproto-db-dbarray)
+* [`getEnableFileReferenceDb(): bool`](#getEnableFileReferenceDb)
+* [`setEnableFileReferenceDb(bool $enableFileReferenceDb): static`](#setEnableFileReferenceDb)
+* [`getEnableMinDb(): bool`](#getEnableMinDb)
+* [`setEnableMinDb(bool $enableMinDb): static`](#setEnableMinDb)
+* [`getEnableUsernameDb(): bool`](#getEnableUsernameDb)
+* [`setEnableUsernameDb(bool $enableUsernameDb): static`](#setEnableUsernameDb)
+* [`getEnableFullPeerDb(): bool`](#getEnableFullPeerDb)
+* [`setEnableFullPeerDb(bool $enableFullPeerDb): static`](#setEnableFullPeerDb)
+* [`getEnablePeerInfoDb(): bool`](#getEnablePeerInfoDb)
+* [`setEnablePeerInfoDb(bool $enablePeerInfoDb): static`](#setEnablePeerInfoDb)
+* [`getOrmSettings(): \danog\AsyncOrm\Settings`](#getOrmSettings)
 
 ## Methods:
-### `getEnableFileReferenceDb(): bool`
+### <a name="getEnableFileReferenceDb"></a> `getEnableFileReferenceDb(): bool`
 
 Get whether to enable the file reference database. If disabled, will break file downloads.
 
 
 
-### `setEnableFileReferenceDb(bool $enableFileReferenceDb): static`
+### <a name="setEnableFileReferenceDb"></a> `setEnableFileReferenceDb(bool $enableFileReferenceDb): static`
 
 Set whether to enable the file reference database. If disabled, will break file downloads.
 
@@ -47,13 +47,13 @@ Parameters:
 
 
 
-### `getEnableMinDb(): bool`
+### <a name="getEnableMinDb"></a> `getEnableMinDb(): bool`
 
 Get whether to enable the min database. If disabled, will break sendMessage (and other methods) in certain conditions.
 
 
 
-### `setEnableMinDb(bool $enableMinDb): static`
+### <a name="setEnableMinDb"></a> `setEnableMinDb(bool $enableMinDb): static`
 
 Set whether to enable the min database. If disabled, will break sendMessage (and other methods) in certain conditions.
 
@@ -64,13 +64,13 @@ Parameters:
 
 
 
-### `getEnableUsernameDb(): bool`
+### <a name="getEnableUsernameDb"></a> `getEnableUsernameDb(): bool`
 
 Get whether to enable the username database. If disabled, will break sendMessage (and other methods) with usernames.
 
 
 
-### `setEnableUsernameDb(bool $enableUsernameDb): static`
+### <a name="setEnableUsernameDb"></a> `setEnableUsernameDb(bool $enableUsernameDb): static`
 
 Set whether to enable the username database. If disabled, will break sendMessage (and other methods) with usernames.
 
@@ -81,13 +81,13 @@ Parameters:
 
 
 
-### `getEnableFullPeerDb(): bool`
+### <a name="getEnableFullPeerDb"></a> `getEnableFullPeerDb(): bool`
 
 Get whether to enable the full peer info database. If disabled, will break getFullInfo.
 
 
 
-### `setEnableFullPeerDb(bool $enableFullPeerDb): static`
+### <a name="setEnableFullPeerDb"></a> `setEnableFullPeerDb(bool $enableFullPeerDb): static`
 
 Set whether to enable the full peer info database. If disabled, will break getFullInfo.
 
@@ -98,13 +98,13 @@ Parameters:
 
 
 
-### `getEnablePeerInfoDb(): bool`
+### <a name="getEnablePeerInfoDb"></a> `getEnablePeerInfoDb(): bool`
 
 Get whether to enable the peer info database. If disabled, will break getInfo.
 
 
 
-### `setEnablePeerInfoDb(bool $enablePeerInfoDb): static`
+### <a name="setEnablePeerInfoDb"></a> `setEnablePeerInfoDb(bool $enablePeerInfoDb): static`
 
 Set whether to enable the peer info database. If disabled, will break getInfo.
 
@@ -115,13 +115,13 @@ Parameters:
 
 
 
-### `getDriverClass(): class-string<\danog\MadelineProto\Db\DbArray>`
+### <a name="getOrmSettings"></a> `getOrmSettings(): \danog\AsyncOrm\Settings`
 
 
 
 
 #### See also: 
-* [`\danog\MadelineProto\Db\DbArray`: DB array interface.](../../../danog/MadelineProto/Db/DbArray.html)
+* `\danog\AsyncOrm\Settings`
 
 
 

@@ -17,19 +17,19 @@ Cryptography settings.
 
 
 ## Method list:
-* [`getPfs(): bool`](#getpfs-bool)
-* [`setPfs(bool $pfs): self`](#setpfs-bool-pfs-self)
-* [`getMaxAuthTries(): int`](#getmaxauthtries-int)
-* [`setMaxAuthTries(int<\1, \max> $maxAuthTries): self`](#setmaxauthtries-int-1-max-maxauthtries-self)
+* [`getPfs(): bool`](#getPfs)
+* [`setPfs(bool $pfs): self`](#setPfs)
+* [`getMaxAuthTries(): int`](#getMaxAuthTries)
+* [`setMaxAuthTries(int<1, max> $maxAuthTries): self`](#setMaxAuthTries)
 
 ## Methods:
-### `getPfs(): bool`
+### <a name="getPfs"></a> `getPfs(): bool`
 
 Get whether to use PFS.
 
 
 
-### `setPfs(bool $pfs): self`
+### <a name="setPfs"></a> `setPfs(bool $pfs): self`
 
 Set whether to use PFS.
 
@@ -40,24 +40,24 @@ Parameters:
 
 
 
-### `getMaxAuthTries(): int`
+### <a name="getMaxAuthTries"></a> `getMaxAuthTries(): int`
 
 Get max tries for generating auth key.
 
 
 
-### `setMaxAuthTries(int<\1, \max> $maxAuthTries): self`
+### <a name="setMaxAuthTries"></a> `setMaxAuthTries(int<1, max> $maxAuthTries): self`
 
 Set max tries for generating auth key.
 
 
 Parameters:
 
-* `$maxAuthTries`: `int<\1, \max>` Max tries for generating auth key  
+* `$maxAuthTries`: `int<1, max>` Max tries for generating auth key  
 
 
 #### See also: 
-* `\max`
+* `max`
 
 
 

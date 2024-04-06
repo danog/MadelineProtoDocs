@@ -17,19 +17,19 @@ PSR-3 wrapper for MadelineProto's Logger.
 
 
 ## Method list:
-* [`__construct(\danog\MadelineProto\Logger $logger)`](#__construct-danog-madelineproto-logger-logger)
-* [`log(mixed $level, mixed $message, array $context = []): void`](#log-mixed-level-mixed-message-array-context-void)
-* [`emergency(string|\Stringable $message, array $context = []): void`](#emergency-string-stringable-message-array-context-void)
-* [`alert(string|\Stringable $message, array $context = []): void`](#alert-string-stringable-message-array-context-void)
-* [`critical(string|\Stringable $message, array $context = []): void`](#critical-string-stringable-message-array-context-void)
-* [`error(string|\Stringable $message, array $context = []): void`](#error-string-stringable-message-array-context-void)
-* [`warning(string|\Stringable $message, array $context = []): void`](#warning-string-stringable-message-array-context-void)
-* [`notice(string|\Stringable $message, array $context = []): void`](#notice-string-stringable-message-array-context-void)
-* [`info(string|\Stringable $message, array $context = []): void`](#info-string-stringable-message-array-context-void)
-* [`debug(string|\Stringable $message, array $context = []): void`](#debug-string-stringable-message-array-context-void)
+* [`__construct(\danog\MadelineProto\Logger $logger)`](#__construct)
+* [`log(mixed $level, mixed $message, array<mixed> $context = []): void`](#log)
+* [`emergency((string|\Stringable) $message, array $context = []): void`](#emergency)
+* [`alert((string|\Stringable) $message, array $context = []): void`](#alert)
+* [`critical((string|\Stringable) $message, array $context = []): void`](#critical)
+* [`error((string|\Stringable) $message, array $context = []): void`](#error)
+* [`warning((string|\Stringable) $message, array $context = []): void`](#warning)
+* [`notice((string|\Stringable) $message, array $context = []): void`](#notice)
+* [`info((string|\Stringable) $message, array $context = []): void`](#info)
+* [`debug((string|\Stringable) $message, array $context = []): void`](#debug)
 
 ## Methods:
-### `__construct(\danog\MadelineProto\Logger $logger)`
+### <a name="__construct"></a> `__construct(\danog\MadelineProto\Logger $logger)`
 
 Constructor.
 
@@ -45,7 +45,7 @@ Parameters:
 
 
 
-### `log(mixed $level, mixed $message, array $context = []): void`
+### <a name="log"></a> `log(mixed $level, mixed $message, array<mixed> $context = []): void`
 
 Logs with an arbitrary level.
 
@@ -54,18 +54,18 @@ Parameters:
 
 * `$level`: `mixed`   
 * `$message`: `mixed`   
-* `$context`: `array`   
+* `$context`: `array<mixed>`   
 
 
 
-### `emergency(string|\Stringable $message, array $context = []): void`
+### <a name="emergency"></a> `emergency((string|\Stringable) $message, array $context = []): void`
 
 System is unusable.
 
 
 Parameters:
 
-* `$message`: `string|\Stringable`   
+* `$message`: `(string|\Stringable)`   
 * `$context`: `array`   
 
 
@@ -75,15 +75,17 @@ Parameters:
 
 
 
-### `alert(string|\Stringable $message, array $context = []): void`
+### <a name="alert"></a> `alert((string|\Stringable) $message, array $context = []): void`
 
 Action must be taken immediately.
+  
 Example: Entire website down, database unavailable, etc. This should  
-trigger the SMS alerts and wake you up.
+trigger the SMS alerts and wake you up.  
+
 
 Parameters:
 
-* `$message`: `string|\Stringable`   
+* `$message`: `(string|\Stringable)`   
 * `$context`: `array`   
 
 
@@ -93,14 +95,16 @@ Parameters:
 
 
 
-### `critical(string|\Stringable $message, array $context = []): void`
+### <a name="critical"></a> `critical((string|\Stringable) $message, array $context = []): void`
 
 Critical conditions.
-Example: Application component unavailable, unexpected exception.
+  
+Example: Application component unavailable, unexpected exception.  
+
 
 Parameters:
 
-* `$message`: `string|\Stringable`   
+* `$message`: `(string|\Stringable)`   
 * `$context`: `array`   
 
 
@@ -110,15 +114,15 @@ Parameters:
 
 
 
-### `error(string|\Stringable $message, array $context = []): void`
+### <a name="error"></a> `error((string|\Stringable) $message, array $context = []): void`
 
 Runtime errors that do not require immediate action but should typically
-be logged and monitored.
+be logged and monitored.  
 
 
 Parameters:
 
-* `$message`: `string|\Stringable`   
+* `$message`: `(string|\Stringable)`   
 * `$context`: `array`   
 
 
@@ -128,15 +132,17 @@ Parameters:
 
 
 
-### `warning(string|\Stringable $message, array $context = []): void`
+### <a name="warning"></a> `warning((string|\Stringable) $message, array $context = []): void`
 
 Exceptional occurrences that are not errors.
+  
 Example: Use of deprecated APIs, poor use of an API, undesirable things  
-that are not necessarily wrong.
+that are not necessarily wrong.  
+
 
 Parameters:
 
-* `$message`: `string|\Stringable`   
+* `$message`: `(string|\Stringable)`   
 * `$context`: `array`   
 
 
@@ -146,14 +152,14 @@ Parameters:
 
 
 
-### `notice(string|\Stringable $message, array $context = []): void`
+### <a name="notice"></a> `notice((string|\Stringable) $message, array $context = []): void`
 
 Normal but significant events.
 
 
 Parameters:
 
-* `$message`: `string|\Stringable`   
+* `$message`: `(string|\Stringable)`   
 * `$context`: `array`   
 
 
@@ -163,14 +169,16 @@ Parameters:
 
 
 
-### `info(string|\Stringable $message, array $context = []): void`
+### <a name="info"></a> `info((string|\Stringable) $message, array $context = []): void`
 
 Interesting events.
-Example: User logs in, SQL logs.
+  
+Example: User logs in, SQL logs.  
+
 
 Parameters:
 
-* `$message`: `string|\Stringable`   
+* `$message`: `(string|\Stringable)`   
 * `$context`: `array`   
 
 
@@ -180,14 +188,14 @@ Parameters:
 
 
 
-### `debug(string|\Stringable $message, array $context = []): void`
+### <a name="debug"></a> `debug((string|\Stringable) $message, array $context = []): void`
 
 Detailed debug information.
 
 
 Parameters:
 
-* `$message`: `string|\Stringable`   
+* `$message`: `(string|\Stringable)`   
 * `$context`: `array`   
 
 

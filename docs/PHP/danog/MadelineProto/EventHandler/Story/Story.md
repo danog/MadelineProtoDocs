@@ -26,31 +26,34 @@ Represents a Telegram story.
 * `$date`: `int` When was the story sent
 * `$expireDate`: `int` Expiration date of the story
 * `$caption`: `string` Story caption
-* `$entities`: `list<\MessageEntity>` Message [entities](https://core.telegram.org/api/entities) for story caption
-* `$media`: `\danog\MadelineProto\EventHandler\Media\Gif|\danog\MadelineProto\EventHandler\Media\Photo|\danog\MadelineProto\EventHandler\Media\Video` Attached media.
-* `$privacy`: `list<\RuleDestination>` 
-* `$sentReaction`: `string|int|null` Our reaction to the story
+* `$entities`: `list<MessageEntity>` Message [entities](https://core.telegram.org/api/entities) for story caption
+* `$media`: `(danog\MadelineProto\EventHandler\Media\Gif | danog\MadelineProto\EventHandler\Media\Photo | danog\MadelineProto\EventHandler\Media\Video)` Attached media.
+* `$privacy`: `list<RuleDestination>` 
+* `$sentReaction`: `(string | int | null)` Our reaction to the story
 * `$reactionCount`: `?int` Reaction counter
 * `$views`: `?int` View counter
 * `$recentViewers`: `list<int>` List of users who recently viewed the story
-* `$matches`: `list<string>` Regex matches, if a filter regex is present
+* `$matches`: `list<string>` 
+Regex matches, if a filter regex is present
+* `$matchesAll`: `array<array-key, (array<array-key, (list{string, int} | null | string)> | mixed)>` 
+Regex matches, if a filter multiple match regex is present
 * `$senderId`: `int` ID of the sender of the story
 * `$id`: `int` Story ID
 
 ## Method list:
-* [`reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`](#reply-string-message-danog-madelineproto-parsemode-parsemode-danog-madelineproto-parsemode-text-array-null-replymarkup-null-int-null-scheduledate-null-bool-silent-false-bool-background-false-bool-cleardraft-false-bool-nowebpage-false-bool-updatestickersetsorder-false-danog-madelineproto-eventhandler-message)
-* [`delete(): void`](#delete-void)
-* [`exportLink(): string`](#exportlink-string)
-* [`report(\danog\MadelineProto\EventHandler\Message\ReportReason $reason, string $message = ''): bool`](#report-danog-madelineproto-eventhandler-message-reportreason-reason-string-message-bool)
-* [`pin(): void`](#pin-void)
-* [`unpin(): void`](#unpin-void)
-* [`view(): bool`](#view-bool)
-* [`addReaction(int|string $reaction, bool $recent = true): \danog\MadelineProto\EventHandler\Story\StoryReaction`](#addreaction-int-string-reaction-bool-recent-true-danog-madelineproto-eventhandler-story-storyreaction)
-* [`delReaction(bool $recent = true): \danog\MadelineProto\EventHandler\Story\StoryReaction`](#delreaction-bool-recent-true-danog-madelineproto-eventhandler-story-storyreaction)
-* [`getHTML(bool $allowTelegramTags = false): string`](#gethtml-bool-allowtelegramtags-false-string)
+* [`reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, (array|null) $replyMarkup = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $background = false, boolean $clearDraft = false, boolean $noWebpage = false, boolean $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`](#reply)
+* [`delete(): void`](#delete)
+* [`exportLink(): string`](#exportLink)
+* [`report(\danog\MadelineProto\EventHandler\Message\ReportReason $reason, string $message = ''): boolean`](#report)
+* [`pin(): void`](#pin)
+* [`unpin(): void`](#unpin)
+* [`view(): boolean`](#view)
+* [`addReaction((integer|string) $reaction, boolean $recent = true): \danog\MadelineProto\EventHandler\Story\StoryReaction`](#addReaction)
+* [`delReaction(boolean $recent = true): \danog\MadelineProto\EventHandler\Story\StoryReaction`](#delReaction)
+* [`getHTML(bool $allowTelegramTags = false): string`](#getHTML)
 
 ## Methods:
-### `reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, array|null $replyMarkup = NULL, int|null $scheduleDate = NULL, bool $silent = false, bool $background = false, bool $clearDraft = false, bool $noWebpage = false, bool $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`
+### <a name="reply"></a> `reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, (array|null) $replyMarkup = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $background = false, boolean $clearDraft = false, boolean $noWebpage = false, boolean $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`
 
 Reply to the story.
 
@@ -59,13 +62,13 @@ Parameters:
 
 * `$message`: `string` Message to send  
 * `$parseMode`: `\danog\MadelineProto\ParseMode` Parse mode  
-* `$replyMarkup`: `array|null` Keyboard information.  
-* `$scheduleDate`: `int|null` Schedule date.  
-* `$silent`: `bool` Whether to send the message silently, without triggering notifications.  
-* `$background`: `bool` Send this message as background message  
-* `$clearDraft`: `bool` Clears the draft field  
-* `$noWebpage`: `bool` Set this flag to disable generation of the webpage preview  
-* `$updateStickersetsOrder`: `bool` Whether to move used stickersets to top  
+* `$replyMarkup`: `(array|null)` Keyboard information.  
+* `$scheduleDate`: `(integer|null)` Schedule date.  
+* `$silent`: `boolean` Whether to send the message silently, without triggering notifications.  
+* `$background`: `boolean` Send this message as background message  
+* `$clearDraft`: `boolean` Clears the draft field  
+* `$noWebpage`: `boolean` Set this flag to disable generation of the webpage preview  
+* `$updateStickersetsOrder`: `boolean` Whether to move used stickersets to top  
 
 
 #### See also: 
@@ -75,19 +78,19 @@ Parameters:
 
 
 
-### `delete(): void`
+### <a name="delete"></a> `delete(): void`
 
 Delete the story.
 
 
 
-### `exportLink(): string`
+### <a name="exportLink"></a> `exportLink(): string`
 
 Export story link e.g: https://t.me/username/s/storyid.
 
 
 
-### `report(\danog\MadelineProto\EventHandler\Message\ReportReason $reason, string $message = ''): bool`
+### <a name="report"></a> `report(\danog\MadelineProto\EventHandler\Message\ReportReason $reason, string $message = ''): boolean`
 
 Report a story for violation of telegram’s Terms of Service.
 
@@ -104,33 +107,33 @@ Parameters:
 
 
 
-### `pin(): void`
+### <a name="pin"></a> `pin(): void`
 
 Pin a story.
 
 
 
-### `unpin(): void`
+### <a name="unpin"></a> `unpin(): void`
 
 Unpin a story.
 
 
 
-### `view(): bool`
+### <a name="view"></a> `view(): boolean`
 
 Mark story as read.
 
 
 
-### `addReaction(int|string $reaction, bool $recent = true): \danog\MadelineProto\EventHandler\Story\StoryReaction`
+### <a name="addReaction"></a> `addReaction((integer|string) $reaction, boolean $recent = true): \danog\MadelineProto\EventHandler\Story\StoryReaction`
 
 Reaction to story.
 
 
 Parameters:
 
-* `$reaction`: `int|string` string or int Reaction  
-* `$recent`: `bool`   
+* `$reaction`: `(integer|string)` string or int Reaction  
+* `$recent`: `boolean`   
 
 
 #### See also: 
@@ -139,14 +142,14 @@ Parameters:
 
 
 
-### `delReaction(bool $recent = true): \danog\MadelineProto\EventHandler\Story\StoryReaction`
+### <a name="delReaction"></a> `delReaction(boolean $recent = true): \danog\MadelineProto\EventHandler\Story\StoryReaction`
 
 Delete reaction from story.
 
 
 Parameters:
 
-* `$recent`: `bool` string or int Reaction  
+* `$recent`: `boolean` string or int Reaction  
 
 
 #### See also: 
@@ -155,7 +158,7 @@ Parameters:
 
 
 
-### `getHTML(bool $allowTelegramTags = false): string`
+### <a name="getHTML"></a> `getHTML(bool $allowTelegramTags = false): string`
 
 Get an HTML version of the story caption.
 

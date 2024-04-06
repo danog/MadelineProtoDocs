@@ -33,19 +33,19 @@ Async OGG stream reader and writer.
 * `danog\MadelineProto\Ogg::STATE_END`: 
 
 ## Properties
-* `$opusPackets`: `iterable<string>` 
+* `$opusPackets`: `iterable<string>` Opus packet iterator.
 * `$vendorString`: `string` 
 * `$comments`: `list<string>` 
 
 ## Method list:
-* [`__construct(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL)`](#__construct-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-stream-amp-cancellation-cancellation-null)
-* [`validate(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, ?\Amp\Cancellation $cancellation = NULL): void`](#validate-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-file-amp-cancellation-cancellation-null-void)
-* [`convert(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $in, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $oggOut, ?\Amp\Cancellation $cancellation = NULL): void`](#convert-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-in-danog-madelineproto-localfile-amp-bytestream-writablestream-oggout-amp-cancellation-cancellation-null-void)
-* [`validateOgg(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $f): void`](#validateogg-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-f-void)
-* [`convertWav(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $wavIn, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $oggOut, ?\Amp\Cancellation $cancellation = NULL): void`](#convertwav-danog-madelineproto-localfile-danog-madelineproto-remoteurl-amp-bytestream-readablestream-wavin-danog-madelineproto-localfile-amp-bytestream-writablestream-oggout-amp-cancellation-cancellation-null-void)
+* [`__construct(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL)`](#__construct)
+* [`validate(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, ?\Amp\Cancellation $cancellation = NULL): void`](#validate)
+* [`convert((\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream) $in, (\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream) $oggOut, ?\Amp\Cancellation $cancellation = NULL): void`](#convert)
+* [`validateOgg(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $f): void`](#validateOgg)
+* [`convertWav((\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream) $wavIn, (\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream) $oggOut, ?\Amp\Cancellation $cancellation = NULL): void`](#convertWav)
 
 ## Methods:
-### `__construct(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL)`
+### <a name="__construct"></a> `__construct(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL)`
 
 Constructor.
 
@@ -65,7 +65,7 @@ Parameters:
 
 
 
-### `validate(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, ?\Amp\Cancellation $cancellation = NULL): void`
+### <a name="validate"></a> `validate(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, ?\Amp\Cancellation $cancellation = NULL): void`
 
 Validate that the specified file, URL or stream is a valid VoIP OGG OPUS file.
 
@@ -85,15 +85,15 @@ Parameters:
 
 
 
-### `convert(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $in, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $oggOut, ?\Amp\Cancellation $cancellation = NULL): void`
+### <a name="convert"></a> `convert((\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream) $in, (\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream) $oggOut, ?\Amp\Cancellation $cancellation = NULL): void`
 
 Converts a file, URL, or stream of any format (including video) into an OGG audio stream suitable for consumption by MadelineProto's VoIP implementation.
 
 
 Parameters:
 
-* `$in`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream` The input file, URL or stream.  
-* `$oggOut`: `\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream` The output file or stream.  
+* `$in`: `(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream)` The input file, URL or stream.  
+* `$oggOut`: `(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream)` The output file or stream.  
 * `$cancellation`: `?\Amp\Cancellation`   
 
 
@@ -107,7 +107,7 @@ Parameters:
 
 
 
-### `validateOgg(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $f): void`
+### <a name="validateOgg"></a> `validateOgg(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $f): void`
 
 Validate that the specified OGG OPUS file can be played directly by MadelineProto, without doing any conversion.
 
@@ -125,15 +125,15 @@ Parameters:
 
 
 
-### `convertWav(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $wavIn, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $oggOut, ?\Amp\Cancellation $cancellation = NULL): void`
+### <a name="convertWav"></a> `convertWav((\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream) $wavIn, (\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream) $oggOut, ?\Amp\Cancellation $cancellation = NULL): void`
 
 Converts a file, URL, or stream in WAV format @ 48khz into an OGG audio stream suitable for consumption by MadelineProto's VoIP implementation.
 
 
 Parameters:
 
-* `$wavIn`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream` The input file, URL or stream.  
-* `$oggOut`: `\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream` The output file or stream.  
+* `$wavIn`: `(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream)` The input file, URL or stream.  
+* `$oggOut`: `(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream)` The output file or stream.  
 * `$cancellation`: `?\Amp\Cancellation`   
 
 

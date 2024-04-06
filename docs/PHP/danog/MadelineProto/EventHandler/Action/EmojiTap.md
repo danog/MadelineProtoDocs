@@ -18,14 +18,15 @@ User has clicked on an animated emoji triggering a [reaction, click here for mor
 ## Properties
 * `$emoticon`: `string` Emoji
 * `$id`: `int` Message ID of the animated emoji that was clicked
-* `$animation`: `list<array{t: float, i: int}>` 
+* `$animation`: `list<array{t: float, i: int}>` t: number of seconds that passed since the previous tap in the array, the first tap uses a value of `0.0`.
+i: 1-based index of the randomly chosen animation for the tap (equivalent to the index of a specific emoji-related animation in [stickerPack](https://core.telegram.org/constructor/stickerPack) + 1).
 
 ## Method list:
-* [`__construct(string $emoticon, ?int $id, array $animation)`](#__construct-string-emoticon-int-id-array-animation)
-* [`toRawAction(): array`](#torawaction-array)
+* [`__construct(string $emoticon, ?int $id, array $animation)`](#__construct)
+* [`toRawAction(): array`](#toRawAction)
 
 ## Methods:
-### `__construct(string $emoticon, ?int $id, array $animation)`
+### <a name="__construct"></a> `__construct(string $emoticon, ?int $id, array $animation)`
 
 
 
@@ -38,7 +39,7 @@ Parameters:
 
 
 
-### `toRawAction(): array`
+### <a name="toRawAction"></a> `toRawAction(): array`
 
 
 

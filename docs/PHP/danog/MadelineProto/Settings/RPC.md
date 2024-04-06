@@ -17,23 +17,23 @@ RPC settings.
 
 
 ## Method list:
-* [`getRpcDropTimeout(): int`](#getrpcdroptimeout-int)
-* [`setRpcDropTimeout(int $rpcDropTimeout): self`](#setrpcdroptimeout-int-rpcdroptimeout-self)
-* [`getRpcResendTimeout(): int`](#getrpcresendtimeout-int)
-* [`setRpcResendTimeout(int $rpcResendTimeout): self`](#setrpcresendtimeout-int-rpcresendtimeout-self)
-* [`getFloodTimeout(): int`](#getfloodtimeout-int)
-* [`setFloodTimeout(int $floodTimeout): self`](#setfloodtimeout-int-floodtimeout-self)
-* [`getGzipEncodeIfGt(): int`](#getgzipencodeifgt-int)
-* [`setGzipEncodeIfGt(int $gzipEncodeIfGt): self`](#setgzipencodeifgt-int-gzipencodeifgt-self)
+* [`getRpcDropTimeout(): int`](#getRpcDropTimeout)
+* [`setRpcDropTimeout(int $rpcDropTimeout): self`](#setRpcDropTimeout)
+* [`getRpcResendTimeout(): int`](#getRpcResendTimeout)
+* [`setRpcResendTimeout(int $rpcResendTimeout): self`](#setRpcResendTimeout)
+* [`getFloodTimeout(): int`](#getFloodTimeout)
+* [`setFloodTimeout(int $floodTimeout): self`](#setFloodTimeout)
+* [`getGzipEncodeIfGt(): int`](#getGzipEncodeIfGt)
+* [`setGzipEncodeIfGt(int $gzipEncodeIfGt): self`](#setGzipEncodeIfGt)
 
 ## Methods:
-### `getRpcDropTimeout(): int`
+### <a name="getRpcDropTimeout"></a> `getRpcDropTimeout(): int`
 
 Get RPC drop timeout.
 
 
 
-### `setRpcDropTimeout(int $rpcDropTimeout): self`
+### <a name="setRpcDropTimeout"></a> `setRpcDropTimeout(int $rpcDropTimeout): self`
 
 Set RPC drop timeout.
 
@@ -44,13 +44,13 @@ Parameters:
 
 
 
-### `getRpcResendTimeout(): int`
+### <a name="getRpcResendTimeout"></a> `getRpcResendTimeout(): int`
 
 Get RPC resend timeout.
 
 
 
-### `setRpcResendTimeout(int $rpcResendTimeout): self`
+### <a name="setRpcResendTimeout"></a> `setRpcResendTimeout(int $rpcResendTimeout): self`
 
 Set RPC resend timeout.
 
@@ -61,16 +61,18 @@ Parameters:
 
 
 
-### `getFloodTimeout(): int`
+### <a name="getFloodTimeout"></a> `getFloodTimeout(): int`
 
 Get flood timeout: if FLOOD_WAIT_ time is bigger than this, throw exception instead of waiting asynchronously.
 
 
 
-### `setFloodTimeout(int $floodTimeout): self`
+### <a name="setFloodTimeout"></a> `setFloodTimeout(int $floodTimeout): self`
 
 Set flood timeout: if FLOOD_WAIT_ time is bigger than this, throw exception instead of waiting asynchronously.
-Must be bigger than 5.
+  
+Must be bigger than 5.  
+
 
 Parameters:
 
@@ -78,13 +80,13 @@ Parameters:
 
 
 
-### `getGzipEncodeIfGt(): int`
+### <a name="getGzipEncodeIfGt"></a> `getGzipEncodeIfGt(): int`
 
 Get encode payload with GZIP if bigger than.
 
 
 
-### `setGzipEncodeIfGt(int $gzipEncodeIfGt): self`
+### <a name="setGzipEncodeIfGt"></a> `setGzipEncodeIfGt(int $gzipEncodeIfGt): self`
 
 Set encode payload with GZIP if bigger than.
 

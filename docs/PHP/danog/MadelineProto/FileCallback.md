@@ -16,38 +16,40 @@ File callback interface.
 
 
 ## Properties
-* `$callback`: `callable` (float, float, float)
+* `$callback`: `callable` Callback.
+
+(float, float, float)
 * `$file`: `mixed` 
 
 ## Method list:
-* [`__construct(\TT $file, callable $callback)`](#__construct-tt-file-callable-callback)
-* [`getFile(): \TT`](#getfile-tt)
+* [`__construct(TT $file, callable $callback)`](#__construct)
+* [`getFile(): TT`](#getFile)
 
 ## Methods:
-### `__construct(\TT $file, callable $callback)`
+### <a name="__construct"></a> `__construct(TT $file, callable $callback)`
 
 Construct file callback.
 
 
 Parameters:
 
-* `$file`: `\TT` File to download/upload  
+* `$file`: `TT` File to download/upload  
 * `$callback`: `callable`   
 
 
 #### See also: 
-* `\TT`
+* `TT`
 
 
 
 
-### `getFile(): \TT`
+### <a name="getFile"></a> `getFile(): TT`
 
 Get file.
 
 
 #### See also: 
-* `\TT`
+* `TT`
 
 
 

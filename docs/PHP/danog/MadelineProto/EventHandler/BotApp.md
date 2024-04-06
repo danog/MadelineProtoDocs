@@ -21,8 +21,8 @@ Represents information about a [named bot web app](https://core.telegram.org/api
 * `$name`: `string` Bot web app short name, used to generate [named bot web app deep links](https://core.telegram.org/api/links#named-bot-web-app-links).
 * `$title`: `string` Bot web app title.
 * `$description`: `string` Bot web app description.
-* `$photo`: `?\danog\MadelineProto\EventHandler\Media\Photo` Bot web app photo.
-* `$document`: `?\danog\MadelineProto\EventHandler\Media\Document` Bot web app animation.
+* `$photo`: `?danog\MadelineProto\EventHandler\Media\Photo` Bot web app photo.
+* `$document`: `?danog\MadelineProto\EventHandler\Media\Document` Bot web app animation.
 * `$hash`: `int` Hash to pass to [messages.getBotApp](https://docs.madelineproto.xyz/API_docs/methods/messages.getBotApp.html), to avoid refetching bot app info if it hasn’t changed.
 * `$inactive`: `?bool` Whether the web app was never used by the user, and confirmation must be asked from the user before opening it.
 * `$requestWriteAccess`: `?bool` The bot is asking permission to send messages to the user: if the user agrees, set the write_allowed flag when invoking [messages.requestAppWebView](https://docs.madelineproto.xyz/API_docs/methods/messages.requestAppWebView.html).

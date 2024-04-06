@@ -19,10 +19,10 @@ User status has not been set yet.
 * `$userId`: `int` User identifier
 
 ## Method list:
-* [`fromRawStatus(\danog\MadelineProto\MTProto $API, array $rowUserStatus): ?\danog\MadelineProto\EventHandler\User\Status`](#fromrawstatus-danog-madelineproto-mtproto-api-array-rowuserstatus-danog-madelineproto-eventhandler-user-status)
+* [`fromRawStatus(\danog\MadelineProto\MTProto $API, array $rowUserStatus): ?\danog\MadelineProto\EventHandler\User\Status`](#fromRawStatus)
 
 ## Methods:
-### `fromRawStatus(\danog\MadelineProto\MTProto $API, array $rowUserStatus): ?\danog\MadelineProto\EventHandler\User\Status`
+### <a name="fromRawStatus"></a> `fromRawStatus(\danog\MadelineProto\MTProto $API, array $rowUserStatus): ?\danog\MadelineProto\EventHandler\User\Status`
 
 
 

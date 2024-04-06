@@ -17,14 +17,14 @@ Channel/supergroup creator.
 
 ## Properties
 * `$userId`: `int` User ID
-* `$adminRights`: `\danog\MadelineProto\EventHandler\Participant\Rights\Admin` Creator admin rights
+* `$adminRights`: `danog\MadelineProto\EventHandler\Participant\Rights\Admin` Creator admin rights
 * `$rank`: `string` The role (rank) of the group creator in the group: just an arbitrary string, `admin` by default
 
 ## Method list:
-* [`fromRawParticipant(array $rawParticipant): self`](#fromrawparticipant-array-rawparticipant-self)
+* [`fromRawParticipant(array $rawParticipant): self`](#fromRawParticipant)
 
 ## Methods:
-### `fromRawParticipant(array $rawParticipant): self`
+### <a name="fromRawParticipant"></a> `fromRawParticipant(array $rawParticipant): self`
 
 
 

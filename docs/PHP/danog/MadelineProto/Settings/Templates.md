@@ -17,17 +17,17 @@ Web and CLI template settings for login.
 
 
 ## Method list:
-* [`getHtmlTemplate(): string`](#gethtmltemplate-string)
-* [`setHtmlTemplate(string $htmlTemplate): self`](#sethtmltemplate-string-htmltemplate-self)
+* [`getHtmlTemplate(): string`](#getHtmlTemplate)
+* [`setHtmlTemplate(string $htmlTemplate): self`](#setHtmlTemplate)
 
 ## Methods:
-### `getHtmlTemplate(): string`
+### <a name="getHtmlTemplate"></a> `getHtmlTemplate(): string`
 
 Get web template used for querying app information.
 
 
 
-### `setHtmlTemplate(string $htmlTemplate): self`
+### <a name="setHtmlTemplate"></a> `setHtmlTemplate(string $htmlTemplate): self`
 
 Set web template used for querying app information.
 

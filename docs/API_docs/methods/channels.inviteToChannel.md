@@ -23,7 +23,7 @@ May also return 0-N updates of type [updateGroupInvitePrivacyForbidden](../const
 |users|Array of [Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Users to invite | Yes|
 
 
-### Return type: [Updates](/API_docs/types/Updates.html)
+### Return type: [messages.InvitedUsers](/API_docs/types/messages.InvitedUsers.html)
 
 ### Can bots use this method: **NO**
 
@@ -40,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->channels->inviteToChannel(channel: $InputChannel, users: [$InputUser, $InputUser], );
+$messages_InvitedUsers = $MadelineProto->channels->inviteToChannel(channel: $InputChannel, users: [$InputUser, $InputUser], );
 ```
 

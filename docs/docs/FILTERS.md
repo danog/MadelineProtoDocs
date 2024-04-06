@@ -62,7 +62,7 @@ A filter typehint is composed of:
   * Filter interfaces are PHP interfaces that are automatically parsed using reflection.  
     Unlike concrete types, they cannot be used for type assertions outside of a method marked by `#[Handler]` or `#[Filter...]` attributes.
 * A union of concrete types: `A|B|C` (used to OR filters)
-* A union of concrete types or intersections: `(A&B)|C|(D&F)` (used to OR filters in DNF form, PHP 8.2+ only)
+* A union of concrete types or intersections: `(A&B)|C|(D&F)` (used to OR filters in DNF form)
 
 Single concrete type examples:
 
@@ -470,8 +470,8 @@ Here's the full list of filter attributes (see the [MTProto filters &raquo;](#mt
 * [danog\MadelineProto\EventHandler\Filter\FilterAllowAll &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterAllowAll.html) - Allow all updates.
 * [danog\MadelineProto\EventHandler\Filter\FilterButtonQueryData(string $content) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterButtonQueryData.html) - Filters based on the content of a button query.
 * [danog\MadelineProto\EventHandler\Filter\FilterChannel &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterChannel.html) - Allow only updates coming from channels.
-* [danog\MadelineProto\EventHandler\Filter\FilterCommand(string $command, list<\CommandType> $types = [  0 =>   \danog\MadelineProto\EventHandler\CommandType::BANG,  1 =>   \danog\MadelineProto\EventHandler\CommandType::DOT,  2 =>   \danog\MadelineProto\EventHandler\CommandType::SLASH,]) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterCommand.html) - Allow only messages containing the specified command.
-* [danog\MadelineProto\EventHandler\Filter\FilterCommandCaseInsensitive(string $command, list<\CommandType> $types = [  0 =>   \danog\MadelineProto\EventHandler\CommandType::BANG,  1 =>   \danog\MadelineProto\EventHandler\CommandType::DOT,  2 =>   \danog\MadelineProto\EventHandler\CommandType::SLASH,]) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterCommandCaseInsensitive.html) - Allow only messages containing the specified case-insensitive command.
+* [danog\MadelineProto\EventHandler\Filter\FilterCommand(string $command, list<CommandType> $types = [  0 =>   \danog\MadelineProto\EventHandler\CommandType::BANG,  1 =>   \danog\MadelineProto\EventHandler\CommandType::DOT,  2 =>   \danog\MadelineProto\EventHandler\CommandType::SLASH,]) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterCommand.html) - Allow only messages containing the specified command.
+* [danog\MadelineProto\EventHandler\Filter\FilterCommandCaseInsensitive(string $command, list<CommandType> $types = [  0 =>   \danog\MadelineProto\EventHandler\CommandType::BANG,  1 =>   \danog\MadelineProto\EventHandler\CommandType::DOT,  2 =>   \danog\MadelineProto\EventHandler\CommandType::SLASH,]) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterCommandCaseInsensitive.html) - Allow only messages containing the specified case-insensitive command.
 * [danog\MadelineProto\EventHandler\Filter\FilterEdited &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterEdited.html) - Allows messages that were edited.
 * [danog\MadelineProto\EventHandler\Filter\FilterEnded &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterEnded.html) - Allow only ended calls.
 * [danog\MadelineProto\EventHandler\Filter\FilterForwarded &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterForwarded.html) - Allow only forwarded messages.
@@ -490,8 +490,8 @@ Here's the full list of filter attributes (see the [MTProto filters &raquo;](#mt
 * [danog\MadelineProto\EventHandler\Filter\FilterPeer(string|int $peer) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterPeer.html) - Allow messages coming from or sent to a certain peer.
 * [danog\MadelineProto\EventHandler\Filter\FilterPoll &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterPoll.html) - Allow only messages that contain a poll.
 * [danog\MadelineProto\EventHandler\Filter\FilterPrivate &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterPrivate.html) - Allow only updates coming from private chats.
-* [danog\MadelineProto\EventHandler\Filter\FilterRegex(\non-empty-string $regex, int $flags = 0, int $offset = 0) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterRegex.html) - Allow only messages or button queries matching the specified regex.
-* [danog\MadelineProto\EventHandler\Filter\FilterRegexMatchAll(\non-empty-string $regex, int $flags = 0, int $offset = 0) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterRegexMatchAll.html) - Allow only messages or button queries matching the specified regex.
+* [danog\MadelineProto\EventHandler\Filter\FilterRegex(non-empty-string $regex, int-mask<0, 256, 512> $flags = 0, int $offset = 0) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterRegex.html) - Allow only messages or button queries matching the specified regex.
+* [danog\MadelineProto\EventHandler\Filter\FilterRegexMatchAll(non-empty-string $regex, int $flags = 0, int $offset = 0) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterRegexMatchAll.html) - Allow only messages or button queries matching the specified regex.
 * [danog\MadelineProto\EventHandler\Filter\FilterReply &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterReply.html) - Allow messages that reply to other messages.
 * [danog\MadelineProto\EventHandler\Filter\FilterReplyToSelf &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterReplyToSelf.html) - Allow messages that reply to one of our messages.
 * [danog\MadelineProto\EventHandler\Filter\FilterRunning &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterRunning.html) - Allow only running calls.
@@ -911,7 +911,6 @@ Here's a full list of all MTProto filters (click on each filter name to view the
 * [onUpdateChannelPinnedTopics &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateChannelPinnedTopics.html) - The [pinned topics](https://core.telegram.org/api/forum#forum-topics) of a forum have changed.
 * [onUpdateUser &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateUser.html) - User information was updated, it must be refetched using [users.getFullUser](https://docs.madelineproto.xyz/API_docs/methods/users.getFullUser.html).
 * [onUpdateAutoSaveSettings &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateAutoSaveSettings.html) - Media autosave settings have changed and must be refetched using [account.getAutoSaveSettings](https://docs.madelineproto.xyz/API_docs/methods/account.getAutoSaveSettings.html).
-* [onUpdateGroupInvitePrivacyForbidden &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateGroupInvitePrivacyForbidden.html) - 0-N updates of this type may be returned only when invoking [messages.addChatUser](https://docs.madelineproto.xyz/API_docs/methods/messages.addChatUser.html), [channels.inviteToChannel](https://docs.madelineproto.xyz/API_docs/methods/channels.inviteToChannel.html) or [messages.createChat](https://docs.madelineproto.xyz/API_docs/methods/messages.createChat.html): it indicates we couldn't add a user to a chat because of their privacy settings; if required, an [invite link](https://core.telegram.org/api/invites) can be shared with the user, instead.
 * [onUpdateStory &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateStory.html) - A new story was posted.
 * [onUpdateReadStories &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateReadStories.html) - Stories of a specific peer were marked as read.
 * [onUpdateStoryID &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateStoryID.html) - A story was successfully uploaded.
@@ -931,6 +930,10 @@ Here's a full list of all MTProto filters (click on each filter name to view the
 * [onUpdateDeleteQuickReply &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateDeleteQuickReply.html) - 
 * [onUpdateQuickReplyMessage &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateQuickReplyMessage.html) - 
 * [onUpdateDeleteQuickReplyMessages &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateDeleteQuickReplyMessages.html) - 
+* [onUpdateBotBusinessConnect &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBotBusinessConnect.html) - 
+* [onUpdateBotNewBusinessMessage &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBotNewBusinessMessage.html) - 
+* [onUpdateBotEditBusinessMessage &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBotEditBusinessMessage.html) - 
+* [onUpdateBotDeleteBusinessMessage &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBotDeleteBusinessMessage.html) - 
 
 
 <!-- cut_here_end mtprotofilters -->

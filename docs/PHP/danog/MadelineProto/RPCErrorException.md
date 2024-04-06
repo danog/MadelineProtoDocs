@@ -20,24 +20,24 @@ Indicates an error returned by Telegram's API.
 * `$tlTrace`: `string` TL trace.
 
 ## Method list:
-* [`localizeMessage(mixed $method, int $code, string $error): string`](#localizemessage-mixed-method-int-code-string-error-string)
-* [`getLocalization(): string`](#getlocalization-string)
-* [`setLocalization(string $localization): void`](#setlocalization-string-localization-void)
-* [`__construct(string $rpc, int $code = 0, mixed $caller = '', ?\danog\MadelineProto\Exception $previous = NULL)`](#__construct-string-rpc-int-code-0-mixed-caller-danog-madelineproto-exception-previous-null)
-* [`getMessage(): string`](#getmessage-string)
-* [`getCode(): mixed`](#getcode-mixed)
-* [`getFile(): string`](#getfile-string)
-* [`getLine(): int`](#getline-int)
-* [`getTrace(): array`](#gettrace-array)
-* [`getPrevious(): ?\Throwable`](#getprevious-throwable)
-* [`getTraceAsString(): string`](#gettraceasstring-string)
-* [`updateTLTrace(array $trace): void`](#updatetltrace-array-trace-void)
-* [`getTLTrace(): string`](#gettltrace-string)
-* [`setTLTrace(string $tlTrace): void`](#settltrace-string-tltrace-void)
-* [`prettifyTL(string $init = '', array $trace = NULL): void`](#prettifytl-string-init-array-trace-null-void)
+* [`localizeMessage(mixed $method, int $code, string $error): string`](#localizeMessage)
+* [`getLocalization(): string`](#getLocalization)
+* [`setLocalization(string $localization): void`](#setLocalization)
+* [`__construct(string $rpc, int $code = 0, mixed $caller = '', ?\danog\MadelineProto\Exception $previous = NULL)`](#__construct)
+* [`getMessage(): string`](#getMessage)
+* [`getCode()`](#getCode)
+* [`getFile(): string`](#getFile)
+* [`getLine(): int`](#getLine)
+* [`getTrace(): array`](#getTrace)
+* [`getPrevious(): ?Throwable`](#getPrevious)
+* [`getTraceAsString(): string`](#getTraceAsString)
+* [`updateTLTrace(array $trace): void`](#updateTLTrace)
+* [`getTLTrace(): string`](#getTLTrace)
+* [`setTLTrace(string $tlTrace): void`](#setTLTrace)
+* [`prettifyTL(string $init = '', array $trace = NULL): void`](#prettifyTL)
 
 ## Methods:
-### `localizeMessage(mixed $method, int $code, string $error): string`
+### <a name="localizeMessage"></a> `localizeMessage(mixed $method, int $code, string $error): string`
 
 
 
@@ -50,13 +50,13 @@ Parameters:
 
 
 
-### `getLocalization(): string`
+### <a name="getLocalization"></a> `getLocalization(): string`
 
 Get localized error name.
 
 
 
-### `setLocalization(string $localization): void`
+### <a name="setLocalization"></a> `setLocalization(string $localization): void`
 
 Set localized error name.
 
@@ -67,7 +67,7 @@ Parameters:
 
 
 
-### `__construct(string $rpc, int $code = 0, mixed $caller = '', ?\danog\MadelineProto\Exception $previous = NULL)`
+### <a name="__construct"></a> `__construct(string $rpc, int $code = 0, mixed $caller = '', ?\danog\MadelineProto\Exception $previous = NULL)`
 
 
 
@@ -86,54 +86,54 @@ Parameters:
 
 
 
-### `getMessage(): string`
+### <a name="getMessage"></a> `getMessage(): string`
 
 
 
 
 
-### `getCode(): mixed`
+### <a name="getCode"></a> `getCode()`
 
 
 
 
 
-### `getFile(): string`
+### <a name="getFile"></a> `getFile(): string`
 
 
 
 
 
-### `getLine(): int`
+### <a name="getLine"></a> `getLine(): int`
 
 
 
 
 
-### `getTrace(): array`
+### <a name="getTrace"></a> `getTrace(): array`
 
 
 
 
 
-### `getPrevious(): ?\Throwable`
+### <a name="getPrevious"></a> `getPrevious(): ?Throwable`
 
 
 
 
 #### See also: 
-* `\Throwable`
+* `Throwable`
 
 
 
 
-### `getTraceAsString(): string`
+### <a name="getTraceAsString"></a> `getTraceAsString(): string`
 
 
 
 
 
-### `updateTLTrace(array $trace): void`
+### <a name="updateTLTrace"></a> `updateTLTrace(array $trace): void`
 
 Update TL trace.
 
@@ -144,13 +144,13 @@ Parameters:
 
 
 
-### `getTLTrace(): string`
+### <a name="getTLTrace"></a> `getTLTrace(): string`
 
 Get TL trace.
 
 
 
-### `setTLTrace(string $tlTrace): void`
+### <a name="setTLTrace"></a> `setTLTrace(string $tlTrace): void`
 
 Set TL trace.
 
@@ -161,7 +161,7 @@ Parameters:
 
 
 
-### `prettifyTL(string $init = '', array $trace = NULL): void`
+### <a name="prettifyTL"></a> `prettifyTL(string $init = '', array $trace = NULL): void`
 
 Generate async trace.
 

@@ -17,6 +17,7 @@ A [sponsored message](https://core.telegram.org/api/sponsored-messages).
 |----------|---------------|----------|-------------|
 |recommended|[Bool](/API_docs/types/Bool.html) | Optional|Whether the message needs to be labeled as "recommended" instead of "sponsored"|
 |show\_peer\_photo|[Bool](/API_docs/types/Bool.html) | Optional|Whether a profile photo bubble should be displayed for this message, like for messages sent in groups. The photo shown in the bubble is obtained either from the peer contained in `from_id`, or from `chat_invite`.|
+|can\_report|[Bool](/API_docs/types/Bool.html) | Optional|
 |from\_id|[Peer](/API_docs/types/Peer.html) | Optional|ID of the sender of the message|
 |chat\_invite|[ChatInvite](/API_docs/types/ChatInvite.html) | Optional|Information about the chat invite hash specified in `chat_invite_hash`|
 |chat\_invite\_hash|[string](/API_docs/types/string.html) | Optional|Chat invite|
@@ -99,5 +100,5 @@ pre-formatted fixed-width code block written in the PHP programming language
 ### Example:
 
 ```
-$sponsoredMessage = ['_' => 'sponsoredMessage', 'recommended' => Bool, 'show_peer_photo' => Bool, 'from_id' => Peer, 'chat_invite' => ChatInvite, 'chat_invite_hash' => 'string', 'channel_post' => int, 'start_param' => 'string', 'webpage' => SponsoredWebPage, 'app' => BotApp, 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'button_text' => 'string', 'sponsor_info' => 'string', 'additional_info' => 'string'];
+$sponsoredMessage = ['_' => 'sponsoredMessage', 'recommended' => Bool, 'show_peer_photo' => Bool, 'can_report' => Bool, 'from_id' => Peer, 'chat_invite' => ChatInvite, 'chat_invite_hash' => 'string', 'channel_post' => int, 'start_param' => 'string', 'webpage' => SponsoredWebPage, 'app' => BotApp, 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'button_text' => 'string', 'sponsor_info' => 'string', 'additional_info' => 'string'];
 ```  

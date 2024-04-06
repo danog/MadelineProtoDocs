@@ -17,13 +17,13 @@ Allow incoming or outgoing group messages made by a certain list of senders.
 
 
 ## Method list:
-* [`__construct(string|int ...$idOrUsername)`](#__construct-string-int-idorusername)
-* [`initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`](#initialize-danog-madelineproto-eventhandler-api-danog-madelineproto-eventhandler-filter-filter)
-* [`apply(\danog\MadelineProto\EventHandler\Update $update): bool`](#apply-danog-madelineproto-eventhandler-update-update-bool)
-* [`fromReflectionType(\ReflectionType $type): \danog\MadelineProto\EventHandler\Filter\Filter`](#fromreflectiontype-reflectiontype-type-danog-madelineproto-eventhandler-filter-filter)
+* [`__construct(string|int ...$idOrUsername)`](#__construct)
+* [`initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`](#initialize)
+* [`apply(\danog\MadelineProto\EventHandler\Update $update): bool`](#apply)
+* [`fromReflectionType(\ReflectionType $type): \danog\MadelineProto\EventHandler\Filter\Filter`](#fromReflectionType)
 
 ## Methods:
-### `__construct(string|int ...$idOrUsername)`
+### <a name="__construct"></a> `__construct(string|int ...$idOrUsername)`
 
 
 
@@ -34,7 +34,7 @@ Parameters:
 
 
 
-### `initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`
+### <a name="initialize"></a> `initialize(\danog\MadelineProto\EventHandler $API): \danog\MadelineProto\EventHandler\Filter\Filter`
 
 
 
@@ -51,7 +51,7 @@ Parameters:
 
 
 
-### `apply(\danog\MadelineProto\EventHandler\Update $update): bool`
+### <a name="apply"></a> `apply(\danog\MadelineProto\EventHandler\Update $update): bool`
 
 
 
@@ -67,7 +67,7 @@ Parameters:
 
 
 
-### `fromReflectionType(\ReflectionType $type): \danog\MadelineProto\EventHandler\Filter\Filter`
+### <a name="fromReflectionType"></a> `fromReflectionType(\ReflectionType $type): \danog\MadelineProto\EventHandler\Filter\Filter`
 
 
 

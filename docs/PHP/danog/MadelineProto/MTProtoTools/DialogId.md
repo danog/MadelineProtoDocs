@@ -29,26 +29,28 @@ Represents the type of a bot API dialog ID.
 * `$name`: `string` 
 
 ## Method list:
-* [`getType(int $id): self`](#gettype-int-id-self)
-* [`isSupergroupOrChannel(int $id): bool`](#issupergrouporchannel-int-id-bool)
-* [`isChat(int $id): bool`](#ischat-int-id-bool)
-* [`isUser(int $id): bool`](#isuser-int-id-bool)
-* [`isSecretChat(int $id): bool`](#issecretchat-int-id-bool)
-* [`cases(): array`](#cases-array)
+* [`getType(integer $id): self`](#getType)
+* [`isSupergroupOrChannel(int $id): bool`](#isSupergroupOrChannel)
+* [`isChat(int $id): bool`](#isChat)
+* [`isUser(int $id): bool`](#isUser)
+* [`isSecretChat(int $id): bool`](#isSecretChat)
+* [`cases(): array`](#cases)
 
 ## Methods:
-### `getType(int $id): self`
+### <a name="getType"></a> `getType(integer $id): self`
 
 Get the type of a dialog using just its bot API dialog ID.
-For more detailed types, use API::getType, instead.
+  
+For more detailed types, use API::getType, instead.  
+
 
 Parameters:
 
-* `$id`: `int` Bot API ID.  
+* `$id`: `integer` Bot API ID.  
 
 
 
-### `isSupergroupOrChannel(int $id): bool`
+### <a name="isSupergroupOrChannel"></a> `isSupergroupOrChannel(int $id): bool`
 
 Checks whether the provided bot API ID is a supergroup or channel ID.
 
@@ -59,7 +61,7 @@ Parameters:
 
 
 
-### `isChat(int $id): bool`
+### <a name="isChat"></a> `isChat(int $id): bool`
 
 Checks whether the provided bot API ID is a chat ID.
 
@@ -70,7 +72,7 @@ Parameters:
 
 
 
-### `isUser(int $id): bool`
+### <a name="isUser"></a> `isUser(int $id): bool`
 
 Checks whether the provided bot API ID is a user ID.
 
@@ -81,7 +83,7 @@ Parameters:
 
 
 
-### `isSecretChat(int $id): bool`
+### <a name="isSecretChat"></a> `isSecretChat(int $id): bool`
 
 Checks whether the provided bot API ID is a secret chat ID.
 
@@ -92,7 +94,7 @@ Parameters:
 
 
 
-### `cases(): array`
+### <a name="cases"></a> `cases(): array`
 
 
 

@@ -15,7 +15,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |----------|---------------|----------|
 |can\_reply|[Bool](/API_docs/types/Bool.html) | Optional|
 |bot\_id|[long](/API_docs/types/long.html) | Yes|
-|recipients|[BusinessRecipients](/API_docs/types/BusinessRecipients.html) | Yes|
+|recipients|[BusinessBotRecipients](/API_docs/types/BusinessBotRecipients.html) | Yes|
 
 
 
@@ -25,5 +25,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$connectedBot = ['_' => 'connectedBot', 'can_reply' => Bool, 'bot_id' => long, 'recipients' => BusinessRecipients];
+$connectedBot = ['_' => 'connectedBot', 'can_reply' => Bool, 'bot_id' => long, 'recipients' => BusinessBotRecipients];
 ```  

@@ -21,14 +21,14 @@ Manages generation of extensions for files.
 
 
 ## Method list:
-* [`getMimeFromExtension(string $extension, string $default): string`](#getmimefromextension-string-extension-string-default-string)
-* [`getExtensionFromMime(string $mime): string`](#getextensionfrommime-string-mime-string)
-* [`getExtensionFromLocation(mixed $location, string $default): string`](#getextensionfromlocation-mixed-location-string-default-string)
-* [`getMimeFromFile(string $file): string`](#getmimefromfile-string-file-string)
-* [`getMimeFromBuffer(string $buffer): string`](#getmimefrombuffer-string-buffer-string)
+* [`getMimeFromExtension(string $extension, string $default): string`](#getMimeFromExtension)
+* [`getExtensionFromMime(string $mime): string`](#getExtensionFromMime)
+* [`getExtensionFromLocation(mixed $location, string $default): string`](#getExtensionFromLocation)
+* [`getMimeFromFile(string $file): string`](#getMimeFromFile)
+* [`getMimeFromBuffer(string $buffer): string`](#getMimeFromBuffer)
 
 ## Methods:
-### `getMimeFromExtension(string $extension, string $default): string`
+### <a name="getMimeFromExtension"></a> `getMimeFromExtension(string $extension, string $default): string`
 
 Get mime type from file extension.
 
@@ -40,7 +40,7 @@ Parameters:
 
 
 
-### `getExtensionFromMime(string $mime): string`
+### <a name="getExtensionFromMime"></a> `getExtensionFromMime(string $mime): string`
 
 Get extension from mime type.
 
@@ -51,7 +51,7 @@ Parameters:
 
 
 
-### `getExtensionFromLocation(mixed $location, string $default): string`
+### <a name="getExtensionFromLocation"></a> `getExtensionFromLocation(mixed $location, string $default): string`
 
 Get extension from file location.
 
@@ -63,7 +63,7 @@ Parameters:
 
 
 
-### `getMimeFromFile(string $file): string`
+### <a name="getMimeFromFile"></a> `getMimeFromFile(string $file): string`
 
 Get mime type of file.
 
@@ -74,7 +74,7 @@ Parameters:
 
 
 
-### `getMimeFromBuffer(string $buffer): string`
+### <a name="getMimeFromBuffer"></a> `getMimeFromBuffer(string $buffer): string`
 
 Get mime type from buffer.
 

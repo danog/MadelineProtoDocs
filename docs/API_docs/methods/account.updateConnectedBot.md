@@ -18,7 +18,7 @@ redirect_from: /API_docs/methods/account_updateConnectedBot.html
 |can\_reply|[Bool](/API_docs/types/Bool.html) | Optional|
 |deleted|[Bool](/API_docs/types/Bool.html) | Optional|
 |bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
-|recipients|[InputBusinessRecipients](/API_docs/types/InputBusinessRecipients.html) | Yes|
+|recipients|[InputBusinessBotRecipients](/API_docs/types/InputBusinessBotRecipients.html) | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->account->updateConnectedBot(can_reply: $Bool, deleted: $Bool, bot: $InputUser, recipients: $InputBusinessRecipients, );
+$Updates = $MadelineProto->account->updateConnectedBot(can_reply: $Bool, deleted: $Bool, bot: $InputUser, recipients: $InputBusinessBotRecipients, );
 ```
 

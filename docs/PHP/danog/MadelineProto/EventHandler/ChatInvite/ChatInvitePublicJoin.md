@@ -17,10 +17,10 @@ Used in updates and in the channel log to indicate when a user is requesting to 
 
 
 ## Method list:
-* [`fromRawChatInvite(array $rawChatInvite): self`](#fromrawchatinvite-array-rawchatinvite-self)
+* [`fromRawChatInvite(array $rawChatInvite): self`](#fromRawChatInvite)
 
 ## Methods:
-### `fromRawChatInvite(array $rawChatInvite): self`
+### <a name="fromRawChatInvite"></a> `fromRawChatInvite(array $rawChatInvite): self`
 
 
 

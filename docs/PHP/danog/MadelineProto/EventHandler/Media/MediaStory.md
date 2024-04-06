@@ -21,10 +21,10 @@ Represents a forwarded story.
 * `$storyId`: `int` 
 
 ## Method list:
-* [`getStory(): ?\danog\MadelineProto\EventHandler\AbstractStory`](#getstory-danog-madelineproto-eventhandler-abstractstory)
+* [`getStory(): ?\danog\MadelineProto\EventHandler\AbstractStory`](#getStory)
 
 ## Methods:
-### `getStory(): ?\danog\MadelineProto\EventHandler\AbstractStory`
+### <a name="getStory"></a> `getStory(): ?\danog\MadelineProto\EventHandler\AbstractStory`
 
 Get story.
 

@@ -17,6 +17,34 @@ Logger class.
 
 
 ## Constants
+* `danog\MadelineProto\Logger::FOREGROUND`: 
+
+* `danog\MadelineProto\Logger::BACKGROUND`: 
+
+* `danog\MadelineProto\Logger::SET`: 
+
+* `danog\MadelineProto\Logger::RESET`: 
+
+* `danog\MadelineProto\Logger::ULTRA_VERBOSE`: Ultra verbose logging.
+
+* `danog\MadelineProto\Logger::VERBOSE`: Verbose logging.
+
+* `danog\MadelineProto\Logger::NOTICE`: Notice logging.
+
+* `danog\MadelineProto\Logger::WARNING`: Warning logging.
+
+* `danog\MadelineProto\Logger::ERROR`: Error logging.
+
+* `danog\MadelineProto\Logger::FATAL_ERROR`: Log only fatal errors.
+
+* `danog\MadelineProto\Logger::DEFAULT_LOGGER`: Default logger (syslog).
+
+* `danog\MadelineProto\Logger::FILE_LOGGER`: File logger.
+
+* `danog\MadelineProto\Logger::ECHO_LOGGER`: Echo logger.
+
+* `danog\MadelineProto\Logger::CALLABLE_LOGGER`: Callable logger.
+
 * `danog\MadelineProto\Logger::LEVEL_ULTRA_VERBOSE`: Ultra verbose level.
 
 * `danog\MadelineProto\Logger::LEVEL_VERBOSE`: Verbose level.
@@ -41,15 +69,15 @@ Logger class.
 * `$default`: `?self` Default logger instance.
 
 ## Method list:
-* [`constructorFromSettings(\danog\MadelineProto\Settings\Logger $settings): self`](#constructorfromsettings-danog-madelineproto-settings-logger-settings-self)
-* [`__construct(\danog\MadelineProto\Settings\Logger $settings, string $prefix = '')`](#__construct-danog-madelineproto-settings-logger-settings-string-prefix)
-* [`truncate(): void`](#truncate-void)
-* [`log(mixed $param, int $level = \self::NOTICE): void`](#log-mixed-param-int-level-self-notice-void)
-* [`logger(mixed $param, int $level = \self::NOTICE, string $file = ''): void`](#logger-mixed-param-int-level-self-notice-string-file-void)
-* [`getPsrLogger(): \Psr\Log\LoggerInterface`](#getpsrlogger-psr-log-loggerinterface)
+* [`constructorFromSettings(\danog\MadelineProto\Settings\Logger $settings): self`](#constructorFromSettings)
+* [`__construct(\danog\MadelineProto\Settings\Logger $settings, string $prefix = '')`](#__construct)
+* [`truncate(): void`](#truncate)
+* [`log(mixed $param, int $level = \self::NOTICE): void`](#log)
+* [`logger(mixed $param, int $level = \self::NOTICE, string $file = ''): void`](#logger)
+* [`getPsrLogger(): \Psr\Log\LoggerInterface`](#getPsrLogger)
 
 ## Methods:
-### `constructorFromSettings(\danog\MadelineProto\Settings\Logger $settings): self`
+### <a name="constructorFromSettings"></a> `constructorFromSettings(\danog\MadelineProto\Settings\Logger $settings): self`
 
 Construct global static logger from MadelineProto settings.
 
@@ -65,7 +93,7 @@ Parameters:
 
 
 
-### `__construct(\danog\MadelineProto\Settings\Logger $settings, string $prefix = '')`
+### <a name="__construct"></a> `__construct(\danog\MadelineProto\Settings\Logger $settings, string $prefix = '')`
 
 Construct logger.
 
@@ -82,13 +110,13 @@ Parameters:
 
 
 
-### `truncate(): void`
+### <a name="truncate"></a> `truncate(): void`
 
 Truncate logfile.
 
 
 
-### `log(mixed $param, int $level = \self::NOTICE): void`
+### <a name="log"></a> `log(mixed $param, int $level = \self::NOTICE): void`
 
 Log a message.
 
@@ -100,7 +128,7 @@ Parameters:
 
 
 
-### `logger(mixed $param, int $level = \self::NOTICE, string $file = ''): void`
+### <a name="logger"></a> `logger(mixed $param, int $level = \self::NOTICE, string $file = ''): void`
 
 Log a message.
 
@@ -113,7 +141,7 @@ Parameters:
 
 
 
-### `getPsrLogger(): \Psr\Log\LoggerInterface`
+### <a name="getPsrLogger"></a> `getPsrLogger(): \Psr\Log\LoggerInterface`
 
 Get PSR logger.
 

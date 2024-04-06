@@ -33,38 +33,38 @@ Represents a static sticker.
 * `$botApiFileId`: `string` File ID in bot API format (always present even for users)
 * `$botApiFileUniqueId`: `string` Unique file ID in bot API format (always present even for users)
 * `$encrypted`: `bool` Whether this media originates from a secret chat.
-* `$thumb`: `?\danog\MadelineProto\TL\Types\Bytes` Content of thumbnail file (JPEGfile, quality 55, set in a square 90x90) only for secret chats.
+* `$thumb`: `?danog\MadelineProto\TL\Types\Bytes` Content of thumbnail file (JPEGfile, quality 55, set in a square 90x90) only for secret chats.
 * `$thumbHeight`: `?int` Thumbnail height only for secret chats.
 * `$thumbWidth`: `?int` Thumbnail width only for secret chats.
 * `$protected`: `bool` Whether this media is protected
 
 ## Method list:
-* [`getDownloadLink(string|null $scriptUrl = NULL): string`](#getdownloadlink-string-null-scripturl-null-string)
-* [`getStream(callable|null $cb = NULL, int $offset = 0, int $end = -1, ?\Amp\Cancellation $cancellation = NULL): \Amp\ByteStream\ReadableStream`](#getstream-callable-null-cb-null-int-offset-0-int-end-1-amp-cancellation-cancellation-null-amp-bytestream-readablestream)
-* [`downloadToDir(string $dir = NULL, callable|null $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): string`](#downloadtodir-string-dir-null-callable-null-cb-null-amp-cancellation-cancellation-null-string)
-* [`downloadToFile(string $file, callable|null $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): string`](#downloadtofile-string-file-callable-null-cb-null-amp-cancellation-cancellation-null-string)
-* [`getDownloadInfo(): array{ext: string, name: string, mime: string, size: int, InputFileLocation: array, key_fingerprint?: string, key?: string, iv?: string}`](#getdownloadinfo-array-ext-string-name-string-mime-string-size-int-inputfilelocation-array-key_fingerprint-string-key-string-iv-string)
+* [`getDownloadLink((string|null) $scriptUrl = NULL): string`](#getDownloadLink)
+* [`getStream((callable(float, float, float): voi)|null) $cb = NULL, int $offset = 0, int $end = -1, ?\Amp\Cancellation $cancellation = NULL): \Amp\ByteStream\ReadableStream`](#getStream)
+* [`downloadToDir(string $dir = NULL, (callable(float, float, float): voi)|null) $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): string`](#downloadToDir)
+* [`downloadToFile(string $file, (callable(float, float, float): voi)|null) $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): string`](#downloadToFile)
+* [`getDownloadInfo(): array{ext: string, name: string, mime: string, size: int, InputFileLocation: array, key_fingerprint?: string, key?: string, iv?: string}`](#getDownloadInfo)
 
 ## Methods:
-### `getDownloadLink(string|null $scriptUrl = NULL): string`
+### <a name="getDownloadLink"></a> `getDownloadLink((string|null) $scriptUrl = NULL): string`
 
 Gets a download link for any file up to 4GB.
 
 
 Parameters:
 
-* `$scriptUrl`: `string|null` Optional path to custom download script (not needed when running via web)  
+* `$scriptUrl`: `(string|null)` Optional path to custom download script (not needed when running via web)  
 
 
 
-### `getStream(callable|null $cb = NULL, int $offset = 0, int $end = -1, ?\Amp\Cancellation $cancellation = NULL): \Amp\ByteStream\ReadableStream`
+### <a name="getStream"></a> `getStream((callable(float, float, float): voi)|null) $cb = NULL, int $offset = 0, int $end = -1, ?\Amp\Cancellation $cancellation = NULL): \Amp\ByteStream\ReadableStream`
 
 Get a readable amp stream with the file contents.
 
 
 Parameters:
 
-* `$cb`: `callable|null` Progress callback  
+* `$cb`: `(callable(float, float, float): voi)|null)` Progress callback  
 * `$offset`: `int`   
 * `$end`: `int`   
 * `$cancellation`: `?\Amp\Cancellation`   
@@ -77,7 +77,7 @@ Parameters:
 
 
 
-### `downloadToDir(string $dir = NULL, callable|null $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): string`
+### <a name="downloadToDir"></a> `downloadToDir(string $dir = NULL, (callable(float, float, float): voi)|null) $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): string`
 
 Download the media to working directory or passed path.
 
@@ -85,7 +85,7 @@ Download the media to working directory or passed path.
 Parameters:
 
 * `$dir`: `string` Directory where to download the file  
-* `$cb`: `callable|null` Progress callback  
+* `$cb`: `(callable(float, float, float): voi)|null)` Progress callback  
 * `$cancellation`: `?\Amp\Cancellation`   
 
 
@@ -95,7 +95,7 @@ Parameters:
 
 
 
-### `downloadToFile(string $file, callable|null $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): string`
+### <a name="downloadToFile"></a> `downloadToFile(string $file, (callable(float, float, float): voi)|null) $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): string`
 
 Download the media to file.
 
@@ -103,7 +103,7 @@ Download the media to file.
 Parameters:
 
 * `$file`: `string` Downloaded file path  
-* `$cb`: `callable|null` Progress callback  
+* `$cb`: `(callable(float, float, float): voi)|null)` Progress callback  
 * `$cancellation`: `?\Amp\Cancellation`   
 
 
@@ -113,7 +113,7 @@ Parameters:
 
 
 
-### `getDownloadInfo(): array{ext: string, name: string, mime: string, size: int, InputFileLocation: array, key_fingerprint?: string, key?: string, iv?: string}`
+### <a name="getDownloadInfo"></a> `getDownloadInfo(): array{ext: string, name: string, mime: string, size: int, InputFileLocation: array, key_fingerprint?: string, key?: string, iv?: string}`
 
 
 

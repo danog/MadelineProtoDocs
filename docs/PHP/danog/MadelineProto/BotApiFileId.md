@@ -1,6 +1,6 @@
 ---
-title: "danog\\MadelineProto\\BotApiFileId: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc."
-description: ".."
+title: "danog\\MadelineProto\\BotApiFileId: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc..."
+description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
@@ -11,9 +11,9 @@ parent: "MadelineProto API"
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Indicates a bot API file ID to upload using sendDocument, sendPhoto etc.  
+Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...  
 
-..
+
 
 ## Properties
 * `$fileId`: `string` 
@@ -22,10 +22,10 @@ Indicates a bot API file ID to upload using sendDocument, sendPhoto etc.
 * `$protected`: `bool` 
 
 ## Method list:
-* [`__construct(string $fileId, int $size, string $fileName, bool $protected)`](#__construct-string-fileid-int-size-string-filename-bool-protected)
+* [`__construct(string $fileId, integer $size, string $fileName, bool $protected)`](#__construct)
 
 ## Methods:
-### `__construct(string $fileId, int $size, string $fileName, bool $protected)`
+### <a name="__construct"></a> `__construct(string $fileId, integer $size, string $fileName, bool $protected)`
 
 
 
@@ -33,7 +33,7 @@ Indicates a bot API file ID to upload using sendDocument, sendPhoto etc.
 Parameters:
 
 * `$fileId`: `string` The file ID  
-* `$size`: `int` The file size  
+* `$size`: `integer` The file size  
 * `$fileName`: `string` The original file name  
 * `$protected`: `bool` Whether the original file is protected  
 

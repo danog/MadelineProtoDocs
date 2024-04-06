@@ -19,11 +19,11 @@ User is watching an animated emoji reaction triggered by another user, [click he
 * `$emoticon`: `string` Emoji
 
 ## Method list:
-* [`__construct(string $emoticon)`](#__construct-string-emoticon)
-* [`toRawAction(): array`](#torawaction-array)
+* [`__construct(string $emoticon)`](#__construct)
+* [`toRawAction(): array`](#toRawAction)
 
 ## Methods:
-### `__construct(string $emoticon)`
+### <a name="__construct"></a> `__construct(string $emoticon)`
 
 
 
@@ -34,7 +34,7 @@ Parameters:
 
 
 
-### `toRawAction(): array`
+### <a name="toRawAction"></a> `toRawAction(): array`
 
 
 

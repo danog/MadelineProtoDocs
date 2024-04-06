@@ -20,27 +20,27 @@ Indicates that the specified secret chat wasn't found.
 
 ## Method list:
 * [`__construct()`](#__construct)
-* [`extension(string $extensionName): self`](#extension-string-extensionname-self)
-* [`getMessage(): string`](#getmessage-string)
-* [`getCode(): mixed`](#getcode-mixed)
-* [`getFile(): string`](#getfile-string)
-* [`getLine(): int`](#getline-int)
-* [`getTrace(): array`](#gettrace-array)
-* [`getPrevious(): ?\Throwable`](#getprevious-throwable)
-* [`getTraceAsString(): string`](#gettraceasstring-string)
-* [`updateTLTrace(array $trace): void`](#updatetltrace-array-trace-void)
-* [`getTLTrace(): string`](#gettltrace-string)
-* [`setTLTrace(string $tlTrace): void`](#settltrace-string-tltrace-void)
-* [`prettifyTL(string $init = '', array $trace = NULL): void`](#prettifytl-string-init-array-trace-null-void)
+* [`extension(string $extensionName): self`](#extension)
+* [`getMessage(): string`](#getMessage)
+* [`getCode()`](#getCode)
+* [`getFile(): string`](#getFile)
+* [`getLine(): int`](#getLine)
+* [`getTrace(): array`](#getTrace)
+* [`getPrevious(): ?Throwable`](#getPrevious)
+* [`getTraceAsString(): string`](#getTraceAsString)
+* [`updateTLTrace(array $trace): void`](#updateTLTrace)
+* [`getTLTrace(): string`](#getTLTrace)
+* [`setTLTrace(string $tlTrace): void`](#setTLTrace)
+* [`prettifyTL(string $init = '', array $trace = NULL): void`](#prettifyTL)
 
 ## Methods:
-### `__construct()`
+### <a name="__construct"></a> `__construct()`
 
 
 
 
 
-### `extension(string $extensionName): self`
+### <a name="extension"></a> `extension(string $extensionName): self`
 
 Complain about missing extensions.
 
@@ -51,54 +51,54 @@ Parameters:
 
 
 
-### `getMessage(): string`
+### <a name="getMessage"></a> `getMessage(): string`
 
 
 
 
 
-### `getCode(): mixed`
+### <a name="getCode"></a> `getCode()`
 
 
 
 
 
-### `getFile(): string`
+### <a name="getFile"></a> `getFile(): string`
 
 
 
 
 
-### `getLine(): int`
+### <a name="getLine"></a> `getLine(): int`
 
 
 
 
 
-### `getTrace(): array`
+### <a name="getTrace"></a> `getTrace(): array`
 
 
 
 
 
-### `getPrevious(): ?\Throwable`
+### <a name="getPrevious"></a> `getPrevious(): ?Throwable`
 
 
 
 
 #### See also: 
-* `\Throwable`
+* `Throwable`
 
 
 
 
-### `getTraceAsString(): string`
+### <a name="getTraceAsString"></a> `getTraceAsString(): string`
 
 
 
 
 
-### `updateTLTrace(array $trace): void`
+### <a name="updateTLTrace"></a> `updateTLTrace(array $trace): void`
 
 Update TL trace.
 
@@ -109,13 +109,13 @@ Parameters:
 
 
 
-### `getTLTrace(): string`
+### <a name="getTLTrace"></a> `getTLTrace(): string`
 
 Get TL trace.
 
 
 
-### `setTLTrace(string $tlTrace): void`
+### <a name="setTLTrace"></a> `setTLTrace(string $tlTrace): void`
 
 Set TL trace.
 
@@ -126,7 +126,7 @@ Parameters:
 
 
 
-### `prettifyTL(string $init = '', array $trace = NULL): void`
+### <a name="prettifyTL"></a> `prettifyTL(string $init = '', array $trace = NULL): void`
 
 Generate async trace.
 

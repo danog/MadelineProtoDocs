@@ -17,25 +17,25 @@ File management settings.
 
 
 ## Method list:
-* [`getAllowAutomaticUpload(): bool`](#getallowautomaticupload-bool)
-* [`setAllowAutomaticUpload(bool $allowAutomaticUpload): self`](#setallowautomaticupload-bool-allowautomaticupload-self)
-* [`getUploadParallelChunks(): int`](#getuploadparallelchunks-int)
-* [`setUploadParallelChunks(int $uploadParallelChunks): self`](#setuploadparallelchunks-int-uploadparallelchunks-self)
-* [`getDownloadParallelChunks(): int`](#getdownloadparallelchunks-int)
-* [`setDownloadParallelChunks(int $downloadParallelChunks): self`](#setdownloadparallelchunks-int-downloadparallelchunks-self)
-* [`getReportBrokenMedia(): bool`](#getreportbrokenmedia-bool)
-* [`setReportBrokenMedia(bool $reportBrokenMedia): self`](#setreportbrokenmedia-bool-reportbrokenmedia-self)
-* [`getDownloadLink(): ?string`](#getdownloadlink-string)
-* [`setDownloadLink(?string $downloadLink): self`](#setdownloadlink-string-downloadlink-self)
+* [`getAllowAutomaticUpload(): bool`](#getAllowAutomaticUpload)
+* [`setAllowAutomaticUpload(bool $allowAutomaticUpload): self`](#setAllowAutomaticUpload)
+* [`getUploadParallelChunks(): int`](#getUploadParallelChunks)
+* [`setUploadParallelChunks(int $uploadParallelChunks): self`](#setUploadParallelChunks)
+* [`getDownloadParallelChunks(): int`](#getDownloadParallelChunks)
+* [`setDownloadParallelChunks(int $downloadParallelChunks): self`](#setDownloadParallelChunks)
+* [`getReportBrokenMedia(): bool`](#getReportBrokenMedia)
+* [`setReportBrokenMedia(bool $reportBrokenMedia): self`](#setReportBrokenMedia)
+* [`getDownloadLink(): ?string`](#getDownloadLink)
+* [`setDownloadLink(?string $downloadLink): self`](#setDownloadLink)
 
 ## Methods:
-### `getAllowAutomaticUpload(): bool`
+### <a name="getAllowAutomaticUpload"></a> `getAllowAutomaticUpload(): bool`
 
 Get allow automatic upload of files from file paths present in constructors?
 
 
 
-### `setAllowAutomaticUpload(bool $allowAutomaticUpload): self`
+### <a name="setAllowAutomaticUpload"></a> `setAllowAutomaticUpload(bool $allowAutomaticUpload): self`
 
 Set allow automatic upload of files from file paths present in constructors?
 
@@ -46,13 +46,13 @@ Parameters:
 
 
 
-### `getUploadParallelChunks(): int`
+### <a name="getUploadParallelChunks"></a> `getUploadParallelChunks(): int`
 
 Get upload parallel chunk count.
 
 
 
-### `setUploadParallelChunks(int $uploadParallelChunks): self`
+### <a name="setUploadParallelChunks"></a> `setUploadParallelChunks(int $uploadParallelChunks): self`
 
 Set upload parallel chunk count.
 
@@ -63,13 +63,13 @@ Parameters:
 
 
 
-### `getDownloadParallelChunks(): int`
+### <a name="getDownloadParallelChunks"></a> `getDownloadParallelChunks(): int`
 
 Get download parallel chunk count.
 
 
 
-### `setDownloadParallelChunks(int $downloadParallelChunks): self`
+### <a name="setDownloadParallelChunks"></a> `setDownloadParallelChunks(int $downloadParallelChunks): self`
 
 Set download parallel chunk count.
 
@@ -80,13 +80,13 @@ Parameters:
 
 
 
-### `getReportBrokenMedia(): bool`
+### <a name="getReportBrokenMedia"></a> `getReportBrokenMedia(): bool`
 
 Get whether to report undownloadable media to TSF.
 
 
 
-### `setReportBrokenMedia(bool $reportBrokenMedia): self`
+### <a name="setReportBrokenMedia"></a> `setReportBrokenMedia(bool $reportBrokenMedia): self`
 
 Set whether to report undownloadable media to TSF.
 
@@ -97,18 +97,20 @@ Parameters:
 
 
 
-### `getDownloadLink(): ?string`
+### <a name="getDownloadLink"></a> `getDownloadLink(): ?string`
 
 Get custom download link URL for CLI bots, used by `getDownloadLink`.
 
 
 
-### `setDownloadLink(?string $downloadLink): self`
+### <a name="setDownloadLink"></a> `setDownloadLink(?string $downloadLink): self`
 
 Only needed for CLI bots, not bots started via web.
+  
 Sets custom download link URL for CLI bots, used by `getDownloadLink`.  
   
-Can be null, in which case MadelineProto will automatically generate a download link.
+Can be null, in which case MadelineProto will automatically generate a download link.  
+
 
 Parameters:
 

@@ -17,18 +17,18 @@ Class that controls script shutdown.
 
 
 ## Method list:
-* [`init(): void`](#init-void)
-* [`addCallback(callable $callback, null|string $id = NULL): int|\string The callback ID`](#addcallback-callable-callback-null-string-id-null-int-string-the-callback-id)
-* [`removeCallback(null|string|int $id): \bool true if the callback was removed correctly, false otherwise`](#removecallback-null-string-int-id-bool-true-if-the-callback-was-removed-correctly-false-otherwise)
+* [`init(): void`](#init)
+* [`addCallback(callable $callback, (null|string) $id = NULL): (int|string)`](#addCallback)
+* [`removeCallback((null|string|int) $id): bool`](#removeCallback)
 
 ## Methods:
-### `init(): void`
+### <a name="init"></a> `init(): void`
 
 Register shutdown function.
 
 
 
-### `addCallback(callable $callback, null|string $id = NULL): int|\string The callback ID`
+### <a name="addCallback"></a> `addCallback(callable $callback, (null|string) $id = NULL): (int|string)`
 
 Add a callback for script shutdown.
 
@@ -36,20 +36,20 @@ Add a callback for script shutdown.
 Parameters:
 
 * `$callback`: `callable` The callback to set  
-* `$id`: `null|string` The optional callback ID  
+* `$id`: `(null|string)` The optional callback ID  
 
 
 Return value: The callback ID
 
 
-### `removeCallback(null|string|int $id): \bool true if the callback was removed correctly, false otherwise`
+### <a name="removeCallback"></a> `removeCallback((null|string|int) $id): bool`
 
 Remove a callback from the script shutdown callable list.
 
 
 Parameters:
 
-* `$id`: `null|string|int` The optional callback ID  
+* `$id`: `(null|string|int)` The optional callback ID  
 
 
 Return value: true if the callback was removed correctly, false otherwise

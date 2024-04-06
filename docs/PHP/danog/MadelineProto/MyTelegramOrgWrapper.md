@@ -17,16 +17,16 @@ Wrapper for my.telegram.org.
 
 
 ## Method list:
-* [`__construct(\danog\MadelineProto\SettingsAbstract $settings)`](#__construct-danog-madelineproto-settingsabstract-settings)
-* [`login(string $number): void`](#login-string-number-void)
-* [`completeLogin(string $password): mixed`](#completelogin-string-password-mixed)
-* [`loggedIn(): bool`](#loggedin-bool)
-* [`hasApp(): mixed`](#hasapp-mixed)
-* [`getApp(): mixed`](#getapp-mixed)
-* [`createApp(array $settings): mixed`](#createapp-array-settings-mixed)
+* [`__construct(\danog\MadelineProto\SettingsAbstract $settings)`](#__construct)
+* [`login(string $number): void`](#login)
+* [`completeLogin(string $password)`](#completeLogin)
+* [`loggedIn(): bool`](#loggedIn)
+* [`hasApp()`](#hasApp)
+* [`getApp()`](#getApp)
+* [`createApp(array $settings)`](#createApp)
 
 ## Methods:
-### `__construct(\danog\MadelineProto\SettingsAbstract $settings)`
+### <a name="__construct"></a> `__construct(\danog\MadelineProto\SettingsAbstract $settings)`
 
 Constructor.
 
@@ -42,7 +42,7 @@ Parameters:
 
 
 
-### `login(string $number): void`
+### <a name="login"></a> `login(string $number): void`
 
 Login.
 
@@ -53,7 +53,7 @@ Parameters:
 
 
 
-### `completeLogin(string $password): mixed`
+### <a name="completeLogin"></a> `completeLogin(string $password)`
 
 Complete login.
 
@@ -64,25 +64,25 @@ Parameters:
 
 
 
-### `loggedIn(): bool`
+### <a name="loggedIn"></a> `loggedIn(): bool`
 
 Whether we are logged in.
 
 
 
-### `hasApp(): mixed`
+### <a name="hasApp"></a> `hasApp()`
 
 Check if an app was already created.
 
 
 
-### `getApp(): mixed`
+### <a name="getApp"></a> `getApp()`
 
 Get the currently created app.
 
 
 
-### `createApp(array $settings): mixed`
+### <a name="createApp"></a> `createApp(array $settings)`
 
 Create an app.
 

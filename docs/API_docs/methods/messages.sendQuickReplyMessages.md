@@ -17,6 +17,7 @@ redirect_from: /API_docs/methods/messages_sendQuickReplyMessages.html
 |----------|---------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 |shortcut\_id|[int](/API_docs/types/int.html) | Optional|
+|id|Array of [int](/API_docs/types/int.html) | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -36,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->sendQuickReplyMessages(peer: $InputPeer, shortcut_id: $int, );
+$Updates = $MadelineProto->messages->sendQuickReplyMessages(peer: $InputPeer, shortcut_id: $int, id: [$int, $int], );
 ```
 

@@ -19,6 +19,7 @@ Get [channels/supergroups/geogroups](https://core.telegram.org/api/channel) we'r
 |----------|---------------|-------------|----------|
 |by\_location|[Bool](/API_docs/types/Bool.html) | Get geogroups | Optional|
 |check\_limit|[Bool](/API_docs/types/Bool.html) | If set and the user has reached the limit of owned public [channels/supergroups/geogroups](https://core.telegram.org/api/channel), instead of returning the channel list one of the specified [errors](#possible-errors) will be returned.<br>Useful to check if a new public channel can indeed be created, even before asking the user to enter a channel username to use in [channels.checkUsername](../methods/channels.checkUsername.html)/[channels.updateUsername](../methods/channels.updateUsername.html). | Optional|
+|for\_personal|[Bool](/API_docs/types/Bool.html) |  | Optional|
 
 
 ### Return type: [messages.Chats](/API_docs/types/messages.Chats.html)
@@ -38,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Chats = $MadelineProto->channels->getAdminedPublicChannels(by_location: $Bool, check_limit: $Bool, );
+$messages_Chats = $MadelineProto->channels->getAdminedPublicChannels(by_location: $Bool, check_limit: $Bool, for_personal: $Bool, );
 ```
 
