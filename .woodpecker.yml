@@ -15,17 +15,16 @@ steps:
       - git config --global user.email "daniil@daniil.it"
       - git config --global user.name "Daniil Gentili"
       - git remote add o git@github.com:danog/MadelineProtoDocs.git 
-      - git fetch o gh-pages
       - cd docs
       - gojekyll clean
       - gojekyll build
       - rm -rf /tmp/_site
       - cp -a _site /tmp/
       - cd ..
-      - git fetch o gh-pages
+      - git branch -D gh-pages || true
+      - git switch --orphan gh-pages
       - git checkout gh-pages
-      - rm -rf *
       - cp -a /tmp/_site/* .
       - git add -A
       - git commit -am 'Update'
-      - git push o gh-pages
+      - git push -f o gh-pages
