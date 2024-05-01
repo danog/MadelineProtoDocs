@@ -1,0 +1,33 @@
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <title>{{ page.title }}</title>
+
+  <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-dark.css' | relative_url }}?v=2">
+  <link rel="preload" href="{{ '/assets/css/just-the-docs-light.css' | relative_url }}?v=2" as="style">
+
+  <script>
+    if (window.localStorage.getItem('theme') === 'light') {
+      document.querySelector('[rel="stylesheet"]').setAttribute('href', '/assets/css/just-the-docs-light.css');
+    }
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="OIo7XVmU3hJT1uHL82H6-COTtQqeefBXIpZDznJPkOg" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/favicons/apple-touch-icon.png' | relative_url }}">
+  <link rel="icon" type="image/png" href="{{ '/favicons/favicon-32x32.png' | relative_url }}" sizes="32x32">
+  <link rel="icon" type="image/png" href="{{ '/favicons/favicon-16x16.png' | relative_url }}" sizes="16x16">
+  <link rel="manifest" href="{{ '/favicons/manifest.json' | relative_url }}">
+  <link rel="mask-icon" href="{{ '/favicons/safari-pinned-tab.svg' | relative_url }}" color="#5bbad5">
+  <link rel="shortcut icon" href="{{ '/favicons/favicon.ico' | relative_url }}">
+  <meta name="msapplication-config" content="{{ '/favicons/browserconfig.xml' | relative_url }}">
+
+  {% seo %}
+
+  {% include head_custom.html %}
+
+  <script src="{{ '/assets/js/vendor/lunr.min.js' | relative_url }}" defer></script>
+  <script type="text/javascript" src="{{ '/assets/js/just-the-docs.js' | relative_url }}?v=2" defer></script>
+  
+</head>

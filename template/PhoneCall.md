@@ -1,0 +1,1 @@
+See [here &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/VoIP.html) for the full documentation!

@@ -1,0 +1,1 @@
+You can also provide a [MessageMedia](MessageMedia.html), [Message](Message.html), [Update](Update.html), [Document](Document.html), [Photo](Photo.html), [InputDocument](InputDocument.html), [InputPhoto](InputPhoto.html) here, MadelineProto will automatically convert it to the right type.
