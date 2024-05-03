@@ -9,7 +9,7 @@ nav_order: "2"
 ---
 # `danog/madelineproto`
 
-PHP implementation of telegram's MTProto protocol.
+Async PHP client API for the telegram MTProto protocol.
 
 
 ## Interfaces
