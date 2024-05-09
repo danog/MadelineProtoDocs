@@ -166,6 +166,10 @@ Main API wrapper for MadelineProto.
 * [`getMimeFromExtension(string $extension, string $default): string`](#getMimeFromExtension)
 * [`getMimeFromFile(string $file): string`](#getMimeFromFile)
 * [`getPlugin(class-string<T> $class): \danog\MadelineProto\PluginEventHandler|\danog\MadelineProto\Ipc\EventHandlerProxy|null`](#getPlugin)
+* [`getPromCounter(string $namespace, string $name, string $help, array<string, string> $labels = []): ?\danog\BetterPrometheus\BetterCounter`](#getPromCounter)
+* [`getPromGauge(string $namespace, string $name, string $help, array<string, string> $labels = []): ?\danog\BetterPrometheus\BetterGauge`](#getPromGauge)
+* [`getPromHistogram(string $namespace, string $name, string $help, array<string, string> $labels = [], ?non-empty-list<float> $buckets = NULL): ?\danog\BetterPrometheus\BetterHistogram`](#getPromHistogram)
+* [`getPromSummary(string $namespace, string $name, string $help, array<string, string> $labels = [], int $maxAgeSeconds = 600, ?non-empty-list<float> $quantiles = NULL): ?\danog\BetterPrometheus\BetterSummary`](#getPromSummary)
 * [`getPropicInfo(mixed $data): ?\danog\MadelineProto\EventHandler\Media\Photo`](#getPropicInfo)
 * [`getPsrLogger(): \Psr\Log\LoggerInterface`](#getPsrLogger)
 * [`getPwrChat(mixed $id, bool $fullfetch = true): array`](#getPwrChat)
@@ -230,6 +234,7 @@ Main API wrapper for MadelineProto.
 * [`readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL): string`](#readLine)
 * [`refreshFullPeerCache(mixed $id): void`](#refreshFullPeerCache)
 * [`refreshPeerCache(mixed ...$ids): void`](#refreshPeerCache)
+* [`renderPromStats(\Prometheus\RendererInterface $renderer): string`](#renderPromStats)
 * [`report(string $message, string $parseMode = ''): void`](#report)
 * [`reportMemoryProfile(): void`](#reportMemoryProfile)
 * [`requestCall(mixed $user): \danog\MadelineProto\VoIP`](#requestCall)
@@ -1490,6 +1495,95 @@ return T|null
 
 
 
+### <a name="getPromCounter"></a> `getPromCounter(string $namespace, string $name, string $help, array<string, string> $labels = []): ?\danog\BetterPrometheus\BetterCounter`
+
+Creates and returns a prometheus counter.
+  
+Returns null if prometheus stats are disabled.  
+
+
+Parameters:
+
+* `$namespace`: `string`   
+* `$name`: `string`   
+* `$help`: `string`   
+* `$labels`: `array<string, string>`   
+
+
+#### See also: 
+* `\danog\BetterPrometheus\BetterCounter`
+
+
+
+
+### <a name="getPromGauge"></a> `getPromGauge(string $namespace, string $name, string $help, array<string, string> $labels = []): ?\danog\BetterPrometheus\BetterGauge`
+
+Creates and returns a prometheus gauge.
+  
+Returns null if prometheus stats are disabled.  
+
+
+Parameters:
+
+* `$namespace`: `string`   
+* `$name`: `string`   
+* `$help`: `string`   
+* `$labels`: `array<string, string>`   
+
+
+#### See also: 
+* `\danog\BetterPrometheus\BetterGauge`
+
+
+
+
+### <a name="getPromHistogram"></a> `getPromHistogram(string $namespace, string $name, string $help, array<string, string> $labels = [], ?non-empty-list<float> $buckets = NULL): ?\danog\BetterPrometheus\BetterHistogram`
+
+Creates and returns a prometheus histogram.
+  
+Returns null if prometheus stats are disabled.  
+
+
+Parameters:
+
+* `$namespace`: `string`   
+* `$name`: `string`   
+* `$help`: `string`   
+* `$labels`: `array<string, string>`   
+* `$buckets`: `?non-empty-list<float>`   
+
+
+#### See also: 
+* `non-empty-list`
+* `\danog\BetterPrometheus\BetterHistogram`
+
+
+
+
+### <a name="getPromSummary"></a> `getPromSummary(string $namespace, string $name, string $help, array<string, string> $labels = [], int $maxAgeSeconds = 600, ?non-empty-list<float> $quantiles = NULL): ?\danog\BetterPrometheus\BetterSummary`
+
+Creates and returns a prometheus summary.
+  
+Returns null if prometheus stats are disabled.  
+
+
+Parameters:
+
+* `$namespace`: `string`   
+* `$name`: `string`   
+* `$help`: `string`   
+* `$labels`: `array<string, string>`   
+* `$maxAgeSeconds`: `int`   
+* `$quantiles`: `?non-empty-list<float>`   
+
+
+#### See also: 
+* `non-empty-list`
+* `\danog\BetterPrometheus\BetterSummary`
+
+
+
+
 ### <a name="getPropicInfo"></a> `getPropicInfo(mixed $data): ?\danog\MadelineProto\EventHandler\Media\Photo`
 
 Gets info of the propic of a user.
@@ -2228,6 +2322,22 @@ Refresh peer cache for a certain peer.
 Parameters:
 
 * `...$ids`: `mixed`   
+
+
+
+### <a name="renderPromStats"></a> `renderPromStats(\Prometheus\RendererInterface $renderer): string`
+
+Renders prometheus stats using the specified renderer.
+
+
+Parameters:
+
+* `$renderer`: `\Prometheus\RendererInterface`   
+
+
+#### See also: 
+* `\Prometheus\RendererInterface`
+
 
 
 

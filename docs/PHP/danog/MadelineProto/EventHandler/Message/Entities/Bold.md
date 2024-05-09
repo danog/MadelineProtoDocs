@@ -24,7 +24,7 @@ Message entity representing bold text.
 * [`toMTProto(): array`](#toMTProto)
 * [`__construct(int $offset, int $length)`](#__construct)
 * [`fromRawEntities(list<array> $entities): list<self>`](#fromRawEntities)
-* [`fromRawEntity(array $entity): self`](#fromRawEntity)
+* [`fromRawEntity(self|array $entity): self`](#fromRawEntity)
 
 ## Methods:
 ### <a name="toBotAPI"></a> `toBotAPI(): array`
@@ -62,14 +62,14 @@ Parameters:
 
 
 
-### <a name="fromRawEntity"></a> `fromRawEntity(array $entity): self`
+### <a name="fromRawEntity"></a> `fromRawEntity(self|array $entity): self`
 
 
 
 
 Parameters:
 
-* `$entity`: `array`   
+* `$entity`: `self|array`   
 
 
 

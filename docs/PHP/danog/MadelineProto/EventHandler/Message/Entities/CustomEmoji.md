@@ -25,7 +25,7 @@ Represents a custom emoji.
 * [`toBotAPI(): array`](#toBotAPI)
 * [`toMTProto(): array`](#toMTProto)
 * [`fromRawEntities(list<array> $entities): list<self>`](#fromRawEntities)
-* [`fromRawEntity(array $entity): self`](#fromRawEntity)
+* [`fromRawEntity(self|array $entity): self`](#fromRawEntity)
 
 ## Methods:
 ### <a name="__construct"></a> `__construct(int $offset, int $length, int $documentId)`
@@ -64,14 +64,14 @@ Parameters:
 
 
 
-### <a name="fromRawEntity"></a> `fromRawEntity(array $entity): self`
+### <a name="fromRawEntity"></a> `fromRawEntity(self|array $entity): self`
 
 
 
 
 Parameters:
 
-* `$entity`: `array`   
+* `$entity`: `self|array`   
 
 
 

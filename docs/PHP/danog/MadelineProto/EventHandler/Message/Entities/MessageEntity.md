@@ -22,7 +22,7 @@ Master class for message entities.
 ## Method list:
 * [`__construct(int $offset, int $length)`](#__construct)
 * [`fromRawEntities(list<array> $entities): list<self>`](#fromRawEntities)
-* [`fromRawEntity(array $entity): self`](#fromRawEntity)
+* [`fromRawEntity(self|array $entity): self`](#fromRawEntity)
 * [`toBotAPI(): array`](#toBotAPI)
 * [`toMTProto(): array`](#toMTProto)
 
@@ -50,14 +50,14 @@ Parameters:
 
 
 
-### <a name="fromRawEntity"></a> `fromRawEntity(array $entity): self`
+### <a name="fromRawEntity"></a> `fromRawEntity(self|array $entity): self`
 
 
 
 
 Parameters:
 
-* `$entity`: `array`   
+* `$entity`: `self|array`   
 
 
 

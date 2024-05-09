@@ -27,6 +27,8 @@ Settings class used for configuring MadelineProto.
 * [`setConnection(\danog\MadelineProto\Settings\Connection $connection): self`](#setConnection)
 * [`getFiles(): \danog\MadelineProto\Settings\Files`](#getFiles)
 * [`setFiles(\danog\MadelineProto\Settings\Files $files): self`](#setFiles)
+* [`getPrometheus(): \danog\MadelineProto\Settings\Prometheus`](#getPrometheus)
+* [`setPrometheus(\danog\MadelineProto\Settings\Prometheus $prometheus): self`](#setPrometheus)
 * [`getLogger(): \danog\MadelineProto\Settings\Logger`](#getLogger)
 * [`setLogger(\danog\MadelineProto\Settings\Logger $logger): self`](#setLogger)
 * [`getPeer(): \danog\MadelineProto\Settings\Peer`](#getPeer)
@@ -176,6 +178,33 @@ Parameters:
 
 #### See also: 
 * [`\danog\MadelineProto\Settings\Files`: File management settings.](../../danog/MadelineProto/Settings/Files.html)
+
+
+
+
+### <a name="getPrometheus"></a> `getPrometheus(): \danog\MadelineProto\Settings\Prometheus`
+
+Get prometheus settings.
+
+
+#### See also: 
+* [`\danog\MadelineProto\Settings\Prometheus`: Prometheus settings.](../../danog/MadelineProto/Settings/Prometheus.html)
+
+
+
+
+### <a name="setPrometheus"></a> `setPrometheus(\danog\MadelineProto\Settings\Prometheus $prometheus): self`
+
+Set prometheus settings.
+
+
+Parameters:
+
+* `$prometheus`: `\danog\MadelineProto\Settings\Prometheus` File management settings.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\Settings\Prometheus`: Prometheus settings.](../../danog/MadelineProto/Settings/Prometheus.html)
 
 
 
