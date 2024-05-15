@@ -19,6 +19,8 @@ Prometheus settings.
 ## Method list:
 * [`setEnablePrometheus(bool $enable): self`](#setEnablePrometheus)
 * [`getEnablePrometheus(): bool`](#getEnablePrometheus)
+* [`setPrometheusEndpoint(?\Amp\Socket\SocketAddress $endpoint): self`](#setPrometheusEndpoint)
+* [`getPrometheusEndpoint(): ?\Amp\Socket\SocketAddress`](#getPrometheusEndpoint)
 
 ## Methods:
 ### <a name="setEnablePrometheus"></a> `setEnablePrometheus(bool $enable): self`
@@ -35,6 +37,33 @@ Parameters:
 ### <a name="getEnablePrometheus"></a> `getEnablePrometheus(): bool`
 
 Whether additional prometheus stat reporting is enabled for this session.
+
+
+
+### <a name="setPrometheusEndpoint"></a> `setPrometheusEndpoint(?\Amp\Socket\SocketAddress $endpoint): self`
+
+Whether to expose prometheus metrics on the specified endpoint via HTTP.
+
+
+Parameters:
+
+* `$endpoint`: `?\Amp\Socket\SocketAddress`   
+
+
+#### See also: 
+* `\Amp\Socket\SocketAddress`
+
+
+
+
+### <a name="getPrometheusEndpoint"></a> `getPrometheusEndpoint(): ?\Amp\Socket\SocketAddress`
+
+Whether to expose prometheus metrics on the specified endpoint via HTTP.
+
+
+#### See also: 
+* `\Amp\Socket\SocketAddress`
+
 
 
 
