@@ -17,15 +17,17 @@ Prometheus settings.
 
 
 ## Method list:
-* [`setEnablePrometheus(bool $enable): self`](#setEnablePrometheus)
-* [`getEnablePrometheus(): bool`](#getEnablePrometheus)
-* [`setPrometheusEndpoint(?\Amp\Socket\SocketAddress $endpoint): self`](#setPrometheusEndpoint)
-* [`getPrometheusEndpoint(): ?\Amp\Socket\SocketAddress`](#getPrometheusEndpoint)
+* [`setReturnMetricsFromStartAndLoop(bool $enable): self`](#setReturnMetricsFromStartAndLoop)
+* [`getReturnMetricsFromStartAndLoop(): bool`](#getReturnMetricsFromStartAndLoop)
+* [`setEnableCollection(bool $enable): self`](#setEnableCollection)
+* [`getEnableCollection(): bool`](#getEnableCollection)
+* [`setMetricsBindTo(?\Amp\Socket\SocketAddress $metricsBindTo): self`](#setMetricsBindTo)
+* [`getMetricsBindTo(): ?\Amp\Socket\SocketAddress`](#getMetricsBindTo)
 
 ## Methods:
-### <a name="setEnablePrometheus"></a> `setEnablePrometheus(bool $enable): self`
+### <a name="setReturnMetricsFromStartAndLoop"></a> `setReturnMetricsFromStartAndLoop(bool $enable): self`
 
-Whether to enable additional prometheus stat reporting for this session.
+Whether to expose prometheus metrics with startAndLoop, by providing a ?metrics query string.
 
 
 Parameters:
@@ -34,20 +36,37 @@ Parameters:
 
 
 
-### <a name="getEnablePrometheus"></a> `getEnablePrometheus(): bool`
+### <a name="getReturnMetricsFromStartAndLoop"></a> `getReturnMetricsFromStartAndLoop(): bool`
 
-Whether additional prometheus stat reporting is enabled for this session.
+Whether to expose prometheus metrics with startAndLoop, by providing a ?metrics query string.
 
 
 
-### <a name="setPrometheusEndpoint"></a> `setPrometheusEndpoint(?\Amp\Socket\SocketAddress $endpoint): self`
+### <a name="setEnableCollection"></a> `setEnableCollection(bool $enable): self`
+
+Whether to enable additional prometheus stat collection for this session.
+
+
+Parameters:
+
+* `$enable`: `bool`   
+
+
+
+### <a name="getEnableCollection"></a> `getEnableCollection(): bool`
+
+Whether additional prometheus stat collection is enabled for this session.
+
+
+
+### <a name="setMetricsBindTo"></a> `setMetricsBindTo(?\Amp\Socket\SocketAddress $metricsBindTo): self`
 
 Whether to expose prometheus metrics on the specified endpoint via HTTP.
 
 
 Parameters:
 
-* `$endpoint`: `?\Amp\Socket\SocketAddress`   
+* `$metricsBindTo`: `?\Amp\Socket\SocketAddress`   
 
 
 #### See also: 
@@ -56,7 +75,7 @@ Parameters:
 
 
 
-### <a name="getPrometheusEndpoint"></a> `getPrometheusEndpoint(): ?\Amp\Socket\SocketAddress`
+### <a name="getMetricsBindTo"></a> `getMetricsBindTo(): ?\Amp\Socket\SocketAddress`
 
 Whether to expose prometheus metrics on the specified endpoint via HTTP.
 
