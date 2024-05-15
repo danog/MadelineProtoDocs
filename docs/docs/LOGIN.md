@@ -185,7 +185,7 @@ if (isset($_GET['waitQrCodeOrLogin']) || isset($_GET['getQrCode'])) {
     } else {
         $result = [
             'logged_in' => true,
-            'needs_2fa' => $MadelineProto->getAuthorization() === MTProto::WAITING_PASSWORD
+            'needs_2fa' => $MadelineProto->getAuthorization() === API::WAITING_PASSWORD
         ];
     }
     echo(\json_encode($result));

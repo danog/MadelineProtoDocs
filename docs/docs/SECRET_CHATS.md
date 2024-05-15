@@ -34,7 +34,7 @@ Before sending any message, you must check if the secret chat was accepted by th
 $status = $MadelineProto->secretChatStatus($chat);
 ```
 
-$status is `\danog\MadelineProto\MTProto::SECRET_EMPTY` if the chat cannot be found in the local database, `MTProto::SECRET_REQUESTED` if the chat was requested but not yet accepted, and `MTProto::SECRET_READY` if it is a valid accepted secret chat.
+$status is `\danog\MadelineProto\API::SECRET_EMPTY` if the chat cannot be found in the local database, `API::SECRET_REQUESTED` if the chat was requested but not yet accepted, and `API::SECRET_READY` if it is a valid accepted secret chat.
 
 ## Sending secret messages
 
