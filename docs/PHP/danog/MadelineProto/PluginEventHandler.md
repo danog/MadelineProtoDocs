@@ -200,7 +200,7 @@ Plugin event handler class.
 * [`readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL): string`](#readLine)
 * [`refreshFullPeerCache(mixed $id): void`](#refreshFullPeerCache)
 * [`refreshPeerCache(mixed ...$ids): void`](#refreshPeerCache)
-* [`renderPromStats(\Prometheus\RendererInterface $renderer): string`](#renderPromStats)
+* [`renderPromStats(?\Prometheus\RendererInterface $renderer = NULL): string`](#renderPromStats)
 * [`report(string $message, string $parseMode = ''): void`](#report)
 * [`reportMemoryProfile(): void`](#reportMemoryProfile)
 * [`requestCall(mixed $user): \danog\MadelineProto\VoIP`](#requestCall)
@@ -2332,14 +2332,16 @@ Parameters:
 
 
 
-### <a name="renderPromStats"></a> `renderPromStats(\Prometheus\RendererInterface $renderer): string`
+### <a name="renderPromStats"></a> `renderPromStats(?\Prometheus\RendererInterface $renderer = NULL): string`
 
 Renders prometheus stats using the specified renderer.
+  
+By default uses the text renderer.  
 
 
 Parameters:
 
-* `$renderer`: `\Prometheus\RendererInterface`   
+* `$renderer`: `?\Prometheus\RendererInterface`   
 
 
 #### See also: 
