@@ -126,6 +126,7 @@ Plugin event handler class.
 * [`getLogger(): \danog\MadelineProto\Logger`](#getLogger)
 * [`getMaps(): ?int`](#getMaps)
 * [`getMaxMaps(): ?int`](#getMaxMaps)
+* [`getMemoryProfile(): string`](#getMemoryProfile)
 * [`getMethodNamespaces(): array`](#getMethodNamespaces)
 * [`getMethodsNamespaced(): array`](#getMethodsNamespaced)
 * [`getMimeFromBuffer(string $buffer): string`](#getMimeFromBuffer)
@@ -1434,6 +1435,12 @@ Get current number of memory-mapped regions, UNIX only.
 
 Get maximum number of memory-mapped regions, UNIX only.
 Use testFibers to get the maximum number of fibers on any platform.  
+
+
+
+### <a name="getMemoryProfile"></a> `getMemoryProfile(): string`
+
+Get memory profile with memprof.
 
 
 

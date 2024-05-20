@@ -1,17 +1,17 @@
 ---
-title: "danog\\MadelineProto\\Settings\\Prometheus: Prometheus settings."
+title: "danog\\MadelineProto\\Settings\\Metrics: Metric settings."
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
 ---
-# `danog\MadelineProto\Settings\Prometheus`
+# `danog\MadelineProto\Settings\Metrics`
 [Back to index](../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Prometheus settings.  
+Metric settings.  
 
 
 
@@ -19,15 +19,17 @@ Prometheus settings.
 ## Method list:
 * [`setReturnMetricsFromStartAndLoop(bool $enable): self`](#setReturnMetricsFromStartAndLoop)
 * [`getReturnMetricsFromStartAndLoop(): bool`](#getReturnMetricsFromStartAndLoop)
-* [`setEnableCollection(bool $enable): self`](#setEnableCollection)
-* [`getEnableCollection(): bool`](#getEnableCollection)
+* [`setEnablePrometheusCollection(bool $enable): self`](#setEnablePrometheusCollection)
+* [`getEnablePrometheusCollection(): bool`](#getEnablePrometheusCollection)
+* [`setEnableMemprofCollection(bool $enable): self`](#setEnableMemprofCollection)
+* [`getEnableMemprofCollection(): bool`](#getEnableMemprofCollection)
 * [`setMetricsBindTo(?\Amp\Socket\SocketAddress $metricsBindTo): self`](#setMetricsBindTo)
 * [`getMetricsBindTo(): ?\Amp\Socket\SocketAddress`](#getMetricsBindTo)
 
 ## Methods:
 ### <a name="setReturnMetricsFromStartAndLoop"></a> `setReturnMetricsFromStartAndLoop(bool $enable): self`
 
-Whether to expose prometheus metrics with startAndLoop, by providing a ?metrics query string.
+Whether to expose prometheus/memprof metrics with startAndLoop, by providing a ?metrics or ?pprof query string.
 
 
 Parameters:
@@ -38,11 +40,11 @@ Parameters:
 
 ### <a name="getReturnMetricsFromStartAndLoop"></a> `getReturnMetricsFromStartAndLoop(): bool`
 
-Whether to expose prometheus metrics with startAndLoop, by providing a ?metrics query string.
+Whether to expose prometheus/memprof metrics with startAndLoop, by providing a ?metrics or ?pprof query string.
 
 
 
-### <a name="setEnableCollection"></a> `setEnableCollection(bool $enable): self`
+### <a name="setEnablePrometheusCollection"></a> `setEnablePrometheusCollection(bool $enable): self`
 
 Whether to enable additional prometheus stat collection for this session.
 
@@ -53,15 +55,32 @@ Parameters:
 
 
 
-### <a name="getEnableCollection"></a> `getEnableCollection(): bool`
+### <a name="getEnablePrometheusCollection"></a> `getEnablePrometheusCollection(): bool`
 
 Whether additional prometheus stat collection is enabled for this session.
 
 
 
+### <a name="setEnableMemprofCollection"></a> `setEnableMemprofCollection(bool $enable): self`
+
+Whether to enable memprof memory stat collection for this session.
+
+
+Parameters:
+
+* `$enable`: `bool`   
+
+
+
+### <a name="getEnableMemprofCollection"></a> `getEnableMemprofCollection(): bool`
+
+Whether to enable memprof memory stat collection for this session.
+
+
+
 ### <a name="setMetricsBindTo"></a> `setMetricsBindTo(?\Amp\Socket\SocketAddress $metricsBindTo): self`
 
-Whether to expose prometheus metrics on the specified endpoint via HTTP.
+Whether to expose metrics on the specified endpoint via HTTP.
 
 
 Parameters:
@@ -77,7 +96,7 @@ Parameters:
 
 ### <a name="getMetricsBindTo"></a> `getMetricsBindTo(): ?\Amp\Socket\SocketAddress`
 
-Whether to expose prometheus metrics on the specified endpoint via HTTP.
+Whether to expose metrics on the specified endpoint via HTTP.
 
 
 #### See also: 

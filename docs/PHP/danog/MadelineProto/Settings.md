@@ -27,8 +27,8 @@ Settings class used for configuring MadelineProto.
 * [`setConnection(\danog\MadelineProto\Settings\Connection $connection): self`](#setConnection)
 * [`getFiles(): \danog\MadelineProto\Settings\Files`](#getFiles)
 * [`setFiles(\danog\MadelineProto\Settings\Files $files): self`](#setFiles)
-* [`getPrometheus(): \danog\MadelineProto\Settings\Prometheus`](#getPrometheus)
-* [`setPrometheus(\danog\MadelineProto\Settings\Prometheus $prometheus): self`](#setPrometheus)
+* [`getMetrics(): \danog\MadelineProto\Settings\Metrics`](#getMetrics)
+* [`setMetrics(\danog\MadelineProto\Settings\Metrics $metrics): self`](#setMetrics)
 * [`getLogger(): \danog\MadelineProto\Settings\Logger`](#getLogger)
 * [`setLogger(\danog\MadelineProto\Settings\Logger $logger): self`](#setLogger)
 * [`getPeer(): \danog\MadelineProto\Settings\Peer`](#getPeer)
@@ -182,29 +182,29 @@ Parameters:
 
 
 
-### <a name="getPrometheus"></a> `getPrometheus(): \danog\MadelineProto\Settings\Prometheus`
+### <a name="getMetrics"></a> `getMetrics(): \danog\MadelineProto\Settings\Metrics`
 
-Get prometheus settings.
+Get metrics settings.
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Prometheus`: Prometheus settings.](../../danog/MadelineProto/Settings/Prometheus.html)
+* [`\danog\MadelineProto\Settings\Metrics`: Metric settings.](../../danog/MadelineProto/Settings/Metrics.html)
 
 
 
 
-### <a name="setPrometheus"></a> `setPrometheus(\danog\MadelineProto\Settings\Prometheus $prometheus): self`
+### <a name="setMetrics"></a> `setMetrics(\danog\MadelineProto\Settings\Metrics $metrics): self`
 
-Set prometheus settings.
+Set metrics settings.
 
 
 Parameters:
 
-* `$prometheus`: `\danog\MadelineProto\Settings\Prometheus` File management settings.  
+* `$metrics`: `\danog\MadelineProto\Settings\Metrics` File management settings.  
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Prometheus`: Prometheus settings.](../../danog/MadelineProto/Settings/Prometheus.html)
+* [`\danog\MadelineProto\Settings\Metrics`: Metric settings.](../../danog/MadelineProto/Settings/Metrics.html)
 
 
 
