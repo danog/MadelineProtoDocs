@@ -420,19 +420,19 @@ class MyEventHandler extends SimpleEventHandler
         // Handle all incoming messages (private+groups+channels).
     }
 
-    #[FilterAnd(new FilterOutgoing, new FilterPrivate)]
+    #[FiltersAnd(new FilterOutgoing, new FilterPrivate)]
     public function h2(Message $message): void
     {
         // Handle all outgoing messages (private).
     }
 
-    #[FilterAnd(new FilterIncoming, new FilterOr(new FilterGroup, new FilterChannel), new FilterMedia)]
+    #[FiltersAnd(new FilterIncoming, new FiltersOr(new FilterGroup, new FilterChannel), new FilterMedia)]
     public function h3(Message $message): void
     {
         // Handle all incoming messages with media attached (groups+channels).
     }
     
-    #[FilterOr(new FilterGroup, new FilterChannel)]
+    #[FiltersOr(new FilterGroup, new FilterChannel)]
     public function h4(Incoming&Message&HasMedia $message): void
     {
         // Same as h3, but combining simple filters with attribute filters.
@@ -444,14 +444,14 @@ Attribute filters are usual combined with [simple filters](#simple-filters).
 Attribute filters are ANDed with simple filters defined on the same method, for example this:
 
 ```php
-#[FilterOr(new FilterGroup, new FilterChannel)]
+#[FiltersOr(new FilterGroup, new FilterChannel)]
 public function h4(Incoming&Message&HasMedia $message)
 ```
 
 Is exactly the same as this:
 
 ```php
-#[FilterAnd(new FilterIncoming, new FilterMessage, new FilterMedia, new FilterOr(new FilterGroup, new FilterChannel))]
+#[FiltersAnd(new FilterIncoming, new FilterMessage, new FilterMedia, new FiltersOr(new FilterGroup, new FilterChannel))]
 public function h3($message): void
 ```
 
