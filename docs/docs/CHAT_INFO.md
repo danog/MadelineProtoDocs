@@ -1,12 +1,12 @@
 ---
 title: "Getting info about chats"
-description: "There are various methods that can be used to fetch info about chats, based on bot API id, tg-cli ID, Peer, User, Chat objects."
+description: "There are various methods that can be used to fetch info about chats, based on bot API id, Peer, User, Chat objects."
 nav_order: 22
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Getting info about chats
 
-There are various methods that can be used to fetch info about chats, based on bot API id, tg-cli ID, Peer, User, Chat objects.
+There are various methods that can be used to fetch info about chats, based on bot API id, Peer, User, Chat objects.
 
 * [Full chat info with full list of participants](#getPwrChat)
 * [Full chat info](#getFullInfo)

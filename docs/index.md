@@ -1,6 +1,6 @@
 ---
 title: MadelineProto
-description: PHP client/server for the telegram MTProto protocol (a better tg-cli)
+description: Async PHP client API for the telegram MTProto protocol
 nav_order: 1
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -237,7 +237,7 @@ Some of MadelineProto's core components are also available as separate, standalo
     * [Download to http-server](https://docs.madelineproto.xyz/docs/FILES.html#download-to-http-server)
     * [Download to browser](https://docs.madelineproto.xyz/docs/FILES.html#download-to-browser)
   * [Getting progress](https://docs.madelineproto.xyz/docs/FILES.html#getting-progress)
-* [Getting info about chats](https://docs.madelineproto.xyz/docs/CHAT_INFO.html) - There are various methods that can be used to fetch info about chats, based on bot API id, tg-cli ID, Peer, User, Chat objects.
+* [Getting info about chats](https://docs.madelineproto.xyz/docs/CHAT_INFO.html) - There are various methods that can be used to fetch info about chats, based on bot API id, Peer, User, Chat objects.
   * [Full chat info with full list of participants](https://docs.madelineproto.xyz/docs/CHAT_INFO.html#getPwrChat)
   * [Full chat info](https://docs.madelineproto.xyz/docs/CHAT_INFO.html#getFullInfo)
   * [Reduced chat info (very fast)](https://docs.madelineproto.xyz/docs/CHAT_INFO.html#getInfo)
