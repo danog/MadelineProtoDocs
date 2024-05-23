@@ -73,7 +73,7 @@ Event handler.
 * [`completePhoneLogin(string $code): array`](#completePhoneLogin)
 * [`completeSignup(string $first_name, string $last_name = ''): array`](#completeSignup)
 * [`discardCall(int $id, \danog\MadelineProto\VoIP\DiscardReason $reason = \danog\MadelineProto\VoIP\DiscardReason::HANGUP, int<1, 5> $rating = NULL, string $comment = NULL): void`](#discardCall)
-* [`discardSecretChat(int $chat): void`](#discardSecretChat)
+* [`discardSecretChat(int $chat, bool $deleteHistory = false): void`](#discardSecretChat)
 * [`downloadServer(string $session): void`](#downloadServer)
 * [`downloadToBrowser((array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message) $messageMedia, (null|callable) $cb = NULL, (null|int) $size = NULL, (null|string) $name = NULL, (null|string) $mime = NULL, ?\Amp\Cancellation $cancellation = NULL): void`](#downloadToBrowser)
 * [`downloadToCallable(mixed $messageMedia, (callable|\danog\MadelineProto\FileCallbackInterface) $callable, callable $cb = NULL, bool $seekable = true, int $offset = 0, int $end = -1, int $part_size = NULL, ?\Amp\Cancellation $cancellation = NULL): void`](#downloadToCallable)
@@ -744,7 +744,7 @@ Parameters:
 
 
 
-### <a name="discardSecretChat"></a> `discardSecretChat(int $chat): void`
+### <a name="discardSecretChat"></a> `discardSecretChat(int $chat, bool $deleteHistory = false): void`
 
 Discard secret chat.
 
@@ -752,6 +752,7 @@ Discard secret chat.
 Parameters:
 
 * `$chat`: `int` Secret chat ID  
+* `$deleteHistory`: `bool` If true, deletes the entire chat history for the other user as well.  
 
 
 

@@ -58,6 +58,7 @@ All messages associated to the same album will have an identical grouped ID.
 
 ## Method list:
 * [`getReply(string $class = 'danog\\MadelineProto\\EventHandler\\Message\\SecretMessage'): ?\danog\MadelineProto\EventHandler\Message\SecretMessage`](#getReply)
+* [`delete(boolean $revoke = true): void`](#delete)
 * [`screenShot(): \danog\MadelineProto\EventHandler\Message\Service\DialogScreenshotTaken`](#screenShot)
 * [`pin(bool $pmOneside = false, bool $silent = false): void`](#pin)
 * [`unpin(bool $pmOneside = false, bool $silent = false): ?\danog\MadelineProto\EventHandler\Update`](#unpin)
@@ -75,7 +76,6 @@ All messages associated to the same album will have an identical grouped ID.
 * [`forward((integer|string) $peer, list<int> $id = [], bool $dropAuthor = false, bool $dropCaption = false, int $topicId = 1, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $score = false, (integer|null) $scheduleDate = NULL, (integer|string|null) $sendAs = NULL): non-empty-list<\danog\MadelineProto\EventHandler\Message>`](#forward)
 * [`getHTML(bool $allowTelegramTags = false): string`](#getHTML)
 * [`isReply(): bool`](#isReply)
-* [`delete(boolean $revoke = true): void`](#delete)
 * [`reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $noWebpage = false, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#reply)
 * [`replyDocument((\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?string $mimeType = NULL, ?int $ttl = NULL, bool $spoiler = false, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#replyDocument)
 * [`replyVideo((\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, string $mimeType = 'video/mp4', (integer|null) $ttl = NULL, boolean $spoiler = false, boolean $roundMessage = false, boolean $supportsStreaming = true, boolean $noSound = false, (integer|null) $duration = NULL, (integer|null) $width = NULL, (integer|null) $height = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, bool $updateStickersetsOrder = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#replyVideo)
@@ -104,6 +104,17 @@ All messages associated to the same album will have an identical grouped ID.
 Parameters:
 
 * `$class`: `string`   
+
+
+
+### <a name="delete"></a> `delete(boolean $revoke = true): void`
+
+Delete the message.
+
+
+Parameters:
+
+* `$revoke`: `boolean` Whether to delete the message for all participants of the chat.  
 
 
 
@@ -327,17 +338,6 @@ Parameters:
 ### <a name="isReply"></a> `isReply(): bool`
 
 Check if the current message replies to another message.
-
-
-
-### <a name="delete"></a> `delete(boolean $revoke = true): void`
-
-Delete the message.
-
-
-Parameters:
-
-* `$revoke`: `boolean` Whether to delete the message for all participants of the chat.  
 
 
 
