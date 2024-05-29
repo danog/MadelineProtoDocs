@@ -1,7 +1,7 @@
 ---
 title: "Installation"
 description: "There are various ways to install MadelineProto:"
-nav_order: 9
+nav_order: 10
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Installation

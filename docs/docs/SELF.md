@@ -1,7 +1,7 @@
 ---
 title: "Getting info about the current user"
 description: "Here's how you can fetch info about the currently logged in user"
-nav_order: 16
+nav_order: 17
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Getting info about the current user

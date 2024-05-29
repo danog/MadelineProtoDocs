@@ -1,7 +1,7 @@
 ---
 title: "Async"
 description: "MadelineProto now features async, for incredible speed improvements, and parallel processing, all powered by amphp."
-nav_order: 27
+nav_order: 28
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Async

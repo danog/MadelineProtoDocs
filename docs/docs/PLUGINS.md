@@ -1,7 +1,7 @@
 ---
 title: "Plugins"
 description: "MadelineProto offers a native plugin system, based on event handlers!"
-nav_order: 13
+nav_order: 14
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Plugins

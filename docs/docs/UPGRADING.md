@@ -1,7 +1,7 @@
 ---
 title: "Upgrading from MadelineProto v7 to v8"
 description: "MadelineProto v8 is a major MadelineProto update, that removes a large number of long-deprecated APIs: I've created this upgrade checklist, to simplify the upgrade process."
-nav_order: 29
+nav_order: 30
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Upgrading from MadelineProto v7 to v8

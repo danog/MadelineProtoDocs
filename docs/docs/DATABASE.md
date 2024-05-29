@@ -1,7 +1,7 @@
 ---
 title: "Database"
 description: "MadelineProto optionally can keep some of its internal data in a database, such as mysql, mariadb, postgres or redis (you can also add your own!), reducing RAM usage."
-nav_order: 14
+nav_order: 15
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Database

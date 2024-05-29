@@ -1,7 +1,7 @@
 ---
 title: "Filters"
 description: "MadelineProto offers a very simple and intuitive message filtering system, based on PHP's type system and attributes."
-nav_order: 12
+nav_order: 13
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Filters

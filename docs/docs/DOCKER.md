@@ -159,7 +159,7 @@ services:
 
 Create the following `Caddyfile` in the same folder:
 
-```
+```bash
 {
   email daniil@daniil.it
 }
@@ -198,7 +198,7 @@ If you want to test locally without obtaining a certificate for a domain, replac
 
 Optionally, you may also add custom extensions by creating a custom docker image with the following `Dockerfile`, for example to install the `gd` and `bcmath` extensions:
 
-```
+```bash
 FROM hub.madelineproto.xyz/danog/madelineproto:latest
 
 ADD https://github.com/mlocati/docker-php-extension-installer/releases/latest/download/install-php-extensions /usr/local/bin/
@@ -227,4 +227,4 @@ services:
     command: php /app/bot.php
 ```
 
-<a href="https://docs.madelineproto.xyz/docs/INSTALLATION.html">Next section</a>
+<a href="https://docs.madelineproto.xyz/docs/METRICS.html">Next section</a>

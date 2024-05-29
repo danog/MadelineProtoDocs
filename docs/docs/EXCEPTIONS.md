@@ -1,7 +1,7 @@
 ---
 title: "Exceptions"
 description: "MadelineProto can throw lots of different exceptions."
-nav_order: 17
+nav_order: 18
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Exceptions

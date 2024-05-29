@@ -1,7 +1,7 @@
 ---
 title: "Broadcasting messages to all users"
 description: "MadelineProto can be used to broadcast messages to all users, chats and channels of a bot or userbot."
-nav_order: 10
+nav_order: 11
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Broadcasting messages to all users
