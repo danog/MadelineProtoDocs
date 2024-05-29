@@ -163,8 +163,6 @@ use danog\MadelineProto\Settings\Database\Redis;
 use danog\MadelineProto\SimpleEventHandler;
 use danog\MadelineProto\VoIP;
 
-use function Amp\Socket\SocketAddress\fromString;
-
 // MadelineProto is already loaded
 if (class_exists(API::class)) {
     // Otherwise, if a stable version of MadelineProto was installed via composer, load composer autoloader
