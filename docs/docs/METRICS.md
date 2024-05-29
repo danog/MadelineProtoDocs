@@ -6,7 +6,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Metrics
 
-MadelineProto can expose many useful metrics, that can be visualized using [the official MadelineProto Grafana dashboard](https://grafana.com/grafana/dashboards/21168).  
+MadelineProto can expose many useful metrics, that can be visualized using [the official MadelineProto Grafana dashboard](https://grafana.com/grafana/dashboards/21168-madelineproto/).  
 
 ![grafana dashboard preview](https://docs.madelineproto.xyz/grafana.png)
 
