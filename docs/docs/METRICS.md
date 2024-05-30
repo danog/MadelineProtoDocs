@@ -101,7 +101,7 @@ On the import screen, insert the ID of the MadelineProto dashboard, `21168`.
 
 Next, click your hosted prometheus instance as the source.
 
-![Grafana.com visualization](https://spatie.be/docs/laravel-prometheus/v1/images/prometheus-source.jpg).
+![Grafana.com visualization](https://spatie.be/docs/laravel-prometheus/v1/images/prometheus-source.jpg)
 
 And you're done!
 
