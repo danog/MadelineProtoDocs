@@ -20,6 +20,7 @@ Request an SMS code via Firebase.
 |phone\_number|[string](/API_docs/types/string.html) | Phone number | Optional|
 |phone\_code\_hash|[string](/API_docs/types/string.html) | Phone code hash returned by [auth.sendCode](../methods/auth.sendCode.html) | Optional|
 |safety\_net\_token|[string](/API_docs/types/string.html) | On Android, a JWS object obtained as described in the [auth documentation »](https://core.telegram.org/api/auth) | Optional|
+|play\_integrity\_token|[string](/API_docs/types/string.html) |  | Optional|
 |ios\_push\_secret|[string](/API_docs/types/string.html) | Secret token received via an apple push notification | Optional|
 
 
@@ -40,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->auth->requestFirebaseSms(phone_number: 'string', phone_code_hash: 'string', safety_net_token: 'string', ios_push_secret: 'string', );
+$Bool = $MadelineProto->auth->requestFirebaseSms(phone_number: 'string', phone_code_hash: 'string', safety_net_token: 'string', play_integrity_token: 'string', ios_push_secret: 'string', );
 ```
 

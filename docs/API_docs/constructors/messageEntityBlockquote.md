@@ -15,6 +15,7 @@ Message entity representing a block quote.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|collapsed|[Bool](/API_docs/types/Bool.html) | Optional|
 |offset|[int](/API_docs/types/int.html) | Yes|Offset of message entity within message (in [UTF-16 code units](https://core.telegram.org/api/entities#entity-length))|
 |length|[int](/API_docs/types/int.html) | Yes|Length of message entity within message (in [UTF-16 code units](https://core.telegram.org/api/entities#entity-length))|
 
@@ -26,5 +27,5 @@ Message entity representing a block quote.
 ### Example:
 
 ```
-$messageEntityBlockquote = ['_' => 'messageEntityBlockquote', 'offset' => int, 'length' => int];
+$messageEntityBlockquote = ['_' => 'messageEntityBlockquote', 'collapsed' => Bool, 'offset' => int, 'length' => int];
 ```  

@@ -14,6 +14,8 @@ redirect_from: /API_docs/types/payments_PaymentReceipt.html
 
 [payments.paymentReceipt](/API_docs/constructors/payments.paymentReceipt.html)  
 
+[payments.paymentReceiptStars](/API_docs/constructors/payments.paymentReceiptStars.html)  
+
 
 
 ### Methods that return an object of this type (methods):

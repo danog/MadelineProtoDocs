@@ -53,6 +53,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageEntityBlockquote](/API_docs/constructors/messageEntityBlockquote.html)  
 
+[messageEntityBlockquote\_101](/API_docs/constructors/messageEntityBlockquote_101.html)  
+
 
 
 ### Methods that return an object of this type (methods):

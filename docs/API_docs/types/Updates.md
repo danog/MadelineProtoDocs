@@ -130,6 +130,10 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->messages->deleteQuickReplyMessages](/API_docs/methods/messages.deleteQuickReplyMessages.html)  
 
+[$MadelineProto->messages->editFactCheck](/API_docs/methods/messages.editFactCheck.html)  
+
+[$MadelineProto->messages->deleteFactCheck](/API_docs/methods/messages.deleteFactCheck.html)  
+
 [$MadelineProto->channels->createChannel](/API_docs/methods/channels.createChannel.html)  
 
 [$MadelineProto->channels->editAdmin](/API_docs/methods/channels.editAdmin.html)  
@@ -195,6 +199,8 @@ $message = $MadelineProto->extractMessageId($Updates);
 [$MadelineProto->payments->applyGiftCode](/API_docs/methods/payments.applyGiftCode.html)  
 
 [$MadelineProto->payments->launchPrepaidGiveaway](/API_docs/methods/payments.launchPrepaidGiveaway.html)  
+
+[$MadelineProto->payments->refundStarsCharge](/API_docs/methods/payments.refundStarsCharge.html)  
 
 [$MadelineProto->phone->discardCall](/API_docs/methods/phone.discardCall.html)  
 

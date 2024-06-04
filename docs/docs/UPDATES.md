@@ -1183,21 +1183,13 @@ Configuration can be done entirely using persistent properties, for example **DO
 ```php
 <?php
 
-use Amp\File\read;
-use Amp\File\write;
-
-// WRONG!
-if (!read('online.txt')) {
-    write('online.txt', 'on');
-}
-
 class OnlinePlugin extends PluginEventHandler
 {
     #[Cron(period: 60.0)]
     public function cron(): void
     {
         // WRONG!
-        if (read('online.txt') === 'on') {
+        if (file_get_contents('online.txt') === 'on') {
             $this->account->updateStatus(offline: false);
         } else {
             $this->account->updateStatus(offline: true);

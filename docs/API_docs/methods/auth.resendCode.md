@@ -19,6 +19,7 @@ Resend the login code via another medium, the phone code type is determined by t
 |----------|---------------|-------------|----------|
 |phone\_number|[string](/API_docs/types/string.html) | The phone number | Optional|
 |phone\_code\_hash|[string](/API_docs/types/string.html) | The phone code hash obtained from [auth.sendCode](../methods/auth.sendCode.html) | Optional|
+|reason|[string](/API_docs/types/string.html) |  | Optional|
 
 
 ### Return type: [auth.SentCode](/API_docs/types/auth.SentCode.html)
@@ -38,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth_SentCode = $MadelineProto->auth->resendCode(phone_number: 'string', phone_code_hash: 'string', );
+$auth_SentCode = $MadelineProto->auth->resendCode(phone_number: 'string', phone_code_hash: 'string', reason: 'string', );
 ```
 

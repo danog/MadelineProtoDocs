@@ -1626,6 +1626,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels.restrictSponsoredMessages.html" name="channels.restrictSponsoredMessages">channels.restrictSponsoredMessages</a>
 
+* <a href="channels.searchPosts.html" name="channels.searchPosts">channels.searchPosts</a>
+
 * <a href="channels.setBoostsToUnblockRestrictions.html" name="channels.setBoostsToUnblockRestrictions">channels.setBoostsToUnblockRestrictions</a>
 
 * <a href="channels.setEmojiStickers.html" name="channels.setEmojiStickers">channels.setEmojiStickers</a>
@@ -1636,19 +1638,31 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="help.getTimezonesList.html" name="help.getTimezonesList">help.getTimezonesList</a>
 
+* <a href="invokeWithApnsSecret.html" name="invokeWithApnsSecret">invokeWithApnsSecret</a>
+
 * <a href="invokeWithBusinessConnection.html" name="invokeWithBusinessConnection">invokeWithBusinessConnection</a>
 
+* <a href="invokeWithGooglePlayIntegrity.html" name="invokeWithGooglePlayIntegrity">invokeWithGooglePlayIntegrity</a>
+
 * <a href="messages.checkQuickReplyShortcut.html" name="messages.checkQuickReplyShortcut">messages.checkQuickReplyShortcut</a>
+
+* <a href="messages.deleteFactCheck.html" name="messages.deleteFactCheck">messages.deleteFactCheck</a>
 
 * <a href="messages.deleteQuickReplyMessages.html" name="messages.deleteQuickReplyMessages">messages.deleteQuickReplyMessages</a>
 
 * <a href="messages.deleteQuickReplyShortcut.html" name="messages.deleteQuickReplyShortcut">messages.deleteQuickReplyShortcut</a>
 
+* <a href="messages.editFactCheck.html" name="messages.editFactCheck">messages.editFactCheck</a>
+
 * <a href="messages.editQuickReplyShortcut.html" name="messages.editQuickReplyShortcut">messages.editQuickReplyShortcut</a>
+
+* <a href="messages.getAvailableEffects.html" name="messages.getAvailableEffects">messages.getAvailableEffects</a>
 
 * <a href="messages.getDefaultTagReactions.html" name="messages.getDefaultTagReactions">messages.getDefaultTagReactions</a>
 
 * <a href="messages.getEmojiStickerGroups.html" name="messages.getEmojiStickerGroups">messages.getEmojiStickerGroups</a>
+
+* <a href="messages.getFactCheck.html" name="messages.getFactCheck">messages.getFactCheck</a>
 
 * <a href="messages.getMyStickers.html" name="messages.getMyStickers">messages.getMyStickers</a>
 
@@ -1671,6 +1685,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleDecode" name="rleDecode">null-byte RLE decode: rleDecode</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleEncode" name="rleEncode">null-byte RLE encode: rleEncode</a>
+
+* <a href="payments.getStarsStatus.html" name="payments.getStarsStatus">payments.getStarsStatus</a>
+
+* <a href="payments.getStarsTopupOptions.html" name="payments.getStarsTopupOptions">payments.getStarsTopupOptions</a>
+
+* <a href="payments.getStarsTransactions.html" name="payments.getStarsTransactions">payments.getStarsTransactions</a>
+
+* <a href="payments.refundStarsCharge.html" name="payments.refundStarsCharge">payments.refundStarsCharge</a>
+
+* <a href="payments.sendStarsForm.html" name="payments.sendStarsForm">payments.sendStarsForm</a>
 
 * <a href="smsjobs.finishJob.html" name="smsjobs.finishJob">smsjobs.finishJob</a>
 

@@ -22,5 +22,7 @@ redirect_from: /API_docs/types/payments_PaymentResult.html
 
 [$MadelineProto->payments->sendPaymentForm](/API_docs/methods/payments.sendPaymentForm.html)  
 
+[$MadelineProto->payments->sendStarsForm](/API_docs/methods/payments.sendStarsForm.html)  
+
 
 

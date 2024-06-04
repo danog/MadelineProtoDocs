@@ -281,6 +281,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateNewStoryReaction](/API_docs/constructors/updateNewStoryReaction.html)  
 
+[updateBroadcastRevenueTransactions](/API_docs/constructors/updateBroadcastRevenueTransactions.html)  
+
+[updateStarsBalance](/API_docs/constructors/updateStarsBalance.html)  
+
 
 
 ### Methods that return an object of this type (methods):

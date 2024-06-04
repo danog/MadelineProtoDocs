@@ -31,6 +31,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [AutoSaveSettings](/API_docs/types/AutoSaveSettings.html)<a name="AutoSaveSettings"></a>  
 
+[AvailableEffect](/API_docs/types/AvailableEffect.html)<a name="AvailableEffect"></a>  
+
 [AvailableReaction](/API_docs/types/AvailableReaction.html)<a name="AvailableReaction"></a>  
 
 [BankCardOpenUrl](/API_docs/types/BankCardOpenUrl.html)<a name="BankCardOpenUrl"></a>  
@@ -200,6 +202,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [ExportedMessageLink](/API_docs/types/ExportedMessageLink.html)<a name="ExportedMessageLink"></a>  
 
 [ExportedStoryLink](/API_docs/types/ExportedStoryLink.html)<a name="ExportedStoryLink"></a>  
+
+[FactCheck](/API_docs/types/FactCheck.html)<a name="FactCheck"></a>  
 
 [FileHash](/API_docs/types/FileHash.html)<a name="FileHash"></a>  
 
@@ -565,6 +569,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [SponsoredMessageReportOption](/API_docs/types/SponsoredMessageReportOption.html)<a name="SponsoredMessageReportOption"></a>  
 
+[StarsTopupOption](/API_docs/types/StarsTopupOption.html)<a name="StarsTopupOption"></a>  
+
+[StarsTransaction](/API_docs/types/StarsTransaction.html)<a name="StarsTransaction"></a>  
+
+[StarsTransactionPeer](/API_docs/types/StarsTransactionPeer.html)<a name="StarsTransactionPeer"></a>  
+
 [StatsAbsValueAndPrev](/API_docs/types/StatsAbsValueAndPrev.html)<a name="StatsAbsValueAndPrev"></a>  
 
 [StatsDateRangeDays](/API_docs/types/StatsDateRangeDays.html)<a name="StatsDateRangeDays"></a>  
@@ -805,6 +815,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messages.ArchivedStickers](/API_docs/types/messages.ArchivedStickers.html)<a name="messages.ArchivedStickers"></a>  
 
+[messages.AvailableEffects](/API_docs/types/messages.AvailableEffects.html)<a name="messages.AvailableEffects"></a>  
+
 [messages.AvailableReactions](/API_docs/types/messages.AvailableReactions.html)<a name="messages.AvailableReactions"></a>  
 
 [messages.BotApp](/API_docs/types/messages.BotApp.html)<a name="messages.BotApp"></a>  
@@ -920,6 +932,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [payments.PaymentResult](/API_docs/types/payments.PaymentResult.html)<a name="payments.PaymentResult"></a>  
 
 [payments.SavedInfo](/API_docs/types/payments.SavedInfo.html)<a name="payments.SavedInfo"></a>  
+
+[payments.StarsStatus](/API_docs/types/payments.StarsStatus.html)<a name="payments.StarsStatus"></a>  
 
 [payments.ValidatedRequestedInfo](/API_docs/types/payments.ValidatedRequestedInfo.html)<a name="payments.ValidatedRequestedInfo"></a>  
 
