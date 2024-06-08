@@ -1,6 +1,6 @@
 ---
 title: "danog\\MadelineProto\\EventHandler\\Update: Represents a generic update."
-description: ""
+description: "\nNOTE: use serialize(), not json_encode() to serialize updates.\n\njson_encode() may only be used for logging updates.\n"
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
@@ -13,6 +13,10 @@ parent: "MadelineProto API"
 
 Represents a generic update.  
 
+
+NOTE: use serialize(), not json_encode() to serialize updates.
+
+json_encode() may only be used for logging updates.
 
 
 ---
