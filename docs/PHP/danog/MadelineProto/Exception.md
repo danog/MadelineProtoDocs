@@ -28,10 +28,7 @@ Basic exception.
 * [`getTrace(): array`](#getTrace)
 * [`getPrevious(): ?Throwable`](#getPrevious)
 * [`getTraceAsString(): string`](#getTraceAsString)
-* [`updateTLTrace(array $trace): void`](#updateTLTrace)
 * [`getTLTrace(): string`](#getTLTrace)
-* [`setTLTrace(string $tlTrace): void`](#setTLTrace)
-* [`prettifyTL(string $init = '', array $trace = NULL): void`](#prettifyTL)
 
 ## Methods:
 ### <a name="__construct"></a> `__construct(mixed $message = NULL, mixed $code = 0, ?Throwable $previous = NULL, mixed $file = NULL, mixed $line = NULL)`
@@ -112,43 +109,9 @@ Parameters:
 
 
 
-### <a name="updateTLTrace"></a> `updateTLTrace(array $trace): void`
-
-Update TL trace.
-
-
-Parameters:
-
-* `$trace`: `array`   
-
-
-
 ### <a name="getTLTrace"></a> `getTLTrace(): string`
 
 Get TL trace.
-
-
-
-### <a name="setTLTrace"></a> `setTLTrace(string $tlTrace): void`
-
-Set TL trace.
-
-
-Parameters:
-
-* `$tlTrace`: `string` TL trace  
-
-
-
-### <a name="prettifyTL"></a> `prettifyTL(string $init = '', array $trace = NULL): void`
-
-Generate async trace.
-
-
-Parameters:
-
-* `$init`: `string` Method name  
-* `$trace`: `array` Async trace  
 
 
 

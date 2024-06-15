@@ -16,12 +16,11 @@ The specified `video_emoji_markup` was invalid.
 
 
 ## Properties
-* `$rpc`: `string` RPC error
+* `$rpc`: `string` RPC error.
+* `$description`: `string` Human-readable description of RPC error.
 * `$tlTrace`: `string` TL trace.
 
 ## Method list:
-* [`__construct(string $caller, ?Exception $previous = NULL)`](#__construct)
-* [`localizeMessage(mixed $method, int $code, string $error): string`](#localizeMessage)
 * [`getLocalization(): string`](#getLocalization)
 * [`getMessage(): string`](#getMessage)
 * [`getCode()`](#getCode)
@@ -30,42 +29,9 @@ The specified `video_emoji_markup` was invalid.
 * [`getTrace(): array`](#getTrace)
 * [`getPrevious(): ?Throwable`](#getPrevious)
 * [`getTraceAsString(): string`](#getTraceAsString)
-* [`updateTLTrace(array $trace): void`](#updateTLTrace)
 * [`getTLTrace(): string`](#getTLTrace)
-* [`setTLTrace(string $tlTrace): void`](#setTLTrace)
-* [`prettifyTL(string $init = '', array $trace = NULL): void`](#prettifyTL)
 
 ## Methods:
-### <a name="__construct"></a> `__construct(string $caller, ?Exception $previous = NULL)`
-
-
-
-
-Parameters:
-
-* `$caller`: `string`   
-* `$previous`: `?Exception`   
-
-
-#### See also: 
-* `Exception`
-
-
-
-
-### <a name="localizeMessage"></a> `localizeMessage(mixed $method, int $code, string $error): string`
-
-
-
-
-Parameters:
-
-* `$method`: `mixed`   
-* `$code`: `int`   
-* `$error`: `string`   
-
-
-
 ### <a name="getLocalization"></a> `getLocalization(): string`
 
 Get localized error name.
@@ -119,43 +85,9 @@ Get localized error name.
 
 
 
-### <a name="updateTLTrace"></a> `updateTLTrace(array $trace): void`
-
-Update TL trace.
-
-
-Parameters:
-
-* `$trace`: `array`   
-
-
-
 ### <a name="getTLTrace"></a> `getTLTrace(): string`
 
 Get TL trace.
-
-
-
-### <a name="setTLTrace"></a> `setTLTrace(string $tlTrace): void`
-
-Set TL trace.
-
-
-Parameters:
-
-* `$tlTrace`: `string` TL trace  
-
-
-
-### <a name="prettifyTL"></a> `prettifyTL(string $init = '', array $trace = NULL): void`
-
-Generate async trace.
-
-
-Parameters:
-
-* `$init`: `string` Method name  
-* `$trace`: `array` Async trace  
 
 
 

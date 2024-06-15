@@ -16,13 +16,12 @@ Indicates an error returned by Telegram's API.
 
 
 ## Properties
-* `$rpc`: `string` RPC error
+* `$rpc`: `string` RPC error.
+* `$description`: `string` Human-readable description of RPC error.
 * `$tlTrace`: `string` TL trace.
 
 ## Method list:
-* [`localizeMessage(mixed $method, int $code, string $error): string`](#localizeMessage)
 * [`getLocalization(): string`](#getLocalization)
-* [`__construct(string $rpc, int $code, string $caller, ?\danog\MadelineProto\Exception $previous = NULL)`](#__construct)
 * [`getMessage(): string`](#getMessage)
 * [`getCode()`](#getCode)
 * [`getFile(): string`](#getFile)
@@ -30,47 +29,12 @@ Indicates an error returned by Telegram's API.
 * [`getTrace(): array`](#getTrace)
 * [`getPrevious(): ?Throwable`](#getPrevious)
 * [`getTraceAsString(): string`](#getTraceAsString)
-* [`updateTLTrace(array $trace): void`](#updateTLTrace)
 * [`getTLTrace(): string`](#getTLTrace)
-* [`setTLTrace(string $tlTrace): void`](#setTLTrace)
-* [`prettifyTL(string $init = '', array $trace = NULL): void`](#prettifyTL)
 
 ## Methods:
-### <a name="localizeMessage"></a> `localizeMessage(mixed $method, int $code, string $error): string`
-
-
-
-
-Parameters:
-
-* `$method`: `mixed`   
-* `$code`: `int`   
-* `$error`: `string`   
-
-
-
 ### <a name="getLocalization"></a> `getLocalization(): string`
 
 Get localized error name.
-
-
-
-### <a name="__construct"></a> `__construct(string $rpc, int $code, string $caller, ?\danog\MadelineProto\Exception $previous = NULL)`
-
-
-
-
-Parameters:
-
-* `$rpc`: `string`   
-* `$code`: `int`   
-* `$caller`: `string`   
-* `$previous`: `?\danog\MadelineProto\Exception`   
-
-
-#### See also: 
-* [`\danog\MadelineProto\Exception`: Basic exception.](../../danog/MadelineProto/Exception.html)
-
 
 
 
@@ -121,43 +85,9 @@ Parameters:
 
 
 
-### <a name="updateTLTrace"></a> `updateTLTrace(array $trace): void`
-
-Update TL trace.
-
-
-Parameters:
-
-* `$trace`: `array`   
-
-
-
 ### <a name="getTLTrace"></a> `getTLTrace(): string`
 
 Get TL trace.
-
-
-
-### <a name="setTLTrace"></a> `setTLTrace(string $tlTrace): void`
-
-Set TL trace.
-
-
-Parameters:
-
-* `$tlTrace`: `string` TL trace  
-
-
-
-### <a name="prettifyTL"></a> `prettifyTL(string $init = '', array $trace = NULL): void`
-
-Generate async trace.
-
-
-Parameters:
-
-* `$init`: `string` Method name  
-* `$trace`: `array` Async trace  
 
 
 
