@@ -22,8 +22,7 @@ Indicates an error returned by Telegram's API.
 ## Method list:
 * [`localizeMessage(mixed $method, int $code, string $error): string`](#localizeMessage)
 * [`getLocalization(): string`](#getLocalization)
-* [`setLocalization(string $localization): void`](#setLocalization)
-* [`__construct(string $rpc, int $code = 0, mixed $caller = '', ?\danog\MadelineProto\Exception $previous = NULL)`](#__construct)
+* [`__construct(string $rpc, int $code, string $caller, ?\danog\MadelineProto\Exception $previous = NULL)`](#__construct)
 * [`getMessage(): string`](#getMessage)
 * [`getCode()`](#getCode)
 * [`getFile(): string`](#getFile)
@@ -56,18 +55,7 @@ Get localized error name.
 
 
 
-### <a name="setLocalization"></a> `setLocalization(string $localization): void`
-
-Set localized error name.
-
-
-Parameters:
-
-* `$localization`: `string`   
-
-
-
-### <a name="__construct"></a> `__construct(string $rpc, int $code = 0, mixed $caller = '', ?\danog\MadelineProto\Exception $previous = NULL)`
+### <a name="__construct"></a> `__construct(string $rpc, int $code, string $caller, ?\danog\MadelineProto\Exception $previous = NULL)`
 
 
 
@@ -76,7 +64,7 @@ Parameters:
 
 * `$rpc`: `string`   
 * `$code`: `int`   
-* `$caller`: `mixed`   
+* `$caller`: `string`   
 * `$previous`: `?\danog\MadelineProto\Exception`   
 
 

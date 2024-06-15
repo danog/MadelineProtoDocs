@@ -16,16 +16,16 @@ Represents a FLOOD_WAIT_ RPC error returned by telegram.
 
 
 ## Properties
+* `$waitTime`: `int` 
 * `$rpc`: `string` RPC error
 * `$tlTrace`: `string` TL trace.
 
 ## Method list:
-* [`__construct(mixed $message = NULL, mixed $code = 0, mixed $caller = '', ?\Exception $previous = NULL)`](#__construct)
+* [`__construct(string $message, int $code, string $caller, ?\Exception $previous = NULL)`](#__construct)
 * [`getWaitTime(): int`](#getWaitTime)
 * [`wait(): void`](#wait)
 * [`localizeMessage(mixed $method, int $code, string $error): string`](#localizeMessage)
 * [`getLocalization(): string`](#getLocalization)
-* [`setLocalization(string $localization): void`](#setLocalization)
 * [`getMessage(): string`](#getMessage)
 * [`getCode()`](#getCode)
 * [`getFile(): string`](#getFile)
@@ -39,16 +39,16 @@ Represents a FLOOD_WAIT_ RPC error returned by telegram.
 * [`prettifyTL(string $init = '', array $trace = NULL): void`](#prettifyTL)
 
 ## Methods:
-### <a name="__construct"></a> `__construct(mixed $message = NULL, mixed $code = 0, mixed $caller = '', ?\Exception $previous = NULL)`
+### <a name="__construct"></a> `__construct(string $message, int $code, string $caller, ?\Exception $previous = NULL)`
 
 
 
 
 Parameters:
 
-* `$message`: `mixed`   
-* `$code`: `mixed`   
-* `$caller`: `mixed`   
+* `$message`: `string`   
+* `$code`: `int`   
+* `$caller`: `string`   
 * `$previous`: `?\Exception`   
 
 
@@ -86,17 +86,6 @@ Parameters:
 ### <a name="getLocalization"></a> `getLocalization(): string`
 
 Get localized error name.
-
-
-
-### <a name="setLocalization"></a> `setLocalization(string $localization): void`
-
-Set localized error name.
-
-
-Parameters:
-
-* `$localization`: `string`   
 
 
 
