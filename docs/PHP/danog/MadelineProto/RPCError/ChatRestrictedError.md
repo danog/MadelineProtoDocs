@@ -1,6 +1,6 @@
 ---
 title: "danog\\MadelineProto\\RPCError\\ChatRestrictedError: You can't send messages in this chat, you were restricted."
-description: ""
+description: "\nNote: this exception is part of the raw API, and thus is not covered by the backwards-compatibility promise.\n\nAlways check the changelog when upgrading, and use tools like Psalm to easily upgrade your code.\n"
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
@@ -13,6 +13,10 @@ parent: "MadelineProto API"
 
 You can't send messages in this chat, you were restricted.  
 
+
+Note: this exception is part of the raw API, and thus is not covered by the backwards-compatibility promise.
+
+Always check the changelog when upgrading, and use tools like Psalm to easily upgrade your code.
 
 
 ## Properties
