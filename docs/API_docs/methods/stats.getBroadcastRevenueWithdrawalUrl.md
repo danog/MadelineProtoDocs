@@ -21,7 +21,7 @@ redirect_from: /API_docs/methods/stats_getBroadcastRevenueWithdrawalUrl.html
 
 ### Return type: [stats.BroadcastRevenueWithdrawalUrl](/API_docs/types/stats.BroadcastRevenueWithdrawalUrl.html)
 
-### Can bots use this method: **YES**
+### Can bots use this method: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

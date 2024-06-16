@@ -22,7 +22,7 @@ redirect_from: /API_docs/methods/messages_getQuickReplyMessages.html
 
 ### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)
 
-### Can bots use this method: **YES**
+### Can bots use this method: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

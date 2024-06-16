@@ -22,7 +22,7 @@ redirect_from: /API_docs/methods/stats_getBroadcastRevenueTransactions.html
 
 ### Return type: [stats.BroadcastRevenueTransactions](/API_docs/types/stats.BroadcastRevenueTransactions.html)
 
-### Can bots use this method: **YES**
+### Can bots use this method: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

@@ -15,7 +15,7 @@ redirect_from: /API_docs/methods/smsjobs_getStatus.html
 
 ### Return type: [smsjobs.Status](/API_docs/types/smsjobs.Status.html)
 
-### Can bots use this method: **YES**
+### Can bots use this method: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
