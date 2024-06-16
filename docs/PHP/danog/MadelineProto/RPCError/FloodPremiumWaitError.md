@@ -1,17 +1,17 @@
 ---
-title: "danog\\MadelineProto\\RPCError\\FloodWaitError: Represents a FLOOD_WAIT_ RPC error returned by telegram."
+title: "danog\\MadelineProto\\RPCError\\FloodPremiumWaitError: Represents a FLOOD_PREMIUM_WAIT_ RPC error returned by telegram."
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
 ---
-# `danog\MadelineProto\RPCError\FloodWaitError`
+# `danog\MadelineProto\RPCError\FloodPremiumWaitError`
 [Back to index](../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Represents a FLOOD_WAIT_ RPC error returned by telegram.  
+Represents a FLOOD_PREMIUM_WAIT_ RPC error returned by telegram.  
 
 
 
