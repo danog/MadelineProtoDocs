@@ -381,6 +381,7 @@ Async PHP client API for the telegram MTProto protocol.
 * [\danog\MadelineProto\RPCError\PrivacyPremiumRequiredError: You need a [Telegram Premium subscription](https://core.telegram.org/api/premium) to send a message to this user.](/PHP/danog/MadelineProto/RPCError/PrivacyPremiumRequiredError.html)
 * [\danog\MadelineProto\RPCError\QuizCorrectAnswersTooMuchError: You specified too many correct answers in a quiz, quizzes can only have one right answer!](/PHP/danog/MadelineProto/RPCError/QuizCorrectAnswersTooMuchError.html)
 * [\danog\MadelineProto\RPCError\RateLimitError: Represents a rate limiting RPC error returned by telegram.](/PHP/danog/MadelineProto/RPCError/RateLimitError.html)
+* [\danog\MadelineProto\RPCError\RequestTokenInvalidError: The master DC did not accept the `request_token` from the CDN DC. Continue downloading the file from the master DC using upload.getFile.](/PHP/danog/MadelineProto/RPCError/RequestTokenInvalidError.html)
 * [\danog\MadelineProto\RPCError\ScheduleBotNotAllowedError: Bots cannot schedule messages.](/PHP/danog/MadelineProto/RPCError/ScheduleBotNotAllowedError.html)
 * [\danog\MadelineProto\RPCError\ScheduleDateTooLateError: You can't schedule a message this far in the future.](/PHP/danog/MadelineProto/RPCError/ScheduleDateTooLateError.html)
 * [\danog\MadelineProto\RPCError\ScheduleStatusPrivateError: Can't schedule until user is online, if the user's last seen timestamp is hidden by their privacy settings.](/PHP/danog/MadelineProto/RPCError/ScheduleStatusPrivateError.html)
