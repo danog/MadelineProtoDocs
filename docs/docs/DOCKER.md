@@ -25,7 +25,7 @@ To get started, install `docker`:
 curl -fsSL https://get.docker.com | sudo sh
 ```
 
-Then increase the `max_map_count` sysctl configuration to avoid "Fiber stack allocate failed" and "Fiber stack protect failed" errors, since the PHP engine mmaps two memory regions per fiber.  
+Then increase the `max_map_count` sysctl configuration to avoid "Fiber stack allocate failed" and "Fiber stack protect failed" errors, since the PHP engine maps two memory regions per fiber.  
 
 ```bash
 echo 262144 | sudo tee /proc/sys/vm/max_map_count
