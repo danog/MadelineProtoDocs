@@ -342,6 +342,7 @@ Async PHP client API for the telegram MTProto protocol.
 * [\danog\MadelineProto\RPCError\ButtonUserPrivacyRestrictedError: The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button.](/PHP/danog/MadelineProto/RPCError/ButtonUserPrivacyRestrictedError.html)
 * [\danog\MadelineProto\RPCError\CallAlreadyAcceptedError: The call was already accepted.](/PHP/danog/MadelineProto/RPCError/CallAlreadyAcceptedError.html)
 * [\danog\MadelineProto\RPCError\CallAlreadyDeclinedError: The call was already declined.](/PHP/danog/MadelineProto/RPCError/CallAlreadyDeclinedError.html)
+* [\danog\MadelineProto\RPCError\ChannelInvalidError: The provided channel is invalid.](/PHP/danog/MadelineProto/RPCError/ChannelInvalidError.html)
 * [\danog\MadelineProto\RPCError\ChannelPrivateError: You haven't joined this channel/supergroup.](/PHP/danog/MadelineProto/RPCError/ChannelPrivateError.html)
 * [\danog\MadelineProto\RPCError\ChatAdminRequiredError: You must be an admin in this chat to do this.](/PHP/danog/MadelineProto/RPCError/ChatAdminRequiredError.html)
 * [\danog\MadelineProto\RPCError\ChatForbiddenError: This chat is not available to the current user.](/PHP/danog/MadelineProto/RPCError/ChatForbiddenError.html)

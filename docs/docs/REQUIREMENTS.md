@@ -44,6 +44,11 @@ echo ffi.enable=1 | sudo tee $(php --ini | sed '/additional .ini/!d;s/.*: //g')/
 echo 262144 | sudo tee /proc/sys/vm/max_map_count
 echo vm.max_map_count=262144 | sudo tee /etc/sysctl.d/40-madelineproto.conf
 
+sudo mkdir -p /etc/security/limits.d/
+
+echo '* soft nofile 1048576' | sudo tee -a /etc/security/limits.d/40-madelineproto.conf
+echo '* hard nofile 1048576' | sudo tee -a /etc/security/limits.d/40-madelineproto.conf
+
 cd /tmp
 sudo apt-get install build-essential
 git clone https://github.com/danog/PrimeModule-ext
@@ -51,6 +56,6 @@ cd PrimeModule-ext && make -j$(nproc) && sudo make install
 
 ```
 
-The `max_map_count` sysctl configuration is required to avoid "Fiber stack allocate failed" and "Fiber stack protect failed" errors, since the PHP engine mmaps two memory regions per fiber.  
+The `max_map_count` sysctl configuration is required to avoid "Fiber stack allocate failed" and "Fiber stack protect failed" errors, since the PHP engine mmaps two memory regions per fiber, and the `soft/hard nofile` limits increase the maximum open FD limit, to allow opening many TCP sockets for improved upload and download performance, and to avoid errors.  
 
 <a href="https://docs.madelineproto.xyz/docs/DOCKER.html">Next section</a>

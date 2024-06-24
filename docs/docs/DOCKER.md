@@ -32,6 +32,15 @@ echo 262144 | sudo tee /proc/sys/vm/max_map_count
 echo vm.max_map_count=262144 | sudo tee /etc/sysctl.d/40-madelineproto.conf
 ```
 
+Then, increase the maximum open FD limit, to allow opening many TCP sockets for improved upload and download performance and avoid errors.  
+
+```php
+sudo mkdir -p /etc/security/limits.d/
+
+echo '* soft nofile 1048576' | sudo tee -a /etc/security/limits.d/40-madelineproto.conf
+echo '* hard nofile 1048576' | sudo tee -a /etc/security/limits.d/40-madelineproto.conf
+```
+
 Finally, follow one or more of the following guides, according to your needs:
 
 ### CLI bot (recommended)
