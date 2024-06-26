@@ -388,7 +388,7 @@ Async PHP client API for the telegram MTProto protocol.
 * [\danog\MadelineProto\RPCError\ScheduleStatusPrivateError: Can't schedule until user is online, if the user's last seen timestamp is hidden by their privacy settings.](/PHP/danog/MadelineProto/RPCError/ScheduleStatusPrivateError.html)
 * [\danog\MadelineProto\RPCError\ScheduleTooMuchError: There are too many scheduled messages.](/PHP/danog/MadelineProto/RPCError/ScheduleTooMuchError.html)
 * [\danog\MadelineProto\RPCError\SessionPasswordNeededError: 2FA is enabled, use a password to login.](/PHP/danog/MadelineProto/RPCError/SessionPasswordNeededError.html)
-* [\danog\MadelineProto\RPCError\TimeoutError: Represents a request timeout RPC error returned by telegram (as opposed to one returned by MadelineProto, which will be an \Amp\TimeoutException).](/PHP/danog/MadelineProto/RPCError/TimeoutError.html)
+* [\danog\MadelineProto\RPCError\TimeoutError: Represents a request timeout RPC error returned by telegram (as opposed to one returned by MadelineProto, which will be a {@see TimeoutException}).](/PHP/danog/MadelineProto/RPCError/TimeoutError.html)
 * [\danog\MadelineProto\RPCError\TopicClosedError: This topic was closed, you can't send messages to it anymore.](/PHP/danog/MadelineProto/RPCError/TopicClosedError.html)
 * [\danog\MadelineProto\RPCError\TopicDeletedError: The specified topic was deleted.](/PHP/danog/MadelineProto/RPCError/TopicDeletedError.html)
 * [\danog\MadelineProto\RPCError\UserBannedInChannelError: You're banned from sending messages in supergroups/channels.](/PHP/danog/MadelineProto/RPCError/UserBannedInChannelError.html)

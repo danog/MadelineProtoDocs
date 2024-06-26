@@ -1,5 +1,5 @@
 ---
-title: "danog\\MadelineProto\\RPCError\\TimeoutError: Represents a request timeout RPC error returned by telegram (as opposed to one returned by MadelineProto, which will be an \\Amp\\TimeoutException)."
+title: "danog\\MadelineProto\\RPCError\\TimeoutError: Represents a request timeout RPC error returned by telegram (as opposed to one returned by MadelineProto, which will be a {@see TimeoutException})."
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
@@ -11,7 +11,12 @@ parent: "MadelineProto API"
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Represents a request timeout RPC error returned by telegram (as opposed to one returned by MadelineProto, which will be an \Amp\TimeoutException).  
+Represents a request timeout RPC error returned by telegram (as opposed to one returned by MadelineProto, which will be a {@see TimeoutException}).  
+
+
+
+#### See also: 
+* `\Amp\TimeoutException`
 
 
 
