@@ -85,7 +85,7 @@ Main API wrapper for MadelineProto.
 * [`MTProtoToBotAPI(array $data): array`](#MTProtoToBotAPI)
 * [`MTProtoToTd(mixed $params): array`](#MTProtoToTd)
 * [`MTProtoToTdcli(mixed $params): array`](#MTProtoToTdcli)
-* [`acceptCall(int $id): void`](#acceptCall)
+* [`acceptCall(int $id, ?\Amp\Cancellation $cancellation = NULL): void`](#acceptCall)
 * [`acceptSecretChat(array $params): void`](#acceptSecretChat)
 * [`arr(mixed ...$params): array`](#arr)
 * [`base64urlDecode(string $data): string`](#base64urlDecode)
@@ -143,7 +143,7 @@ Main API wrapper for MadelineProto.
 * [`getCdnConfig(): void`](#getCdnConfig)
 * [`getConfig(array $config = []): array`](#getConfig)
 * [`getDNSClient(): \Amp\Dns\DnsResolver`](#getDNSClient)
-* [`getDhConfig(): array`](#getDhConfig)
+* [`getDhConfig(?\Amp\Cancellation $cancellation = NULL): array`](#getDhConfig)
 * [`getDialogIds(): list<int>`](#getDialogIds)
 * [`getDownloadInfo(mixed $messageMedia): array{ext: string, name: string, mime: string, size: int, InputFileLocation: array, key_fingerprint?: string, key?: string, iv?: string, thumb_size?: string}`](#getDownloadInfo)
 * [`getDownloadLink(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|array|string $media, ?string $scriptUrl = NULL, ?int $size = NULL, ?string $name = NULL, ?string $mime = NULL): string`](#getDownloadLink)
@@ -379,7 +379,7 @@ Parameters:
 
 
 
-### <a name="acceptCall"></a> `acceptCall(int $id): void`
+### <a name="acceptCall"></a> `acceptCall(int $id, ?\Amp\Cancellation $cancellation = NULL): void`
 
 Accept call.
 
@@ -387,6 +387,12 @@ Accept call.
 Parameters:
 
 * `$id`: `int`   
+* `$cancellation`: `?\Amp\Cancellation`   
+
+
+#### See also: 
+* `\Amp\Cancellation`
+
 
 
 
@@ -1234,9 +1240,19 @@ Get async DNS client.
 
 
 
-### <a name="getDhConfig"></a> `getDhConfig(): array`
+### <a name="getDhConfig"></a> `getDhConfig(?\Amp\Cancellation $cancellation = NULL): array`
 
 Get diffie-hellman configuration.
+
+
+Parameters:
+
+* `$cancellation`: `?\Amp\Cancellation`   
+
+
+#### See also: 
+* `\Amp\Cancellation`
+
 
 
 
