@@ -93,7 +93,7 @@ Plugin that offers a /restart command to admins that can be used to restart the 
 * [`extractMessageId(array $updates): int`](#extractMessageId)
 * [`extractMessageUpdate(array $updates): array`](#extractMessageUpdate)
 * [`extractUpdates(array $updates): array<array>`](#extractUpdates)
-* [`fileGetContents(string $url): string`](#fileGetContents)
+* [`fileGetContents(string $url, ?\Amp\Cancellation $cancellation = NULL): string`](#fileGetContents)
 * [`flock(string $file, integer $operation, float $polling = 0.1, ?\Amp\Cancellation $token = NULL, ?\Closure $failureCb = NULL): ($token is null ? Closure(): void : (Closure(): void | null))`](#flock)
 * [`fullChatLastUpdated(mixed $id): int`](#fullChatLastUpdated)
 * [`fullGetSelf(): array|false`](#fullGetSelf)
@@ -1060,7 +1060,7 @@ Parameters:
 
 
 
-### <a name="fileGetContents"></a> `fileGetContents(string $url): string`
+### <a name="fileGetContents"></a> `fileGetContents(string $url, ?\Amp\Cancellation $cancellation = NULL): string`
 
 Get contents of remote file asynchronously.
 
@@ -1068,6 +1068,12 @@ Get contents of remote file asynchronously.
 Parameters:
 
 * `$url`: `string` URL  
+* `$cancellation`: `?\Amp\Cancellation`   
+
+
+#### See also: 
+* `\Amp\Cancellation`
+
 
 
 
