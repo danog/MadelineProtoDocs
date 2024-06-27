@@ -29,7 +29,13 @@ try {
 
 * `\danog\MadelineProto\Exception` - Default exception, thrown when a php error occures and in a lot of other cases
 
-* `\danog\MadelineProto\RPCErrorException` - Thrown when an RPC error occurres (an error received via the MTProto API): **note** that the error message of this exception is localized in English, and may vary: to fetch the original API error message use `$e->rpc`.
+* `\danog\MadelineProto\RPCErrorException` - Thrown when an RPC error occurres (an error received via the MTProto API): **note** that the error message of this exception is localized in English, and may vary: to fetch the original API error message use `$e->rpc`.  
+
+* `\danog\MadelineProto\RPCError\RateLimitError` - Represents a rate limiting RPC error returned by telegram, extends `RPCErrorException`.
+
+* `\danog\MadelineProto\RPCError\TimeoutError` - Represents a request timeout RPC error returned by telegram (as opposed to one returned by MadelineProto, which will be an `\Amp\TimeoutException`).
+
+* Over 65 more RPC errors in the `danog\MadelineProto\RPCError` namespace that extend `RPCErrorException`, to allow usage of specialized catch blocks for the most common RPC errors, instead of just catching `RPCErrorException` and checking `$e->rpc`.  
 
 * `\danog\MadelineProto\TL\Exception` - Thrown on TL serialization/deserialization errors
 
