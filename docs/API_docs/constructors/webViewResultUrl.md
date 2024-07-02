@@ -15,7 +15,8 @@ Contains the webview URL with appropriate theme and user info parameters added
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|query\_id|[long](/API_docs/types/long.html) | Yes|Webview session ID|
+|fullsize|[Bool](/API_docs/types/Bool.html) | Optional|
+|query\_id|[long](/API_docs/types/long.html) | Optional|Webview session ID|
 |url|[string](/API_docs/types/string.html) | Yes|Webview URL to open|
 
 
@@ -26,5 +27,5 @@ Contains the webview URL with appropriate theme and user info parameters added
 ### Example:
 
 ```
-$webViewResultUrl = ['_' => 'webViewResultUrl', 'query_id' => long, 'url' => 'string'];
+$webViewResultUrl = ['_' => 'webViewResultUrl', 'fullsize' => Bool, 'query_id' => long, 'url' => 'string'];
 ```  

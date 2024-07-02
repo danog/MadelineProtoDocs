@@ -1,12 +1,12 @@
 ---
-title: "payments.getStarsTransactions"
-description: "payments.getStarsTransactions parameters, return type and example"
+title: "payments.getStarsRevenueWithdrawalUrl"
+description: "payments.getStarsRevenueWithdrawalUrl parameters, return type and example"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
-redirect_from: /API_docs/methods/payments_getStarsTransactions.html
+redirect_from: /API_docs/methods/payments_getStarsRevenueWithdrawalUrl.html
 ---
-# Method: payments.getStarsTransactions
+# Method: payments.getStarsRevenueWithdrawalUrl
 [Back to methods index](index.html)
 
 
@@ -15,15 +15,12 @@ redirect_from: /API_docs/methods/payments_getStarsTransactions.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|inbound|[Bool](/API_docs/types/Bool.html) | Optional|
-|outbound|[Bool](/API_docs/types/Bool.html) | Optional|
-|ascending|[Bool](/API_docs/types/Bool.html) | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|offset|[string](/API_docs/types/string.html) | Optional|
-|limit|[int](/API_docs/types/int.html) | Optional|
+|stars|[long](/API_docs/types/long.html) | Yes|
+|password|[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html) | Yes|
 
 
-### Return type: [payments.StarsStatus](/API_docs/types/payments.StarsStatus.html)
+### Return type: [payments.StarsRevenueWithdrawalUrl](/API_docs/types/payments.StarsRevenueWithdrawalUrl.html)
 
 ### Can bots use this method: **YES**
 
@@ -40,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$payments_StarsStatus = $MadelineProto->payments->getStarsTransactions(inbound: $Bool, outbound: $Bool, ascending: $Bool, peer: $InputPeer, offset: 'string', limit: $int, );
+$payments_StarsRevenueWithdrawalUrl = $MadelineProto->payments->getStarsRevenueWithdrawalUrl(peer: $InputPeer, stars: $long, password: $InputCheckPasswordSRP, );
 ```
 

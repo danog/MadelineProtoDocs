@@ -9,8 +9,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [AccountDaysTTL](/API_docs/types/AccountDaysTTL.html)<a name="AccountDaysTTL"></a>  
 
-[AppWebViewResult](/API_docs/types/AppWebViewResult.html)<a name="AppWebViewResult"></a>  
-
 [AttachMenuBot](/API_docs/types/AttachMenuBot.html)<a name="AttachMenuBot"></a>  
 
 [AttachMenuBotIcon](/API_docs/types/AttachMenuBotIcon.html)<a name="AttachMenuBotIcon"></a>  
@@ -215,9 +213,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [ForumTopic](/API_docs/types/ForumTopic.html)<a name="ForumTopic"></a>  
 
+[FoundStory](/API_docs/types/FoundStory.html)<a name="FoundStory"></a>  
+
 [Game](/API_docs/types/Game.html)<a name="Game"></a>  
 
 [GeoPoint](/API_docs/types/GeoPoint.html)<a name="GeoPoint"></a>  
+
+[GeoPointAddress](/API_docs/types/GeoPointAddress.html)<a name="GeoPointAddress"></a>  
 
 [GlobalPrivacySettings](/API_docs/types/GlobalPrivacySettings.html)<a name="GlobalPrivacySettings"></a>  
 
@@ -328,6 +330,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [InputSecureValue](/API_docs/types/InputSecureValue.html)<a name="InputSecureValue"></a>  
 
 [InputSingleMedia](/API_docs/types/InputSingleMedia.html)<a name="InputSingleMedia"></a>  
+
+[InputStarsTransaction](/API_docs/types/InputStarsTransaction.html)<a name="InputStarsTransaction"></a>  
 
 [InputStickerSet](/API_docs/types/InputStickerSet.html)<a name="InputStickerSet"></a>  
 
@@ -561,13 +565,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [ShippingOption](/API_docs/types/ShippingOption.html)<a name="ShippingOption"></a>  
 
-[SimpleWebViewResult](/API_docs/types/SimpleWebViewResult.html)<a name="SimpleWebViewResult"></a>  
-
 [SmsJob](/API_docs/types/SmsJob.html)<a name="SmsJob"></a>  
 
 [SponsoredMessage](/API_docs/types/SponsoredMessage.html)<a name="SponsoredMessage"></a>  
 
 [SponsoredMessageReportOption](/API_docs/types/SponsoredMessageReportOption.html)<a name="SponsoredMessageReportOption"></a>  
+
+[StarsRevenueStatus](/API_docs/types/StarsRevenueStatus.html)<a name="StarsRevenueStatus"></a>  
 
 [StarsTopupOption](/API_docs/types/StarsTopupOption.html)<a name="StarsTopupOption"></a>  
 
@@ -933,6 +937,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [payments.SavedInfo](/API_docs/types/payments.SavedInfo.html)<a name="payments.SavedInfo"></a>  
 
+[payments.StarsRevenueAdsAccountUrl](/API_docs/types/payments.StarsRevenueAdsAccountUrl.html)<a name="payments.StarsRevenueAdsAccountUrl"></a>  
+
+[payments.StarsRevenueStats](/API_docs/types/payments.StarsRevenueStats.html)<a name="payments.StarsRevenueStats"></a>  
+
+[payments.StarsRevenueWithdrawalUrl](/API_docs/types/payments.StarsRevenueWithdrawalUrl.html)<a name="payments.StarsRevenueWithdrawalUrl"></a>  
+
 [payments.StarsStatus](/API_docs/types/payments.StarsStatus.html)<a name="payments.StarsStatus"></a>  
 
 [payments.ValidatedRequestedInfo](/API_docs/types/payments.ValidatedRequestedInfo.html)<a name="payments.ValidatedRequestedInfo"></a>  
@@ -986,6 +996,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [storage.FileType](/API_docs/types/storage.FileType.html)<a name="storage.FileType"></a>  
 
 [stories.AllStories](/API_docs/types/stories.AllStories.html)<a name="stories.AllStories"></a>  
+
+[stories.FoundStories](/API_docs/types/stories.FoundStories.html)<a name="stories.FoundStories"></a>  
 
 [stories.PeerStories](/API_docs/types/stories.PeerStories.html)<a name="stories.PeerStories"></a>  
 

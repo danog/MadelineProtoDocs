@@ -14,6 +14,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |refund|[Bool](/API_docs/types/Bool.html) | Optional|
+|pending|[Bool](/API_docs/types/Bool.html) | Optional|
+|failed|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[string](/API_docs/types/string.html) | Yes|
 |stars|[long](/API_docs/types/long.html) | Yes|
 |date|[int](/API_docs/types/int.html) | Yes|
@@ -21,6 +23,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |title|[string](/API_docs/types/string.html) | Optional|
 |description|[string](/API_docs/types/string.html) | Optional|
 |photo|[WebDocument](/API_docs/types/WebDocument.html) | Optional|
+|transaction\_date|[int](/API_docs/types/int.html) | Optional|
+|transaction\_url|[string](/API_docs/types/string.html) | Optional|
+|bot\_payload|[bytes](/API_docs/types/bytes.html) | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | Optional|
+|extended\_media|Array of [MessageMedia](/API_docs/types/MessageMedia.html) | Optional|
 
 
 
@@ -30,5 +37,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$starsTransaction = ['_' => 'starsTransaction', 'refund' => Bool, 'id' => 'string', 'stars' => long, 'date' => int, 'peer' => StarsTransactionPeer, 'title' => 'string', 'description' => 'string', 'photo' => WebDocument];
+$starsTransaction = ['_' => 'starsTransaction', 'refund' => Bool, 'pending' => Bool, 'failed' => Bool, 'id' => 'string', 'stars' => long, 'date' => int, 'peer' => StarsTransactionPeer, 'title' => 'string', 'description' => 'string', 'photo' => WebDocument, 'transaction_date' => int, 'transaction_url' => 'string', 'bot_payload' => 'bytes', 'msg_id' => int, 'extended_media' => [MessageMedia, MessageMedia]];
 ```  

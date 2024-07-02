@@ -285,6 +285,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateStarsBalance](/API_docs/constructors/updateStarsBalance.html)  
 
+[updateBusinessBotCallbackQuery](/API_docs/constructors/updateBusinessBotCallbackQuery.html)  
+
+[updateStarsRevenueStatus](/API_docs/constructors/updateStarsRevenueStatus.html)  
+
 
 
 ### Methods that return an object of this type (methods):

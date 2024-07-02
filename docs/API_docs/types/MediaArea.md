@@ -23,6 +23,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [inputMediaAreaChannelPost](/API_docs/constructors/inputMediaAreaChannelPost.html)  
 
+[mediaAreaUrl](/API_docs/constructors/mediaAreaUrl.html)  
+
 
 
 ### Methods that return an object of this type (methods):

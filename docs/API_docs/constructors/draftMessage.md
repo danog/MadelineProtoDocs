@@ -23,6 +23,7 @@ Represents a message [draft](https://core.telegram.org/api/drafts).
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
 |media|[InputMedia](/API_docs/types/InputMedia.html) | Optional|Media.|
 |date|[int](/API_docs/types/int.html) | Yes|Date of last update of the draft.|
+|effect|[long](/API_docs/types/long.html) | Optional|
 
 
 
@@ -92,5 +93,5 @@ pre-formatted fixed-width code block written in the PHP programming language
 ### Example:
 
 ```
-$draftMessage = ['_' => 'draftMessage', 'no_webpage' => Bool, 'invert_media' => Bool, 'reply_to' => InputReplyTo, 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'media' => InputMedia, 'date' => int];
+$draftMessage = ['_' => 'draftMessage', 'no_webpage' => Bool, 'invert_media' => Bool, 'reply_to' => InputReplyTo, 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'media' => InputMedia, 'date' => int, 'effect' => long];
 ```  

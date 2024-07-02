@@ -25,6 +25,7 @@ Save a message [draft](https://core.telegram.org/api/drafts) associated to a cha
 |entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Message [entities](https://core.telegram.org/api/entities) for styled text | Optional|
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
 |media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) | Attached media | Optional|
+|effect|[long](/API_docs/types/long.html) |  | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
@@ -44,7 +45,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->saveDraft(no_webpage: $Bool, invert_media: $Bool, reply_to: $InputReplyTo, peer: $InputPeer, message: 'string', entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', media: $InputMedia, );
+$Bool = $MadelineProto->messages->saveDraft(no_webpage: $Bool, invert_media: $Bool, reply_to: $InputReplyTo, peer: $InputPeer, message: 'string', entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', media: $InputMedia, effect: $long, );
 ```
 
 

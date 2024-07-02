@@ -1,12 +1,12 @@
 ---
-title: "payments.getStarsTransactions"
-description: "payments.getStarsTransactions parameters, return type and example"
+title: "stories.searchPosts"
+description: "stories.searchPosts parameters, return type and example"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
-redirect_from: /API_docs/methods/payments_getStarsTransactions.html
+redirect_from: /API_docs/methods/stories_searchPosts.html
 ---
-# Method: payments.getStarsTransactions
+# Method: stories.searchPosts
 [Back to methods index](index.html)
 
 
@@ -15,15 +15,13 @@ redirect_from: /API_docs/methods/payments_getStarsTransactions.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|inbound|[Bool](/API_docs/types/Bool.html) | Optional|
-|outbound|[Bool](/API_docs/types/Bool.html) | Optional|
-|ascending|[Bool](/API_docs/types/Bool.html) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+|hashtag|[string](/API_docs/types/string.html) | Optional|
+|area|[MediaArea](/API_docs/types/MediaArea.html) | Optional|
 |offset|[string](/API_docs/types/string.html) | Optional|
 |limit|[int](/API_docs/types/int.html) | Optional|
 
 
-### Return type: [payments.StarsStatus](/API_docs/types/payments.StarsStatus.html)
+### Return type: [stories.FoundStories](/API_docs/types/stories.FoundStories.html)
 
 ### Can bots use this method: **YES**
 
@@ -40,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$payments_StarsStatus = $MadelineProto->payments->getStarsTransactions(inbound: $Bool, outbound: $Bool, ascending: $Bool, peer: $InputPeer, offset: 'string', limit: $int, );
+$stories_FoundStories = $MadelineProto->stories->searchPosts(hashtag: 'string', area: $MediaArea, offset: 'string', limit: $int, );
 ```
 

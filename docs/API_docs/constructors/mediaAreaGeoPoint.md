@@ -17,6 +17,7 @@ Represents a geolocation tag attached to a [story](https://core.telegram.org/api
 |----------|---------------|----------|-------------|
 |coordinates|[MediaAreaCoordinates](/API_docs/types/MediaAreaCoordinates.html) | Yes|The size and position of the media area corresponding to the location sticker on top of the story media.|
 |geo|[GeoPoint](/API_docs/types/GeoPoint.html) | Optional|Coordinates of the geolocation tag.|
+|address|[GeoPointAddress](/API_docs/types/GeoPointAddress.html) | Optional|
 
 
 
@@ -26,5 +27,5 @@ Represents a geolocation tag attached to a [story](https://core.telegram.org/api
 ### Example:
 
 ```
-$mediaAreaGeoPoint = ['_' => 'mediaAreaGeoPoint', 'coordinates' => MediaAreaCoordinates, 'geo' => GeoPoint];
+$mediaAreaGeoPoint = ['_' => 'mediaAreaGeoPoint', 'coordinates' => MediaAreaCoordinates, 'geo' => GeoPoint, 'address' => GeoPointAddress];
 ```  

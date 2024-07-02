@@ -20,6 +20,7 @@ Coordinates and size of a clicable rectangular area on top of a story.
 |w|[double](/API_docs/types/double.html) | Yes|The width of the rectangle, as a percentage of the media width (0-100).|
 |h|[double](/API_docs/types/double.html) | Yes|The height of the rectangle, as a percentage of the media height (0-100).|
 |rotation|[double](/API_docs/types/double.html) | Yes|Clockwise rotation angle of the rectangle, in degrees (0-360).|
+|radius|[double](/API_docs/types/double.html) | Optional|
 
 
 
@@ -29,5 +30,5 @@ Coordinates and size of a clicable rectangular area on top of a story.
 ### Example:
 
 ```
-$mediaAreaCoordinates = ['_' => 'mediaAreaCoordinates', 'x' => double, 'y' => double, 'w' => double, 'h' => double, 'rotation' => double];
+$mediaAreaCoordinates = ['_' => 'mediaAreaCoordinates', 'x' => double, 'y' => double, 'w' => double, 'h' => double, 'rotation' => double, 'radius' => double];
 ```  

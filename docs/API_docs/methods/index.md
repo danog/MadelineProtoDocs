@@ -1686,11 +1686,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleEncode" name="rleEncode">null-byte RLE encode: rleEncode</a>
 
+* <a href="payments.getStarsRevenueAdsAccountUrl.html" name="payments.getStarsRevenueAdsAccountUrl">payments.getStarsRevenueAdsAccountUrl</a>
+
+* <a href="payments.getStarsRevenueStats.html" name="payments.getStarsRevenueStats">payments.getStarsRevenueStats</a>
+
+* <a href="payments.getStarsRevenueWithdrawalUrl.html" name="payments.getStarsRevenueWithdrawalUrl">payments.getStarsRevenueWithdrawalUrl</a>
+
 * <a href="payments.getStarsStatus.html" name="payments.getStarsStatus">payments.getStarsStatus</a>
 
 * <a href="payments.getStarsTopupOptions.html" name="payments.getStarsTopupOptions">payments.getStarsTopupOptions</a>
 
 * <a href="payments.getStarsTransactions.html" name="payments.getStarsTransactions">payments.getStarsTransactions</a>
+
+* <a href="payments.getStarsTransactionsByID.html" name="payments.getStarsTransactionsByID">payments.getStarsTransactionsByID</a>
 
 * <a href="payments.refundStarsCharge.html" name="payments.refundStarsCharge">payments.refundStarsCharge</a>
 
@@ -1717,6 +1725,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="stats.getBroadcastRevenueWithdrawalUrl.html" name="stats.getBroadcastRevenueWithdrawalUrl">stats.getBroadcastRevenueWithdrawalUrl</a>
 
 * <a href="stickers.replaceSticker.html" name="stickers.replaceSticker">stickers.replaceSticker</a>
+
+* <a href="stories.searchPosts.html" name="stories.searchPosts">stories.searchPosts</a>
 
 * <a href="stories.togglePinnedToTop.html" name="stories.togglePinnedToTop">stories.togglePinnedToTop</a>
 

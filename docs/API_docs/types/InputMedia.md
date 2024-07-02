@@ -46,6 +46,8 @@ You can also provide a [MessageMedia](MessageMedia.html), [Message](Message.html
 
 [inputMediaWebPage](/API_docs/constructors/inputMediaWebPage.html)  
 
+[inputMediaPaidMedia](/API_docs/constructors/inputMediaPaidMedia.html)  
+
 
 
 ### Methods that return an object of this type (methods):

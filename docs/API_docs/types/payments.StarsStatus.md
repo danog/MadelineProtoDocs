@@ -22,5 +22,7 @@ redirect_from: /API_docs/types/payments_StarsStatus.html
 
 [$MadelineProto->payments->getStarsTransactions](/API_docs/methods/payments.getStarsTransactions.html)  
 
+[$MadelineProto->payments->getStarsTransactionsByID](/API_docs/methods/payments.getStarsTransactionsByID.html)  
+
 
 

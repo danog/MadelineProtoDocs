@@ -1813,7 +1813,7 @@ $MadelineProto->[messages->reportSpam](/API_docs/methods/messages.reportSpam.htm
 
 ***
 <br><br>
-$MadelineProto->[messages->requestAppWebView](/API_docs/methods/messages.requestAppWebView.html)(\[write_allowed: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), app: $[InputBotApp](/API_docs/types/InputBotApp.html), start_param: $[string](/API_docs/types/string.html), theme_params: $[DataJSON](/API_docs/types/DataJSON.html), platform: $[string](/API_docs/types/string.html), \]) === [$AppWebViewResult](/API_docs/types/AppWebViewResult.html)<a name="messages.requestAppWebView"></a>  
+$MadelineProto->[messages->requestAppWebView](/API_docs/methods/messages.requestAppWebView.html)(\[write_allowed: $[Bool](/API_docs/types/Bool.html), compact: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), app: $[InputBotApp](/API_docs/types/InputBotApp.html), start_param: $[string](/API_docs/types/string.html), theme_params: $[DataJSON](/API_docs/types/DataJSON.html), platform: $[string](/API_docs/types/string.html), \]) === [$WebViewResult](/API_docs/types/WebViewResult.html)<a name="messages.requestAppWebView"></a>  
 
 ***
 <br><br>
@@ -1821,7 +1821,7 @@ $MadelineProto->[messages->requestEncryption](/API_docs/methods/messages.request
 
 ***
 <br><br>
-$MadelineProto->[messages->requestSimpleWebView](/API_docs/methods/messages.requestSimpleWebView.html)(\[from_switch_webview: $[Bool](/API_docs/types/Bool.html), from_side_menu: $[Bool](/API_docs/types/Bool.html), bot: $[InputUser](/API_docs/types/InputUser.html), url: $[string](/API_docs/types/string.html), start_param: $[string](/API_docs/types/string.html), theme_params: $[DataJSON](/API_docs/types/DataJSON.html), platform: $[string](/API_docs/types/string.html), \]) === [$SimpleWebViewResult](/API_docs/types/SimpleWebViewResult.html)<a name="messages.requestSimpleWebView"></a>  
+$MadelineProto->[messages->requestSimpleWebView](/API_docs/methods/messages.requestSimpleWebView.html)(\[from_switch_webview: $[Bool](/API_docs/types/Bool.html), from_side_menu: $[Bool](/API_docs/types/Bool.html), compact: $[Bool](/API_docs/types/Bool.html), bot: $[InputUser](/API_docs/types/InputUser.html), url: $[string](/API_docs/types/string.html), start_param: $[string](/API_docs/types/string.html), theme_params: $[DataJSON](/API_docs/types/DataJSON.html), platform: $[string](/API_docs/types/string.html), \]) === [$WebViewResult](/API_docs/types/WebViewResult.html)<a name="messages.requestSimpleWebView"></a>  
 
 ***
 <br><br>
@@ -1829,7 +1829,7 @@ $MadelineProto->[messages->requestUrlAuth](/API_docs/methods/messages.requestUrl
 
 ***
 <br><br>
-$MadelineProto->[messages->requestWebView](/API_docs/methods/messages.requestWebView.html)(\[from_bot_menu: $[Bool](/API_docs/types/Bool.html), silent: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), bot: $[InputUser](/API_docs/types/InputUser.html), url: $[string](/API_docs/types/string.html), start_param: $[string](/API_docs/types/string.html), theme_params: $[DataJSON](/API_docs/types/DataJSON.html), platform: $[string](/API_docs/types/string.html), reply_to: $[InputReplyTo](/API_docs/types/InputReplyTo.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$WebViewResult](/API_docs/types/WebViewResult.html)<a name="messages.requestWebView"></a>  
+$MadelineProto->[messages->requestWebView](/API_docs/methods/messages.requestWebView.html)(\[from_bot_menu: $[Bool](/API_docs/types/Bool.html), silent: $[Bool](/API_docs/types/Bool.html), compact: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), bot: $[InputUser](/API_docs/types/InputUser.html), url: $[string](/API_docs/types/string.html), start_param: $[string](/API_docs/types/string.html), theme_params: $[DataJSON](/API_docs/types/DataJSON.html), platform: $[string](/API_docs/types/string.html), reply_to: $[InputReplyTo](/API_docs/types/InputReplyTo.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$WebViewResult](/API_docs/types/WebViewResult.html)<a name="messages.requestWebView"></a>  
 
 ***
 <br><br>
@@ -1837,7 +1837,7 @@ $MadelineProto->[messages->saveDefaultSendAs](/API_docs/methods/messages.saveDef
 
 ***
 <br><br>
-$MadelineProto->[messages->saveDraft](/API_docs/methods/messages.saveDraft.html)(\[no_webpage: $[Bool](/API_docs/types/Bool.html), invert_media: $[Bool](/API_docs/types/Bool.html), reply_to: $[InputReplyTo](/API_docs/types/InputReplyTo.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), message: $[string](/API_docs/types/string.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], media: $[InputMedia](/API_docs/types/InputMedia.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.saveDraft"></a>  
+$MadelineProto->[messages->saveDraft](/API_docs/methods/messages.saveDraft.html)(\[no_webpage: $[Bool](/API_docs/types/Bool.html), invert_media: $[Bool](/API_docs/types/Bool.html), reply_to: $[InputReplyTo](/API_docs/types/InputReplyTo.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), message: $[string](/API_docs/types/string.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], media: $[InputMedia](/API_docs/types/InputMedia.html), effect: $[long](/API_docs/types/long.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.saveDraft"></a>  
 
 ***
 <br><br>
@@ -2121,6 +2121,18 @@ $MadelineProto->[payments->getSavedInfo](/API_docs/methods/payments.getSavedInfo
 
 ***
 <br><br>
+$MadelineProto->[payments->getStarsRevenueAdsAccountUrl](/API_docs/methods/payments.getStarsRevenueAdsAccountUrl.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$payments.StarsRevenueAdsAccountUrl](/API_docs/types/payments.StarsRevenueAdsAccountUrl.html)<a name="payments.getStarsRevenueAdsAccountUrl"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->getStarsRevenueStats](/API_docs/methods/payments.getStarsRevenueStats.html)(\[dark: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$payments.StarsRevenueStats](/API_docs/types/payments.StarsRevenueStats.html)<a name="payments.getStarsRevenueStats"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->getStarsRevenueWithdrawalUrl](/API_docs/methods/payments.getStarsRevenueWithdrawalUrl.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), stars: $[long](/API_docs/types/long.html), password: $[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html), \]) === [$payments.StarsRevenueWithdrawalUrl](/API_docs/types/payments.StarsRevenueWithdrawalUrl.html)<a name="payments.getStarsRevenueWithdrawalUrl"></a>  
+
+***
+<br><br>
 $MadelineProto->[payments->getStarsStatus](/API_docs/methods/payments.getStarsStatus.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$payments.StarsStatus](/API_docs/types/payments.StarsStatus.html)<a name="payments.getStarsStatus"></a>  
 
 ***
@@ -2129,7 +2141,11 @@ $MadelineProto->[payments->getStarsTopupOptions](/API_docs/methods/payments.getS
 
 ***
 <br><br>
-$MadelineProto->[payments->getStarsTransactions](/API_docs/methods/payments.getStarsTransactions.html)(\[inbound: $[Bool](/API_docs/types/Bool.html), outbound: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), offset: $[string](/API_docs/types/string.html), \]) === [$payments.StarsStatus](/API_docs/types/payments.StarsStatus.html)<a name="payments.getStarsTransactions"></a>  
+$MadelineProto->[payments->getStarsTransactions](/API_docs/methods/payments.getStarsTransactions.html)(\[inbound: $[Bool](/API_docs/types/Bool.html), outbound: $[Bool](/API_docs/types/Bool.html), ascending: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$payments.StarsStatus](/API_docs/types/payments.StarsStatus.html)<a name="payments.getStarsTransactions"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->getStarsTransactionsByID](/API_docs/methods/payments.getStarsTransactionsByID.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), id: \[$[InputStarsTransaction](/API_docs/types/InputStarsTransaction.html)\], \]) === [$payments.StarsStatus](/API_docs/types/payments.StarsStatus.html)<a name="payments.getStarsTransactionsByID"></a>  
 
 ***
 <br><br>
@@ -2502,6 +2518,10 @@ $MadelineProto->[stories->readStories](/API_docs/methods/stories.readStories.htm
 ***
 <br><br>
 $MadelineProto->[stories->report](/API_docs/methods/stories.report.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), id: \[$[int](/API_docs/types/int.html)\], reason: $[ReportReason](/API_docs/types/ReportReason.html), message: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="stories.report"></a>  
+
+***
+<br><br>
+$MadelineProto->[stories->searchPosts](/API_docs/methods/stories.searchPosts.html)(\[hashtag: $[string](/API_docs/types/string.html), area: $[MediaArea](/API_docs/types/MediaArea.html), offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$stories.FoundStories](/API_docs/types/stories.FoundStories.html)<a name="stories.searchPosts"></a>  
 
 ***
 <br><br>
