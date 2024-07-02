@@ -214,10 +214,6 @@ class MyEventHandler extends SimpleEventHandler
     {
         return [self::ADMIN];
     }
-
-    public function onAny(array $update) {
-        var_dump($update);
-    }
     /**
      * Initialization logic.
      */
