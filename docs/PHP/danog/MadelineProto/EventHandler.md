@@ -95,7 +95,7 @@ Event handler.
 * [`flock(string $file, integer $operation, float $polling = 0.1, ?\Amp\Cancellation $token = NULL, ?\Closure $failureCb = NULL): ($token is null ? Closure(): void : (Closure(): void | null))`](#flock)
 * [`fullChatLastUpdated(mixed $id): int`](#fullChatLastUpdated)
 * [`fullGetSelf(): array|false`](#fullGetSelf)
-* [`genVectorHash(array<(int|string)> $longs): string`](#genVectorHash)
+* [`genVectorHash(array $longs): string`](#genVectorHash)
 * [`getAdminIds(): array`](#getAdminIds)
 * [`getAllCalls(): array<int, \danog\MadelineProto\VoIP>`](#getAllCalls)
 * [`getAllMethods(): array`](#getAllMethods)
@@ -1100,7 +1100,7 @@ Get info about the logged-in user, not cached.
 
 
 
-### <a name="genVectorHash"></a> `genVectorHash(array<(int|string)> $longs): string`
+### <a name="genVectorHash"></a> `genVectorHash(array $longs): string`
 
 Generate MTProto vector hash.
   
@@ -1109,7 +1109,7 @@ Returns a vector hash.
 
 Parameters:
 
-* `$longs`: `array<(int|string)>` IDs  
+* `$longs`: `array` IDs  
 
 
 

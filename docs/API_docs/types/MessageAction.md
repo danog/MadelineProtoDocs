@@ -97,6 +97,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageActionRequestedPeerSentMe](/API_docs/constructors/messageActionRequestedPeerSentMe.html)  
 
+[messageActionPaymentRefunded](/API_docs/constructors/messageActionPaymentRefunded.html)  
+
 
 
 ### Methods that return an object of this type (methods):
