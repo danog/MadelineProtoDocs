@@ -56,7 +56,7 @@ $MadelineProto->start();
 $call = $MadelineProto->requestCall('@danogentili');
 $call->play(new LocalFile("audio.mp3"))
      ->then(new LocalFile("audio.flac"))
-     ->then(new LocalFile("audio.wav"))
+     ->then(new LocalFile("audio.wav")
      ->then(new LocalFile("audio_with_video.mp4"));
 ```
 
