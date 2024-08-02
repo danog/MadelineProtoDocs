@@ -12,6 +12,6 @@ Calculate it by making N of method calls until you get a FLOOD_WAIT_X
  
 floodwaitrate = time it took you to make the method calls + X
 
-Use sleep to execute max N calls in `floodwaitrate` seconds, this way you won't get flood waited!
+Use sleep to execute max N calls in '30` seconds, this way you won't get flood waited!
 
 <a href="https://docs.madelineproto.xyz/docs/LOGGING.html">Next section</a>
