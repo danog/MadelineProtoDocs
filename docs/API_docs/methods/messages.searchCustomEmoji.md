@@ -23,7 +23,7 @@ Look for [custom emojis](https://core.telegram.org/api/custom-emoji) associated 
 
 ### Return type: [EmojiList](/API_docs/types/EmojiList.html)
 
-### Can bots use this method: **YES**
+### Can bots use this method: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

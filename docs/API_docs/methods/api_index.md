@@ -577,6 +577,10 @@ $MadelineProto->[auth->signUp](/API_docs/methods/auth.signUp.html)(\[no_joined_n
 
 ***
 <br><br>
+$MadelineProto->[bots->addPreviewMedia](/API_docs/methods/bots.addPreviewMedia.html)(\[bot: $[InputUser](/API_docs/types/InputUser.html), lang_code: $[string](/API_docs/types/string.html), media: $[InputMedia](/API_docs/types/InputMedia.html), \]) === [$BotPreviewMedia](/API_docs/types/BotPreviewMedia.html)<a name="bots.addPreviewMedia"></a>  
+
+***
+<br><br>
 $MadelineProto->[bots->allowSendMessage](/API_docs/methods/bots.allowSendMessage.html)(\[bot: $[InputUser](/API_docs/types/InputUser.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="bots.allowSendMessage"></a>  
 
 ***
@@ -586,6 +590,14 @@ $MadelineProto->[bots->answerWebhookJSONQuery](/API_docs/methods/bots.answerWebh
 ***
 <br><br>
 $MadelineProto->[bots->canSendMessage](/API_docs/methods/bots.canSendMessage.html)(\[bot: $[InputUser](/API_docs/types/InputUser.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="bots.canSendMessage"></a>  
+
+***
+<br><br>
+$MadelineProto->[bots->deletePreviewMedia](/API_docs/methods/bots.deletePreviewMedia.html)(\[bot: $[InputUser](/API_docs/types/InputUser.html), lang_code: $[string](/API_docs/types/string.html), media: \[$[InputMedia](/API_docs/types/InputMedia.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="bots.deletePreviewMedia"></a>  
+
+***
+<br><br>
+$MadelineProto->[bots->editPreviewMedia](/API_docs/methods/bots.editPreviewMedia.html)(\[bot: $[InputUser](/API_docs/types/InputUser.html), lang_code: $[string](/API_docs/types/string.html), media: $[InputMedia](/API_docs/types/InputMedia.html), new_media: $[InputMedia](/API_docs/types/InputMedia.html), \]) === [$BotPreviewMedia](/API_docs/types/BotPreviewMedia.html)<a name="bots.editPreviewMedia"></a>  
 
 ***
 <br><br>
@@ -601,7 +613,23 @@ $MadelineProto->[bots->getBotMenuButton](/API_docs/methods/bots.getBotMenuButton
 
 ***
 <br><br>
+$MadelineProto->[bots->getPopularAppBots](/API_docs/methods/bots.getPopularAppBots.html)(\[offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$bots.PopularAppBots](/API_docs/types/bots.PopularAppBots.html)<a name="bots.getPopularAppBots"></a>  
+
+***
+<br><br>
+$MadelineProto->[bots->getPreviewInfo](/API_docs/methods/bots.getPreviewInfo.html)(\[bot: $[InputUser](/API_docs/types/InputUser.html), lang_code: $[string](/API_docs/types/string.html), \]) === [$bots.PreviewInfo](/API_docs/types/bots.PreviewInfo.html)<a name="bots.getPreviewInfo"></a>  
+
+***
+<br><br>
+$MadelineProto->[bots->getPreviewMedias](/API_docs/methods/bots.getPreviewMedias.html)(\[bot: $[InputUser](/API_docs/types/InputUser.html), \]) === [$Vector\_of\_BotPreviewMedia](/API_docs/types/BotPreviewMedia.html)<a name="bots.getPreviewMedias"></a>  
+
+***
+<br><br>
 $MadelineProto->[bots->invokeWebViewCustomMethod](/API_docs/methods/bots.invokeWebViewCustomMethod.html)(\[bot: $[InputUser](/API_docs/types/InputUser.html), custom_method: $[string](/API_docs/types/string.html), params: $[DataJSON](/API_docs/types/DataJSON.html), \]) === [$DataJSON](/API_docs/types/DataJSON.html)<a name="bots.invokeWebViewCustomMethod"></a>  
+
+***
+<br><br>
+$MadelineProto->[bots->reorderPreviewMedias](/API_docs/methods/bots.reorderPreviewMedias.html)(\[bot: $[InputUser](/API_docs/types/InputUser.html), lang_code: $[string](/API_docs/types/string.html), order: \[$[InputMedia](/API_docs/types/InputMedia.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="bots.reorderPreviewMedias"></a>  
 
 ***
 <br><br>
@@ -1005,7 +1033,7 @@ $MadelineProto->[contacts->getStatuses](/API_docs/methods/contacts.getStatuses.h
 
 ***
 <br><br>
-$MadelineProto->[contacts->getTopPeers](/API_docs/methods/contacts.getTopPeers.html)(\[correspondents: $[Bool](/API_docs/types/Bool.html), bots_pm: $[Bool](/API_docs/types/Bool.html), bots_inline: $[Bool](/API_docs/types/Bool.html), phone_calls: $[Bool](/API_docs/types/Bool.html), forward_users: $[Bool](/API_docs/types/Bool.html), forward_chats: $[Bool](/API_docs/types/Bool.html), groups: $[Bool](/API_docs/types/Bool.html), channels: $[Bool](/API_docs/types/Bool.html), offset: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), hash: $[long](/API_docs/types/long.html), \]) === [$contacts.TopPeers](/API_docs/types/contacts.TopPeers.html)<a name="contacts.getTopPeers"></a>  
+$MadelineProto->[contacts->getTopPeers](/API_docs/methods/contacts.getTopPeers.html)(\[correspondents: $[Bool](/API_docs/types/Bool.html), bots_pm: $[Bool](/API_docs/types/Bool.html), bots_inline: $[Bool](/API_docs/types/Bool.html), phone_calls: $[Bool](/API_docs/types/Bool.html), forward_users: $[Bool](/API_docs/types/Bool.html), forward_chats: $[Bool](/API_docs/types/Bool.html), groups: $[Bool](/API_docs/types/Bool.html), channels: $[Bool](/API_docs/types/Bool.html), bots_app: $[Bool](/API_docs/types/Bool.html), offset: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), hash: $[long](/API_docs/types/long.html), \]) === [$contacts.TopPeers](/API_docs/types/contacts.TopPeers.html)<a name="contacts.getTopPeers"></a>  
 
 ***
 <br><br>
@@ -1821,6 +1849,10 @@ $MadelineProto->[messages->requestEncryption](/API_docs/methods/messages.request
 
 ***
 <br><br>
+$MadelineProto->[messages->requestMainWebView](/API_docs/methods/messages.requestMainWebView.html)(\[compact: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), bot: $[InputUser](/API_docs/types/InputUser.html), start_param: $[string](/API_docs/types/string.html), theme_params: $[DataJSON](/API_docs/types/DataJSON.html), platform: $[string](/API_docs/types/string.html), \]) === [$WebViewResult](/API_docs/types/WebViewResult.html)<a name="messages.requestMainWebView"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->requestSimpleWebView](/API_docs/methods/messages.requestSimpleWebView.html)(\[from_switch_webview: $[Bool](/API_docs/types/Bool.html), from_side_menu: $[Bool](/API_docs/types/Bool.html), compact: $[Bool](/API_docs/types/Bool.html), bot: $[InputUser](/API_docs/types/InputUser.html), url: $[string](/API_docs/types/string.html), start_param: $[string](/API_docs/types/string.html), theme_params: $[DataJSON](/API_docs/types/DataJSON.html), platform: $[string](/API_docs/types/string.html), \]) === [$WebViewResult](/API_docs/types/WebViewResult.html)<a name="messages.requestSimpleWebView"></a>  
 
 ***
@@ -2118,6 +2150,10 @@ $MadelineProto->[payments->getPremiumGiftCodeOptions](/API_docs/methods/payments
 ***
 <br><br>
 $MadelineProto->[payments->getSavedInfo](/API_docs/methods/payments.getSavedInfo.html)(\[\]) === [$payments.SavedInfo](/API_docs/types/payments.SavedInfo.html)<a name="payments.getSavedInfo"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->getStarsGiftOptions](/API_docs/methods/payments.getStarsGiftOptions.html)(\[user_id: $[InputUser](/API_docs/types/InputUser.html), \]) === [$Vector\_of\_StarsGiftOption](/API_docs/types/StarsGiftOption.html)<a name="payments.getStarsGiftOptions"></a>  
 
 ***
 <br><br>

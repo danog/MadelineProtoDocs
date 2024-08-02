@@ -13,7 +13,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|option|[StarsTopupOption](/API_docs/types/StarsTopupOption.html) | Yes|
+|purpose|[InputStorePaymentPurpose](/API_docs/types/InputStorePaymentPurpose.html) | Yes|
 
 
 
@@ -23,5 +23,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$inputInvoiceStars = ['_' => 'inputInvoiceStars', 'option' => StarsTopupOption];
+$inputInvoiceStars = ['_' => 'inputInvoiceStars', 'purpose' => InputStorePaymentPurpose];
 ```  

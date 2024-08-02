@@ -1,10 +1,10 @@
 ---
-title: "inputStorePaymentStars"
-description: "inputStorePaymentStars attributes, type and example"
+title: "inputStorePaymentStarsTopup"
+description: "inputStorePaymentStarsTopup attributes, type and example"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Constructor: inputStorePaymentStars  
+# Constructor: inputStorePaymentStarsTopup  
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
@@ -25,5 +25,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$inputStorePaymentStars = ['_' => 'inputStorePaymentStars', 'stars' => long, 'currency' => 'string', 'amount' => long];
+$inputStorePaymentStarsTopup = ['_' => 'inputStorePaymentStarsTopup', 'stars' => long, 'currency' => 'string', 'amount' => long];
 ```  

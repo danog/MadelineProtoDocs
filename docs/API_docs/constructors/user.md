@@ -39,6 +39,7 @@ Indicates info about a certain user
 |stories\_unavailable|[Bool](/API_docs/types/Bool.html) | Optional|
 |contact\_require\_premium|[Bool](/API_docs/types/Bool.html) | Optional|
 |bot\_business|[Bool](/API_docs/types/Bool.html) | Optional|
+|bot\_has\_main\_app|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[long](/API_docs/types/long.html) | Yes|ID of the user|
 |access\_hash|[long](/API_docs/types/long.html) | Optional|Access hash of the user|
 |first\_name|[string](/API_docs/types/string.html) | Optional|First name|
@@ -56,6 +57,7 @@ Indicates info about a certain user
 |stories\_max\_id|[int](/API_docs/types/int.html) | Optional|
 |color|[PeerColor](/API_docs/types/PeerColor.html) | Optional|
 |profile\_color|[PeerColor](/API_docs/types/PeerColor.html) | Optional|
+|bot\_active\_users|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -65,5 +67,5 @@ Indicates info about a certain user
 ### Example:
 
 ```
-$user = ['_' => 'user', 'self' => Bool, 'contact' => Bool, 'mutual_contact' => Bool, 'deleted' => Bool, 'bot' => Bool, 'bot_chat_history' => Bool, 'bot_nochats' => Bool, 'verified' => Bool, 'restricted' => Bool, 'min' => Bool, 'bot_inline_geo' => Bool, 'support' => Bool, 'scam' => Bool, 'apply_min_photo' => Bool, 'fake' => Bool, 'bot_attach_menu' => Bool, 'premium' => Bool, 'attach_menu_enabled' => Bool, 'bot_can_edit' => Bool, 'close_friend' => Bool, 'stories_hidden' => Bool, 'stories_unavailable' => Bool, 'contact_require_premium' => Bool, 'bot_business' => Bool, 'id' => long, 'access_hash' => long, 'first_name' => 'string', 'last_name' => 'string', 'username' => 'string', 'phone' => 'string', 'photo' => UserProfilePhoto, 'status' => UserStatus, 'bot_info_version' => int, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'bot_inline_placeholder' => 'string', 'lang_code' => 'string', 'emoji_status' => EmojiStatus, 'usernames' => [Username, Username], 'stories_max_id' => int, 'color' => PeerColor, 'profile_color' => PeerColor];
+$user = ['_' => 'user', 'self' => Bool, 'contact' => Bool, 'mutual_contact' => Bool, 'deleted' => Bool, 'bot' => Bool, 'bot_chat_history' => Bool, 'bot_nochats' => Bool, 'verified' => Bool, 'restricted' => Bool, 'min' => Bool, 'bot_inline_geo' => Bool, 'support' => Bool, 'scam' => Bool, 'apply_min_photo' => Bool, 'fake' => Bool, 'bot_attach_menu' => Bool, 'premium' => Bool, 'attach_menu_enabled' => Bool, 'bot_can_edit' => Bool, 'close_friend' => Bool, 'stories_hidden' => Bool, 'stories_unavailable' => Bool, 'contact_require_premium' => Bool, 'bot_business' => Bool, 'bot_has_main_app' => Bool, 'id' => long, 'access_hash' => long, 'first_name' => 'string', 'last_name' => 'string', 'username' => 'string', 'phone' => 'string', 'photo' => UserProfilePhoto, 'status' => UserStatus, 'bot_info_version' => int, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'bot_inline_placeholder' => 'string', 'lang_code' => 'string', 'emoji_status' => EmojiStatus, 'usernames' => [Username, Username], 'stories_max_id' => int, 'color' => PeerColor, 'profile_color' => PeerColor, 'bot_active_users' => int];
 ```  

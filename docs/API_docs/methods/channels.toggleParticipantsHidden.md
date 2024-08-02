@@ -25,7 +25,7 @@ The supergroup must have at least `hidden_members_group_size_min` participants i
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
 
-### Can bots use this method: **YES**
+### Can bots use this method: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

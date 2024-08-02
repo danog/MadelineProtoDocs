@@ -1622,6 +1622,20 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#base64urlDecode" name="base64urlDecode">base64URL decode: base64urlDecode</a>
 
+* <a href="bots.addPreviewMedia.html" name="bots.addPreviewMedia">bots.addPreviewMedia</a>
+
+* <a href="bots.deletePreviewMedia.html" name="bots.deletePreviewMedia">bots.deletePreviewMedia</a>
+
+* <a href="bots.editPreviewMedia.html" name="bots.editPreviewMedia">bots.editPreviewMedia</a>
+
+* <a href="bots.getPopularAppBots.html" name="bots.getPopularAppBots">bots.getPopularAppBots</a>
+
+* <a href="bots.getPreviewInfo.html" name="bots.getPreviewInfo">bots.getPreviewInfo</a>
+
+* <a href="bots.getPreviewMedias.html" name="bots.getPreviewMedias">bots.getPreviewMedias</a>
+
+* <a href="bots.reorderPreviewMedias.html" name="bots.reorderPreviewMedias">bots.reorderPreviewMedias</a>
+
 * <a href="channels.reportSponsoredMessage.html" name="channels.reportSponsoredMessage">channels.reportSponsoredMessage</a>
 
 * <a href="channels.restrictSponsoredMessages.html" name="channels.restrictSponsoredMessages">channels.restrictSponsoredMessages</a>
@@ -1676,6 +1690,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.reorderQuickReplies.html" name="messages.reorderQuickReplies">messages.reorderQuickReplies</a>
 
+* <a href="messages.requestMainWebView.html" name="messages.requestMainWebView">messages.requestMainWebView</a>
+
 * <a href="messages.sendQuickReplyMessages.html" name="messages.sendQuickReplyMessages">messages.sendQuickReplyMessages</a>
 
 * <a href="messages.toggleDialogFilterTags.html" name="messages.toggleDialogFilterTags">messages.toggleDialogFilterTags</a>
@@ -1685,6 +1701,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleDecode" name="rleDecode">null-byte RLE decode: rleDecode</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleEncode" name="rleEncode">null-byte RLE encode: rleEncode</a>
+
+* <a href="payments.getStarsGiftOptions.html" name="payments.getStarsGiftOptions">payments.getStarsGiftOptions</a>
 
 * <a href="payments.getStarsRevenueAdsAccountUrl.html" name="payments.getStarsRevenueAdsAccountUrl">payments.getStarsRevenueAdsAccountUrl</a>
 

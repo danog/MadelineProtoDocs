@@ -19,7 +19,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [inputStorePaymentPremiumGiveaway](/API_docs/constructors/inputStorePaymentPremiumGiveaway.html)  
 
-[inputStorePaymentStars](/API_docs/constructors/inputStorePaymentStars.html)  
+[inputStorePaymentStarsTopup](/API_docs/constructors/inputStorePaymentStarsTopup.html)  
+
+[inputStorePaymentStarsGift](/API_docs/constructors/inputStorePaymentStarsGift.html)  
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "danog\\MadelineProto\\RPCError\\ButtonUserPrivacyRestrictedError: The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button."
+title: "danog\\MadelineProto\\RPCError\\ButtonUserPrivacyRestrictedError: The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button."
 description: "\nNote: this exception is part of the raw API, and thus is not covered by the backwards-compatibility promise.\n\nAlways check the changelog when upgrading, and use tools like Psalm to easily upgrade your code.\n"
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
@@ -11,7 +11,7 @@ parent: "MadelineProto API"
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button.  
+The privacy setting of the user specified in a [inputKeyboardButtonUserProfile](https://core.telegram.org/constructor/inputKeyboardButtonUserProfile) button do not allow creating such a button.  
 
 
 Note: this exception is part of the raw API, and thus is not covered by the backwards-compatibility promise.

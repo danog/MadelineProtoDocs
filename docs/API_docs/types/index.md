@@ -59,6 +59,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [BotMenuButton](/API_docs/types/BotMenuButton.html)<a name="BotMenuButton"></a>  
 
+[BotPreviewMedia](/API_docs/types/BotPreviewMedia.html)<a name="BotPreviewMedia"></a>  
+
 [BroadcastRevenueBalances](/API_docs/types/BroadcastRevenueBalances.html)<a name="BroadcastRevenueBalances"></a>  
 
 [BroadcastRevenueTransaction](/API_docs/types/BroadcastRevenueTransaction.html)<a name="BroadcastRevenueTransaction"></a>  
@@ -571,6 +573,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [SponsoredMessageReportOption](/API_docs/types/SponsoredMessageReportOption.html)<a name="SponsoredMessageReportOption"></a>  
 
+[StarsGiftOption](/API_docs/types/StarsGiftOption.html)<a name="StarsGiftOption"></a>  
+
 [StarsRevenueStatus](/API_docs/types/StarsRevenueStatus.html)<a name="StarsRevenueStatus"></a>  
 
 [StarsTopupOption](/API_docs/types/StarsTopupOption.html)<a name="StarsTopupOption"></a>  
@@ -730,6 +734,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [auth.SentCodeType](/API_docs/types/auth.SentCodeType.html)<a name="auth.SentCodeType"></a>  
 
 [bots.BotInfo](/API_docs/types/bots.BotInfo.html)<a name="bots.BotInfo"></a>  
+
+[bots.PopularAppBots](/API_docs/types/bots.PopularAppBots.html)<a name="bots.PopularAppBots"></a>  
+
+[bots.PreviewInfo](/API_docs/types/bots.PreviewInfo.html)<a name="bots.PreviewInfo"></a>  
 
 [channels.AdminLogResults](/API_docs/types/channels.AdminLogResults.html)<a name="channels.AdminLogResults"></a>  
 

@@ -1,5 +1,5 @@
 ---
-title: "danog\\MadelineProto\\RPCError\\ChatGuestSendForbiddenError: You join the discussion group before commenting, see [here &raquo;](/api/discussion#requiring-users-to-join-the-group) for more info."
+title: "danog\\MadelineProto\\RPCError\\ChatGuestSendForbiddenError: You join the discussion group before commenting, see [here &raquo;](https://core.telegram.org/api/discussion#requiring-users-to-join-the-group) for more info."
 description: "\nNote: this exception is part of the raw API, and thus is not covered by the backwards-compatibility promise.\n\nAlways check the changelog when upgrading, and use tools like Psalm to easily upgrade your code.\n"
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
@@ -11,7 +11,7 @@ parent: "MadelineProto API"
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-You join the discussion group before commenting, see [here &raquo;](/api/discussion#requiring-users-to-join-the-group) for more info.  
+You join the discussion group before commenting, see [here &raquo;](https://core.telegram.org/api/discussion#requiring-users-to-join-the-group) for more info.  
 
 
 Note: this exception is part of the raw API, and thus is not covered by the backwards-compatibility promise.

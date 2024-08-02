@@ -15,6 +15,7 @@ Info about bots (available bot commands, etc)
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|has\_preview\_medias|[Bool](/API_docs/types/Bool.html) | Optional|
 |user\_id|[long](/API_docs/types/long.html) | Optional|ID of the bot|
 |description|[string](/API_docs/types/string.html) | Optional|Description of the bot|
 |description\_photo|[Photo](/API_docs/types/Photo.html) | Optional|Description photo|
@@ -30,5 +31,5 @@ Info about bots (available bot commands, etc)
 ### Example:
 
 ```
-$botInfo = ['_' => 'botInfo', 'user_id' => long, 'description' => 'string', 'description_photo' => Photo, 'description_document' => Document, 'commands' => [BotCommand, BotCommand], 'menu_button' => BotMenuButton];
+$botInfo = ['_' => 'botInfo', 'has_preview_medias' => Bool, 'user_id' => long, 'description' => 'string', 'description_photo' => Photo, 'description_document' => Document, 'commands' => [BotCommand, BotCommand], 'menu_button' => BotMenuButton];
 ```  
