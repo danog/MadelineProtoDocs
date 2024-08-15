@@ -19,7 +19,7 @@ Method for fetching previously featured stickers
 |----------|---------------|-------------|----------|
 |offset|[int](/API_docs/types/int.html) | Offset | Optional|
 |limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
-|hash|Array of [long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|Array of [long|string](/API_docs/types/long|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [messages.FeaturedStickers](/API_docs/types/messages.FeaturedStickers.html)
@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_FeaturedStickers = $MadelineProto->messages->getOldFeaturedStickers(offset: $int, limit: $int, hash: [$long, $long], );
+$messages_FeaturedStickers = $MadelineProto->messages->getOldFeaturedStickers(offset: $int, limit: $int, hash: [$long|string, $long|string], );
 ```
 

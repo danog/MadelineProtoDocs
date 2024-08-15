@@ -15,7 +15,7 @@ redirect_from: /API_docs/methods/messages_getEmojiStickerGroups.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|hash|Array of [long](/API_docs/types/long.html) | Optional|
+|hash|Array of [long|string](/API_docs/types/long|string.html) | Optional|
 
 
 ### Return type: [messages.EmojiGroups](/API_docs/types/messages.EmojiGroups.html)
@@ -35,6 +35,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_EmojiGroups = $MadelineProto->messages->getEmojiStickerGroups(hash: [$long, $long], );
+$messages_EmojiGroups = $MadelineProto->messages->getEmojiStickerGroups(hash: [$long|string, $long|string], );
 ```
 

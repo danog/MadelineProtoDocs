@@ -17,7 +17,7 @@ Get app-specific configuration, see [client configuration](https://core.telegram
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [long](/API_docs/types/long.html) |  | Optional|
+|hash|Array of [long|string](/API_docs/types/long|string.html) |  | Optional|
 
 
 ### Return type: [help.AppConfig](/API_docs/types/help.AppConfig.html)
@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help_AppConfig = $MadelineProto->help->getAppConfig(hash: [$long, $long], );
+$help_AppConfig = $MadelineProto->help->getAppConfig(hash: [$long|string, $long|string], );
 ```
 

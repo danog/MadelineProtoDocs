@@ -15,7 +15,7 @@ redirect_from: /API_docs/methods/messages_getQuickReplies.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|hash|Array of [long](/API_docs/types/long.html) | Optional|
+|hash|Array of [long|string](/API_docs/types/long|string.html) | Optional|
 
 
 ### Return type: [messages.QuickReplies](/API_docs/types/messages.QuickReplies.html)
@@ -35,6 +35,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_QuickReplies = $MadelineProto->messages->getQuickReplies(hash: [$long, $long], );
+$messages_QuickReplies = $MadelineProto->messages->getQuickReplies(hash: [$long|string, $long|string], );
 ```
 

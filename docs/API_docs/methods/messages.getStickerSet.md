@@ -18,7 +18,7 @@ Get info about a stickerset
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |stickerset|[InputStickerSet](/API_docs/types/InputStickerSet.html) | Stickerset | Optional|
-|hash|Array of [long](/API_docs/types/long.html) |  | Optional|
+|hash|Array of [long|string](/API_docs/types/long|string.html) |  | Optional|
 
 
 ### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.html)
@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_StickerSet = $MadelineProto->messages->getStickerSet(stickerset: $InputStickerSet, hash: [$long, $long], );
+$messages_StickerSet = $MadelineProto->messages->getStickerSet(stickerset: $InputStickerSet, hash: [$long|string, $long|string], );
 ```
 

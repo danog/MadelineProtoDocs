@@ -17,7 +17,7 @@ redirect_from: /API_docs/methods/messages_getQuickReplyMessages.html
 |----------|---------------|----------|
 |shortcut\_id|[int](/API_docs/types/int.html) | Optional|
 |id|Array of [int](/API_docs/types/int.html) | Optional|
-|hash|Array of [long](/API_docs/types/long.html) | Optional|
+|hash|Array of [long|string](/API_docs/types/long|string.html) | Optional|
 
 
 ### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)
@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Messages = $MadelineProto->messages->getQuickReplyMessages(shortcut_id: $int, id: [$int, $int], hash: [$long, $long], );
+$messages_Messages = $MadelineProto->messages->getQuickReplyMessages(shortcut_id: $int, id: [$int, $int], hash: [$long|string, $long|string], );
 ```
 

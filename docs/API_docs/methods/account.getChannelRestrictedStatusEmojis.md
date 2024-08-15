@@ -17,7 +17,7 @@ Returns fetch the full list of [custom emoji IDs »](https://core.telegram.org/a
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|Array of [long|string](/API_docs/types/long|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [EmojiList](/API_docs/types/EmojiList.html)
@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$EmojiList = $MadelineProto->account->getChannelRestrictedStatusEmojis(hash: [$long, $long], );
+$EmojiList = $MadelineProto->account->getChannelRestrictedStatusEmojis(hash: [$long|string, $long|string], );
 ```
 

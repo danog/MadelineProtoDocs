@@ -23,7 +23,7 @@ Returns the current user dialog list.
 |offset\_id|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) (`top_message` ID used for pagination) | Optional|
 |offset\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | [Offset peer for pagination](https://core.telegram.org/api/offsets) | Optional|
 |limit|[int](/API_docs/types/int.html) | Number of list elements to be returned | Optional|
-|hash|Array of [long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|Array of [long|string](/API_docs/types/long|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [messages.Dialogs](/API_docs/types/messages.Dialogs.html)
@@ -43,6 +43,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Dialogs = $MadelineProto->messages->getDialogs(exclude_pinned: $Bool, folder_id: $int, offset_date: $int, offset_id: $int, offset_peer: $InputPeer, limit: $int, hash: [$long, $long], );
+$messages_Dialogs = $MadelineProto->messages->getDialogs(exclude_pinned: $Bool, folder_id: $int, offset_date: $int, offset_id: $int, offset_peer: $InputPeer, limit: $int, hash: [$long|string, $long|string], );
 ```
 

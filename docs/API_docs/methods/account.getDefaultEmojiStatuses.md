@@ -17,7 +17,7 @@ Get a list of default suggested [emoji statuses](https://core.telegram.org/api/e
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|Array of [long|string](/API_docs/types/long|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [account.EmojiStatuses](/API_docs/types/account.EmojiStatuses.html)
@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_EmojiStatuses = $MadelineProto->account->getDefaultEmojiStatuses(hash: [$long, $long], );
+$account_EmojiStatuses = $MadelineProto->account->getDefaultEmojiStatuses(hash: [$long|string, $long|string], );
 ```
 

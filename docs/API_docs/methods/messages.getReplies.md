@@ -25,7 +25,7 @@ Get messages in a reply thread
 |limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
 |max\_id|[int](/API_docs/types/int.html) | If a positive value was transferred, the method will return only messages with ID smaller than max\_id | Optional|
 |min\_id|[int](/API_docs/types/int.html) | If a positive value was transferred, the method will return only messages with ID bigger than min\_id | Optional|
-|hash|Array of [long](/API_docs/types/long.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|Array of [long|string](/API_docs/types/long|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)
@@ -45,6 +45,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Messages = $MadelineProto->messages->getReplies(peer: $InputPeer, msg_id: $int, offset_id: $int, offset_date: $int, add_offset: $int, limit: $int, max_id: $int, min_id: $int, hash: [$long, $long], );
+$messages_Messages = $MadelineProto->messages->getReplies(peer: $InputPeer, msg_id: $int, offset_id: $int, offset_date: $int, add_offset: $int, limit: $int, max_id: $int, min_id: $int, hash: [$long|string, $long|string], );
 ```
 

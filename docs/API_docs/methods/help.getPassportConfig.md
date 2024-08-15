@@ -17,7 +17,7 @@ Get [passport](https://core.telegram.org/passport) configuration
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [long](/API_docs/types/long.html) |  | Optional|
+|hash|Array of [long|string](/API_docs/types/long|string.html) |  | Optional|
 
 
 ### Return type: [help.PassportConfig](/API_docs/types/help.PassportConfig.html)
@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help_PassportConfig = $MadelineProto->help->getPassportConfig(hash: [$long, $long], );
+$help_PassportConfig = $MadelineProto->help->getPassportConfig(hash: [$long|string, $long|string], );
 ```
 
