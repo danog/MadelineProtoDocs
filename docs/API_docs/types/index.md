@@ -399,6 +399,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [MessageReactions](/API_docs/types/MessageReactions.html)<a name="MessageReactions"></a>  
 
+[MessageReactor](/API_docs/types/MessageReactor.html)<a name="MessageReactor"></a>  
+
 [MessageReplies](/API_docs/types/MessageReplies.html)<a name="MessageReplies"></a>  
 
 [MessageReplyHeader](/API_docs/types/MessageReplyHeader.html)<a name="MessageReplyHeader"></a>  
@@ -576,6 +578,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [StarsGiftOption](/API_docs/types/StarsGiftOption.html)<a name="StarsGiftOption"></a>  
 
 [StarsRevenueStatus](/API_docs/types/StarsRevenueStatus.html)<a name="StarsRevenueStatus"></a>  
+
+[StarsSubscription](/API_docs/types/StarsSubscription.html)<a name="StarsSubscription"></a>  
+
+[StarsSubscriptionPricing](/API_docs/types/StarsSubscriptionPricing.html)<a name="StarsSubscriptionPricing"></a>  
 
 [StarsTopupOption](/API_docs/types/StarsTopupOption.html)<a name="StarsTopupOption"></a>  
 

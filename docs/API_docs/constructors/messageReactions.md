@@ -20,6 +20,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |reactions\_as\_tags|[Bool](/API_docs/types/Bool.html) | Optional|
 |results|Array of [ReactionCount](/API_docs/types/ReactionCount.html) | Yes|Reactions|
 |recent\_reactions|Array of [MessagePeerReaction](/API_docs/types/MessagePeerReaction.html) | Optional|List of recent peers and their reactions|
+|top\_reactors|Array of [MessageReactor](/API_docs/types/MessageReactor.html) | Optional|
 
 
 
@@ -29,5 +30,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$messageReactions = ['_' => 'messageReactions', 'min' => Bool, 'can_see_list' => Bool, 'reactions_as_tags' => Bool, 'results' => [ReactionCount, ReactionCount], 'recent_reactions' => [MessagePeerReaction, MessagePeerReaction]];
+$messageReactions = ['_' => 'messageReactions', 'min' => Bool, 'can_see_list' => Bool, 'reactions_as_tags' => Bool, 'results' => [ReactionCount, ReactionCount], 'recent_reactions' => [MessagePeerReaction, MessagePeerReaction], 'top_reactors' => [MessageReactor, MessageReactor]];
 ```  

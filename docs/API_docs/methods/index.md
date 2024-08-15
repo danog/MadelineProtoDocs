@@ -1692,15 +1692,23 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.requestMainWebView.html" name="messages.requestMainWebView">messages.requestMainWebView</a>
 
+* <a href="messages.sendPaidReaction.html" name="messages.sendPaidReaction">messages.sendPaidReaction</a>
+
 * <a href="messages.sendQuickReplyMessages.html" name="messages.sendQuickReplyMessages">messages.sendQuickReplyMessages</a>
 
 * <a href="messages.toggleDialogFilterTags.html" name="messages.toggleDialogFilterTags">messages.toggleDialogFilterTags</a>
+
+* <a href="messages.togglePaidReactionPrivacy.html" name="messages.togglePaidReactionPrivacy">messages.togglePaidReactionPrivacy</a>
 
 * <a href="messages.updateSavedReactionTag.html" name="messages.updateSavedReactionTag">messages.updateSavedReactionTag</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleDecode" name="rleDecode">null-byte RLE decode: rleDecode</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleEncode" name="rleEncode">null-byte RLE encode: rleEncode</a>
+
+* <a href="payments.changeStarsSubscription.html" name="payments.changeStarsSubscription">payments.changeStarsSubscription</a>
+
+* <a href="payments.fulfillStarsSubscription.html" name="payments.fulfillStarsSubscription">payments.fulfillStarsSubscription</a>
 
 * <a href="payments.getStarsGiftOptions.html" name="payments.getStarsGiftOptions">payments.getStarsGiftOptions</a>
 
@@ -1711,6 +1719,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="payments.getStarsRevenueWithdrawalUrl.html" name="payments.getStarsRevenueWithdrawalUrl">payments.getStarsRevenueWithdrawalUrl</a>
 
 * <a href="payments.getStarsStatus.html" name="payments.getStarsStatus">payments.getStarsStatus</a>
+
+* <a href="payments.getStarsSubscriptions.html" name="payments.getStarsSubscriptions">payments.getStarsSubscriptions</a>
 
 * <a href="payments.getStarsTopupOptions.html" name="payments.getStarsTopupOptions">payments.getStarsTopupOptions</a>
 

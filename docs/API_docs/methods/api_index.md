@@ -893,7 +893,7 @@ $MadelineProto->[channels->togglePreHistoryHidden](/API_docs/methods/channels.to
 
 ***
 <br><br>
-$MadelineProto->[channels->toggleSignatures](/API_docs/methods/channels.toggleSignatures.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), enabled: $[Bool](/API_docs/types/Bool.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.toggleSignatures"></a>  
+$MadelineProto->[channels->toggleSignatures](/API_docs/methods/channels.toggleSignatures.html)(\[signatures_enabled: $[Bool](/API_docs/types/Bool.html), profiles_enabled: $[Bool](/API_docs/types/Bool.html), channel: $[InputChannel](/API_docs/types/InputChannel.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.toggleSignatures"></a>  
 
 ***
 <br><br>
@@ -1381,7 +1381,7 @@ $MadelineProto->[messages->editQuickReplyShortcut](/API_docs/methods/messages.ed
 
 ***
 <br><br>
-$MadelineProto->[messages->exportChatInvite](/API_docs/methods/messages.exportChatInvite.html)(\[legacy_revoke_permanent: $[Bool](/API_docs/types/Bool.html), request_needed: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), expire_date: $[int](/API_docs/types/int.html), usage_limit: $[int](/API_docs/types/int.html), title: $[string](/API_docs/types/string.html), \]) === [$ExportedChatInvite](/API_docs/types/ExportedChatInvite.html)<a name="messages.exportChatInvite"></a>  
+$MadelineProto->[messages->exportChatInvite](/API_docs/methods/messages.exportChatInvite.html)(\[legacy_revoke_permanent: $[Bool](/API_docs/types/Bool.html), request_needed: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), expire_date: $[int](/API_docs/types/int.html), usage_limit: $[int](/API_docs/types/int.html), title: $[string](/API_docs/types/string.html), subscription_pricing: $[StarsSubscriptionPricing](/API_docs/types/StarsSubscriptionPricing.html), \]) === [$ExportedChatInvite](/API_docs/types/ExportedChatInvite.html)<a name="messages.exportChatInvite"></a>  
 
 ***
 <br><br>
@@ -1437,7 +1437,7 @@ $MadelineProto->[messages->getBotCallbackAnswer](/API_docs/methods/messages.getB
 
 ***
 <br><br>
-$MadelineProto->[messages->getChatInviteImporters](/API_docs/methods/messages.getChatInviteImporters.html)(\[requested: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), link: $[string](/API_docs/types/string.html), q: $[string](/API_docs/types/string.html), offset_date: $[int](/API_docs/types/int.html), offset_user: $[InputUser](/API_docs/types/InputUser.html), limit: $[int](/API_docs/types/int.html), \]) === [$messages.ChatInviteImporters](/API_docs/types/messages.ChatInviteImporters.html)<a name="messages.getChatInviteImporters"></a>  
+$MadelineProto->[messages->getChatInviteImporters](/API_docs/methods/messages.getChatInviteImporters.html)(\[requested: $[Bool](/API_docs/types/Bool.html), subscription_expired: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), link: $[string](/API_docs/types/string.html), q: $[string](/API_docs/types/string.html), offset_date: $[int](/API_docs/types/int.html), offset_user: $[InputUser](/API_docs/types/InputUser.html), limit: $[int](/API_docs/types/int.html), \]) === [$messages.ChatInviteImporters](/API_docs/types/messages.ChatInviteImporters.html)<a name="messages.getChatInviteImporters"></a>  
 
 ***
 <br><br>
@@ -1937,6 +1937,10 @@ $MadelineProto->[messages->sendMultiMedia](/API_docs/methods/messages.sendMultiM
 
 ***
 <br><br>
+$MadelineProto->[messages->sendPaidReaction](/API_docs/methods/messages.sendPaidReaction.html)(\[private: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), msg_id: $[int](/API_docs/types/int.html), count: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendPaidReaction"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->sendQuickReplyMessages](/API_docs/methods/messages.sendQuickReplyMessages.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), shortcut_id: $[int](/API_docs/types/int.html), id: \[$[int](/API_docs/types/int.html)\], \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendQuickReplyMessages"></a>  
 
 ***
@@ -1977,7 +1981,7 @@ $MadelineProto->[messages->setBotShippingResults](/API_docs/methods/messages.set
 
 ***
 <br><br>
-$MadelineProto->[messages->setChatAvailableReactions](/API_docs/methods/messages.setChatAvailableReactions.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), available_reactions: $[ChatReactions](/API_docs/types/ChatReactions.html), reactions_limit: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.setChatAvailableReactions"></a>  
+$MadelineProto->[messages->setChatAvailableReactions](/API_docs/methods/messages.setChatAvailableReactions.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), available_reactions: $[ChatReactions](/API_docs/types/ChatReactions.html), reactions_limit: $[int](/API_docs/types/int.html), paid_enabled: $[Bool](/API_docs/types/Bool.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.setChatAvailableReactions"></a>  
 
 ***
 <br><br>
@@ -2042,6 +2046,10 @@ $MadelineProto->[messages->toggleDialogPin](/API_docs/methods/messages.toggleDia
 ***
 <br><br>
 $MadelineProto->[messages->toggleNoForwards](/API_docs/methods/messages.toggleNoForwards.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), enabled: $[Bool](/API_docs/types/Bool.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.toggleNoForwards"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->togglePaidReactionPrivacy](/API_docs/methods/messages.togglePaidReactionPrivacy.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), msg_id: $[int](/API_docs/types/int.html), private: $[Bool](/API_docs/types/Bool.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.togglePaidReactionPrivacy"></a>  
 
 ***
 <br><br>
@@ -2117,6 +2125,10 @@ $MadelineProto->[payments->canPurchasePremium](/API_docs/methods/payments.canPur
 
 ***
 <br><br>
+$MadelineProto->[payments->changeStarsSubscription](/API_docs/methods/payments.changeStarsSubscription.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), subscription_id: $[string](/API_docs/types/string.html), canceled: $[Bool](/API_docs/types/Bool.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.changeStarsSubscription"></a>  
+
+***
+<br><br>
 $MadelineProto->[payments->checkGiftCode](/API_docs/methods/payments.checkGiftCode.html)(\[slug: $[string](/API_docs/types/string.html), \]) === [$payments.CheckedGiftCode](/API_docs/types/payments.CheckedGiftCode.html)<a name="payments.checkGiftCode"></a>  
 
 ***
@@ -2126,6 +2138,10 @@ $MadelineProto->[payments->clearSavedInfo](/API_docs/methods/payments.clearSaved
 ***
 <br><br>
 $MadelineProto->[payments->exportInvoice](/API_docs/methods/payments.exportInvoice.html)(\[invoice_media: $[InputMedia](/API_docs/types/InputMedia.html), \]) === [$payments.ExportedInvoice](/API_docs/types/payments.ExportedInvoice.html)<a name="payments.exportInvoice"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->fulfillStarsSubscription](/API_docs/methods/payments.fulfillStarsSubscription.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), subscription_id: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.fulfillStarsSubscription"></a>  
 
 ***
 <br><br>
@@ -2173,11 +2189,15 @@ $MadelineProto->[payments->getStarsStatus](/API_docs/methods/payments.getStarsSt
 
 ***
 <br><br>
+$MadelineProto->[payments->getStarsSubscriptions](/API_docs/methods/payments.getStarsSubscriptions.html)(\[missing_balance: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), offset: $[string](/API_docs/types/string.html), \]) === [$payments.StarsStatus](/API_docs/types/payments.StarsStatus.html)<a name="payments.getStarsSubscriptions"></a>  
+
+***
+<br><br>
 $MadelineProto->[payments->getStarsTopupOptions](/API_docs/methods/payments.getStarsTopupOptions.html)(\[\]) === [$Vector\_of\_StarsTopupOption](/API_docs/types/StarsTopupOption.html)<a name="payments.getStarsTopupOptions"></a>  
 
 ***
 <br><br>
-$MadelineProto->[payments->getStarsTransactions](/API_docs/methods/payments.getStarsTransactions.html)(\[inbound: $[Bool](/API_docs/types/Bool.html), outbound: $[Bool](/API_docs/types/Bool.html), ascending: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$payments.StarsStatus](/API_docs/types/payments.StarsStatus.html)<a name="payments.getStarsTransactions"></a>  
+$MadelineProto->[payments->getStarsTransactions](/API_docs/methods/payments.getStarsTransactions.html)(\[inbound: $[Bool](/API_docs/types/Bool.html), outbound: $[Bool](/API_docs/types/Bool.html), ascending: $[Bool](/API_docs/types/Bool.html), subscription_id: $[string](/API_docs/types/string.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$payments.StarsStatus](/API_docs/types/payments.StarsStatus.html)<a name="payments.getStarsTransactions"></a>  
 
 ***
 <br><br>

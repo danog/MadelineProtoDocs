@@ -20,6 +20,7 @@ Change the set of [message reactions »](https://core.telegram.org/api/reactions
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Group where to apply changes | Optional|
 |available\_reactions|[ChatReactions](/API_docs/types/ChatReactions.html) | Allowed reaction emojis | Yes|
 |reactions\_limit|[int](/API_docs/types/int.html) |  | Optional|
+|paid\_enabled|[Bool](/API_docs/types/Bool.html) |  | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -39,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->setChatAvailableReactions(peer: $InputPeer, available_reactions: $ChatReactions, reactions_limit: $int, );
+$Updates = $MadelineProto->messages->setChatAvailableReactions(peer: $InputPeer, available_reactions: $ChatReactions, reactions_limit: $int, paid_enabled: $Bool, );
 ```
 

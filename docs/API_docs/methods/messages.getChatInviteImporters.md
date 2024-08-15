@@ -18,6 +18,7 @@ Get info about the users that joined the chat using a specific chat invite
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |requested|[Bool](/API_docs/types/Bool.html) | If set, only returns info about users with pending [join requests »](https://core.telegram.org/api/invites#join-requests) | Optional|
+|subscription\_expired|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Chat | Optional|
 |link|[string](/API_docs/types/string.html) | Invite link | Optional|
 |q|[string](/API_docs/types/string.html) | Search for a user in the pending [join requests »](https://core.telegram.org/api/invites#join-requests) list: only available when the `requested` flag is set, cannot be used together with a specific `link`. | Optional|
@@ -43,6 +44,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_ChatInviteImporters = $MadelineProto->messages->getChatInviteImporters(requested: $Bool, peer: $InputPeer, link: 'string', q: 'string', offset_date: $int, offset_user: $InputUser, limit: $int, );
+$messages_ChatInviteImporters = $MadelineProto->messages->getChatInviteImporters(requested: $Bool, subscription_expired: $Bool, peer: $InputPeer, link: 'string', q: 'string', offset_date: $int, offset_user: $InputUser, limit: $int, );
 ```
 

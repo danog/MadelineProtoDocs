@@ -23,6 +23,8 @@ You can also use async streams, HTTP response objects, and [much more](https://d
 
 [inputFileBig](/API_docs/constructors/inputFileBig.html)  
 
+[inputFileStoryDocument](/API_docs/constructors/inputFileStoryDocument.html)  
+
 
 
 ### Methods that return an object of this type (methods):

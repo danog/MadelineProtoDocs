@@ -26,7 +26,9 @@ Exported chat invite
 |usage\_limit|[int](/API_docs/types/int.html) | Optional|Maximum number of users that can join using this link|
 |usage|[int](/API_docs/types/int.html) | Optional|How many users joined using this link|
 |requested|[int](/API_docs/types/int.html) | Optional|Number of users that have already used this link to join|
+|subscription\_expired|[int](/API_docs/types/int.html) | Optional|
 |title|[string](/API_docs/types/string.html) | Optional|Custom description for the invite link, visible only to admins|
+|subscription\_pricing|[StarsSubscriptionPricing](/API_docs/types/StarsSubscriptionPricing.html) | Optional|
 
 
 
@@ -36,5 +38,5 @@ Exported chat invite
 ### Example:
 
 ```
-$chatInviteExported = ['_' => 'chatInviteExported', 'revoked' => Bool, 'permanent' => Bool, 'request_needed' => Bool, 'link' => 'string', 'admin_id' => long, 'date' => int, 'start_date' => int, 'expire_date' => int, 'usage_limit' => int, 'usage' => int, 'requested' => int, 'title' => 'string'];
+$chatInviteExported = ['_' => 'chatInviteExported', 'revoked' => Bool, 'permanent' => Bool, 'request_needed' => Bool, 'link' => 'string', 'admin_id' => long, 'date' => int, 'start_date' => int, 'expire_date' => int, 'usage_limit' => int, 'usage' => int, 'requested' => int, 'subscription_expired' => int, 'title' => 'string', 'subscription_pricing' => StarsSubscriptionPricing];
 ```  

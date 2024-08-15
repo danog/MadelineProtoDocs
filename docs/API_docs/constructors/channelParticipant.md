@@ -17,6 +17,7 @@ Channel/supergroup participant
 |----------|---------------|----------|-------------|
 |user\_id|[long](/API_docs/types/long.html) | Yes|Participant user ID|
 |date|[int](/API_docs/types/int.html) | Yes|Date joined|
+|subscription\_until\_date|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -26,5 +27,5 @@ Channel/supergroup participant
 ### Example:
 
 ```
-$channelParticipant = ['_' => 'channelParticipant', 'user_id' => long, 'date' => int];
+$channelParticipant = ['_' => 'channelParticipant', 'user_id' => long, 'date' => int, 'subscription_until_date' => int];
 ```  

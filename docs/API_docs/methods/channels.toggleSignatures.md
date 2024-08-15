@@ -17,8 +17,9 @@ Enable/disable message signatures in channels
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|signatures\_enabled|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|profiles\_enabled|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Channel | Optional|
-|enabled|[Bool](/API_docs/types/Bool.html) | Value | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -38,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->channels->toggleSignatures(channel: $InputChannel, enabled: $Bool, );
+$Updates = $MadelineProto->channels->toggleSignatures(signatures_enabled: $Bool, profiles_enabled: $Bool, channel: $InputChannel, );
 ```
 

@@ -19,6 +19,7 @@ Myself
 |user\_id|[long](/API_docs/types/long.html) | Yes|User ID|
 |inviter\_id|[long](/API_docs/types/long.html) | Yes|User that invited me to the channel/supergroup|
 |date|[int](/API_docs/types/int.html) | Yes|When did I join the channel/supergroup|
+|subscription\_until\_date|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -28,5 +29,5 @@ Myself
 ### Example:
 
 ```
-$channelParticipantSelf = ['_' => 'channelParticipantSelf', 'via_request' => Bool, 'user_id' => long, 'inviter_id' => long, 'date' => int];
+$channelParticipantSelf = ['_' => 'channelParticipantSelf', 'via_request' => Bool, 'user_id' => long, 'inviter_id' => long, 'date' => int, 'subscription_until_date' => int];
 ```  

@@ -23,6 +23,7 @@ A [sponsored message](https://core.telegram.org/api/sponsored-messages).
 |entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Optional|[Message entities for styled text](https://core.telegram.org/api/entities)|
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
 |photo|[Photo](/API_docs/types/Photo.html) | Optional|
+|media|[MessageMedia](/API_docs/types/MessageMedia.html) | Optional|
 |color|[PeerColor](/API_docs/types/PeerColor.html) | Optional|
 |button\_text|[string](/API_docs/types/string.html) | Yes|Text of the sponsored message button.|
 |sponsor\_info|[string](/API_docs/types/string.html) | Optional|If set, contains additional information about the sponsor to be shown along with the message.|
@@ -96,5 +97,5 @@ pre-formatted fixed-width code block written in the PHP programming language
 ### Example:
 
 ```
-$sponsoredMessage = ['_' => 'sponsoredMessage', 'recommended' => Bool, 'can_report' => Bool, 'url' => 'string', 'title' => 'string', 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'photo' => Photo, 'color' => PeerColor, 'button_text' => 'string', 'sponsor_info' => 'string', 'additional_info' => 'string'];
+$sponsoredMessage = ['_' => 'sponsoredMessage', 'recommended' => Bool, 'can_report' => Bool, 'url' => 'string', 'title' => 'string', 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'photo' => Photo, 'media' => MessageMedia, 'color' => PeerColor, 'button_text' => 'string', 'sponsor_info' => 'string', 'additional_info' => 'string'];
 ```  

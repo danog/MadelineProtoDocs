@@ -22,6 +22,7 @@ Info about bots (available bot commands, etc)
 |description\_document|[Document](/API_docs/types/Document.html) | Optional|Description animation in MPEG4 format|
 |commands|Array of [BotCommand](/API_docs/types/BotCommand.html) | Optional|Bot commands that can be used in the chat|
 |menu\_button|[BotMenuButton](/API_docs/types/BotMenuButton.html) | Optional|Indicates the action to execute when pressing the in-UI menu button for bots|
+|privacy\_policy\_url|[string](/API_docs/types/string.html) | Optional|
 
 
 
@@ -31,5 +32,5 @@ Info about bots (available bot commands, etc)
 ### Example:
 
 ```
-$botInfo = ['_' => 'botInfo', 'has_preview_medias' => Bool, 'user_id' => long, 'description' => 'string', 'description_photo' => Photo, 'description_document' => Document, 'commands' => [BotCommand, BotCommand], 'menu_button' => BotMenuButton];
+$botInfo = ['_' => 'botInfo', 'has_preview_medias' => Bool, 'user_id' => long, 'description' => 'string', 'description_photo' => Photo, 'description_document' => Document, 'commands' => [BotCommand, BotCommand], 'menu_button' => BotMenuButton, 'privacy_policy_url' => 'string'];
 ```  

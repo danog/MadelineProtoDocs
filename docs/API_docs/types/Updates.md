@@ -134,6 +134,8 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->messages->deleteFactCheck](/API_docs/methods/messages.deleteFactCheck.html)  
 
+[$MadelineProto->messages->sendPaidReaction](/API_docs/methods/messages.sendPaidReaction.html)  
+
 [$MadelineProto->channels->createChannel](/API_docs/methods/channels.createChannel.html)  
 
 [$MadelineProto->channels->editAdmin](/API_docs/methods/channels.editAdmin.html)  

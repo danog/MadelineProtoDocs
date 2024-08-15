@@ -107,6 +107,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [channelAdminLogEventActionChangeEmojiStickerSet](/API_docs/constructors/channelAdminLogEventActionChangeEmojiStickerSet.html)  
 
+[channelAdminLogEventActionToggleSignatureProfiles](/API_docs/constructors/channelAdminLogEventActionToggleSignatureProfiles.html)  
+
 
 
 ### Methods that return an object of this type (methods):

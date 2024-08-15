@@ -23,6 +23,7 @@ Export an invite link for a chat
 |expire\_date|[int](/API_docs/types/int.html) | Expiration date | Optional|
 |usage\_limit|[int](/API_docs/types/int.html) | Maximum number of users that can join using this link | Optional|
 |title|[string](/API_docs/types/string.html) | Description of the invite link, visible only to administrators | Optional|
+|subscription\_pricing|[StarsSubscriptionPricing](/API_docs/types/StarsSubscriptionPricing.html) |  | Optional|
 
 
 ### Return type: [ExportedChatInvite](/API_docs/types/ExportedChatInvite.html)
@@ -42,6 +43,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$ExportedChatInvite = $MadelineProto->messages->exportChatInvite(legacy_revoke_permanent: $Bool, request_needed: $Bool, peer: $InputPeer, expire_date: $int, usage_limit: $int, title: 'string', );
+$ExportedChatInvite = $MadelineProto->messages->exportChatInvite(legacy_revoke_permanent: $Bool, request_needed: $Bool, peer: $InputPeer, expire_date: $int, usage_limit: $int, title: 'string', subscription_pricing: $StarsSubscriptionPricing, );
 ```
 
