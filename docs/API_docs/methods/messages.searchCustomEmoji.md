@@ -18,7 +18,7 @@ Look for [custom emojis](https://core.telegram.org/api/custom-emoji) associated 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |emoticon|[string](/API_docs/types/string.html) | The emoji | Optional|
-|hash|Array of [long|string](/API_docs/types/long|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [EmojiList](/API_docs/types/EmojiList.html)

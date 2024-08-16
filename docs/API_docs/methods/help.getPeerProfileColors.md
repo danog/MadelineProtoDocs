@@ -17,7 +17,7 @@ Get the set of [accent color palettes »](https://core.telegram.org/api/colors) 
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [long|string](/API_docs/types/long|string.html) |  | Optional|
+|hash|Array of [long\|string](/API_docs/types/long|string.html) |  | Optional|
 
 
 ### Return type: [help.PeerColors](/API_docs/types/help.PeerColors.html)

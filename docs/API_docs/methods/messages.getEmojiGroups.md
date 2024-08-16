@@ -17,7 +17,7 @@ Represents a list of [emoji categories](https://core.telegram.org/api/custom-emo
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [long|string](/API_docs/types/long|string.html) |  | Optional|
+|hash|Array of [long\|string](/API_docs/types/long|string.html) |  | Optional|
 
 
 ### Return type: [messages.EmojiGroups](/API_docs/types/messages.EmojiGroups.html)

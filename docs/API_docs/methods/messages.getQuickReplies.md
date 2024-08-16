@@ -15,7 +15,7 @@ redirect_from: /API_docs/methods/messages_getQuickReplies.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|hash|Array of [long|string](/API_docs/types/long|string.html) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long|string.html) | Optional|
 
 
 ### Return type: [messages.QuickReplies](/API_docs/types/messages.QuickReplies.html)

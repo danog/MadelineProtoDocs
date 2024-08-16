@@ -18,7 +18,7 @@ Get recent stickers
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |attached|[Bool](/API_docs/types/Bool.html) | Get stickers recently attached to photo or video files | Optional|
-|hash|Array of [long|string](/API_docs/types/long|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [messages.RecentStickers](/API_docs/types/messages.RecentStickers.html)

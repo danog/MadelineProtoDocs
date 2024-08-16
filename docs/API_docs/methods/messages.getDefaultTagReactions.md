@@ -15,7 +15,7 @@ redirect_from: /API_docs/methods/messages_getDefaultTagReactions.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|hash|Array of [long|string](/API_docs/types/long|string.html) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long|string.html) | Optional|
 
 
 ### Return type: [messages.Reactions](/API_docs/types/messages.Reactions.html)

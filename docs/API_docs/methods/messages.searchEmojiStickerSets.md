@@ -19,7 +19,7 @@ Search for [custom emoji stickersets »](https://core.telegram.org/api/custom-em
 |----------|---------------|-------------|----------|
 |exclude\_featured|[Bool](/API_docs/types/Bool.html) | Exclude featured stickersets from results | Optional|
 |q|[string](/API_docs/types/string.html) | Query string | Optional|
-|hash|Array of [long|string](/API_docs/types/long|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [messages.FoundStickerSets](/API_docs/types/messages.FoundStickerSets.html)

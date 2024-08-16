@@ -16,7 +16,7 @@ redirect_from: /API_docs/methods/messages_getSavedReactionTags.html
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|hash|Array of [long|string](/API_docs/types/long|string.html) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long|string.html) | Optional|
 
 
 ### Return type: [messages.SavedReactionTags](/API_docs/types/messages.SavedReactionTags.html)

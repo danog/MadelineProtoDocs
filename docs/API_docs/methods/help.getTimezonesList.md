@@ -15,7 +15,7 @@ redirect_from: /API_docs/methods/help_getTimezonesList.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|hash|Array of [long|string](/API_docs/types/long|string.html) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long|string.html) | Optional|
 
 
 ### Return type: [help.TimezonesList](/API_docs/types/help.TimezonesList.html)

@@ -17,7 +17,7 @@ redirect_from: /API_docs/methods/messages_getQuickReplyMessages.html
 |----------|---------------|----------|
 |shortcut\_id|[int](/API_docs/types/int.html) | Optional|
 |id|Array of [int](/API_docs/types/int.html) | Optional|
-|hash|Array of [long|string](/API_docs/types/long|string.html) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long|string.html) | Optional|
 
 
 ### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)

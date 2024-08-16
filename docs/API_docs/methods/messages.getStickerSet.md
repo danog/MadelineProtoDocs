@@ -18,7 +18,7 @@ Get info about a stickerset
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |stickerset|[InputStickerSet](/API_docs/types/InputStickerSet.html) | Stickerset | Optional|
-|hash|Array of [long|string](/API_docs/types/long|string.html) |  | Optional|
+|hash|Array of [long\|string](/API_docs/types/long|string.html) |  | Optional|
 
 
 ### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.html)

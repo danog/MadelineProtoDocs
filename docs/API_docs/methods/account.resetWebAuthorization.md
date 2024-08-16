@@ -17,7 +17,7 @@ Log out an active web [telegram login](https://core.telegram.org/widgets/login) 
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [long|string](/API_docs/types/long|string.html) | [Session](../constructors/webAuthorization.html) hash | Optional|
+|hash|Array of [long\|string](/API_docs/types/long|string.html) | [Session](../constructors/webAuthorization.html) hash | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

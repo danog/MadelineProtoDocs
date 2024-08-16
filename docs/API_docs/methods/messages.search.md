@@ -31,7 +31,7 @@ Search for messages.
 |limit|[int](/API_docs/types/int.html) | [Number of results to return](https://core.telegram.org/api/offsets) | Optional|
 |max\_id|[int](/API_docs/types/int.html) | [Maximum message ID to return](https://core.telegram.org/api/offsets) | Optional|
 |min\_id|[int](/API_docs/types/int.html) | [Minimum message ID to return](https://core.telegram.org/api/offsets) | Optional|
-|hash|Array of [long|string](/API_docs/types/long|string.html) | [Hash](https://core.telegram.org/api/offsets) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long|string.html) | [Hash](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)

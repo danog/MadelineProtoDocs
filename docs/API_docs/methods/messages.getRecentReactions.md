@@ -18,7 +18,7 @@ Get recently used [message reactions](https://core.telegram.org/api/reactions)
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
-|hash|Array of [long|string](/API_docs/types/long|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [messages.Reactions](/API_docs/types/messages.Reactions.html)
