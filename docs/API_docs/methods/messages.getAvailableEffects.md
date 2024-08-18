@@ -15,7 +15,7 @@ redirect_from: /API_docs/methods/messages_getAvailableEffects.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|hash|Array of [long\|string](/API_docs/types/long|string.html) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | Optional|
 
 
 ### Return type: [messages.AvailableEffects](/API_docs/types/messages.AvailableEffects.html)
@@ -35,6 +35,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_AvailableEffects = $MadelineProto->messages->getAvailableEffects(hash: [$long|string, $long|string], );
+$messages_AvailableEffects = $MadelineProto->messages->getAvailableEffects(hash: [$long\|string, $long\|string], );
 ```
 

@@ -21,7 +21,7 @@ Get the participants of a [supergroup/channel](https://core.telegram.org/api/cha
 |filter|[ChannelParticipantsFilter](/API_docs/types/ChannelParticipantsFilter.html) | Which participant types to fetch | Yes|
 |offset|[int](/API_docs/types/int.html) | [Offset](https://core.telegram.org/api/offsets) | Optional|
 |limit|[int](/API_docs/types/int.html) | [Limit](https://core.telegram.org/api/offsets) | Optional|
-|hash|Array of [long\|string](/API_docs/types/long|string.html) | [Hash](https://core.telegram.org/api/offsets) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | [Hash](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [channels.ChannelParticipants](/API_docs/types/channels.ChannelParticipants.html)
@@ -41,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$channels_ChannelParticipants = $MadelineProto->channels->getParticipants(channel: $InputChannel, filter: $ChannelParticipantsFilter, offset: $int, limit: $int, hash: [$long|string, $long|string], );
+$channels_ChannelParticipants = $MadelineProto->channels->getParticipants(channel: $InputChannel, filter: $ChannelParticipantsFilter, offset: $int, limit: $int, hash: [$long\|string, $long\|string], );
 ```
 

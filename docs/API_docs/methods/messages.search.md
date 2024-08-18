@@ -31,7 +31,7 @@ Search for messages.
 |limit|[int](/API_docs/types/int.html) | [Number of results to return](https://core.telegram.org/api/offsets) | Optional|
 |max\_id|[int](/API_docs/types/int.html) | [Maximum message ID to return](https://core.telegram.org/api/offsets) | Optional|
 |min\_id|[int](/API_docs/types/int.html) | [Minimum message ID to return](https://core.telegram.org/api/offsets) | Optional|
-|hash|Array of [long\|string](/API_docs/types/long|string.html) | [Hash](https://core.telegram.org/api/offsets) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | [Hash](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)
@@ -51,6 +51,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Messages = $MadelineProto->messages->search(peer: $InputPeer, q: 'string', from_id: $InputPeer, saved_peer_id: $InputPeer, saved_reaction: [$Reaction, $Reaction], top_msg_id: $int, filter: $MessagesFilter, min_date: $int, max_date: $int, offset_id: $int, add_offset: $int, limit: $int, max_id: $int, min_id: $int, hash: [$long|string, $long|string], );
+$messages_Messages = $MadelineProto->messages->search(peer: $InputPeer, q: 'string', from_id: $InputPeer, saved_peer_id: $InputPeer, saved_reaction: [$Reaction, $Reaction], top_msg_id: $int, filter: $MessagesFilter, min_date: $int, max_date: $int, offset_id: $int, add_offset: $int, limit: $int, max_id: $int, min_id: $int, hash: [$long\|string, $long\|string], );
 ```
 

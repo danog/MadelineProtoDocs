@@ -17,7 +17,7 @@ Get featured stickers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [long\|string](/API_docs/types/long|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [messages.FeaturedStickers](/API_docs/types/messages.FeaturedStickers.html)
@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_FeaturedStickers = $MadelineProto->messages->getFeaturedStickers(hash: [$long|string, $long|string], );
+$messages_FeaturedStickers = $MadelineProto->messages->getFeaturedStickers(hash: [$long\|string, $long\|string], );
 ```
 

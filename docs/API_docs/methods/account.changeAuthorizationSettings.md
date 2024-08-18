@@ -18,7 +18,7 @@ Change settings related to a session.
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |confirmed|[Bool](/API_docs/types/Bool.html) | If set, [confirms a newly logged in session »](https://core.telegram.org/api/auth#confirming-login). | Optional|
-|hash|Array of [long\|string](/API_docs/types/long|string.html) | Session ID from the [authorization](../constructors/authorization.html) constructor, fetchable using [account.getAuthorizations](../methods/account.getAuthorizations.html) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | Session ID from the [authorization](../constructors/authorization.html) constructor, fetchable using [account.getAuthorizations](../methods/account.getAuthorizations.html) | Optional|
 |encrypted\_requests\_disabled|[Bool](/API_docs/types/Bool.html) | Whether to enable or disable receiving encrypted chats: if the flag is not set, the previous setting is not changed | Optional|
 |call\_requests\_disabled|[Bool](/API_docs/types/Bool.html) | Whether to enable or disable receiving calls: if the flag is not set, the previous setting is not changed | Optional|
 
@@ -40,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->account->changeAuthorizationSettings(confirmed: $Bool, hash: [$long|string, $long|string], encrypted_requests_disabled: $Bool, call_requests_disabled: $Bool, );
+$Bool = $MadelineProto->account->changeAuthorizationSettings(confirmed: $Bool, hash: [$long\|string, $long\|string], encrypted_requests_disabled: $Bool, call_requests_disabled: $Bool, );
 ```
 

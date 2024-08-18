@@ -42,6 +42,7 @@ Represents the type of a bot API dialog ID.
 * [`toChatId(int $id): int`](#toChatId)
 * [`fromUserId(int $id): int`](#fromUserId)
 * [`toUserId(int $id): int`](#toUserId)
+* [`toMTProtoId(int $id): int`](#toMTProtoId)
 * [`cases(): array`](#cases)
 
 ## Methods:
@@ -189,6 +190,17 @@ Convert bot API user ID to MTProto user ID.
 Parameters:
 
 * `$id`: `int` Bot API user ID  
+
+
+
+### <a name="toMTProtoId"></a> `toMTProtoId(int $id): int`
+
+Convert bot API ID to MTProto ID (automatically detecting the correct type).
+
+
+Parameters:
+
+* `$id`: `int` Bot API dialog ID  
 
 
 

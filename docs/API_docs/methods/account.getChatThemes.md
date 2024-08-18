@@ -17,7 +17,7 @@ Get all available chat [themes »](https://core.telegram.org/api/themes).
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [long\|string](/API_docs/types/long|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [account.Themes](/API_docs/types/account.Themes.html)
@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_Themes = $MadelineProto->account->getChatThemes(hash: [$long|string, $long|string], );
+$account_Themes = $MadelineProto->account->getChatThemes(hash: [$long\|string, $long\|string], );
 ```
 

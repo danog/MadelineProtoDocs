@@ -24,7 +24,7 @@ Returns [saved messages »](https://core.telegram.org/api/saved-messages) forwar
 |limit|[int](/API_docs/types/int.html) | Number of results to return | Optional|
 |max\_id|[int](/API_docs/types/int.html) | If a positive value was transferred, the method will return only messages with IDs less than **max\_id** | Optional|
 |min\_id|[int](/API_docs/types/int.html) | If a positive value was transferred, the method will return only messages with IDs more than **min\_id** | Optional|
-|hash|Array of [long\|string](/API_docs/types/long|string.html) | [Result hash](https://core.telegram.org/api/offsets) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | [Result hash](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)
@@ -44,6 +44,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Messages = $MadelineProto->messages->getSavedHistory(peer: $InputPeer, offset_id: $int, offset_date: $int, add_offset: $int, limit: $int, max_id: $int, min_id: $int, hash: [$long|string, $long|string], );
+$messages_Messages = $MadelineProto->messages->getSavedHistory(peer: $InputPeer, offset_id: $int, offset_date: $int, add_offset: $int, limit: $int, max_id: $int, min_id: $int, hash: [$long\|string, $long\|string], );
 ```
 

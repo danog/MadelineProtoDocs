@@ -18,7 +18,7 @@ Get name, ISO code, localized name and phone codes/patterns of all available cou
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |lang\_code|[string](/API_docs/types/string.html) | Language code of the current user | Optional|
-|hash|Array of [long\|string](/API_docs/types/long|string.html) |  | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) |  | Optional|
 
 
 ### Return type: [help.CountriesList](/API_docs/types/help.CountriesList.html)
@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$help_CountriesList = $MadelineProto->help->getCountriesList(lang_code: 'string', hash: [$long|string, $long|string], );
+$help_CountriesList = $MadelineProto->help->getCountriesList(lang_code: 'string', hash: [$long\|string, $long\|string], );
 ```
 

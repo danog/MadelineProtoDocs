@@ -17,7 +17,7 @@ Gets the list of currently installed [custom emoji stickersets](https://core.tel
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [long\|string](/API_docs/types/long|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [messages.AllStickers](/API_docs/types/messages.AllStickers.html)
@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_AllStickers = $MadelineProto->messages->getEmojiStickers(hash: [$long|string, $long|string], );
+$messages_AllStickers = $MadelineProto->messages->getEmojiStickers(hash: [$long\|string, $long\|string], );
 ```
 

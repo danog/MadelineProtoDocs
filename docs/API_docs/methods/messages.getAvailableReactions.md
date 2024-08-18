@@ -17,7 +17,7 @@ Obtain available [message reactions »](https://core.telegram.org/api/reactions)
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [long\|string](/API_docs/types/long|string.html) |  | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) |  | Optional|
 
 
 ### Return type: [messages.AvailableReactions](/API_docs/types/messages.AvailableReactions.html)
@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_AvailableReactions = $MadelineProto->messages->getAvailableReactions(hash: [$long|string, $long|string], );
+$messages_AvailableReactions = $MadelineProto->messages->getAvailableReactions(hash: [$long\|string, $long\|string], );
 ```
 

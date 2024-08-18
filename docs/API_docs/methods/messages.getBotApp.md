@@ -18,7 +18,7 @@ Obtain information about a [direct link Mini App](https://core.telegram.org/api/
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |app|[InputBotApp](/API_docs/types/InputBotApp.html) | Bot app information obtained from a [Direct Mini App deep link »](https://core.telegram.org/api/links#direct-mini-app-links). | Yes|
-|hash|Array of [long\|string](/API_docs/types/long|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [messages.BotApp](/API_docs/types/messages.BotApp.html)
@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_BotApp = $MadelineProto->messages->getBotApp(app: $InputBotApp, hash: [$long|string, $long|string], );
+$messages_BotApp = $MadelineProto->messages->getBotApp(app: $InputBotApp, hash: [$long\|string, $long\|string], );
 ```
 

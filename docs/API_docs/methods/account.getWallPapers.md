@@ -17,7 +17,7 @@ Returns a list of available [wallpapers](https://core.telegram.org/api/wallpaper
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [long\|string](/API_docs/types/long|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [account.WallPapers](/API_docs/types/account.WallPapers.html)
@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_WallPapers = $MadelineProto->account->getWallPapers(hash: [$long|string, $long|string], );
+$account_WallPapers = $MadelineProto->account->getWallPapers(hash: [$long\|string, $long\|string], );
 ```
 

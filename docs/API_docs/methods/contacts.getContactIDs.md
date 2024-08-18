@@ -18,7 +18,7 @@ Returns an array of Telegram user IDs for all contacts (0 if a contact does not 
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [long\|string](/API_docs/types/long|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [Vector\_of\_int](/API_docs/types/int.html)
@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Vector_of_int = $MadelineProto->contacts->getContactIDs(hash: [$long|string, $long|string], );
+$Vector_of_int = $MadelineProto->contacts->getContactIDs(hash: [$long\|string, $long\|string], );
 ```
 

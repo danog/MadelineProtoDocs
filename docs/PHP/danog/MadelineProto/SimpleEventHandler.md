@@ -95,7 +95,7 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`flock(string $file, integer $operation, float $polling = 0.1, ?\Amp\Cancellation $token = NULL, ?\Closure $failureCb = NULL): ($token is null ? Closure(): void : (Closure(): void | null))`](#flock)
 * [`fullChatLastUpdated(mixed $id): int`](#fullChatLastUpdated)
 * [`fullGetSelf(): array|false`](#fullGetSelf)
-* [`genVectorHash(array $longs): string`](#genVectorHash)
+* [`genVectorHash(array<(string|int)> $longs): string`](#genVectorHash)
 * [`getAdminIds(): array`](#getAdminIds)
 * [`getAllCalls(): array<int, \danog\MadelineProto\VoIP>`](#getAllCalls)
 * [`getAllMethods(): array`](#getAllMethods)
@@ -1100,7 +1100,7 @@ Get info about the logged-in user, not cached.
 
 
 
-### <a name="genVectorHash"></a> `genVectorHash(array $longs): string`
+### <a name="genVectorHash"></a> `genVectorHash(array<(string|int)> $longs): string`
 
 Generate MTProto vector hash.
   
@@ -1109,7 +1109,7 @@ Returns a vector hash.
 
 Parameters:
 
-* `$longs`: `array` IDs  
+* `$longs`: `array<(string|int)>` IDs  
 
 
 

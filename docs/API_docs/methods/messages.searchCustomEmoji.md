@@ -18,7 +18,7 @@ Look for [custom emojis](https://core.telegram.org/api/custom-emoji) associated 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |emoticon|[string](/API_docs/types/string.html) | The emoji | Optional|
-|hash|Array of [long\|string](/API_docs/types/long|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [EmojiList](/API_docs/types/EmojiList.html)
@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$EmojiList = $MadelineProto->messages->searchCustomEmoji(emoticon: 'string', hash: [$long|string, $long|string], );
+$EmojiList = $MadelineProto->messages->searchCustomEmoji(emoticon: 'string', hash: [$long\|string, $long\|string], );
 ```
 

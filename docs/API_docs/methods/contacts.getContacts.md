@@ -17,7 +17,7 @@ Returns the current user's contact list.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [long\|string](/API_docs/types/long|string.html) | If there already is a full contact list on the client, a [hash](https://core.telegram.org/api/offsets#hash-generation) of a the list of contact IDs in ascending order may be passed in this parameter. If the contact set was not changed, [(contacts.contactsNotModified)](../constructors/contacts.contactsNotModified.html) will be returned. | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | If there already is a full contact list on the client, a [hash](https://core.telegram.org/api/offsets#hash-generation) of a the list of contact IDs in ascending order may be passed in this parameter. If the contact set was not changed, [(contacts.contactsNotModified)](../constructors/contacts.contactsNotModified.html) will be returned. | Optional|
 
 
 ### Return type: [contacts.Contacts](/API_docs/types/contacts.Contacts.html)
@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$contacts_Contacts = $MadelineProto->contacts->getContacts(hash: [$long|string, $long|string], );
+$contacts_Contacts = $MadelineProto->contacts->getContacts(hash: [$long\|string, $long\|string], );
 ```
 
