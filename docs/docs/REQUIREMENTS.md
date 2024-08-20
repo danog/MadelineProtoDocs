@@ -10,7 +10,7 @@ MadelineProto requires the `mbstring`, `xml`, `json`, `fileinfo`, `gmp`, `openss
 
 The `ffi` and `uv` extensions and the [PrimeModule](https://prime.madelineproto.xyz/) and `nghttp2` libraries are also highly recommended to improve performance.
 
-**PHP 8.2+ is required**.
+**PHP 8.3+ is required, 8.3 is recommended**.
 
 MadelineProto explicitly supports Linux and UNIX systems (including Mac OS).  
 I **don't recommend using Windows**: MadelineProto generally works on Windows, though there might be some random issues caused by AV engines, so I personally recommend using Linux.  
@@ -36,7 +36,7 @@ sudo apt-get update
 sudo apt-get install software-properties-common -y
 sudo LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
 sudo apt-get update
-sudo apt-get install php8.2 php8.2-dev php8.2-xml php8.2-zip php8.2-gmp php8.2-cli php8.2-mbstring php8.2-ffi php8.2-iconv php-pear libuv1-dev nghttp2 -y
+sudo apt-get install php8.3 php8.3-dev php8.3-xml php8.3-zip php8.3-gmp php8.3-cli php8.3-mbstring php8.3-ffi php8.3-iconv php-pear libuv1-dev nghttp2 -y
 sudo pecl install uv-beta
 echo extension=uv.so | sudo tee $(php --ini | sed '/additional .ini/!d;s/.*: //g')/uv.ini
 echo ffi.enable=1 | sudo tee $(php --ini | sed '/additional .ini/!d;s/.*: //g')/ffi.ini
