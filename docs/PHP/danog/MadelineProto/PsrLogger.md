@@ -19,14 +19,14 @@ PSR-3 wrapper for MadelineProto's Logger.
 ## Method list:
 * [`__construct(\danog\MadelineProto\Logger $logger)`](#__construct)
 * [`log(mixed $level, mixed $message, array<mixed> $context = []): void`](#log)
-* [`emergency((string|\Stringable) $message, array $context = []): void`](#emergency)
-* [`alert((string|\Stringable) $message, array $context = []): void`](#alert)
-* [`critical((string|\Stringable) $message, array $context = []): void`](#critical)
-* [`error((string|\Stringable) $message, array $context = []): void`](#error)
-* [`warning((string|\Stringable) $message, array $context = []): void`](#warning)
-* [`notice((string|\Stringable) $message, array $context = []): void`](#notice)
-* [`info((string|\Stringable) $message, array $context = []): void`](#info)
-* [`debug((string|\Stringable) $message, array $context = []): void`](#debug)
+* [`emergency(Stringable|string $message, array $context = []): void`](#emergency)
+* [`alert(Stringable|string $message, array $context = []): void`](#alert)
+* [`critical(Stringable|string $message, array $context = []): void`](#critical)
+* [`error(Stringable|string $message, array $context = []): void`](#error)
+* [`warning(Stringable|string $message, array $context = []): void`](#warning)
+* [`notice(Stringable|string $message, array $context = []): void`](#notice)
+* [`info(Stringable|string $message, array $context = []): void`](#info)
+* [`debug(Stringable|string $message, array $context = []): void`](#debug)
 
 ## Methods:
 ### <a name="__construct"></a> `__construct(\danog\MadelineProto\Logger $logger)`
@@ -58,24 +58,24 @@ Parameters:
 
 
 
-### <a name="emergency"></a> `emergency((string|\Stringable) $message, array $context = []): void`
+### <a name="emergency"></a> `emergency(Stringable|string $message, array $context = []): void`
 
 System is unusable.
 
 
 Parameters:
 
-* `$message`: `(string|\Stringable)`   
+* `$message`: `Stringable|string`   
 * `$context`: `array`   
 
 
 #### See also: 
-* `\Stringable`
+* `Stringable`
 
 
 
 
-### <a name="alert"></a> `alert((string|\Stringable) $message, array $context = []): void`
+### <a name="alert"></a> `alert(Stringable|string $message, array $context = []): void`
 
 Action must be taken immediately.
   
@@ -85,17 +85,17 @@ trigger the SMS alerts and wake you up.
 
 Parameters:
 
-* `$message`: `(string|\Stringable)`   
+* `$message`: `Stringable|string`   
 * `$context`: `array`   
 
 
 #### See also: 
-* `\Stringable`
+* `Stringable`
 
 
 
 
-### <a name="critical"></a> `critical((string|\Stringable) $message, array $context = []): void`
+### <a name="critical"></a> `critical(Stringable|string $message, array $context = []): void`
 
 Critical conditions.
   
@@ -104,17 +104,17 @@ Example: Application component unavailable, unexpected exception.
 
 Parameters:
 
-* `$message`: `(string|\Stringable)`   
+* `$message`: `Stringable|string`   
 * `$context`: `array`   
 
 
 #### See also: 
-* `\Stringable`
+* `Stringable`
 
 
 
 
-### <a name="error"></a> `error((string|\Stringable) $message, array $context = []): void`
+### <a name="error"></a> `error(Stringable|string $message, array $context = []): void`
 
 Runtime errors that do not require immediate action but should typically
 be logged and monitored.  
@@ -122,17 +122,17 @@ be logged and monitored.
 
 Parameters:
 
-* `$message`: `(string|\Stringable)`   
+* `$message`: `Stringable|string`   
 * `$context`: `array`   
 
 
 #### See also: 
-* `\Stringable`
+* `Stringable`
 
 
 
 
-### <a name="warning"></a> `warning((string|\Stringable) $message, array $context = []): void`
+### <a name="warning"></a> `warning(Stringable|string $message, array $context = []): void`
 
 Exceptional occurrences that are not errors.
   
@@ -142,34 +142,34 @@ that are not necessarily wrong.
 
 Parameters:
 
-* `$message`: `(string|\Stringable)`   
+* `$message`: `Stringable|string`   
 * `$context`: `array`   
 
 
 #### See also: 
-* `\Stringable`
+* `Stringable`
 
 
 
 
-### <a name="notice"></a> `notice((string|\Stringable) $message, array $context = []): void`
+### <a name="notice"></a> `notice(Stringable|string $message, array $context = []): void`
 
 Normal but significant events.
 
 
 Parameters:
 
-* `$message`: `(string|\Stringable)`   
+* `$message`: `Stringable|string`   
 * `$context`: `array`   
 
 
 #### See also: 
-* `\Stringable`
+* `Stringable`
 
 
 
 
-### <a name="info"></a> `info((string|\Stringable) $message, array $context = []): void`
+### <a name="info"></a> `info(Stringable|string $message, array $context = []): void`
 
 Interesting events.
   
@@ -178,29 +178,29 @@ Example: User logs in, SQL logs.
 
 Parameters:
 
-* `$message`: `(string|\Stringable)`   
+* `$message`: `Stringable|string`   
 * `$context`: `array`   
 
 
 #### See also: 
-* `\Stringable`
+* `Stringable`
 
 
 
 
-### <a name="debug"></a> `debug((string|\Stringable) $message, array $context = []): void`
+### <a name="debug"></a> `debug(Stringable|string $message, array $context = []): void`
 
 Detailed debug information.
 
 
 Parameters:
 
-* `$message`: `(string|\Stringable)`   
+* `$message`: `Stringable|string`   
 * `$context`: `array`   
 
 
 #### See also: 
-* `\Stringable`
+* `Stringable`
 
 
 
