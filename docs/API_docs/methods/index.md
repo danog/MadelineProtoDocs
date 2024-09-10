@@ -1682,6 +1682,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getOutboxReadDate.html" name="messages.getOutboxReadDate">messages.getOutboxReadDate</a>
 
+* <a href="messages.getPaidReactionPrivacy.html" name="messages.getPaidReactionPrivacy">messages.getPaidReactionPrivacy</a>
+
 * <a href="messages.getQuickReplies.html" name="messages.getQuickReplies">messages.getQuickReplies</a>
 
 * <a href="messages.getQuickReplyMessages.html" name="messages.getQuickReplyMessages">messages.getQuickReplyMessages</a>
@@ -1711,6 +1713,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="payments.fulfillStarsSubscription.html" name="payments.fulfillStarsSubscription">payments.fulfillStarsSubscription</a>
 
 * <a href="payments.getStarsGiftOptions.html" name="payments.getStarsGiftOptions">payments.getStarsGiftOptions</a>
+
+* <a href="payments.getStarsGiveawayOptions.html" name="payments.getStarsGiveawayOptions">payments.getStarsGiveawayOptions</a>
 
 * <a href="payments.getStarsRevenueAdsAccountUrl.html" name="payments.getStarsRevenueAdsAccountUrl">payments.getStarsRevenueAdsAccountUrl</a>
 

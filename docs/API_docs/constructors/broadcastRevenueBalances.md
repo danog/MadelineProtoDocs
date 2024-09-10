@@ -13,6 +13,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
+|withdrawal\_enabled|[Bool](/API_docs/types/Bool.html) | Optional|
 |current\_balance|[long](/API_docs/types/long.html) | Yes|
 |available\_balance|[long](/API_docs/types/long.html) | Yes|
 |overall\_revenue|[long](/API_docs/types/long.html) | Yes|
@@ -25,5 +26,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$broadcastRevenueBalances = ['_' => 'broadcastRevenueBalances', 'current_balance' => long, 'available_balance' => long, 'overall_revenue' => long];
+$broadcastRevenueBalances = ['_' => 'broadcastRevenueBalances', 'withdrawal_enabled' => Bool, 'current_balance' => long, 'available_balance' => long, 'overall_revenue' => long];
 ```  

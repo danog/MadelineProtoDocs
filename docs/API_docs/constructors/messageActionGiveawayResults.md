@@ -15,6 +15,7 @@ A [giveaway](https://core.telegram.org/api/giveaways) has ended.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|stars|[Bool](/API_docs/types/Bool.html) | Optional|
 |winners\_count|[int](/API_docs/types/int.html) | Yes|Number of winners in the giveaway|
 |unclaimed\_count|[int](/API_docs/types/int.html) | Yes|Number of undistributed prizes|
 
@@ -26,5 +27,5 @@ A [giveaway](https://core.telegram.org/api/giveaways) has ended.
 ### Example:
 
 ```
-$messageActionGiveawayResults = ['_' => 'messageActionGiveawayResults', 'winners_count' => int, 'unclaimed_count' => int];
+$messageActionGiveawayResults = ['_' => 'messageActionGiveawayResults', 'stars' => Bool, 'winners_count' => int, 'unclaimed_count' => int];
 ```  

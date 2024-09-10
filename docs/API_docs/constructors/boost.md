@@ -25,6 +25,7 @@ Info about one or more [boosts](https://core.telegram.org/api/boost) applied by 
 |expires|[int](/API_docs/types/int.html) | Yes|When does the boost expire|
 |used\_gift\_slug|[string](/API_docs/types/string.html) | Optional|The created Telegram Premium gift code, only set if either `gift` or `giveaway` are set AND it is either a gift code for the currently logged in user or if it was already claimed.|
 |multiplier|[int](/API_docs/types/int.html) | Optional|If set, this boost counts as `multiplier` boosts, otherwise it counts as a single boost.|
+|stars|[long](/API_docs/types/long.html) | Optional|
 
 
 
@@ -34,5 +35,5 @@ Info about one or more [boosts](https://core.telegram.org/api/boost) applied by 
 ### Example:
 
 ```
-$boost = ['_' => 'boost', 'gift' => Bool, 'giveaway' => Bool, 'unclaimed' => Bool, 'id' => 'string', 'user_id' => long, 'giveaway_msg_id' => int, 'date' => int, 'expires' => int, 'used_gift_slug' => 'string', 'multiplier' => int];
+$boost = ['_' => 'boost', 'gift' => Bool, 'giveaway' => Bool, 'unclaimed' => Bool, 'id' => 'string', 'user_id' => long, 'giveaway_msg_id' => int, 'date' => int, 'expires' => int, 'used_gift_slug' => 'string', 'multiplier' => int, 'stars' => long];
 ```  

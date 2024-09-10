@@ -15,10 +15,10 @@ redirect_from: /API_docs/methods/messages_sendPaidReaction.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|private|[Bool](/API_docs/types/Bool.html) | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 |msg\_id|[int](/API_docs/types/int.html) | Optional|
 |count|[int](/API_docs/types/int.html) | Optional|
+|private|[Bool](/API_docs/types/Bool.html) | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->sendPaidReaction(private: $Bool, peer: $InputPeer, msg_id: $int, count: $int, );
+$Updates = $MadelineProto->messages->sendPaidReaction(peer: $InputPeer, msg_id: $int, count: $int, private: $Bool, );
 ```
 

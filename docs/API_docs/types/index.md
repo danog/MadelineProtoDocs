@@ -577,6 +577,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [StarsGiftOption](/API_docs/types/StarsGiftOption.html)<a name="StarsGiftOption"></a>  
 
+[StarsGiveawayOption](/API_docs/types/StarsGiveawayOption.html)<a name="StarsGiveawayOption"></a>  
+
+[StarsGiveawayWinnersOption](/API_docs/types/StarsGiveawayWinnersOption.html)<a name="StarsGiveawayWinnersOption"></a>  
+
 [StarsRevenueStatus](/API_docs/types/StarsRevenueStatus.html)<a name="StarsRevenueStatus"></a>  
 
 [StarsSubscription](/API_docs/types/StarsSubscription.html)<a name="StarsSubscription"></a>  

@@ -23,7 +23,8 @@ A [giveaway](https://core.telegram.org/api/giveaways) with public winners has fi
 |winners\_count|[int](/API_docs/types/int.html) | Yes|Total number of winners in the giveaway.|
 |unclaimed\_count|[int](/API_docs/types/int.html) | Yes|Number of not-yet-claimed prizes.|
 |winners|Array of [long](/API_docs/types/long.html) | Yes|Up to 100 user identifiers of the winners of the giveaway.|
-|months|[int](/API_docs/types/int.html) | Yes|Duration in months of each [Telegram Premium](https://core.telegram.org/api/premium) subscription in the giveaway.|
+|months|[int](/API_docs/types/int.html) | Optional|Duration in months of each [Telegram Premium](https://core.telegram.org/api/premium) subscription in the giveaway.|
+|stars|[long](/API_docs/types/long.html) | Optional|
 |prize\_description|[string](/API_docs/types/string.html) | Optional|Can contain a textual description of additional giveaway prizes.|
 |until\_date|[int](/API_docs/types/int.html) | Yes|Point in time (Unix timestamp) when the winners were selected. May be bigger than winners selection date specified in initial parameters of the giveaway.|
 
@@ -35,5 +36,5 @@ A [giveaway](https://core.telegram.org/api/giveaways) with public winners has fi
 ### Example:
 
 ```
-$messageMediaGiveawayResults = ['_' => 'messageMediaGiveawayResults', 'only_new_subscribers' => Bool, 'refunded' => Bool, 'channel_id' => long, 'additional_peers_count' => int, 'launch_msg_id' => int, 'winners_count' => int, 'unclaimed_count' => int, 'winners' => [long, long], 'months' => int, 'prize_description' => 'string', 'until_date' => int];
+$messageMediaGiveawayResults = ['_' => 'messageMediaGiveawayResults', 'only_new_subscribers' => Bool, 'refunded' => Bool, 'channel_id' => long, 'additional_peers_count' => int, 'launch_msg_id' => int, 'winners_count' => int, 'unclaimed_count' => int, 'winners' => [long, long], 'months' => int, 'stars' => long, 'prize_description' => 'string', 'until_date' => int];
 ```  

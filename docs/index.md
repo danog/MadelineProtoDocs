@@ -1151,6 +1151,7 @@ Some of MadelineProto's core components are also available as separate, standalo
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.getFactCheck.html" name="messages.getFactCheck">messages.getFactCheck</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.getMyStickers.html" name="messages.getMyStickers">messages.getMyStickers</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.getOutboxReadDate.html" name="messages.getOutboxReadDate">messages.getOutboxReadDate</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.getPaidReactionPrivacy.html" name="messages.getPaidReactionPrivacy">messages.getPaidReactionPrivacy</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.getQuickReplies.html" name="messages.getQuickReplies">messages.getQuickReplies</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.getQuickReplyMessages.html" name="messages.getQuickReplyMessages">messages.getQuickReplyMessages</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.getSavedReactionTags.html" name="messages.getSavedReactionTags">messages.getSavedReactionTags</a>
@@ -1166,6 +1167,7 @@ Some of MadelineProto's core components are also available as separate, standalo
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.changeStarsSubscription.html" name="payments.changeStarsSubscription">payments.changeStarsSubscription</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.fulfillStarsSubscription.html" name="payments.fulfillStarsSubscription">payments.fulfillStarsSubscription</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getStarsGiftOptions.html" name="payments.getStarsGiftOptions">payments.getStarsGiftOptions</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getStarsGiveawayOptions.html" name="payments.getStarsGiveawayOptions">payments.getStarsGiveawayOptions</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getStarsRevenueAdsAccountUrl.html" name="payments.getStarsRevenueAdsAccountUrl">payments.getStarsRevenueAdsAccountUrl</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getStarsRevenueStats.html" name="payments.getStarsRevenueStats">payments.getStarsRevenueStats</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getStarsRevenueWithdrawalUrl.html" name="payments.getStarsRevenueWithdrawalUrl">payments.getStarsRevenueWithdrawalUrl</a>

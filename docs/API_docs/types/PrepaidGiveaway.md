@@ -13,6 +13,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [prepaidGiveaway](/API_docs/constructors/prepaidGiveaway.html)  
 
+[prepaidStarsGiveaway](/API_docs/constructors/prepaidStarsGiveaway.html)  
+
 
 
 ### Methods that return an object of this type (methods):

@@ -21,7 +21,8 @@ Contains info about a [giveaway, see here »](https://core.telegram.org/api/give
 |countries\_iso2|Array of [string](/API_docs/types/string.html) | Optional|If set, only users residing in these countries can participate in the giveaway, (specified as a list of two-letter ISO 3166-1 alpha-2 country codes); otherwise there are no country-based limitations.|
 |prize\_description|[string](/API_docs/types/string.html) | Optional|Can contain a textual description of additional giveaway prizes.|
 |quantity|[int](/API_docs/types/int.html) | Yes|Number of [Telegram Premium](https://core.telegram.org/api/premium) subscriptions given away.|
-|months|[int](/API_docs/types/int.html) | Yes|Duration in months of each [Telegram Premium](https://core.telegram.org/api/premium) subscription in the giveaway.|
+|months|[int](/API_docs/types/int.html) | Optional|Duration in months of each [Telegram Premium](https://core.telegram.org/api/premium) subscription in the giveaway.|
+|stars|[long](/API_docs/types/long.html) | Optional|
 |until\_date|[int](/API_docs/types/int.html) | Yes|The end date of the giveaway.|
 
 
@@ -32,5 +33,5 @@ Contains info about a [giveaway, see here »](https://core.telegram.org/api/give
 ### Example:
 
 ```
-$messageMediaGiveaway = ['_' => 'messageMediaGiveaway', 'only_new_subscribers' => Bool, 'winners_are_visible' => Bool, 'channels' => [long, long], 'countries_iso2' => ['string', 'string'], 'prize_description' => 'string', 'quantity' => int, 'months' => int, 'until_date' => int];
+$messageMediaGiveaway = ['_' => 'messageMediaGiveaway', 'only_new_subscribers' => Bool, 'winners_are_visible' => Bool, 'channels' => [long, long], 'countries_iso2' => ['string', 'string'], 'prize_description' => 'string', 'quantity' => int, 'months' => int, 'stars' => long, 'until_date' => int];
 ```  

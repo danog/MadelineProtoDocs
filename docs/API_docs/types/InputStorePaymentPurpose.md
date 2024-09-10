@@ -23,6 +23,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [inputStorePaymentStarsGift](/API_docs/constructors/inputStorePaymentStarsGift.html)  
 
+[inputStorePaymentStarsGiveaway](/API_docs/constructors/inputStorePaymentStarsGiveaway.html)  
+
 
 
 ### Methods that return an object of this type (methods):

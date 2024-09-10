@@ -15,6 +15,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |----------|---------------|----------|
 |stars\_amount|[long](/API_docs/types/long.html) | Yes|
 |extended\_media|Array of [MessageMedia, Message, Update or InputMedia](/API_docs/types/InputMedia.html) | Yes|
+|payload|[string](/API_docs/types/string.html) | Optional|
 
 
 
@@ -24,5 +25,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$inputMediaPaidMedia = ['_' => 'inputMediaPaidMedia', 'stars_amount' => long, 'extended_media' => [InputMedia, InputMedia]];
+$inputMediaPaidMedia = ['_' => 'inputMediaPaidMedia', 'stars_amount' => long, 'extended_media' => [InputMedia, InputMedia], 'payload' => 'string'];
 ```  

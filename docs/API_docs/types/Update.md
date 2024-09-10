@@ -289,6 +289,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateStarsRevenueStatus](/API_docs/constructors/updateStarsRevenueStatus.html)  
 
+[updateBotPurchasedPaidMedia](/API_docs/constructors/updateBotPurchasedPaidMedia.html)  
+
+[updatePaidReactionPrivacy](/API_docs/constructors/updatePaidReactionPrivacy.html)  
+
 
 
 ### Methods that return an object of this type (methods):

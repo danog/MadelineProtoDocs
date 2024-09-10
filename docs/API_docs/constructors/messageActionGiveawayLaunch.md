@@ -11,6 +11,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 A [giveaway](https://core.telegram.org/api/giveaways) was started.
 
+### Attributes:
+
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|stars|[long](/API_docs/types/long.html) | Optional|
 
 
 
@@ -20,5 +25,5 @@ A [giveaway](https://core.telegram.org/api/giveaways) was started.
 ### Example:
 
 ```
-$messageActionGiveawayLaunch = ['_' => 'messageActionGiveawayLaunch'];
+$messageActionGiveawayLaunch = ['_' => 'messageActionGiveawayLaunch', 'stars' => long];
 ```  

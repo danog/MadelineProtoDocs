@@ -943,6 +943,8 @@ Here's a full list of all MTProto filters (click on each filter name to view the
 * [onUpdateStarsBalance &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateStarsBalance.html) - 
 * [onUpdateBusinessBotCallbackQuery &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBusinessBotCallbackQuery.html) - 
 * [onUpdateStarsRevenueStatus &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateStarsRevenueStatus.html) - 
+* [onUpdateBotPurchasedPaidMedia &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBotPurchasedPaidMedia.html) - 
+* [onUpdatePaidReactionPrivacy &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updatePaidReactionPrivacy.html) - 
 
 
 <!-- cut_here_end mtprotofilters -->

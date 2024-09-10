@@ -260,7 +260,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$boolTrue](/API_docs/constructors/boolTrue.html) = \[\];<a name="boolTrue"></a>  
 
 ***
-<br><br>[$boost](/API_docs/constructors/boost.html) = \['gift' => [Bool](/API_docs/types/Bool.html), 'giveaway' => [Bool](/API_docs/types/Bool.html), 'unclaimed' => [Bool](/API_docs/types/Bool.html), 'id' => [string](/API_docs/types/string.html), 'user_id' => [long](/API_docs/types/long.html), 'giveaway_msg_id' => [int](/API_docs/types/int.html), 'date' => [int](/API_docs/types/int.html), 'expires' => [int](/API_docs/types/int.html), 'used_gift_slug' => [string](/API_docs/types/string.html), 'multiplier' => [int](/API_docs/types/int.html), \];<a name="boost"></a>  
+<br><br>[$boost](/API_docs/constructors/boost.html) = \['gift' => [Bool](/API_docs/types/Bool.html), 'giveaway' => [Bool](/API_docs/types/Bool.html), 'unclaimed' => [Bool](/API_docs/types/Bool.html), 'id' => [string](/API_docs/types/string.html), 'user_id' => [long](/API_docs/types/long.html), 'giveaway_msg_id' => [int](/API_docs/types/int.html), 'date' => [int](/API_docs/types/int.html), 'expires' => [int](/API_docs/types/int.html), 'used_gift_slug' => [string](/API_docs/types/string.html), 'multiplier' => [int](/API_docs/types/int.html), 'stars' => [long](/API_docs/types/long.html), \];<a name="boost"></a>  
 
 ***
 <br><br>[$botApp](/API_docs/constructors/botApp.html) = \['id' => [long](/API_docs/types/long.html), 'access_hash' => [long](/API_docs/types/long.html), 'short_name' => [string](/API_docs/types/string.html), 'title' => [string](/API_docs/types/string.html), 'description' => [string](/API_docs/types/string.html), 'photo' => [Photo](/API_docs/types/Photo.html), 'document' => [Document](/API_docs/types/Document.html), 'hash' => [long](/API_docs/types/long.html), \];<a name="botApp"></a>  
@@ -347,7 +347,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$bots.previewInfo](/API_docs/constructors/bots.previewInfo.html) = \['media' => \[[BotPreviewMedia](/API_docs/types/BotPreviewMedia.html)\], 'lang_codes' => \[[string](/API_docs/types/string.html)\], \];<a name="bots.previewInfo"></a>  
 
 ***
-<br><br>[$broadcastRevenueBalances](/API_docs/constructors/broadcastRevenueBalances.html) = \['current_balance' => [long](/API_docs/types/long.html), 'available_balance' => [long](/API_docs/types/long.html), 'overall_revenue' => [long](/API_docs/types/long.html), \];<a name="broadcastRevenueBalances"></a>  
+<br><br>[$broadcastRevenueBalances](/API_docs/constructors/broadcastRevenueBalances.html) = \['withdrawal_enabled' => [Bool](/API_docs/types/Bool.html), 'current_balance' => [long](/API_docs/types/long.html), 'available_balance' => [long](/API_docs/types/long.html), 'overall_revenue' => [long](/API_docs/types/long.html), \];<a name="broadcastRevenueBalances"></a>  
 
 ***
 <br><br>[$broadcastRevenueTransactionProceeds](/API_docs/constructors/broadcastRevenueTransactionProceeds.html) = \['amount' => [long](/API_docs/types/long.html), 'from_date' => [int](/API_docs/types/int.html), 'to_date' => [int](/API_docs/types/int.html), \];<a name="broadcastRevenueTransactionProceeds"></a>  
@@ -500,6 +500,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$channelAdminLogEventActionParticipantMute](/API_docs/constructors/channelAdminLogEventActionParticipantMute.html) = \['participant' => [GroupCallParticipant](/API_docs/types/GroupCallParticipant.html), \];<a name="channelAdminLogEventActionParticipantMute"></a>  
 
 ***
+<br><br>[$channelAdminLogEventActionParticipantSubExtend](/API_docs/constructors/channelAdminLogEventActionParticipantSubExtend.html) = \['prev_participant' => [ChannelParticipant](/API_docs/types/ChannelParticipant.html), 'new_participant' => [ChannelParticipant](/API_docs/types/ChannelParticipant.html), \];<a name="channelAdminLogEventActionParticipantSubExtend"></a>  
+
+***
 <br><br>[$channelAdminLogEventActionParticipantToggleAdmin](/API_docs/constructors/channelAdminLogEventActionParticipantToggleAdmin.html) = \['prev_participant' => [ChannelParticipant](/API_docs/types/ChannelParticipant.html), 'new_participant' => [ChannelParticipant](/API_docs/types/ChannelParticipant.html), \];<a name="channelAdminLogEventActionParticipantToggleAdmin"></a>  
 
 ***
@@ -554,7 +557,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$channelAdminLogEventActionUpdatePinned](/API_docs/constructors/channelAdminLogEventActionUpdatePinned.html) = \['message' => [Message](/API_docs/types/Message.html), \];<a name="channelAdminLogEventActionUpdatePinned"></a>  
 
 ***
-<br><br>[$channelAdminLogEventsFilter](/API_docs/constructors/channelAdminLogEventsFilter.html) = \['join' => [Bool](/API_docs/types/Bool.html), 'leave' => [Bool](/API_docs/types/Bool.html), 'invite' => [Bool](/API_docs/types/Bool.html), 'ban' => [Bool](/API_docs/types/Bool.html), 'unban' => [Bool](/API_docs/types/Bool.html), 'kick' => [Bool](/API_docs/types/Bool.html), 'unkick' => [Bool](/API_docs/types/Bool.html), 'promote' => [Bool](/API_docs/types/Bool.html), 'demote' => [Bool](/API_docs/types/Bool.html), 'info' => [Bool](/API_docs/types/Bool.html), 'settings' => [Bool](/API_docs/types/Bool.html), 'pinned' => [Bool](/API_docs/types/Bool.html), 'edit' => [Bool](/API_docs/types/Bool.html), 'delete' => [Bool](/API_docs/types/Bool.html), 'group_call' => [Bool](/API_docs/types/Bool.html), 'invites' => [Bool](/API_docs/types/Bool.html), 'send' => [Bool](/API_docs/types/Bool.html), 'forums' => [Bool](/API_docs/types/Bool.html), \];<a name="channelAdminLogEventsFilter"></a>  
+<br><br>[$channelAdminLogEventsFilter](/API_docs/constructors/channelAdminLogEventsFilter.html) = \['join' => [Bool](/API_docs/types/Bool.html), 'leave' => [Bool](/API_docs/types/Bool.html), 'invite' => [Bool](/API_docs/types/Bool.html), 'ban' => [Bool](/API_docs/types/Bool.html), 'unban' => [Bool](/API_docs/types/Bool.html), 'kick' => [Bool](/API_docs/types/Bool.html), 'unkick' => [Bool](/API_docs/types/Bool.html), 'promote' => [Bool](/API_docs/types/Bool.html), 'demote' => [Bool](/API_docs/types/Bool.html), 'info' => [Bool](/API_docs/types/Bool.html), 'settings' => [Bool](/API_docs/types/Bool.html), 'pinned' => [Bool](/API_docs/types/Bool.html), 'edit' => [Bool](/API_docs/types/Bool.html), 'delete' => [Bool](/API_docs/types/Bool.html), 'group_call' => [Bool](/API_docs/types/Bool.html), 'invites' => [Bool](/API_docs/types/Bool.html), 'send' => [Bool](/API_docs/types/Bool.html), 'forums' => [Bool](/API_docs/types/Bool.html), 'sub_extend' => [Bool](/API_docs/types/Bool.html), \];<a name="channelAdminLogEventsFilter"></a>  
 
 ***
 <br><br>[$channelForbidden](/API_docs/constructors/channelForbidden.html) = \['broadcast' => [Bool](/API_docs/types/Bool.html), 'megagroup' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'access_hash' => [long](/API_docs/types/long.html), 'title' => [string](/API_docs/types/string.html), 'until_date' => [int](/API_docs/types/int.html), \];<a name="channelForbidden"></a>  
@@ -1439,7 +1442,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$inputMediaInvoice](/API_docs/constructors/inputMediaInvoice.html) = \['title' => [string](/API_docs/types/string.html), 'description' => [string](/API_docs/types/string.html), 'photo' => [InputWebDocument](/API_docs/types/InputWebDocument.html), 'invoice' => [Invoice](/API_docs/types/Invoice.html), 'payload' => [bytes](/API_docs/types/bytes.html), 'provider' => [string](/API_docs/types/string.html), 'provider_data' => [DataJSON](/API_docs/types/DataJSON.html), 'start_param' => [string](/API_docs/types/string.html), 'extended_media' => [InputMedia](/API_docs/types/InputMedia.html), \];<a name="inputMediaInvoice"></a>  
 
 ***
-<br><br>[$inputMediaPaidMedia](/API_docs/constructors/inputMediaPaidMedia.html) = \['stars_amount' => [long](/API_docs/types/long.html), 'extended_media' => \[[InputMedia](/API_docs/types/InputMedia.html)\], \];<a name="inputMediaPaidMedia"></a>  
+<br><br>[$inputMediaPaidMedia](/API_docs/constructors/inputMediaPaidMedia.html) = \['stars_amount' => [long](/API_docs/types/long.html), 'extended_media' => \[[InputMedia](/API_docs/types/InputMedia.html)\], 'payload' => [string](/API_docs/types/string.html), \];<a name="inputMediaPaidMedia"></a>  
 
 ***
 <br><br>[$inputMediaPhoto](/API_docs/constructors/inputMediaPhoto.html) = \['spoiler' => [Bool](/API_docs/types/Bool.html), 'id' => [InputPhoto](/API_docs/types/InputPhoto.html), 'ttl_seconds' => [int](/API_docs/types/int.html), \];<a name="inputMediaPhoto"></a>  
@@ -1787,6 +1790,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$inputStorePaymentStarsGift](/API_docs/constructors/inputStorePaymentStarsGift.html) = \['user_id' => [InputUser](/API_docs/types/InputUser.html), 'stars' => [long](/API_docs/types/long.html), 'currency' => [string](/API_docs/types/string.html), 'amount' => [long](/API_docs/types/long.html), \];<a name="inputStorePaymentStarsGift"></a>  
 
 ***
+<br><br>[$inputStorePaymentStarsGiveaway](/API_docs/constructors/inputStorePaymentStarsGiveaway.html) = \['only_new_subscribers' => [Bool](/API_docs/types/Bool.html), 'winners_are_visible' => [Bool](/API_docs/types/Bool.html), 'stars' => [long](/API_docs/types/long.html), 'boost_peer' => [InputPeer](/API_docs/types/InputPeer.html), 'additional_peers' => \[[InputPeer](/API_docs/types/InputPeer.html)\], 'countries_iso2' => \[[string](/API_docs/types/string.html)\], 'prize_description' => [string](/API_docs/types/string.html), 'until_date' => [int](/API_docs/types/int.html), 'currency' => [string](/API_docs/types/string.html), 'amount' => [long](/API_docs/types/long.html), 'users' => [int](/API_docs/types/int.html), \];<a name="inputStorePaymentStarsGiveaway"></a>  
+
+***
 <br><br>[$inputStorePaymentStarsTopup](/API_docs/constructors/inputStorePaymentStarsTopup.html) = \['stars' => [long](/API_docs/types/long.html), 'currency' => [string](/API_docs/types/string.html), 'amount' => [long](/API_docs/types/long.html), \];<a name="inputStorePaymentStarsTopup"></a>  
 
 ***
@@ -2012,10 +2018,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$messageActionGiftStars](/API_docs/constructors/messageActionGiftStars.html) = \['currency' => [string](/API_docs/types/string.html), 'amount' => [long](/API_docs/types/long.html), 'stars' => [long](/API_docs/types/long.html), 'crypto_currency' => [string](/API_docs/types/string.html), 'crypto_amount' => [long](/API_docs/types/long.html), 'transaction_id' => [string](/API_docs/types/string.html), \];<a name="messageActionGiftStars"></a>  
 
 ***
-<br><br>[$messageActionGiveawayLaunch](/API_docs/constructors/messageActionGiveawayLaunch.html) = \[\];<a name="messageActionGiveawayLaunch"></a>  
+<br><br>[$messageActionGiveawayLaunch](/API_docs/constructors/messageActionGiveawayLaunch.html) = \['stars' => [long](/API_docs/types/long.html), \];<a name="messageActionGiveawayLaunch"></a>  
 
 ***
-<br><br>[$messageActionGiveawayResults](/API_docs/constructors/messageActionGiveawayResults.html) = \['winners_count' => [int](/API_docs/types/int.html), 'unclaimed_count' => [int](/API_docs/types/int.html), \];<a name="messageActionGiveawayResults"></a>  
+<br><br>[$messageActionGiveawayResults](/API_docs/constructors/messageActionGiveawayResults.html) = \['stars' => [Bool](/API_docs/types/Bool.html), 'winners_count' => [int](/API_docs/types/int.html), 'unclaimed_count' => [int](/API_docs/types/int.html), \];<a name="messageActionGiveawayResults"></a>  
 
 ***
 <br><br>[$messageActionGroupCall](/API_docs/constructors/messageActionGroupCall.html) = \['call' => [InputGroupCall](/API_docs/types/InputGroupCall.html), 'duration' => [int](/API_docs/types/int.html), \];<a name="messageActionGroupCall"></a>  
@@ -2043,6 +2049,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$messageActionPinMessage](/API_docs/constructors/messageActionPinMessage.html) = \[\];<a name="messageActionPinMessage"></a>  
+
+***
+<br><br>[$messageActionPrizeStars](/API_docs/constructors/messageActionPrizeStars.html) = \['unclaimed' => [Bool](/API_docs/types/Bool.html), 'stars' => [long](/API_docs/types/long.html), 'transaction_id' => [string](/API_docs/types/string.html), 'boost_peer' => [Peer](/API_docs/types/Peer.html), 'giveaway_msg_id' => [int](/API_docs/types/int.html), \];<a name="messageActionPrizeStars"></a>  
 
 ***
 <br><br>[$messageActionRequestedPeer](/API_docs/constructors/messageActionRequestedPeer.html) = \['button_id' => [int](/API_docs/types/int.html), 'peers' => \[[Peer](/API_docs/types/Peer.html)\], \];<a name="messageActionRequestedPeer"></a>  
@@ -2177,10 +2186,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$messageMediaGeoLive](/API_docs/constructors/messageMediaGeoLive.html) = \['geo' => [GeoPoint](/API_docs/types/GeoPoint.html), 'heading' => [int](/API_docs/types/int.html), 'period' => [int](/API_docs/types/int.html), 'proximity_notification_radius' => [int](/API_docs/types/int.html), \];<a name="messageMediaGeoLive"></a>  
 
 ***
-<br><br>[$messageMediaGiveaway](/API_docs/constructors/messageMediaGiveaway.html) = \['only_new_subscribers' => [Bool](/API_docs/types/Bool.html), 'winners_are_visible' => [Bool](/API_docs/types/Bool.html), 'channels' => \[[long](/API_docs/types/long.html)\], 'countries_iso2' => \[[string](/API_docs/types/string.html)\], 'prize_description' => [string](/API_docs/types/string.html), 'quantity' => [int](/API_docs/types/int.html), 'months' => [int](/API_docs/types/int.html), 'until_date' => [int](/API_docs/types/int.html), \];<a name="messageMediaGiveaway"></a>  
+<br><br>[$messageMediaGiveaway](/API_docs/constructors/messageMediaGiveaway.html) = \['only_new_subscribers' => [Bool](/API_docs/types/Bool.html), 'winners_are_visible' => [Bool](/API_docs/types/Bool.html), 'channels' => \[[long](/API_docs/types/long.html)\], 'countries_iso2' => \[[string](/API_docs/types/string.html)\], 'prize_description' => [string](/API_docs/types/string.html), 'quantity' => [int](/API_docs/types/int.html), 'months' => [int](/API_docs/types/int.html), 'stars' => [long](/API_docs/types/long.html), 'until_date' => [int](/API_docs/types/int.html), \];<a name="messageMediaGiveaway"></a>  
 
 ***
-<br><br>[$messageMediaGiveawayResults](/API_docs/constructors/messageMediaGiveawayResults.html) = \['only_new_subscribers' => [Bool](/API_docs/types/Bool.html), 'refunded' => [Bool](/API_docs/types/Bool.html), 'channel_id' => [long](/API_docs/types/long.html), 'additional_peers_count' => [int](/API_docs/types/int.html), 'launch_msg_id' => [int](/API_docs/types/int.html), 'winners_count' => [int](/API_docs/types/int.html), 'unclaimed_count' => [int](/API_docs/types/int.html), 'winners' => \[[long](/API_docs/types/long.html)\], 'months' => [int](/API_docs/types/int.html), 'prize_description' => [string](/API_docs/types/string.html), 'until_date' => [int](/API_docs/types/int.html), \];<a name="messageMediaGiveawayResults"></a>  
+<br><br>[$messageMediaGiveawayResults](/API_docs/constructors/messageMediaGiveawayResults.html) = \['only_new_subscribers' => [Bool](/API_docs/types/Bool.html), 'refunded' => [Bool](/API_docs/types/Bool.html), 'channel_id' => [long](/API_docs/types/long.html), 'additional_peers_count' => [int](/API_docs/types/int.html), 'launch_msg_id' => [int](/API_docs/types/int.html), 'winners_count' => [int](/API_docs/types/int.html), 'unclaimed_count' => [int](/API_docs/types/int.html), 'winners' => \[[long](/API_docs/types/long.html)\], 'months' => [int](/API_docs/types/int.html), 'stars' => [long](/API_docs/types/long.html), 'prize_description' => [string](/API_docs/types/string.html), 'until_date' => [int](/API_docs/types/int.html), \];<a name="messageMediaGiveawayResults"></a>  
 
 ***
 <br><br>[$messageMediaInvoice](/API_docs/constructors/messageMediaInvoice.html) = \['shipping_address_requested' => [Bool](/API_docs/types/Bool.html), 'test' => [Bool](/API_docs/types/Bool.html), 'title' => [string](/API_docs/types/string.html), 'description' => [string](/API_docs/types/string.html), 'photo' => [WebDocument](/API_docs/types/WebDocument.html), 'receipt_msg_id' => [int](/API_docs/types/int.html), 'currency' => [string](/API_docs/types/string.html), 'total_amount' => [long](/API_docs/types/long.html), 'start_param' => [string](/API_docs/types/string.html), 'extended_media' => [MessageExtendedMedia](/API_docs/types/MessageExtendedMedia.html), \];<a name="messageMediaInvoice"></a>  
@@ -2678,7 +2687,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$payments.giveawayInfo](/API_docs/constructors/payments.giveawayInfo.html) = \['participating' => [Bool](/API_docs/types/Bool.html), 'preparing_results' => [Bool](/API_docs/types/Bool.html), 'start_date' => [int](/API_docs/types/int.html), 'joined_too_early_date' => [int](/API_docs/types/int.html), 'admin_disallowed_chat_id' => [long](/API_docs/types/long.html), 'disallowed_country' => [string](/API_docs/types/string.html), \];<a name="payments.giveawayInfo"></a>  
 
 ***
-<br><br>[$payments.giveawayInfoResults](/API_docs/constructors/payments.giveawayInfoResults.html) = \['winner' => [Bool](/API_docs/types/Bool.html), 'refunded' => [Bool](/API_docs/types/Bool.html), 'start_date' => [int](/API_docs/types/int.html), 'gift_code_slug' => [string](/API_docs/types/string.html), 'finish_date' => [int](/API_docs/types/int.html), 'winners_count' => [int](/API_docs/types/int.html), 'activated_count' => [int](/API_docs/types/int.html), \];<a name="payments.giveawayInfoResults"></a>  
+<br><br>[$payments.giveawayInfoResults](/API_docs/constructors/payments.giveawayInfoResults.html) = \['winner' => [Bool](/API_docs/types/Bool.html), 'refunded' => [Bool](/API_docs/types/Bool.html), 'start_date' => [int](/API_docs/types/int.html), 'gift_code_slug' => [string](/API_docs/types/string.html), 'stars_prize' => [long](/API_docs/types/long.html), 'finish_date' => [int](/API_docs/types/int.html), 'winners_count' => [int](/API_docs/types/int.html), 'activated_count' => [int](/API_docs/types/int.html), \];<a name="payments.giveawayInfoResults"></a>  
 
 ***
 <br><br>[$payments.paymentForm](/API_docs/constructors/payments.paymentForm.html) = \['can_save_credentials' => [Bool](/API_docs/types/Bool.html), 'password_missing' => [Bool](/API_docs/types/Bool.html), 'form_id' => [long](/API_docs/types/long.html), 'bot_id' => [long](/API_docs/types/long.html), 'title' => [string](/API_docs/types/string.html), 'description' => [string](/API_docs/types/string.html), 'photo' => [WebDocument](/API_docs/types/WebDocument.html), 'invoice' => [Invoice](/API_docs/types/Invoice.html), 'provider_id' => [long](/API_docs/types/long.html), 'url' => [string](/API_docs/types/string.html), 'native_provider' => [string](/API_docs/types/string.html), 'native_params' => [DataJSON](/API_docs/types/DataJSON.html), 'additional_methods' => \[[PaymentFormMethod](/API_docs/types/PaymentFormMethod.html)\], 'saved_info' => [PaymentRequestedInfo](/API_docs/types/PaymentRequestedInfo.html), 'saved_credentials' => \[[PaymentSavedCredentials](/API_docs/types/PaymentSavedCredentials.html)\], 'users' => \[[User](/API_docs/types/User.html)\], \];<a name="payments.paymentForm"></a>  
@@ -2883,6 +2892,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$prepaidGiveaway](/API_docs/constructors/prepaidGiveaway.html) = \['id' => [long](/API_docs/types/long.html), 'months' => [int](/API_docs/types/int.html), 'quantity' => [int](/API_docs/types/int.html), 'date' => [int](/API_docs/types/int.html), \];<a name="prepaidGiveaway"></a>  
+
+***
+<br><br>[$prepaidStarsGiveaway](/API_docs/constructors/prepaidStarsGiveaway.html) = \['id' => [long](/API_docs/types/long.html), 'stars' => [long](/API_docs/types/long.html), 'quantity' => [int](/API_docs/types/int.html), 'boosts' => [int](/API_docs/types/int.html), 'date' => [int](/API_docs/types/int.html), \];<a name="prepaidStarsGiveaway"></a>  
 
 ***
 <br><br>[$privacyKeyAbout](/API_docs/constructors/privacyKeyAbout.html) = \[\];<a name="privacyKeyAbout"></a>  
@@ -3236,6 +3248,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$starsGiftOption](/API_docs/constructors/starsGiftOption.html) = \['extended' => [Bool](/API_docs/types/Bool.html), 'stars' => [long](/API_docs/types/long.html), 'store_product' => [string](/API_docs/types/string.html), 'currency' => [string](/API_docs/types/string.html), 'amount' => [long](/API_docs/types/long.html), \];<a name="starsGiftOption"></a>  
 
 ***
+<br><br>[$starsGiveawayOption](/API_docs/constructors/starsGiveawayOption.html) = \['extended' => [Bool](/API_docs/types/Bool.html), 'default' => [Bool](/API_docs/types/Bool.html), 'stars' => [long](/API_docs/types/long.html), 'yearly_boosts' => [int](/API_docs/types/int.html), 'store_product' => [string](/API_docs/types/string.html), 'currency' => [string](/API_docs/types/string.html), 'amount' => [long](/API_docs/types/long.html), 'winners' => \[[StarsGiveawayWinnersOption](/API_docs/types/StarsGiveawayWinnersOption.html)\], \];<a name="starsGiveawayOption"></a>  
+
+***
+<br><br>[$starsGiveawayWinnersOption](/API_docs/constructors/starsGiveawayWinnersOption.html) = \['default' => [Bool](/API_docs/types/Bool.html), 'users' => [int](/API_docs/types/int.html), 'per_user_stars' => [long](/API_docs/types/long.html), \];<a name="starsGiveawayWinnersOption"></a>  
+
+***
 <br><br>[$starsRevenueStatus](/API_docs/constructors/starsRevenueStatus.html) = \['withdrawal_enabled' => [Bool](/API_docs/types/Bool.html), 'current_balance' => [long](/API_docs/types/long.html), 'available_balance' => [long](/API_docs/types/long.html), 'overall_revenue' => [long](/API_docs/types/long.html), 'next_withdrawal_at' => [int](/API_docs/types/int.html), \];<a name="starsRevenueStatus"></a>  
 
 ***
@@ -3248,7 +3266,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$starsTopupOption](/API_docs/constructors/starsTopupOption.html) = \['extended' => [Bool](/API_docs/types/Bool.html), 'stars' => [long](/API_docs/types/long.html), 'store_product' => [string](/API_docs/types/string.html), 'currency' => [string](/API_docs/types/string.html), 'amount' => [long](/API_docs/types/long.html), \];<a name="starsTopupOption"></a>  
 
 ***
-<br><br>[$starsTransaction](/API_docs/constructors/starsTransaction.html) = \['refund' => [Bool](/API_docs/types/Bool.html), 'pending' => [Bool](/API_docs/types/Bool.html), 'failed' => [Bool](/API_docs/types/Bool.html), 'gift' => [Bool](/API_docs/types/Bool.html), 'reaction' => [Bool](/API_docs/types/Bool.html), 'id' => [string](/API_docs/types/string.html), 'stars' => [long](/API_docs/types/long.html), 'date' => [int](/API_docs/types/int.html), 'peer' => [StarsTransactionPeer](/API_docs/types/StarsTransactionPeer.html), 'title' => [string](/API_docs/types/string.html), 'description' => [string](/API_docs/types/string.html), 'photo' => [WebDocument](/API_docs/types/WebDocument.html), 'transaction_date' => [int](/API_docs/types/int.html), 'transaction_url' => [string](/API_docs/types/string.html), 'bot_payload' => [bytes](/API_docs/types/bytes.html), 'msg_id' => [int](/API_docs/types/int.html), 'extended_media' => \[[MessageMedia](/API_docs/types/MessageMedia.html)\], 'subscription_period' => [int](/API_docs/types/int.html), \];<a name="starsTransaction"></a>  
+<br><br>[$starsTransaction](/API_docs/constructors/starsTransaction.html) = \['refund' => [Bool](/API_docs/types/Bool.html), 'pending' => [Bool](/API_docs/types/Bool.html), 'failed' => [Bool](/API_docs/types/Bool.html), 'gift' => [Bool](/API_docs/types/Bool.html), 'reaction' => [Bool](/API_docs/types/Bool.html), 'id' => [string](/API_docs/types/string.html), 'stars' => [long](/API_docs/types/long.html), 'date' => [int](/API_docs/types/int.html), 'peer' => [StarsTransactionPeer](/API_docs/types/StarsTransactionPeer.html), 'title' => [string](/API_docs/types/string.html), 'description' => [string](/API_docs/types/string.html), 'photo' => [WebDocument](/API_docs/types/WebDocument.html), 'transaction_date' => [int](/API_docs/types/int.html), 'transaction_url' => [string](/API_docs/types/string.html), 'bot_payload' => [bytes](/API_docs/types/bytes.html), 'msg_id' => [int](/API_docs/types/int.html), 'extended_media' => \[[MessageMedia](/API_docs/types/MessageMedia.html)\], 'subscription_period' => [int](/API_docs/types/int.html), 'giveaway_post_id' => [int](/API_docs/types/int.html), \];<a name="starsTransaction"></a>  
 
 ***
 <br><br>[$starsTransactionPeer](/API_docs/constructors/starsTransactionPeer.html) = \['peer' => [long](/API_docs/types/long.html), \];<a name="starsTransactionPeer"></a>  
@@ -3584,6 +3602,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$updateBotPrecheckoutQuery](/API_docs/constructors/updateBotPrecheckoutQuery.html) = \['query_id' => [long](/API_docs/types/long.html), 'user_id' => [long](/API_docs/types/long.html), 'payload' => [bytes](/API_docs/types/bytes.html), 'info' => [PaymentRequestedInfo](/API_docs/types/PaymentRequestedInfo.html), 'shipping_option_id' => [string](/API_docs/types/string.html), 'currency' => [string](/API_docs/types/string.html), 'total_amount' => [long](/API_docs/types/long.html), \];<a name="updateBotPrecheckoutQuery"></a>  
 
 ***
+<br><br>[$updateBotPurchasedPaidMedia](/API_docs/constructors/updateBotPurchasedPaidMedia.html) = \['user_id' => [long](/API_docs/types/long.html), 'payload' => [string](/API_docs/types/string.html), 'qts' => [int](/API_docs/types/int.html), \];<a name="updateBotPurchasedPaidMedia"></a>  
+
+***
 <br><br>[$updateBotShippingQuery](/API_docs/constructors/updateBotShippingQuery.html) = \['query_id' => [long](/API_docs/types/long.html), 'user_id' => [long](/API_docs/types/long.html), 'payload' => [bytes](/API_docs/types/bytes.html), 'shipping_address' => [PostAddress](/API_docs/types/PostAddress.html), \];<a name="updateBotShippingQuery"></a>  
 
 ***
@@ -3792,6 +3813,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$updateNotifySettings](/API_docs/constructors/updateNotifySettings.html) = \['peer' => [NotifyPeer](/API_docs/types/NotifyPeer.html), 'notify_settings' => [PeerNotifySettings](/API_docs/types/PeerNotifySettings.html), \];<a name="updateNotifySettings"></a>  
+
+***
+<br><br>[$updatePaidReactionPrivacy](/API_docs/constructors/updatePaidReactionPrivacy.html) = \['private' => [Bool](/API_docs/types/Bool.html), \];<a name="updatePaidReactionPrivacy"></a>  
 
 ***
 <br><br>[$updatePeerBlocked](/API_docs/constructors/updatePeerBlocked.html) = \['blocked' => [Bool](/API_docs/types/Bool.html), 'blocked_my_stories_from' => [Bool](/API_docs/types/Bool.html), 'peer_id' => [Peer](/API_docs/types/Peer.html), \];<a name="updatePeerBlocked"></a>  

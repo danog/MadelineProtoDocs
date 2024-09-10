@@ -1613,6 +1613,10 @@ $MadelineProto->[messages->getOutboxReadDate](/API_docs/methods/messages.getOutb
 
 ***
 <br><br>
+$MadelineProto->[messages->getPaidReactionPrivacy](/API_docs/methods/messages.getPaidReactionPrivacy.html)(\[\]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.getPaidReactionPrivacy"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->getPeerDialogs](/API_docs/methods/messages.getPeerDialogs.html)(\[peers: \[$[InputDialogPeer](/API_docs/types/InputDialogPeer.html)\], \]) === [$messages.PeerDialogs](/API_docs/types/messages.PeerDialogs.html)<a name="messages.getPeerDialogs"></a>  
 
 ***
@@ -1937,7 +1941,7 @@ $MadelineProto->[messages->sendMultiMedia](/API_docs/methods/messages.sendMultiM
 
 ***
 <br><br>
-$MadelineProto->[messages->sendPaidReaction](/API_docs/methods/messages.sendPaidReaction.html)(\[private: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), msg_id: $[int](/API_docs/types/int.html), count: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendPaidReaction"></a>  
+$MadelineProto->[messages->sendPaidReaction](/API_docs/methods/messages.sendPaidReaction.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), msg_id: $[int](/API_docs/types/int.html), count: $[int](/API_docs/types/int.html), private: $[Bool](/API_docs/types/Bool.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendPaidReaction"></a>  
 
 ***
 <br><br>
@@ -2170,6 +2174,10 @@ $MadelineProto->[payments->getSavedInfo](/API_docs/methods/payments.getSavedInfo
 ***
 <br><br>
 $MadelineProto->[payments->getStarsGiftOptions](/API_docs/methods/payments.getStarsGiftOptions.html)(\[user_id: $[InputUser](/API_docs/types/InputUser.html), \]) === [$Vector\_of\_StarsGiftOption](/API_docs/types/StarsGiftOption.html)<a name="payments.getStarsGiftOptions"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->getStarsGiveawayOptions](/API_docs/methods/payments.getStarsGiveawayOptions.html)(\[\]) === [$Vector\_of\_StarsGiveawayOption](/API_docs/types/StarsGiveawayOption.html)<a name="payments.getStarsGiveawayOptions"></a>  
 
 ***
 <br><br>
