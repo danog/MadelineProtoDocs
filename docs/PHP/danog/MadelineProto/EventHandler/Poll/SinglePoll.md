@@ -24,7 +24,7 @@ Represents a poll with a option can be chosen as answer
 * `$closePeriod`: `?int` Amount of time in seconds the poll will be active after creation, 5-600
 * `$closeDate`: `?int` Point in time (Unix timestamp) when the poll will be automatically closed. Must be at least 5 and no more than 600 seconds in the future
 * `$recentVoters`: `list<int>` IDs of the last users that recently voted in the poll
-* `$totalVoters`: `int` Total number of people that voted in the poll
+* `$totalVoters`: `?int` Total number of people that voted in the poll
 
 ## Method list:
 * [`fromRawPoll(array $rawPoll): \danog\MadelineProto\EventHandler\AbstractPoll`](#fromRawPoll)

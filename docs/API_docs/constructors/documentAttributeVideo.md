@@ -23,6 +23,7 @@ Defines a video
 |h|[int](/API_docs/types/int.html) | Optional|Video height|
 |preload\_prefix\_size|[int](/API_docs/types/int.html) | Optional|Number of bytes to preload when preloading videos (particularly [video stories](https://core.telegram.org/api/stories)).|
 |video\_start\_ts|[double](/API_docs/types/double.html) | Optional|
+|video\_codec|[string](/API_docs/types/string.html) | Optional|
 
 
 
@@ -32,5 +33,5 @@ Defines a video
 ### Example:
 
 ```
-$documentAttributeVideo = ['_' => 'documentAttributeVideo', 'round_message' => Bool, 'supports_streaming' => Bool, 'nosound' => Bool, 'duration' => double, 'w' => int, 'h' => int, 'preload_prefix_size' => int, 'video_start_ts' => double];
+$documentAttributeVideo = ['_' => 'documentAttributeVideo', 'round_message' => Bool, 'supports_streaming' => Bool, 'nosound' => Bool, 'duration' => double, 'w' => int, 'h' => int, 'preload_prefix_size' => int, 'video_start_ts' => double, 'video_codec' => 'string'];
 ```  

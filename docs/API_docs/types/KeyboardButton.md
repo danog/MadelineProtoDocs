@@ -66,6 +66,8 @@ You can also access the properties of the constructor as a normal array, for exa
 
 [inputKeyboardButtonRequestPeer](/API_docs/constructors/inputKeyboardButtonRequestPeer.html)  
 
+[keyboardButtonCopy](/API_docs/constructors/keyboardButtonCopy.html)  
+
 
 
 ### Methods that return an object of this type (methods):

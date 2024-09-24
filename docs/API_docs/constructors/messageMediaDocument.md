@@ -21,7 +21,7 @@ Document (video, audio, voice, sticker, any media type except photo)
 |round|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a round video.|
 |voice|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a voice message.|
 |document|[Document](/API_docs/types/Document.html) | Optional|Attached document|
-|alt\_document|[Document](/API_docs/types/Document.html) | Optional|Currently only used for story videos, may contain an alternative version of the story video, explicitly encoded using H.264 (in MPEG4 transport) at a lower resolution than `document`.|
+|alt\_documents|Array of [Document](/API_docs/types/Document.html) | Optional|
 |ttl\_seconds|[int](/API_docs/types/int.html) | Optional|Time to live of self-destructing document|
 
 
@@ -32,5 +32,5 @@ Document (video, audio, voice, sticker, any media type except photo)
 ### Example:
 
 ```
-$messageMediaDocument = ['_' => 'messageMediaDocument', 'nopremium' => Bool, 'spoiler' => Bool, 'video' => Bool, 'round' => Bool, 'voice' => Bool, 'document' => Document, 'alt_document' => Document, 'ttl_seconds' => int];
+$messageMediaDocument = ['_' => 'messageMediaDocument', 'nopremium' => Bool, 'spoiler' => Bool, 'video' => Bool, 'round' => Bool, 'voice' => Bool, 'document' => Document, 'alt_documents' => [Document, Document], 'ttl_seconds' => int];
 ```  

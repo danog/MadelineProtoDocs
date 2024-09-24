@@ -21,6 +21,8 @@ Informs the server that the user has either:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|media|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|fullscreen|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Channel where the sponsored message was posted | Optional|
 
 
@@ -41,6 +43,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->channels->clickSponsoredMessage(channel: $InputChannel, );
+$Bool = $MadelineProto->channels->clickSponsoredMessage(media: $Bool, fullscreen: $Bool, channel: $InputChannel, );
 ```
 

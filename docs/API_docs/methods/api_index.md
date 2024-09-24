@@ -673,7 +673,7 @@ $MadelineProto->[channels->checkUsername](/API_docs/methods/channels.checkUserna
 
 ***
 <br><br>
-$MadelineProto->[channels->clickSponsoredMessage](/API_docs/methods/channels.clickSponsoredMessage.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="channels.clickSponsoredMessage"></a>  
+$MadelineProto->[channels->clickSponsoredMessage](/API_docs/methods/channels.clickSponsoredMessage.html)(\[media: $[Bool](/API_docs/types/Bool.html), fullscreen: $[Bool](/API_docs/types/Bool.html), channel: $[InputChannel](/API_docs/types/InputChannel.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="channels.clickSponsoredMessage"></a>  
 
 ***
 <br><br>

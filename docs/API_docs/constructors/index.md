@@ -1874,6 +1874,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$keyboardButtonCallback](/API_docs/constructors/keyboardButtonCallback.html) = \['requires_password' => [Bool](/API_docs/types/Bool.html), 'text' => [string](/API_docs/types/string.html), 'data' => [bytes](/API_docs/types/bytes.html), \];<a name="keyboardButtonCallback"></a>  
 
 ***
+<br><br>[$keyboardButtonCopy](/API_docs/constructors/keyboardButtonCopy.html) = \['text' => [string](/API_docs/types/string.html), 'copy_text' => [string](/API_docs/types/string.html), \];<a name="keyboardButtonCopy"></a>  
+
+***
 <br><br>[$keyboardButtonGame](/API_docs/constructors/keyboardButtonGame.html) = \['text' => [string](/API_docs/types/string.html), \];<a name="keyboardButtonGame"></a>  
 
 ***
@@ -2171,7 +2174,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$messageMediaDice](/API_docs/constructors/messageMediaDice.html) = \['value' => [int](/API_docs/types/int.html), 'emoticon' => [string](/API_docs/types/string.html), \];<a name="messageMediaDice"></a>  
 
 ***
-<br><br>[$messageMediaDocument](/API_docs/constructors/messageMediaDocument.html) = \['nopremium' => [Bool](/API_docs/types/Bool.html), 'spoiler' => [Bool](/API_docs/types/Bool.html), 'video' => [Bool](/API_docs/types/Bool.html), 'round' => [Bool](/API_docs/types/Bool.html), 'voice' => [Bool](/API_docs/types/Bool.html), 'document' => [Document](/API_docs/types/Document.html), 'alt_document' => [Document](/API_docs/types/Document.html), 'ttl_seconds' => [int](/API_docs/types/int.html), \];<a name="messageMediaDocument"></a>  
+<br><br>[$messageMediaDocument](/API_docs/constructors/messageMediaDocument.html) = \['nopremium' => [Bool](/API_docs/types/Bool.html), 'spoiler' => [Bool](/API_docs/types/Bool.html), 'video' => [Bool](/API_docs/types/Bool.html), 'round' => [Bool](/API_docs/types/Bool.html), 'voice' => [Bool](/API_docs/types/Bool.html), 'document' => [Document](/API_docs/types/Document.html), 'alt_documents' => \[[Document](/API_docs/types/Document.html)\], 'ttl_seconds' => [int](/API_docs/types/int.html), \];<a name="messageMediaDocument"></a>  
 
 ***
 <br><br>[$messageMediaEmpty](/API_docs/constructors/messageMediaEmpty.html) = \[\];<a name="messageMediaEmpty"></a>  
