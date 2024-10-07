@@ -1710,7 +1710,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="payments.changeStarsSubscription.html" name="payments.changeStarsSubscription">payments.changeStarsSubscription</a>
 
+* <a href="payments.convertStarGift.html" name="payments.convertStarGift">payments.convertStarGift</a>
+
 * <a href="payments.fulfillStarsSubscription.html" name="payments.fulfillStarsSubscription">payments.fulfillStarsSubscription</a>
+
+* <a href="payments.getStarGifts.html" name="payments.getStarGifts">payments.getStarGifts</a>
 
 * <a href="payments.getStarsGiftOptions.html" name="payments.getStarsGiftOptions">payments.getStarsGiftOptions</a>
 
@@ -1732,7 +1736,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="payments.getStarsTransactionsByID.html" name="payments.getStarsTransactionsByID">payments.getStarsTransactionsByID</a>
 
+* <a href="payments.getUserStarGifts.html" name="payments.getUserStarGifts">payments.getUserStarGifts</a>
+
 * <a href="payments.refundStarsCharge.html" name="payments.refundStarsCharge">payments.refundStarsCharge</a>
+
+* <a href="payments.saveStarGift.html" name="payments.saveStarGift">payments.saveStarGift</a>
 
 * <a href="payments.sendStarsForm.html" name="payments.sendStarsForm">payments.sendStarsForm</a>
 

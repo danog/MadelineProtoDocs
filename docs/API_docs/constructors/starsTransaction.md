@@ -32,6 +32,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |extended\_media|Array of [MessageMedia](/API_docs/types/MessageMedia.html) | Optional|
 |subscription\_period|[int](/API_docs/types/int.html) | Optional|
 |giveaway\_post\_id|[int](/API_docs/types/int.html) | Optional|
+|stargift|[StarGift](/API_docs/types/StarGift.html) | Optional|
 
 
 
@@ -41,5 +42,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$starsTransaction = ['_' => 'starsTransaction', 'refund' => Bool, 'pending' => Bool, 'failed' => Bool, 'gift' => Bool, 'reaction' => Bool, 'id' => 'string', 'stars' => long, 'date' => int, 'peer' => StarsTransactionPeer, 'title' => 'string', 'description' => 'string', 'photo' => WebDocument, 'transaction_date' => int, 'transaction_url' => 'string', 'bot_payload' => 'bytes', 'msg_id' => int, 'extended_media' => [MessageMedia, MessageMedia], 'subscription_period' => int, 'giveaway_post_id' => int];
+$starsTransaction = ['_' => 'starsTransaction', 'refund' => Bool, 'pending' => Bool, 'failed' => Bool, 'gift' => Bool, 'reaction' => Bool, 'id' => 'string', 'stars' => long, 'date' => int, 'peer' => StarsTransactionPeer, 'title' => 'string', 'description' => 'string', 'photo' => WebDocument, 'transaction_date' => int, 'transaction_url' => 'string', 'bot_payload' => 'bytes', 'msg_id' => int, 'extended_media' => [MessageMedia, MessageMedia], 'subscription_period' => int, 'giveaway_post_id' => int, 'stargift' => StarGift];
 ```  

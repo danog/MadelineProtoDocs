@@ -19,11 +19,11 @@ Report a message in a chat for violation of telegram's Terms of Service
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer | Optional|
 |id|Array of [int](/API_docs/types/int.html) | IDs of messages to report | Yes|
-|reason|[ReportReason](/API_docs/types/ReportReason.html) | Why are these messages being reported | Yes|
+|option|[bytes](/API_docs/types/bytes.html) |  | Yes|
 |message|[string](/API_docs/types/string.html) | Comment for report moderation | Optional|
 
 
-### Return type: [Bool](/API_docs/types/Bool.html)
+### Return type: [ReportResult](/API_docs/types/ReportResult.html)
 
 ### Can bots use this method: **NO**
 
@@ -40,12 +40,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->report(peer: $InputPeer, id: [$int, $int], reason: $ReportReason, message: 'string', );
+$ReportResult = $MadelineProto->messages->report(peer: $InputPeer, id: [$int, $int], option: 'bytes', message: 'string', );
 ```
 
 
 ## Return value 
 
-If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [Bool](../types/Bool.html) will be returned instead.
+If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [ReportResult](../types/ReportResult.html) will be returned instead.
 
 

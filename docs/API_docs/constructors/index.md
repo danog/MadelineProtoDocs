@@ -1397,6 +1397,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$inputInvoiceSlug](/API_docs/constructors/inputInvoiceSlug.html) = \['slug' => [string](/API_docs/types/string.html), \];<a name="inputInvoiceSlug"></a>  
 
 ***
+<br><br>[$inputInvoiceStarGift](/API_docs/constructors/inputInvoiceStarGift.html) = \['hide_name' => [Bool](/API_docs/types/Bool.html), 'user_id' => [InputUser](/API_docs/types/InputUser.html), 'gift_id' => [long](/API_docs/types/long.html), 'message' => [TextWithEntities](/API_docs/types/TextWithEntities.html), \];<a name="inputInvoiceStarGift"></a>  
+
+***
 <br><br>[$inputInvoiceStars](/API_docs/constructors/inputInvoiceStars.html) = \['purpose' => [InputStorePaymentPurpose](/API_docs/types/InputStorePaymentPurpose.html), \];<a name="inputInvoiceStars"></a>  
 
 ***
@@ -2081,6 +2084,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$messageActionSetMessagesTTL](/API_docs/constructors/messageActionSetMessagesTTL.html) = \['period' => [int](/API_docs/types/int.html), 'auto_setting_from' => [long](/API_docs/types/long.html), \];<a name="messageActionSetMessagesTTL"></a>  
 
 ***
+<br><br>[$messageActionStarGift](/API_docs/constructors/messageActionStarGift.html) = \['name_hidden' => [Bool](/API_docs/types/Bool.html), 'saved' => [Bool](/API_docs/types/Bool.html), 'converted' => [Bool](/API_docs/types/Bool.html), 'gift' => [StarGift](/API_docs/types/StarGift.html), 'message' => [TextWithEntities](/API_docs/types/TextWithEntities.html), 'convert_stars' => [long](/API_docs/types/long.html), \];<a name="messageActionStarGift"></a>  
+
+***
 <br><br>[$messageActionSuggestProfilePhoto](/API_docs/constructors/messageActionSuggestProfilePhoto.html) = \['photo' => [Photo](/API_docs/types/Photo.html), \];<a name="messageActionSuggestProfilePhoto"></a>  
 
 ***
@@ -2247,6 +2253,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$messageReplyStoryHeader](/API_docs/constructors/messageReplyStoryHeader.html) = \['peer' => [long](/API_docs/types/long.html), 'story_id' => [int](/API_docs/types/int.html), \];<a name="messageReplyStoryHeader"></a>  
+
+***
+<br><br>[$messageReportOption](/API_docs/constructors/messageReportOption.html) = \['text' => [string](/API_docs/types/string.html), 'option' => [bytes](/API_docs/types/bytes.html), \];<a name="messageReportOption"></a>  
 
 ***
 <br><br>[$messageService](/API_docs/constructors/messageService.html) = \['out' => [Bool](/API_docs/types/Bool.html), 'mentioned' => [Bool](/API_docs/types/Bool.html), 'media_unread' => [Bool](/API_docs/types/Bool.html), 'silent' => [Bool](/API_docs/types/Bool.html), 'post' => [Bool](/API_docs/types/Bool.html), 'legacy' => [Bool](/API_docs/types/Bool.html), 'id' => [int](/API_docs/types/int.html), 'from_id' => [Peer](/API_docs/types/Peer.html), 'peer_id' => [Peer](/API_docs/types/Peer.html), 'reply_to' => [MessageReplyHeader](/API_docs/types/MessageReplyHeader.html), 'date' => [int](/API_docs/types/int.html), 'action' => [MessageAction](/API_docs/types/MessageAction.html), 'ttl_period' => [int](/API_docs/types/int.html), \];<a name="messageService"></a>  
@@ -2696,6 +2705,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$payments.paymentForm](/API_docs/constructors/payments.paymentForm.html) = \['can_save_credentials' => [Bool](/API_docs/types/Bool.html), 'password_missing' => [Bool](/API_docs/types/Bool.html), 'form_id' => [long](/API_docs/types/long.html), 'bot_id' => [long](/API_docs/types/long.html), 'title' => [string](/API_docs/types/string.html), 'description' => [string](/API_docs/types/string.html), 'photo' => [WebDocument](/API_docs/types/WebDocument.html), 'invoice' => [Invoice](/API_docs/types/Invoice.html), 'provider_id' => [long](/API_docs/types/long.html), 'url' => [string](/API_docs/types/string.html), 'native_provider' => [string](/API_docs/types/string.html), 'native_params' => [DataJSON](/API_docs/types/DataJSON.html), 'additional_methods' => \[[PaymentFormMethod](/API_docs/types/PaymentFormMethod.html)\], 'saved_info' => [PaymentRequestedInfo](/API_docs/types/PaymentRequestedInfo.html), 'saved_credentials' => \[[PaymentSavedCredentials](/API_docs/types/PaymentSavedCredentials.html)\], 'users' => \[[User](/API_docs/types/User.html)\], \];<a name="payments.paymentForm"></a>  
 
 ***
+<br><br>[$payments.paymentFormStarGift](/API_docs/constructors/payments.paymentFormStarGift.html) = \['form_id' => [long](/API_docs/types/long.html), 'invoice' => [Invoice](/API_docs/types/Invoice.html), \];<a name="payments.paymentFormStarGift"></a>  
+
+***
 <br><br>[$payments.paymentFormStars](/API_docs/constructors/payments.paymentFormStars.html) = \['form_id' => [long](/API_docs/types/long.html), 'bot_id' => [long](/API_docs/types/long.html), 'title' => [string](/API_docs/types/string.html), 'description' => [string](/API_docs/types/string.html), 'photo' => [WebDocument](/API_docs/types/WebDocument.html), 'invoice' => [Invoice](/API_docs/types/Invoice.html), 'users' => \[[User](/API_docs/types/User.html)\], \];<a name="payments.paymentFormStars"></a>  
 
 ***
@@ -2714,6 +2726,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$payments.savedInfo](/API_docs/constructors/payments.savedInfo.html) = \['has_saved_credentials' => [Bool](/API_docs/types/Bool.html), 'saved_info' => [PaymentRequestedInfo](/API_docs/types/PaymentRequestedInfo.html), \];<a name="payments.savedInfo"></a>  
 
 ***
+<br><br>[$payments.starGifts](/API_docs/constructors/payments.starGifts.html) = \['hash' => [int](/API_docs/types/int.html), 'gifts' => \[[StarGift](/API_docs/types/StarGift.html)\], \];<a name="payments.starGifts"></a>  
+
+***
+<br><br>[$payments.starGiftsNotModified](/API_docs/constructors/payments.starGiftsNotModified.html) = \[\];<a name="payments.starGiftsNotModified"></a>  
+
+***
 <br><br>[$payments.starsRevenueAdsAccountUrl](/API_docs/constructors/payments.starsRevenueAdsAccountUrl.html) = \['url' => [string](/API_docs/types/string.html), \];<a name="payments.starsRevenueAdsAccountUrl"></a>  
 
 ***
@@ -2724,6 +2742,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$payments.starsStatus](/API_docs/constructors/payments.starsStatus.html) = \['balance' => [long](/API_docs/types/long.html), 'subscriptions' => \[[StarsSubscription](/API_docs/types/StarsSubscription.html)\], 'subscriptions_next_offset' => [string](/API_docs/types/string.html), 'subscriptions_missing_balance' => [long](/API_docs/types/long.html), 'history' => \[[StarsTransaction](/API_docs/types/StarsTransaction.html)\], 'next_offset' => [string](/API_docs/types/string.html), 'chats' => \[[Chat](/API_docs/types/Chat.html)\], 'users' => \[[User](/API_docs/types/User.html)\], \];<a name="payments.starsStatus"></a>  
+
+***
+<br><br>[$payments.userStarGifts](/API_docs/constructors/payments.userStarGifts.html) = \['count' => [int](/API_docs/types/int.html), 'gifts' => \[[UserStarGift](/API_docs/types/UserStarGift.html)\], 'next_offset' => [string](/API_docs/types/string.html), 'users' => \[[User](/API_docs/types/User.html)\], \];<a name="payments.userStarGifts"></a>  
 
 ***
 <br><br>[$payments.validatedRequestedInfo](/API_docs/constructors/payments.validatedRequestedInfo.html) = \['id' => [string](/API_docs/types/string.html), 'shipping_options' => \[[ShippingOption](/API_docs/types/ShippingOption.html)\], \];<a name="payments.validatedRequestedInfo"></a>  
@@ -3029,6 +3050,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$replyKeyboardMarkup](/API_docs/constructors/replyKeyboardMarkup.html) = \['resize' => [Bool](/API_docs/types/Bool.html), 'single_use' => [Bool](/API_docs/types/Bool.html), 'selective' => [Bool](/API_docs/types/Bool.html), 'persistent' => [Bool](/API_docs/types/Bool.html), 'rows' => \[[KeyboardButtonRow](/API_docs/types/KeyboardButtonRow.html)\], 'placeholder' => [string](/API_docs/types/string.html), \];<a name="replyKeyboardMarkup"></a>  
 
 ***
+<br><br>[$reportResultAddComment](/API_docs/constructors/reportResultAddComment.html) = \['optional' => [Bool](/API_docs/types/Bool.html), 'option' => [bytes](/API_docs/types/bytes.html), \];<a name="reportResultAddComment"></a>  
+
+***
+<br><br>[$reportResultChooseOption](/API_docs/constructors/reportResultChooseOption.html) = \['title' => [string](/API_docs/types/string.html), 'options' => \[[MessageReportOption](/API_docs/types/MessageReportOption.html)\], \];<a name="reportResultChooseOption"></a>  
+
+***
+<br><br>[$reportResultReported](/API_docs/constructors/reportResultReported.html) = \[\];<a name="reportResultReported"></a>  
+
+***
 <br><br>[$requestPeerTypeBroadcast](/API_docs/constructors/requestPeerTypeBroadcast.html) = \['creator' => [Bool](/API_docs/types/Bool.html), 'has_username' => [Bool](/API_docs/types/Bool.html), 'user_admin_rights' => [ChatAdminRights](/API_docs/types/ChatAdminRights.html), 'bot_admin_rights' => [ChatAdminRights](/API_docs/types/ChatAdminRights.html), \];<a name="requestPeerTypeBroadcast"></a>  
 
 ***
@@ -3248,6 +3278,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$sponsoredMessageReportOption](/API_docs/constructors/sponsoredMessageReportOption.html) = \['text' => [string](/API_docs/types/string.html), 'option' => [bytes](/API_docs/types/bytes.html), \];<a name="sponsoredMessageReportOption"></a>  
 
 ***
+<br><br>[$starGift](/API_docs/constructors/starGift.html) = \['limited' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'sticker' => [Document](/API_docs/types/Document.html), 'stars' => [long](/API_docs/types/long.html), 'availability_remains' => [int](/API_docs/types/int.html), 'availability_total' => [int](/API_docs/types/int.html), 'convert_stars' => [long](/API_docs/types/long.html), \];<a name="starGift"></a>  
+
+***
 <br><br>[$starsGiftOption](/API_docs/constructors/starsGiftOption.html) = \['extended' => [Bool](/API_docs/types/Bool.html), 'stars' => [long](/API_docs/types/long.html), 'store_product' => [string](/API_docs/types/string.html), 'currency' => [string](/API_docs/types/string.html), 'amount' => [long](/API_docs/types/long.html), \];<a name="starsGiftOption"></a>  
 
 ***
@@ -3269,7 +3302,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$starsTopupOption](/API_docs/constructors/starsTopupOption.html) = \['extended' => [Bool](/API_docs/types/Bool.html), 'stars' => [long](/API_docs/types/long.html), 'store_product' => [string](/API_docs/types/string.html), 'currency' => [string](/API_docs/types/string.html), 'amount' => [long](/API_docs/types/long.html), \];<a name="starsTopupOption"></a>  
 
 ***
-<br><br>[$starsTransaction](/API_docs/constructors/starsTransaction.html) = \['refund' => [Bool](/API_docs/types/Bool.html), 'pending' => [Bool](/API_docs/types/Bool.html), 'failed' => [Bool](/API_docs/types/Bool.html), 'gift' => [Bool](/API_docs/types/Bool.html), 'reaction' => [Bool](/API_docs/types/Bool.html), 'id' => [string](/API_docs/types/string.html), 'stars' => [long](/API_docs/types/long.html), 'date' => [int](/API_docs/types/int.html), 'peer' => [StarsTransactionPeer](/API_docs/types/StarsTransactionPeer.html), 'title' => [string](/API_docs/types/string.html), 'description' => [string](/API_docs/types/string.html), 'photo' => [WebDocument](/API_docs/types/WebDocument.html), 'transaction_date' => [int](/API_docs/types/int.html), 'transaction_url' => [string](/API_docs/types/string.html), 'bot_payload' => [bytes](/API_docs/types/bytes.html), 'msg_id' => [int](/API_docs/types/int.html), 'extended_media' => \[[MessageMedia](/API_docs/types/MessageMedia.html)\], 'subscription_period' => [int](/API_docs/types/int.html), 'giveaway_post_id' => [int](/API_docs/types/int.html), \];<a name="starsTransaction"></a>  
+<br><br>[$starsTransaction](/API_docs/constructors/starsTransaction.html) = \['refund' => [Bool](/API_docs/types/Bool.html), 'pending' => [Bool](/API_docs/types/Bool.html), 'failed' => [Bool](/API_docs/types/Bool.html), 'gift' => [Bool](/API_docs/types/Bool.html), 'reaction' => [Bool](/API_docs/types/Bool.html), 'id' => [string](/API_docs/types/string.html), 'stars' => [long](/API_docs/types/long.html), 'date' => [int](/API_docs/types/int.html), 'peer' => [StarsTransactionPeer](/API_docs/types/StarsTransactionPeer.html), 'title' => [string](/API_docs/types/string.html), 'description' => [string](/API_docs/types/string.html), 'photo' => [WebDocument](/API_docs/types/WebDocument.html), 'transaction_date' => [int](/API_docs/types/int.html), 'transaction_url' => [string](/API_docs/types/string.html), 'bot_payload' => [bytes](/API_docs/types/bytes.html), 'msg_id' => [int](/API_docs/types/int.html), 'extended_media' => \[[MessageMedia](/API_docs/types/MessageMedia.html)\], 'subscription_period' => [int](/API_docs/types/int.html), 'giveaway_post_id' => [int](/API_docs/types/int.html), 'stargift' => [StarGift](/API_docs/types/StarGift.html), \];<a name="starsTransaction"></a>  
 
 ***
 <br><br>[$starsTransactionPeer](/API_docs/constructors/starsTransactionPeer.html) = \['peer' => [long](/API_docs/types/long.html), \];<a name="starsTransactionPeer"></a>  
@@ -4055,13 +4088,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$userEmpty](/API_docs/constructors/userEmpty.html) = \['id' => [long](/API_docs/types/long.html), \];<a name="userEmpty"></a>  
 
 ***
-<br><br>[$userFull](/API_docs/constructors/userFull.html) = \['blocked' => [Bool](/API_docs/types/Bool.html), 'phone_calls_available' => [Bool](/API_docs/types/Bool.html), 'phone_calls_private' => [Bool](/API_docs/types/Bool.html), 'can_pin_message' => [Bool](/API_docs/types/Bool.html), 'has_scheduled' => [Bool](/API_docs/types/Bool.html), 'video_calls_available' => [Bool](/API_docs/types/Bool.html), 'voice_messages_forbidden' => [Bool](/API_docs/types/Bool.html), 'translations_disabled' => [Bool](/API_docs/types/Bool.html), 'stories_pinned_available' => [Bool](/API_docs/types/Bool.html), 'blocked_my_stories_from' => [Bool](/API_docs/types/Bool.html), 'wallpaper_overridden' => [Bool](/API_docs/types/Bool.html), 'contact_require_premium' => [Bool](/API_docs/types/Bool.html), 'read_dates_private' => [Bool](/API_docs/types/Bool.html), 'sponsored_enabled' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'about' => [string](/API_docs/types/string.html), 'settings' => [PeerSettings](/API_docs/types/PeerSettings.html), 'personal_photo' => [Photo](/API_docs/types/Photo.html), 'profile_photo' => [Photo](/API_docs/types/Photo.html), 'fallback_photo' => [Photo](/API_docs/types/Photo.html), 'notify_settings' => [PeerNotifySettings](/API_docs/types/PeerNotifySettings.html), 'bot_info' => [BotInfo](/API_docs/types/BotInfo.html), 'pinned_msg_id' => [int](/API_docs/types/int.html), 'common_chats_count' => [int](/API_docs/types/int.html), 'folder_id' => [int](/API_docs/types/int.html), 'ttl_period' => [int](/API_docs/types/int.html), 'theme_emoticon' => [string](/API_docs/types/string.html), 'private_forward_name' => [string](/API_docs/types/string.html), 'bot_group_admin_rights' => [ChatAdminRights](/API_docs/types/ChatAdminRights.html), 'bot_broadcast_admin_rights' => [ChatAdminRights](/API_docs/types/ChatAdminRights.html), 'premium_gifts' => \[[PremiumGiftOption](/API_docs/types/PremiumGiftOption.html)\], 'wallpaper' => [WallPaper](/API_docs/types/WallPaper.html), 'stories' => [PeerStories](/API_docs/types/PeerStories.html), 'business_work_hours' => [BusinessWorkHours](/API_docs/types/BusinessWorkHours.html), 'business_location' => [BusinessLocation](/API_docs/types/BusinessLocation.html), 'business_greeting_message' => [BusinessGreetingMessage](/API_docs/types/BusinessGreetingMessage.html), 'business_away_message' => [BusinessAwayMessage](/API_docs/types/BusinessAwayMessage.html), 'business_intro' => [BusinessIntro](/API_docs/types/BusinessIntro.html), 'birthday' => [Birthday](/API_docs/types/Birthday.html), 'personal_channel_id' => [long](/API_docs/types/long.html), 'personal_channel_message' => [int](/API_docs/types/int.html), \];<a name="userFull"></a>  
+<br><br>[$userFull](/API_docs/constructors/userFull.html) = \['blocked' => [Bool](/API_docs/types/Bool.html), 'phone_calls_available' => [Bool](/API_docs/types/Bool.html), 'phone_calls_private' => [Bool](/API_docs/types/Bool.html), 'can_pin_message' => [Bool](/API_docs/types/Bool.html), 'has_scheduled' => [Bool](/API_docs/types/Bool.html), 'video_calls_available' => [Bool](/API_docs/types/Bool.html), 'voice_messages_forbidden' => [Bool](/API_docs/types/Bool.html), 'translations_disabled' => [Bool](/API_docs/types/Bool.html), 'stories_pinned_available' => [Bool](/API_docs/types/Bool.html), 'blocked_my_stories_from' => [Bool](/API_docs/types/Bool.html), 'wallpaper_overridden' => [Bool](/API_docs/types/Bool.html), 'contact_require_premium' => [Bool](/API_docs/types/Bool.html), 'read_dates_private' => [Bool](/API_docs/types/Bool.html), 'sponsored_enabled' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'about' => [string](/API_docs/types/string.html), 'settings' => [PeerSettings](/API_docs/types/PeerSettings.html), 'personal_photo' => [Photo](/API_docs/types/Photo.html), 'profile_photo' => [Photo](/API_docs/types/Photo.html), 'fallback_photo' => [Photo](/API_docs/types/Photo.html), 'notify_settings' => [PeerNotifySettings](/API_docs/types/PeerNotifySettings.html), 'bot_info' => [BotInfo](/API_docs/types/BotInfo.html), 'pinned_msg_id' => [int](/API_docs/types/int.html), 'common_chats_count' => [int](/API_docs/types/int.html), 'folder_id' => [int](/API_docs/types/int.html), 'ttl_period' => [int](/API_docs/types/int.html), 'theme_emoticon' => [string](/API_docs/types/string.html), 'private_forward_name' => [string](/API_docs/types/string.html), 'bot_group_admin_rights' => [ChatAdminRights](/API_docs/types/ChatAdminRights.html), 'bot_broadcast_admin_rights' => [ChatAdminRights](/API_docs/types/ChatAdminRights.html), 'premium_gifts' => \[[PremiumGiftOption](/API_docs/types/PremiumGiftOption.html)\], 'wallpaper' => [WallPaper](/API_docs/types/WallPaper.html), 'stories' => [PeerStories](/API_docs/types/PeerStories.html), 'business_work_hours' => [BusinessWorkHours](/API_docs/types/BusinessWorkHours.html), 'business_location' => [BusinessLocation](/API_docs/types/BusinessLocation.html), 'business_greeting_message' => [BusinessGreetingMessage](/API_docs/types/BusinessGreetingMessage.html), 'business_away_message' => [BusinessAwayMessage](/API_docs/types/BusinessAwayMessage.html), 'business_intro' => [BusinessIntro](/API_docs/types/BusinessIntro.html), 'birthday' => [Birthday](/API_docs/types/Birthday.html), 'personal_channel_id' => [long](/API_docs/types/long.html), 'personal_channel_message' => [int](/API_docs/types/int.html), 'stargifts_count' => [int](/API_docs/types/int.html), \];<a name="userFull"></a>  
 
 ***
 <br><br>[$userProfilePhoto](/API_docs/constructors/userProfilePhoto.html) = \['has_video' => [Bool](/API_docs/types/Bool.html), 'personal' => [Bool](/API_docs/types/Bool.html), 'photo_id' => [long](/API_docs/types/long.html), 'stripped_thumb' => [bytes](/API_docs/types/bytes.html), 'dc_id' => [int](/API_docs/types/int.html), \];<a name="userProfilePhoto"></a>  
 
 ***
 <br><br>[$userProfilePhotoEmpty](/API_docs/constructors/userProfilePhotoEmpty.html) = \[\];<a name="userProfilePhotoEmpty"></a>  
+
+***
+<br><br>[$userStarGift](/API_docs/constructors/userStarGift.html) = \['name_hidden' => [Bool](/API_docs/types/Bool.html), 'unsaved' => [Bool](/API_docs/types/Bool.html), 'from_id' => [long](/API_docs/types/long.html), 'date' => [int](/API_docs/types/int.html), 'gift' => [StarGift](/API_docs/types/StarGift.html), 'message' => [TextWithEntities](/API_docs/types/TextWithEntities.html), 'msg_id' => [int](/API_docs/types/int.html), 'convert_stars' => [long](/API_docs/types/long.html), \];<a name="userStarGift"></a>  
 
 ***
 <br><br>[$userStatusEmpty](/API_docs/constructors/userStatusEmpty.html) = \[\];<a name="userStatusEmpty"></a>  

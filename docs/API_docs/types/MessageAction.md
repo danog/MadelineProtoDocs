@@ -103,6 +103,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageActionPrizeStars](/API_docs/constructors/messageActionPrizeStars.html)  
 
+[messageActionStarGift](/API_docs/constructors/messageActionStarGift.html)  
+
 
 
 ### Methods that return an object of this type (methods):

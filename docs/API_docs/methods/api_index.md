@@ -1829,7 +1829,7 @@ $MadelineProto->[messages->reorderStickerSets](/API_docs/methods/messages.reorde
 
 ***
 <br><br>
-$MadelineProto->[messages->report](/API_docs/methods/messages.report.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), id: \[$[int](/API_docs/types/int.html)\], reason: $[ReportReason](/API_docs/types/ReportReason.html), message: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.report"></a>  
+$MadelineProto->[messages->report](/API_docs/methods/messages.report.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), id: \[$[int](/API_docs/types/int.html)\], option: $[bytes](/API_docs/types/bytes.html), message: $[string](/API_docs/types/string.html), \]) === [$ReportResult](/API_docs/types/ReportResult.html)<a name="messages.report"></a>  
 
 ***
 <br><br>
@@ -2141,6 +2141,10 @@ $MadelineProto->[payments->clearSavedInfo](/API_docs/methods/payments.clearSaved
 
 ***
 <br><br>
+$MadelineProto->[payments->convertStarGift](/API_docs/methods/payments.convertStarGift.html)(\[user_id: $[InputUser](/API_docs/types/InputUser.html), msg_id: $[int](/API_docs/types/int.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.convertStarGift"></a>  
+
+***
+<br><br>
 $MadelineProto->[payments->exportInvoice](/API_docs/methods/payments.exportInvoice.html)(\[invoice_media: $[InputMedia](/API_docs/types/InputMedia.html), \]) === [$payments.ExportedInvoice](/API_docs/types/payments.ExportedInvoice.html)<a name="payments.exportInvoice"></a>  
 
 ***
@@ -2170,6 +2174,10 @@ $MadelineProto->[payments->getPremiumGiftCodeOptions](/API_docs/methods/payments
 ***
 <br><br>
 $MadelineProto->[payments->getSavedInfo](/API_docs/methods/payments.getSavedInfo.html)(\[\]) === [$payments.SavedInfo](/API_docs/types/payments.SavedInfo.html)<a name="payments.getSavedInfo"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->getStarGifts](/API_docs/methods/payments.getStarGifts.html)(\[hash: $[int](/API_docs/types/int.html), \]) === [$payments.StarGifts](/API_docs/types/payments.StarGifts.html)<a name="payments.getStarGifts"></a>  
 
 ***
 <br><br>
@@ -2213,11 +2221,19 @@ $MadelineProto->[payments->getStarsTransactionsByID](/API_docs/methods/payments.
 
 ***
 <br><br>
+$MadelineProto->[payments->getUserStarGifts](/API_docs/methods/payments.getUserStarGifts.html)(\[user_id: $[InputUser](/API_docs/types/InputUser.html), offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$payments.UserStarGifts](/API_docs/types/payments.UserStarGifts.html)<a name="payments.getUserStarGifts"></a>  
+
+***
+<br><br>
 $MadelineProto->[payments->launchPrepaidGiveaway](/API_docs/methods/payments.launchPrepaidGiveaway.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), giveaway_id: $[long](/API_docs/types/long.html), purpose: $[InputStorePaymentPurpose](/API_docs/types/InputStorePaymentPurpose.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.launchPrepaidGiveaway"></a>  
 
 ***
 <br><br>
 $MadelineProto->[payments->refundStarsCharge](/API_docs/methods/payments.refundStarsCharge.html)(\[user_id: $[InputUser](/API_docs/types/InputUser.html), charge_id: $[string](/API_docs/types/string.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.refundStarsCharge"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->saveStarGift](/API_docs/methods/payments.saveStarGift.html)(\[unsave: $[Bool](/API_docs/types/Bool.html), user_id: $[InputUser](/API_docs/types/InputUser.html), msg_id: $[int](/API_docs/types/int.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.saveStarGift"></a>  
 
 ***
 <br><br>
@@ -2581,7 +2597,7 @@ $MadelineProto->[stories->readStories](/API_docs/methods/stories.readStories.htm
 
 ***
 <br><br>
-$MadelineProto->[stories->report](/API_docs/methods/stories.report.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), id: \[$[int](/API_docs/types/int.html)\], reason: $[ReportReason](/API_docs/types/ReportReason.html), message: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="stories.report"></a>  
+$MadelineProto->[stories->report](/API_docs/methods/stories.report.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), id: \[$[int](/API_docs/types/int.html)\], option: $[bytes](/API_docs/types/bytes.html), message: $[string](/API_docs/types/string.html), \]) === [$ReportResult](/API_docs/types/ReportResult.html)<a name="stories.report"></a>  
 
 ***
 <br><br>
