@@ -19,6 +19,7 @@ Used to gift [Telegram Premium](https://core.telegram.org/api/premium) subscript
 |boost\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|If set, the gifts will be sent on behalf of a channel we are an admin of, which will also assign some [boosts](https://core.telegram.org/api/boost) to it. Otherwise, the gift will be sent directly from the currently logged in users, and we will gain some extra [boost slots](https://core.telegram.org/api/boost). See [here »](https://core.telegram.org/api/giveaways) for more info on giveaways and gifts.|
 |currency|[string](/API_docs/types/string.html) | Yes|Three-letter ISO 4217 [currency](https://core.telegram.org/bots/payments#supported-currencies) code|
 |amount|[long](/API_docs/types/long.html) | Yes|Total price in the smallest units of the currency (integer, not float/double). For example, for a price of `US$ 1.45` pass `amount = 145`. See the exp parameter in [currencies.json](https://core.telegram.org/bots/payments/currencies.json), it shows the number of digits past the decimal point for each currency (2 for the majority of currencies).|
+|message|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Optional|
 
 
 
@@ -28,5 +29,5 @@ Used to gift [Telegram Premium](https://core.telegram.org/api/premium) subscript
 ### Example:
 
 ```
-$inputStorePaymentPremiumGiftCode = ['_' => 'inputStorePaymentPremiumGiftCode', 'users' => [InputUser, InputUser], 'boost_peer' => InputPeer, 'currency' => 'string', 'amount' => long];
+$inputStorePaymentPremiumGiftCode = ['_' => 'inputStorePaymentPremiumGiftCode', 'users' => [InputUser, InputUser], 'boost_peer' => InputPeer, 'currency' => 'string', 'amount' => long, 'message' => TextWithEntities];
 ```  

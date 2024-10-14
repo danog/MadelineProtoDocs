@@ -24,6 +24,7 @@ Contains a [Telegram Premium giftcode link](https://core.telegram.org/api/links#
 |amount|[long](/API_docs/types/long.html) | Optional|Total price in the smallest units of the currency (integer, not float/double). For example, for a price of `US$ 1.45` pass `amount = 145`. See the exp parameter in [currencies.json](https://core.telegram.org/bots/payments/currencies.json), it shows the number of digits past the decimal point for each currency (2 for the majority of currencies).|
 |crypto\_currency|[string](/API_docs/types/string.html) | Optional|If set, the gift was made using the specified cryptocurrency.|
 |crypto\_amount|[long](/API_docs/types/long.html) | Optional|If `crypto_currency` is set, contains the paid amount, in the smallest units of the cryptocurrency.|
+|message|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Optional|
 
 
 
@@ -33,5 +34,5 @@ Contains a [Telegram Premium giftcode link](https://core.telegram.org/api/links#
 ### Example:
 
 ```
-$messageActionGiftCode = ['_' => 'messageActionGiftCode', 'via_giveaway' => Bool, 'unclaimed' => Bool, 'boost_peer' => Peer, 'months' => int, 'slug' => 'string', 'currency' => 'string', 'amount' => long, 'crypto_currency' => 'string', 'crypto_amount' => long];
+$messageActionGiftCode = ['_' => 'messageActionGiftCode', 'via_giveaway' => Bool, 'unclaimed' => Bool, 'boost_peer' => Peer, 'months' => int, 'slug' => 'string', 'currency' => 'string', 'amount' => long, 'crypto_currency' => 'string', 'crypto_amount' => long, 'message' => TextWithEntities];
 ```  

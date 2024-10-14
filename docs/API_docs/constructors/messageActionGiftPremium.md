@@ -20,6 +20,7 @@ Info about a gifted Telegram Premium subscription
 |months|[int](/API_docs/types/int.html) | Yes|Duration of the gifted Telegram Premium subscription|
 |crypto\_currency|[string](/API_docs/types/string.html) | Optional|If the gift was bought using a cryptocurrency, the cryptocurrency name.|
 |crypto\_amount|[long](/API_docs/types/long.html) | Optional|If the gift was bought using a cryptocurrency, price of the gift in the smallest units of a cryptocurrency.|
+|message|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Optional|
 
 
 
@@ -29,5 +30,5 @@ Info about a gifted Telegram Premium subscription
 ### Example:
 
 ```
-$messageActionGiftPremium = ['_' => 'messageActionGiftPremium', 'currency' => 'string', 'amount' => long, 'months' => int, 'crypto_currency' => 'string', 'crypto_amount' => long];
+$messageActionGiftPremium = ['_' => 'messageActionGiftPremium', 'currency' => 'string', 'amount' => long, 'months' => int, 'crypto_currency' => 'string', 'crypto_amount' => long, 'message' => TextWithEntities];
 ```  
