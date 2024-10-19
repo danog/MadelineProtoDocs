@@ -143,7 +143,7 @@ Async PHP client API for the telegram MTProto protocol.
 * [\danog\MadelineProto\EventHandler\Action\UploadVideo: User is uploading a video.](/PHP/danog/MadelineProto/EventHandler/Action/UploadVideo.html)
 * [\danog\MadelineProto\EventHandler\Attributes\Cron: Attribute that enables periodic execution of a certain method.](/PHP/danog/MadelineProto/EventHandler/Attributes/Cron.html)
 * [\danog\MadelineProto\EventHandler\Attributes\Handler: Attribute that marks a handler method.](/PHP/danog/MadelineProto/EventHandler/Attributes/Handler.html)
-* [\danog\MadelineProto\EventHandler\Channel\ChannelParticipant: A participant has left, joined, was banned or admined in a [channel or supergroup](https://core.telegram.org/api/channel).](/PHP/danog/MadelineProto/EventHandler/Channel/ChannelParticipant.html)
+* [\danog\MadelineProto\EventHandler\Channel\ChannelParticipant: A participant has left, joined, was banned or admin'd in a [channel or supergroup](https://core.telegram.org/api/channel).](/PHP/danog/MadelineProto/EventHandler/Channel/ChannelParticipant.html)
 * [\danog\MadelineProto\EventHandler\Channel\MessageForwards: Indicates that the forward counter of a message in a channel has changed.](/PHP/danog/MadelineProto/EventHandler/Channel/MessageForwards.html)
 * [\danog\MadelineProto\EventHandler\Channel\MessageViewsChanged: Indicates that the view counter of a message in a channel has changed.](/PHP/danog/MadelineProto/EventHandler/Channel/MessageViewsChanged.html)
 * [\danog\MadelineProto\EventHandler\Channel\UpdateChannel: A new channel is available, or info about an existing channel was changed.](/PHP/danog/MadelineProto/EventHandler/Channel/UpdateChannel.html)

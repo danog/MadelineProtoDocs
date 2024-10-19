@@ -504,7 +504,7 @@ Here's a full list of the concrete object types on which bound methods and prope
 * [danog\MadelineProto\EventHandler\CallbackQuery &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/CallbackQuery.html) - Represents a query sent by the user by clicking on a button.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/CallbackQuery.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/CallbackQuery.html#method-list)
-* [danog\MadelineProto\EventHandler\Channel\ChannelParticipant &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Channel/ChannelParticipant.html) - A participant has left, joined, was banned or admined in a [channel or supergroup](https://core.telegram.org/api/channel).
+* [danog\MadelineProto\EventHandler\Channel\ChannelParticipant &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Channel/ChannelParticipant.html) - A participant has left, joined, was banned or admin'd in a [channel or supergroup](https://core.telegram.org/api/channel).
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Channel/ChannelParticipant.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Channel/ChannelParticipant.html#method-list)
 * [danog\MadelineProto\EventHandler\Channel\MessageForwards &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Channel/MessageForwards.html) - Indicates that the forward counter of a message in a channel has changed.

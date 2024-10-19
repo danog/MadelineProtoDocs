@@ -1,5 +1,5 @@
 ---
-title: "danog\\MadelineProto\\EventHandler\\Channel\\ChannelParticipant: A participant has left, joined, was banned or admined in a [channel or supergroup](https://core.telegram.org/api/channel)."
+title: "danog\\MadelineProto\\EventHandler\\Channel\\ChannelParticipant: A participant has left, joined, was banned or admin'd in a [channel or supergroup](https://core.telegram.org/api/channel)."
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
@@ -11,7 +11,7 @@ parent: "MadelineProto API"
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-A participant has left, joined, was banned or admined in a [channel or supergroup](https://core.telegram.org/api/channel).  
+A participant has left, joined, was banned or admin'd in a [channel or supergroup](https://core.telegram.org/api/channel).  
 
 
 
