@@ -1,28 +1,26 @@
 ---
-title: "channels.getSponsoredMessages"
-description: "Get a list of sponsored messages"
+title: "messages.getSponsoredMessages"
+description: "messages.getSponsoredMessages parameters, return type and example"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
-redirect_from: /API_docs/methods/channels_getSponsoredMessages.html
+redirect_from: /API_docs/methods/messages_getSponsoredMessages.html
 ---
-# Method: channels.getSponsoredMessages
+# Method: messages.getSponsoredMessages
 [Back to methods index](index.html)
 
 
 
-Get a list of sponsored messages
-
 ### Parameters:
 
-| Name     |    Type       | Description | Required |
-|----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Peer | Optional|
+| Name     |    Type       | Required |
+|----------|---------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 
 
 ### Return type: [messages.SponsoredMessages](/API_docs/types/messages.SponsoredMessages.html)
 
-### Can bots use this method: **NO**
+### Can bots use this method: **YES**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
@@ -37,6 +35,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_SponsoredMessages = $MadelineProto->channels->getSponsoredMessages(channel: $InputChannel, );
+$messages_SponsoredMessages = $MadelineProto->messages->getSponsoredMessages(peer: $InputPeer, );
 ```
 

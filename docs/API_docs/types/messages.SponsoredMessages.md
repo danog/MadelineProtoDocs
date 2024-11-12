@@ -20,7 +20,7 @@ redirect_from: /API_docs/types/messages_SponsoredMessages.html
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->channels->getSponsoredMessages](/API_docs/methods/channels.getSponsoredMessages.html)  
+[$MadelineProto->messages->getSponsoredMessages](/API_docs/methods/messages.getSponsoredMessages.html)  
 
 
 

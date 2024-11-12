@@ -16,7 +16,7 @@ redirect_from: /API_docs/methods/stats_getBroadcastRevenueStats.html
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |dark|[Bool](/API_docs/types/Bool.html) | Optional|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 
 
 ### Return type: [stats.BroadcastRevenueStats](/API_docs/types/stats.BroadcastRevenueStats.html)
@@ -36,6 +36,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$stats_BroadcastRevenueStats = $MadelineProto->stats->getBroadcastRevenueStats(dark: $Bool, channel: $InputChannel, );
+$stats_BroadcastRevenueStats = $MadelineProto->stats->getBroadcastRevenueStats(dark: $Bool, peer: $InputPeer, );
 ```
 

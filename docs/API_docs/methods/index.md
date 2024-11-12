@@ -458,8 +458,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="phone.getGroupCallJoinAs.html" name="phone.getGroupCallJoinAs">Get a list of peers that can be used to join a group call, presenting yourself as a specific user/channel: phone.getGroupCallJoinAs</a>
 
-* <a href="channels.getSponsoredMessages.html" name="channels.getSponsoredMessages">Get a list of sponsored messages: channels.getSponsoredMessages</a>
-
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getWebMessage" name="getWebMessage">Get a message to show to the user when starting the bot: getWebMessage</a>
 
 * <a href="payments.getPaymentForm.html" name="payments.getPaymentForm">Get a payment form: payments.getPaymentForm</a>
@@ -814,8 +812,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="help.setBotUpdatesStatus.html" name="help.setBotUpdatesStatus">Informs the server about the number of pending bot updates if they haven't been processed for a long time; for bots only: help.setBotUpdatesStatus</a>
 
-* <a href="channels.clickSponsoredMessage.html" name="channels.clickSponsoredMessage">Informs the server that the user has either:: channels.clickSponsoredMessage</a>
-
 * <a href="account.initTakeoutSession.html" name="account.initTakeoutSession">Initialize a takeout session, see here » for more info: account.initTakeoutSession</a>
 
 * <a href="initConnection.html" name="initConnection">Initialize connection: initConnection</a>
@@ -907,8 +903,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#markdownToMessageEntities" name="markdownToMessageEntities">Manually convert markdown to a message and a set of entities: markdownToMessageEntities</a>
 
 * <a href="messages.markDialogUnread.html" name="messages.markDialogUnread">Manually mark dialog as unread: messages.markDialogUnread</a>
-
-* <a href="channels.viewSponsoredMessage.html" name="channels.viewSponsoredMessage">Mark a specific sponsored message as read: channels.viewSponsoredMessage</a>
 
 * <a href="messages.readDiscussion.html" name="messages.readDiscussion">Mark a thread as read: messages.readDiscussion</a>
 
@@ -1636,8 +1630,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="bots.reorderPreviewMedias.html" name="bots.reorderPreviewMedias">bots.reorderPreviewMedias</a>
 
-* <a href="channels.reportSponsoredMessage.html" name="channels.reportSponsoredMessage">channels.reportSponsoredMessage</a>
-
 * <a href="channels.restrictSponsoredMessages.html" name="channels.restrictSponsoredMessages">channels.restrictSponsoredMessages</a>
 
 * <a href="channels.searchPosts.html" name="channels.searchPosts">channels.searchPosts</a>
@@ -1659,6 +1651,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="invokeWithGooglePlayIntegrity.html" name="invokeWithGooglePlayIntegrity">invokeWithGooglePlayIntegrity</a>
 
 * <a href="messages.checkQuickReplyShortcut.html" name="messages.checkQuickReplyShortcut">messages.checkQuickReplyShortcut</a>
+
+* <a href="messages.clickSponsoredMessage.html" name="messages.clickSponsoredMessage">messages.clickSponsoredMessage</a>
 
 * <a href="messages.deleteFactCheck.html" name="messages.deleteFactCheck">messages.deleteFactCheck</a>
 
@@ -1690,7 +1684,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getSavedReactionTags.html" name="messages.getSavedReactionTags">messages.getSavedReactionTags</a>
 
+* <a href="messages.getSponsoredMessages.html" name="messages.getSponsoredMessages">messages.getSponsoredMessages</a>
+
 * <a href="messages.reorderQuickReplies.html" name="messages.reorderQuickReplies">messages.reorderQuickReplies</a>
+
+* <a href="messages.reportSponsoredMessage.html" name="messages.reportSponsoredMessage">messages.reportSponsoredMessage</a>
 
 * <a href="messages.requestMainWebView.html" name="messages.requestMainWebView">messages.requestMainWebView</a>
 
@@ -1703,6 +1701,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages.togglePaidReactionPrivacy.html" name="messages.togglePaidReactionPrivacy">messages.togglePaidReactionPrivacy</a>
 
 * <a href="messages.updateSavedReactionTag.html" name="messages.updateSavedReactionTag">messages.updateSavedReactionTag</a>
+
+* <a href="messages.viewSponsoredMessage.html" name="messages.viewSponsoredMessage">messages.viewSponsoredMessage</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleDecode" name="rleDecode">null-byte RLE decode: rleDecode</a>
 

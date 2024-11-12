@@ -15,7 +15,7 @@ redirect_from: /API_docs/methods/stats_getBroadcastRevenueWithdrawalUrl.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 |password|[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html) | Yes|
 
 
@@ -36,6 +36,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$stats_BroadcastRevenueWithdrawalUrl = $MadelineProto->stats->getBroadcastRevenueWithdrawalUrl(channel: $InputChannel, password: $InputCheckPasswordSRP, );
+$stats_BroadcastRevenueWithdrawalUrl = $MadelineProto->stats->getBroadcastRevenueWithdrawalUrl(peer: $InputPeer, password: $InputCheckPasswordSRP, );
 ```
 

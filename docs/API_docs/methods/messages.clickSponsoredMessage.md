@@ -1,12 +1,12 @@
 ---
-title: "stats.getBroadcastRevenueTransactions"
-description: "stats.getBroadcastRevenueTransactions parameters, return type and example"
+title: "messages.clickSponsoredMessage"
+description: "messages.clickSponsoredMessage parameters, return type and example"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
-redirect_from: /API_docs/methods/stats_getBroadcastRevenueTransactions.html
+redirect_from: /API_docs/methods/messages_clickSponsoredMessage.html
 ---
-# Method: stats.getBroadcastRevenueTransactions
+# Method: messages.clickSponsoredMessage
 [Back to methods index](index.html)
 
 
@@ -15,14 +15,14 @@ redirect_from: /API_docs/methods/stats_getBroadcastRevenueTransactions.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
+|media|[Bool](/API_docs/types/Bool.html) | Optional|
+|fullscreen|[Bool](/API_docs/types/Bool.html) | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|offset|[int](/API_docs/types/int.html) | Optional|
-|limit|[int](/API_docs/types/int.html) | Optional|
 
 
-### Return type: [stats.BroadcastRevenueTransactions](/API_docs/types/stats.BroadcastRevenueTransactions.html)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
-### Can bots use this method: **NO**
+### Can bots use this method: **YES**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$stats_BroadcastRevenueTransactions = $MadelineProto->stats->getBroadcastRevenueTransactions(peer: $InputPeer, offset: $int, limit: $int, );
+$Bool = $MadelineProto->messages->clickSponsoredMessage(media: $Bool, fullscreen: $Bool, peer: $InputPeer, );
 ```
 

@@ -14,12 +14,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |limited|[Bool](/API_docs/types/Bool.html) | Optional|
+|sold\_out|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[long](/API_docs/types/long.html) | Yes|
 |sticker|[Document](/API_docs/types/Document.html) | Optional|
 |stars|[long](/API_docs/types/long.html) | Yes|
 |availability\_remains|[int](/API_docs/types/int.html) | Optional|
 |availability\_total|[int](/API_docs/types/int.html) | Optional|
 |convert\_stars|[long](/API_docs/types/long.html) | Yes|
+|first\_sale\_date|[int](/API_docs/types/int.html) | Optional|
+|last\_sale\_date|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -29,5 +32,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$starGift = ['_' => 'starGift', 'limited' => Bool, 'id' => long, 'sticker' => Document, 'stars' => long, 'availability_remains' => int, 'availability_total' => int, 'convert_stars' => long];
+$starGift = ['_' => 'starGift', 'limited' => Bool, 'sold_out' => Bool, 'id' => long, 'sticker' => Document, 'stars' => long, 'availability_remains' => int, 'availability_total' => int, 'convert_stars' => long, 'first_sale_date' => int, 'last_sale_date' => int];
 ```  

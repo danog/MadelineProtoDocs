@@ -17,6 +17,7 @@ redirect_from: /API_docs/methods/stories_searchPosts.html
 |----------|---------------|----------|
 |hashtag|[string](/API_docs/types/string.html) | Optional|
 |area|[MediaArea](/API_docs/types/MediaArea.html) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 |offset|[string](/API_docs/types/string.html) | Optional|
 |limit|[int](/API_docs/types/int.html) | Optional|
 
@@ -38,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$stories_FoundStories = $MadelineProto->stories->searchPosts(hashtag: 'string', area: $MediaArea, offset: 'string', limit: $int, );
+$stories_FoundStories = $MadelineProto->stories->searchPosts(hashtag: 'string', area: $MediaArea, peer: $InputPeer, offset: 'string', limit: $int, );
 ```
 

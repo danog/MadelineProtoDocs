@@ -25,6 +25,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [starsTransactionPeerAds](/API_docs/constructors/starsTransactionPeerAds.html)  
 
+[starsTransactionPeerAPI](/API_docs/constructors/starsTransactionPeerAPI.html)  
+
 
 
 ### Methods that return an object of this type (methods):
