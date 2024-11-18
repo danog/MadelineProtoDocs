@@ -24,7 +24,7 @@ Represents a query sent by the user by clicking on a "Play game" button in a cha
 * `$messageId`: `int` Message ID
 
 ## Method list:
-* [`answer(string $message, bool $alert = false, (string|null) $url = NULL, int $cacheTime = 300): bool`](#answer)
+* [`answer(?string $message = NULL, bool $alert = false, (string|null) $url = NULL, int $cacheTime = 300): bool`](#answer)
 * [`editText(string $message, (array|null) $replyMarkup = NULL, ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, bool $noWebpage = false, (int|null) $scheduleDate = NULL): \danog\MadelineProto\EventHandler\Message`](#editText)
 * [`editReplyMarkup(array $replyMarkup): \danog\MadelineProto\EventHandler\Message`](#editReplyMarkup)
 * [`delete(boolean $revoke = true): void`](#delete)
@@ -33,14 +33,14 @@ Represents a query sent by the user by clicking on a "Play game" button in a cha
 * [`report(ReportReason $reason, string $message): bool`](#report)
 
 ## Methods:
-### <a name="answer"></a> `answer(string $message, bool $alert = false, (string|null) $url = NULL, int $cacheTime = 300): bool`
+### <a name="answer"></a> `answer(?string $message = NULL, bool $alert = false, (string|null) $url = NULL, int $cacheTime = 300): bool`
 
 
 
 
 Parameters:
 
-* `$message`: `string` Popup to show  
+* `$message`: `?string` Popup to show  
 * `$alert`: `bool` Whether to show the message as a popup instead of a toast notification  
 * `$url`: `(string|null)` URL to open  
 * `$cacheTime`: `int` Cache validity (default set to 5 min based on telegram official docs ...)  

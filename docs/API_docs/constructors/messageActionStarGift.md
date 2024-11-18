@@ -18,7 +18,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |converted|[Bool](/API_docs/types/Bool.html) | Optional|
 |gift|[StarGift](/API_docs/types/StarGift.html) | Yes|
 |message|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Optional|
-|convert\_stars|[long](/API_docs/types/long.html) | Yes|
+|convert\_stars|[long](/API_docs/types/long.html) | Optional|
 
 
 

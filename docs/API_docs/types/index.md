@@ -45,6 +45,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [BotApp](/API_docs/types/BotApp.html)<a name="BotApp"></a>  
 
+[BotAppSettings](/API_docs/types/BotAppSettings.html)<a name="BotAppSettings"></a>  
+
 [BotBusinessConnection](/API_docs/types/BotBusinessConnection.html)<a name="BotBusinessConnection"></a>  
 
 [BotCommand](/API_docs/types/BotCommand.html)<a name="BotCommand"></a>  
@@ -853,6 +855,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messages.BotCallbackAnswer](/API_docs/types/messages.BotCallbackAnswer.html)<a name="messages.BotCallbackAnswer"></a>  
 
+[messages.BotPreparedInlineMessage](/API_docs/types/messages.BotPreparedInlineMessage.html)<a name="messages.BotPreparedInlineMessage"></a>  
+
 [messages.BotResults](/API_docs/types/messages.BotResults.html)<a name="messages.BotResults"></a>  
 
 [messages.ChatAdminsWithInvites](/API_docs/types/messages.ChatAdminsWithInvites.html)<a name="messages.ChatAdminsWithInvites"></a>  
@@ -910,6 +914,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [messages.PeerDialogs](/API_docs/types/messages.PeerDialogs.html)<a name="messages.PeerDialogs"></a>  
 
 [messages.PeerSettings](/API_docs/types/messages.PeerSettings.html)<a name="messages.PeerSettings"></a>  
+
+[messages.PreparedInlineMessage](/API_docs/types/messages.PreparedInlineMessage.html)<a name="messages.PreparedInlineMessage"></a>  
 
 [messages.QuickReplies](/API_docs/types/messages.QuickReplies.html)<a name="messages.QuickReplies"></a>  
 

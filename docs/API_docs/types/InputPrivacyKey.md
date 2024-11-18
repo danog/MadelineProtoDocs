@@ -33,6 +33,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [inputPrivacyKeyBirthday](/API_docs/constructors/inputPrivacyKeyBirthday.html)  
 
+[inputPrivacyKeyStarGiftsAutoSave](/API_docs/constructors/inputPrivacyKeyStarGiftsAutoSave.html)  
+
 
 
 ### Methods that return an object of this type (methods):

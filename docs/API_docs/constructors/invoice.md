@@ -29,6 +29,7 @@ Invoice
 |max\_tip\_amount|[long](/API_docs/types/long.html) | Optional|The maximum accepted amount for tips in the smallest units of the currency (integer, not float/double). For example, for a price of `US$ 1.45` pass `amount = 145`. See the exp parameter in [currencies.json](https://core.telegram.org/bots/payments/currencies.json), it shows the number of digits past the decimal point for each currency (2 for the majority of currencies).|
 |suggested\_tip\_amounts|Array of [long](/API_docs/types/long.html) | Optional|A vector of suggested amounts of tips in the *smallest units* of the currency (integer, not float/double). At most 4 suggested tip amounts can be specified. The suggested tip amounts must be positive, passed in a strictly increased order and must not exceed `max_tip_amount`.|
 |terms\_url|[string](/API_docs/types/string.html) | Optional|Terms of service URL|
+|subscription\_period|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -38,5 +39,5 @@ Invoice
 ### Example:
 
 ```
-$invoice = ['_' => 'invoice', 'test' => Bool, 'name_requested' => Bool, 'phone_requested' => Bool, 'email_requested' => Bool, 'shipping_address_requested' => Bool, 'flexible' => Bool, 'phone_to_provider' => Bool, 'email_to_provider' => Bool, 'recurring' => Bool, 'currency' => 'string', 'prices' => [LabeledPrice, LabeledPrice], 'max_tip_amount' => long, 'suggested_tip_amounts' => [long, long], 'terms_url' => 'string'];
+$invoice = ['_' => 'invoice', 'test' => Bool, 'name_requested' => Bool, 'phone_requested' => Bool, 'email_requested' => Bool, 'shipping_address_requested' => Bool, 'flexible' => Bool, 'phone_to_provider' => Bool, 'email_to_provider' => Bool, 'recurring' => Bool, 'currency' => 'string', 'prices' => [LabeledPrice, LabeledPrice], 'max_tip_amount' => long, 'suggested_tip_amounts' => [long, long], 'terms_url' => 'string', 'subscription_period' => int];
 ```  

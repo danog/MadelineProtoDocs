@@ -1618,6 +1618,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="bots.addPreviewMedia.html" name="bots.addPreviewMedia">bots.addPreviewMedia</a>
 
+* <a href="bots.checkDownloadFileParams.html" name="bots.checkDownloadFileParams">bots.checkDownloadFileParams</a>
+
 * <a href="bots.deletePreviewMedia.html" name="bots.deletePreviewMedia">bots.deletePreviewMedia</a>
 
 * <a href="bots.editPreviewMedia.html" name="bots.editPreviewMedia">bots.editPreviewMedia</a>
@@ -1629,6 +1631,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="bots.getPreviewMedias.html" name="bots.getPreviewMedias">bots.getPreviewMedias</a>
 
 * <a href="bots.reorderPreviewMedias.html" name="bots.reorderPreviewMedias">bots.reorderPreviewMedias</a>
+
+* <a href="bots.toggleUserEmojiStatusPermission.html" name="bots.toggleUserEmojiStatusPermission">bots.toggleUserEmojiStatusPermission</a>
+
+* <a href="bots.updateUserEmojiStatus.html" name="bots.updateUserEmojiStatus">bots.updateUserEmojiStatus</a>
 
 * <a href="channels.restrictSponsoredMessages.html" name="channels.restrictSponsoredMessages">channels.restrictSponsoredMessages</a>
 
@@ -1678,6 +1684,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getPaidReactionPrivacy.html" name="messages.getPaidReactionPrivacy">messages.getPaidReactionPrivacy</a>
 
+* <a href="messages.getPreparedInlineMessage.html" name="messages.getPreparedInlineMessage">messages.getPreparedInlineMessage</a>
+
 * <a href="messages.getQuickReplies.html" name="messages.getQuickReplies">messages.getQuickReplies</a>
 
 * <a href="messages.getQuickReplyMessages.html" name="messages.getQuickReplyMessages">messages.getQuickReplyMessages</a>
@@ -1691,6 +1699,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages.reportSponsoredMessage.html" name="messages.reportSponsoredMessage">messages.reportSponsoredMessage</a>
 
 * <a href="messages.requestMainWebView.html" name="messages.requestMainWebView">messages.requestMainWebView</a>
+
+* <a href="messages.savePreparedInlineMessage.html" name="messages.savePreparedInlineMessage">messages.savePreparedInlineMessage</a>
 
 * <a href="messages.sendPaidReaction.html" name="messages.sendPaidReaction">messages.sendPaidReaction</a>
 
@@ -1707,6 +1717,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleDecode" name="rleDecode">null-byte RLE decode: rleDecode</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleEncode" name="rleEncode">null-byte RLE encode: rleEncode</a>
+
+* <a href="payments.botCancelStarsSubscription.html" name="payments.botCancelStarsSubscription">payments.botCancelStarsSubscription</a>
 
 * <a href="payments.changeStarsSubscription.html" name="payments.changeStarsSubscription">payments.changeStarsSubscription</a>
 

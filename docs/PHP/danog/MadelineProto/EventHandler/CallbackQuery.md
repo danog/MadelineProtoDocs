@@ -21,17 +21,17 @@ Represents a query sent by the user by clicking on a button.
 * `$chatInstance`: `int` Global identifier, uniquely corresponding to the chat to which the message with the callback button was sent. Useful for high scores in games.
 
 ## Method list:
-* [`answer(string $message, bool $alert = false, (string|null) $url = NULL, int $cacheTime = 300): bool`](#answer)
+* [`answer(?string $message = NULL, bool $alert = false, (string|null) $url = NULL, int $cacheTime = 300): bool`](#answer)
 
 ## Methods:
-### <a name="answer"></a> `answer(string $message, bool $alert = false, (string|null) $url = NULL, int $cacheTime = 300): bool`
+### <a name="answer"></a> `answer(?string $message = NULL, bool $alert = false, (string|null) $url = NULL, int $cacheTime = 300): bool`
 
 
 
 
 Parameters:
 
-* `$message`: `string` Popup to show  
+* `$message`: `?string` Popup to show  
 * `$alert`: `bool` Whether to show the message as a popup instead of a toast notification  
 * `$url`: `(string|null)` URL to open  
 * `$cacheTime`: `int` Cache validity (default set to 5 min based on telegram official docs ...)  

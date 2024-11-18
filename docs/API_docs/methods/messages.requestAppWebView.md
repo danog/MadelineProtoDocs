@@ -21,6 +21,7 @@ After calling this method, until the user closes the webview, [messages.prolongW
 |----------|---------------|-------------|----------|
 |write\_allowed|[Bool](/API_docs/types/Bool.html) | Set this flag if the bot is asking permission to send messages to the user as specified in the [direct Mini App deep link](https://core.telegram.org/api/links#direct-mini-app-links) docs, and the user agreed. | Optional|
 |compact|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|fullscreen|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | If the client has clicked on the link in a Telegram chat, pass the chat's peer information; otherwise pass the bot's peer information, instead. | Optional|
 |app|[InputBotApp](/API_docs/types/InputBotApp.html) | The app obtained by invoking [messages.getBotApp](../methods/messages.getBotApp.html) as specified in the [direct Mini App deep link](https://core.telegram.org/api/links#direct-mini-app-links) docs. | Yes|
 |start\_param|[string](/API_docs/types/string.html) | If the `startapp` query string parameter is present in the [direct Mini App deep link](https://core.telegram.org/api/links#direct-mini-app-links), pass it to `start_param`. | Optional|
@@ -45,6 +46,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$WebViewResult = $MadelineProto->messages->requestAppWebView(write_allowed: $Bool, compact: $Bool, peer: $InputPeer, app: $InputBotApp, start_param: 'string', theme_params: $DataJSON, platform: 'string', );
+$WebViewResult = $MadelineProto->messages->requestAppWebView(write_allowed: $Bool, compact: $Bool, fullscreen: $Bool, peer: $InputPeer, app: $InputBotApp, start_param: 'string', theme_params: $DataJSON, platform: 'string', );
 ```
 

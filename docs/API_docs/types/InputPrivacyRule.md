@@ -31,6 +31,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [inputPrivacyValueAllowPremium](/API_docs/constructors/inputPrivacyValueAllowPremium.html)  
 
+[inputPrivacyValueAllowBots](/API_docs/constructors/inputPrivacyValueAllowBots.html)  
+
+[inputPrivacyValueDisallowBots](/API_docs/constructors/inputPrivacyValueDisallowBots.html)  
+
 
 
 ### Methods that return an object of this type (methods):
