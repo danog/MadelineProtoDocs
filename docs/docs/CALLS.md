@@ -38,7 +38,11 @@ You can play audio files of any format as follows:
 
 ## Playing audio files
 
-You can play audio files of any format:
+To play audio files of any format, install `ffmpeg`, `libopus` and enable the PHP `ffi` extension.  
+
+If you can't do the above (for example on webhosts), **no problem**: simply pre-convert the files to a special format using [@libtgvoipbot, see here &raquo;](#webhost-support) for more info.  
+
+You can play audio files:
 
 ```php
 <?php
