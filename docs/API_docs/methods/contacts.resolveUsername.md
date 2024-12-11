@@ -18,6 +18,7 @@ You cannot use this method directly, use the resolveUsername, getPwrChat, getInf
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |username|[string](/API_docs/types/string.html) | @username to resolve | Optional|
+|referer|[string](/API_docs/types/string.html) |  | Optional|
 
 
 ### Return type: [contacts.ResolvedPeer](/API_docs/types/contacts.ResolvedPeer.html)
@@ -37,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$contacts_ResolvedPeer = $MadelineProto->contacts->resolveUsername(username: 'string', );
+$contacts_ResolvedPeer = $MadelineProto->contacts->resolveUsername(username: 'string', referer: 'string', );
 ```
 

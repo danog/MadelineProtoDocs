@@ -135,6 +135,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [ConnectedBot](/API_docs/types/ConnectedBot.html)<a name="ConnectedBot"></a>  
 
+[ConnectedBotStarRef](/API_docs/types/ConnectedBotStarRef.html)<a name="ConnectedBotStarRef"></a>  
+
 [Contact](/API_docs/types/Contact.html)<a name="Contact"></a>  
 
 [ContactBirthday](/API_docs/types/ContactBirthday.html)<a name="ContactBirthday"></a>  
@@ -583,6 +585,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [StarGift](/API_docs/types/StarGift.html)<a name="StarGift"></a>  
 
+[StarRefProgram](/API_docs/types/StarRefProgram.html)<a name="StarRefProgram"></a>  
+
+[StarsAmount](/API_docs/types/StarsAmount.html)<a name="StarsAmount"></a>  
+
 [StarsGiftOption](/API_docs/types/StarsGiftOption.html)<a name="StarsGiftOption"></a>  
 
 [StarsGiveawayOption](/API_docs/types/StarsGiveawayOption.html)<a name="StarsGiveawayOption"></a>  
@@ -891,6 +897,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messages.FoundStickerSets](/API_docs/types/messages.FoundStickerSets.html)<a name="messages.FoundStickerSets"></a>  
 
+[messages.FoundStickers](/API_docs/types/messages.FoundStickers.html)<a name="messages.FoundStickers"></a>  
+
 [messages.HighScores](/API_docs/types/messages.HighScores.html)<a name="messages.HighScores"></a>  
 
 [messages.HistoryImport](/API_docs/types/messages.HistoryImport.html)<a name="messages.HistoryImport"></a>  
@@ -957,6 +965,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [payments.CheckedGiftCode](/API_docs/types/payments.CheckedGiftCode.html)<a name="payments.CheckedGiftCode"></a>  
 
+[payments.ConnectedStarRefBots](/API_docs/types/payments.ConnectedStarRefBots.html)<a name="payments.ConnectedStarRefBots"></a>  
+
 [payments.ExportedInvoice](/API_docs/types/payments.ExportedInvoice.html)<a name="payments.ExportedInvoice"></a>  
 
 [payments.GiveawayInfo](/API_docs/types/payments.GiveawayInfo.html)<a name="payments.GiveawayInfo"></a>  
@@ -978,6 +988,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [payments.StarsRevenueWithdrawalUrl](/API_docs/types/payments.StarsRevenueWithdrawalUrl.html)<a name="payments.StarsRevenueWithdrawalUrl"></a>  
 
 [payments.StarsStatus](/API_docs/types/payments.StarsStatus.html)<a name="payments.StarsStatus"></a>  
+
+[payments.SuggestedStarRefBots](/API_docs/types/payments.SuggestedStarRefBots.html)<a name="payments.SuggestedStarRefBots"></a>  
 
 [payments.UserStarGifts](/API_docs/types/payments.UserStarGifts.html)<a name="payments.UserStarGifts"></a>  
 

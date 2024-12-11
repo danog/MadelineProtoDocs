@@ -605,6 +605,10 @@ $MadelineProto->[bots->editPreviewMedia](/API_docs/methods/bots.editPreviewMedia
 
 ***
 <br><br>
+$MadelineProto->[bots->getAdminedBots](/API_docs/methods/bots.getAdminedBots.html)(\[\]) === [$Vector\_of\_User](/API_docs/types/User.html)<a name="bots.getAdminedBots"></a>  
+
+***
+<br><br>
 $MadelineProto->[bots->getBotCommands](/API_docs/methods/bots.getBotCommands.html)(\[scope: $[BotCommandScope](/API_docs/types/BotCommandScope.html), lang_code: $[string](/API_docs/types/string.html), \]) === [$Vector\_of\_BotCommand](/API_docs/types/BotCommand.html)<a name="bots.getBotCommands"></a>  
 
 ***
@@ -674,6 +678,10 @@ $MadelineProto->[bots->toggleUserEmojiStatusPermission](/API_docs/methods/bots.t
 ***
 <br><br>
 $MadelineProto->[bots->toggleUsername](/API_docs/methods/bots.toggleUsername.html)(\[bot: $[InputUser](/API_docs/types/InputUser.html), username: $[string](/API_docs/types/string.html), active: $[Bool](/API_docs/types/Bool.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="bots.toggleUsername"></a>  
+
+***
+<br><br>
+$MadelineProto->[bots->updateStarRefProgram](/API_docs/methods/bots.updateStarRefProgram.html)(\[bot: $[InputUser](/API_docs/types/InputUser.html), commission_permille: $[int](/API_docs/types/int.html), duration_months: $[int](/API_docs/types/int.html), \]) === [$StarRefProgram](/API_docs/types/StarRefProgram.html)<a name="bots.updateStarRefProgram"></a>  
 
 ***
 <br><br>
@@ -1053,7 +1061,7 @@ $MadelineProto->[contacts->resolvePhone](/API_docs/methods/contacts.resolvePhone
 
 ***
 <br><br>
-$MadelineProto->[contacts->resolveUsername](/API_docs/methods/contacts.resolveUsername.html)(\[username: $[string](/API_docs/types/string.html), \]) === [$contacts.ResolvedPeer](/API_docs/types/contacts.ResolvedPeer.html)<a name="contacts.resolveUsername"></a>  
+$MadelineProto->[contacts->resolveUsername](/API_docs/methods/contacts.resolveUsername.html)(\[username: $[string](/API_docs/types/string.html), referer: $[string](/API_docs/types/string.html), \]) === [$contacts.ResolvedPeer](/API_docs/types/contacts.ResolvedPeer.html)<a name="contacts.resolveUsername"></a>  
 
 ***
 <br><br>
@@ -1925,6 +1933,10 @@ $MadelineProto->[messages->searchStickerSets](/API_docs/methods/messages.searchS
 
 ***
 <br><br>
+$MadelineProto->[messages->searchStickers](/API_docs/methods/messages.searchStickers.html)(\[emojis: $[Bool](/API_docs/types/Bool.html), q: $[string](/API_docs/types/string.html), emoticon: $[string](/API_docs/types/string.html), lang_code: \[$[string](/API_docs/types/string.html)\], offset: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), hash: $[long](/API_docs/types/long.html), \]) === [$messages.FoundStickers](/API_docs/types/messages.FoundStickers.html)<a name="messages.searchStickers"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->sendBotRequestedPeer](/API_docs/methods/messages.sendBotRequestedPeer.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), msg_id: $[int](/API_docs/types/int.html), button_id: $[int](/API_docs/types/int.html), requested_peers: \[$[InputPeer](/API_docs/types/InputPeer.html)\], \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.sendBotRequestedPeer"></a>  
 
 ***
@@ -2145,7 +2157,7 @@ $MadelineProto->[payments->assignPlayMarketTransaction](/API_docs/methods/paymen
 
 ***
 <br><br>
-$MadelineProto->[payments->botCancelStarsSubscription](/API_docs/methods/payments.botCancelStarsSubscription.html)(\[restore: $[Bool](/API_docs/types/Bool.html), user_id: $[InputUser](/API_docs/types/InputUser.html), invoice_slug: $[string](/API_docs/types/string.html), charge_id: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.botCancelStarsSubscription"></a>  
+$MadelineProto->[payments->botCancelStarsSubscription](/API_docs/methods/payments.botCancelStarsSubscription.html)(\[restore: $[Bool](/API_docs/types/Bool.html), user_id: $[InputUser](/API_docs/types/InputUser.html), charge_id: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.botCancelStarsSubscription"></a>  
 
 ***
 <br><br>
@@ -2165,7 +2177,15 @@ $MadelineProto->[payments->clearSavedInfo](/API_docs/methods/payments.clearSaved
 
 ***
 <br><br>
+$MadelineProto->[payments->connectStarRefBot](/API_docs/methods/payments.connectStarRefBot.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), bot: $[InputUser](/API_docs/types/InputUser.html), \]) === [$payments.ConnectedStarRefBots](/API_docs/types/payments.ConnectedStarRefBots.html)<a name="payments.connectStarRefBot"></a>  
+
+***
+<br><br>
 $MadelineProto->[payments->convertStarGift](/API_docs/methods/payments.convertStarGift.html)(\[user_id: $[InputUser](/API_docs/types/InputUser.html), msg_id: $[int](/API_docs/types/int.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.convertStarGift"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->editConnectedStarRefBot](/API_docs/methods/payments.editConnectedStarRefBot.html)(\[revoked: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), link: $[string](/API_docs/types/string.html), \]) === [$payments.ConnectedStarRefBots](/API_docs/types/payments.ConnectedStarRefBots.html)<a name="payments.editConnectedStarRefBot"></a>  
 
 ***
 <br><br>
@@ -2178,6 +2198,14 @@ $MadelineProto->[payments->fulfillStarsSubscription](/API_docs/methods/payments.
 ***
 <br><br>
 $MadelineProto->[payments->getBankCardData](/API_docs/methods/payments.getBankCardData.html)(\[number: $[string](/API_docs/types/string.html), \]) === [$payments.BankCardData](/API_docs/types/payments.BankCardData.html)<a name="payments.getBankCardData"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->getConnectedStarRefBot](/API_docs/methods/payments.getConnectedStarRefBot.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), bot: $[InputUser](/API_docs/types/InputUser.html), \]) === [$payments.ConnectedStarRefBots](/API_docs/types/payments.ConnectedStarRefBots.html)<a name="payments.getConnectedStarRefBot"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->getConnectedStarRefBots](/API_docs/methods/payments.getConnectedStarRefBots.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), offset_date: $[int](/API_docs/types/int.html), offset_link: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$payments.ConnectedStarRefBots](/API_docs/types/payments.ConnectedStarRefBots.html)<a name="payments.getConnectedStarRefBots"></a>  
 
 ***
 <br><br>
@@ -2242,6 +2270,10 @@ $MadelineProto->[payments->getStarsTransactions](/API_docs/methods/payments.getS
 ***
 <br><br>
 $MadelineProto->[payments->getStarsTransactionsByID](/API_docs/methods/payments.getStarsTransactionsByID.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), id: \[$[InputStarsTransaction](/API_docs/types/InputStarsTransaction.html)\], \]) === [$payments.StarsStatus](/API_docs/types/payments.StarsStatus.html)<a name="payments.getStarsTransactionsByID"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->getSuggestedStarRefBots](/API_docs/methods/payments.getSuggestedStarRefBots.html)(\[order_by_revenue: $[Bool](/API_docs/types/Bool.html), order_by_date: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$payments.SuggestedStarRefBots](/API_docs/types/payments.SuggestedStarRefBots.html)<a name="payments.getSuggestedStarRefBots"></a>  
 
 ***
 <br><br>

@@ -23,6 +23,7 @@ A user just sent a payment to me (a bot)
 |info|[PaymentRequestedInfo](/API_docs/types/PaymentRequestedInfo.html) | Optional|Order info provided by the user|
 |shipping\_option\_id|[string](/API_docs/types/string.html) | Optional|Identifier of the shipping option chosen by the user|
 |charge|[PaymentCharge](/API_docs/types/PaymentCharge.html) | Yes|Provider payment identifier|
+|subscription\_until\_date|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -32,5 +33,5 @@ A user just sent a payment to me (a bot)
 ### Example:
 
 ```
-$messageActionPaymentSentMe = ['_' => 'messageActionPaymentSentMe', 'recurring_init' => Bool, 'recurring_used' => Bool, 'currency' => 'string', 'total_amount' => long, 'payload' => 'bytes', 'info' => PaymentRequestedInfo, 'shipping_option_id' => 'string', 'charge' => PaymentCharge];
+$messageActionPaymentSentMe = ['_' => 'messageActionPaymentSentMe', 'recurring_init' => Bool, 'recurring_used' => Bool, 'currency' => 'string', 'total_amount' => long, 'payload' => 'bytes', 'info' => PaymentRequestedInfo, 'shipping_option_id' => 'string', 'charge' => PaymentCharge, 'subscription_until_date' => int];
 ```  

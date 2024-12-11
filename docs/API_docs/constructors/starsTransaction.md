@@ -19,7 +19,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |gift|[Bool](/API_docs/types/Bool.html) | Optional|
 |reaction|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[string](/API_docs/types/string.html) | Yes|
-|stars|[long](/API_docs/types/long.html) | Yes|
+|stars|[StarsAmount](/API_docs/types/StarsAmount.html) | Yes|
 |date|[int](/API_docs/types/int.html) | Yes|
 |peer|[StarsTransactionPeer](/API_docs/types/StarsTransactionPeer.html) | Yes|
 |title|[string](/API_docs/types/string.html) | Optional|
@@ -34,6 +34,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |giveaway\_post\_id|[int](/API_docs/types/int.html) | Optional|
 |stargift|[StarGift](/API_docs/types/StarGift.html) | Optional|
 |floodskip\_number|[int](/API_docs/types/int.html) | Optional|
+|starref\_commission\_permille|[int](/API_docs/types/int.html) | Optional|
+|starref\_peer|[Peer](/API_docs/types/Peer.html) | Optional|
+|starref\_amount|[StarsAmount](/API_docs/types/StarsAmount.html) | Optional|
 
 
 
@@ -43,5 +46,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$starsTransaction = ['_' => 'starsTransaction', 'refund' => Bool, 'pending' => Bool, 'failed' => Bool, 'gift' => Bool, 'reaction' => Bool, 'id' => 'string', 'stars' => long, 'date' => int, 'peer' => StarsTransactionPeer, 'title' => 'string', 'description' => 'string', 'photo' => WebDocument, 'transaction_date' => int, 'transaction_url' => 'string', 'bot_payload' => 'bytes', 'msg_id' => int, 'extended_media' => [MessageMedia, MessageMedia], 'subscription_period' => int, 'giveaway_post_id' => int, 'stargift' => StarGift, 'floodskip_number' => int];
+$starsTransaction = ['_' => 'starsTransaction', 'refund' => Bool, 'pending' => Bool, 'failed' => Bool, 'gift' => Bool, 'reaction' => Bool, 'id' => 'string', 'stars' => StarsAmount, 'date' => int, 'peer' => StarsTransactionPeer, 'title' => 'string', 'description' => 'string', 'photo' => WebDocument, 'transaction_date' => int, 'transaction_url' => 'string', 'bot_payload' => 'bytes', 'msg_id' => int, 'extended_media' => [MessageMedia, MessageMedia], 'subscription_period' => int, 'giveaway_post_id' => int, 'stargift' => StarGift, 'floodskip_number' => int, 'starref_commission_permille' => int, 'starref_peer' => Peer, 'starref_amount' => StarsAmount];
 ```  

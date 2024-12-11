@@ -14,7 +14,7 @@ redirect_from: /API_docs/constructors/payments_starsStatus.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|balance|[long](/API_docs/types/long.html) | Yes|
+|balance|[StarsAmount](/API_docs/types/StarsAmount.html) | Yes|
 |subscriptions|Array of [StarsSubscription](/API_docs/types/StarsSubscription.html) | Optional|
 |subscriptions\_next\_offset|[string](/API_docs/types/string.html) | Optional|
 |subscriptions\_missing\_balance|[long](/API_docs/types/long.html) | Optional|
@@ -31,5 +31,5 @@ redirect_from: /API_docs/constructors/payments_starsStatus.html
 ### Example:
 
 ```
-$payments_starsStatus = ['_' => 'payments.starsStatus', 'balance' => long, 'subscriptions' => [StarsSubscription, StarsSubscription], 'subscriptions_next_offset' => 'string', 'subscriptions_missing_balance' => long, 'history' => [StarsTransaction, StarsTransaction], 'next_offset' => 'string', 'chats' => [Chat, Chat], 'users' => [User, User]];
+$payments_starsStatus = ['_' => 'payments.starsStatus', 'balance' => StarsAmount, 'subscriptions' => [StarsSubscription, StarsSubscription], 'subscriptions_next_offset' => 'string', 'subscriptions_missing_balance' => long, 'history' => [StarsTransaction, StarsTransaction], 'next_offset' => 'string', 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

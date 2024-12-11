@@ -13,7 +13,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|balance|[long](/API_docs/types/long.html) | Yes|
+|balance|[StarsAmount](/API_docs/types/StarsAmount.html) | Yes|
 
 
 
@@ -23,5 +23,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$updateStarsBalance = ['_' => 'updateStarsBalance', 'balance' => long];
+$updateStarsBalance = ['_' => 'updateStarsBalance', 'balance' => StarsAmount];
 ```  

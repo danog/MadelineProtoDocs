@@ -1,12 +1,12 @@
 ---
-title: "payments.botCancelStarsSubscription"
-description: "payments.botCancelStarsSubscription parameters, return type and example"
+title: "bots.updateStarRefProgram"
+description: "bots.updateStarRefProgram parameters, return type and example"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
-redirect_from: /API_docs/methods/payments_botCancelStarsSubscription.html
+redirect_from: /API_docs/methods/bots_updateStarRefProgram.html
 ---
-# Method: payments.botCancelStarsSubscription
+# Method: bots.updateStarRefProgram
 [Back to methods index](index.html)
 
 
@@ -15,12 +15,12 @@ redirect_from: /API_docs/methods/payments_botCancelStarsSubscription.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|restore|[Bool](/API_docs/types/Bool.html) | Optional|
-|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
-|charge\_id|[string](/API_docs/types/string.html) | Optional|
+|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
+|commission\_permille|[int](/API_docs/types/int.html) | Optional|
+|duration\_months|[int](/API_docs/types/int.html) | Optional|
 
 
-### Return type: [Bool](/API_docs/types/Bool.html)
+### Return type: [StarRefProgram](/API_docs/types/StarRefProgram.html)
 
 ### Can bots use this method: **YES**
 
@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->payments->botCancelStarsSubscription(restore: $Bool, user_id: $InputUser, charge_id: 'string', );
+$StarRefProgram = $MadelineProto->bots->updateStarRefProgram(bot: $InputUser, commission_permille: $int, duration_months: $int, );
 ```
 

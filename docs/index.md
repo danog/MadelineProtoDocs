@@ -1125,11 +1125,13 @@ Some of MadelineProto's core components are also available as separate, standalo
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/bots.checkDownloadFileParams.html" name="bots.checkDownloadFileParams">bots.checkDownloadFileParams</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/bots.deletePreviewMedia.html" name="bots.deletePreviewMedia">bots.deletePreviewMedia</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/bots.editPreviewMedia.html" name="bots.editPreviewMedia">bots.editPreviewMedia</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/bots.getAdminedBots.html" name="bots.getAdminedBots">bots.getAdminedBots</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/bots.getPopularAppBots.html" name="bots.getPopularAppBots">bots.getPopularAppBots</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/bots.getPreviewInfo.html" name="bots.getPreviewInfo">bots.getPreviewInfo</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/bots.getPreviewMedias.html" name="bots.getPreviewMedias">bots.getPreviewMedias</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/bots.reorderPreviewMedias.html" name="bots.reorderPreviewMedias">bots.reorderPreviewMedias</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/bots.toggleUserEmojiStatusPermission.html" name="bots.toggleUserEmojiStatusPermission">bots.toggleUserEmojiStatusPermission</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/bots.updateStarRefProgram.html" name="bots.updateStarRefProgram">bots.updateStarRefProgram</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/bots.updateUserEmojiStatus.html" name="bots.updateUserEmojiStatus">bots.updateUserEmojiStatus</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/channels.restrictSponsoredMessages.html" name="channels.restrictSponsoredMessages">channels.restrictSponsoredMessages</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/channels.searchPosts.html" name="channels.searchPosts">channels.searchPosts</a>
@@ -1164,6 +1166,7 @@ Some of MadelineProto's core components are also available as separate, standalo
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.reportSponsoredMessage.html" name="messages.reportSponsoredMessage">messages.reportSponsoredMessage</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.requestMainWebView.html" name="messages.requestMainWebView">messages.requestMainWebView</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.savePreparedInlineMessage.html" name="messages.savePreparedInlineMessage">messages.savePreparedInlineMessage</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.searchStickers.html" name="messages.searchStickers">messages.searchStickers</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.sendPaidReaction.html" name="messages.sendPaidReaction">messages.sendPaidReaction</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.sendQuickReplyMessages.html" name="messages.sendQuickReplyMessages">messages.sendQuickReplyMessages</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.toggleDialogFilterTags.html" name="messages.toggleDialogFilterTags">messages.toggleDialogFilterTags</a>
@@ -1174,8 +1177,12 @@ Some of MadelineProto's core components are also available as separate, standalo
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleEncode" name="rleEncode">null-byte RLE encode: rleEncode</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.botCancelStarsSubscription.html" name="payments.botCancelStarsSubscription">payments.botCancelStarsSubscription</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.changeStarsSubscription.html" name="payments.changeStarsSubscription">payments.changeStarsSubscription</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.connectStarRefBot.html" name="payments.connectStarRefBot">payments.connectStarRefBot</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.convertStarGift.html" name="payments.convertStarGift">payments.convertStarGift</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.editConnectedStarRefBot.html" name="payments.editConnectedStarRefBot">payments.editConnectedStarRefBot</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.fulfillStarsSubscription.html" name="payments.fulfillStarsSubscription">payments.fulfillStarsSubscription</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getConnectedStarRefBot.html" name="payments.getConnectedStarRefBot">payments.getConnectedStarRefBot</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getConnectedStarRefBots.html" name="payments.getConnectedStarRefBots">payments.getConnectedStarRefBots</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getStarGifts.html" name="payments.getStarGifts">payments.getStarGifts</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getStarsGiftOptions.html" name="payments.getStarsGiftOptions">payments.getStarsGiftOptions</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getStarsGiveawayOptions.html" name="payments.getStarsGiveawayOptions">payments.getStarsGiveawayOptions</a>
@@ -1187,6 +1194,7 @@ Some of MadelineProto's core components are also available as separate, standalo
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getStarsTopupOptions.html" name="payments.getStarsTopupOptions">payments.getStarsTopupOptions</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getStarsTransactions.html" name="payments.getStarsTransactions">payments.getStarsTransactions</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getStarsTransactionsByID.html" name="payments.getStarsTransactionsByID">payments.getStarsTransactionsByID</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getSuggestedStarRefBots.html" name="payments.getSuggestedStarRefBots">payments.getSuggestedStarRefBots</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getUserStarGifts.html" name="payments.getUserStarGifts">payments.getUserStarGifts</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.refundStarsCharge.html" name="payments.refundStarsCharge">payments.refundStarsCharge</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.saveStarGift.html" name="payments.saveStarGift">payments.saveStarGift</a>

@@ -17,7 +17,7 @@ parent: "MadelineProto API"
 
 ## Properties
 * `$text`: `string` Text
-* `$entities`: `array` Message entities for styled text
+* `$entities`: `list<MessageEntity>` Message entities for styled text.
 * `$parseMode`: `?danog\MadelineProto\ParseMode` Whether to parse HTML or Markdown markup in the message
 
 ## Method list:

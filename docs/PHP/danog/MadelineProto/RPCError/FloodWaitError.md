@@ -16,13 +16,15 @@ Represents a FLOOD_WAIT_ RPC error returned by telegram.
 
 
 ## Properties
-* `$waitTime`: `int` 
+* `$expires`: `positive-int` Indicates the absolute expiration time of the flood wait.
+* `$waitTime`: `positive-int` 
 * `$rpc`: `string` RPC error.
 * `$description`: `string` Human-readable description of RPC error.
 * `$tlTrace`: `string` TL trace.
 
 ## Method list:
-* [`getWaitTime(): int`](#getWaitTime)
+* [`getWaitTime(): positive-int`](#getWaitTime)
+* [`getWaitTimeLeft(): int<0, max>`](#getWaitTimeLeft)
 * [`wait(?\Amp\Cancellation $cancellation = NULL): void`](#wait)
 * [`getLocalization(): string`](#getLocalization)
 * [`getMessage(): string`](#getMessage)
@@ -35,15 +37,31 @@ Represents a FLOOD_WAIT_ RPC error returned by telegram.
 * [`getTLTrace(): string`](#getTLTrace)
 
 ## Methods:
-### <a name="getWaitTime"></a> `getWaitTime(): int`
+### <a name="getWaitTime"></a> `getWaitTime(): positive-int`
 
 Returns the required waiting period in seconds before repeating the RPC call.
+
+
+#### See also: 
+* `positive-int`
+
+
+
+
+### <a name="getWaitTimeLeft"></a> `getWaitTimeLeft(): int<0, max>`
+
+Returns the remaining waiting period in seconds before repeating the RPC call.
+
+
+#### See also: 
+* `max`
+
 
 
 
 ### <a name="wait"></a> `wait(?\Amp\Cancellation $cancellation = NULL): void`
 
-Waits for the required waiting period.
+Waits for the remaining waiting period.
 
 
 Parameters:
