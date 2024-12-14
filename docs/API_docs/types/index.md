@@ -677,6 +677,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [Username](/API_docs/types/Username.html)<a name="Username"></a>  
 
+[Vector t](/API_docs/types/Vector t.html)<a name="Vector t"></a>  
+
 [VideoSize](/API_docs/types/VideoSize.html)<a name="VideoSize"></a>  
 
 [WallPaper](/API_docs/types/WallPaper.html)<a name="WallPaper"></a>  

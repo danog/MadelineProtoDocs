@@ -4175,6 +4175,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$users.userFull](/API_docs/constructors/users.userFull.html) = \['full_user' => [UserFull](/API_docs/types/UserFull.html), 'chats' => \[[Chat](/API_docs/types/Chat.html)\], 'users' => \[[User](/API_docs/types/User.html)\], \];<a name="users.userFull"></a>  
 
 ***
+<br><br>[$vector](/API_docs/constructors/vector.html) = \[\];<a name="vector"></a>  
+
+***
 <br><br>[$videoSize](/API_docs/constructors/videoSize.html) = \['type' => [string](/API_docs/types/string.html), 'w' => [int](/API_docs/types/int.html), 'h' => [int](/API_docs/types/int.html), 'size' => [int](/API_docs/types/int.html), 'video_start_ts' => [double](/API_docs/types/double.html), \];<a name="videoSize"></a>  
 
 ***
