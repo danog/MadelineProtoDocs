@@ -480,6 +480,7 @@ Here's the full list of filter attributes (see the [MTProto filters &raquo;](#mt
 <!-- cut_here attributefilters -->
 
 * [danog\MadelineProto\EventHandler\Filter\FilterAllowAll &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterAllowAll.html) - Allow all updates.
+* [danog\MadelineProto\EventHandler\Filter\FilterBotCommand(string $command) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterBotCommand.html) - Allow only messages containing the specified command, optionally postfixed with the bot's username.
 * [danog\MadelineProto\EventHandler\Filter\FilterButtonQueryData(string $content) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterButtonQueryData.html) - Filters based on the content of a button query.
 * [danog\MadelineProto\EventHandler\Filter\FilterChannel &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterChannel.html) - Allow only updates coming from channels.
 * [danog\MadelineProto\EventHandler\Filter\FilterCommand(string $command, list<CommandType> $types = [  0 =>   \danog\MadelineProto\EventHandler\CommandType::BANG,  1 =>   \danog\MadelineProto\EventHandler\CommandType::DOT,  2 =>   \danog\MadelineProto\EventHandler\CommandType::SLASH,]) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterCommand.html) - Allow only messages containing the specified command.

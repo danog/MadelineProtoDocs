@@ -155,6 +155,7 @@ Async PHP client API for the telegram MTProto protocol.
 * [\danog\MadelineProto\EventHandler\Delete\DeleteMessages: Some messages were deleted in a private chat or simple group.](/PHP/danog/MadelineProto/EventHandler/Delete/DeleteMessages.html)
 * [\danog\MadelineProto\EventHandler\Delete\DeleteScheduledMessages: Some [scheduled messages](https://core.telegram.org/api/scheduled-messages) were deleted from the schedule queue of a chat.](/PHP/danog/MadelineProto/EventHandler/Delete/DeleteScheduledMessages.html)
 * [\danog\MadelineProto\EventHandler\Filter\FilterAllowAll: Allow all updates.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterAllowAll.html)
+* [\danog\MadelineProto\EventHandler\Filter\FilterBotCommand: Allow only messages containing the specified command, optionally postfixed with the bot's username.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterBotCommand.html)
 * [\danog\MadelineProto\EventHandler\Filter\FilterButtonQueryData: Filters based on the content of a button query.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterButtonQueryData.html)
 * [\danog\MadelineProto\EventHandler\Filter\FilterChannel: Allow only updates coming from channels.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterChannel.html)
 * [\danog\MadelineProto\EventHandler\Filter\FilterCommand: Allow only messages containing the specified command.](/PHP/danog/MadelineProto/EventHandler/Filter/FilterCommand.html)
