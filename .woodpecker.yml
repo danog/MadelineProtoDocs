@@ -4,8 +4,9 @@ steps:
     when:
       branch: master
       event: push
-    secrets:
-      - DEPLOY_KEY
+    environment:
+      DEPLOY_KEY:
+        from_secret: DEPLOY_KEY
     commands:
       - apt-get update && apt-get -y install openssh-client git
       - mkdir -p $HOME/.ssh
