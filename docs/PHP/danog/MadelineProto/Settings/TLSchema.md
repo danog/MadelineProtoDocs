@@ -27,8 +27,8 @@ TL schema settings.
 * [`setAPISchema(string $APISchema): self`](#setAPISchema)
 * [`getSecretSchema(): string`](#getSecretSchema)
 * [`setSecretSchema(string $secretSchema): self`](#setSecretSchema)
-* [`getOther(): array`](#getOther)
-* [`setOther(array $other): self`](#setOther)
+* [`getOther(): array<string, string>`](#getOther)
+* [`setOther(array<string, string> $other): self`](#setOther)
 * [`getFuzzMode(): bool`](#getFuzzMode)
 * [`setFuzzMode(bool $fuzz): self`](#setFuzzMode)
 
@@ -113,20 +113,20 @@ Parameters:
 
 
 
-### <a name="getOther"></a> `getOther(): array`
+### <a name="getOther"></a> `getOther(): array<string, string>`
 
 Get the value of other.
 
 
 
-### <a name="setOther"></a> `setOther(array $other): self`
+### <a name="setOther"></a> `setOther(array<string, string> $other): self`
 
 Set the value of other.
 
 
 Parameters:
 
-* `$other`: `array`   
+* `$other`: `array<string, string>`   
 
 
 
