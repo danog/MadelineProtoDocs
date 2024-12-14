@@ -26,6 +26,8 @@ Get [message reaction](https://core.telegram.org/api/reactions) list, along with
 
 ### Return type: [messages.MessageReactionsList](/API_docs/types/messages.MessageReactionsList.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

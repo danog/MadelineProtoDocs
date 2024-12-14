@@ -24,6 +24,8 @@ Export a [folder »](https://core.telegram.org/api/folders), creating a [chat fo
 
 ### Return type: [chatlists.ExportedChatlistInvite](/API_docs/types/chatlists.ExportedChatlistInvite.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

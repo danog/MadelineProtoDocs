@@ -21,6 +21,8 @@ redirect_from: /API_docs/methods/stats_getBroadcastRevenueWithdrawalUrl.html
 
 ### Return type: [stats.BroadcastRevenueWithdrawalUrl](/API_docs/types/stats.BroadcastRevenueWithdrawalUrl.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

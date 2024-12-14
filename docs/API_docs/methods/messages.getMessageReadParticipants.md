@@ -23,6 +23,8 @@ Get which users read a specific message: only available for groups and supergrou
 
 ### Return type: [Vector\_of\_ReadParticipantDate](/API_docs/types/ReadParticipantDate.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

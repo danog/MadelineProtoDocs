@@ -17,6 +17,8 @@ Initiate a 2FA password reset: can only be used if the user is already logged-in
 
 ### Return type: [account.ResetPasswordResult](/API_docs/types/account.ResetPasswordResult.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

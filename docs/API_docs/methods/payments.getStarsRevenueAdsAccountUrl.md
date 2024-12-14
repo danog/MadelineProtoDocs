@@ -20,6 +20,8 @@ redirect_from: /API_docs/methods/payments_getStarsRevenueAdsAccountUrl.html
 
 ### Return type: [payments.StarsRevenueAdsAccountUrl](/API_docs/types/payments.StarsRevenueAdsAccountUrl.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

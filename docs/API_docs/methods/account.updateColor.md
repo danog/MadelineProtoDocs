@@ -24,6 +24,8 @@ Update the [accent color and background custom emoji »](https://core.telegram.o
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

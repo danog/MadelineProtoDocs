@@ -22,6 +22,8 @@ You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo me
 
 ### Return type: [Vector\_of\_User](/API_docs/types/User.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

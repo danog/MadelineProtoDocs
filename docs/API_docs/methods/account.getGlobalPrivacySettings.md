@@ -17,6 +17,8 @@ Get global privacy settings
 
 ### Return type: [GlobalPrivacySettings](/API_docs/types/GlobalPrivacySettings.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

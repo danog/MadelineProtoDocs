@@ -25,6 +25,8 @@ Send one or more chosen peers, as requested by a [keyboardButtonRequestPeer](../
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

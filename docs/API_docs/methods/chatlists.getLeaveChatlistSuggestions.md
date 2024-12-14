@@ -22,6 +22,8 @@ Returns identifiers of pinned or always included chats from a chat folder import
 
 ### Return type: [Vector\_of\_Peer](/API_docs/types/Peer.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

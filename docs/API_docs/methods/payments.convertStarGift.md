@@ -21,6 +21,8 @@ redirect_from: /API_docs/methods/payments_convertStarGift.html
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

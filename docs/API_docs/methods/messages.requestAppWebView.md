@@ -31,6 +31,8 @@ After calling this method, until the user closes the webview, [messages.prolongW
 
 ### Return type: [WebViewResult](/API_docs/types/WebViewResult.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

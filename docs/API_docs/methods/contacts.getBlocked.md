@@ -24,6 +24,8 @@ Returns the list of blocked users.
 
 ### Return type: [contacts.Blocked](/API_docs/types/contacts.Blocked.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -22,6 +22,8 @@ Returns fetch the full list of [custom emoji IDs »](https://core.telegram.org/a
 
 ### Return type: [EmojiList](/API_docs/types/EmojiList.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -22,6 +22,8 @@ Fetch new chats associated with an imported [chat folder deep link »](https://c
 
 ### Return type: [chatlists.ChatlistUpdates](/API_docs/types/chatlists.ChatlistUpdates.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

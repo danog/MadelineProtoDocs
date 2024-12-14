@@ -20,6 +20,8 @@ redirect_from: /API_docs/methods/messages_getSponsoredMessages.html
 
 ### Return type: [messages.SponsoredMessages](/API_docs/types/messages.SponsoredMessages.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

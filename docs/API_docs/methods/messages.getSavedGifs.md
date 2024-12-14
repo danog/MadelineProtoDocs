@@ -22,6 +22,8 @@ Get saved GIFs
 
 ### Return type: [messages.SavedGifs](/API_docs/types/messages.SavedGifs.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -25,6 +25,8 @@ Get more info about a Seamless Telegram Login authorization request, for more in
 
 ### Return type: [UrlAuthResult](/API_docs/types/UrlAuthResult.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -24,6 +24,8 @@ Delete the history of a [supergroup](https://core.telegram.org/api/channel)
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

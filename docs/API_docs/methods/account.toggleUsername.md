@@ -23,6 +23,8 @@ Activate or deactivate a purchased [fragment.com](https://fragment.com) username
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

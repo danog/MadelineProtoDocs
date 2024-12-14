@@ -21,6 +21,8 @@ Invoke a request without subscribing the used connection for [updates](https://c
 
 ### Return type: [X](/API_docs/types/X.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

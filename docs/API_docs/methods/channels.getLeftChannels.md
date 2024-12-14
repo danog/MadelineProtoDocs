@@ -22,6 +22,8 @@ Get a list of [channels/supergroups](https://core.telegram.org/api/channel) we l
 
 ### Return type: [messages.Chats](/API_docs/types/messages.Chats.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

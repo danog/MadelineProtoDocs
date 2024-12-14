@@ -23,6 +23,8 @@ Generate a [story deep link](https://core.telegram.org/api/links#story-links) fo
 
 ### Return type: [ExportedStoryLink](/API_docs/types/ExportedStoryLink.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

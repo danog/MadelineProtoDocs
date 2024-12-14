@@ -22,6 +22,8 @@ When client-side passcode lock feature is enabled, will not show message texts i
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

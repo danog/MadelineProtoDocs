@@ -24,6 +24,8 @@ To be called only after initializing the import with [messages.initHistoryImport
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

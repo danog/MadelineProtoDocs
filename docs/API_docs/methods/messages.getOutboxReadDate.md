@@ -21,6 +21,8 @@ redirect_from: /API_docs/methods/messages_getOutboxReadDate.html
 
 ### Return type: [OutboxReadDate](/API_docs/types/OutboxReadDate.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -22,6 +22,8 @@ If the [add contact action bar is active](https://core.telegram.org/api/action-b
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

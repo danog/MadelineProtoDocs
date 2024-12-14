@@ -17,6 +17,8 @@ Get media autodownload settings
 
 ### Return type: [account.AutoDownloadSettings](/API_docs/types/account.AutoDownloadSettings.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

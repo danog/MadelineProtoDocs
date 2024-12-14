@@ -22,6 +22,8 @@ Can only be used by TSF members to obtain internal information.
 
 ### Return type: [help.UserInfo](/API_docs/types/help.UserInfo.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -25,6 +25,8 @@ Use this if the data submitted by the user doesn't satisfy the standards your se
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

@@ -26,6 +26,8 @@ Returns content of a web file, by proxying the request through telegram, see the
 
 ### Return type: [upload.WebFile](/API_docs/types/upload.WebFile.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

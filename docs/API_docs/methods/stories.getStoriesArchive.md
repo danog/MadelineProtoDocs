@@ -24,6 +24,8 @@ Fetch the [story archive »](https://core.telegram.org/api/stories#pinned-or-arc
 
 ### Return type: [stories.Stories](/API_docs/types/stories.Stories.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

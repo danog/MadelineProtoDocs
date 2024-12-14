@@ -24,6 +24,8 @@ Search for stickersets
 
 ### Return type: [messages.FoundStickerSets](/API_docs/types/messages.FoundStickerSets.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

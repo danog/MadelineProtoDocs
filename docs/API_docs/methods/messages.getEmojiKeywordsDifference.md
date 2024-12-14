@@ -23,6 +23,8 @@ Get changed [emoji keywords »](https://core.telegram.org/api/custom-emoji#emoji
 
 ### Return type: [EmojiKeywordsDifference](/API_docs/types/EmojiKeywordsDifference.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

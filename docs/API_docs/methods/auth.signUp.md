@@ -26,6 +26,8 @@ You cannot use this method directly, use the completeSignup method instead (see 
 
 ### Return type: [auth.Authorization](/API_docs/types/auth.Authorization.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

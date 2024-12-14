@@ -26,6 +26,8 @@ Set localized name, about text and description of a bot (or of the current accou
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

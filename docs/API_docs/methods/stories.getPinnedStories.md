@@ -24,6 +24,8 @@ Fetch the [stories](https://core.telegram.org/api/stories#pinned-or-archived-sto
 
 ### Return type: [stories.Stories](/API_docs/types/stories.Stories.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -15,6 +15,8 @@ redirect_from: /API_docs/methods/payments_getStarsTopupOptions.html
 
 ### Return type: [Vector\_of\_StarsTopupOption](/API_docs/types/StarsTopupOption.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

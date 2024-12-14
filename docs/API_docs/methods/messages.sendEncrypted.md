@@ -24,6 +24,8 @@ Sends a text message to a secret chat.
 
 ### Return type: [messages.SentEncryptedMessage](/API_docs/types/messages.SentEncryptedMessage.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

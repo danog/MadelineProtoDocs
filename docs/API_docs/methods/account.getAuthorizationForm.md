@@ -24,6 +24,8 @@ Returns a Telegram Passport authorization form for sharing data with a service
 
 ### Return type: [account.AuthorizationForm](/API_docs/types/account.AuthorizationForm.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -22,6 +22,8 @@ Edit the [close friends list, see here »](https://core.telegram.org/api/privacy
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

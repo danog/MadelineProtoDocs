@@ -17,6 +17,8 @@ Get all saved [Telegram Passport](https://core.telegram.org/passport) documents,
 
 ### Return type: [Vector\_of\_SecureValue](/API_docs/types/SecureValue.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

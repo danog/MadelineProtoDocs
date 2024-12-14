@@ -23,6 +23,8 @@ Find out if a media message's caption can be edited
 
 ### Return type: [messages.MessageEditData](/API_docs/types/messages.MessageEditData.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

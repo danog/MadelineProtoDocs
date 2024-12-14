@@ -26,6 +26,8 @@ Press an inline callback button and get a callback answer from the bot
 
 ### Return type: [messages.BotCallbackAnswer](/API_docs/types/messages.BotCallbackAnswer.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

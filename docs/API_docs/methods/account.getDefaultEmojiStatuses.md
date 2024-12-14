@@ -22,6 +22,8 @@ Get a list of default suggested [emoji statuses](https://core.telegram.org/api/e
 
 ### Return type: [account.EmojiStatuses](/API_docs/types/account.EmojiStatuses.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

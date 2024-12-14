@@ -22,6 +22,8 @@ You cannot use this method directly; use $MadelineProto->update2fa($params), ins
 
 ### Return type: [account.PasswordSettings](/API_docs/types/account.PasswordSettings.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

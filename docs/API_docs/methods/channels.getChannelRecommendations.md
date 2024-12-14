@@ -22,6 +22,8 @@ Obtain a list of similarly themed public channels, selected based on similaritie
 
 ### Return type: [messages.Chats](/API_docs/types/messages.Chats.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -23,6 +23,8 @@ Install a stickerset
 
 ### Return type: [messages.StickerSetInstallResult](/API_docs/types/messages.StickerSetInstallResult.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

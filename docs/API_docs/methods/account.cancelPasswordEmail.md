@@ -17,6 +17,8 @@ Cancel the code that was sent to verify an email to use as [2FA recovery method]
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

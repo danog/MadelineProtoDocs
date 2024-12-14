@@ -15,6 +15,8 @@ redirect_from: /API_docs/methods/account_getBusinessChatLinks.html
 
 ### Return type: [account.BusinessChatLinks](/API_docs/types/account.BusinessChatLinks.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

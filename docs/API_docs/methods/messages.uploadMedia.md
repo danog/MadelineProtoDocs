@@ -24,6 +24,8 @@ Upload a file and associate it to a chat (without actually sending it to the cha
 
 ### Return type: [MessageMedia](/API_docs/types/MessageMedia.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

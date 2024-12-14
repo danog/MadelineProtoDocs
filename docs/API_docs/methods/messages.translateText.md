@@ -27,6 +27,8 @@ Translate a given text.
 
 ### Return type: [messages.TranslatedText](/API_docs/types/messages.TranslatedText.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -24,6 +24,8 @@ If you sent an invoice requesting a shipping address and the parameter is\_flexi
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

@@ -28,6 +28,8 @@ Get the admin log of a [channel/supergroup](https://core.telegram.org/api/channe
 
 ### Return type: [channels.AdminLogResults](/API_docs/types/channels.AdminLogResults.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

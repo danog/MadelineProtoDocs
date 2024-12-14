@@ -17,6 +17,8 @@ Get [suggested folders](https://core.telegram.org/api/folders)
 
 ### Return type: [Vector\_of\_DialogFilterSuggested](/API_docs/types/DialogFilterSuggested.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

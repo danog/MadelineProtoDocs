@@ -20,6 +20,8 @@ redirect_from: /API_docs/methods/account_createBusinessChatLink.html
 
 ### Return type: [BusinessChatLink](/API_docs/types/BusinessChatLink.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -23,6 +23,8 @@ Delete messages in a [channel/supergroup](https://core.telegram.org/api/channel)
 
 ### Return type: [messages.AffectedMessages](/API_docs/types/messages.AffectedMessages.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

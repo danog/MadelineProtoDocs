@@ -22,6 +22,8 @@ Gets the current [number of boosts](https://core.telegram.org/api/boost) of a ch
 
 ### Return type: [premium.BoostsStatus](/API_docs/types/premium.BoostsStatus.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

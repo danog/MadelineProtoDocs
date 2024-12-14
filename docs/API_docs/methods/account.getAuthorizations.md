@@ -17,6 +17,8 @@ Get logged-in sessions
 
 ### Return type: [account.Authorizations](/API_docs/types/account.Authorizations.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

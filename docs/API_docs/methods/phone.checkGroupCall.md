@@ -24,6 +24,8 @@ Returns an intersection of the source IDs specified in `sources`, and the source
 
 ### Return type: [Vector\_of\_int](/API_docs/types/int.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

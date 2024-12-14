@@ -22,6 +22,8 @@ Obtain a list of Telegram Premium [giveaway/gift code »](https://core.telegram.
 
 ### Return type: [Vector\_of\_PremiumGiftCodeOption](/API_docs/types/PremiumGiftCodeOption.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

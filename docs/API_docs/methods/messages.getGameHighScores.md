@@ -24,6 +24,8 @@ Get highscores of a game
 
 ### Return type: [messages.HighScores](/API_docs/types/messages.HighScores.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

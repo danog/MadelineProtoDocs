@@ -23,6 +23,8 @@ Obtain information about a [Telegram Premium giveaway »](https://core.telegram.
 
 ### Return type: [payments.GiveawayInfo](/API_docs/types/payments.GiveawayInfo.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -23,6 +23,8 @@ Get localized name, about text and description of a bot (or of the current accou
 
 ### Return type: [bots.BotInfo](/API_docs/types/bots.BotInfo.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

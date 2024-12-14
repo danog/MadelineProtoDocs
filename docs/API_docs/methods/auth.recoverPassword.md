@@ -23,6 +23,8 @@ Reset the [2FA password](https://core.telegram.org/api/srp) using the recovery c
 
 ### Return type: [auth.Authorization](/API_docs/types/auth.Authorization.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

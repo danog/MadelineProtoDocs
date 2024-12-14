@@ -17,6 +17,8 @@ Returns the support user for the "ask a question" feature.
 
 ### Return type: [help.Support](/API_docs/types/help.Support.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

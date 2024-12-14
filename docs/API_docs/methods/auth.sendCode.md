@@ -25,6 +25,8 @@ You cannot use this method directly, use the phoneLogin method instead (see http
 
 ### Return type: [auth.SentCode](/API_docs/types/auth.SentCode.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

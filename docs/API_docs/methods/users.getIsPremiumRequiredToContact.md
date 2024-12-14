@@ -20,6 +20,8 @@ redirect_from: /API_docs/methods/users_getIsPremiumRequiredToContact.html
 
 ### Return type: [Vector\_of\_Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

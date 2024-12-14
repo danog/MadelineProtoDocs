@@ -21,6 +21,8 @@ redirect_from: /API_docs/methods/messages_reportSponsoredMessage.html
 
 ### Return type: [channels.SponsoredMessageReportResult](/API_docs/types/channels.SponsoredMessageReportResult.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

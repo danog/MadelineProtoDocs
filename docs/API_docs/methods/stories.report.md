@@ -25,6 +25,8 @@ Report a story.
 
 ### Return type: [ReportResult](/API_docs/types/ReportResult.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -27,6 +27,8 @@ Send compiled payment form
 
 ### Return type: [payments.PaymentResult](/API_docs/types/payments.PaymentResult.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

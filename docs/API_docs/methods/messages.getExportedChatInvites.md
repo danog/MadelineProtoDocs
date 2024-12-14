@@ -27,6 +27,8 @@ Get info about the chat invites of a specific chat
 
 ### Return type: [messages.ExportedChatInvites](/API_docs/types/messages.ExportedChatInvites.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

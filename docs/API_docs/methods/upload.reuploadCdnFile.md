@@ -23,6 +23,8 @@ You cannot use this method directly, use the upload, downloadToStream, downloadT
 
 ### Return type: [Vector\_of\_FileHash](/API_docs/types/FileHash.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

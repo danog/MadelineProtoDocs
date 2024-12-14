@@ -22,6 +22,8 @@ Get count of online users in a chat
 
 ### Return type: [ChatOnlines](/API_docs/types/ChatOnlines.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

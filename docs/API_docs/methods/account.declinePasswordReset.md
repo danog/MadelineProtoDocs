@@ -17,6 +17,8 @@ Abort a pending 2FA password reset, [see here for more info »](https://core.tel
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

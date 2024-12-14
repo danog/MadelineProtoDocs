@@ -23,6 +23,8 @@ Send typing event by the current user to a secret chat.
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

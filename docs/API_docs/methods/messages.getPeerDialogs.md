@@ -22,6 +22,8 @@ Get dialog info of specified peers
 
 ### Return type: [messages.PeerDialogs](/API_docs/types/messages.PeerDialogs.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

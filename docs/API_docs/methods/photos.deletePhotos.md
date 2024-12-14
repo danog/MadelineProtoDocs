@@ -22,6 +22,8 @@ Deletes profile photos. The method returns a list of successfully deleted photo 
 
 ### Return type: [Vector\_of\_long](/API_docs/types/long.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -29,6 +29,8 @@ Obtain the list of users that have viewed a specific [story we posted](https://c
 
 ### Return type: [stories.StoryViewsList](/API_docs/types/stories.StoryViewsList.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

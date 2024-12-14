@@ -34,6 +34,8 @@ Uploads a [Telegram Story](https://core.telegram.org/api/stories).
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -23,6 +23,8 @@ Set the default peer that will be used to join a group call in a specific dialog
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

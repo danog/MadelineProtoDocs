@@ -23,6 +23,8 @@ Mark [message reactions »](https://core.telegram.org/api/reactions) as read
 
 ### Return type: [messages.AffectedHistory](/API_docs/types/messages.AffectedHistory.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -20,6 +20,8 @@ redirect_from: /API_docs/methods/payments_getStarGifts.html
 
 ### Return type: [payments.StarGifts](/API_docs/types/payments.StarGifts.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

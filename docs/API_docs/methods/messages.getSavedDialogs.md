@@ -27,6 +27,8 @@ Returns the current saved dialog list, see [here »](https://core.telegram.org/a
 
 ### Return type: [messages.SavedDialogs](/API_docs/types/messages.SavedDialogs.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

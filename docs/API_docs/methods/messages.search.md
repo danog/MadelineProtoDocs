@@ -36,6 +36,8 @@ Search for messages.
 
 ### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

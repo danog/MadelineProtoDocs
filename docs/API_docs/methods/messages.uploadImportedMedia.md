@@ -25,6 +25,8 @@ Upload a media file associated with an [imported chat, click here for more info 
 
 ### Return type: [MessageMedia](/API_docs/types/MessageMedia.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

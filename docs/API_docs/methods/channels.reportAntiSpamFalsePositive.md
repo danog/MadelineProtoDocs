@@ -23,6 +23,8 @@ Report a [native antispam](https://core.telegram.org/api/antispam) false positiv
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

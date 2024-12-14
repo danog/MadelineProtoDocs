@@ -22,6 +22,8 @@ Get installed mask stickers
 
 ### Return type: [messages.AllStickers](/API_docs/types/messages.AllStickers.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

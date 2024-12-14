@@ -24,6 +24,8 @@ redirect_from: /API_docs/methods/payments_getSuggestedStarRefBots.html
 
 ### Return type: [payments.SuggestedStarRefBots](/API_docs/types/payments.SuggestedStarRefBots.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

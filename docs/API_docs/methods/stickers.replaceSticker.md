@@ -21,6 +21,8 @@ redirect_from: /API_docs/methods/stickers_replaceSticker.html
 
 ### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

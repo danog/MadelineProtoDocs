@@ -17,6 +17,8 @@ Returns localized text of a text message with an invitation.
 
 ### Return type: [help.InviteText](/API_docs/types/help.InviteText.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

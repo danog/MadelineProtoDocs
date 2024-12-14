@@ -24,6 +24,8 @@ As usual, the media DC is preferred, if available.
 
 ### Return type: [phone.GroupCallStreamChannels](/API_docs/types/phone.GroupCallStreamChannels.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

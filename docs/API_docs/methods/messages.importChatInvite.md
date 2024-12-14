@@ -22,6 +22,8 @@ Import a chat invite and join a private chat/supergroup/channel
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

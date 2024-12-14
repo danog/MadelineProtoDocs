@@ -23,6 +23,8 @@ Informs server about a purchase made through the App Store: for official applica
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

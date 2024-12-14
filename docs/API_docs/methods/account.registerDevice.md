@@ -27,6 +27,8 @@ Register device to receive [PUSH notifications](https://core.telegram.org/api/pu
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

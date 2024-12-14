@@ -23,6 +23,8 @@ Marks message history within a secret chat as read.
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

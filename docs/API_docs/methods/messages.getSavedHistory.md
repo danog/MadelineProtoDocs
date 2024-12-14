@@ -29,6 +29,8 @@ Returns [saved messages »](https://core.telegram.org/api/saved-messages) forwar
 
 ### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

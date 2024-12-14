@@ -24,6 +24,8 @@ You cannot use this method directly, use the upload, downloadToStream, downloadT
 
 ### Return type: [upload.CdnFile](/API_docs/types/upload.CdnFile.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

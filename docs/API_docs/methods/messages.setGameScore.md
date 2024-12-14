@@ -27,6 +27,8 @@ Use this method to set the score of the specified user in a game sent as a norma
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

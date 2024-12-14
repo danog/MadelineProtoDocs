@@ -23,6 +23,8 @@ Verify an email address.
 
 ### Return type: [account.EmailVerified](/API_docs/types/account.EmailVerified.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

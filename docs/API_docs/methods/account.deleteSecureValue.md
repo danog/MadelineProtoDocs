@@ -22,6 +22,8 @@ Delete stored [Telegram Passport](https://core.telegram.org/passport) documents,
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

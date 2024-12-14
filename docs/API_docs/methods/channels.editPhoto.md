@@ -23,6 +23,8 @@ Change the photo of a [channel/supergroup](https://core.telegram.org/api/channel
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

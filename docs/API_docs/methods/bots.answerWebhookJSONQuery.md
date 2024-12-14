@@ -23,6 +23,8 @@ Answers a custom query; for bots only
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

@@ -22,6 +22,8 @@ Obtain user info from a [temporary profile link](https://core.telegram.org/api/l
 
 ### Return type: [User](/API_docs/types/User.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

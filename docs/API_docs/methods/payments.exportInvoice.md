@@ -22,6 +22,8 @@ Generate an [invoice deep link](https://core.telegram.org/api/links#invoice-link
 
 ### Return type: [payments.ExportedInvoice](/API_docs/types/payments.ExportedInvoice.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

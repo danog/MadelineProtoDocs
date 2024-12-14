@@ -23,6 +23,8 @@ Get recently used [message reactions](https://core.telegram.org/api/reactions)
 
 ### Return type: [messages.Reactions](/API_docs/types/messages.Reactions.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

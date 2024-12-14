@@ -22,6 +22,8 @@ Get info about a credit card
 
 ### Return type: [payments.BankCardData](/API_docs/types/payments.BankCardData.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

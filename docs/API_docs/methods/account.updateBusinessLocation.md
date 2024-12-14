@@ -21,6 +21,8 @@ redirect_from: /API_docs/methods/account_updateBusinessLocation.html
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

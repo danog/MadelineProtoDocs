@@ -24,6 +24,8 @@ Submit requested order information for validation
 
 ### Return type: [payments.ValidatedRequestedInfo](/API_docs/types/payments.ValidatedRequestedInfo.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

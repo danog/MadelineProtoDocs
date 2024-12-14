@@ -22,6 +22,8 @@ Remove a sticker from the set where it belongs, bots only. The sticker set must 
 
 ### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

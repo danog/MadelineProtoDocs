@@ -24,6 +24,8 @@ Fetch the List of active (or active and hidden) stories, see [here »](https://c
 
 ### Return type: [stories.AllStories](/API_docs/types/stories.AllStories.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

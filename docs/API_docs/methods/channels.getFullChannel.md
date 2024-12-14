@@ -22,6 +22,8 @@ You cannot use this method directly, use the getPwrChat, getInfo, getFullInfo me
 
 ### Return type: [messages.ChatFull](/API_docs/types/messages.ChatFull.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

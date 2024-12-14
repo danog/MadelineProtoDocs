@@ -20,6 +20,8 @@ redirect_from: /API_docs/methods/messages_getDefaultTagReactions.html
 
 ### Return type: [messages.Reactions](/API_docs/types/messages.Reactions.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

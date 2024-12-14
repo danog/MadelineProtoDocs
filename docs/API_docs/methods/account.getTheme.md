@@ -23,6 +23,8 @@ Get theme information
 
 ### Return type: [Theme](/API_docs/types/Theme.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

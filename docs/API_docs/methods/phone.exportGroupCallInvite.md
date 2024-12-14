@@ -23,6 +23,8 @@ Get an [invite link](https://core.telegram.org/api/links#video-chat-livestream-l
 
 ### Return type: [phone.ExportedGroupCallInvite](/API_docs/types/phone.ExportedGroupCallInvite.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

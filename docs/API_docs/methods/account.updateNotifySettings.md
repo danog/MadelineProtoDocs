@@ -23,6 +23,8 @@ Edits notification settings from a given user/group, from all users/all groups.
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

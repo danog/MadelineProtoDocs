@@ -26,6 +26,8 @@ Use this method to set the score of the specified user in a game sent as an inli
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

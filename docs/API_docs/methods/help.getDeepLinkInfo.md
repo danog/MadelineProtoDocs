@@ -22,6 +22,8 @@ Get info about an unsupported deep link, see [here for more info »](https://cor
 
 ### Return type: [help.DeepLinkInfo](/API_docs/types/help.DeepLinkInfo.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

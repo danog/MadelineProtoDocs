@@ -22,6 +22,8 @@ Gets current notification settings for a given user/group, from all users/all gr
 
 ### Return type: [PeerNotifySettings](/API_docs/types/PeerNotifySettings.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

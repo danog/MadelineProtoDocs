@@ -24,6 +24,8 @@ Report a [message reaction](https://core.telegram.org/api/reactions)
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -23,6 +23,8 @@ Apply one or more [boosts »](https://core.telegram.org/api/boost) to a peer.
 
 ### Return type: [premium.MyBoosts](/API_docs/types/premium.MyBoosts.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

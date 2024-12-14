@@ -23,6 +23,8 @@ redirect_from: /API_docs/methods/messages_unpinAllMessages.html
 
 ### Return type: [messages.AffectedHistory](/API_docs/types/messages.AffectedHistory.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

@@ -23,6 +23,8 @@ Load [channel statistics graph](https://core.telegram.org/api/stats) asynchronou
 
 ### Return type: [StatsGraph](/API_docs/types/StatsGraph.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

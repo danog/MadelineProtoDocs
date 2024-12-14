@@ -22,6 +22,8 @@ You cannot use this method directly, use $MadelineProto->exportAuthorization() i
 
 ### Return type: [auth.ExportedAuthorization](/API_docs/types/auth.ExportedAuthorization.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

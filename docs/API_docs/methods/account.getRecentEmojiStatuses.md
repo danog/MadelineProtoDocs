@@ -22,6 +22,8 @@ Get recently used [emoji statuses](https://core.telegram.org/api/emoji-status)
 
 ### Return type: [account.EmojiStatuses](/API_docs/types/account.EmojiStatuses.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

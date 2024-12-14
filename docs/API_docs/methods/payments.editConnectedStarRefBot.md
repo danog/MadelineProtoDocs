@@ -22,6 +22,8 @@ redirect_from: /API_docs/methods/payments_editConnectedStarRefBot.html
 
 ### Return type: [payments.ConnectedStarRefBots](/API_docs/types/payments.ConnectedStarRefBots.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

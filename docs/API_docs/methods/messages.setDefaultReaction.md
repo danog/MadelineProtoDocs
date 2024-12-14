@@ -22,6 +22,8 @@ Change default emoji reaction to use in the quick reaction menu: the value is sy
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

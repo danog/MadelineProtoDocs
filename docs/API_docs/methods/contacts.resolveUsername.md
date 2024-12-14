@@ -23,6 +23,8 @@ You cannot use this method directly, use the resolveUsername, getPwrChat, getInf
 
 ### Return type: [contacts.ResolvedPeer](/API_docs/types/contacts.ResolvedPeer.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

@@ -21,6 +21,8 @@ redirect_from: /API_docs/methods/bots_getPreviewInfo.html
 
 ### Return type: [bots.PreviewInfo](/API_docs/types/bots.PreviewInfo.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -22,6 +22,8 @@ Get the set of [accent color palettes »](https://core.telegram.org/api/colors) 
 
 ### Return type: [help.PeerColors](/API_docs/types/help.PeerColors.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

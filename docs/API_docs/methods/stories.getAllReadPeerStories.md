@@ -17,6 +17,8 @@ Obtain the latest read story ID for all peers when first logging in, returned as
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -23,6 +23,8 @@ Send the verification phone code for telegram [passport](https://core.telegram.o
 
 ### Return type: [auth.SentCode](/API_docs/types/auth.SentCode.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

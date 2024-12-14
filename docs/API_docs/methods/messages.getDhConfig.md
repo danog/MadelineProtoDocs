@@ -23,6 +23,8 @@ You cannot use this method directly, instead use $MadelineProto->getDhConfig();
 
 ### Return type: [messages.DhConfig](/API_docs/types/messages.DhConfig.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

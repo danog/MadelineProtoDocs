@@ -23,6 +23,8 @@ Get stickers by emoji
 
 ### Return type: [messages.Stickers](/API_docs/types/messages.Stickers.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

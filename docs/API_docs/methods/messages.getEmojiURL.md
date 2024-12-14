@@ -22,6 +22,8 @@ Returns an HTTP URL which can be used to automatically log in into translation p
 
 ### Return type: [EmojiURL](/API_docs/types/EmojiURL.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -25,6 +25,8 @@ Can also be used to delete the account of a user that provided the login code, b
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

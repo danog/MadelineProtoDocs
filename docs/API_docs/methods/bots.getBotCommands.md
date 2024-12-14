@@ -23,6 +23,8 @@ Obtain a list of bot commands for the specified bot scope and language code
 
 ### Return type: [Vector\_of\_BotCommand](/API_docs/types/BotCommand.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

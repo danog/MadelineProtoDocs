@@ -23,6 +23,8 @@ Get highscores of a game sent using an inline bot
 
 ### Return type: [messages.HighScores](/API_docs/types/messages.HighScores.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

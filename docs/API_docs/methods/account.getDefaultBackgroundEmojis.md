@@ -22,6 +22,8 @@ Get a set of suggested [custom emoji stickers](https://core.telegram.org/api/cus
 
 ### Return type: [EmojiList](/API_docs/types/EmojiList.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

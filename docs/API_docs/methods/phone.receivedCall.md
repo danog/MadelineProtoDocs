@@ -22,6 +22,8 @@ Optional: notify the server that the user is currently busy in a call: this will
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

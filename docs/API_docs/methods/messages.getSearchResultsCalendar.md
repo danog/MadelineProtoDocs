@@ -29,6 +29,8 @@ Can return partial results for the last returned day.
 
 ### Return type: [messages.SearchResultsCalendar](/API_docs/types/messages.SearchResultsCalendar.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

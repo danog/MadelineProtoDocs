@@ -22,6 +22,8 @@ Log out an active web [telegram login](https://core.telegram.org/widgets/login) 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

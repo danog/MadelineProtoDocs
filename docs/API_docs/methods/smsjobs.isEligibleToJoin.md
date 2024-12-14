@@ -15,6 +15,8 @@ redirect_from: /API_docs/methods/smsjobs_isEligibleToJoin.html
 
 ### Return type: [smsjobs.EligibilityToJoin](/API_docs/types/smsjobs.EligibilityToJoin.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

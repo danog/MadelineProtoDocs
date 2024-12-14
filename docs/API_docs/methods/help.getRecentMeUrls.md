@@ -25,6 +25,8 @@ If, after downloading the application, the user creates a new account (instead o
 
 ### Return type: [help.RecentMeUrls](/API_docs/types/help.RecentMeUrls.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -24,6 +24,8 @@ Install/uninstall [wallpaper](https://core.telegram.org/api/wallpapers)
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

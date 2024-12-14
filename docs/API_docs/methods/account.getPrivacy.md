@@ -22,6 +22,8 @@ Get privacy settings of current account
 
 ### Return type: [account.PrivacyRules](/API_docs/types/account.PrivacyRules.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

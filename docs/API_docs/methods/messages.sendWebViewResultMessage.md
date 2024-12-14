@@ -23,6 +23,8 @@ Terminate webview interaction started with [messages.requestWebView](../methods/
 
 ### Return type: [WebViewMessageSent](/API_docs/types/WebViewMessageSent.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

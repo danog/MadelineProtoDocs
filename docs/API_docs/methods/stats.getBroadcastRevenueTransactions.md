@@ -22,6 +22,8 @@ redirect_from: /API_docs/methods/stats_getBroadcastRevenueTransactions.html
 
 ### Return type: [stats.BroadcastRevenueTransactions](/API_docs/types/stats.BroadcastRevenueTransactions.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

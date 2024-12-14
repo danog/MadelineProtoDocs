@@ -17,6 +17,8 @@ Obtain configuration for two-factor authorization with password
 
 ### Return type: [account.Password](/API_docs/types/account.Password.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

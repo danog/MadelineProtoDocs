@@ -22,6 +22,8 @@ Check whether we can post stories as the specified peer.
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

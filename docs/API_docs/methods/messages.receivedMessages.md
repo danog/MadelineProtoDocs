@@ -22,6 +22,8 @@ Confirms receipt of messages by a client, cancels PUSH-notification sending.
 
 ### Return type: [Vector\_of\_ReceivedNotifyMessage](/API_docs/types/ReceivedNotifyMessage.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

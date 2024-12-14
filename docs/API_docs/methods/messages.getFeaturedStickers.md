@@ -22,6 +22,8 @@ Get featured stickers
 
 ### Return type: [messages.FeaturedStickers](/API_docs/types/messages.FeaturedStickers.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

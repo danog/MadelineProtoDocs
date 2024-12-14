@@ -24,6 +24,8 @@ redirect_from: /API_docs/methods/stories_searchPosts.html
 
 ### Return type: [stories.FoundStories](/API_docs/types/stories.FoundStories.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

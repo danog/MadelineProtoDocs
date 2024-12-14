@@ -24,6 +24,8 @@ Installs a previously uploaded photo as a profile photo.
 
 ### Return type: [photos.Photo](/API_docs/types/photos.Photo.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

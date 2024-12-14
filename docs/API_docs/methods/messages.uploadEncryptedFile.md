@@ -23,6 +23,8 @@ Upload encrypted file and associate it to a secret chat
 
 ### Return type: [EncryptedFile](/API_docs/types/EncryptedFile.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

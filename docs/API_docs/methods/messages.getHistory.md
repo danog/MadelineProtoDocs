@@ -38,6 +38,8 @@ Returns the conversation history with one interlocutor / within a chat
 
 ### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -23,6 +23,8 @@ Look for [custom emojis](https://core.telegram.org/api/custom-emoji) associated 
 
 ### Return type: [EmojiList](/API_docs/types/EmojiList.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

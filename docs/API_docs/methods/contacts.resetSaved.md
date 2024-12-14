@@ -17,6 +17,8 @@ Removes all contacts without an associated Telegram account.
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

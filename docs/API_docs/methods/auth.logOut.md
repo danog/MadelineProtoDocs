@@ -17,6 +17,8 @@ You cannot use this method directly, use the logout method instead (see https://
 
 ### Return type: [auth.LoggedOut](/API_docs/types/auth.LoggedOut.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

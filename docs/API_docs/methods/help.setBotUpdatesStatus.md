@@ -23,6 +23,8 @@ Informs the server about the number of pending bot updates if they haven't been 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

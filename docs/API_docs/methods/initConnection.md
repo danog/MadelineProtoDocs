@@ -30,6 +30,8 @@ Initialize connection
 
 ### Return type: [X](/API_docs/types/X.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

@@ -22,6 +22,8 @@ Invokes a query after a successful completion of previous queries
 
 ### Return type: [X](/API_docs/types/X.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

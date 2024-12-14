@@ -21,6 +21,8 @@ You cannot use this method directly, please use the [event handler](https://docs
 
 ### Return type: [updates.State](/API_docs/types/updates.State.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

@@ -33,6 +33,8 @@ Get most used peers
 
 ### Return type: [contacts.TopPeers](/API_docs/types/contacts.TopPeers.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

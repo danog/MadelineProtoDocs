@@ -21,6 +21,8 @@ redirect_from: /API_docs/methods/messages_getSavedReactionTags.html
 
 ### Return type: [messages.SavedReactionTags](/API_docs/types/messages.SavedReactionTags.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

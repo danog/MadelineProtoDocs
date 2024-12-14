@@ -15,6 +15,8 @@ redirect_from: /API_docs/methods/payments_getStarsGiveawayOptions.html
 
 ### Return type: [Vector\_of\_StarsGiveawayOption](/API_docs/types/StarsGiveawayOption.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

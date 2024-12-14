@@ -23,6 +23,8 @@ Check if a username is free and can be assigned to a channel/supergroup
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

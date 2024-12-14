@@ -22,6 +22,8 @@ Obtain information about a [chat folder deep link »](https://core.telegram.org/
 
 ### Return type: [chatlists.ChatlistInvite](/API_docs/types/chatlists.ChatlistInvite.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

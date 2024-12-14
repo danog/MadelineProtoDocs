@@ -23,6 +23,8 @@ Edit the default banned rights of a [channel/supergroup/group](https://core.tele
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

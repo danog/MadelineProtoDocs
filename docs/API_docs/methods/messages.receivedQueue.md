@@ -22,6 +22,8 @@ You cannot use this method directly
 
 ### Return type: [Vector\_of\_long](/API_docs/types/long.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

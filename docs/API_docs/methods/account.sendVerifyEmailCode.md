@@ -23,6 +23,8 @@ Send an email verification code.
 
 ### Return type: [account.SentEmailCode](/API_docs/types/account.SentEmailCode.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

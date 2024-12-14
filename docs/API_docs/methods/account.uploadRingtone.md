@@ -24,6 +24,8 @@ Upload notification sound, use [account.saveRingtone](../methods/account.saveRin
 
 ### Return type: [Document](/API_docs/types/Document.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

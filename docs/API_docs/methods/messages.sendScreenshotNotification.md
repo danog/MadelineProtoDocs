@@ -23,6 +23,8 @@ Notify the other user in a private chat that a screenshot of the chat was taken
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

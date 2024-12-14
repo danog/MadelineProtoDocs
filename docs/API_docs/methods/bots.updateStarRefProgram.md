@@ -22,6 +22,8 @@ redirect_from: /API_docs/methods/bots_updateStarRefProgram.html
 
 ### Return type: [StarRefProgram](/API_docs/types/StarRefProgram.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

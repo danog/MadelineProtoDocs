@@ -24,6 +24,8 @@ Get users and geochats near you, see [here »](https://core.telegram.org/api/nea
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

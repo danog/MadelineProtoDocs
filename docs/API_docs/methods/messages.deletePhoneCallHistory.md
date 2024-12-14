@@ -22,6 +22,8 @@ Delete the entire phone call history.
 
 ### Return type: [messages.AffectedFoundMessages](/API_docs/types/messages.AffectedFoundMessages.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

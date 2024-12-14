@@ -23,6 +23,8 @@ Get info about a [channel/supergroup](https://core.telegram.org/api/channel) par
 
 ### Return type: [channels.ChannelParticipant](/API_docs/types/channels.ChannelParticipant.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

@@ -22,6 +22,8 @@ Get app-specific configuration, see [client configuration](https://core.telegram
 
 ### Return type: [help.AppConfig](/API_docs/types/help.AppConfig.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

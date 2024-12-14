@@ -24,6 +24,8 @@ Get preview of webpage
 
 ### Return type: [MessageMedia](/API_docs/types/MessageMedia.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

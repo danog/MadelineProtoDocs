@@ -15,6 +15,8 @@ redirect_from: /API_docs/methods/contacts_getBirthdays.html
 
 ### Return type: [contacts.ContactBirthdays](/API_docs/types/contacts.ContactBirthdays.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

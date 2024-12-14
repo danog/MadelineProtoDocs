@@ -25,6 +25,8 @@ Get the number of results that would be found by a [messages.search](../methods/
 
 ### Return type: [Vector\_of\_messages.SearchCounter](/API_docs/types/messages.SearchCounter.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

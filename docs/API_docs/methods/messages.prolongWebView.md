@@ -29,6 +29,8 @@ If the method returns a `QUERY_ID_INVALID` error, the webview must be closed.
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

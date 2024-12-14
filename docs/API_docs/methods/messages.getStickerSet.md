@@ -23,6 +23,8 @@ Get info about a stickerset
 
 ### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

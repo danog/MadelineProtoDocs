@@ -22,6 +22,8 @@ Represents a list of [emoji categories](https://core.telegram.org/api/custom-emo
 
 ### Return type: [messages.EmojiGroups](/API_docs/types/messages.EmojiGroups.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

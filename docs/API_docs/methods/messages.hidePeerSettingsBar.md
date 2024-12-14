@@ -22,6 +22,8 @@ Should be called after the user hides the [report spam/add as contact bar](https
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

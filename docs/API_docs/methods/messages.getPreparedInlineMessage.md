@@ -21,6 +21,8 @@ redirect_from: /API_docs/methods/messages_getPreparedInlineMessage.html
 
 ### Return type: [messages.PreparedInlineMessage](/API_docs/types/messages.PreparedInlineMessage.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

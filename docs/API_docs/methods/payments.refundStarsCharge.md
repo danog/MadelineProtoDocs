@@ -21,6 +21,8 @@ redirect_from: /API_docs/methods/payments_refundStarsCharge.html
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

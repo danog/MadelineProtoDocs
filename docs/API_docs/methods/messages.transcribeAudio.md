@@ -23,6 +23,8 @@ redirect_from: /API_docs/methods/messages_transcribeAudio.html
 
 ### Return type: [messages.TranscribedAudio](/API_docs/types/messages.TranscribedAudio.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

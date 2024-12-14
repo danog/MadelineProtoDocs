@@ -22,6 +22,8 @@ Returns the current user's contact list.
 
 ### Return type: [contacts.Contacts](/API_docs/types/contacts.Contacts.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

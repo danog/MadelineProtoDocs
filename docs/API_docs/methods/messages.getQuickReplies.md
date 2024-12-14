@@ -20,6 +20,8 @@ redirect_from: /API_docs/methods/messages_getQuickReplies.html
 
 ### Return type: [messages.QuickReplies](/API_docs/types/messages.QuickReplies.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

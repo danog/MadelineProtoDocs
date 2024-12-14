@@ -25,6 +25,8 @@ Edit a [chat folder deep link »](https://core.telegram.org/api/links#chat-folde
 
 ### Return type: [ExportedChatlistInvite](/API_docs/types/ExportedChatlistInvite.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -24,6 +24,8 @@ Get new strings in language pack
 
 ### Return type: [LangPackDifference](/API_docs/types/LangPackDifference.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

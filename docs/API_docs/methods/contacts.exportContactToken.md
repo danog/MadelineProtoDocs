@@ -17,6 +17,8 @@ Generates a [temporary profile link](https://core.telegram.org/api/links#tempora
 
 ### Return type: [ExportedContactToken](/API_docs/types/ExportedContactToken.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

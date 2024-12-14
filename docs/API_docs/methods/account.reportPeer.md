@@ -24,6 +24,8 @@ Report a peer for violation of telegram's Terms of Service
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

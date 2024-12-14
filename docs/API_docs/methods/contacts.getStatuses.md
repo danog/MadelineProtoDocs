@@ -17,6 +17,8 @@ Use this method to obtain the online statuses of all contacts with an accessible
 
 ### Return type: [Vector\_of\_ContactStatus](/API_docs/types/ContactStatus.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

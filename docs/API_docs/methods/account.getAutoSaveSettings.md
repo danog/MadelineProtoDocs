@@ -17,6 +17,8 @@ Get autosave settings
 
 ### Return type: [account.AutoSaveSettings](/API_docs/types/account.AutoSaveSettings.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

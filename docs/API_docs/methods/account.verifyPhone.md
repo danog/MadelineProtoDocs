@@ -24,6 +24,8 @@ Verify a phone number for telegram [passport](https://core.telegram.org/passport
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -22,6 +22,8 @@ Set sensitive content settings (for viewing or hiding NSFW content)
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -17,6 +17,8 @@ Returns info on data center nearest to the user.
 
 ### Return type: [NearestDc](/API_docs/types/NearestDc.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

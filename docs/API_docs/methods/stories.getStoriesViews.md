@@ -23,6 +23,8 @@ Obtain info about the view count, forward count, reactions and recent viewers of
 
 ### Return type: [stories.StoryViews](/API_docs/types/stories.StoryViews.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

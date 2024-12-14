@@ -25,6 +25,8 @@ Get all archived stickers
 
 ### Return type: [messages.ArchivedStickers](/API_docs/types/messages.ArchivedStickers.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

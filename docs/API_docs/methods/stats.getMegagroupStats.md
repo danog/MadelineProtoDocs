@@ -23,6 +23,8 @@ Get [supergroup statistics](https://core.telegram.org/api/stats)
 
 ### Return type: [stats.MegagroupStats](/API_docs/types/stats.MegagroupStats.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

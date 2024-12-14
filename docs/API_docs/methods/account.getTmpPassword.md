@@ -23,6 +23,8 @@ Get temporary payment password
 
 ### Return type: [account.TmpPassword](/API_docs/types/account.TmpPassword.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

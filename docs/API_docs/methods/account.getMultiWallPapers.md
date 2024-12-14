@@ -22,6 +22,8 @@ Get info about multiple [wallpapers](https://core.telegram.org/api/wallpapers)
 
 ### Return type: [Vector\_of\_WallPaper](/API_docs/types/WallPaper.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

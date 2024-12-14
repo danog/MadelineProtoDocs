@@ -28,6 +28,8 @@ Edit an exported chat invite
 
 ### Return type: [messages.ExportedChatInvite](/API_docs/types/messages.ExportedChatInvite.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

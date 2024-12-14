@@ -25,6 +25,8 @@ Stop getting notifications about [discussion replies](https://core.telegram.org/
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

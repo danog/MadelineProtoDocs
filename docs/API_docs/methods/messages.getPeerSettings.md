@@ -22,6 +22,8 @@ Get peer settings
 
 ### Return type: [messages.PeerSettings](/API_docs/types/messages.PeerSettings.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

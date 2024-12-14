@@ -15,6 +15,8 @@ redirect_from: /API_docs/methods/smsjobs_getStatus.html
 
 ### Return type: [smsjobs.Status](/API_docs/types/smsjobs.Status.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

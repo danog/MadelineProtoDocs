@@ -23,6 +23,8 @@ Obtain information about a [direct link Mini App](https://core.telegram.org/api/
 
 ### Return type: [messages.BotApp](/API_docs/types/messages.BotApp.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

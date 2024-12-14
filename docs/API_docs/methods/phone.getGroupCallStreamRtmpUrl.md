@@ -23,6 +23,8 @@ Get RTMP URL and stream key for RTMP livestreams. Can be used even before creati
 
 ### Return type: [phone.GroupCallStreamRtmpUrl](/API_docs/types/phone.GroupCallStreamRtmpUrl.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

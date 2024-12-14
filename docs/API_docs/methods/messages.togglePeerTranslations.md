@@ -23,6 +23,8 @@ Show or hide the [real-time chat translation popup](https://core.telegram.org/ap
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -17,6 +17,8 @@ Returns current configuration, including data center configuration.
 
 ### Return type: [Config](/API_docs/types/Config.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

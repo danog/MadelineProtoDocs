@@ -23,6 +23,8 @@ Set maximum Time-To-Live of all messages in the specified chat
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

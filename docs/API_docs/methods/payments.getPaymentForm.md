@@ -23,6 +23,8 @@ Get a payment form
 
 ### Return type: [payments.PaymentForm](/API_docs/types/payments.PaymentForm.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

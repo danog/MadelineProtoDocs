@@ -23,6 +23,8 @@ Get [discussion message](https://core.telegram.org/api/threads) from the [associ
 
 ### Return type: [messages.DiscussionMessage](/API_docs/types/messages.DiscussionMessage.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

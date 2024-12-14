@@ -26,6 +26,8 @@ Get group call participants
 
 ### Return type: [phone.GroupParticipants](/API_docs/types/phone.GroupParticipants.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

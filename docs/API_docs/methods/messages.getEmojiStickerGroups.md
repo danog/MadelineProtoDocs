@@ -20,6 +20,8 @@ redirect_from: /API_docs/methods/messages_getEmojiStickerGroups.html
 
 ### Return type: [messages.EmojiGroups](/API_docs/types/messages.EmojiGroups.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

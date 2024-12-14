@@ -24,6 +24,8 @@ Returns a list of [documents](../constructors/document.html) with the animated c
 
 ### Return type: [Vector\_of\_Document](/API_docs/types/Document.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

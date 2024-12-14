@@ -23,6 +23,8 @@ Returns users found by username substring.
 
 ### Return type: [contacts.Found](/API_docs/types/contacts.Found.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

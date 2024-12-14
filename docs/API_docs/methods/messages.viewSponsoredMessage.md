@@ -20,6 +20,8 @@ redirect_from: /API_docs/methods/messages_viewSponsoredMessage.html
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

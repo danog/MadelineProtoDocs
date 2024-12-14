@@ -23,6 +23,8 @@ Returns the lists of boost that were applied to a channel by a specific user (ad
 
 ### Return type: [premium.BoostsList](/API_docs/types/premium.BoostsList.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

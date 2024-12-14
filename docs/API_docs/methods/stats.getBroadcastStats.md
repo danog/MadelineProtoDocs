@@ -23,6 +23,8 @@ Get [channel statistics](https://core.telegram.org/api/stats)
 
 ### Return type: [stats.BroadcastStats](/API_docs/types/stats.BroadcastStats.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

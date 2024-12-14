@@ -23,6 +23,8 @@ Hide the active stories of a user, preventing them from being displayed on the a
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

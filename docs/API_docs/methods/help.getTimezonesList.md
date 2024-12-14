@@ -20,6 +20,8 @@ redirect_from: /API_docs/methods/help_getTimezonesList.html
 
 ### Return type: [help.TimezonesList](/API_docs/types/help.TimezonesList.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -17,6 +17,8 @@ Get dialogs manually marked as unread
 
 ### Return type: [Vector\_of\_DialogPeer](/API_docs/types/DialogPeer.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

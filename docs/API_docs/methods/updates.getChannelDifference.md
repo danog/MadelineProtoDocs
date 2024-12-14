@@ -30,6 +30,8 @@ You cannot use this method directly, please use the [event handler](https://docs
 
 ### Return type: [updates.ChannelDifference](/API_docs/types/updates.ChannelDifference.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

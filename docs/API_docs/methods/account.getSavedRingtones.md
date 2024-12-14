@@ -22,6 +22,8 @@ Fetch saved notification sounds
 
 ### Return type: [account.SavedRingtones](/API_docs/types/account.SavedRingtones.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

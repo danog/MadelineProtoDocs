@@ -23,6 +23,8 @@ Reset [rating](https://core.telegram.org/api/top-rating) of top peer
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

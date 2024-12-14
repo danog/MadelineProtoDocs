@@ -28,6 +28,8 @@ Export an invite link for a chat
 
 ### Return type: [ExportedChatInvite](/API_docs/types/ExportedChatInvite.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

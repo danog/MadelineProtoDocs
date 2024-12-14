@@ -17,6 +17,8 @@ Request recovery code of a [2FA password](https://core.telegram.org/api/srp), on
 
 ### Return type: [auth.PasswordRecovery](/API_docs/types/auth.PasswordRecovery.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

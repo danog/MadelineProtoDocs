@@ -22,6 +22,8 @@ Notifies the sender about the recipient having listened a voice message or watch
 
 ### Return type: [messages.AffectedMessages](/API_docs/types/messages.AffectedMessages.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -22,6 +22,8 @@ Fetch the full active [story list](https://core.telegram.org/api/stories#watchin
 
 ### Return type: [stories.PeerStories](/API_docs/types/stories.PeerStories.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

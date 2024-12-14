@@ -20,6 +20,8 @@ redirect_from: /API_docs/methods/fragment_getCollectibleInfo.html
 
 ### Return type: [fragment.CollectibleInfo](/API_docs/types/fragment.CollectibleInfo.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

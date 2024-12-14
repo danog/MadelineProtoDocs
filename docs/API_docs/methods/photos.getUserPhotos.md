@@ -25,6 +25,8 @@ Returns the list of user photos.
 
 ### Return type: [photos.Photos](/API_docs/types/photos.Photos.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

@@ -22,6 +22,8 @@ Returns information on update availability for the current application.
 
 ### Return type: [help.AppUpdate](/API_docs/types/help.AppUpdate.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

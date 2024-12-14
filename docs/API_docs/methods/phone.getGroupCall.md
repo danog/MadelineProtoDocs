@@ -23,6 +23,8 @@ Get info about a group call
 
 ### Return type: [phone.GroupCall](/API_docs/types/phone.GroupCall.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

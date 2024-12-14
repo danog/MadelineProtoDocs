@@ -23,6 +23,8 @@ redirect_from: /API_docs/methods/bots_editPreviewMedia.html
 
 ### Return type: [BotPreviewMedia](/API_docs/types/BotPreviewMedia.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -26,6 +26,8 @@ Get the participants of a [supergroup/channel](https://core.telegram.org/api/cha
 
 ### Return type: [channels.ChannelParticipants](/API_docs/types/channels.ChannelParticipants.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

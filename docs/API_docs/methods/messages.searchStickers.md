@@ -26,6 +26,8 @@ redirect_from: /API_docs/methods/messages_searchStickers.html
 
 ### Return type: [messages.FoundStickers](/API_docs/types/messages.FoundStickers.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

@@ -25,6 +25,8 @@ Obtains info about the boosts that were applied to a certain channel (admins onl
 
 ### Return type: [premium.BoostsList](/API_docs/types/premium.BoostsList.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

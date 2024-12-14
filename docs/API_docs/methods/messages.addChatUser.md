@@ -26,6 +26,8 @@ May also return 0-N updates of type [updateGroupInvitePrivacyForbidden](../const
 
 ### Return type: [messages.InvitedUsers](/API_docs/types/messages.InvitedUsers.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

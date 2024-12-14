@@ -22,6 +22,8 @@ Changes username for the current user.
 
 ### Return type: [User](/API_docs/types/User.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

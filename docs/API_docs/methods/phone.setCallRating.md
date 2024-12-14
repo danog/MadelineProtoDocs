@@ -25,6 +25,8 @@ Rate a call, returns info about the rating message sent to the official VoIP bot
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

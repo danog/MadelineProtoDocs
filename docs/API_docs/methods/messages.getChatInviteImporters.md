@@ -29,6 +29,8 @@ Get info about the users that joined the chat using a specific chat invite
 
 ### Return type: [messages.ChatInviteImporters](/API_docs/types/messages.ChatInviteImporters.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

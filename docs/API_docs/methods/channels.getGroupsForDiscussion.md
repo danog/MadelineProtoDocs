@@ -20,6 +20,8 @@ To set a returned supergroup as a discussion group, access to its old messages m
 
 ### Return type: [messages.Chats](/API_docs/types/messages.Chats.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

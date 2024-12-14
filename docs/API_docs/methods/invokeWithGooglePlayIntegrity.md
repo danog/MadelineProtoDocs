@@ -21,6 +21,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Return type: [X](/API_docs/types/X.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

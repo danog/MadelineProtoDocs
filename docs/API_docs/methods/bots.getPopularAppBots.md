@@ -21,6 +21,8 @@ redirect_from: /API_docs/methods/bots_getPopularAppBots.html
 
 ### Return type: [bots.PopularAppBots](/API_docs/types/bots.PopularAppBots.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

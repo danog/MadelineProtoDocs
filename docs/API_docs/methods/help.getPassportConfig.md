@@ -22,6 +22,8 @@ Get [passport](https://core.telegram.org/passport) configuration
 
 ### Return type: [help.PassportConfig](/API_docs/types/help.PassportConfig.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

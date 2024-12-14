@@ -23,6 +23,8 @@ Sends a custom request; for bots only
 
 ### Return type: [DataJSON](/API_docs/types/DataJSON.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

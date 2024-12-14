@@ -29,6 +29,8 @@ Can only be used by channel admins.
 
 ### Return type: [stories.StoryReactionsList](/API_docs/types/stories.StoryReactionsList.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

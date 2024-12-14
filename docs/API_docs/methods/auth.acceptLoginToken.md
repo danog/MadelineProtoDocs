@@ -26,6 +26,8 @@ For more info, see [login via QR code](https://core.telegram.org/api/qr-login).
 
 ### Return type: [Authorization](/API_docs/types/Authorization.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

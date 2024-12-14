@@ -20,6 +20,8 @@ redirect_from: /API_docs/methods/payments_getStarsGiftOptions.html
 
 ### Return type: [Vector\_of\_StarsGiftOption](/API_docs/types/StarsGiftOption.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

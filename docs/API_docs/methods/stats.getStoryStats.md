@@ -24,6 +24,8 @@ Get [statistics](https://core.telegram.org/api/stats) for a certain [story](http
 
 ### Return type: [stats.StoryStats](/API_docs/types/stats.StoryStats.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

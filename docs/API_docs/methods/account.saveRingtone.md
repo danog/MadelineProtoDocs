@@ -26,6 +26,8 @@ Otherwise, it will be automatically converted and a [account.savedRingtoneConver
 
 ### Return type: [account.SavedRingtone](/API_docs/types/account.SavedRingtone.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

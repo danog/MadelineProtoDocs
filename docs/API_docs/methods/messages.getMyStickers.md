@@ -21,6 +21,8 @@ redirect_from: /API_docs/methods/messages_getMyStickers.html
 
 ### Return type: [messages.MyStickers](/API_docs/types/messages.MyStickers.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

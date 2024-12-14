@@ -17,6 +17,8 @@ Get pinned [saved dialogs, see here »](https://core.telegram.org/api/saved-mess
 
 ### Return type: [messages.SavedDialogs](/API_docs/types/messages.SavedDialogs.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

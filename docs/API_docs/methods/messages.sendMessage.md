@@ -39,6 +39,8 @@ Sends a message to a chat
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

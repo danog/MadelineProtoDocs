@@ -24,6 +24,8 @@ Replace the contents of an entire [blocklist, see here for more info »](https:/
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

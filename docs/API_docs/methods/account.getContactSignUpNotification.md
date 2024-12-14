@@ -17,6 +17,8 @@ Whether the user will receive notifications when contacts sign up
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

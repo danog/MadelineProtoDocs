@@ -20,6 +20,8 @@ redirect_from: /API_docs/methods/bots_getPreviewMedias.html
 
 ### Return type: [Vector\_of\_BotPreviewMedia](/API_docs/types/BotPreviewMedia.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

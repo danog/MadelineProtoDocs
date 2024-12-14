@@ -25,6 +25,8 @@ You cannot use this method directly, use the upload, downloadToStream, downloadT
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

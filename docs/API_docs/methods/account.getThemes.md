@@ -23,6 +23,8 @@ Get installed themes
 
 ### Return type: [account.Themes](/API_docs/types/account.Themes.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

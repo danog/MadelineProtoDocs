@@ -22,6 +22,8 @@ Resolve a phone number to get user info, if their privacy settings allow it.
 
 ### Return type: [contacts.ResolvedPeer](/API_docs/types/contacts.ResolvedPeer.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

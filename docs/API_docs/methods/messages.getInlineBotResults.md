@@ -26,6 +26,8 @@ Query an inline bot
 
 ### Return type: [messages.BotResults](/API_docs/types/messages.BotResults.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

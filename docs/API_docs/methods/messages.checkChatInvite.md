@@ -22,6 +22,8 @@ Check the validity of a chat invite link and get basic info about it
 
 ### Return type: [ChatInvite](/API_docs/types/ChatInvite.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

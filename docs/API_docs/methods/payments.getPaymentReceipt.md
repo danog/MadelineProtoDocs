@@ -23,6 +23,8 @@ Get payment receipt
 
 ### Return type: [payments.PaymentReceipt](/API_docs/types/payments.PaymentReceipt.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

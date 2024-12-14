@@ -21,6 +21,8 @@ redirect_from: /API_docs/methods/messages_getFactCheck.html
 
 ### Return type: [Vector\_of\_FactCheck](/API_docs/types/FactCheck.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

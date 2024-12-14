@@ -17,6 +17,8 @@ Get sensitive content settings
 
 ### Return type: [account.ContentSettings](/API_docs/types/account.ContentSettings.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

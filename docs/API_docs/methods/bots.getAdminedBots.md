@@ -15,6 +15,8 @@ redirect_from: /API_docs/methods/bots_getAdminedBots.html
 
 ### Return type: [Vector\_of\_User](/API_docs/types/User.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

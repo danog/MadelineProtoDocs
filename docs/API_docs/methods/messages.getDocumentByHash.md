@@ -24,6 +24,8 @@ Get a document by its SHA256 hash, mainly used for gifs
 
 ### Return type: [Document](/API_docs/types/Document.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

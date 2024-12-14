@@ -17,6 +17,8 @@ Get web [login widget](https://core.telegram.org/widgets/login) authorizations
 
 ### Return type: [account.WebAuthorizations](/API_docs/types/account.WebAuthorizations.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

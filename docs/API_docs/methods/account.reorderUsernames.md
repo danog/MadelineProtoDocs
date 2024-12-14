@@ -22,6 +22,8 @@ Reorder usernames associated with the currently logged-in user.
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

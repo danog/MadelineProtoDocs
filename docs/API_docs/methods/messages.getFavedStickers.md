@@ -22,6 +22,8 @@ Get faved stickers
 
 ### Return type: [messages.FavedStickers](/API_docs/types/messages.FavedStickers.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

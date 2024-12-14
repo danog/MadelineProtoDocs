@@ -22,6 +22,8 @@ Changes the default value of the Time-To-Live setting, applied to all new chats.
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

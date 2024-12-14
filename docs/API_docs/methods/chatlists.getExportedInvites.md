@@ -22,6 +22,8 @@ List all [chat folder deep links »](https://core.telegram.org/api/links#chat-fo
 
 ### Return type: [chatlists.ExportedInvites](/API_docs/types/chatlists.ExportedInvites.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

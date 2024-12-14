@@ -24,6 +24,8 @@ Get strings from a language pack
 
 ### Return type: [Vector\_of\_LangPackString](/API_docs/types/LangPackString.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

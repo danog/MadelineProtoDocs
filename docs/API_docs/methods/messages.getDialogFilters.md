@@ -17,6 +17,8 @@ Get [folders](https://core.telegram.org/api/folders)
 
 ### Return type: [messages.DialogFilters](/API_docs/types/messages.DialogFilters.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

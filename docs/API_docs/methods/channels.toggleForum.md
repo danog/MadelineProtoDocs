@@ -23,6 +23,8 @@ Enable or disable [forum functionality](https://core.telegram.org/api/forum) in 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

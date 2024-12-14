@@ -24,6 +24,8 @@ For more info, see [login via QR code](https://core.telegram.org/api/qr-login).
 
 ### Return type: [auth.LoginToken](/API_docs/types/auth.LoginToken.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -24,6 +24,8 @@ Use [contacts.addContact](../methods/contacts.addContact.html) to add Telegram c
 
 ### Return type: [contacts.ImportedContacts](/API_docs/types/contacts.ImportedContacts.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

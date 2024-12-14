@@ -22,6 +22,8 @@ Obtain available [message reactions »](https://core.telegram.org/api/reactions)
 
 ### Return type: [messages.AvailableReactions](/API_docs/types/messages.AvailableReactions.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -22,6 +22,8 @@ Invalidate the specified login codes, see [here »](https://core.telegram.org/ap
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

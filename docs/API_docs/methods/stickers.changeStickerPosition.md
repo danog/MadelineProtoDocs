@@ -23,6 +23,8 @@ Changes the absolute position of a sticker in the set to which it belongs; for b
 
 ### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **YES**
 
 

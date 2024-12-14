@@ -17,6 +17,8 @@ Clears list of recently used [emoji statuses](https://core.telegram.org/api/emoj
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

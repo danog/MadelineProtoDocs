@@ -22,6 +22,8 @@ redirect_from: /API_docs/methods/payments_getStarsRevenueWithdrawalUrl.html
 
 ### Return type: [payments.StarsRevenueWithdrawalUrl](/API_docs/types/payments.StarsRevenueWithdrawalUrl.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

@@ -17,6 +17,8 @@ Get Telegram Premium promotion information
 
 ### Return type: [help.PremiumPromo](/API_docs/types/help.PremiumPromo.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

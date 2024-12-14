@@ -17,6 +17,8 @@ Obtain which peers are we currently [boosting](https://core.telegram.org/api/boo
 
 ### Return type: [premium.MyBoosts](/API_docs/types/premium.MyBoosts.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

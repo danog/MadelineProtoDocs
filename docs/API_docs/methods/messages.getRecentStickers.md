@@ -23,6 +23,8 @@ Get recent stickers
 
 ### Return type: [messages.RecentStickers](/API_docs/types/messages.RecentStickers.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

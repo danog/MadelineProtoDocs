@@ -23,6 +23,8 @@ Adds a peer to a blocklist, see [here »](https://core.telegram.org/api/block) f
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

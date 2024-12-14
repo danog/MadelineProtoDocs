@@ -22,6 +22,8 @@ Get all available chat [themes »](https://core.telegram.org/api/themes).
 
 ### Return type: [account.Themes](/API_docs/types/account.Themes.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

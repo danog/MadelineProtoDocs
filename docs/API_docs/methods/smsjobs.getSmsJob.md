@@ -20,6 +20,8 @@ redirect_from: /API_docs/methods/smsjobs_getSmsJob.html
 
 ### Return type: [SmsJob](/API_docs/types/SmsJob.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

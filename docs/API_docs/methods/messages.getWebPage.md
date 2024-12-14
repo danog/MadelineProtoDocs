@@ -23,6 +23,8 @@ Get [instant view](https://instantview.telegram.org) page
 
 ### Return type: [messages.WebPage](/API_docs/types/messages.WebPage.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 

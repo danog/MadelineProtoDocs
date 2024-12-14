@@ -23,6 +23,8 @@ Associate a group to a channel as [discussion group](https://core.telegram.org/a
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
 
+### Can userbots use this method: **YES**
+
 ### Can bots use this method: **NO**
 
 
