@@ -1289,7 +1289,7 @@ $MadelineProto->[messages->clearRecentStickers](/API_docs/methods/messages.clear
 
 ***
 <br><br>
-$MadelineProto->[messages->clickSponsoredMessage](/API_docs/methods/messages.clickSponsoredMessage.html)(\[media: $[Bool](/API_docs/types/Bool.html), fullscreen: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.clickSponsoredMessage"></a>  
+$MadelineProto->[messages->clickSponsoredMessage](/API_docs/methods/messages.clickSponsoredMessage.html)(\[media: $[Bool](/API_docs/types/Bool.html), fullscreen: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), random_id: $[bytes](/API_docs/types/bytes.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.clickSponsoredMessage"></a>  
 
 ***
 <br><br>
@@ -1861,7 +1861,7 @@ $MadelineProto->[messages->reportSpam](/API_docs/methods/messages.reportSpam.htm
 
 ***
 <br><br>
-$MadelineProto->[messages->reportSponsoredMessage](/API_docs/methods/messages.reportSponsoredMessage.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), option: $[bytes](/API_docs/types/bytes.html), \]) === [$channels.SponsoredMessageReportResult](/API_docs/types/channels.SponsoredMessageReportResult.html)<a name="messages.reportSponsoredMessage"></a>  
+$MadelineProto->[messages->reportSponsoredMessage](/API_docs/methods/messages.reportSponsoredMessage.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), random_id: $[bytes](/API_docs/types/bytes.html), option: $[bytes](/API_docs/types/bytes.html), \]) === [$channels.SponsoredMessageReportResult](/API_docs/types/channels.SponsoredMessageReportResult.html)<a name="messages.reportSponsoredMessage"></a>  
 
 ***
 <br><br>
@@ -2141,7 +2141,7 @@ $MadelineProto->[messages->uploadMedia](/API_docs/methods/messages.uploadMedia.h
 
 ***
 <br><br>
-$MadelineProto->[messages->viewSponsoredMessage](/API_docs/methods/messages.viewSponsoredMessage.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.viewSponsoredMessage"></a>  
+$MadelineProto->[messages->viewSponsoredMessage](/API_docs/methods/messages.viewSponsoredMessage.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), random_id: $[bytes](/API_docs/types/bytes.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.viewSponsoredMessage"></a>  
 
 ***
 <br><br>

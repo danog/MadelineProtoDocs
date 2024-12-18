@@ -16,6 +16,7 @@ redirect_from: /API_docs/methods/messages_viewSponsoredMessage.html
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+|random\_id|[bytes](/API_docs/types/bytes.html) | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
@@ -37,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->viewSponsoredMessage(peer: $InputPeer, );
+$Bool = $MadelineProto->messages->viewSponsoredMessage(peer: $InputPeer, random_id: 'bytes', );
 ```
 

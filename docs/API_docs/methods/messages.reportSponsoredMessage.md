@@ -16,6 +16,7 @@ redirect_from: /API_docs/methods/messages_reportSponsoredMessage.html
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+|random\_id|[bytes](/API_docs/types/bytes.html) | Yes|
 |option|[bytes](/API_docs/types/bytes.html) | Yes|
 
 
@@ -38,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$channels_SponsoredMessageReportResult = $MadelineProto->messages->reportSponsoredMessage(peer: $InputPeer, option: 'bytes', );
+$channels_SponsoredMessageReportResult = $MadelineProto->messages->reportSponsoredMessage(peer: $InputPeer, random_id: 'bytes', option: 'bytes', );
 ```
 
