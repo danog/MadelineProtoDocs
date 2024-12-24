@@ -148,9 +148,11 @@ use danog\MadelineProto\EventHandler\Filter\FilterText;
 use danog\MadelineProto\EventHandler\Filter\FilterTextCaseInsensitive;
 use danog\MadelineProto\EventHandler\Message;
 use danog\MadelineProto\EventHandler\Message\ChannelMessage;
+use danog\MadelineProto\EventHandler\Message\PrivateMessage;
 use danog\MadelineProto\EventHandler\Message\Service\DialogPhotoChanged;
 use danog\MadelineProto\EventHandler\Plugin\RestartPlugin;
 use danog\MadelineProto\EventHandler\SimpleFilter\FromAdmin;
+use danog\MadelineProto\EventHandler\SimpleFilter\HasAudio;
 use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
 use danog\MadelineProto\EventHandler\SimpleFilter\IsReply;
 use danog\MadelineProto\Logger;
@@ -406,6 +408,16 @@ class MyEventHandler extends SimpleEventHandler
     public function callVoip(Incoming&Message $message): void
     {
         $this->requestCall($message->senderId)->play(new RemoteUrl('http://icestreaming.rai.it/1.mp3'));
+    }
+
+    // Plays incoming audio files into a Telegram call
+    #[Handler]
+    public function playAudio(Incoming&PrivateMessage&HasAudio $message): void
+    {
+        if (!$this->isSelfUser()) {
+            return;
+        }
+        $this->requestCall($message->senderId)->play($message->media->getStream());
     }
 
     #[Handler]

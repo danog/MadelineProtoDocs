@@ -191,6 +191,13 @@ class PonyHandler extends \danog\MadelineProto\SimpleEventHandler
         //
         //$call->setOutput($stream);
     }
+
+    // Plays incoming audio files into a Telegram call
+    #[Handler]
+    public function playAudio(Incoming&PrivateMessage&HasAudio $message): void
+    {
+        $this->requestCall($message->senderId)->play($message->media->getStream());
+    }
 }
 
 PonyHandler::startAndLoop('session.madeline');
