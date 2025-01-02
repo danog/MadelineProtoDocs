@@ -16,7 +16,6 @@ redirect_from: /API_docs/methods/payments_saveStarGift.html
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |unsave|[Bool](/API_docs/types/Bool.html) | Optional|
-|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
 |msg\_id|[int](/API_docs/types/int.html) | Optional|
 
 
@@ -24,7 +23,7 @@ redirect_from: /API_docs/methods/payments_saveStarGift.html
 
 ### Can userbots use this method: **YES**
 
-### Can bots use this method: **YES**
+### Can bots use this method: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
@@ -39,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->payments->saveStarGift(unsave: $Bool, user_id: $InputUser, msg_id: $int, );
+$Bool = $MadelineProto->payments->saveStarGift(unsave: $Bool, msg_id: $int, );
 ```
 

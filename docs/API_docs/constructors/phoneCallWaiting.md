@@ -23,6 +23,7 @@ Incoming phone call
 |participant\_id|[long](/API_docs/types/long.html) | Yes|Participant ID|
 |protocol|[PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.html) | Yes|Phone call protocol info|
 |receive\_date|[int](/API_docs/types/int.html) | Optional|When was the phone call received|
+|conference\_call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Optional|
 
 
 
@@ -32,5 +33,5 @@ Incoming phone call
 ### Example:
 
 ```
-$phoneCallWaiting = ['_' => 'phoneCallWaiting', 'video' => Bool, 'id' => long, 'access_hash' => long, 'date' => int, 'admin_id' => long, 'participant_id' => long, 'protocol' => PhoneCallProtocol, 'receive_date' => int];
+$phoneCallWaiting = ['_' => 'phoneCallWaiting', 'video' => Bool, 'id' => long, 'access_hash' => long, 'date' => int, 'admin_id' => long, 'participant_id' => long, 'protocol' => PhoneCallProtocol, 'receive_date' => int, 'conference_call' => InputGroupCall];
 ```  

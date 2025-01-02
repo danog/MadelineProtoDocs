@@ -14,6 +14,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |hide\_name|[Bool](/API_docs/types/Bool.html) | Optional|
+|include\_upgrade|[Bool](/API_docs/types/Bool.html) | Optional|
 |user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
 |gift\_id|[long](/API_docs/types/long.html) | Yes|
 |message|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Optional|
@@ -26,5 +27,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$inputInvoiceStarGift = ['_' => 'inputInvoiceStarGift', 'hide_name' => Bool, 'user_id' => InputUser, 'gift_id' => long, 'message' => TextWithEntities];
+$inputInvoiceStarGift = ['_' => 'inputInvoiceStarGift', 'hide_name' => Bool, 'include_upgrade' => Bool, 'user_id' => InputUser, 'gift_id' => long, 'message' => TextWithEntities];
 ```  

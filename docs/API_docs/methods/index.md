@@ -1626,6 +1626,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="bots.getAdminedBots.html" name="bots.getAdminedBots">bots.getAdminedBots</a>
 
+* <a href="bots.getBotRecommendations.html" name="bots.getBotRecommendations">bots.getBotRecommendations</a>
+
 * <a href="bots.getPopularAppBots.html" name="bots.getPopularAppBots">bots.getPopularAppBots</a>
 
 * <a href="bots.getPreviewInfo.html" name="bots.getPreviewInfo">bots.getPreviewInfo</a>
@@ -1633,6 +1635,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="bots.getPreviewMedias.html" name="bots.getPreviewMedias">bots.getPreviewMedias</a>
 
 * <a href="bots.reorderPreviewMedias.html" name="bots.reorderPreviewMedias">bots.reorderPreviewMedias</a>
+
+* <a href="bots.setCustomVerification.html" name="bots.setCustomVerification">bots.setCustomVerification</a>
 
 * <a href="bots.toggleUserEmojiStatusPermission.html" name="bots.toggleUserEmojiStatusPermission">bots.toggleUserEmojiStatusPermission</a>
 
@@ -1700,6 +1704,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.reorderQuickReplies.html" name="messages.reorderQuickReplies">messages.reorderQuickReplies</a>
 
+* <a href="messages.reportMessagesDelivery.html" name="messages.reportMessagesDelivery">messages.reportMessagesDelivery</a>
+
 * <a href="messages.reportSponsoredMessage.html" name="messages.reportSponsoredMessage">messages.reportSponsoredMessage</a>
 
 * <a href="messages.requestMainWebView.html" name="messages.requestMainWebView">messages.requestMainWebView</a>
@@ -1740,6 +1746,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="payments.getConnectedStarRefBots.html" name="payments.getConnectedStarRefBots">payments.getConnectedStarRefBots</a>
 
+* <a href="payments.getStarGiftUpgradePreview.html" name="payments.getStarGiftUpgradePreview">payments.getStarGiftUpgradePreview</a>
+
 * <a href="payments.getStarGifts.html" name="payments.getStarGifts">payments.getStarGifts</a>
 
 * <a href="payments.getStarsGiftOptions.html" name="payments.getStarsGiftOptions">payments.getStarsGiftOptions</a>
@@ -1764,6 +1772,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="payments.getSuggestedStarRefBots.html" name="payments.getSuggestedStarRefBots">payments.getSuggestedStarRefBots</a>
 
+* <a href="payments.getUserStarGift.html" name="payments.getUserStarGift">payments.getUserStarGift</a>
+
 * <a href="payments.getUserStarGifts.html" name="payments.getUserStarGifts">payments.getUserStarGifts</a>
 
 * <a href="payments.refundStarsCharge.html" name="payments.refundStarsCharge">payments.refundStarsCharge</a>
@@ -1771,6 +1781,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="payments.saveStarGift.html" name="payments.saveStarGift">payments.saveStarGift</a>
 
 * <a href="payments.sendStarsForm.html" name="payments.sendStarsForm">payments.sendStarsForm</a>
+
+* <a href="payments.transferStarGift.html" name="payments.transferStarGift">payments.transferStarGift</a>
+
+* <a href="payments.upgradeStarGift.html" name="payments.upgradeStarGift">payments.upgradeStarGift</a>
+
+* <a href="phone.createConferenceCall.html" name="phone.createConferenceCall">phone.createConferenceCall</a>
 
 * <a href="smsjobs.finishJob.html" name="smsjobs.finishJob">smsjobs.finishJob</a>
 

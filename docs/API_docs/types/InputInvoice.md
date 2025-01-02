@@ -23,6 +23,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [inputInvoiceStarGift](/API_docs/constructors/inputInvoiceStarGift.html)  
 
+[inputInvoiceStarGiftUpgrade](/API_docs/constructors/inputInvoiceStarGiftUpgrade.html)  
+
+[inputInvoiceStarGiftTransfer](/API_docs/constructors/inputInvoiceStarGiftTransfer.html)  
+
 
 
 ### Methods that return an object of this type (methods):

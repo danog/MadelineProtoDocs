@@ -18,6 +18,7 @@ Indicates a service message
 |out|[Bool](/API_docs/types/Bool.html) | Optional|Whether the message is outgoing|
 |mentioned|[Bool](/API_docs/types/Bool.html) | Optional|Whether we were mentioned in the message|
 |media\_unread|[Bool](/API_docs/types/Bool.html) | Optional|Whether the message contains unread media|
+|reactions\_are\_possible|[Bool](/API_docs/types/Bool.html) | Optional|
 |silent|[Bool](/API_docs/types/Bool.html) | Optional|Whether the message is silent|
 |post|[Bool](/API_docs/types/Bool.html) | Optional|Whether it's a channel post|
 |legacy|[Bool](/API_docs/types/Bool.html) | Optional|This is a legacy message: it has to be refetched with the new layer|
@@ -27,6 +28,7 @@ Indicates a service message
 |reply\_to|[MessageReplyHeader](/API_docs/types/MessageReplyHeader.html) | Optional|Reply (thread) information|
 |date|[int](/API_docs/types/int.html) | Yes|Message date|
 |action|[MessageAction](/API_docs/types/MessageAction.html) | Optional|Event connected with the service message|
+|reactions|[MessageReactions](/API_docs/types/MessageReactions.html) | Optional|
 |ttl\_period|[int](/API_docs/types/int.html) | Optional|Time To Live of the message, once message.date+message.ttl\_period === time(), the message will be deleted on the server, and must be deleted locally as well.|
 
 
@@ -37,5 +39,5 @@ Indicates a service message
 ### Example:
 
 ```
-$messageService = ['_' => 'messageService', 'out' => Bool, 'mentioned' => Bool, 'media_unread' => Bool, 'silent' => Bool, 'post' => Bool, 'legacy' => Bool, 'id' => int, 'from_id' => Peer, 'peer_id' => Peer, 'reply_to' => MessageReplyHeader, 'date' => int, 'action' => MessageAction, 'ttl_period' => int];
+$messageService = ['_' => 'messageService', 'out' => Bool, 'mentioned' => Bool, 'media_unread' => Bool, 'reactions_are_possible' => Bool, 'silent' => Bool, 'post' => Bool, 'legacy' => Bool, 'id' => int, 'from_id' => Peer, 'peer_id' => Peer, 'reply_to' => MessageReplyHeader, 'date' => int, 'action' => MessageAction, 'reactions' => MessageReactions, 'ttl_period' => int];
 ```  

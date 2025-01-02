@@ -24,5 +24,7 @@ redirect_from: /API_docs/types/phone_PhoneCall.html
 
 [$MadelineProto->phone->confirmCall](/API_docs/methods/phone.confirmCall.html)  
 
+[$MadelineProto->phone->createConferenceCall](/API_docs/methods/phone.createConferenceCall.html)  
+
 
 

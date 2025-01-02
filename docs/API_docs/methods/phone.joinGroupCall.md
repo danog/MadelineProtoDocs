@@ -22,6 +22,7 @@ Join a group call
 |call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | The group call | Yes|
 |join\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Join the group call, presenting yourself as the specified user/channel | Optional|
 |invite\_hash|[string](/API_docs/types/string.html) | The invitation hash from the [invite link »](https://core.telegram.org/api/links#video-chat-livestream-links), if provided allows speaking in a livestream or muted group chat. | Optional|
+|key\_fingerprint|[strlong](/API_docs/constructors/strlong.html) |  | Optional|
 |params|[DataJSON](/API_docs/types/DataJSON.html) | WebRTC parameters | Yes|
 
 
@@ -44,6 +45,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->phone->joinGroupCall(muted: $Bool, video_stopped: $Bool, call: $InputGroupCall, join_as: $InputPeer, invite_hash: 'string', params: $DataJSON, );
+$Updates = $MadelineProto->phone->joinGroupCall(muted: $Bool, video_stopped: $Bool, call: $InputGroupCall, join_as: $InputPeer, invite_hash: 'string', key_fingerprint: $strlong, params: $DataJSON, );
 ```
 

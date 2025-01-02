@@ -621,6 +621,10 @@ $MadelineProto->[bots->getBotMenuButton](/API_docs/methods/bots.getBotMenuButton
 
 ***
 <br><br>
+$MadelineProto->[bots->getBotRecommendations](/API_docs/methods/bots.getBotRecommendations.html)(\[bot: $[InputUser](/API_docs/types/InputUser.html), \]) === [$users.Users](/API_docs/types/users.Users.html)<a name="bots.getBotRecommendations"></a>  
+
+***
+<br><br>
 $MadelineProto->[bots->getPopularAppBots](/API_docs/methods/bots.getPopularAppBots.html)(\[offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$bots.PopularAppBots](/API_docs/types/bots.PopularAppBots.html)<a name="bots.getPopularAppBots"></a>  
 
 ***
@@ -670,6 +674,10 @@ $MadelineProto->[bots->setBotInfo](/API_docs/methods/bots.setBotInfo.html)(\[bot
 ***
 <br><br>
 $MadelineProto->[bots->setBotMenuButton](/API_docs/methods/bots.setBotMenuButton.html)(\[user_id: $[InputUser](/API_docs/types/InputUser.html), button: $[BotMenuButton](/API_docs/types/BotMenuButton.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="bots.setBotMenuButton"></a>  
+
+***
+<br><br>
+$MadelineProto->[bots->setCustomVerification](/API_docs/methods/bots.setCustomVerification.html)(\[enabled: $[Bool](/API_docs/types/Bool.html), bot: $[InputUser](/API_docs/types/InputUser.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), custom_description: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="bots.setCustomVerification"></a>  
 
 ***
 <br><br>
@@ -1853,6 +1861,10 @@ $MadelineProto->[messages->reportEncryptedSpam](/API_docs/methods/messages.repor
 
 ***
 <br><br>
+$MadelineProto->[messages->reportMessagesDelivery](/API_docs/methods/messages.reportMessagesDelivery.html)(\[push: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), id: \[$[int](/API_docs/types/int.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.reportMessagesDelivery"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->reportReaction](/API_docs/methods/messages.reportReaction.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), id: $[int](/API_docs/types/int.html), reaction_peer: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.reportReaction"></a>  
 
 ***
@@ -1921,7 +1933,7 @@ $MadelineProto->[messages->searchEmojiStickerSets](/API_docs/methods/messages.se
 
 ***
 <br><br>
-$MadelineProto->[messages->searchGlobal](/API_docs/methods/messages.searchGlobal.html)(\[broadcasts_only: $[Bool](/API_docs/types/Bool.html), folder_id: $[int](/API_docs/types/int.html), q: $[string](/API_docs/types/string.html), filter: $[MessagesFilter](/API_docs/types/MessagesFilter.html), min_date: $[int](/API_docs/types/int.html), max_date: $[int](/API_docs/types/int.html), offset_rate: $[int](/API_docs/types/int.html), offset_peer: $[InputPeer](/API_docs/types/InputPeer.html), offset_id: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), \]) === [$messages.Messages](/API_docs/types/messages.Messages.html)<a name="messages.searchGlobal"></a>  
+$MadelineProto->[messages->searchGlobal](/API_docs/methods/messages.searchGlobal.html)(\[broadcasts_only: $[Bool](/API_docs/types/Bool.html), groups_only: $[Bool](/API_docs/types/Bool.html), users_only: $[Bool](/API_docs/types/Bool.html), folder_id: $[int](/API_docs/types/int.html), q: $[string](/API_docs/types/string.html), filter: $[MessagesFilter](/API_docs/types/MessagesFilter.html), min_date: $[int](/API_docs/types/int.html), max_date: $[int](/API_docs/types/int.html), offset_rate: $[int](/API_docs/types/int.html), offset_peer: $[InputPeer](/API_docs/types/InputPeer.html), offset_id: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), \]) === [$messages.Messages](/API_docs/types/messages.Messages.html)<a name="messages.searchGlobal"></a>  
 
 ***
 <br><br>
@@ -2181,7 +2193,7 @@ $MadelineProto->[payments->connectStarRefBot](/API_docs/methods/payments.connect
 
 ***
 <br><br>
-$MadelineProto->[payments->convertStarGift](/API_docs/methods/payments.convertStarGift.html)(\[user_id: $[InputUser](/API_docs/types/InputUser.html), msg_id: $[int](/API_docs/types/int.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.convertStarGift"></a>  
+$MadelineProto->[payments->convertStarGift](/API_docs/methods/payments.convertStarGift.html)(\[msg_id: $[int](/API_docs/types/int.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.convertStarGift"></a>  
 
 ***
 <br><br>
@@ -2226,6 +2238,10 @@ $MadelineProto->[payments->getPremiumGiftCodeOptions](/API_docs/methods/payments
 ***
 <br><br>
 $MadelineProto->[payments->getSavedInfo](/API_docs/methods/payments.getSavedInfo.html)(\[\]) === [$payments.SavedInfo](/API_docs/types/payments.SavedInfo.html)<a name="payments.getSavedInfo"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->getStarGiftUpgradePreview](/API_docs/methods/payments.getStarGiftUpgradePreview.html)(\[gift_id: $[long](/API_docs/types/long.html), \]) === [$payments.StarGiftUpgradePreview](/API_docs/types/payments.StarGiftUpgradePreview.html)<a name="payments.getStarGiftUpgradePreview"></a>  
 
 ***
 <br><br>
@@ -2277,6 +2293,10 @@ $MadelineProto->[payments->getSuggestedStarRefBots](/API_docs/methods/payments.g
 
 ***
 <br><br>
+$MadelineProto->[payments->getUserStarGift](/API_docs/methods/payments.getUserStarGift.html)(\[msg_id: \[$[int](/API_docs/types/int.html)\], \]) === [$payments.UserStarGifts](/API_docs/types/payments.UserStarGifts.html)<a name="payments.getUserStarGift"></a>  
+
+***
+<br><br>
 $MadelineProto->[payments->getUserStarGifts](/API_docs/methods/payments.getUserStarGifts.html)(\[user_id: $[InputUser](/API_docs/types/InputUser.html), offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$payments.UserStarGifts](/API_docs/types/payments.UserStarGifts.html)<a name="payments.getUserStarGifts"></a>  
 
 ***
@@ -2289,7 +2309,7 @@ $MadelineProto->[payments->refundStarsCharge](/API_docs/methods/payments.refundS
 
 ***
 <br><br>
-$MadelineProto->[payments->saveStarGift](/API_docs/methods/payments.saveStarGift.html)(\[unsave: $[Bool](/API_docs/types/Bool.html), user_id: $[InputUser](/API_docs/types/InputUser.html), msg_id: $[int](/API_docs/types/int.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.saveStarGift"></a>  
+$MadelineProto->[payments->saveStarGift](/API_docs/methods/payments.saveStarGift.html)(\[unsave: $[Bool](/API_docs/types/Bool.html), msg_id: $[int](/API_docs/types/int.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.saveStarGift"></a>  
 
 ***
 <br><br>
@@ -2298,6 +2318,14 @@ $MadelineProto->[payments->sendPaymentForm](/API_docs/methods/payments.sendPayme
 ***
 <br><br>
 $MadelineProto->[payments->sendStarsForm](/API_docs/methods/payments.sendStarsForm.html)(\[form_id: $[long](/API_docs/types/long.html), invoice: $[InputInvoice](/API_docs/types/InputInvoice.html), \]) === [$payments.PaymentResult](/API_docs/types/payments.PaymentResult.html)<a name="payments.sendStarsForm"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->transferStarGift](/API_docs/methods/payments.transferStarGift.html)(\[msg_id: $[int](/API_docs/types/int.html), to_id: $[InputUser](/API_docs/types/InputUser.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.transferStarGift"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->upgradeStarGift](/API_docs/methods/payments.upgradeStarGift.html)(\[keep_original_details: $[Bool](/API_docs/types/Bool.html), msg_id: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.upgradeStarGift"></a>  
 
 ***
 <br><br>
@@ -2314,6 +2342,10 @@ $MadelineProto->[phone->checkGroupCall](/API_docs/methods/phone.checkGroupCall.h
 ***
 <br><br>
 $MadelineProto->[phone->confirmCall](/API_docs/methods/phone.confirmCall.html)(\[peer: $[InputPhoneCall](/API_docs/types/InputPhoneCall.html), g_a: $[bytes](/API_docs/types/bytes.html), key_fingerprint: $[strlong](/API_docs/constructors/strlong.html), protocol: $[PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.html), \]) === [$phone.PhoneCall](/API_docs/types/phone.PhoneCall.html)<a name="phone.confirmCall"></a>  
+
+***
+<br><br>
+$MadelineProto->[phone->createConferenceCall](/API_docs/methods/phone.createConferenceCall.html)(\[peer: $[InputPhoneCall](/API_docs/types/InputPhoneCall.html), key_fingerprint: $[strlong](/API_docs/constructors/strlong.html), \]) === [$phone.PhoneCall](/API_docs/types/phone.PhoneCall.html)<a name="phone.createConferenceCall"></a>  
 
 ***
 <br><br>
@@ -2369,7 +2401,7 @@ $MadelineProto->[phone->inviteToGroupCall](/API_docs/methods/phone.inviteToGroup
 
 ***
 <br><br>
-$MadelineProto->[phone->joinGroupCall](/API_docs/methods/phone.joinGroupCall.html)(\[muted: $[Bool](/API_docs/types/Bool.html), video_stopped: $[Bool](/API_docs/types/Bool.html), call: $[InputGroupCall](/API_docs/types/InputGroupCall.html), join_as: $[InputPeer](/API_docs/types/InputPeer.html), invite_hash: $[string](/API_docs/types/string.html), params: $[DataJSON](/API_docs/types/DataJSON.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="phone.joinGroupCall"></a>  
+$MadelineProto->[phone->joinGroupCall](/API_docs/methods/phone.joinGroupCall.html)(\[muted: $[Bool](/API_docs/types/Bool.html), video_stopped: $[Bool](/API_docs/types/Bool.html), call: $[InputGroupCall](/API_docs/types/InputGroupCall.html), join_as: $[InputPeer](/API_docs/types/InputPeer.html), invite_hash: $[string](/API_docs/types/string.html), key_fingerprint: $[strlong](/API_docs/constructors/strlong.html), params: $[DataJSON](/API_docs/types/DataJSON.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="phone.joinGroupCall"></a>  
 
 ***
 <br><br>
@@ -2389,7 +2421,7 @@ $MadelineProto->[phone->receivedCall](/API_docs/methods/phone.receivedCall.html)
 
 ***
 <br><br>
-$MadelineProto->[phone->requestCall](/API_docs/methods/phone.requestCall.html)(\[video: $[Bool](/API_docs/types/Bool.html), user_id: $[InputUser](/API_docs/types/InputUser.html), g_a_hash: $[bytes](/API_docs/types/bytes.html), protocol: $[PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.html), \]) === [$phone.PhoneCall](/API_docs/types/phone.PhoneCall.html)<a name="phone.requestCall"></a>  
+$MadelineProto->[phone->requestCall](/API_docs/methods/phone.requestCall.html)(\[video: $[Bool](/API_docs/types/Bool.html), user_id: $[InputUser](/API_docs/types/InputUser.html), conference_call: $[InputGroupCall](/API_docs/types/InputGroupCall.html), g_a_hash: $[bytes](/API_docs/types/bytes.html), protocol: $[PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.html), \]) === [$phone.PhoneCall](/API_docs/types/phone.PhoneCall.html)<a name="phone.requestCall"></a>  
 
 ***
 <br><br>

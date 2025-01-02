@@ -105,6 +105,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageActionStarGift](/API_docs/constructors/messageActionStarGift.html)  
 
+[messageActionStarGiftUnique](/API_docs/constructors/messageActionStarGiftUnique.html)  
+
 
 
 ### Methods that return an object of this type (methods):

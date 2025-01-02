@@ -13,6 +13,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [starGift](/API_docs/constructors/starGift.html)  
 
+[starGiftUnique](/API_docs/constructors/starGiftUnique.html)  
+
 
 
 ### Methods that return an object of this type (methods):

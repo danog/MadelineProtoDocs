@@ -23,6 +23,7 @@ An accepted phone call
 |participant\_id|[long](/API_docs/types/long.html) | Yes|ID of the other user in the call|
 |g\_b|[bytes](/API_docs/types/bytes.html) | Yes|B parameter for [secure E2E phone call key exchange](https://core.telegram.org/api/end-to-end/voice-calls)|
 |protocol|[PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.html) | Yes|Protocol to use for phone call|
+|conference\_call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Optional|
 
 
 
@@ -32,5 +33,5 @@ An accepted phone call
 ### Example:
 
 ```
-$phoneCallAccepted = ['_' => 'phoneCallAccepted', 'video' => Bool, 'id' => long, 'access_hash' => long, 'date' => int, 'admin_id' => long, 'participant_id' => long, 'g_b' => 'bytes', 'protocol' => PhoneCallProtocol];
+$phoneCallAccepted = ['_' => 'phoneCallAccepted', 'video' => Bool, 'id' => long, 'access_hash' => long, 'date' => int, 'admin_id' => long, 'participant_id' => long, 'g_b' => 'bytes', 'protocol' => PhoneCallProtocol, 'conference_call' => InputGroupCall];
 ```  

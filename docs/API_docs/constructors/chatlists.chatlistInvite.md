@@ -16,7 +16,8 @@ Info about a [chat folder deep link »](https://core.telegram.org/api/links#chat
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|title|[string](/API_docs/types/string.html) | Yes|Name of the link|
+|title\_noanimate|[Bool](/API_docs/types/Bool.html) | Optional|
+|title|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Yes|
 |emoticon|[string](/API_docs/types/string.html) | Optional|Emoji to use as icon for the folder.|
 |peers|Array of [Peer](/API_docs/types/Peer.html) | Yes|Supergroups and channels to join|
 |chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Related chat information|
@@ -30,5 +31,5 @@ Info about a [chat folder deep link »](https://core.telegram.org/api/links#chat
 ### Example:
 
 ```
-$chatlists_chatlistInvite = ['_' => 'chatlists.chatlistInvite', 'title' => 'string', 'emoticon' => 'string', 'peers' => [Peer, Peer], 'chats' => [Chat, Chat], 'users' => [User, User]];
+$chatlists_chatlistInvite = ['_' => 'chatlists.chatlistInvite', 'title_noanimate' => Bool, 'title' => TextWithEntities, 'emoticon' => 'string', 'peers' => [Peer, Peer], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

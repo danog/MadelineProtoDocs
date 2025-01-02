@@ -18,6 +18,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |failed|[Bool](/API_docs/types/Bool.html) | Optional|
 |gift|[Bool](/API_docs/types/Bool.html) | Optional|
 |reaction|[Bool](/API_docs/types/Bool.html) | Optional|
+|stargift\_upgrade|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[string](/API_docs/types/string.html) | Yes|
 |stars|[StarsAmount](/API_docs/types/StarsAmount.html) | Yes|
 |date|[int](/API_docs/types/int.html) | Yes|
@@ -46,5 +47,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$starsTransaction = ['_' => 'starsTransaction', 'refund' => Bool, 'pending' => Bool, 'failed' => Bool, 'gift' => Bool, 'reaction' => Bool, 'id' => 'string', 'stars' => StarsAmount, 'date' => int, 'peer' => StarsTransactionPeer, 'title' => 'string', 'description' => 'string', 'photo' => WebDocument, 'transaction_date' => int, 'transaction_url' => 'string', 'bot_payload' => 'bytes', 'msg_id' => int, 'extended_media' => [MessageMedia, MessageMedia], 'subscription_period' => int, 'giveaway_post_id' => int, 'stargift' => StarGift, 'floodskip_number' => int, 'starref_commission_permille' => int, 'starref_peer' => Peer, 'starref_amount' => StarsAmount];
+$starsTransaction = ['_' => 'starsTransaction', 'refund' => Bool, 'pending' => Bool, 'failed' => Bool, 'gift' => Bool, 'reaction' => Bool, 'stargift_upgrade' => Bool, 'id' => 'string', 'stars' => StarsAmount, 'date' => int, 'peer' => StarsTransactionPeer, 'title' => 'string', 'description' => 'string', 'photo' => WebDocument, 'transaction_date' => int, 'transaction_url' => 'string', 'bot_payload' => 'bytes', 'msg_id' => int, 'extended_media' => [MessageMedia, MessageMedia], 'subscription_period' => int, 'giveaway_post_id' => int, 'stargift' => StarGift, 'floodskip_number' => int, 'starref_commission_permille' => int, 'starref_peer' => Peer, 'starref_amount' => StarsAmount];
 ```  

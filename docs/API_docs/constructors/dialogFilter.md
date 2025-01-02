@@ -23,8 +23,9 @@ Dialog filter AKA [folder](https://core.telegram.org/api/folders)
 |exclude\_muted|[Bool](/API_docs/types/Bool.html) | Optional|Whether to exclude muted chats from this [folder](https://core.telegram.org/api/folders)|
 |exclude\_read|[Bool](/API_docs/types/Bool.html) | Optional|Whether to exclude read chats from this [folder](https://core.telegram.org/api/folders)|
 |exclude\_archived|[Bool](/API_docs/types/Bool.html) | Optional|Whether to exclude archived chats from this [folder](https://core.telegram.org/api/folders)|
+|title\_noanimate|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[int](/API_docs/types/int.html) | Yes|[Folder](https://core.telegram.org/api/folders) ID|
-|title|[string](/API_docs/types/string.html) | Yes|[Folder](https://core.telegram.org/api/folders) name|
+|title|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Yes|
 |emoticon|[string](/API_docs/types/string.html) | Optional|Emoji to use as icon for the folder.|
 |color|[int](/API_docs/types/int.html) | Optional|
 |pinned\_peers|Array of [InputPeer](/API_docs/types/InputPeer.html) | Yes|Pinned chats, [folders](https://core.telegram.org/api/folders) can have unlimited pinned chats|
@@ -39,5 +40,5 @@ Dialog filter AKA [folder](https://core.telegram.org/api/folders)
 ### Example:
 
 ```
-$dialogFilter = ['_' => 'dialogFilter', 'contacts' => Bool, 'non_contacts' => Bool, 'groups' => Bool, 'broadcasts' => Bool, 'bots' => Bool, 'exclude_muted' => Bool, 'exclude_read' => Bool, 'exclude_archived' => Bool, 'id' => int, 'title' => 'string', 'emoticon' => 'string', 'color' => int, 'pinned_peers' => [InputPeer, InputPeer], 'include_peers' => [InputPeer, InputPeer], 'exclude_peers' => [InputPeer, InputPeer]];
+$dialogFilter = ['_' => 'dialogFilter', 'contacts' => Bool, 'non_contacts' => Bool, 'groups' => Bool, 'broadcasts' => Bool, 'bots' => Bool, 'exclude_muted' => Bool, 'exclude_read' => Bool, 'exclude_archived' => Bool, 'title_noanimate' => Bool, 'id' => int, 'title' => TextWithEntities, 'emoticon' => 'string', 'color' => int, 'pinned_peers' => [InputPeer, InputPeer], 'include_peers' => [InputPeer, InputPeer], 'exclude_peers' => [InputPeer, InputPeer]];
 ```  

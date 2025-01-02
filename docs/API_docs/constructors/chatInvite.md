@@ -32,6 +32,7 @@ Chat invite info
 |color|[int](/API_docs/types/int.html) | Yes|[Profile color palette ID](https://core.telegram.org/api/colors)|
 |subscription\_pricing|[StarsSubscriptionPricing](/API_docs/types/StarsSubscriptionPricing.html) | Optional|
 |subscription\_form\_id|[long](/API_docs/types/long.html) | Optional|
+|bot\_verification|[BotVerification](/API_docs/types/BotVerification.html) | Optional|
 
 
 
@@ -41,5 +42,5 @@ Chat invite info
 ### Example:
 
 ```
-$chatInvite = ['_' => 'chatInvite', 'channel' => Bool, 'broadcast' => Bool, 'public' => Bool, 'megagroup' => Bool, 'request_needed' => Bool, 'verified' => Bool, 'scam' => Bool, 'fake' => Bool, 'can_refulfill_subscription' => Bool, 'title' => 'string', 'about' => 'string', 'photo' => Photo, 'participants_count' => int, 'participants' => [User, User], 'color' => int, 'subscription_pricing' => StarsSubscriptionPricing, 'subscription_form_id' => long];
+$chatInvite = ['_' => 'chatInvite', 'channel' => Bool, 'broadcast' => Bool, 'public' => Bool, 'megagroup' => Bool, 'request_needed' => Bool, 'verified' => Bool, 'scam' => Bool, 'fake' => Bool, 'can_refulfill_subscription' => Bool, 'title' => 'string', 'about' => 'string', 'photo' => Photo, 'participants_count' => int, 'participants' => [User, User], 'color' => int, 'subscription_pricing' => StarsSubscriptionPricing, 'subscription_form_id' => long, 'bot_verification' => BotVerification];
 ```  

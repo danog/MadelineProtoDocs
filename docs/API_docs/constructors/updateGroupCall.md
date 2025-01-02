@@ -15,7 +15,7 @@ A new groupcall was started
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chat\_id|[long](/API_docs/types/long.html) | Yes|The [channel/supergroup](https://core.telegram.org/api/channel) where this group call or livestream takes place|
+|chat\_id|[long](/API_docs/types/long.html) | Optional|The [channel/supergroup](https://core.telegram.org/api/channel) where this group call or livestream takes place|
 |call|[GroupCall](/API_docs/types/GroupCall.html) | Yes|Info about the group call or livestream|
 
 

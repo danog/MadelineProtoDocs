@@ -63,6 +63,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [BotPreviewMedia](/API_docs/types/BotPreviewMedia.html)<a name="BotPreviewMedia"></a>  
 
+[BotVerification](/API_docs/types/BotVerification.html)<a name="BotVerification"></a>  
+
+[BotVerifierSettings](/API_docs/types/BotVerifierSettings.html)<a name="BotVerifierSettings"></a>  
+
 [BroadcastRevenueBalances](/API_docs/types/BroadcastRevenueBalances.html)<a name="BroadcastRevenueBalances"></a>  
 
 [BroadcastRevenueTransaction](/API_docs/types/BroadcastRevenueTransaction.html)<a name="BroadcastRevenueTransaction"></a>  
@@ -585,6 +589,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [StarGift](/API_docs/types/StarGift.html)<a name="StarGift"></a>  
 
+[StarGiftAttribute](/API_docs/types/StarGiftAttribute.html)<a name="StarGiftAttribute"></a>  
+
 [StarRefProgram](/API_docs/types/StarRefProgram.html)<a name="StarRefProgram"></a>  
 
 [StarsAmount](/API_docs/types/StarsAmount.html)<a name="StarsAmount"></a>  
@@ -981,6 +987,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [payments.SavedInfo](/API_docs/types/payments.SavedInfo.html)<a name="payments.SavedInfo"></a>  
 
+[payments.StarGiftUpgradePreview](/API_docs/types/payments.StarGiftUpgradePreview.html)<a name="payments.StarGiftUpgradePreview"></a>  
+
 [payments.StarGifts](/API_docs/types/payments.StarGifts.html)<a name="payments.StarGifts"></a>  
 
 [payments.StarsRevenueAdsAccountUrl](/API_docs/types/payments.StarsRevenueAdsAccountUrl.html)<a name="payments.StarsRevenueAdsAccountUrl"></a>  
@@ -1072,4 +1080,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [upload.WebFile](/API_docs/types/upload.WebFile.html)<a name="upload.WebFile"></a>  
 
 [users.UserFull](/API_docs/types/users.UserFull.html)<a name="users.UserFull"></a>  
+
+[users.Users](/API_docs/types/users.Users.html)<a name="users.Users"></a>  
 

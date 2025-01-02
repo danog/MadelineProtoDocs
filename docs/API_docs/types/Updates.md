@@ -206,6 +206,10 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->payments->refundStarsCharge](/API_docs/methods/payments.refundStarsCharge.html)  
 
+[$MadelineProto->payments->upgradeStarGift](/API_docs/methods/payments.upgradeStarGift.html)  
+
+[$MadelineProto->payments->transferStarGift](/API_docs/methods/payments.transferStarGift.html)  
+
 [$MadelineProto->phone->discardCall](/API_docs/methods/phone.discardCall.html)  
 
 [$MadelineProto->phone->setCallRating](/API_docs/methods/phone.setCallRating.html)  

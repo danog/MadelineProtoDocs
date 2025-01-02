@@ -16,8 +16,9 @@ A folder imported using a [chat folder deep link »](https://core.telegram.org/a
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |has\_my\_invites|[Bool](/API_docs/types/Bool.html) | Optional|Whether the current user has created some [chat folder deep links »](https://core.telegram.org/api/links#chat-folder-links) to share the folder as well.|
+|title\_noanimate|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[int](/API_docs/types/int.html) | Yes|ID of the folder|
-|title|[string](/API_docs/types/string.html) | Yes|Name of the folder|
+|title|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Yes|
 |emoticon|[string](/API_docs/types/string.html) | Optional|Emoji to use as icon for the folder.|
 |color|[int](/API_docs/types/int.html) | Optional|
 |pinned\_peers|Array of [InputPeer](/API_docs/types/InputPeer.html) | Yes|Pinned chats, [folders](https://core.telegram.org/api/folders) can have unlimited pinned chats|
@@ -31,5 +32,5 @@ A folder imported using a [chat folder deep link »](https://core.telegram.org/a
 ### Example:
 
 ```
-$dialogFilterChatlist = ['_' => 'dialogFilterChatlist', 'has_my_invites' => Bool, 'id' => int, 'title' => 'string', 'emoticon' => 'string', 'color' => int, 'pinned_peers' => [InputPeer, InputPeer], 'include_peers' => [InputPeer, InputPeer]];
+$dialogFilterChatlist = ['_' => 'dialogFilterChatlist', 'has_my_invites' => Bool, 'title_noanimate' => Bool, 'id' => int, 'title' => TextWithEntities, 'emoticon' => 'string', 'color' => int, 'pinned_peers' => [InputPeer, InputPeer], 'include_peers' => [InputPeer, InputPeer]];
 ```  

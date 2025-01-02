@@ -24,6 +24,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |convert\_stars|[long](/API_docs/types/long.html) | Yes|
 |first\_sale\_date|[int](/API_docs/types/int.html) | Optional|
 |last\_sale\_date|[int](/API_docs/types/int.html) | Optional|
+|upgrade\_stars|[long](/API_docs/types/long.html) | Optional|
 
 
 
@@ -33,5 +34,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$starGift = ['_' => 'starGift', 'limited' => Bool, 'sold_out' => Bool, 'birthday' => Bool, 'id' => long, 'sticker' => Document, 'stars' => long, 'availability_remains' => int, 'availability_total' => int, 'convert_stars' => long, 'first_sale_date' => int, 'last_sale_date' => int];
+$starGift = ['_' => 'starGift', 'limited' => Bool, 'sold_out' => Bool, 'birthday' => Bool, 'id' => long, 'sticker' => Document, 'stars' => long, 'availability_remains' => int, 'availability_total' => int, 'convert_stars' => long, 'first_sale_date' => int, 'last_sale_date' => int, 'upgrade_stars' => long];
 ```  

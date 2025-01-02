@@ -28,6 +28,7 @@ Phone call
 |connections|Array of [PhoneConnection](/API_docs/types/PhoneConnection.html) | Yes|List of endpoints the user can connect to to exchange call data|
 |start\_date|[int](/API_docs/types/int.html) | Yes|When was the call actually started|
 |custom\_parameters|[DataJSON](/API_docs/types/DataJSON.html) | Optional|
+|conference\_call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Optional|
 
 
 
@@ -37,5 +38,5 @@ Phone call
 ### Example:
 
 ```
-$phoneCall = ['_' => 'phoneCall', 'p2p_allowed' => Bool, 'video' => Bool, 'id' => long, 'access_hash' => long, 'date' => int, 'admin_id' => long, 'participant_id' => long, 'g_a_or_b' => 'bytes', 'key_fingerprint' => long, 'protocol' => PhoneCallProtocol, 'connections' => [PhoneConnection, PhoneConnection], 'start_date' => int, 'custom_parameters' => DataJSON];
+$phoneCall = ['_' => 'phoneCall', 'p2p_allowed' => Bool, 'video' => Bool, 'id' => long, 'access_hash' => long, 'date' => int, 'admin_id' => long, 'participant_id' => long, 'g_a_or_b' => 'bytes', 'key_fingerprint' => long, 'protocol' => PhoneCallProtocol, 'connections' => [PhoneConnection, PhoneConnection], 'start_date' => int, 'custom_parameters' => DataJSON, 'conference_call' => InputGroupCall];
 ```  

@@ -23,6 +23,7 @@ Requested phone call
 |participant\_id|[long](/API_docs/types/long.html) | Yes|ID of the other participant of the phone call|
 |g\_a\_hash|[bytes](/API_docs/types/bytes.html) | Yes|[Parameter for key exchange](https://core.telegram.org/api/end-to-end/voice-calls)|
 |protocol|[PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.html) | Yes|Call protocol info to be passed to libtgvoip|
+|conference\_call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Optional|
 
 
 
@@ -32,5 +33,5 @@ Requested phone call
 ### Example:
 
 ```
-$phoneCallRequested = ['_' => 'phoneCallRequested', 'video' => Bool, 'id' => long, 'access_hash' => long, 'date' => int, 'admin_id' => long, 'participant_id' => long, 'g_a_hash' => 'bytes', 'protocol' => PhoneCallProtocol];
+$phoneCallRequested = ['_' => 'phoneCallRequested', 'video' => Bool, 'id' => long, 'access_hash' => long, 'date' => int, 'admin_id' => long, 'participant_id' => long, 'g_a_hash' => 'bytes', 'protocol' => PhoneCallProtocol, 'conference_call' => InputGroupCall];
 ```  
