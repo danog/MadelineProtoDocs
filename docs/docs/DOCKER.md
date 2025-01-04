@@ -52,6 +52,7 @@ services:
   bot:
     image: hub.madelineproto.xyz/danog/madelineproto
     restart: always
+    init: true
     #depends_on:
       #- mariadb
       #- postgres
@@ -142,6 +143,7 @@ services:
   php-fpm:
     image: hub.madelineproto.xyz/danog/madelineproto
     restart: always
+    init: true
     #depends_on:
       #- mariadb
       #- postgres
