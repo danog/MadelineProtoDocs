@@ -18,7 +18,7 @@ This object contains information about an incoming pre-checkout query.
 ## Properties
 * `$queryId`: `int` Unique query identifier
 * `$userId`: `int` User who sent the query
-* `$payload`: `string` Bot specified invoice payload
+* `$payload`: `danog\MadelineProto\TL\Types\Bytes` Bot specified invoice payload
 * `$info`: `?danog\MadelineProto\EventHandler\Payments\PaymentRequestedInfo` Order info provided by the user
 * `$shippingOptionId`: `?string` Identifier of the shipping option chosen by the user
 * `$currency`: `string` Three-letter ISO 4217 currency code
