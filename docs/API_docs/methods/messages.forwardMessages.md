@@ -23,14 +23,14 @@ Forwards messages by their IDs.
 |drop\_author|[Bool](/API_docs/types/Bool.html) | Whether to forward messages without quoting the original author | Optional|
 |drop\_media\_captions|[Bool](/API_docs/types/Bool.html) | Whether to strip captions from media | Optional|
 |noforwards|[Bool](/API_docs/types/Bool.html) | Only for bots, disallows further re-forwarding and saving of the messages, even if the destination chat doesn't have [content protection](https://telegram.org/blog/protected-content-delete-by-date-and-more) enabled | Optional|
-|allow\_paid\_floodskip|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|allow\_paid\_floodskip|[Bool](/API_docs/types/Bool.html) | Bots only: if set, allows sending up to 1000 messages per second, ignoring [broadcasting limits](https://core.telegram.org/bots/faq#how-can-i-message-all-of-my-bot-39s-subscribers-at-once) for a fee of 0.1 Telegram Stars per message. The relevant Stars will be withdrawn from the bot's balance. | Optional|
 |from\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Source of messages | Optional|
 |id|Array of [int](/API_docs/types/int.html) | IDs of messages | Yes|
 |to\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Destination peer | Optional|
 |top\_msg\_id|[int](/API_docs/types/int.html) | Destination [forum topic](https://core.telegram.org/api/forum#forum-topics) | Optional|
 |schedule\_date|[int](/API_docs/types/int.html) | Scheduled message date for scheduled messages | Optional|
 |send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Forward the messages as the specified peer | Optional|
-|quick\_reply\_shortcut|[InputQuickReplyShortcut](/API_docs/types/InputQuickReplyShortcut.html) |  | Optional|
+|quick\_reply\_shortcut|[InputQuickReplyShortcut](/API_docs/types/InputQuickReplyShortcut.html) | Add the messages to the specified [quick reply shortcut »](https://core.telegram.org/api/business#quick-reply-shortcuts), instead. | Optional|
 |video\_timestamp|[int](/API_docs/types/int.html) |  | Optional|
 
 

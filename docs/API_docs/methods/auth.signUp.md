@@ -17,7 +17,7 @@ You cannot use this method directly, use the completeSignup method instead (see 
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|no\_joined\_notifications|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|no\_joined\_notifications|[Bool](/API_docs/types/Bool.html) | If set, users on Telegram that have already added `phone_number` to their contacts will *not* receive signup notifications about this user. | Optional|
 |phone\_number|[string](/API_docs/types/string.html) | Phone number in the international format | Optional|
 |phone\_code\_hash|[string](/API_docs/types/string.html) | SMS-message ID | Optional|
 |first\_name|[string](/API_docs/types/string.html) | New user first name | Optional|

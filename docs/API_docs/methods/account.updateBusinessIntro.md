@@ -1,6 +1,6 @@
 ---
 title: "account.updateBusinessIntro"
-description: "account.updateBusinessIntro parameters, return type and example"
+description: "Set or remove the [Telegram Business introduction »](https://core.telegram.org/api/business#business-introduction)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/account_updateBusinessIntro.html
 
 
 
+Set or remove the [Telegram Business introduction »](https://core.telegram.org/api/business#business-introduction).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|intro|[InputBusinessIntro](/API_docs/types/InputBusinessIntro.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|intro|[InputBusinessIntro](/API_docs/types/InputBusinessIntro.html) | Telegram Business introduction, to remove it call the method without setting this flag. | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

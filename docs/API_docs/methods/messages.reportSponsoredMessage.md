@@ -1,6 +1,6 @@
 ---
 title: "messages.reportSponsoredMessage"
-description: "messages.reportSponsoredMessage parameters, return type and example"
+description: "Report a [sponsored message »](https://core.telegram.org/api/sponsored-messages), see [here »](https://core.telegram.org/api/sponsored-messages#reporting-sponsored-messages) for more info on the full flow."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/messages_reportSponsoredMessage.html
 
 
 
+Report a [sponsored message »](https://core.telegram.org/api/sponsored-messages), see [here »](https://core.telegram.org/api/sponsored-messages#reporting-sponsored-messages) for more info on the full flow.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|random\_id|[bytes](/API_docs/types/bytes.html) | Yes|
-|option|[bytes](/API_docs/types/bytes.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The channel/bot where the ad is located | Optional|
+|random\_id|[bytes](/API_docs/types/bytes.html) | The ad's unique ID. | Yes|
+|option|[bytes](/API_docs/types/bytes.html) | Chosen report option, initially an empty string, see [here »](https://core.telegram.org/api/sponsored-messages#reporting-sponsored-messages) for more info on the full flow. | Yes|
 
 
 ### Return type: [channels.SponsoredMessageReportResult](/API_docs/types/channels.SponsoredMessageReportResult.html)

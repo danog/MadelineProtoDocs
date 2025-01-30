@@ -1,6 +1,6 @@
 ---
 title: "messages.getSavedReactionTags"
-description: "messages.getSavedReactionTags parameters, return type and example"
+description: "Fetch the full list of [saved message tags](https://core.telegram.org/api/saved-messages#tags) created by the user."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/messages_getSavedReactionTags.html
 
 
 
+Fetch the full list of [saved message tags](https://core.telegram.org/api/saved-messages#tags) created by the user.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|hash|Array of [long\|string](/API_docs/types/long\|string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | If set, returns tags only used in the specified [saved message dialog](https://core.telegram.org/api/saved-messages#saved-message-dialogs). | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | [Hash used for caching, for more info click here](https://core.telegram.org/api/offsets#hash-generation). | Optional|
 
 
 ### Return type: [messages.SavedReactionTags](/API_docs/types/messages.SavedReactionTags.html)

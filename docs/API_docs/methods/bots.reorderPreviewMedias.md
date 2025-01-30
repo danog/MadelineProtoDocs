@@ -1,6 +1,6 @@
 ---
 title: "bots.reorderPreviewMedias"
-description: "bots.reorderPreviewMedias parameters, return type and example"
+description: "Reorder a [main mini app previews, see here »](https://core.telegram.org/api/bots/webapps#main-mini-app-previews) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,17 @@ redirect_from: /API_docs/methods/bots_reorderPreviewMedias.html
 
 
 
+Reorder a [main mini app previews, see here »](https://core.telegram.org/api/bots/webapps#main-mini-app-previews) for more info.
+
+Only owners of bots with a configured Main Mini App can use this method, see [see here »](https://core.telegram.org/api/bots/webapps#main-mini-app-previews) for more info on how to check if you can invoke this method.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
-|lang\_code|[string](/API_docs/types/string.html) | Optional|
-|order|Array of [MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The bot that owns the Main Mini App. | Optional|
+|lang\_code|[string](/API_docs/types/string.html) | ISO 639-1 language code, indicating the localization of the previews to reorder. | Optional|
+|order|Array of [MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) | New order of the previews. | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

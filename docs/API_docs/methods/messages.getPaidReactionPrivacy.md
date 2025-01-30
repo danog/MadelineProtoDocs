@@ -1,6 +1,6 @@
 ---
 title: "messages.getPaidReactionPrivacy"
-description: "messages.getPaidReactionPrivacy parameters, return type and example"
+description: "Fetches an [updatePaidReactionPrivacy](../constructors/updatePaidReactionPrivacy.html) update with the current [default paid reaction privacy, see here »](https://core.telegram.org/api/reactions#paid-reactions) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -10,6 +10,8 @@ redirect_from: /API_docs/methods/messages_getPaidReactionPrivacy.html
 [Back to methods index](index.html)
 
 
+
+Fetches an [updatePaidReactionPrivacy](../constructors/updatePaidReactionPrivacy.html) update with the current [default paid reaction privacy, see here »](https://core.telegram.org/api/reactions#paid-reactions) for more info.
 
 
 

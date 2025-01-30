@@ -18,7 +18,7 @@ Prompts the user to select and share one or more peers with the bot using [messa
 |text|[string](/API_docs/types/string.html) | Yes|Button text|
 |button\_id|[int](/API_docs/types/int.html) | Yes|Button ID, to be passed to [messages.sendBotRequestedPeer](../methods/messages.sendBotRequestedPeer.html).|
 |peer\_type|[RequestPeerType](/API_docs/types/RequestPeerType.html) | Yes|Filtering criteria to use for the peer selection list shown to the user. <br>The list should display all existing peers of the specified type, and should also offer an option for the user to create and immediately use one or more (up to `max_quantity`) peers of the specified type, if needed.|
-|max\_quantity|[int](/API_docs/types/int.html) | Yes|Maximum number of peers that can be chosne.|
+|max\_quantity|[int](/API_docs/types/int.html) | Yes|Maximum number of peers that can be chosen.|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "stickers.addStickerToSet"
-description: "Add a sticker to a stickerset, bots only. The sticker set must have been created by the bot."
+description: "Add a sticker to a stickerset. The sticker set must have been created by the current user/bot."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/stickers_addStickerToSet.html
 
 
 
-Add a sticker to a stickerset, bots only. The sticker set must have been created by the bot.
+Add a sticker to a stickerset. The sticker set must have been created by the current user/bot.
 
 ### Parameters:
 

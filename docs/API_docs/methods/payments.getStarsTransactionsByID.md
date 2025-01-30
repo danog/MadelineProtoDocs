@@ -1,6 +1,6 @@
 ---
 title: "payments.getStarsTransactionsByID"
-description: "payments.getStarsTransactionsByID parameters, return type and example"
+description: "Obtain info about [Telegram Star transactions »](https://core.telegram.org/api/stars#balance-and-transaction-history) using specific transaction IDs."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/payments_getStarsTransactionsByID.html
 
 
 
+Obtain info about [Telegram Star transactions »](https://core.telegram.org/api/stars#balance-and-transaction-history) using specific transaction IDs.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|id|Array of [InputStarsTransaction](/API_docs/types/InputStarsTransaction.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Channel or bot. | Optional|
+|id|Array of [InputStarsTransaction](/API_docs/types/InputStarsTransaction.html) | Transaction IDs. | Yes|
 
 
 ### Return type: [payments.StarsStatus](/API_docs/types/payments.StarsStatus.html)

@@ -1,6 +1,6 @@
 ---
 title: "updateDeleteQuickReply"
-description: "updateDeleteQuickReply attributes, type and example"
+description: "A quick reply shortcut » was deleted. This will not emit updateDeleteQuickReplyMessages updates, even if all the messages in the shortcut are also deleted by this update."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A [quick reply shortcut »](https://core.telegram.org/api/business#quick-reply-shortcuts) was deleted. This will **not** emit [updateDeleteQuickReplyMessages](../constructors/updateDeleteQuickReplyMessages.html) updates, even if all the messages in the shortcut are also deleted by this update.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|shortcut\_id|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|shortcut\_id|[int](/API_docs/types/int.html) | Yes|ID of the quick reply shortcut that was deleted.|
 
 
 

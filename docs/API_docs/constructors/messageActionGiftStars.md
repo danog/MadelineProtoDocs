@@ -1,6 +1,6 @@
 ---
 title: "messageActionGiftStars"
-description: "messageActionGiftStars attributes, type and example"
+description: "You gifted or were gifted some Telegram Stars."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,16 +9,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+You gifted or were gifted some [Telegram Stars](https://core.telegram.org/api/stars).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|currency|[string](/API_docs/types/string.html) | Yes|
-|amount|[long](/API_docs/types/long.html) | Yes|
-|stars|[long](/API_docs/types/long.html) | Yes|
-|crypto\_currency|[string](/API_docs/types/string.html) | Optional|
-|crypto\_amount|[long](/API_docs/types/long.html) | Optional|
-|transaction\_id|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|currency|[string](/API_docs/types/string.html) | Yes|Three-letter ISO 4217 [currency](https://core.telegram.org/bots/payments#supported-currencies) code|
+|amount|[long](/API_docs/types/long.html) | Yes|Price of the gift in the smallest units of the currency (integer, not float/double). For example, for a price of `US$ 1.45` pass `amount = 145`. See the exp parameter in [currencies.json](https://core.telegram.org/bots/payments/currencies.json), it shows the number of digits past the decimal point for each currency (2 for the majority of currencies).|
+|stars|[long](/API_docs/types/long.html) | Yes|Amount of gifted stars|
+|crypto\_currency|[string](/API_docs/types/string.html) | Optional|If the gift was bought using a cryptocurrency, the cryptocurrency name.|
+|crypto\_amount|[long](/API_docs/types/long.html) | Optional|If the gift was bought using a cryptocurrency, price of the gift in the smallest units of a cryptocurrency.|
+|transaction\_id|[string](/API_docs/types/string.html) | Optional|Identifier of the transaction, only visible to the receiver of the gift.|
 
 
 

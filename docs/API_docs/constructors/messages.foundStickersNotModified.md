@@ -1,6 +1,6 @@
 ---
 title: "messages.foundStickersNotModified"
-description: "messages.foundStickersNotModified attributes, type and example"
+description: "No new stickers were found for the specified query"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_foundStickersNotModified.html
@@ -10,11 +10,13 @@ redirect_from: /API_docs/constructors/messages_foundStickersNotModified.html
 
 
 
+No new stickers were found for the specified query
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|next\_offset|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|next\_offset|[int](/API_docs/types/int.html) | Optional|Offset for [pagination](https://core.telegram.org/api/offsets)|
 
 
 

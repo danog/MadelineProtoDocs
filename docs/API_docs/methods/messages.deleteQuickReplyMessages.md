@@ -1,6 +1,6 @@
 ---
 title: "messages.deleteQuickReplyMessages"
-description: "messages.deleteQuickReplyMessages parameters, return type and example"
+description: "Delete one or more messages from a [quick reply shortcut](https://core.telegram.org/api/business#quick-reply-shortcuts). This will also emit an [updateDeleteQuickReplyMessages](../constructors/updateDeleteQuickReplyMessages.html) update."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/messages_deleteQuickReplyMessages.html
 
 
 
+Delete one or more messages from a [quick reply shortcut](https://core.telegram.org/api/business#quick-reply-shortcuts). This will also emit an [updateDeleteQuickReplyMessages](../constructors/updateDeleteQuickReplyMessages.html) update.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|shortcut\_id|[int](/API_docs/types/int.html) | Optional|
-|id|Array of [int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|shortcut\_id|[int](/API_docs/types/int.html) | [Shortcut ID](https://core.telegram.org/api/business#quick-reply-shortcuts). | Optional|
+|id|Array of [int](/API_docs/types/int.html) | IDs of shortcut messages to delete. | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

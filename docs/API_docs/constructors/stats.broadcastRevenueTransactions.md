@@ -1,6 +1,6 @@
 ---
 title: "stats.broadcastRevenueTransactions"
-description: "stats.broadcastRevenueTransactions attributes, type and example"
+description: "Channel ad revenue transactions »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/stats_broadcastRevenueTransactions.html
@@ -10,12 +10,14 @@ redirect_from: /API_docs/constructors/stats_broadcastRevenueTransactions.html
 
 
 
+[Channel ad revenue transactions »](https://core.telegram.org/api/revenue).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|count|[int](/API_docs/types/int.html) | Yes|
-|transactions|Array of [BroadcastRevenueTransaction](/API_docs/types/BroadcastRevenueTransaction.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|count|[int](/API_docs/types/int.html) | Yes|Total number of transactions.|
+|transactions|Array of [BroadcastRevenueTransaction](/API_docs/types/BroadcastRevenueTransaction.html) | Yes|Transactions|
 
 
 

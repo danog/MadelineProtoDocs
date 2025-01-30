@@ -1,6 +1,6 @@
 ---
 title: "premium.getBoostsList"
-description: "Obtains info about the boosts that were applied to a certain channel (admins only)"
+description: "Obtains info about the boosts that were applied to a certain channel or supergroup (admins only)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,14 @@ redirect_from: /API_docs/methods/premium_getBoostsList.html
 
 
 
-Obtains info about the boosts that were applied to a certain channel (admins only)
+Obtains info about the boosts that were applied to a certain channel or supergroup (admins only)
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|gifts|[Bool](/API_docs/types/Bool.html) | Whether to return only info about boosts received from [gift codes and giveaways created by the channel »](https://core.telegram.org/api/giveaways) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The channel | Optional|
+|gifts|[Bool](/API_docs/types/Bool.html) | Whether to return only info about boosts received from [gift codes and giveaways created by the channel/supergroup »](https://core.telegram.org/api/giveaways) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The channel/supergroup | Optional|
 |offset|[string](/API_docs/types/string.html) | Offset for pagination, obtained from [premium.boostsList](../constructors/premium.boostsList.html).`next_offset` | Optional|
 |limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
 

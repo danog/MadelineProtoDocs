@@ -1,6 +1,6 @@
 ---
 title: "mediaAreaWeather"
-description: "mediaAreaWeather attributes, type and example"
+description: "Represents a weather widget »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,14 +9,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents a [weather widget »](https://core.telegram.org/api/stories#weather).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|coordinates|[MediaAreaCoordinates](/API_docs/types/MediaAreaCoordinates.html) | Yes|
-|emoji|[string](/API_docs/types/string.html) | Yes|
-|temperature\_c|[double](/API_docs/types/double.html) | Yes|
-|color|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|coordinates|[MediaAreaCoordinates](/API_docs/types/MediaAreaCoordinates.html) | Yes|The size and location of the media area corresponding to the widget on top of the story media.|
+|emoji|[string](/API_docs/types/string.html) | Yes|Weather emoji, should be rendered as an [animated emoji](https://core.telegram.org/api/animated-emojis).|
+|temperature\_c|[double](/API_docs/types/double.html) | Yes|Temperature in degrees Celsius.|
+|color|[int](/API_docs/types/int.html) | Yes|ARGB background color.|
 
 
 

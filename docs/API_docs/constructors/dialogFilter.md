@@ -27,7 +27,7 @@ Dialog filter AKA [folder](https://core.telegram.org/api/folders)
 |id|[int](/API_docs/types/int.html) | Yes|[Folder](https://core.telegram.org/api/folders) ID|
 |title|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Yes|
 |emoticon|[string](/API_docs/types/string.html) | Optional|Emoji to use as icon for the folder.|
-|color|[int](/API_docs/types/int.html) | Optional|
+|color|[int](/API_docs/types/int.html) | Optional|A color ID for the [folder tag associated to this folder, see here »](https://core.telegram.org/api/folders#folder-tags) for more info.|
 |pinned\_peers|Array of [InputPeer](/API_docs/types/InputPeer.html) | Yes|Pinned chats, [folders](https://core.telegram.org/api/folders) can have unlimited pinned chats|
 |include\_peers|Array of [InputPeer](/API_docs/types/InputPeer.html) | Yes|Include the following chats in this [folder](https://core.telegram.org/api/folders)|
 |exclude\_peers|Array of [InputPeer](/API_docs/types/InputPeer.html) | Yes|Exclude the following chats from this [folder](https://core.telegram.org/api/folders)|

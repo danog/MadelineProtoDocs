@@ -15,7 +15,7 @@ A [giveaway](https://core.telegram.org/api/giveaways) was started.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|stars|[long](/API_docs/types/long.html) | Optional|
+|stars|[long](/API_docs/types/long.html) | Optional|For [Telegram Star giveaways](https://core.telegram.org/api/stars#star-giveaways), the total number of Telegram Stars being given away.|
 
 
 

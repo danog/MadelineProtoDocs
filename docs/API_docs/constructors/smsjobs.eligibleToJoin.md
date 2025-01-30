@@ -1,6 +1,6 @@
 ---
 title: "smsjobs.eligibleToJoin"
-description: "smsjobs.eligibleToJoin attributes, type and example"
+description: "SMS jobs eligibility"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/smsjobs_eligibleToJoin.html
@@ -10,12 +10,14 @@ redirect_from: /API_docs/constructors/smsjobs_eligibleToJoin.html
 
 
 
+SMS jobs eligibility
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|terms\_url|[string](/API_docs/types/string.html) | Yes|
-|monthly\_sent\_sms|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|terms\_url|[string](/API_docs/types/string.html) | Yes|Terms of service URL|
+|monthly\_sent\_sms|[int](/API_docs/types/int.html) | Yes|Monthly sent SMSes|
 
 
 

@@ -25,10 +25,10 @@ Get most used peers
 |forward\_chats|[Bool](/API_docs/types/Bool.html) | Chats to which the users often forwards messages to | Optional|
 |groups|[Bool](/API_docs/types/Bool.html) | Often-opened groups and supergroups | Optional|
 |channels|[Bool](/API_docs/types/Bool.html) | Most frequently visited channels | Optional|
-|bots\_app|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|bots\_app|[Bool](/API_docs/types/Bool.html) | Most frequently used [Main Mini Bot Apps](https://core.telegram.org/api/bots/webapps#main-mini-apps). | Optional|
 |offset|[int](/API_docs/types/int.html) | Offset for [pagination](https://core.telegram.org/api/offsets) | Optional|
 |limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
-|hash|Array of [long\|string](/API_docs/types/long\|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | [Hash used for caching, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [contacts.TopPeers](/API_docs/types/contacts.TopPeers.html)

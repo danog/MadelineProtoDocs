@@ -1,6 +1,6 @@
 ---
 title: "messages.getQuickReplyMessages"
-description: "messages.getQuickReplyMessages parameters, return type and example"
+description: "Fetch (a subset or all) messages in a [quick reply shortcut »](https://core.telegram.org/api/business#quick-reply-shortcuts)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/messages_getQuickReplyMessages.html
 
 
 
+Fetch (a subset or all) messages in a [quick reply shortcut »](https://core.telegram.org/api/business#quick-reply-shortcuts).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|shortcut\_id|[int](/API_docs/types/int.html) | Optional|
-|id|Array of [int](/API_docs/types/int.html) | Optional|
-|hash|Array of [long\|string](/API_docs/types/long\|string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|shortcut\_id|[int](/API_docs/types/int.html) | Quick reply shortcut ID. | Optional|
+|id|Array of [int](/API_docs/types/int.html) | IDs of the messages to fetch, if empty fetches all of them. | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | [Hash used for caching, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
 
 
 ### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)

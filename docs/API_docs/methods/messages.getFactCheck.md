@@ -1,6 +1,6 @@
 ---
 title: "messages.getFactCheck"
-description: "messages.getFactCheck parameters, return type and example"
+description: "Fetch one or more [factchecks, see here »](https://core.telegram.org/api/factcheck) for the full flow."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/messages_getFactCheck.html
 
 
 
+Fetch one or more [factchecks, see here »](https://core.telegram.org/api/factcheck) for the full flow.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|msg\_id|Array of [int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where the messages were sent. | Optional|
+|msg\_id|Array of [int](/API_docs/types/int.html) | Messages that have associated [factCheck](../constructors/factCheck.html) constructors with the `need_check` flag set. | Yes|
 
 
 ### Return type: [Vector\_of\_FactCheck](/API_docs/types/FactCheck.html)

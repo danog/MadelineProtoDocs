@@ -1,6 +1,6 @@
 ---
 title: "inputInvoicePremiumGiftCode"
-description: "Used if the user wishes to start a channel giveaway or send some giftcodes to members of a channel, in exchange for boosts."
+description: "Used if the user wishes to start a channel/supergroup giveaway or send some giftcodes to members of a channel/supergroup, in exchange for boosts."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Used if the user wishes to start a channel [giveaway](https://core.telegram.org/api/giveaways) or send some [giftcodes](https://core.telegram.org/api/giveaways) to members of a channel, in exchange for [boosts](https://core.telegram.org/api/boost).
+Used if the user wishes to start a channel/supergroup [giveaway](https://core.telegram.org/api/giveaways) or send some [giftcodes](https://core.telegram.org/api/giveaways) to members of a channel/supergroup, in exchange for [boosts](https://core.telegram.org/api/boost).
 
 ### Attributes:
 

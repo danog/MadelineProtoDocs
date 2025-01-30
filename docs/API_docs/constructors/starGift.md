@@ -1,6 +1,6 @@
 ---
 title: "starGift"
-description: "starGift attributes, type and example"
+description: "Represents a star gift, see here » for more info."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,21 +9,23 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents a [star gift, see here »](https://core.telegram.org/api/gifts) for more info.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|limited|[Bool](/API_docs/types/Bool.html) | Optional|
-|sold\_out|[Bool](/API_docs/types/Bool.html) | Optional|
-|birthday|[Bool](/API_docs/types/Bool.html) | Optional|
-|id|[long](/API_docs/types/long.html) | Yes|
-|sticker|[Document](/API_docs/types/Document.html) | Optional|
-|stars|[long](/API_docs/types/long.html) | Yes|
-|availability\_remains|[int](/API_docs/types/int.html) | Optional|
-|availability\_total|[int](/API_docs/types/int.html) | Optional|
-|convert\_stars|[long](/API_docs/types/long.html) | Yes|
-|first\_sale\_date|[int](/API_docs/types/int.html) | Optional|
-|last\_sale\_date|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|limited|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a limited-supply gift.|
+|sold\_out|[Bool](/API_docs/types/Bool.html) | Optional|Whether this gift sold out and cannot be bought anymore.|
+|birthday|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a birthday-themed gift|
+|id|[long](/API_docs/types/long.html) | Yes|Identifier of the gift|
+|sticker|[Document](/API_docs/types/Document.html) | Optional|[Sticker](https://core.telegram.org/api/stickers) that represents the gift.|
+|stars|[long](/API_docs/types/long.html) | Yes|Price of the gift in [Telegram Stars](https://core.telegram.org/api/stars).|
+|availability\_remains|[int](/API_docs/types/int.html) | Optional|For limited-supply gifts: the remaining number of gifts that may be bought.|
+|availability\_total|[int](/API_docs/types/int.html) | Optional|For limited-supply gifts: the total number of gifts that was available in the initial supply.|
+|convert\_stars|[long](/API_docs/types/long.html) | Yes|The receiver of this gift may convert it to this many Telegram Stars, instead of displaying it on their profile page.<br>`convert_stars` will be equal to `stars` only if the gift was bought using recently bought Telegram Stars, otherwise it will be less than `stars`.|
+|first\_sale\_date|[int](/API_docs/types/int.html) | Optional|For sold out gifts only: when was the gift first bought.|
+|last\_sale\_date|[int](/API_docs/types/int.html) | Optional|For sold out gifts only: when was the gift last bought.|
 |upgrade\_stars|[long](/API_docs/types/long.html) | Optional|
 
 

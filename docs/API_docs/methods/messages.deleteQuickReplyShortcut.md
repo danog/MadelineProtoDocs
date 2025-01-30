@@ -1,6 +1,6 @@
 ---
 title: "messages.deleteQuickReplyShortcut"
-description: "messages.deleteQuickReplyShortcut parameters, return type and example"
+description: "Completely delete a [quick reply shortcut](https://core.telegram.org/api/business#quick-reply-shortcuts).  "
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,14 @@ redirect_from: /API_docs/methods/messages_deleteQuickReplyShortcut.html
 
 
 
+Completely delete a [quick reply shortcut](https://core.telegram.org/api/business#quick-reply-shortcuts).  
+This will also emit an [updateDeleteQuickReply](../constructors/updateDeleteQuickReply.html) update to other logged-in sessions (and *no* [updateDeleteQuickReplyMessages](../constructors/updateDeleteQuickReplyMessages.html) updates, even if all the messages in the shortcuts are also deleted by this method).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|shortcut\_id|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|shortcut\_id|[int](/API_docs/types/int.html) | [Shortcut ID](https://core.telegram.org/api/business#quick-reply-shortcuts) | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

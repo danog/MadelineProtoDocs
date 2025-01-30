@@ -1,6 +1,6 @@
 ---
 title: "messages.getMyStickers"
-description: "messages.getMyStickers parameters, return type and example"
+description: "Fetch all [stickersets »](https://core.telegram.org/api/stickers) owned by the current user."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/messages_getMyStickers.html
 
 
 
+Fetch all [stickersets »](https://core.telegram.org/api/stickers) owned by the current user.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|offset\_id|[long](/API_docs/types/long.html) | Yes|
-|limit|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|offset\_id|[long](/API_docs/types/long.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Yes|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [messages.MyStickers](/API_docs/types/messages.MyStickers.html)

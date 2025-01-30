@@ -1,6 +1,6 @@
 ---
 title: "starsTransactionPeerAppStore"
-description: "starsTransactionPeerAppStore attributes, type and example"
+description: "Describes a Telegram Star transaction with the App Store, used when purchasing Telegram Stars through the App Store."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -8,6 +8,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+Describes a [Telegram Star](https://core.telegram.org/api/stars) transaction with the App Store, used when purchasing Telegram Stars through the App Store.
 
 
 

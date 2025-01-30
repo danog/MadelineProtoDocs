@@ -1,6 +1,6 @@
 ---
 title: "messages.editQuickReplyShortcut"
-description: "messages.editQuickReplyShortcut parameters, return type and example"
+description: "Rename a [quick reply shortcut](https://core.telegram.org/api/business#quick-reply-shortcuts).  "
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,15 @@ redirect_from: /API_docs/methods/messages_editQuickReplyShortcut.html
 
 
 
+Rename a [quick reply shortcut](https://core.telegram.org/api/business#quick-reply-shortcuts).  
+This will emit an [updateQuickReplies](../constructors/updateQuickReplies.html) update to other logged-in sessions.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|shortcut\_id|[int](/API_docs/types/int.html) | Optional|
-|shortcut|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|shortcut\_id|[int](/API_docs/types/int.html) | [Shortcut ID](https://core.telegram.org/api/business#quick-reply-shortcuts). | Optional|
+|shortcut|[string](/API_docs/types/string.html) | New shortcut name. | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

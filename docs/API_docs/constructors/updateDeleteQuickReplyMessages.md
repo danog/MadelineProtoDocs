@@ -1,6 +1,6 @@
 ---
 title: "updateDeleteQuickReplyMessages"
-description: "updateDeleteQuickReplyMessages attributes, type and example"
+description: "One or more messages in a quick reply shortcut » were deleted."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+One or more messages in a [quick reply shortcut »](https://core.telegram.org/api/business#quick-reply-shortcuts) were deleted.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|shortcut\_id|[int](/API_docs/types/int.html) | Yes|
-|messages|Array of [int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|shortcut\_id|[int](/API_docs/types/int.html) | Yes|Quick reply shortcut ID.|
+|messages|Array of [int](/API_docs/types/int.html) | Yes|IDs of the deleted messages.|
 
 
 

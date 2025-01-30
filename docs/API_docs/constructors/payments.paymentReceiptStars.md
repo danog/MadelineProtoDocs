@@ -1,6 +1,6 @@
 ---
 title: "payments.paymentReceiptStars"
-description: "payments.paymentReceiptStars attributes, type and example"
+description: "Receipt for payment made using Telegram Stars."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/payments_paymentReceiptStars.html
@@ -10,20 +10,22 @@ redirect_from: /API_docs/constructors/payments_paymentReceiptStars.html
 
 
 
+Receipt for [payment made using Telegram Stars](https://core.telegram.org/api/stars).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|date|[int](/API_docs/types/int.html) | Yes|
-|bot\_id|[long](/API_docs/types/long.html) | Yes|
-|title|[string](/API_docs/types/string.html) | Yes|
-|description|[string](/API_docs/types/string.html) | Yes|
-|photo|[WebDocument](/API_docs/types/WebDocument.html) | Optional|
-|invoice|[Invoice](/API_docs/types/Invoice.html) | Yes|
-|currency|[string](/API_docs/types/string.html) | Yes|
-|total\_amount|[long](/API_docs/types/long.html) | Yes|
-|transaction\_id|[string](/API_docs/types/string.html) | Yes|
-|users|Array of [User](/API_docs/types/User.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|date|[int](/API_docs/types/int.html) | Yes|Date of generation|
+|bot\_id|[long](/API_docs/types/long.html) | Yes|Bot ID|
+|title|[string](/API_docs/types/string.html) | Yes|Title|
+|description|[string](/API_docs/types/string.html) | Yes|Description|
+|photo|[WebDocument](/API_docs/types/WebDocument.html) | Optional|Product photo|
+|invoice|[Invoice](/API_docs/types/Invoice.html) | Yes|Invoice|
+|currency|[string](/API_docs/types/string.html) | Yes|Currency, always `XTR`.|
+|total\_amount|[long](/API_docs/types/long.html) | Yes|Amount of [Telegram Stars](https://core.telegram.org/api/stars).|
+|transaction\_id|[string](/API_docs/types/string.html) | Yes|Transaction ID|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Info about users mentioned in the other fields.|
 
 
 

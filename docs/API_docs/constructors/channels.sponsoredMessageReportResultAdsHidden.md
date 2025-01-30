@@ -1,6 +1,6 @@
 ---
 title: "channels.sponsoredMessageReportResultAdsHidden"
-description: "channels.sponsoredMessageReportResultAdsHidden attributes, type and example"
+description: "Sponsored messages were hidden for the user in all chats."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/channels_sponsoredMessageReportResultAdsHidden.html
@@ -9,6 +9,8 @@ redirect_from: /API_docs/constructors/channels_sponsoredMessageReportResultAdsHi
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+Sponsored messages were hidden for the user in all chats.
 
 
 

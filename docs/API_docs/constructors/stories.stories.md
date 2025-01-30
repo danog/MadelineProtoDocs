@@ -18,7 +18,7 @@ List of [stories](https://core.telegram.org/api/stories#pinned-or-archived-stori
 |----------|---------------|----------|-------------|
 |count|[int](/API_docs/types/int.html) | Yes|Total number of stories that can be fetched|
 |stories|Array of [StoryItem](/API_docs/types/StoryItem.html) | Yes|Stories|
-|pinned\_to\_top|Array of [int](/API_docs/types/int.html) | Optional|
+|pinned\_to\_top|Array of [int](/API_docs/types/int.html) | Optional|IDs of pinned stories.|
 |chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Mentioned chats|
 |users|Array of [User](/API_docs/types/User.html) | Yes|Mentioned users|
 

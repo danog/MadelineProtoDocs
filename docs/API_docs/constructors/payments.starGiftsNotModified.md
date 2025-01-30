@@ -1,6 +1,6 @@
 ---
 title: "payments.starGiftsNotModified"
-description: "payments.starGiftsNotModified attributes, type and example"
+description: "The list of available gifts » hasn't changed."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/payments_starGiftsNotModified.html
@@ -9,6 +9,8 @@ redirect_from: /API_docs/constructors/payments_starGiftsNotModified.html
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+The list of available [gifts »](https://core.telegram.org/api/gifts) hasn't changed.
 
 
 

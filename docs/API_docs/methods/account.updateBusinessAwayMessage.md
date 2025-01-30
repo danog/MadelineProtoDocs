@@ -1,6 +1,6 @@
 ---
 title: "account.updateBusinessAwayMessage"
-description: "account.updateBusinessAwayMessage parameters, return type and example"
+description: "Set a list of [Telegram Business away messages](https://core.telegram.org/api/business#away-messages)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/account_updateBusinessAwayMessage.html
 
 
 
+Set a list of [Telegram Business away messages](https://core.telegram.org/api/business#away-messages).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|message|[InputBusinessAwayMessage](/API_docs/types/InputBusinessAwayMessage.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|message|[InputBusinessAwayMessage](/API_docs/types/InputBusinessAwayMessage.html) | Away message configuration and contents. | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

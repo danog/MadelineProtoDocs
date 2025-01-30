@@ -1,6 +1,6 @@
 ---
 title: "channels.searchPosts"
-description: "channels.searchPosts parameters, return type and example"
+description: "Globally search for posts from public [channels »](https://core.telegram.org/api/channel) (*including* those we aren't a member of) containing a specific hashtag."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,15 +11,17 @@ redirect_from: /API_docs/methods/channels_searchPosts.html
 
 
 
+Globally search for posts from public [channels »](https://core.telegram.org/api/channel) (*including* those we aren't a member of) containing a specific hashtag.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hashtag|[string](/API_docs/types/string.html) | Optional|
-|offset\_rate|[int](/API_docs/types/int.html) | Optional|
-|offset\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|offset\_id|[int](/API_docs/types/int.html) | Optional|
-|limit|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hashtag|[string](/API_docs/types/string.html) | The hashtag to search, without the `#` character. | Optional|
+|offset\_rate|[int](/API_docs/types/int.html) | Initially 0, then set to the [`next_rate` parameter of messages.messagesSlice](../constructors/messages.messagesSlice.html) | Optional|
+|offset\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
+|offset\_id|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)

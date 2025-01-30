@@ -23,7 +23,7 @@ Represents a message [draft](https://core.telegram.org/api/drafts).
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
 |media|[InputMedia](/API_docs/types/InputMedia.html) | Optional|Media.|
 |date|[int](/API_docs/types/int.html) | Yes|Date of last update of the draft.|
-|effect|[long](/API_docs/types/long.html) | Optional|
+|effect|[long](/API_docs/types/long.html) | Optional|A [message effect that should be played as specified here »](https://core.telegram.org/api/effects).|
 
 
 

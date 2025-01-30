@@ -1,6 +1,6 @@
 ---
 title: "invokeWithGooglePlayIntegrity"
-description: "invokeWithGooglePlayIntegrity parameters, return type and example"
+description: "Official clients only, invoke with Google Play Integrity token."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -10,13 +10,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Official clients only, invoke with Google Play Integrity token.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|nonce|[string](/API_docs/types/string.html) | Optional|
-|token|[string](/API_docs/types/string.html) | Optional|
-|query|[!X](/API_docs/types/!X.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|nonce|[string](/API_docs/types/string.html) | Nonce. | Optional|
+|token|[string](/API_docs/types/string.html) | Token. | Optional|
+|query|[!X](/API_docs/types/!X.html) | Query. | Yes|
 
 
 ### Return type: [X](/API_docs/types/X.html)

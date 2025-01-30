@@ -1,6 +1,6 @@
 ---
 title: "channelAdminLogEventActionParticipantSubExtend"
-description: "channelAdminLogEventActionParticipantSubExtend attributes, type and example"
+description: "A paid subscriber has extended their Telegram Star subscription »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A paid subscriber has extended their [Telegram Star subscription »](https://core.telegram.org/api/stars#star-subscriptions).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|prev\_participant|[ChannelParticipant](/API_docs/types/ChannelParticipant.html) | Yes|
-|new\_participant|[ChannelParticipant](/API_docs/types/ChannelParticipant.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|prev\_participant|[ChannelParticipant](/API_docs/types/ChannelParticipant.html) | Yes|Same as `new_participant`.|
+|new\_participant|[ChannelParticipant](/API_docs/types/ChannelParticipant.html) | Yes|The subscriber that extended the subscription.|
 
 
 

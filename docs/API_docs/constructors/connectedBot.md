@@ -1,6 +1,6 @@
 ---
 title: "connectedBot"
-description: "connectedBot attributes, type and example"
+description: "Contains info about a connected business bot »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Contains info about a [connected business bot »](https://core.telegram.org/api/business#connected-bots).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|can\_reply|[Bool](/API_docs/types/Bool.html) | Optional|
-|bot\_id|[long](/API_docs/types/long.html) | Yes|
-|recipients|[BusinessBotRecipients](/API_docs/types/BusinessBotRecipients.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|can\_reply|[Bool](/API_docs/types/Bool.html) | Optional|Whether the the bot can reply to messages it receives through the connection|
+|bot\_id|[long](/API_docs/types/long.html) | Yes|ID of the connected bot|
+|recipients|[BusinessBotRecipients](/API_docs/types/BusinessBotRecipients.html) | Yes|Specifies the private chats that a [connected business bot »](https://core.telegram.org/api/business#connected-bots) may receive messages and interact with.<br>|
 
 
 

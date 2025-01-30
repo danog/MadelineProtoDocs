@@ -1,6 +1,6 @@
 ---
 title: "inputCollectibleUsername"
-description: "inputCollectibleUsername attributes, type and example"
+description: "Represents a username fragment collectible"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents a [username fragment collectible](https://core.telegram.org/api/fragment)
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|username|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|username|[string](/API_docs/types/string.html) | Yes|Username|
 
 
 

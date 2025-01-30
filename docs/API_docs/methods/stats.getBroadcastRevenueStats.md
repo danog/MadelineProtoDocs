@@ -1,6 +1,6 @@
 ---
 title: "stats.getBroadcastRevenueStats"
-description: "stats.getBroadcastRevenueStats parameters, return type and example"
+description: "Get [channel ad revenue statistics »](https://core.telegram.org/api/revenue)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/stats_getBroadcastRevenueStats.html
 
 
 
+Get [channel ad revenue statistics »](https://core.telegram.org/api/revenue).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|dark|[Bool](/API_docs/types/Bool.html) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|dark|[Bool](/API_docs/types/Bool.html) | Whether to enable dark theme for graph colors | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Get ad revenue stats for the specified channel or bot | Optional|
 
 
 ### Return type: [stats.BroadcastRevenueStats](/API_docs/types/stats.BroadcastRevenueStats.html)

@@ -1,6 +1,6 @@
 ---
 title: "account.createBusinessChatLink"
-description: "account.createBusinessChatLink parameters, return type and example"
+description: "Create a [business chat deep link »](https://core.telegram.org/api/business#business-chat-links)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/account_createBusinessChatLink.html
 
 
 
+Create a [business chat deep link »](https://core.telegram.org/api/business#business-chat-links).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|link|[InputBusinessChatLink](/API_docs/types/InputBusinessChatLink.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|link|[InputBusinessChatLink](/API_docs/types/InputBusinessChatLink.html) | Info about the link to create. | Yes|
 
 
 ### Return type: [BusinessChatLink](/API_docs/types/BusinessChatLink.html)

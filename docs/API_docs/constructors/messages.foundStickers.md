@@ -1,6 +1,6 @@
 ---
 title: "messages.foundStickers"
-description: "messages.foundStickers attributes, type and example"
+description: "Found stickers"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_foundStickers.html
@@ -10,13 +10,15 @@ redirect_from: /API_docs/constructors/messages_foundStickers.html
 
 
 
+Found stickers
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|next\_offset|[int](/API_docs/types/int.html) | Optional|
-|hash|[long](/API_docs/types/long.html) | Yes|
-|stickers|Array of [Document](/API_docs/types/Document.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|next\_offset|[int](/API_docs/types/int.html) | Optional|Offset for [pagination](https://core.telegram.org/api/offsets)|
+|hash|[long](/API_docs/types/long.html) | Yes|[Hash used for caching, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
+|stickers|Array of [Document](/API_docs/types/Document.html) | Yes|Found stickers|
 
 
 

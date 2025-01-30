@@ -1,6 +1,6 @@
 ---
 title: "messages.sendPaidReaction"
-description: "messages.sendPaidReaction parameters, return type and example"
+description: "Sends one or more [paid Telegram Star reactions »](https://core.telegram.org/api/reactions#paid-reactions), transferring [Telegram Stars »](https://core.telegram.org/api/stars) to a channel's balance."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,16 @@ redirect_from: /API_docs/methods/messages_sendPaidReaction.html
 
 
 
+Sends one or more [paid Telegram Star reactions »](https://core.telegram.org/api/reactions#paid-reactions), transferring [Telegram Stars »](https://core.telegram.org/api/stars) to a channel's balance.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | Optional|
-|count|[int](/API_docs/types/int.html) | Optional|
-|private|[Bool](/API_docs/types/Bool.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The channel | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | The message to react to | Optional|
+|count|[int](/API_docs/types/int.html) | The number of [stars](https://core.telegram.org/api/stars) to send (each will increment the reaction counter by one). | Optional|
+|private|[Bool](/API_docs/types/Bool.html) | Each post with star reactions has a leaderboard with the top senders, but users can opt out of appearing there if they prefer more privacy.  <br>If the user explicitly chose to make their paid reaction(s) private, pass [boolTrue](../constructors/boolTrue.html) to [messages.sendPaidReaction](../methods/messages.sendPaidReaction.html).`private`.  <br>If the user explicitly chose to make their paid reaction(s) private, pass [boolFalse](../constructors/boolTrue.html) to [messages.sendPaidReaction](../methods/messages.sendPaidReaction.html).`private`.  <br>If the user did not make any explicit choice about the privacy of their paid reaction(s) (i.e. when reacting by clicking on an existing star reaction on a message), do not populate the [messages.sendPaidReaction](../methods/messages.sendPaidReaction.html).`private` flag. | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

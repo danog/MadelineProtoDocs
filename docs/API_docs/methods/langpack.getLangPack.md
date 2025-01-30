@@ -17,8 +17,8 @@ Get localization pack strings
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|lang\_pack|[string](/API_docs/types/string.html) | Language pack name, usually obtained from a [language pack link](https://core.telegram.org/api/links#language-pack-links) | Optional|
-|lang\_code|[string](/API_docs/types/string.html) | Language code | Optional|
+|lang\_pack|[string](/API_docs/types/string.html) | Platform identifier (i.e. `android`, `tdesktop`, etc). | Optional|
+|lang\_code|[string](/API_docs/types/string.html) | Either an ISO 639-1 language code or a language pack name obtained from a [language pack link](https://core.telegram.org/api/links#language-pack-links). | Optional|
 
 
 ### Return type: [LangPackDifference](/API_docs/types/LangPackDifference.html)

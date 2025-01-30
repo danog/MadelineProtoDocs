@@ -1,6 +1,6 @@
 ---
 title: "smsjobs.leave"
-description: "smsjobs.leave parameters, return type and example"
+description: "Disable SMS jobs (official clients only)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -10,6 +10,8 @@ redirect_from: /API_docs/methods/smsjobs_leave.html
 [Back to methods index](index.html)
 
 
+
+Disable SMS jobs (official clients only).
 
 
 

@@ -26,7 +26,7 @@ Represents a [story](https://core.telegram.org/api/stories).
 |out|[Bool](/API_docs/types/Bool.html) | Optional|indicates whether we sent this story.|
 |id|[int](/API_docs/types/int.html) | Yes|ID of the story.|
 |date|[int](/API_docs/types/int.html) | Yes|When was the story posted.|
-|from\_id|[Peer](/API_docs/types/Peer.html) | Optional|
+|from\_id|[Peer](/API_docs/types/Peer.html) | Optional|Sender of the story.|
 |fwd\_from|[StoryFwdHeader](/API_docs/types/StoryFwdHeader.html) | Optional|For [reposted stories »](https://core.telegram.org/api/stories#reposting-stories), contains info about the original story.|
 |expire\_date|[int](/API_docs/types/int.html) | Yes|When does the story expire.|
 |caption|[string](/API_docs/types/string.html) | Optional|Story caption.|

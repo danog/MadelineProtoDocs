@@ -1,6 +1,6 @@
 ---
 title: "payments.changeStarsSubscription"
-description: "payments.changeStarsSubscription parameters, return type and example"
+description: "Activate or deactivate a [Telegram Star subscription »](https://core.telegram.org/api/invites#paid-invite-links)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/payments_changeStarsSubscription.html
 
 
 
+Activate or deactivate a [Telegram Star subscription »](https://core.telegram.org/api/invites#paid-invite-links).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|subscription\_id|[string](/API_docs/types/string.html) | Optional|
-|canceled|[Bool](/API_docs/types/Bool.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Always pass [inputPeerSelf](../constructors/inputPeerSelf.html). | Optional|
+|subscription\_id|[string](/API_docs/types/string.html) | ID of the subscription. | Optional|
+|canceled|[Bool](/API_docs/types/Bool.html) | Whether to cancel or reactivate the subscription. | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

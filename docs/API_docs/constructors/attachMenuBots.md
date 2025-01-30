@@ -15,7 +15,7 @@ Represents a list of [bot mini apps that can be launched from the attachment men
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[long](/API_docs/types/long.html) | Yes|[Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
+|hash|[long](/API_docs/types/long.html) | Yes|[Hash used for caching, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
 |bots|Array of [AttachMenuBot](/API_docs/types/AttachMenuBot.html) | Yes|List of [bot mini apps that can be launched from the attachment menu »](https://core.telegram.org/api/bots/attach)|
 |users|Array of [User](/API_docs/types/User.html) | Yes|Info about related users/bots|
 

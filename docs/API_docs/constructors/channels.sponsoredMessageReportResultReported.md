@@ -1,6 +1,6 @@
 ---
 title: "channels.sponsoredMessageReportResultReported"
-description: "channels.sponsoredMessageReportResultReported attributes, type and example"
+description: "The sponsored message was reported successfully."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/channels_sponsoredMessageReportResultReported.html
@@ -9,6 +9,8 @@ redirect_from: /API_docs/constructors/channels_sponsoredMessageReportResultRepor
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+The sponsored message was reported successfully.
 
 
 

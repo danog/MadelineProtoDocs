@@ -1,6 +1,6 @@
 ---
 title: "messages.getEmojiStickerGroups"
-description: "messages.getEmojiStickerGroups parameters, return type and example"
+description: "Represents a list of [emoji categories](https://core.telegram.org/api/emoji-categories), to be used when choosing a sticker."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/messages_getEmojiStickerGroups.html
 
 
 
+Represents a list of [emoji categories](https://core.telegram.org/api/emoji-categories), to be used when choosing a sticker.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|Array of [long\|string](/API_docs/types/long\|string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) |  | Optional|
 
 
 ### Return type: [messages.EmojiGroups](/API_docs/types/messages.EmojiGroups.html)

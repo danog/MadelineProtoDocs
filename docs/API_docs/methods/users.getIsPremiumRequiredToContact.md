@@ -1,6 +1,6 @@
 ---
 title: "users.getIsPremiumRequiredToContact"
-description: "users.getIsPremiumRequiredToContact parameters, return type and example"
+description: "Check whether we can write to the specified user (this method can only be called by non-[Premium](https://core.telegram.org/api/premium) users), see [here »](https://core.telegram.org/api/privacy#require-premium-for-new-non-contact-users) for more info on the full flow."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/users_getIsPremiumRequiredToContact.html
 
 
 
+Check whether we can write to the specified user (this method can only be called by non-[Premium](https://core.telegram.org/api/premium) users), see [here »](https://core.telegram.org/api/privacy#require-premium-for-new-non-contact-users) for more info on the full flow.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|Array of [Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|id|Array of [Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Users to fetch info about. | Yes|
 
 
 ### Return type: [Vector\_of\_Bool](/API_docs/types/Bool.html)

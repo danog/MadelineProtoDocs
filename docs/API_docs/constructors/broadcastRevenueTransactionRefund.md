@@ -1,6 +1,6 @@
 ---
 title: "broadcastRevenueTransactionRefund"
-description: "broadcastRevenueTransactionRefund attributes, type and example"
+description: "Describes a refund for failed withdrawal of ad earnings »"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Describes a [refund for failed withdrawal of ad earnings »](https://core.telegram.org/api/revenue#withdrawing-revenue)
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|amount|[long](/API_docs/types/long.html) | Yes|
-|date|[int](/API_docs/types/int.html) | Yes|
-|provider|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|amount|[long](/API_docs/types/long.html) | Yes|Amount refunded.|
+|date|[int](/API_docs/types/int.html) | Yes|Date of refund.|
+|provider|[string](/API_docs/types/string.html) | Yes|Payment provider name.|
 
 
 

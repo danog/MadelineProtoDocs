@@ -1,6 +1,6 @@
 ---
 title: "bots.checkDownloadFileParams"
-description: "bots.checkDownloadFileParams parameters, return type and example"
+description: "Check if a [mini app](https://core.telegram.org/api/bots/webapps) can request the download of a specific file: called when handling [web\_app\_request\_file\_download events »](https://core.telegram.org/api/web-events#web-app-request-file-download)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/bots_checkDownloadFileParams.html
 
 
 
+Check if a [mini app](https://core.telegram.org/api/bots/webapps) can request the download of a specific file: called when handling [web\_app\_request\_file\_download events »](https://core.telegram.org/api/web-events#web-app-request-file-download)
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
-|file\_name|[string](/API_docs/types/string.html) | Optional|
-|url|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The bot that owns the [mini app](https://core.telegram.org/api/bots/webapps) that requested the download | Optional|
+|file\_name|[string](/API_docs/types/string.html) | The `filename` from the [web\_app\_request\_file\_download event »](https://core.telegram.org/api/web-events#web-app-request-file-download) | Optional|
+|url|[string](/API_docs/types/string.html) | The `url` from the [web\_app\_request\_file\_download event »](https://core.telegram.org/api/web-events#web-app-request-file-download) | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

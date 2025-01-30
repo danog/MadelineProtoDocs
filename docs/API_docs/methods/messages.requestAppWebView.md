@@ -20,8 +20,8 @@ After calling this method, until the user closes the webview, [messages.prolongW
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |write\_allowed|[Bool](/API_docs/types/Bool.html) | Set this flag if the bot is asking permission to send messages to the user as specified in the [direct Mini App deep link](https://core.telegram.org/api/links#direct-mini-app-links) docs, and the user agreed. | Optional|
-|compact|[Bool](/API_docs/types/Bool.html) |  | Optional|
-|fullscreen|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|compact|[Bool](/API_docs/types/Bool.html) | If set, requests to open the mini app in compact mode (as opposed to normal or fullscreen mode). Must be set if the `mode` parameter of the [direct Mini App deep link](https://core.telegram.org/api/links#direct-mini-app-links) is equal to `compact`. | Optional|
+|fullscreen|[Bool](/API_docs/types/Bool.html) | If set, requests to open the mini app in fullscreen mode (as opposed to compact or normal mode). Must be set if the `mode` parameter of the [direct Mini App deep link](https://core.telegram.org/api/links#direct-mini-app-links) is equal to `fullscreen`. | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | If the client has clicked on the link in a Telegram chat, pass the chat's peer information; otherwise pass the bot's peer information, instead. | Optional|
 |app|[InputBotApp](/API_docs/types/InputBotApp.html) | The app obtained by invoking [messages.getBotApp](../methods/messages.getBotApp.html) as specified in the [direct Mini App deep link](https://core.telegram.org/api/links#direct-mini-app-links) docs. | Yes|
 |start\_param|[string](/API_docs/types/string.html) | If the `startapp` query string parameter is present in the [direct Mini App deep link](https://core.telegram.org/api/links#direct-mini-app-links), pass it to `start_param`. | Optional|

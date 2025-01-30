@@ -1,6 +1,6 @@
 ---
 title: "account.toggleSponsoredMessages"
-description: "account.toggleSponsoredMessages parameters, return type and example"
+description: "Disable or re-enable Telegram ads for the current [Premium](https://core.telegram.org/api/premium) account."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,15 @@ redirect_from: /API_docs/methods/account_toggleSponsoredMessages.html
 
 
 
+Disable or re-enable Telegram ads for the current [Premium](https://core.telegram.org/api/premium) account.
+
+Useful for business owners that may want to launch and view their own Telegram ads via the [Telegram ad platform »](https://ads.telegram.org).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|enabled|[Bool](/API_docs/types/Bool.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|enabled|[Bool](/API_docs/types/Bool.html) | Enable or disable ads. | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

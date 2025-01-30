@@ -1,6 +1,6 @@
 ---
 title: "account.updateBirthday"
-description: "account.updateBirthday parameters, return type and example"
+description: "Update our [birthday, see here »](https://core.telegram.org/api/profile#birthday) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/account_updateBirthday.html
 
 
 
+Update our [birthday, see here »](https://core.telegram.org/api/profile#birthday) for more info.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|birthday|[Birthday](/API_docs/types/Birthday.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|birthday|[Birthday](/API_docs/types/Birthday.html) | Birthday. | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

@@ -1,6 +1,6 @@
 ---
 title: "channels.sponsoredMessageReportResultChooseOption"
-description: "channels.sponsoredMessageReportResultChooseOption attributes, type and example"
+description: "The user must choose a report option from the localized options available in options, and after selection, channels.reportSponsoredMessage must be invoked again, passing the option's option field to the option param of the method."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/channels_sponsoredMessageReportResultChooseOption.html
@@ -10,12 +10,14 @@ redirect_from: /API_docs/constructors/channels_sponsoredMessageReportResultChoos
 
 
 
+The user must choose a report option from the localized options available in `options`, and after selection, [channels.reportSponsoredMessage](../methods/channels.reportSponsoredMessage.html) must be invoked again, passing the option's `option` field to the `option` param of the method.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|title|[string](/API_docs/types/string.html) | Yes|
-|options|Array of [SponsoredMessageReportOption](/API_docs/types/SponsoredMessageReportOption.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|title|[string](/API_docs/types/string.html) | Yes|Title of the option selection popup.|
+|options|Array of [SponsoredMessageReportOption](/API_docs/types/SponsoredMessageReportOption.html) | Yes|Localized list of options.|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "account.getBusinessChatLinks"
-description: "account.getBusinessChatLinks parameters, return type and example"
+description: "List all created [business chat deep links »](https://core.telegram.org/api/business#business-chat-links)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -10,6 +10,8 @@ redirect_from: /API_docs/methods/account_getBusinessChatLinks.html
 [Back to methods index](index.html)
 
 
+
+List all created [business chat deep links »](https://core.telegram.org/api/business#business-chat-links).
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "payments.getStarsGiftOptions"
-description: "payments.getStarsGiftOptions parameters, return type and example"
+description: "Obtain a list of [Telegram Stars gift options »](https://core.telegram.org/api/stars#buying-or-gifting-stars) as [starsGiftOption](../constructors/starsGiftOption.html) constructors."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/payments_getStarsGiftOptions.html
 
 
 
+Obtain a list of [Telegram Stars gift options »](https://core.telegram.org/api/stars#buying-or-gifting-stars) as [starsGiftOption](../constructors/starsGiftOption.html) constructors.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Receiver of the gift (optional). | Optional|
 
 
 ### Return type: [Vector\_of\_StarsGiftOption](/API_docs/types/StarsGiftOption.html)

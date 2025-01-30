@@ -1,6 +1,6 @@
 ---
 title: "messages.togglePaidReactionPrivacy"
-description: "messages.togglePaidReactionPrivacy parameters, return type and example"
+description: "Changes the privacy of already sent [paid reactions](https://core.telegram.org/api/reactions#paid-reactions) on a specific message."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/messages_togglePaidReactionPrivacy.html
 
 
 
+Changes the privacy of already sent [paid reactions](https://core.telegram.org/api/reactions#paid-reactions) on a specific message.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | Optional|
-|private|[Bool](/API_docs/types/Bool.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The channel | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | The ID of the message to which we sent the paid reactions | Optional|
+|private|[Bool](/API_docs/types/Bool.html) | If true, makes the current anonymous in the top sender leaderboard for this message; otherwise, does the opposite. | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

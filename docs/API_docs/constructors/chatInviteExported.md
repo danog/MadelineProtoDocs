@@ -26,9 +26,9 @@ Exported chat invite
 |usage\_limit|[int](/API_docs/types/int.html) | Optional|Maximum number of users that can join using this link|
 |usage|[int](/API_docs/types/int.html) | Optional|How many users joined using this link|
 |requested|[int](/API_docs/types/int.html) | Optional|Number of users that have already used this link to join|
-|subscription\_expired|[int](/API_docs/types/int.html) | Optional|
+|subscription\_expired|[int](/API_docs/types/int.html) | Optional|For [Telegram Star subscriptions »](https://core.telegram.org/api/stars#star-subscriptions), contains the number of chat members which have already joined the chat using the link, but have already left due to expiration of their subscription.|
 |title|[string](/API_docs/types/string.html) | Optional|Custom description for the invite link, visible only to admins|
-|subscription\_pricing|[StarsSubscriptionPricing](/API_docs/types/StarsSubscriptionPricing.html) | Optional|
+|subscription\_pricing|[StarsSubscriptionPricing](/API_docs/types/StarsSubscriptionPricing.html) | Optional|For [Telegram Star subscriptions »](https://core.telegram.org/api/stars#star-subscriptions), contains the pricing of the subscription the user must activate to join the private channel.|
 
 
 

@@ -19,7 +19,7 @@ Get [channels/supergroups/geogroups](https://core.telegram.org/api/channel) we'r
 |----------|---------------|-------------|----------|
 |by\_location|[Bool](/API_docs/types/Bool.html) | Get geogroups | Optional|
 |check\_limit|[Bool](/API_docs/types/Bool.html) | If set and the user has reached the limit of owned public [channels/supergroups/geogroups](https://core.telegram.org/api/channel), instead of returning the channel list one of the specified [errors](#possible-errors) will be returned.<br>Useful to check if a new public channel can indeed be created, even before asking the user to enter a channel username to use in [channels.checkUsername](../methods/channels.checkUsername.html)/[channels.updateUsername](../methods/channels.updateUsername.html). | Optional|
-|for\_personal|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|for\_personal|[Bool](/API_docs/types/Bool.html) | Set this flag to only fetch the full list of channels that may be passed to [account.updatePersonalChannel](../methods/account.updatePersonalChannel.html) to [display them on our profile page](https://core.telegram.org/api/profile#personal-channel). | Optional|
 
 
 ### Return type: [messages.Chats](/API_docs/types/messages.Chats.html)

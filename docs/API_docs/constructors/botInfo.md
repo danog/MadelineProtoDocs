@@ -15,15 +15,15 @@ Info about bots (available bot commands, etc)
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|has\_preview\_medias|[Bool](/API_docs/types/Bool.html) | Optional|
+|has\_preview\_medias|[Bool](/API_docs/types/Bool.html) | Optional|If set, the bot has some [preview medias for the configured Main Mini App, see here »](https://core.telegram.org/api/bots/webapps#main-mini-app-previews) for more info on Main Mini App preview medias.|
 |user\_id|[long](/API_docs/types/long.html) | Optional|ID of the bot|
 |description|[string](/API_docs/types/string.html) | Optional|Description of the bot|
 |description\_photo|[Photo](/API_docs/types/Photo.html) | Optional|Description photo|
 |description\_document|[Document](/API_docs/types/Document.html) | Optional|Description animation in MPEG4 format|
 |commands|Array of [BotCommand](/API_docs/types/BotCommand.html) | Optional|Bot commands that can be used in the chat|
 |menu\_button|[BotMenuButton](/API_docs/types/BotMenuButton.html) | Optional|Indicates the action to execute when pressing the in-UI menu button for bots|
-|privacy\_policy\_url|[string](/API_docs/types/string.html) | Optional|
-|app\_settings|[BotAppSettings](/API_docs/types/BotAppSettings.html) | Optional|
+|privacy\_policy\_url|[string](/API_docs/types/string.html) | Optional|The HTTP link to the privacy policy of the bot. If not set, then the `/privacy` command must be used, if supported by the bot (i.e. if it's present in the `commands` vector). If it isn't supported, then <https://telegram.org/privacy-tpa> must be opened, instead.|
+|app\_settings|[BotAppSettings](/API_docs/types/BotAppSettings.html) | Optional|[Mini app »](https://core.telegram.org/api/bots/webapps) settings<br>|
 |verifier\_settings|[BotVerifierSettings](/API_docs/types/BotVerifierSettings.html) | Optional|
 
 

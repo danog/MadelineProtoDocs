@@ -20,7 +20,7 @@ A folder imported using a [chat folder deep link »](https://core.telegram.org/a
 |id|[int](/API_docs/types/int.html) | Yes|ID of the folder|
 |title|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Yes|
 |emoticon|[string](/API_docs/types/string.html) | Optional|Emoji to use as icon for the folder.|
-|color|[int](/API_docs/types/int.html) | Optional|
+|color|[int](/API_docs/types/int.html) | Optional|A color ID for the [folder tag associated to this folder, see here »](https://core.telegram.org/api/folders#folder-tags) for more info.|
 |pinned\_peers|Array of [InputPeer](/API_docs/types/InputPeer.html) | Yes|Pinned chats, [folders](https://core.telegram.org/api/folders) can have unlimited pinned chats|
 |include\_peers|Array of [InputPeer](/API_docs/types/InputPeer.html) | Yes|Chats to include in the folder|
 

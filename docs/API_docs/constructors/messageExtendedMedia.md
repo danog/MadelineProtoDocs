@@ -1,6 +1,6 @@
 ---
 title: "messageExtendedMedia"
-description: "Extended media"
+description: "Already purchased paid media, see here » for more info."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Extended media
+Already purchased paid media, [see here »](https://core.telegram.org/api/paid-media) for more info.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|media|[MessageMedia](/API_docs/types/MessageMedia.html) | Optional|Media|
+|media|[MessageMedia](/API_docs/types/MessageMedia.html) | Optional|The media we purchased.|
 
 
 

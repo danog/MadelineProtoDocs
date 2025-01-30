@@ -10,14 +10,14 @@ redirect_from: /API_docs/constructors/messages_emojiGroups.html
 
 
 
-Represents a list of [emoji categories](https://core.telegram.org/api/custom-emoji#emoji-categories).
+Represents a list of [emoji categories](https://core.telegram.org/api/emoji-categories).
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |hash|[int](/API_docs/types/int.html) | Yes|
-|groups|Array of [EmojiGroup](/API_docs/types/EmojiGroup.html) | Yes|A list of [emoji categories](https://core.telegram.org/api/custom-emoji#emoji-categories).|
+|groups|Array of [EmojiGroup](/API_docs/types/EmojiGroup.html) | Yes|A list of [emoji categories](https://core.telegram.org/api/emoji-categories).|
 
 
 

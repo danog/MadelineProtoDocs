@@ -1,6 +1,6 @@
 ---
 title: "updateStarsRevenueStatus"
-description: "updateStarsRevenueStatus attributes, type and example"
+description: "The Telegram Star balance of a channel/bot we own has changed »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+The [Telegram Star balance of a channel/bot we own has changed »](https://core.telegram.org/api/stars#revenue-statistics).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[long](/API_docs/types/long.html) | Yes|
-|status|[StarsRevenueStatus](/API_docs/types/StarsRevenueStatus.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer|[long](/API_docs/types/long.html) | Yes|Channel/bot|
+|status|[StarsRevenueStatus](/API_docs/types/StarsRevenueStatus.html) | Yes|New Telegram Star balance.|
 
 
 

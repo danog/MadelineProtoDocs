@@ -1,6 +1,6 @@
 ---
 title: "payments.getConnectedStarRefBot"
-description: "payments.getConnectedStarRefBot parameters, return type and example"
+description: "Fetch info about a specific [bot affiliation »](https://core.telegram.org/api/bots/referrals)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/payments_getConnectedStarRefBot.html
 
 
 
+Fetch info about a specific [bot affiliation »](https://core.telegram.org/api/bots/referrals)
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The affiliated peer | Optional|
+|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The bot that offers the affiliate program | Optional|
 
 
 ### Return type: [payments.ConnectedStarRefBots](/API_docs/types/payments.ConnectedStarRefBots.html)

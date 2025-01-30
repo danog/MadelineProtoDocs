@@ -33,7 +33,7 @@ Filter only certain admin log events
 |invites|[Bool](/API_docs/types/Bool.html) | Optional|Invite events|
 |send|[Bool](/API_docs/types/Bool.html) | Optional|A message was posted in a channel|
 |forums|[Bool](/API_docs/types/Bool.html) | Optional|[Forum](https://core.telegram.org/api/forum)-related events|
-|sub\_extend|[Bool](/API_docs/types/Bool.html) | Optional|
+|sub\_extend|[Bool](/API_docs/types/Bool.html) | Optional|[Telegram Star subscription extension events »](../constructors/channelAdminLogEventActionParticipantSubExtend.html)|
 
 
 

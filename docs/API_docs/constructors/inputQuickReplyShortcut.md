@@ -1,6 +1,6 @@
 ---
 title: "inputQuickReplyShortcut"
-description: "inputQuickReplyShortcut attributes, type and example"
+description: "Selects a quick reply shortcut by name."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Selects a [quick reply shortcut](https://core.telegram.org/api/business#quick-reply-shortcuts) by name.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|shortcut|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|shortcut|[string](/API_docs/types/string.html) | Yes|Shortcut name.|
 
 
 

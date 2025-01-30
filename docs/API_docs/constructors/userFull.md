@@ -11,6 +11,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 Extended user info
 
+When updating the [local peer database »](https://core.telegram.org/api/peers), all fields from the newly received constructor take priority over the old constructor cached locally (including by removing fields that aren't set in the new constructor).
+
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
@@ -26,8 +28,8 @@ Extended user info
 |stories\_pinned\_available|[Bool](/API_docs/types/Bool.html) | Optional|Whether this user has some [pinned stories](https://core.telegram.org/api/stories#pinned-or-archived-stories).|
 |blocked\_my\_stories\_from|[Bool](/API_docs/types/Bool.html) | Optional|Whether we've [blocked this user, preventing them from seeing our stories »](https://core.telegram.org/api/block).|
 |wallpaper\_overridden|[Bool](/API_docs/types/Bool.html) | Optional|Whether the other user has chosen a custom wallpaper for us using [messages.setChatWallPaper](../methods/messages.setChatWallPaper.html) and the `for_both` flag, see [here »](https://core.telegram.org/api/wallpapers#installing-wallpapers-in-a-specific-chat-or-channel) for more info.|
-|contact\_require\_premium|[Bool](/API_docs/types/Bool.html) | Optional|
-|read\_dates\_private|[Bool](/API_docs/types/Bool.html) | Optional|
+|contact\_require\_premium|[Bool](/API_docs/types/Bool.html) | Optional|If set, we cannot write to this user: subscribe to [Telegram Premium](https://core.telegram.org/api/premium) to get permission to write to this user. <br>To set this flag for ourselves invoke [account.setGlobalPrivacySettings](../methods/account.setGlobalPrivacySettings.html), setting the `settings.new_noncontact_peers_require_premium` flag, see [here »](https://core.telegram.org/api/privacy#require-premium-for-new-non-contact-users) for more info.|
+|read\_dates\_private|[Bool](/API_docs/types/Bool.html) | Optional|If set, we cannot fetch the exact read date of messages we send to this user using [messages.getOutboxReadDate](../methods/messages.getOutboxReadDate.html).  <br>The exact read date of messages might still be unavailable for other reasons, see [here »](../methods/messages.getOutboxReadDate.html) for more info.  <br>To set this flag for ourselves invoke [account.setGlobalPrivacySettings](../methods/account.setGlobalPrivacySettings.html), setting the `settings.hide_read_marks` flag.|
 |sponsored\_enabled|[Bool](/API_docs/types/Bool.html) | Optional|
 |can\_view\_revenue|[Bool](/API_docs/types/Bool.html) | Optional|
 |bot\_can\_manage\_emoji\_status|[Bool](/API_docs/types/Bool.html) | Optional|

@@ -18,12 +18,12 @@ Open a [bot mini app](https://core.telegram.org/api/bots/webapps).
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |from\_switch\_webview|[Bool](/API_docs/types/Bool.html) | Whether the webapp was opened by clicking on the `switch_webview` button shown on top of the inline results list returned by [messages.getInlineBotResults](../methods/messages.getInlineBotResults.html). | Optional|
-|from\_side\_menu|[Bool](/API_docs/types/Bool.html) | Set this flag if opening the Mini App from the installed [side menu entry »](https://core.telegram.org/api/bots/attach) or from a [Mini App link »](https://core.telegram.org/api/links#mini-app-links). | Optional|
-|compact|[Bool](/API_docs/types/Bool.html) |  | Optional|
-|fullscreen|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|from\_side\_menu|[Bool](/API_docs/types/Bool.html) | Set this flag if opening the Mini App from the installed [side menu entry »](https://core.telegram.org/api/bots/attach). | Optional|
+|compact|[Bool](/API_docs/types/Bool.html) | Deprecated. | Optional|
+|fullscreen|[Bool](/API_docs/types/Bool.html) | Requests to open the app in fullscreen mode. | Optional|
 |bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Bot that owns the mini app | Optional|
 |url|[string](/API_docs/types/string.html) | Web app URL, if opening from a keyboard button or inline result | Optional|
-|start\_param|[string](/API_docs/types/string.html) | Start parameter, if opening from a [Mini App link »](https://core.telegram.org/api/links#mini-app-links). | Optional|
+|start\_param|[string](/API_docs/types/string.html) | Deprecated. | Optional|
 |theme\_params|[DataJSON](/API_docs/types/DataJSON.html) | [Theme parameters »](https://core.telegram.org/api/bots/webapps#theme-parameters) | Optional|
 |platform|[string](/API_docs/types/string.html) | Short name of the application; 0-64 English letters, digits, and underscores | Optional|
 

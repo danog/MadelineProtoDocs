@@ -20,7 +20,7 @@ Info about a gifted Telegram Premium subscription
 |months|[int](/API_docs/types/int.html) | Yes|Duration of the gifted Telegram Premium subscription|
 |crypto\_currency|[string](/API_docs/types/string.html) | Optional|If the gift was bought using a cryptocurrency, the cryptocurrency name.|
 |crypto\_amount|[long](/API_docs/types/long.html) | Optional|If the gift was bought using a cryptocurrency, price of the gift in the smallest units of a cryptocurrency.|
-|message|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Optional|
+|message|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Optional|Message attached with the gift|
 
 
 

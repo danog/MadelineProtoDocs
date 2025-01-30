@@ -1,6 +1,6 @@
 ---
 title: "messages.viewSponsoredMessage"
-description: "messages.viewSponsoredMessage parameters, return type and example"
+description: "Mark a specific [sponsored message »](https://core.telegram.org/api/sponsored-messages) as read"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/messages_viewSponsoredMessage.html
 
 
 
+Mark a specific [sponsored message »](https://core.telegram.org/api/sponsored-messages) as read
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|random\_id|[bytes](/API_docs/types/bytes.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The channel/bot where the ad is located | Optional|
+|random\_id|[bytes](/API_docs/types/bytes.html) | The ad's unique ID. | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

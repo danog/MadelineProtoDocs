@@ -15,7 +15,7 @@ Represents a reply to a [story](https://core.telegram.org/api/stories)
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[long](/API_docs/types/long.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|Sender of the story.|
 |story\_id|[int](/API_docs/types/int.html) | Yes|Story ID|
 
 

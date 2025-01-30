@@ -1,6 +1,6 @@
 ---
 title: "reactionNotificationsFromAll"
-description: "reactionNotificationsFromAll attributes, type and example"
+description: "Receive notifications about reactions made by any user."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -8,6 +8,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+Receive notifications about reactions made by any user.
 
 
 

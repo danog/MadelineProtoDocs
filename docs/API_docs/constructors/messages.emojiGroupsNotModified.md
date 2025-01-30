@@ -10,7 +10,7 @@ redirect_from: /API_docs/constructors/messages_emojiGroupsNotModified.html
 
 
 
-The list of [emoji categories](https://core.telegram.org/api/custom-emoji#emoji-categories) hasn't changed.
+The list of [emoji categories](https://core.telegram.org/api/emoji-categories) hasn't changed.
 
 
 

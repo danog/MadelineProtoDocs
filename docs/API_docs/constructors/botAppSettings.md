@@ -1,6 +1,6 @@
 ---
 title: "botAppSettings"
-description: "botAppSettings attributes, type and example"
+description: "Mini app » settings"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,15 +9,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+[Mini app »](https://core.telegram.org/api/bots/webapps) settings
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|placeholder\_path|[bytes](/API_docs/types/bytes.html) | Optional|
-|background\_color|[int](/API_docs/types/int.html) | Optional|
-|background\_dark\_color|[int](/API_docs/types/int.html) | Optional|
-|header\_color|[int](/API_docs/types/int.html) | Optional|
-|header\_dark\_color|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|placeholder\_path|[bytes](/API_docs/types/bytes.html) | Optional|SVG placeholder logo, compressed using the same format used for [vector thumbnails »](https://core.telegram.org/api/files#vector-thumbnails).|
+|background\_color|[int](/API_docs/types/int.html) | Optional|Default light mode background color|
+|background\_dark\_color|[int](/API_docs/types/int.html) | Optional|Default dark mode background color|
+|header\_color|[int](/API_docs/types/int.html) | Optional|Default light mode header color|
+|header\_dark\_color|[int](/API_docs/types/int.html) | Optional|Default dark mode header color|
 
 
 

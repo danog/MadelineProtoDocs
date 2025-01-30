@@ -1,6 +1,6 @@
 ---
 title: "payments.connectStarRefBot"
-description: "payments.connectStarRefBot parameters, return type and example"
+description: "Join a bot's [affiliate program, becoming an affiliate »](https://core.telegram.org/api/bots/referrals#becoming-an-affiliate)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/payments_connectStarRefBot.html
 
 
 
+Join a bot's [affiliate program, becoming an affiliate »](https://core.telegram.org/api/bots/referrals#becoming-an-affiliate)
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer that will become the affiliate: star commissions will be transferred to this peer's star balance. | Optional|
+|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The bot that offers the affiliate program | Optional|
 
 
 ### Return type: [payments.ConnectedStarRefBots](/API_docs/types/payments.ConnectedStarRefBots.html)

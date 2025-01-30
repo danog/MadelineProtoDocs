@@ -20,7 +20,7 @@ Webpage preview
 |url|[string](/API_docs/types/string.html) | Yes|URL of previewed webpage|
 |display\_url|[string](/API_docs/types/string.html) | Yes|Webpage URL to be displayed to the user|
 |hash|[int](/API_docs/types/int.html) | Yes|
-|type|[string](/API_docs/types/string.html) | Optional|Type of the web page. Can be: article, photo, audio, video, document, profile, app, or something else|
+|type|[string](/API_docs/types/string.html) | Optional|Type of the web page. One of the following: <!-- start type --><br><br>\- `video`<br>\- `gif`<br>\- `photo`<br>\- `document`<br>\- `profile`<br>\- `telegram_background`<br>\- `telegram_theme`<br>\- `telegram_story`<br>\- `telegram_channel`<br>\- `telegram_channel_request`<br>\- `telegram_megagroup`<br>\- `telegram_chat`<br>\- `telegram_megagroup_request`<br>\- `telegram_chat_request`<br>\- `telegram_album`<br>\- `telegram_message`<br>\- `telegram_bot`<br>\- `telegram_voicechat`<br>\- `telegram_livestream`<br>\- `telegram_user`<br>\- `telegram_botapp`<br>\- `telegram_channel_boost`<br>\- `telegram_group_boost`<br>\- `telegram_giftcode`<br>\- `telegram_stickerset`<br><br><!-- end type -->|
 |site\_name|[string](/API_docs/types/string.html) | Optional|Short name of the site (e.g., Google Docs, App Store)|
 |title|[string](/API_docs/types/string.html) | Optional|Title of the content|
 |description|[string](/API_docs/types/string.html) | Optional|Content description|

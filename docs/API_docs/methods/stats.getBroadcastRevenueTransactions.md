@@ -1,6 +1,6 @@
 ---
 title: "stats.getBroadcastRevenueTransactions"
-description: "stats.getBroadcastRevenueTransactions parameters, return type and example"
+description: "Fetch [channel ad revenue transaction history »](https://core.telegram.org/api/revenue)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/stats_getBroadcastRevenueTransactions.html
 
 
 
+Fetch [channel ad revenue transaction history »](https://core.telegram.org/api/revenue).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|offset|[int](/API_docs/types/int.html) | Optional|
-|limit|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Get ad revenue transactions for the specified channel or bot | Optional|
+|offset|[int](/API_docs/types/int.html) | [Offset for pagination](https://core.telegram.org/api/offsets) | Optional|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [stats.BroadcastRevenueTransactions](/API_docs/types/stats.BroadcastRevenueTransactions.html)

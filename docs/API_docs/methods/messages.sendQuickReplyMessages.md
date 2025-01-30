@@ -1,6 +1,6 @@
 ---
 title: "messages.sendQuickReplyMessages"
-description: "messages.sendQuickReplyMessages parameters, return type and example"
+description: "Send a [quick reply shortcut »](https://core.telegram.org/api/business#quick-reply-shortcuts)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/messages_sendQuickReplyMessages.html
 
 
 
+Send a [quick reply shortcut »](https://core.telegram.org/api/business#quick-reply-shortcuts).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|shortcut\_id|[int](/API_docs/types/int.html) | Optional|
-|id|Array of [int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer where to send the shortcut (users only, for now). | Optional|
+|shortcut\_id|[int](/API_docs/types/int.html) | The ID of the quick reply shortcut to send. | Optional|
+|id|Array of [int](/API_docs/types/int.html) | Specify a subset of messages from the shortcut to send; if empty, defaults to all of them. | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

@@ -1,6 +1,6 @@
 ---
 title: "messages.updateSavedReactionTag"
-description: "messages.updateSavedReactionTag parameters, return type and example"
+description: "Update the [description of a saved message tag »](https://core.telegram.org/api/saved-messages#tags)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/messages_updateSavedReactionTag.html
 
 
 
+Update the [description of a saved message tag »](https://core.telegram.org/api/saved-messages#tags).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|reaction|[Reaction](/API_docs/types/Reaction.html) | Optional|
-|title|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|reaction|[Reaction](/API_docs/types/Reaction.html) | [Reaction](https://core.telegram.org/api/reactions) associated to the tag | Optional|
+|title|[string](/API_docs/types/string.html) | Tag description, max 12 UTF-8 characters; to remove the description call the method without setting this flag. | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

@@ -1,6 +1,6 @@
 ---
 title: "messages.checkQuickReplyShortcut"
-description: "messages.checkQuickReplyShortcut parameters, return type and example"
+description: "Before offering the user the choice to add a message to a [quick reply shortcut](https://core.telegram.org/api/business#quick-reply-shortcuts), to make sure that none of the limits specified [here »](https://core.telegram.org/api/business#quick-reply-shortcuts) were reached."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/messages_checkQuickReplyShortcut.html
 
 
 
+Before offering the user the choice to add a message to a [quick reply shortcut](https://core.telegram.org/api/business#quick-reply-shortcuts), to make sure that none of the limits specified [here »](https://core.telegram.org/api/business#quick-reply-shortcuts) were reached.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|shortcut|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|shortcut|[string](/API_docs/types/string.html) | Shorcut name (not ID!). | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

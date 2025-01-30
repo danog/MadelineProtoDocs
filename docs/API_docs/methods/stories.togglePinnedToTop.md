@@ -1,6 +1,6 @@
 ---
 title: "stories.togglePinnedToTop"
-description: "stories.togglePinnedToTop parameters, return type and example"
+description: "Pin some stories to the top of the profile, see [here »](https://core.telegram.org/api/stories#pinned-or-archived-stories) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/stories_togglePinnedToTop.html
 
 
 
+Pin some stories to the top of the profile, see [here »](https://core.telegram.org/api/stories#pinned-or-archived-stories) for more info.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|id|Array of [int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where to pin stories. | Optional|
+|id|Array of [int](/API_docs/types/int.html) | IDs of the stories to pin (max [stories\_pinned\_to\_top\_count\_max](https://core.telegram.org/api/config#stories-pinned-to-top-count-max)). | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

@@ -25,9 +25,9 @@ Phone call
 |g\_a\_or\_b|[bytes](/API_docs/types/bytes.html) | Yes|[Parameter for key exchange](https://core.telegram.org/api/end-to-end/voice-calls)|
 |key\_fingerprint|[long](/API_docs/types/long.html) | Yes|[Key fingerprint](https://core.telegram.org/api/end-to-end/voice-calls)|
 |protocol|[PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.html) | Yes|Call protocol info to be passed to libtgvoip|
-|connections|Array of [PhoneConnection](/API_docs/types/PhoneConnection.html) | Yes|List of endpoints the user can connect to to exchange call data|
+|connections|Array of [PhoneConnection](/API_docs/types/PhoneConnection.html) | Yes|List of endpoints the user can connect to exchange call data|
 |start\_date|[int](/API_docs/types/int.html) | Yes|When was the call actually started|
-|custom\_parameters|[DataJSON](/API_docs/types/DataJSON.html) | Optional|
+|custom\_parameters|[DataJSON](/API_docs/types/DataJSON.html) | Optional|Custom JSON-encoded call parameters to be passed to tgcalls.|
 |conference\_call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Optional|
 
 

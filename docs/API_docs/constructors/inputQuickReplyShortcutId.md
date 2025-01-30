@@ -1,6 +1,6 @@
 ---
 title: "inputQuickReplyShortcutId"
-description: "inputQuickReplyShortcutId attributes, type and example"
+description: "Selects a quick reply shortcut by its numeric ID."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Selects a [quick reply shortcut](https://core.telegram.org/api/business#quick-reply-shortcuts) by its numeric ID.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|shortcut\_id|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|shortcut\_id|[int](/API_docs/types/int.html) | Yes|Shortcut ID.|
 
 
 

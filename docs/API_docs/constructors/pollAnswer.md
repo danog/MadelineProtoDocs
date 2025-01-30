@@ -15,7 +15,7 @@ A possible answer of a poll
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|text|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Yes|
+|text|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Yes|Textual representation of the answer (only [Premium](https://core.telegram.org/api/premium) users can use [custom emoji entities](https://core.telegram.org/api/custom-emoji) here).|
 |option|[bytes](/API_docs/types/bytes.html) | Yes|The param that has to be passed to [messages.sendVote](../methods/messages.sendVote.html).|
 
 

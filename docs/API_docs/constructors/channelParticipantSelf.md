@@ -19,7 +19,7 @@ Myself
 |user\_id|[long](/API_docs/types/long.html) | Yes|User ID|
 |inviter\_id|[long](/API_docs/types/long.html) | Yes|User that invited me to the channel/supergroup|
 |date|[int](/API_docs/types/int.html) | Yes|When did I join the channel/supergroup|
-|subscription\_until\_date|[int](/API_docs/types/int.html) | Optional|
+|subscription\_until\_date|[int](/API_docs/types/int.html) | Optional|If set, contains the expiration date of the current [Telegram Star subscription period »](https://core.telegram.org/api/stars#star-subscriptions) for the specified participant.|
 
 
 

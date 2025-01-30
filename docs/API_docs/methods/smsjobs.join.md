@@ -1,6 +1,6 @@
 ---
 title: "smsjobs.join"
-description: "smsjobs.join parameters, return type and example"
+description: "Enable SMS jobs (official clients only)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -10,6 +10,8 @@ redirect_from: /API_docs/methods/smsjobs_join.html
 [Back to methods index](index.html)
 
 
+
+Enable SMS jobs (official clients only).
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "smsjobs.status"
-description: "smsjobs.status attributes, type and example"
+description: "Status"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/smsjobs_status.html
@@ -10,18 +10,20 @@ redirect_from: /API_docs/constructors/smsjobs_status.html
 
 
 
+Status
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|allow\_international|[Bool](/API_docs/types/Bool.html) | Optional|
-|recent\_sent|[int](/API_docs/types/int.html) | Yes|
-|recent\_since|[int](/API_docs/types/int.html) | Yes|
-|recent\_remains|[int](/API_docs/types/int.html) | Yes|
-|total\_sent|[int](/API_docs/types/int.html) | Yes|
-|total\_since|[int](/API_docs/types/int.html) | Yes|
-|last\_gift\_slug|[string](/API_docs/types/string.html) | Optional|
-|terms\_url|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|allow\_international|[Bool](/API_docs/types/Bool.html) | Optional|Allow international numbers|
+|recent\_sent|[int](/API_docs/types/int.html) | Yes|Recently sent|
+|recent\_since|[int](/API_docs/types/int.html) | Yes|Since|
+|recent\_remains|[int](/API_docs/types/int.html) | Yes|Remaining|
+|total\_sent|[int](/API_docs/types/int.html) | Yes|Total sent|
+|total\_since|[int](/API_docs/types/int.html) | Yes|Total since|
+|last\_gift\_slug|[string](/API_docs/types/string.html) | Optional|Last gift deep link|
+|terms\_url|[string](/API_docs/types/string.html) | Yes|Terms of service URL|
 
 
 

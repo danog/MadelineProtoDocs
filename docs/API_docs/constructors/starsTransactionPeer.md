@@ -1,6 +1,6 @@
 ---
 title: "starsTransactionPeer"
-description: "starsTransactionPeer attributes, type and example"
+description: "Describes a Telegram Star transaction with another peer."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Describes a [Telegram Star](https://core.telegram.org/api/stars) transaction with another peer.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[long](/API_docs/types/long.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer|[long](/API_docs/types/long.html) | Yes|The peer.|
 
 
 

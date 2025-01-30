@@ -17,8 +17,8 @@ Enable/disable message signatures in channels
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|signatures\_enabled|[Bool](/API_docs/types/Bool.html) |  | Optional|
-|profiles\_enabled|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|signatures\_enabled|[Bool](/API_docs/types/Bool.html) | If set, enables message signatures. | Optional|
+|profiles\_enabled|[Bool](/API_docs/types/Bool.html) | If set, messages from channel admins will link to their profiles, just like for group messages: can only be set if the `signatures_enabled` flag is set. | Optional|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Channel | Optional|
 
 

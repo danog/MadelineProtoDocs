@@ -21,10 +21,10 @@ Initialize connection
 |system\_version|[string](/API_docs/types/string.html) | Operation system version | Optional|
 |app\_version|[string](/API_docs/types/string.html) | Application version | Optional|
 |system\_lang\_code|[string](/API_docs/types/string.html) | Code for the language used on the device's OS, ISO 639-1 standard | Optional|
-|lang\_pack|[string](/API_docs/types/string.html) | Language pack to use | Optional|
-|lang\_code|[string](/API_docs/types/string.html) | Code for the language used on the client, ISO 639-1 standard | Optional|
+|lang\_pack|[string](/API_docs/types/string.html) | Platform identifier (i.e. `android`, `tdesktop`, etc). | Optional|
+|lang\_code|[string](/API_docs/types/string.html) | Either an ISO 639-1 language code or a language pack name obtained from a [language pack link](https://core.telegram.org/api/links#language-pack-links). | Optional|
 |proxy|[InputClientProxy](/API_docs/types/InputClientProxy.html) | Info about an MTProto proxy | Optional|
-|params|[JSONValue](/API_docs/types/JSONValue.html) | Additional initConnection parameters. <br>For now, only the `tz_offset` field is supported, for specifying timezone offset in seconds. | Optional|
+|params|[JSONValue](/API_docs/types/JSONValue.html) | Additional initConnection parameters. <br>For now, only the `tz_offset` field is supported, for specifying the timezone offset in seconds. | Optional|
 |query|[!X](/API_docs/types/!X.html) | The query itself | Yes|
 
 

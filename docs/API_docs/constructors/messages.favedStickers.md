@@ -16,7 +16,7 @@ Favorited stickers
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[long](/API_docs/types/long.html) | Yes|[Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
+|hash|[long](/API_docs/types/long.html) | Yes|[Hash used for caching, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
 |packs|Array of [StickerPack](/API_docs/types/StickerPack.html) | Yes|Emojis associated to stickers|
 |stickers|Array of [Document](/API_docs/types/Document.html) | Yes|Favorited stickers|
 

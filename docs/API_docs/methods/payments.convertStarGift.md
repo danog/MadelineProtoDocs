@@ -1,6 +1,6 @@
 ---
 title: "payments.convertStarGift"
-description: "payments.convertStarGift parameters, return type and example"
+description: "Convert a [received gift »](https://core.telegram.org/api/gifts) into Telegram Stars: this will permanently destroy the gift, converting it into [starGift](../constructors/starGift.html).`convert_stars` [Telegram Stars](https://core.telegram.org/api/stars), added to the user's balance."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,15 @@ redirect_from: /API_docs/methods/payments_convertStarGift.html
 
 
 
+Convert a [received gift »](https://core.telegram.org/api/gifts) into Telegram Stars: this will permanently destroy the gift, converting it into [starGift](../constructors/starGift.html).`convert_stars` [Telegram Stars](https://core.telegram.org/api/stars), added to the user's balance.
+
+Note that [starGift](../constructors/starGift.html).`convert_stars` will be less than the buying price ([starGift](../constructors/starGift.html).`stars`) of the gift if it was originally bought using Telegram Stars bought a long time ago.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|stargift|[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|stargift|[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) |  | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

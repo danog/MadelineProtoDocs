@@ -1,6 +1,6 @@
 ---
 title: "invokeWithBusinessConnection"
-description: "invokeWithBusinessConnection parameters, return type and example"
+description: "Invoke a method using a [Telegram Business Bot connection, see here » for more info, including a list of the methods that can be wrapped in this constructor](https://core.telegram.org/api/business#connected-bots)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -10,12 +10,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Invoke a method using a [Telegram Business Bot connection, see here » for more info, including a list of the methods that can be wrapped in this constructor](https://core.telegram.org/api/business#connected-bots).
+
+Make sure to always send queries wrapped in a `invokeWithBusinessConnection` to the datacenter ID, specified in the `dc_id` field of the [botBusinessConnection](../constructors/botBusinessConnection.html) that is being used.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|connection\_id|[string](/API_docs/types/string.html) | Optional|
-|query|[!X](/API_docs/types/!X.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|connection\_id|[string](/API_docs/types/string.html) | Business connection ID. | Optional|
+|query|[!X](/API_docs/types/!X.html) | The actual query. | Yes|
 
 
 ### Return type: [X](/API_docs/types/X.html)

@@ -21,14 +21,14 @@ Search for messages.
 |q|[string](/API_docs/types/string.html) | Text search request | Optional|
 |from\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Only return messages sent by the specified user ID | Optional|
 |saved\_peer\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Search within the [saved message dialog »](https://core.telegram.org/api/saved-messages) with this ID. | Optional|
-|saved\_reaction|Array of [Reaction](/API_docs/types/Reaction.html) |  | Optional|
+|saved\_reaction|Array of [Reaction](/API_docs/types/Reaction.html) | You may search for [saved messages tagged »](https://core.telegram.org/api/saved-messages#tags) with one or more reactions using this flag. | Optional|
 |top\_msg\_id|[int](/API_docs/types/int.html) | [Thread ID](https://core.telegram.org/api/threads) | Optional|
 |filter|[MessagesFilter](/API_docs/types/MessagesFilter.html) | Filter to return only specified message types | Optional|
 |min\_date|[int](/API_docs/types/int.html) | If a positive value was transferred, only messages with a sending date bigger than the transferred one will be returned | Optional|
 |max\_date|[int](/API_docs/types/int.html) | If a positive value was transferred, only messages with a sending date smaller than the transferred one will be returned | Optional|
 |offset\_id|[int](/API_docs/types/int.html) | Only return messages starting from the specified message ID | Optional|
 |add\_offset|[int](/API_docs/types/int.html) | [Additional offset](https://core.telegram.org/api/offsets) | Optional|
-|limit|[int](/API_docs/types/int.html) | [Number of results to return](https://core.telegram.org/api/offsets) | Optional|
+|limit|[int](/API_docs/types/int.html) | [Number of results to return](https://core.telegram.org/api/offsets), can be 0 to only return the message counter. | Optional|
 |max\_id|[int](/API_docs/types/int.html) | [Maximum message ID to return](https://core.telegram.org/api/offsets) | Optional|
 |min\_id|[int](/API_docs/types/int.html) | [Minimum message ID to return](https://core.telegram.org/api/offsets) | Optional|
 |hash|Array of [long\|string](/API_docs/types/long\|string.html) | [Hash](https://core.telegram.org/api/offsets) | Optional|

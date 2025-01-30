@@ -17,7 +17,7 @@ Get installed mask stickers
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [long\|string](/API_docs/types/long\|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | [Hash used for caching, for more info click here](https://core.telegram.org/api/offsets#hash-generation). | Optional|
 
 
 ### Return type: [messages.AllStickers](/API_docs/types/messages.AllStickers.html)

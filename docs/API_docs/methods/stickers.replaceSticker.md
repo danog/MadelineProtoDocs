@@ -1,6 +1,6 @@
 ---
 title: "stickers.replaceSticker"
-description: "stickers.replaceSticker parameters, return type and example"
+description: "Replace a sticker in a [stickerset »](https://core.telegram.org/api/stickers)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/stickers_replaceSticker.html
 
 
 
+Replace a sticker in a [stickerset »](https://core.telegram.org/api/stickers).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|sticker|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.html) | Optional|
-|new\_sticker|[InputStickerSetItem](/API_docs/types/InputStickerSetItem.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|sticker|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.html) | Old sticker document. | Optional|
+|new\_sticker|[InputStickerSetItem](/API_docs/types/InputStickerSetItem.html) | New sticker. | Yes|
 
 
 ### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.html)

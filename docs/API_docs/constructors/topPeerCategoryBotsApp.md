@@ -1,6 +1,6 @@
 ---
 title: "topPeerCategoryBotsApp"
-description: "topPeerCategoryBotsApp attributes, type and example"
+description: "Most frequently used Main Mini Bot Apps."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -8,6 +8,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+Most frequently used [Main Mini Bot Apps](https://core.telegram.org/api/bots/webapps#main-mini-apps).
 
 
 

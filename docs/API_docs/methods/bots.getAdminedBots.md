@@ -1,6 +1,6 @@
 ---
 title: "bots.getAdminedBots"
-description: "bots.getAdminedBots parameters, return type and example"
+description: "Get a list of bots owned by the current user"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -10,6 +10,8 @@ redirect_from: /API_docs/methods/bots_getAdminedBots.html
 [Back to methods index](index.html)
 
 
+
+Get a list of bots owned by the current user
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "smsjobs.finishJob"
-description: "smsjobs.finishJob parameters, return type and example"
+description: "Finish an SMS job (official clients only)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/smsjobs_finishJob.html
 
 
 
+Finish an SMS job (official clients only).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|job\_id|[string](/API_docs/types/string.html) | Optional|
-|error|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|job\_id|[string](/API_docs/types/string.html) | Job ID. | Optional|
+|error|[string](/API_docs/types/string.html) | If failed, the error. | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

@@ -1,6 +1,6 @@
 ---
 title: "updateDeleteScheduledMessages"
-description: "Some scheduled messages were deleted from the schedule queue of a chat"
+description: "Some scheduled messages were deleted (or sent) from the schedule queue of a chat"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Some [scheduled messages](https://core.telegram.org/api/scheduled-messages) were deleted from the schedule queue of a chat
+Some [scheduled messages](https://core.telegram.org/api/scheduled-messages) were deleted (or sent) from the schedule queue of a chat
 
 ### Attributes:
 
@@ -17,7 +17,7 @@ Some [scheduled messages](https://core.telegram.org/api/scheduled-messages) were
 |----------|---------------|----------|-------------|
 |peer|[long](/API_docs/types/long.html) | Yes|Peer|
 |messages|Array of [int](/API_docs/types/int.html) | Yes|Deleted scheduled messages|
-|sent\_messages|Array of [int](/API_docs/types/int.html) | Optional|
+|sent\_messages|Array of [int](/API_docs/types/int.html) | Optional|If set, this update indicates that some scheduled messages were sent (not simply deleted from the schedule queue).  <br>In this case, the `messages` field will contain the scheduled message IDs for the sent messages (initially returned in [updateNewScheduledMessage](../constructors/updateNewScheduledMessage.html)), and `sent_messages` will contain the real message IDs for the sent messages.|
 
 
 

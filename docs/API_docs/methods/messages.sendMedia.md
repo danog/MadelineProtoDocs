@@ -23,7 +23,7 @@ Send a media
 |noforwards|[Bool](/API_docs/types/Bool.html) | Only for bots, disallows forwarding and saving of the messages, even if the destination chat doesn't have [content protection](https://telegram.org/blog/protected-content-delete-by-date-and-more) enabled | Optional|
 |update\_stickersets\_order|[Bool](/API_docs/types/Bool.html) | Whether to move used stickersets to top, [see here for more info on this flag »](https://core.telegram.org/api/stickers#recent-stickersets) | Optional|
 |invert\_media|[Bool](/API_docs/types/Bool.html) | If set, any eventual webpage preview will be shown on top of the message instead of at the bottom. | Optional|
-|allow\_paid\_floodskip|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|allow\_paid\_floodskip|[Bool](/API_docs/types/Bool.html) | Bots only: if set, allows sending up to 1000 messages per second, ignoring [broadcasting limits](https://core.telegram.org/bots/faq#how-can-i-message-all-of-my-bot-39s-subscribers-at-once) for a fee of 0.1 Telegram Stars per message. The relevant Stars will be withdrawn from the bot's balance. | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Destination | Optional|
 |reply\_to|[InputReplyTo](/API_docs/types/InputReplyTo.html) | If set, indicates that the message should be sent in reply to the specified message or story. | Optional|
 |media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) | Attached media | Optional|
@@ -33,8 +33,8 @@ Send a media
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
 |schedule\_date|[int](/API_docs/types/int.html) | Scheduled message date for [scheduled messages](https://core.telegram.org/api/scheduled-messages) | Optional|
 |send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Send this message as the specified peer | Optional|
-|quick\_reply\_shortcut|[InputQuickReplyShortcut](/API_docs/types/InputQuickReplyShortcut.html) |  | Optional|
-|effect|[long](/API_docs/types/long.html) |  | Optional|
+|quick\_reply\_shortcut|[InputQuickReplyShortcut](/API_docs/types/InputQuickReplyShortcut.html) | Add the message to the specified [quick reply shortcut »](https://core.telegram.org/api/business#quick-reply-shortcuts), instead. | Optional|
+|effect|[long](/API_docs/types/long.html) | Specifies a [message effect »](https://core.telegram.org/api/effects) to use for the message. | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

@@ -1,6 +1,6 @@
 ---
 title: "payments.refundStarsCharge"
-description: "payments.refundStarsCharge parameters, return type and example"
+description: "Refund a [Telegram Stars](https://core.telegram.org/api/stars) transaction, see [here »](https://core.telegram.org/api/payments#6-refunds) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/payments_refundStarsCharge.html
 
 
 
+Refund a [Telegram Stars](https://core.telegram.org/api/stars) transaction, see [here »](https://core.telegram.org/api/payments#6-refunds) for more info.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
-|charge\_id|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | User to refund. | Optional|
+|charge\_id|[string](/API_docs/types/string.html) | Transaction ID. | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

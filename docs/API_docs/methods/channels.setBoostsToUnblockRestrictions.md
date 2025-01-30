@@ -1,6 +1,6 @@
 ---
 title: "channels.setBoostsToUnblockRestrictions"
-description: "channels.setBoostsToUnblockRestrictions parameters, return type and example"
+description: "Admins with [ban\_users admin rights »](../constructors/chatAdminRights.html) may allow users that apply a certain number of [booosts »](https://core.telegram.org/api/boost) to the group to bypass [slow mode »](../methods/channels.toggleSlowMode.html) and [other »](https://core.telegram.org/api/rights#default-rights) supergroup restrictions, see [here »](https://core.telegram.org/api/boost#bypass-slowmode-and-chat-restrictions) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/channels_setBoostsToUnblockRestrictions.html
 
 
 
+Admins with [ban\_users admin rights »](../constructors/chatAdminRights.html) may allow users that apply a certain number of [booosts »](https://core.telegram.org/api/boost) to the group to bypass [slow mode »](../methods/channels.toggleSlowMode.html) and [other »](https://core.telegram.org/api/rights#default-rights) supergroup restrictions, see [here »](https://core.telegram.org/api/boost#bypass-slowmode-and-chat-restrictions) for more info.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
-|boosts|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | The supergroup. | Optional|
+|boosts|[int](/API_docs/types/int.html) | The number of required boosts (1-8, 0 to disable). | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

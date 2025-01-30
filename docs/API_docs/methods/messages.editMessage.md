@@ -27,7 +27,7 @@ Edit message
 |entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | [Message entities for styled text](https://core.telegram.org/api/entities) | Optional|
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
 |schedule\_date|[int](/API_docs/types/int.html) | Scheduled message date for [scheduled messages](https://core.telegram.org/api/scheduled-messages) | Optional|
-|quick\_reply\_shortcut\_id|[int](/API_docs/types/int.html) |  | Optional|
+|quick\_reply\_shortcut\_id|[int](/API_docs/types/int.html) | If specified, edits a [quick reply shortcut message, instead »](https://core.telegram.org/api/business#quick-reply-shortcuts). | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

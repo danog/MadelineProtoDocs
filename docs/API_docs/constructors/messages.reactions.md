@@ -16,7 +16,7 @@ List of [message reactions](https://core.telegram.org/api/reactions)
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[long](/API_docs/types/long.html) | Yes|[Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
+|hash|[long](/API_docs/types/long.html) | Yes|[Hash used for caching, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
 |reactions|Array of [Reaction](/API_docs/types/Reaction.html) | Yes|Reactions|
 
 

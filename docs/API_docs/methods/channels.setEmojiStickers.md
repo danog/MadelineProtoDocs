@@ -1,6 +1,6 @@
 ---
 title: "channels.setEmojiStickers"
-description: "channels.setEmojiStickers parameters, return type and example"
+description: "Set a [custom emoji stickerset](https://core.telegram.org/api/custom-emoji) for supergroups. Only usable after reaching at least the [boost level »](https://core.telegram.org/api/boost) specified in the [`group_emoji_stickers_level_min` »](https://core.telegram.org/api/config#group-emoji-stickers-level-min) config parameter."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/channels_setEmojiStickers.html
 
 
 
+Set a [custom emoji stickerset](https://core.telegram.org/api/custom-emoji) for supergroups. Only usable after reaching at least the [boost level »](https://core.telegram.org/api/boost) specified in the [`group_emoji_stickers_level_min` »](https://core.telegram.org/api/config#group-emoji-stickers-level-min) config parameter.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
-|stickerset|[InputStickerSet](/API_docs/types/InputStickerSet.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | The supergroup | Optional|
+|stickerset|[InputStickerSet](/API_docs/types/InputStickerSet.html) | The custom emoji stickerset to associate to the supergroup | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

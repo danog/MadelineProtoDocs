@@ -1,6 +1,6 @@
 ---
 title: "messages.editFactCheck"
-description: "messages.editFactCheck parameters, return type and example"
+description: "Edit/create a [fact-check](https://core.telegram.org/api/factcheck) on a message."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,17 @@ redirect_from: /API_docs/methods/messages_editFactCheck.html
 
 
 
+Edit/create a [fact-check](https://core.telegram.org/api/factcheck) on a message.
+
+Can only be used by independent fact-checkers as specified by the [appConfig.can\_edit\_factcheck](https://core.telegram.org/api/config#can-edit-factcheck) configuration flag.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | Optional|
-|text|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where the message was sent | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | Message ID | Optional|
+|text|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Fact-check (maximum UTF-8 length specified in [appConfig.factcheck\_length\_limit](https://core.telegram.org/api/config#factcheck-length-limit)). | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

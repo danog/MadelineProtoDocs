@@ -1,6 +1,6 @@
 ---
 title: "reactionNotificationsFromContacts"
-description: "reactionNotificationsFromContacts attributes, type and example"
+description: "Receive notifications about reactions made only by our contacts."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -8,6 +8,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+Receive notifications about reactions made only by our contacts.
 
 
 

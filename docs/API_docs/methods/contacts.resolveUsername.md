@@ -18,7 +18,7 @@ You cannot use this method directly, use the resolveUsername, getPwrChat, getInf
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |username|[string](/API_docs/types/string.html) | @username to resolve | Optional|
-|referer|[string](/API_docs/types/string.html) |  | Optional|
+|referer|[string](/API_docs/types/string.html) | [Referrer ID from referral links »](https://core.telegram.org/api/links#referral-links). | Optional|
 
 
 ### Return type: [contacts.ResolvedPeer](/API_docs/types/contacts.ResolvedPeer.html)

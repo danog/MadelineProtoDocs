@@ -17,7 +17,7 @@ Channel/supergroup participant
 |----------|---------------|----------|-------------|
 |user\_id|[long](/API_docs/types/long.html) | Yes|Participant user ID|
 |date|[int](/API_docs/types/int.html) | Yes|Date joined|
-|subscription\_until\_date|[int](/API_docs/types/int.html) | Optional|
+|subscription\_until\_date|[int](/API_docs/types/int.html) | Optional|If set, contains the expiration date of the current [Telegram Star subscription period »](https://core.telegram.org/api/stars#star-subscriptions) for the specified participant.|
 
 
 

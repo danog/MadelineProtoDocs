@@ -15,7 +15,7 @@ Reply to a story.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|Sender of the story|
 |story\_id|[int](/API_docs/types/int.html) | Yes|ID of the story to reply to.|
 
 

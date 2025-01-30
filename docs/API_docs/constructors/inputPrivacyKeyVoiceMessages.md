@@ -1,6 +1,6 @@
 ---
 title: "inputPrivacyKeyVoiceMessages"
-description: "Whether people can send you voice messages"
+description: "Whether people can send you voice messages or round videos (Premium users only)."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Whether people can send you voice messages
+Whether people can send you voice messages or round videos ([Premium](https://core.telegram.org/api/premium) users only).
 
 
 

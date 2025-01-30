@@ -1,6 +1,6 @@
 ---
 title: "messages.invitedUsers"
-description: "messages.invitedUsers attributes, type and example"
+description: "Contains info about successfully or unsuccessfully invited » users."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_invitedUsers.html
@@ -10,12 +10,14 @@ redirect_from: /API_docs/constructors/messages_invitedUsers.html
 
 
 
+Contains info about successfully or unsuccessfully [invited »](https://core.telegram.org/api/invites#direct-invites) users.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|updates|[Updates](/API_docs/types/Updates.html) | Yes|
-|missing\_invitees|Array of [MissingInvitee](/API_docs/types/MissingInvitee.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|updates|[Updates](/API_docs/types/Updates.html) | Yes|List of updates about successfully invited users (and eventually info about the created group)|
+|missing\_invitees|Array of [MissingInvitee](/API_docs/types/MissingInvitee.html) | Yes|A list of users that could not be invited, along with the reason why they couldn't be invited.|
 
 
 

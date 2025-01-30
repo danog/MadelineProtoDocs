@@ -1,6 +1,6 @@
 ---
 title: "payments.getStarsGiveawayOptions"
-description: "payments.getStarsGiveawayOptions parameters, return type and example"
+description: "Fetch a list of [star giveaway options »](https://core.telegram.org/api/giveaways#star-giveaways)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -10,6 +10,8 @@ redirect_from: /API_docs/methods/payments_getStarsGiveawayOptions.html
 [Back to methods index](index.html)
 
 
+
+Fetch a list of [star giveaway options »](https://core.telegram.org/api/giveaways#star-giveaways).
 
 
 

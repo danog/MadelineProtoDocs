@@ -1,6 +1,6 @@
 ---
 title: "messages.availableEffectsNotModified"
-description: "messages.availableEffectsNotModified attributes, type and example"
+description: "The full list of usable animated message effects » hasn't changed."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_availableEffectsNotModified.html
@@ -9,6 +9,8 @@ redirect_from: /API_docs/constructors/messages_availableEffectsNotModified.html
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+The full list of usable [animated message effects »](https://core.telegram.org/api/effects) hasn't changed.
 
 
 

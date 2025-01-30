@@ -1,6 +1,6 @@
 ---
 title: "bots.previewInfo"
-description: "bots.previewInfo attributes, type and example"
+description: "Contains info about Main Mini App previews, see here » for more info."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/bots_previewInfo.html
@@ -10,12 +10,14 @@ redirect_from: /API_docs/constructors/bots_previewInfo.html
 
 
 
+Contains info about [Main Mini App previews, see here »](https://core.telegram.org/api/bots/webapps#main-mini-app-previews) for more info.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|media|Array of [BotPreviewMedia](/API_docs/types/BotPreviewMedia.html) | Yes|
-|lang\_codes|Array of [string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|media|Array of [BotPreviewMedia](/API_docs/types/BotPreviewMedia.html) | Yes|All preview medias for the language code passed to [bots.getPreviewInfo](../methods/bots.getPreviewInfo.html).|
+|lang\_codes|Array of [string](/API_docs/types/string.html) | Yes|All available language codes for which preview medias were uploaded (regardless of the language code passed to [bots.getPreviewInfo](../methods/bots.getPreviewInfo.html)).|
 
 
 

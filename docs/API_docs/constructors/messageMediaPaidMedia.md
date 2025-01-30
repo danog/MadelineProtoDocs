@@ -1,6 +1,6 @@
 ---
 title: "messageMediaPaidMedia"
-description: "messageMediaPaidMedia attributes, type and example"
+description: "Paid media, see here » for more info."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+[Paid media, see here »](https://core.telegram.org/api/paid-media) for more info.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|stars\_amount|[long](/API_docs/types/long.html) | Yes|
-|extended\_media|Array of [MessageExtendedMedia](/API_docs/types/MessageExtendedMedia.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|stars\_amount|[long](/API_docs/types/long.html) | Yes|The price of the media in [Telegram Stars](https://core.telegram.org/api/stars).|
+|extended\_media|Array of [MessageExtendedMedia](/API_docs/types/MessageExtendedMedia.html) | Yes|Either the paid-for media, or super low resolution media previews if the media wasn't purchased yet, [see here »](https://core.telegram.org/api/paid-media#viewing-paid-media) for more info.|
 
 
 

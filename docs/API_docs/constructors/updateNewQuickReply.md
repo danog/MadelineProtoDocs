@@ -1,6 +1,6 @@
 ---
 title: "updateNewQuickReply"
-description: "updateNewQuickReply attributes, type and example"
+description: "A new quick reply shortcut » was created."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A new [quick reply shortcut »](https://core.telegram.org/api/business#quick-reply-shortcuts) was created.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|quick\_reply|[QuickReply](/API_docs/types/QuickReply.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|quick\_reply|[QuickReply](/API_docs/types/QuickReply.html) | Yes|Quick reply shortcut.|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "account.resolvedBusinessChatLinks"
-description: "account.resolvedBusinessChatLinks attributes, type and example"
+description: "Contains info about a single resolved business chat deep link »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_resolvedBusinessChatLinks.html
@@ -10,16 +10,18 @@ redirect_from: /API_docs/constructors/account_resolvedBusinessChatLinks.html
 
 
 
+Contains info about a single resolved [business chat deep link »](https://core.telegram.org/api/business#business-chat-links).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[long](/API_docs/types/long.html) | Yes|
-|message|[string](/API_docs/types/string.html) | Yes|
-|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer|[long](/API_docs/types/long.html) | Yes|Destination peer|
+|message|[string](/API_docs/types/string.html) | Yes|Message to pre-fill in the message input field.|
+|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Optional|[Message entities for styled text](https://core.telegram.org/api/entities)|
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
-|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
-|users|Array of [User](/API_docs/types/User.html) | Yes|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Mentioned chats|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Mentioned users|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "updateSmsJob"
-description: "updateSmsJob attributes, type and example"
+description: "A new SMS job was received"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A new SMS job was received
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|job\_id|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|job\_id|[string](/API_docs/types/string.html) | Yes|SMS job ID|
 
 
 

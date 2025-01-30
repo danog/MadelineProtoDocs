@@ -1,6 +1,6 @@
 ---
 title: "account.updatePersonalChannel"
-description: "account.updatePersonalChannel parameters, return type and example"
+description: "Associate (or remove) a personal [channel »](https://core.telegram.org/api/channel), that will be listed on our personal [profile page »](https://core.telegram.org/api/profile#personal-channel)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,15 @@ redirect_from: /API_docs/methods/account_updatePersonalChannel.html
 
 
 
+Associate (or remove) a personal [channel »](https://core.telegram.org/api/channel), that will be listed on our personal [profile page »](https://core.telegram.org/api/profile#personal-channel).
+
+Changing it will emit an [updateUser](../constructors/updateUser.html) update.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | The channel, pass [inputChannelEmpty](../constructors/inputChannelEmpty.html) to remove it. | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

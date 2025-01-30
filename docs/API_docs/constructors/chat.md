@@ -1,6 +1,6 @@
 ---
 title: "chat"
-description: "Info about a group"
+description: "Info about a group."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Info about a group
+Info about a group.
+
+When updating the [local peer database](https://core.telegram.org/api/peers), all fields from the newly received constructor take priority over the old constructor cached locally (including by removing fields that aren't set in the new constructor).
+
+See [here »](https://github.com/tdlib/td/blob/a24af0992245f838f2b4b418a0a2d5fa9caa27b5/td/telegram/ChatManager.cpp#L5152) for an implementation of the logic to use when updating the [local user peer database](https://core.telegram.org/api/peers).
 
 ### Attributes:
 
@@ -21,7 +25,7 @@ Info about a group
 |call\_active|[Bool](/API_docs/types/Bool.html) | Optional|Whether a group call is currently active|
 |call\_not\_empty|[Bool](/API_docs/types/Bool.html) | Optional|Whether there's anyone in the group call|
 |noforwards|[Bool](/API_docs/types/Bool.html) | Optional|Whether this group is [protected](https://telegram.org/blog/protected-content-delete-by-date-and-more), thus does not allow forwarding messages from it|
-|id|[long](/API_docs/types/long.html) | Yes|ID of the group|
+|id|[long](/API_docs/types/long.html) | Yes|ID of the group, see [here »](https://core.telegram.org/api/peers#peer-id) for more info|
 |title|[string](/API_docs/types/string.html) | Yes|Title|
 |photo|[ChatPhoto](/API_docs/types/ChatPhoto.html) | Optional|Chat photo|
 |participants\_count|[int](/API_docs/types/int.html) | Yes|Participant count|

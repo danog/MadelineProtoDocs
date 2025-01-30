@@ -1,6 +1,6 @@
 ---
 title: "messages.searchStickers"
-description: "messages.searchStickers parameters, return type and example"
+description: "Search for stickers using AI-powered keyword search"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,17 +11,19 @@ redirect_from: /API_docs/methods/messages_searchStickers.html
 
 
 
+Search for stickers using AI-powered keyword search
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|emojis|[Bool](/API_docs/types/Bool.html) | Optional|
-|q|[string](/API_docs/types/string.html) | Optional|
-|emoticon|[string](/API_docs/types/string.html) | Optional|
-|lang\_code|Array of [string](/API_docs/types/string.html) | Yes|
-|offset|[int](/API_docs/types/int.html) | Optional|
-|limit|[int](/API_docs/types/int.html) | Optional|
-|hash|Array of [long\|string](/API_docs/types/long\|string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|emojis|[Bool](/API_docs/types/Bool.html) | If set, returns [custom emoji stickers](https://core.telegram.org/api/custom-emoji) | Optional|
+|q|[string](/API_docs/types/string.html) | The search term | Optional|
+|emoticon|[string](/API_docs/types/string.html) | Space-separated list of emojis to search for | Optional|
+|lang\_code|Array of [string](/API_docs/types/string.html) | List of possible IETF language tags of the user's input language; may be empty if unknown | Yes|
+|offset|[int](/API_docs/types/int.html) | [Offset for pagination](https://core.telegram.org/api/offsets) | Optional|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | [Hash used for caching, for more info click here](https://core.telegram.org/api/offsets#hash-generation). <br>The hash may be generated locally by using the `id`s of the returned or stored sticker [document](../constructors/document.html)s. | Optional|
 
 
 ### Return type: [messages.FoundStickers](/API_docs/types/messages.FoundStickers.html)

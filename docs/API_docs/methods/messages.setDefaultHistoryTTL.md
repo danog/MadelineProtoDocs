@@ -17,7 +17,7 @@ Changes the default value of the Time-To-Live setting, applied to all new chats.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|period|[int](/API_docs/types/int.html) | The new default Time-To-Live of all messages sent in new chats. | Optional|
+|period|[int](/API_docs/types/int.html) | The new default Time-To-Live of all messages sent in new chats, in seconds. | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

@@ -1,6 +1,6 @@
 ---
 title: "smsjobs.updateSettings"
-description: "smsjobs.updateSettings parameters, return type and example"
+description: "Update SMS job settings (official clients only)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/smsjobs_updateSettings.html
 
 
 
+Update SMS job settings (official clients only).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|allow\_international|[Bool](/API_docs/types/Bool.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|allow\_international|[Bool](/API_docs/types/Bool.html) | Allow international numbers? | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

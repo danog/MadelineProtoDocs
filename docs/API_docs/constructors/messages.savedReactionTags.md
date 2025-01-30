@@ -1,6 +1,6 @@
 ---
 title: "messages.savedReactionTags"
-description: "messages.savedReactionTags attributes, type and example"
+description: "List of reaction tag » names assigned by the user."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_savedReactionTags.html
@@ -10,12 +10,14 @@ redirect_from: /API_docs/constructors/messages_savedReactionTags.html
 
 
 
+List of [reaction tag »](https://core.telegram.org/api/saved-messages#tags) names assigned by the user.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|tags|Array of [SavedReactionTag](/API_docs/types/SavedReactionTag.html) | Yes|
-|hash|[long](/API_docs/types/long.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|tags|Array of [SavedReactionTag](/API_docs/types/SavedReactionTag.html) | Yes|Saved reaction tags.|
+|hash|[long](/API_docs/types/long.html) | Yes|[Hash used for caching, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
 
 
 

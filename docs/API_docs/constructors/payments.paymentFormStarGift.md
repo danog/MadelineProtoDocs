@@ -1,6 +1,6 @@
 ---
 title: "payments.paymentFormStarGift"
-description: "payments.paymentFormStarGift attributes, type and example"
+description: "Represents a payment form for a gift, see here » for more info."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/payments_paymentFormStarGift.html
@@ -10,12 +10,14 @@ redirect_from: /API_docs/constructors/payments_paymentFormStarGift.html
 
 
 
+Represents a payment form for a [gift, see here »](https://core.telegram.org/api/gifts) for more info.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|form\_id|[long](/API_docs/types/long.html) | Yes|
-|invoice|[Invoice](/API_docs/types/Invoice.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|form\_id|[long](/API_docs/types/long.html) | Yes|Form ID.|
+|invoice|[Invoice](/API_docs/types/Invoice.html) | Yes|Invoice|
 
 
 

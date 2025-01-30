@@ -1,6 +1,6 @@
 ---
 title: "messages.getDefaultTagReactions"
-description: "messages.getDefaultTagReactions parameters, return type and example"
+description: "Fetch a default recommended list of [saved message tag reactions](https://core.telegram.org/api/saved-messages#tags)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/messages_getDefaultTagReactions.html
 
 
 
+Fetch a default recommended list of [saved message tag reactions](https://core.telegram.org/api/saved-messages#tags).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|Array of [long\|string](/API_docs/types/long\|string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | [Hash used for caching, for more info click here](https://core.telegram.org/api/offsets#hash-generation). | Optional|
 
 
 ### Return type: [messages.Reactions](/API_docs/types/messages.Reactions.html)

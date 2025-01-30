@@ -1,6 +1,6 @@
 ---
 title: "fileLocation"
-description: "fileLocation attributes, type and example"
+description: "File location."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,10 +9,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+File location.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
 |dc\_id|[int](/API_docs/types/int.html) | Yes|
 |volume\_id|[long](/API_docs/types/long.html) | Yes|
 |local\_id|[int](/API_docs/types/int.html) | Yes|

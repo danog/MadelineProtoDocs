@@ -1,6 +1,6 @@
 ---
 title: "updateBroadcastRevenueTransactions"
-description: "updateBroadcastRevenueTransactions attributes, type and example"
+description: "A new channel ad revenue transaction was made, see here » for more info."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A new [channel ad revenue transaction was made, see here »](https://core.telegram.org/api/revenue#revenue-statistics) for more info.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[long](/API_docs/types/long.html) | Yes|
-|balances|[BroadcastRevenueBalances](/API_docs/types/BroadcastRevenueBalances.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer|[long](/API_docs/types/long.html) | Yes|Channel|
+|balances|[BroadcastRevenueBalances](/API_docs/types/BroadcastRevenueBalances.html) | Yes|New ad revenue balance.|
 
 
 

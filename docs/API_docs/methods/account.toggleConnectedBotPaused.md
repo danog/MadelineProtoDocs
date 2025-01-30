@@ -1,6 +1,6 @@
 ---
 title: "account.toggleConnectedBotPaused"
-description: "account.toggleConnectedBotPaused parameters, return type and example"
+description: "Pause or unpause a specific chat, temporarily disconnecting it from all [business bots »](https://core.telegram.org/api/business#connected-bots)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/account_toggleConnectedBotPaused.html
 
 
 
+Pause or unpause a specific chat, temporarily disconnecting it from all [business bots »](https://core.telegram.org/api/business#connected-bots).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|paused|[Bool](/API_docs/types/Bool.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The chat to pause | Optional|
+|paused|[Bool](/API_docs/types/Bool.html) | Whether to pause or unpause the chat | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

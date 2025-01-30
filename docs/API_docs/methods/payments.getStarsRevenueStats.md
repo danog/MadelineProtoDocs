@@ -1,6 +1,6 @@
 ---
 title: "payments.getStarsRevenueStats"
-description: "payments.getStarsRevenueStats parameters, return type and example"
+description: "Get [Telegram Star revenue statistics »](https://core.telegram.org/api/stars)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/payments_getStarsRevenueStats.html
 
 
 
+Get [Telegram Star revenue statistics »](https://core.telegram.org/api/stars).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|dark|[Bool](/API_docs/types/Bool.html) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|dark|[Bool](/API_docs/types/Bool.html) | Whether to enable dark theme for graph colors | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Get statistics for the specified bot, channel or ourselves ([inputPeerSelf](../constructors/inputPeerSelf.html)). | Optional|
 
 
 ### Return type: [payments.StarsRevenueStats](/API_docs/types/payments.StarsRevenueStats.html)

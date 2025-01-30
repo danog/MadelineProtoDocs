@@ -1,6 +1,6 @@
 ---
 title: "bots.updateUserEmojiStatus"
-description: "bots.updateUserEmojiStatus parameters, return type and example"
+description: "Change the emoji status of a user (invoked by bots, see [here »](https://core.telegram.org/api/emoji-status#setting-an-emoji-status-from-a-bot) for more info on the full flow)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/bots_updateUserEmojiStatus.html
 
 
 
+Change the emoji status of a user (invoked by bots, see [here »](https://core.telegram.org/api/emoji-status#setting-an-emoji-status-from-a-bot) for more info on the full flow)
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
-|emoji\_status|[EmojiStatus](/API_docs/types/EmojiStatus.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The user whose emoji status should be changed | Optional|
+|emoji\_status|[EmojiStatus](/API_docs/types/EmojiStatus.html) | The emoji status | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

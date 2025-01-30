@@ -22,7 +22,7 @@ Contains info about a [giveaway, see here »](https://core.telegram.org/api/give
 |prize\_description|[string](/API_docs/types/string.html) | Optional|Can contain a textual description of additional giveaway prizes.|
 |quantity|[int](/API_docs/types/int.html) | Yes|Number of [Telegram Premium](https://core.telegram.org/api/premium) subscriptions given away.|
 |months|[int](/API_docs/types/int.html) | Optional|Duration in months of each [Telegram Premium](https://core.telegram.org/api/premium) subscription in the giveaway.|
-|stars|[long](/API_docs/types/long.html) | Optional|
+|stars|[long](/API_docs/types/long.html) | Optional|For [Telegram Star giveaways](https://core.telegram.org/api/stars#star-giveaways), the total number of Telegram Stars being given away.|
 |until\_date|[int](/API_docs/types/int.html) | Yes|The end date of the giveaway.|
 
 

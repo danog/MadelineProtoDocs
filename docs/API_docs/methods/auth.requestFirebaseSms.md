@@ -20,7 +20,7 @@ Request an SMS code via Firebase.
 |phone\_number|[string](/API_docs/types/string.html) | Phone number | Optional|
 |phone\_code\_hash|[string](/API_docs/types/string.html) | Phone code hash returned by [auth.sendCode](../methods/auth.sendCode.html) | Optional|
 |safety\_net\_token|[string](/API_docs/types/string.html) | On Android, a JWS object obtained as described in the [auth documentation »](https://core.telegram.org/api/auth) | Optional|
-|play\_integrity\_token|[string](/API_docs/types/string.html) |  | Optional|
+|play\_integrity\_token|[string](/API_docs/types/string.html) | On Android, an object obtained as described in the [auth documentation »](https://core.telegram.org/api/auth) | Optional|
 |ios\_push\_secret|[string](/API_docs/types/string.html) | Secret token received via an apple push notification | Optional|
 
 

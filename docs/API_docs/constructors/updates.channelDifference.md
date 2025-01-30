@@ -18,7 +18,7 @@ The new updates
 |----------|---------------|----------|-------------|
 |final|[Bool](/API_docs/types/Bool.html) | Optional|Whether there are more updates to be fetched using getDifference, starting from the provided `pts`|
 |pts|[int](/API_docs/types/int.html) | Yes|The [PTS](https://core.telegram.org/api/updates) from which to start getting updates the next time|
-|timeout|[int](/API_docs/types/int.html) | Optional|Clients are supposed to refetch the channel difference after timeout seconds have elapsed|
+|timeout|[int](/API_docs/types/int.html) | Optional|Clients are supposed to refetch the channel difference after timeout seconds have elapsed, if the user is [currently viewing the chat, see here »](https://core.telegram.org/api/updates#subscribing-to-updates-of-channels-supergroups) for more info.|
 |new\_messages|Array of [Message](/API_docs/types/Message.html) | Yes|New messages|
 |other\_updates|Array of [Update](/API_docs/types/Update.html) | Yes|Other updates|
 |chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Chats|

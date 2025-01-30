@@ -1,6 +1,6 @@
 ---
 title: "payments.getStarsStatus"
-description: "payments.getStarsStatus parameters, return type and example"
+description: "Get the current [Telegram Stars balance](https://core.telegram.org/api/stars) of the current account (with peer=[inputPeerSelf](../constructors/inputPeerSelf.html)), or the stars balance of the bot specified in `peer`."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/payments_getStarsStatus.html
 
 
 
+Get the current [Telegram Stars balance](https://core.telegram.org/api/stars) of the current account (with peer=[inputPeerSelf](../constructors/inputPeerSelf.html)), or the stars balance of the bot specified in `peer`.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer of which to get the balance. | Optional|
 
 
 ### Return type: [payments.StarsStatus](/API_docs/types/payments.StarsStatus.html)

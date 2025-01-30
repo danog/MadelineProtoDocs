@@ -1,6 +1,6 @@
 ---
 title: "payments.getStarsRevenueAdsAccountUrl"
-description: "payments.getStarsRevenueAdsAccountUrl parameters, return type and example"
+description: "Returns a URL for a Telegram Ad platform account that can be used to set up advertisements for channel/bot in `peer`, paid using the Telegram Stars owned by the specified `peer`, see [here »](https://core.telegram.org/api/stars#paying-for-ads) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/payments_getStarsRevenueAdsAccountUrl.html
 
 
 
+Returns a URL for a Telegram Ad platform account that can be used to set up advertisements for channel/bot in `peer`, paid using the Telegram Stars owned by the specified `peer`, see [here »](https://core.telegram.org/api/stars#paying-for-ads) for more info.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Channel or bot that owns the stars. | Optional|
 
 
 ### Return type: [payments.StarsRevenueAdsAccountUrl](/API_docs/types/payments.StarsRevenueAdsAccountUrl.html)

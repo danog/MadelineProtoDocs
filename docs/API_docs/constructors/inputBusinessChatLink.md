@@ -1,6 +1,6 @@
 ---
 title: "inputBusinessChatLink"
-description: "inputBusinessChatLink attributes, type and example"
+description: "Contains info about a business chat deep link » to be created by the current account."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,14 +9,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Contains info about a [business chat deep link »](https://core.telegram.org/api/business#business-chat-links) to be created by the current account.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|message|[string](/API_docs/types/string.html) | Yes|
-|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|message|[string](/API_docs/types/string.html) | Yes|Message to pre-fill in the message input field.|
+|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Optional|[Message entities for styled text](https://core.telegram.org/api/entities)|
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
-|title|[string](/API_docs/types/string.html) | Optional|
+|title|[string](/API_docs/types/string.html) | Optional|Human-readable name of the link, to simplify management in the UI (only visible to the creator of the link).|
 
 
 

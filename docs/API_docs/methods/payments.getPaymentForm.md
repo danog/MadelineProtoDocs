@@ -18,7 +18,7 @@ Get a payment form
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |invoice|[InputInvoice](/API_docs/types/InputInvoice.html) | Invoice | Yes|
-|theme\_params|[DataJSON](/API_docs/types/DataJSON.html) | A JSON object with the following keys, containing color theme information (integers, RGB24) to pass to the payment provider, to apply in eventual verification pages: <br>`bg_color` \- Background color <br>`text_color` \- Text color <br>`hint_color` \- Hint text color <br>`link_color` \- Link color <br>`button_color` \- Button color <br>`button_text_color` \- Button text color | Optional|
+|theme\_params|[DataJSON](/API_docs/types/DataJSON.html) | [Theme parameters »](https://core.telegram.org/api/bots/webapps#theme-parameters) | Optional|
 
 
 ### Return type: [payments.PaymentForm](/API_docs/types/payments.PaymentForm.html)

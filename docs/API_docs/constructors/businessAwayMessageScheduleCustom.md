@@ -1,6 +1,6 @@
 ---
 title: "businessAwayMessageScheduleCustom"
-description: "businessAwayMessageScheduleCustom attributes, type and example"
+description: "Send Telegram Business away messages to users writing to us in private in the specified time span."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Send [Telegram Business away messages](https://core.telegram.org/api/business#away-messages) to users writing to us in private in the specified time span.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|start\_date|[int](/API_docs/types/int.html) | Yes|
-|end\_date|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|start\_date|[int](/API_docs/types/int.html) | Yes|Start date (UNIX timestamp).|
+|end\_date|[int](/API_docs/types/int.html) | Yes|End date (UNIX timestamp).|
 
 
 

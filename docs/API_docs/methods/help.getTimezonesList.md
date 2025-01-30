@@ -1,6 +1,6 @@
 ---
 title: "help.getTimezonesList"
-description: "help.getTimezonesList parameters, return type and example"
+description: "Returns timezone information that may be used elsewhere in the API, such as to set [Telegram Business opening hours »](https://core.telegram.org/api/business#opening-hours)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/help_getTimezonesList.html
 
 
 
+Returns timezone information that may be used elsewhere in the API, such as to set [Telegram Business opening hours »](https://core.telegram.org/api/business#opening-hours).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|Array of [long\|string](/API_docs/types/long\|string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) |  | Optional|
 
 
 ### Return type: [help.TimezonesList](/API_docs/types/help.TimezonesList.html)

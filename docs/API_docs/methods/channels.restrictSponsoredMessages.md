@@ -1,6 +1,6 @@
 ---
 title: "channels.restrictSponsoredMessages"
-description: "channels.restrictSponsoredMessages parameters, return type and example"
+description: "Disable ads on the specified channel, for all users."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,16 @@ redirect_from: /API_docs/methods/channels_restrictSponsoredMessages.html
 
 
 
+Disable ads on the specified channel, for all users.
+
+Available only after reaching at least the [boost level »](https://core.telegram.org/api/boost) specified in the [`channel_restrict_sponsored_level_min` »](https://core.telegram.org/api/config#channel-restrict-sponsored-level-min) config parameter.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
-|restricted|[Bool](/API_docs/types/Bool.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | The channel. | Optional|
+|restricted|[Bool](/API_docs/types/Bool.html) | Whether to disable or re-enable ads. | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

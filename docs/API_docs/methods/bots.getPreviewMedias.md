@@ -1,6 +1,6 @@
 ---
 title: "bots.getPreviewMedias"
-description: "bots.getPreviewMedias parameters, return type and example"
+description: "Fetch [main mini app previews, see here »](https://core.telegram.org/api/bots/webapps#main-mini-app-previews) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/bots_getPreviewMedias.html
 
 
 
+Fetch [main mini app previews, see here »](https://core.telegram.org/api/bots/webapps#main-mini-app-previews) for more info.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The bot that owns the Main Mini App. | Optional|
 
 
 ### Return type: [Vector\_of\_BotPreviewMedia](/API_docs/types/BotPreviewMedia.html)

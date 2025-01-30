@@ -1,6 +1,6 @@
 ---
 title: "help.timezonesList"
-description: "help.timezonesList attributes, type and example"
+description: "Timezone information that may be used elsewhere in the API, such as to set Telegram Business opening hours »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/help_timezonesList.html
@@ -10,11 +10,13 @@ redirect_from: /API_docs/constructors/help_timezonesList.html
 
 
 
+Timezone information that may be used elsewhere in the API, such as to set [Telegram Business opening hours »](https://core.telegram.org/api/business#opening-hours).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|timezones|Array of [Timezone](/API_docs/types/Timezone.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|timezones|Array of [Timezone](/API_docs/types/Timezone.html) | Yes|Timezones|
 |hash|[int](/API_docs/types/int.html) | Yes|
 
 

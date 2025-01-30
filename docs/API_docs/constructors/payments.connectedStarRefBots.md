@@ -1,6 +1,6 @@
 ---
 title: "payments.connectedStarRefBots"
-description: "payments.connectedStarRefBots attributes, type and example"
+description: "Active affiliations"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/payments_connectedStarRefBots.html
@@ -10,13 +10,15 @@ redirect_from: /API_docs/constructors/payments_connectedStarRefBots.html
 
 
 
+Active [affiliations](https://core.telegram.org/api/bots/referrals#becoming-an-affiliate)
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|count|[int](/API_docs/types/int.html) | Yes|
-|connected\_bots|Array of [ConnectedBotStarRef](/API_docs/types/ConnectedBotStarRef.html) | Yes|
-|users|Array of [User](/API_docs/types/User.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|count|[int](/API_docs/types/int.html) | Yes|Total number of active affiliations|
+|connected\_bots|Array of [ConnectedBotStarRef](/API_docs/types/ConnectedBotStarRef.html) | Yes|The affiliations|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Peers mentioned in `connected_bots`|
 
 
 

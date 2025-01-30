@@ -1,6 +1,6 @@
 ---
 title: "updateStarsBalance"
-description: "updateStarsBalance attributes, type and example"
+description: "The current account's Telegram Stars balance » has changed."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+The current account's [Telegram Stars balance »](https://core.telegram.org/api/stars) has changed.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|balance|[StarsAmount](/API_docs/types/StarsAmount.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|balance|[StarsAmount](/API_docs/types/StarsAmount.html) | Yes|New balance.|
 
 
 

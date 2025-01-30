@@ -1,6 +1,6 @@
 ---
 title: "missingInvitee"
-description: "missingInvitee attributes, type and example"
+description: "Info about why a specific user could not be invited »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Info about why a specific user could not be [invited »](https://core.telegram.org/api/invites#direct-invites).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|premium\_would\_allow\_invite|[Bool](/API_docs/types/Bool.html) | Optional|
-|premium\_required\_for\_pm|[Bool](/API_docs/types/Bool.html) | Optional|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|premium\_would\_allow\_invite|[Bool](/API_docs/types/Bool.html) | Optional|If set, we could not add the user *only because* the current account needs to purchase a [Telegram Premium](https://core.telegram.org/api/premium) subscription to complete the operation.|
+|premium\_required\_for\_pm|[Bool](/API_docs/types/Bool.html) | Optional|If set, we could not add the user because of their privacy settings, and additionally, the current account needs to purchase a [Telegram Premium](https://core.telegram.org/api/premium) subscription to directly share an invite link with the user via a private message.|
+|user\_id|[long](/API_docs/types/long.html) | Yes|ID of the user. If neither of the flags below are set, we could not add the user because of their privacy settings, and we can create and directly share an [invite link](https://core.telegram.org/api/invites#invite-links) with them using a normal message, instead.|
 
 
 

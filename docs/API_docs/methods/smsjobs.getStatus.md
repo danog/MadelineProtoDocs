@@ -1,6 +1,6 @@
 ---
 title: "smsjobs.getStatus"
-description: "smsjobs.getStatus parameters, return type and example"
+description: "Get SMS jobs status (official clients only)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -10,6 +10,8 @@ redirect_from: /API_docs/methods/smsjobs_getStatus.html
 [Back to methods index](index.html)
 
 
+
+Get SMS jobs status (official clients only).
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "mediaAreaUrl"
-description: "mediaAreaUrl attributes, type and example"
+description: "Represents a URL media area."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents a [URL media area](https://core.telegram.org/api/stories#urls).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|coordinates|[MediaAreaCoordinates](/API_docs/types/MediaAreaCoordinates.html) | Yes|
-|url|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|coordinates|[MediaAreaCoordinates](/API_docs/types/MediaAreaCoordinates.html) | Yes|The size and location of the media area corresponding to the URL button on top of the story media.|
+|url|[string](/API_docs/types/string.html) | Yes|URL to open when clicked.|
 
 
 

@@ -24,13 +24,13 @@ List of actions that are possible when interacting with this user, to be shown a
 |autoarchived|[Bool](/API_docs/types/Bool.html) | Optional|Whether this peer was automatically archived according to [privacy settings](../constructors/globalPrivacySettings.html) and can be unarchived|
 |invite\_members|[Bool](/API_docs/types/Bool.html) | Optional|If set, this is a recently created group chat to which new members can be invited|
 |request\_chat\_broadcast|[Bool](/API_docs/types/Bool.html) | Optional|This flag is set if `request_chat_title` and `request_chat_date` fields are set and the [join request »](https://core.telegram.org/api/invites#join-requests) is related to a channel (otherwise if only the request fields are set, the [join request »](https://core.telegram.org/api/invites#join-requests) is related to a chat).|
-|business\_bot\_paused|[Bool](/API_docs/types/Bool.html) | Optional|
-|business\_bot\_can\_reply|[Bool](/API_docs/types/Bool.html) | Optional|
+|business\_bot\_paused|[Bool](/API_docs/types/Bool.html) | Optional|This flag is set if both `business_bot_id` and `business_bot_manage_url` are set and all [connected business bots »](https://core.telegram.org/api/business#connected-bots) were paused in this chat using [account.toggleConnectedBotPaused »](../methods/account.toggleConnectedBotPaused.html).|
+|business\_bot\_can\_reply|[Bool](/API_docs/types/Bool.html) | Optional|This flag is set if both `business_bot_id` and `business_bot_manage_url` are set and [connected business bots »](https://core.telegram.org/api/business#connected-bots) can reply to messages in this chat, as specified by the settings during [initial configuration](https://core.telegram.org/api/business#connected-bots).|
 |geo\_distance|[int](/API_docs/types/int.html) | Optional|Distance in meters between us and this peer|
 |request\_chat\_title|[string](/API_docs/types/string.html) | Optional|If set, this is a private chat with an administrator of a chat or channel to which the user sent a join request, and this field contains the chat/channel's title.|
 |request\_chat\_date|[int](/API_docs/types/int.html) | Optional|If set, this is a private chat with an administrator of a chat or channel to which the user sent a join request, and this field contains the timestamp when the [join request »](https://core.telegram.org/api/invites#join-requests) was sent.|
-|business\_bot\_id|[long](/API_docs/types/long.html) | Optional|
-|business\_bot\_manage\_url|[string](/API_docs/types/string.html) | Optional|
+|business\_bot\_id|[long](/API_docs/types/long.html) | Optional|Contains the ID of the [business bot »](https://core.telegram.org/api/business#connected-bots) managing this chat, used to display info about the bot in the action bar.|
+|business\_bot\_manage\_url|[string](/API_docs/types/string.html) | Optional|Contains a [deep link »](https://core.telegram.org/api/links), used to open a management menu in the business bot. This flag is set if and only if `business_bot_id` is set.|
 
 
 

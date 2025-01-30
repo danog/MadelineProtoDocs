@@ -16,7 +16,7 @@ Installed [wallpapers](https://core.telegram.org/api/wallpapers)
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[long](/API_docs/types/long.html) | Yes|[Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
+|hash|[long](/API_docs/types/long.html) | Yes|[Hash used for caching, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
 |wallpapers|Array of [WallPaper](/API_docs/types/WallPaper.html) | Yes|[Wallpapers](https://core.telegram.org/api/wallpapers)|
 
 

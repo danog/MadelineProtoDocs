@@ -1,6 +1,6 @@
 ---
 title: "account.getReactionsNotifySettings"
-description: "account.getReactionsNotifySettings parameters, return type and example"
+description: "Get the current [reaction notification settings »](https://core.telegram.org/api/reactions#notifications-about-reactions)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -10,6 +10,8 @@ redirect_from: /API_docs/methods/account_getReactionsNotifySettings.html
 [Back to methods index](index.html)
 
 
+
+Get the current [reaction notification settings »](https://core.telegram.org/api/reactions#notifications-about-reactions).
 
 
 

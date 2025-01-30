@@ -1,6 +1,6 @@
 ---
 title: "account.resolveBusinessChatLink"
-description: "account.resolveBusinessChatLink parameters, return type and example"
+description: "Resolve a [business chat deep link »](https://core.telegram.org/api/business#business-chat-links)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/account_resolveBusinessChatLink.html
 
 
 
+Resolve a [business chat deep link »](https://core.telegram.org/api/business#business-chat-links).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|slug|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|slug|[string](/API_docs/types/string.html) | Slug of the link, obtained as specified [here »](https://core.telegram.org/api/links#business-chat-links). | Optional|
 
 
 ### Return type: [account.ResolvedBusinessChatLinks](/API_docs/types/account.ResolvedBusinessChatLinks.html)

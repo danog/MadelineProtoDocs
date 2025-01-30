@@ -1,6 +1,6 @@
 ---
 title: "businessLocation"
-description: "businessLocation attributes, type and example"
+description: "Represents the location of a Telegram Business »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents the location of a [Telegram Business »](https://core.telegram.org/api/business#location).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|geo\_point|[GeoPoint](/API_docs/types/GeoPoint.html) | Optional|
-|address|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|geo\_point|[GeoPoint](/API_docs/types/GeoPoint.html) | Optional|Geographical coordinates (optional).|
+|address|[string](/API_docs/types/string.html) | Yes|Textual description of the address (mandatory).|
 
 
 

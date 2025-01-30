@@ -1,6 +1,6 @@
 ---
 title: "botBusinessConnection"
-description: "botBusinessConnection attributes, type and example"
+description: "Contains info about a bot business connection."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,16 +9,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Contains info about a [bot business connection](https://core.telegram.org/api/business#connected-bots).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|can\_reply|[Bool](/API_docs/types/Bool.html) | Optional|
-|disabled|[Bool](/API_docs/types/Bool.html) | Optional|
-|connection\_id|[string](/API_docs/types/string.html) | Yes|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
-|dc\_id|[int](/API_docs/types/int.html) | Yes|
-|date|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|can\_reply|[Bool](/API_docs/types/Bool.html) | Optional|Whether the bot can reply on behalf of the user to messages it receives through the business connection|
+|disabled|[Bool](/API_docs/types/Bool.html) | Optional|Whether this business connection is currently disabled|
+|connection\_id|[string](/API_docs/types/string.html) | Yes|Business connection ID, used to identify messages coming from the connection and to reply to them as specified [here »](https://core.telegram.org/api/business#connected-bots).|
+|user\_id|[long](/API_docs/types/long.html) | Yes|ID of the user that the bot is connected to via this connection.|
+|dc\_id|[int](/API_docs/types/int.html) | Yes|ID of the datacenter where to send queries wrapped in a [invokeWithBusinessConnection](../methods/invokeWithBusinessConnection.html) as specified [here »](https://core.telegram.org/api/business#connected-bots).|
+|date|[int](/API_docs/types/int.html) | Yes|When was the connection created.|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "keyboardButtonCopy"
-description: "keyboardButtonCopy attributes, type and example"
+description: "Clipboard button: when clicked, the attached text must be copied to the clipboard."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Clipboard button: when clicked, the attached text must be copied to the clipboard.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|text|[string](/API_docs/types/string.html) | Yes|
-|copy\_text|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|text|[string](/API_docs/types/string.html) | Yes|Title of the button|
+|copy\_text|[string](/API_docs/types/string.html) | Yes|The text that will be copied to the clipboard|
 
 
 

@@ -17,7 +17,7 @@ Get information about all languages in a localization pack
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|lang\_pack|[string](/API_docs/types/string.html) | Language pack | Optional|
+|lang\_pack|[string](/API_docs/types/string.html) | Platform identifier (i.e. `android`, `tdesktop`, etc). | Optional|
 
 
 ### Return type: [Vector\_of\_LangPackLanguage](/API_docs/types/LangPackLanguage.html)

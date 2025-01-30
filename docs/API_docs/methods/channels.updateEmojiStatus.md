@@ -1,6 +1,6 @@
 ---
 title: "channels.updateEmojiStatus"
-description: "Set an [emoji status](https://core.telegram.org/api/emoji-status) for a channel."
+description: "Set an [emoji status](https://core.telegram.org/api/emoji-status) for a channel or supergroup."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,13 @@ redirect_from: /API_docs/methods/channels_updateEmojiStatus.html
 
 
 
-Set an [emoji status](https://core.telegram.org/api/emoji-status) for a channel.
+Set an [emoji status](https://core.telegram.org/api/emoji-status) for a channel or supergroup.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | The channel, must have at least [`channel_emoji_status_level_min` boosts](https://core.telegram.org/api/config#channel-emoji-status-level-min). | Optional|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | The channel/supergroup, must have at least [channel\_emoji\_status\_level\_min](https://core.telegram.org/api/config#channel-emoji-status-level-min)/[group\_emoji\_status\_level\_min](https://core.telegram.org/api/config#group-emoji-status-level-min) boosts. | Optional|
 |emoji\_status|[EmojiStatus](/API_docs/types/EmojiStatus.html) | [Emoji status](https://core.telegram.org/api/emoji-status) to set | Optional|
 
 

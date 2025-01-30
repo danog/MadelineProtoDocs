@@ -1,6 +1,6 @@
 ---
 title: "broadcastRevenueTransactionWithdrawal"
-description: "broadcastRevenueTransactionWithdrawal attributes, type and example"
+description: "Describes a withdrawal of ad earnings »"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,17 +9,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Describes a [withdrawal of ad earnings »](https://core.telegram.org/api/revenue#withdrawing-revenue)
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|pending|[Bool](/API_docs/types/Bool.html) | Optional|
-|failed|[Bool](/API_docs/types/Bool.html) | Optional|
-|amount|[long](/API_docs/types/long.html) | Yes|
-|date|[int](/API_docs/types/int.html) | Yes|
-|provider|[string](/API_docs/types/string.html) | Yes|
-|transaction\_date|[int](/API_docs/types/int.html) | Optional|
-|transaction\_url|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|pending|[Bool](/API_docs/types/Bool.html) | Optional|Whether the withdrawal is currently pending|
+|failed|[Bool](/API_docs/types/Bool.html) | Optional|Whether the withdrawal has failed|
+|amount|[long](/API_docs/types/long.html) | Yes|Amount withdrawn|
+|date|[int](/API_docs/types/int.html) | Yes|Withdrawal date|
+|provider|[string](/API_docs/types/string.html) | Yes|Payment provider name|
+|transaction\_date|[int](/API_docs/types/int.html) | Optional|If neither `pending` nor `failed` are set, the transaction was completed successfully, and this field will contain the point in time (Unix timestamp) when the withdrawal was completed successfully.|
+|transaction\_url|[string](/API_docs/types/string.html) | Optional|If neither `pending` nor `failed` are set, the transaction was completed successfully, and this field will contain a URL where the withdrawal transaction can be viewed.|
 
 
 

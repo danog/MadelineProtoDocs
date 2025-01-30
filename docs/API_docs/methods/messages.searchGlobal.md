@@ -17,9 +17,9 @@ Search for messages and peers globally
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|broadcasts\_only|[Bool](/API_docs/types/Bool.html) |  | Optional|
-|groups\_only|[Bool](/API_docs/types/Bool.html) |  | Optional|
-|users\_only|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|broadcasts\_only|[Bool](/API_docs/types/Bool.html) | If set, only returns results from channels (used in the [global channel search tab »](https://core.telegram.org/api/search#global-search)). | Optional|
+|groups\_only|[Bool](/API_docs/types/Bool.html) | Whether to search only in groups | Optional|
+|users\_only|[Bool](/API_docs/types/Bool.html) | Whether to search only in private chats | Optional|
 |folder\_id|[int](/API_docs/types/int.html) | [Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders) | Optional|
 |q|[string](/API_docs/types/string.html) | Query | Optional|
 |filter|[MessagesFilter](/API_docs/types/MessagesFilter.html) | Global search filter | Optional|

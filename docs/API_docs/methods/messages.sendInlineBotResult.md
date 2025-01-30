@@ -27,7 +27,7 @@ Send a result obtained using [messages.getInlineBotResults](../methods/messages.
 |id|[string](/API_docs/types/string.html) | Result ID from [messages.getInlineBotResults](../methods/messages.getInlineBotResults.html) | Optional|
 |schedule\_date|[int](/API_docs/types/int.html) | Scheduled message date for scheduled messages | Optional|
 |send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Send this message as the specified peer | Optional|
-|quick\_reply\_shortcut|[InputQuickReplyShortcut](/API_docs/types/InputQuickReplyShortcut.html) |  | Optional|
+|quick\_reply\_shortcut|[InputQuickReplyShortcut](/API_docs/types/InputQuickReplyShortcut.html) | Add the message to the specified [quick reply shortcut »](https://core.telegram.org/api/business#quick-reply-shortcuts), instead. | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

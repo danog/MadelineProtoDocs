@@ -1,6 +1,6 @@
 ---
 title: "messages.toggleDialogFilterTags"
-description: "messages.toggleDialogFilterTags parameters, return type and example"
+description: "Enable or disable [folder tags »](https://core.telegram.org/api/folders#folder-tags)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/messages_toggleDialogFilterTags.html
 
 
 
+Enable or disable [folder tags »](https://core.telegram.org/api/folders#folder-tags).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|enabled|[Bool](/API_docs/types/Bool.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|enabled|[Bool](/API_docs/types/Bool.html) | Enable or disable folder tags. | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

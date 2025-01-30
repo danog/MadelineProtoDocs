@@ -1,6 +1,6 @@
 ---
 title: "messages.getExtendedMedia"
-description: "Get information about extended media"
+description: "Fetch updated information about [paid media, see here »](https://core.telegram.org/api/paid-media) for the full flow."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,17 @@ redirect_from: /API_docs/methods/messages_getExtendedMedia.html
 
 
 
-Get information about extended media
+Fetch updated information about [paid media, see here »](https://core.telegram.org/api/paid-media) for the full flow.
+
+This method will return an array of [updateMessageExtendedMedia](../constructors/updateMessageExtendedMedia.html) updates, only for messages containing **already bought** paid media.  
+No information will be returned for messages containing not yet bought paid media.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer | Optional|
-|id|Array of [int](/API_docs/types/int.html) | Message IDs | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer with visible paid media messages. | Optional|
+|id|Array of [int](/API_docs/types/int.html) | IDs of currently visible messages containing paid media. | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

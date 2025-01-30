@@ -1,6 +1,6 @@
 ---
 title: "payments.getStarGifts"
-description: "payments.getStarGifts parameters, return type and example"
+description: "Get a list of available [gifts, see here »](https://core.telegram.org/api/gifts) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/payments_getStarGifts.html
 
 
 
+Get a list of available [gifts, see here »](https://core.telegram.org/api/gifts) for more info.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|Array of [long\|string](/API_docs/types/long\|string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) |  | Optional|
 
 
 ### Return type: [payments.StarGifts](/API_docs/types/payments.StarGifts.html)

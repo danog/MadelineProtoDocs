@@ -1,6 +1,6 @@
 ---
 title: "messages.quickRepliesNotModified"
-description: "messages.quickRepliesNotModified attributes, type and example"
+description: "Info about quick reply shortcuts » hasn't changed."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_quickRepliesNotModified.html
@@ -9,6 +9,8 @@ redirect_from: /API_docs/constructors/messages_quickRepliesNotModified.html
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+Info about [quick reply shortcuts »](https://core.telegram.org/api/business#quick-reply-shortcuts) hasn't changed.
 
 
 

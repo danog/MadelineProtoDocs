@@ -25,7 +25,7 @@ Save a message [draft](https://core.telegram.org/api/drafts) associated to a cha
 |entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Message [entities](https://core.telegram.org/api/entities) for styled text | Optional|
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
 |media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) | Attached media | Optional|
-|effect|[long](/API_docs/types/long.html) |  | Optional|
+|effect|[long](/API_docs/types/long.html) | Specifies a [message effect »](https://core.telegram.org/api/effects) to use for the message. | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

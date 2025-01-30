@@ -1,6 +1,6 @@
 ---
 title: "auth.reportMissingCode"
-description: "auth.reportMissingCode parameters, return type and example"
+description: "Official apps only, reports that the SMS authentication code wasn't delivered."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/auth_reportMissingCode.html
 
 
 
+Official apps only, reports that the SMS authentication code wasn't delivered.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|phone\_number|[string](/API_docs/types/string.html) | Optional|
-|phone\_code\_hash|[string](/API_docs/types/string.html) | Optional|
-|mnc|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|phone\_number|[string](/API_docs/types/string.html) | Phone number where we were supposed to receive the code | Optional|
+|phone\_code\_hash|[string](/API_docs/types/string.html) | The phone code hash obtained from [auth.sendCode](../methods/auth.sendCode.html) | Optional|
+|mnc|[string](/API_docs/types/string.html) | [MNC](https://en.wikipedia.org/wiki/Mobile_country_code) of the current network operator. | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

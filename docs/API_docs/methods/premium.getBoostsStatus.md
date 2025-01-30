@@ -1,6 +1,6 @@
 ---
 title: "premium.getBoostsStatus"
-description: "Gets the current [number of boosts](https://core.telegram.org/api/boost) of a channel."
+description: "Gets the current [number of boosts](https://core.telegram.org/api/boost) of a channel/supergroup."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/premium_getBoostsStatus.html
 
 
 
-Gets the current [number of boosts](https://core.telegram.org/api/boost) of a channel.
+Gets the current [number of boosts](https://core.telegram.org/api/boost) of a channel/supergroup.
 
 ### Parameters:
 

@@ -1,6 +1,6 @@
 ---
 title: "account.updateBusinessGreetingMessage"
-description: "account.updateBusinessGreetingMessage parameters, return type and example"
+description: "Set a list of [Telegram Business greeting messages](https://core.telegram.org/api/business#greeting-messages)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/account_updateBusinessGreetingMessage.html
 
 
 
+Set a list of [Telegram Business greeting messages](https://core.telegram.org/api/business#greeting-messages).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|message|[InputBusinessGreetingMessage](/API_docs/types/InputBusinessGreetingMessage.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|message|[InputBusinessGreetingMessage](/API_docs/types/InputBusinessGreetingMessage.html) | Greeting message configuration and contents. | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

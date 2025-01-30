@@ -19,7 +19,7 @@ Resend the login code via another medium, the phone code type is determined by t
 |----------|---------------|-------------|----------|
 |phone\_number|[string](/API_docs/types/string.html) | The phone number | Optional|
 |phone\_code\_hash|[string](/API_docs/types/string.html) | The phone code hash obtained from [auth.sendCode](../methods/auth.sendCode.html) | Optional|
-|reason|[string](/API_docs/types/string.html) |  | Optional|
+|reason|[string](/API_docs/types/string.html) | Official clients only, used if the device integrity verification failed, and no secret could be obtained to invoke [auth.requestFirebaseSms](../methods/auth.requestFirebaseSms.html): in this case, the device integrity verification failure reason must be passed here. | Optional|
 
 
 ### Return type: [auth.SentCode](/API_docs/types/auth.SentCode.html)

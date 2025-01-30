@@ -1,6 +1,6 @@
 ---
 title: "payments.starsRevenueAdsAccountUrl"
-description: "payments.starsRevenueAdsAccountUrl attributes, type and example"
+description: "Contains a URL leading to a page where the user will be able to place ads for the channel/bot, paying using Telegram Stars."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/payments_starsRevenueAdsAccountUrl.html
@@ -10,11 +10,13 @@ redirect_from: /API_docs/constructors/payments_starsRevenueAdsAccountUrl.html
 
 
 
+Contains a URL leading to a page where the user will be able to place ads for the channel/bot, paying using [Telegram Stars](https://core.telegram.org/api/stars#paying-for-ads).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|url|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|url|[string](/API_docs/types/string.html) | Yes|URL to open.|
 
 
 

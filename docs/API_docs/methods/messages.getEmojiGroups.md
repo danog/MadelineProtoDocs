@@ -1,6 +1,6 @@
 ---
 title: "messages.getEmojiGroups"
-description: "Represents a list of [emoji categories](https://core.telegram.org/api/custom-emoji#emoji-categories), to be used when selecting [custom emojis](https://core.telegram.org/api/custom-emoji)."
+description: "Represents a list of [emoji categories](https://core.telegram.org/api/emoji-categories)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/messages_getEmojiGroups.html
 
 
 
-Represents a list of [emoji categories](https://core.telegram.org/api/custom-emoji#emoji-categories), to be used when selecting [custom emojis](https://core.telegram.org/api/custom-emoji).
+Represents a list of [emoji categories](https://core.telegram.org/api/emoji-categories).
 
 ### Parameters:
 

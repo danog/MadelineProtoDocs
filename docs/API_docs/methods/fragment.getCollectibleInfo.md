@@ -1,6 +1,6 @@
 ---
 title: "fragment.getCollectibleInfo"
-description: "fragment.getCollectibleInfo parameters, return type and example"
+description: "Fetch information about a [fragment collectible, see here »](https://core.telegram.org/api/fragment#fetching-info-about-fragment-collectibles) for more info on the full flow."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/fragment_getCollectibleInfo.html
 
 
 
+Fetch information about a [fragment collectible, see here »](https://core.telegram.org/api/fragment#fetching-info-about-fragment-collectibles) for more info on the full flow.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|collectible|[InputCollectible](/API_docs/types/InputCollectible.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|collectible|[InputCollectible](/API_docs/types/InputCollectible.html) | Collectible to fetch info about. | Yes|
 
 
 ### Return type: [fragment.CollectibleInfo](/API_docs/types/fragment.CollectibleInfo.html)

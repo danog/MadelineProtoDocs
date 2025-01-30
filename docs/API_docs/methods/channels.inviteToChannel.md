@@ -13,8 +13,6 @@ redirect_from: /API_docs/methods/channels_inviteToChannel.html
 
 Invite users to a channel/supergroup
 
-May also return 0-N updates of type [updateGroupInvitePrivacyForbidden](../constructors/updateGroupInvitePrivacyForbidden.html): it indicates we couldn't add a user to a chat because of their privacy settings; if required, an [invite link](https://core.telegram.org/api/invites) can be shared with the user, instead.
-
 ### Parameters:
 
 | Name     |    Type       | Description | Required |

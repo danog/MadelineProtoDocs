@@ -17,7 +17,7 @@ Returns the current user's contact list.
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [long\|string](/API_docs/types/long\|string.html) | If there already is a full contact list on the client, a [hash](https://core.telegram.org/api/offsets#hash-generation) of a the list of contact IDs in ascending order may be passed in this parameter. If the contact set was not changed, [(contacts.contactsNotModified)](../constructors/contacts.contactsNotModified.html) will be returned. | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | [Hash used for caching, for more info click here](https://core.telegram.org/api/offsets#hash-generation).<br>Note that the hash is computed [using the usual algorithm](https://core.telegram.org/api/offsets#hash-generation), passing to the algorithm first the previously returned [contacts.contacts](../constructors/contacts.contacts.html).`saved_count` field, then max `100000` sorted user IDs from the contact list, including the ID of the currently logged in user if it is saved as a contact. <br>Example: [tdlib implementation](https://github.com/tdlib/td/blob/63c7d0301825b78c30dc7307f1f1466be049eb79/td/telegram/UserManager.cpp#L5754). | Optional|
 
 
 ### Return type: [contacts.Contacts](/API_docs/types/contacts.Contacts.html)

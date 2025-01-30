@@ -1,6 +1,6 @@
 ---
 title: "payments.getStarsSubscriptions"
-description: "payments.getStarsSubscriptions parameters, return type and example"
+description: "Obtain a list of active, expired or cancelled [Telegram Star subscriptions »](https://core.telegram.org/api/invites#paid-invite-links)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/payments_getStarsSubscriptions.html
 
 
 
+Obtain a list of active, expired or cancelled [Telegram Star subscriptions »](https://core.telegram.org/api/invites#paid-invite-links).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|missing\_balance|[Bool](/API_docs/types/Bool.html) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|offset|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|missing\_balance|[Bool](/API_docs/types/Bool.html) | Whether to return only subscriptions expired due to an excessively low Telegram Star balance. | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Always pass [inputPeerSelf](../constructors/inputPeerSelf.html). | Optional|
+|offset|[string](/API_docs/types/string.html) | Offset for pagination, taken from [payments.starsStatus](../constructors/payments.starsStatus.html).`subscriptions_next_offset`. | Optional|
 
 
 ### Return type: [payments.StarsStatus](/API_docs/types/payments.StarsStatus.html)

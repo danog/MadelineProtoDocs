@@ -19,8 +19,8 @@ Change the set of [message reactions »](https://core.telegram.org/api/reactions
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Group where to apply changes | Optional|
 |available\_reactions|[ChatReactions](/API_docs/types/ChatReactions.html) | Allowed reaction emojis | Yes|
-|reactions\_limit|[int](/API_docs/types/int.html) |  | Optional|
-|paid\_enabled|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|reactions\_limit|[int](/API_docs/types/int.html) | This flag may be used to impose a custom limit of unique reactions (i.e. a customizable version of [appConfig.reactions\_uniq\_max](https://core.telegram.org/api/config#reactions-uniq-max)); this field and the other info set by the method will then be available to users in [channelFull](../constructors/channelFull.html) and [chatFull](../constructors/chatFull.html). <br>If this flag is not set, the previously configured `reactions_limit` will not be altered. | Optional|
+|paid\_enabled|[Bool](/API_docs/types/Bool.html) | If this flag is set and a [Bool](../types/Bool.html) is passed, the method will enable or disable [paid message reactions »](https://core.telegram.org/api/reactions#paid-reactions). If this flag is not set, the previously stored setting will not be changed. | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

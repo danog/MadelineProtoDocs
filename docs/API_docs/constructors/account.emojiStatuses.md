@@ -16,7 +16,7 @@ A list of [emoji statuses](https://core.telegram.org/api/emoji-status)
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|hash|[long](/API_docs/types/long.html) | Yes|[Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
+|hash|[long](/API_docs/types/long.html) | Yes|[Hash used for caching, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
 |statuses|Array of [EmojiStatus](/API_docs/types/EmojiStatus.html) | Yes|[Emoji statuses](https://core.telegram.org/api/emoji-status)|
 
 

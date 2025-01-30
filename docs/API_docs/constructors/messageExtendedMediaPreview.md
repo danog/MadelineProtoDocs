@@ -1,6 +1,6 @@
 ---
 title: "messageExtendedMediaPreview"
-description: "Extended media preview"
+description: "Paid media preview for not yet purchased paid media, see here » for more info."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Extended media preview
+Paid media preview for not yet purchased paid media, [see here »](https://core.telegram.org/api/paid-media) for more info.
 
 ### Attributes:
 
@@ -17,8 +17,8 @@ Extended media preview
 |----------|---------------|----------|-------------|
 |w|[int](/API_docs/types/int.html) | Optional|Width|
 |h|[int](/API_docs/types/int.html) | Optional|Height|
-|thumb|[PhotoSize](/API_docs/types/PhotoSize.html) | Optional|Thumbnail|
-|video\_duration|[int](/API_docs/types/int.html) | Optional|Video duration|
+|thumb|[PhotoSize](/API_docs/types/PhotoSize.html) | Optional|[Extremely low resolution thumbnail](https://core.telegram.org/api/files#stripped-thumbnails).|
+|video\_duration|[int](/API_docs/types/int.html) | Optional|Video duration for videos.|
 
 
 

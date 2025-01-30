@@ -19,7 +19,7 @@ Report a story.
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer that uploaded the story. | Optional|
 |id|Array of [int](/API_docs/types/int.html) | IDs of the stories to report. | Yes|
-|option|[bytes](/API_docs/types/bytes.html) |  | Yes|
+|option|[bytes](/API_docs/types/bytes.html) | Menu option, intially empty | Yes|
 |message|[string](/API_docs/types/string.html) | Comment for report moderation | Optional|
 
 

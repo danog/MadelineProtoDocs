@@ -1,6 +1,6 @@
 ---
 title: "messages.getSavedGifs"
-description: "Get saved GIFs"
+description: "Get saved GIFs."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,13 @@ redirect_from: /API_docs/methods/messages_getSavedGifs.html
 
 
 
-Get saved GIFs
+Get saved GIFs.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|hash|Array of [long\|string](/API_docs/types/long\|string.html) | [Hash for pagination, for more info click here](https://core.telegram.org/api/offsets#hash-generation) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | [Hash used for caching, for more info click here](https://core.telegram.org/api/offsets#hash-generation). | Optional|
 
 
 ### Return type: [messages.SavedGifs](/API_docs/types/messages.SavedGifs.html)

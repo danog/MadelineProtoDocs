@@ -1,6 +1,6 @@
 ---
 title: "messages.getQuickReplies"
-description: "messages.getQuickReplies parameters, return type and example"
+description: "Fetch basic info about all existing [quick reply shortcuts](https://core.telegram.org/api/business#quick-reply-shortcuts)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/messages_getQuickReplies.html
 
 
 
+Fetch basic info about all existing [quick reply shortcuts](https://core.telegram.org/api/business#quick-reply-shortcuts).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|Array of [long\|string](/API_docs/types/long\|string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | Hash for pagination, generated as specified [here »](https://core.telegram.org/api/business#quick-reply-shortcuts) (not the usual algorithm used for hash generation.) | Optional|
 
 
 ### Return type: [messages.QuickReplies](/API_docs/types/messages.QuickReplies.html)

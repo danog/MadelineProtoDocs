@@ -1,6 +1,6 @@
 ---
 title: "bots.toggleUserEmojiStatusPermission"
-description: "bots.toggleUserEmojiStatusPermission parameters, return type and example"
+description: "Allow or prevent a bot from [changing our emoji status »](https://core.telegram.org/api/emoji-status#setting-an-emoji-status-from-a-bot)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/bots_toggleUserEmojiStatusPermission.html
 
 
 
+Allow or prevent a bot from [changing our emoji status »](https://core.telegram.org/api/emoji-status#setting-an-emoji-status-from-a-bot)
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
-|enabled|[Bool](/API_docs/types/Bool.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The bot | Optional|
+|enabled|[Bool](/API_docs/types/Bool.html) | Whether to allow or prevent the bot from changing our emoji status | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

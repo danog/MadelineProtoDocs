@@ -1,6 +1,6 @@
 ---
 title: "updateBotDeleteBusinessMessage"
-description: "updateBotDeleteBusinessMessage attributes, type and example"
+description: "A message was deleted in a connected business chat »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,14 +9,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A message was deleted in a [connected business chat »](https://core.telegram.org/api/business#connected-bots).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|connection\_id|[string](/API_docs/types/string.html) | Yes|
-|peer|[long](/API_docs/types/long.html) | Yes|
-|messages|Array of [int](/API_docs/types/int.html) | Yes|
-|qts|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|connection\_id|[string](/API_docs/types/string.html) | Yes|Business connection ID.|
+|peer|[long](/API_docs/types/long.html) | Yes|[Peer](https://core.telegram.org/api/peers) where the messages were deleted.|
+|messages|Array of [int](/API_docs/types/int.html) | Yes|IDs of the messages that were deleted.|
+|qts|[int](/API_docs/types/int.html) | Yes|New **qts** value, see [updates »](https://core.telegram.org/api/updates) for more info.|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "payments.getSuggestedStarRefBots"
-description: "payments.getSuggestedStarRefBots parameters, return type and example"
+description: "Obtain a list of suggested [mini apps](https://core.telegram.org/api/bots/webapps) with available [affiliate programs](https://core.telegram.org/api/bots/referrals)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,15 +11,19 @@ redirect_from: /API_docs/methods/payments_getSuggestedStarRefBots.html
 
 
 
+Obtain a list of suggested [mini apps](https://core.telegram.org/api/bots/webapps) with available [affiliate programs](https://core.telegram.org/api/bots/referrals)
+
+`order_by_revenue` and `order_by_date` are mutually exclusive: if neither is set, results are sorted by profitability.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|order\_by\_revenue|[Bool](/API_docs/types/Bool.html) | Optional|
-|order\_by\_date|[Bool](/API_docs/types/Bool.html) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|offset|[string](/API_docs/types/string.html) | Optional|
-|limit|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|order\_by\_revenue|[Bool](/API_docs/types/Bool.html) | If set, orders results by the expected revenue | Optional|
+|order\_by\_date|[Bool](/API_docs/types/Bool.html) | If set, orders results by the creation date of the affiliate program | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer that will become the affiliate: star commissions will be transferred to this peer's star balance. | Optional|
+|offset|[string](/API_docs/types/string.html) | Offset for pagination, taken from [payments.suggestedStarRefBots](../constructors/payments.suggestedStarRefBots.html).`next_offset`, initially empty. | Optional|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [payments.SuggestedStarRefBots](/API_docs/types/payments.SuggestedStarRefBots.html)

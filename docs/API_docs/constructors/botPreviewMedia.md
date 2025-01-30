@@ -1,6 +1,6 @@
 ---
 title: "botPreviewMedia"
-description: "botPreviewMedia attributes, type and example"
+description: "Represents a Main Mini App preview media, see here » for more info."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents a [Main Mini App preview media, see here »](https://core.telegram.org/api/bots/webapps#main-mini-app-previews) for more info.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|date|[int](/API_docs/types/int.html) | Yes|
-|media|[MessageMedia](/API_docs/types/MessageMedia.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|date|[int](/API_docs/types/int.html) | Yes|When was this media last updated.|
+|media|[MessageMedia](/API_docs/types/MessageMedia.html) | Optional|The actual photo/video.|
 
 
 

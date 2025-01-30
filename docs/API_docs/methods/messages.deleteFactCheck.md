@@ -1,6 +1,6 @@
 ---
 title: "messages.deleteFactCheck"
-description: "messages.deleteFactCheck parameters, return type and example"
+description: "Delete a [fact-check](https://core.telegram.org/api/factcheck) from a message."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,16 @@ redirect_from: /API_docs/methods/messages_deleteFactCheck.html
 
 
 
+Delete a [fact-check](https://core.telegram.org/api/factcheck) from a message.
+
+Can only be used by independent fact-checkers as specified by the [appConfig.can\_edit\_factcheck](https://core.telegram.org/api/config#can-edit-factcheck) configuration flag.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where the message was sent. | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | Message ID | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

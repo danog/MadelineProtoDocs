@@ -17,8 +17,8 @@ Get new strings in language pack
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|lang\_pack|[string](/API_docs/types/string.html) | Language pack | Optional|
-|lang\_code|[string](/API_docs/types/string.html) | Language code | Optional|
+|lang\_pack|[string](/API_docs/types/string.html) | Platform identifier (i.e. `android`, `tdesktop`, etc). | Optional|
+|lang\_code|[string](/API_docs/types/string.html) | Either an ISO 639-1 language code or a language pack name obtained from a [language pack link](https://core.telegram.org/api/links#language-pack-links). | Optional|
 |from\_version|[int](/API_docs/types/int.html) | Previous localization pack version | Optional|
 
 

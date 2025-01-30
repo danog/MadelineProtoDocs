@@ -1,6 +1,6 @@
 ---
 title: "foundStory"
-description: "foundStory attributes, type and example"
+description: "A story found using global story search »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A story found using [global story search »](https://core.telegram.org/api/stories#searching-stories).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[long](/API_docs/types/long.html) | Yes|
-|story|[StoryItem](/API_docs/types/StoryItem.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer|[long](/API_docs/types/long.html) | Yes|The peer that posted the story.|
+|story|[StoryItem](/API_docs/types/StoryItem.html) | Yes|The story.|
 
 
 

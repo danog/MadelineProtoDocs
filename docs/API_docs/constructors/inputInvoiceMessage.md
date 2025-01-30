@@ -1,6 +1,6 @@
 ---
 title: "inputInvoiceMessage"
-description: "An invoice contained in a messageMediaInvoice message."
+description: "An invoice contained in a messageMediaInvoice message or paid media »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-An invoice contained in a [messageMediaInvoice](../constructors/messageMediaInvoice.html) message.
+An invoice contained in a [messageMediaInvoice](../constructors/messageMediaInvoice.html) message or [paid media »](https://core.telegram.org/api/paid-media).
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|Chat where the invoice was sent|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|Chat where the invoice/paid media was sent|
 |msg\_id|[int](/API_docs/types/int.html) | Yes|Message ID|
 
 

@@ -1,6 +1,6 @@
 ---
 title: "updateBotBusinessConnect"
-description: "updateBotBusinessConnect attributes, type and example"
+description: "Connecting or disconnecting a business bot or changing the connection settings will emit an updateBotBusinessConnect update to the bot, with the new settings and a connection_id that will be used by the bot to handle updates from and send messages as the user."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Connecting or disconnecting a [business bot](https://core.telegram.org/api/business#connected-bots) or changing the connection settings will emit an [updateBotBusinessConnect](../constructors/updateBotBusinessConnect.html) update to the bot, with the new settings and a `connection_id` that will be used by the bot to handle updates from and send messages as the user.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|connection|[BotBusinessConnection](/API_docs/types/BotBusinessConnection.html) | Yes|
-|qts|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|connection|[BotBusinessConnection](/API_docs/types/BotBusinessConnection.html) | Yes|Business connection settings|
+|qts|[int](/API_docs/types/int.html) | Yes|New **qts** value, see [updates »](https://core.telegram.org/api/updates) for more info.|
 
 
 

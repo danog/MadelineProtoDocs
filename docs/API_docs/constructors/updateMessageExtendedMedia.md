@@ -1,6 +1,6 @@
 ---
 title: "updateMessageExtendedMedia"
-description: "Extended media update"
+description: "You bought a paid media »: this update contains the revealed media."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,15 +9,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Extended media update
+You [bought a paid media »](https://core.telegram.org/api/paid-media): this update contains the revealed media.
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|peer|[long](/API_docs/types/long.html) | Yes|Peer|
-|msg\_id|[int](/API_docs/types/int.html) | Yes|Message ID|
-|extended\_media|Array of [MessageExtendedMedia](/API_docs/types/MessageExtendedMedia.html) | Yes|
+|peer|[long](/API_docs/types/long.html) | Yes|Peer where the paid media was posted|
+|msg\_id|[int](/API_docs/types/int.html) | Yes|ID of the message containing the paid media|
+|extended\_media|Array of [MessageExtendedMedia](/API_docs/types/MessageExtendedMedia.html) | Yes|Revealed media, contains only [messageExtendedMedia](../constructors/messageExtendedMedia.html) constructors.|
 
 
 

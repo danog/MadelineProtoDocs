@@ -1,6 +1,6 @@
 ---
 title: "stickers.deleteStickerSet"
-description: "Deletes a stickerset we created, bots only."
+description: "Deletes a stickerset we created."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/stickers_deleteStickerSet.html
 
 
 
-Deletes a stickerset we created, bots only.
+Deletes a stickerset we created.
 
 ### Parameters:
 

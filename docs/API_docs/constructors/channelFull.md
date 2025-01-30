@@ -11,6 +11,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 Full info about a [channel](https://core.telegram.org/api/channel#channels), [supergroup](https://core.telegram.org/api/channel#supergroups) or [gigagroup](https://core.telegram.org/api/channel#gigagroups).
 
+When updating the [local peer database »](https://core.telegram.org/api/peers), all fields from the newly received constructor take priority over the old constructor cached locally (including by removing fields that aren't set in the new constructor).
+
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
@@ -55,7 +57,7 @@ Full info about a [channel](https://core.telegram.org/api/channel#channels), [su
 |stickerset|[StickerSet](/API_docs/types/StickerSet.html) | Optional|Associated stickerset|
 |available\_min\_id|[int](/API_docs/types/int.html) | Optional|Identifier of a maximum unavailable message in a channel due to hidden history.|
 |folder\_id|[int](/API_docs/types/int.html) | Optional|[Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders)|
-|linked\_chat\_id|[long](/API_docs/types/long.html) | Optional|ID of the linked [discussion chat](https://core.telegram.org/api/discussion) for channels|
+|linked\_chat\_id|[long](/API_docs/types/long.html) | Optional|ID of the linked [discussion chat](https://core.telegram.org/api/discussion) for channels (and vice versa, the ID of the linked channel for discussion chats).|
 |location|[ChannelLocation](/API_docs/types/ChannelLocation.html) | Optional|Location of the geogroup|
 |slowmode\_seconds|[int](/API_docs/types/int.html) | Optional|If specified, users in supergroups will only be able to send one message every `slowmode_seconds` seconds|
 |slowmode\_next\_send\_date|[int](/API_docs/types/int.html) | Optional|Indicates when the user will be allowed to send another message in the supergroup (unixtime)|

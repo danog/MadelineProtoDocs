@@ -1,6 +1,6 @@
 ---
 title: "updateBotChatBoost"
-description: "A channel boost has changed (bots only)"
+description: "A channel/supergroup boost has changed (bots only)"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-A [channel boost](https://core.telegram.org/api/boost) has changed (bots only)
+A [channel/supergroup boost](https://core.telegram.org/api/boost) has changed (bots only)
 
 ### Attributes:
 

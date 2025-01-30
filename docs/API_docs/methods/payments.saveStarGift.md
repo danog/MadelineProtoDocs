@@ -1,6 +1,6 @@
 ---
 title: "payments.saveStarGift"
-description: "payments.saveStarGift parameters, return type and example"
+description: "Display or remove a [received gift »](https://core.telegram.org/api/gifts) from our profile."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/payments_saveStarGift.html
 
 
 
+Display or remove a [received gift »](https://core.telegram.org/api/gifts) from our profile.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|unsave|[Bool](/API_docs/types/Bool.html) | Optional|
-|stargift|[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|unsave|[Bool](/API_docs/types/Bool.html) | If set, hides the gift from our profile. | Optional|
+|stargift|[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) |  | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

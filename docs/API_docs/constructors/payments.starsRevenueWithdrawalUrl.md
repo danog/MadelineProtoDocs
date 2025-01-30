@@ -1,6 +1,6 @@
 ---
 title: "payments.starsRevenueWithdrawalUrl"
-description: "payments.starsRevenueWithdrawalUrl attributes, type and example"
+description: "Contains the URL to use to withdraw Telegram Star revenue."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/payments_starsRevenueWithdrawalUrl.html
@@ -10,11 +10,13 @@ redirect_from: /API_docs/constructors/payments_starsRevenueWithdrawalUrl.html
 
 
 
+Contains the URL to use to [withdraw Telegram Star revenue](https://core.telegram.org/api/stars#withdrawing-stars).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|url|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|url|[string](/API_docs/types/string.html) | Yes|Contains the URL to use to [withdraw Telegram Star revenue](https://core.telegram.org/api/stars#withdrawing-stars).|
 
 
 

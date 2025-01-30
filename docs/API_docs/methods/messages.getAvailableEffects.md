@@ -1,6 +1,6 @@
 ---
 title: "messages.getAvailableEffects"
-description: "messages.getAvailableEffects parameters, return type and example"
+description: "Fetch the full list of usable [animated message effects »](https://core.telegram.org/api/effects)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/messages_getAvailableEffects.html
 
 
 
+Fetch the full list of usable [animated message effects »](https://core.telegram.org/api/effects).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|Array of [long\|string](/API_docs/types/long\|string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) |  | Optional|
 
 
 ### Return type: [messages.AvailableEffects](/API_docs/types/messages.AvailableEffects.html)

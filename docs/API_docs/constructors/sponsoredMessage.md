@@ -16,17 +16,17 @@ A [sponsored message](https://core.telegram.org/api/sponsored-messages).
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |recommended|[Bool](/API_docs/types/Bool.html) | Optional|Whether the message needs to be labeled as "recommended" instead of "sponsored"|
-|can\_report|[Bool](/API_docs/types/Bool.html) | Optional|
+|can\_report|[Bool](/API_docs/types/Bool.html) | Optional|Whether this message can be [reported as specified here »](https://core.telegram.org/api/sponsored-messages#reporting-sponsored-messages).|
 |random\_id|[bytes](/API_docs/types/bytes.html) | Yes|Message ID|
-|url|[string](/API_docs/types/string.html) | Yes|
-|title|[string](/API_docs/types/string.html) | Yes|
+|url|[string](/API_docs/types/string.html) | Yes|Contains the URL to open when the user clicks on the sponsored message.|
+|title|[string](/API_docs/types/string.html) | Yes|Contains the title of the sponsored message.|
 |message|[string](/API_docs/types/string.html) | Yes|Sponsored message|
-|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Optional|[Message entities for styled text](https://core.telegram.org/api/entities)|
+|entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Optional|[Message entities for styled text](https://core.telegram.org/api/entities) in `message`.|
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
-|photo|[Photo](/API_docs/types/Photo.html) | Optional|
-|media|[MessageMedia](/API_docs/types/MessageMedia.html) | Optional|
-|color|[PeerColor](/API_docs/types/PeerColor.html) | Optional|
-|button\_text|[string](/API_docs/types/string.html) | Yes|Text of the sponsored message button.|
+|photo|[Photo](/API_docs/types/Photo.html) | Optional|If set, contains a custom profile photo bubble that should be displayed for the sponsored message, like for messages sent in groups.|
+|media|[MessageMedia](/API_docs/types/MessageMedia.html) | Optional|If set, contains some media.|
+|color|[PeerColor](/API_docs/types/PeerColor.html) | Optional|If set, the sponsored message should use the [message accent color »](https://core.telegram.org/api/colors) specified in `color`.|
+|button\_text|[string](/API_docs/types/string.html) | Yes|Label of the sponsored message button.|
 |sponsor\_info|[string](/API_docs/types/string.html) | Optional|If set, contains additional information about the sponsor to be shown along with the message.|
 |additional\_info|[string](/API_docs/types/string.html) | Optional|If set, contains additional information about the sponsored message to be shown along with the message.|
 

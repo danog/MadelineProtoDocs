@@ -1,6 +1,6 @@
 ---
 title: "smsJob"
-description: "smsJob attributes, type and example"
+description: "Info about an SMS job."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Info about an SMS job.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|job\_id|[string](/API_docs/types/string.html) | Yes|
-|phone\_number|[string](/API_docs/types/string.html) | Yes|
-|text|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|job\_id|[string](/API_docs/types/string.html) | Yes|Job ID|
+|phone\_number|[string](/API_docs/types/string.html) | Yes|Destination phone number|
+|text|[string](/API_docs/types/string.html) | Yes|Text|
 
 
 

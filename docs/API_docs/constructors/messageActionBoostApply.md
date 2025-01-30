@@ -1,6 +1,6 @@
 ---
 title: "messageActionBoostApply"
-description: "messageActionBoostApply attributes, type and example"
+description: "Some boosts » were applied to the channel or supergroup."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Some [boosts »](https://core.telegram.org/api/boost) were applied to the channel or supergroup.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|boosts|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|boosts|[int](/API_docs/types/int.html) | Yes|Number of applied [boosts](https://core.telegram.org/api/boost).|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "contactBirthday"
-description: "contactBirthday attributes, type and example"
+description: "Birthday information of a contact."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Birthday information of a contact.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|contact\_id|[long](/API_docs/types/long.html) | Yes|
-|birthday|[Birthday](/API_docs/types/Birthday.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|contact\_id|[long](/API_docs/types/long.html) | Yes|User ID.|
+|birthday|[Birthday](/API_docs/types/Birthday.html) | Yes|Birthday information.|
 
 
 

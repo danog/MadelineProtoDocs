@@ -1,6 +1,6 @@
 ---
 title: "inputStarsTransaction"
-description: "inputStarsTransaction attributes, type and example"
+description: "Used to fetch info about a Telegram Star transaction »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Used to fetch info about a [Telegram Star transaction »](https://core.telegram.org/api/stars#balance-and-transaction-history).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|refund|[Bool](/API_docs/types/Bool.html) | Optional|
-|id|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|refund|[Bool](/API_docs/types/Bool.html) | Optional|If set, fetches info about the refund transaction for this transaction.|
+|id|[string](/API_docs/types/string.html) | Yes|Transaction ID.|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "smsjobs.getSmsJob"
-description: "smsjobs.getSmsJob parameters, return type and example"
+description: "Get info about an SMS job (official clients only)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/smsjobs_getSmsJob.html
 
 
 
+Get info about an SMS job (official clients only).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|job\_id|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|job\_id|[string](/API_docs/types/string.html) | Job ID | Optional|
 
 
 ### Return type: [SmsJob](/API_docs/types/SmsJob.html)

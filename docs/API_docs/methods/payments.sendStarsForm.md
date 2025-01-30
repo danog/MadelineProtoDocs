@@ -1,6 +1,6 @@
 ---
 title: "payments.sendStarsForm"
-description: "payments.sendStarsForm parameters, return type and example"
+description: "Make a payment using [Telegram Stars, see here »](https://core.telegram.org/api/stars#using-stars) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/payments_sendStarsForm.html
 
 
 
+Make a payment using [Telegram Stars, see here »](https://core.telegram.org/api/stars#using-stars) for more info.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|form\_id|[long](/API_docs/types/long.html) | Yes|
-|invoice|[InputInvoice](/API_docs/types/InputInvoice.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|form\_id|[long](/API_docs/types/long.html) | Payment form ID | Yes|
+|invoice|[InputInvoice](/API_docs/types/InputInvoice.html) | Invoice | Yes|
 
 
 ### Return type: [payments.PaymentResult](/API_docs/types/payments.PaymentResult.html)

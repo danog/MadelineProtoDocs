@@ -1,6 +1,6 @@
 ---
 title: "starsRevenueStatus"
-description: "starsRevenueStatus attributes, type and example"
+description: "Describes Telegram Star revenue balances »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,15 +9,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Describes [Telegram Star revenue balances »](https://core.telegram.org/api/stars).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|withdrawal\_enabled|[Bool](/API_docs/types/Bool.html) | Optional|
-|current\_balance|[StarsAmount](/API_docs/types/StarsAmount.html) | Yes|
-|available\_balance|[StarsAmount](/API_docs/types/StarsAmount.html) | Yes|
-|overall\_revenue|[StarsAmount](/API_docs/types/StarsAmount.html) | Yes|
-|next\_withdrawal\_at|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|withdrawal\_enabled|[Bool](/API_docs/types/Bool.html) | Optional|If set, the user may [withdraw](https://core.telegram.org/api/stars#withdrawing-stars) up to `available_balance` stars.|
+|current\_balance|[StarsAmount](/API_docs/types/StarsAmount.html) | Yes|Amount of not-yet-withdrawn Telegram Stars.|
+|available\_balance|[StarsAmount](/API_docs/types/StarsAmount.html) | Yes|Amount of withdrawable Telegram Stars.|
+|overall\_revenue|[StarsAmount](/API_docs/types/StarsAmount.html) | Yes|Total amount of earned Telegram Stars.|
+|next\_withdrawal\_at|[int](/API_docs/types/int.html) | Optional|Unixtime indicating when will withdrawal be available to the user. If not set, withdrawal can be started now.|
 
 
 

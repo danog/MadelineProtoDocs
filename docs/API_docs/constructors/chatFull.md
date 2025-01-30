@@ -11,6 +11,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 Full info about a [basic group](https://core.telegram.org/api/channel#basic-groups).
 
+When updating the [local peer database »](https://core.telegram.org/api/peers), all fields from the newly received constructor take priority over the old constructor cached locally (including by removing fields that aren't set in the new constructor).
+
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
@@ -34,7 +36,7 @@ Full info about a [basic group](https://core.telegram.org/api/channel#basic-grou
 |requests\_pending|[int](/API_docs/types/int.html) | Optional|Pending [join requests »](https://core.telegram.org/api/invites#join-requests)|
 |recent\_requesters|Array of [long](/API_docs/types/long.html) | Optional|IDs of users who requested to join recently|
 |available\_reactions|[ChatReactions](/API_docs/types/ChatReactions.html) | Optional|Allowed [message reactions »](https://core.telegram.org/api/reactions)|
-|reactions\_limit|[int](/API_docs/types/int.html) | Optional|
+|reactions\_limit|[int](/API_docs/types/int.html) | Optional|This flag may be used to impose a custom limit of unique reactions (i.e. a customizable version of [appConfig.reactions\_uniq\_max](https://core.telegram.org/api/config#reactions-uniq-max)).|
 
 
 

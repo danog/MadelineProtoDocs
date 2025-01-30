@@ -1,6 +1,6 @@
 ---
 title: "payments.getStarsTopupOptions"
-description: "payments.getStarsTopupOptions parameters, return type and example"
+description: "Obtain a list of [Telegram Stars topup options »](https://core.telegram.org/api/stars#buying-or-gifting-stars) as [starsTopupOption](../constructors/starsTopupOption.html) constructors."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -10,6 +10,8 @@ redirect_from: /API_docs/methods/payments_getStarsTopupOptions.html
 [Back to methods index](index.html)
 
 
+
+Obtain a list of [Telegram Stars topup options »](https://core.telegram.org/api/stars#buying-or-gifting-stars) as [starsTopupOption](../constructors/starsTopupOption.html) constructors.
 
 
 

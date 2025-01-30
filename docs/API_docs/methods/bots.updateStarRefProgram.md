@@ -1,6 +1,6 @@
 ---
 title: "bots.updateStarRefProgram"
-description: "bots.updateStarRefProgram parameters, return type and example"
+description: "Create, edit or delete the [affiliate program](https://core.telegram.org/api/bots/referrals) of a bot we own"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/bots_updateStarRefProgram.html
 
 
 
+Create, edit or delete the [affiliate program](https://core.telegram.org/api/bots/referrals) of a bot we own
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
-|commission\_permille|[int](/API_docs/types/int.html) | Optional|
-|duration\_months|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The bot | Optional|
+|commission\_permille|[int](/API_docs/types/int.html) | The permille commission rate: it indicates the share of Telegram Stars received by affiliates for every transaction made by users they referred inside of the bot.  <br>  The minimum and maximum values for this parameter are contained in the [starref\_min\_commission\_permille](https://core.telegram.org/api/config#starref-min-commission-permille) and [starref\_max\_commission\_permille](https://core.telegram.org/api/config#starref-max-commission-permille) client configuration parameters. <br>  Can be `0` to terminate the affiliate program.<br>  Both the duration and the commission may only be raised after creation of the program: to lower them, the program must first be terminated and a new one created. | Optional|
+|duration\_months|[int](/API_docs/types/int.html) | Indicates the duration of the affiliate program; if not set, there is no expiration date. | Optional|
 
 
 ### Return type: [StarRefProgram](/API_docs/types/StarRefProgram.html)

@@ -1,6 +1,6 @@
 ---
 title: "account.updateBusinessWorkHours"
-description: "account.updateBusinessWorkHours parameters, return type and example"
+description: "Specify a set of [Telegram Business opening hours](https://core.telegram.org/api/business#opening-hours).  "
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,18 @@ redirect_from: /API_docs/methods/account_updateBusinessWorkHours.html
 
 
 
+Specify a set of [Telegram Business opening hours](https://core.telegram.org/api/business#opening-hours).  
+This info will be contained in [userFull](../constructors/userFull.html).`business_work_hours`.
+
+To remove all opening hours, invoke the method without setting the `business_work_hours` field.
+
+Note that the opening hours specified by the user must be appropriately validated and transformed before invoking the method, as specified [here »](https://core.telegram.org/api/business#opening-hours).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|business\_work\_hours|[BusinessWorkHours](/API_docs/types/BusinessWorkHours.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|business\_work\_hours|[BusinessWorkHours](/API_docs/types/BusinessWorkHours.html) | Opening hours (optional, if not set removes all opening hours). | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

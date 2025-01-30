@@ -15,7 +15,7 @@ Message entity representing a block quote.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|collapsed|[Bool](/API_docs/types/Bool.html) | Optional|
+|collapsed|[Bool](/API_docs/types/Bool.html) | Optional|Whether the quote is collapsed by default.|
 |offset|[int](/API_docs/types/int.html) | Yes|Offset of message entity within message (in [UTF-16 code units](https://core.telegram.org/api/entities#entity-length))|
 |length|[int](/API_docs/types/int.html) | Yes|Length of message entity within message (in [UTF-16 code units](https://core.telegram.org/api/entities#entity-length))|
 

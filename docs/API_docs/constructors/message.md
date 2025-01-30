@@ -30,7 +30,7 @@ A message
 |video\_processing\_pending|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[int](/API_docs/types/int.html) | Yes|ID of the message|
 |from\_id|[Peer](/API_docs/types/Peer.html) | Optional|ID of the sender of the message|
-|from\_boosts\_applied|[int](/API_docs/types/int.html) | Optional|
+|from\_boosts\_applied|[int](/API_docs/types/int.html) | Optional|Supergroups only, contains the number of [boosts](https://core.telegram.org/api/boost) this user has given the current supergroup, and should be shown in the UI in the header of the message. <br>Only present for incoming messages from non-anonymous supergroup members that have boosted the supergroup. <br>Note that this counter should be locally overridden for non-anonymous *outgoing* messages, according to the current value of [channelFull](../constructors/channelFull.html).`boosts_applied`, to ensure the value is correct even for messages sent by the current user before a supergroup was boosted (or after a boost has expired or the number of boosts has changed); do not update this value for incoming messages from other users, even if their boosts have changed.|
 |peer\_id|[Peer](/API_docs/types/Peer.html) | Yes|Peer ID, the chat where this message was sent|
 |saved\_peer\_id|[Peer](/API_docs/types/Peer.html) | Optional|Messages fetched from a [saved messages dialog »](https://core.telegram.org/api/saved-messages) will have `peer`=[inputPeerSelf](../constructors/inputPeerSelf.html) and the `saved_peer_id` flag set to the ID of the saved dialog.<br>|
 |fwd\_from|[MessageFwdHeader](/API_docs/types/MessageFwdHeader.html) | Optional|Info about forwarded messages|
@@ -52,7 +52,7 @@ A message
 |reactions|[MessageReactions](/API_docs/types/MessageReactions.html) | Optional|Reactions to this message|
 |restriction\_reason|Array of [RestrictionReason](/API_docs/types/RestrictionReason.html) | Optional|Contains the reason why access to this message must be restricted.|
 |ttl\_period|[int](/API_docs/types/int.html) | Optional|Time To Live of the message, once message.date+message.ttl\_period === time(), the message will be deleted on the server, and must be deleted locally as well.|
-|quick\_reply\_shortcut\_id|[int](/API_docs/types/int.html) | Optional|
+|quick\_reply\_shortcut\_id|[int](/API_docs/types/int.html) | Optional|If set, this message is a [quick reply shortcut message »](https://core.telegram.org/api/business#quick-reply-shortcuts) (note that quick reply shortcut messages *sent* to a private chat will *not* have this field set).|
 |effect|[long](/API_docs/types/long.html) | Optional|
 |factcheck|[FactCheck](/API_docs/types/FactCheck.html) | Optional|
 |report\_delivery\_until\_date|[int](/API_docs/types/int.html) | Optional|

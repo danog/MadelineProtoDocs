@@ -1,6 +1,6 @@
 ---
 title: "account.disablePeerConnectedBot"
-description: "account.disablePeerConnectedBot parameters, return type and example"
+description: "Permanently disconnect a specific chat from all [business bots »](https://core.telegram.org/api/business#connected-bots) (equivalent to specifying it in `recipients.exclude_users` during initial configuration with [account.updateConnectedBot »](../methods/account.updateConnectedBot.html)); to reconnect of a chat disconnected using this method the user must reconnect the entire bot by invoking [account.updateConnectedBot »](../methods/account.updateConnectedBot.html)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/account_disablePeerConnectedBot.html
 
 
 
+Permanently disconnect a specific chat from all [business bots »](https://core.telegram.org/api/business#connected-bots) (equivalent to specifying it in `recipients.exclude_users` during initial configuration with [account.updateConnectedBot »](../methods/account.updateConnectedBot.html)); to reconnect of a chat disconnected using this method the user must reconnect the entire bot by invoking [account.updateConnectedBot »](../methods/account.updateConnectedBot.html).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The chat to disconnect | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

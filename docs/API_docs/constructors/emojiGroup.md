@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Represents an [emoji category](https://core.telegram.org/api/custom-emoji#emoji-categories).
+Represents an [emoji category](https://core.telegram.org/api/emoji-categories).
 
 ### Attributes:
 

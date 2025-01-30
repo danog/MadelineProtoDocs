@@ -1,6 +1,6 @@
 ---
 title: "messages.availableEffects"
-description: "messages.availableEffects attributes, type and example"
+description: "The full list of usable animated message effects »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_availableEffects.html
@@ -10,13 +10,15 @@ redirect_from: /API_docs/constructors/messages_availableEffects.html
 
 
 
+The full list of usable [animated message effects »](https://core.telegram.org/api/effects).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
 |hash|[int](/API_docs/types/int.html) | Yes|
-|effects|Array of [AvailableEffect](/API_docs/types/AvailableEffect.html) | Yes|
-|documents|Array of [Document](/API_docs/types/Document.html) | Yes|
+|effects|Array of [AvailableEffect](/API_docs/types/AvailableEffect.html) | Yes|Message effects|
+|documents|Array of [Document](/API_docs/types/Document.html) | Yes|Documents specified in the `effects` constructors.|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "invokeWithApnsSecret"
-description: "invokeWithApnsSecret parameters, return type and example"
+description: "Official clients only, invoke with Apple push verification."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -10,13 +10,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Official clients only, invoke with Apple push verification.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|nonce|[string](/API_docs/types/string.html) | Optional|
-|secret|[string](/API_docs/types/string.html) | Optional|
-|query|[!X](/API_docs/types/!X.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|nonce|[string](/API_docs/types/string.html) | Nonce. | Optional|
+|secret|[string](/API_docs/types/string.html) | Secret. | Optional|
+|query|[!X](/API_docs/types/!X.html) | Query. | Yes|
 
 
 ### Return type: [X](/API_docs/types/X.html)

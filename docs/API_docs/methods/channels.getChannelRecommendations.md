@@ -17,7 +17,7 @@ Obtain a list of similarly themed public channels, selected based on similaritie
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | The method will return channels related to the passed `channel`. | Optional|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | The method will return channels related to the passed `channel`. If not set, the method will returns channels related to channels the user has joined. | Optional|
 
 
 ### Return type: [messages.Chats](/API_docs/types/messages.Chats.html)

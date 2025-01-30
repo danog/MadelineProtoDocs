@@ -1,6 +1,6 @@
 ---
 title: "payments.starGifts"
-description: "payments.starGifts attributes, type and example"
+description: "Available gifts »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/payments_starGifts.html
@@ -10,12 +10,14 @@ redirect_from: /API_docs/constructors/payments_starGifts.html
 
 
 
+Available [gifts »](https://core.telegram.org/api/gifts).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
 |hash|[int](/API_docs/types/int.html) | Yes|
-|gifts|Array of [StarGift](/API_docs/types/StarGift.html) | Yes|
+|gifts|Array of [StarGift](/API_docs/types/StarGift.html) | Yes|List of available gifts.|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "payments.editConnectedStarRefBot"
-description: "payments.editConnectedStarRefBot parameters, return type and example"
+description: "Leave a bot's [affiliate program »](https://core.telegram.org/api/bots/referrals#becoming-an-affiliate)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/payments_editConnectedStarRefBot.html
 
 
 
+Leave a bot's [affiliate program »](https://core.telegram.org/api/bots/referrals#becoming-an-affiliate)
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|revoked|[Bool](/API_docs/types/Bool.html) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|link|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|revoked|[Bool](/API_docs/types/Bool.html) | If set, leaves the bot's affiliate program | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer that was affiliated | Optional|
+|link|[string](/API_docs/types/string.html) | The affiliate link to revoke | Optional|
 
 
 ### Return type: [payments.ConnectedStarRefBots](/API_docs/types/payments.ConnectedStarRefBots.html)

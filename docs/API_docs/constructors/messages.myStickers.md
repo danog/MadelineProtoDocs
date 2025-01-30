@@ -1,6 +1,6 @@
 ---
 title: "messages.myStickers"
-description: "messages.myStickers attributes, type and example"
+description: "The list of stickersets owned by the current account »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_myStickers.html
@@ -10,12 +10,14 @@ redirect_from: /API_docs/constructors/messages_myStickers.html
 
 
 
+The list of [stickersets owned by the current account »](https://core.telegram.org/api/stickers).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|count|[int](/API_docs/types/int.html) | Yes|
-|sets|Array of [StickerSetCovered](/API_docs/types/StickerSetCovered.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|count|[int](/API_docs/types/int.html) | Yes|Total number of owned stickersets.|
+|sets|Array of [StickerSetCovered](/API_docs/types/StickerSetCovered.html) | Yes|Stickersets|
 
 
 

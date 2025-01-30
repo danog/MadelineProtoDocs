@@ -1,6 +1,6 @@
 ---
 title: "messages.clickSponsoredMessage"
-description: "messages.clickSponsoredMessage parameters, return type and example"
+description: "Informs the server that the user has interacted with a sponsored message in [one of the ways listed here »](https://core.telegram.org/api/sponsored-messages#clicking-on-sponsored-messages)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,16 @@ redirect_from: /API_docs/methods/messages_clickSponsoredMessage.html
 
 
 
+Informs the server that the user has interacted with a sponsored message in [one of the ways listed here »](https://core.telegram.org/api/sponsored-messages#clicking-on-sponsored-messages).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|media|[Bool](/API_docs/types/Bool.html) | Optional|
-|fullscreen|[Bool](/API_docs/types/Bool.html) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|random\_id|[bytes](/API_docs/types/bytes.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|media|[Bool](/API_docs/types/Bool.html) | The user clicked on the media | Optional|
+|fullscreen|[Bool](/API_docs/types/Bool.html) | The user expanded the video to full screen, and then clicked on it. | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The channel/bot where the ad is located | Optional|
+|random\_id|[bytes](/API_docs/types/bytes.html) | The ad's unique ID. | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

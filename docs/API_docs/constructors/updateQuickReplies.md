@@ -1,6 +1,6 @@
 ---
 title: "updateQuickReplies"
-description: "updateQuickReplies attributes, type and example"
+description: "Info about or the order of quick reply shortcuts » was changed."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Info about or the order of [quick reply shortcuts »](https://core.telegram.org/api/business#quick-reply-shortcuts) was changed.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|quick\_replies|Array of [QuickReply](/API_docs/types/QuickReply.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|quick\_replies|Array of [QuickReply](/API_docs/types/QuickReply.html) | Yes|New quick reply shortcut order and information.|
 
 
 

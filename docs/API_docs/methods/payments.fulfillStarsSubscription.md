@@ -1,6 +1,6 @@
 ---
 title: "payments.fulfillStarsSubscription"
-description: "payments.fulfillStarsSubscription parameters, return type and example"
+description: "Re-join a private channel associated to an active [Telegram Star subscription »](https://core.telegram.org/api/invites#paid-invite-links)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/payments_fulfillStarsSubscription.html
 
 
 
+Re-join a private channel associated to an active [Telegram Star subscription »](https://core.telegram.org/api/invites#paid-invite-links).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|subscription\_id|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Always pass [inputPeerSelf](../constructors/inputPeerSelf.html). | Optional|
+|subscription\_id|[string](/API_docs/types/string.html) | ID of the subscription. | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

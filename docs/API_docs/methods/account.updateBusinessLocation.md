@@ -1,6 +1,6 @@
 ---
 title: "account.updateBusinessLocation"
-description: "account.updateBusinessLocation parameters, return type and example"
+description: "[Businesses »](https://core.telegram.org/api/business#location) may advertise their location using this method, see [here »](https://core.telegram.org/api/business#location) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,16 @@ redirect_from: /API_docs/methods/account_updateBusinessLocation.html
 
 
 
+[Businesses »](https://core.telegram.org/api/business#location) may advertise their location using this method, see [here »](https://core.telegram.org/api/business#location) for more info.
+
+To remove business location information invoke the method without setting any of the parameters.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|geo\_point|[InputGeoPoint](/API_docs/types/InputGeoPoint.html) | Optional|
-|address|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|geo\_point|[InputGeoPoint](/API_docs/types/InputGeoPoint.html) | Optional, contains a set of geographical coordinates. | Optional|
+|address|[string](/API_docs/types/string.html) | Mandatory when setting/updating the location, contains a textual description of the address (max 96 UTF-8 chars). | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
