@@ -13,8 +13,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|msg\_id|[int](/API_docs/types/int.html) | Yes|
-|to\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
+|stargift|[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) | Yes|
+|to\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 
 
 
@@ -24,5 +24,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$inputInvoiceStarGiftTransfer = ['_' => 'inputInvoiceStarGiftTransfer', 'msg_id' => int, 'to_id' => InputUser];
+$inputInvoiceStarGiftTransfer = ['_' => 'inputInvoiceStarGiftTransfer', 'stargift' => InputSavedStarGift, 'to_id' => InputPeer];
 ```  

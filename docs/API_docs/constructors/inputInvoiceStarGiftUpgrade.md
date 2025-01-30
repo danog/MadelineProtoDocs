@@ -14,7 +14,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |keep\_original\_details|[Bool](/API_docs/types/Bool.html) | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | Yes|
+|stargift|[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) | Yes|
 
 
 
@@ -24,5 +24,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$inputInvoiceStarGiftUpgrade = ['_' => 'inputInvoiceStarGiftUpgrade', 'keep_original_details' => Bool, 'msg_id' => int];
+$inputInvoiceStarGiftUpgrade = ['_' => 'inputInvoiceStarGiftUpgrade', 'keep_original_details' => Bool, 'stargift' => InputSavedStarGift];
 ```  

@@ -24,6 +24,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |convert\_stars|[long](/API_docs/types/long.html) | Optional|
 |upgrade\_msg\_id|[int](/API_docs/types/int.html) | Optional|
 |upgrade\_stars|[long](/API_docs/types/long.html) | Optional|
+|from\_id|[Peer](/API_docs/types/Peer.html) | Optional|
+|peer|[long](/API_docs/types/long.html) | Optional|
+|saved\_id|[long](/API_docs/types/long.html) | Optional|
 
 
 
@@ -33,5 +36,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$messageActionStarGift = ['_' => 'messageActionStarGift', 'name_hidden' => Bool, 'saved' => Bool, 'converted' => Bool, 'upgraded' => Bool, 'refunded' => Bool, 'can_upgrade' => Bool, 'gift' => StarGift, 'message' => TextWithEntities, 'convert_stars' => long, 'upgrade_msg_id' => int, 'upgrade_stars' => long];
+$messageActionStarGift = ['_' => 'messageActionStarGift', 'name_hidden' => Bool, 'saved' => Bool, 'converted' => Bool, 'upgraded' => Bool, 'refunded' => Bool, 'can_upgrade' => Bool, 'gift' => StarGift, 'message' => TextWithEntities, 'convert_stars' => long, 'upgrade_msg_id' => int, 'upgrade_stars' => long, 'from_id' => Peer, 'peer' => long, 'saved_id' => long];
 ```  

@@ -15,7 +15,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [emojiStatus](/API_docs/constructors/emojiStatus.html)  
 
-[emojiStatusUntil](/API_docs/constructors/emojiStatusUntil.html)  
+[emojiStatusCollectible](/API_docs/constructors/emojiStatusCollectible.html)  
+
+[inputEmojiStatusCollectible](/API_docs/constructors/inputEmojiStatusCollectible.html)  
 
 
 

@@ -23,6 +23,8 @@ New document
 |mime\_type|[string](/API_docs/types/string.html) | Optional|MIME type of document|
 |attributes|Array of [DocumentAttribute](/API_docs/types/DocumentAttribute.html) | Yes|Attributes that specify the type of the document (video, audio, voice, sticker, etc.)|
 |stickers|Array of [MessageMedia, Message, Update or InputDocument](/API_docs/types/InputDocument.html) | Optional|Attached stickers|
+|video\_cover|[MessageMedia, Message, Update or InputPhoto](/API_docs/types/InputPhoto.html) | Optional|
+|video\_timestamp|[int](/API_docs/types/int.html) | Optional|
 |ttl\_seconds|[int](/API_docs/types/int.html) | Optional|Time to live in seconds of self-destructing document|
 
 
@@ -33,5 +35,5 @@ New document
 ### Example:
 
 ```
-$inputMediaUploadedDocument = ['_' => 'inputMediaUploadedDocument', 'nosound_video' => Bool, 'force_file' => Bool, 'spoiler' => Bool, 'file' => InputFile, 'thumb' => InputFile, 'mime_type' => 'string', 'attributes' => [DocumentAttribute, DocumentAttribute], 'stickers' => [InputDocument, InputDocument], 'ttl_seconds' => int];
+$inputMediaUploadedDocument = ['_' => 'inputMediaUploadedDocument', 'nosound_video' => Bool, 'force_file' => Bool, 'spoiler' => Bool, 'file' => InputFile, 'thumb' => InputFile, 'mime_type' => 'string', 'attributes' => [DocumentAttribute, DocumentAttribute], 'stickers' => [InputDocument, InputDocument], 'video_cover' => InputPhoto, 'video_timestamp' => int, 'ttl_seconds' => int];
 ```  

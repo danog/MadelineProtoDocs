@@ -1,12 +1,12 @@
 ---
-title: "payments.upgradeStarGift"
-description: "payments.upgradeStarGift parameters, return type and example"
+title: "payments.getStarGiftWithdrawalUrl"
+description: "payments.getStarGiftWithdrawalUrl parameters, return type and example"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
-redirect_from: /API_docs/methods/payments_upgradeStarGift.html
+redirect_from: /API_docs/methods/payments_getStarGiftWithdrawalUrl.html
 ---
-# Method: payments.upgradeStarGift
+# Method: payments.getStarGiftWithdrawalUrl
 [Back to methods index](index.html)
 
 
@@ -15,15 +15,15 @@ redirect_from: /API_docs/methods/payments_upgradeStarGift.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|keep\_original\_details|[Bool](/API_docs/types/Bool.html) | Optional|
 |stargift|[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) | Yes|
+|password|[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html) | Yes|
 
 
-### Return type: [Updates](/API_docs/types/Updates.html)
+### Return type: [payments.StarGiftWithdrawalUrl](/API_docs/types/payments.StarGiftWithdrawalUrl.html)
 
 ### Can userbots use this method: **YES**
 
-### Can bots use this method: **NO**
+### Can bots use this method: **YES**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->payments->upgradeStarGift(keep_original_details: $Bool, stargift: $InputSavedStarGift, );
+$payments_StarGiftWithdrawalUrl = $MadelineProto->payments->getStarGiftWithdrawalUrl(stargift: $InputSavedStarGift, password: $InputCheckPasswordSRP, );
 ```
 

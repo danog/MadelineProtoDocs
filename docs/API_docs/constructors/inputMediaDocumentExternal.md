@@ -18,6 +18,8 @@ Document that will be downloaded by the telegram servers
 |spoiler|[Bool](/API_docs/types/Bool.html) | Optional|Whether this media should be hidden behind a spoiler warning|
 |url|[string](/API_docs/types/string.html) | Yes|URL of the document|
 |ttl\_seconds|[int](/API_docs/types/int.html) | Optional|Self-destruct time to live of document|
+|video\_cover|[MessageMedia, Message, Update or InputPhoto](/API_docs/types/InputPhoto.html) | Optional|
+|video\_timestamp|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -27,5 +29,5 @@ Document that will be downloaded by the telegram servers
 ### Example:
 
 ```
-$inputMediaDocumentExternal = ['_' => 'inputMediaDocumentExternal', 'spoiler' => Bool, 'url' => 'string', 'ttl_seconds' => int];
+$inputMediaDocumentExternal = ['_' => 'inputMediaDocumentExternal', 'spoiler' => Bool, 'url' => 'string', 'ttl_seconds' => int, 'video_cover' => InputPhoto, 'video_timestamp' => int];
 ```  

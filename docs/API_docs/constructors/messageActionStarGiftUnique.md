@@ -20,6 +20,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |gift|[StarGift](/API_docs/types/StarGift.html) | Yes|
 |can\_export\_at|[int](/API_docs/types/int.html) | Optional|
 |transfer\_stars|[long](/API_docs/types/long.html) | Optional|
+|from\_id|[Peer](/API_docs/types/Peer.html) | Optional|
+|peer|[long](/API_docs/types/long.html) | Optional|
+|saved\_id|[long](/API_docs/types/long.html) | Optional|
 
 
 
@@ -29,5 +32,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$messageActionStarGiftUnique = ['_' => 'messageActionStarGiftUnique', 'upgrade' => Bool, 'transferred' => Bool, 'saved' => Bool, 'refunded' => Bool, 'gift' => StarGift, 'can_export_at' => int, 'transfer_stars' => long];
+$messageActionStarGiftUnique = ['_' => 'messageActionStarGiftUnique', 'upgrade' => Bool, 'transferred' => Bool, 'saved' => Bool, 'refunded' => Bool, 'gift' => StarGift, 'can_export_at' => int, 'transfer_stars' => long, 'from_id' => Peer, 'peer' => long, 'saved_id' => long];
 ```  

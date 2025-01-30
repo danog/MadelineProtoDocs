@@ -15,8 +15,8 @@ redirect_from: /API_docs/methods/payments_transferStarGift.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|msg\_id|[int](/API_docs/types/int.html) | Optional|
-|to\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
+|stargift|[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) | Yes|
+|to\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->payments->transferStarGift(msg_id: $int, to_id: $InputUser, );
+$Updates = $MadelineProto->payments->transferStarGift(stargift: $InputSavedStarGift, to_id: $InputPeer, );
 ```
 

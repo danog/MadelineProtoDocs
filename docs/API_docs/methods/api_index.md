@@ -153,6 +153,10 @@ $MadelineProto->[account->getChatThemes](/API_docs/methods/account.getChatThemes
 
 ***
 <br><br>
+$MadelineProto->[account->getCollectibleEmojiStatuses](/API_docs/methods/account.getCollectibleEmojiStatuses.html)(\[hash: $[long](/API_docs/types/long.html), \]) === [$account.EmojiStatuses](/API_docs/types/account.EmojiStatuses.html)<a name="account.getCollectibleEmojiStatuses"></a>  
+
+***
+<br><br>
 $MadelineProto->[account->getConnectedBots](/API_docs/methods/account.getConnectedBots.html)(\[\]) === [$account.ConnectedBots](/API_docs/types/account.ConnectedBots.html)<a name="account.getConnectedBots"></a>  
 
 ***
@@ -1405,7 +1409,7 @@ $MadelineProto->[messages->faveSticker](/API_docs/methods/messages.faveSticker.h
 
 ***
 <br><br>
-$MadelineProto->[messages->forwardMessages](/API_docs/methods/messages.forwardMessages.html)(\[silent: $[Bool](/API_docs/types/Bool.html), background: $[Bool](/API_docs/types/Bool.html), with_my_score: $[Bool](/API_docs/types/Bool.html), drop_author: $[Bool](/API_docs/types/Bool.html), drop_media_captions: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), allow_paid_floodskip: $[Bool](/API_docs/types/Bool.html), from_peer: $[InputPeer](/API_docs/types/InputPeer.html), id: \[$[int](/API_docs/types/int.html)\], to_peer: $[InputPeer](/API_docs/types/InputPeer.html), top_msg_id: $[int](/API_docs/types/int.html), schedule_date: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), quick_reply_shortcut: $[InputQuickReplyShortcut](/API_docs/types/InputQuickReplyShortcut.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.forwardMessages"></a>  
+$MadelineProto->[messages->forwardMessages](/API_docs/methods/messages.forwardMessages.html)(\[silent: $[Bool](/API_docs/types/Bool.html), background: $[Bool](/API_docs/types/Bool.html), with_my_score: $[Bool](/API_docs/types/Bool.html), drop_author: $[Bool](/API_docs/types/Bool.html), drop_media_captions: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), allow_paid_floodskip: $[Bool](/API_docs/types/Bool.html), from_peer: $[InputPeer](/API_docs/types/InputPeer.html), id: \[$[int](/API_docs/types/int.html)\], to_peer: $[InputPeer](/API_docs/types/InputPeer.html), top_msg_id: $[int](/API_docs/types/int.html), schedule_date: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), quick_reply_shortcut: $[InputQuickReplyShortcut](/API_docs/types/InputQuickReplyShortcut.html), video_timestamp: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.forwardMessages"></a>  
 
 ***
 <br><br>
@@ -1757,7 +1761,7 @@ $MadelineProto->[messages->getWebPage](/API_docs/methods/messages.getWebPage.htm
 
 ***
 <br><br>
-$MadelineProto->[messages->getWebPagePreview](/API_docs/methods/messages.getWebPagePreview.html)(\[message: $[string](/API_docs/types/string.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], \]) === [$MessageMedia](/API_docs/types/MessageMedia.html)<a name="messages.getWebPagePreview"></a>  
+$MadelineProto->[messages->getWebPagePreview](/API_docs/methods/messages.getWebPagePreview.html)(\[message: $[string](/API_docs/types/string.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], \]) === [$messages.WebPagePreview](/API_docs/types/messages.WebPagePreview.html)<a name="messages.getWebPagePreview"></a>  
 
 ***
 <br><br>
@@ -2193,7 +2197,7 @@ $MadelineProto->[payments->connectStarRefBot](/API_docs/methods/payments.connect
 
 ***
 <br><br>
-$MadelineProto->[payments->convertStarGift](/API_docs/methods/payments.convertStarGift.html)(\[msg_id: $[int](/API_docs/types/int.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.convertStarGift"></a>  
+$MadelineProto->[payments->convertStarGift](/API_docs/methods/payments.convertStarGift.html)(\[stargift: $[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.convertStarGift"></a>  
 
 ***
 <br><br>
@@ -2241,7 +2245,19 @@ $MadelineProto->[payments->getSavedInfo](/API_docs/methods/payments.getSavedInfo
 
 ***
 <br><br>
+$MadelineProto->[payments->getSavedStarGift](/API_docs/methods/payments.getSavedStarGift.html)(\[stargift: \[$[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html)\], \]) === [$payments.SavedStarGifts](/API_docs/types/payments.SavedStarGifts.html)<a name="payments.getSavedStarGift"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->getSavedStarGifts](/API_docs/methods/payments.getSavedStarGifts.html)(\[exclude_unsaved: $[Bool](/API_docs/types/Bool.html), exclude_saved: $[Bool](/API_docs/types/Bool.html), exclude_unlimited: $[Bool](/API_docs/types/Bool.html), exclude_limited: $[Bool](/API_docs/types/Bool.html), exclude_unique: $[Bool](/API_docs/types/Bool.html), sort_by_value: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$payments.SavedStarGifts](/API_docs/types/payments.SavedStarGifts.html)<a name="payments.getSavedStarGifts"></a>  
+
+***
+<br><br>
 $MadelineProto->[payments->getStarGiftUpgradePreview](/API_docs/methods/payments.getStarGiftUpgradePreview.html)(\[gift_id: $[long](/API_docs/types/long.html), \]) === [$payments.StarGiftUpgradePreview](/API_docs/types/payments.StarGiftUpgradePreview.html)<a name="payments.getStarGiftUpgradePreview"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->getStarGiftWithdrawalUrl](/API_docs/methods/payments.getStarGiftWithdrawalUrl.html)(\[stargift: $[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html), password: $[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html), \]) === [$payments.StarGiftWithdrawalUrl](/API_docs/types/payments.StarGiftWithdrawalUrl.html)<a name="payments.getStarGiftWithdrawalUrl"></a>  
 
 ***
 <br><br>
@@ -2293,11 +2309,7 @@ $MadelineProto->[payments->getSuggestedStarRefBots](/API_docs/methods/payments.g
 
 ***
 <br><br>
-$MadelineProto->[payments->getUserStarGift](/API_docs/methods/payments.getUserStarGift.html)(\[msg_id: \[$[int](/API_docs/types/int.html)\], \]) === [$payments.UserStarGifts](/API_docs/types/payments.UserStarGifts.html)<a name="payments.getUserStarGift"></a>  
-
-***
-<br><br>
-$MadelineProto->[payments->getUserStarGifts](/API_docs/methods/payments.getUserStarGifts.html)(\[user_id: $[InputUser](/API_docs/types/InputUser.html), offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$payments.UserStarGifts](/API_docs/types/payments.UserStarGifts.html)<a name="payments.getUserStarGifts"></a>  
+$MadelineProto->[payments->getUniqueStarGift](/API_docs/methods/payments.getUniqueStarGift.html)(\[slug: $[string](/API_docs/types/string.html), \]) === [$payments.UniqueStarGift](/API_docs/types/payments.UniqueStarGift.html)<a name="payments.getUniqueStarGift"></a>  
 
 ***
 <br><br>
@@ -2309,7 +2321,7 @@ $MadelineProto->[payments->refundStarsCharge](/API_docs/methods/payments.refundS
 
 ***
 <br><br>
-$MadelineProto->[payments->saveStarGift](/API_docs/methods/payments.saveStarGift.html)(\[unsave: $[Bool](/API_docs/types/Bool.html), msg_id: $[int](/API_docs/types/int.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.saveStarGift"></a>  
+$MadelineProto->[payments->saveStarGift](/API_docs/methods/payments.saveStarGift.html)(\[unsave: $[Bool](/API_docs/types/Bool.html), stargift: $[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.saveStarGift"></a>  
 
 ***
 <br><br>
@@ -2321,11 +2333,15 @@ $MadelineProto->[payments->sendStarsForm](/API_docs/methods/payments.sendStarsFo
 
 ***
 <br><br>
-$MadelineProto->[payments->transferStarGift](/API_docs/methods/payments.transferStarGift.html)(\[msg_id: $[int](/API_docs/types/int.html), to_id: $[InputUser](/API_docs/types/InputUser.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.transferStarGift"></a>  
+$MadelineProto->[payments->toggleChatStarGiftNotifications](/API_docs/methods/payments.toggleChatStarGiftNotifications.html)(\[enabled: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.toggleChatStarGiftNotifications"></a>  
 
 ***
 <br><br>
-$MadelineProto->[payments->upgradeStarGift](/API_docs/methods/payments.upgradeStarGift.html)(\[keep_original_details: $[Bool](/API_docs/types/Bool.html), msg_id: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.upgradeStarGift"></a>  
+$MadelineProto->[payments->transferStarGift](/API_docs/methods/payments.transferStarGift.html)(\[stargift: $[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html), to_id: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.transferStarGift"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->upgradeStarGift](/API_docs/methods/payments.upgradeStarGift.html)(\[keep_original_details: $[Bool](/API_docs/types/Bool.html), stargift: $[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.upgradeStarGift"></a>  
 
 ***
 <br><br>

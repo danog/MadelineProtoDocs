@@ -16,6 +16,7 @@ An [emoji status](https://core.telegram.org/api/emoji-status)
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |document\_id|[long](/API_docs/types/long.html) | Yes|[Custom emoji document ID](https://core.telegram.org/api/custom-emoji)|
+|until|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -25,5 +26,5 @@ An [emoji status](https://core.telegram.org/api/emoji-status)
 ### Example:
 
 ```
-$emojiStatus = ['_' => 'emojiStatus', 'document_id' => long];
+$emojiStatus = ['_' => 'emojiStatus', 'document_id' => long, 'until' => int];
 ```  

@@ -22,6 +22,8 @@ Document (video, audio, voice, sticker, any media type except photo)
 |voice|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a voice message.|
 |document|[Document](/API_docs/types/Document.html) | Optional|Attached document|
 |alt\_documents|Array of [Document](/API_docs/types/Document.html) | Optional|
+|video\_cover|[Photo](/API_docs/types/Photo.html) | Optional|
+|video\_timestamp|[int](/API_docs/types/int.html) | Optional|
 |ttl\_seconds|[int](/API_docs/types/int.html) | Optional|Time to live of self-destructing document|
 
 
@@ -32,5 +34,5 @@ Document (video, audio, voice, sticker, any media type except photo)
 ### Example:
 
 ```
-$messageMediaDocument = ['_' => 'messageMediaDocument', 'nopremium' => Bool, 'spoiler' => Bool, 'video' => Bool, 'round' => Bool, 'voice' => Bool, 'document' => Document, 'alt_documents' => [Document, Document], 'ttl_seconds' => int];
+$messageMediaDocument = ['_' => 'messageMediaDocument', 'nopremium' => Bool, 'spoiler' => Bool, 'video' => Bool, 'round' => Bool, 'voice' => Bool, 'document' => Document, 'alt_documents' => [Document, Document], 'video_cover' => Photo, 'video_timestamp' => int, 'ttl_seconds' => int];
 ```  

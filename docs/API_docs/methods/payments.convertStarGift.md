@@ -15,7 +15,7 @@ redirect_from: /API_docs/methods/payments_convertStarGift.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|msg\_id|[int](/API_docs/types/int.html) | Optional|
+|stargift|[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
@@ -37,6 +37,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->payments->convertStarGift(msg_id: $int, );
+$Bool = $MadelineProto->payments->convertStarGift(stargift: $InputSavedStarGift, );
 ```
 

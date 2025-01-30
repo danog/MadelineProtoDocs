@@ -1,17 +1,17 @@
 ---
-title: UserStarGift
-description: constructors and methods of type UserStarGift
+title: SavedStarGift
+description: constructors and methods of type SavedStarGift
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Type: UserStarGift
+# Type: SavedStarGift
 [Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[userStarGift](/API_docs/constructors/userStarGift.html)  
+[savedStarGift](/API_docs/constructors/savedStarGift.html)  
 
 
 

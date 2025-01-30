@@ -1584,6 +1584,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.getBusinessChatLinks.html" name="account.getBusinessChatLinks">account.getBusinessChatLinks</a>
 
+* <a href="account.getCollectibleEmojiStatuses.html" name="account.getCollectibleEmojiStatuses">account.getCollectibleEmojiStatuses</a>
+
 * <a href="account.getConnectedBots.html" name="account.getConnectedBots">account.getConnectedBots</a>
 
 * <a href="account.getReactionsNotifySettings.html" name="account.getReactionsNotifySettings">account.getReactionsNotifySettings</a>
@@ -1746,7 +1748,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="payments.getConnectedStarRefBots.html" name="payments.getConnectedStarRefBots">payments.getConnectedStarRefBots</a>
 
+* <a href="payments.getSavedStarGift.html" name="payments.getSavedStarGift">payments.getSavedStarGift</a>
+
+* <a href="payments.getSavedStarGifts.html" name="payments.getSavedStarGifts">payments.getSavedStarGifts</a>
+
 * <a href="payments.getStarGiftUpgradePreview.html" name="payments.getStarGiftUpgradePreview">payments.getStarGiftUpgradePreview</a>
+
+* <a href="payments.getStarGiftWithdrawalUrl.html" name="payments.getStarGiftWithdrawalUrl">payments.getStarGiftWithdrawalUrl</a>
 
 * <a href="payments.getStarGifts.html" name="payments.getStarGifts">payments.getStarGifts</a>
 
@@ -1772,15 +1780,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="payments.getSuggestedStarRefBots.html" name="payments.getSuggestedStarRefBots">payments.getSuggestedStarRefBots</a>
 
-* <a href="payments.getUserStarGift.html" name="payments.getUserStarGift">payments.getUserStarGift</a>
-
-* <a href="payments.getUserStarGifts.html" name="payments.getUserStarGifts">payments.getUserStarGifts</a>
+* <a href="payments.getUniqueStarGift.html" name="payments.getUniqueStarGift">payments.getUniqueStarGift</a>
 
 * <a href="payments.refundStarsCharge.html" name="payments.refundStarsCharge">payments.refundStarsCharge</a>
 
 * <a href="payments.saveStarGift.html" name="payments.saveStarGift">payments.saveStarGift</a>
 
 * <a href="payments.sendStarsForm.html" name="payments.sendStarsForm">payments.sendStarsForm</a>
+
+* <a href="payments.toggleChatStarGiftNotifications.html" name="payments.toggleChatStarGiftNotifications">payments.toggleChatStarGiftNotifications</a>
 
 * <a href="payments.transferStarGift.html" name="payments.transferStarGift">payments.transferStarGift</a>
 

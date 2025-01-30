@@ -49,8 +49,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->messages->getWebPagePreview](/API_docs/methods/messages.getWebPagePreview.html)  
-
 [$MadelineProto->messages->uploadMedia](/API_docs/methods/messages.uploadMedia.html)  
 
 [$MadelineProto->messages->uploadImportedMedia](/API_docs/methods/messages.uploadImportedMedia.html)  

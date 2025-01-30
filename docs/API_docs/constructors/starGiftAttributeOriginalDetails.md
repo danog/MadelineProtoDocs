@@ -13,8 +13,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|sender\_id|[long](/API_docs/types/long.html) | Optional|
-|recipient\_id|[long](/API_docs/types/long.html) | Yes|
+|sender\_id|[Peer](/API_docs/types/Peer.html) | Optional|
+|recipient\_id|[Peer](/API_docs/types/Peer.html) | Yes|
 |date|[int](/API_docs/types/int.html) | Yes|
 |message|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Optional|
 
@@ -26,5 +26,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$starGiftAttributeOriginalDetails = ['_' => 'starGiftAttributeOriginalDetails', 'sender_id' => long, 'recipient_id' => long, 'date' => int, 'message' => TextWithEntities];
+$starGiftAttributeOriginalDetails = ['_' => 'starGiftAttributeOriginalDetails', 'sender_id' => Peer, 'recipient_id' => Peer, 'date' => int, 'message' => TextWithEntities];
 ```  

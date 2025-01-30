@@ -22,7 +22,7 @@ Get preview of webpage
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
 
 
-### Return type: [MessageMedia](/API_docs/types/MessageMedia.html)
+### Return type: [messages.WebPagePreview](/API_docs/types/messages.WebPagePreview.html)
 
 ### Can userbots use this method: **YES**
 
@@ -41,13 +41,13 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$MessageMedia = $MadelineProto->messages->getWebPagePreview(message: 'string', entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', );
+$messages_WebPagePreview = $MadelineProto->messages->getWebPagePreview(message: 'string', entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', );
 ```
 
 
 ## Return value 
 
-If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [MessageMedia](../types/MessageMedia.html) will be returned instead.
+If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [messages.WebPagePreview](../types/messages.WebPagePreview.html) will be returned instead.
 
 
 
