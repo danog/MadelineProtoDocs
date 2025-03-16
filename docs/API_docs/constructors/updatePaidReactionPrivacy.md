@@ -17,7 +17,7 @@ Clients should invoke [messages.getPaidReactionPrivacy](../methods/messages.getP
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|private|[Bool](/API_docs/types/Bool.html) | Yes|Whether paid reaction privacy is enabled or disabled.|
+|private|[PaidReactionPrivacy](/API_docs/types/PaidReactionPrivacy.html) | Yes|
 
 
 
@@ -27,5 +27,5 @@ Clients should invoke [messages.getPaidReactionPrivacy](../methods/messages.getP
 ### Example:
 
 ```
-$updatePaidReactionPrivacy = ['_' => 'updatePaidReactionPrivacy', 'private' => Bool];
+$updatePaidReactionPrivacy = ['_' => 'updatePaidReactionPrivacy', 'private' => PaidReactionPrivacy];
 ```  

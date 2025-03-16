@@ -19,7 +19,7 @@ Changes the privacy of already sent [paid reactions](https://core.telegram.org/a
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The channel | Optional|
 |msg\_id|[int](/API_docs/types/int.html) | The ID of the message to which we sent the paid reactions | Optional|
-|private|[Bool](/API_docs/types/Bool.html) | If true, makes the current anonymous in the top sender leaderboard for this message; otherwise, does the opposite. | Yes|
+|private|[PaidReactionPrivacy](/API_docs/types/PaidReactionPrivacy.html) |  | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
@@ -41,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->togglePaidReactionPrivacy(peer: $InputPeer, msg_id: $int, private: $Bool, );
+$Bool = $MadelineProto->messages->togglePaidReactionPrivacy(peer: $InputPeer, msg_id: $int, private: $PaidReactionPrivacy, );
 ```
 

@@ -35,5 +35,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$MadelineProto->invokeWithApnsSecret](/API_docs/methods/invokeWithApnsSecret.html)  
 
+[$MadelineProto->invokeWithReCaptcha](/API_docs/methods/invokeWithReCaptcha.html)  
+
 
 

@@ -31,6 +31,11 @@ List of actions that are possible when interacting with this user, to be shown a
 |request\_chat\_date|[int](/API_docs/types/int.html) | Optional|If set, this is a private chat with an administrator of a chat or channel to which the user sent a join request, and this field contains the timestamp when the [join request »](https://core.telegram.org/api/invites#join-requests) was sent.|
 |business\_bot\_id|[long](/API_docs/types/long.html) | Optional|Contains the ID of the [business bot »](https://core.telegram.org/api/business#connected-bots) managing this chat, used to display info about the bot in the action bar.|
 |business\_bot\_manage\_url|[string](/API_docs/types/string.html) | Optional|Contains a [deep link »](https://core.telegram.org/api/links), used to open a management menu in the business bot. This flag is set if and only if `business_bot_id` is set.|
+|charge\_paid\_message\_stars|[long](/API_docs/types/long.html) | Optional|
+|registration\_month|[string](/API_docs/types/string.html) | Optional|
+|phone\_country|[string](/API_docs/types/string.html) | Optional|
+|name\_change\_date|[int](/API_docs/types/int.html) | Optional|
+|photo\_change\_date|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -40,5 +45,5 @@ List of actions that are possible when interacting with this user, to be shown a
 ### Example:
 
 ```
-$peerSettings = ['_' => 'peerSettings', 'report_spam' => Bool, 'add_contact' => Bool, 'block_contact' => Bool, 'share_contact' => Bool, 'need_contacts_exception' => Bool, 'report_geo' => Bool, 'autoarchived' => Bool, 'invite_members' => Bool, 'request_chat_broadcast' => Bool, 'business_bot_paused' => Bool, 'business_bot_can_reply' => Bool, 'geo_distance' => int, 'request_chat_title' => 'string', 'request_chat_date' => int, 'business_bot_id' => long, 'business_bot_manage_url' => 'string'];
+$peerSettings = ['_' => 'peerSettings', 'report_spam' => Bool, 'add_contact' => Bool, 'block_contact' => Bool, 'share_contact' => Bool, 'need_contacts_exception' => Bool, 'report_geo' => Bool, 'autoarchived' => Bool, 'invite_members' => Bool, 'request_chat_broadcast' => Bool, 'business_bot_paused' => Bool, 'business_bot_can_reply' => Bool, 'geo_distance' => int, 'request_chat_title' => 'string', 'request_chat_date' => int, 'business_bot_id' => long, 'business_bot_manage_url' => 'string', 'charge_paid_message_stars' => long, 'registration_month' => 'string', 'phone_country' => 'string', 'name_change_date' => int, 'photo_change_date' => int];
 ```  

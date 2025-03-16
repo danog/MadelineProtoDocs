@@ -20,7 +20,7 @@ Sends one or more [paid Telegram Star reactions »](https://core.telegram.org/ap
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The channel | Optional|
 |msg\_id|[int](/API_docs/types/int.html) | The message to react to | Optional|
 |count|[int](/API_docs/types/int.html) | The number of [stars](https://core.telegram.org/api/stars) to send (each will increment the reaction counter by one). | Optional|
-|private|[Bool](/API_docs/types/Bool.html) | Each post with star reactions has a leaderboard with the top senders, but users can opt out of appearing there if they prefer more privacy.  <br>If the user explicitly chose to make their paid reaction(s) private, pass [boolTrue](../constructors/boolTrue.html) to [messages.sendPaidReaction](../methods/messages.sendPaidReaction.html).`private`.  <br>If the user explicitly chose to make their paid reaction(s) private, pass [boolFalse](../constructors/boolTrue.html) to [messages.sendPaidReaction](../methods/messages.sendPaidReaction.html).`private`.  <br>If the user did not make any explicit choice about the privacy of their paid reaction(s) (i.e. when reacting by clicking on an existing star reaction on a message), do not populate the [messages.sendPaidReaction](../methods/messages.sendPaidReaction.html).`private` flag. | Optional|
+|private|[PaidReactionPrivacy](/API_docs/types/PaidReactionPrivacy.html) |  | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -42,6 +42,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->sendPaidReaction(peer: $InputPeer, msg_id: $int, count: $int, private: $Bool, );
+$Updates = $MadelineProto->messages->sendPaidReaction(peer: $InputPeer, msg_id: $int, count: $int, private: $PaidReactionPrivacy, );
 ```
 

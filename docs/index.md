@@ -449,7 +449,6 @@ Some of MadelineProto's core components are also available as separate, standalo
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/phone.checkGroupCall.html" name="phone.checkGroupCall">Check whether the group call Server Forwarding Unit is currently receiving the streams with the specified WebRTC source IDs.: phone.checkGroupCall</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/bots.canSendMessage.html" name="bots.canSendMessage">Check whether the specified bot can send us messages: bots.canSendMessage</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/stories.canSendStory.html" name="stories.canSendStory">Check whether we can post stories as the specified peer: stories.canSendStory</a>
-    * <a href="https://docs.madelineproto.xyz/API_docs/methods/users.getIsPremiumRequiredToContact.html" name="users.getIsPremiumRequiredToContact">Check whether we can write to the specified user (this method can only be called by non-Premium users), see here » for more info on the full flow: users.getIsPremiumRequiredToContact</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.canPurchasePremium.html" name="payments.canPurchasePremium">Checks whether Telegram Premium purchase is possible. Must be called before in-store Premium purchase, official apps only: payments.canPurchasePremium</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.clearAllDrafts.html" name="messages.clearAllDrafts">Clear all drafts: messages.clearAllDrafts</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/account.deleteAutoSaveExceptions.html" name="account.deleteAutoSaveExceptions">Clear all peer-specific autosave settings: account.deleteAutoSaveExceptions</a>
@@ -1211,10 +1210,14 @@ Some of MadelineProto's core components are also available as separate, standalo
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#wrapPin" name="wrapPin">Wrap a Pin constructor into an abstract Pinned object: wrapPin</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#wrapMedia" name="wrapMedia">Wrap a media constructor into an abstract Media object: wrapMedia</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#wrapUpdate" name="wrapUpdate">Wrap an Update constructor into an abstract Update object: wrapUpdate</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/account.addNoPaidMessagesException.html" name="account.addNoPaidMessagesException">account.addNoPaidMessagesException</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/account.getCollectibleEmojiStatuses.html" name="account.getCollectibleEmojiStatuses">account.getCollectibleEmojiStatuses</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/account.getPaidMessagesRevenue.html" name="account.getPaidMessagesRevenue">account.getPaidMessagesRevenue</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#base64urlDecode" name="base64urlDecode">base64URL decode: base64urlDecode</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/bots.getBotRecommendations.html" name="bots.getBotRecommendations">bots.getBotRecommendations</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/bots.setCustomVerification.html" name="bots.setCustomVerification">bots.setCustomVerification</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/channels.updatePaidMessagesPrice.html" name="channels.updatePaidMessagesPrice">channels.updatePaidMessagesPrice</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/invokeWithReCaptcha.html" name="invokeWithReCaptcha">invokeWithReCaptcha</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.reportMessagesDelivery.html" name="messages.reportMessagesDelivery">messages.reportMessagesDelivery</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleDecode" name="rleDecode">null-byte RLE decode: rleDecode</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleEncode" name="rleEncode">null-byte RLE encode: rleEncode</a>
@@ -1224,9 +1227,11 @@ Some of MadelineProto's core components are also available as separate, standalo
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getStarGiftWithdrawalUrl.html" name="payments.getStarGiftWithdrawalUrl">payments.getStarGiftWithdrawalUrl</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getUniqueStarGift.html" name="payments.getUniqueStarGift">payments.getUniqueStarGift</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.toggleChatStarGiftNotifications.html" name="payments.toggleChatStarGiftNotifications">payments.toggleChatStarGiftNotifications</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.toggleStarGiftsPinnedToTop.html" name="payments.toggleStarGiftsPinnedToTop">payments.toggleStarGiftsPinnedToTop</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.transferStarGift.html" name="payments.transferStarGift">payments.transferStarGift</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.upgradeStarGift.html" name="payments.upgradeStarGift">payments.upgradeStarGift</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/phone.createConferenceCall.html" name="phone.createConferenceCall">phone.createConferenceCall</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/users.getRequirementsToContact.html" name="users.getRequirementsToContact">users.getRequirementsToContact</a>
 * [Contributing](https://docs.madelineproto.xyz/docs/CONTRIB.html) - You can contribute in various ways.
   * [Translation](https://docs.madelineproto.xyz/docs/CONTRIB.html#translation)
   * [Contribution guide](https://docs.madelineproto.xyz/docs/CONTRIB.html#contribution-guide)

@@ -196,8 +196,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="stories.canSendStory.html" name="stories.canSendStory">Check whether we can post stories as the specified peer: stories.canSendStory</a>
 
-* <a href="users.getIsPremiumRequiredToContact.html" name="users.getIsPremiumRequiredToContact">Check whether we can write to the specified user (this method can only be called by non-Premium users), see here » for more info on the full flow: users.getIsPremiumRequiredToContact</a>
-
 * <a href="payments.canPurchasePremium.html" name="payments.canPurchasePremium">Checks whether Telegram Premium purchase is possible. Must be called before in-store Premium purchase, official apps only: payments.canPurchasePremium</a>
 
 * <a href="messages.clearAllDrafts.html" name="messages.clearAllDrafts">Clear all drafts: messages.clearAllDrafts</a>
@@ -1792,13 +1790,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.updatePasswordSettings.html" name="account.updatePasswordSettings">You cannot use this method directly; use $MadelineProto->update2fa($params), instead (see https://docs.madelineproto.xyz for more info): account.updatePasswordSettings</a>
 
+* <a href="account.addNoPaidMessagesException.html" name="account.addNoPaidMessagesException">account.addNoPaidMessagesException</a>
+
 * <a href="account.getCollectibleEmojiStatuses.html" name="account.getCollectibleEmojiStatuses">account.getCollectibleEmojiStatuses</a>
+
+* <a href="account.getPaidMessagesRevenue.html" name="account.getPaidMessagesRevenue">account.getPaidMessagesRevenue</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#base64urlDecode" name="base64urlDecode">base64URL decode: base64urlDecode</a>
 
 * <a href="bots.getBotRecommendations.html" name="bots.getBotRecommendations">bots.getBotRecommendations</a>
 
 * <a href="bots.setCustomVerification.html" name="bots.setCustomVerification">bots.setCustomVerification</a>
+
+* <a href="channels.updatePaidMessagesPrice.html" name="channels.updatePaidMessagesPrice">channels.updatePaidMessagesPrice</a>
+
+* <a href="invokeWithReCaptcha.html" name="invokeWithReCaptcha">invokeWithReCaptcha</a>
 
 * <a href="messages.reportMessagesDelivery.html" name="messages.reportMessagesDelivery">messages.reportMessagesDelivery</a>
 
@@ -1818,10 +1824,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="payments.toggleChatStarGiftNotifications.html" name="payments.toggleChatStarGiftNotifications">payments.toggleChatStarGiftNotifications</a>
 
+* <a href="payments.toggleStarGiftsPinnedToTop.html" name="payments.toggleStarGiftsPinnedToTop">payments.toggleStarGiftsPinnedToTop</a>
+
 * <a href="payments.transferStarGift.html" name="payments.transferStarGift">payments.transferStarGift</a>
 
 * <a href="payments.upgradeStarGift.html" name="payments.upgradeStarGift">payments.upgradeStarGift</a>
 
 * <a href="phone.createConferenceCall.html" name="phone.createConferenceCall">phone.createConferenceCall</a>
+
+* <a href="users.getRequirementsToContact.html" name="users.getRequirementsToContact">users.getRequirementsToContact</a>
 
 

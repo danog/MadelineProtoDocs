@@ -451,6 +451,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [PageTableRow](/API_docs/types/PageTableRow.html)<a name="PageTableRow"></a>  
 
+[PaidReactionPrivacy](/API_docs/types/PaidReactionPrivacy.html)<a name="PaidReactionPrivacy"></a>  
+
 [PasswordKdfAlgo](/API_docs/types/PasswordKdfAlgo.html)<a name="PasswordKdfAlgo"></a>  
 
 [PaymentCharge](/API_docs/types/PaymentCharge.html)<a name="PaymentCharge"></a>  
@@ -503,8 +505,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [PremiumGiftCodeOption](/API_docs/types/PremiumGiftCodeOption.html)<a name="PremiumGiftCodeOption"></a>  
 
-[PremiumGiftOption](/API_docs/types/PremiumGiftOption.html)<a name="PremiumGiftOption"></a>  
-
 [PremiumSubscriptionOption](/API_docs/types/PremiumSubscriptionOption.html)<a name="PremiumSubscriptionOption"></a>  
 
 [PrepaidGiveaway](/API_docs/types/PrepaidGiveaway.html)<a name="PrepaidGiveaway"></a>  
@@ -540,6 +540,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [RequestPeerType](/API_docs/types/RequestPeerType.html)<a name="RequestPeerType"></a>  
 
 [RequestedPeer](/API_docs/types/RequestedPeer.html)<a name="RequestedPeer"></a>  
+
+[RequirementToContact](/API_docs/types/RequirementToContact.html)<a name="RequirementToContact"></a>  
 
 [RestrictionReason](/API_docs/types/RestrictionReason.html)<a name="RestrictionReason"></a>  
 
@@ -724,6 +726,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [account.EmailVerified](/API_docs/types/account.EmailVerified.html)<a name="account.EmailVerified"></a>  
 
 [account.EmojiStatuses](/API_docs/types/account.EmojiStatuses.html)<a name="account.EmojiStatuses"></a>  
+
+[account.PaidMessagesRevenue](/API_docs/types/account.PaidMessagesRevenue.html)<a name="account.PaidMessagesRevenue"></a>  
 
 [account.Password](/API_docs/types/account.Password.html)<a name="account.Password"></a>  
 

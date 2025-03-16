@@ -35,6 +35,7 @@ Send a media
 |send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Send this message as the specified peer | Optional|
 |quick\_reply\_shortcut|[InputQuickReplyShortcut](/API_docs/types/InputQuickReplyShortcut.html) | Add the message to the specified [quick reply shortcut »](https://core.telegram.org/api/business#quick-reply-shortcuts), instead. | Optional|
 |effect|[long](/API_docs/types/long.html) | Specifies a [message effect »](https://core.telegram.org/api/effects) to use for the message. | Optional|
+|allow\_paid\_stars|[long](/API_docs/types/long.html) |  | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -56,7 +57,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->sendMedia(silent: $Bool, background: $Bool, clear_draft: $Bool, noforwards: $Bool, update_stickersets_order: $Bool, invert_media: $Bool, allow_paid_floodskip: $Bool, peer: $InputPeer, reply_to: $InputReplyTo, media: $InputMedia, message: 'string', reply_markup: $ReplyMarkup, entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', schedule_date: $int, send_as: $InputPeer, quick_reply_shortcut: $InputQuickReplyShortcut, effect: $long, );
+$Updates = $MadelineProto->messages->sendMedia(silent: $Bool, background: $Bool, clear_draft: $Bool, noforwards: $Bool, update_stickersets_order: $Bool, invert_media: $Bool, allow_paid_floodskip: $Bool, peer: $InputPeer, reply_to: $InputReplyTo, media: $InputMedia, message: 'string', reply_markup: $ReplyMarkup, entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', schedule_date: $int, send_as: $InputPeer, quick_reply_shortcut: $InputQuickReplyShortcut, effect: $long, allow_paid_stars: $long, );
 ```
 
 

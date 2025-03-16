@@ -40,6 +40,8 @@ Represents a [Telegram Stars transaction »](https://core.telegram.org/api/stars
 |starref\_commission\_permille|[int](/API_docs/types/int.html) | Optional|This transaction is the receival (or refund) of an [affiliate commission](https://core.telegram.org/api/bots/referrals) (i.e. this is the transaction received by the peer that created the [referral link](https://core.telegram.org/api/links#referral-links), flag 17 is for transactions made by users that imported the referral link).|
 |starref\_peer|[Peer](/API_docs/types/Peer.html) | Optional|For transactions made by [referred users](https://core.telegram.org/api/bots/referrals), the peer that received the affiliate commission.|
 |starref\_amount|[StarsAmount](/API_docs/types/StarsAmount.html) | Optional|For transactions made by [referred users](https://core.telegram.org/api/bots/referrals), the amount of Telegram Stars received by the affiliate, can be negative for refunds.|
+|paid\_messages|[int](/API_docs/types/int.html) | Optional|
+|premium\_gift\_months|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -49,5 +51,5 @@ Represents a [Telegram Stars transaction »](https://core.telegram.org/api/stars
 ### Example:
 
 ```
-$starsTransaction = ['_' => 'starsTransaction', 'refund' => Bool, 'pending' => Bool, 'failed' => Bool, 'gift' => Bool, 'reaction' => Bool, 'stargift_upgrade' => Bool, 'id' => 'string', 'stars' => StarsAmount, 'date' => int, 'peer' => StarsTransactionPeer, 'title' => 'string', 'description' => 'string', 'photo' => WebDocument, 'transaction_date' => int, 'transaction_url' => 'string', 'bot_payload' => 'bytes', 'msg_id' => int, 'extended_media' => [MessageMedia, MessageMedia], 'subscription_period' => int, 'giveaway_post_id' => int, 'stargift' => StarGift, 'floodskip_number' => int, 'starref_commission_permille' => int, 'starref_peer' => Peer, 'starref_amount' => StarsAmount];
+$starsTransaction = ['_' => 'starsTransaction', 'refund' => Bool, 'pending' => Bool, 'failed' => Bool, 'gift' => Bool, 'reaction' => Bool, 'stargift_upgrade' => Bool, 'id' => 'string', 'stars' => StarsAmount, 'date' => int, 'peer' => StarsTransactionPeer, 'title' => 'string', 'description' => 'string', 'photo' => WebDocument, 'transaction_date' => int, 'transaction_url' => 'string', 'bot_payload' => 'bytes', 'msg_id' => int, 'extended_media' => [MessageMedia, MessageMedia], 'subscription_period' => int, 'giveaway_post_id' => int, 'stargift' => StarGift, 'floodskip_number' => int, 'starref_commission_permille' => int, 'starref_peer' => Peer, 'starref_amount' => StarsAmount, 'paid_messages' => int, 'premium_gift_months' => int];
 ```  

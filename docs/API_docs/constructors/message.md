@@ -56,6 +56,7 @@ A message
 |effect|[long](/API_docs/types/long.html) | Optional|
 |factcheck|[FactCheck](/API_docs/types/FactCheck.html) | Optional|
 |report\_delivery\_until\_date|[int](/API_docs/types/int.html) | Optional|
+|paid\_message\_stars|[long](/API_docs/types/long.html) | Optional|
 
 
 
@@ -125,5 +126,5 @@ pre-formatted fixed-width code block written in the PHP programming language
 ### Example:
 
 ```
-$message = ['_' => 'message', 'out' => Bool, 'mentioned' => Bool, 'media_unread' => Bool, 'silent' => Bool, 'post' => Bool, 'from_scheduled' => Bool, 'legacy' => Bool, 'edit_hide' => Bool, 'pinned' => Bool, 'noforwards' => Bool, 'invert_media' => Bool, 'offline' => Bool, 'video_processing_pending' => Bool, 'id' => int, 'from_id' => Peer, 'from_boosts_applied' => int, 'peer_id' => Peer, 'saved_peer_id' => Peer, 'fwd_from' => MessageFwdHeader, 'via_bot_id' => long, 'via_business_bot_id' => long, 'reply_to' => MessageReplyHeader, 'date' => int, 'message' => 'string', 'media' => MessageMedia, 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'views' => int, 'forwards' => int, 'replies' => MessageReplies, 'edit_date' => int, 'post_author' => 'string', 'grouped_id' => long, 'reactions' => MessageReactions, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'ttl_period' => int, 'quick_reply_shortcut_id' => int, 'effect' => long, 'factcheck' => FactCheck, 'report_delivery_until_date' => int];
+$message = ['_' => 'message', 'out' => Bool, 'mentioned' => Bool, 'media_unread' => Bool, 'silent' => Bool, 'post' => Bool, 'from_scheduled' => Bool, 'legacy' => Bool, 'edit_hide' => Bool, 'pinned' => Bool, 'noforwards' => Bool, 'invert_media' => Bool, 'offline' => Bool, 'video_processing_pending' => Bool, 'id' => int, 'from_id' => Peer, 'from_boosts_applied' => int, 'peer_id' => Peer, 'saved_peer_id' => Peer, 'fwd_from' => MessageFwdHeader, 'via_bot_id' => long, 'via_business_bot_id' => long, 'reply_to' => MessageReplyHeader, 'date' => int, 'message' => 'string', 'media' => MessageMedia, 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'views' => int, 'forwards' => int, 'replies' => MessageReplies, 'edit_date' => int, 'post_author' => 'string', 'grouped_id' => long, 'reactions' => MessageReactions, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'ttl_period' => int, 'quick_reply_shortcut_id' => int, 'effect' => long, 'factcheck' => FactCheck, 'report_delivery_until_date' => int, 'paid_message_stars' => long];
 ```  

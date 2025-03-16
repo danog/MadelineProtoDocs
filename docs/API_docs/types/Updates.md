@@ -194,6 +194,8 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->channels->restrictSponsoredMessages](/API_docs/methods/channels.restrictSponsoredMessages.html)  
 
+[$MadelineProto->channels->updatePaidMessagesPrice](/API_docs/methods/channels.updatePaidMessagesPrice.html)  
+
 [$MadelineProto->bots->allowSendMessage](/API_docs/methods/bots.allowSendMessage.html)  
 
 [$MadelineProto->payments->assignAppStoreTransaction](/API_docs/methods/payments.assignAppStoreTransaction.html)  
