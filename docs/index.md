@@ -71,7 +71,6 @@ The following open source projects were created using MadelineProto: you can dir
 * [`secret_bot.php`](https://github.com/danog/MadelineProto/blob/v8/examples/secret_bot.php) - Secret chat bot!
 * [`pipesbot.php`](https://github.com/danog/pipesbot) - Creating inline bots and using other inline bots via a userbot!
 * [`bot.php`](https://github.com/danog/MadelineProto/blob/v8/examples/bot.php) - Examples for how to use filters, updates, get download links for any file, Telegram Stories and much more!
-* [TelegramApiServer](https://github.com/xtrime-ru/TelegramApiServer) - Fast, simple, async php telegram api server: an HTTP JSON API for MadelineProto (for use in languages other than PHP, if using PHP use directly MadelineProto)
 
 Want to add your own open-source project to this list? [Click here!](https://docs.madelineproto.xyz/FOSS.html)
 
@@ -449,7 +448,6 @@ Some of MadelineProto's core components are also available as separate, standalo
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/phone.checkGroupCall.html" name="phone.checkGroupCall">Check whether the group call Server Forwarding Unit is currently receiving the streams with the specified WebRTC source IDs.: phone.checkGroupCall</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/bots.canSendMessage.html" name="bots.canSendMessage">Check whether the specified bot can send us messages: bots.canSendMessage</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/stories.canSendStory.html" name="stories.canSendStory">Check whether we can post stories as the specified peer: stories.canSendStory</a>
-    * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.canPurchasePremium.html" name="payments.canPurchasePremium">Checks whether Telegram Premium purchase is possible. Must be called before in-store Premium purchase, official apps only: payments.canPurchasePremium</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.clearAllDrafts.html" name="messages.clearAllDrafts">Clear all drafts: messages.clearAllDrafts</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/account.deleteAutoSaveExceptions.html" name="account.deleteAutoSaveExceptions">Clear all peer-specific autosave settings: account.deleteAutoSaveExceptions</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/bots.resetBotCommands.html" name="bots.resetBotCommands">Clear bot commands for the specified bot scope and language code: bots.resetBotCommands</a>
@@ -1217,10 +1215,12 @@ Some of MadelineProto's core components are also available as separate, standalo
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/bots.getBotRecommendations.html" name="bots.getBotRecommendations">bots.getBotRecommendations</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/bots.setCustomVerification.html" name="bots.setCustomVerification">bots.setCustomVerification</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/channels.updatePaidMessagesPrice.html" name="channels.updatePaidMessagesPrice">channels.updatePaidMessagesPrice</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/contacts.getSponsoredPeers.html" name="contacts.getSponsoredPeers">contacts.getSponsoredPeers</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/invokeWithReCaptcha.html" name="invokeWithReCaptcha">invokeWithReCaptcha</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.reportMessagesDelivery.html" name="messages.reportMessagesDelivery">messages.reportMessagesDelivery</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleDecode" name="rleDecode">null-byte RLE decode: rleDecode</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleEncode" name="rleEncode">null-byte RLE encode: rleEncode</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.canPurchaseStore.html" name="payments.canPurchaseStore">payments.canPurchaseStore</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getSavedStarGift.html" name="payments.getSavedStarGift">payments.getSavedStarGift</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getSavedStarGifts.html" name="payments.getSavedStarGifts">payments.getSavedStarGifts</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getStarGiftUpgradePreview.html" name="payments.getStarGiftUpgradePreview">payments.getStarGiftUpgradePreview</a>

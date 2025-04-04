@@ -77,6 +77,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [BusinessBotRecipients](/API_docs/types/BusinessBotRecipients.html)<a name="BusinessBotRecipients"></a>  
 
+[BusinessBotRights](/API_docs/types/BusinessBotRights.html)<a name="BusinessBotRights"></a>  
+
 [BusinessChatLink](/API_docs/types/BusinessChatLink.html)<a name="BusinessChatLink"></a>  
 
 [BusinessGreetingMessage](/API_docs/types/BusinessGreetingMessage.html)<a name="BusinessGreetingMessage"></a>  
@@ -168,6 +170,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [DialogFilterSuggested](/API_docs/types/DialogFilterSuggested.html)<a name="DialogFilterSuggested"></a>  
 
 [DialogPeer](/API_docs/types/DialogPeer.html)<a name="DialogPeer"></a>  
+
+[DisallowedGiftsSettings](/API_docs/types/DisallowedGiftsSettings.html)<a name="DisallowedGiftsSettings"></a>  
 
 [Document](/API_docs/types/Document.html)<a name="Document"></a>  
 
@@ -593,6 +597,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [SponsoredMessageReportOption](/API_docs/types/SponsoredMessageReportOption.html)<a name="SponsoredMessageReportOption"></a>  
 
+[SponsoredPeer](/API_docs/types/SponsoredPeer.html)<a name="SponsoredPeer"></a>  
+
 [StarGift](/API_docs/types/StarGift.html)<a name="StarGift"></a>  
 
 [StarGiftAttribute](/API_docs/types/StarGiftAttribute.html)<a name="StarGiftAttribute"></a>  
@@ -808,6 +814,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [contacts.ImportedContacts](/API_docs/types/contacts.ImportedContacts.html)<a name="contacts.ImportedContacts"></a>  
 
 [contacts.ResolvedPeer](/API_docs/types/contacts.ResolvedPeer.html)<a name="contacts.ResolvedPeer"></a>  
+
+[contacts.SponsoredPeers](/API_docs/types/contacts.SponsoredPeers.html)<a name="contacts.SponsoredPeers"></a>  
 
 [contacts.TopPeers](/API_docs/types/contacts.TopPeers.html)<a name="contacts.TopPeers"></a>  
 

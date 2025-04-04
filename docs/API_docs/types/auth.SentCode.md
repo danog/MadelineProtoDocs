@@ -16,6 +16,8 @@ redirect_from: /API_docs/types/auth_SentCode.html
 
 [auth.sentCodeSuccess](/API_docs/constructors/auth.sentCodeSuccess.html)  
 
+[auth.sentCodePaymentRequired](/API_docs/constructors/auth.sentCodePaymentRequired.html)  
+
 
 
 ### Methods that return an object of this type (methods):
