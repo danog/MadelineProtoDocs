@@ -437,7 +437,7 @@ $MadelineProto->[account->updateColor](/API_docs/methods/account.updateColor.htm
 
 ***
 <br><br>
-$MadelineProto->[account->updateConnectedBot](/API_docs/methods/account.updateConnectedBot.html)(\[can_reply: $[Bool](/API_docs/types/Bool.html), deleted: $[Bool](/API_docs/types/Bool.html), bot: $[InputUser](/API_docs/types/InputUser.html), recipients: $[InputBusinessBotRecipients](/API_docs/types/InputBusinessBotRecipients.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="account.updateConnectedBot"></a>  
+$MadelineProto->[account->updateConnectedBot](/API_docs/methods/account.updateConnectedBot.html)(\[deleted: $[Bool](/API_docs/types/Bool.html), rights: $[BusinessBotRights](/API_docs/types/BusinessBotRights.html), bot: $[InputUser](/API_docs/types/InputUser.html), recipients: $[InputBusinessBotRecipients](/API_docs/types/InputBusinessBotRecipients.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="account.updateConnectedBot"></a>  
 
 ***
 <br><br>
@@ -1057,6 +1057,10 @@ $MadelineProto->[contacts->getSaved](/API_docs/methods/contacts.getSaved.html)(\
 
 ***
 <br><br>
+$MadelineProto->[contacts->getSponsoredPeers](/API_docs/methods/contacts.getSponsoredPeers.html)(\[q: $[string](/API_docs/types/string.html), \]) === [$contacts.SponsoredPeers](/API_docs/types/contacts.SponsoredPeers.html)<a name="contacts.getSponsoredPeers"></a>  
+
+***
+<br><br>
 $MadelineProto->[contacts->getStatuses](/API_docs/methods/contacts.getStatuses.html)(\[\]) === [$Vector\_of\_ContactStatus](/API_docs/types/ContactStatus.html)<a name="contacts.getStatuses"></a>  
 
 ***
@@ -1317,7 +1321,7 @@ $MadelineProto->[messages->clearRecentStickers](/API_docs/methods/messages.clear
 
 ***
 <br><br>
-$MadelineProto->[messages->clickSponsoredMessage](/API_docs/methods/messages.clickSponsoredMessage.html)(\[media: $[Bool](/API_docs/types/Bool.html), fullscreen: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), random_id: $[bytes](/API_docs/types/bytes.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.clickSponsoredMessage"></a>  
+$MadelineProto->[messages->clickSponsoredMessage](/API_docs/methods/messages.clickSponsoredMessage.html)(\[media: $[Bool](/API_docs/types/Bool.html), fullscreen: $[Bool](/API_docs/types/Bool.html), random_id: $[bytes](/API_docs/types/bytes.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.clickSponsoredMessage"></a>  
 
 ***
 <br><br>
@@ -1893,7 +1897,7 @@ $MadelineProto->[messages->reportSpam](/API_docs/methods/messages.reportSpam.htm
 
 ***
 <br><br>
-$MadelineProto->[messages->reportSponsoredMessage](/API_docs/methods/messages.reportSponsoredMessage.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), random_id: $[bytes](/API_docs/types/bytes.html), option: $[bytes](/API_docs/types/bytes.html), \]) === [$channels.SponsoredMessageReportResult](/API_docs/types/channels.SponsoredMessageReportResult.html)<a name="messages.reportSponsoredMessage"></a>  
+$MadelineProto->[messages->reportSponsoredMessage](/API_docs/methods/messages.reportSponsoredMessage.html)(\[random_id: $[bytes](/API_docs/types/bytes.html), option: $[bytes](/API_docs/types/bytes.html), \]) === [$channels.SponsoredMessageReportResult](/API_docs/types/channels.SponsoredMessageReportResult.html)<a name="messages.reportSponsoredMessage"></a>  
 
 ***
 <br><br>
@@ -2173,7 +2177,7 @@ $MadelineProto->[messages->uploadMedia](/API_docs/methods/messages.uploadMedia.h
 
 ***
 <br><br>
-$MadelineProto->[messages->viewSponsoredMessage](/API_docs/methods/messages.viewSponsoredMessage.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), random_id: $[bytes](/API_docs/types/bytes.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.viewSponsoredMessage"></a>  
+$MadelineProto->[messages->viewSponsoredMessage](/API_docs/methods/messages.viewSponsoredMessage.html)(\[random_id: $[bytes](/API_docs/types/bytes.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.viewSponsoredMessage"></a>  
 
 ***
 <br><br>
@@ -2193,7 +2197,7 @@ $MadelineProto->[payments->botCancelStarsSubscription](/API_docs/methods/payment
 
 ***
 <br><br>
-$MadelineProto->[payments->canPurchasePremium](/API_docs/methods/payments.canPurchasePremium.html)(\[purpose: $[InputStorePaymentPurpose](/API_docs/types/InputStorePaymentPurpose.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.canPurchasePremium"></a>  
+$MadelineProto->[payments->canPurchaseStore](/API_docs/methods/payments.canPurchaseStore.html)(\[purpose: $[InputStorePaymentPurpose](/API_docs/types/InputStorePaymentPurpose.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.canPurchaseStore"></a>  
 
 ***
 <br><br>

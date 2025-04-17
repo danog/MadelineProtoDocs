@@ -17,7 +17,6 @@ Mark a specific [sponsored message »](https://core.telegram.org/api/sponsored-m
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The channel/bot where the ad is located | Optional|
 |random\_id|[bytes](/API_docs/types/bytes.html) | The ad's unique ID. | Yes|
 
 
@@ -40,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->viewSponsoredMessage(peer: $InputPeer, random_id: 'bytes', );
+$Bool = $MadelineProto->messages->viewSponsoredMessage(random_id: 'bytes', );
 ```
 
