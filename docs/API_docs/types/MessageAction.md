@@ -107,10 +107,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageActionStarGiftUnique](/API_docs/constructors/messageActionStarGiftUnique.html)  
 
-[messageActionPaidMessagesRefunded](/API_docs/constructors/messageActionPaidMessagesRefunded.html)  
-
-[messageActionPaidMessagesPrice](/API_docs/constructors/messageActionPaidMessagesPrice.html)  
-
 
 
 ### Methods that return an object of this type (methods):

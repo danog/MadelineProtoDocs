@@ -961,7 +961,6 @@ Here's a full list of all MTProto filters (click on each filter name to view the
 * [onUpdateStarsRevenueStatus &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateStarsRevenueStatus.html) - The [Telegram Star balance of a channel/bot we own has changed »](https://core.telegram.org/api/stars#revenue-statistics).
 * [onUpdateBotPurchasedPaidMedia &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBotPurchasedPaidMedia.html) - Bots only: a user has purchased a [paid media](https://core.telegram.org/api/paid-media).
 * [onUpdatePaidReactionPrivacy &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updatePaidReactionPrivacy.html) - Contains the current [default paid reaction privacy, see here »](https://core.telegram.org/api/reactions#paid-reactions) for more info.
-* [onUpdateSentPhoneCode &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateSentPhoneCode.html) - 
 
 
 <!-- cut_here_end mtprotofilters -->

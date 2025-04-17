@@ -17,6 +17,7 @@ Report a [sponsored message »](https://core.telegram.org/api/sponsored-messages
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The channel/bot where the ad is located | Optional|
 |random\_id|[bytes](/API_docs/types/bytes.html) | The ad's unique ID. | Yes|
 |option|[bytes](/API_docs/types/bytes.html) | Chosen report option, initially an empty string, see [here »](https://core.telegram.org/api/sponsored-messages#reporting-sponsored-messages) for more info on the full flow. | Yes|
 
@@ -40,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$channels_SponsoredMessageReportResult = $MadelineProto->messages->reportSponsoredMessage(random_id: 'bytes', option: 'bytes', );
+$channels_SponsoredMessageReportResult = $MadelineProto->messages->reportSponsoredMessage(peer: $InputPeer, random_id: 'bytes', option: 'bytes', );
 ```
 

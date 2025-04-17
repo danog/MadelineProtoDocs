@@ -33,7 +33,6 @@ When updating the [local peer database »](https://core.telegram.org/api/peers),
 |sponsored\_enabled|[Bool](/API_docs/types/Bool.html) | Optional|
 |can\_view\_revenue|[Bool](/API_docs/types/Bool.html) | Optional|
 |bot\_can\_manage\_emoji\_status|[Bool](/API_docs/types/Bool.html) | Optional|
-|display\_gifts\_button|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[long](/API_docs/types/long.html) | Yes|User ID|
 |about|[string](/API_docs/types/string.html) | Optional|Bio of the user|
 |settings|[PeerSettings](/API_docs/types/PeerSettings.html) | Yes|Peer settings|
@@ -64,7 +63,6 @@ When updating the [local peer database »](https://core.telegram.org/api/peers),
 |starref\_program|[StarRefProgram](/API_docs/types/StarRefProgram.html) | Optional|
 |bot\_verification|[BotVerification](/API_docs/types/BotVerification.html) | Optional|
 |send\_paid\_messages\_stars|[long](/API_docs/types/long.html) | Optional|
-|disallowed\_gifts|[DisallowedGiftsSettings](/API_docs/types/DisallowedGiftsSettings.html) | Optional|
 
 
 
@@ -74,5 +72,5 @@ When updating the [local peer database »](https://core.telegram.org/api/peers),
 ### Example:
 
 ```
-$userFull = ['_' => 'userFull', 'blocked' => Bool, 'phone_calls_available' => Bool, 'phone_calls_private' => Bool, 'can_pin_message' => Bool, 'has_scheduled' => Bool, 'video_calls_available' => Bool, 'voice_messages_forbidden' => Bool, 'translations_disabled' => Bool, 'stories_pinned_available' => Bool, 'blocked_my_stories_from' => Bool, 'wallpaper_overridden' => Bool, 'contact_require_premium' => Bool, 'read_dates_private' => Bool, 'sponsored_enabled' => Bool, 'can_view_revenue' => Bool, 'bot_can_manage_emoji_status' => Bool, 'display_gifts_button' => Bool, 'id' => long, 'about' => 'string', 'settings' => PeerSettings, 'personal_photo' => Photo, 'profile_photo' => Photo, 'fallback_photo' => Photo, 'notify_settings' => PeerNotifySettings, 'bot_info' => BotInfo, 'pinned_msg_id' => int, 'common_chats_count' => int, 'folder_id' => int, 'ttl_period' => int, 'theme_emoticon' => 'string', 'private_forward_name' => 'string', 'bot_group_admin_rights' => ChatAdminRights, 'bot_broadcast_admin_rights' => ChatAdminRights, 'wallpaper' => WallPaper, 'stories' => PeerStories, 'business_work_hours' => BusinessWorkHours, 'business_location' => BusinessLocation, 'business_greeting_message' => BusinessGreetingMessage, 'business_away_message' => BusinessAwayMessage, 'business_intro' => BusinessIntro, 'birthday' => Birthday, 'personal_channel_id' => long, 'personal_channel_message' => int, 'stargifts_count' => int, 'starref_program' => StarRefProgram, 'bot_verification' => BotVerification, 'send_paid_messages_stars' => long, 'disallowed_gifts' => DisallowedGiftsSettings];
+$userFull = ['_' => 'userFull', 'blocked' => Bool, 'phone_calls_available' => Bool, 'phone_calls_private' => Bool, 'can_pin_message' => Bool, 'has_scheduled' => Bool, 'video_calls_available' => Bool, 'voice_messages_forbidden' => Bool, 'translations_disabled' => Bool, 'stories_pinned_available' => Bool, 'blocked_my_stories_from' => Bool, 'wallpaper_overridden' => Bool, 'contact_require_premium' => Bool, 'read_dates_private' => Bool, 'sponsored_enabled' => Bool, 'can_view_revenue' => Bool, 'bot_can_manage_emoji_status' => Bool, 'id' => long, 'about' => 'string', 'settings' => PeerSettings, 'personal_photo' => Photo, 'profile_photo' => Photo, 'fallback_photo' => Photo, 'notify_settings' => PeerNotifySettings, 'bot_info' => BotInfo, 'pinned_msg_id' => int, 'common_chats_count' => int, 'folder_id' => int, 'ttl_period' => int, 'theme_emoticon' => 'string', 'private_forward_name' => 'string', 'bot_group_admin_rights' => ChatAdminRights, 'bot_broadcast_admin_rights' => ChatAdminRights, 'wallpaper' => WallPaper, 'stories' => PeerStories, 'business_work_hours' => BusinessWorkHours, 'business_location' => BusinessLocation, 'business_greeting_message' => BusinessGreetingMessage, 'business_away_message' => BusinessAwayMessage, 'business_intro' => BusinessIntro, 'birthday' => Birthday, 'personal_channel_id' => long, 'personal_channel_message' => int, 'stargifts_count' => int, 'starref_program' => StarRefProgram, 'bot_verification' => BotVerification, 'send_paid_messages_stars' => long];
 ```  

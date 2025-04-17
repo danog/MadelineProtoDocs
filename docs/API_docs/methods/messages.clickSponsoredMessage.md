@@ -19,6 +19,7 @@ Informs the server that the user has interacted with a sponsored message in [one
 |----------|---------------|-------------|----------|
 |media|[Bool](/API_docs/types/Bool.html) | The user clicked on the media | Optional|
 |fullscreen|[Bool](/API_docs/types/Bool.html) | The user expanded the video to full screen, and then clicked on it. | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The channel/bot where the ad is located | Optional|
 |random\_id|[bytes](/API_docs/types/bytes.html) | The ad's unique ID. | Yes|
 
 
@@ -41,6 +42,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->clickSponsoredMessage(media: $Bool, fullscreen: $Bool, random_id: 'bytes', );
+$Bool = $MadelineProto->messages->clickSponsoredMessage(media: $Bool, fullscreen: $Bool, peer: $InputPeer, random_id: 'bytes', );
 ```
 

@@ -1,24 +1,23 @@
 ---
-title: "messages.viewSponsoredMessage"
-description: "Mark a specific [sponsored message »](https://core.telegram.org/api/sponsored-messages) as read"
+title: "payments.canPurchasePremium"
+description: "Checks whether Telegram Premium purchase is possible. Must be called before in-store Premium purchase, official apps only."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
-redirect_from: /API_docs/methods/messages_viewSponsoredMessage.html
+redirect_from: /API_docs/methods/payments_canPurchasePremium.html
 ---
-# Method: messages.viewSponsoredMessage
+# Method: payments.canPurchasePremium
 [Back to methods index](index.html)
 
 
 
-Mark a specific [sponsored message »](https://core.telegram.org/api/sponsored-messages) as read
+Checks whether Telegram Premium purchase is possible. Must be called before in-store Premium purchase, official apps only.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The channel/bot where the ad is located | Optional|
-|random\_id|[bytes](/API_docs/types/bytes.html) | The ad's unique ID. | Yes|
+|purpose|[InputStorePaymentPurpose](/API_docs/types/InputStorePaymentPurpose.html) | Payment purpose | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
@@ -40,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->viewSponsoredMessage(peer: $InputPeer, random_id: 'bytes', );
+$Bool = $MadelineProto->payments->canPurchasePremium(purpose: $InputStorePaymentPurpose, );
 ```
 
