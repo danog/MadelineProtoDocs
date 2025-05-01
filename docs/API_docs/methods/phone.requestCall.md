@@ -19,7 +19,6 @@ You cannot use this method directly, see https://docs.madelineproto.xyz#calls fo
 |----------|---------------|-------------|----------|
 |video|[Bool](/API_docs/types/Bool.html) | Whether to start a video call | Optional|
 |user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Destination of the phone call | Optional|
-|conference\_call|[InputGroupCall](/API_docs/types/InputGroupCall.html) |  | Optional|
 |g\_a\_hash|[bytes](/API_docs/types/bytes.html) | [Parameter for E2E encryption key exchange »](https://core.telegram.org/api/end-to-end/voice-calls) | Yes|
 |protocol|[PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.html) | Phone call settings | Yes|
 
@@ -43,6 +42,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$phone_PhoneCall = $MadelineProto->phone->requestCall(video: $Bool, user_id: $InputUser, conference_call: $InputGroupCall, g_a_hash: 'bytes', protocol: $PhoneCallProtocol, );
+$phone_PhoneCall = $MadelineProto->phone->requestCall(video: $Bool, user_id: $InputUser, g_a_hash: 'bytes', protocol: $PhoneCallProtocol, );
 ```
 

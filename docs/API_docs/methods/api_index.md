@@ -2385,11 +2385,19 @@ $MadelineProto->[phone->confirmCall](/API_docs/methods/phone.confirmCall.html)(\
 
 ***
 <br><br>
-$MadelineProto->[phone->createConferenceCall](/API_docs/methods/phone.createConferenceCall.html)(\[peer: $[InputPhoneCall](/API_docs/types/InputPhoneCall.html), key_fingerprint: $[strlong](/API_docs/constructors/strlong.html), \]) === [$phone.PhoneCall](/API_docs/types/phone.PhoneCall.html)<a name="phone.createConferenceCall"></a>  
+$MadelineProto->[phone->createConferenceCall](/API_docs/methods/phone.createConferenceCall.html)(\[muted: $[Bool](/API_docs/types/Bool.html), video_stopped: $[Bool](/API_docs/types/Bool.html), join: $[Bool](/API_docs/types/Bool.html), public_key: $[int256](/API_docs/types/int256.html), block: $[bytes](/API_docs/types/bytes.html), params: $[DataJSON](/API_docs/types/DataJSON.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="phone.createConferenceCall"></a>  
 
 ***
 <br><br>
 $MadelineProto->[phone->createGroupCall](/API_docs/methods/phone.createGroupCall.html)(\[rtmp_stream: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), title: $[string](/API_docs/types/string.html), schedule_date: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="phone.createGroupCall"></a>  
+
+***
+<br><br>
+$MadelineProto->[phone->declineConferenceCallInvite](/API_docs/methods/phone.declineConferenceCallInvite.html)(\[msg_id: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="phone.declineConferenceCallInvite"></a>  
+
+***
+<br><br>
+$MadelineProto->[phone->deleteConferenceCallParticipants](/API_docs/methods/phone.deleteConferenceCallParticipants.html)(\[only_left: $[Bool](/API_docs/types/Bool.html), kick: $[Bool](/API_docs/types/Bool.html), call: $[InputGroupCall](/API_docs/types/InputGroupCall.html), ids: \[$[long](/API_docs/types/long.html)\], block: $[bytes](/API_docs/types/bytes.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="phone.deleteConferenceCallParticipants"></a>  
 
 ***
 <br><br>
@@ -2421,6 +2429,10 @@ $MadelineProto->[phone->getGroupCall](/API_docs/methods/phone.getGroupCall.html)
 
 ***
 <br><br>
+$MadelineProto->[phone->getGroupCallChainBlocks](/API_docs/methods/phone.getGroupCallChainBlocks.html)(\[call: $[InputGroupCall](/API_docs/types/InputGroupCall.html), sub_chain_id: $[int](/API_docs/types/int.html), offset: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="phone.getGroupCallChainBlocks"></a>  
+
+***
+<br><br>
 $MadelineProto->[phone->getGroupCallJoinAs](/API_docs/methods/phone.getGroupCallJoinAs.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$phone.JoinAsPeers](/API_docs/types/phone.JoinAsPeers.html)<a name="phone.getGroupCallJoinAs"></a>  
 
 ***
@@ -2437,11 +2449,15 @@ $MadelineProto->[phone->getGroupParticipants](/API_docs/methods/phone.getGroupPa
 
 ***
 <br><br>
+$MadelineProto->[phone->inviteConferenceCallParticipant](/API_docs/methods/phone.inviteConferenceCallParticipant.html)(\[video: $[Bool](/API_docs/types/Bool.html), call: $[InputGroupCall](/API_docs/types/InputGroupCall.html), user_id: $[InputUser](/API_docs/types/InputUser.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="phone.inviteConferenceCallParticipant"></a>  
+
+***
+<br><br>
 $MadelineProto->[phone->inviteToGroupCall](/API_docs/methods/phone.inviteToGroupCall.html)(\[call: $[InputGroupCall](/API_docs/types/InputGroupCall.html), users: \[$[InputUser](/API_docs/types/InputUser.html)\], \]) === [$Updates](/API_docs/types/Updates.html)<a name="phone.inviteToGroupCall"></a>  
 
 ***
 <br><br>
-$MadelineProto->[phone->joinGroupCall](/API_docs/methods/phone.joinGroupCall.html)(\[muted: $[Bool](/API_docs/types/Bool.html), video_stopped: $[Bool](/API_docs/types/Bool.html), call: $[InputGroupCall](/API_docs/types/InputGroupCall.html), join_as: $[InputPeer](/API_docs/types/InputPeer.html), invite_hash: $[string](/API_docs/types/string.html), key_fingerprint: $[strlong](/API_docs/constructors/strlong.html), params: $[DataJSON](/API_docs/types/DataJSON.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="phone.joinGroupCall"></a>  
+$MadelineProto->[phone->joinGroupCall](/API_docs/methods/phone.joinGroupCall.html)(\[muted: $[Bool](/API_docs/types/Bool.html), video_stopped: $[Bool](/API_docs/types/Bool.html), call: $[InputGroupCall](/API_docs/types/InputGroupCall.html), join_as: $[InputPeer](/API_docs/types/InputPeer.html), invite_hash: $[string](/API_docs/types/string.html), public_key: $[int256](/API_docs/types/int256.html), block: $[bytes](/API_docs/types/bytes.html), params: $[DataJSON](/API_docs/types/DataJSON.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="phone.joinGroupCall"></a>  
 
 ***
 <br><br>
@@ -2461,7 +2477,7 @@ $MadelineProto->[phone->receivedCall](/API_docs/methods/phone.receivedCall.html)
 
 ***
 <br><br>
-$MadelineProto->[phone->requestCall](/API_docs/methods/phone.requestCall.html)(\[video: $[Bool](/API_docs/types/Bool.html), user_id: $[InputUser](/API_docs/types/InputUser.html), conference_call: $[InputGroupCall](/API_docs/types/InputGroupCall.html), g_a_hash: $[bytes](/API_docs/types/bytes.html), protocol: $[PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.html), \]) === [$phone.PhoneCall](/API_docs/types/phone.PhoneCall.html)<a name="phone.requestCall"></a>  
+$MadelineProto->[phone->requestCall](/API_docs/methods/phone.requestCall.html)(\[video: $[Bool](/API_docs/types/Bool.html), user_id: $[InputUser](/API_docs/types/InputUser.html), g_a_hash: $[bytes](/API_docs/types/bytes.html), protocol: $[PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.html), \]) === [$phone.PhoneCall](/API_docs/types/phone.PhoneCall.html)<a name="phone.requestCall"></a>  
 
 ***
 <br><br>
@@ -2474,6 +2490,10 @@ $MadelineProto->[phone->saveCallLog](/API_docs/methods/phone.saveCallLog.html)(\
 ***
 <br><br>
 $MadelineProto->[phone->saveDefaultGroupCallJoinAs](/API_docs/methods/phone.saveDefaultGroupCallJoinAs.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), join_as: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="phone.saveDefaultGroupCallJoinAs"></a>  
+
+***
+<br><br>
+$MadelineProto->[phone->sendConferenceCallBroadcast](/API_docs/methods/phone.sendConferenceCallBroadcast.html)(\[call: $[InputGroupCall](/API_docs/types/InputGroupCall.html), block: $[bytes](/API_docs/types/bytes.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="phone.sendConferenceCallBroadcast"></a>  
 
 ***
 <br><br>

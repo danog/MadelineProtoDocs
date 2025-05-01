@@ -1231,6 +1231,11 @@ Some of MadelineProto's core components are also available as separate, standalo
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.transferStarGift.html" name="payments.transferStarGift">payments.transferStarGift</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.upgradeStarGift.html" name="payments.upgradeStarGift">payments.upgradeStarGift</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/phone.createConferenceCall.html" name="phone.createConferenceCall">phone.createConferenceCall</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/phone.declineConferenceCallInvite.html" name="phone.declineConferenceCallInvite">phone.declineConferenceCallInvite</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/phone.deleteConferenceCallParticipants.html" name="phone.deleteConferenceCallParticipants">phone.deleteConferenceCallParticipants</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/phone.getGroupCallChainBlocks.html" name="phone.getGroupCallChainBlocks">phone.getGroupCallChainBlocks</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/phone.inviteConferenceCallParticipant.html" name="phone.inviteConferenceCallParticipant">phone.inviteConferenceCallParticipant</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/phone.sendConferenceCallBroadcast.html" name="phone.sendConferenceCallBroadcast">phone.sendConferenceCallBroadcast</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/users.getRequirementsToContact.html" name="users.getRequirementsToContact">users.getRequirementsToContact</a>
 * [Contributing](https://docs.madelineproto.xyz/docs/CONTRIB.html) - You can contribute in various ways.
   * [Translation](https://docs.madelineproto.xyz/docs/CONTRIB.html#translation)

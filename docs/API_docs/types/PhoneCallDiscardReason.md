@@ -19,7 +19,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [phoneCallDiscardReasonBusy](/API_docs/constructors/phoneCallDiscardReasonBusy.html)  
 
-[phoneCallDiscardReasonAllowGroupCall](/API_docs/constructors/phoneCallDiscardReasonAllowGroupCall.html)  
+[phoneCallDiscardReasonMigrateConferenceCall](/API_docs/constructors/phoneCallDiscardReasonMigrateConferenceCall.html)  
 
 
 

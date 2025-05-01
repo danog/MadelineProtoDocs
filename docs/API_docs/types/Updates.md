@@ -242,6 +242,18 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->phone->leaveGroupCallPresentation](/API_docs/methods/phone.leaveGroupCallPresentation.html)  
 
+[$MadelineProto->phone->createConferenceCall](/API_docs/methods/phone.createConferenceCall.html)  
+
+[$MadelineProto->phone->deleteConferenceCallParticipants](/API_docs/methods/phone.deleteConferenceCallParticipants.html)  
+
+[$MadelineProto->phone->sendConferenceCallBroadcast](/API_docs/methods/phone.sendConferenceCallBroadcast.html)  
+
+[$MadelineProto->phone->inviteConferenceCallParticipant](/API_docs/methods/phone.inviteConferenceCallParticipant.html)  
+
+[$MadelineProto->phone->declineConferenceCallInvite](/API_docs/methods/phone.declineConferenceCallInvite.html)  
+
+[$MadelineProto->phone->getGroupCallChainBlocks](/API_docs/methods/phone.getGroupCallChainBlocks.html)  
+
 [$MadelineProto->folders->editPeerFolders](/API_docs/methods/folders.editPeerFolders.html)  
 
 [$MadelineProto->chatlists->joinChatlistInvite](/API_docs/methods/chatlists.joinChatlistInvite.html)  

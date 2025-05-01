@@ -249,8 +249,8 @@ Plugin event handler class.
 * [`updateSettings(\danog\MadelineProto\SettingsAbstract $settings): void`](#updateSettings)
 * [`upload((\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|string|array|resource) $file, string $fileName = '', callable $cb = NULL, boolean $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): array`](#upload)
 * [`uploadEncrypted((\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|resource) $file, string $fileName = '', callable $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): array`](#uploadEncrypted)
-* [`uploadFromCallable(callable(int, int, ?Cancellation): strin) $callable, integer $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable(float, float, float): voi) $cb = NULL, boolean $seekable = true, boolean $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): array`](#uploadFromCallable)
-* [`uploadFromStream(mixed $stream, integer $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable $cb = NULL, boolean $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): array`](#uploadFromStream)
+* [`uploadFromCallable(callable(int, int, ?Cancellation): strin) $callable, integer $size = 0, ?string $mime = NULL, string $fileName = '', callable(float, float, float): voi) $cb = NULL, boolean $seekable = true, boolean $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): array`](#uploadFromCallable)
+* [`uploadFromStream(mixed $stream, integer $size = 0, string $mime = NULL, string $fileName = '', callable $cb = NULL, boolean $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): array`](#uploadFromStream)
 * [`uploadFromTgfile(mixed $media, callable $cb = NULL, boolean $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): array`](#uploadFromTgfile)
 * [`uploadFromUrl((string|\danog\MadelineProto\FileCallbackInterface) $url, integer $size = 0, string $fileName = '', callable $cb = NULL, boolean $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): array`](#uploadFromUrl)
 * [`validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): list<\danog\MadelineProto\EventHandlerIssue>`](#validateEventHandlerClass)
@@ -3240,7 +3240,7 @@ Return value: InputFile constructor
 
 
 
-### <a name="uploadFromCallable"></a> `uploadFromCallable(callable(int, int, ?Cancellation): strin) $callable, integer $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable(float, float, float): voi) $cb = NULL, boolean $seekable = true, boolean $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): array`
+### <a name="uploadFromCallable"></a> `uploadFromCallable(callable(int, int, ?Cancellation): strin) $callable, integer $size = 0, ?string $mime = NULL, string $fileName = '', callable(float, float, float): voi) $cb = NULL, boolean $seekable = true, boolean $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): array`
 
 Upload file from callable.
   
@@ -3252,7 +3252,7 @@ Parameters:
 
 * `$callable`: `callable(int, int, ?Cancellation): strin)` Callable (offset, length) => data  
 * `$size`: `integer` File size  
-* `$mime`: `string` Mime type  
+* `$mime`: `?string` Mime type  
 * `$fileName`: `string` File name  
 * `$cb`: `callable(float, float, float): voi)` Status callback  
 * `$seekable`: `boolean` Whether chunks can be fetched out of order  
@@ -3268,7 +3268,7 @@ Return value: InputFile constructor
 
 
 
-### <a name="uploadFromStream"></a> `uploadFromStream(mixed $stream, integer $size = 0, string $mime = 'application/octet-stream', string $fileName = '', callable $cb = NULL, boolean $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): array`
+### <a name="uploadFromStream"></a> `uploadFromStream(mixed $stream, integer $size = 0, string $mime = NULL, string $fileName = '', callable $cb = NULL, boolean $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): array`
 
 Upload file from stream.
 

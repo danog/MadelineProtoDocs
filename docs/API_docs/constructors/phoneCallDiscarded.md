@@ -21,7 +21,6 @@ Indicates a discarded phone call
 |id|[long](/API_docs/types/long.html) | Yes|Call ID|
 |reason|[PhoneCallDiscardReason](/API_docs/types/PhoneCallDiscardReason.html) | Optional|Why was the phone call discarded|
 |duration|[int](/API_docs/types/int.html) | Optional|Duration of the phone call in seconds|
-|conference\_call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Optional|
 
 
 
@@ -31,5 +30,5 @@ Indicates a discarded phone call
 ### Example:
 
 ```
-$phoneCallDiscarded = ['_' => 'phoneCallDiscarded', 'need_rating' => Bool, 'need_debug' => Bool, 'video' => Bool, 'id' => long, 'reason' => PhoneCallDiscardReason, 'duration' => int, 'conference_call' => InputGroupCall];
+$phoneCallDiscarded = ['_' => 'phoneCallDiscarded', 'need_rating' => Bool, 'need_debug' => Bool, 'video' => Bool, 'id' => long, 'reason' => PhoneCallDiscardReason, 'duration' => int];
 ```  

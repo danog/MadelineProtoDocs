@@ -1103,7 +1103,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$globalPrivacySettings](/API_docs/constructors/globalPrivacySettings.html) = \['archive_and_mute_new_noncontact_peers' => [Bool](/API_docs/types/Bool.html), 'keep_archived_unmuted' => [Bool](/API_docs/types/Bool.html), 'keep_archived_folders' => [Bool](/API_docs/types/Bool.html), 'hide_read_marks' => [Bool](/API_docs/types/Bool.html), 'new_noncontact_peers_require_premium' => [Bool](/API_docs/types/Bool.html), 'display_gifts_button' => [Bool](/API_docs/types/Bool.html), 'noncontact_peers_paid_stars' => [long](/API_docs/types/long.html), 'disallowed_gifts' => [DisallowedGiftsSettings](/API_docs/types/DisallowedGiftsSettings.html), \];<a name="globalPrivacySettings"></a>  
 
 ***
-<br><br>[$groupCall](/API_docs/constructors/groupCall.html) = \['join_muted' => [Bool](/API_docs/types/Bool.html), 'can_change_join_muted' => [Bool](/API_docs/types/Bool.html), 'join_date_asc' => [Bool](/API_docs/types/Bool.html), 'schedule_start_subscribed' => [Bool](/API_docs/types/Bool.html), 'can_start_video' => [Bool](/API_docs/types/Bool.html), 'record_video_active' => [Bool](/API_docs/types/Bool.html), 'rtmp_stream' => [Bool](/API_docs/types/Bool.html), 'listeners_hidden' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'access_hash' => [long](/API_docs/types/long.html), 'participants_count' => [int](/API_docs/types/int.html), 'title' => [string](/API_docs/types/string.html), 'stream_dc_id' => [int](/API_docs/types/int.html), 'record_start_date' => [int](/API_docs/types/int.html), 'schedule_date' => [int](/API_docs/types/int.html), 'unmuted_video_count' => [int](/API_docs/types/int.html), 'unmuted_video_limit' => [int](/API_docs/types/int.html), 'version' => [int](/API_docs/types/int.html), 'conference_from_call' => [long](/API_docs/types/long.html), \];<a name="groupCall"></a>  
+<br><br>[$groupCall](/API_docs/constructors/groupCall.html) = \['join_muted' => [Bool](/API_docs/types/Bool.html), 'can_change_join_muted' => [Bool](/API_docs/types/Bool.html), 'join_date_asc' => [Bool](/API_docs/types/Bool.html), 'schedule_start_subscribed' => [Bool](/API_docs/types/Bool.html), 'can_start_video' => [Bool](/API_docs/types/Bool.html), 'record_video_active' => [Bool](/API_docs/types/Bool.html), 'rtmp_stream' => [Bool](/API_docs/types/Bool.html), 'listeners_hidden' => [Bool](/API_docs/types/Bool.html), 'conference' => [Bool](/API_docs/types/Bool.html), 'creator' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'access_hash' => [long](/API_docs/types/long.html), 'participants_count' => [int](/API_docs/types/int.html), 'title' => [string](/API_docs/types/string.html), 'stream_dc_id' => [int](/API_docs/types/int.html), 'record_start_date' => [int](/API_docs/types/int.html), 'schedule_date' => [int](/API_docs/types/int.html), 'unmuted_video_count' => [int](/API_docs/types/int.html), 'unmuted_video_limit' => [int](/API_docs/types/int.html), 'version' => [int](/API_docs/types/int.html), 'invite_link' => [string](/API_docs/types/string.html), \];<a name="groupCall"></a>  
 
 ***
 <br><br>[$groupCallDiscarded](/API_docs/constructors/groupCallDiscarded.html) = \['id' => [long](/API_docs/types/long.html), 'access_hash' => [long](/API_docs/types/long.html), 'duration' => [int](/API_docs/types/int.html), \];<a name="groupCallDiscarded"></a>  
@@ -1415,7 +1415,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$inputGroupCall](/API_docs/constructors/inputGroupCall.html) = \['id' => [long](/API_docs/types/long.html), 'access_hash' => [long](/API_docs/types/long.html), \];<a name="inputGroupCall"></a>  
 
 ***
+<br><br>[$inputGroupCallInviteMessage](/API_docs/constructors/inputGroupCallInviteMessage.html) = \['msg_id' => [int](/API_docs/types/int.html), \];<a name="inputGroupCallInviteMessage"></a>  
+
+***
+<br><br>[$inputGroupCallSlug](/API_docs/constructors/inputGroupCallSlug.html) = \['slug' => [string](/API_docs/types/string.html), \];<a name="inputGroupCallSlug"></a>  
+
+***
 <br><br>[$inputGroupCallStream](/API_docs/constructors/inputGroupCallStream.html) = \['call' => [InputGroupCall](/API_docs/types/InputGroupCall.html), 'time_ms' => [long](/API_docs/types/long.html), 'scale' => [int](/API_docs/types/int.html), 'video_channel' => [int](/API_docs/types/int.html), 'video_quality' => [int](/API_docs/types/int.html), \];<a name="inputGroupCallStream"></a>  
+
+***
+<br><br>[$inputInvoiceBusinessBotTransferStars](/API_docs/constructors/inputInvoiceBusinessBotTransferStars.html) = \['bot' => [InputUser](/API_docs/types/InputUser.html), 'stars' => [long](/API_docs/types/long.html), \];<a name="inputInvoiceBusinessBotTransferStars"></a>  
 
 ***
 <br><br>[$inputInvoiceChatInviteSubscription](/API_docs/constructors/inputInvoiceChatInviteSubscription.html) = \['hash' => [string](/API_docs/types/string.html), \];<a name="inputInvoiceChatInviteSubscription"></a>  
@@ -2064,6 +2073,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$messageActionChatMigrateTo](/API_docs/constructors/messageActionChatMigrateTo.html) = \['channel_id' => [long](/API_docs/types/long.html), \];<a name="messageActionChatMigrateTo"></a>  
+
+***
+<br><br>[$messageActionConferenceCall](/API_docs/constructors/messageActionConferenceCall.html) = \['missed' => [Bool](/API_docs/types/Bool.html), 'active' => [Bool](/API_docs/types/Bool.html), 'video' => [Bool](/API_docs/types/Bool.html), 'call_id' => [long](/API_docs/types/long.html), 'duration' => [int](/API_docs/types/int.html), 'other_participants' => \[[Peer](/API_docs/types/Peer.html)\], \];<a name="messageActionConferenceCall"></a>  
 
 ***
 <br><br>[$messageActionContactSignUp](/API_docs/constructors/messageActionContactSignUp.html) = \[\];<a name="messageActionContactSignUp"></a>  
@@ -2915,13 +2927,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$phone.phoneCall](/API_docs/constructors/phone.phoneCall.html) = \['phone_call' => [PhoneCall](/API_docs/types/PhoneCall.html), 'users' => \[[User](/API_docs/types/User.html)\], \];<a name="phone.phoneCall"></a>  
 
 ***
-<br><br>[$phoneCall](/API_docs/constructors/phoneCall.html) = \['p2p_allowed' => [Bool](/API_docs/types/Bool.html), 'video' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'access_hash' => [long](/API_docs/types/long.html), 'date' => [int](/API_docs/types/int.html), 'admin_id' => [long](/API_docs/types/long.html), 'participant_id' => [long](/API_docs/types/long.html), 'g_a_or_b' => [bytes](/API_docs/types/bytes.html), 'key_fingerprint' => [long](/API_docs/types/long.html), 'protocol' => [PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.html), 'connections' => \[[PhoneConnection](/API_docs/types/PhoneConnection.html)\], 'start_date' => [int](/API_docs/types/int.html), 'custom_parameters' => [DataJSON](/API_docs/types/DataJSON.html), 'conference_call' => [InputGroupCall](/API_docs/types/InputGroupCall.html), \];<a name="phoneCall"></a>  
+<br><br>[$phoneCall](/API_docs/constructors/phoneCall.html) = \['p2p_allowed' => [Bool](/API_docs/types/Bool.html), 'video' => [Bool](/API_docs/types/Bool.html), 'conference_supported' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'access_hash' => [long](/API_docs/types/long.html), 'date' => [int](/API_docs/types/int.html), 'admin_id' => [long](/API_docs/types/long.html), 'participant_id' => [long](/API_docs/types/long.html), 'g_a_or_b' => [bytes](/API_docs/types/bytes.html), 'key_fingerprint' => [long](/API_docs/types/long.html), 'protocol' => [PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.html), 'connections' => \[[PhoneConnection](/API_docs/types/PhoneConnection.html)\], 'start_date' => [int](/API_docs/types/int.html), 'custom_parameters' => [DataJSON](/API_docs/types/DataJSON.html), \];<a name="phoneCall"></a>  
 
 ***
-<br><br>[$phoneCallAccepted](/API_docs/constructors/phoneCallAccepted.html) = \['video' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'access_hash' => [long](/API_docs/types/long.html), 'date' => [int](/API_docs/types/int.html), 'admin_id' => [long](/API_docs/types/long.html), 'participant_id' => [long](/API_docs/types/long.html), 'g_b' => [bytes](/API_docs/types/bytes.html), 'protocol' => [PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.html), 'conference_call' => [InputGroupCall](/API_docs/types/InputGroupCall.html), \];<a name="phoneCallAccepted"></a>  
-
-***
-<br><br>[$phoneCallDiscardReasonAllowGroupCall](/API_docs/constructors/phoneCallDiscardReasonAllowGroupCall.html) = \['encrypted_key' => [bytes](/API_docs/types/bytes.html), \];<a name="phoneCallDiscardReasonAllowGroupCall"></a>  
+<br><br>[$phoneCallAccepted](/API_docs/constructors/phoneCallAccepted.html) = \['video' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'access_hash' => [long](/API_docs/types/long.html), 'date' => [int](/API_docs/types/int.html), 'admin_id' => [long](/API_docs/types/long.html), 'participant_id' => [long](/API_docs/types/long.html), 'g_b' => [bytes](/API_docs/types/bytes.html), 'protocol' => [PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.html), \];<a name="phoneCallAccepted"></a>  
 
 ***
 <br><br>[$phoneCallDiscardReasonBusy](/API_docs/constructors/phoneCallDiscardReasonBusy.html) = \[\];<a name="phoneCallDiscardReasonBusy"></a>  
@@ -2933,10 +2942,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$phoneCallDiscardReasonHangup](/API_docs/constructors/phoneCallDiscardReasonHangup.html) = \[\];<a name="phoneCallDiscardReasonHangup"></a>  
 
 ***
+<br><br>[$phoneCallDiscardReasonMigrateConferenceCall](/API_docs/constructors/phoneCallDiscardReasonMigrateConferenceCall.html) = \['slug' => [string](/API_docs/types/string.html), \];<a name="phoneCallDiscardReasonMigrateConferenceCall"></a>  
+
+***
 <br><br>[$phoneCallDiscardReasonMissed](/API_docs/constructors/phoneCallDiscardReasonMissed.html) = \[\];<a name="phoneCallDiscardReasonMissed"></a>  
 
 ***
-<br><br>[$phoneCallDiscarded](/API_docs/constructors/phoneCallDiscarded.html) = \['need_rating' => [Bool](/API_docs/types/Bool.html), 'need_debug' => [Bool](/API_docs/types/Bool.html), 'video' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'reason' => [PhoneCallDiscardReason](/API_docs/types/PhoneCallDiscardReason.html), 'duration' => [int](/API_docs/types/int.html), 'conference_call' => [InputGroupCall](/API_docs/types/InputGroupCall.html), \];<a name="phoneCallDiscarded"></a>  
+<br><br>[$phoneCallDiscarded](/API_docs/constructors/phoneCallDiscarded.html) = \['need_rating' => [Bool](/API_docs/types/Bool.html), 'need_debug' => [Bool](/API_docs/types/Bool.html), 'video' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'reason' => [PhoneCallDiscardReason](/API_docs/types/PhoneCallDiscardReason.html), 'duration' => [int](/API_docs/types/int.html), \];<a name="phoneCallDiscarded"></a>  
 
 ***
 <br><br>[$phoneCallEmpty](/API_docs/constructors/phoneCallEmpty.html) = \['id' => [long](/API_docs/types/long.html), \];<a name="phoneCallEmpty"></a>  
@@ -2945,10 +2957,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$phoneCallProtocol](/API_docs/constructors/phoneCallProtocol.html) = \['udp_p2p' => [Bool](/API_docs/types/Bool.html), 'udp_reflector' => [Bool](/API_docs/types/Bool.html), 'min_layer' => [int](/API_docs/types/int.html), 'max_layer' => [int](/API_docs/types/int.html), 'library_versions' => \[[string](/API_docs/types/string.html)\], \];<a name="phoneCallProtocol"></a>  
 
 ***
-<br><br>[$phoneCallRequested](/API_docs/constructors/phoneCallRequested.html) = \['video' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'access_hash' => [long](/API_docs/types/long.html), 'date' => [int](/API_docs/types/int.html), 'admin_id' => [long](/API_docs/types/long.html), 'participant_id' => [long](/API_docs/types/long.html), 'g_a_hash' => [bytes](/API_docs/types/bytes.html), 'protocol' => [PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.html), 'conference_call' => [InputGroupCall](/API_docs/types/InputGroupCall.html), \];<a name="phoneCallRequested"></a>  
+<br><br>[$phoneCallRequested](/API_docs/constructors/phoneCallRequested.html) = \['video' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'access_hash' => [long](/API_docs/types/long.html), 'date' => [int](/API_docs/types/int.html), 'admin_id' => [long](/API_docs/types/long.html), 'participant_id' => [long](/API_docs/types/long.html), 'g_a_hash' => [bytes](/API_docs/types/bytes.html), 'protocol' => [PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.html), \];<a name="phoneCallRequested"></a>  
 
 ***
-<br><br>[$phoneCallWaiting](/API_docs/constructors/phoneCallWaiting.html) = \['video' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'access_hash' => [long](/API_docs/types/long.html), 'date' => [int](/API_docs/types/int.html), 'admin_id' => [long](/API_docs/types/long.html), 'participant_id' => [long](/API_docs/types/long.html), 'protocol' => [PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.html), 'receive_date' => [int](/API_docs/types/int.html), 'conference_call' => [InputGroupCall](/API_docs/types/InputGroupCall.html), \];<a name="phoneCallWaiting"></a>  
+<br><br>[$phoneCallWaiting](/API_docs/constructors/phoneCallWaiting.html) = \['video' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'access_hash' => [long](/API_docs/types/long.html), 'date' => [int](/API_docs/types/int.html), 'admin_id' => [long](/API_docs/types/long.html), 'participant_id' => [long](/API_docs/types/long.html), 'protocol' => [PhoneCallProtocol](/API_docs/types/PhoneCallProtocol.html), 'receive_date' => [int](/API_docs/types/int.html), \];<a name="phoneCallWaiting"></a>  
 
 ***
 <br><br>[$phoneConnection](/API_docs/constructors/phoneConnection.html) = \['tcp' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'ip' => [string](/API_docs/types/string.html), 'ipv6' => [string](/API_docs/types/string.html), 'port' => [int](/API_docs/types/int.html), 'peer_tag' => [string](/API_docs/types/string.html), \];<a name="phoneConnection"></a>  
@@ -3464,7 +3476,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$starsTopupOption](/API_docs/constructors/starsTopupOption.html) = \['extended' => [Bool](/API_docs/types/Bool.html), 'stars' => [long](/API_docs/types/long.html), 'store_product' => [string](/API_docs/types/string.html), 'currency' => [string](/API_docs/types/string.html), 'amount' => [long](/API_docs/types/long.html), \];<a name="starsTopupOption"></a>  
 
 ***
-<br><br>[$starsTransaction](/API_docs/constructors/starsTransaction.html) = \['refund' => [Bool](/API_docs/types/Bool.html), 'pending' => [Bool](/API_docs/types/Bool.html), 'failed' => [Bool](/API_docs/types/Bool.html), 'gift' => [Bool](/API_docs/types/Bool.html), 'reaction' => [Bool](/API_docs/types/Bool.html), 'stargift_upgrade' => [Bool](/API_docs/types/Bool.html), 'id' => [string](/API_docs/types/string.html), 'stars' => [StarsAmount](/API_docs/types/StarsAmount.html), 'date' => [int](/API_docs/types/int.html), 'peer' => [StarsTransactionPeer](/API_docs/types/StarsTransactionPeer.html), 'title' => [string](/API_docs/types/string.html), 'description' => [string](/API_docs/types/string.html), 'photo' => [WebDocument](/API_docs/types/WebDocument.html), 'transaction_date' => [int](/API_docs/types/int.html), 'transaction_url' => [string](/API_docs/types/string.html), 'bot_payload' => [bytes](/API_docs/types/bytes.html), 'msg_id' => [int](/API_docs/types/int.html), 'extended_media' => \[[MessageMedia](/API_docs/types/MessageMedia.html)\], 'subscription_period' => [int](/API_docs/types/int.html), 'giveaway_post_id' => [int](/API_docs/types/int.html), 'stargift' => [StarGift](/API_docs/types/StarGift.html), 'floodskip_number' => [int](/API_docs/types/int.html), 'starref_commission_permille' => [int](/API_docs/types/int.html), 'starref_peer' => [Peer](/API_docs/types/Peer.html), 'starref_amount' => [StarsAmount](/API_docs/types/StarsAmount.html), 'paid_messages' => [int](/API_docs/types/int.html), 'premium_gift_months' => [int](/API_docs/types/int.html), \];<a name="starsTransaction"></a>  
+<br><br>[$starsTransaction](/API_docs/constructors/starsTransaction.html) = \['refund' => [Bool](/API_docs/types/Bool.html), 'pending' => [Bool](/API_docs/types/Bool.html), 'failed' => [Bool](/API_docs/types/Bool.html), 'gift' => [Bool](/API_docs/types/Bool.html), 'reaction' => [Bool](/API_docs/types/Bool.html), 'stargift_upgrade' => [Bool](/API_docs/types/Bool.html), 'business_transfer' => [Bool](/API_docs/types/Bool.html), 'id' => [string](/API_docs/types/string.html), 'stars' => [StarsAmount](/API_docs/types/StarsAmount.html), 'date' => [int](/API_docs/types/int.html), 'peer' => [StarsTransactionPeer](/API_docs/types/StarsTransactionPeer.html), 'title' => [string](/API_docs/types/string.html), 'description' => [string](/API_docs/types/string.html), 'photo' => [WebDocument](/API_docs/types/WebDocument.html), 'transaction_date' => [int](/API_docs/types/int.html), 'transaction_url' => [string](/API_docs/types/string.html), 'bot_payload' => [bytes](/API_docs/types/bytes.html), 'msg_id' => [int](/API_docs/types/int.html), 'extended_media' => \[[MessageMedia](/API_docs/types/MessageMedia.html)\], 'subscription_period' => [int](/API_docs/types/int.html), 'giveaway_post_id' => [int](/API_docs/types/int.html), 'stargift' => [StarGift](/API_docs/types/StarGift.html), 'floodskip_number' => [int](/API_docs/types/int.html), 'starref_commission_permille' => [int](/API_docs/types/int.html), 'starref_peer' => [Peer](/API_docs/types/Peer.html), 'starref_amount' => [StarsAmount](/API_docs/types/StarsAmount.html), 'paid_messages' => [int](/API_docs/types/int.html), 'premium_gift_months' => [int](/API_docs/types/int.html), \];<a name="starsTransaction"></a>  
 
 ***
 <br><br>[$starsTransactionPeer](/API_docs/constructors/starsTransactionPeer.html) = \['peer' => [long](/API_docs/types/long.html), \];<a name="starsTransactionPeer"></a>  
@@ -3951,6 +3963,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$updateGroupCall](/API_docs/constructors/updateGroupCall.html) = \['chat_id' => [long](/API_docs/types/long.html), 'call' => [GroupCall](/API_docs/types/GroupCall.html), \];<a name="updateGroupCall"></a>  
+
+***
+<br><br>[$updateGroupCallChainBlocks](/API_docs/constructors/updateGroupCallChainBlocks.html) = \['call' => [InputGroupCall](/API_docs/types/InputGroupCall.html), 'sub_chain_id' => [int](/API_docs/types/int.html), 'blocks' => \[[bytes](/API_docs/types/bytes.html)\], 'next_offset' => [int](/API_docs/types/int.html), \];<a name="updateGroupCallChainBlocks"></a>  
 
 ***
 <br><br>[$updateGroupCallConnection](/API_docs/constructors/updateGroupCallConnection.html) = \['presentation' => [Bool](/API_docs/types/Bool.html), 'params' => [DataJSON](/API_docs/types/DataJSON.html), \];<a name="updateGroupCallConnection"></a>  

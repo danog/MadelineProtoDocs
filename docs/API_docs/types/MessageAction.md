@@ -111,6 +111,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageActionPaidMessagesPrice](/API_docs/constructors/messageActionPaidMessagesPrice.html)  
 
+[messageActionConferenceCall](/API_docs/constructors/messageActionConferenceCall.html)  
+
 
 
 ### Methods that return an object of this type (methods):

@@ -17,6 +17,7 @@ Phone call
 |----------|---------------|----------|-------------|
 |p2p\_allowed|[Bool](/API_docs/types/Bool.html) | Optional|Whether P2P connection to the other peer is allowed|
 |video|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a video call|
+|conference\_supported|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[long](/API_docs/types/long.html) | Yes|Call ID|
 |access\_hash|[long](/API_docs/types/long.html) | Yes|Access hash|
 |date|[int](/API_docs/types/int.html) | Yes|Date of creation of the call|
@@ -28,7 +29,6 @@ Phone call
 |connections|Array of [PhoneConnection](/API_docs/types/PhoneConnection.html) | Yes|List of endpoints the user can connect to exchange call data|
 |start\_date|[int](/API_docs/types/int.html) | Yes|When was the call actually started|
 |custom\_parameters|[DataJSON](/API_docs/types/DataJSON.html) | Optional|Custom JSON-encoded call parameters to be passed to tgcalls.|
-|conference\_call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Optional|
 
 
 
@@ -38,5 +38,5 @@ Phone call
 ### Example:
 
 ```
-$phoneCall = ['_' => 'phoneCall', 'p2p_allowed' => Bool, 'video' => Bool, 'id' => long, 'access_hash' => long, 'date' => int, 'admin_id' => long, 'participant_id' => long, 'g_a_or_b' => 'bytes', 'key_fingerprint' => long, 'protocol' => PhoneCallProtocol, 'connections' => [PhoneConnection, PhoneConnection], 'start_date' => int, 'custom_parameters' => DataJSON, 'conference_call' => InputGroupCall];
+$phoneCall = ['_' => 'phoneCall', 'p2p_allowed' => Bool, 'video' => Bool, 'conference_supported' => Bool, 'id' => long, 'access_hash' => long, 'date' => int, 'admin_id' => long, 'participant_id' => long, 'g_a_or_b' => 'bytes', 'key_fingerprint' => long, 'protocol' => PhoneCallProtocol, 'connections' => [PhoneConnection, PhoneConnection], 'start_date' => int, 'custom_parameters' => DataJSON];
 ```  

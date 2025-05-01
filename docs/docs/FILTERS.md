@@ -630,6 +630,7 @@ abstract class AbstractFilterFromSenders extends Filter
     {
         $this->peers = array_unique($idOrUsername);
     }
+    #[\Override]
     public function initialize(EventHandler $API): Filter
     {
         if (\count($this->peers) === 1) {
@@ -643,6 +644,7 @@ abstract class AbstractFilterFromSenders extends Filter
         $this->peersResolved = $res;
         return $this;
     }
+    #[\Override]
     public function apply(Update $update): bool
     {
         return $update instanceof AbstractMessage && \in_array($update->senderId, $this->peersResolved, true) ||
@@ -732,6 +734,7 @@ final class FilterNot extends Filter
     public function __construct(private readonly Filter $filter)
     {
     }
+    #[\Override]
     public function initialize(EventHandler $API): Filter
     {
         $filter = $this->filter->initialize($API);
@@ -747,6 +750,7 @@ final class FilterNot extends Filter
         return new self($filter);
     }
 
+    #[\Override]
     public function apply(Update $update): bool
     {
         return !$this->filter->apply($update);
@@ -962,6 +966,7 @@ Here's a full list of all MTProto filters (click on each filter name to view the
 * [onUpdateBotPurchasedPaidMedia &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBotPurchasedPaidMedia.html) - Bots only: a user has purchased a [paid media](https://core.telegram.org/api/paid-media).
 * [onUpdatePaidReactionPrivacy &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updatePaidReactionPrivacy.html) - Contains the current [default paid reaction privacy, see here »](https://core.telegram.org/api/reactions#paid-reactions) for more info.
 * [onUpdateSentPhoneCode &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateSentPhoneCode.html) - 
+* [onUpdateGroupCallChainBlocks &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateGroupCallChainBlocks.html) - 
 
 
 <!-- cut_here_end mtprotofilters -->

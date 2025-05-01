@@ -29,6 +29,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [inputInvoicePremiumGiftStars](/API_docs/constructors/inputInvoicePremiumGiftStars.html)  
 
+[inputInvoiceBusinessBotTransferStars](/API_docs/constructors/inputInvoiceBusinessBotTransferStars.html)  
+
 
 
 ### Methods that return an object of this type (methods):

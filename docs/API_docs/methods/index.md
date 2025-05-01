@@ -1834,6 +1834,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="phone.createConferenceCall.html" name="phone.createConferenceCall">phone.createConferenceCall</a>
 
+* <a href="phone.declineConferenceCallInvite.html" name="phone.declineConferenceCallInvite">phone.declineConferenceCallInvite</a>
+
+* <a href="phone.deleteConferenceCallParticipants.html" name="phone.deleteConferenceCallParticipants">phone.deleteConferenceCallParticipants</a>
+
+* <a href="phone.getGroupCallChainBlocks.html" name="phone.getGroupCallChainBlocks">phone.getGroupCallChainBlocks</a>
+
+* <a href="phone.inviteConferenceCallParticipant.html" name="phone.inviteConferenceCallParticipant">phone.inviteConferenceCallParticipant</a>
+
+* <a href="phone.sendConferenceCallBroadcast.html" name="phone.sendConferenceCallBroadcast">phone.sendConferenceCallBroadcast</a>
+
 * <a href="users.getRequirementsToContact.html" name="users.getRequirementsToContact">users.getRequirementsToContact</a>
 
 

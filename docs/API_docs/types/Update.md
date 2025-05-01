@@ -295,6 +295,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateSentPhoneCode](/API_docs/constructors/updateSentPhoneCode.html)  
 
+[updateGroupCallChainBlocks](/API_docs/constructors/updateGroupCallChainBlocks.html)  
+
 
 
 ### Methods that return an object of this type (methods):

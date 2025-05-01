@@ -1,12 +1,12 @@
 ---
-title: "phone.createConferenceCall"
-description: "phone.createConferenceCall parameters, return type and example"
+title: "phone.getGroupCallChainBlocks"
+description: "phone.getGroupCallChainBlocks parameters, return type and example"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
-redirect_from: /API_docs/methods/phone_createConferenceCall.html
+redirect_from: /API_docs/methods/phone_getGroupCallChainBlocks.html
 ---
-# Method: phone.createConferenceCall
+# Method: phone.getGroupCallChainBlocks
 [Back to methods index](index.html)
 
 
@@ -15,12 +15,10 @@ redirect_from: /API_docs/methods/phone_createConferenceCall.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|muted|[Bool](/API_docs/types/Bool.html) | Optional|
-|video\_stopped|[Bool](/API_docs/types/Bool.html) | Optional|
-|join|[Bool](/API_docs/types/Bool.html) | Optional|
-|public\_key|[int256](/API_docs/types/int256.html) | Optional|
-|block|[bytes](/API_docs/types/bytes.html) | Optional|
-|params|[DataJSON](/API_docs/types/DataJSON.html) | Optional|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
+|sub\_chain\_id|[int](/API_docs/types/int.html) | Optional|
+|offset|[int](/API_docs/types/int.html) | Optional|
+|limit|[int](/API_docs/types/int.html) | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -42,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->phone->createConferenceCall(muted: $Bool, video_stopped: $Bool, join: $Bool, public_key: $int256, block: 'bytes', params: $DataJSON, );
+$Updates = $MadelineProto->phone->getGroupCallChainBlocks(call: $InputGroupCall, sub_chain_id: $int, offset: $int, limit: $int, );
 ```
 
