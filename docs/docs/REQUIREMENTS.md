@@ -59,3 +59,34 @@ cd PrimeModule-ext && make -j$(nproc) && sudo make install
 The `max_map_count` sysctl configuration is required to avoid "Fiber stack allocate failed" and "Fiber stack protect failed" errors, since the PHP engine mmaps two memory regions per fiber, and the `soft/hard nofile` limits increase the maximum open FD limit, to allow opening many TCP sockets for improved upload and download performance, and to avoid errors.  
 
 <a href="https://docs.madelineproto.xyz/docs/DOCKER.html">Next section</a>
+
+from telethon.sync import TelegramClient
+from telethon.tl.types import InputPeerChat
+
+# 替换为您的信息
+api_id = '您的api_id'
+api_hash = '您的api_hash'
+phone = '+您的电话号码'
+
+# 连接客户端
+client = TelegramClient('session_name', api_id, api_hash)
+client.connect()
+
+if not client.is_user_authorized():
+    client.send_code_request(phone)
+    client.sign_in(phone, input('输入验证码: '))
+
+# 发送文字消息到群组
+def send_text(group_id, message):
+    entity = InputPeerChat(group_id)
+    client.send_message(entity, message)
+
+# 发送图片到群组
+def send_image(group_id, image_path, caption=""):
+    entity = InputPeerChat(group_id)
+    client.send_file(entity, image_path, caption=caption)
+
+# 使用示例
+# send_text(群组ID, "这是群发文字消息")
+# send_image(群组ID, "图片路径.jpg", "这是图片说明")
+
