@@ -22,6 +22,7 @@ Represents a [Telegram Stars transaction »](https://core.telegram.org/api/stars
 |reaction|[Bool](/API_docs/types/Bool.html) | Optional|This transaction is a [paid reaction »](https://core.telegram.org/api/reactions#paid-reactions).|
 |stargift\_upgrade|[Bool](/API_docs/types/Bool.html) | Optional|
 |business\_transfer|[Bool](/API_docs/types/Bool.html) | Optional|
+|stargift\_resale|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[string](/API_docs/types/string.html) | Yes|Transaction ID.|
 |stars|[StarsAmount](/API_docs/types/StarsAmount.html) | Yes|Amount of Stars (negative for outgoing transactions).|
 |date|[int](/API_docs/types/int.html) | Yes|Date of the transaction (unixtime).|
@@ -52,5 +53,5 @@ Represents a [Telegram Stars transaction »](https://core.telegram.org/api/stars
 ### Example:
 
 ```
-$starsTransaction = ['_' => 'starsTransaction', 'refund' => Bool, 'pending' => Bool, 'failed' => Bool, 'gift' => Bool, 'reaction' => Bool, 'stargift_upgrade' => Bool, 'business_transfer' => Bool, 'id' => 'string', 'stars' => StarsAmount, 'date' => int, 'peer' => StarsTransactionPeer, 'title' => 'string', 'description' => 'string', 'photo' => WebDocument, 'transaction_date' => int, 'transaction_url' => 'string', 'bot_payload' => 'bytes', 'msg_id' => int, 'extended_media' => [MessageMedia, MessageMedia], 'subscription_period' => int, 'giveaway_post_id' => int, 'stargift' => StarGift, 'floodskip_number' => int, 'starref_commission_permille' => int, 'starref_peer' => Peer, 'starref_amount' => StarsAmount, 'paid_messages' => int, 'premium_gift_months' => int];
+$starsTransaction = ['_' => 'starsTransaction', 'refund' => Bool, 'pending' => Bool, 'failed' => Bool, 'gift' => Bool, 'reaction' => Bool, 'stargift_upgrade' => Bool, 'business_transfer' => Bool, 'stargift_resale' => Bool, 'id' => 'string', 'stars' => StarsAmount, 'date' => int, 'peer' => StarsTransactionPeer, 'title' => 'string', 'description' => 'string', 'photo' => WebDocument, 'transaction_date' => int, 'transaction_url' => 'string', 'bot_payload' => 'bytes', 'msg_id' => int, 'extended_media' => [MessageMedia, MessageMedia], 'subscription_period' => int, 'giveaway_post_id' => int, 'stargift' => StarGift, 'floodskip_number' => int, 'starref_commission_permille' => int, 'starref_peer' => Peer, 'starref_amount' => StarsAmount, 'paid_messages' => int, 'premium_gift_months' => int];
 ```  

@@ -1800,6 +1800,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="bots.setCustomVerification.html" name="bots.setCustomVerification">bots.setCustomVerification</a>
 
+* <a href="channels.toggleAutotranslation.html" name="channels.toggleAutotranslation">channels.toggleAutotranslation</a>
+
 * <a href="channels.updatePaidMessagesPrice.html" name="channels.updatePaidMessagesPrice">channels.updatePaidMessagesPrice</a>
 
 * <a href="contacts.getSponsoredPeers.html" name="contacts.getSponsoredPeers">contacts.getSponsoredPeers</a>
@@ -1813,6 +1815,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleEncode" name="rleEncode">null-byte RLE encode: rleEncode</a>
 
 * <a href="payments.canPurchaseStore.html" name="payments.canPurchaseStore">payments.canPurchaseStore</a>
+
+* <a href="payments.getResaleStarGifts.html" name="payments.getResaleStarGifts">payments.getResaleStarGifts</a>
 
 * <a href="payments.getSavedStarGift.html" name="payments.getSavedStarGift">payments.getSavedStarGift</a>
 
@@ -1829,6 +1833,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="payments.toggleStarGiftsPinnedToTop.html" name="payments.toggleStarGiftsPinnedToTop">payments.toggleStarGiftsPinnedToTop</a>
 
 * <a href="payments.transferStarGift.html" name="payments.transferStarGift">payments.transferStarGift</a>
+
+* <a href="payments.updateStarGiftPrice.html" name="payments.updateStarGiftPrice">payments.updateStarGiftPrice</a>
 
 * <a href="payments.upgradeStarGift.html" name="payments.upgradeStarGift">payments.upgradeStarGift</a>
 

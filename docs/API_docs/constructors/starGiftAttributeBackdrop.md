@@ -14,6 +14,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |name|[string](/API_docs/types/string.html) | Yes|
+|backdrop\_id|[int](/API_docs/types/int.html) | Yes|
 |center\_color|[int](/API_docs/types/int.html) | Yes|
 |edge\_color|[int](/API_docs/types/int.html) | Yes|
 |pattern\_color|[int](/API_docs/types/int.html) | Yes|
@@ -28,5 +29,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$starGiftAttributeBackdrop = ['_' => 'starGiftAttributeBackdrop', 'name' => 'string', 'center_color' => int, 'edge_color' => int, 'pattern_color' => int, 'text_color' => int, 'rarity_permille' => int];
+$starGiftAttributeBackdrop = ['_' => 'starGiftAttributeBackdrop', 'name' => 'string', 'backdrop_id' => int, 'center_color' => int, 'edge_color' => int, 'pattern_color' => int, 'text_color' => int, 'rarity_permille' => int];
 ```  

@@ -481,6 +481,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [PeerStories](/API_docs/types/PeerStories.html)<a name="PeerStories"></a>  
 
+[PendingSuggestion](/API_docs/types/PendingSuggestion.html)<a name="PendingSuggestion"></a>  
+
 [PhoneCall](/API_docs/types/PhoneCall.html)<a name="PhoneCall"></a>  
 
 [PhoneCallDiscardReason](/API_docs/types/PhoneCallDiscardReason.html)<a name="PhoneCallDiscardReason"></a>  
@@ -602,6 +604,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [StarGift](/API_docs/types/StarGift.html)<a name="StarGift"></a>  
 
 [StarGiftAttribute](/API_docs/types/StarGiftAttribute.html)<a name="StarGiftAttribute"></a>  
+
+[StarGiftAttributeCounter](/API_docs/types/StarGiftAttributeCounter.html)<a name="StarGiftAttributeCounter"></a>  
+
+[StarGiftAttributeId](/API_docs/types/StarGiftAttributeId.html)<a name="StarGiftAttributeId"></a>  
 
 [StarRefProgram](/API_docs/types/StarRefProgram.html)<a name="StarRefProgram"></a>  
 
@@ -1001,6 +1007,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [payments.PaymentResult](/API_docs/types/payments.PaymentResult.html)<a name="payments.PaymentResult"></a>  
 
+[payments.ResaleStarGifts](/API_docs/types/payments.ResaleStarGifts.html)<a name="payments.ResaleStarGifts"></a>  
+
 [payments.SavedInfo](/API_docs/types/payments.SavedInfo.html)<a name="payments.SavedInfo"></a>  
 
 [payments.SavedStarGifts](/API_docs/types/payments.SavedStarGifts.html)<a name="payments.SavedStarGifts"></a>  
@@ -1074,6 +1082,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [storage.FileType](/API_docs/types/storage.FileType.html)<a name="storage.FileType"></a>  
 
 [stories.AllStories](/API_docs/types/stories.AllStories.html)<a name="stories.AllStories"></a>  
+
+[stories.CanSendStoryCount](/API_docs/types/stories.CanSendStoryCount.html)<a name="stories.CanSendStoryCount"></a>  
 
 [stories.FoundStories](/API_docs/types/stories.FoundStories.html)<a name="stories.FoundStories"></a>  
 

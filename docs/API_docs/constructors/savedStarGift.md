@@ -28,6 +28,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |upgrade\_stars|[long](/API_docs/types/long.html) | Optional|
 |can\_export\_at|[int](/API_docs/types/int.html) | Optional|
 |transfer\_stars|[long](/API_docs/types/long.html) | Optional|
+|can\_transfer\_at|[int](/API_docs/types/int.html) | Optional|
+|can\_resell\_at|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -37,5 +39,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$savedStarGift = ['_' => 'savedStarGift', 'name_hidden' => Bool, 'unsaved' => Bool, 'refunded' => Bool, 'can_upgrade' => Bool, 'pinned_to_top' => Bool, 'from_id' => Peer, 'date' => int, 'gift' => StarGift, 'message' => TextWithEntities, 'msg_id' => int, 'saved_id' => long, 'convert_stars' => long, 'upgrade_stars' => long, 'can_export_at' => int, 'transfer_stars' => long];
+$savedStarGift = ['_' => 'savedStarGift', 'name_hidden' => Bool, 'unsaved' => Bool, 'refunded' => Bool, 'can_upgrade' => Bool, 'pinned_to_top' => Bool, 'from_id' => Peer, 'date' => int, 'gift' => StarGift, 'message' => TextWithEntities, 'msg_id' => int, 'saved_id' => long, 'convert_stars' => long, 'upgrade_stars' => long, 'can_export_at' => int, 'transfer_stars' => long, 'can_transfer_at' => int, 'can_resell_at' => int];
 ```  

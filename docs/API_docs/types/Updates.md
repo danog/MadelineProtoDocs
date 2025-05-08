@@ -196,6 +196,8 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->channels->updatePaidMessagesPrice](/API_docs/methods/channels.updatePaidMessagesPrice.html)  
 
+[$MadelineProto->channels->toggleAutotranslation](/API_docs/methods/channels.toggleAutotranslation.html)  
+
 [$MadelineProto->bots->allowSendMessage](/API_docs/methods/bots.allowSendMessage.html)  
 
 [$MadelineProto->payments->assignAppStoreTransaction](/API_docs/methods/payments.assignAppStoreTransaction.html)  
@@ -211,6 +213,8 @@ $message = $MadelineProto->extractMessageId($Updates);
 [$MadelineProto->payments->upgradeStarGift](/API_docs/methods/payments.upgradeStarGift.html)  
 
 [$MadelineProto->payments->transferStarGift](/API_docs/methods/payments.transferStarGift.html)  
+
+[$MadelineProto->payments->updateStarGiftPrice](/API_docs/methods/payments.updateStarGiftPrice.html)  
 
 [$MadelineProto->phone->discardCall](/API_docs/methods/phone.discardCall.html)  
 

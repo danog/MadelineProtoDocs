@@ -18,11 +18,14 @@ MTProxy/Public Service Announcement information
 |----------|---------------|----------|-------------|
 |proxy|[Bool](/API_docs/types/Bool.html) | Optional|MTProxy-related channel|
 |expires|[int](/API_docs/types/int.html) | Yes|Expiry of PSA/MTProxy info|
-|peer|[long](/API_docs/types/long.html) | Yes|MTProxy/PSA peer|
-|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Chat info|
-|users|Array of [User](/API_docs/types/User.html) | Yes|User info|
+|peer|[long](/API_docs/types/long.html) | Optional|MTProxy/PSA peer|
 |psa\_type|[string](/API_docs/types/string.html) | Optional|PSA type|
 |psa\_message|[string](/API_docs/types/string.html) | Optional|PSA message|
+|pending\_suggestions|Array of [string](/API_docs/types/string.html) | Yes|
+|dismissed\_suggestions|Array of [string](/API_docs/types/string.html) | Yes|
+|custom\_pending\_suggestion|[PendingSuggestion](/API_docs/types/PendingSuggestion.html) | Optional|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Chat info|
+|users|Array of [User](/API_docs/types/User.html) | Yes|User info|
 
 
 
@@ -32,5 +35,5 @@ MTProxy/Public Service Announcement information
 ### Example:
 
 ```
-$help_promoData = ['_' => 'help.promoData', 'proxy' => Bool, 'expires' => int, 'peer' => long, 'chats' => [Chat, Chat], 'users' => [User, User], 'psa_type' => 'string', 'psa_message' => 'string'];
+$help_promoData = ['_' => 'help.promoData', 'proxy' => Bool, 'expires' => int, 'peer' => long, 'psa_type' => 'string', 'psa_message' => 'string', 'pending_suggestions' => ['string', 'string'], 'dismissed_suggestions' => ['string', 'string'], 'custom_pending_suggestion' => PendingSuggestion, 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

@@ -20,7 +20,7 @@ Check whether we can post stories as the specified peer.
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer from which we wish to post stories. | Optional|
 
 
-### Return type: [Bool](/API_docs/types/Bool.html)
+### Return type: [stories.CanSendStoryCount](/API_docs/types/stories.CanSendStoryCount.html)
 
 ### Can userbots use this method: **YES**
 
@@ -39,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->stories->canSendStory(peer: $InputPeer, );
+$stories_CanSendStoryCount = $MadelineProto->stories->canSendStory(peer: $InputPeer, );
 ```
 

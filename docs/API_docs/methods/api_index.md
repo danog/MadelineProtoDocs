@@ -901,6 +901,10 @@ $MadelineProto->[channels->toggleAntiSpam](/API_docs/methods/channels.toggleAnti
 
 ***
 <br><br>
+$MadelineProto->[channels->toggleAutotranslation](/API_docs/methods/channels.toggleAutotranslation.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), enabled: $[Bool](/API_docs/types/Bool.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.toggleAutotranslation"></a>  
+
+***
+<br><br>
 $MadelineProto->[channels->toggleForum](/API_docs/methods/channels.toggleForum.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), enabled: $[Bool](/API_docs/types/Bool.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.toggleForum"></a>  
 
 ***
@@ -2261,6 +2265,10 @@ $MadelineProto->[payments->getPremiumGiftCodeOptions](/API_docs/methods/payments
 
 ***
 <br><br>
+$MadelineProto->[payments->getResaleStarGifts](/API_docs/methods/payments.getResaleStarGifts.html)(\[sort_by_price: $[Bool](/API_docs/types/Bool.html), sort_by_num: $[Bool](/API_docs/types/Bool.html), attributes_hash: $[long](/API_docs/types/long.html), gift_id: $[long](/API_docs/types/long.html), attributes: \[$[StarGiftAttributeId](/API_docs/types/StarGiftAttributeId.html)\], offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$payments.ResaleStarGifts](/API_docs/types/payments.ResaleStarGifts.html)<a name="payments.getResaleStarGifts"></a>  
+
+***
+<br><br>
 $MadelineProto->[payments->getSavedInfo](/API_docs/methods/payments.getSavedInfo.html)(\[\]) === [$payments.SavedInfo](/API_docs/types/payments.SavedInfo.html)<a name="payments.getSavedInfo"></a>  
 
 ***
@@ -2362,6 +2370,10 @@ $MadelineProto->[payments->toggleStarGiftsPinnedToTop](/API_docs/methods/payment
 ***
 <br><br>
 $MadelineProto->[payments->transferStarGift](/API_docs/methods/payments.transferStarGift.html)(\[stargift: $[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html), to_id: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.transferStarGift"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->updateStarGiftPrice](/API_docs/methods/payments.updateStarGiftPrice.html)(\[stargift: $[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html), resell_stars: $[long](/API_docs/types/long.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.updateStarGiftPrice"></a>  
 
 ***
 <br><br>
@@ -2677,7 +2689,7 @@ $MadelineProto->[stories->activateStealthMode](/API_docs/methods/stories.activat
 
 ***
 <br><br>
-$MadelineProto->[stories->canSendStory](/API_docs/methods/stories.canSendStory.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="stories.canSendStory"></a>  
+$MadelineProto->[stories->canSendStory](/API_docs/methods/stories.canSendStory.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$stories.CanSendStoryCount](/API_docs/types/stories.CanSendStoryCount.html)<a name="stories.canSendStory"></a>  
 
 ***
 <br><br>

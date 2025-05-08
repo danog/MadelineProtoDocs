@@ -15,6 +15,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [inputSavedStarGiftChat](/API_docs/constructors/inputSavedStarGiftChat.html)  
 
+[inputSavedStarGiftSlug](/API_docs/constructors/inputSavedStarGiftSlug.html)  
+
 
 
 ### Methods that return an object of this type (methods):
