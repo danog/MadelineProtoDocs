@@ -21,10 +21,6 @@ Clickable button.
 ## Method list:
 * [`click(boolean $donotwait = true)`](#click)
 * [`jsonSerialize(): array`](#jsonSerialize)
-* [`offsetSet(mixed $name, mixed $value): void`](#offsetSet)
-* [`offsetGet(mixed $name): mixed`](#offsetGet)
-* [`offsetUnset(mixed $name): void`](#offsetUnset)
-* [`offsetExists(mixed $name): bool`](#offsetExists)
 
 ## Methods:
 ### <a name="click"></a> `click(boolean $donotwait = true)`
@@ -41,51 +37,6 @@ Parameters:
 ### <a name="jsonSerialize"></a> `jsonSerialize(): array`
 
 Serialize button.
-
-
-
-### <a name="offsetSet"></a> `offsetSet(mixed $name, mixed $value): void`
-
-Set button info.
-
-
-Parameters:
-
-* `$name`: `mixed` Offset  
-* `$value`: `mixed` Value  
-
-
-
-### <a name="offsetGet"></a> `offsetGet(mixed $name): mixed`
-
-Get button info.
-
-
-Parameters:
-
-* `$name`: `mixed` Field name  
-
-
-
-### <a name="offsetUnset"></a> `offsetUnset(mixed $name): void`
-
-Unset button info.
-
-
-Parameters:
-
-* `$name`: `mixed` Offset  
-
-
-
-### <a name="offsetExists"></a> `offsetExists(mixed $name): bool`
-
-Check if button field exists.
-
-
-Parameters:
-
-* `$name`: `mixed` Offset  
 
 
 
