@@ -25,12 +25,16 @@ Represents the type of a bot API dialog ID.
 
 * `danog\DialogId\DialogId::SECRET_CHAT`: Dialog type: secret chat.
 
+* `danog\DialogId\DialogId::MINIFORUM`: Dialog type: miniforum.
+
 ## Properties
 * `$name`: `string` 
 
 ## Method list:
 * [`getType(integer $id): self`](#getType)
 * [`isSupergroupOrChannel(int $id): bool`](#isSupergroupOrChannel)
+* [`isSupergroupOrChannelOrMiniforum(int $id): bool`](#isSupergroupOrChannelOrMiniforum)
+* [`isMiniforum(int $id): bool`](#isMiniforum)
 * [`isChat(int $id): bool`](#isChat)
 * [`isUser(int $id): bool`](#isUser)
 * [`isSecretChat(int $id): bool`](#isSecretChat)
@@ -40,6 +44,8 @@ Represents the type of a bot API dialog ID.
 * [`toSupergroupOrChannelId(int $id): int`](#toSupergroupOrChannelId)
 * [`fromChatId(int $id): int`](#fromChatId)
 * [`toChatId(int $id): int`](#toChatId)
+* [`fromMiniforumId(int $id): int`](#fromMiniforumId)
+* [`toMiniforumId(int $id): int`](#toMiniforumId)
 * [`fromUserId(int $id): int`](#fromUserId)
 * [`toUserId(int $id): int`](#toUserId)
 * [`toMTProtoId(int $id): int`](#toMTProtoId)
@@ -60,6 +66,28 @@ Parameters:
 ### <a name="isSupergroupOrChannel"></a> `isSupergroupOrChannel(int $id): bool`
 
 Checks whether the provided bot API ID is a supergroup or channel ID.
+
+
+Parameters:
+
+* `$id`: `int`   
+
+
+
+### <a name="isSupergroupOrChannelOrMiniforum"></a> `isSupergroupOrChannelOrMiniforum(int $id): bool`
+
+Checks whether the provided bot API ID is a supergroup, channel or miniforum.
+
+
+Parameters:
+
+* `$id`: `int`   
+
+
+
+### <a name="isMiniforum"></a> `isMiniforum(int $id): bool`
+
+Checks whether the provided bot API ID is a miniforum.
 
 
 Parameters:
@@ -168,6 +196,28 @@ Convert bot API chat ID to MTProto chat ID.
 Parameters:
 
 * `$id`: `int` Bot API chat ID  
+
+
+
+### <a name="fromMiniforumId"></a> `fromMiniforumId(int $id): int`
+
+Convert MTProto miniforum ID to bot API miniforum ID.
+
+
+Parameters:
+
+* `$id`: `int` MTProto miniforum ID  
+
+
+
+### <a name="toMiniforumId"></a> `toMiniforumId(int $id): int`
+
+Convert bot API miniforum ID to MTProto miniforum ID.
+
+
+Parameters:
+
+* `$id`: `int` Bot API miniforum ID  
 
 
 
