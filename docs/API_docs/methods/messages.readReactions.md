@@ -19,6 +19,7 @@ Mark [message reactions »](https://core.telegram.org/api/reactions) as read
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer | Optional|
 |top\_msg\_id|[int](/API_docs/types/int.html) | Mark as read only reactions to messages within the specified [forum topic](https://core.telegram.org/api/forum#forum-topics) | Optional|
+|saved\_peer\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
 
 
 ### Return type: [messages.AffectedHistory](/API_docs/types/messages.AffectedHistory.html)
@@ -40,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_AffectedHistory = $MadelineProto->messages->readReactions(peer: $InputPeer, top_msg_id: $int, );
+$messages_AffectedHistory = $MadelineProto->messages->readReactions(peer: $InputPeer, top_msg_id: $int, saved_peer_id: $InputPeer, );
 ```
 

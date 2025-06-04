@@ -21,6 +21,7 @@ Reply to a message.
 |quote\_text|[string](/API_docs/types/string.html) | Optional|Used to quote-reply to only a certain section (specified here) of the original message. The maximum UTF-8 length for quotes is specified in the [quote\_length\_max](https://core.telegram.org/api/config#quote-length-max) config key.|
 |quote\_entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Optional|[Message entities for styled text](https://core.telegram.org/api/entities) from the `quote_text` field.|
 |quote\_offset|[int](/API_docs/types/int.html) | Optional|Offset of the message `quote_text` within the original message (in [UTF-16 code units](https://core.telegram.org/api/entities#entity-length)).|
+|monoforum\_peer\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 
 
 
@@ -30,5 +31,5 @@ Reply to a message.
 ### Example:
 
 ```
-$inputReplyToMessage = ['_' => 'inputReplyToMessage', 'reply_to_msg_id' => int, 'top_msg_id' => int, 'reply_to_peer_id' => InputPeer, 'quote_text' => 'string', 'quote_entities' => [MessageEntity, MessageEntity], 'quote_offset' => int];
+$inputReplyToMessage = ['_' => 'inputReplyToMessage', 'reply_to_msg_id' => int, 'top_msg_id' => int, 'reply_to_peer_id' => InputPeer, 'quote_text' => 'string', 'quote_entities' => [MessageEntity, MessageEntity], 'quote_offset' => int, 'monoforum_peer_id' => InputPeer];
 ```  

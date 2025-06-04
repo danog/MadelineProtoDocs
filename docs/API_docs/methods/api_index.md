@@ -821,6 +821,10 @@ $MadelineProto->[channels->getLeftChannels](/API_docs/methods/channels.getLeftCh
 
 ***
 <br><br>
+$MadelineProto->[channels->getMessageAuthor](/API_docs/methods/channels.getMessageAuthor.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), id: $[int](/API_docs/types/int.html), \]) === [$User](/API_docs/types/User.html)<a name="channels.getMessageAuthor"></a>  
+
+***
+<br><br>
 $MadelineProto->[channels->getMessages](/API_docs/methods/channels.getMessages.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), id: \[$[InputMessage](/API_docs/types/InputMessage.html)\], \]) === [$messages.Messages](/API_docs/types/messages.Messages.html)<a name="channels.getMessages"></a>  
 
 ***
@@ -905,7 +909,7 @@ $MadelineProto->[channels->toggleAutotranslation](/API_docs/methods/channels.tog
 
 ***
 <br><br>
-$MadelineProto->[channels->toggleForum](/API_docs/methods/channels.toggleForum.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), enabled: $[Bool](/API_docs/types/Bool.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.toggleForum"></a>  
+$MadelineProto->[channels->toggleForum](/API_docs/methods/channels.toggleForum.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), enabled: $[Bool](/API_docs/types/Bool.html), tabs: $[Bool](/API_docs/types/Bool.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.toggleForum"></a>  
 
 ***
 <br><br>
@@ -949,7 +953,7 @@ $MadelineProto->[channels->updateEmojiStatus](/API_docs/methods/channels.updateE
 
 ***
 <br><br>
-$MadelineProto->[channels->updatePaidMessagesPrice](/API_docs/methods/channels.updatePaidMessagesPrice.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), send_paid_messages_stars: $[long](/API_docs/types/long.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.updatePaidMessagesPrice"></a>  
+$MadelineProto->[channels->updatePaidMessagesPrice](/API_docs/methods/channels.updatePaidMessagesPrice.html)(\[broadcast_messages_allowed: $[Bool](/API_docs/types/Bool.html), channel: $[InputChannel](/API_docs/types/InputChannel.html), send_paid_messages_stars: $[long](/API_docs/types/long.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.updatePaidMessagesPrice"></a>  
 
 ***
 <br><br>
@@ -1373,7 +1377,7 @@ $MadelineProto->[messages->deleteRevokedExportedChatInvites](/API_docs/methods/m
 
 ***
 <br><br>
-$MadelineProto->[messages->deleteSavedHistory](/API_docs/methods/messages.deleteSavedHistory.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), max_id: $[int](/API_docs/types/int.html), min_date: $[int](/API_docs/types/int.html), max_date: $[int](/API_docs/types/int.html), \]) === [$messages.AffectedHistory](/API_docs/types/messages.AffectedHistory.html)<a name="messages.deleteSavedHistory"></a>  
+$MadelineProto->[messages->deleteSavedHistory](/API_docs/methods/messages.deleteSavedHistory.html)(\[parent_peer: $[InputPeer](/API_docs/types/InputPeer.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), max_id: $[int](/API_docs/types/int.html), min_date: $[int](/API_docs/types/int.html), max_date: $[int](/API_docs/types/int.html), \]) === [$messages.AffectedHistory](/API_docs/types/messages.AffectedHistory.html)<a name="messages.deleteSavedHistory"></a>  
 
 ***
 <br><br>
@@ -1433,7 +1437,7 @@ $MadelineProto->[messages->faveSticker](/API_docs/methods/messages.faveSticker.h
 
 ***
 <br><br>
-$MadelineProto->[messages->forwardMessages](/API_docs/methods/messages.forwardMessages.html)(\[silent: $[Bool](/API_docs/types/Bool.html), background: $[Bool](/API_docs/types/Bool.html), with_my_score: $[Bool](/API_docs/types/Bool.html), drop_author: $[Bool](/API_docs/types/Bool.html), drop_media_captions: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), allow_paid_floodskip: $[Bool](/API_docs/types/Bool.html), from_peer: $[InputPeer](/API_docs/types/InputPeer.html), id: \[$[int](/API_docs/types/int.html)\], to_peer: $[InputPeer](/API_docs/types/InputPeer.html), top_msg_id: $[int](/API_docs/types/int.html), schedule_date: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), quick_reply_shortcut: $[InputQuickReplyShortcut](/API_docs/types/InputQuickReplyShortcut.html), video_timestamp: $[int](/API_docs/types/int.html), allow_paid_stars: $[long](/API_docs/types/long.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.forwardMessages"></a>  
+$MadelineProto->[messages->forwardMessages](/API_docs/methods/messages.forwardMessages.html)(\[silent: $[Bool](/API_docs/types/Bool.html), background: $[Bool](/API_docs/types/Bool.html), with_my_score: $[Bool](/API_docs/types/Bool.html), drop_author: $[Bool](/API_docs/types/Bool.html), drop_media_captions: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), allow_paid_floodskip: $[Bool](/API_docs/types/Bool.html), from_peer: $[InputPeer](/API_docs/types/InputPeer.html), id: \[$[int](/API_docs/types/int.html)\], to_peer: $[InputPeer](/API_docs/types/InputPeer.html), top_msg_id: $[int](/API_docs/types/int.html), reply_to: $[InputReplyTo](/API_docs/types/InputReplyTo.html), schedule_date: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), quick_reply_shortcut: $[InputQuickReplyShortcut](/API_docs/types/InputQuickReplyShortcut.html), video_timestamp: $[int](/API_docs/types/int.html), allow_paid_stars: $[long](/API_docs/types/long.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.forwardMessages"></a>  
 
 ***
 <br><br>
@@ -1513,7 +1517,7 @@ $MadelineProto->[messages->getDialogFilters](/API_docs/methods/messages.getDialo
 
 ***
 <br><br>
-$MadelineProto->[messages->getDialogUnreadMarks](/API_docs/methods/messages.getDialogUnreadMarks.html)(\[\]) === [$Vector\_of\_DialogPeer](/API_docs/types/DialogPeer.html)<a name="messages.getDialogUnreadMarks"></a>  
+$MadelineProto->[messages->getDialogUnreadMarks](/API_docs/methods/messages.getDialogUnreadMarks.html)(\[parent_peer: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Vector\_of\_DialogPeer](/API_docs/types/DialogPeer.html)<a name="messages.getDialogUnreadMarks"></a>  
 
 ***
 <br><br>
@@ -1713,7 +1717,11 @@ $MadelineProto->[messages->getReplies](/API_docs/methods/messages.getReplies.htm
 
 ***
 <br><br>
-$MadelineProto->[messages->getSavedDialogs](/API_docs/methods/messages.getSavedDialogs.html)(\[exclude_pinned: $[Bool](/API_docs/types/Bool.html), offset_date: $[int](/API_docs/types/int.html), offset_id: $[int](/API_docs/types/int.html), offset_peer: $[InputPeer](/API_docs/types/InputPeer.html), limit: $[int](/API_docs/types/int.html), hash: $[long](/API_docs/types/long.html), \]) === [$messages.SavedDialogs](/API_docs/types/messages.SavedDialogs.html)<a name="messages.getSavedDialogs"></a>  
+$MadelineProto->[messages->getSavedDialogs](/API_docs/methods/messages.getSavedDialogs.html)(\[exclude_pinned: $[Bool](/API_docs/types/Bool.html), parent_peer: $[InputPeer](/API_docs/types/InputPeer.html), offset_date: $[int](/API_docs/types/int.html), offset_id: $[int](/API_docs/types/int.html), offset_peer: $[InputPeer](/API_docs/types/InputPeer.html), limit: $[int](/API_docs/types/int.html), hash: $[long](/API_docs/types/long.html), \]) === [$messages.SavedDialogs](/API_docs/types/messages.SavedDialogs.html)<a name="messages.getSavedDialogs"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->getSavedDialogsByID](/API_docs/methods/messages.getSavedDialogsByID.html)(\[parent_peer: $[InputPeer](/API_docs/types/InputPeer.html), ids: \[$[InputPeer](/API_docs/types/InputPeer.html)\], \]) === [$messages.SavedDialogs](/API_docs/types/messages.SavedDialogs.html)<a name="messages.getSavedDialogsByID"></a>  
 
 ***
 <br><br>
@@ -1721,7 +1729,7 @@ $MadelineProto->[messages->getSavedGifs](/API_docs/methods/messages.getSavedGifs
 
 ***
 <br><br>
-$MadelineProto->[messages->getSavedHistory](/API_docs/methods/messages.getSavedHistory.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), offset_id: $[int](/API_docs/types/int.html), offset_date: $[int](/API_docs/types/int.html), add_offset: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), max_id: $[int](/API_docs/types/int.html), min_id: $[int](/API_docs/types/int.html), hash: $[long](/API_docs/types/long.html), \]) === [$messages.Messages](/API_docs/types/messages.Messages.html)<a name="messages.getSavedHistory"></a>  
+$MadelineProto->[messages->getSavedHistory](/API_docs/methods/messages.getSavedHistory.html)(\[parent_peer: $[InputPeer](/API_docs/types/InputPeer.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), offset_id: $[int](/API_docs/types/int.html), offset_date: $[int](/API_docs/types/int.html), add_offset: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), max_id: $[int](/API_docs/types/int.html), min_id: $[int](/API_docs/types/int.html), hash: $[long](/API_docs/types/long.html), \]) === [$messages.Messages](/API_docs/types/messages.Messages.html)<a name="messages.getSavedHistory"></a>  
 
 ***
 <br><br>
@@ -1777,7 +1785,7 @@ $MadelineProto->[messages->getUnreadMentions](/API_docs/methods/messages.getUnre
 
 ***
 <br><br>
-$MadelineProto->[messages->getUnreadReactions](/API_docs/methods/messages.getUnreadReactions.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), top_msg_id: $[int](/API_docs/types/int.html), offset_id: $[int](/API_docs/types/int.html), add_offset: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), max_id: $[int](/API_docs/types/int.html), min_id: $[int](/API_docs/types/int.html), \]) === [$messages.Messages](/API_docs/types/messages.Messages.html)<a name="messages.getUnreadReactions"></a>  
+$MadelineProto->[messages->getUnreadReactions](/API_docs/methods/messages.getUnreadReactions.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), top_msg_id: $[int](/API_docs/types/int.html), saved_peer_id: $[InputPeer](/API_docs/types/InputPeer.html), offset_id: $[int](/API_docs/types/int.html), add_offset: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), max_id: $[int](/API_docs/types/int.html), min_id: $[int](/API_docs/types/int.html), \]) === [$messages.Messages](/API_docs/types/messages.Messages.html)<a name="messages.getUnreadReactions"></a>  
 
 ***
 <br><br>
@@ -1813,7 +1821,7 @@ $MadelineProto->[messages->installStickerSet](/API_docs/methods/messages.install
 
 ***
 <br><br>
-$MadelineProto->[messages->markDialogUnread](/API_docs/methods/messages.markDialogUnread.html)(\[unread: $[Bool](/API_docs/types/Bool.html), peer: $[InputDialogPeer](/API_docs/types/InputDialogPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.markDialogUnread"></a>  
+$MadelineProto->[messages->markDialogUnread](/API_docs/methods/messages.markDialogUnread.html)(\[unread: $[Bool](/API_docs/types/Bool.html), parent_peer: $[InputPeer](/API_docs/types/InputPeer.html), peer: $[InputDialogPeer](/API_docs/types/InputDialogPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.markDialogUnread"></a>  
 
 ***
 <br><br>
@@ -1853,7 +1861,11 @@ $MadelineProto->[messages->readMessageContents](/API_docs/methods/messages.readM
 
 ***
 <br><br>
-$MadelineProto->[messages->readReactions](/API_docs/methods/messages.readReactions.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), top_msg_id: $[int](/API_docs/types/int.html), \]) === [$messages.AffectedHistory](/API_docs/types/messages.AffectedHistory.html)<a name="messages.readReactions"></a>  
+$MadelineProto->[messages->readReactions](/API_docs/methods/messages.readReactions.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), top_msg_id: $[int](/API_docs/types/int.html), saved_peer_id: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$messages.AffectedHistory](/API_docs/types/messages.AffectedHistory.html)<a name="messages.readReactions"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->readSavedHistory](/API_docs/methods/messages.readSavedHistory.html)(\[parent_peer: $[InputPeer](/API_docs/types/InputPeer.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), max_id: $[int](/API_docs/types/int.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.readSavedHistory"></a>  
 
 ***
 <br><br>
@@ -2149,7 +2161,7 @@ $MadelineProto->[messages->uninstallStickerSet](/API_docs/methods/messages.unins
 
 ***
 <br><br>
-$MadelineProto->[messages->unpinAllMessages](/API_docs/methods/messages.unpinAllMessages.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), top_msg_id: $[int](/API_docs/types/int.html), \]) === [$messages.AffectedHistory](/API_docs/types/messages.AffectedHistory.html)<a name="messages.unpinAllMessages"></a>  
+$MadelineProto->[messages->unpinAllMessages](/API_docs/methods/messages.unpinAllMessages.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), top_msg_id: $[int](/API_docs/types/int.html), saved_peer_id: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$messages.AffectedHistory](/API_docs/types/messages.AffectedHistory.html)<a name="messages.unpinAllMessages"></a>  
 
 ***
 <br><br>

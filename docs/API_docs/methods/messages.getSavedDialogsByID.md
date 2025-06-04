@@ -1,12 +1,12 @@
 ---
-title: "channels.updatePaidMessagesPrice"
-description: "channels.updatePaidMessagesPrice parameters, return type and example"
+title: "messages.getSavedDialogsByID"
+description: "messages.getSavedDialogsByID parameters, return type and example"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
-redirect_from: /API_docs/methods/channels_updatePaidMessagesPrice.html
+redirect_from: /API_docs/methods/messages_getSavedDialogsByID.html
 ---
-# Method: channels.updatePaidMessagesPrice
+# Method: messages.getSavedDialogsByID
 [Back to methods index](index.html)
 
 
@@ -15,12 +15,11 @@ redirect_from: /API_docs/methods/channels_updatePaidMessagesPrice.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|broadcast\_messages\_allowed|[Bool](/API_docs/types/Bool.html) | Optional|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
-|send\_paid\_messages\_stars|[long](/API_docs/types/long.html) | Yes|
+|parent\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+|ids|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Yes|
 
 
-### Return type: [Updates](/API_docs/types/Updates.html)
+### Return type: [messages.SavedDialogs](/API_docs/types/messages.SavedDialogs.html)
 
 ### Can userbots use this method: **YES**
 
@@ -39,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->channels->updatePaidMessagesPrice(broadcast_messages_allowed: $Bool, channel: $InputChannel, send_paid_messages_stars: $long, );
+$messages_SavedDialogs = $MadelineProto->messages->getSavedDialogsByID(parent_peer: $InputPeer, ids: [$InputPeer, $InputPeer], );
 ```
 

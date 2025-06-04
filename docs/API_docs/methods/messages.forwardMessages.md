@@ -28,6 +28,7 @@ Forwards messages by their IDs.
 |id|Array of [int](/API_docs/types/int.html) | IDs of messages | Yes|
 |to\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Destination peer | Optional|
 |top\_msg\_id|[int](/API_docs/types/int.html) | Destination [forum topic](https://core.telegram.org/api/forum#forum-topics) | Optional|
+|reply\_to|[InputReplyTo](/API_docs/types/InputReplyTo.html) |  | Optional|
 |schedule\_date|[int](/API_docs/types/int.html) | Scheduled message date for scheduled messages | Optional|
 |send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Forward the messages as the specified peer | Optional|
 |quick\_reply\_shortcut|[InputQuickReplyShortcut](/API_docs/types/InputQuickReplyShortcut.html) | Add the messages to the specified [quick reply shortcut »](https://core.telegram.org/api/business#quick-reply-shortcuts), instead. | Optional|
@@ -54,6 +55,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->forwardMessages(silent: $Bool, background: $Bool, with_my_score: $Bool, drop_author: $Bool, drop_media_captions: $Bool, noforwards: $Bool, allow_paid_floodskip: $Bool, from_peer: $InputPeer, id: [$int, $int], to_peer: $InputPeer, top_msg_id: $int, schedule_date: $int, send_as: $InputPeer, quick_reply_shortcut: $InputQuickReplyShortcut, video_timestamp: $int, allow_paid_stars: $long, );
+$Updates = $MadelineProto->messages->forwardMessages(silent: $Bool, background: $Bool, with_my_score: $Bool, drop_author: $Bool, drop_media_captions: $Bool, noforwards: $Bool, allow_paid_floodskip: $Bool, from_peer: $InputPeer, id: [$int, $int], to_peer: $InputPeer, top_msg_id: $int, reply_to: $InputReplyTo, schedule_date: $int, send_as: $InputPeer, quick_reply_shortcut: $InputQuickReplyShortcut, video_timestamp: $int, allow_paid_stars: $long, );
 ```
 

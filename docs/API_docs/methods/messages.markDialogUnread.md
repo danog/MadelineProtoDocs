@@ -18,6 +18,7 @@ Manually mark dialog as unread
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |unread|[Bool](/API_docs/types/Bool.html) | Mark as unread/read | Optional|
+|parent\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
 |peer|[InputDialogPeer](/API_docs/types/InputDialogPeer.html) | Dialog | Yes|
 
 
@@ -40,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->markDialogUnread(unread: $Bool, peer: $InputDialogPeer, );
+$Bool = $MadelineProto->messages->markDialogUnread(unread: $Bool, parent_peer: $InputPeer, peer: $InputDialogPeer, );
 ```
 

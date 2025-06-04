@@ -17,6 +17,7 @@ Deletes messages forwarded from a specific peer to [saved messages »](https://c
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|parent\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer, whose messages will be deleted from [saved messages »](https://core.telegram.org/api/saved-messages) | Optional|
 |max\_id|[int](/API_docs/types/int.html) | Maximum ID of message to delete | Optional|
 |min\_date|[int](/API_docs/types/int.html) | Delete all messages newer than this UNIX timestamp | Optional|
@@ -42,6 +43,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_AffectedHistory = $MadelineProto->messages->deleteSavedHistory(peer: $InputPeer, max_id: $int, min_date: $int, max_date: $int, );
+$messages_AffectedHistory = $MadelineProto->messages->deleteSavedHistory(parent_peer: $InputPeer, peer: $InputPeer, max_id: $int, min_date: $int, max_date: $int, );
 ```
 

@@ -26,5 +26,7 @@ redirect_from: /API_docs/types/messages_SavedDialogs.html
 
 [$MadelineProto->messages->getPinnedSavedDialogs](/API_docs/methods/messages.getPinnedSavedDialogs.html)  
 
+[$MadelineProto->messages->getSavedDialogsByID](/API_docs/methods/messages.getSavedDialogsByID.html)  
+
 
 

@@ -13,6 +13,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [savedDialog](/API_docs/constructors/savedDialog.html)  
 
+[monoForumDialog](/API_docs/constructors/monoForumDialog.html)  
+
 
 
 ### Methods that return an object of this type (methods):

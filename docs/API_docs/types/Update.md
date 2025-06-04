@@ -297,6 +297,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateGroupCallChainBlocks](/API_docs/constructors/updateGroupCallChainBlocks.html)  
 
+[updateReadMonoForumInbox](/API_docs/constructors/updateReadMonoForumInbox.html)  
+
+[updateReadMonoForumOutbox](/API_docs/constructors/updateReadMonoForumOutbox.html)  
+
 
 
 ### Methods that return an object of this type (methods):

@@ -1800,6 +1800,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="bots.setCustomVerification.html" name="bots.setCustomVerification">bots.setCustomVerification</a>
 
+* <a href="channels.getMessageAuthor.html" name="channels.getMessageAuthor">channels.getMessageAuthor</a>
+
 * <a href="channels.toggleAutotranslation.html" name="channels.toggleAutotranslation">channels.toggleAutotranslation</a>
 
 * <a href="channels.updatePaidMessagesPrice.html" name="channels.updatePaidMessagesPrice">channels.updatePaidMessagesPrice</a>
@@ -1807,6 +1809,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="contacts.getSponsoredPeers.html" name="contacts.getSponsoredPeers">contacts.getSponsoredPeers</a>
 
 * <a href="invokeWithReCaptcha.html" name="invokeWithReCaptcha">invokeWithReCaptcha</a>
+
+* <a href="messages.getSavedDialogsByID.html" name="messages.getSavedDialogsByID">messages.getSavedDialogsByID</a>
+
+* <a href="messages.readSavedHistory.html" name="messages.readSavedHistory">messages.readSavedHistory</a>
 
 * <a href="messages.reportMessagesDelivery.html" name="messages.reportMessagesDelivery">messages.reportMessagesDelivery</a>
 

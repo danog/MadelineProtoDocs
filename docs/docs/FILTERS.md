@@ -967,6 +967,8 @@ Here's a full list of all MTProto filters (click on each filter name to view the
 * [onUpdatePaidReactionPrivacy &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updatePaidReactionPrivacy.html) - Contains the current [default paid reaction privacy, see here »](https://core.telegram.org/api/reactions#paid-reactions) for more info.
 * [onUpdateSentPhoneCode &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateSentPhoneCode.html) - 
 * [onUpdateGroupCallChainBlocks &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateGroupCallChainBlocks.html) - 
+* [onUpdateReadMonoForumInbox &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateReadMonoForumInbox.html) - 
+* [onUpdateReadMonoForumOutbox &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateReadMonoForumOutbox.html) - 
 
 
 <!-- cut_here_end mtprotofilters -->

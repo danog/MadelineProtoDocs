@@ -18,6 +18,7 @@ Returns the current saved dialog list, see [here »](https://core.telegram.org/a
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |exclude\_pinned|[Bool](/API_docs/types/Bool.html) | Exclude pinned dialogs | Optional|
+|parent\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
 |offset\_date|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
 |offset\_id|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) (`top_message` ID used for pagination) | Optional|
 |offset\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | [Offset peer for pagination](https://core.telegram.org/api/offsets) | Optional|
@@ -44,6 +45,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_SavedDialogs = $MadelineProto->messages->getSavedDialogs(exclude_pinned: $Bool, offset_date: $int, offset_id: $int, offset_peer: $InputPeer, limit: $int, hash: [$long\|string, $long\|string], );
+$messages_SavedDialogs = $MadelineProto->messages->getSavedDialogs(exclude_pinned: $Bool, parent_peer: $InputPeer, offset_date: $int, offset_id: $int, offset_peer: $InputPeer, limit: $int, hash: [$long\|string, $long\|string], );
 ```
 

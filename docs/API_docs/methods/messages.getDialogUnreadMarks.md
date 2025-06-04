@@ -13,6 +13,11 @@ redirect_from: /API_docs/methods/messages_getDialogUnreadMarks.html
 
 Get dialogs manually marked as unread
 
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|parent\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
 
 
 ### Return type: [Vector\_of\_DialogPeer](/API_docs/types/DialogPeer.html)
@@ -34,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Vector_of_DialogPeer = $MadelineProto->messages->getDialogUnreadMarks();
+$Vector_of_DialogPeer = $MadelineProto->messages->getDialogUnreadMarks(parent_peer: $InputPeer, );
 ```
 

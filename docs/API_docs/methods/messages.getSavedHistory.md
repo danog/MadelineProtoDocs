@@ -17,6 +17,7 @@ Returns [saved messages »](https://core.telegram.org/api/saved-messages) forwar
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|parent\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Target peer | Optional|
 |offset\_id|[int](/API_docs/types/int.html) | Only return messages starting from the specified message ID | Optional|
 |offset\_date|[int](/API_docs/types/int.html) | Only return messages sent before the specified date | Optional|
@@ -46,6 +47,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Messages = $MadelineProto->messages->getSavedHistory(peer: $InputPeer, offset_id: $int, offset_date: $int, add_offset: $int, limit: $int, max_id: $int, min_id: $int, hash: [$long\|string, $long\|string], );
+$messages_Messages = $MadelineProto->messages->getSavedHistory(parent_peer: $InputPeer, peer: $InputPeer, offset_id: $int, offset_date: $int, add_offset: $int, limit: $int, max_id: $int, min_id: $int, hash: [$long\|string, $long\|string], );
 ```
 

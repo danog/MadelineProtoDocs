@@ -18,6 +18,7 @@ New [message reactions »](https://core.telegram.org/api/reactions) are availabl
 |peer|[long](/API_docs/types/long.html) | Yes|Peer|
 |msg\_id|[int](/API_docs/types/int.html) | Yes|Message ID|
 |top\_msg\_id|[int](/API_docs/types/int.html) | Optional|[Forum topic ID](https://core.telegram.org/api/forum#forum-topics)|
+|saved\_peer\_id|[Peer](/API_docs/types/Peer.html) | Optional|
 |reactions|[MessageReactions](/API_docs/types/MessageReactions.html) | Yes|Reactions|
 
 
@@ -28,5 +29,5 @@ New [message reactions »](https://core.telegram.org/api/reactions) are availabl
 ### Example:
 
 ```
-$updateMessageReactions = ['_' => 'updateMessageReactions', 'peer' => long, 'msg_id' => int, 'top_msg_id' => int, 'reactions' => MessageReactions];
+$updateMessageReactions = ['_' => 'updateMessageReactions', 'peer' => long, 'msg_id' => int, 'top_msg_id' => int, 'saved_peer_id' => Peer, 'reactions' => MessageReactions];
 ```  

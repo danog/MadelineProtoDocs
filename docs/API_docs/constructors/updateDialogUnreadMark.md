@@ -17,6 +17,7 @@ The manual unread mark of a chat was changed
 |----------|---------------|----------|-------------|
 |unread|[Bool](/API_docs/types/Bool.html) | Optional|Was the chat marked or unmarked as read|
 |peer|[DialogPeer](/API_docs/types/DialogPeer.html) | Yes|The dialog|
+|saved\_peer\_id|[Peer](/API_docs/types/Peer.html) | Optional|
 
 
 
@@ -26,5 +27,5 @@ The manual unread mark of a chat was changed
 ### Example:
 
 ```
-$updateDialogUnreadMark = ['_' => 'updateDialogUnreadMark', 'unread' => Bool, 'peer' => DialogPeer];
+$updateDialogUnreadMark = ['_' => 'updateDialogUnreadMark', 'unread' => Bool, 'peer' => DialogPeer, 'saved_peer_id' => Peer];
 ```  

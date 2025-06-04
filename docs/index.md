@@ -1214,10 +1214,13 @@ Some of MadelineProto's core components are also available as separate, standalo
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#base64urlDecode" name="base64urlDecode">base64URL decode: base64urlDecode</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/bots.getBotRecommendations.html" name="bots.getBotRecommendations">bots.getBotRecommendations</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/bots.setCustomVerification.html" name="bots.setCustomVerification">bots.setCustomVerification</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/channels.getMessageAuthor.html" name="channels.getMessageAuthor">channels.getMessageAuthor</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/channels.toggleAutotranslation.html" name="channels.toggleAutotranslation">channels.toggleAutotranslation</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/channels.updatePaidMessagesPrice.html" name="channels.updatePaidMessagesPrice">channels.updatePaidMessagesPrice</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/contacts.getSponsoredPeers.html" name="contacts.getSponsoredPeers">contacts.getSponsoredPeers</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/invokeWithReCaptcha.html" name="invokeWithReCaptcha">invokeWithReCaptcha</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.getSavedDialogsByID.html" name="messages.getSavedDialogsByID">messages.getSavedDialogsByID</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.readSavedHistory.html" name="messages.readSavedHistory">messages.readSavedHistory</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.reportMessagesDelivery.html" name="messages.reportMessagesDelivery">messages.reportMessagesDelivery</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleDecode" name="rleDecode">null-byte RLE decode: rleDecode</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleEncode" name="rleEncode">null-byte RLE encode: rleEncode</a>

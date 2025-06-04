@@ -13,6 +13,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
+|broadcast\_messages\_allowed|[Bool](/API_docs/types/Bool.html) | Optional|
 |stars|[long](/API_docs/types/long.html) | Yes|
 
 
@@ -23,5 +24,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$messageActionPaidMessagesPrice = ['_' => 'messageActionPaidMessagesPrice', 'stars' => long];
+$messageActionPaidMessagesPrice = ['_' => 'messageActionPaidMessagesPrice', 'broadcast_messages_allowed' => Bool, 'stars' => long];
 ```  
