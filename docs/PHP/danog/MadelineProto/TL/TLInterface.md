@@ -24,7 +24,7 @@ parent: "MadelineProto API"
 * [`getMethodsNamespaced(): array`](#getMethodsNamespaced)
 * [`serializeObject(array $type, mixed $object, string $ctx, integer $layer = -1)`](#serializeObject)
 * [`serializeMethod(string $method, mixed $arguments)`](#serializeMethod)
-* [`getLength((resource|string) $stream, array $type = [  'type' => '',]): int`](#getLength)
+* [`getLength((resource|string) $stream, array $type = [  'type' => '',  'connection' => NULL,  'encrypted' => false,]): int`](#getLength)
 * [`deserialize((string|resource) $stream, array $type)`](#deserialize)
 * [`getSecretLayer(): int`](#getSecretLayer)
 
@@ -95,7 +95,7 @@ Parameters:
 
 
 
-### <a name="getLength"></a> `getLength((resource|string) $stream, array $type = [  'type' => '',]): int`
+### <a name="getLength"></a> `getLength((resource|string) $stream, array $type = [  'type' => '',  'connection' => NULL,  'encrypted' => false,]): int`
 
 Get length of TL payload.
 

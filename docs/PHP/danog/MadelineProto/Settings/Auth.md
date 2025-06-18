@@ -17,29 +17,10 @@ Cryptography settings.
 
 
 ## Method list:
-* [`getPfs(): bool`](#getPfs)
-* [`setPfs(bool $pfs): self`](#setPfs)
 * [`getMaxAuthTries(): int`](#getMaxAuthTries)
 * [`setMaxAuthTries(int<1, max> $maxAuthTries): self`](#setMaxAuthTries)
 
 ## Methods:
-### <a name="getPfs"></a> `getPfs(): bool`
-
-Get whether to use PFS.
-
-
-
-### <a name="setPfs"></a> `setPfs(bool $pfs): self`
-
-Set whether to use PFS.
-
-
-Parameters:
-
-* `$pfs`: `bool` Whether to use PFS  
-
-
-
 ### <a name="getMaxAuthTries"></a> `getMaxAuthTries(): int`
 
 Get max tries for generating auth key.
