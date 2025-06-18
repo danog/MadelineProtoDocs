@@ -85,7 +85,7 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`echo(string $string): void`](#echo)
 * [`end(array<T> $what): T`](#end)
 * [`entitiesToHtml(string $message, list<(\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array{_: string, offset: int, length: int})> $entities, bool $allowTelegramTags = false): string`](#entitiesToHtml)
-* [`exportAuthorization(): array{0: (int|string), 1: string}`](#exportAuthorization)
+* [`exportAuthorization(): array{0: int, 1: string}`](#exportAuthorization)
 * [`extractBotAPIFile(array $info): ?array`](#extractBotAPIFile)
 * [`extractMessage(array $updates): array`](#extractMessage)
 * [`extractMessageId(array $updates): int`](#extractMessageId)
@@ -983,7 +983,7 @@ Parameters:
 
 
 
-### <a name="exportAuthorization"></a> `exportAuthorization(): array{0: (int|string), 1: string}`
+### <a name="exportAuthorization"></a> `exportAuthorization(): array{0: int, 1: string}`
 
 Export authorization.
 
