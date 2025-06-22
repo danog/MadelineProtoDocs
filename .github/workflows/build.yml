@@ -41,4 +41,4 @@ jobs:
           cp -a /tmp/_site/* .
           git add -A
           git commit -am 'Update' >/dev/null
-          git push -f o gh-pages
+          git push -f origin gh-pages
