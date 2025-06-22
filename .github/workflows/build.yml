@@ -16,20 +16,17 @@ jobs:
     container:
       image: danog/gojekyll
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
+          fetch-depth: 0
+
       - name: Setup
-        env:
-          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
         run: |
-          apt-get update && apt-get -y install openssh-client git
-          mkdir -p $HOME/.ssh
-          echo "$DEPLOY_KEY" > $HOME/.ssh/id_rsa
-          ssh-keyscan -t rsa github.com >> $HOME/.ssh/known_hosts
-          ssh -T git@github.com
-          chmod 0600 $HOME/.ssh/id_rsa
           git config --global user.email "daniil@daniil.it"
           git config --global user.name "Daniil Gentili"
-          git clone git@github.com:danog/MadelineProtoDocs.git --depth=1
-          cd cd MadelineProtoDocs/docs
+          cd docs
           gojekyll build
           rm -rf /tmp/_site
           cp -a _site /tmp/
