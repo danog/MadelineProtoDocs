@@ -27,14 +27,8 @@ jobs:
           chmod 0600 $HOME/.ssh/id_rsa
           git config --global user.email "daniil@daniil.it"
           git config --global user.name "Daniil Gentili"
-
-      - uses: actions/checkout@v4
-
-      - name: Upload
-        run: |
-          git config --global --add safe.directory $PWD
-          git remote add o git@github.com:danog/MadelineProtoDocs.git 
-          cd docs
+          git clone git@github.com:danog/MadelineProtoDocs.git --depth=1
+          cd cd MadelineProtoDocs/docs
           gojekyll build
           rm -rf /tmp/_site
           cp -a _site /tmp/
