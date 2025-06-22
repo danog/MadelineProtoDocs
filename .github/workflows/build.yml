@@ -16,9 +16,7 @@ jobs:
     container:
       image: danog/gojekyll
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Upload docker image
+      - name: Setup
         env:
           DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
         run: |
@@ -29,6 +27,11 @@ jobs:
           chmod 0600 $HOME/.ssh/id_rsa
           git config --global user.email "daniil@daniil.it"
           git config --global user.name "Daniil Gentili"
+
+      - uses: actions/checkout@v4
+
+      - name: Upload
+        run: |
           git remote add o git@github.com:danog/MadelineProtoDocs.git 
           cd docs
           gojekyll build
