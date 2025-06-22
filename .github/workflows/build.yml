@@ -13,6 +13,8 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    container:
+      image: danog/gojekyll
     steps:
       - uses: actions/checkout@v4
 
