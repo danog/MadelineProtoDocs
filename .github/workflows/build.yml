@@ -29,6 +29,7 @@ jobs:
         run: |
           git config --global user.email "daniil@daniil.it"
           git config --global user.name "Daniil Gentili"
+          git config --global --add safe.directory $PWD
           cd docs
           gojekyll build
           rm -rf /tmp/_site
