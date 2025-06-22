@@ -27,6 +27,7 @@ jobs:
 
       - name: Build
         run: |
+          set -ex
           git config --global user.email "daniil@daniil.it"
           git config --global user.name "Daniil Gentili"
           git config --global --add safe.directory $PWD
@@ -39,5 +40,5 @@ jobs:
           git switch --orphan gh-pages
           cp -a /tmp/_site/* .
           git add -A
-          git commit -am 'Update'
+          git commit -am 'Update' >/dev/null
           git push -f o gh-pages
