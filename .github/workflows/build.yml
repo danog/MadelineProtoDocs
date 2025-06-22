@@ -16,13 +16,16 @@ jobs:
     container:
       image: danog/gojekyll
     steps:
+      - name: Setup
+        run: apt-get update && apt-get install -y git openssh-client
+
       - name: Checkout
         uses: actions/checkout@v4
         with:
           ssh-key: ${{ secrets.DEPLOY_KEY }}
           fetch-depth: 0
 
-      - name: Setup
+      - name: Build
         run: |
           git config --global user.email "daniil@daniil.it"
           git config --global user.name "Daniil Gentili"
