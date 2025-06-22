@@ -32,6 +32,7 @@ jobs:
 
       - name: Upload
         run: |
+          git config --global --add safe.directory $PWD
           git remote add o git@github.com:danog/MadelineProtoDocs.git 
           cd docs
           gojekyll build
