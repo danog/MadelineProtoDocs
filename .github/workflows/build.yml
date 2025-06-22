@@ -24,6 +24,7 @@ jobs:
           mkdir -p $HOME/.ssh
           ssh-keyscan -t rsa github.com >> $HOME/.ssh/known_hosts
           echo "$DEPLOY_KEY" > $HOME/.ssh/id_rsa
+          ssh -T git@github.com
           chmod 0600 $HOME/.ssh/id_rsa
           git config --global user.email "daniil@daniil.it"
           git config --global user.name "Daniil Gentili"
