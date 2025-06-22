@@ -179,6 +179,7 @@ if (class_exists(API::class)) {
     }
     require_once 'madeline.php';
 }
+
 /**
  * Event handler class.
  *
