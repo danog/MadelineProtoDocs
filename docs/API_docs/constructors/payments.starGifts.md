@@ -18,6 +18,8 @@ Available [gifts »](https://core.telegram.org/api/gifts).
 |----------|---------------|----------|-------------|
 |hash|[int](/API_docs/types/int.html) | Yes|
 |gifts|Array of [StarGift](/API_docs/types/StarGift.html) | Yes|List of available gifts.|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
+|users|Array of [User](/API_docs/types/User.html) | Yes|
 
 
 
@@ -27,5 +29,5 @@ Available [gifts »](https://core.telegram.org/api/gifts).
 ### Example:
 
 ```
-$payments_starGifts = ['_' => 'payments.starGifts', 'hash' => int, 'gifts' => [StarGift, StarGift]];
+$payments_starGifts = ['_' => 'payments.starGifts', 'hash' => int, 'gifts' => [StarGift, StarGift], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

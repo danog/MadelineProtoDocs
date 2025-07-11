@@ -959,7 +959,6 @@ Here's a full list of all MTProto filters (click on each filter name to view the
 * [onUpdateBotEditBusinessMessage &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBotEditBusinessMessage.html) - A message was edited in a [connected business chat »](https://core.telegram.org/api/business#connected-bots).
 * [onUpdateBotDeleteBusinessMessage &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBotDeleteBusinessMessage.html) - A message was deleted in a [connected business chat »](https://core.telegram.org/api/business#connected-bots).
 * [onUpdateNewStoryReaction &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateNewStoryReaction.html) - Represents a new [reaction to a story](https://core.telegram.org/api/reactions#notifications-about-reactions).
-* [onUpdateBroadcastRevenueTransactions &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBroadcastRevenueTransactions.html) - A new [channel ad revenue transaction was made, see here »](https://core.telegram.org/api/revenue#revenue-statistics) for more info.
 * [onUpdateStarsBalance &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateStarsBalance.html) - The current account's [Telegram Stars balance »](https://core.telegram.org/api/stars) has changed.
 * [onUpdateBusinessBotCallbackQuery &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBusinessBotCallbackQuery.html) - A callback button sent via a [business connection](https://core.telegram.org/api/business#connected-bots) was pressed, and the button data was sent to the bot that created the button.
 * [onUpdateStarsRevenueStatus &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateStarsRevenueStatus.html) - The [Telegram Star balance of a channel/bot we own has changed »](https://core.telegram.org/api/stars#revenue-statistics).
@@ -969,6 +968,7 @@ Here's a full list of all MTProto filters (click on each filter name to view the
 * [onUpdateGroupCallChainBlocks &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateGroupCallChainBlocks.html) - 
 * [onUpdateReadMonoForumInbox &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateReadMonoForumInbox.html) - 
 * [onUpdateReadMonoForumOutbox &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateReadMonoForumOutbox.html) - 
+* [onUpdateMonoForumNoPaidException &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateMonoForumNoPaidException.html) - 
 
 
 <!-- cut_here_end mtprotofilters -->

@@ -17,6 +17,7 @@ Obtain info about [Telegram Star transactions »](https://core.telegram.org/api/
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|ton|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Channel or bot. | Optional|
 |id|Array of [InputStarsTransaction](/API_docs/types/InputStarsTransaction.html) | Transaction IDs. | Yes|
 
@@ -40,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$payments_StarsStatus = $MadelineProto->payments->getStarsTransactionsByID(peer: $InputPeer, id: [$InputStarsTransaction, $InputStarsTransaction], );
+$payments_StarsStatus = $MadelineProto->payments->getStarsTransactionsByID(ton: $Bool, peer: $InputPeer, id: [$InputStarsTransaction, $InputStarsTransaction], );
 ```
 

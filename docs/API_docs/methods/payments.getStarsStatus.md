@@ -17,6 +17,7 @@ Get the current [Telegram Stars balance](https://core.telegram.org/api/stars) of
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|ton|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer of which to get the balance. | Optional|
 
 
@@ -39,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$payments_StarsStatus = $MadelineProto->payments->getStarsStatus(peer: $InputPeer, );
+$payments_StarsStatus = $MadelineProto->payments->getStarsStatus(ton: $Bool, peer: $InputPeer, );
 ```
 

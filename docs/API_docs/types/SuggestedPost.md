@@ -1,17 +1,17 @@
 ---
-title: BroadcastRevenueBalances
-description: constructors and methods of type BroadcastRevenueBalances
+title: SuggestedPost
+description: constructors and methods of type SuggestedPost
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Type: BroadcastRevenueBalances
+# Type: SuggestedPost
 [Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[broadcastRevenueBalances](/API_docs/constructors/broadcastRevenueBalances.html)  
+[suggestedPost](/API_docs/constructors/suggestedPost.html)  
 
 
 

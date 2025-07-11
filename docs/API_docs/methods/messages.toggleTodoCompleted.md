@@ -1,12 +1,12 @@
 ---
-title: "account.addNoPaidMessagesException"
-description: "account.addNoPaidMessagesException parameters, return type and example"
+title: "messages.toggleTodoCompleted"
+description: "messages.toggleTodoCompleted parameters, return type and example"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
-redirect_from: /API_docs/methods/account_addNoPaidMessagesException.html
+redirect_from: /API_docs/methods/messages_toggleTodoCompleted.html
 ---
-# Method: account.addNoPaidMessagesException
+# Method: messages.toggleTodoCompleted
 [Back to methods index](index.html)
 
 
@@ -15,11 +15,13 @@ redirect_from: /API_docs/methods/account_addNoPaidMessagesException.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|refund\_charged|[Bool](/API_docs/types/Bool.html) | Optional|
-|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | Optional|
+|completed|Array of [int](/API_docs/types/int.html) | Yes|
+|incompleted|Array of [int](/API_docs/types/int.html) | Yes|
 
 
-### Return type: [Bool](/API_docs/types/Bool.html)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can userbots use this method: **YES**
 
@@ -38,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->account->addNoPaidMessagesException(refund_charged: $Bool, user_id: $InputUser, );
+$Updates = $MadelineProto->messages->toggleTodoCompleted(peer: $InputPeer, msg_id: $int, completed: [$int, $int], incompleted: [$int, $int], );
 ```
 

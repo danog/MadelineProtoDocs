@@ -591,7 +591,6 @@ Some of MadelineProto's core components are also available as separate, standalo
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.getMyStickers.html" name="messages.getMyStickers">Fetch all stickersets » owned by the current user: messages.getMyStickers</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/contacts.getBirthdays.html" name="contacts.getBirthdays">Fetch all users with birthdays that fall within +1/-1 days, relative to the current day: this method should be invoked by clients every 6-8 hours, and if the result is non-empty, it should be used to appropriately update locally cached birthday information in user.birthday: contacts.getBirthdays</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.getQuickReplies.html" name="messages.getQuickReplies">Fetch basic info about all existing quick reply shortcuts: messages.getQuickReplies</a>
-    * <a href="https://docs.madelineproto.xyz/API_docs/methods/stats.getBroadcastRevenueTransactions.html" name="stats.getBroadcastRevenueTransactions">Fetch channel ad revenue transaction history »: stats.getBroadcastRevenueTransactions</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.getCustomEmojiDocuments.html" name="messages.getCustomEmojiDocuments">Fetch custom emoji stickers »: messages.getCustomEmojiDocuments</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getConnectedStarRefBot.html" name="payments.getConnectedStarRefBot">Fetch info about a specific bot affiliation »: payments.getConnectedStarRefBot</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/fragment.getCollectibleInfo.html" name="fragment.getCollectibleInfo">Fetch information about a fragment collectible, see here » for more info on the full flow: fragment.getCollectibleInfo</a>
@@ -659,7 +658,6 @@ Some of MadelineProto's core components are also available as separate, standalo
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getCachedConfig" name="getCachedConfig">Get cached server-side config: getCachedConfig</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getCallState" name="getCallState">Get call state: getCallState</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.getEmojiKeywordsDifference.html" name="messages.getEmojiKeywordsDifference">Get changed emoji keywords »: messages.getEmojiKeywordsDifference</a>
-    * <a href="https://docs.madelineproto.xyz/API_docs/methods/stats.getBroadcastRevenueStats.html" name="stats.getBroadcastRevenueStats">Get channel ad revenue statistics »: stats.getBroadcastRevenueStats</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/stats.getBroadcastStats.html" name="stats.getBroadcastStats">Get channel statistics: stats.getBroadcastStats</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/channels.getMessages.html" name="channels.getMessages">Get channel/supergroup messages: channels.getMessages</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/channels.getAdminedPublicChannels.html" name="channels.getAdminedPublicChannels">Get channels/supergroups/geogroups we're admin in. Usually called when the user exceeds the limit for owned public channels/supergroups/geogroups, and the user is given the choice to remove one of his channels/supergroups/geogroups: channels.getAdminedPublicChannels</a>
@@ -1203,14 +1201,13 @@ Some of MadelineProto's core components are also available as separate, standalo
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#isIpcWorker" name="isIpcWorker">Whether we're an IPC server process (as opposed to an event handler): isIpcWorker</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#isTestMode" name="isTestMode">Whether we're currently connected to the test DCs: isTestMode</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getStarsRevenueWithdrawalUrl.html" name="payments.getStarsRevenueWithdrawalUrl">Withdraw funds from a channel or bot's star balance »: payments.getStarsRevenueWithdrawalUrl</a>
-    * <a href="https://docs.madelineproto.xyz/API_docs/methods/stats.getBroadcastRevenueWithdrawalUrl.html" name="stats.getBroadcastRevenueWithdrawalUrl">Withdraw funds from a channel's ad revenue balance »: stats.getBroadcastRevenueWithdrawalUrl</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#wrapMessage" name="wrapMessage">Wrap a Message constructor into an abstract Message object: wrapMessage</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#wrapPin" name="wrapPin">Wrap a Pin constructor into an abstract Pinned object: wrapPin</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#wrapMedia" name="wrapMedia">Wrap a media constructor into an abstract Media object: wrapMedia</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#wrapUpdate" name="wrapUpdate">Wrap an Update constructor into an abstract Update object: wrapUpdate</a>
-    * <a href="https://docs.madelineproto.xyz/API_docs/methods/account.addNoPaidMessagesException.html" name="account.addNoPaidMessagesException">account.addNoPaidMessagesException</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/account.getCollectibleEmojiStatuses.html" name="account.getCollectibleEmojiStatuses">account.getCollectibleEmojiStatuses</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/account.getPaidMessagesRevenue.html" name="account.getPaidMessagesRevenue">account.getPaidMessagesRevenue</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/account.toggleNoPaidMessagesException.html" name="account.toggleNoPaidMessagesException">account.toggleNoPaidMessagesException</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#base64urlDecode" name="base64urlDecode">base64URL decode: base64urlDecode</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/bots.getBotRecommendations.html" name="bots.getBotRecommendations">bots.getBotRecommendations</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/bots.setCustomVerification.html" name="bots.setCustomVerification">bots.setCustomVerification</a>
@@ -1219,9 +1216,12 @@ Some of MadelineProto's core components are also available as separate, standalo
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/channels.updatePaidMessagesPrice.html" name="channels.updatePaidMessagesPrice">channels.updatePaidMessagesPrice</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/contacts.getSponsoredPeers.html" name="contacts.getSponsoredPeers">contacts.getSponsoredPeers</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/invokeWithReCaptcha.html" name="invokeWithReCaptcha">invokeWithReCaptcha</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.appendTodoList.html" name="messages.appendTodoList">messages.appendTodoList</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.getSavedDialogsByID.html" name="messages.getSavedDialogsByID">messages.getSavedDialogsByID</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.readSavedHistory.html" name="messages.readSavedHistory">messages.readSavedHistory</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.reportMessagesDelivery.html" name="messages.reportMessagesDelivery">messages.reportMessagesDelivery</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.toggleSuggestedPostApproval.html" name="messages.toggleSuggestedPostApproval">messages.toggleSuggestedPostApproval</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.toggleTodoCompleted.html" name="messages.toggleTodoCompleted">messages.toggleTodoCompleted</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleDecode" name="rleDecode">null-byte RLE decode: rleDecode</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleEncode" name="rleEncode">null-byte RLE encode: rleEncode</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.canPurchaseStore.html" name="payments.canPurchaseStore">payments.canPurchaseStore</a>

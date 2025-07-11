@@ -1,12 +1,12 @@
 ---
-title: "account.getPaidMessagesRevenue"
-description: "account.getPaidMessagesRevenue parameters, return type and example"
+title: "account.toggleNoPaidMessagesException"
+description: "account.toggleNoPaidMessagesException parameters, return type and example"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
-redirect_from: /API_docs/methods/account_getPaidMessagesRevenue.html
+redirect_from: /API_docs/methods/account_toggleNoPaidMessagesException.html
 ---
-# Method: account.getPaidMessagesRevenue
+# Method: account.toggleNoPaidMessagesException
 [Back to methods index](index.html)
 
 
@@ -15,11 +15,13 @@ redirect_from: /API_docs/methods/account_getPaidMessagesRevenue.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
+|refund\_charged|[Bool](/API_docs/types/Bool.html) | Optional|
+|require\_payment|[Bool](/API_docs/types/Bool.html) | Optional|
 |parent\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 |user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
 
 
-### Return type: [account.PaidMessagesRevenue](/API_docs/types/account.PaidMessagesRevenue.html)
+### Return type: [Bool](/API_docs/types/Bool.html)
 
 ### Can userbots use this method: **YES**
 
@@ -38,6 +40,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_PaidMessagesRevenue = $MadelineProto->account->getPaidMessagesRevenue(parent_peer: $InputPeer, user_id: $InputUser, );
+$Bool = $MadelineProto->account->toggleNoPaidMessagesException(refund_charged: $Bool, require_payment: $Bool, parent_peer: $InputPeer, user_id: $InputUser, );
 ```
 

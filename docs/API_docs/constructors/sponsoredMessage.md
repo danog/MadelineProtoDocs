@@ -29,6 +29,8 @@ A [sponsored message](https://core.telegram.org/api/sponsored-messages).
 |button\_text|[string](/API_docs/types/string.html) | Yes|Label of the sponsored message button.|
 |sponsor\_info|[string](/API_docs/types/string.html) | Optional|If set, contains additional information about the sponsor to be shown along with the message.|
 |additional\_info|[string](/API_docs/types/string.html) | Optional|If set, contains additional information about the sponsored message to be shown along with the message.|
+|min\_display\_duration|[int](/API_docs/types/int.html) | Optional|
+|max\_display\_duration|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -98,5 +100,5 @@ pre-formatted fixed-width code block written in the PHP programming language
 ### Example:
 
 ```
-$sponsoredMessage = ['_' => 'sponsoredMessage', 'recommended' => Bool, 'can_report' => Bool, 'random_id' => 'bytes', 'url' => 'string', 'title' => 'string', 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'photo' => Photo, 'media' => MessageMedia, 'color' => PeerColor, 'button_text' => 'string', 'sponsor_info' => 'string', 'additional_info' => 'string'];
+$sponsoredMessage = ['_' => 'sponsoredMessage', 'recommended' => Bool, 'can_report' => Bool, 'random_id' => 'bytes', 'url' => 'string', 'title' => 'string', 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'photo' => Photo, 'media' => MessageMedia, 'color' => PeerColor, 'button_text' => 'string', 'sponsor_info' => 'string', 'additional_info' => 'string', 'min_display_duration' => int, 'max_display_duration' => int];
 ```  

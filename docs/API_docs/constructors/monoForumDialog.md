@@ -14,6 +14,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |unread\_mark|[Bool](/API_docs/types/Bool.html) | Optional|
+|nopaid\_messages\_exception|[Bool](/API_docs/types/Bool.html) | Optional|
 |peer|[long](/API_docs/types/long.html) | Yes|
 |top\_message|[int](/API_docs/types/int.html) | Yes|
 |read\_inbox\_max\_id|[int](/API_docs/types/int.html) | Yes|
@@ -30,5 +31,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$monoForumDialog = ['_' => 'monoForumDialog', 'unread_mark' => Bool, 'peer' => long, 'top_message' => int, 'read_inbox_max_id' => int, 'read_outbox_max_id' => int, 'unread_count' => int, 'unread_reactions_count' => int, 'draft' => DraftMessage];
+$monoForumDialog = ['_' => 'monoForumDialog', 'unread_mark' => Bool, 'nopaid_messages_exception' => Bool, 'peer' => long, 'top_message' => int, 'read_inbox_max_id' => int, 'read_outbox_max_id' => int, 'unread_count' => int, 'unread_reactions_count' => int, 'draft' => DraftMessage];
 ```  

@@ -1,19 +1,17 @@
 ---
-title: StarsAmount
-description: constructors and methods of type StarsAmount
+title: TodoList
+description: constructors and methods of type TodoList
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Type: StarsAmount
+# Type: TodoList
 [Back to types index](index.html)
 
 
 
 ### Possible values (constructors):
 
-[starsAmount](/API_docs/constructors/starsAmount.html)  
-
-[starsTonAmount](/API_docs/constructors/starsTonAmount.html)  
+[todoList](/API_docs/constructors/todoList.html)  
 
 
 

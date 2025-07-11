@@ -25,6 +25,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |availability\_total|[int](/API_docs/types/int.html) | Yes|
 |gift\_address|[string](/API_docs/types/string.html) | Optional|
 |resell\_stars|[long](/API_docs/types/long.html) | Optional|
+|released\_by|[Peer](/API_docs/types/Peer.html) | Optional|
 
 
 
@@ -34,5 +35,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$starGiftUnique = ['_' => 'starGiftUnique', 'id' => long, 'title' => 'string', 'slug' => 'string', 'num' => int, 'owner_id' => Peer, 'owner_name' => 'string', 'owner_address' => 'string', 'attributes' => [StarGiftAttribute, StarGiftAttribute], 'availability_issued' => int, 'availability_total' => int, 'gift_address' => 'string', 'resell_stars' => long];
+$starGiftUnique = ['_' => 'starGiftUnique', 'id' => long, 'title' => 'string', 'slug' => 'string', 'num' => int, 'owner_id' => Peer, 'owner_name' => 'string', 'owner_address' => 'string', 'attributes' => [StarGiftAttribute, StarGiftAttribute], 'availability_issued' => int, 'availability_total' => int, 'gift_address' => 'string', 'resell_stars' => long, 'released_by' => Peer];
 ```  

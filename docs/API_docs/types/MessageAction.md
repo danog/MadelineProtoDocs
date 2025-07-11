@@ -113,6 +113,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageActionConferenceCall](/API_docs/constructors/messageActionConferenceCall.html)  
 
+[messageActionTodoCompletions](/API_docs/constructors/messageActionTodoCompletions.html)  
+
+[messageActionTodoAppendTasks](/API_docs/constructors/messageActionTodoAppendTasks.html)  
+
+[messageActionSuggestedPostApproval](/API_docs/constructors/messageActionSuggestedPostApproval.html)  
+
+[messageActionSuggestedPostSuccess](/API_docs/constructors/messageActionSuggestedPostSuccess.html)  
+
+[messageActionSuggestedPostRefund](/API_docs/constructors/messageActionSuggestedPostRefund.html)  
+
+[messageActionGiftTon](/API_docs/constructors/messageActionGiftTon.html)  
+
 
 
 ### Methods that return an object of this type (methods):

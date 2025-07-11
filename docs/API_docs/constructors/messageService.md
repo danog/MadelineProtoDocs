@@ -25,6 +25,7 @@ Indicates a service message
 |id|[int](/API_docs/types/int.html) | Yes|Message ID|
 |from\_id|[Peer](/API_docs/types/Peer.html) | Optional|ID of the sender of this message|
 |peer\_id|[Peer](/API_docs/types/Peer.html) | Yes|Sender of service message|
+|saved\_peer\_id|[Peer](/API_docs/types/Peer.html) | Optional|
 |reply\_to|[MessageReplyHeader](/API_docs/types/MessageReplyHeader.html) | Optional|Reply (thread) information|
 |date|[int](/API_docs/types/int.html) | Yes|Message date|
 |action|[MessageAction](/API_docs/types/MessageAction.html) | Optional|Event connected with the service message|
@@ -39,5 +40,5 @@ Indicates a service message
 ### Example:
 
 ```
-$messageService = ['_' => 'messageService', 'out' => Bool, 'mentioned' => Bool, 'media_unread' => Bool, 'reactions_are_possible' => Bool, 'silent' => Bool, 'post' => Bool, 'legacy' => Bool, 'id' => int, 'from_id' => Peer, 'peer_id' => Peer, 'reply_to' => MessageReplyHeader, 'date' => int, 'action' => MessageAction, 'reactions' => MessageReactions, 'ttl_period' => int];
+$messageService = ['_' => 'messageService', 'out' => Bool, 'mentioned' => Bool, 'media_unread' => Bool, 'reactions_are_possible' => Bool, 'silent' => Bool, 'post' => Bool, 'legacy' => Bool, 'id' => int, 'from_id' => Peer, 'peer_id' => Peer, 'saved_peer_id' => Peer, 'reply_to' => MessageReplyHeader, 'date' => int, 'action' => MessageAction, 'reactions' => MessageReactions, 'ttl_period' => int];
 ```  

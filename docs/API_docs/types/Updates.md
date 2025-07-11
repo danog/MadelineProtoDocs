@@ -138,6 +138,12 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->messages->getPaidReactionPrivacy](/API_docs/methods/messages.getPaidReactionPrivacy.html)  
 
+[$MadelineProto->messages->toggleTodoCompleted](/API_docs/methods/messages.toggleTodoCompleted.html)  
+
+[$MadelineProto->messages->appendTodoList](/API_docs/methods/messages.appendTodoList.html)  
+
+[$MadelineProto->messages->toggleSuggestedPostApproval](/API_docs/methods/messages.toggleSuggestedPostApproval.html)  
+
 [$MadelineProto->channels->createChannel](/API_docs/methods/channels.createChannel.html)  
 
 [$MadelineProto->channels->editAdmin](/API_docs/methods/channels.editAdmin.html)  

@@ -48,6 +48,8 @@ You can also provide a [MessageMedia](MessageMedia.html), [Message](Message.html
 
 [inputMediaPaidMedia](/API_docs/constructors/inputMediaPaidMedia.html)  
 
+[inputMediaTodo](/API_docs/constructors/inputMediaTodo.html)  
+
 
 
 ### Methods that return an object of this type (methods):

@@ -18,6 +18,7 @@ Get [Telegram Star revenue statistics »](https://core.telegram.org/api/stars).
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |dark|[Bool](/API_docs/types/Bool.html) | Whether to enable dark theme for graph colors | Optional|
+|ton|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Get statistics for the specified bot, channel or ourselves ([inputPeerSelf](../constructors/inputPeerSelf.html)). | Optional|
 
 
@@ -40,6 +41,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$payments_StarsRevenueStats = $MadelineProto->payments->getStarsRevenueStats(dark: $Bool, peer: $InputPeer, );
+$payments_StarsRevenueStats = $MadelineProto->payments->getStarsRevenueStats(dark: $Bool, ton: $Bool, peer: $InputPeer, );
 ```
 

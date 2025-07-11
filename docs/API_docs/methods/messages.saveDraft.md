@@ -26,6 +26,7 @@ Save a message [draft](https://core.telegram.org/api/drafts) associated to a cha
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
 |media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) | Attached media | Optional|
 |effect|[long](/API_docs/types/long.html) | Specifies a [message effect »](https://core.telegram.org/api/effects) to use for the message. | Optional|
+|suggested\_post|[SuggestedPost](/API_docs/types/SuggestedPost.html) |  | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
@@ -47,7 +48,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->messages->saveDraft(no_webpage: $Bool, invert_media: $Bool, reply_to: $InputReplyTo, peer: $InputPeer, message: 'string', entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', media: $InputMedia, effect: $long, );
+$Bool = $MadelineProto->messages->saveDraft(no_webpage: $Bool, invert_media: $Bool, reply_to: $InputReplyTo, peer: $InputPeer, message: 'string', entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', media: $InputMedia, effect: $long, suggested_post: $SuggestedPost, );
 ```
 
 

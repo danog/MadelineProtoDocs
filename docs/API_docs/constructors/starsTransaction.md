@@ -24,7 +24,7 @@ Represents a [Telegram Stars transaction »](https://core.telegram.org/api/stars
 |business\_transfer|[Bool](/API_docs/types/Bool.html) | Optional|
 |stargift\_resale|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[string](/API_docs/types/string.html) | Yes|Transaction ID.|
-|stars|[StarsAmount](/API_docs/types/StarsAmount.html) | Yes|Amount of Stars (negative for outgoing transactions).|
+|amount|[StarsAmount](/API_docs/types/StarsAmount.html) | Yes|
 |date|[int](/API_docs/types/int.html) | Yes|Date of the transaction (unixtime).|
 |peer|[StarsTransactionPeer](/API_docs/types/StarsTransactionPeer.html) | Yes|Source of the incoming transaction, or its recipient for outgoing transactions.|
 |title|[string](/API_docs/types/string.html) | Optional|For transactions with bots, title of the bought product.|
@@ -44,6 +44,8 @@ Represents a [Telegram Stars transaction »](https://core.telegram.org/api/stars
 |starref\_amount|[StarsAmount](/API_docs/types/StarsAmount.html) | Optional|For transactions made by [referred users](https://core.telegram.org/api/bots/referrals), the amount of Telegram Stars received by the affiliate, can be negative for refunds.|
 |paid\_messages|[int](/API_docs/types/int.html) | Optional|
 |premium\_gift\_months|[int](/API_docs/types/int.html) | Optional|
+|ads\_proceeds\_from\_date|[int](/API_docs/types/int.html) | Optional|
+|ads\_proceeds\_to\_date|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -53,5 +55,5 @@ Represents a [Telegram Stars transaction »](https://core.telegram.org/api/stars
 ### Example:
 
 ```
-$starsTransaction = ['_' => 'starsTransaction', 'refund' => Bool, 'pending' => Bool, 'failed' => Bool, 'gift' => Bool, 'reaction' => Bool, 'stargift_upgrade' => Bool, 'business_transfer' => Bool, 'stargift_resale' => Bool, 'id' => 'string', 'stars' => StarsAmount, 'date' => int, 'peer' => StarsTransactionPeer, 'title' => 'string', 'description' => 'string', 'photo' => WebDocument, 'transaction_date' => int, 'transaction_url' => 'string', 'bot_payload' => 'bytes', 'msg_id' => int, 'extended_media' => [MessageMedia, MessageMedia], 'subscription_period' => int, 'giveaway_post_id' => int, 'stargift' => StarGift, 'floodskip_number' => int, 'starref_commission_permille' => int, 'starref_peer' => Peer, 'starref_amount' => StarsAmount, 'paid_messages' => int, 'premium_gift_months' => int];
+$starsTransaction = ['_' => 'starsTransaction', 'refund' => Bool, 'pending' => Bool, 'failed' => Bool, 'gift' => Bool, 'reaction' => Bool, 'stargift_upgrade' => Bool, 'business_transfer' => Bool, 'stargift_resale' => Bool, 'id' => 'string', 'amount' => StarsAmount, 'date' => int, 'peer' => StarsTransactionPeer, 'title' => 'string', 'description' => 'string', 'photo' => WebDocument, 'transaction_date' => int, 'transaction_url' => 'string', 'bot_payload' => 'bytes', 'msg_id' => int, 'extended_media' => [MessageMedia, MessageMedia], 'subscription_period' => int, 'giveaway_post_id' => int, 'stargift' => StarGift, 'floodskip_number' => int, 'starref_commission_permille' => int, 'starref_peer' => Peer, 'starref_amount' => StarsAmount, 'paid_messages' => int, 'premium_gift_months' => int, 'ads_proceeds_from_date' => int, 'ads_proceeds_to_date' => int];
 ```  

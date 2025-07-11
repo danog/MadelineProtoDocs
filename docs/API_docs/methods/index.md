@@ -482,8 +482,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getQuickReplies.html" name="messages.getQuickReplies">Fetch basic info about all existing quick reply shortcuts: messages.getQuickReplies</a>
 
-* <a href="stats.getBroadcastRevenueTransactions.html" name="stats.getBroadcastRevenueTransactions">Fetch channel ad revenue transaction history »: stats.getBroadcastRevenueTransactions</a>
-
 * <a href="messages.getCustomEmojiDocuments.html" name="messages.getCustomEmojiDocuments">Fetch custom emoji stickers »: messages.getCustomEmojiDocuments</a>
 
 * <a href="payments.getConnectedStarRefBot.html" name="payments.getConnectedStarRefBot">Fetch info about a specific bot affiliation »: payments.getConnectedStarRefBot</a>
@@ -617,8 +615,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getCallState" name="getCallState">Get call state: getCallState</a>
 
 * <a href="messages.getEmojiKeywordsDifference.html" name="messages.getEmojiKeywordsDifference">Get changed emoji keywords »: messages.getEmojiKeywordsDifference</a>
-
-* <a href="stats.getBroadcastRevenueStats.html" name="stats.getBroadcastRevenueStats">Get channel ad revenue statistics »: stats.getBroadcastRevenueStats</a>
 
 * <a href="stats.getBroadcastStats.html" name="stats.getBroadcastStats">Get channel statistics: stats.getBroadcastStats</a>
 
@@ -1706,8 +1702,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="payments.getStarsRevenueWithdrawalUrl.html" name="payments.getStarsRevenueWithdrawalUrl">Withdraw funds from a channel or bot's star balance »: payments.getStarsRevenueWithdrawalUrl</a>
 
-* <a href="stats.getBroadcastRevenueWithdrawalUrl.html" name="stats.getBroadcastRevenueWithdrawalUrl">Withdraw funds from a channel's ad revenue balance »: stats.getBroadcastRevenueWithdrawalUrl</a>
-
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#wrapMessage" name="wrapMessage">Wrap a Message constructor into an abstract Message object: wrapMessage</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#wrapPin" name="wrapPin">Wrap a Pin constructor into an abstract Pinned object: wrapPin</a>
@@ -1788,11 +1782,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.updatePasswordSettings.html" name="account.updatePasswordSettings">You cannot use this method directly; use $MadelineProto->update2fa($params), instead (see https://docs.madelineproto.xyz for more info): account.updatePasswordSettings</a>
 
-* <a href="account.addNoPaidMessagesException.html" name="account.addNoPaidMessagesException">account.addNoPaidMessagesException</a>
-
 * <a href="account.getCollectibleEmojiStatuses.html" name="account.getCollectibleEmojiStatuses">account.getCollectibleEmojiStatuses</a>
 
 * <a href="account.getPaidMessagesRevenue.html" name="account.getPaidMessagesRevenue">account.getPaidMessagesRevenue</a>
+
+* <a href="account.toggleNoPaidMessagesException.html" name="account.toggleNoPaidMessagesException">account.toggleNoPaidMessagesException</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#base64urlDecode" name="base64urlDecode">base64URL decode: base64urlDecode</a>
 
@@ -1810,11 +1804,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="invokeWithReCaptcha.html" name="invokeWithReCaptcha">invokeWithReCaptcha</a>
 
+* <a href="messages.appendTodoList.html" name="messages.appendTodoList">messages.appendTodoList</a>
+
 * <a href="messages.getSavedDialogsByID.html" name="messages.getSavedDialogsByID">messages.getSavedDialogsByID</a>
 
 * <a href="messages.readSavedHistory.html" name="messages.readSavedHistory">messages.readSavedHistory</a>
 
 * <a href="messages.reportMessagesDelivery.html" name="messages.reportMessagesDelivery">messages.reportMessagesDelivery</a>
+
+* <a href="messages.toggleSuggestedPostApproval.html" name="messages.toggleSuggestedPostApproval">messages.toggleSuggestedPostApproval</a>
+
+* <a href="messages.toggleTodoCompleted.html" name="messages.toggleTodoCompleted">messages.toggleTodoCompleted</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleDecode" name="rleDecode">null-byte RLE decode: rleDecode</a>
 

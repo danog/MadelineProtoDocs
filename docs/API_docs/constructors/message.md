@@ -28,6 +28,8 @@ A message
 |invert\_media|[Bool](/API_docs/types/Bool.html) | Optional|If set, any eventual webpage preview will be shown on top of the message instead of at the bottom.|
 |offline|[Bool](/API_docs/types/Bool.html) | Optional|
 |video\_processing\_pending|[Bool](/API_docs/types/Bool.html) | Optional|
+|paid\_suggested\_post\_stars|[Bool](/API_docs/types/Bool.html) | Optional|
+|paid\_suggested\_post\_ton|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[int](/API_docs/types/int.html) | Yes|ID of the message|
 |from\_id|[Peer](/API_docs/types/Peer.html) | Optional|ID of the sender of the message|
 |from\_boosts\_applied|[int](/API_docs/types/int.html) | Optional|Supergroups only, contains the number of [boosts](https://core.telegram.org/api/boost) this user has given the current supergroup, and should be shown in the UI in the header of the message. <br>Only present for incoming messages from non-anonymous supergroup members that have boosted the supergroup. <br>Note that this counter should be locally overridden for non-anonymous *outgoing* messages, according to the current value of [channelFull](../constructors/channelFull.html).`boosts_applied`, to ensure the value is correct even for messages sent by the current user before a supergroup was boosted (or after a boost has expired or the number of boosts has changed); do not update this value for incoming messages from other users, even if their boosts have changed.|
@@ -57,6 +59,7 @@ A message
 |factcheck|[FactCheck](/API_docs/types/FactCheck.html) | Optional|
 |report\_delivery\_until\_date|[int](/API_docs/types/int.html) | Optional|
 |paid\_message\_stars|[long](/API_docs/types/long.html) | Optional|
+|suggested\_post|[SuggestedPost](/API_docs/types/SuggestedPost.html) | Optional|
 
 
 
@@ -126,5 +129,5 @@ pre-formatted fixed-width code block written in the PHP programming language
 ### Example:
 
 ```
-$message = ['_' => 'message', 'out' => Bool, 'mentioned' => Bool, 'media_unread' => Bool, 'silent' => Bool, 'post' => Bool, 'from_scheduled' => Bool, 'legacy' => Bool, 'edit_hide' => Bool, 'pinned' => Bool, 'noforwards' => Bool, 'invert_media' => Bool, 'offline' => Bool, 'video_processing_pending' => Bool, 'id' => int, 'from_id' => Peer, 'from_boosts_applied' => int, 'peer_id' => Peer, 'saved_peer_id' => Peer, 'fwd_from' => MessageFwdHeader, 'via_bot_id' => long, 'via_business_bot_id' => long, 'reply_to' => MessageReplyHeader, 'date' => int, 'message' => 'string', 'media' => MessageMedia, 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'views' => int, 'forwards' => int, 'replies' => MessageReplies, 'edit_date' => int, 'post_author' => 'string', 'grouped_id' => long, 'reactions' => MessageReactions, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'ttl_period' => int, 'quick_reply_shortcut_id' => int, 'effect' => long, 'factcheck' => FactCheck, 'report_delivery_until_date' => int, 'paid_message_stars' => long];
+$message = ['_' => 'message', 'out' => Bool, 'mentioned' => Bool, 'media_unread' => Bool, 'silent' => Bool, 'post' => Bool, 'from_scheduled' => Bool, 'legacy' => Bool, 'edit_hide' => Bool, 'pinned' => Bool, 'noforwards' => Bool, 'invert_media' => Bool, 'offline' => Bool, 'video_processing_pending' => Bool, 'paid_suggested_post_stars' => Bool, 'paid_suggested_post_ton' => Bool, 'id' => int, 'from_id' => Peer, 'from_boosts_applied' => int, 'peer_id' => Peer, 'saved_peer_id' => Peer, 'fwd_from' => MessageFwdHeader, 'via_bot_id' => long, 'via_business_bot_id' => long, 'reply_to' => MessageReplyHeader, 'date' => int, 'message' => 'string', 'media' => MessageMedia, 'reply_markup' => ReplyMarkup, 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'views' => int, 'forwards' => int, 'replies' => MessageReplies, 'edit_date' => int, 'post_author' => 'string', 'grouped_id' => long, 'reactions' => MessageReactions, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'ttl_period' => int, 'quick_reply_shortcut_id' => int, 'effect' => long, 'factcheck' => FactCheck, 'report_delivery_until_date' => int, 'paid_message_stars' => long, 'suggested_post' => SuggestedPost];
 ```  

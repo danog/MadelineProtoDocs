@@ -33,6 +33,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [inputStickerSetEmojiChannelDefaultStatuses](/API_docs/constructors/inputStickerSetEmojiChannelDefaultStatuses.html)  
 
+[inputStickerSetTonGifts](/API_docs/constructors/inputStickerSetTonGifts.html)  
+
 
 
 ### Methods that return an object of this type (methods):

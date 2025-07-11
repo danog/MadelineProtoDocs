@@ -17,8 +17,9 @@ Withdraw funds from a channel or bot's [star balance »](https://core.telegram.o
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
+|ton|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Channel or bot from which to withdraw funds. | Optional|
-|stars|[long](/API_docs/types/long.html) | Amount of stars to withdraw. | Yes|
+|amount|[long](/API_docs/types/long.html) |  | Optional|
 |password|[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html) | 2FA password, see [here »](https://core.telegram.org/api/srp#using-the-2fa-password) for more info. | Yes|
 
 
@@ -41,6 +42,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$payments_StarsRevenueWithdrawalUrl = $MadelineProto->payments->getStarsRevenueWithdrawalUrl(peer: $InputPeer, stars: $long, password: $InputCheckPasswordSRP, );
+$payments_StarsRevenueWithdrawalUrl = $MadelineProto->payments->getStarsRevenueWithdrawalUrl(ton: $Bool, peer: $InputPeer, amount: $long, password: $InputCheckPasswordSRP, );
 ```
 

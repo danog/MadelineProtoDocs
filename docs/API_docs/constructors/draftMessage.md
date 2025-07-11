@@ -24,6 +24,7 @@ Represents a message [draft](https://core.telegram.org/api/drafts).
 |media|[InputMedia](/API_docs/types/InputMedia.html) | Optional|Media.|
 |date|[int](/API_docs/types/int.html) | Yes|Date of last update of the draft.|
 |effect|[long](/API_docs/types/long.html) | Optional|A [message effect that should be played as specified here »](https://core.telegram.org/api/effects).|
+|suggested\_post|[SuggestedPost](/API_docs/types/SuggestedPost.html) | Optional|
 
 
 
@@ -93,5 +94,5 @@ pre-formatted fixed-width code block written in the PHP programming language
 ### Example:
 
 ```
-$draftMessage = ['_' => 'draftMessage', 'no_webpage' => Bool, 'invert_media' => Bool, 'reply_to' => InputReplyTo, 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'media' => InputMedia, 'date' => int, 'effect' => long];
+$draftMessage = ['_' => 'draftMessage', 'no_webpage' => Bool, 'invert_media' => Bool, 'reply_to' => InputReplyTo, 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'media' => InputMedia, 'date' => int, 'effect' => long, 'suggested_post' => SuggestedPost];
 ```  

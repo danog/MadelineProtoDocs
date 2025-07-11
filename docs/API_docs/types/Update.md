@@ -281,8 +281,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateNewStoryReaction](/API_docs/constructors/updateNewStoryReaction.html)  
 
-[updateBroadcastRevenueTransactions](/API_docs/constructors/updateBroadcastRevenueTransactions.html)  
-
 [updateStarsBalance](/API_docs/constructors/updateStarsBalance.html)  
 
 [updateBusinessBotCallbackQuery](/API_docs/constructors/updateBusinessBotCallbackQuery.html)  
@@ -300,6 +298,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [updateReadMonoForumInbox](/API_docs/constructors/updateReadMonoForumInbox.html)  
 
 [updateReadMonoForumOutbox](/API_docs/constructors/updateReadMonoForumOutbox.html)  
+
+[updateMonoForumNoPaidException](/API_docs/constructors/updateMonoForumNoPaidException.html)  
 
 
 

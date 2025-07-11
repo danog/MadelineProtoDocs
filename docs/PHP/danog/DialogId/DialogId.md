@@ -25,7 +25,7 @@ Represents the type of a bot API dialog ID.
 
 * `danog\DialogId\DialogId::SECRET_CHAT`: Dialog type: secret chat.
 
-* `danog\DialogId\DialogId::MONOFORUM`: Dialog type: monoforum.
+* `danog\DialogId\DialogId::MINIFORUM`: Dialog type: miniforum.
 
 ## Properties
 * `$name`: `string` 
@@ -33,8 +33,8 @@ Represents the type of a bot API dialog ID.
 ## Method list:
 * [`getType(integer $id): self`](#getType)
 * [`isSupergroupOrChannel(int $id): bool`](#isSupergroupOrChannel)
-* [`isSupergroupOrChannelOrMonoforum(int $id): bool`](#isSupergroupOrChannelOrMonoforum)
-* [`isMonoforum(int $id): bool`](#isMonoforum)
+* [`isSupergroupOrChannelOrMiniforum(int $id): bool`](#isSupergroupOrChannelOrMiniforum)
+* [`isMiniforum(int $id): bool`](#isMiniforum)
 * [`isChat(int $id): bool`](#isChat)
 * [`isUser(int $id): bool`](#isUser)
 * [`isSecretChat(int $id): bool`](#isSecretChat)
@@ -44,8 +44,8 @@ Represents the type of a bot API dialog ID.
 * [`toSupergroupOrChannelId(int $id): int`](#toSupergroupOrChannelId)
 * [`fromChatId(int $id): int`](#fromChatId)
 * [`toChatId(int $id): int`](#toChatId)
-* [`fromMonoforumId(int $id): int`](#fromMonoforumId)
-* [`toMonoforumId(int $id): int`](#toMonoforumId)
+* [`fromMiniforumId(int $id): int`](#fromMiniforumId)
+* [`toMiniforumId(int $id): int`](#toMiniforumId)
 * [`fromUserId(int $id): int`](#fromUserId)
 * [`toUserId(int $id): int`](#toUserId)
 * [`toMTProtoId(int $id): int`](#toMTProtoId)
@@ -74,9 +74,9 @@ Parameters:
 
 
 
-### <a name="isSupergroupOrChannelOrMonoforum"></a> `isSupergroupOrChannelOrMonoforum(int $id): bool`
+### <a name="isSupergroupOrChannelOrMiniforum"></a> `isSupergroupOrChannelOrMiniforum(int $id): bool`
 
-Checks whether the provided bot API ID is a supergroup, channel or monoforum.
+Checks whether the provided bot API ID is a supergroup, channel or miniforum.
 
 
 Parameters:
@@ -85,9 +85,9 @@ Parameters:
 
 
 
-### <a name="isMonoforum"></a> `isMonoforum(int $id): bool`
+### <a name="isMiniforum"></a> `isMiniforum(int $id): bool`
 
-Checks whether the provided bot API ID is a monoforum.
+Checks whether the provided bot API ID is a miniforum.
 
 
 Parameters:
@@ -199,25 +199,25 @@ Parameters:
 
 
 
-### <a name="fromMonoforumId"></a> `fromMonoforumId(int $id): int`
+### <a name="fromMiniforumId"></a> `fromMiniforumId(int $id): int`
 
-Convert MTProto monoforum ID to bot API monoforum ID.
-
-
-Parameters:
-
-* `$id`: `int` MTProto monoforum ID  
-
-
-
-### <a name="toMonoforumId"></a> `toMonoforumId(int $id): int`
-
-Convert bot API monoforum ID to MTProto monoforum ID.
+Convert MTProto miniforum ID to bot API miniforum ID.
 
 
 Parameters:
 
-* `$id`: `int` Bot API monoforum ID  
+* `$id`: `int` MTProto miniforum ID  
+
+
+
+### <a name="toMiniforumId"></a> `toMiniforumId(int $id): int`
+
+Convert bot API miniforum ID to MTProto miniforum ID.
+
+
+Parameters:
+
+* `$id`: `int` Bot API miniforum ID  
 
 
 

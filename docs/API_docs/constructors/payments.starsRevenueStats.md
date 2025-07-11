@@ -18,6 +18,7 @@ Note that all balances and currency amounts and graph values are in Stars.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|top\_hours\_graph|[StatsGraph](/API_docs/types/StatsGraph.html) | Optional|
 |revenue\_graph|[StatsGraph](/API_docs/types/StatsGraph.html) | Yes|Star revenue graph (number of earned stars)|
 |status|[StarsRevenueStatus](/API_docs/types/StarsRevenueStatus.html) | Yes|Current balance, current withdrawable balance and overall earned Telegram Stars|
 |usd\_rate|[double](/API_docs/types/double.html) | Yes|Current conversion rate of Telegram Stars to USD|
@@ -30,5 +31,5 @@ Note that all balances and currency amounts and graph values are in Stars.
 ### Example:
 
 ```
-$payments_starsRevenueStats = ['_' => 'payments.starsRevenueStats', 'revenue_graph' => StatsGraph, 'status' => StarsRevenueStatus, 'usd_rate' => double];
+$payments_starsRevenueStats = ['_' => 'payments.starsRevenueStats', 'top_hours_graph' => StatsGraph, 'revenue_graph' => StatsGraph, 'status' => StarsRevenueStatus, 'usd_rate' => double];
 ```  

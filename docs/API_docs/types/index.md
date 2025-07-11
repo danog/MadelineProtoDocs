@@ -67,10 +67,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [BotVerifierSettings](/API_docs/types/BotVerifierSettings.html)<a name="BotVerifierSettings"></a>  
 
-[BroadcastRevenueBalances](/API_docs/types/BroadcastRevenueBalances.html)<a name="BroadcastRevenueBalances"></a>  
-
-[BroadcastRevenueTransaction](/API_docs/types/BroadcastRevenueTransaction.html)<a name="BroadcastRevenueTransaction"></a>  
-
 [BusinessAwayMessage](/API_docs/types/BusinessAwayMessage.html)<a name="BusinessAwayMessage"></a>  
 
 [BusinessAwayMessageSchedule](/API_docs/types/BusinessAwayMessageSchedule.html)<a name="BusinessAwayMessageSchedule"></a>  
@@ -667,6 +663,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [StoryViews](/API_docs/types/StoryViews.html)<a name="StoryViews"></a>  
 
+[SuggestedPost](/API_docs/types/SuggestedPost.html)<a name="SuggestedPost"></a>  
+
 [TextWithEntities](/API_docs/types/TextWithEntities.html)<a name="TextWithEntities"></a>  
 
 [Theme](/API_docs/types/Theme.html)<a name="Theme"></a>  
@@ -674,6 +672,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [ThemeSettings](/API_docs/types/ThemeSettings.html)<a name="ThemeSettings"></a>  
 
 [Timezone](/API_docs/types/Timezone.html)<a name="Timezone"></a>  
+
+[TodoCompletion](/API_docs/types/TodoCompletion.html)<a name="TodoCompletion"></a>  
+
+[TodoItem](/API_docs/types/TodoItem.html)<a name="TodoItem"></a>  
+
+[TodoList](/API_docs/types/TodoList.html)<a name="TodoList"></a>  
 
 [TopPeer](/API_docs/types/TopPeer.html)<a name="TopPeer"></a>  
 
@@ -1060,12 +1064,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [smsjobs.EligibilityToJoin](/API_docs/types/smsjobs.EligibilityToJoin.html)<a name="smsjobs.EligibilityToJoin"></a>  
 
 [smsjobs.Status](/API_docs/types/smsjobs.Status.html)<a name="smsjobs.Status"></a>  
-
-[stats.BroadcastRevenueStats](/API_docs/types/stats.BroadcastRevenueStats.html)<a name="stats.BroadcastRevenueStats"></a>  
-
-[stats.BroadcastRevenueTransactions](/API_docs/types/stats.BroadcastRevenueTransactions.html)<a name="stats.BroadcastRevenueTransactions"></a>  
-
-[stats.BroadcastRevenueWithdrawalUrl](/API_docs/types/stats.BroadcastRevenueWithdrawalUrl.html)<a name="stats.BroadcastRevenueWithdrawalUrl"></a>  
 
 [stats.BroadcastStats](/API_docs/types/stats.BroadcastStats.html)<a name="stats.BroadcastStats"></a>  
 

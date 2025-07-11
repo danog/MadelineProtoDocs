@@ -1,12 +1,12 @@
 ---
-title: "account.getPaidMessagesRevenue"
-description: "account.getPaidMessagesRevenue parameters, return type and example"
+title: "messages.appendTodoList"
+description: "messages.appendTodoList parameters, return type and example"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
-redirect_from: /API_docs/methods/account_getPaidMessagesRevenue.html
+redirect_from: /API_docs/methods/messages_appendTodoList.html
 ---
-# Method: account.getPaidMessagesRevenue
+# Method: messages.appendTodoList
 [Back to methods index](index.html)
 
 
@@ -15,11 +15,12 @@ redirect_from: /API_docs/methods/account_getPaidMessagesRevenue.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|parent\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | Optional|
+|list|Array of [TodoItem](/API_docs/types/TodoItem.html) | Yes|
 
 
-### Return type: [account.PaidMessagesRevenue](/API_docs/types/account.PaidMessagesRevenue.html)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can userbots use this method: **YES**
 
@@ -38,6 +39,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$account_PaidMessagesRevenue = $MadelineProto->account->getPaidMessagesRevenue(parent_peer: $InputPeer, user_id: $InputUser, );
+$Updates = $MadelineProto->messages->appendTodoList(peer: $InputPeer, msg_id: $int, list: [$TodoItem, $TodoItem], );
 ```
 
