@@ -26,6 +26,7 @@ Message replies and [thread](https://core.telegram.org/api/threads) information
 |quote\_text|[string](/API_docs/types/string.html) | Optional|Used to quote-reply to only a certain section (specified here) of the original message.|
 |quote\_entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Optional|[Message entities for styled text](https://core.telegram.org/api/entities) from the `quote_text` field.|
 |quote\_offset|[int](/API_docs/types/int.html) | Optional|Offset of the message `quote_text` within the original message (in [UTF-16 code units](https://core.telegram.org/api/entities#entity-length)).|
+|todo\_item\_id|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -35,5 +36,5 @@ Message replies and [thread](https://core.telegram.org/api/threads) information
 ### Example:
 
 ```
-$messageReplyHeader = ['_' => 'messageReplyHeader', 'reply_to_scheduled' => Bool, 'forum_topic' => Bool, 'quote' => Bool, 'reply_to_msg_id' => int, 'reply_to_peer_id' => Peer, 'reply_from' => MessageFwdHeader, 'reply_media' => MessageMedia, 'reply_to_top_id' => int, 'quote_text' => 'string', 'quote_entities' => [MessageEntity, MessageEntity], 'quote_offset' => int];
+$messageReplyHeader = ['_' => 'messageReplyHeader', 'reply_to_scheduled' => Bool, 'forum_topic' => Bool, 'quote' => Bool, 'reply_to_msg_id' => int, 'reply_to_peer_id' => Peer, 'reply_from' => MessageFwdHeader, 'reply_media' => MessageMedia, 'reply_to_top_id' => int, 'quote_text' => 'string', 'quote_entities' => [MessageEntity, MessageEntity], 'quote_offset' => int, 'todo_item_id' => int];
 ```  
