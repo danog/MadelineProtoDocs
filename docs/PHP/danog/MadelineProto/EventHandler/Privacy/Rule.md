@@ -37,6 +37,8 @@ Represents a privacy rule.
 
 * `danog\MadelineProto\EventHandler\Privacy\Rule::ABOUT`: Whether the user can see our bio.
 
+* `danog\MadelineProto\EventHandler\Privacy\Rule::MESSAGES_WITHOUT_PAYING`: Whether the user can send us messages without paying.
+
 ## Properties
 * `$name`: `string` 
 * `$value`: `string` 
