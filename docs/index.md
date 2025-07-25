@@ -1225,15 +1225,20 @@ Some of MadelineProto's core components are also available as separate, standalo
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleDecode" name="rleDecode">null-byte RLE decode: rleDecode</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleEncode" name="rleEncode">null-byte RLE encode: rleEncode</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.canPurchaseStore.html" name="payments.canPurchaseStore">payments.canPurchaseStore</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.createStarGiftCollection.html" name="payments.createStarGiftCollection">payments.createStarGiftCollection</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.deleteStarGiftCollection.html" name="payments.deleteStarGiftCollection">payments.deleteStarGiftCollection</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getResaleStarGifts.html" name="payments.getResaleStarGifts">payments.getResaleStarGifts</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getSavedStarGift.html" name="payments.getSavedStarGift">payments.getSavedStarGift</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getSavedStarGifts.html" name="payments.getSavedStarGifts">payments.getSavedStarGifts</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getStarGiftCollections.html" name="payments.getStarGiftCollections">payments.getStarGiftCollections</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getStarGiftUpgradePreview.html" name="payments.getStarGiftUpgradePreview">payments.getStarGiftUpgradePreview</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getStarGiftWithdrawalUrl.html" name="payments.getStarGiftWithdrawalUrl">payments.getStarGiftWithdrawalUrl</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getUniqueStarGift.html" name="payments.getUniqueStarGift">payments.getUniqueStarGift</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.reorderStarGiftCollections.html" name="payments.reorderStarGiftCollections">payments.reorderStarGiftCollections</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.toggleChatStarGiftNotifications.html" name="payments.toggleChatStarGiftNotifications">payments.toggleChatStarGiftNotifications</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.toggleStarGiftsPinnedToTop.html" name="payments.toggleStarGiftsPinnedToTop">payments.toggleStarGiftsPinnedToTop</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.transferStarGift.html" name="payments.transferStarGift">payments.transferStarGift</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.updateStarGiftCollection.html" name="payments.updateStarGiftCollection">payments.updateStarGiftCollection</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.updateStarGiftPrice.html" name="payments.updateStarGiftPrice">payments.updateStarGiftPrice</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.upgradeStarGift.html" name="payments.upgradeStarGift">payments.upgradeStarGift</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/phone.createConferenceCall.html" name="phone.createConferenceCall">phone.createConferenceCall</a>

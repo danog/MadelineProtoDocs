@@ -18,6 +18,8 @@ Represents a [star gift, see here »](https://core.telegram.org/api/gifts) for m
 |limited|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a limited-supply gift.|
 |sold\_out|[Bool](/API_docs/types/Bool.html) | Optional|Whether this gift sold out and cannot be bought anymore.|
 |birthday|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a birthday-themed gift|
+|require\_premium|[Bool](/API_docs/types/Bool.html) | Optional|
+|limited\_per\_user|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[long](/API_docs/types/long.html) | Yes|Identifier of the gift|
 |sticker|[Document](/API_docs/types/Document.html) | Optional|[Sticker](https://core.telegram.org/api/stickers) that represents the gift.|
 |stars|[long](/API_docs/types/long.html) | Yes|Price of the gift in [Telegram Stars](https://core.telegram.org/api/stars).|
@@ -31,6 +33,8 @@ Represents a [star gift, see here »](https://core.telegram.org/api/gifts) for m
 |resell\_min\_stars|[long](/API_docs/types/long.html) | Optional|
 |title|[string](/API_docs/types/string.html) | Optional|
 |released\_by|[Peer](/API_docs/types/Peer.html) | Optional|
+|per\_user\_total|[int](/API_docs/types/int.html) | Optional|
+|per\_user\_remains|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -40,5 +44,5 @@ Represents a [star gift, see here »](https://core.telegram.org/api/gifts) for m
 ### Example:
 
 ```
-$starGift = ['_' => 'starGift', 'limited' => Bool, 'sold_out' => Bool, 'birthday' => Bool, 'id' => long, 'sticker' => Document, 'stars' => long, 'availability_remains' => int, 'availability_total' => int, 'availability_resale' => long, 'convert_stars' => long, 'first_sale_date' => int, 'last_sale_date' => int, 'upgrade_stars' => long, 'resell_min_stars' => long, 'title' => 'string', 'released_by' => Peer];
+$starGift = ['_' => 'starGift', 'limited' => Bool, 'sold_out' => Bool, 'birthday' => Bool, 'require_premium' => Bool, 'limited_per_user' => Bool, 'id' => long, 'sticker' => Document, 'stars' => long, 'availability_remains' => int, 'availability_total' => int, 'availability_resale' => long, 'convert_stars' => long, 'first_sale_date' => int, 'last_sale_date' => int, 'upgrade_stars' => long, 'resell_min_stars' => long, 'title' => 'string', 'released_by' => Peer, 'per_user_total' => int, 'per_user_remains' => int];
 ```  

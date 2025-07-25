@@ -2249,6 +2249,14 @@ $MadelineProto->[payments->convertStarGift](/API_docs/methods/payments.convertSt
 
 ***
 <br><br>
+$MadelineProto->[payments->createStarGiftCollection](/API_docs/methods/payments.createStarGiftCollection.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), title: $[string](/API_docs/types/string.html), stargift: \[$[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html)\], \]) === [$StarGiftCollection](/API_docs/types/StarGiftCollection.html)<a name="payments.createStarGiftCollection"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->deleteStarGiftCollection](/API_docs/methods/payments.deleteStarGiftCollection.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), collection_id: $[int](/API_docs/types/int.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.deleteStarGiftCollection"></a>  
+
+***
+<br><br>
 $MadelineProto->[payments->editConnectedStarRefBot](/API_docs/methods/payments.editConnectedStarRefBot.html)(\[revoked: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), link: $[string](/API_docs/types/string.html), \]) === [$payments.ConnectedStarRefBots](/API_docs/types/payments.ConnectedStarRefBots.html)<a name="payments.editConnectedStarRefBot"></a>  
 
 ***
@@ -2301,7 +2309,11 @@ $MadelineProto->[payments->getSavedStarGift](/API_docs/methods/payments.getSaved
 
 ***
 <br><br>
-$MadelineProto->[payments->getSavedStarGifts](/API_docs/methods/payments.getSavedStarGifts.html)(\[exclude_unsaved: $[Bool](/API_docs/types/Bool.html), exclude_saved: $[Bool](/API_docs/types/Bool.html), exclude_unlimited: $[Bool](/API_docs/types/Bool.html), exclude_limited: $[Bool](/API_docs/types/Bool.html), exclude_unique: $[Bool](/API_docs/types/Bool.html), sort_by_value: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$payments.SavedStarGifts](/API_docs/types/payments.SavedStarGifts.html)<a name="payments.getSavedStarGifts"></a>  
+$MadelineProto->[payments->getSavedStarGifts](/API_docs/methods/payments.getSavedStarGifts.html)(\[exclude_unsaved: $[Bool](/API_docs/types/Bool.html), exclude_saved: $[Bool](/API_docs/types/Bool.html), exclude_unlimited: $[Bool](/API_docs/types/Bool.html), exclude_limited: $[Bool](/API_docs/types/Bool.html), exclude_unique: $[Bool](/API_docs/types/Bool.html), sort_by_value: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), collection_id: $[int](/API_docs/types/int.html), offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$payments.SavedStarGifts](/API_docs/types/payments.SavedStarGifts.html)<a name="payments.getSavedStarGifts"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->getStarGiftCollections](/API_docs/methods/payments.getStarGiftCollections.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), hash: $[long](/API_docs/types/long.html), \]) === [$payments.StarGiftCollections](/API_docs/types/payments.StarGiftCollections.html)<a name="payments.getStarGiftCollections"></a>  
 
 ***
 <br><br>
@@ -2373,6 +2385,10 @@ $MadelineProto->[payments->refundStarsCharge](/API_docs/methods/payments.refundS
 
 ***
 <br><br>
+$MadelineProto->[payments->reorderStarGiftCollections](/API_docs/methods/payments.reorderStarGiftCollections.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), order: \[$[int](/API_docs/types/int.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.reorderStarGiftCollections"></a>  
+
+***
+<br><br>
 $MadelineProto->[payments->saveStarGift](/API_docs/methods/payments.saveStarGift.html)(\[unsave: $[Bool](/API_docs/types/Bool.html), stargift: $[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.saveStarGift"></a>  
 
 ***
@@ -2394,6 +2410,10 @@ $MadelineProto->[payments->toggleStarGiftsPinnedToTop](/API_docs/methods/payment
 ***
 <br><br>
 $MadelineProto->[payments->transferStarGift](/API_docs/methods/payments.transferStarGift.html)(\[stargift: $[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html), to_id: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.transferStarGift"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->updateStarGiftCollection](/API_docs/methods/payments.updateStarGiftCollection.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), collection_id: $[int](/API_docs/types/int.html), title: $[string](/API_docs/types/string.html), delete_stargift: \[$[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html)\], add_stargift: \[$[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html)\], order: \[$[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html)\], \]) === [$StarGiftCollection](/API_docs/types/StarGiftCollection.html)<a name="payments.updateStarGiftCollection"></a>  
 
 ***
 <br><br>

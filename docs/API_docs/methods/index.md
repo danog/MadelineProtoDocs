@@ -1822,11 +1822,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="payments.canPurchaseStore.html" name="payments.canPurchaseStore">payments.canPurchaseStore</a>
 
+* <a href="payments.createStarGiftCollection.html" name="payments.createStarGiftCollection">payments.createStarGiftCollection</a>
+
+* <a href="payments.deleteStarGiftCollection.html" name="payments.deleteStarGiftCollection">payments.deleteStarGiftCollection</a>
+
 * <a href="payments.getResaleStarGifts.html" name="payments.getResaleStarGifts">payments.getResaleStarGifts</a>
 
 * <a href="payments.getSavedStarGift.html" name="payments.getSavedStarGift">payments.getSavedStarGift</a>
 
 * <a href="payments.getSavedStarGifts.html" name="payments.getSavedStarGifts">payments.getSavedStarGifts</a>
+
+* <a href="payments.getStarGiftCollections.html" name="payments.getStarGiftCollections">payments.getStarGiftCollections</a>
 
 * <a href="payments.getStarGiftUpgradePreview.html" name="payments.getStarGiftUpgradePreview">payments.getStarGiftUpgradePreview</a>
 
@@ -1834,11 +1840,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="payments.getUniqueStarGift.html" name="payments.getUniqueStarGift">payments.getUniqueStarGift</a>
 
+* <a href="payments.reorderStarGiftCollections.html" name="payments.reorderStarGiftCollections">payments.reorderStarGiftCollections</a>
+
 * <a href="payments.toggleChatStarGiftNotifications.html" name="payments.toggleChatStarGiftNotifications">payments.toggleChatStarGiftNotifications</a>
 
 * <a href="payments.toggleStarGiftsPinnedToTop.html" name="payments.toggleStarGiftsPinnedToTop">payments.toggleStarGiftsPinnedToTop</a>
 
 * <a href="payments.transferStarGift.html" name="payments.transferStarGift">payments.transferStarGift</a>
+
+* <a href="payments.updateStarGiftCollection.html" name="payments.updateStarGiftCollection">payments.updateStarGiftCollection</a>
 
 * <a href="payments.updateStarGiftPrice.html" name="payments.updateStarGiftPrice">payments.updateStarGiftPrice</a>
 
