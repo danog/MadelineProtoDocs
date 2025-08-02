@@ -24,5 +24,7 @@ redirect_from: /API_docs/types/stories_Stories.html
 
 [$MadelineProto->stories->getStoriesByID](/API_docs/methods/stories.getStoriesByID.html)  
 
+[$MadelineProto->stories->getAlbumStories](/API_docs/methods/stories.getAlbumStories.html)  
+
 
 

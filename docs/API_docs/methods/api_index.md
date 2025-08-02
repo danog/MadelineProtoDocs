@@ -709,6 +709,10 @@ $MadelineProto->[bots->updateUserEmojiStatus](/API_docs/methods/bots.updateUserE
 
 ***
 <br><br>
+$MadelineProto->[channels->checkSearchPostsFlood](/API_docs/methods/channels.checkSearchPostsFlood.html)(\[query: $[string](/API_docs/types/string.html), \]) === [$SearchPostsFlood](/API_docs/types/SearchPostsFlood.html)<a name="channels.checkSearchPostsFlood"></a>  
+
+***
+<br><br>
 $MadelineProto->[channels->checkUsername](/API_docs/methods/channels.checkUsername.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), username: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="channels.checkUsername"></a>  
 
 ***
@@ -881,7 +885,7 @@ $MadelineProto->[channels->restrictSponsoredMessages](/API_docs/methods/channels
 
 ***
 <br><br>
-$MadelineProto->[channels->searchPosts](/API_docs/methods/channels.searchPosts.html)(\[hashtag: $[string](/API_docs/types/string.html), offset_rate: $[int](/API_docs/types/int.html), offset_peer: $[InputPeer](/API_docs/types/InputPeer.html), offset_id: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), \]) === [$messages.Messages](/API_docs/types/messages.Messages.html)<a name="channels.searchPosts"></a>  
+$MadelineProto->[channels->searchPosts](/API_docs/methods/channels.searchPosts.html)(\[hashtag: $[string](/API_docs/types/string.html), query: $[string](/API_docs/types/string.html), offset_rate: $[int](/API_docs/types/int.html), offset_peer: $[InputPeer](/API_docs/types/InputPeer.html), offset_id: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), allow_paid_stars: $[long](/API_docs/types/long.html), \]) === [$messages.Messages](/API_docs/types/messages.Messages.html)<a name="channels.searchPosts"></a>  
 
 ***
 <br><br>
@@ -2417,7 +2421,7 @@ $MadelineProto->[payments->updateStarGiftCollection](/API_docs/methods/payments.
 
 ***
 <br><br>
-$MadelineProto->[payments->updateStarGiftPrice](/API_docs/methods/payments.updateStarGiftPrice.html)(\[stargift: $[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html), resell_stars: $[long](/API_docs/types/long.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.updateStarGiftPrice"></a>  
+$MadelineProto->[payments->updateStarGiftPrice](/API_docs/methods/payments.updateStarGiftPrice.html)(\[stargift: $[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html), resell_amount: $[StarsAmount](/API_docs/types/StarsAmount.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.updateStarGiftPrice"></a>  
 
 ***
 <br><br>
@@ -2725,6 +2729,14 @@ $MadelineProto->[stories->canSendStory](/API_docs/methods/stories.canSendStory.h
 
 ***
 <br><br>
+$MadelineProto->[stories->createAlbum](/API_docs/methods/stories.createAlbum.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), title: $[string](/API_docs/types/string.html), stories: \[$[int](/API_docs/types/int.html)\], \]) === [$StoryAlbum](/API_docs/types/StoryAlbum.html)<a name="stories.createAlbum"></a>  
+
+***
+<br><br>
+$MadelineProto->[stories->deleteAlbum](/API_docs/methods/stories.deleteAlbum.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), album_id: $[int](/API_docs/types/int.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="stories.deleteAlbum"></a>  
+
+***
+<br><br>
 $MadelineProto->[stories->deleteStories](/API_docs/methods/stories.deleteStories.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), id: \[$[int](/API_docs/types/int.html)\], \]) === [$Vector\_of\_int](/API_docs/types/int.html)<a name="stories.deleteStories"></a>  
 
 ***
@@ -2734,6 +2746,14 @@ $MadelineProto->[stories->editStory](/API_docs/methods/stories.editStory.html)(\
 ***
 <br><br>
 $MadelineProto->[stories->exportStoryLink](/API_docs/methods/stories.exportStoryLink.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), id: $[int](/API_docs/types/int.html), \]) === [$ExportedStoryLink](/API_docs/types/ExportedStoryLink.html)<a name="stories.exportStoryLink"></a>  
+
+***
+<br><br>
+$MadelineProto->[stories->getAlbumStories](/API_docs/methods/stories.getAlbumStories.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), album_id: $[int](/API_docs/types/int.html), offset: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), \]) === [$stories.Stories](/API_docs/types/stories.Stories.html)<a name="stories.getAlbumStories"></a>  
+
+***
+<br><br>
+$MadelineProto->[stories->getAlbums](/API_docs/methods/stories.getAlbums.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), hash: $[long](/API_docs/types/long.html), \]) === [$stories.Albums](/API_docs/types/stories.Albums.html)<a name="stories.getAlbums"></a>  
 
 ***
 <br><br>
@@ -2789,6 +2809,10 @@ $MadelineProto->[stories->readStories](/API_docs/methods/stories.readStories.htm
 
 ***
 <br><br>
+$MadelineProto->[stories->reorderAlbums](/API_docs/methods/stories.reorderAlbums.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), order: \[$[int](/API_docs/types/int.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="stories.reorderAlbums"></a>  
+
+***
+<br><br>
 $MadelineProto->[stories->report](/API_docs/methods/stories.report.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), id: \[$[int](/API_docs/types/int.html)\], option: $[bytes](/API_docs/types/bytes.html), message: $[string](/API_docs/types/string.html), \]) === [$ReportResult](/API_docs/types/ReportResult.html)<a name="stories.report"></a>  
 
 ***
@@ -2801,7 +2825,7 @@ $MadelineProto->[stories->sendReaction](/API_docs/methods/stories.sendReaction.h
 
 ***
 <br><br>
-$MadelineProto->[stories->sendStory](/API_docs/methods/stories.sendStory.html)(\[pinned: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), fwd_modified: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), media: $[InputMedia](/API_docs/types/InputMedia.html), media_areas: \[$[MediaArea](/API_docs/types/MediaArea.html)\], caption: $[string](/API_docs/types/string.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], privacy_rules: \[$[InputPrivacyRule](/API_docs/types/InputPrivacyRule.html)\], period: $[int](/API_docs/types/int.html), fwd_from_id: $[InputPeer](/API_docs/types/InputPeer.html), fwd_from_story: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="stories.sendStory"></a>  
+$MadelineProto->[stories->sendStory](/API_docs/methods/stories.sendStory.html)(\[pinned: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), fwd_modified: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), media: $[InputMedia](/API_docs/types/InputMedia.html), media_areas: \[$[MediaArea](/API_docs/types/MediaArea.html)\], caption: $[string](/API_docs/types/string.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], privacy_rules: \[$[InputPrivacyRule](/API_docs/types/InputPrivacyRule.html)\], period: $[int](/API_docs/types/int.html), fwd_from_id: $[InputPeer](/API_docs/types/InputPeer.html), fwd_from_story: $[int](/API_docs/types/int.html), albums: \[$[int](/API_docs/types/int.html)\], \]) === [$Updates](/API_docs/types/Updates.html)<a name="stories.sendStory"></a>  
 
 ***
 <br><br>
@@ -2818,6 +2842,10 @@ $MadelineProto->[stories->togglePinned](/API_docs/methods/stories.togglePinned.h
 ***
 <br><br>
 $MadelineProto->[stories->togglePinnedToTop](/API_docs/methods/stories.togglePinnedToTop.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), id: \[$[int](/API_docs/types/int.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="stories.togglePinnedToTop"></a>  
+
+***
+<br><br>
+$MadelineProto->[stories->updateAlbum](/API_docs/methods/stories.updateAlbum.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), album_id: $[int](/API_docs/types/int.html), title: $[string](/API_docs/types/string.html), delete_stories: \[$[int](/API_docs/types/int.html)\], add_stories: \[$[int](/API_docs/types/int.html)\], order: \[$[int](/API_docs/types/int.html)\], \]) === [$StoryAlbum](/API_docs/types/StoryAlbum.html)<a name="stories.updateAlbum"></a>  
 
 ***
 <br><br>

@@ -20,6 +20,7 @@ Incomplete list of messages and auxiliary data.
 |count|[int](/API_docs/types/int.html) | Yes|Total number of messages in the list|
 |next\_rate|[int](/API_docs/types/int.html) | Optional|Rate to use in the `offset_rate` parameter in the next call to [messages.searchGlobal](../methods/messages.searchGlobal.html)|
 |offset\_id\_offset|[int](/API_docs/types/int.html) | Optional|Indicates the absolute position of `messages[0]` within the total result set with count `count`. <br>This is useful, for example, if the result was fetched using `offset_id`, and we need to display a `progress/total` counter (like `photo 134 of 200`, for all media in a chat, we could simply use `photo ${offset_id_offset} of ${count}`.|
+|search\_flood|[SearchPostsFlood](/API_docs/types/SearchPostsFlood.html) | Optional|
 |messages|Array of [Message](/API_docs/types/Message.html) | Yes|List of messages|
 |chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|List of chats mentioned in messages|
 |users|Array of [User](/API_docs/types/User.html) | Yes|List of users mentioned in messages and chats|
@@ -32,5 +33,5 @@ Incomplete list of messages and auxiliary data.
 ### Example:
 
 ```
-$messages_messagesSlice = ['_' => 'messages.messagesSlice', 'inexact' => Bool, 'count' => int, 'next_rate' => int, 'offset_id_offset' => int, 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
+$messages_messagesSlice = ['_' => 'messages.messagesSlice', 'inexact' => Bool, 'count' => int, 'next_rate' => int, 'offset_id_offset' => int, 'search_flood' => SearchPostsFlood, 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

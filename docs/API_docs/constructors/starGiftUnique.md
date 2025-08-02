@@ -14,6 +14,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |require\_premium|[Bool](/API_docs/types/Bool.html) | Optional|
+|resale\_ton\_only|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[long](/API_docs/types/long.html) | Yes|
 |title|[string](/API_docs/types/string.html) | Yes|
 |slug|[string](/API_docs/types/string.html) | Yes|
@@ -25,7 +26,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |availability\_issued|[int](/API_docs/types/int.html) | Yes|
 |availability\_total|[int](/API_docs/types/int.html) | Yes|
 |gift\_address|[string](/API_docs/types/string.html) | Optional|
-|resell\_stars|[long](/API_docs/types/long.html) | Optional|
+|resell\_amount|Array of [StarsAmount](/API_docs/types/StarsAmount.html) | Optional|
 |released\_by|[Peer](/API_docs/types/Peer.html) | Optional|
 
 
@@ -36,5 +37,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$starGiftUnique = ['_' => 'starGiftUnique', 'require_premium' => Bool, 'id' => long, 'title' => 'string', 'slug' => 'string', 'num' => int, 'owner_id' => Peer, 'owner_name' => 'string', 'owner_address' => 'string', 'attributes' => [StarGiftAttribute, StarGiftAttribute], 'availability_issued' => int, 'availability_total' => int, 'gift_address' => 'string', 'resell_stars' => long, 'released_by' => Peer];
+$starGiftUnique = ['_' => 'starGiftUnique', 'require_premium' => Bool, 'resale_ton_only' => Bool, 'id' => long, 'title' => 'string', 'slug' => 'string', 'num' => int, 'owner_id' => Peer, 'owner_name' => 'string', 'owner_address' => 'string', 'attributes' => [StarGiftAttribute, StarGiftAttribute], 'availability_issued' => int, 'availability_total' => int, 'gift_address' => 'string', 'resell_amount' => [StarsAmount, StarsAmount], 'released_by' => Peer];
 ```  

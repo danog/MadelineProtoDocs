@@ -23,7 +23,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |from\_id|[Peer](/API_docs/types/Peer.html) | Optional|
 |peer|[long](/API_docs/types/long.html) | Optional|
 |saved\_id|[long](/API_docs/types/long.html) | Optional|
-|resale\_stars|[long](/API_docs/types/long.html) | Optional|
+|resale\_amount|[StarsAmount](/API_docs/types/StarsAmount.html) | Optional|
 |can\_transfer\_at|[int](/API_docs/types/int.html) | Optional|
 |can\_resell\_at|[int](/API_docs/types/int.html) | Optional|
 
@@ -35,5 +35,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$messageActionStarGiftUnique = ['_' => 'messageActionStarGiftUnique', 'upgrade' => Bool, 'transferred' => Bool, 'saved' => Bool, 'refunded' => Bool, 'gift' => StarGift, 'can_export_at' => int, 'transfer_stars' => long, 'from_id' => Peer, 'peer' => long, 'saved_id' => long, 'resale_stars' => long, 'can_transfer_at' => int, 'can_resell_at' => int];
+$messageActionStarGiftUnique = ['_' => 'messageActionStarGiftUnique', 'upgrade' => Bool, 'transferred' => Bool, 'saved' => Bool, 'refunded' => Bool, 'gift' => StarGift, 'can_export_at' => int, 'transfer_stars' => long, 'from_id' => Peer, 'peer' => long, 'saved_id' => long, 'resale_amount' => StarsAmount, 'can_transfer_at' => int, 'can_resell_at' => int];
 ```  

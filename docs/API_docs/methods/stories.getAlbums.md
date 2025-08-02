@@ -1,12 +1,12 @@
 ---
-title: "payments.updateStarGiftPrice"
-description: "payments.updateStarGiftPrice parameters, return type and example"
+title: "stories.getAlbums"
+description: "stories.getAlbums parameters, return type and example"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
-redirect_from: /API_docs/methods/payments_updateStarGiftPrice.html
+redirect_from: /API_docs/methods/stories_getAlbums.html
 ---
-# Method: payments.updateStarGiftPrice
+# Method: stories.getAlbums
 [Back to methods index](index.html)
 
 
@@ -15,11 +15,11 @@ redirect_from: /API_docs/methods/payments_updateStarGiftPrice.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|stargift|[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) | Yes|
-|resell\_amount|[StarsAmount](/API_docs/types/StarsAmount.html) | Yes|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | Optional|
 
 
-### Return type: [Updates](/API_docs/types/Updates.html)
+### Return type: [stories.Albums](/API_docs/types/stories.Albums.html)
 
 ### Can userbots use this method: **YES**
 
@@ -38,6 +38,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->payments->updateStarGiftPrice(stargift: $InputSavedStarGift, resell_amount: $StarsAmount, );
+$stories_Albums = $MadelineProto->stories->getAlbums(peer: $InputPeer, hash: [$long\|string, $long\|string], );
 ```
 

@@ -1794,6 +1794,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="bots.setCustomVerification.html" name="bots.setCustomVerification">bots.setCustomVerification</a>
 
+* <a href="channels.checkSearchPostsFlood.html" name="channels.checkSearchPostsFlood">channels.checkSearchPostsFlood</a>
+
 * <a href="channels.getMessageAuthor.html" name="channels.getMessageAuthor">channels.getMessageAuthor</a>
 
 * <a href="channels.toggleAutotranslation.html" name="channels.toggleAutotranslation">channels.toggleAutotranslation</a>
@@ -1865,6 +1867,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="phone.inviteConferenceCallParticipant.html" name="phone.inviteConferenceCallParticipant">phone.inviteConferenceCallParticipant</a>
 
 * <a href="phone.sendConferenceCallBroadcast.html" name="phone.sendConferenceCallBroadcast">phone.sendConferenceCallBroadcast</a>
+
+* <a href="stories.createAlbum.html" name="stories.createAlbum">stories.createAlbum</a>
+
+* <a href="stories.deleteAlbum.html" name="stories.deleteAlbum">stories.deleteAlbum</a>
+
+* <a href="stories.getAlbumStories.html" name="stories.getAlbumStories">stories.getAlbumStories</a>
+
+* <a href="stories.getAlbums.html" name="stories.getAlbums">stories.getAlbums</a>
+
+* <a href="stories.reorderAlbums.html" name="stories.reorderAlbums">stories.reorderAlbums</a>
+
+* <a href="stories.updateAlbum.html" name="stories.updateAlbum">stories.updateAlbum</a>
 
 * <a href="users.getRequirementsToContact.html" name="users.getRequirementsToContact">users.getRequirementsToContact</a>
 

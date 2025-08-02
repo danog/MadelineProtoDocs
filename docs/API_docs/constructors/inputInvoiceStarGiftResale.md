@@ -13,6 +13,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
+|ton|[Bool](/API_docs/types/Bool.html) | Optional|
 |slug|[string](/API_docs/types/string.html) | Yes|
 |to\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 
@@ -24,5 +25,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$inputInvoiceStarGiftResale = ['_' => 'inputInvoiceStarGiftResale', 'slug' => 'string', 'to_id' => InputPeer];
+$inputInvoiceStarGiftResale = ['_' => 'inputInvoiceStarGiftResale', 'ton' => Bool, 'slug' => 'string', 'to_id' => InputPeer];
 ```  

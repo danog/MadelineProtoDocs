@@ -557,6 +557,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [SavedStarGift](/API_docs/types/SavedStarGift.html)<a name="SavedStarGift"></a>  
 
+[SearchPostsFlood](/API_docs/types/SearchPostsFlood.html)<a name="SearchPostsFlood"></a>  
+
 [SearchResultsCalendarPeriod](/API_docs/types/SearchResultsCalendarPeriod.html)<a name="SearchResultsCalendarPeriod"></a>  
 
 [SearchResultsPosition](/API_docs/types/SearchResultsPosition.html)<a name="SearchResultsPosition"></a>  
@@ -656,6 +658,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [StickerSetCovered](/API_docs/types/StickerSetCovered.html)<a name="StickerSetCovered"></a>  
 
 [StoriesStealthMode](/API_docs/types/StoriesStealthMode.html)<a name="StoriesStealthMode"></a>  
+
+[StoryAlbum](/API_docs/types/StoryAlbum.html)<a name="StoryAlbum"></a>  
 
 [StoryFwdHeader](/API_docs/types/StoryFwdHeader.html)<a name="StoryFwdHeader"></a>  
 
@@ -1084,6 +1088,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [stickers.SuggestedShortName](/API_docs/types/stickers.SuggestedShortName.html)<a name="stickers.SuggestedShortName"></a>  
 
 [storage.FileType](/API_docs/types/storage.FileType.html)<a name="storage.FileType"></a>  
+
+[stories.Albums](/API_docs/types/stories.Albums.html)<a name="stories.Albums"></a>  
 
 [stories.AllStories](/API_docs/types/stories.AllStories.html)<a name="stories.AllStories"></a>  
 

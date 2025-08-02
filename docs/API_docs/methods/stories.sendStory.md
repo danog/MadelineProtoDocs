@@ -30,6 +30,7 @@ Uploads a [Telegram Story](https://core.telegram.org/api/stories).
 |period|[int](/API_docs/types/int.html) | Period after which the story is moved to archive (and to the profile if `pinned` is set), in seconds; must be one of `6 * 3600`, `12 * 3600`, `86400`, or `2 * 86400` for Telegram Premium users, and `86400` otherwise. | Optional|
 |fwd\_from\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | If set, indicates that this story is a repost of story with ID `fwd_from_story` posted by the peer in `fwd_from_id`. | Optional|
 |fwd\_from\_story|[int](/API_docs/types/int.html) | If set, indicates that this story is a repost of story with ID `fwd_from_story` posted by the peer in `fwd_from_id`. | Optional|
+|albums|Array of [int](/API_docs/types/int.html) |  | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -51,7 +52,7 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->stories->sendStory(pinned: $Bool, noforwards: $Bool, fwd_modified: $Bool, peer: $InputPeer, media: $InputMedia, media_areas: [$MediaArea, $MediaArea], caption: 'string', entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', privacy_rules: [$InputPrivacyRule, $InputPrivacyRule], period: $int, fwd_from_id: $InputPeer, fwd_from_story: $int, );
+$Updates = $MadelineProto->stories->sendStory(pinned: $Bool, noforwards: $Bool, fwd_modified: $Bool, peer: $InputPeer, media: $InputMedia, media_areas: [$MediaArea, $MediaArea], caption: 'string', entities: [$MessageEntity, $MessageEntity], parse_mode: 'string', privacy_rules: [$InputPrivacyRule, $InputPrivacyRule], period: $int, fwd_from_id: $InputPeer, fwd_from_story: $int, albums: [$int, $int], );
 ```
 
 

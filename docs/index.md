@@ -1211,6 +1211,7 @@ Some of MadelineProto's core components are also available as separate, standalo
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#base64urlDecode" name="base64urlDecode">base64URL decode: base64urlDecode</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/bots.getBotRecommendations.html" name="bots.getBotRecommendations">bots.getBotRecommendations</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/bots.setCustomVerification.html" name="bots.setCustomVerification">bots.setCustomVerification</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/channels.checkSearchPostsFlood.html" name="channels.checkSearchPostsFlood">channels.checkSearchPostsFlood</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/channels.getMessageAuthor.html" name="channels.getMessageAuthor">channels.getMessageAuthor</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/channels.toggleAutotranslation.html" name="channels.toggleAutotranslation">channels.toggleAutotranslation</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/channels.updatePaidMessagesPrice.html" name="channels.updatePaidMessagesPrice">channels.updatePaidMessagesPrice</a>
@@ -1247,6 +1248,12 @@ Some of MadelineProto's core components are also available as separate, standalo
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/phone.getGroupCallChainBlocks.html" name="phone.getGroupCallChainBlocks">phone.getGroupCallChainBlocks</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/phone.inviteConferenceCallParticipant.html" name="phone.inviteConferenceCallParticipant">phone.inviteConferenceCallParticipant</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/phone.sendConferenceCallBroadcast.html" name="phone.sendConferenceCallBroadcast">phone.sendConferenceCallBroadcast</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/stories.createAlbum.html" name="stories.createAlbum">stories.createAlbum</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/stories.deleteAlbum.html" name="stories.deleteAlbum">stories.deleteAlbum</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/stories.getAlbumStories.html" name="stories.getAlbumStories">stories.getAlbumStories</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/stories.getAlbums.html" name="stories.getAlbums">stories.getAlbums</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/stories.reorderAlbums.html" name="stories.reorderAlbums">stories.reorderAlbums</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/stories.updateAlbum.html" name="stories.updateAlbum">stories.updateAlbum</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/users.getRequirementsToContact.html" name="users.getRequirementsToContact">users.getRequirementsToContact</a>
 * [Contributing](https://docs.madelineproto.xyz/docs/CONTRIB.html) - You can contribute in various ways.
   * [Translation](https://docs.madelineproto.xyz/docs/CONTRIB.html#translation)

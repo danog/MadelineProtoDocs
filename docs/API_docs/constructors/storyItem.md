@@ -37,6 +37,7 @@ Represents a [story](https://core.telegram.org/api/stories).
 |privacy|Array of [PrivacyRule](/API_docs/types/PrivacyRule.html) | Optional|[Privacy rules](https://core.telegram.org/api/privacy) indicating who can and can't view this story|
 |views|[StoryViews](/API_docs/types/StoryViews.html) | Optional|View date and reaction information|
 |sent\_reaction|[Reaction](/API_docs/types/Reaction.html) | Optional|The reaction we sent.|
+|albums|Array of [int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -106,5 +107,5 @@ pre-formatted fixed-width code block written in the PHP programming language
 ### Example:
 
 ```
-$storyItem = ['_' => 'storyItem', 'pinned' => Bool, 'public' => Bool, 'close_friends' => Bool, 'min' => Bool, 'noforwards' => Bool, 'edited' => Bool, 'contacts' => Bool, 'selected_contacts' => Bool, 'out' => Bool, 'id' => int, 'date' => int, 'from_id' => Peer, 'fwd_from' => StoryFwdHeader, 'expire_date' => int, 'caption' => 'string', 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'media' => MessageMedia, 'media_areas' => [MediaArea, MediaArea], 'privacy' => [PrivacyRule, PrivacyRule], 'views' => StoryViews, 'sent_reaction' => Reaction];
+$storyItem = ['_' => 'storyItem', 'pinned' => Bool, 'public' => Bool, 'close_friends' => Bool, 'min' => Bool, 'noforwards' => Bool, 'edited' => Bool, 'contacts' => Bool, 'selected_contacts' => Bool, 'out' => Bool, 'id' => int, 'date' => int, 'from_id' => Peer, 'fwd_from' => StoryFwdHeader, 'expire_date' => int, 'caption' => 'string', 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'media' => MessageMedia, 'media_areas' => [MediaArea, MediaArea], 'privacy' => [PrivacyRule, PrivacyRule], 'views' => StoryViews, 'sent_reaction' => Reaction, 'albums' => [int, int]];
 ```  
