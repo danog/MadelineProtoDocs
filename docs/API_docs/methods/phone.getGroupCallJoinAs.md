@@ -22,9 +22,13 @@ Get a list of peers that can be used to join a group call, presenting yourself a
 
 ### Return type: [phone.JoinAsPeers](/API_docs/types/phone.JoinAsPeers.html)
 
-### Can userbots use this method: **YES**
+### Can users use this method: **YES**
+
 
 ### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

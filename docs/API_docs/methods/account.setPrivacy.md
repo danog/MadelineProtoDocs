@@ -23,9 +23,13 @@ Change privacy settings of current account
 
 ### Return type: [account.PrivacyRules](/API_docs/types/account.PrivacyRules.html)
 
-### Can userbots use this method: **YES**
+### Can users use this method: **YES**
+
 
 ### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

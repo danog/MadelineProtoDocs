@@ -24,9 +24,13 @@ Save a [prepared inline message](https://core.telegram.org/api/bots/inline#21-us
 
 ### Return type: [messages.BotPreparedInlineMessage](/API_docs/types/messages.BotPreparedInlineMessage.html)
 
-### Can userbots use this method: **YES**
+### Can users use this method: **NO**
+
 
 ### Can bots use this method: **YES**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

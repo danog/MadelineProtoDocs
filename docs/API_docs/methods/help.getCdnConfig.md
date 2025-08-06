@@ -17,9 +17,13 @@ Get configuration for [CDN](https://core.telegram.org/cdn) file downloads.
 
 ### Return type: [CdnConfig](/API_docs/types/CdnConfig.html)
 
-### Can userbots use this method: **YES**
+### Can users use this method: **YES**
+
 
 ### Can bots use this method: **YES**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

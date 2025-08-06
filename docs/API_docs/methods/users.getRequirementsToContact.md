@@ -20,9 +20,13 @@ redirect_from: /API_docs/methods/users_getRequirementsToContact.html
 
 ### Return type: [Vector\_of\_RequirementToContact](/API_docs/types/RequirementToContact.html)
 
-### Can userbots use this method: **YES**
+### Can users use this method: **YES**
 
-### Can bots use this method: **YES**
+
+### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

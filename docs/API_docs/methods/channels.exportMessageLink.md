@@ -25,9 +25,13 @@ Get link and embed info of a message in a [channel/supergroup](https://core.tele
 
 ### Return type: [ExportedMessageLink](/API_docs/types/ExportedMessageLink.html)
 
-### Can userbots use this method: **YES**
+### Can users use this method: **YES**
+
 
 ### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

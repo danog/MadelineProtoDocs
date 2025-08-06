@@ -22,9 +22,13 @@ Fetch a default recommended list of [saved message tag reactions](https://core.t
 
 ### Return type: [messages.Reactions](/API_docs/types/messages.Reactions.html)
 
-### Can userbots use this method: **YES**
+### Can users use this method: **YES**
+
 
 ### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

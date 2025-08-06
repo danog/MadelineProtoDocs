@@ -22,9 +22,13 @@ Returns timezone information that may be used elsewhere in the API, such as to s
 
 ### Return type: [help.TimezonesList](/API_docs/types/help.TimezonesList.html)
 
-### Can userbots use this method: **YES**
+### Can users use this method: **YES**
+
 
 ### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

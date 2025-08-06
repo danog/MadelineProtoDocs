@@ -25,9 +25,13 @@ Update the keywords, emojis or [mask coordinates](https://core.telegram.org/api/
 
 ### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.html)
 
-### Can userbots use this method: **YES**
+### Can users use this method: **YES**
+
 
 ### Can bots use this method: **YES**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

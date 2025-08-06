@@ -29,9 +29,13 @@ Get info about the users that joined the chat using a specific chat invite
 
 ### Return type: [messages.ChatInviteImporters](/API_docs/types/messages.ChatInviteImporters.html)
 
-### Can userbots use this method: **YES**
+### Can users use this method: **YES**
+
 
 ### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):

@@ -24,9 +24,13 @@ Upload a file and associate it to a chat (without actually sending it to the cha
 
 ### Return type: [MessageMedia](/API_docs/types/MessageMedia.html)
 
-### Can userbots use this method: **YES**
+### Can users use this method: **YES**
+
 
 ### Can bots use this method: **YES**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
 
 
 ### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
