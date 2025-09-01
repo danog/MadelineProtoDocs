@@ -16,7 +16,8 @@ The chat theme was changed.
 
 
 ## Properties
-* `$emoticon`: `string` The emoji that identifies a chat theme
+* `$emoticon`: `?string` The emoji that identifies a chat theme, can be null for unique gift-based themes
+* `$uniqueGift`: `?array` https://docs.madelineproto.xyz/API_docs/constructors/chatThemeUniqueGift.html
 * `$id`: `int` Message ID
 * `$out`: `bool` Whether the message is outgoing
 * `$chatId`: `int` ID of the chat where the message was sent
@@ -31,7 +32,7 @@ The chat theme was changed.
 * `$ttlPeriod`: `?int` Time-to-live of the message
 
 ## Method list:
-* [`__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info, string $emoticon)`](#__construct)
+* [`__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info, array $theme)`](#__construct)
 * [`isReply(): bool`](#isReply)
 * [`getReply(class-string<T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?T`](#getReply)
 * [`delete(boolean $revoke = true): void`](#delete)
@@ -55,7 +56,7 @@ The chat theme was changed.
 * [`disableAutoTranslate(): bool`](#disableAutoTranslate)
 
 ## Methods:
-### <a name="__construct"></a> `__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info, string $emoticon)`
+### <a name="__construct"></a> `__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info, array $theme)`
 
 
 
@@ -65,7 +66,7 @@ Parameters:
 * `$API`: `\danog\MadelineProto\MTProto`   
 * `$rawMessage`: `array`   
 * `$info`: `array`   
-* `$emoticon`: `string`   
+* `$theme`: `array`   
 
 
 #### See also: 
