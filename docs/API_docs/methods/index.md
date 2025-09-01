@@ -1786,6 +1786,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.getPaidMessagesRevenue.html" name="account.getPaidMessagesRevenue">account.getPaidMessagesRevenue</a>
 
+* <a href="account.getSavedMusicIds.html" name="account.getSavedMusicIds">account.getSavedMusicIds</a>
+
+* <a href="account.getUniqueGiftChatThemes.html" name="account.getUniqueGiftChatThemes">account.getUniqueGiftChatThemes</a>
+
+* <a href="account.saveMusic.html" name="account.saveMusic">account.saveMusic</a>
+
+* <a href="account.setMainProfileTab.html" name="account.setMainProfileTab">account.setMainProfileTab</a>
+
 * <a href="account.toggleNoPaidMessagesException.html" name="account.toggleNoPaidMessagesException">account.toggleNoPaidMessagesException</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#base64urlDecode" name="base64urlDecode">base64URL decode: base64urlDecode</a>
@@ -1797,6 +1805,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="channels.checkSearchPostsFlood.html" name="channels.checkSearchPostsFlood">channels.checkSearchPostsFlood</a>
 
 * <a href="channels.getMessageAuthor.html" name="channels.getMessageAuthor">channels.getMessageAuthor</a>
+
+* <a href="channels.setMainProfileTab.html" name="channels.setMainProfileTab">channels.setMainProfileTab</a>
 
 * <a href="channels.toggleAutotranslation.html" name="channels.toggleAutotranslation">channels.toggleAutotranslation</a>
 
@@ -1824,6 +1834,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="payments.canPurchaseStore.html" name="payments.canPurchaseStore">payments.canPurchaseStore</a>
 
+* <a href="payments.checkCanSendGift.html" name="payments.checkCanSendGift">payments.checkCanSendGift</a>
+
 * <a href="payments.createStarGiftCollection.html" name="payments.createStarGiftCollection">payments.createStarGiftCollection</a>
 
 * <a href="payments.deleteStarGiftCollection.html" name="payments.deleteStarGiftCollection">payments.deleteStarGiftCollection</a>
@@ -1841,6 +1853,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="payments.getStarGiftWithdrawalUrl.html" name="payments.getStarGiftWithdrawalUrl">payments.getStarGiftWithdrawalUrl</a>
 
 * <a href="payments.getUniqueStarGift.html" name="payments.getUniqueStarGift">payments.getUniqueStarGift</a>
+
+* <a href="payments.getUniqueStarGiftValueInfo.html" name="payments.getUniqueStarGiftValueInfo">payments.getUniqueStarGiftValueInfo</a>
 
 * <a href="payments.reorderStarGiftCollections.html" name="payments.reorderStarGiftCollections">payments.reorderStarGiftCollections</a>
 
@@ -1881,5 +1895,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="stories.updateAlbum.html" name="stories.updateAlbum">stories.updateAlbum</a>
 
 * <a href="users.getRequirementsToContact.html" name="users.getRequirementsToContact">users.getRequirementsToContact</a>
+
+* <a href="users.getSavedMusic.html" name="users.getSavedMusic">users.getSavedMusic</a>
+
+* <a href="users.getSavedMusicByID.html" name="users.getSavedMusicByID">users.getSavedMusicByID</a>
 
 

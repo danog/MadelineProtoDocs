@@ -15,7 +15,7 @@ The chat theme was changed
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|emoticon|[string](/API_docs/types/string.html) | Yes|The emoji that identifies a chat theme|
+|theme|[ChatTheme](/API_docs/types/ChatTheme.html) | Yes|
 
 
 
@@ -25,5 +25,5 @@ The chat theme was changed
 ### Example:
 
 ```
-$messageActionSetChatTheme = ['_' => 'messageActionSetChatTheme', 'emoticon' => 'string'];
+$messageActionSetChatTheme = ['_' => 'messageActionSetChatTheme', 'theme' => ChatTheme];
 ```  

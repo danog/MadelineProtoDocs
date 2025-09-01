@@ -131,6 +131,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [ChatReactions](/API_docs/types/ChatReactions.html)<a name="ChatReactions"></a>  
 
+[ChatTheme](/API_docs/types/ChatTheme.html)<a name="ChatTheme"></a>  
+
 [CodeSettings](/API_docs/types/CodeSettings.html)<a name="CodeSettings"></a>  
 
 [Config](/API_docs/types/Config.html)<a name="Config"></a>  
@@ -278,6 +280,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [InputChannel](/API_docs/types/InputChannel.html)<a name="InputChannel"></a>  
 
 [InputChatPhoto](/API_docs/types/InputChatPhoto.html)<a name="InputChatPhoto"></a>  
+
+[InputChatTheme](/API_docs/types/InputChatTheme.html)<a name="InputChatTheme"></a>  
 
 [InputChatlist](/API_docs/types/InputChatlist.html)<a name="InputChatlist"></a>  
 
@@ -515,6 +519,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [PrivacyRule](/API_docs/types/PrivacyRule.html)<a name="PrivacyRule"></a>  
 
+[ProfileTab](/API_docs/types/ProfileTab.html)<a name="ProfileTab"></a>  
+
 [PublicForward](/API_docs/types/PublicForward.html)<a name="PublicForward"></a>  
 
 [QuickReply](/API_docs/types/QuickReply.html)<a name="QuickReply"></a>  
@@ -743,6 +749,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [account.BusinessChatLinks](/API_docs/types/account.BusinessChatLinks.html)<a name="account.BusinessChatLinks"></a>  
 
+[account.ChatThemes](/API_docs/types/account.ChatThemes.html)<a name="account.ChatThemes"></a>  
+
 [account.ConnectedBots](/API_docs/types/account.ConnectedBots.html)<a name="account.ConnectedBots"></a>  
 
 [account.ContentSettings](/API_docs/types/account.ContentSettings.html)<a name="account.ContentSettings"></a>  
@@ -764,6 +772,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [account.ResetPasswordResult](/API_docs/types/account.ResetPasswordResult.html)<a name="account.ResetPasswordResult"></a>  
 
 [account.ResolvedBusinessChatLinks](/API_docs/types/account.ResolvedBusinessChatLinks.html)<a name="account.ResolvedBusinessChatLinks"></a>  
+
+[account.SavedMusicIds](/API_docs/types/account.SavedMusicIds.html)<a name="account.SavedMusicIds"></a>  
 
 [account.SavedRingtone](/API_docs/types/account.SavedRingtone.html)<a name="account.SavedRingtone"></a>  
 
@@ -1005,6 +1015,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [payments.BankCardData](/API_docs/types/payments.BankCardData.html)<a name="payments.BankCardData"></a>  
 
+[payments.CheckCanSendGiftResult](/API_docs/types/payments.CheckCanSendGiftResult.html)<a name="payments.CheckCanSendGiftResult"></a>  
+
 [payments.CheckedGiftCode](/API_docs/types/payments.CheckedGiftCode.html)<a name="payments.CheckedGiftCode"></a>  
 
 [payments.ConnectedStarRefBots](/API_docs/types/payments.ConnectedStarRefBots.html)<a name="payments.ConnectedStarRefBots"></a>  
@@ -1044,6 +1056,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [payments.SuggestedStarRefBots](/API_docs/types/payments.SuggestedStarRefBots.html)<a name="payments.SuggestedStarRefBots"></a>  
 
 [payments.UniqueStarGift](/API_docs/types/payments.UniqueStarGift.html)<a name="payments.UniqueStarGift"></a>  
+
+[payments.UniqueStarGiftValueInfo](/API_docs/types/payments.UniqueStarGiftValueInfo.html)<a name="payments.UniqueStarGiftValueInfo"></a>  
 
 [payments.ValidatedRequestedInfo](/API_docs/types/payments.ValidatedRequestedInfo.html)<a name="payments.ValidatedRequestedInfo"></a>  
 
@@ -1118,6 +1132,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [upload.File](/API_docs/types/upload.File.html)<a name="upload.File"></a>  
 
 [upload.WebFile](/API_docs/types/upload.WebFile.html)<a name="upload.WebFile"></a>  
+
+[users.SavedMusic](/API_docs/types/users.SavedMusic.html)<a name="users.SavedMusic"></a>  
 
 [users.UserFull](/API_docs/types/users.UserFull.html)<a name="users.UserFull"></a>  
 

@@ -15,6 +15,7 @@ redirect_from: /API_docs/constructors/messages_webPagePreview.html
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |media|[MessageMedia](/API_docs/types/MessageMedia.html) | Optional|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
 |users|Array of [User](/API_docs/types/User.html) | Yes|
 
 
@@ -25,5 +26,5 @@ redirect_from: /API_docs/constructors/messages_webPagePreview.html
 ### Example:
 
 ```
-$messages_webPagePreview = ['_' => 'messages.webPagePreview', 'media' => MessageMedia, 'users' => [User, User]];
+$messages_webPagePreview = ['_' => 'messages.webPagePreview', 'media' => MessageMedia, 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

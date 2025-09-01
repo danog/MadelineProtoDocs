@@ -35,6 +35,7 @@ Represents a [star gift, see here »](https://core.telegram.org/api/gifts) for m
 |released\_by|[Peer](/API_docs/types/Peer.html) | Optional|
 |per\_user\_total|[int](/API_docs/types/int.html) | Optional|
 |per\_user\_remains|[int](/API_docs/types/int.html) | Optional|
+|locked\_until\_date|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -44,5 +45,5 @@ Represents a [star gift, see here »](https://core.telegram.org/api/gifts) for m
 ### Example:
 
 ```
-$starGift = ['_' => 'starGift', 'limited' => Bool, 'sold_out' => Bool, 'birthday' => Bool, 'require_premium' => Bool, 'limited_per_user' => Bool, 'id' => long, 'sticker' => Document, 'stars' => long, 'availability_remains' => int, 'availability_total' => int, 'availability_resale' => long, 'convert_stars' => long, 'first_sale_date' => int, 'last_sale_date' => int, 'upgrade_stars' => long, 'resell_min_stars' => long, 'title' => 'string', 'released_by' => Peer, 'per_user_total' => int, 'per_user_remains' => int];
+$starGift = ['_' => 'starGift', 'limited' => Bool, 'sold_out' => Bool, 'birthday' => Bool, 'require_premium' => Bool, 'limited_per_user' => Bool, 'id' => long, 'sticker' => Document, 'stars' => long, 'availability_remains' => int, 'availability_total' => int, 'availability_resale' => long, 'convert_stars' => long, 'first_sale_date' => int, 'last_sale_date' => int, 'upgrade_stars' => long, 'resell_min_stars' => long, 'title' => 'string', 'released_by' => Peer, 'per_user_total' => int, 'per_user_remains' => int, 'locked_until_date' => int];
 ```  

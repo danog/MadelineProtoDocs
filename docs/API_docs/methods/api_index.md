@@ -225,6 +225,10 @@ $MadelineProto->[account->getRecentEmojiStatuses](/API_docs/methods/account.getR
 
 ***
 <br><br>
+$MadelineProto->[account->getSavedMusicIds](/API_docs/methods/account.getSavedMusicIds.html)(\[hash: $[long](/API_docs/types/long.html), \]) === [$account.SavedMusicIds](/API_docs/types/account.SavedMusicIds.html)<a name="account.getSavedMusicIds"></a>  
+
+***
+<br><br>
 $MadelineProto->[account->getSavedRingtones](/API_docs/methods/account.getSavedRingtones.html)(\[hash: $[long](/API_docs/types/long.html), \]) === [$account.SavedRingtones](/API_docs/types/account.SavedRingtones.html)<a name="account.getSavedRingtones"></a>  
 
 ***
@@ -242,6 +246,10 @@ $MadelineProto->[account->getThemes](/API_docs/methods/account.getThemes.html)(\
 ***
 <br><br>
 $MadelineProto->[account->getTmpPassword](/API_docs/methods/account.getTmpPassword.html)(\[password: $[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html), period: $[int](/API_docs/types/int.html), \]) === [$account.TmpPassword](/API_docs/types/account.TmpPassword.html)<a name="account.getTmpPassword"></a>  
+
+***
+<br><br>
+$MadelineProto->[account->getUniqueGiftChatThemes](/API_docs/methods/account.getUniqueGiftChatThemes.html)(\[offset: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), hash: $[long](/API_docs/types/long.html), \]) === [$account.ChatThemes](/API_docs/types/account.ChatThemes.html)<a name="account.getUniqueGiftChatThemes"></a>  
 
 ***
 <br><br>
@@ -329,6 +337,10 @@ $MadelineProto->[account->saveAutoSaveSettings](/API_docs/methods/account.saveAu
 
 ***
 <br><br>
+$MadelineProto->[account->saveMusic](/API_docs/methods/account.saveMusic.html)(\[unsave: $[Bool](/API_docs/types/Bool.html), id: $[InputDocument](/API_docs/types/InputDocument.html), after_id: $[InputDocument](/API_docs/types/InputDocument.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.saveMusic"></a>  
+
+***
+<br><br>
 $MadelineProto->[account->saveRingtone](/API_docs/methods/account.saveRingtone.html)(\[id: $[InputDocument](/API_docs/types/InputDocument.html), unsave: $[Bool](/API_docs/types/Bool.html), \]) === [$account.SavedRingtone](/API_docs/types/account.SavedRingtone.html)<a name="account.saveRingtone"></a>  
 
 ***
@@ -378,6 +390,10 @@ $MadelineProto->[account->setContentSettings](/API_docs/methods/account.setConte
 ***
 <br><br>
 $MadelineProto->[account->setGlobalPrivacySettings](/API_docs/methods/account.setGlobalPrivacySettings.html)(\[settings: $[GlobalPrivacySettings](/API_docs/types/GlobalPrivacySettings.html), \]) === [$GlobalPrivacySettings](/API_docs/types/GlobalPrivacySettings.html)<a name="account.setGlobalPrivacySettings"></a>  
+
+***
+<br><br>
+$MadelineProto->[account->setMainProfileTab](/API_docs/methods/account.setMainProfileTab.html)(\[tab: $[ProfileTab](/API_docs/types/ProfileTab.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.setMainProfileTab"></a>  
 
 ***
 <br><br>
@@ -898,6 +914,10 @@ $MadelineProto->[channels->setDiscussionGroup](/API_docs/methods/channels.setDis
 ***
 <br><br>
 $MadelineProto->[channels->setEmojiStickers](/API_docs/methods/channels.setEmojiStickers.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), stickerset: $[InputStickerSet](/API_docs/types/InputStickerSet.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="channels.setEmojiStickers"></a>  
+
+***
+<br><br>
+$MadelineProto->[channels->setMainProfileTab](/API_docs/methods/channels.setMainProfileTab.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), tab: $[ProfileTab](/API_docs/types/ProfileTab.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="channels.setMainProfileTab"></a>  
 
 ***
 <br><br>
@@ -2077,7 +2097,7 @@ $MadelineProto->[messages->setChatAvailableReactions](/API_docs/methods/messages
 
 ***
 <br><br>
-$MadelineProto->[messages->setChatTheme](/API_docs/methods/messages.setChatTheme.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), emoticon: $[string](/API_docs/types/string.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.setChatTheme"></a>  
+$MadelineProto->[messages->setChatTheme](/API_docs/methods/messages.setChatTheme.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), theme: $[InputChatTheme](/API_docs/types/InputChatTheme.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.setChatTheme"></a>  
 
 ***
 <br><br>
@@ -2237,6 +2257,10 @@ $MadelineProto->[payments->changeStarsSubscription](/API_docs/methods/payments.c
 
 ***
 <br><br>
+$MadelineProto->[payments->checkCanSendGift](/API_docs/methods/payments.checkCanSendGift.html)(\[gift_id: $[long](/API_docs/types/long.html), \]) === [$payments.CheckCanSendGiftResult](/API_docs/types/payments.CheckCanSendGiftResult.html)<a name="payments.checkCanSendGift"></a>  
+
+***
+<br><br>
 $MadelineProto->[payments->checkGiftCode](/API_docs/methods/payments.checkGiftCode.html)(\[slug: $[string](/API_docs/types/string.html), \]) === [$payments.CheckedGiftCode](/API_docs/types/payments.CheckedGiftCode.html)<a name="payments.checkGiftCode"></a>  
 
 ***
@@ -2313,7 +2337,7 @@ $MadelineProto->[payments->getSavedStarGift](/API_docs/methods/payments.getSaved
 
 ***
 <br><br>
-$MadelineProto->[payments->getSavedStarGifts](/API_docs/methods/payments.getSavedStarGifts.html)(\[exclude_unsaved: $[Bool](/API_docs/types/Bool.html), exclude_saved: $[Bool](/API_docs/types/Bool.html), exclude_unlimited: $[Bool](/API_docs/types/Bool.html), exclude_limited: $[Bool](/API_docs/types/Bool.html), exclude_unique: $[Bool](/API_docs/types/Bool.html), sort_by_value: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), collection_id: $[int](/API_docs/types/int.html), offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$payments.SavedStarGifts](/API_docs/types/payments.SavedStarGifts.html)<a name="payments.getSavedStarGifts"></a>  
+$MadelineProto->[payments->getSavedStarGifts](/API_docs/methods/payments.getSavedStarGifts.html)(\[exclude_unsaved: $[Bool](/API_docs/types/Bool.html), exclude_saved: $[Bool](/API_docs/types/Bool.html), exclude_unlimited: $[Bool](/API_docs/types/Bool.html), exclude_unique: $[Bool](/API_docs/types/Bool.html), sort_by_value: $[Bool](/API_docs/types/Bool.html), exclude_upgradable: $[Bool](/API_docs/types/Bool.html), exclude_unupgradable: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), collection_id: $[int](/API_docs/types/int.html), offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$payments.SavedStarGifts](/API_docs/types/payments.SavedStarGifts.html)<a name="payments.getSavedStarGifts"></a>  
 
 ***
 <br><br>
@@ -2378,6 +2402,10 @@ $MadelineProto->[payments->getSuggestedStarRefBots](/API_docs/methods/payments.g
 ***
 <br><br>
 $MadelineProto->[payments->getUniqueStarGift](/API_docs/methods/payments.getUniqueStarGift.html)(\[slug: $[string](/API_docs/types/string.html), \]) === [$payments.UniqueStarGift](/API_docs/types/payments.UniqueStarGift.html)<a name="payments.getUniqueStarGift"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->getUniqueStarGiftValueInfo](/API_docs/methods/payments.getUniqueStarGiftValueInfo.html)(\[slug: $[string](/API_docs/types/string.html), \]) === [$payments.UniqueStarGiftValueInfo](/API_docs/types/payments.UniqueStarGiftValueInfo.html)<a name="payments.getUniqueStarGiftValueInfo"></a>  
 
 ***
 <br><br>
@@ -2898,6 +2926,14 @@ $MadelineProto->[users->getFullUser](/API_docs/methods/users.getFullUser.html)(\
 ***
 <br><br>
 $MadelineProto->[users->getRequirementsToContact](/API_docs/methods/users.getRequirementsToContact.html)(\[id: \[$[InputUser](/API_docs/types/InputUser.html)\], \]) === [$Vector\_of\_RequirementToContact](/API_docs/types/RequirementToContact.html)<a name="users.getRequirementsToContact"></a>  
+
+***
+<br><br>
+$MadelineProto->[users->getSavedMusic](/API_docs/methods/users.getSavedMusic.html)(\[id: $[InputUser](/API_docs/types/InputUser.html), offset: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), hash: $[long](/API_docs/types/long.html), \]) === [$users.SavedMusic](/API_docs/types/users.SavedMusic.html)<a name="users.getSavedMusic"></a>  
+
+***
+<br><br>
+$MadelineProto->[users->getSavedMusicByID](/API_docs/methods/users.getSavedMusicByID.html)(\[id: $[InputUser](/API_docs/types/InputUser.html), documents: \[$[InputDocument](/API_docs/types/InputDocument.html)\], \]) === [$users.SavedMusic](/API_docs/types/users.SavedMusic.html)<a name="users.getSavedMusicByID"></a>  
 
 ***
 <br><br>

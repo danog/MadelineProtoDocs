@@ -15,7 +15,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |----------|---------------|----------|
 |require\_premium|[Bool](/API_docs/types/Bool.html) | Optional|
 |resale\_ton\_only|[Bool](/API_docs/types/Bool.html) | Optional|
+|theme\_available|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[long](/API_docs/types/long.html) | Yes|
+|gift\_id|[long](/API_docs/types/long.html) | Yes|
 |title|[string](/API_docs/types/string.html) | Yes|
 |slug|[string](/API_docs/types/string.html) | Yes|
 |num|[int](/API_docs/types/int.html) | Yes|
@@ -28,6 +30,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |gift\_address|[string](/API_docs/types/string.html) | Optional|
 |resell\_amount|Array of [StarsAmount](/API_docs/types/StarsAmount.html) | Optional|
 |released\_by|[Peer](/API_docs/types/Peer.html) | Optional|
+|value\_amount|[long](/API_docs/types/long.html) | Optional|
+|value\_currency|[string](/API_docs/types/string.html) | Optional|
+|theme\_peer|[Peer](/API_docs/types/Peer.html) | Optional|
 
 
 
@@ -37,5 +42,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$starGiftUnique = ['_' => 'starGiftUnique', 'require_premium' => Bool, 'resale_ton_only' => Bool, 'id' => long, 'title' => 'string', 'slug' => 'string', 'num' => int, 'owner_id' => Peer, 'owner_name' => 'string', 'owner_address' => 'string', 'attributes' => [StarGiftAttribute, StarGiftAttribute], 'availability_issued' => int, 'availability_total' => int, 'gift_address' => 'string', 'resell_amount' => [StarsAmount, StarsAmount], 'released_by' => Peer];
+$starGiftUnique = ['_' => 'starGiftUnique', 'require_premium' => Bool, 'resale_ton_only' => Bool, 'theme_available' => Bool, 'id' => long, 'gift_id' => long, 'title' => 'string', 'slug' => 'string', 'num' => int, 'owner_id' => Peer, 'owner_name' => 'string', 'owner_address' => 'string', 'attributes' => [StarGiftAttribute, StarGiftAttribute], 'availability_issued' => int, 'availability_total' => int, 'gift_address' => 'string', 'resell_amount' => [StarsAmount, StarsAmount], 'released_by' => Peer, 'value_amount' => long, 'value_currency' => 'string', 'theme_peer' => Peer];
 ```  

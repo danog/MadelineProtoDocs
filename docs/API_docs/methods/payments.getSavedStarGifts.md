@@ -18,9 +18,10 @@ redirect_from: /API_docs/methods/payments_getSavedStarGifts.html
 |exclude\_unsaved|[Bool](/API_docs/types/Bool.html) | Optional|
 |exclude\_saved|[Bool](/API_docs/types/Bool.html) | Optional|
 |exclude\_unlimited|[Bool](/API_docs/types/Bool.html) | Optional|
-|exclude\_limited|[Bool](/API_docs/types/Bool.html) | Optional|
 |exclude\_unique|[Bool](/API_docs/types/Bool.html) | Optional|
 |sort\_by\_value|[Bool](/API_docs/types/Bool.html) | Optional|
+|exclude\_upgradable|[Bool](/API_docs/types/Bool.html) | Optional|
+|exclude\_unupgradable|[Bool](/API_docs/types/Bool.html) | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 |collection\_id|[int](/API_docs/types/int.html) | Optional|
 |offset|[string](/API_docs/types/string.html) | Optional|
@@ -50,6 +51,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$payments_SavedStarGifts = $MadelineProto->payments->getSavedStarGifts(exclude_unsaved: $Bool, exclude_saved: $Bool, exclude_unlimited: $Bool, exclude_limited: $Bool, exclude_unique: $Bool, sort_by_value: $Bool, peer: $InputPeer, collection_id: $int, offset: 'string', limit: $int, );
+$payments_SavedStarGifts = $MadelineProto->payments->getSavedStarGifts(exclude_unsaved: $Bool, exclude_saved: $Bool, exclude_unlimited: $Bool, exclude_unique: $Bool, sort_by_value: $Bool, exclude_upgradable: $Bool, exclude_unupgradable: $Bool, peer: $InputPeer, collection_id: $int, offset: 'string', limit: $int, );
 ```
 

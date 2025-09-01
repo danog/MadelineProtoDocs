@@ -15,6 +15,7 @@ redirect_from: /API_docs/constructors/payments_uniqueStarGift.html
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |gift|[StarGift](/API_docs/types/StarGift.html) | Yes|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
 |users|Array of [User](/API_docs/types/User.html) | Yes|
 
 
@@ -25,5 +26,5 @@ redirect_from: /API_docs/constructors/payments_uniqueStarGift.html
 ### Example:
 
 ```
-$payments_uniqueStarGift = ['_' => 'payments.uniqueStarGift', 'gift' => StarGift, 'users' => [User, User]];
+$payments_uniqueStarGift = ['_' => 'payments.uniqueStarGift', 'gift' => StarGift, 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

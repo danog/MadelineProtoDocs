@@ -16,6 +16,8 @@ redirect_from: /API_docs/constructors/auth_sentCodePaymentRequired.html
 |----------|---------------|----------|
 |store\_product|[string](/API_docs/types/string.html) | Yes|
 |phone\_code\_hash|[string](/API_docs/types/string.html) | Yes|
+|support\_email\_address|[string](/API_docs/types/string.html) | Yes|
+|support\_email\_subject|[string](/API_docs/types/string.html) | Yes|
 
 
 
@@ -25,5 +27,5 @@ redirect_from: /API_docs/constructors/auth_sentCodePaymentRequired.html
 ### Example:
 
 ```
-$auth_sentCodePaymentRequired = ['_' => 'auth.sentCodePaymentRequired', 'store_product' => 'string', 'phone_code_hash' => 'string'];
+$auth_sentCodePaymentRequired = ['_' => 'auth.sentCodePaymentRequired', 'store_product' => 'string', 'phone_code_hash' => 'string', 'support_email_address' => 'string', 'support_email_subject' => 'string'];
 ```  
