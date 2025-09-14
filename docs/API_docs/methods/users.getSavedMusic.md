@@ -26,7 +26,7 @@ redirect_from: /API_docs/methods/users_getSavedMusic.html
 ### Can users use this method: **YES**
 
 
-### Can bots use this method: **YES**
+### Can bots use this method: **NO**
 
 
 ### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**

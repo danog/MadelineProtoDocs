@@ -31,7 +31,7 @@ Starting from layer 159, the reaction will be sent from the peer specified using
 ### Can users use this method: **YES**
 
 
-### Can bots use this method: **NO**
+### Can bots use this method: **YES**
 
 
 ### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
