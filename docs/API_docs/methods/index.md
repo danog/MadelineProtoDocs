@@ -1652,6 +1652,22 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="stories.sendStory.html" name="stories.sendStory">Uploads a Telegram Story: stories.sendStory</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadDocument" name="uploadDocument">Uploads a document without sending it: uploadDocument</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadGif" name="uploadGif">Uploads a gif without actually sending it: uploadGif</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadDocumentPhoto" name="uploadDocumentPhoto">Uploads a photo without sending it to the chat: uploadDocumentPhoto</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadPhoto" name="uploadPhoto">Uploads a photo, without sending it: uploadPhoto</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadSticker" name="uploadSticker">Uploads a sticker without sending it: uploadSticker</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadVideo" name="uploadVideo">Uploads a video, without actually sending it: uploadVideo</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadVoice" name="uploadVoice">Uploads a voice without actually sending it to the chat: uploadVoice</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadAudio" name="uploadAudio">Uploads an audio without actually sending it: uploadAudio</a>
+
 * <a href="contacts.getStatuses.html" name="contacts.getStatuses">Use this method to obtain the online statuses of all contacts with an accessible Telegram account: contacts.getStatuses</a>
 
 * <a href="messages.setGameScore.html" name="messages.setGameScore">Use this method to set the score of the specified user in a game sent as a normal message (bots only): messages.setGameScore</a>

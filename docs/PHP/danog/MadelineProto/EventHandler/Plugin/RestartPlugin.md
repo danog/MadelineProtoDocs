@@ -249,11 +249,19 @@ Plugin that offers a /restart command to admins that can be used to restart the 
 * [`update2fa(array{password?: string, new_password?: string, email?: string, hint?: string} $params): void`](#update2fa)
 * [`updateSettings(\danog\MadelineProto\SettingsAbstract $settings): void`](#updateSettings)
 * [`upload((\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|string|array|resource) $file, string $fileName = '', callable $cb = NULL, boolean $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): array`](#upload)
+* [`uploadAudio((\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, (integer|string|null) $peer = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?string $mimeType = NULL, (integer|null) $duration = NULL, (string|null) $title = NULL, (string|null) $performer = NULL, ?int $ttl = NULL, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Media`](#uploadAudio)
+* [`uploadDocument((\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, (integer|string|null) $peer = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?string $mimeType = NULL, ?int $ttl = NULL, bool $spoiler = false, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Media`](#uploadDocument)
+* [`uploadDocumentPhoto((\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (integer|string|null) $peer = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?int $ttl = NULL, bool $spoiler = false, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Media`](#uploadDocumentPhoto)
 * [`uploadEncrypted((\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|resource) $file, string $fileName = '', callable $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): array`](#uploadEncrypted)
 * [`uploadFromCallable(callable(int, int, ?Cancellation): strin) $callable, integer $size = 0, ?string $mime = NULL, string $fileName = '', callable(float, float, float): voi) $cb = NULL, boolean $seekable = true, boolean $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): array`](#uploadFromCallable)
 * [`uploadFromStream(mixed $stream, integer $size = 0, string $mime = NULL, string $fileName = '', callable $cb = NULL, boolean $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): array`](#uploadFromStream)
 * [`uploadFromTgfile(mixed $media, callable $cb = NULL, boolean $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): array`](#uploadFromTgfile)
 * [`uploadFromUrl((string|\danog\MadelineProto\FileCallbackInterface) $url, integer $size = 0, string $fileName = '', callable $cb = NULL, boolean $encrypted = false, ?\Amp\Cancellation $cancellation = NULL): array`](#uploadFromUrl)
+* [`uploadGif((\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, (integer|string|null) $peer = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, (integer|null) $ttl = NULL, boolean $spoiler = false, ?int $duration = NULL, ?int $width = NULL, ?int $height = NULL, string $thumbSeek = '00:00:01.000', (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Media`](#uploadGif)
+* [`uploadPhoto((\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (integer|string|null) $peer = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?int $ttl = NULL, bool $spoiler = false, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Media`](#uploadPhoto)
+* [`uploadSticker((\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, string $mimeType, (integer|string|null) $peer = NULL, string $emoji = '', array $stickerSet = [  '_' => 'inputStickerSetEmpty',], ?callable $callback = NULL, ?string $fileName = NULL, ?int $ttl = NULL, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Media`](#uploadSticker)
+* [`uploadVideo((\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, (integer|string|null) $peer = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, string $mimeType = 'video/mp4', (integer|null) $ttl = NULL, boolean $spoiler = false, boolean $roundMessage = false, boolean $supportsStreaming = true, boolean $noSound = false, (integer|null) $duration = NULL, (integer|null) $width = NULL, (integer|null) $height = NULL, string $thumbSeek = '00:00:01.000', (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, bool $updateStickersetsOrder = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Media`](#uploadVideo)
+* [`uploadVoice((integer|string|null) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, (integer|null) $ttl = NULL, (integer|null) $duration = NULL, (array|null) $waveform = NULL, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Media`](#uploadVoice)
 * [`validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): list<\danog\MadelineProto\EventHandlerIssue>`](#validateEventHandlerClass)
 * [`viewSponsoredMessage((int|array) $peer, (string|array{random_id: string}) $message): bool`](#viewSponsoredMessage)
 * [`wrapMedia(array $media, bool $protected = false): ?\danog\MadelineProto\EventHandler\Media`](#wrapMedia)
@@ -3231,6 +3239,143 @@ Return value: InputFile constructor
 
 
 
+### <a name="uploadAudio"></a> `uploadAudio((\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, (integer|string|null) $peer = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?string $mimeType = NULL, (integer|null) $duration = NULL, (string|null) $title = NULL, (string|null) $performer = NULL, ?int $ttl = NULL, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Media`
+
+Uploads an audio without actually sending it.
+  
+Please use named arguments to call this method.  
+
+
+Parameters:
+
+* `$file`: `(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream)` File to upload: can be a message to reuse media present in a message.  
+* `$thumb`: `(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null)` Optional: Thumbnail to upload  
+* `$peer`: `(integer|string|null)` Optional: associate the audio to the specified peer or username.  
+* `$caption`: `string` Caption of document  
+* `$parseMode`: `\danog\MadelineProto\ParseMode` Text parse mode for the caption  
+* `$callback`: `?callable`   
+* `$fileName`: `?string` Optional file name, if absent will be extracted from the passed $file.  
+* `$mimeType`: `?string`   
+* `$duration`: `(integer|null)` Duration of the audio  
+* `$title`: `(string|null)` Title of the audio  
+* `$performer`: `(string|null)` Performer of the audio  
+* `$ttl`: `?int`   
+* `$replyToMsgId`: `(integer|null)` ID of message to reply to.  
+* `$topMsgId`: `(integer|null)` ID of thread where to send the message.  
+* `$replyMarkup`: `(array|null)` Keyboard information.  
+* `$sendAs`: `(integer|string|null)` Peer to send the message as.  
+* `$scheduleDate`: `(integer|null)` Schedule date.  
+* `$silent`: `boolean` Whether to send the message silently, without triggering notifications.  
+* `$noForwards`: `boolean` Whether to disable forwards for this message.  
+* `$background`: `boolean` Send this message as background message  
+* `$clearDraft`: `boolean` Clears the draft field  
+* `$forceResend`: `boolean` Whether to forcefully resend the file, even if its type and name are the same.  
+* `$cancellation`: `?\Amp\Cancellation` Cancellation.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../danog/MadelineProto/EventHandler/Message.html)
+* [`\danog\MadelineProto\EventHandler\Media`: Represents a generic media.](../../../../danog/MadelineProto/EventHandler/Media.html)
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../../danog/MadelineProto/RemoteUrl.html)
+* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](../../../../danog/MadelineProto/BotApiFileId.html)
+* `\Amp\ByteStream\ReadableStream`
+* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../danog/MadelineProto/ParseMode.html)
+* `\Amp\Cancellation`
+
+
+
+
+### <a name="uploadDocument"></a> `uploadDocument((\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, (integer|string|null) $peer = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?string $mimeType = NULL, ?int $ttl = NULL, bool $spoiler = false, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Media`
+
+Uploads a document without sending it.
+  
+Please use named arguments to call this method.  
+
+
+Parameters:
+
+* `$file`: `(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream)` File to upload: can be a message to reuse media present in a message.  
+* `$thumb`: `(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null)` Optional: Thumbnail to upload  
+* `$peer`: `(integer|string|null)` Optional: associate the media to the specified peer or username.  
+* `$caption`: `string` Caption of document  
+* `$parseMode`: `\danog\MadelineProto\ParseMode` Text parse mode for the caption  
+* `$callback`: `?callable`   
+* `$fileName`: `?string` Optional file name, if absent will be extracted from the passed $file.  
+* `$mimeType`: `?string`   
+* `$ttl`: `?int`   
+* `$spoiler`: `bool`   
+* `$replyToMsgId`: `(integer|null)` ID of message to reply to.  
+* `$topMsgId`: `(integer|null)` ID of thread where to send the message.  
+* `$replyMarkup`: `(array|null)` Keyboard information.  
+* `$sendAs`: `(integer|null)` Peer to send the message as.  
+* `$scheduleDate`: `(integer|null)` Schedule date.  
+* `$silent`: `boolean` Whether to send the message silently, without triggering notifications.  
+* `$noForwards`: `bool`   
+* `$background`: `boolean` Send this message as background message  
+* `$clearDraft`: `boolean` Clears the draft field  
+* `$updateStickersetsOrder`: `boolean` Whether to move used stickersets to top  
+* `$forceResend`: `boolean` Whether to forcefully resend the file, even if its type and name are the same.  
+* `$cancellation`: `\Amp\Cancellation` Cancellation.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../danog/MadelineProto/EventHandler/Message.html)
+* [`\danog\MadelineProto\EventHandler\Media`: Represents a generic media.](../../../../danog/MadelineProto/EventHandler/Media.html)
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../../danog/MadelineProto/RemoteUrl.html)
+* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](../../../../danog/MadelineProto/BotApiFileId.html)
+* `\Amp\ByteStream\ReadableStream`
+* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../danog/MadelineProto/ParseMode.html)
+* `\Amp\Cancellation`
+
+
+
+
+### <a name="uploadDocumentPhoto"></a> `uploadDocumentPhoto((\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (integer|string|null) $peer = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?int $ttl = NULL, bool $spoiler = false, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Media`
+
+Uploads a photo without sending it to the chat.
+  
+Please use named arguments to call this method.  
+
+
+Parameters:
+
+* `$file`: `(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream)` File to upload: can be a message to reuse media present in a message.  
+* `$peer`: `(integer|string|null)` Optional: associate the file to the destination peer or username.  
+* `$caption`: `string` Caption of document  
+* `$parseMode`: `\danog\MadelineProto\ParseMode` Text parse mode for the caption  
+* `$callback`: `?callable`   
+* `$fileName`: `?string` Optional file name, if absent will be extracted from the passed $file.  
+* `$ttl`: `?int`   
+* `$spoiler`: `bool`   
+* `$replyToMsgId`: `(integer|null)` ID of message to reply to.  
+* `$topMsgId`: `(integer|null)` ID of thread where to send the message.  
+* `$replyMarkup`: `(array|null)` Keyboard information.  
+* `$sendAs`: `(integer|null)` Peer to send the message as.  
+* `$scheduleDate`: `(integer|null)` Schedule date.  
+* `$silent`: `boolean` Whether to send the message silently, without triggering notifications.  
+* `$noForwards`: `bool`   
+* `$background`: `boolean` Send this message as background message  
+* `$clearDraft`: `boolean` Clears the draft field  
+* `$updateStickersetsOrder`: `boolean` Whether to move used stickersets to top  
+* `$forceResend`: `boolean` Whether to forcefully resend the file, even if its type and name are the same.  
+* `$cancellation`: `\Amp\Cancellation` Cancellation.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../danog/MadelineProto/EventHandler/Message.html)
+* [`\danog\MadelineProto\EventHandler\Media`: Represents a generic media.](../../../../danog/MadelineProto/EventHandler/Media.html)
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../../danog/MadelineProto/RemoteUrl.html)
+* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](../../../../danog/MadelineProto/BotApiFileId.html)
+* `\Amp\ByteStream\ReadableStream`
+* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../danog/MadelineProto/ParseMode.html)
+* `\Amp\Cancellation`
+
+
+
+
 ### <a name="uploadEncrypted"></a> `uploadEncrypted((\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|string|array|resource) $file, string $fileName = '', callable $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): array`
 
 Upload file to secret chat.
@@ -3349,6 +3494,238 @@ Return value: InputFile constructor
 
 #### See also: 
 * [`\danog\MadelineProto\FileCallbackInterface`: File callback interface.](../../../../danog/MadelineProto/FileCallbackInterface.html)
+* `\Amp\Cancellation`
+
+
+
+
+### <a name="uploadGif"></a> `uploadGif((\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, (integer|string|null) $peer = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, (integer|null) $ttl = NULL, boolean $spoiler = false, ?int $duration = NULL, ?int $width = NULL, ?int $height = NULL, string $thumbSeek = '00:00:01.000', (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Media`
+
+Uploads a gif without actually sending it.
+  
+Please use named arguments to call this method.  
+
+
+Parameters:
+
+* `$file`: `(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream)` File to upload: can be a message to reuse media present in a message.  
+* `$thumb`: `(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null)` Optional: Thumbnail to upload  
+* `$peer`: `(integer|string|null)` Optional: associate the media to the peer or username.  
+* `$caption`: `string` Caption of document  
+* `$parseMode`: `\danog\MadelineProto\ParseMode` Text parse mode for the caption  
+* `$callback`: `?callable`   
+* `$fileName`: `?string` Optional file name, if absent will be extracted from the passed $file.  
+* `$ttl`: `(integer|null)` Time to live  
+* `$spoiler`: `boolean` Whether the message is a spoiler  
+* `$duration`: `?int`   
+* `$width`: `?int`   
+* `$height`: `?int`   
+* `$thumbSeek`: `string`   
+* `$replyToMsgId`: `(integer|null)` ID of message to reply to.  
+* `$topMsgId`: `(integer|null)` ID of thread where to send the message.  
+* `$replyMarkup`: `(array|null)` Keyboard information.  
+* `$sendAs`: `(integer|string|null)` Peer to send the message as.  
+* `$scheduleDate`: `(integer|null)` Schedule date.  
+* `$silent`: `boolean` Whether to send the message silently, without triggering notifications.  
+* `$noForwards`: `boolean` Whether to disable forwards for this message.  
+* `$background`: `boolean` Send this message as background message  
+* `$clearDraft`: `boolean` Clears the draft field  
+* `$forceResend`: `boolean` Whether to forcefully resend the file, even if its type and name are the same.  
+* `$cancellation`: `?\Amp\Cancellation` Cancellation.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../danog/MadelineProto/EventHandler/Message.html)
+* [`\danog\MadelineProto\EventHandler\Media`: Represents a generic media.](../../../../danog/MadelineProto/EventHandler/Media.html)
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../../danog/MadelineProto/RemoteUrl.html)
+* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](../../../../danog/MadelineProto/BotApiFileId.html)
+* `\Amp\ByteStream\ReadableStream`
+* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../danog/MadelineProto/ParseMode.html)
+* `\Amp\Cancellation`
+
+
+
+
+### <a name="uploadPhoto"></a> `uploadPhoto((\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (integer|string|null) $peer = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?int $ttl = NULL, bool $spoiler = false, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Media`
+
+Uploads a photo, without sending it.
+  
+Please use named arguments to call this method.  
+
+
+Parameters:
+
+* `$file`: `(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream)` File to upload: can be a message to reuse media present in a message.  
+* `$peer`: `(integer|string|null)` Optional: associate the media to the specified peer or username.  
+* `$caption`: `string` Caption of document  
+* `$parseMode`: `\danog\MadelineProto\ParseMode` Text parse mode for the caption  
+* `$callback`: `?callable`   
+* `$fileName`: `?string` Optional file name, if absent will be extracted from the passed $file.  
+* `$ttl`: `?int`   
+* `$spoiler`: `bool`   
+* `$replyToMsgId`: `(integer|null)` ID of message to reply to.  
+* `$topMsgId`: `(integer|null)` ID of thread where to send the message.  
+* `$replyMarkup`: `(array|null)` Keyboard information.  
+* `$sendAs`: `(integer|null)` Peer to send the message as.  
+* `$scheduleDate`: `(integer|null)` Schedule date.  
+* `$silent`: `boolean` Whether to send the message silently, without triggering notifications.  
+* `$noForwards`: `bool`   
+* `$background`: `boolean` Send this message as background message  
+* `$clearDraft`: `boolean` Clears the draft field  
+* `$updateStickersetsOrder`: `boolean` Whether to move used stickersets to top  
+* `$forceResend`: `boolean` Whether to forcefully resend the file, even if its type and name are the same.  
+* `$cancellation`: `\Amp\Cancellation` Cancellation.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../danog/MadelineProto/EventHandler/Message.html)
+* [`\danog\MadelineProto\EventHandler\Media`: Represents a generic media.](../../../../danog/MadelineProto/EventHandler/Media.html)
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../../danog/MadelineProto/RemoteUrl.html)
+* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](../../../../danog/MadelineProto/BotApiFileId.html)
+* `\Amp\ByteStream\ReadableStream`
+* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../danog/MadelineProto/ParseMode.html)
+* `\Amp\Cancellation`
+
+
+
+
+### <a name="uploadSticker"></a> `uploadSticker((\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, string $mimeType, (integer|string|null) $peer = NULL, string $emoji = '', array $stickerSet = [  '_' => 'inputStickerSetEmpty',], ?callable $callback = NULL, ?string $fileName = NULL, ?int $ttl = NULL, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Media`
+
+Uploads a sticker without sending it.
+  
+Please use named arguments to call this method.  
+
+
+Parameters:
+
+* `$file`: `(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream)` File to upload: can be a message to reuse media present in a message.  
+* `$mimeType`: `string`   
+* `$peer`: `(integer|string|null)` Optional: associate the file to the specified peer or username.  
+* `$emoji`: `string`   
+* `$stickerSet`: `array`   
+* `$callback`: `?callable`   
+* `$fileName`: `?string` Optional file name, if absent will be extracted from the passed $file.  
+* `$ttl`: `?int`   
+* `$replyToMsgId`: `(integer|null)` ID of message to reply to.  
+* `$topMsgId`: `(integer|null)` ID of thread where to send the message.  
+* `$replyMarkup`: `(array|null)` Keyboard information.  
+* `$sendAs`: `(integer|null)` Peer to send the message as.  
+* `$scheduleDate`: `(integer|null)` Schedule date.  
+* `$silent`: `boolean` Whether to send the message silently, without triggering notifications.  
+* `$noForwards`: `boolean` Whether to disable forwards for this message.  
+* `$background`: `boolean` Send this message as background message  
+* `$clearDraft`: `boolean` Clears the draft field  
+* `$updateStickersetsOrder`: `boolean` Whether to move used stickersets to top  
+* `$forceResend`: `boolean` Whether to forcefully resend the file, even if its type and name are the same.  
+* `$cancellation`: `\Amp\Cancellation` Cancellation.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../danog/MadelineProto/EventHandler/Message.html)
+* [`\danog\MadelineProto\EventHandler\Media`: Represents a generic media.](../../../../danog/MadelineProto/EventHandler/Media.html)
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../../danog/MadelineProto/RemoteUrl.html)
+* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](../../../../danog/MadelineProto/BotApiFileId.html)
+* `\Amp\ByteStream\ReadableStream`
+* `\Amp\Cancellation`
+
+
+
+
+### <a name="uploadVideo"></a> `uploadVideo((\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, (integer|string|null) $peer = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, string $mimeType = 'video/mp4', (integer|null) $ttl = NULL, boolean $spoiler = false, boolean $roundMessage = false, boolean $supportsStreaming = true, boolean $noSound = false, (integer|null) $duration = NULL, (integer|null) $width = NULL, (integer|null) $height = NULL, string $thumbSeek = '00:00:01.000', (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, bool $updateStickersetsOrder = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Media`
+
+Uploads a video, without actually sending it.
+  
+Please use named arguments to call this method.  
+
+
+Parameters:
+
+* `$file`: `(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream)` File to upload: can be a message to reuse media present in a message.  
+* `$thumb`: `(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null)` Optional: Thumbnail to upload  
+* `$peer`: `(integer|string|null)` Optional: associate the media to the specified peer or username.  
+* `$caption`: `string` Caption of document  
+* `$parseMode`: `\danog\MadelineProto\ParseMode` Text parse mode for the caption  
+* `$callback`: `?callable`   
+* `$fileName`: `?string` Optional file name, if absent will be extracted from the passed $file.  
+* `$mimeType`: `string`   
+* `$ttl`: `(integer|null)` Time to live  
+* `$spoiler`: `boolean` Whether the message is a spoiler  
+* `$roundMessage`: `boolean` Whether the message should be round  
+* `$supportsStreaming`: `boolean` Whether the video supports streaming  
+* `$noSound`: `boolean` Whether the video has no sound  
+* `$duration`: `(integer|null)` Duration of the video  
+* `$width`: `(integer|null)` Width of the video  
+* `$height`: `(integer|null)` Height of the video  
+* `$thumbSeek`: `string`   
+* `$replyToMsgId`: `(integer|null)` ID of message to reply to.  
+* `$topMsgId`: `(integer|null)` ID of thread where to send the message.  
+* `$replyMarkup`: `(array|null)` Keyboard information.  
+* `$sendAs`: `(integer|string|null)` Peer to send the message as.  
+* `$scheduleDate`: `(integer|null)` Schedule date.  
+* `$silent`: `boolean` Whether to send the message silently, without triggering notifications.  
+* `$noForwards`: `boolean` Whether to disable forwards for this message.  
+* `$background`: `boolean` Send this message as background message  
+* `$clearDraft`: `boolean` Clears the draft field  
+* `$forceResend`: `boolean` Whether to forcefully resend the file, even if its type and name are the same.  
+* `$updateStickersetsOrder`: `bool`   
+* `$cancellation`: `\Amp\Cancellation` Cancellation.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../danog/MadelineProto/EventHandler/Message.html)
+* [`\danog\MadelineProto\EventHandler\Media`: Represents a generic media.](../../../../danog/MadelineProto/EventHandler/Media.html)
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../../danog/MadelineProto/RemoteUrl.html)
+* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](../../../../danog/MadelineProto/BotApiFileId.html)
+* `\Amp\ByteStream\ReadableStream`
+* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../danog/MadelineProto/ParseMode.html)
+* `\Amp\Cancellation`
+
+
+
+
+### <a name="uploadVoice"></a> `uploadVoice((integer|string|null) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, (integer|null) $ttl = NULL, (integer|null) $duration = NULL, (array|null) $waveform = NULL, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Media`
+
+Uploads a voice without actually sending it to the chat.
+  
+Please use named arguments to call this method.  
+
+
+Parameters:
+
+* `$peer`: `(integer|string|null)` Optional: associate the media to the specified peer or username.  
+* `$file`: `(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream)` File to upload: can be a message to reuse media present in a message.  
+* `$caption`: `string` Caption of document  
+* `$parseMode`: `\danog\MadelineProto\ParseMode` Text parse mode for the caption  
+* `$callback`: `?callable`   
+* `$fileName`: `?string` Optional file name, if absent will be extracted from the passed $file.  
+* `$ttl`: `(integer|null)` Time to live  
+* `$duration`: `(integer|null)` Duration of the voice  
+* `$waveform`: `(array|null)` Waveform of the voice  
+* `$replyToMsgId`: `(integer|null)` ID of message to reply to.  
+* `$topMsgId`: `(integer|null)` ID of thread where to send the message.  
+* `$replyMarkup`: `(array|null)` Keyboard information.  
+* `$sendAs`: `(integer|string|null)` Peer to send the message as.  
+* `$scheduleDate`: `(integer|null)` Schedule date.  
+* `$silent`: `boolean` Whether to send the message silently, without triggering notifications.  
+* `$noForwards`: `boolean` Whether to disable forwards for this message.  
+* `$background`: `boolean` Send this message as background message  
+* `$clearDraft`: `boolean` Clears the draft field  
+* `$forceResend`: `boolean` Whether to forcefully resend the file, even if its type and name are the same.  
+* `$cancellation`: `?\Amp\Cancellation` Cancellation.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../danog/MadelineProto/EventHandler/Message.html)
+* [`\danog\MadelineProto\EventHandler\Media`: Represents a generic media.](../../../../danog/MadelineProto/EventHandler/Media.html)
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../../danog/MadelineProto/RemoteUrl.html)
+* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](../../../../danog/MadelineProto/BotApiFileId.html)
+* `\Amp\ByteStream\ReadableStream`
+* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../danog/MadelineProto/ParseMode.html)
 * `\Amp\Cancellation`
 
 

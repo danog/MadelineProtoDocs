@@ -81,6 +81,8 @@ $sentMessage = $MadelineProto->sendPhoto(
 
 Click [here &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#sendPhoto) to see the full list of arguments to set set the self-destruction period of the photo, and many more parameters.  
 
+[An uploadPhoto method is also available to upload a photo without sending it to any chat &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadPhoto)
+
 ### Photos as documents
 ```php
 use danog\MadelineProto\LocalFile;
@@ -104,6 +106,8 @@ $sentMessage = $MadelineProto->sendDocumentPhoto(
 ```
 
 Click [here &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#sendDocumentPhoto) to see the full list of arguments to set set the self-destruction period of the photo, and many more parameters.  
+
+[An uploadDocumentPhoto method is also available to upload a document photo without sending it to any chat &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadDocumentPhoto)
 
 ### Documents
 
@@ -132,6 +136,8 @@ Click [here &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.
 
 To rename files, provide a Message or another already-uploaded Telegram file object to the `file` field.  
 
+[An uploadDocument method is also available to upload a document without sending it to any chat &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadDocument).
+
 ### GIFs
 ```php
 use danog\MadelineProto\LocalFile;
@@ -156,6 +162,8 @@ $sentMessage = $MadelineProto->sendGif(
 Click [here &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#sendGif) to see the full list of arguments to set set the self-destruction period of the document, and many more parameters.  
 
 MadelineProto will **automatically** extract the video's thumbnail, duration, width and height using ffmpeg, if installed.  
+
+[An uploadGif method is also available to upload a gif without sending it to any chat &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadGif)
 
 ### Videos
 
@@ -184,6 +192,7 @@ Click [here &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.
 
 MadelineProto will **automatically** extract the video's thumbnail, duration, width and height using ffmpeg, if installed.  
 
+[An uploadVideo method is also available to upload a video without sending it to any chat &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadVideo)
 ### Music
 
 ```php
@@ -211,6 +220,7 @@ Click [here &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.
 
 MadelineProto will **automatically** extract the music's thumbnail and duration using ffmpeg, if installed.  
 
+[An uploadAudio method is also available to upload an audio without sending it to any chat &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadAudio)
 
 ### Voice
 
@@ -239,6 +249,9 @@ Click [here &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.
 
 MadelineProto will **automatically** extract the voice message's duration using ffmpeg, if installed.  
 
+[An uploadVoice method is also available to upload a voice message without sending it to any chat &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadVoice)
+
+
 ### Stickers
 
 ```php
@@ -264,6 +277,9 @@ $sentMessage = $MadelineProto->sendSticker(
 ```
 
 Click [here &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#sendSticker) to see the full list of arguments to set set the self-destruction period of the document, and many more parameters.  
+
+[An uploadSticker method is also available to upload a sticker without sending it to any chat &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#uploadSticker)
+
 
 ## Uploading files
 
