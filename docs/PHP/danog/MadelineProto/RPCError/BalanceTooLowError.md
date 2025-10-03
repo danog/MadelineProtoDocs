@@ -1,17 +1,17 @@
 ---
-title: "danog\\MadelineProto\\RPCError\\FileReferenceExpiredError: File reference expired, it must be refetched as described in [the documentation](https://core.telegram.org/api/file-references)."
+title: "danog\\MadelineProto\\RPCError\\BalanceTooLowError: The transaction cannot be completed because the current [Telegram Stars balance](https://core.telegram.org/api/stars) is too low."
 description: "\nNote: this exception is part of the raw API, and thus is not covered by the backwards-compatibility promise.\n\nAlways check the changelog when upgrading, and use tools like Psalm to easily upgrade your code.\n"
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
 ---
-# `danog\MadelineProto\RPCError\FileReferenceExpiredError`
+# `danog\MadelineProto\RPCError\BalanceTooLowError`
 [Back to index](../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-File reference expired, it must be refetched as described in [the documentation](https://core.telegram.org/api/file-references).  
+The transaction cannot be completed because the current [Telegram Stars balance](https://core.telegram.org/api/stars) is too low.  
 
 
 Note: this exception is part of the raw API, and thus is not covered by the backwards-compatibility promise.

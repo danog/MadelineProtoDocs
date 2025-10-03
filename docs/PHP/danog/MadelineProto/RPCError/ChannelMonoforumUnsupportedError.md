@@ -1,17 +1,17 @@
 ---
-title: "danog\\MadelineProto\\RPCError\\FileReferenceExpiredError: File reference expired, it must be refetched as described in [the documentation](https://core.telegram.org/api/file-references)."
+title: "danog\\MadelineProto\\RPCError\\ChannelMonoforumUnsupportedError: [Monoforums](https://core.telegram.org/api/channel#monoforums) do not support this feature."
 description: "\nNote: this exception is part of the raw API, and thus is not covered by the backwards-compatibility promise.\n\nAlways check the changelog when upgrading, and use tools like Psalm to easily upgrade your code.\n"
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
 ---
-# `danog\MadelineProto\RPCError\FileReferenceExpiredError`
+# `danog\MadelineProto\RPCError\ChannelMonoforumUnsupportedError`
 [Back to index](../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-File reference expired, it must be refetched as described in [the documentation](https://core.telegram.org/api/file-references).  
+[Monoforums](https://core.telegram.org/api/channel#monoforums) do not support this feature.  
 
 
 Note: this exception is part of the raw API, and thus is not covered by the backwards-compatibility promise.
