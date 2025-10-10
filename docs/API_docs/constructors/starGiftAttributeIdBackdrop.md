@@ -1,6 +1,6 @@
 ---
 title: "starGiftAttributeIdBackdrop"
-description: "starGiftAttributeIdBackdrop attributes, type and example"
+description: "The ID of a backdrop of a collectible gift »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+The ID of a backdrop of a [collectible gift »](https://core.telegram.org/api/gifts#collectible-gifts).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|backdrop\_id|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|backdrop\_id|[int](/API_docs/types/int.html) | Yes|Unique ID of the backdrop.|
 
 
 

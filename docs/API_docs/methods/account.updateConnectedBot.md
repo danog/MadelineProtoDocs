@@ -1,6 +1,6 @@
 ---
 title: "account.updateConnectedBot"
-description: "Connect a [business bot »](https://core.telegram.org/api/business#connected-bots) to the current account, or to change the current connection settings."
+description: "Connect a [business bot »](https://core.telegram.org/api/bots/connected-business-bots) to the current account, or to change the current connection settings."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,14 @@ redirect_from: /API_docs/methods/account_updateConnectedBot.html
 
 
 
-Connect a [business bot »](https://core.telegram.org/api/business#connected-bots) to the current account, or to change the current connection settings.
+Connect a [business bot »](https://core.telegram.org/api/bots/connected-business-bots) to the current account, or to change the current connection settings.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |deleted|[Bool](/API_docs/types/Bool.html) | Whether to fully disconnect the bot from the current account. | Optional|
-|rights|[BusinessBotRights](/API_docs/types/BusinessBotRights.html) |  | Optional|
+|rights|[BusinessBotRights](/API_docs/types/BusinessBotRights.html) | Business bot rights. | Optional|
 |bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The bot to connect or disconnect | Optional|
 |recipients|[InputBusinessBotRecipients](/API_docs/types/InputBusinessBotRecipients.html) | Configuration for the business connection | Yes|
 

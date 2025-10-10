@@ -16,6 +16,7 @@ The user is preparing a message; typing, recording, uploading, etc. This update 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |user\_id|[long](/API_docs/types/long.html) | Yes|User id|
+|top\_msg\_id|[int](/API_docs/types/int.html) | Optional|
 |action|[SendMessageAction](/API_docs/types/SendMessageAction.html) | Yes|Action type|
 
 
@@ -26,5 +27,5 @@ The user is preparing a message; typing, recording, uploading, etc. This update 
 ### Example:
 
 ```
-$updateUserTyping = ['_' => 'updateUserTyping', 'user_id' => long, 'action' => SendMessageAction];
+$updateUserTyping = ['_' => 'updateUserTyping', 'user_id' => long, 'top_msg_id' => int, 'action' => SendMessageAction];
 ```  

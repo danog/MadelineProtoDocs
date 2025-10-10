@@ -15,7 +15,7 @@ The chat theme was changed
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|theme|[ChatTheme](/API_docs/types/ChatTheme.html) | Yes|
+|theme|[ChatTheme](/API_docs/types/ChatTheme.html) | Yes|The new chat theme.|
 
 
 

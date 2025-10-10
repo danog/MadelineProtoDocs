@@ -1,6 +1,6 @@
 ---
 title: "stories.reorderAlbums"
-description: "stories.reorderAlbums parameters, return type and example"
+description: "Reorder [story albums on a profile »](https://core.telegram.org/api/stories#story-albums)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/stories_reorderAlbums.html
 
 
 
+Reorder [story albums on a profile »](https://core.telegram.org/api/stories#story-albums).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|order|Array of [int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where the albums are located. | Optional|
+|order|Array of [int](/API_docs/types/int.html) | New order of the albums. | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

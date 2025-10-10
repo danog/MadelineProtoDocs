@@ -1,6 +1,6 @@
 ---
 title: "inputInvoiceStarGiftResale"
-description: "inputInvoiceStarGiftResale attributes, type and example"
+description: "Used to buy a collectible gift currently up on resale, see here for more info on the full flow."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Used to buy a [collectible gift](https://core.telegram.org/api/gifts#collectible-gifts) currently up on resale, see [here](https://core.telegram.org/api/gifts#reselling-collectible-gifts) for more info on the full flow.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|ton|[Bool](/API_docs/types/Bool.html) | Optional|
-|slug|[string](/API_docs/types/string.html) | Yes|
-|to\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|ton|[Bool](/API_docs/types/Bool.html) | Optional|Buy the gift using TON.|
+|slug|[string](/API_docs/types/string.html) | Yes|Slug of the gift to buy.|
+|to\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|The receiver of the gift.|
 
 
 

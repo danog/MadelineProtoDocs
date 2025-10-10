@@ -16,12 +16,12 @@ Webpage preview
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |has\_large\_media|[Bool](/API_docs/types/Bool.html) | Optional|Whether the size of the media in the preview can be changed.|
-|video\_cover\_photo|[Bool](/API_docs/types/Bool.html) | Optional|
+|video\_cover\_photo|[Bool](/API_docs/types/Bool.html) | Optional|Represents a custom [video cover](https://core.telegram.org/api/files#video-covers).|
 |id|[long](/API_docs/types/long.html) | Yes|Preview ID|
 |url|[string](/API_docs/types/string.html) | Yes|URL of previewed webpage|
 |display\_url|[string](/API_docs/types/string.html) | Yes|Webpage URL to be displayed to the user|
 |hash|[int](/API_docs/types/int.html) | Yes|
-|type|[string](/API_docs/types/string.html) | Optional|Type of the web page. One of the following: <!-- start type --><br><br>\- `video`<br>\- `gif`<br>\- `photo`<br>\- `document`<br>\- `profile`<br>\- `telegram_background`<br>\- `telegram_theme`<br>\- `telegram_story`<br>\- `telegram_channel`<br>\- `telegram_channel_request`<br>\- `telegram_megagroup`<br>\- `telegram_chat`<br>\- `telegram_megagroup_request`<br>\- `telegram_chat_request`<br>\- `telegram_album`<br>\- `telegram_message`<br>\- `telegram_bot`<br>\- `telegram_voicechat`<br>\- `telegram_livestream`<br>\- `telegram_user`<br>\- `telegram_botapp`<br>\- `telegram_channel_boost`<br>\- `telegram_group_boost`<br>\- `telegram_giftcode`<br>\- `telegram_stickerset`<br><br><!-- end type -->|
+|type|[string](/API_docs/types/string.html) | Optional|Type of the web page. One of the following: <!-- start type --><br><br>- `app`<br>- `article`<br>- `document`<br>- `gif`<br>- `photo`<br>- `profile`<br>- `telegram_album`<br>- `telegram_background`<br>- `telegram_bot`<br>- `telegram_botapp`<br>- `telegram_call`<br>- `telegram_channel`<br>- `telegram_channel_boost`<br>- `telegram_channel_direct`<br>- `telegram_channel_request`<br>- `telegram_chat`<br>- `telegram_chat_request`<br>- `telegram_chatlist`<br>- `telegram_collection`<br>- `telegram_community`<br>- `telegram_giftcode`<br>- `telegram_group_boost`<br>- `telegram_livestream`<br>- `telegram_megagroup`<br>- `telegram_megagroup_request`<br>- `telegram_message`<br>- `telegram_nft`<br>- `telegram_stickerset`<br>- `telegram_story`<br>- `telegram_story_album`<br>- `telegram_theme`<br>- `telegram_user`<br>- `telegram_videochat`<br>- `telegram_voicechat`<br>- `video`<br><br><!-- end type -->|
 |site\_name|[string](/API_docs/types/string.html) | Optional|Short name of the site (e.g., Google Docs, App Store)|
 |title|[string](/API_docs/types/string.html) | Optional|Title of the content|
 |description|[string](/API_docs/types/string.html) | Optional|Content description|

@@ -22,7 +22,7 @@ The `inbound` and `outbound` flags are mutually exclusive: if none of the two ar
 |inbound|[Bool](/API_docs/types/Bool.html) | If set, fetches only incoming transactions. | Optional|
 |outbound|[Bool](/API_docs/types/Bool.html) | If set, fetches only outgoing transactions. | Optional|
 |ascending|[Bool](/API_docs/types/Bool.html) | Return transactions in ascending order by date (instead of descending order by date). | Optional|
-|ton|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|ton|[Bool](/API_docs/types/Bool.html) | If set, returns the channel/ad revenue transactions in nanotons, instead. | Optional|
 |subscription\_id|[string](/API_docs/types/string.html) | If set, fetches only transactions for the specified [Telegram Star subscription »](https://core.telegram.org/api/stars#star-subscriptions). | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Fetch the transaction history of the peer ([inputPeerSelf](../constructors/inputPeerSelf.html) or a bot we own). | Optional|
 |offset|[string](/API_docs/types/string.html) | [Offset for pagination, obtained from the returned `next_offset`, initially an empty string »](https://core.telegram.org/api/offsets). | Optional|

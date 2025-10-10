@@ -1,6 +1,6 @@
 ---
 title: "account.saveMusic"
-description: "account.saveMusic parameters, return type and example"
+description: "Adds or removes a song from the current user's profile [see here »](https://core.telegram.org/api/profile#music) for more info on the music tab of the profile page."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/account_saveMusic.html
 
 
 
+Adds or removes a song from the current user's profile [see here »](https://core.telegram.org/api/profile#music) for more info on the music tab of the profile page.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|unsave|[Bool](/API_docs/types/Bool.html) | Optional|
-|id|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.html) | Optional|
-|after\_id|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|unsave|[Bool](/API_docs/types/Bool.html) | If set, removes the song. | Optional|
+|id|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.html) | The song to add or remove; can be an already added song when reordering songs with `after_id`. Adding an already added song will never re-add it, only move it to the top of the song list (or after the song passed in `after_id`). | Optional|
+|after\_id|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.html) | If set, the song will be added after the passed song (must be already pinned on the profile). | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

@@ -1,6 +1,6 @@
 ---
 title: "updateReadMonoForumOutbox"
-description: "updateReadMonoForumOutbox attributes, type and example"
+description: "Outgoing messages in a monoforum were read."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Outgoing messages in a [monoforum](https://core.telegram.org/api/monoforum) were read.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel\_id|[long](/API_docs/types/long.html) | Yes|
-|saved\_peer\_id|[Peer](/API_docs/types/Peer.html) | Yes|
-|read\_max\_id|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|channel\_id|[long](/API_docs/types/long.html) | Yes|ID of the monoforum.|
+|saved\_peer\_id|[Peer](/API_docs/types/Peer.html) | Yes|Topic ID.|
+|read\_max\_id|[int](/API_docs/types/int.html) | Yes|Position up to which all outgoing messages are read.|
 
 
 

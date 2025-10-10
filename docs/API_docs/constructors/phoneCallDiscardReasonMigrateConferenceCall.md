@@ -1,6 +1,6 @@
 ---
 title: "phoneCallDiscardReasonMigrateConferenceCall"
-description: "phoneCallDiscardReasonMigrateConferenceCall attributes, type and example"
+description: "This phone call was migrated to a conference call."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+This phone call was migrated to a [conference call](https://core.telegram.org/api/end-to-end/group-calls).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|slug|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|slug|[string](/API_docs/types/string.html) | Yes|[Conference link »](https://core.telegram.org/api/links#conference-links) slug.|
 
 
 

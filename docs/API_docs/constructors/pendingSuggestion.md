@@ -1,6 +1,6 @@
 ---
 title: "pendingSuggestion"
-description: "pendingSuggestion attributes, type and example"
+description: "Represents a custom pending suggestion »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,14 +9,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents a [custom pending suggestion »](https://core.telegram.org/api/config#custom-suggestions).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|suggestion|[string](/API_docs/types/string.html) | Yes|
-|title|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Yes|
-|description|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Yes|
-|url|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|suggestion|[string](/API_docs/types/string.html) | Yes|The suggestion ID, can be passed to [help.dismissSuggestion](../methods/help.dismissSuggestion.html).|
+|title|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Yes|Title of the suggestion.|
+|description|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Yes|Body of the suggestion.|
+|url|[string](/API_docs/types/string.html) | Yes|URL to open when the user clicks on the suggestion.|
 
 
 

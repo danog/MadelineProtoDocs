@@ -17,7 +17,7 @@ Document location (video, voice, audio, basically every type except photo)
 |----------|---------------|----------|-------------|
 |id|[long](/API_docs/types/long.html) | Yes|Document ID|
 |access\_hash|[long](/API_docs/types/long.html) | Yes|**access\_hash** parameter from the [document](../constructors/document.html) constructor|
-|file\_reference|[bytes](/API_docs/types/bytes.html) | Yes|[File reference](https://core.telegram.org/api/file_reference)|
+|file\_reference|[bytes](/API_docs/types/bytes.html) | Yes|[File reference](https://core.telegram.org/api/file-references)|
 |thumb\_size|[string](/API_docs/types/string.html) | Yes|Thumbnail size to download the thumbnail|
 
 

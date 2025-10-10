@@ -1,6 +1,6 @@
 ---
 title: "starsRating"
-description: "starsRating attributes, type and example"
+description: "Represents the profile's star rating, see here » for more info."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,14 +9,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents the profile's [star rating, see here »](https://core.telegram.org/api/stars#star-rating) for more info.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|level|[int](/API_docs/types/int.html) | Yes|
-|current\_level\_stars|[long](/API_docs/types/long.html) | Yes|
-|stars|[long](/API_docs/types/long.html) | Yes|
-|next\_level\_stars|[long](/API_docs/types/long.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|level|[int](/API_docs/types/int.html) | Yes|The current level, may be negative.|
+|current\_level\_stars|[long](/API_docs/types/long.html) | Yes|The numerical value of the rating required for the current level.|
+|stars|[long](/API_docs/types/long.html) | Yes|Numerical value of the current rating.|
+|next\_level\_stars|[long](/API_docs/types/long.html) | Optional|The numerical value of the rating required for the next level.|
 
 
 

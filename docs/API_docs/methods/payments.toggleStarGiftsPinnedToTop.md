@@ -1,6 +1,6 @@
 ---
 title: "payments.toggleStarGiftsPinnedToTop"
-description: "payments.toggleStarGiftsPinnedToTop parameters, return type and example"
+description: "Pins a received gift on top of the profile of the user or owned channels by using [payments.toggleStarGiftsPinnedToTop](../methods/payments.toggleStarGiftsPinnedToTop.html)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/payments_toggleStarGiftsPinnedToTop.html
 
 
 
+Pins a received gift on top of the profile of the user or owned channels by using [payments.toggleStarGiftsPinnedToTop](../methods/payments.toggleStarGiftsPinnedToTop.html).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|stargift|Array of [InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer where to pin the gift. | Optional|
+|stargift|Array of [InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) | The gift to pin. | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

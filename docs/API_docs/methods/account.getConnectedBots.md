@@ -1,6 +1,6 @@
 ---
 title: "account.getConnectedBots"
-description: "List all currently connected [business bots »](https://core.telegram.org/api/business#connected-bots)"
+description: "List all currently connected [business bots »](https://core.telegram.org/api/bots/connected-business-bots)"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/account_getConnectedBots.html
 
 
 
-List all currently connected [business bots »](https://core.telegram.org/api/business#connected-bots)
+List all currently connected [business bots »](https://core.telegram.org/api/bots/connected-business-bots)
 
 
 

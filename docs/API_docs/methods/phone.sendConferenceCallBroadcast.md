@@ -1,6 +1,6 @@
 ---
 title: "phone.sendConferenceCallBroadcast"
-description: "phone.sendConferenceCallBroadcast parameters, return type and example"
+description: "Broadcast a blockchain block to all members of a conference call, see [here »](https://core.telegram.org/api/end-to-end/group-calls) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/phone_sendConferenceCallBroadcast.html
 
 
 
+Broadcast a blockchain block to all members of a conference call, see [here »](https://core.telegram.org/api/end-to-end/group-calls) for more info.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
-|block|[bytes](/API_docs/types/bytes.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | The conference where to broadcast the block. | Yes|
+|block|[bytes](/API_docs/types/bytes.html) | The block to broadcast. | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

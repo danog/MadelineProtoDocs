@@ -1,6 +1,6 @@
 ---
 title: "stories.getAlbumStories"
-description: "stories.getAlbumStories parameters, return type and example"
+description: "Get stories in a [story album »](https://core.telegram.org/api/stories#story-albums)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,16 @@ redirect_from: /API_docs/methods/stories_getAlbumStories.html
 
 
 
+Get stories in a [story album »](https://core.telegram.org/api/stories#story-albums).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|album\_id|[int](/API_docs/types/int.html) | Optional|
-|offset|[int](/API_docs/types/int.html) | Optional|
-|limit|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where the album is posted. | Optional|
+|album\_id|[int](/API_docs/types/int.html) | ID of the album. | Optional|
+|offset|[int](/API_docs/types/int.html) | Offset for [pagination](https://core.telegram.org/api/offsets). | Optional|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [stories.Stories](/API_docs/types/stories.Stories.html)

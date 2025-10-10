@@ -1,6 +1,6 @@
 ---
 title: "chatTheme"
-description: "chatTheme attributes, type and example"
+description: "A chat theme"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A chat theme
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|emoticon|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|emoticon|[string](/API_docs/types/string.html) | Yes|The emoji identifying the chat theme.|
 
 
 

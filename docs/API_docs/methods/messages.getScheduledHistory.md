@@ -18,7 +18,7 @@ Get scheduled messages
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer | Optional|
-|hash|Array of [long\|string](/API_docs/types/long\|string.html) | [Hash used for caching, for more info click here](https://core.telegram.org/api/offsets#hash-generation). <br>To generate the hash, populate the `ids` array with the `id`, `date` and `edit_date` (in this order) of the previously returned messages (in order, i.e. `ids = [id1, date1, edit_date1, id2, date2, edit_date2, ...]`). | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | [Hash used for caching, for more info click here](https://core.telegram.org/api/offsets#hash-generation). <br>To generate the hash, populate the `ids` array with the `id`, `edit_date` (0 if unedited) and `date` (in this order) of the previously returned messages (in order, i.e. `ids = [id1, (edit_date1 ?? 0), date1, id2, (edit_date2 ?? 0), date2, ...]`). | Optional|
 
 
 ### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)

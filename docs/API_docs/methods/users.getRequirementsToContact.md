@@ -1,6 +1,6 @@
 ---
 title: "users.getRequirementsToContact"
-description: "users.getRequirementsToContact parameters, return type and example"
+description: "Check whether we can write to the specified users, used to implement bulk checks for [Premium-only messages »](https://core.telegram.org/api/privacy#require-premium-for-new-non-contact-users) and [paid messages »](https://core.telegram.org/api/paid-messages)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,15 @@ redirect_from: /API_docs/methods/users_getRequirementsToContact.html
 
 
 
+Check whether we can write to the specified users, used to implement bulk checks for [Premium-only messages »](https://core.telegram.org/api/privacy#require-premium-for-new-non-contact-users) and [paid messages »](https://core.telegram.org/api/paid-messages).
+
+For each input user, returns a [RequirementToContact](../types/RequirementToContact.html) constructor (at the same offset in the vector) containing requirements to contact them.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|Array of [Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|id|Array of [Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Users to check. | Yes|
 
 
 ### Return type: [Vector\_of\_RequirementToContact](/API_docs/types/RequirementToContact.html)

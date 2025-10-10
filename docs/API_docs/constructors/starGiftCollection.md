@@ -1,6 +1,6 @@
 ---
 title: "starGiftCollection"
-description: "starGiftCollection attributes, type and example"
+description: "Represents a star gift collection »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,15 +9,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents a [star gift collection »](https://core.telegram.org/api/gifts#gift-collections).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|collection\_id|[int](/API_docs/types/int.html) | Yes|
-|title|[string](/API_docs/types/string.html) | Yes|
-|icon|[Document](/API_docs/types/Document.html) | Optional|
-|gifts\_count|[int](/API_docs/types/int.html) | Yes|
-|hash|[long](/API_docs/types/long.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|collection\_id|[int](/API_docs/types/int.html) | Yes|The ID of the collection.|
+|title|[string](/API_docs/types/string.html) | Yes|Title of the collection.|
+|icon|[Document](/API_docs/types/Document.html) | Optional|Optional icon for the collection, taken from the first gift in the collection.|
+|gifts\_count|[int](/API_docs/types/int.html) | Yes|Number of gifts in the collection.|
+|hash|[long](/API_docs/types/long.html) | Yes|Field to use **instead of `collection_id`** when generating the hash to pass to [payments.getStarGiftCollections](../methods/payments.getStarGiftCollections.html).|
 
 
 

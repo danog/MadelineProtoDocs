@@ -1,6 +1,6 @@
 ---
 title: "payments.getStarGiftCollections"
-description: "payments.getStarGiftCollections parameters, return type and example"
+description: "Fetches all [star gift collections »](https://core.telegram.org/api/gifts#gift-collections) of a peer."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/payments_getStarGiftCollections.html
 
 
 
+Fetches all [star gift collections »](https://core.telegram.org/api/gifts#gift-collections) of a peer.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|hash|Array of [long\|string](/API_docs/types/long\|string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer. | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | Hash ([generated as specified here »](https://core.telegram.org/api/offsets#hash-generation)) using the [starGiftCollection](../constructors/starGiftCollection.html).`hash` field (**not** the `collection_id` field) of all collections returned by a previous method call, to avoid refetching the result if it hasn't changed. | Optional|
 
 
 ### Return type: [payments.StarGiftCollections](/API_docs/types/payments.StarGiftCollections.html)

@@ -1,6 +1,6 @@
 ---
 title: "account.paidMessagesRevenue"
-description: "account.paidMessagesRevenue attributes, type and example"
+description: "Total number of non-refunded Telegram Stars a user has spent on sending us messages either directly or through a channel, see here » for more info on paid messages."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/account_paidMessagesRevenue.html
@@ -10,11 +10,13 @@ redirect_from: /API_docs/constructors/account_paidMessagesRevenue.html
 
 
 
+Total number of non-refunded [Telegram Stars](https://core.telegram.org/api/stars) a user has spent on sending us messages either directly or through a channel, see [here »](https://core.telegram.org/api/paid-messages) for more info on paid messages.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|stars\_amount|[long](/API_docs/types/long.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|stars\_amount|[long](/API_docs/types/long.html) | Yes|Amount in [Stars](https://core.telegram.org/api/stars).|
 
 
 

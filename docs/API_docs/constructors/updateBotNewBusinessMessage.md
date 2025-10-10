@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-A message was received via a [connected business chat »](https://core.telegram.org/api/business#connected-bots).
+A message was received via a [connected business chat »](https://core.telegram.org/api/bots/connected-business-bots).
 
 ### Attributes:
 

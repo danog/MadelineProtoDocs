@@ -23,9 +23,9 @@ Dialog filter AKA [folder](https://core.telegram.org/api/folders)
 |exclude\_muted|[Bool](/API_docs/types/Bool.html) | Optional|Whether to exclude muted chats from this [folder](https://core.telegram.org/api/folders)|
 |exclude\_read|[Bool](/API_docs/types/Bool.html) | Optional|Whether to exclude read chats from this [folder](https://core.telegram.org/api/folders)|
 |exclude\_archived|[Bool](/API_docs/types/Bool.html) | Optional|Whether to exclude archived chats from this [folder](https://core.telegram.org/api/folders)|
-|title\_noanimate|[Bool](/API_docs/types/Bool.html) | Optional|
+|title\_noanimate|[Bool](/API_docs/types/Bool.html) | Optional|If set, any animated emojis present in `title` should not be animated and should be instead frozen on the first frame.|
 |id|[int](/API_docs/types/int.html) | Yes|[Folder](https://core.telegram.org/api/folders) ID|
-|title|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Yes|
+|title|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Yes|[Folder](https://core.telegram.org/api/folders) name (max 12 UTF-8 chars)|
 |emoticon|[string](/API_docs/types/string.html) | Optional|Emoji to use as icon for the folder.|
 |color|[int](/API_docs/types/int.html) | Optional|A color ID for the [folder tag associated to this folder, see here »](https://core.telegram.org/api/folders#folder-tags) for more info.|
 |pinned\_peers|Array of [InputPeer](/API_docs/types/InputPeer.html) | Yes|Pinned chats, [folders](https://core.telegram.org/api/folders) can have unlimited pinned chats|

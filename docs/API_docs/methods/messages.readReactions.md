@@ -19,7 +19,7 @@ Mark [message reactions »](https://core.telegram.org/api/reactions) as read
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer | Optional|
 |top\_msg\_id|[int](/API_docs/types/int.html) | Mark as read only reactions to messages within the specified [forum topic](https://core.telegram.org/api/forum#forum-topics) | Optional|
-|saved\_peer\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
+|saved\_peer\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | If set, must be equal to the ID of a [monoforum topic](https://core.telegram.org/api/monoforum): will affect that topic in the monoforum passed in `peer`. | Optional|
 
 
 ### Return type: [messages.AffectedHistory](/API_docs/types/messages.AffectedHistory.html)

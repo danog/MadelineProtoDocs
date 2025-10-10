@@ -16,7 +16,7 @@ Describes a real (i.e. possibly decimal) amount of [Telegram Stars](https://core
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |amount|[long](/API_docs/types/long.html) | Yes|The integer amount of Telegram Stars.|
-|nanos|[int](/API_docs/types/int.html) | Yes|The decimal amount of Telegram Stars, expressed as nanostars (i.e. 1 nanostar is equal to `1/1'000'000'000`th of a Telegram Star). <br>This field may also be negative (the allowed range is -999999999 to 999999999).|
+|nanos|[int](/API_docs/types/int.html) | Yes|The decimal amount of Telegram Stars, expressed as nanostars (i.e. 1 nanostar is equal to `1/1'000'000'000`th (one billionth) of a Telegram Star). <br>This field may also be negative (the allowed range is -999999999 to 999999999).|
 
 
 

@@ -17,7 +17,7 @@ Obtains a list of peers that can be used to send messages in a specific group
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|for\_paid\_reactions|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|for\_paid\_reactions|[Bool](/API_docs/types/Bool.html) | If set, fetches the list of peers that can be used to send [paid reactions](https://core.telegram.org/api/reactions#paid-reactions) to messages of a specific peer. | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The group where we intend to send messages | Optional|
 
 

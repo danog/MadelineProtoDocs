@@ -1,6 +1,6 @@
 ---
 title: "payments.uniqueStarGift"
-description: "payments.uniqueStarGift attributes, type and example"
+description: "Represents a collectible gift »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/payments_uniqueStarGift.html
@@ -10,13 +10,15 @@ redirect_from: /API_docs/constructors/payments_uniqueStarGift.html
 
 
 
+Represents a [collectible gift »](https://core.telegram.org/api/gifts#collectible-gifts).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|gift|[StarGift](/API_docs/types/StarGift.html) | Yes|
-|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
-|users|Array of [User](/API_docs/types/User.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|gift|[StarGift](/API_docs/types/StarGift.html) | Yes|The [starGiftUnique](../constructors/starGiftUnique.html) constructor.|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Chats mentioned in the `gift` field.|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Users mentioned in the `gift` field.|
 
 
 

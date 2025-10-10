@@ -1,6 +1,6 @@
 ---
 title: "inputSavedStarGiftSlug"
-description: "inputSavedStarGiftSlug attributes, type and example"
+description: "Points to a collectible gift obtained from a collectible gift link »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Points to a [collectible gift obtained from a collectible gift link »](https://core.telegram.org/api/links#collectible-gift-link).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|slug|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|slug|[string](/API_docs/types/string.html) | Yes|Slug from the link.|
 
 
 

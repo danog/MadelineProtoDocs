@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Connecting or disconnecting a [business bot](https://core.telegram.org/api/business#connected-bots) or changing the connection settings will emit an [updateBotBusinessConnect](../constructors/updateBotBusinessConnect.html) update to the bot, with the new settings and a `connection_id` that will be used by the bot to handle updates from and send messages as the user.
+Connecting or disconnecting a [business bot](https://core.telegram.org/api/bots/connected-business-bots) or changing the connection settings will emit an [updateBotBusinessConnect](../constructors/updateBotBusinessConnect.html) update to the bot, with the new settings and a `connection_id` that will be used by the bot to handle updates from and send messages as the user.
 
 ### Attributes:
 

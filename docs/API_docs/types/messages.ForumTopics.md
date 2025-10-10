@@ -18,9 +18,9 @@ redirect_from: /API_docs/types/messages_ForumTopics.html
 
 ### Methods that return an object of this type (methods):
 
-[$MadelineProto->channels->getForumTopics](/API_docs/methods/channels.getForumTopics.html)  
+[$MadelineProto->messages->getForumTopics](/API_docs/methods/messages.getForumTopics.html)  
 
-[$MadelineProto->channels->getForumTopicsByID](/API_docs/methods/channels.getForumTopicsByID.html)  
+[$MadelineProto->messages->getForumTopicsByID](/API_docs/methods/messages.getForumTopicsByID.html)  
 
 
 

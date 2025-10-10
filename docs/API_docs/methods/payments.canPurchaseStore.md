@@ -1,6 +1,6 @@
 ---
 title: "payments.canPurchaseStore"
-description: "payments.canPurchaseStore parameters, return type and example"
+description: "Checks whether a purchase is possible. Must be called before in-store purchase, official apps only."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/payments_canPurchaseStore.html
 
 
 
+Checks whether a purchase is possible. Must be called before in-store purchase, official apps only.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|purpose|[InputStorePaymentPurpose](/API_docs/types/InputStorePaymentPurpose.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|purpose|[InputStorePaymentPurpose](/API_docs/types/InputStorePaymentPurpose.html) | Payment purpose. | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

@@ -1,6 +1,6 @@
 ---
 title: "inputReplyToMonoForum"
-description: "inputReplyToMonoForum attributes, type and example"
+description: "Used to send messages to a monoforum topic."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Used to send messages to a [monoforum topic](https://core.telegram.org/api/monoforum).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|monoforum\_peer\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|monoforum\_peer\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|The topic ID.|
 
 
 

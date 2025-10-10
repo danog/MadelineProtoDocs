@@ -19,7 +19,7 @@ redirect_from: /API_docs/methods/messages_unpinAllMessages.html
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Chat where to unpin | Optional|
 |top\_msg\_id|[int](/API_docs/types/int.html) | [Forum topic](https://core.telegram.org/api/forum#forum-topics) where to unpin | Optional|
-|saved\_peer\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
+|saved\_peer\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | If set, must be equal to the ID of a [monoforum topic](https://core.telegram.org/api/monoforum), and will unpin all messages pinned in the passed monoforum topic. | Optional|
 
 
 ### Return type: [messages.AffectedHistory](/API_docs/types/messages.AffectedHistory.html)

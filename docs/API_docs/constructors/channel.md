@@ -38,6 +38,13 @@ The only exception to the above rule is when the `min` flag is set, in which cas
 - `is_verified`
 - `default_banned_rights`
 - `signature_profiles`
+- `autotranslation`
+- `broadcast_messages_allowed`
+- `monoforum`
+- `forum_tabs`
+- `linked_monoforum_id`
+- `send_paid_messages_stars`
+- `bot_verification_icon`
 
 See [here »](https://github.com/tdlib/td/blob/a24af0992245f838f2b4b418a0a2d5fa9caa27b5/td/telegram/ChatManager.cpp#L8329) for an implementation of the logic to use when updating the [local user peer database](https://core.telegram.org/api/peers).
 
@@ -73,7 +80,7 @@ See [here »](https://github.com/tdlib/td/blob/a24af0992245f838f2b4b418a0a2d5fa9
 |broadcast\_messages\_allowed|[Bool](/API_docs/types/Bool.html) | Optional|
 |monoforum|[Bool](/API_docs/types/Bool.html) | Optional|
 |forum\_tabs|[Bool](/API_docs/types/Bool.html) | Optional|
-|id|[long](/API_docs/types/long.html) | Yes|ID of the channel, see [here »](https://core.telegram.org/api/peers#peer-id) for more info|
+|id|[long](/API_docs/types/long.html) | Yes|ID of the channel, see [here »](https://core.telegram.org/api/peers#peer-id) for more info and the available ID range.|
 |access\_hash|[long](/API_docs/types/long.html) | Optional|Access hash, see [here »](https://core.telegram.org/api/peers#access-hash) for more info|
 |title|[string](/API_docs/types/string.html) | Yes|Title|
 |username|[string](/API_docs/types/string.html) | Optional|Main active username.|

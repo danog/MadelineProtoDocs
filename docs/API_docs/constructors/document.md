@@ -17,7 +17,7 @@ Document
 |----------|---------------|----------|-------------|
 |id|[long](/API_docs/types/long.html) | Yes|Document ID|
 |access\_hash|[long](/API_docs/types/long.html) | Yes|Check sum, dependent on document ID|
-|file\_reference|[bytes](/API_docs/types/bytes.html) | Yes|[File reference](https://core.telegram.org/api/file_reference)|
+|file\_reference|[bytes](/API_docs/types/bytes.html) | Yes|[File reference](https://core.telegram.org/api/file-references)|
 |date|[int](/API_docs/types/int.html) | Yes|Creation date|
 |mime\_type|[string](/API_docs/types/string.html) | Yes|MIME type|
 |size|[long](/API_docs/types/long.html) | Yes|Size|

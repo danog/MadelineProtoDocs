@@ -1,6 +1,6 @@
 ---
 title: "channels.setMainProfileTab"
-description: "channels.setMainProfileTab parameters, return type and example"
+description: "Changes the main profile tab of a channel, see [here »](https://core.telegram.org/api/profile#tabs) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/channels_setMainProfileTab.html
 
 
 
+Changes the main profile tab of a channel, see [here »](https://core.telegram.org/api/profile#tabs) for more info.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
-|tab|[ProfileTab](/API_docs/types/ProfileTab.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | The channel. | Optional|
+|tab|[ProfileTab](/API_docs/types/ProfileTab.html) | The tab to set as main tab. | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

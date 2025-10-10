@@ -1,6 +1,6 @@
 ---
 title: "messages.toggleTodoCompleted"
-description: "messages.toggleTodoCompleted parameters, return type and example"
+description: "Mark one or more items of a [todo list »](https://core.telegram.org/api/todo) as completed or not completed."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,16 @@ redirect_from: /API_docs/methods/messages_toggleTodoCompleted.html
 
 
 
+Mark one or more items of a [todo list »](https://core.telegram.org/api/todo) as completed or not completed.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | Optional|
-|completed|Array of [int](/API_docs/types/int.html) | Yes|
-|incompleted|Array of [int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where the todo list was posted. | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | ID of the message with the todo list. | Optional|
+|completed|Array of [int](/API_docs/types/int.html) | Items to mark as completed. | Yes|
+|incompleted|Array of [int](/API_docs/types/int.html) | Items to mark as not completed. | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

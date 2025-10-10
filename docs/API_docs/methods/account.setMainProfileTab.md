@@ -1,6 +1,6 @@
 ---
 title: "account.setMainProfileTab"
-description: "account.setMainProfileTab parameters, return type and example"
+description: "Changes the main profile tab of the current user, see [here »](https://core.telegram.org/api/profile#tabs) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/account_setMainProfileTab.html
 
 
 
+Changes the main profile tab of the current user, see [here »](https://core.telegram.org/api/profile#tabs) for more info.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|tab|[ProfileTab](/API_docs/types/ProfileTab.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|tab|[ProfileTab](/API_docs/types/ProfileTab.html) | The tab to set as main tab. | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

@@ -1,6 +1,6 @@
 ---
 title: "users.getSavedMusicByID"
-description: "users.getSavedMusicByID parameters, return type and example"
+description: "Check if the passed songs are still pinned to the user's profile, or refresh the file references of songs pinned on a user's profile [see here »](https://core.telegram.org/api/profile#music) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/users_getSavedMusicByID.html
 
 
 
+Check if the passed songs are still pinned to the user's profile, or refresh the file references of songs pinned on a user's profile [see here »](https://core.telegram.org/api/profile#music) for more info.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
-|documents|Array of [MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The ID of the user. | Optional|
+|documents|Array of [MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.html) | The songs (here, `file_reference` can be empty to refresh file references). | Yes|
 
 
 ### Return type: [users.SavedMusic](/API_docs/types/users.SavedMusic.html)

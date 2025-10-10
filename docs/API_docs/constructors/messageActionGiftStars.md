@@ -11,6 +11,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 You gifted or were gifted some [Telegram Stars](https://core.telegram.org/api/stars).
 
+This service message should be displayed below the appropriate sticker from the [inputStickerSetPremiumGifts »](../constructors/inputStickerSetPremiumGifts.html) [stickerset »](https://core.telegram.org/api/stickers#stickersets):
+
+- If `stars <= 1000`, choose the sticker with emoji equal to "2️⃣"
+- If `stars < 2500`, choose the sticker with emoji equal to "3️⃣"
+- Otherwise, choose the sticker with emoji equal to "4️⃣"
+
 ### Attributes:
 
 | Name     |    Type       | Required | Description |

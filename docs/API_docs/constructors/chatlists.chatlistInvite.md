@@ -16,8 +16,8 @@ Info about a [chat folder deep link »](https://core.telegram.org/api/links#chat
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|title\_noanimate|[Bool](/API_docs/types/Bool.html) | Optional|
-|title|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Yes|
+|title\_noanimate|[Bool](/API_docs/types/Bool.html) | Optional|If set, any animated emojis present in `title` should not be animated and should be instead frozen on the first frame.|
+|title|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Yes|Name of the link|
 |emoticon|[string](/API_docs/types/string.html) | Optional|Emoji to use as icon for the folder.|
 |peers|Array of [Peer](/API_docs/types/Peer.html) | Yes|Supergroups and channels to join|
 |chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Related chat information|

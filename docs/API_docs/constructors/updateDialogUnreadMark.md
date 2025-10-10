@@ -17,7 +17,7 @@ The manual unread mark of a chat was changed
 |----------|---------------|----------|-------------|
 |unread|[Bool](/API_docs/types/Bool.html) | Optional|Was the chat marked or unmarked as read|
 |peer|[DialogPeer](/API_docs/types/DialogPeer.html) | Yes|The dialog|
-|saved\_peer\_id|[Peer](/API_docs/types/Peer.html) | Optional|
+|saved\_peer\_id|[Peer](/API_docs/types/Peer.html) | Optional|If set, the mark is related to the specified [monoforum topic ID »](https://core.telegram.org/api/monoforum).|
 
 
 

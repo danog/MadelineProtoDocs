@@ -1,6 +1,6 @@
 ---
 title: "messages.getSavedHistory"
-description: "Returns [saved messages »](https://core.telegram.org/api/saved-messages) forwarded from a specific peer"
+description: "Fetch [saved messages »](https://core.telegram.org/api/saved-messages) forwarded from a specific peer, or fetch messages from a [monoforum topic »](https://core.telegram.org/api/monoforum)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,14 @@ redirect_from: /API_docs/methods/messages_getSavedHistory.html
 
 
 
-Returns [saved messages »](https://core.telegram.org/api/saved-messages) forwarded from a specific peer
+Fetch [saved messages »](https://core.telegram.org/api/saved-messages) forwarded from a specific peer, or fetch messages from a [monoforum topic »](https://core.telegram.org/api/monoforum).
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|parent\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Target peer | Optional|
+|parent\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | If set, fetches messages from the specified monoforum, otherwise fetches from saved messages. | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Target peer (or topic) | Optional|
 |offset\_id|[int](/API_docs/types/int.html) | Only return messages starting from the specified message ID | Optional|
 |offset\_date|[int](/API_docs/types/int.html) | Only return messages sent before the specified date | Optional|
 |add\_offset|[int](/API_docs/types/int.html) | Number of list elements to be skipped, negative values are also accepted. | Optional|

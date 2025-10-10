@@ -1,6 +1,6 @@
 ---
 title: "messages.getSavedDialogsByID"
-description: "messages.getSavedDialogsByID parameters, return type and example"
+description: "Obtain information about specific [saved message dialogs »](https://core.telegram.org/api/saved-messages#saved-message-dialogs) or [monoforum topics »](https://core.telegram.org/api/monoforum)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/messages_getSavedDialogsByID.html
 
 
 
+Obtain information about specific [saved message dialogs »](https://core.telegram.org/api/saved-messages#saved-message-dialogs) or [monoforum topics »](https://core.telegram.org/api/monoforum).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|parent\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|ids|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|parent\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | If set, fetches [monoforum topics »](https://core.telegram.org/api/monoforum), otherwise fetches [saved message dialogs »](https://core.telegram.org/api/saved-messages#saved-message-dialogs). | Optional|
+|ids|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | IDs of dialogs (topics) to fetch. | Yes|
 
 
 ### Return type: [messages.SavedDialogs](/API_docs/types/messages.SavedDialogs.html)

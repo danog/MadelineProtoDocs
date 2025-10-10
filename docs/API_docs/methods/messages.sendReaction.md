@@ -23,7 +23,7 @@ Starting from layer 159, the reaction will be sent from the peer specified using
 |add\_to\_recent|[Bool](/API_docs/types/Bool.html) | Whether to add this reaction to the [recent reactions list »](https://core.telegram.org/api/reactions#recent-reactions). | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer | Optional|
 |msg\_id|[int](/API_docs/types/int.html) | Message ID to react to | Optional|
-|reaction|Array of [Reaction](/API_docs/types/Reaction.html) | A list of reactions | Optional|
+|reaction|Array of [Reaction](/API_docs/types/Reaction.html) | A list of reactions (doesn't accept [reactionPaid](../constructors/reactionPaid.html) constructors, use [messages.sendPaidReaction](../methods/messages.sendPaidReaction.html) to send paid reactions, instead). | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

@@ -1,6 +1,6 @@
 ---
 title: "updateChannelReadMessagesContents"
-description: "The specified channel/supergroup messages were read"
+description: "The specified channel/supergroup messages were read (emitted specifically for messages like voice messages or video, only once the media is watched and marked as read using channels.readMessageContents)"
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-The specified [channel/supergroup](https://core.telegram.org/api/channel) messages were read
+The specified [channel/supergroup](https://core.telegram.org/api/channel) messages were read (emitted specifically for messages like voice messages or video, only once the media is watched and marked as read using [channels.readMessageContents](../methods/channels.readMessageContents.html))
 
 ### Attributes:
 
@@ -17,7 +17,7 @@ The specified [channel/supergroup](https://core.telegram.org/api/channel) messag
 |----------|---------------|----------|-------------|
 |channel\_id|[long](/API_docs/types/long.html) | Yes|[Channel/supergroup](https://core.telegram.org/api/channel) ID|
 |top\_msg\_id|[int](/API_docs/types/int.html) | Optional|[Forum topic ID](https://core.telegram.org/api/forum#forum-topics).|
-|saved\_peer\_id|[Peer](/API_docs/types/Peer.html) | Optional|
+|saved\_peer\_id|[Peer](/API_docs/types/Peer.html) | Optional|If set, the messages were read within the specified [monoforum topic »](https://core.telegram.org/api/monoforum).|
 |messages|Array of [int](/API_docs/types/int.html) | Yes|IDs of messages that were read|
 
 

@@ -18,8 +18,7 @@ Update the [accent color and background custom emoji »](https://core.telegram.o
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |for\_profile|[Bool](/API_docs/types/Bool.html) | Whether to change the accent color emoji pattern of the profile page; otherwise, the accent color and emoji pattern of messages will be changed. | Optional|
-|color|[int](/API_docs/types/int.html) | [ID of the accent color palette »](https://core.telegram.org/api/colors) to use (not RGB24, see [here »](https://core.telegram.org/api/colors) for more info). | Optional|
-|background\_emoji\_id|[long](/API_docs/types/long.html) | Custom emoji ID used in the accent color pattern. | Optional|
+|color|[PeerColor](/API_docs/types/PeerColor.html) |  | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
@@ -45,6 +44,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->account->updateColor(for_profile: $Bool, color: $int, background_emoji_id: $long, );
+$Bool = $MadelineProto->account->updateColor(for_profile: $Bool, color: $PeerColor, );
 ```
 

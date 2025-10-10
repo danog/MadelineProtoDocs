@@ -1,6 +1,6 @@
 ---
 title: "starGiftAttributeIdModel"
-description: "starGiftAttributeIdModel attributes, type and example"
+description: "The ID of a model of a collectible gift »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+The ID of a model of a [collectible gift »](https://core.telegram.org/api/gifts#collectible-gifts).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|document\_id|[long](/API_docs/types/long.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|document\_id|[long](/API_docs/types/long.html) | Yes|The [sticker](https://core.telegram.org/api/stickers) representing the upgraded gift|
 
 
 

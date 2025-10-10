@@ -1,6 +1,6 @@
 ---
 title: "todoCompletion"
-description: "todoCompletion attributes, type and example"
+description: "A completed todo list » item."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,13 +9,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A completed [todo list »](https://core.telegram.org/api/todo) item.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[int](/API_docs/types/int.html) | Yes|
-|completed\_by|[long](/API_docs/types/long.html) | Yes|
-|date|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[int](/API_docs/types/int.html) | Yes|The ID of the completed item.|
+|completed\_by|[long](/API_docs/types/long.html) | Yes|ID of the user that completed the item.|
+|date|[int](/API_docs/types/int.html) | Yes|When was the item completed.|
 
 
 

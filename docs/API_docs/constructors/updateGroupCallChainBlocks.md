@@ -1,6 +1,6 @@
 ---
 title: "updateGroupCallChainBlocks"
-description: "updateGroupCallChainBlocks attributes, type and example"
+description: "Contains updates to the blockchain of a conference call, see here » for more info."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,14 +9,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Contains updates to the blockchain of a conference call, see [here »](https://core.telegram.org/api/end-to-end/group-calls) for more info.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
-|sub\_chain\_id|[int](/API_docs/types/int.html) | Yes|
-|blocks|Array of [bytes](/API_docs/types/bytes.html) | Yes|
-|next\_offset|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|The conference call.|
+|sub\_chain\_id|[int](/API_docs/types/int.html) | Yes|Subchain ID.|
+|blocks|Array of [bytes](/API_docs/types/bytes.html) | Yes|Blocks.|
+|next\_offset|[int](/API_docs/types/int.html) | Yes|Offset of the next block.|
 
 
 

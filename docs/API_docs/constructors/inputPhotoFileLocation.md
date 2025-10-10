@@ -17,7 +17,7 @@ Use this object to download a photo with [upload.getFile](../methods/upload.getF
 |----------|---------------|----------|-------------|
 |id|[long](/API_docs/types/long.html) | Yes|Photo ID, obtained from the [photo](../constructors/photo.html) object|
 |access\_hash|[long](/API_docs/types/long.html) | Yes|Photo's access hash, obtained from the [photo](../constructors/photo.html) object|
-|file\_reference|[bytes](/API_docs/types/bytes.html) | Yes|[File reference](https://core.telegram.org/api/file_reference)|
+|file\_reference|[bytes](/API_docs/types/bytes.html) | Yes|[File reference](https://core.telegram.org/api/file-references)|
 |thumb\_size|[string](/API_docs/types/string.html) | Yes|The [PhotoSize](../types/PhotoSize.html) to download: must be set to the `type` field of the desired PhotoSize object of the [photo](../constructors/photo.html)|
 
 

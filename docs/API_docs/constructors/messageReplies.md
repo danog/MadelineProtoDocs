@@ -1,6 +1,6 @@
 ---
 title: "messageReplies"
-description: "Info about the comment section of a channel post, or a simple message thread"
+description: "Info about the comment section of a channel post, a simple message thread, a forum topic, or a direct messages topic (all features ultimately based on message threads)."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Info about [the comment section of a channel post, or a simple message thread](https://core.telegram.org/api/threads)
+Info about [the comment section of a channel post, a simple message thread, a forum topic, or a direct messages topic](https://core.telegram.org/api/threads) (all features ultimately based on message threads).
 
 ### Attributes:
 

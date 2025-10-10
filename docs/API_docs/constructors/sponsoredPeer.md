@@ -1,6 +1,6 @@
 ---
 title: "sponsoredPeer"
-description: "sponsoredPeer attributes, type and example"
+description: "A sponsored peer."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,14 +9,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A sponsored peer.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|random\_id|[bytes](/API_docs/types/bytes.html) | Yes|
-|peer|[long](/API_docs/types/long.html) | Yes|
-|sponsor\_info|[string](/API_docs/types/string.html) | Optional|
-|additional\_info|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|random\_id|[bytes](/API_docs/types/bytes.html) | Yes|ID of the sponsored peer, to be passed to [messages.viewSponsoredMessage](../methods/messages.viewSponsoredMessage.html), [messages.clickSponsoredMessage](../methods/messages.clickSponsoredMessage.html) or [messages.reportSponsoredMessage](../methods/messages.reportSponsoredMessage.html) (the same methods used for [sponsored messages &amp;raquo](https://core.telegram.org/api/sponsored-messages)).|
+|peer|[long](/API_docs/types/long.html) | Yes|The sponsored peer.|
+|sponsor\_info|[string](/API_docs/types/string.html) | Optional|If set, contains additional information about the sponsor to be shown along with the peer.|
+|additional\_info|[string](/API_docs/types/string.html) | Optional|If set, contains additional information about the sponsored message to be shown along with the peer.|
 
 
 

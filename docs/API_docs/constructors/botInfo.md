@@ -24,7 +24,7 @@ Info about bots (available bot commands, etc)
 |menu\_button|[BotMenuButton](/API_docs/types/BotMenuButton.html) | Optional|Indicates the action to execute when pressing the in-UI menu button for bots|
 |privacy\_policy\_url|[string](/API_docs/types/string.html) | Optional|The HTTP link to the privacy policy of the bot. If not set, then the `/privacy` command must be used, if supported by the bot (i.e. if it's present in the `commands` vector). If it isn't supported, then <https://telegram.org/privacy-tpa> must be opened, instead.|
 |app\_settings|[BotAppSettings](/API_docs/types/BotAppSettings.html) | Optional|[Mini app »](https://core.telegram.org/api/bots/webapps) settings<br>|
-|verifier\_settings|[BotVerifierSettings](/API_docs/types/BotVerifierSettings.html) | Optional|
+|verifier\_settings|[BotVerifierSettings](/API_docs/types/BotVerifierSettings.html) | Optional|This bot can [verify peers](https://core.telegram.org/api/bots/verification): this field contains more info about the verification the bot can assign to peers.|
 
 
 

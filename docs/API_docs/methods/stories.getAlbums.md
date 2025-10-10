@@ -1,6 +1,6 @@
 ---
 title: "stories.getAlbums"
-description: "stories.getAlbums parameters, return type and example"
+description: "Get [story albums](https://core.telegram.org/api/stories#story-albums) created by a peer."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/stories_getAlbums.html
 
 
 
+Get [story albums](https://core.telegram.org/api/stories#story-albums) created by a peer.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|hash|Array of [long\|string](/API_docs/types/long\|string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer. | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | The `hash` from a previously returned [stories.albums](../constructors/stories.albums.html), to avoid returning any results if they haven't changed. | Optional|
 
 
 ### Return type: [stories.Albums](/API_docs/types/stories.Albums.html)

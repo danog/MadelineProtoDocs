@@ -18,7 +18,7 @@ Manually mark dialog as unread
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |unread|[Bool](/API_docs/types/Bool.html) | Mark as unread/read | Optional|
-|parent\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
+|parent\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | If set, must be equal to the ID of a [monoforum](https://core.telegram.org/api/monoforum), and will affect the monoforum topic passed in `peer`. | Optional|
 |peer|[InputDialogPeer](/API_docs/types/InputDialogPeer.html) | Dialog | Yes|
 
 

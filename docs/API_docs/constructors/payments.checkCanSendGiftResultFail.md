@@ -1,6 +1,6 @@
 ---
 title: "payments.checkCanSendGiftResultFail"
-description: "payments.checkCanSendGiftResultFail attributes, type and example"
+description: "The specified gift cannot be sent yet for the specified reason."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/payments_checkCanSendGiftResultFail.html
@@ -10,11 +10,13 @@ redirect_from: /API_docs/constructors/payments_checkCanSendGiftResultFail.html
 
 
 
+The specified gift cannot be sent yet for the specified reason.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|reason|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|reason|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Yes|The reason why it can't be sent yet.|
 
 
 

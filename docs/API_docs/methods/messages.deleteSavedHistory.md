@@ -1,6 +1,6 @@
 ---
 title: "messages.deleteSavedHistory"
-description: "Deletes messages forwarded from a specific peer to [saved messages »](https://core.telegram.org/api/saved-messages)."
+description: "Deletes messages from a [monoforum topic »](https://core.telegram.org/api/monoforum), or deletes messages forwarded from a specific peer to [saved messages »](https://core.telegram.org/api/saved-messages)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,14 @@ redirect_from: /API_docs/methods/messages_deleteSavedHistory.html
 
 
 
-Deletes messages forwarded from a specific peer to [saved messages »](https://core.telegram.org/api/saved-messages).
+Deletes messages from a [monoforum topic »](https://core.telegram.org/api/monoforum), or deletes messages forwarded from a specific peer to [saved messages »](https://core.telegram.org/api/saved-messages).
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|parent\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer, whose messages will be deleted from [saved messages »](https://core.telegram.org/api/saved-messages) | Optional|
+|parent\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | If set, affects the messages of the passed [monoforum topic »](https://core.telegram.org/api/monoforum), otherwise affects [saved messages »](https://core.telegram.org/api/saved-messages). | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer, whose messages will be deleted from [saved messages »](https://core.telegram.org/api/saved-messages), or the ID of the topic. | Optional|
 |max\_id|[int](/API_docs/types/int.html) | Maximum ID of message to delete | Optional|
 |min\_date|[int](/API_docs/types/int.html) | Delete all messages newer than this UNIX timestamp | Optional|
 |max\_date|[int](/API_docs/types/int.html) | Delete all messages older than this UNIX timestamp | Optional|

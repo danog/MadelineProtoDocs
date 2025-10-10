@@ -1,6 +1,6 @@
 ---
 title: "stories.canSendStoryCount"
-description: "stories.canSendStoryCount attributes, type and example"
+description: "Contains the number of available active story slots (equal to the value of the story_expiring_limit_* client configuration parameter minus the number of currently active stories)."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/stories_canSendStoryCount.html
@@ -10,11 +10,13 @@ redirect_from: /API_docs/constructors/stories_canSendStoryCount.html
 
 
 
+Contains the number of available active story slots (equal to the value of the [`story_expiring_limit_*` client configuration parameter](https://core.telegram.org/api/config#story-expiring-limit-default) minus the number of currently active stories).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|count\_remains|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|count\_remains|[int](/API_docs/types/int.html) | Yes|Remaining active story slots.|
 
 
 

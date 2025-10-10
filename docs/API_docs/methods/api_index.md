@@ -249,7 +249,7 @@ $MadelineProto->[account->getTmpPassword](/API_docs/methods/account.getTmpPasswo
 
 ***
 <br><br>
-$MadelineProto->[account->getUniqueGiftChatThemes](/API_docs/methods/account.getUniqueGiftChatThemes.html)(\[offset: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), hash: $[long](/API_docs/types/long.html), \]) === [$account.ChatThemes](/API_docs/types/account.ChatThemes.html)<a name="account.getUniqueGiftChatThemes"></a>  
+$MadelineProto->[account->getUniqueGiftChatThemes](/API_docs/methods/account.getUniqueGiftChatThemes.html)(\[offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), hash: $[long](/API_docs/types/long.html), \]) === [$account.ChatThemes](/API_docs/types/account.ChatThemes.html)<a name="account.getUniqueGiftChatThemes"></a>  
 
 ***
 <br><br>
@@ -449,7 +449,7 @@ $MadelineProto->[account->updateBusinessWorkHours](/API_docs/methods/account.upd
 
 ***
 <br><br>
-$MadelineProto->[account->updateColor](/API_docs/methods/account.updateColor.html)(\[for_profile: $[Bool](/API_docs/types/Bool.html), color: $[int](/API_docs/types/int.html), background_emoji_id: $[long](/API_docs/types/long.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.updateColor"></a>  
+$MadelineProto->[account->updateColor](/API_docs/methods/account.updateColor.html)(\[for_profile: $[Bool](/API_docs/types/Bool.html), color: $[PeerColor](/API_docs/types/PeerColor.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.updateColor"></a>  
 
 ***
 <br><br>
@@ -522,6 +522,10 @@ $MadelineProto->[auth->bindTempAuthKey](/API_docs/methods/auth.bindTempAuthKey.h
 ***
 <br><br>
 $MadelineProto->[auth->cancelCode](/API_docs/methods/auth.cancelCode.html)(\[phone_number: $[string](/API_docs/types/string.html), phone_code_hash: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="auth.cancelCode"></a>  
+
+***
+<br><br>
+$MadelineProto->[auth->checkPaidAuth](/API_docs/methods/auth.checkPaidAuth.html)(\[phone_number: $[string](/API_docs/types/string.html), phone_code_hash: $[string](/API_docs/types/string.html), form_id: $[long](/API_docs/types/long.html), \]) === [$auth.SentCode](/API_docs/types/auth.SentCode.html)<a name="auth.checkPaidAuth"></a>  
 
 ***
 <br><br>
@@ -741,10 +745,6 @@ $MadelineProto->[channels->createChannel](/API_docs/methods/channels.createChann
 
 ***
 <br><br>
-$MadelineProto->[channels->createForumTopic](/API_docs/methods/channels.createForumTopic.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), title: $[string](/API_docs/types/string.html), icon_color: $[int](/API_docs/types/int.html), icon_emoji_id: $[long](/API_docs/types/long.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.createForumTopic"></a>  
-
-***
-<br><br>
 $MadelineProto->[channels->deactivateAllUsernames](/API_docs/methods/channels.deactivateAllUsernames.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="channels.deactivateAllUsernames"></a>  
 
 ***
@@ -765,10 +765,6 @@ $MadelineProto->[channels->deleteParticipantHistory](/API_docs/methods/channels.
 
 ***
 <br><br>
-$MadelineProto->[channels->deleteTopicHistory](/API_docs/methods/channels.deleteTopicHistory.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), top_msg_id: $[int](/API_docs/types/int.html), \]) === [$messages.AffectedHistory](/API_docs/types/messages.AffectedHistory.html)<a name="channels.deleteTopicHistory"></a>  
-
-***
-<br><br>
 $MadelineProto->[channels->editAdmin](/API_docs/methods/channels.editAdmin.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), user_id: $[InputUser](/API_docs/types/InputUser.html), admin_rights: $[ChatAdminRights](/API_docs/types/ChatAdminRights.html), rank: $[string](/API_docs/types/string.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.editAdmin"></a>  
 
 ***
@@ -778,10 +774,6 @@ $MadelineProto->[channels->editBanned](/API_docs/methods/channels.editBanned.htm
 ***
 <br><br>
 $MadelineProto->[channels->editCreator](/API_docs/methods/channels.editCreator.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), user_id: $[InputUser](/API_docs/types/InputUser.html), password: $[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.editCreator"></a>  
-
-***
-<br><br>
-$MadelineProto->[channels->editForumTopic](/API_docs/methods/channels.editForumTopic.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), topic_id: $[int](/API_docs/types/int.html), title: $[string](/API_docs/types/string.html), icon_emoji_id: $[long](/API_docs/types/long.html), closed: $[Bool](/API_docs/types/Bool.html), hidden: $[Bool](/API_docs/types/Bool.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.editForumTopic"></a>  
 
 ***
 <br><br>
@@ -814,14 +806,6 @@ $MadelineProto->[channels->getChannelRecommendations](/API_docs/methods/channels
 ***
 <br><br>
 $MadelineProto->[channels->getChannels](/API_docs/methods/channels.getChannels.html)(\[id: \[$[InputChannel](/API_docs/types/InputChannel.html)\], \]) === [$messages.Chats](/API_docs/types/messages.Chats.html)<a name="channels.getChannels"></a>  
-
-***
-<br><br>
-$MadelineProto->[channels->getForumTopics](/API_docs/methods/channels.getForumTopics.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), q: $[string](/API_docs/types/string.html), offset_date: $[int](/API_docs/types/int.html), offset_id: $[int](/API_docs/types/int.html), offset_topic: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), \]) === [$messages.ForumTopics](/API_docs/types/messages.ForumTopics.html)<a name="channels.getForumTopics"></a>  
-
-***
-<br><br>
-$MadelineProto->[channels->getForumTopicsByID](/API_docs/methods/channels.getForumTopicsByID.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), topics: \[$[int](/API_docs/types/int.html)\], \]) === [$messages.ForumTopics](/API_docs/types/messages.ForumTopics.html)<a name="channels.getForumTopicsByID"></a>  
 
 ***
 <br><br>
@@ -878,10 +862,6 @@ $MadelineProto->[channels->readHistory](/API_docs/methods/channels.readHistory.h
 ***
 <br><br>
 $MadelineProto->[channels->readMessageContents](/API_docs/methods/channels.readMessageContents.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), id: \[$[int](/API_docs/types/int.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="channels.readMessageContents"></a>  
-
-***
-<br><br>
-$MadelineProto->[channels->reorderPinnedForumTopics](/API_docs/methods/channels.reorderPinnedForumTopics.html)(\[force: $[Bool](/API_docs/types/Bool.html), channel: $[InputChannel](/API_docs/types/InputChannel.html), order: \[$[int](/API_docs/types/int.html)\], \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.reorderPinnedForumTopics"></a>  
 
 ***
 <br><br>
@@ -981,10 +961,6 @@ $MadelineProto->[channels->updatePaidMessagesPrice](/API_docs/methods/channels.u
 
 ***
 <br><br>
-$MadelineProto->[channels->updatePinnedForumTopic](/API_docs/methods/channels.updatePinnedForumTopic.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), topic_id: $[int](/API_docs/types/int.html), pinned: $[Bool](/API_docs/types/Bool.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.updatePinnedForumTopic"></a>  
-
-***
-<br><br>
 $MadelineProto->[channels->updateUsername](/API_docs/methods/channels.updateUsername.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), username: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="channels.updateUsername"></a>  
 
 ***
@@ -1037,7 +1013,7 @@ $MadelineProto->[contacts->acceptContact](/API_docs/methods/contacts.acceptConta
 
 ***
 <br><br>
-$MadelineProto->[contacts->addContact](/API_docs/methods/contacts.addContact.html)(\[add_phone_privacy_exception: $[Bool](/API_docs/types/Bool.html), id: $[InputUser](/API_docs/types/InputUser.html), first_name: $[string](/API_docs/types/string.html), last_name: $[string](/API_docs/types/string.html), phone: $[string](/API_docs/types/string.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="contacts.addContact"></a>  
+$MadelineProto->[contacts->addContact](/API_docs/methods/contacts.addContact.html)(\[add_phone_privacy_exception: $[Bool](/API_docs/types/Bool.html), id: $[InputUser](/API_docs/types/InputUser.html), first_name: $[string](/API_docs/types/string.html), last_name: $[string](/API_docs/types/string.html), phone: $[string](/API_docs/types/string.html), note: $[TextWithEntities](/API_docs/types/TextWithEntities.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="contacts.addContact"></a>  
 
 ***
 <br><br>
@@ -1138,6 +1114,10 @@ $MadelineProto->[contacts->toggleTopPeers](/API_docs/methods/contacts.toggleTopP
 ***
 <br><br>
 $MadelineProto->[contacts->unblock](/API_docs/methods/contacts.unblock.html)(\[my_stories_from: $[Bool](/API_docs/types/Bool.html), id: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="contacts.unblock"></a>  
+
+***
+<br><br>
+$MadelineProto->[contacts->updateContactNote](/API_docs/methods/contacts.updateContactNote.html)(\[id: $[InputUser](/API_docs/types/InputUser.html), note: $[TextWithEntities](/API_docs/types/TextWithEntities.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="contacts.updateContactNote"></a>  
 
 ***
 <br><br>
@@ -1365,6 +1345,10 @@ $MadelineProto->[messages->createChat](/API_docs/methods/messages.createChat.htm
 
 ***
 <br><br>
+$MadelineProto->[messages->createForumTopic](/API_docs/methods/messages.createForumTopic.html)(\[title_missing: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), title: $[string](/API_docs/types/string.html), icon_color: $[int](/API_docs/types/int.html), icon_emoji_id: $[long](/API_docs/types/long.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.createForumTopic"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->deleteChat](/API_docs/methods/messages.deleteChat.html)(\[chat_id: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.deleteChat"></a>  
 
 ***
@@ -1413,6 +1397,10 @@ $MadelineProto->[messages->deleteScheduledMessages](/API_docs/methods/messages.d
 
 ***
 <br><br>
+$MadelineProto->[messages->deleteTopicHistory](/API_docs/methods/messages.deleteTopicHistory.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), top_msg_id: $[int](/API_docs/types/int.html), \]) === [$messages.AffectedHistory](/API_docs/types/messages.AffectedHistory.html)<a name="messages.deleteTopicHistory"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->discardEncryption](/API_docs/methods/messages.discardEncryption.html)(\[delete_history: $[Bool](/API_docs/types/Bool.html), chat_id: $[int](/API_docs/types/int.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.discardEncryption"></a>  
 
 ***
@@ -1442,6 +1430,10 @@ $MadelineProto->[messages->editExportedChatInvite](/API_docs/methods/messages.ed
 ***
 <br><br>
 $MadelineProto->[messages->editFactCheck](/API_docs/methods/messages.editFactCheck.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), msg_id: $[int](/API_docs/types/int.html), text: $[TextWithEntities](/API_docs/types/TextWithEntities.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.editFactCheck"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->editForumTopic](/API_docs/methods/messages.editForumTopic.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), topic_id: $[int](/API_docs/types/int.html), title: $[string](/API_docs/types/string.html), icon_emoji_id: $[long](/API_docs/types/long.html), closed: $[Bool](/API_docs/types/Bool.html), hidden: $[Bool](/API_docs/types/Bool.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.editForumTopic"></a>  
 
 ***
 <br><br>
@@ -1622,6 +1614,14 @@ $MadelineProto->[messages->getFeaturedEmojiStickers](/API_docs/methods/messages.
 ***
 <br><br>
 $MadelineProto->[messages->getFeaturedStickers](/API_docs/methods/messages.getFeaturedStickers.html)(\[hash: $[long](/API_docs/types/long.html), \]) === [$messages.FeaturedStickers](/API_docs/types/messages.FeaturedStickers.html)<a name="messages.getFeaturedStickers"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->getForumTopics](/API_docs/methods/messages.getForumTopics.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), q: $[string](/API_docs/types/string.html), offset_date: $[int](/API_docs/types/int.html), offset_id: $[int](/API_docs/types/int.html), offset_topic: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), \]) === [$messages.ForumTopics](/API_docs/types/messages.ForumTopics.html)<a name="messages.getForumTopics"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->getForumTopicsByID](/API_docs/methods/messages.getForumTopicsByID.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), topics: \[$[int](/API_docs/types/int.html)\], \]) === [$messages.ForumTopics](/API_docs/types/messages.ForumTopics.html)<a name="messages.getForumTopicsByID"></a>  
 
 ***
 <br><br>
@@ -1906,6 +1906,10 @@ $MadelineProto->[messages->receivedQueue](/API_docs/methods/messages.receivedQue
 ***
 <br><br>
 $MadelineProto->[messages->reorderPinnedDialogs](/API_docs/methods/messages.reorderPinnedDialogs.html)(\[force: $[Bool](/API_docs/types/Bool.html), folder_id: $[int](/API_docs/types/int.html), order: \[$[InputDialogPeer](/API_docs/types/InputDialogPeer.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.reorderPinnedDialogs"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->reorderPinnedForumTopics](/API_docs/methods/messages.reorderPinnedForumTopics.html)(\[force: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), order: \[$[int](/API_docs/types/int.html)\], \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.reorderPinnedForumTopics"></a>  
 
 ***
 <br><br>
@@ -2209,6 +2213,10 @@ $MadelineProto->[messages->updateDialogFiltersOrder](/API_docs/methods/messages.
 
 ***
 <br><br>
+$MadelineProto->[messages->updatePinnedForumTopic](/API_docs/methods/messages.updatePinnedForumTopic.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), topic_id: $[int](/API_docs/types/int.html), pinned: $[Bool](/API_docs/types/Bool.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.updatePinnedForumTopic"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->updatePinnedMessage](/API_docs/methods/messages.updatePinnedMessage.html)(\[silent: $[Bool](/API_docs/types/Bool.html), unpin: $[Bool](/API_docs/types/Bool.html), pm_oneside: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), id: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.updatePinnedMessage"></a>  
 
 ***
@@ -2337,7 +2345,7 @@ $MadelineProto->[payments->getSavedStarGift](/API_docs/methods/payments.getSaved
 
 ***
 <br><br>
-$MadelineProto->[payments->getSavedStarGifts](/API_docs/methods/payments.getSavedStarGifts.html)(\[exclude_unsaved: $[Bool](/API_docs/types/Bool.html), exclude_saved: $[Bool](/API_docs/types/Bool.html), exclude_unlimited: $[Bool](/API_docs/types/Bool.html), exclude_unique: $[Bool](/API_docs/types/Bool.html), sort_by_value: $[Bool](/API_docs/types/Bool.html), exclude_upgradable: $[Bool](/API_docs/types/Bool.html), exclude_unupgradable: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), collection_id: $[int](/API_docs/types/int.html), offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$payments.SavedStarGifts](/API_docs/types/payments.SavedStarGifts.html)<a name="payments.getSavedStarGifts"></a>  
+$MadelineProto->[payments->getSavedStarGifts](/API_docs/methods/payments.getSavedStarGifts.html)(\[exclude_unsaved: $[Bool](/API_docs/types/Bool.html), exclude_saved: $[Bool](/API_docs/types/Bool.html), exclude_unlimited: $[Bool](/API_docs/types/Bool.html), exclude_unique: $[Bool](/API_docs/types/Bool.html), sort_by_value: $[Bool](/API_docs/types/Bool.html), exclude_upgradable: $[Bool](/API_docs/types/Bool.html), exclude_unupgradable: $[Bool](/API_docs/types/Bool.html), peer_color_available: $[Bool](/API_docs/types/Bool.html), exclude_hosted: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), collection_id: $[int](/API_docs/types/int.html), offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$payments.SavedStarGifts](/API_docs/types/payments.SavedStarGifts.html)<a name="payments.getSavedStarGifts"></a>  
 
 ***
 <br><br>
@@ -2585,6 +2593,14 @@ $MadelineProto->[phone->sendConferenceCallBroadcast](/API_docs/methods/phone.sen
 
 ***
 <br><br>
+$MadelineProto->[phone->sendGroupCallEncryptedMessage](/API_docs/methods/phone.sendGroupCallEncryptedMessage.html)(\[call: $[InputGroupCall](/API_docs/types/InputGroupCall.html), encrypted_message: $[bytes](/API_docs/types/bytes.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="phone.sendGroupCallEncryptedMessage"></a>  
+
+***
+<br><br>
+$MadelineProto->[phone->sendGroupCallMessage](/API_docs/methods/phone.sendGroupCallMessage.html)(\[call: $[InputGroupCall](/API_docs/types/InputGroupCall.html), message: $[TextWithEntities](/API_docs/types/TextWithEntities.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="phone.sendGroupCallMessage"></a>  
+
+***
+<br><br>
 $MadelineProto->[phone->sendSignalingData](/API_docs/methods/phone.sendSignalingData.html)(\[peer: $[InputPhoneCall](/API_docs/types/InputPhoneCall.html), data: $[bytes](/API_docs/types/bytes.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="phone.sendSignalingData"></a>  
 
 ***
@@ -2601,7 +2617,7 @@ $MadelineProto->[phone->toggleGroupCallRecord](/API_docs/methods/phone.toggleGro
 
 ***
 <br><br>
-$MadelineProto->[phone->toggleGroupCallSettings](/API_docs/methods/phone.toggleGroupCallSettings.html)(\[reset_invite_hash: $[Bool](/API_docs/types/Bool.html), call: $[InputGroupCall](/API_docs/types/InputGroupCall.html), join_muted: $[Bool](/API_docs/types/Bool.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="phone.toggleGroupCallSettings"></a>  
+$MadelineProto->[phone->toggleGroupCallSettings](/API_docs/methods/phone.toggleGroupCallSettings.html)(\[reset_invite_hash: $[Bool](/API_docs/types/Bool.html), call: $[InputGroupCall](/API_docs/types/InputGroupCall.html), join_muted: $[Bool](/API_docs/types/Bool.html), messages_enabled: $[Bool](/API_docs/types/Bool.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="phone.toggleGroupCallSettings"></a>  
 
 ***
 <br><br>
@@ -2942,5 +2958,9 @@ $MadelineProto->[users->getUsers](/API_docs/methods/users.getUsers.html)(\[id: \
 ***
 <br><br>
 $MadelineProto->[users->setSecureValueErrors](/API_docs/methods/users.setSecureValueErrors.html)(\[id: $[InputUser](/API_docs/types/InputUser.html), errors: \[$[SecureValueError](/API_docs/types/SecureValueError.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="users.setSecureValueErrors"></a>  
+
+***
+<br><br>
+$MadelineProto->[users->suggestBirthday](/API_docs/methods/users.suggestBirthday.html)(\[id: $[InputUser](/API_docs/types/InputUser.html), birthday: $[Birthday](/API_docs/types/Birthday.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="users.suggestBirthday"></a>  
 
 

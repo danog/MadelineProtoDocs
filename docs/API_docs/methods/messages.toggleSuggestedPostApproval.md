@@ -1,6 +1,6 @@
 ---
 title: "messages.toggleSuggestedPostApproval"
-description: "messages.toggleSuggestedPostApproval parameters, return type and example"
+description: "Approve or reject a [suggested post »](https://core.telegram.org/api/suggested-posts)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,15 +11,17 @@ redirect_from: /API_docs/methods/messages_toggleSuggestedPostApproval.html
 
 
 
+Approve or reject a [suggested post »](https://core.telegram.org/api/suggested-posts).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|reject|[Bool](/API_docs/types/Bool.html) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | Optional|
-|schedule\_date|[int](/API_docs/types/int.html) | Optional|
-|reject\_comment|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|reject|[Bool](/API_docs/types/Bool.html) | Reject the suggested post. | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Both for users and channels, must contain the ID of the [direct messages monoforum »](https://core.telegram.org/api/monoforum) (for channels, the topic ID is extracted automatically from the `msg_id`). | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | ID of the suggestion message. | Optional|
+|schedule\_date|[int](/API_docs/types/int.html) | Custom scheduling date. | Optional|
+|reject\_comment|[string](/API_docs/types/string.html) | Optional comment for rejections (can only be used if `reject` is set). | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

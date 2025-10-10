@@ -1,6 +1,6 @@
 ---
 title: "webPageAttributeUniqueStarGift"
-description: "webPageAttributeUniqueStarGift attributes, type and example"
+description: "Contains info about collectible gift » for a webPage preview of a collectible gift » (the webPage will have a type of telegram_nft)."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Contains info about [collectible gift »](https://core.telegram.org/api/gifts#collectible-gifts) for a [webPage](../constructors/webPage.html) preview of a [collectible gift »](https://core.telegram.org/api/gifts#collectible-gifts) (the [webPage](../constructors/webPage.html) will have a `type` of `telegram_nft`).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|gift|[StarGift](/API_docs/types/StarGift.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|gift|[StarGift](/API_docs/types/StarGift.html) | Yes|The [starGiftUnique](../constructors/starGiftUnique.html) constructor.|
 
 
 

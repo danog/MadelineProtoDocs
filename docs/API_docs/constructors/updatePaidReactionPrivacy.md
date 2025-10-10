@@ -17,7 +17,7 @@ Clients should invoke [messages.getPaidReactionPrivacy](../methods/messages.getP
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|private|[PaidReactionPrivacy](/API_docs/types/PaidReactionPrivacy.html) | Yes|
+|private|[PaidReactionPrivacy](/API_docs/types/PaidReactionPrivacy.html) | Yes|Paid reaction privacy settings.|
 
 
 

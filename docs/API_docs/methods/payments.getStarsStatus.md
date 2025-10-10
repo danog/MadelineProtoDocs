@@ -17,7 +17,7 @@ Get the current [Telegram Stars balance](https://core.telegram.org/api/stars) of
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|ton|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|ton|[Bool](/API_docs/types/Bool.html) | If set, returns the channel/ad revenue balance in nanotons. | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer of which to get the balance. | Optional|
 
 

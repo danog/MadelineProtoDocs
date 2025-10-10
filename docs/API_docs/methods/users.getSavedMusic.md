@@ -1,6 +1,6 @@
 ---
 title: "users.getSavedMusic"
-description: "users.getSavedMusic parameters, return type and example"
+description: "Get songs [pinned to the user's profile, see here »](https://core.telegram.org/api/profile#music) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,16 @@ redirect_from: /API_docs/methods/users_getSavedMusic.html
 
 
 
+Get songs [pinned to the user's profile, see here »](https://core.telegram.org/api/profile#music) for more info.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
-|offset|[int](/API_docs/types/int.html) | Optional|
-|limit|[int](/API_docs/types/int.html) | Optional|
-|hash|Array of [long\|string](/API_docs/types/long\|string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The ID of the user. | Optional|
+|offset|[int](/API_docs/types/int.html) | Offset for pagination. | Optional|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | [Hash »](https://core.telegram.org/api/offsets#hash-generation) of the IDs of previously added songs, to avoid returning any result if there was no change. | Optional|
 
 
 ### Return type: [users.SavedMusic](/API_docs/types/users.SavedMusic.html)

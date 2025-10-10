@@ -1,6 +1,6 @@
 ---
 title: "bots.getBotRecommendations"
-description: "bots.getBotRecommendations parameters, return type and example"
+description: "Obtain a list of similarly themed bots, selected based on similarities in their subscriber bases, see [here »](https://core.telegram.org/api/recommend) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/bots_getBotRecommendations.html
 
 
 
+Obtain a list of similarly themed bots, selected based on similarities in their subscriber bases, see [here »](https://core.telegram.org/api/recommend) for more info.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The method will return bots related to the passed bot. | Optional|
 
 
 ### Return type: [users.Users](/API_docs/types/users.Users.html)

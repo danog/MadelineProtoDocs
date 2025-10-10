@@ -18,7 +18,7 @@ Get a list of [sponsored messages for a peer, see here »](https://core.telegram
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The currently open channel/bot. | Optional|
-|msg\_id|[int](/API_docs/types/int.html) |  | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | Must be set when fetching [sponsored messages to show on channel videos »](https://core.telegram.org/api/sponsored-messages#getting-sponsored-video-advertisements). | Optional|
 
 
 ### Return type: [messages.SponsoredMessages](/API_docs/types/messages.SponsoredMessages.html)

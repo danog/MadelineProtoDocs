@@ -1,6 +1,6 @@
 ---
 title: "stories.updateAlbum"
-description: "stories.updateAlbum parameters, return type and example"
+description: "Rename a [story albums »](https://core.telegram.org/api/stories#story-albums), or add, delete or reorder stories in it."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,16 +11,18 @@ redirect_from: /API_docs/methods/stories_updateAlbum.html
 
 
 
+Rename a [story albums »](https://core.telegram.org/api/stories#story-albums), or add, delete or reorder stories in it.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|album\_id|[int](/API_docs/types/int.html) | Optional|
-|title|[string](/API_docs/types/string.html) | Optional|
-|delete\_stories|Array of [int](/API_docs/types/int.html) | Optional|
-|add\_stories|Array of [int](/API_docs/types/int.html) | Optional|
-|order|Array of [int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where the album is posted. | Optional|
+|album\_id|[int](/API_docs/types/int.html) | Album ID. | Optional|
+|title|[string](/API_docs/types/string.html) | New album title. | Optional|
+|delete\_stories|Array of [int](/API_docs/types/int.html) | If set, deletes the specified stories from the album. | Optional|
+|add\_stories|Array of [int](/API_docs/types/int.html) | If set, adds the specified stories to the album. | Optional|
+|order|Array of [int](/API_docs/types/int.html) | If set, reorders the stories in the album by their IDs. | Optional|
 
 
 ### Return type: [StoryAlbum](/API_docs/types/StoryAlbum.html)

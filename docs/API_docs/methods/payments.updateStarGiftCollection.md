@@ -1,6 +1,6 @@
 ---
 title: "payments.updateStarGiftCollection"
-description: "payments.updateStarGiftCollection parameters, return type and example"
+description: "Add or remove gifts from a [star gift collection »](https://core.telegram.org/api/gifts#gift-collections), or rename the collection."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,16 +11,18 @@ redirect_from: /API_docs/methods/payments_updateStarGiftCollection.html
 
 
 
+Add or remove gifts from a [star gift collection »](https://core.telegram.org/api/gifts#gift-collections), or rename the collection.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|collection\_id|[int](/API_docs/types/int.html) | Optional|
-|title|[string](/API_docs/types/string.html) | Optional|
-|delete\_stargift|Array of [InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) | Optional|
-|add\_stargift|Array of [InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) | Optional|
-|order|Array of [InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer that owns the collection. | Optional|
+|collection\_id|[int](/API_docs/types/int.html) | Collection ID. | Optional|
+|title|[string](/API_docs/types/string.html) | Title of the collection, to rename the collection. | Optional|
+|delete\_stargift|Array of [InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) | Can contain a list of gifts to remove from the collection. | Optional|
+|add\_stargift|Array of [InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) | Can contain a list of gifts to add to the collection. | Optional|
+|order|Array of [InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) | Can contain the new gift order. | Optional|
 
 
 ### Return type: [StarGiftCollection](/API_docs/types/StarGiftCollection.html)

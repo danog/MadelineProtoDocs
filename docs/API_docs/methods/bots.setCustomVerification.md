@@ -1,6 +1,6 @@
 ---
 title: "bots.setCustomVerification"
-description: "bots.setCustomVerification parameters, return type and example"
+description: "Verify a user or chat [on behalf of an organization »](https://core.telegram.org/api/bots/verification)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,16 @@ redirect_from: /API_docs/methods/bots_setCustomVerification.html
 
 
 
+Verify a user or chat [on behalf of an organization »](https://core.telegram.org/api/bots/verification).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|enabled|[Bool](/API_docs/types/Bool.html) | Optional|
-|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|custom\_description|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|enabled|[Bool](/API_docs/types/Bool.html) | If set, adds the verification; otherwise removes verification. | Optional|
+|bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Must **not** be set if invoked by a bot, **must** be set to the ID of an owned bot if invoked by a user. | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer to verify | Optional|
+|custom\_description|[string](/API_docs/types/string.html) | Custom description for the verification, the UTF-8 length limit for this field is contained in [bot\_verification\_description\_length\_limit »](https://core.telegram.org/api/config#bot-verification-description-length-limit). <br>If not set, `Was verified by organization "organization_name"` will be used as description. | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

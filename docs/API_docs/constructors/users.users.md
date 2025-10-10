@@ -1,6 +1,6 @@
 ---
 title: "users.users"
-description: "users.users attributes, type and example"
+description: "Describes a list of users (or bots)."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/users_users.html
@@ -10,11 +10,13 @@ redirect_from: /API_docs/constructors/users_users.html
 
 
 
+Describes a list of users (or bots).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|users|Array of [User](/API_docs/types/User.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Users|
 
 
 

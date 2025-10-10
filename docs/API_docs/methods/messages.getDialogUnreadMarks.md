@@ -17,7 +17,7 @@ Get dialogs manually marked as unread
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|parent\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
+|parent\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Can be equal to the ID of a monoforum, to fetch monoforum topics manually marked as unread. | Optional|
 
 
 ### Return type: [Vector\_of\_DialogPeer](/API_docs/types/DialogPeer.html)

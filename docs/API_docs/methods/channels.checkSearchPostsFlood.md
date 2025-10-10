@@ -1,6 +1,6 @@
 ---
 title: "channels.checkSearchPostsFlood"
-description: "channels.checkSearchPostsFlood parameters, return type and example"
+description: "Check if the specified [global post search »](https://core.telegram.org/api/search#posts-tab) requires payment."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/channels_checkSearchPostsFlood.html
 
 
 
+Check if the specified [global post search »](https://core.telegram.org/api/search#posts-tab) requires payment.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|query|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|query|[string](/API_docs/types/string.html) | The query. | Optional|
 
 
 ### Return type: [SearchPostsFlood](/API_docs/types/SearchPostsFlood.html)

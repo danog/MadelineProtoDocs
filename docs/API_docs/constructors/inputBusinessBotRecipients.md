@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Specifies the private chats that a [connected business bot »](https://core.telegram.org/api/business#connected-bots) may interact with.
+Specifies the private chats that a [connected business bot »](https://core.telegram.org/api/bots/connected-business-bots) may interact with.
 
 ### Attributes:
 

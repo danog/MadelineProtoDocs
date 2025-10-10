@@ -1,6 +1,6 @@
 ---
 title: "messageMediaToDo"
-description: "messageMediaToDo attributes, type and example"
+description: "Represents a todo list »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents a [todo list »](https://core.telegram.org/api/todo).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|todo|[TodoList](/API_docs/types/TodoList.html) | Yes|
-|completions|Array of [TodoCompletion](/API_docs/types/TodoCompletion.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|todo|[TodoList](/API_docs/types/TodoList.html) | Yes|The todo list.|
+|completions|Array of [TodoCompletion](/API_docs/types/TodoCompletion.html) | Optional|Completed items.|
 
 
 

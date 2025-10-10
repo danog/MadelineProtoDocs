@@ -20,7 +20,7 @@ Sends one or more [paid Telegram Star reactions »](https://core.telegram.org/ap
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The channel | Optional|
 |msg\_id|[int](/API_docs/types/int.html) | The message to react to | Optional|
 |count|[int](/API_docs/types/int.html) | The number of [stars](https://core.telegram.org/api/stars) to send (each will increment the reaction counter by one). | Optional|
-|private|[PaidReactionPrivacy](/API_docs/types/PaidReactionPrivacy.html) |  | Optional|
+|private|[PaidReactionPrivacy](/API_docs/types/PaidReactionPrivacy.html) | Each post with star reactions has a leaderboard with the top senders, but users can opt out of appearing there if they prefer more privacy. Not populating this field will use the default reaction privacy, stored on the server and synced to clients using [updatePaidReactionPrivacy](../constructors/updatePaidReactionPrivacy.html) (see [here](https://core.telegram.org/api/reactions#paid-reaction-privacy) for more info). | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

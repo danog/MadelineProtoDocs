@@ -1,6 +1,6 @@
 ---
 title: "messages.setChatTheme"
-description: "Change the chat theme of a certain chat"
+description: "Change the chat theme of a certain chat, see [here »](https://core.telegram.org/api/themes#chat-themes) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,14 @@ redirect_from: /API_docs/methods/messages_setChatTheme.html
 
 
 
-Change the chat theme of a certain chat
+Change the chat theme of a certain chat, see [here »](https://core.telegram.org/api/themes#chat-themes) for more info.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Private chat where to change theme | Optional|
-|theme|[InputChatTheme](/API_docs/types/InputChatTheme.html) |  | Optional|
+|theme|[InputChatTheme](/API_docs/types/InputChatTheme.html) | The theme to set. | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

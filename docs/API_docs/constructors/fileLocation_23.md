@@ -15,10 +15,10 @@ File location.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|dc\_id|[int](/API_docs/types/int.html) | Yes|
-|volume\_id|[long](/API_docs/types/long.html) | Yes|
-|local\_id|[int](/API_docs/types/int.html) | Yes|
-|secret|[long](/API_docs/types/long.html) | Yes|
+|dc\_id|[int](/API_docs/types/int.html) | Yes|DC ID|
+|volume\_id|[long](/API_docs/types/long.html) | Yes|Volume ID|
+|local\_id|[int](/API_docs/types/int.html) | Yes|Local ID|
+|secret|[long](/API_docs/types/long.html) | Yes|Secret|
 
 
 

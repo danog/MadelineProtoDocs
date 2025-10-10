@@ -615,6 +615,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [StarGiftCollection](/API_docs/types/StarGiftCollection.html)<a name="StarGiftCollection"></a>  
 
+[StarGiftUpgradePrice](/API_docs/types/StarGiftUpgradePrice.html)<a name="StarGiftUpgradePrice"></a>  
+
 [StarRefProgram](/API_docs/types/StarRefProgram.html)<a name="StarRefProgram"></a>  
 
 [StarsAmount](/API_docs/types/StarsAmount.html)<a name="StarsAmount"></a>  

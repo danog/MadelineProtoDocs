@@ -22,8 +22,8 @@ Document (video, audio, voice, sticker, any media type except photo)
 |voice|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a voice message.|
 |document|[Document](/API_docs/types/Document.html) | Optional|Attached document|
 |alt\_documents|Array of [Document](/API_docs/types/Document.html) | Optional|Videos only, contains alternative qualities of the video.|
-|video\_cover|[Photo](/API_docs/types/Photo.html) | Optional|
-|video\_timestamp|[int](/API_docs/types/int.html) | Optional|
+|video\_cover|[Photo](/API_docs/types/Photo.html) | Optional|Custom video cover.|
+|video\_timestamp|[int](/API_docs/types/int.html) | Optional|Start playing the video at the specified timestamp (seconds).|
 |ttl\_seconds|[int](/API_docs/types/int.html) | Optional|Time to live of self-destructing document|
 
 

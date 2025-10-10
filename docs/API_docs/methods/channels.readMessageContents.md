@@ -1,6 +1,6 @@
 ---
 title: "channels.readMessageContents"
-description: "Mark [channel/supergroup](https://core.telegram.org/api/channel) message contents as read"
+description: "Mark [channel/supergroup](https://core.telegram.org/api/channel) message contents as read, emitting an [updateChannelReadMessagesContents](../constructors/updateChannelReadMessagesContents.html)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/channels_readMessageContents.html
 
 
 
-Mark [channel/supergroup](https://core.telegram.org/api/channel) message contents as read
+Mark [channel/supergroup](https://core.telegram.org/api/channel) message contents as read, emitting an [updateChannelReadMessagesContents](../constructors/updateChannelReadMessagesContents.html).
 
 ### Parameters:
 

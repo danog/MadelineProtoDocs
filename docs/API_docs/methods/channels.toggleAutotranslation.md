@@ -1,6 +1,6 @@
 ---
 title: "channels.toggleAutotranslation"
-description: "channels.toggleAutotranslation parameters, return type and example"
+description: "Toggle autotranslation in a channel, for all users: see [here »](https://core.telegram.org/api/translation#autotranslation-for-channels) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/channels_toggleAutotranslation.html
 
 
 
+Toggle autotranslation in a channel, for all users: see [here »](https://core.telegram.org/api/translation#autotranslation-for-channels) for more info.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
-|enabled|[Bool](/API_docs/types/Bool.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | The channel where to toggle autotranslation. | Optional|
+|enabled|[Bool](/API_docs/types/Bool.html) | Whether to enable or disable autotranslation. | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

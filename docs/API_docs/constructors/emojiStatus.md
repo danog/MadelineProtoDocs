@@ -16,7 +16,7 @@ An [emoji status](https://core.telegram.org/api/emoji-status)
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |document\_id|[long](/API_docs/types/long.html) | Yes|[Custom emoji document ID](https://core.telegram.org/api/custom-emoji)|
-|until|[int](/API_docs/types/int.html) | Optional|
+|until|[int](/API_docs/types/int.html) | Optional|If set, the emoji status will be active until the specified unixtime.|
 
 
 

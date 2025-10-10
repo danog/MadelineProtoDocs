@@ -1,6 +1,6 @@
 ---
 title: "payments.starGiftCollections"
-description: "payments.starGiftCollections attributes, type and example"
+description: "Represents a list of star gift collections »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/payments_starGiftCollections.html
@@ -10,11 +10,13 @@ redirect_from: /API_docs/constructors/payments_starGiftCollections.html
 
 
 
+Represents a list of [star gift collections »](https://core.telegram.org/api/gifts#gift-collections).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|collections|Array of [StarGiftCollection](/API_docs/types/StarGiftCollection.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|collections|Array of [StarGiftCollection](/API_docs/types/StarGiftCollection.html) | Yes|Star gift collections.|
 
 
 

@@ -50,6 +50,8 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->account->getBotBusinessConnection](/API_docs/methods/account.getBotBusinessConnection.html)  
 
+[$MadelineProto->users->suggestBirthday](/API_docs/methods/users.suggestBirthday.html)  
+
 [$MadelineProto->contacts->deleteContacts](/API_docs/methods/contacts.deleteContacts.html)  
 
 [$MadelineProto->contacts->addContact](/API_docs/methods/contacts.addContact.html)  
@@ -144,6 +146,14 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->messages->toggleSuggestedPostApproval](/API_docs/methods/messages.toggleSuggestedPostApproval.html)  
 
+[$MadelineProto->messages->editForumTopic](/API_docs/methods/messages.editForumTopic.html)  
+
+[$MadelineProto->messages->updatePinnedForumTopic](/API_docs/methods/messages.updatePinnedForumTopic.html)  
+
+[$MadelineProto->messages->reorderPinnedForumTopics](/API_docs/methods/messages.reorderPinnedForumTopics.html)  
+
+[$MadelineProto->messages->createForumTopic](/API_docs/methods/messages.createForumTopic.html)  
+
 [$MadelineProto->channels->createChannel](/API_docs/methods/channels.createChannel.html)  
 
 [$MadelineProto->channels->editAdmin](/API_docs/methods/channels.editAdmin.html)  
@@ -177,14 +187,6 @@ $message = $MadelineProto->extractMessageId($Updates);
 [$MadelineProto->channels->toggleJoinRequest](/API_docs/methods/channels.toggleJoinRequest.html)  
 
 [$MadelineProto->channels->toggleForum](/API_docs/methods/channels.toggleForum.html)  
-
-[$MadelineProto->channels->createForumTopic](/API_docs/methods/channels.createForumTopic.html)  
-
-[$MadelineProto->channels->editForumTopic](/API_docs/methods/channels.editForumTopic.html)  
-
-[$MadelineProto->channels->updatePinnedForumTopic](/API_docs/methods/channels.updatePinnedForumTopic.html)  
-
-[$MadelineProto->channels->reorderPinnedForumTopics](/API_docs/methods/channels.reorderPinnedForumTopics.html)  
 
 [$MadelineProto->channels->toggleAntiSpam](/API_docs/methods/channels.toggleAntiSpam.html)  
 

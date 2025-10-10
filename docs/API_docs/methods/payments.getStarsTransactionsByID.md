@@ -17,7 +17,7 @@ Obtain info about [Telegram Star transactions »](https://core.telegram.org/api/
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|ton|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|ton|[Bool](/API_docs/types/Bool.html) | If set, returns channel/bot ad revenue transactions in nanotons. | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Channel or bot. | Optional|
 |id|Array of [InputStarsTransaction](/API_docs/types/InputStarsTransaction.html) | Transaction IDs. | Yes|
 

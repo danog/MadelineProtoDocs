@@ -1,6 +1,6 @@
 ---
 title: "inputChatThemeUniqueGift"
-description: "inputChatThemeUniqueGift attributes, type and example"
+description: "Set a theme based on an owned collectible gift », returned by account.getUniqueGiftChatThemes."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Set a theme based on an owned [collectible gift »](https://core.telegram.org/api/gifts#collectible-gifts), returned by [account.getUniqueGiftChatThemes](../methods/account.getUniqueGiftChatThemes.html).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|slug|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|slug|[string](/API_docs/types/string.html) | Yes|The slug from [starGiftUnique](../constructors/starGiftUnique.html).`slug`.|
 
 
 

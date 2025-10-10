@@ -17,7 +17,7 @@ Defines a video
 |----------|---------------|----------|-------------|
 |round\_message|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a round video|
 |supports\_streaming|[Bool](/API_docs/types/Bool.html) | Optional|Whether the video supports streaming|
-|nosound|[Bool](/API_docs/types/Bool.html) | Optional|Whether the specified document is a video file with no audio tracks (a GIF animation (even as MPEG4), for example)|
+|nosound|[Bool](/API_docs/types/Bool.html) | Optional|Whether the specified document is a video file with no audio tracks|
 |duration|[double](/API_docs/types/double.html) | Optional|Duration in seconds|
 |w|[int](/API_docs/types/int.html) | Optional|Video width|
 |h|[int](/API_docs/types/int.html) | Optional|Video height|

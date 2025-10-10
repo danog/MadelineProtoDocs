@@ -1,6 +1,6 @@
 ---
 title: "account.getPaidMessagesRevenue"
-description: "account.getPaidMessagesRevenue parameters, return type and example"
+description: "Get the number of stars we have received from the specified user thanks to [paid messages »](https://core.telegram.org/api/paid-messages); the received amount will be equal to the sent amount multiplied by [stars\_paid\_message\_commission\_permille](https://core.telegram.org/api/config#stars-paid-message-commission-permille) divided by 1000."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/account_getPaidMessagesRevenue.html
 
 
 
+Get the number of stars we have received from the specified user thanks to [paid messages »](https://core.telegram.org/api/paid-messages); the received amount will be equal to the sent amount multiplied by [stars\_paid\_message\_commission\_permille](https://core.telegram.org/api/config#stars-paid-message-commission-permille) divided by 1000.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|parent\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|parent\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | If set, can contain the ID of a [monoforum (channel direct messages)](https://core.telegram.org/api/monoforum) to obtain the number of stars the user has spent to send us direct messages via the channel. | Optional|
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The user that paid to send us messages. | Optional|
 
 
 ### Return type: [account.PaidMessagesRevenue](/API_docs/types/account.PaidMessagesRevenue.html)

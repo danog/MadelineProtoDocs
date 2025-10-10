@@ -13,11 +13,13 @@ redirect_from: /API_docs/methods/messages_uploadMedia.html
 
 Upload a file and associate it to a chat (without actually sending it to the chat)
 
+May also be used in a [business connection](https://core.telegram.org/api/bots/connected-business-bots), *not* by wrapping the query in [invokeWithBusinessConnection »](../methods/invokeWithBusinessConnection.html), but rather by specifying the business connection ID in the `business_connection_id` parameter.
+
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|business\_connection\_id|[string](/API_docs/types/string.html) | Whether the media will be used only in the specified [business connection »](https://core.telegram.org/api/business#connected-bots), and not directly by the bot. | Optional|
+|business\_connection\_id|[string](/API_docs/types/string.html) | Whether the media will be used only in the specified [business connection »](https://core.telegram.org/api/bots/connected-business-bots), and not directly by the bot. | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The chat, can be [inputPeerEmpty](../constructors/inputPeerEmpty.html) for bots and [inputPeerSelf](../constructors/inputPeerSelf.html) for users. | Optional|
 |media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) | File uploaded in chunks as described in [files »](https://core.telegram.org/api/files) | Optional|
 

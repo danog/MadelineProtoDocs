@@ -17,7 +17,7 @@ List of [reaction tag »](https://core.telegram.org/api/saved-messages#tags) nam
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |tags|Array of [SavedReactionTag](/API_docs/types/SavedReactionTag.html) | Yes|Saved reaction tags.|
-|hash|[long](/API_docs/types/long.html) | Yes|[Hash used for caching, for more info click here](https://core.telegram.org/api/offsets#hash-generation)|
+|hash|[long](/API_docs/types/long.html) | Yes|[Hash used for caching, for more info click here](https://core.telegram.org/api/offsets#hash-generation). Can also be manually regenerated, if needed, using the [custom algorithm specified here »](https://core.telegram.org/api/saved-messages#tags).|
 
 
 

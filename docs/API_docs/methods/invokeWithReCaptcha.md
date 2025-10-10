@@ -1,6 +1,6 @@
 ---
 title: "invokeWithReCaptcha"
-description: "invokeWithReCaptcha parameters, return type and example"
+description: "Official clients only: re-execute a method call that required reCAPTCHA verification via a `RECAPTCHA_CHECK_%s__%s`, where the first placeholder is the `action`, and the second one is the reCAPTCHA key ID."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -10,12 +10,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Official clients only: re-execute a method call that required reCAPTCHA verification via a `RECAPTCHA_CHECK_%s__%s`, where the first placeholder is the `action`, and the second one is the reCAPTCHA key ID.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|token|[string](/API_docs/types/string.html) | Optional|
-|query|[!X](/API_docs/types/!X.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|token|[string](/API_docs/types/string.html) | reCAPTCHA token received after verification. | Optional|
+|query|[!X](/API_docs/types/!X.html) | The original method call. | Yes|
 
 
 ### Return type: [X](/API_docs/types/X.html)

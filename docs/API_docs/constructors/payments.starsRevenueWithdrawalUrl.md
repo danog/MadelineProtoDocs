@@ -10,13 +10,13 @@ redirect_from: /API_docs/constructors/payments_starsRevenueWithdrawalUrl.html
 
 
 
-Contains the URL to use to [withdraw Telegram Star revenue](https://core.telegram.org/api/stars#withdrawing-stars).
+Contains the URL to use to [withdraw Telegram Star revenue](https://core.telegram.org/api/stars#withdrawing-revenue).
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|url|[string](/API_docs/types/string.html) | Yes|Contains the URL to use to [withdraw Telegram Star revenue](https://core.telegram.org/api/stars#withdrawing-stars).|
+|url|[string](/API_docs/types/string.html) | Yes|Contains the URL to use to [withdraw Telegram Star revenue](https://core.telegram.org/api/stars#withdrawing-revenue).|
 
 
 

@@ -18,7 +18,7 @@ Display or remove a [received gift »](https://core.telegram.org/api/gifts) from
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |unsave|[Bool](/API_docs/types/Bool.html) | If set, hides the gift from our profile. | Optional|
-|stargift|[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) |  | Yes|
+|stargift|[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) | The gift to display or remove. | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

@@ -18,7 +18,7 @@ Get [Telegram Star revenue statistics »](https://core.telegram.org/api/stars).
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |dark|[Bool](/API_docs/types/Bool.html) | Whether to enable dark theme for graph colors | Optional|
-|ton|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|ton|[Bool](/API_docs/types/Bool.html) | If set, fetches channel/bot ad revenue statistics in TON. | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Get statistics for the specified bot, channel or ourselves ([inputPeerSelf](../constructors/inputPeerSelf.html)). | Optional|
 
 

@@ -1,6 +1,6 @@
 ---
 title: "account.getSavedMusicIds"
-description: "account.getSavedMusicIds parameters, return type and example"
+description: "Fetch the full list of only the IDs of [songs currently added to the profile, see here »](https://core.telegram.org/api/profile#music) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/account_getSavedMusicIds.html
 
 
 
+Fetch the full list of only the IDs of [songs currently added to the profile, see here »](https://core.telegram.org/api/profile#music) for more info.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|Array of [long\|string](/API_docs/types/long\|string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | Hash [generated »](https://core.telegram.org/api/offsets#hash-generation) from the previously returned list of IDs. | Optional|
 
 
 ### Return type: [account.SavedMusicIds](/API_docs/types/account.SavedMusicIds.html)

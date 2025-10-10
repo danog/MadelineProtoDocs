@@ -125,6 +125,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageActionGiftTon](/API_docs/constructors/messageActionGiftTon.html)  
 
+[messageActionSuggestBirthday](/API_docs/constructors/messageActionSuggestBirthday.html)  
+
 
 
 ### Methods that return an object of this type (methods):

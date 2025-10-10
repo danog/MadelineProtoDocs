@@ -1,6 +1,6 @@
 ---
 title: "starsTransaction"
-description: "Represents a Telegram Stars transaction »."
+description: "Represents a Telegram Stars or TON transaction »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Represents a [Telegram Stars transaction »](https://core.telegram.org/api/stars).
+Represents a [Telegram Stars or TON transaction »](https://core.telegram.org/api/stars).
 
 ### Attributes:
 
@@ -20,13 +20,14 @@ Represents a [Telegram Stars transaction »](https://core.telegram.org/api/stars
 |failed|[Bool](/API_docs/types/Bool.html) | Optional|This transaction has failed.|
 |gift|[Bool](/API_docs/types/Bool.html) | Optional|This transaction was a gift from the user in `peer.peer`.|
 |reaction|[Bool](/API_docs/types/Bool.html) | Optional|This transaction is a [paid reaction »](https://core.telegram.org/api/reactions#paid-reactions).|
-|stargift\_upgrade|[Bool](/API_docs/types/Bool.html) | Optional|
-|business\_transfer|[Bool](/API_docs/types/Bool.html) | Optional|
-|stargift\_resale|[Bool](/API_docs/types/Bool.html) | Optional|
-|posts\_search|[Bool](/API_docs/types/Bool.html) | Optional|
-|stargift\_prepaid\_upgrade|[Bool](/API_docs/types/Bool.html) | Optional|
+|stargift\_upgrade|[Bool](/API_docs/types/Bool.html) | Optional|This transaction pays for the upgrade of a gift to a [collectible gift »](https://core.telegram.org/api/gifts#collectible-gifts).|
+|business\_transfer|[Bool](/API_docs/types/Bool.html) | Optional|This transaction transfers stars from the balance of a user account [connected to a business bot](https://core.telegram.org/api/bots/connected-business-bots), to the balance of the business bot, see [here »](https://core.telegram.org/api/stars#transferring-stars-from-a-business-account-to-the-business-bot) for more info.|
+|stargift\_resale|[Bool](/API_docs/types/Bool.html) | Optional|This transaction is related to the [resale of a collectible gift »](https://core.telegram.org/api/gifts#reselling-collectible-gifts).|
+|posts\_search|[Bool](/API_docs/types/Bool.html) | Optional|Represents payment for a [paid global post search »](https://core.telegram.org/api/search#posts-tab).|
+|stargift\_prepaid\_upgrade|[Bool](/API_docs/types/Bool.html) | Optional|Represents payment for a [separate prepaid upgrade of a gift](https://core.telegram.org/api/gifts#prepaying-for-someone-elses-upgrade).|
+|stargift\_drop\_original\_details|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[string](/API_docs/types/string.html) | Yes|Transaction ID.|
-|amount|[StarsAmount](/API_docs/types/StarsAmount.html) | Yes|
+|amount|[StarsAmount](/API_docs/types/StarsAmount.html) | Yes|Amount of Telegram Stars or TON.|
 |date|[int](/API_docs/types/int.html) | Yes|Date of the transaction (unixtime).|
 |peer|[StarsTransactionPeer](/API_docs/types/StarsTransactionPeer.html) | Yes|Source of the incoming transaction, or its recipient for outgoing transactions.|
 |title|[string](/API_docs/types/string.html) | Optional|For transactions with bots, title of the bought product.|
@@ -44,10 +45,10 @@ Represents a [Telegram Stars transaction »](https://core.telegram.org/api/stars
 |starref\_commission\_permille|[int](/API_docs/types/int.html) | Optional|This transaction is the receival (or refund) of an [affiliate commission](https://core.telegram.org/api/bots/referrals) (i.e. this is the transaction received by the peer that created the [referral link](https://core.telegram.org/api/links#referral-links), flag 17 is for transactions made by users that imported the referral link).|
 |starref\_peer|[Peer](/API_docs/types/Peer.html) | Optional|For transactions made by [referred users](https://core.telegram.org/api/bots/referrals), the peer that received the affiliate commission.|
 |starref\_amount|[StarsAmount](/API_docs/types/StarsAmount.html) | Optional|For transactions made by [referred users](https://core.telegram.org/api/bots/referrals), the amount of Telegram Stars received by the affiliate, can be negative for refunds.|
-|paid\_messages|[int](/API_docs/types/int.html) | Optional|
-|premium\_gift\_months|[int](/API_docs/types/int.html) | Optional|
-|ads\_proceeds\_from\_date|[int](/API_docs/types/int.html) | Optional|
-|ads\_proceeds\_to\_date|[int](/API_docs/types/int.html) | Optional|
+|paid\_messages|[int](/API_docs/types/int.html) | Optional|This transaction is related to the reception or transmission of a [paid message »](https://core.telegram.org/api/paid-messages).|
+|premium\_gift\_months|[int](/API_docs/types/int.html) | Optional|This transaction indicates the payment for a [gifted Telegram Premium subscription »](https://core.telegram.org/api/premium#gifting-telegram-premium).|
+|ads\_proceeds\_from\_date|[int](/API_docs/types/int.html) | Optional|Indicates that this is payment for ad revenue from the specified unixtime (always set together with **ads\_proceeds\_to\_date**).|
+|ads\_proceeds\_to\_date|[int](/API_docs/types/int.html) | Optional|Indicates that this is payment for ad revenue to the specified unixtime.|
 
 
 
@@ -57,5 +58,5 @@ Represents a [Telegram Stars transaction »](https://core.telegram.org/api/stars
 ### Example:
 
 ```
-$starsTransaction = ['_' => 'starsTransaction', 'refund' => Bool, 'pending' => Bool, 'failed' => Bool, 'gift' => Bool, 'reaction' => Bool, 'stargift_upgrade' => Bool, 'business_transfer' => Bool, 'stargift_resale' => Bool, 'posts_search' => Bool, 'stargift_prepaid_upgrade' => Bool, 'id' => 'string', 'amount' => StarsAmount, 'date' => int, 'peer' => StarsTransactionPeer, 'title' => 'string', 'description' => 'string', 'photo' => WebDocument, 'transaction_date' => int, 'transaction_url' => 'string', 'bot_payload' => 'bytes', 'msg_id' => int, 'extended_media' => [MessageMedia, MessageMedia], 'subscription_period' => int, 'giveaway_post_id' => int, 'stargift' => StarGift, 'floodskip_number' => int, 'starref_commission_permille' => int, 'starref_peer' => Peer, 'starref_amount' => StarsAmount, 'paid_messages' => int, 'premium_gift_months' => int, 'ads_proceeds_from_date' => int, 'ads_proceeds_to_date' => int];
+$starsTransaction = ['_' => 'starsTransaction', 'refund' => Bool, 'pending' => Bool, 'failed' => Bool, 'gift' => Bool, 'reaction' => Bool, 'stargift_upgrade' => Bool, 'business_transfer' => Bool, 'stargift_resale' => Bool, 'posts_search' => Bool, 'stargift_prepaid_upgrade' => Bool, 'stargift_drop_original_details' => Bool, 'id' => 'string', 'amount' => StarsAmount, 'date' => int, 'peer' => StarsTransactionPeer, 'title' => 'string', 'description' => 'string', 'photo' => WebDocument, 'transaction_date' => int, 'transaction_url' => 'string', 'bot_payload' => 'bytes', 'msg_id' => int, 'extended_media' => [MessageMedia, MessageMedia], 'subscription_period' => int, 'giveaway_post_id' => int, 'stargift' => StarGift, 'floodskip_number' => int, 'starref_commission_permille' => int, 'starref_peer' => Peer, 'starref_amount' => StarsAmount, 'paid_messages' => int, 'premium_gift_months' => int, 'ads_proceeds_from_date' => int, 'ads_proceeds_to_date' => int];
 ```  

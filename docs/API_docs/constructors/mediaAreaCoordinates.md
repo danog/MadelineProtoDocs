@@ -1,6 +1,6 @@
 ---
 title: "mediaAreaCoordinates"
-description: "Coordinates and size of a clicable rectangular area on top of a story."
+description: "Coordinates and size of a clickable rectangular area on top of a story."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Coordinates and size of a clicable rectangular area on top of a story.
+Coordinates and size of a clickable rectangular area on top of a story.
 
 ### Attributes:
 

@@ -31,7 +31,7 @@ Send an [album or grouped media](https://core.telegram.org/api/files#albums-grou
 |send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Send this message as the specified peer | Optional|
 |quick\_reply\_shortcut|[InputQuickReplyShortcut](/API_docs/types/InputQuickReplyShortcut.html) | Add the message to the specified [quick reply shortcut »](https://core.telegram.org/api/business#quick-reply-shortcuts), instead. | Optional|
 |effect|[long](/API_docs/types/long.html) | Specifies a [message effect »](https://core.telegram.org/api/effects) to use for the message. | Optional|
-|allow\_paid\_stars|[long](/API_docs/types/long.html) |  | Optional|
+|allow\_paid\_stars|[long](/API_docs/types/long.html) | For [paid messages »](https://core.telegram.org/api/paid-messages), specifies the amount of [Telegram Stars](https://core.telegram.org/api/stars) the user has agreed to pay in order to send the message. | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

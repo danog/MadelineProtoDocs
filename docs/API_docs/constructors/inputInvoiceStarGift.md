@@ -16,8 +16,8 @@ Used to buy a [Telegram Star Gift, see here »](https://core.telegram.org/api/gi
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |hide\_name|[Bool](/API_docs/types/Bool.html) | Optional|If set, your name will be hidden if the destination user decides to display the gift on their profile (they will still see that you sent the gift)|
-|include\_upgrade|[Bool](/API_docs/types/Bool.html) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+|include\_upgrade|[Bool](/API_docs/types/Bool.html) | Optional|Also pay for an eventual upgrade of the gift to a [collectible gift »](https://core.telegram.org/api/gifts#collectible-gifts).|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|Receiver of the gift.|
 |gift\_id|[long](/API_docs/types/long.html) | Yes|Identifier of the gift, from [starGift](../constructors/starGift.html).`id`|
 |message|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Optional|Optional message, attached with the gift. <br>The maximum length for this field is specified in the [stargifts\_message\_length\_max client configuration value »](https://core.telegram.org/api/config#stargifts-message-length-max).|
 

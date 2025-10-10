@@ -32,7 +32,7 @@ Chat invite info
 |color|[int](/API_docs/types/int.html) | Yes|[Profile color palette ID](https://core.telegram.org/api/colors)|
 |subscription\_pricing|[StarsSubscriptionPricing](/API_docs/types/StarsSubscriptionPricing.html) | Optional|For [Telegram Star subscriptions »](https://core.telegram.org/api/stars#star-subscriptions), contains the pricing of the subscription the user must activate to join the private channel.|
 |subscription\_form\_id|[long](/API_docs/types/long.html) | Optional|For [Telegram Star subscriptions »](https://core.telegram.org/api/stars#star-subscriptions), the ID of the payment form for the subscription.|
-|bot\_verification|[BotVerification](/API_docs/types/BotVerification.html) | Optional|
+|bot\_verification|[BotVerification](/API_docs/types/BotVerification.html) | Optional|Describes a [bot verification icon »](https://core.telegram.org/api/bots/verification).|
 
 
 

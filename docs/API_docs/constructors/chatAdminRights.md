@@ -30,7 +30,7 @@ Represents the rights of an admin in a [channel/supergroup](https://core.telegra
 |post\_stories|[Bool](/API_docs/types/Bool.html) | Optional|If set, allows the admin to post [stories](https://core.telegram.org/api/stories) as the [channel](https://core.telegram.org/api/channel).|
 |edit\_stories|[Bool](/API_docs/types/Bool.html) | Optional|If set, allows the admin to edit [stories](https://core.telegram.org/api/stories) posted by the other admins of the [channel](https://core.telegram.org/api/channel).|
 |delete\_stories|[Bool](/API_docs/types/Bool.html) | Optional|If set, allows the admin to delete [stories](https://core.telegram.org/api/stories) posted by the other admins of the [channel](https://core.telegram.org/api/channel).|
-|manage\_direct\_messages|[Bool](/API_docs/types/Bool.html) | Optional|
+|manage\_direct\_messages|[Bool](/API_docs/types/Bool.html) | Optional|If set, allows the admin to manage the [direct messages monoforum »](https://core.telegram.org/api/monoforum) and [decline suggested posts »](https://core.telegram.org/api/suggested-posts).|
 
 
 

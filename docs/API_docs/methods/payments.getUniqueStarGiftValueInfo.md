@@ -1,6 +1,6 @@
 ---
 title: "payments.getUniqueStarGiftValueInfo"
-description: "payments.getUniqueStarGiftValueInfo parameters, return type and example"
+description: "Get information about the value of a [collectible gift »](https://core.telegram.org/api/gifts#collectible-gifts)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/payments_getUniqueStarGiftValueInfo.html
 
 
 
+Get information about the value of a [collectible gift »](https://core.telegram.org/api/gifts#collectible-gifts).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|slug|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|slug|[string](/API_docs/types/string.html) | `slug` from a [starGiftUnique](../constructors/starGiftUnique.html). | Optional|
 
 
 ### Return type: [payments.UniqueStarGiftValueInfo](/API_docs/types/payments.UniqueStarGiftValueInfo.html)

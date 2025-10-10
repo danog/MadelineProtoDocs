@@ -1,6 +1,6 @@
 ---
 title: "stories.albumsNotModified"
-description: "stories.albumsNotModified attributes, type and example"
+description: "The story album list » hasn't changed."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/stories_albumsNotModified.html
@@ -9,6 +9,8 @@ redirect_from: /API_docs/constructors/stories_albumsNotModified.html
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+The [story album list »](https://core.telegram.org/api/stories#story-albums) hasn't changed.
 
 
 

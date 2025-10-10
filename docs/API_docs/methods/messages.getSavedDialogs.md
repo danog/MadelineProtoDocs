@@ -1,6 +1,6 @@
 ---
 title: "messages.getSavedDialogs"
-description: "Returns the current saved dialog list, see [here »](https://core.telegram.org/api/saved-messages) for more info."
+description: "Returns the current [saved dialog list »](https://core.telegram.org/api/saved-messages) or [monoforum topic list »](https://core.telegram.org/api/monoforum)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,14 @@ redirect_from: /API_docs/methods/messages_getSavedDialogs.html
 
 
 
-Returns the current saved dialog list, see [here »](https://core.telegram.org/api/saved-messages) for more info.
+Returns the current [saved dialog list »](https://core.telegram.org/api/saved-messages) or [monoforum topic list »](https://core.telegram.org/api/monoforum).
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |exclude\_pinned|[Bool](/API_docs/types/Bool.html) | Exclude pinned dialogs | Optional|
-|parent\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
+|parent\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | If set, fetches the topic list of the passed monoforum, otherwise fetches the saved dialog list. | Optional|
 |offset\_date|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
 |offset\_id|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) (`top_message` ID used for pagination) | Optional|
 |offset\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | [Offset peer for pagination](https://core.telegram.org/api/offsets) | Optional|

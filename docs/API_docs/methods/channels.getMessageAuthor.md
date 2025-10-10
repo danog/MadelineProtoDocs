@@ -1,6 +1,6 @@
 ---
 title: "channels.getMessageAuthor"
-description: "channels.getMessageAuthor parameters, return type and example"
+description: "Can only be invoked by non-bot admins of a [monoforum »](https://core.telegram.org/api/monoforum), obtains the original sender of a message sent by other monoforum admins to the monoforum, on behalf of the channel associated to the monoforum."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/channels_getMessageAuthor.html
 
 
 
+Can only be invoked by non-bot admins of a [monoforum »](https://core.telegram.org/api/monoforum), obtains the original sender of a message sent by other monoforum admins to the monoforum, on behalf of the channel associated to the monoforum.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Optional|
-|id|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | ID of the monoforum. | Optional|
+|id|[int](/API_docs/types/int.html) | ID of the message sent by a monoforum admin. | Optional|
 
 
 ### Return type: [User](/API_docs/types/User.html)

@@ -19,7 +19,7 @@ Note that [starGift](../constructors/starGift.html).`convert_stars` will be less
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|stargift|[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) |  | Yes|
+|stargift|[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) | The gift to convert. | Yes|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

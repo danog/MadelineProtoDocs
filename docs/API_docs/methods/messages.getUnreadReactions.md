@@ -19,7 +19,7 @@ Get unread reactions to messages you sent
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer | Optional|
 |top\_msg\_id|[int](/API_docs/types/int.html) | If set, considers only reactions to messages within the specified [forum topic](https://core.telegram.org/api/forum#forum-topics) | Optional|
-|saved\_peer\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) |  | Optional|
+|saved\_peer\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | If set, must be equal to the ID of a [monoforum topic](https://core.telegram.org/api/monoforum): will affect that topic in the monoforum passed in `peer`. | Optional|
 |offset\_id|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
 |add\_offset|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
 |limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|

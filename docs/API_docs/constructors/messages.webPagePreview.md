@@ -1,6 +1,6 @@
 ---
 title: "messages.webPagePreview"
-description: "messages.webPagePreview attributes, type and example"
+description: "Represents a webpage preview."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/messages_webPagePreview.html
@@ -10,13 +10,15 @@ redirect_from: /API_docs/constructors/messages_webPagePreview.html
 
 
 
+Represents a webpage preview.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|media|[MessageMedia](/API_docs/types/MessageMedia.html) | Optional|
-|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
-|users|Array of [User](/API_docs/types/User.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|media|[MessageMedia](/API_docs/types/MessageMedia.html) | Optional|The [messageMediaWebPage](../constructors/messageMediaWebPage.html) or a [messageMediaEmpty](../constructors/messageMediaEmpty.html) if there is no preview.|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Chats mentioned in the `gift` field.|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Users mentioned within the `media` object.|
 
 
 

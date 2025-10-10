@@ -1,6 +1,6 @@
 ---
 title: "phone.deleteConferenceCallParticipants"
-description: "phone.deleteConferenceCallParticipants parameters, return type and example"
+description: "Remove participants from a conference call."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,15 +11,19 @@ redirect_from: /API_docs/methods/phone_deleteConferenceCallParticipants.html
 
 
 
+Remove participants from a conference call.
+
+Exactly one of the `only_left` and `kick` flags must be set.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|only\_left|[Bool](/API_docs/types/Bool.html) | Optional|
-|kick|[Bool](/API_docs/types/Bool.html) | Optional|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
-|ids|Array of [long](/API_docs/types/long.html) | Yes|
-|block|[bytes](/API_docs/types/bytes.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|only\_left|[Bool](/API_docs/types/Bool.html) | Whether this is a removal of members that already left the conference call. | Optional|
+|kick|[Bool](/API_docs/types/Bool.html) | Whether this is a forced removal of active members in a conference call. | Optional|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | The conference call. | Yes|
+|ids|Array of [long](/API_docs/types/long.html) | IDs of users to remove. | Yes|
+|block|[bytes](/API_docs/types/bytes.html) | The [block containing an appropriate e2e.chain.changeSetGroupState event](https://core.telegram.org/api/end-to-end/group-calls) | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

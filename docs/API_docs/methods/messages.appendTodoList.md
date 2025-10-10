@@ -1,6 +1,6 @@
 ---
 title: "messages.appendTodoList"
-description: "messages.appendTodoList parameters, return type and example"
+description: "Appends one or more items to a [todo list »](https://core.telegram.org/api/todo)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/messages_appendTodoList.html
 
 
 
+Appends one or more items to a [todo list »](https://core.telegram.org/api/todo).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|msg\_id|[int](/API_docs/types/int.html) | Optional|
-|list|Array of [TodoItem](/API_docs/types/TodoItem.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where the todo list was posted. | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | ID of the message with the todo list. | Optional|
+|list|Array of [TodoItem](/API_docs/types/TodoItem.html) | Items to append. | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

@@ -9,15 +9,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Contains info about a [connected business bot »](https://core.telegram.org/api/business#connected-bots).
+Contains info about a [connected business bot »](https://core.telegram.org/api/bots/connected-business-bots).
 
 ### Attributes:
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |bot\_id|[long](/API_docs/types/long.html) | Yes|ID of the connected bot|
-|recipients|[BusinessBotRecipients](/API_docs/types/BusinessBotRecipients.html) | Yes|Specifies the private chats that a [connected business bot »](https://core.telegram.org/api/business#connected-bots) may receive messages and interact with.<br>|
-|rights|[BusinessBotRights](/API_docs/types/BusinessBotRights.html) | Yes|
+|recipients|[BusinessBotRecipients](/API_docs/types/BusinessBotRecipients.html) | Yes|Specifies the private chats that a [connected business bot »](https://core.telegram.org/api/bots/connected-business-bots) may receive messages and interact with.<br>|
+|rights|[BusinessBotRights](/API_docs/types/BusinessBotRights.html) | Yes|Business bot rights.|
 
 
 

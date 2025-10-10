@@ -1,6 +1,6 @@
 ---
 title: "payments.createStarGiftCollection"
-description: "payments.createStarGiftCollection parameters, return type and example"
+description: "Create a [star gift collection »](https://core.telegram.org/api/gifts#gift-collections)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/payments_createStarGiftCollection.html
 
 
 
+Create a [star gift collection »](https://core.telegram.org/api/gifts#gift-collections).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|title|[string](/API_docs/types/string.html) | Optional|
-|stargift|Array of [InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where to create the collection. | Optional|
+|title|[string](/API_docs/types/string.html) | Title of the collection. | Optional|
+|stargift|Array of [InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) | Gifts added to the collection. | Yes|
 
 
 ### Return type: [StarGiftCollection](/API_docs/types/StarGiftCollection.html)

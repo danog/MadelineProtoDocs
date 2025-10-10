@@ -15,7 +15,7 @@ Represents an attachment menu icon color for [bot mini apps »](https://core.tel
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|name|[string](/API_docs/types/string.html) | Yes|One of the following values: <br>`light_icon` \- Color of the attachment menu icon (light mode) <br>`light_text` \- Color of the attachment menu label, once selected (light mode) <br>`dark_icon` \- Color of the attachment menu icon (dark mode) <br>`dark_text` \- Color of the attachment menu label, once selected (dark mode)|
+|name|[string](/API_docs/types/string.html) | Yes|One of the following values: <br>`light_icon` - Color of the attachment menu icon (light mode) <br>`light_text` - Color of the attachment menu label, once selected (light mode) <br>`dark_icon` - Color of the attachment menu icon (dark mode) <br>`dark_text` - Color of the attachment menu label, once selected (dark mode)|
 |color|[int](/API_docs/types/int.html) | Yes|Color in RGB24 format|
 
 

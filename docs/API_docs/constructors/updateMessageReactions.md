@@ -18,7 +18,7 @@ New [message reactions »](https://core.telegram.org/api/reactions) are availabl
 |peer|[long](/API_docs/types/long.html) | Yes|Peer|
 |msg\_id|[int](/API_docs/types/int.html) | Yes|Message ID|
 |top\_msg\_id|[int](/API_docs/types/int.html) | Optional|[Forum topic ID](https://core.telegram.org/api/forum#forum-topics)|
-|saved\_peer\_id|[Peer](/API_docs/types/Peer.html) | Optional|
+|saved\_peer\_id|[Peer](/API_docs/types/Peer.html) | Optional|If set, the reactions are in the specified [monoforum topic »](https://core.telegram.org/api/monoforum).|
 |reactions|[MessageReactions](/API_docs/types/MessageReactions.html) | Yes|Reactions|
 
 

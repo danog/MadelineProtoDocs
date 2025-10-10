@@ -1,6 +1,6 @@
 ---
 title: "contacts.sponsoredPeersEmpty"
-description: "contacts.sponsoredPeersEmpty attributes, type and example"
+description: "There are no sponsored peers for this query."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/contacts_sponsoredPeersEmpty.html
@@ -9,6 +9,8 @@ redirect_from: /API_docs/constructors/contacts_sponsoredPeersEmpty.html
 [Back to constructors index](/API_docs/constructors/index.html)
 
 
+
+There are no sponsored peers for this query.
 
 
 

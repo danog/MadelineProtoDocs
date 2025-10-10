@@ -1,6 +1,6 @@
 ---
 title: "channels.searchPosts"
-description: "Globally search for posts from public [channels »](https://core.telegram.org/api/channel) (*including* those we aren't a member of) containing a specific hashtag."
+description: "Globally search for posts from public [channels »](https://core.telegram.org/api/channel) (*including* those we aren't a member of) containing either a specific hashtag, *or* a full text query."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,19 +11,21 @@ redirect_from: /API_docs/methods/channels_searchPosts.html
 
 
 
-Globally search for posts from public [channels »](https://core.telegram.org/api/channel) (*including* those we aren't a member of) containing a specific hashtag.
+Globally search for posts from public [channels »](https://core.telegram.org/api/channel) (*including* those we aren't a member of) containing either a specific hashtag, *or* a full text query.
+
+Exactly one of `query` and `hashtag` must be set.
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |hashtag|[string](/API_docs/types/string.html) | The hashtag to search, without the `#` character. | Optional|
-|query|[string](/API_docs/types/string.html) |  | Optional|
-|offset\_rate|[int](/API_docs/types/int.html) | Initially 0, then set to the [`next_rate` parameter of messages.messagesSlice](../constructors/messages.messagesSlice.html) | Optional|
+|query|[string](/API_docs/types/string.html) | The full text query: each user has a limited amount of free full text search slots, after which payment is required, see [here »](https://core.telegram.org/api/search#posts-tab) for more info on the full flow. | Optional|
+|offset\_rate|[int](/API_docs/types/int.html) | Initially 0, then set to the [`next_rate` parameter of messages.messagesSlice](../constructors/messages.messagesSlice.html), or if that is absent, the `date` of the last returned message. | Optional|
 |offset\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
 |offset\_id|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
 |limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
-|allow\_paid\_stars|[long](/API_docs/types/long.html) |  | Optional|
+|allow\_paid\_stars|[long](/API_docs/types/long.html) | For full text post searches (`query`), allows payment of the specified amount of Stars for the search, see [here »](https://core.telegram.org/api/search#posts-tab) for more info on the full flow. | Optional|
 
 
 ### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)

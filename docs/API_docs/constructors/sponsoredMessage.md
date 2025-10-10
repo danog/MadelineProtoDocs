@@ -29,8 +29,8 @@ A [sponsored message](https://core.telegram.org/api/sponsored-messages).
 |button\_text|[string](/API_docs/types/string.html) | Yes|Label of the sponsored message button.|
 |sponsor\_info|[string](/API_docs/types/string.html) | Optional|If set, contains additional information about the sponsor to be shown along with the message.|
 |additional\_info|[string](/API_docs/types/string.html) | Optional|If set, contains additional information about the sponsored message to be shown along with the message.|
-|min\_display\_duration|[int](/API_docs/types/int.html) | Optional|
-|max\_display\_duration|[int](/API_docs/types/int.html) | Optional|
+|min\_display\_duration|[int](/API_docs/types/int.html) | Optional|For [sponsored messages to show on channel videos »](https://core.telegram.org/api/sponsored-messages#getting-sponsored-video-advertisements), allow the user to hide the ad only after the specified amount of seconds.|
+|max\_display\_duration|[int](/API_docs/types/int.html) | Optional|For [sponsored messages to show on channel videos »](https://core.telegram.org/api/sponsored-messages#getting-sponsored-video-advertisements), autohide the ad after after the specified amount of seconds.|
 
 
 

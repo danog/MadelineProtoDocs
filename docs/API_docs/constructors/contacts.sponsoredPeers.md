@@ -1,6 +1,6 @@
 ---
 title: "contacts.sponsoredPeers"
-description: "contacts.sponsoredPeers attributes, type and example"
+description: "Sponsored peers."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/contacts_sponsoredPeers.html
@@ -10,13 +10,15 @@ redirect_from: /API_docs/constructors/contacts_sponsoredPeers.html
 
 
 
+Sponsored peers.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peers|Array of [SponsoredPeer](/API_docs/types/SponsoredPeer.html) | Yes|
-|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
-|users|Array of [User](/API_docs/types/User.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peers|Array of [SponsoredPeer](/API_docs/types/SponsoredPeer.html) | Yes|Sponsored peers.|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Info about sponsored chats and channels|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Info about sponsored users|
 
 
 

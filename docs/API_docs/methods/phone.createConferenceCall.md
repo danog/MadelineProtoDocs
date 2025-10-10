@@ -1,6 +1,6 @@
 ---
 title: "phone.createConferenceCall"
-description: "phone.createConferenceCall parameters, return type and example"
+description: "Create and optionally join a new conference call."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,16 +11,18 @@ redirect_from: /API_docs/methods/phone_createConferenceCall.html
 
 
 
+Create and optionally join a new conference call.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|muted|[Bool](/API_docs/types/Bool.html) | Optional|
-|video\_stopped|[Bool](/API_docs/types/Bool.html) | Optional|
-|join|[Bool](/API_docs/types/Bool.html) | Optional|
-|public\_key|[int256](/API_docs/types/int256.html) | Optional|
-|block|[bytes](/API_docs/types/bytes.html) | Optional|
-|params|[DataJSON](/API_docs/types/DataJSON.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|muted|[Bool](/API_docs/types/Bool.html) | If set, mute our microphone when joining the call (can only be used if `join` is set). | Optional|
+|video\_stopped|[Bool](/API_docs/types/Bool.html) | If set, our video stream is disabled (can only be used if `join` is set). | Optional|
+|join|[Bool](/API_docs/types/Bool.html) | If set, also join the call, otherwise just create the call link. | Optional|
+|public\_key|[int256](/API_docs/types/int256.html) | Public key (can only be used if `join` is set). | Optional|
+|block|[bytes](/API_docs/types/bytes.html) | Initial blockchain block (can only be used if `join` is set). | Optional|
+|params|[DataJSON](/API_docs/types/DataJSON.html) | Parameters from tgcalls (can only be used if `join` is set). | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

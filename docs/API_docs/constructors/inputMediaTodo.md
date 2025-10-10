@@ -1,6 +1,6 @@
 ---
 title: "inputMediaTodo"
-description: "inputMediaTodo attributes, type and example"
+description: "Creates a todo list »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Creates a [todo list »](https://core.telegram.org/api/todo).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|todo|[TodoList](/API_docs/types/TodoList.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|todo|[TodoList](/API_docs/types/TodoList.html) | Yes|The todo list.|
 
 
 

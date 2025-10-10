@@ -1,6 +1,6 @@
 ---
 title: "businessBotRights"
-description: "businessBotRights attributes, type and example"
+description: "Business bot rights."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,24 +9,26 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+[Business bot rights](https://core.telegram.org/api/bots/connected-business-bots).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|reply|[Bool](/API_docs/types/Bool.html) | Optional|
-|read\_messages|[Bool](/API_docs/types/Bool.html) | Optional|
-|delete\_sent\_messages|[Bool](/API_docs/types/Bool.html) | Optional|
-|delete\_received\_messages|[Bool](/API_docs/types/Bool.html) | Optional|
-|edit\_name|[Bool](/API_docs/types/Bool.html) | Optional|
-|edit\_bio|[Bool](/API_docs/types/Bool.html) | Optional|
-|edit\_profile\_photo|[Bool](/API_docs/types/Bool.html) | Optional|
-|edit\_username|[Bool](/API_docs/types/Bool.html) | Optional|
-|view\_gifts|[Bool](/API_docs/types/Bool.html) | Optional|
-|sell\_gifts|[Bool](/API_docs/types/Bool.html) | Optional|
-|change\_gift\_settings|[Bool](/API_docs/types/Bool.html) | Optional|
-|transfer\_and\_upgrade\_gifts|[Bool](/API_docs/types/Bool.html) | Optional|
-|transfer\_stars|[Bool](/API_docs/types/Bool.html) | Optional|
-|manage\_stories|[Bool](/API_docs/types/Bool.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|reply|[Bool](/API_docs/types/Bool.html) | Optional|Whether the bot can send and edit messages in private chats that had incoming messages in the last 24 hours.|
+|read\_messages|[Bool](/API_docs/types/Bool.html) | Optional|Whether the bot can mark incoming private messages as read.|
+|delete\_sent\_messages|[Bool](/API_docs/types/Bool.html) | Optional|Whether the bot can delete messages sent by the bot.|
+|delete\_received\_messages|[Bool](/API_docs/types/Bool.html) | Optional|Whether the bot can delete received private messages in managed chats.|
+|edit\_name|[Bool](/API_docs/types/Bool.html) | Optional|Whether the bot can edit the first and last name of the business account.|
+|edit\_bio|[Bool](/API_docs/types/Bool.html) | Optional|Whether the bot can edit the bio of the business account.|
+|edit\_profile\_photo|[Bool](/API_docs/types/Bool.html) | Optional|Whether the bot can edit the profile photo of the business account.|
+|edit\_username|[Bool](/API_docs/types/Bool.html) | Optional|Whether the bot can edit the username of the business account.|
+|view\_gifts|[Bool](/API_docs/types/Bool.html) | Optional|Whether the bot can view gifts and the amount of Telegram Stars owned by the business account.|
+|sell\_gifts|[Bool](/API_docs/types/Bool.html) | Optional|Whether the bot can convert regular gifts owned by the business account to Telegram Stars.|
+|change\_gift\_settings|[Bool](/API_docs/types/Bool.html) | Optional|Whether the bot can change the privacy settings pertaining to gifts for the business account.|
+|transfer\_and\_upgrade\_gifts|[Bool](/API_docs/types/Bool.html) | Optional|Whether the bot can transfer and upgrade gifts owned by the business account.|
+|transfer\_stars|[Bool](/API_docs/types/Bool.html) | Optional|Whether the bot can transfer Telegram Stars received by the business account to its own account, or use them to upgrade and transfer gifts.|
+|manage\_stories|[Bool](/API_docs/types/Bool.html) | Optional|Whether the bot can post, edit and delete stories on behalf of the business account.|
 
 
 

@@ -18,7 +18,7 @@ Document attached to a message in a secret chat.
 |thumb|[bytes](/API_docs/types/bytes.html) | Yes|Thumbnail-file contents (JPEG-file, quality 55, set in a 90x90 square)|
 |thumb\_w|[int](/API_docs/types/int.html) | Yes|Thumbnail width|
 |thumb\_h|[int](/API_docs/types/int.html) | Yes|Thumbnail height|
-|file\_name|[string](/API_docs/types/string.html) | Yes|
+|file\_name|[string](/API_docs/types/string.html) | Yes|File name, moved to `attributes` in Layer 45.|
 |mime\_type|[string](/API_docs/types/string.html) | Yes|File MIME-type|
 |size|[int](/API_docs/types/int.html) | Yes|
 

@@ -1,6 +1,6 @@
 ---
 title: "payments.checkCanSendGift"
-description: "payments.checkCanSendGift parameters, return type and example"
+description: "Check if the specified [gift »](https://core.telegram.org/api/gifts) can be sent."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/payments_checkCanSendGift.html
 
 
 
+Check if the specified [gift »](https://core.telegram.org/api/gifts) can be sent.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|gift\_id|[long](/API_docs/types/long.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|gift\_id|[long](/API_docs/types/long.html) | Gift ID. | Yes|
 
 
 ### Return type: [payments.CheckCanSendGiftResult](/API_docs/types/payments.CheckCanSendGiftResult.html)

@@ -21,7 +21,7 @@ Poll
 |multiple\_choice|[Bool](/API_docs/types/Bool.html) | Optional|Whether multiple options can be chosen as answer|
 |quiz|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a quiz (with wrong and correct answers, results shown in the return type)|
 |question|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Yes|The question of the poll (only [Premium](https://core.telegram.org/api/premium) users can use [custom emoji entities](https://core.telegram.org/api/custom-emoji) here).|
-|answers|Array of [PollAnswer](/API_docs/types/PollAnswer.html) | Yes|The possible answers, vote using [messages.sendVote](../methods/messages.sendVote.html).|
+|answers|Array of [PollAnswer](/API_docs/types/PollAnswer.html) | Yes|The possible answers (2-[poll\_answers\_max](https://core.telegram.org/api/config#poll-answers-max)), vote using [messages.sendVote](../methods/messages.sendVote.html).|
 |close\_period|[int](/API_docs/types/int.html) | Optional|Amount of time in seconds the poll will be active after creation, 5-600. Can't be used together with close\_date.|
 |close\_date|[int](/API_docs/types/int.html) | Optional|Point in time (Unix timestamp) when the poll will be automatically closed. Must be at least 5 and no more than 600 seconds in the future; can't be used together with close\_period.|
 

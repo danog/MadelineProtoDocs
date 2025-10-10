@@ -19,7 +19,7 @@ Enable or disable [forum functionality](https://core.telegram.org/api/forum) in 
 |----------|---------------|-------------|----------|
 |channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Supergroup ID | Optional|
 |enabled|[Bool](/API_docs/types/Bool.html) | Enable or disable forum functionality | Yes|
-|tabs|[Bool](/API_docs/types/Bool.html) |  | Yes|
+|tabs|[Bool](/API_docs/types/Bool.html) | If true enables the tabbed forum UI, otherwise enables the list-based forum UI. | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

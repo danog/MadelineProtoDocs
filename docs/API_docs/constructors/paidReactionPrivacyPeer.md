@@ -1,6 +1,6 @@
 ---
 title: "paidReactionPrivacyPeer"
-description: "paidReactionPrivacyPeer attributes, type and example"
+description: "Send paid reactions as the specified peer, fetched using channels.getSendAs."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Send paid reactions as the specified peer, fetched using [channels.getSendAs](../methods/channels.getSendAs.html).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[InputPeer](/API_docs/types/InputPeer.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer|[InputPeer](/API_docs/types/InputPeer.html) | Optional|The peer to send reactions as.|
 
 
 

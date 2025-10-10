@@ -1,6 +1,6 @@
 ---
 title: "stories.createAlbum"
-description: "stories.createAlbum parameters, return type and example"
+description: "Creates a [story album](https://core.telegram.org/api/stories#story-albums)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/stories_createAlbum.html
 
 
 
+Creates a [story album](https://core.telegram.org/api/stories#story-albums).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|title|[string](/API_docs/types/string.html) | Optional|
-|stories|Array of [int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The owned peer where to create the album. | Optional|
+|title|[string](/API_docs/types/string.html) | Album name. | Optional|
+|stories|Array of [int](/API_docs/types/int.html) | Stories to add to the album. | Yes|
 
 
 ### Return type: [StoryAlbum](/API_docs/types/StoryAlbum.html)

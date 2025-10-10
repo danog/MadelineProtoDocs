@@ -1,6 +1,6 @@
 ---
 title: "starGiftAttributeOriginalDetails"
-description: "starGiftAttributeOriginalDetails attributes, type and example"
+description: "Info about the sender, receiver and message attached to the original gift », before it was upgraded to a collectible gift »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,14 +9,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Info about the sender, receiver and message attached to the original [gift »](https://core.telegram.org/api/gifts), before it was upgraded to a [collectible gift »](https://core.telegram.org/api/gifts#collectible-gifts).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|sender\_id|[Peer](/API_docs/types/Peer.html) | Optional|
-|recipient\_id|[Peer](/API_docs/types/Peer.html) | Yes|
-|date|[int](/API_docs/types/int.html) | Yes|
-|message|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|sender\_id|[Peer](/API_docs/types/Peer.html) | Optional|Original sender of the gift, absent if the gift was private.|
+|recipient\_id|[Peer](/API_docs/types/Peer.html) | Yes|Original receiver of the gift.|
+|date|[int](/API_docs/types/int.html) | Yes|When was the gift sent.|
+|message|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Optional|Original message attached to the gift, if present.|
 
 
 

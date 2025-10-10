@@ -1,6 +1,6 @@
 ---
 title: "account.getCollectibleEmojiStatuses"
-description: "account.getCollectibleEmojiStatuses parameters, return type and example"
+description: "Obtain a list of [emoji statuses »](https://core.telegram.org/api/emoji-status) for owned [collectible gifts](https://core.telegram.org/api/gifts#collectible-gifts)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/account_getCollectibleEmojiStatuses.html
 
 
 
+Obtain a list of [emoji statuses »](https://core.telegram.org/api/emoji-status) for owned [collectible gifts](https://core.telegram.org/api/gifts#collectible-gifts).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|hash|Array of [long\|string](/API_docs/types/long\|string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | [Hash for pagination](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [account.EmojiStatuses](/API_docs/types/account.EmojiStatuses.html)

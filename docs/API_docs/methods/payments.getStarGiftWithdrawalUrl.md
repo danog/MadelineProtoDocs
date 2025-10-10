@@ -1,6 +1,6 @@
 ---
 title: "payments.getStarGiftWithdrawalUrl"
-description: "payments.getStarGiftWithdrawalUrl parameters, return type and example"
+description: "Convert a [collectible gift »](https://core.telegram.org/api/gifts) to an NFT on the TON blockchain."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/payments_getStarGiftWithdrawalUrl.html
 
 
 
+Convert a [collectible gift »](https://core.telegram.org/api/gifts) to an NFT on the TON blockchain.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|stargift|[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) | Yes|
-|password|[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|stargift|[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) | The collectible gift to export. | Yes|
+|password|[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html) | The current user's 2FA password, passed as [specified here »](https://core.telegram.org/api/srp). | Yes|
 
 
 ### Return type: [payments.StarGiftWithdrawalUrl](/API_docs/types/payments.StarGiftWithdrawalUrl.html)

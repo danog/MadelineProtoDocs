@@ -1,6 +1,6 @@
 ---
 title: "suggestedPost"
-description: "suggestedPost attributes, type and example"
+description: "Contains info about a suggested post »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,14 +9,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Contains info about a [suggested post »](https://core.telegram.org/api/suggested-posts).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|accepted|[Bool](/API_docs/types/Bool.html) | Optional|
-|rejected|[Bool](/API_docs/types/Bool.html) | Optional|
-|price|[StarsAmount](/API_docs/types/StarsAmount.html) | Optional|
-|schedule\_date|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|accepted|[Bool](/API_docs/types/Bool.html) | Optional|Whether the suggested post was accepted.|
+|rejected|[Bool](/API_docs/types/Bool.html) | Optional|Whether the suggested post was rejected.|
+|price|[StarsAmount](/API_docs/types/StarsAmount.html) | Optional|Price of the suggested post.|
+|schedule\_date|[int](/API_docs/types/int.html) | Optional|Scheduling date.|
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "phone.inviteConferenceCallParticipant"
-description: "phone.inviteConferenceCallParticipant parameters, return type and example"
+description: "Invite a user to a conference call."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,13 +11,15 @@ redirect_from: /API_docs/methods/phone_inviteConferenceCallParticipant.html
 
 
 
+Invite a user to a conference call.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|video|[Bool](/API_docs/types/Bool.html) | Optional|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
-|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|video|[Bool](/API_docs/types/Bool.html) | Invite the user to also turn on their video feed. | Optional|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | The conference call. | Yes|
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The user to invite. | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

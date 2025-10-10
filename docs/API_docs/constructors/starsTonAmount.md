@@ -1,6 +1,6 @@
 ---
 title: "starsTonAmount"
-description: "starsTonAmount attributes, type and example"
+description: "Describes an amount of toncoin in nanotons (i.e. 1/1_000_000_000 of a toncoin)."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Describes an amount of toncoin in nanotons (i.e. `1/1_000_000_000` of a toncoin).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|amount|[long](/API_docs/types/long.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|amount|[long](/API_docs/types/long.html) | Yes|The amount in nanotons.|
 
 
 

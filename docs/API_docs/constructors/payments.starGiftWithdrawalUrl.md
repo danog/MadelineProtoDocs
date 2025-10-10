@@ -1,6 +1,6 @@
 ---
 title: "payments.starGiftWithdrawalUrl"
-description: "payments.starGiftWithdrawalUrl attributes, type and example"
+description: "A URL that can be used to import the exported NFT on Fragment."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 redirect_from: /API_docs/constructors/payments_starGiftWithdrawalUrl.html
@@ -10,11 +10,13 @@ redirect_from: /API_docs/constructors/payments_starGiftWithdrawalUrl.html
 
 
 
+A URL that can be used to import the exported NFT on Fragment.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|url|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|url|[string](/API_docs/types/string.html) | Yes|The URL to open.|
 
 
 

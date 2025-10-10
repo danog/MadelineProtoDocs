@@ -1,24 +1,22 @@
 ---
-title: "channels.deleteTopicHistory"
-description: "Delete message history of a [forum topic](https://core.telegram.org/api/forum)"
+title: "messages.deleteTopicHistory"
+description: "messages.deleteTopicHistory parameters, return type and example"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
-redirect_from: /API_docs/methods/channels_deleteTopicHistory.html
+redirect_from: /API_docs/methods/messages_deleteTopicHistory.html
 ---
-# Method: channels.deleteTopicHistory
+# Method: messages.deleteTopicHistory
 [Back to methods index](index.html)
 
 
 
-Delete message history of a [forum topic](https://core.telegram.org/api/forum)
-
 ### Parameters:
 
-| Name     |    Type       | Description | Required |
-|----------|---------------|-------------|----------|
-|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Forum | Optional|
-|top\_msg\_id|[int](/API_docs/types/int.html) | Topic ID | Optional|
+| Name     |    Type       | Required |
+|----------|---------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+|top\_msg\_id|[int](/API_docs/types/int.html) | Optional|
 
 
 ### Return type: [messages.AffectedHistory](/API_docs/types/messages.AffectedHistory.html)
@@ -44,6 +42,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_AffectedHistory = $MadelineProto->channels->deleteTopicHistory(channel: $InputChannel, top_msg_id: $int, );
+$messages_AffectedHistory = $MadelineProto->messages->deleteTopicHistory(peer: $InputPeer, top_msg_id: $int, );
 ```
 

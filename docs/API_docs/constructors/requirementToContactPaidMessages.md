@@ -1,6 +1,6 @@
 ---
 title: "requirementToContactPaidMessages"
-description: "requirementToContactPaidMessages attributes, type and example"
+description: "This user requires us to pay the specified amount of Telegram Stars to send them a message, see here » for the full flow."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+This user requires us to pay the specified amount of [Telegram Stars](https://core.telegram.org/api/stars) to send them a message, see [here »](https://core.telegram.org/api/paid-messages) for the full flow.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|stars\_amount|[long](/API_docs/types/long.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|stars\_amount|[long](/API_docs/types/long.html) | Yes|The required amount of [Telegram Stars](https://core.telegram.org/api/stars).|
 
 
 

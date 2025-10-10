@@ -1,6 +1,6 @@
 ---
 title: "payments.getStarGiftUpgradePreview"
-description: "payments.getStarGiftUpgradePreview parameters, return type and example"
+description: "Obtain a preview of the possible attributes (chosen randomly) a [gift »](https://core.telegram.org/api/gifts) can receive after upgrading it to a [collectible gift »](https://core.telegram.org/api/gifts#collectible-gifts), see [here »](https://core.telegram.org/api/gifts#collectible-gifts) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/payments_getStarGiftUpgradePreview.html
 
 
 
+Obtain a preview of the possible attributes (chosen randomly) a [gift »](https://core.telegram.org/api/gifts) can receive after upgrading it to a [collectible gift »](https://core.telegram.org/api/gifts#collectible-gifts), see [here »](https://core.telegram.org/api/gifts#collectible-gifts) for more info.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|gift\_id|[long](/API_docs/types/long.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|gift\_id|[long](/API_docs/types/long.html) | The gift to upgrade. | Yes|
 
 
 ### Return type: [payments.StarGiftUpgradePreview](/API_docs/types/payments.StarGiftUpgradePreview.html)

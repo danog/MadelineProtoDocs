@@ -17,7 +17,7 @@ Defines a photo for further interaction.
 |----------|---------------|----------|-------------|
 |id|[long](/API_docs/types/long.html) | Yes|Photo identifier|
 |access\_hash|[long](/API_docs/types/long.html) | Yes|**access\_hash** value from the [photo](../constructors/photo.html) constructor|
-|file\_reference|[bytes](/API_docs/types/bytes.html) | Yes|[File reference](https://core.telegram.org/api/file_reference)|
+|file\_reference|[bytes](/API_docs/types/bytes.html) | Yes|[File reference](https://core.telegram.org/api/file-references)|
 
 
 

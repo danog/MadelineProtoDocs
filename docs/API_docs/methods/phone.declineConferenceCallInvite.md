@@ -1,6 +1,6 @@
 ---
 title: "phone.declineConferenceCallInvite"
-description: "phone.declineConferenceCallInvite parameters, return type and example"
+description: "Declines a conference call invite."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/phone_declineConferenceCallInvite.html
 
 
 
+Declines a conference call invite.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|msg\_id|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|msg\_id|[int](/API_docs/types/int.html) | The ID of the [messageActionConferenceCall](../constructors/messageActionConferenceCall.html) to decline. | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

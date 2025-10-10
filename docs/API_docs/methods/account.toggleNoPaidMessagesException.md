@@ -1,6 +1,6 @@
 ---
 title: "account.toggleNoPaidMessagesException"
-description: "account.toggleNoPaidMessagesException parameters, return type and example"
+description: "Allow a user to send us messages without paying if [paid messages »](https://core.telegram.org/api/paid-messages) are enabled."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,16 @@ redirect_from: /API_docs/methods/account_toggleNoPaidMessagesException.html
 
 
 
+Allow a user to send us messages without paying if [paid messages »](https://core.telegram.org/api/paid-messages) are enabled.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|refund\_charged|[Bool](/API_docs/types/Bool.html) | Optional|
-|require\_payment|[Bool](/API_docs/types/Bool.html) | Optional|
-|parent\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|refund\_charged|[Bool](/API_docs/types/Bool.html) | If set and `require_payment` is not set, refunds the amounts the user has already paid us to send us messages (directly or via a monoforum). | Optional|
+|require\_payment|[Bool](/API_docs/types/Bool.html) | If set, requires the user to pay in order to send us messages. <br>Can only be **set** by monoforums, not users, i.e. `parent_peer` must be set if this flag is set; users must instead use the [inputPrivacyKeyNoPaidMessages](../constructors/inputPrivacyKeyNoPaidMessages.html) privacy setting to remove a previously added exemption. <br>If not set, allows the user to send us messages without paying (can be **unset** by both monoforums and users). | Optional|
+|parent\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | If set, applies the setting within the [monoforum aka direct messages »](https://core.telegram.org/api/monoforum) (pass the ID of the monoforum, **not** the ID of the associated channel). | Optional|
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | The user to exempt or unexempt. | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

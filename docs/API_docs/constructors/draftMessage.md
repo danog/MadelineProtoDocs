@@ -24,7 +24,7 @@ Represents a message [draft](https://core.telegram.org/api/drafts).
 |media|[InputMedia](/API_docs/types/InputMedia.html) | Optional|Media.|
 |date|[int](/API_docs/types/int.html) | Yes|Date of last update of the draft.|
 |effect|[long](/API_docs/types/long.html) | Optional|A [message effect that should be played as specified here »](https://core.telegram.org/api/effects).|
-|suggested\_post|[SuggestedPost](/API_docs/types/SuggestedPost.html) | Optional|
+|suggested\_post|[SuggestedPost](/API_docs/types/SuggestedPost.html) | Optional|Used to [suggest a post to a channel, see here »](https://core.telegram.org/api/suggested-posts) for more info on the full flow.|
 
 
 

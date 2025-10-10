@@ -1,6 +1,6 @@
 ---
 title: "payments.getStarsRevenueWithdrawalUrl"
-description: "Withdraw funds from a channel or bot's [star balance »](https://core.telegram.org/api/stars#withdrawing-stars)."
+description: "Withdraw funds from a channel or bot's [star balance »](https://core.telegram.org/api/stars#withdrawing-revenue)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,15 +11,15 @@ redirect_from: /API_docs/methods/payments_getStarsRevenueWithdrawalUrl.html
 
 
 
-Withdraw funds from a channel or bot's [star balance »](https://core.telegram.org/api/stars#withdrawing-stars).
+Withdraw funds from a channel or bot's [star balance »](https://core.telegram.org/api/stars#withdrawing-revenue).
 
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
-|ton|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|ton|[Bool](/API_docs/types/Bool.html) | If set, withdraws channel/ad revenue in TON. | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Channel or bot from which to withdraw funds. | Optional|
-|amount|[long](/API_docs/types/long.html) |  | Optional|
+|amount|[long](/API_docs/types/long.html) | The amount of stars or nanotons to withdraw. | Optional|
 |password|[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html) | 2FA password, see [here »](https://core.telegram.org/api/srp#using-the-2fa-password) for more info. | Yes|
 
 

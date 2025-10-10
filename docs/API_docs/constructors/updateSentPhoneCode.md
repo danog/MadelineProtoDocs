@@ -1,6 +1,6 @@
 ---
 title: "updateSentPhoneCode"
-description: "updateSentPhoneCode attributes, type and example"
+description: "A paid login SMS code was successfully sent."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A paid login SMS code was successfully sent.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|sent\_code|[auth.SentCode](/API_docs/constructors/auth.SentCode.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|sent\_code|[auth.SentCode](/API_docs/constructors/auth.SentCode.html) | Yes|Info about the sent code.|
 
 
 

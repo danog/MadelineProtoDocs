@@ -13,6 +13,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [peerColor](/API_docs/constructors/peerColor.html)  
 
+[peerColorCollectible](/API_docs/constructors/peerColorCollectible.html)  
+
+[inputPeerColorCollectible](/API_docs/constructors/inputPeerColorCollectible.html)  
+
 
 
 ### Methods that return an object of this type (methods):

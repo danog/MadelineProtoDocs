@@ -1,6 +1,6 @@
 ---
 title: "payments.toggleChatStarGiftNotifications"
-description: "payments.toggleChatStarGiftNotifications parameters, return type and example"
+description: "Enables or disables the reception of notifications every time a [gift »](https://core.telegram.org/api/gifts) is received by the specified channel, can only be invoked by admins with `post_messages` [admin rights](../constructors/chatAdminRights.html)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/payments_toggleChatStarGiftNotifications.html
 
 
 
+Enables or disables the reception of notifications every time a [gift »](https://core.telegram.org/api/gifts) is received by the specified channel, can only be invoked by admins with `post_messages` [admin rights](../constructors/chatAdminRights.html).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|enabled|[Bool](/API_docs/types/Bool.html) | Optional|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|enabled|[Bool](/API_docs/types/Bool.html) | Whether to enable or disable reception of notifications in the form of [messageActionStarGiftUnique](../constructors/messageActionStarGiftUnique.html) and [messageActionStarGift](../constructors/messageActionStarGift.html) service messages from the channel. | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The channel for which to receive or not receive notifications. | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

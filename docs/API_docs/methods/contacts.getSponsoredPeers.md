@@ -1,6 +1,6 @@
 ---
 title: "contacts.getSponsoredPeers"
-description: "contacts.getSponsoredPeers parameters, return type and example"
+description: "Obtain a list of sponsored peer search results for a given query"
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,13 @@ redirect_from: /API_docs/methods/contacts_getSponsoredPeers.html
 
 
 
+Obtain a list of sponsored peer search results for a given query
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|q|[string](/API_docs/types/string.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|q|[string](/API_docs/types/string.html) | The query | Optional|
 
 
 ### Return type: [contacts.SponsoredPeers](/API_docs/types/contacts.SponsoredPeers.html)

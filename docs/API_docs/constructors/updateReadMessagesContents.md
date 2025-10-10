@@ -1,6 +1,6 @@
 ---
 title: "updateReadMessagesContents"
-description: "Contents of messages in the common message box were read"
+description: "Contents of messages in the common message box were read (emitted specifically for messages like voice messages or video, only once the media is watched and marked as read using messages.readMessageContents)."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,7 +9,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
-Contents of messages in the common [message box](https://core.telegram.org/api/updates) were read
+Contents of messages in the common [message box](https://core.telegram.org/api/updates) were read (emitted specifically for messages like voice messages or video, only once the media is watched and marked as read using [messages.readMessageContents](../methods/messages.readMessageContents.html)).
 
 ### Attributes:
 

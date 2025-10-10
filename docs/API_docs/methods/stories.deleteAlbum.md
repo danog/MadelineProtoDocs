@@ -1,6 +1,6 @@
 ---
 title: "stories.deleteAlbum"
-description: "stories.deleteAlbum parameters, return type and example"
+description: "Delete a [story album](https://core.telegram.org/api/stories#story-albums)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/stories_deleteAlbum.html
 
 
 
+Delete a [story album](https://core.telegram.org/api/stories#story-albums).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|album\_id|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Owned peer where the album is located. | Optional|
+|album\_id|[int](/API_docs/types/int.html) | ID of the album to delete. | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

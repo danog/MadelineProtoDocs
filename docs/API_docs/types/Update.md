@@ -225,10 +225,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateMessageExtendedMedia](/API_docs/constructors/updateMessageExtendedMedia.html)  
 
-[updateChannelPinnedTopic](/API_docs/constructors/updateChannelPinnedTopic.html)  
-
-[updateChannelPinnedTopics](/API_docs/constructors/updateChannelPinnedTopics.html)  
-
 [updateUser](/API_docs/constructors/updateUser.html)  
 
 [updateAutoSaveSettings](/API_docs/constructors/updateAutoSaveSettings.html)  
@@ -300,6 +296,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [updateReadMonoForumOutbox](/API_docs/constructors/updateReadMonoForumOutbox.html)  
 
 [updateMonoForumNoPaidException](/API_docs/constructors/updateMonoForumNoPaidException.html)  
+
+[updateGroupCallMessage](/API_docs/constructors/updateGroupCallMessage.html)  
+
+[updateGroupCallEncryptedMessage](/API_docs/constructors/updateGroupCallEncryptedMessage.html)  
+
+[updatePinnedForumTopic](/API_docs/constructors/updatePinnedForumTopic.html)  
+
+[updatePinnedForumTopics](/API_docs/constructors/updatePinnedForumTopics.html)  
 
 
 

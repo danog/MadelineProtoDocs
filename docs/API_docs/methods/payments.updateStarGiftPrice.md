@@ -1,6 +1,6 @@
 ---
 title: "payments.updateStarGiftPrice"
-description: "payments.updateStarGiftPrice parameters, return type and example"
+description: "A [collectible gift we own »](https://core.telegram.org/api/gifts#collectible-gifts) can be put up for sale on the [gift marketplace »](https://telegram.org/blog/gift-marketplace-and-more) with this method, see [here »](https://core.telegram.org/api/gifts#reselling-collectible-gifts) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,12 +11,14 @@ redirect_from: /API_docs/methods/payments_updateStarGiftPrice.html
 
 
 
+A [collectible gift we own »](https://core.telegram.org/api/gifts#collectible-gifts) can be put up for sale on the [gift marketplace »](https://telegram.org/blog/gift-marketplace-and-more) with this method, see [here »](https://core.telegram.org/api/gifts#reselling-collectible-gifts) for more info.
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|stargift|[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) | Yes|
-|resell\_amount|[StarsAmount](/API_docs/types/StarsAmount.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|stargift|[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) | The gift to resell. | Yes|
+|resell\_amount|[StarsAmount](/API_docs/types/StarsAmount.html) | Resale price of the gift. | Yes|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

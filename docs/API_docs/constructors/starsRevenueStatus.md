@@ -15,7 +15,7 @@ Describes [Telegram Star revenue balances »](https://core.telegram.org/api/star
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|withdrawal\_enabled|[Bool](/API_docs/types/Bool.html) | Optional|If set, the user may [withdraw](https://core.telegram.org/api/stars#withdrawing-stars) up to `available_balance` stars.|
+|withdrawal\_enabled|[Bool](/API_docs/types/Bool.html) | Optional|If set, the user may [withdraw](https://core.telegram.org/api/stars#withdrawing-revenue) up to `available_balance` stars.|
 |current\_balance|[StarsAmount](/API_docs/types/StarsAmount.html) | Yes|Amount of not-yet-withdrawn Telegram Stars.|
 |available\_balance|[StarsAmount](/API_docs/types/StarsAmount.html) | Yes|Amount of withdrawable Telegram Stars.|
 |overall\_revenue|[StarsAmount](/API_docs/types/StarsAmount.html) | Yes|Total amount of earned Telegram Stars.|

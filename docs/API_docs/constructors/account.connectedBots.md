@@ -10,7 +10,7 @@ redirect_from: /API_docs/constructors/account_connectedBots.html
 
 
 
-Info about currently connected [business bots](https://core.telegram.org/api/business#connected-bots).
+Info about currently connected [business bots](https://core.telegram.org/api/bots/connected-business-bots).
 
 ### Attributes:
 

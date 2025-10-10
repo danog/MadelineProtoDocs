@@ -1,6 +1,6 @@
 ---
 title: "monoForumDialog"
-description: "monoForumDialog attributes, type and example"
+description: "Represents a monoforum topic »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,19 +9,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents a [monoforum topic »](https://core.telegram.org/api/monoforum).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|unread\_mark|[Bool](/API_docs/types/Bool.html) | Optional|
-|nopaid\_messages\_exception|[Bool](/API_docs/types/Bool.html) | Optional|
-|peer|[long](/API_docs/types/long.html) | Yes|
-|top\_message|[int](/API_docs/types/int.html) | Yes|
-|read\_inbox\_max\_id|[int](/API_docs/types/int.html) | Yes|
-|read\_outbox\_max\_id|[int](/API_docs/types/int.html) | Yes|
-|unread\_count|[int](/API_docs/types/int.html) | Yes|
-|unread\_reactions\_count|[int](/API_docs/types/int.html) | Yes|
-|draft|[DraftMessage](/API_docs/types/DraftMessage.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|unread\_mark|[Bool](/API_docs/types/Bool.html) | Optional|Whether this topic has a manually set (with [messages.markDialogUnread](../methods/messages.markDialogUnread.html)) unread mark.|
+|nopaid\_messages\_exception|[Bool](/API_docs/types/Bool.html) | Optional|If set, an admin has exempted this peer from payment to send messages using [account.toggleNoPaidMessagesException](../methods/account.toggleNoPaidMessagesException.html).|
+|peer|[long](/API_docs/types/long.html) | Yes|The peer associated to the topic, AKA the topic ID.|
+|top\_message|[int](/API_docs/types/int.html) | Yes|The latest message ID|
+|read\_inbox\_max\_id|[int](/API_docs/types/int.html) | Yes|Position up to which all incoming messages are read.|
+|read\_outbox\_max\_id|[int](/API_docs/types/int.html) | Yes|Position up to which all outgoing messages are read.|
+|unread\_count|[int](/API_docs/types/int.html) | Yes|Number of unread messages.|
+|unread\_reactions\_count|[int](/API_docs/types/int.html) | Yes|Number of unread reactions.|
+|draft|[DraftMessage](/API_docs/types/DraftMessage.html) | Optional|A pending message [draft](https://core.telegram.org/api/drafts).|
 
 
 

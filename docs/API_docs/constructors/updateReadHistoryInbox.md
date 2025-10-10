@@ -17,6 +17,7 @@ Incoming messages were read
 |----------|---------------|----------|-------------|
 |folder\_id|[int](/API_docs/types/int.html) | Optional|[Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders)|
 |peer|[long](/API_docs/types/long.html) | Yes|Peer|
+|top\_msg\_id|[int](/API_docs/types/int.html) | Optional|
 |max\_id|[int](/API_docs/types/int.html) | Yes|Maximum ID of messages read|
 |still\_unread\_count|[int](/API_docs/types/int.html) | Yes|Number of messages that are still unread|
 |pts|[int](/API_docs/types/int.html) | Yes|[Event count after generation](https://core.telegram.org/api/updates)|
@@ -30,5 +31,5 @@ Incoming messages were read
 ### Example:
 
 ```
-$updateReadHistoryInbox = ['_' => 'updateReadHistoryInbox', 'folder_id' => int, 'peer' => long, 'max_id' => int, 'still_unread_count' => int, 'pts' => int, 'pts_count' => int];
+$updateReadHistoryInbox = ['_' => 'updateReadHistoryInbox', 'folder_id' => int, 'peer' => long, 'top_msg_id' => int, 'max_id' => int, 'still_unread_count' => int, 'pts' => int, 'pts_count' => int];
 ```  

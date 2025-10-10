@@ -1,6 +1,6 @@
 ---
 title: "messageActionTodoAppendTasks"
-description: "messageActionTodoAppendTasks attributes, type and example"
+description: "Items were appended to the todo list »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Items were appended to the [todo list »](https://core.telegram.org/api/todo).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|list|Array of [TodoItem](/API_docs/types/TodoItem.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|list|Array of [TodoItem](/API_docs/types/TodoItem.html) | Yes|Appended items.|
 
 
 

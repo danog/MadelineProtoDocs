@@ -47,6 +47,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [sendMessageEmojiInteractionSeen](/API_docs/constructors/sendMessageEmojiInteractionSeen.html)  
 
+[sendMessageTextDraftAction](/API_docs/constructors/sendMessageTextDraftAction.html)  
+
 [sendMessageUploadVideoAction\_17](/API_docs/constructors/sendMessageUploadVideoAction_17.html)  
 
 [sendMessageUploadAudioAction\_17](/API_docs/constructors/sendMessageUploadAudioAction_17.html)  

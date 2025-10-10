@@ -17,7 +17,7 @@ Notifies a change of a message [draft](https://core.telegram.org/api/drafts).
 |----------|---------------|----------|-------------|
 |peer|[long](/API_docs/types/long.html) | Yes|The peer to which the draft is associated|
 |top\_msg\_id|[int](/API_docs/types/int.html) | Optional|ID of the [forum topic](https://core.telegram.org/api/forum#forum-topics) to which the draft is associated|
-|saved\_peer\_id|[Peer](/API_docs/types/Peer.html) | Optional|
+|saved\_peer\_id|[Peer](/API_docs/types/Peer.html) | Optional|If set, the draft is related to the specified [monoforum topic ID »](https://core.telegram.org/api/monoforum).|
 |draft|[DraftMessage](/API_docs/types/DraftMessage.html) | Optional|The draft|
 
 

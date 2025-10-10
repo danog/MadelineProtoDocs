@@ -1,6 +1,6 @@
 ---
 title: "help.getPromoData"
-description: "Get MTProxy/Public Service Announcement information"
+description: "Returns a set of useful suggestions and PSA/MTProxy sponsored peers, see [here »](https://core.telegram.org/api/config#suggestions) for more info."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,7 +11,7 @@ redirect_from: /API_docs/methods/help_getPromoData.html
 
 
 
-Get MTProxy/Public Service Announcement information
+Returns a set of useful suggestions and PSA/MTProxy sponsored peers, see [here »](https://core.telegram.org/api/config#suggestions) for more info.
 
 
 

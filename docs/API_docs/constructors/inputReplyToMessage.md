@@ -21,8 +21,8 @@ Reply to a message.
 |quote\_text|[string](/API_docs/types/string.html) | Optional|Used to quote-reply to only a certain section (specified here) of the original message. The maximum UTF-8 length for quotes is specified in the [quote\_length\_max](https://core.telegram.org/api/config#quote-length-max) config key.|
 |quote\_entities|Array of [MessageEntity](/API_docs/types/MessageEntity.html) | Optional|[Message entities for styled text](https://core.telegram.org/api/entities) from the `quote_text` field.|
 |quote\_offset|[int](/API_docs/types/int.html) | Optional|Offset of the message `quote_text` within the original message (in [UTF-16 code units](https://core.telegram.org/api/entities#entity-length)).|
-|monoforum\_peer\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
-|todo\_item\_id|[int](/API_docs/types/int.html) | Optional|
+|monoforum\_peer\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|Must be set to the ID of the topic when replying to a message within a [monoforum topic](https://core.telegram.org/api/monoforum).|
+|todo\_item\_id|[int](/API_docs/types/int.html) | Optional|Can be set to reply to the specified item of a [todo list »](https://core.telegram.org/api/todo).|
 
 
 

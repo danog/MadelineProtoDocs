@@ -24,6 +24,7 @@ Use [contacts.importContacts](../methods/contacts.importContacts.html) to add co
 |first\_name|[string](/API_docs/types/string.html) | First name | Optional|
 |last\_name|[string](/API_docs/types/string.html) | Last name | Optional|
 |phone|[string](/API_docs/types/string.html) | User's phone number, may be omitted to simply add the user to the contact list, without a phone number. | Optional|
+|note|[TextWithEntities](/API_docs/types/TextWithEntities.html) |  | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -49,6 +50,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->contacts->addContact(add_phone_privacy_exception: $Bool, id: $InputUser, first_name: 'string', last_name: 'string', phone: 'string', );
+$Updates = $MadelineProto->contacts->addContact(add_phone_privacy_exception: $Bool, id: $InputUser, first_name: 'string', last_name: 'string', phone: 'string', note: $TextWithEntities, );
 ```
 

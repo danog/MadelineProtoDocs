@@ -1,6 +1,6 @@
 ---
 title: "phone.getGroupCallChainBlocks"
-description: "phone.getGroupCallChainBlocks parameters, return type and example"
+description: "Fetch the blocks of a [conference blockchain »](https://core.telegram.org/api/end-to-end/group-calls)."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,14 +11,16 @@ redirect_from: /API_docs/methods/phone_getGroupCallChainBlocks.html
 
 
 
+Fetch the blocks of a [conference blockchain »](https://core.telegram.org/api/end-to-end/group-calls).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
-|sub\_chain\_id|[int](/API_docs/types/int.html) | Optional|
-|offset|[int](/API_docs/types/int.html) | Optional|
-|limit|[int](/API_docs/types/int.html) | Optional|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | The conference. | Yes|
+|sub\_chain\_id|[int](/API_docs/types/int.html) | Subchain ID. | Optional|
+|offset|[int](/API_docs/types/int.html) | Offset for pagination. | Optional|
+|limit|[int](/API_docs/types/int.html) | Maximum number of blocks to return in this call, [see pagination](https://core.telegram.org/api/offsets) | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

@@ -1,6 +1,6 @@
 ---
 title: "storyAlbum"
-description: "storyAlbum attributes, type and example"
+description: "Represents a story album »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,14 +9,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Represents a [story album »](https://core.telegram.org/api/stories#story-albums).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|album\_id|[int](/API_docs/types/int.html) | Yes|
-|title|[string](/API_docs/types/string.html) | Yes|
-|icon\_photo|[Photo](/API_docs/types/Photo.html) | Optional|
-|icon\_video|[Document](/API_docs/types/Document.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|album\_id|[int](/API_docs/types/int.html) | Yes|ID of the album.|
+|title|[string](/API_docs/types/string.html) | Yes|Name of the album.|
+|icon\_photo|[Photo](/API_docs/types/Photo.html) | Optional|Photo from the first story of the album, if it's a photo.|
+|icon\_video|[Document](/API_docs/types/Document.html) | Optional|Video from the first story of the album, if it's a video.|
 
 
 

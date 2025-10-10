@@ -25,7 +25,7 @@ See [here »](https://github.com/tdlib/td/blob/a24af0992245f838f2b4b418a0a2d5fa9
 |call\_active|[Bool](/API_docs/types/Bool.html) | Optional|Whether a group call is currently active|
 |call\_not\_empty|[Bool](/API_docs/types/Bool.html) | Optional|Whether there's anyone in the group call|
 |noforwards|[Bool](/API_docs/types/Bool.html) | Optional|Whether this group is [protected](https://telegram.org/blog/protected-content-delete-by-date-and-more), thus does not allow forwarding messages from it|
-|id|[long](/API_docs/types/long.html) | Yes|ID of the group, see [here »](https://core.telegram.org/api/peers#peer-id) for more info|
+|id|[long](/API_docs/types/long.html) | Yes|ID of the group, see [here »](https://core.telegram.org/api/peers#peer-id) for more info and the available ID range.|
 |title|[string](/API_docs/types/string.html) | Yes|Title|
 |photo|[ChatPhoto](/API_docs/types/ChatPhoto.html) | Optional|Chat photo|
 |participants\_count|[int](/API_docs/types/int.html) | Yes|Participant count|

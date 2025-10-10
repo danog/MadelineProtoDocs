@@ -18,8 +18,8 @@ Available [gifts »](https://core.telegram.org/api/gifts).
 |----------|---------------|----------|-------------|
 |hash|[int](/API_docs/types/int.html) | Yes|
 |gifts|Array of [StarGift](/API_docs/types/StarGift.html) | Yes|List of available gifts.|
-|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
-|users|Array of [User](/API_docs/types/User.html) | Yes|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Chats mentioned in the `gifts` field.|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Users mentioned in the `gifts` field.|
 
 
 

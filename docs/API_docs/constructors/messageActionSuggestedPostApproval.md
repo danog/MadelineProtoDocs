@@ -1,6 +1,6 @@
 ---
 title: "messageActionSuggestedPostApproval"
-description: "messageActionSuggestedPostApproval attributes, type and example"
+description: "A suggested post » was approved or rejected."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,15 +9,17 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+A [suggested post »](https://core.telegram.org/api/suggested-posts) was approved or rejected.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|rejected|[Bool](/API_docs/types/Bool.html) | Optional|
-|balance\_too\_low|[Bool](/API_docs/types/Bool.html) | Optional|
-|reject\_comment|[string](/API_docs/types/string.html) | Optional|
-|schedule\_date|[int](/API_docs/types/int.html) | Optional|
-|price|[StarsAmount](/API_docs/types/StarsAmount.html) | Optional|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|rejected|[Bool](/API_docs/types/Bool.html) | Optional|Whether the suggested post was rejected.|
+|balance\_too\_low|[Bool](/API_docs/types/Bool.html) | Optional|If set, the post was approved but the user's balance is too low to pay for the suggested post.|
+|reject\_comment|[string](/API_docs/types/string.html) | Optional|If the suggested post was rejected, can optionally contain a rejection comment.|
+|schedule\_date|[int](/API_docs/types/int.html) | Optional|Scheduling date.|
+|price|[StarsAmount](/API_docs/types/StarsAmount.html) | Optional|Price for the suggested post.|
 
 
 

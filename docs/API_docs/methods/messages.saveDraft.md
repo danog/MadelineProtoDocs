@@ -26,7 +26,7 @@ Save a message [draft](https://core.telegram.org/api/drafts) associated to a cha
 |parse\_mode| [string](/API_docs/types/string.html) | Whether to parse HTML or Markdown markup in the message| Optional |
 |media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) | Attached media | Optional|
 |effect|[long](/API_docs/types/long.html) | Specifies a [message effect »](https://core.telegram.org/api/effects) to use for the message. | Optional|
-|suggested\_post|[SuggestedPost](/API_docs/types/SuggestedPost.html) |  | Optional|
+|suggested\_post|[SuggestedPost](/API_docs/types/SuggestedPost.html) | Used to [suggest a post to a channel, see here »](https://core.telegram.org/api/suggested-posts) for more info on the full flow. | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)

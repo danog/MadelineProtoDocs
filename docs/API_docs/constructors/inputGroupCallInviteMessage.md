@@ -1,6 +1,6 @@
 ---
 title: "inputGroupCallInviteMessage"
-description: "inputGroupCallInviteMessage attributes, type and example"
+description: "Join a group call through a messageActionConferenceCall invitation message."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Join a group call through a [messageActionConferenceCall](../constructors/messageActionConferenceCall.html) invitation message.
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|msg\_id|[int](/API_docs/types/int.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|msg\_id|[int](/API_docs/types/int.html) | Yes|ID of the [messageActionConferenceCall](../constructors/messageActionConferenceCall.html).|
 
 
 

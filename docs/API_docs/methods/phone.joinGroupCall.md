@@ -22,8 +22,8 @@ Join a group call
 |call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | The group call | Yes|
 |join\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Join the group call, presenting yourself as the specified user/channel | Optional|
 |invite\_hash|[string](/API_docs/types/string.html) | The invitation hash from the [invite link »](https://core.telegram.org/api/links#video-chat-livestream-links), if provided allows speaking in a livestream or muted group chat. | Optional|
-|public\_key|[int256](/API_docs/types/int256.html) |  | Optional|
-|block|[bytes](/API_docs/types/bytes.html) |  | Optional|
+|public\_key|[int256](/API_docs/types/int256.html) | For conference calls, your public key. | Optional|
+|block|[bytes](/API_docs/types/bytes.html) | The [block containing an appropriate e2e.chain.changeSetGroupState event](https://core.telegram.org/api/end-to-end/group-calls). | Optional|
 |params|[DataJSON](/API_docs/types/DataJSON.html) | WebRTC parameters | Yes|
 
 

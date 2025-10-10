@@ -37,7 +37,7 @@ Represents a [story](https://core.telegram.org/api/stories).
 |privacy|Array of [PrivacyRule](/API_docs/types/PrivacyRule.html) | Optional|[Privacy rules](https://core.telegram.org/api/privacy) indicating who can and can't view this story|
 |views|[StoryViews](/API_docs/types/StoryViews.html) | Optional|View date and reaction information|
 |sent\_reaction|[Reaction](/API_docs/types/Reaction.html) | Optional|The reaction we sent.|
-|albums|Array of [int](/API_docs/types/int.html) | Optional|
+|albums|Array of [int](/API_docs/types/int.html) | Optional|[Albums](https://core.telegram.org/api/stories#story-albums) this story is part of.|
 
 
 

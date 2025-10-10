@@ -1,6 +1,6 @@
 ---
 title: "inputChatTheme"
-description: "inputChatTheme attributes, type and example"
+description: "Set an emoji-based chat theme, returned by account.getChatThemes."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,11 +9,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+Set an emoji-based chat theme, returned by [account.getChatThemes](../methods/account.getChatThemes.html).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|emoticon|[string](/API_docs/types/string.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|emoticon|[string](/API_docs/types/string.html) | Yes|The emoji.|
 
 
 

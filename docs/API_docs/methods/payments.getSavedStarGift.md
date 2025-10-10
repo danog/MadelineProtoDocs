@@ -1,6 +1,6 @@
 ---
 title: "payments.getSavedStarGift"
-description: "payments.getSavedStarGift parameters, return type and example"
+description: "Fetch info about specific [gifts](https://core.telegram.org/api/gifts) owned by a peer we control."
 grand_parent: "Telegram RPC API"
 parent: "Methods"
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
@@ -11,11 +11,15 @@ redirect_from: /API_docs/methods/payments_getSavedStarGift.html
 
 
 
+Fetch info about specific [gifts](https://core.telegram.org/api/gifts) owned by a peer we control.
+
+Note that unlike what the name suggests, the method can be used to fetch both "saved" and "unsaved" gifts (aka gifts both pinned and not pinned to the profile).
+
 ### Parameters:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|stargift|Array of [InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) | Yes|
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|stargift|Array of [InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) | List of gifts to fetch info about. | Yes|
 
 
 ### Return type: [payments.SavedStarGifts](/API_docs/types/payments.SavedStarGifts.html)

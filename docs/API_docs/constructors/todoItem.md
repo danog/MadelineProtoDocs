@@ -1,6 +1,6 @@
 ---
 title: "todoItem"
-description: "todoItem attributes, type and example"
+description: "An item of a todo list »."
 nav_exclude: true
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
@@ -9,12 +9,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 
 
+An item of a [todo list »](https://core.telegram.org/api/todo).
+
 ### Attributes:
 
-| Name     |    Type       | Required |
-|----------|---------------|----------|
-|id|[int](/API_docs/types/int.html) | Yes|
-|title|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Yes|
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|id|[int](/API_docs/types/int.html) | Yes|ID of the item, a positive (non-zero) integer unique within the current list.|
+|title|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Yes|Text of the item, maximum length equal to [todo\_item\_length\_max »](https://core.telegram.org/api/config#todo-item-length-max).|
 
 
 

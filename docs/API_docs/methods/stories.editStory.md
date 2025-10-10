@@ -13,6 +13,8 @@ redirect_from: /API_docs/methods/stories_editStory.html
 
 Edit an uploaded [story](https://core.telegram.org/api/stories)
 
+May also be used in a [business connection](https://core.telegram.org/api/bots/connected-business-bots), *not* by wrapping the query in [invokeWithBusinessConnection »](../methods/invokeWithBusinessConnection.html), but rather by specifying the ID of a controlled business user in `peer`: in this context, the method can only be used to edit stories posted by the same business bot on behalf of the user with [stories.sendStory](../methods/stories.sendStory.html).
+
 ### Parameters:
 
 | Name     |    Type       | Description | Required |

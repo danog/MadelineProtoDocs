@@ -15,7 +15,7 @@ New document
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|nosound\_video|[Bool](/API_docs/types/Bool.html) | Optional|Whether the specified document is a video file with no audio tracks (a GIF animation (even as MPEG4), for example)|
+|nosound\_video|[Bool](/API_docs/types/Bool.html) | Optional|Whether to send the file as a video even if it doesn't have an audio track (i.e. if set, the [documentAttributeAnimated](../constructors/documentAttributeAnimated.html) attribute will **not** be set even for videos without audio)|
 |force\_file|[Bool](/API_docs/types/Bool.html) | Optional|Force the media file to be uploaded as document|
 |spoiler|[Bool](/API_docs/types/Bool.html) | Optional|Whether this media should be hidden behind a spoiler warning|
 |file|[File path or InputFile](/API_docs/types/InputFile.html) | Yes|The [uploaded file](https://core.telegram.org/api/files)|
@@ -23,8 +23,8 @@ New document
 |mime\_type|[string](/API_docs/types/string.html) | Optional|MIME type of document|
 |attributes|Array of [DocumentAttribute](/API_docs/types/DocumentAttribute.html) | Yes|Attributes that specify the type of the document (video, audio, voice, sticker, etc.)|
 |stickers|Array of [MessageMedia, Message, Update or InputDocument](/API_docs/types/InputDocument.html) | Optional|Attached stickers|
-|video\_cover|[MessageMedia, Message, Update or InputPhoto](/API_docs/types/InputPhoto.html) | Optional|
-|video\_timestamp|[int](/API_docs/types/int.html) | Optional|
+|video\_cover|[MessageMedia, Message, Update or InputPhoto](/API_docs/types/InputPhoto.html) | Optional|Start playing the video at the specified timestamp (seconds).|
+|video\_timestamp|[int](/API_docs/types/int.html) | Optional|Start playing the video at the specified timestamp (seconds).|
 |ttl\_seconds|[int](/API_docs/types/int.html) | Optional|Time to live in seconds of self-destructing document|
 
 

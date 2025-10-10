@@ -13,6 +13,8 @@ redirect_from: /API_docs/methods/stories_sendStory.html
 
 Uploads a [Telegram Story](https://core.telegram.org/api/stories).
 
+May also be used in a [business connection](https://core.telegram.org/api/bots/connected-business-bots), *not* by wrapping the query in [invokeWithBusinessConnection »](../methods/invokeWithBusinessConnection.html), but rather by specifying the ID of a controlled business user in `peer`.
+
 ### Parameters:
 
 | Name     |    Type       | Description | Required |
@@ -30,7 +32,7 @@ Uploads a [Telegram Story](https://core.telegram.org/api/stories).
 |period|[int](/API_docs/types/int.html) | Period after which the story is moved to archive (and to the profile if `pinned` is set), in seconds; must be one of `6 * 3600`, `12 * 3600`, `86400`, or `2 * 86400` for Telegram Premium users, and `86400` otherwise. | Optional|
 |fwd\_from\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | If set, indicates that this story is a repost of story with ID `fwd_from_story` posted by the peer in `fwd_from_id`. | Optional|
 |fwd\_from\_story|[int](/API_docs/types/int.html) | If set, indicates that this story is a repost of story with ID `fwd_from_story` posted by the peer in `fwd_from_id`. | Optional|
-|albums|Array of [int](/API_docs/types/int.html) |  | Optional|
+|albums|Array of [int](/API_docs/types/int.html) | If set, adds the story to the specified albums. | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)

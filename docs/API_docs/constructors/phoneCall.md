@@ -17,7 +17,7 @@ Phone call
 |----------|---------------|----------|-------------|
 |p2p\_allowed|[Bool](/API_docs/types/Bool.html) | Optional|Whether P2P connection to the other peer is allowed|
 |video|[Bool](/API_docs/types/Bool.html) | Optional|Whether this is a video call|
-|conference\_supported|[Bool](/API_docs/types/Bool.html) | Optional|
+|conference\_supported|[Bool](/API_docs/types/Bool.html) | Optional|If set, the other party supports upgrading of the call to a [conference call](https://core.telegram.org/api/end-to-end/group-calls).|
 |id|[long](/API_docs/types/long.html) | Yes|Call ID|
 |access\_hash|[long](/API_docs/types/long.html) | Yes|Access hash|
 |date|[int](/API_docs/types/int.html) | Yes|Date of creation of the call|
