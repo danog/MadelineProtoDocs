@@ -17,9 +17,11 @@ redirect_from: /API_docs/methods/phone_sendGroupCallMessage.html
 |----------|---------------|----------|
 |call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
 |message|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Yes|
+|allow\_paid\_stars|[long](/API_docs/types/long.html) | Optional|
+|send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 
 
-### Return type: [Bool](/API_docs/types/Bool.html)
+### Return type: [Updates](/API_docs/types/Updates.html)
 
 ### Can users use this method: **YES**
 
@@ -42,12 +44,12 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->phone->sendGroupCallMessage(call: $InputGroupCall, message: $TextWithEntities, );
+$Updates = $MadelineProto->phone->sendGroupCallMessage(call: $InputGroupCall, message: $TextWithEntities, allow_paid_stars: $long, send_as: $InputPeer, );
 ```
 
 
 ## Return value 
 
-If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [Bool](../types/Bool.html) will be returned instead.
+If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [Updates](../types/Updates.html) will be returned instead.
 
 

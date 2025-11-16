@@ -1274,8 +1274,16 @@ Some of MadelineProto's core components are also available as separate, standalo
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.updatePinnedForumTopic.html" name="messages.updatePinnedForumTopic">messages.updatePinnedForumTopic</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleDecode" name="rleDecode">null-byte RLE decode: rleDecode</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleEncode" name="rleEncode">null-byte RLE encode: rleEncode</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getStarGiftActiveAuctions.html" name="payments.getStarGiftActiveAuctions">payments.getStarGiftActiveAuctions</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getStarGiftAuctionAcquiredGifts.html" name="payments.getStarGiftAuctionAcquiredGifts">payments.getStarGiftAuctionAcquiredGifts</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getStarGiftAuctionState.html" name="payments.getStarGiftAuctionState">payments.getStarGiftAuctionState</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/phone.deleteGroupCallMessages.html" name="phone.deleteGroupCallMessages">phone.deleteGroupCallMessages</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/phone.deleteGroupCallParticipantMessages.html" name="phone.deleteGroupCallParticipantMessages">phone.deleteGroupCallParticipantMessages</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/phone.getGroupCallStars.html" name="phone.getGroupCallStars">phone.getGroupCallStars</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/phone.saveDefaultSendAs.html" name="phone.saveDefaultSendAs">phone.saveDefaultSendAs</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/phone.sendGroupCallEncryptedMessage.html" name="phone.sendGroupCallEncryptedMessage">phone.sendGroupCallEncryptedMessage</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/phone.sendGroupCallMessage.html" name="phone.sendGroupCallMessage">phone.sendGroupCallMessage</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/stories.startLive.html" name="stories.startLive">stories.startLive</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/users.suggestBirthday.html" name="users.suggestBirthday">users.suggestBirthday</a>
 * [Contributing](https://docs.madelineproto.xyz/docs/CONTRIB.html) - You can contribute in various ways.
   * [Translation](https://docs.madelineproto.xyz/docs/CONTRIB.html#translation)

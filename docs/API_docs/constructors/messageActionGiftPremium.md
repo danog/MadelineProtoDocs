@@ -26,7 +26,7 @@ This service message should be displayed below the appropriate sticker from the 
 |----------|---------------|----------|-------------|
 |currency|[string](/API_docs/types/string.html) | Yes|Three-letter ISO 4217 [currency](https://core.telegram.org/bots/payments#supported-currencies) code|
 |amount|[long](/API_docs/types/long.html) | Yes|Price of the gift in the smallest units of the currency (integer, not float/double). For example, for a price of `US$ 1.45` pass `amount = 145`. See the exp parameter in [currencies.json](https://core.telegram.org/bots/payments/currencies.json), it shows the number of digits past the decimal point for each currency (2 for the majority of currencies).|
-|months|[int](/API_docs/types/int.html) | Yes|Duration of the gifted Telegram Premium subscription.|
+|days|[int](/API_docs/types/int.html) | Yes|
 |crypto\_currency|[string](/API_docs/types/string.html) | Optional|If the gift was bought using a cryptocurrency, the cryptocurrency name.|
 |crypto\_amount|[long](/API_docs/types/long.html) | Optional|If the gift was bought using a cryptocurrency, price of the gift in the smallest units of a cryptocurrency.|
 |message|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Optional|Message attached with the gift|
@@ -39,5 +39,5 @@ This service message should be displayed below the appropriate sticker from the 
 ### Example:
 
 ```
-$messageActionGiftPremium = ['_' => 'messageActionGiftPremium', 'currency' => 'string', 'amount' => long, 'months' => int, 'crypto_currency' => 'string', 'crypto_amount' => long, 'message' => TextWithEntities];
+$messageActionGiftPremium = ['_' => 'messageActionGiftPremium', 'currency' => 'string', 'amount' => long, 'days' => int, 'crypto_currency' => 'string', 'crypto_amount' => long, 'message' => TextWithEntities];
 ```  

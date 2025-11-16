@@ -1920,9 +1920,25 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleEncode" name="rleEncode">null-byte RLE encode: rleEncode</a>
 
+* <a href="payments.getStarGiftActiveAuctions.html" name="payments.getStarGiftActiveAuctions">payments.getStarGiftActiveAuctions</a>
+
+* <a href="payments.getStarGiftAuctionAcquiredGifts.html" name="payments.getStarGiftAuctionAcquiredGifts">payments.getStarGiftAuctionAcquiredGifts</a>
+
+* <a href="payments.getStarGiftAuctionState.html" name="payments.getStarGiftAuctionState">payments.getStarGiftAuctionState</a>
+
+* <a href="phone.deleteGroupCallMessages.html" name="phone.deleteGroupCallMessages">phone.deleteGroupCallMessages</a>
+
+* <a href="phone.deleteGroupCallParticipantMessages.html" name="phone.deleteGroupCallParticipantMessages">phone.deleteGroupCallParticipantMessages</a>
+
+* <a href="phone.getGroupCallStars.html" name="phone.getGroupCallStars">phone.getGroupCallStars</a>
+
+* <a href="phone.saveDefaultSendAs.html" name="phone.saveDefaultSendAs">phone.saveDefaultSendAs</a>
+
 * <a href="phone.sendGroupCallEncryptedMessage.html" name="phone.sendGroupCallEncryptedMessage">phone.sendGroupCallEncryptedMessage</a>
 
 * <a href="phone.sendGroupCallMessage.html" name="phone.sendGroupCallMessage">phone.sendGroupCallMessage</a>
+
+* <a href="stories.startLive.html" name="stories.startLive">stories.startLive</a>
 
 * <a href="users.suggestBirthday.html" name="users.suggestBirthday">users.suggestBirthday</a>
 

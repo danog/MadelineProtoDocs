@@ -34,6 +34,7 @@ Info about a group call participant
 |raise\_hand\_rating|[long](/API_docs/types/long.html) | Optional|Specifies the UI visualization order of peers with raised hands: peers with a higher rating should be showed first in the list.|
 |video|[GroupCallParticipantVideo](/API_docs/types/GroupCallParticipantVideo.html) | Optional|Info about the video stream the participant is currently broadcasting|
 |presentation|[GroupCallParticipantVideo](/API_docs/types/GroupCallParticipantVideo.html) | Optional|Info about the screen sharing stream the participant is currently broadcasting|
+|paid\_stars\_total|[long](/API_docs/types/long.html) | Optional|
 
 
 
@@ -43,5 +44,5 @@ Info about a group call participant
 ### Example:
 
 ```
-$groupCallParticipant = ['_' => 'groupCallParticipant', 'muted' => Bool, 'left' => Bool, 'can_self_unmute' => Bool, 'just_joined' => Bool, 'versioned' => Bool, 'min' => Bool, 'muted_by_you' => Bool, 'volume_by_admin' => Bool, 'self' => Bool, 'video_joined' => Bool, 'peer' => long, 'date' => int, 'active_date' => int, 'source' => int, 'volume' => int, 'about' => 'string', 'raise_hand_rating' => long, 'video' => GroupCallParticipantVideo, 'presentation' => GroupCallParticipantVideo];
+$groupCallParticipant = ['_' => 'groupCallParticipant', 'muted' => Bool, 'left' => Bool, 'can_self_unmute' => Bool, 'just_joined' => Bool, 'versioned' => Bool, 'min' => Bool, 'muted_by_you' => Bool, 'volume_by_admin' => Bool, 'self' => Bool, 'video_joined' => Bool, 'peer' => long, 'date' => int, 'active_date' => int, 'source' => int, 'volume' => int, 'about' => 'string', 'raise_hand_rating' => long, 'video' => GroupCallParticipantVideo, 'presentation' => GroupCallParticipantVideo, 'paid_stars_total' => long];
 ```  

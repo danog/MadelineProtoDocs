@@ -16,6 +16,7 @@ Represents an active story, whose full information was omitted for space and per
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |close\_friends|[Bool](/API_docs/types/Bool.html) | Optional|Whether this story can only be viewed by [our close friends, see here »](https://core.telegram.org/api/privacy) for more info|
+|live|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[int](/API_docs/types/int.html) | Yes|Story ID|
 |date|[int](/API_docs/types/int.html) | Yes|When was the story posted.|
 |expire\_date|[int](/API_docs/types/int.html) | Yes|When does the story expire.|
@@ -28,5 +29,5 @@ Represents an active story, whose full information was omitted for space and per
 ### Example:
 
 ```
-$storyItemSkipped = ['_' => 'storyItemSkipped', 'close_friends' => Bool, 'id' => int, 'date' => int, 'expire_date' => int];
+$storyItemSkipped = ['_' => 'storyItemSkipped', 'close_friends' => Bool, 'live' => Bool, 'id' => int, 'date' => int, 'expire_date' => int];
 ```  

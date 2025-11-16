@@ -305,6 +305,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updatePinnedForumTopics](/API_docs/constructors/updatePinnedForumTopics.html)  
 
+[updateDeleteGroupCallMessages](/API_docs/constructors/updateDeleteGroupCallMessages.html)  
+
+[updateStarGiftAuctionState](/API_docs/constructors/updateStarGiftAuctionState.html)  
+
+[updateStarGiftAuctionUserState](/API_docs/constructors/updateStarGiftAuctionUserState.html)  
+
 
 
 ### Methods that return an object of this type (methods):

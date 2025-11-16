@@ -14,8 +14,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Yes|
-|from\_id|[Peer](/API_docs/types/Peer.html) | Yes|
-|message|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Yes|
+|message|[GroupCallMessage](/API_docs/types/GroupCallMessage.html) | Yes|
 
 
 
@@ -25,5 +24,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$updateGroupCallMessage = ['_' => 'updateGroupCallMessage', 'call' => InputGroupCall, 'from_id' => Peer, 'message' => TextWithEntities];
+$updateGroupCallMessage = ['_' => 'updateGroupCallMessage', 'call' => InputGroupCall, 'message' => GroupCallMessage];
 ```  

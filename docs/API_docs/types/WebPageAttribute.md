@@ -21,6 +21,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [webPageAttributeStarGiftCollection](/API_docs/constructors/webPageAttributeStarGiftCollection.html)  
 
+[webPageAttributeStarGiftAuction](/API_docs/constructors/webPageAttributeStarGiftAuction.html)  
+
 
 
 ### Methods that return an object of this type (methods):

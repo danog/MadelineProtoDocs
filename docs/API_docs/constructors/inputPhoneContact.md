@@ -19,6 +19,7 @@ Phone contact.
 |phone|[string](/API_docs/types/string.html) | Yes|Phone number|
 |first\_name|[string](/API_docs/types/string.html) | Yes|Contact's first name|
 |last\_name|[string](/API_docs/types/string.html) | Yes|Contact's last name|
+|note|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Optional|
 
 
 
@@ -28,5 +29,5 @@ Phone contact.
 ### Example:
 
 ```
-$inputPhoneContact = ['_' => 'inputPhoneContact', 'client_id' => long, 'phone' => 'string', 'first_name' => 'string', 'last_name' => 'string'];
+$inputPhoneContact = ['_' => 'inputPhoneContact', 'client_id' => long, 'phone' => 'string', 'first_name' => 'string', 'last_name' => 'string', 'note' => TextWithEntities];
 ```  

@@ -19,6 +19,7 @@ Disallow the reception of specific [gift](https://core.telegram.org/api/gifts) t
 |disallow\_limited\_stargifts|[Bool](/API_docs/types/Bool.html) | Optional|Disallow the reception of limited-supply gifts (those with the [starGift](../constructors/starGift.html).`limited` flag set).|
 |disallow\_unique\_stargifts|[Bool](/API_docs/types/Bool.html) | Optional|Disallow the reception of [collectible gifts »](https://core.telegram.org/api/gifts#collectible-gifts).|
 |disallow\_premium\_gifts|[Bool](/API_docs/types/Bool.html) | Optional|Disallow the reception of [gifted Telegram Premium subscriptions »](https://core.telegram.org/api/gifts#collectible-gifts).|
+|disallow\_stargifts\_from\_channels|[Bool](/API_docs/types/Bool.html) | Optional|
 
 
 
@@ -28,5 +29,5 @@ Disallow the reception of specific [gift](https://core.telegram.org/api/gifts) t
 ### Example:
 
 ```
-$disallowedGiftsSettings = ['_' => 'disallowedGiftsSettings', 'disallow_unlimited_stargifts' => Bool, 'disallow_limited_stargifts' => Bool, 'disallow_unique_stargifts' => Bool, 'disallow_premium_gifts' => Bool];
+$disallowedGiftsSettings = ['_' => 'disallowedGiftsSettings', 'disallow_unlimited_stargifts' => Bool, 'disallow_limited_stargifts' => Bool, 'disallow_unique_stargifts' => Bool, 'disallow_premium_gifts' => Bool, 'disallow_stargifts_from_channels' => Bool];
 ```  

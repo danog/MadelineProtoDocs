@@ -20,7 +20,7 @@ Get the IDs of the maximum read stories for a set of peers.
 |id|Array of [Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peers | Yes|
 
 
-### Return type: [Vector\_of\_int](/API_docs/types/int.html)
+### Return type: [Vector\_of\_RecentStory](/API_docs/types/RecentStory.html)
 
 ### Can users use this method: **YES**
 
@@ -43,6 +43,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Vector_of_int = $MadelineProto->stories->getPeerMaxIDs(id: [$InputPeer, $InputPeer], );
+$Vector_of_RecentStory = $MadelineProto->stories->getPeerMaxIDs(id: [$InputPeer, $InputPeer], );
 ```
 

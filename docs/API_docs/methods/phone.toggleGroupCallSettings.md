@@ -21,6 +21,7 @@ Change group call settings
 |call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Group call | Yes|
 |join\_muted|[Bool](/API_docs/types/Bool.html) | Whether all users will that join this group call are muted by default upon joining the group call | Optional|
 |messages\_enabled|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|send\_paid\_messages\_stars|[long](/API_docs/types/long.html) |  | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -46,6 +47,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->phone->toggleGroupCallSettings(reset_invite_hash: $Bool, call: $InputGroupCall, join_muted: $Bool, messages_enabled: $Bool, );
+$Updates = $MadelineProto->phone->toggleGroupCallSettings(reset_invite_hash: $Bool, call: $InputGroupCall, join_muted: $Bool, messages_enabled: $Bool, send_paid_messages_stars: $long, );
 ```
 

@@ -15,7 +15,8 @@ A new groupcall was started
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|chat\_id|[long](/API_docs/types/long.html) | Optional|The [channel/supergroup](https://core.telegram.org/api/channel) where this group call or livestream takes place|
+|live\_story|[Bool](/API_docs/types/Bool.html) | Optional|
+|peer|[long](/API_docs/types/long.html) | Optional|
 |call|[GroupCall](/API_docs/types/GroupCall.html) | Yes|Info about the group call or livestream|
 
 
@@ -26,5 +27,5 @@ A new groupcall was started
 ### Example:
 
 ```
-$updateGroupCall = ['_' => 'updateGroupCall', 'chat_id' => long, 'call' => GroupCall];
+$updateGroupCall = ['_' => 'updateGroupCall', 'live_story' => Bool, 'peer' => long, 'call' => GroupCall];
 ```  

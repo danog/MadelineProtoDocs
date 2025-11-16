@@ -21,7 +21,7 @@ Contains info about a [Telegram Premium giftcode link](https://core.telegram.org
 |giveaway\_msg\_id|[int](/API_docs/types/int.html) | Optional|Message ID of the giveaway in the channel specified in `from_id`.|
 |to\_id|[long](/API_docs/types/long.html) | Optional|The destination user of the gift.|
 |date|[int](/API_docs/types/int.html) | Yes|Creation date of the gift code.|
-|months|[int](/API_docs/types/int.html) | Yes|Duration in months of the gifted [Telegram Premium](https://core.telegram.org/api/premium) subscription.|
+|days|[int](/API_docs/types/int.html) | Yes|
 |used\_date|[int](/API_docs/types/int.html) | Optional|When was the giftcode imported, if it was imported.|
 |chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Mentioned chats|
 |users|Array of [User](/API_docs/types/User.html) | Yes|Mentioned users|
@@ -34,5 +34,5 @@ Contains info about a [Telegram Premium giftcode link](https://core.telegram.org
 ### Example:
 
 ```
-$payments_checkedGiftCode = ['_' => 'payments.checkedGiftCode', 'via_giveaway' => Bool, 'from_id' => Peer, 'giveaway_msg_id' => int, 'to_id' => long, 'date' => int, 'months' => int, 'used_date' => int, 'chats' => [Chat, Chat], 'users' => [User, User]];
+$payments_checkedGiftCode = ['_' => 'payments.checkedGiftCode', 'via_giveaway' => Bool, 'from_id' => Peer, 'giveaway_msg_id' => int, 'to_id' => long, 'date' => int, 'days' => int, 'used_date' => int, 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

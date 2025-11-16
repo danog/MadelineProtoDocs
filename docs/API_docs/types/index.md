@@ -21,6 +21,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [AttachMenuPeerType](/API_docs/types/AttachMenuPeerType.html)<a name="AttachMenuPeerType"></a>  
 
+[AuctionBidLevel](/API_docs/types/AuctionBidLevel.html)<a name="AuctionBidLevel"></a>  
+
 [Authorization](/API_docs/types/Authorization.html)<a name="Authorization"></a>  
 
 [AutoDownloadSettings](/API_docs/types/AutoDownloadSettings.html)<a name="AutoDownloadSettings"></a>  
@@ -237,6 +239,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [GroupCall](/API_docs/types/GroupCall.html)<a name="GroupCall"></a>  
 
+[GroupCallDonor](/API_docs/types/GroupCallDonor.html)<a name="GroupCallDonor"></a>  
+
+[GroupCallMessage](/API_docs/types/GroupCallMessage.html)<a name="GroupCallMessage"></a>  
+
 [GroupCallParticipant](/API_docs/types/GroupCallParticipant.html)<a name="GroupCallParticipant"></a>  
 
 [GroupCallParticipantVideo](/API_docs/types/GroupCallParticipantVideo.html)<a name="GroupCallParticipantVideo"></a>  
@@ -346,6 +352,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [InputSecureValue](/API_docs/types/InputSecureValue.html)<a name="InputSecureValue"></a>  
 
 [InputSingleMedia](/API_docs/types/InputSingleMedia.html)<a name="InputSingleMedia"></a>  
+
+[InputStarGiftAuction](/API_docs/types/InputStarGiftAuction.html)<a name="InputStarGiftAuction"></a>  
 
 [InputStarsTransaction](/API_docs/types/InputStarsTransaction.html)<a name="InputStarsTransaction"></a>  
 
@@ -539,6 +547,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [RecentMeUrl](/API_docs/types/RecentMeUrl.html)<a name="RecentMeUrl"></a>  
 
+[RecentStory](/API_docs/types/RecentStory.html)<a name="RecentStory"></a>  
+
 [ReplyMarkup](/API_docs/types/ReplyMarkup.html)<a name="ReplyMarkup"></a>  
 
 [ReportReason](/API_docs/types/ReportReason.html)<a name="ReportReason"></a>  
@@ -607,11 +617,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [StarGift](/API_docs/types/StarGift.html)<a name="StarGift"></a>  
 
+[StarGiftActiveAuctionState](/API_docs/types/StarGiftActiveAuctionState.html)<a name="StarGiftActiveAuctionState"></a>  
+
 [StarGiftAttribute](/API_docs/types/StarGiftAttribute.html)<a name="StarGiftAttribute"></a>  
 
 [StarGiftAttributeCounter](/API_docs/types/StarGiftAttributeCounter.html)<a name="StarGiftAttributeCounter"></a>  
 
 [StarGiftAttributeId](/API_docs/types/StarGiftAttributeId.html)<a name="StarGiftAttributeId"></a>  
+
+[StarGiftAuctionAcquiredGift](/API_docs/types/StarGiftAuctionAcquiredGift.html)<a name="StarGiftAuctionAcquiredGift"></a>  
+
+[StarGiftAuctionState](/API_docs/types/StarGiftAuctionState.html)<a name="StarGiftAuctionState"></a>  
+
+[StarGiftAuctionUserState](/API_docs/types/StarGiftAuctionUserState.html)<a name="StarGiftAuctionUserState"></a>  
 
 [StarGiftCollection](/API_docs/types/StarGiftCollection.html)<a name="StarGiftCollection"></a>  
 
@@ -1039,6 +1057,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [payments.SavedStarGifts](/API_docs/types/payments.SavedStarGifts.html)<a name="payments.SavedStarGifts"></a>  
 
+[payments.StarGiftActiveAuctions](/API_docs/types/payments.StarGiftActiveAuctions.html)<a name="payments.StarGiftActiveAuctions"></a>  
+
+[payments.StarGiftAuctionAcquiredGifts](/API_docs/types/payments.StarGiftAuctionAcquiredGifts.html)<a name="payments.StarGiftAuctionAcquiredGifts"></a>  
+
+[payments.StarGiftAuctionState](/API_docs/types/payments.StarGiftAuctionState.html)<a name="payments.StarGiftAuctionState"></a>  
+
 [payments.StarGiftCollections](/API_docs/types/payments.StarGiftCollections.html)<a name="payments.StarGiftCollections"></a>  
 
 [payments.StarGiftUpgradePreview](/API_docs/types/payments.StarGiftUpgradePreview.html)<a name="payments.StarGiftUpgradePreview"></a>  
@@ -1066,6 +1090,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [phone.ExportedGroupCallInvite](/API_docs/types/phone.ExportedGroupCallInvite.html)<a name="phone.ExportedGroupCallInvite"></a>  
 
 [phone.GroupCall](/API_docs/types/phone.GroupCall.html)<a name="phone.GroupCall"></a>  
+
+[phone.GroupCallStars](/API_docs/types/phone.GroupCallStars.html)<a name="phone.GroupCallStars"></a>  
 
 [phone.GroupCallStreamChannels](/API_docs/types/phone.GroupCallStreamChannels.html)<a name="phone.GroupCallStreamChannels"></a>  
 

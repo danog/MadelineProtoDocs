@@ -39,6 +39,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [inputInvoiceStarGiftDropOriginalDetails](/API_docs/constructors/inputInvoiceStarGiftDropOriginalDetails.html)  
 
+[inputInvoiceStarGiftAuctionBid](/API_docs/constructors/inputInvoiceStarGiftAuctionBid.html)  
+
 
 
 ### Methods that return an object of this type (methods):

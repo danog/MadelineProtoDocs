@@ -266,6 +266,12 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->phone->getGroupCallChainBlocks](/API_docs/methods/phone.getGroupCallChainBlocks.html)  
 
+[$MadelineProto->phone->sendGroupCallMessage](/API_docs/methods/phone.sendGroupCallMessage.html)  
+
+[$MadelineProto->phone->deleteGroupCallMessages](/API_docs/methods/phone.deleteGroupCallMessages.html)  
+
+[$MadelineProto->phone->deleteGroupCallParticipantMessages](/API_docs/methods/phone.deleteGroupCallParticipantMessages.html)  
+
 [$MadelineProto->folders->editPeerFolders](/API_docs/methods/folders.editPeerFolders.html)  
 
 [$MadelineProto->chatlists->joinChatlistInvite](/API_docs/methods/chatlists.joinChatlistInvite.html)  
@@ -283,6 +289,8 @@ $message = $MadelineProto->extractMessageId($Updates);
 [$MadelineProto->stories->sendReaction](/API_docs/methods/stories.sendReaction.html)  
 
 [$MadelineProto->stories->getAllReadPeerStories](/API_docs/methods/stories.getAllReadPeerStories.html)  
+
+[$MadelineProto->stories->startLive](/API_docs/methods/stories.startLive.html)  
 
 
 

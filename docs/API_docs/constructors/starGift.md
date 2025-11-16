@@ -21,6 +21,7 @@ Represents a [star gift, see here »](https://core.telegram.org/api/gifts) for m
 |require\_premium|[Bool](/API_docs/types/Bool.html) | Optional|This gift can only be bought by users with a [Premium](https://core.telegram.org/api/premium) subscription.|
 |limited\_per\_user|[Bool](/API_docs/types/Bool.html) | Optional|If set, the maximum number of gifts of this type that can be owned by a single user is limited and specified in `per_user_total`, and the remaining slots for the current user in `per_user_remains`.|
 |peer\_color\_available|[Bool](/API_docs/types/Bool.html) | Optional|
+|auction|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[long](/API_docs/types/long.html) | Yes|Identifier of the gift|
 |sticker|[Document](/API_docs/types/Document.html) | Optional|[Sticker](https://core.telegram.org/api/stickers) that represents the gift.|
 |stars|[long](/API_docs/types/long.html) | Yes|Price of the gift in [Telegram Stars](https://core.telegram.org/api/stars).|
@@ -37,6 +38,8 @@ Represents a [star gift, see here »](https://core.telegram.org/api/gifts) for m
 |per\_user\_total|[int](/API_docs/types/int.html) | Optional|Maximum number of gifts of this type that can be owned by any user.|
 |per\_user\_remains|[int](/API_docs/types/int.html) | Optional|Remaining number of gifts of this type that can be owned by the current user.|
 |locked\_until\_date|[int](/API_docs/types/int.html) | Optional|If set, the specified gift *possibly* cannot be sent until the specified date, see [here »](https://core.telegram.org/api/gifts) for the full flow.|
+|auction\_slug|[string](/API_docs/types/string.html) | Optional|
+|gifts\_per\_round|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -46,5 +49,5 @@ Represents a [star gift, see here »](https://core.telegram.org/api/gifts) for m
 ### Example:
 
 ```
-$starGift = ['_' => 'starGift', 'limited' => Bool, 'sold_out' => Bool, 'birthday' => Bool, 'require_premium' => Bool, 'limited_per_user' => Bool, 'peer_color_available' => Bool, 'id' => long, 'sticker' => Document, 'stars' => long, 'availability_remains' => int, 'availability_total' => int, 'availability_resale' => long, 'convert_stars' => long, 'first_sale_date' => int, 'last_sale_date' => int, 'upgrade_stars' => long, 'resell_min_stars' => long, 'title' => 'string', 'released_by' => Peer, 'per_user_total' => int, 'per_user_remains' => int, 'locked_until_date' => int];
+$starGift = ['_' => 'starGift', 'limited' => Bool, 'sold_out' => Bool, 'birthday' => Bool, 'require_premium' => Bool, 'limited_per_user' => Bool, 'peer_color_available' => Bool, 'auction' => Bool, 'id' => long, 'sticker' => Document, 'stars' => long, 'availability_remains' => int, 'availability_total' => int, 'availability_resale' => long, 'convert_stars' => long, 'first_sale_date' => int, 'last_sale_date' => int, 'upgrade_stars' => long, 'resell_min_stars' => long, 'title' => 'string', 'released_by' => Peer, 'per_user_total' => int, 'per_user_remains' => int, 'locked_until_date' => int, 'auction_slug' => 'string', 'gifts_per_round' => int];
 ```  

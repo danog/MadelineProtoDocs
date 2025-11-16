@@ -39,6 +39,8 @@ Info about a group call or livestream
 |unmuted\_video\_limit|[int](/API_docs/types/int.html) | Yes|Maximum number of people allowed to stream video into the call|
 |version|[int](/API_docs/types/int.html) | Yes|Version|
 |invite\_link|[string](/API_docs/types/string.html) | Optional|Invitation link for the conference.|
+|send\_paid\_messages\_stars|[long](/API_docs/types/long.html) | Optional|
+|default\_send\_as|[Peer](/API_docs/types/Peer.html) | Optional|
 
 
 
@@ -48,5 +50,5 @@ Info about a group call or livestream
 ### Example:
 
 ```
-$groupCall = ['_' => 'groupCall', 'join_muted' => Bool, 'can_change_join_muted' => Bool, 'join_date_asc' => Bool, 'schedule_start_subscribed' => Bool, 'can_start_video' => Bool, 'record_video_active' => Bool, 'rtmp_stream' => Bool, 'listeners_hidden' => Bool, 'conference' => Bool, 'creator' => Bool, 'messages_enabled' => Bool, 'can_change_messages_enabled' => Bool, 'min' => Bool, 'id' => long, 'access_hash' => long, 'participants_count' => int, 'title' => 'string', 'stream_dc_id' => int, 'record_start_date' => int, 'schedule_date' => int, 'unmuted_video_count' => int, 'unmuted_video_limit' => int, 'version' => int, 'invite_link' => 'string'];
+$groupCall = ['_' => 'groupCall', 'join_muted' => Bool, 'can_change_join_muted' => Bool, 'join_date_asc' => Bool, 'schedule_start_subscribed' => Bool, 'can_start_video' => Bool, 'record_video_active' => Bool, 'rtmp_stream' => Bool, 'listeners_hidden' => Bool, 'conference' => Bool, 'creator' => Bool, 'messages_enabled' => Bool, 'can_change_messages_enabled' => Bool, 'min' => Bool, 'id' => long, 'access_hash' => long, 'participants_count' => int, 'title' => 'string', 'stream_dc_id' => int, 'record_start_date' => int, 'schedule_date' => int, 'unmuted_video_count' => int, 'unmuted_video_limit' => int, 'version' => int, 'invite_link' => 'string', 'send_paid_messages_stars' => long, 'default_send_as' => Peer];
 ```  

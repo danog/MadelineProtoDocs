@@ -971,6 +971,9 @@ Here's a full list of all MTProto filters (click on each filter name to view the
 * [onUpdateGroupCallEncryptedMessage &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateGroupCallEncryptedMessage.html) - 
 * [onUpdatePinnedForumTopic &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updatePinnedForumTopic.html) - 
 * [onUpdatePinnedForumTopics &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updatePinnedForumTopics.html) - 
+* [onUpdateDeleteGroupCallMessages &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateDeleteGroupCallMessages.html) - 
+* [onUpdateStarGiftAuctionState &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateStarGiftAuctionState.html) - 
+* [onUpdateStarGiftAuctionUserState &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateStarGiftAuctionUserState.html) - 
 
 
 <!-- cut_here_end mtprotofilters -->
