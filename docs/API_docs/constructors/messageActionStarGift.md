@@ -35,6 +35,7 @@ You received a [gift, see here »](https://core.telegram.org/api/gifts) for more
 |prepaid\_upgrade\_hash|[string](/API_docs/types/string.html) | Optional|[Hash to prepay for a gift upgrade separately »](https://core.telegram.org/api/gifts#prepaying-for-someone-elses-upgrade).|
 |gift\_msg\_id|[int](/API_docs/types/int.html) | Optional|For [separate upgrades](https://core.telegram.org/api/gifts#prepaying-for-someone-elses-upgrade), the identifier of the message with the gift whose upgrade was prepaid (only valid for the receiver of the service message).|
 |to\_id|[Peer](/API_docs/types/Peer.html) | Optional|
+|gift\_num|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -44,5 +45,5 @@ You received a [gift, see here »](https://core.telegram.org/api/gifts) for more
 ### Example:
 
 ```
-$messageActionStarGift = ['_' => 'messageActionStarGift', 'name_hidden' => Bool, 'saved' => Bool, 'converted' => Bool, 'upgraded' => Bool, 'refunded' => Bool, 'can_upgrade' => Bool, 'prepaid_upgrade' => Bool, 'upgrade_separate' => Bool, 'auction_acquired' => Bool, 'gift' => StarGift, 'message' => TextWithEntities, 'convert_stars' => long, 'upgrade_msg_id' => int, 'upgrade_stars' => long, 'from_id' => Peer, 'peer' => long, 'saved_id' => long, 'prepaid_upgrade_hash' => 'string', 'gift_msg_id' => int, 'to_id' => Peer];
+$messageActionStarGift = ['_' => 'messageActionStarGift', 'name_hidden' => Bool, 'saved' => Bool, 'converted' => Bool, 'upgraded' => Bool, 'refunded' => Bool, 'can_upgrade' => Bool, 'prepaid_upgrade' => Bool, 'upgrade_separate' => Bool, 'auction_acquired' => Bool, 'gift' => StarGift, 'message' => TextWithEntities, 'convert_stars' => long, 'upgrade_msg_id' => int, 'upgrade_stars' => long, 'from_id' => Peer, 'peer' => long, 'saved_id' => long, 'prepaid_upgrade_hash' => 'string', 'gift_msg_id' => int, 'to_id' => Peer, 'gift_num' => int];
 ```  

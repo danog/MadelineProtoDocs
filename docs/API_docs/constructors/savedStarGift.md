@@ -36,6 +36,7 @@ Represents a [gift](https://core.telegram.org/api/gifts) owned by a peer.
 |collection\_id|Array of [int](/API_docs/types/int.html) | Optional|IDs of the [collections »](https://core.telegram.org/api/gifts#gift-collections) that this gift is a part of.|
 |prepaid\_upgrade\_hash|[string](/API_docs/types/string.html) | Optional|[Hash to prepay for a gift upgrade separately »](https://core.telegram.org/api/gifts#prepaying-for-someone-elses-upgrade).|
 |drop\_original\_details\_stars|[long](/API_docs/types/long.html) | Optional|
+|gift\_num|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -45,5 +46,5 @@ Represents a [gift](https://core.telegram.org/api/gifts) owned by a peer.
 ### Example:
 
 ```
-$savedStarGift = ['_' => 'savedStarGift', 'name_hidden' => Bool, 'unsaved' => Bool, 'refunded' => Bool, 'can_upgrade' => Bool, 'pinned_to_top' => Bool, 'upgrade_separate' => Bool, 'from_id' => Peer, 'date' => int, 'gift' => StarGift, 'message' => TextWithEntities, 'msg_id' => int, 'saved_id' => long, 'convert_stars' => long, 'upgrade_stars' => long, 'can_export_at' => int, 'transfer_stars' => long, 'can_transfer_at' => int, 'can_resell_at' => int, 'collection_id' => [int, int], 'prepaid_upgrade_hash' => 'string', 'drop_original_details_stars' => long];
+$savedStarGift = ['_' => 'savedStarGift', 'name_hidden' => Bool, 'unsaved' => Bool, 'refunded' => Bool, 'can_upgrade' => Bool, 'pinned_to_top' => Bool, 'upgrade_separate' => Bool, 'from_id' => Peer, 'date' => int, 'gift' => StarGift, 'message' => TextWithEntities, 'msg_id' => int, 'saved_id' => long, 'convert_stars' => long, 'upgrade_stars' => long, 'can_export_at' => int, 'transfer_stars' => long, 'can_transfer_at' => int, 'can_resell_at' => int, 'collection_id' => [int, int], 'prepaid_upgrade_hash' => 'string', 'drop_original_details_stars' => long, 'gift_num' => int];
 ```  

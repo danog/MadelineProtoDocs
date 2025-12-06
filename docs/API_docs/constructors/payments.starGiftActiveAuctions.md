@@ -16,6 +16,7 @@ redirect_from: /API_docs/constructors/payments_starGiftActiveAuctions.html
 |----------|---------------|----------|
 |auctions|Array of [StarGiftActiveAuctionState](/API_docs/types/StarGiftActiveAuctionState.html) | Yes|
 |users|Array of [User](/API_docs/types/User.html) | Yes|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
 
 
 
@@ -25,5 +26,5 @@ redirect_from: /API_docs/constructors/payments_starGiftActiveAuctions.html
 ### Example:
 
 ```
-$payments_starGiftActiveAuctions = ['_' => 'payments.starGiftActiveAuctions', 'auctions' => [StarGiftActiveAuctionState, StarGiftActiveAuctionState], 'users' => [User, User]];
+$payments_starGiftActiveAuctions = ['_' => 'payments.starGiftActiveAuctions', 'auctions' => [StarGiftActiveAuctionState, StarGiftActiveAuctionState], 'users' => [User, User], 'chats' => [Chat, Chat]];
 ```  

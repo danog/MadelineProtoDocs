@@ -1896,7 +1896,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.updatePasswordSettings.html" name="account.updatePasswordSettings">You cannot use this method directly; use $MadelineProto->update2fa($params), instead (see https://docs.madelineproto.xyz for more info): account.updatePasswordSettings</a>
 
+* <a href="account.deletePasskey.html" name="account.deletePasskey">account.deletePasskey</a>
+
+* <a href="account.getPasskeys.html" name="account.getPasskeys">account.getPasskeys</a>
+
+* <a href="account.initPasskeyRegistration.html" name="account.initPasskeyRegistration">account.initPasskeyRegistration</a>
+
+* <a href="account.registerPasskey.html" name="account.registerPasskey">account.registerPasskey</a>
+
 * <a href="auth.checkPaidAuth.html" name="auth.checkPaidAuth">auth.checkPaidAuth</a>
+
+* <a href="auth.finishPasskeyLogin.html" name="auth.finishPasskeyLogin">auth.finishPasskeyLogin</a>
+
+* <a href="auth.initPasskeyLogin.html" name="auth.initPasskeyLogin">auth.initPasskeyLogin</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#base64urlDecode" name="base64urlDecode">base64URL decode: base64urlDecode</a>
 
@@ -1925,6 +1937,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="payments.getStarGiftAuctionAcquiredGifts.html" name="payments.getStarGiftAuctionAcquiredGifts">payments.getStarGiftAuctionAcquiredGifts</a>
 
 * <a href="payments.getStarGiftAuctionState.html" name="payments.getStarGiftAuctionState">payments.getStarGiftAuctionState</a>
+
+* <a href="payments.getStarGiftUpgradeAttributes.html" name="payments.getStarGiftUpgradeAttributes">payments.getStarGiftUpgradeAttributes</a>
+
+* <a href="payments.resolveStarGiftOffer.html" name="payments.resolveStarGiftOffer">payments.resolveStarGiftOffer</a>
+
+* <a href="payments.sendStarGiftOffer.html" name="payments.sendStarGiftOffer">payments.sendStarGiftOffer</a>
 
 * <a href="phone.deleteGroupCallMessages.html" name="phone.deleteGroupCallMessages">phone.deleteGroupCallMessages</a>
 

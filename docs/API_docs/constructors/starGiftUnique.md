@@ -36,9 +36,11 @@ The sticker that represents the gift is contained in a [starGiftAttributeModel](
 |released\_by|[Peer](/API_docs/types/Peer.html) | Optional|This gift was released by the specified peer.|
 |value\_amount|[long](/API_docs/types/long.html) | Optional|Price of the gift.|
 |value\_currency|[string](/API_docs/types/string.html) | Optional|Currency for the gift's price.|
+|value\_usd\_amount|[long](/API_docs/types/long.html) | Optional|
 |theme\_peer|[Peer](/API_docs/types/Peer.html) | Optional|The current chat where the associated [chat theme](https://core.telegram.org/api/themes#chat-themes) is installed, if any (gift-based themes can only be installed in one chat at a time).|
 |peer\_color|[PeerColor](/API_docs/types/PeerColor.html) | Optional|
 |host\_id|[Peer](/API_docs/types/Peer.html) | Optional|
+|offer\_min\_stars|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -48,5 +50,5 @@ The sticker that represents the gift is contained in a [starGiftAttributeModel](
 ### Example:
 
 ```
-$starGiftUnique = ['_' => 'starGiftUnique', 'require_premium' => Bool, 'resale_ton_only' => Bool, 'theme_available' => Bool, 'id' => long, 'gift_id' => long, 'title' => 'string', 'slug' => 'string', 'num' => int, 'owner_id' => Peer, 'owner_name' => 'string', 'owner_address' => 'string', 'attributes' => [StarGiftAttribute, StarGiftAttribute], 'availability_issued' => int, 'availability_total' => int, 'gift_address' => 'string', 'resell_amount' => [StarsAmount, StarsAmount], 'released_by' => Peer, 'value_amount' => long, 'value_currency' => 'string', 'theme_peer' => Peer, 'peer_color' => PeerColor, 'host_id' => Peer];
+$starGiftUnique = ['_' => 'starGiftUnique', 'require_premium' => Bool, 'resale_ton_only' => Bool, 'theme_available' => Bool, 'id' => long, 'gift_id' => long, 'title' => 'string', 'slug' => 'string', 'num' => int, 'owner_id' => Peer, 'owner_name' => 'string', 'owner_address' => 'string', 'attributes' => [StarGiftAttribute, StarGiftAttribute], 'availability_issued' => int, 'availability_total' => int, 'gift_address' => 'string', 'resell_amount' => [StarsAmount, StarsAmount], 'released_by' => Peer, 'value_amount' => long, 'value_currency' => 'string', 'value_usd_amount' => long, 'theme_peer' => Peer, 'peer_color' => PeerColor, 'host_id' => Peer, 'offer_min_stars' => int];
 ```  

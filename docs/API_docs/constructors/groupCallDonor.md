@@ -15,7 +15,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |----------|---------------|----------|
 |top|[Bool](/API_docs/types/Bool.html) | Optional|
 |my|[Bool](/API_docs/types/Bool.html) | Optional|
-|anonymous|[Bool](/API_docs/types/Bool.html) | Optional|
 |peer\_id|[Peer](/API_docs/types/Peer.html) | Optional|
 |stars|[long](/API_docs/types/long.html) | Yes|
 
@@ -27,5 +26,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$groupCallDonor = ['_' => 'groupCallDonor', 'top' => Bool, 'my' => Bool, 'anonymous' => Bool, 'peer_id' => Peer, 'stars' => long];
+$groupCallDonor = ['_' => 'groupCallDonor', 'top' => Bool, 'my' => Bool, 'peer_id' => Peer, 'stars' => long];
 ```  

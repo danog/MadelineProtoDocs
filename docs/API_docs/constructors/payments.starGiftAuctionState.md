@@ -19,6 +19,7 @@ redirect_from: /API_docs/constructors/payments_starGiftAuctionState.html
 |user\_state|[StarGiftAuctionUserState](/API_docs/types/StarGiftAuctionUserState.html) | Yes|
 |timeout|[int](/API_docs/types/int.html) | Yes|
 |users|Array of [User](/API_docs/types/User.html) | Yes|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|
 
 
 
@@ -28,5 +29,5 @@ redirect_from: /API_docs/constructors/payments_starGiftAuctionState.html
 ### Example:
 
 ```
-$payments_starGiftAuctionState = ['_' => 'payments.starGiftAuctionState', 'gift' => StarGift, 'state' => StarGiftAuctionState, 'user_state' => StarGiftAuctionUserState, 'timeout' => int, 'users' => [User, User]];
+$payments_starGiftAuctionState = ['_' => 'payments.starGiftAuctionState', 'gift' => StarGift, 'state' => StarGiftAuctionState, 'user_state' => StarGiftAuctionUserState, 'timeout' => int, 'users' => [User, User], 'chats' => [Chat, Chat]];
 ```  

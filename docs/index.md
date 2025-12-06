@@ -1262,7 +1262,13 @@ Some of MadelineProto's core components are also available as separate, standalo
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#wrapPin" name="wrapPin">Wrap a Pin constructor into an abstract Pinned object: wrapPin</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#wrapMedia" name="wrapMedia">Wrap a media constructor into an abstract Media object: wrapMedia</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#wrapUpdate" name="wrapUpdate">Wrap an Update constructor into an abstract Update object: wrapUpdate</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/account.deletePasskey.html" name="account.deletePasskey">account.deletePasskey</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/account.getPasskeys.html" name="account.getPasskeys">account.getPasskeys</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/account.initPasskeyRegistration.html" name="account.initPasskeyRegistration">account.initPasskeyRegistration</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/account.registerPasskey.html" name="account.registerPasskey">account.registerPasskey</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/auth.checkPaidAuth.html" name="auth.checkPaidAuth">auth.checkPaidAuth</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/auth.finishPasskeyLogin.html" name="auth.finishPasskeyLogin">auth.finishPasskeyLogin</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/auth.initPasskeyLogin.html" name="auth.initPasskeyLogin">auth.initPasskeyLogin</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#base64urlDecode" name="base64urlDecode">base64URL decode: base64urlDecode</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/contacts.updateContactNote.html" name="contacts.updateContactNote">contacts.updateContactNote</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.createForumTopic.html" name="messages.createForumTopic">messages.createForumTopic</a>
@@ -1277,6 +1283,9 @@ Some of MadelineProto's core components are also available as separate, standalo
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getStarGiftActiveAuctions.html" name="payments.getStarGiftActiveAuctions">payments.getStarGiftActiveAuctions</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getStarGiftAuctionAcquiredGifts.html" name="payments.getStarGiftAuctionAcquiredGifts">payments.getStarGiftAuctionAcquiredGifts</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getStarGiftAuctionState.html" name="payments.getStarGiftAuctionState">payments.getStarGiftAuctionState</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getStarGiftUpgradeAttributes.html" name="payments.getStarGiftUpgradeAttributes">payments.getStarGiftUpgradeAttributes</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.resolveStarGiftOffer.html" name="payments.resolveStarGiftOffer">payments.resolveStarGiftOffer</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.sendStarGiftOffer.html" name="payments.sendStarGiftOffer">payments.sendStarGiftOffer</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/phone.deleteGroupCallMessages.html" name="phone.deleteGroupCallMessages">phone.deleteGroupCallMessages</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/phone.deleteGroupCallParticipantMessages.html" name="phone.deleteGroupCallParticipantMessages">phone.deleteGroupCallParticipantMessages</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/phone.getGroupCallStars.html" name="phone.getGroupCallStars">phone.getGroupCallStars</a>

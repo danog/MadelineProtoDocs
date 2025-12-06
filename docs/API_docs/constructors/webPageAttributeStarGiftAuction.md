@@ -15,9 +15,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |----------|---------------|----------|
 |gift|[StarGift](/API_docs/types/StarGift.html) | Yes|
 |end\_date|[int](/API_docs/types/int.html) | Yes|
-|center\_color|[int](/API_docs/types/int.html) | Yes|
-|edge\_color|[int](/API_docs/types/int.html) | Yes|
-|text\_color|[int](/API_docs/types/int.html) | Yes|
 
 
 
@@ -27,5 +24,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$webPageAttributeStarGiftAuction = ['_' => 'webPageAttributeStarGiftAuction', 'gift' => StarGift, 'end_date' => int, 'center_color' => int, 'edge_color' => int, 'text_color' => int];
+$webPageAttributeStarGiftAuction = ['_' => 'webPageAttributeStarGiftAuction', 'gift' => StarGift, 'end_date' => int];
 ```  

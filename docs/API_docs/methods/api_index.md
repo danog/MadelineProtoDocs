@@ -93,6 +93,10 @@ $MadelineProto->[account->deleteBusinessChatLink](/API_docs/methods/account.dele
 
 ***
 <br><br>
+$MadelineProto->[account->deletePasskey](/API_docs/methods/account.deletePasskey.html)(\[id: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.deletePasskey"></a>  
+
+***
+<br><br>
 $MadelineProto->[account->deleteSecureValue](/API_docs/methods/account.deleteSecureValue.html)(\[types: \[$[SecureValueType](/API_docs/types/SecureValueType.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.deleteSecureValue"></a>  
 
 ***
@@ -205,6 +209,10 @@ $MadelineProto->[account->getPaidMessagesRevenue](/API_docs/methods/account.getP
 
 ***
 <br><br>
+$MadelineProto->[account->getPasskeys](/API_docs/methods/account.getPasskeys.html)(\[\]) === [$account.Passkeys](/API_docs/types/account.Passkeys.html)<a name="account.getPasskeys"></a>  
+
+***
+<br><br>
 $MadelineProto->[account->getPassword](/API_docs/methods/account.getPassword.html)(\[\]) === [$account.Password](/API_docs/types/account.Password.html)<a name="account.getPassword"></a>  
 
 ***
@@ -265,6 +273,10 @@ $MadelineProto->[account->getWebAuthorizations](/API_docs/methods/account.getWeb
 
 ***
 <br><br>
+$MadelineProto->[account->initPasskeyRegistration](/API_docs/methods/account.initPasskeyRegistration.html)(\[\]) === [$account.PasskeyRegistrationOptions](/API_docs/types/account.PasskeyRegistrationOptions.html)<a name="account.initPasskeyRegistration"></a>  
+
+***
+<br><br>
 $MadelineProto->[account->initTakeoutSession](/API_docs/methods/account.initTakeoutSession.html)(\[contacts: $[Bool](/API_docs/types/Bool.html), message_users: $[Bool](/API_docs/types/Bool.html), message_chats: $[Bool](/API_docs/types/Bool.html), message_megagroups: $[Bool](/API_docs/types/Bool.html), message_channels: $[Bool](/API_docs/types/Bool.html), files: $[Bool](/API_docs/types/Bool.html), file_max_size: $[long](/API_docs/types/long.html), \]) === [$account.Takeout](/API_docs/types/account.Takeout.html)<a name="account.initTakeoutSession"></a>  
 
 ***
@@ -282,6 +294,10 @@ $MadelineProto->[account->invalidateSignInCodes](/API_docs/methods/account.inval
 ***
 <br><br>
 $MadelineProto->[account->registerDevice](/API_docs/methods/account.registerDevice.html)(\[no_muted: $[Bool](/API_docs/types/Bool.html), token_type: $[int](/API_docs/types/int.html), token: $[string](/API_docs/types/string.html), app_sandbox: $[Bool](/API_docs/types/Bool.html), secret: $[bytes](/API_docs/types/bytes.html), other_uids: \[$[long](/API_docs/types/long.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="account.registerDevice"></a>  
+
+***
+<br><br>
+$MadelineProto->[account->registerPasskey](/API_docs/methods/account.registerPasskey.html)(\[credential: $[InputPasskeyCredential](/API_docs/types/InputPasskeyCredential.html), \]) === [$Passkey](/API_docs/types/Passkey.html)<a name="account.registerPasskey"></a>  
 
 ***
 <br><br>
@@ -549,6 +565,10 @@ $MadelineProto->[auth->exportLoginToken](/API_docs/methods/auth.exportLoginToken
 
 ***
 <br><br>
+$MadelineProto->[auth->finishPasskeyLogin](/API_docs/methods/auth.finishPasskeyLogin.html)(\[credential: $[InputPasskeyCredential](/API_docs/types/InputPasskeyCredential.html), from_dc_id: $[int](/API_docs/types/int.html), from_auth_key_id: $[long](/API_docs/types/long.html), \]) === [$auth.Authorization](/API_docs/types/auth.Authorization.html)<a name="auth.finishPasskeyLogin"></a>  
+
+***
+<br><br>
 $MadelineProto->[auth->importAuthorization](/API_docs/methods/auth.importAuthorization.html)(\[id: $[long](/API_docs/types/long.html), bytes: $[bytes](/API_docs/types/bytes.html), \]) === [$auth.Authorization](/API_docs/types/auth.Authorization.html)<a name="auth.importAuthorization"></a>  
 
 ***
@@ -562,6 +582,10 @@ $MadelineProto->[auth->importLoginToken](/API_docs/methods/auth.importLoginToken
 ***
 <br><br>
 $MadelineProto->[auth->importWebTokenAuthorization](/API_docs/methods/auth.importWebTokenAuthorization.html)(\[api_id: $[int](/API_docs/types/int.html), api_hash: $[string](/API_docs/types/string.html), web_auth_token: $[string](/API_docs/types/string.html), \]) === [$auth.Authorization](/API_docs/types/auth.Authorization.html)<a name="auth.importWebTokenAuthorization"></a>  
+
+***
+<br><br>
+$MadelineProto->[auth->initPasskeyLogin](/API_docs/methods/auth.initPasskeyLogin.html)(\[api_id: $[int](/API_docs/types/int.html), api_hash: $[string](/API_docs/types/string.html), \]) === [$auth.PasskeyLoginOptions](/API_docs/types/auth.PasskeyLoginOptions.html)<a name="auth.initPasskeyLogin"></a>  
 
 ***
 <br><br>
@@ -1457,7 +1481,7 @@ $MadelineProto->[messages->faveSticker](/API_docs/methods/messages.faveSticker.h
 
 ***
 <br><br>
-$MadelineProto->[messages->forwardMessages](/API_docs/methods/messages.forwardMessages.html)(\[silent: $[Bool](/API_docs/types/Bool.html), background: $[Bool](/API_docs/types/Bool.html), with_my_score: $[Bool](/API_docs/types/Bool.html), drop_author: $[Bool](/API_docs/types/Bool.html), drop_media_captions: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), allow_paid_floodskip: $[Bool](/API_docs/types/Bool.html), from_peer: $[InputPeer](/API_docs/types/InputPeer.html), id: \[$[int](/API_docs/types/int.html)\], to_peer: $[InputPeer](/API_docs/types/InputPeer.html), top_msg_id: $[int](/API_docs/types/int.html), reply_to: $[InputReplyTo](/API_docs/types/InputReplyTo.html), schedule_date: $[int](/API_docs/types/int.html), schedule_repeat_period: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), quick_reply_shortcut: $[InputQuickReplyShortcut](/API_docs/types/InputQuickReplyShortcut.html), video_timestamp: $[int](/API_docs/types/int.html), allow_paid_stars: $[long](/API_docs/types/long.html), suggested_post: $[SuggestedPost](/API_docs/types/SuggestedPost.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.forwardMessages"></a>  
+$MadelineProto->[messages->forwardMessages](/API_docs/methods/messages.forwardMessages.html)(\[silent: $[Bool](/API_docs/types/Bool.html), background: $[Bool](/API_docs/types/Bool.html), with_my_score: $[Bool](/API_docs/types/Bool.html), drop_author: $[Bool](/API_docs/types/Bool.html), drop_media_captions: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), allow_paid_floodskip: $[Bool](/API_docs/types/Bool.html), from_peer: $[InputPeer](/API_docs/types/InputPeer.html), id: \[$[int](/API_docs/types/int.html)\], to_peer: $[InputPeer](/API_docs/types/InputPeer.html), top_msg_id: $[int](/API_docs/types/int.html), reply_to: $[InputReplyTo](/API_docs/types/InputReplyTo.html), schedule_date: $[int](/API_docs/types/int.html), schedule_repeat_period: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), quick_reply_shortcut: $[InputQuickReplyShortcut](/API_docs/types/InputQuickReplyShortcut.html), effect: $[long](/API_docs/types/long.html), video_timestamp: $[int](/API_docs/types/int.html), allow_paid_stars: $[long](/API_docs/types/long.html), suggested_post: $[SuggestedPost](/API_docs/types/SuggestedPost.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.forwardMessages"></a>  
 
 ***
 <br><br>
@@ -2365,6 +2389,10 @@ $MadelineProto->[payments->getStarGiftCollections](/API_docs/methods/payments.ge
 
 ***
 <br><br>
+$MadelineProto->[payments->getStarGiftUpgradeAttributes](/API_docs/methods/payments.getStarGiftUpgradeAttributes.html)(\[gift_id: $[long](/API_docs/types/long.html), \]) === [$payments.StarGiftUpgradeAttributes](/API_docs/types/payments.StarGiftUpgradeAttributes.html)<a name="payments.getStarGiftUpgradeAttributes"></a>  
+
+***
+<br><br>
 $MadelineProto->[payments->getStarGiftUpgradePreview](/API_docs/methods/payments.getStarGiftUpgradePreview.html)(\[gift_id: $[long](/API_docs/types/long.html), \]) === [$payments.StarGiftUpgradePreview](/API_docs/types/payments.StarGiftUpgradePreview.html)<a name="payments.getStarGiftUpgradePreview"></a>  
 
 ***
@@ -2441,11 +2469,19 @@ $MadelineProto->[payments->reorderStarGiftCollections](/API_docs/methods/payment
 
 ***
 <br><br>
+$MadelineProto->[payments->resolveStarGiftOffer](/API_docs/methods/payments.resolveStarGiftOffer.html)(\[decline: $[Bool](/API_docs/types/Bool.html), offer_msg_id: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.resolveStarGiftOffer"></a>  
+
+***
+<br><br>
 $MadelineProto->[payments->saveStarGift](/API_docs/methods/payments.saveStarGift.html)(\[unsave: $[Bool](/API_docs/types/Bool.html), stargift: $[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.saveStarGift"></a>  
 
 ***
 <br><br>
 $MadelineProto->[payments->sendPaymentForm](/API_docs/methods/payments.sendPaymentForm.html)(\[form_id: $[long](/API_docs/types/long.html), invoice: $[InputInvoice](/API_docs/types/InputInvoice.html), requested_info_id: $[string](/API_docs/types/string.html), shipping_option_id: $[string](/API_docs/types/string.html), credentials: $[InputPaymentCredentials](/API_docs/types/InputPaymentCredentials.html), tip_amount: $[long](/API_docs/types/long.html), \]) === [$payments.PaymentResult](/API_docs/types/payments.PaymentResult.html)<a name="payments.sendPaymentForm"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->sendStarGiftOffer](/API_docs/methods/payments.sendStarGiftOffer.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), slug: $[string](/API_docs/types/string.html), price: $[StarsAmount](/API_docs/types/StarsAmount.html), duration: $[int](/API_docs/types/int.html), allow_paid_stars: $[long](/API_docs/types/long.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.sendStarGiftOffer"></a>  
 
 ***
 <br><br>

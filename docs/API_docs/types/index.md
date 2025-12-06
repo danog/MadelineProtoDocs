@@ -327,6 +327,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [InputNotifyPeer](/API_docs/types/InputNotifyPeer.html)<a name="InputNotifyPeer"></a>  
 
+[InputPasskeyCredential](/API_docs/types/InputPasskeyCredential.html)<a name="InputPasskeyCredential"></a>  
+
+[InputPasskeyResponse](/API_docs/types/InputPasskeyResponse.html)<a name="InputPasskeyResponse"></a>  
+
 [InputPaymentCredentials](/API_docs/types/InputPaymentCredentials.html)<a name="InputPaymentCredentials"></a>  
 
 [InputPeer](/API_docs/types/InputPeer.html)<a name="InputPeer"></a>  
@@ -464,6 +468,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [PageTableRow](/API_docs/types/PageTableRow.html)<a name="PageTableRow"></a>  
 
 [PaidReactionPrivacy](/API_docs/types/PaidReactionPrivacy.html)<a name="PaidReactionPrivacy"></a>  
+
+[Passkey](/API_docs/types/Passkey.html)<a name="Passkey"></a>  
 
 [PasswordKdfAlgo](/API_docs/types/PasswordKdfAlgo.html)<a name="PasswordKdfAlgo"></a>  
 
@@ -627,9 +633,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [StarGiftAuctionAcquiredGift](/API_docs/types/StarGiftAuctionAcquiredGift.html)<a name="StarGiftAuctionAcquiredGift"></a>  
 
+[StarGiftAuctionRound](/API_docs/types/StarGiftAuctionRound.html)<a name="StarGiftAuctionRound"></a>  
+
 [StarGiftAuctionState](/API_docs/types/StarGiftAuctionState.html)<a name="StarGiftAuctionState"></a>  
 
 [StarGiftAuctionUserState](/API_docs/types/StarGiftAuctionUserState.html)<a name="StarGiftAuctionUserState"></a>  
+
+[StarGiftBackground](/API_docs/types/StarGiftBackground.html)<a name="StarGiftBackground"></a>  
 
 [StarGiftCollection](/API_docs/types/StarGiftCollection.html)<a name="StarGiftCollection"></a>  
 
@@ -781,6 +791,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [account.PaidMessagesRevenue](/API_docs/types/account.PaidMessagesRevenue.html)<a name="account.PaidMessagesRevenue"></a>  
 
+[account.PasskeyRegistrationOptions](/API_docs/types/account.PasskeyRegistrationOptions.html)<a name="account.PasskeyRegistrationOptions"></a>  
+
+[account.Passkeys](/API_docs/types/account.Passkeys.html)<a name="account.Passkeys"></a>  
+
 [account.Password](/API_docs/types/account.Password.html)<a name="account.Password"></a>  
 
 [account.PasswordInputSettings](/API_docs/types/account.PasswordInputSettings.html)<a name="account.PasswordInputSettings"></a>  
@@ -820,6 +834,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [auth.LoggedOut](/API_docs/types/auth.LoggedOut.html)<a name="auth.LoggedOut"></a>  
 
 [auth.LoginToken](/API_docs/types/auth.LoginToken.html)<a name="auth.LoginToken"></a>  
+
+[auth.PasskeyLoginOptions](/API_docs/types/auth.PasskeyLoginOptions.html)<a name="auth.PasskeyLoginOptions"></a>  
 
 [auth.PasswordRecovery](/API_docs/types/auth.PasswordRecovery.html)<a name="auth.PasswordRecovery"></a>  
 
@@ -1064,6 +1080,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [payments.StarGiftAuctionState](/API_docs/types/payments.StarGiftAuctionState.html)<a name="payments.StarGiftAuctionState"></a>  
 
 [payments.StarGiftCollections](/API_docs/types/payments.StarGiftCollections.html)<a name="payments.StarGiftCollections"></a>  
+
+[payments.StarGiftUpgradeAttributes](/API_docs/types/payments.StarGiftUpgradeAttributes.html)<a name="payments.StarGiftUpgradeAttributes"></a>  
 
 [payments.StarGiftUpgradePreview](/API_docs/types/payments.StarGiftUpgradePreview.html)<a name="payments.StarGiftUpgradePreview"></a>  
 

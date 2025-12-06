@@ -28,6 +28,7 @@ Represents a [Telegram Stars or TON transaction »](https://core.telegram.org/ap
 |stargift\_drop\_original\_details|[Bool](/API_docs/types/Bool.html) | Optional|
 |phonegroup\_message|[Bool](/API_docs/types/Bool.html) | Optional|
 |stargift\_auction\_bid|[Bool](/API_docs/types/Bool.html) | Optional|
+|offer|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[string](/API_docs/types/string.html) | Yes|Transaction ID.|
 |amount|[StarsAmount](/API_docs/types/StarsAmount.html) | Yes|Amount of Telegram Stars or TON.|
 |date|[int](/API_docs/types/int.html) | Yes|Date of the transaction (unixtime).|
@@ -60,5 +61,5 @@ Represents a [Telegram Stars or TON transaction »](https://core.telegram.org/ap
 ### Example:
 
 ```
-$starsTransaction = ['_' => 'starsTransaction', 'refund' => Bool, 'pending' => Bool, 'failed' => Bool, 'gift' => Bool, 'reaction' => Bool, 'stargift_upgrade' => Bool, 'business_transfer' => Bool, 'stargift_resale' => Bool, 'posts_search' => Bool, 'stargift_prepaid_upgrade' => Bool, 'stargift_drop_original_details' => Bool, 'phonegroup_message' => Bool, 'stargift_auction_bid' => Bool, 'id' => 'string', 'amount' => StarsAmount, 'date' => int, 'peer' => StarsTransactionPeer, 'title' => 'string', 'description' => 'string', 'photo' => WebDocument, 'transaction_date' => int, 'transaction_url' => 'string', 'bot_payload' => 'bytes', 'msg_id' => int, 'extended_media' => [MessageMedia, MessageMedia], 'subscription_period' => int, 'giveaway_post_id' => int, 'stargift' => StarGift, 'floodskip_number' => int, 'starref_commission_permille' => int, 'starref_peer' => Peer, 'starref_amount' => StarsAmount, 'paid_messages' => int, 'premium_gift_months' => int, 'ads_proceeds_from_date' => int, 'ads_proceeds_to_date' => int];
+$starsTransaction = ['_' => 'starsTransaction', 'refund' => Bool, 'pending' => Bool, 'failed' => Bool, 'gift' => Bool, 'reaction' => Bool, 'stargift_upgrade' => Bool, 'business_transfer' => Bool, 'stargift_resale' => Bool, 'posts_search' => Bool, 'stargift_prepaid_upgrade' => Bool, 'stargift_drop_original_details' => Bool, 'phonegroup_message' => Bool, 'stargift_auction_bid' => Bool, 'offer' => Bool, 'id' => 'string', 'amount' => StarsAmount, 'date' => int, 'peer' => StarsTransactionPeer, 'title' => 'string', 'description' => 'string', 'photo' => WebDocument, 'transaction_date' => int, 'transaction_url' => 'string', 'bot_payload' => 'bytes', 'msg_id' => int, 'extended_media' => [MessageMedia, MessageMedia], 'subscription_period' => int, 'giveaway_post_id' => int, 'stargift' => StarGift, 'floodskip_number' => int, 'starref_commission_permille' => int, 'starref_peer' => Peer, 'starref_amount' => StarsAmount, 'paid_messages' => int, 'premium_gift_months' => int, 'ads_proceeds_from_date' => int, 'ads_proceeds_to_date' => int];
 ```  

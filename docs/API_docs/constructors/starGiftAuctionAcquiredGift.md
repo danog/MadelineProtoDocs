@@ -20,6 +20,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |round|[int](/API_docs/types/int.html) | Yes|
 |pos|[int](/API_docs/types/int.html) | Yes|
 |message|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Optional|
+|gift\_num|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -29,5 +30,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$starGiftAuctionAcquiredGift = ['_' => 'starGiftAuctionAcquiredGift', 'name_hidden' => Bool, 'peer' => long, 'date' => int, 'bid_amount' => long, 'round' => int, 'pos' => int, 'message' => TextWithEntities];
+$starGiftAuctionAcquiredGift = ['_' => 'starGiftAuctionAcquiredGift', 'name_hidden' => Bool, 'peer' => long, 'date' => int, 'bid_amount' => long, 'round' => int, 'pos' => int, 'message' => TextWithEntities, 'gift_num' => int];
 ```  

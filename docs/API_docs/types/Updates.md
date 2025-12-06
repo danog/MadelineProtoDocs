@@ -224,6 +224,10 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->payments->updateStarGiftPrice](/API_docs/methods/payments.updateStarGiftPrice.html)  
 
+[$MadelineProto->payments->resolveStarGiftOffer](/API_docs/methods/payments.resolveStarGiftOffer.html)  
+
+[$MadelineProto->payments->sendStarGiftOffer](/API_docs/methods/payments.sendStarGiftOffer.html)  
+
 [$MadelineProto->phone->discardCall](/API_docs/methods/phone.discardCall.html)  
 
 [$MadelineProto->phone->setCallRating](/API_docs/methods/phone.setCallRating.html)  

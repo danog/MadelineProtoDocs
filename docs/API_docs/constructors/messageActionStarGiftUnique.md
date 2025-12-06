@@ -21,6 +21,7 @@ A [gift »](https://core.telegram.org/api/gifts) was upgraded to a [collectible 
 |refunded|[Bool](/API_docs/types/Bool.html) | Optional|This gift was upgraded to a [collectible gift »](https://core.telegram.org/api/gifts#collectible-gifts) and then re-downgraded to a regular gift because a request to refund the payment related to the upgrade was made, and the money was returned.|
 |prepaid\_upgrade|[Bool](/API_docs/types/Bool.html) | Optional|The sender has pre-paid for the upgrade of this gift to a collectible gift.|
 |assigned|[Bool](/API_docs/types/Bool.html) | Optional|
+|from\_offer|[Bool](/API_docs/types/Bool.html) | Optional|
 |gift|[StarGift](/API_docs/types/StarGift.html) | Yes|The collectible gift.|
 |can\_export\_at|[int](/API_docs/types/int.html) | Optional|If set, indicates that the current gift can't be [exported to the TON blockchain »](https://core.telegram.org/api/gifts#withdraw-a-collectible-gift-to-the-ton-blockchain) yet: the owner will be able to export it at the specified unixtime.|
 |transfer\_stars|[long](/API_docs/types/long.html) | Optional|If set, indicates that the gift can be [transferred »](https://core.telegram.org/api/gifts#transferring-collectible-gifts) to another user by paying the specified amount of stars.|
@@ -40,5 +41,5 @@ A [gift »](https://core.telegram.org/api/gifts) was upgraded to a [collectible 
 ### Example:
 
 ```
-$messageActionStarGiftUnique = ['_' => 'messageActionStarGiftUnique', 'upgrade' => Bool, 'transferred' => Bool, 'saved' => Bool, 'refunded' => Bool, 'prepaid_upgrade' => Bool, 'assigned' => Bool, 'gift' => StarGift, 'can_export_at' => int, 'transfer_stars' => long, 'from_id' => Peer, 'peer' => long, 'saved_id' => long, 'resale_amount' => StarsAmount, 'can_transfer_at' => int, 'can_resell_at' => int, 'drop_original_details_stars' => long];
+$messageActionStarGiftUnique = ['_' => 'messageActionStarGiftUnique', 'upgrade' => Bool, 'transferred' => Bool, 'saved' => Bool, 'refunded' => Bool, 'prepaid_upgrade' => Bool, 'assigned' => Bool, 'from_offer' => Bool, 'gift' => StarGift, 'can_export_at' => int, 'transfer_stars' => long, 'from_id' => Peer, 'peer' => long, 'saved_id' => long, 'resale_amount' => StarsAmount, 'can_transfer_at' => int, 'can_resell_at' => int, 'drop_original_details_stars' => long];
 ```  

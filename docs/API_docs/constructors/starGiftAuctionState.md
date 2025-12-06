@@ -20,9 +20,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |bid\_levels|Array of [AuctionBidLevel](/API_docs/types/AuctionBidLevel.html) | Yes|
 |top\_bidders|Array of [long](/API_docs/types/long.html) | Yes|
 |next\_round\_at|[int](/API_docs/types/int.html) | Yes|
+|last\_gift\_num|[int](/API_docs/types/int.html) | Yes|
 |gifts\_left|[int](/API_docs/types/int.html) | Yes|
 |current\_round|[int](/API_docs/types/int.html) | Yes|
 |total\_rounds|[int](/API_docs/types/int.html) | Yes|
+|rounds|Array of [StarGiftAuctionRound](/API_docs/types/StarGiftAuctionRound.html) | Yes|
 
 
 
@@ -32,5 +34,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$starGiftAuctionState = ['_' => 'starGiftAuctionState', 'version' => int, 'start_date' => int, 'end_date' => int, 'min_bid_amount' => long, 'bid_levels' => [AuctionBidLevel, AuctionBidLevel], 'top_bidders' => [long, long], 'next_round_at' => int, 'gifts_left' => int, 'current_round' => int, 'total_rounds' => int];
+$starGiftAuctionState = ['_' => 'starGiftAuctionState', 'version' => int, 'start_date' => int, 'end_date' => int, 'min_bid_amount' => long, 'bid_levels' => [AuctionBidLevel, AuctionBidLevel], 'top_bidders' => [long, long], 'next_round_at' => int, 'last_gift_num' => int, 'gifts_left' => int, 'current_round' => int, 'total_rounds' => int, 'rounds' => [StarGiftAuctionRound, StarGiftAuctionRound]];
 ```  

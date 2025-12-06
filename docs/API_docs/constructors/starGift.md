@@ -40,6 +40,9 @@ Represents a [star gift, see here »](https://core.telegram.org/api/gifts) for m
 |locked\_until\_date|[int](/API_docs/types/int.html) | Optional|If set, the specified gift *possibly* cannot be sent until the specified date, see [here »](https://core.telegram.org/api/gifts) for the full flow.|
 |auction\_slug|[string](/API_docs/types/string.html) | Optional|
 |gifts\_per\_round|[int](/API_docs/types/int.html) | Optional|
+|auction\_start\_date|[int](/API_docs/types/int.html) | Optional|
+|upgrade\_variants|[int](/API_docs/types/int.html) | Optional|
+|background|[StarGiftBackground](/API_docs/types/StarGiftBackground.html) | Optional|
 
 
 
@@ -49,5 +52,5 @@ Represents a [star gift, see here »](https://core.telegram.org/api/gifts) for m
 ### Example:
 
 ```
-$starGift = ['_' => 'starGift', 'limited' => Bool, 'sold_out' => Bool, 'birthday' => Bool, 'require_premium' => Bool, 'limited_per_user' => Bool, 'peer_color_available' => Bool, 'auction' => Bool, 'id' => long, 'sticker' => Document, 'stars' => long, 'availability_remains' => int, 'availability_total' => int, 'availability_resale' => long, 'convert_stars' => long, 'first_sale_date' => int, 'last_sale_date' => int, 'upgrade_stars' => long, 'resell_min_stars' => long, 'title' => 'string', 'released_by' => Peer, 'per_user_total' => int, 'per_user_remains' => int, 'locked_until_date' => int, 'auction_slug' => 'string', 'gifts_per_round' => int];
+$starGift = ['_' => 'starGift', 'limited' => Bool, 'sold_out' => Bool, 'birthday' => Bool, 'require_premium' => Bool, 'limited_per_user' => Bool, 'peer_color_available' => Bool, 'auction' => Bool, 'id' => long, 'sticker' => Document, 'stars' => long, 'availability_remains' => int, 'availability_total' => int, 'availability_resale' => long, 'convert_stars' => long, 'first_sale_date' => int, 'last_sale_date' => int, 'upgrade_stars' => long, 'resell_min_stars' => long, 'title' => 'string', 'released_by' => Peer, 'per_user_total' => int, 'per_user_remains' => int, 'locked_until_date' => int, 'auction_slug' => 'string', 'gifts_per_round' => int, 'auction_start_date' => int, 'upgrade_variants' => int, 'background' => StarGiftBackground];
 ```  

@@ -33,6 +33,7 @@ Forwards messages by their IDs.
 |schedule\_repeat\_period|[int](/API_docs/types/int.html) |  | Optional|
 |send\_as|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Forward the messages as the specified peer | Optional|
 |quick\_reply\_shortcut|[InputQuickReplyShortcut](/API_docs/types/InputQuickReplyShortcut.html) | Add the messages to the specified [quick reply shortcut »](https://core.telegram.org/api/business#quick-reply-shortcuts), instead. | Optional|
+|effect|[long](/API_docs/types/long.html) |  | Optional|
 |video\_timestamp|[int](/API_docs/types/int.html) | Start playing the video at the specified timestamp (seconds). | Optional|
 |allow\_paid\_stars|[long](/API_docs/types/long.html) | For [paid messages »](https://core.telegram.org/api/paid-messages), specifies the amount of [Telegram Stars](https://core.telegram.org/api/stars) the user has agreed to pay in order to send the message. | Optional|
 |suggested\_post|[SuggestedPost](/API_docs/types/SuggestedPost.html) | Used to [suggest a post to a channel, see here »](https://core.telegram.org/api/suggested-posts) for more info on the full flow. | Optional|
@@ -61,6 +62,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->forwardMessages(silent: $Bool, background: $Bool, with_my_score: $Bool, drop_author: $Bool, drop_media_captions: $Bool, noforwards: $Bool, allow_paid_floodskip: $Bool, from_peer: $InputPeer, id: [$int, $int], to_peer: $InputPeer, top_msg_id: $int, reply_to: $InputReplyTo, schedule_date: $int, schedule_repeat_period: $int, send_as: $InputPeer, quick_reply_shortcut: $InputQuickReplyShortcut, video_timestamp: $int, allow_paid_stars: $long, suggested_post: $SuggestedPost, );
+$Updates = $MadelineProto->messages->forwardMessages(silent: $Bool, background: $Bool, with_my_score: $Bool, drop_author: $Bool, drop_media_captions: $Bool, noforwards: $Bool, allow_paid_floodskip: $Bool, from_peer: $InputPeer, id: [$int, $int], to_peer: $InputPeer, top_msg_id: $int, reply_to: $InputReplyTo, schedule_date: $int, schedule_repeat_period: $int, send_as: $InputPeer, quick_reply_shortcut: $InputQuickReplyShortcut, effect: $long, video_timestamp: $int, allow_paid_stars: $long, suggested_post: $SuggestedPost, );
 ```
 

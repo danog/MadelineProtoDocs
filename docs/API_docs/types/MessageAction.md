@@ -127,6 +127,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageActionSuggestBirthday](/API_docs/constructors/messageActionSuggestBirthday.html)  
 
+[messageActionStarGiftPurchaseOffer](/API_docs/constructors/messageActionStarGiftPurchaseOffer.html)  
+
+[messageActionStarGiftPurchaseOfferDeclined](/API_docs/constructors/messageActionStarGiftPurchaseOfferDeclined.html)  
+
 
 
 ### Methods that return an object of this type (methods):
