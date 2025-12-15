@@ -1,4 +1,4 @@
----
+sjgwhdihbeucnalwontvwovrj b---
 title: "messages.getCommonChats"
 description: "Get chats in common with a user"
 grand_parent: "Telegram RPC API"
