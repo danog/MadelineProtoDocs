@@ -391,6 +391,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [KeyboardButtonRow](/API_docs/types/KeyboardButtonRow.html)<a name="KeyboardButtonRow"></a>  
 
+[KeyboardButtonStyle](/API_docs/types/KeyboardButtonStyle.html)<a name="KeyboardButtonStyle"></a>  
+
 [LabeledPrice](/API_docs/types/LabeledPrice.html)<a name="LabeledPrice"></a>  
 
 [LangPackDifference](/API_docs/types/LangPackDifference.html)<a name="LangPackDifference"></a>  
@@ -630,6 +632,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [StarGiftAttributeCounter](/API_docs/types/StarGiftAttributeCounter.html)<a name="StarGiftAttributeCounter"></a>  
 
 [StarGiftAttributeId](/API_docs/types/StarGiftAttributeId.html)<a name="StarGiftAttributeId"></a>  
+
+[StarGiftAttributeRarity](/API_docs/types/StarGiftAttributeRarity.html)<a name="StarGiftAttributeRarity"></a>  
 
 [StarGiftAuctionAcquiredGift](/API_docs/types/StarGiftAuctionAcquiredGift.html)<a name="StarGiftAuctionAcquiredGift"></a>  
 
@@ -968,6 +972,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [messages.Dialogs](/API_docs/types/messages.Dialogs.html)<a name="messages.Dialogs"></a>  
 
 [messages.DiscussionMessage](/API_docs/types/messages.DiscussionMessage.html)<a name="messages.DiscussionMessage"></a>  
+
+[messages.EmojiGameInfo](/API_docs/types/messages.EmojiGameInfo.html)<a name="messages.EmojiGameInfo"></a>  
+
+[messages.EmojiGameOutcome](/API_docs/types/messages.EmojiGameOutcome.html)<a name="messages.EmojiGameOutcome"></a>  
 
 [messages.EmojiGroups](/API_docs/types/messages.EmojiGroups.html)<a name="messages.EmojiGroups"></a>  
 

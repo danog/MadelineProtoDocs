@@ -17,6 +17,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |----------|---------------|----------|-------------|
 |value|[int](/API_docs/types/int.html) | Yes|[Dice value](https://core.telegram.org/api/dice)|
 |emoticon|[string](/API_docs/types/string.html) | Yes|The emoji, for now 🏀, 🎲 and 🎯 are supported|
+|game\_outcome|[messages.EmojiGameOutcome](/API_docs/constructors/messages.EmojiGameOutcome.html) | Optional|
 
 
 
@@ -26,5 +27,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$messageMediaDice = ['_' => 'messageMediaDice', 'value' => int, 'emoticon' => 'string'];
+$messageMediaDice = ['_' => 'messageMediaDice', 'value' => int, 'emoticon' => 'string', 'game_outcome' => messages.EmojiGameOutcome];
 ```  

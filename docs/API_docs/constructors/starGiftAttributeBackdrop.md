@@ -21,7 +21,7 @@ The backdrop of a [collectible gift »](https://core.telegram.org/api/gifts#coll
 |edge\_color|[int](/API_docs/types/int.html) | Yes|Color of the edges of the backdrop in RGB24 format.|
 |pattern\_color|[int](/API_docs/types/int.html) | Yes|Color of the [starGiftAttributePattern](../constructors/starGiftAttributePattern.html) applied on the backdrop in RGB24 format.|
 |text\_color|[int](/API_docs/types/int.html) | Yes|Color of the text on the backdrop in RGB24 format.|
-|rarity\_permille|[int](/API_docs/types/int.html) | Yes|The number of upgraded gifts that receive this backdrop for each 1000 gifts upgraded.|
+|rarity|[StarGiftAttributeRarity](/API_docs/types/StarGiftAttributeRarity.html) | Yes|
 
 
 
@@ -31,5 +31,5 @@ The backdrop of a [collectible gift »](https://core.telegram.org/api/gifts#coll
 ### Example:
 
 ```
-$starGiftAttributeBackdrop = ['_' => 'starGiftAttributeBackdrop', 'name' => 'string', 'backdrop_id' => int, 'center_color' => int, 'edge_color' => int, 'pattern_color' => int, 'text_color' => int, 'rarity_permille' => int];
+$starGiftAttributeBackdrop = ['_' => 'starGiftAttributeBackdrop', 'name' => 'string', 'backdrop_id' => int, 'center_color' => int, 'edge_color' => int, 'pattern_color' => int, 'text_color' => int, 'rarity' => StarGiftAttributeRarity];
 ```  

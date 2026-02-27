@@ -19,10 +19,10 @@ A participant that left the channel/supergroup.
 * `$peer`: `int` The peer that left
 
 ## Method list:
-* [`fromRawParticipant(array $rawParticipant): self`](#fromRawParticipant)
+* [`fromRawParticipant(array $rawParticipant): \danog\MadelineProto\EventHandler\Participant`](#fromRawParticipant)
 
 ## Methods:
-### <a name="fromRawParticipant"></a> `fromRawParticipant(array $rawParticipant): self`
+### <a name="fromRawParticipant"></a> `fromRawParticipant(array $rawParticipant): \danog\MadelineProto\EventHandler\Participant`
 
 
 

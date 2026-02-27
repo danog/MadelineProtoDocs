@@ -15,6 +15,7 @@ Button to request a user's phone number
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|style|[KeyboardButtonStyle](/API_docs/types/KeyboardButtonStyle.html) | Optional|
 |text|[string](/API_docs/types/string.html) | Yes|Button text|
 
 
@@ -25,5 +26,5 @@ Button to request a user's phone number
 ### Example:
 
 ```
-$keyboardButtonRequestPhone = ['_' => 'keyboardButtonRequestPhone', 'text' => 'string'];
+$keyboardButtonRequestPhone = ['_' => 'keyboardButtonRequestPhone', 'style' => KeyboardButtonStyle, 'text' => 'string'];
 ```  

@@ -24,7 +24,7 @@ Represents a login QR code.
 * [`expiresIn(): non-negative-int`](#expiresIn)
 * [`getExpirationCancellation(): \Amp\Cancellation`](#getExpirationCancellation)
 * [`getLoginCancellation(): \Amp\Cancellation`](#getLoginCancellation)
-* [`waitForLoginOrQrCodeExpiration((\Amp\Cancellation|null) $customCancellation = NULL): ?self`](#waitForLoginOrQrCodeExpiration)
+* [`waitForLoginOrQrCodeExpiration((\Amp\Cancellation|null) $customCancellation = NULL): ?\danog\MadelineProto\TL\Types\LoginQrCode`](#waitForLoginOrQrCodeExpiration)
 * [`getQRSvg(int $size = 400, int $margin = 4): string`](#getQRSvg)
 * [`getQRText(non-negative-int $margin = 2): string`](#getQRText)
 
@@ -68,7 +68,7 @@ Returns the number of seconds until the QR code expires.
 
 
 
-### <a name="waitForLoginOrQrCodeExpiration"></a> `waitForLoginOrQrCodeExpiration((\Amp\Cancellation|null) $customCancellation = NULL): ?self`
+### <a name="waitForLoginOrQrCodeExpiration"></a> `waitForLoginOrQrCodeExpiration((\Amp\Cancellation|null) $customCancellation = NULL): ?\danog\MadelineProto\TL\Types\LoginQrCode`
 
 Waits for the user to login or for the QR code to expire.
   

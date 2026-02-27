@@ -1912,6 +1912,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#base64urlDecode" name="base64urlDecode">base64URL decode: base64urlDecode</a>
 
+* <a href="channels.getFutureCreatorAfterLeave.html" name="channels.getFutureCreatorAfterLeave">channels.getFutureCreatorAfterLeave</a>
+
 * <a href="contacts.updateContactNote.html" name="contacts.updateContactNote">contacts.updateContactNote</a>
 
 * <a href="messages.createForumTopic.html" name="messages.createForumTopic">messages.createForumTopic</a>
@@ -1920,17 +1922,25 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.editForumTopic.html" name="messages.editForumTopic">messages.editForumTopic</a>
 
+* <a href="messages.getEmojiGameInfo.html" name="messages.getEmojiGameInfo">messages.getEmojiGameInfo</a>
+
 * <a href="messages.getForumTopics.html" name="messages.getForumTopics">messages.getForumTopics</a>
 
 * <a href="messages.getForumTopicsByID.html" name="messages.getForumTopicsByID">messages.getForumTopicsByID</a>
 
 * <a href="messages.reorderPinnedForumTopics.html" name="messages.reorderPinnedForumTopics">messages.reorderPinnedForumTopics</a>
 
+* <a href="messages.summarizeText.html" name="messages.summarizeText">messages.summarizeText</a>
+
 * <a href="messages.updatePinnedForumTopic.html" name="messages.updatePinnedForumTopic">messages.updatePinnedForumTopic</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleDecode" name="rleDecode">null-byte RLE decode: rleDecode</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleEncode" name="rleEncode">null-byte RLE encode: rleEncode</a>
+
+* <a href="payments.craftStarGift.html" name="payments.craftStarGift">payments.craftStarGift</a>
+
+* <a href="payments.getCraftStarGifts.html" name="payments.getCraftStarGifts">payments.getCraftStarGifts</a>
 
 * <a href="payments.getStarGiftActiveAuctions.html" name="payments.getStarGiftActiveAuctions">payments.getStarGiftActiveAuctions</a>
 

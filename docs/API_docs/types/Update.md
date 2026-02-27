@@ -311,6 +311,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateStarGiftAuctionUserState](/API_docs/constructors/updateStarGiftAuctionUserState.html)  
 
+[updateEmojiGameInfo](/API_docs/constructors/updateEmojiGameInfo.html)  
+
+[updateStarGiftCraftFail](/API_docs/constructors/updateStarGiftCraftFail.html)  
+
 
 
 ### Methods that return an object of this type (methods):

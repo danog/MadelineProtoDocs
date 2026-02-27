@@ -24,7 +24,7 @@ Message entity representing italic text.
 * [`toMTProto(): array`](#toMTProto)
 * [`__construct(int $offset, int $length)`](#__construct)
 * [`fromRawEntities(list<array> $entities): list<self>`](#fromRawEntities)
-* [`fromRawEntity(self|array $entity): self`](#fromRawEntity)
+* [`fromRawEntity(\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array $entity): \danog\MadelineProto\EventHandler\Message\Entities\MessageEntity`](#fromRawEntity)
 
 ## Methods:
 ### <a name="toBotAPI"></a> `toBotAPI(): array`
@@ -62,14 +62,14 @@ Parameters:
 
 
 
-### <a name="fromRawEntity"></a> `fromRawEntity(self|array $entity): self`
+### <a name="fromRawEntity"></a> `fromRawEntity(\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array $entity): \danog\MadelineProto\EventHandler\Message\Entities\MessageEntity`
 
 
 
 
 Parameters:
 
-* `$entity`: `self|array`   
+* `$entity`: `\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array`   
 
 
 

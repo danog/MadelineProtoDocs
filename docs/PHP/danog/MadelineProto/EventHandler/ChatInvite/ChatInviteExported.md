@@ -30,10 +30,10 @@ Represents an exported chat invite.
 * `$title`: `?string` Custom description for the invite link, visible only to admins.
 
 ## Method list:
-* [`fromRawChatInvite(array $rawChatInvite): self`](#fromRawChatInvite)
+* [`fromRawChatInvite(array $rawChatInvite): \danog\MadelineProto\EventHandler\ChatInvite`](#fromRawChatInvite)
 
 ## Methods:
-### <a name="fromRawChatInvite"></a> `fromRawChatInvite(array $rawChatInvite): self`
+### <a name="fromRawChatInvite"></a> `fromRawChatInvite(array $rawChatInvite): \danog\MadelineProto\EventHandler\ChatInvite`
 
 
 

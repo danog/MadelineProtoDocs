@@ -20,40 +20,40 @@ Connection settings.
 * [`__construct()`](#__construct)
 * [`init(): void`](#init)
 * [`getProtocol(): string`](#getProtocol)
-* [`setProtocol(class-string<\danog\MadelineProto\Stream\MTProtoBufferInterface> $protocol): self`](#setProtocol)
+* [`setProtocol(class-string<\danog\MadelineProto\Stream\MTProtoBufferInterface> $protocol): \danog\MadelineProto\Settings\Connection`](#setProtocol)
 * [`getIpv6(): bool`](#getIpv6)
-* [`setIpv6(bool $ipv6): self`](#setIpv6)
+* [`setIpv6(bool $ipv6): \danog\MadelineProto\Settings\Connection`](#setIpv6)
 * [`getSslSubdomains(): array`](#getSslSubdomains)
-* [`setSslSubdomains(array $sslSubdomains): self`](#setSslSubdomains)
+* [`setSslSubdomains(array $sslSubdomains): \danog\MadelineProto\Settings\Connection`](#setSslSubdomains)
 * [`getMaxMediaSocketCount(): int`](#getMaxMediaSocketCount)
-* [`setMaxMediaSocketCount(int $maxMediaSocketCount): self`](#setMaxMediaSocketCount)
+* [`setMaxMediaSocketCount(int $maxMediaSocketCount): \danog\MadelineProto\Settings\Connection`](#setMaxMediaSocketCount)
 * [`getRobinPeriod(): int`](#getRobinPeriod)
-* [`setRobinPeriod(int $robinPeriod): self`](#setRobinPeriod)
+* [`setRobinPeriod(int $robinPeriod): \danog\MadelineProto\Settings\Connection`](#setRobinPeriod)
 * [`getProxies(): array<class-string<\danog\MadelineProto\Stream\StreamInterface>, array>`](#getProxies)
-* [`addProxy(class-string<\danog\MadelineProto\Stream\StreamInterface> $proxy, array $extra = []): self`](#addProxy)
-* [`setProxies(array<class-string<\danog\MadelineProto\Stream\StreamInterface>, list<array>> $proxies): self`](#setProxies)
-* [`clearProxies(): self`](#clearProxies)
-* [`removeProxy(string $proxy, array $extra): self`](#removeProxy)
+* [`addProxy(class-string<\danog\MadelineProto\Stream\StreamInterface> $proxy, array $extra = []): \danog\MadelineProto\Settings\Connection`](#addProxy)
+* [`setProxies(array<class-string<\danog\MadelineProto\Stream\StreamInterface>, list<array>> $proxies): \danog\MadelineProto\Settings\Connection`](#setProxies)
+* [`clearProxies(): \danog\MadelineProto\Settings\Connection`](#clearProxies)
+* [`removeProxy(string $proxy, array $extra): \danog\MadelineProto\Settings\Connection`](#removeProxy)
 * [`getObfuscated(): bool`](#getObfuscated)
-* [`setObfuscated(bool $obfuscated): self`](#setObfuscated)
+* [`setObfuscated(bool $obfuscated): \danog\MadelineProto\Settings\Connection`](#setObfuscated)
 * [`getTestMode(): bool`](#getTestMode)
-* [`setTestMode(bool $testMode): self`](#setTestMode)
+* [`setTestMode(bool $testMode): \danog\MadelineProto\Settings\Connection`](#setTestMode)
 * [`getTransport(): class-string<\danog\MadelineProto\Stream\RawStreamInterface>`](#getTransport)
-* [`setTransport(class-string<\danog\MadelineProto\Stream\RawStreamInterface> $transport): self`](#setTransport)
+* [`setTransport(class-string<\danog\MadelineProto\Stream\RawStreamInterface> $transport): \danog\MadelineProto\Settings\Connection`](#setTransport)
 * [`getRetry(): bool`](#getRetry)
-* [`setRetry(bool $retry): self`](#setRetry)
+* [`setRetry(bool $retry): \danog\MadelineProto\Settings\Connection`](#setRetry)
 * [`getTimeout(): float`](#getTimeout)
-* [`setTimeout(float $timeout): self`](#setTimeout)
+* [`setTimeout(float $timeout): \danog\MadelineProto\Settings\Connection`](#setTimeout)
 * [`getPingInterval(): int`](#getPingInterval)
-* [`setPingInterval(int $pingInterval): self`](#setPingInterval)
+* [`setPingInterval(int $pingInterval): \danog\MadelineProto\Settings\Connection`](#setPingInterval)
 * [`getUseDoH(): bool`](#getUseDoH)
-* [`setUseDoH(bool $useDoH): self`](#setUseDoH)
+* [`setUseDoH(bool $useDoH): \danog\MadelineProto\Settings\Connection`](#setUseDoH)
 * [`getBindTo(): ?string`](#getBindTo)
-* [`setBindTo((null|string) $bindTo): self`](#setBindTo)
+* [`setBindTo((null|string) $bindTo): \danog\MadelineProto\Settings\Connection`](#setBindTo)
 * [`getRsaKeys(): array`](#getRsaKeys)
-* [`setRsaKeys(array $rsaKeys): self`](#setRsaKeys)
+* [`setRsaKeys(array $rsaKeys): \danog\MadelineProto\Settings\Connection`](#setRsaKeys)
 * [`getTestRsaKeys(): array`](#getTestRsaKeys)
-* [`setTestRsaKeys(array $testRsaKeys): self`](#setTestRsaKeys)
+* [`setTestRsaKeys(array $testRsaKeys): \danog\MadelineProto\Settings\Connection`](#setTestRsaKeys)
 
 ## Methods:
 ### <a name="__construct"></a> `__construct()`
@@ -74,7 +74,7 @@ Get protocol identifier.
 
 
 
-### <a name="setProtocol"></a> `setProtocol(class-string<\danog\MadelineProto\Stream\MTProtoBufferInterface> $protocol): self`
+### <a name="setProtocol"></a> `setProtocol(class-string<\danog\MadelineProto\Stream\MTProtoBufferInterface> $protocol): \danog\MadelineProto\Settings\Connection`
 
 Set protocol identifier.
   
@@ -143,7 +143,7 @@ Get whether to use ipv6.
 
 
 
-### <a name="setIpv6"></a> `setIpv6(bool $ipv6): self`
+### <a name="setIpv6"></a> `setIpv6(bool $ipv6): \danog\MadelineProto\Settings\Connection`
 
 Set whether to use ipv6.
 
@@ -160,7 +160,7 @@ Get subdomains of web.telegram.org for https protocol.
 
 
 
-### <a name="setSslSubdomains"></a> `setSslSubdomains(array $sslSubdomains): self`
+### <a name="setSslSubdomains"></a> `setSslSubdomains(array $sslSubdomains): \danog\MadelineProto\Settings\Connection`
 
 Set subdomains of web.telegram.org for https protocol.
 
@@ -177,7 +177,7 @@ Get maximum media socket count.
 
 
 
-### <a name="setMaxMediaSocketCount"></a> `setMaxMediaSocketCount(int $maxMediaSocketCount): self`
+### <a name="setMaxMediaSocketCount"></a> `setMaxMediaSocketCount(int $maxMediaSocketCount): \danog\MadelineProto\Settings\Connection`
 
 Set maximum media socket count.
 
@@ -194,7 +194,7 @@ Get robin period (seconds).
 
 
 
-### <a name="setRobinPeriod"></a> `setRobinPeriod(int $robinPeriod): self`
+### <a name="setRobinPeriod"></a> `setRobinPeriod(int $robinPeriod): \danog\MadelineProto\Settings\Connection`
 
 Set robin period (seconds).
 
@@ -216,7 +216,7 @@ Get proxy identifiers.
 
 
 
-### <a name="addProxy"></a> `addProxy(class-string<\danog\MadelineProto\Stream\StreamInterface> $proxy, array $extra = []): self`
+### <a name="addProxy"></a> `addProxy(class-string<\danog\MadelineProto\Stream\StreamInterface> $proxy, array $extra = []): \danog\MadelineProto\Settings\Connection`
 
 Add proxy identifier to list, one of:.
   
@@ -237,7 +237,7 @@ Parameters:
 
 
 
-### <a name="setProxies"></a> `setProxies(array<class-string<\danog\MadelineProto\Stream\StreamInterface>, list<array>> $proxies): self`
+### <a name="setProxies"></a> `setProxies(array<class-string<\danog\MadelineProto\Stream\StreamInterface>, list<array>> $proxies): \danog\MadelineProto\Settings\Connection`
 
 Set proxies.
   
@@ -261,13 +261,13 @@ Parameters:
 
 
 
-### <a name="clearProxies"></a> `clearProxies(): self`
+### <a name="clearProxies"></a> `clearProxies(): \danog\MadelineProto\Settings\Connection`
 
 Clear proxies.
 
 
 
-### <a name="removeProxy"></a> `removeProxy(string $proxy, array $extra): self`
+### <a name="removeProxy"></a> `removeProxy(string $proxy, array $extra): \danog\MadelineProto\Settings\Connection`
 
 Remove specific proxy pair.
 
@@ -285,7 +285,7 @@ Get whether to use the obfuscated protocol: useful to bypass ISP blocks.
 
 
 
-### <a name="setObfuscated"></a> `setObfuscated(bool $obfuscated): self`
+### <a name="setObfuscated"></a> `setObfuscated(bool $obfuscated): \danog\MadelineProto\Settings\Connection`
 
 Set whether to use the obfuscated protocol: useful to bypass ISP blocks.
 
@@ -302,7 +302,7 @@ Get whether we're in test mode.
 
 
 
-### <a name="setTestMode"></a> `setTestMode(bool $testMode): self`
+### <a name="setTestMode"></a> `setTestMode(bool $testMode): \danog\MadelineProto\Settings\Connection`
 
 Set whether we're in test mode.
 
@@ -324,7 +324,7 @@ Get transport identifier.
 
 
 
-### <a name="setTransport"></a> `setTransport(class-string<\danog\MadelineProto\Stream\RawStreamInterface> $transport): self`
+### <a name="setTransport"></a> `setTransport(class-string<\danog\MadelineProto\Stream\RawStreamInterface> $transport): \danog\MadelineProto\Settings\Connection`
 
 Sets the transport protocol to use when connecting to telegram.
 Not supported by HTTP and HTTPS protocols, obfuscation must be enabled.  
@@ -351,7 +351,7 @@ Get whether to retry connection.
 
 
 
-### <a name="setRetry"></a> `setRetry(bool $retry): self`
+### <a name="setRetry"></a> `setRetry(bool $retry): \danog\MadelineProto\Settings\Connection`
 
 Set whether to retry connection.
 
@@ -368,7 +368,7 @@ Get connection timeout.
 
 
 
-### <a name="setTimeout"></a> `setTimeout(float $timeout): self`
+### <a name="setTimeout"></a> `setTimeout(float $timeout): \danog\MadelineProto\Settings\Connection`
 
 Set connection timeout.
 
@@ -385,7 +385,7 @@ Get ping interval.
 
 
 
-### <a name="setPingInterval"></a> `setPingInterval(int $pingInterval): self`
+### <a name="setPingInterval"></a> `setPingInterval(int $pingInterval): \danog\MadelineProto\Settings\Connection`
 
 Set ping interval.
 
@@ -402,7 +402,7 @@ Get whether to use DNS over HTTPS.
 
 
 
-### <a name="setUseDoH"></a> `setUseDoH(bool $useDoH): self`
+### <a name="setUseDoH"></a> `setUseDoH(bool $useDoH): \danog\MadelineProto\Settings\Connection`
 
 Set whether to use DNS over HTTPS.
 
@@ -419,7 +419,7 @@ Get bind on specific address and port.
 
 
 
-### <a name="setBindTo"></a> `setBindTo((null|string) $bindTo): self`
+### <a name="setBindTo"></a> `setBindTo((null|string) $bindTo): \danog\MadelineProto\Settings\Connection`
 
 Set bind on specific address and port.
 
@@ -436,7 +436,7 @@ Get RSA keys.
 
 
 
-### <a name="setRsaKeys"></a> `setRsaKeys(array $rsaKeys): self`
+### <a name="setRsaKeys"></a> `setRsaKeys(array $rsaKeys): \danog\MadelineProto\Settings\Connection`
 
 Set RSA keys.
 
@@ -453,7 +453,7 @@ Get test RSA keys.
 
 
 
-### <a name="setTestRsaKeys"></a> `setTestRsaKeys(array $testRsaKeys): self`
+### <a name="setTestRsaKeys"></a> `setTestRsaKeys(array $testRsaKeys): \danog\MadelineProto\Settings\Connection`
 
 Set test RSA keys.
 

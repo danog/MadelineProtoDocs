@@ -15,6 +15,7 @@ Button to request a user's geolocation
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|style|[KeyboardButtonStyle](/API_docs/types/KeyboardButtonStyle.html) | Optional|
 |text|[string](/API_docs/types/string.html) | Yes|Button text|
 
 
@@ -25,5 +26,5 @@ Button to request a user's geolocation
 ### Example:
 
 ```
-$keyboardButtonRequestGeoLocation = ['_' => 'keyboardButtonRequestGeoLocation', 'text' => 'string'];
+$keyboardButtonRequestGeoLocation = ['_' => 'keyboardButtonRequestGeoLocation', 'style' => KeyboardButtonStyle, 'text' => 'string'];
 ```  

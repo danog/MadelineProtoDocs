@@ -20,17 +20,17 @@ TL schema settings.
 * [`needsUpgrade(): bool`](#needsUpgrade)
 * [`upgrade(): void`](#upgrade)
 * [`getLayer(): int`](#getLayer)
-* [`setLayer(int $layer): self`](#setLayer)
+* [`setLayer(int $layer): \danog\MadelineProto\Settings\TLSchema`](#setLayer)
 * [`getMTProtoSchema(): string`](#getMTProtoSchema)
-* [`setMTProtoSchema(string $MTProtoSchema): self`](#setMTProtoSchema)
+* [`setMTProtoSchema(string $MTProtoSchema): \danog\MadelineProto\Settings\TLSchema`](#setMTProtoSchema)
 * [`getAPISchema(): string`](#getAPISchema)
-* [`setAPISchema(string $APISchema): self`](#setAPISchema)
+* [`setAPISchema(string $APISchema): \danog\MadelineProto\Settings\TLSchema`](#setAPISchema)
 * [`getSecretSchema(): string`](#getSecretSchema)
-* [`setSecretSchema(string $secretSchema): self`](#setSecretSchema)
+* [`setSecretSchema(string $secretSchema): \danog\MadelineProto\Settings\TLSchema`](#setSecretSchema)
 * [`getOther(): array<string, string>`](#getOther)
-* [`setOther(array<string, string> $other): self`](#setOther)
+* [`setOther(array<string, string> $other): \danog\MadelineProto\Settings\TLSchema`](#setOther)
 * [`getFuzzMode(): bool`](#getFuzzMode)
-* [`setFuzzMode(bool $fuzz): self`](#setFuzzMode)
+* [`setFuzzMode(bool $fuzz): \danog\MadelineProto\Settings\TLSchema`](#setFuzzMode)
 
 ## Methods:
 ### <a name="needsUpgrade"></a> `needsUpgrade(): bool`
@@ -51,7 +51,7 @@ Get TL layer version.
 
 
 
-### <a name="setLayer"></a> `setLayer(int $layer): self`
+### <a name="setLayer"></a> `setLayer(int $layer): \danog\MadelineProto\Settings\TLSchema`
 
 Set TL layer version.
 
@@ -68,7 +68,7 @@ Get MTProto schema path.
 
 
 
-### <a name="setMTProtoSchema"></a> `setMTProtoSchema(string $MTProtoSchema): self`
+### <a name="setMTProtoSchema"></a> `setMTProtoSchema(string $MTProtoSchema): \danog\MadelineProto\Settings\TLSchema`
 
 Set MTProto schema path.
 
@@ -85,7 +85,7 @@ Get API schema path.
 
 
 
-### <a name="setAPISchema"></a> `setAPISchema(string $APISchema): self`
+### <a name="setAPISchema"></a> `setAPISchema(string $APISchema): \danog\MadelineProto\Settings\TLSchema`
 
 Set API schema path.
 
@@ -102,7 +102,7 @@ Get secret schema path.
 
 
 
-### <a name="setSecretSchema"></a> `setSecretSchema(string $secretSchema): self`
+### <a name="setSecretSchema"></a> `setSecretSchema(string $secretSchema): \danog\MadelineProto\Settings\TLSchema`
 
 Set secret schema path.
 
@@ -119,7 +119,7 @@ Get the value of other.
 
 
 
-### <a name="setOther"></a> `setOther(array<string, string> $other): self`
+### <a name="setOther"></a> `setOther(array<string, string> $other): \danog\MadelineProto\Settings\TLSchema`
 
 Set the value of other.
 
@@ -136,7 +136,7 @@ Get the value of the fuzz mode.
 
 
 
-### <a name="setFuzzMode"></a> `setFuzzMode(bool $fuzz): self`
+### <a name="setFuzzMode"></a> `setFuzzMode(bool $fuzz): \danog\MadelineProto\Settings\TLSchema`
 
 Set the value of the fuzz mode.
 

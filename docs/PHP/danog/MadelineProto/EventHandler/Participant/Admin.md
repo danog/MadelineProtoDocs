@@ -26,10 +26,10 @@ Admin.
 * `$rank`: `string` The role (rank) of the admin in the group: just an arbitrary string, `admin` by default
 
 ## Method list:
-* [`fromRawParticipant(array $rawParticipant): self`](#fromRawParticipant)
+* [`fromRawParticipant(array $rawParticipant): \danog\MadelineProto\EventHandler\Participant`](#fromRawParticipant)
 
 ## Methods:
-### <a name="fromRawParticipant"></a> `fromRawParticipant(array $rawParticipant): self`
+### <a name="fromRawParticipant"></a> `fromRawParticipant(array $rawParticipant): \danog\MadelineProto\EventHandler\Participant`
 
 
 

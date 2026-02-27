@@ -20,7 +20,8 @@ Basic exception.
 
 ## Method list:
 * [`__construct(mixed $message = NULL, mixed $code = 0, ?Throwable $previous = NULL, mixed $file = NULL, mixed $line = NULL)`](#__construct)
-* [`extension(string $extensionName): self`](#extension)
+* [`extension(string $extensionName): \danog\MadelineProto\Exception`](#extension)
+* [`getTLTrace(): string`](#getTLTrace)
 * [`getMessage(): string`](#getMessage)
 * [`getCode()`](#getCode)
 * [`getFile(): string`](#getFile)
@@ -28,7 +29,6 @@ Basic exception.
 * [`getTrace(): array`](#getTrace)
 * [`getPrevious(): ?Throwable`](#getPrevious)
 * [`getTraceAsString(): string`](#getTraceAsString)
-* [`getTLTrace(): string`](#getTLTrace)
 
 ## Methods:
 ### <a name="__construct"></a> `__construct(mixed $message = NULL, mixed $code = 0, ?Throwable $previous = NULL, mixed $file = NULL, mixed $line = NULL)`
@@ -51,7 +51,7 @@ Parameters:
 
 
 
-### <a name="extension"></a> `extension(string $extensionName): self`
+### <a name="extension"></a> `extension(string $extensionName): \danog\MadelineProto\Exception`
 
 Complain about missing extensions.
 
@@ -59,6 +59,12 @@ Complain about missing extensions.
 Parameters:
 
 * `$extensionName`: `string` Extension name  
+
+
+
+### <a name="getTLTrace"></a> `getTLTrace(): string`
+
+Get TL trace.
 
 
 
@@ -106,12 +112,6 @@ Parameters:
 ### <a name="getTraceAsString"></a> `getTraceAsString(): string`
 
 
-
-
-
-### <a name="getTLTrace"></a> `getTLTrace(): string`
-
-Get TL trace.
 
 
 

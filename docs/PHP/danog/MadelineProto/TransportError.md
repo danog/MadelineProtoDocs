@@ -21,7 +21,8 @@ Indicates a transport error returned by Telegram's API.
 
 ## Method list:
 * [`__construct(int $error, ?\danog\MadelineProto\Exception $previous = NULL)`](#__construct)
-* [`extension(string $extensionName): self`](#extension)
+* [`extension(string $extensionName): \danog\MadelineProto\Exception`](#extension)
+* [`getTLTrace(): string`](#getTLTrace)
 * [`getMessage(): string`](#getMessage)
 * [`getCode()`](#getCode)
 * [`getFile(): string`](#getFile)
@@ -29,7 +30,6 @@ Indicates a transport error returned by Telegram's API.
 * [`getTrace(): array`](#getTrace)
 * [`getPrevious(): ?Throwable`](#getPrevious)
 * [`getTraceAsString(): string`](#getTraceAsString)
-* [`getTLTrace(): string`](#getTLTrace)
 
 ## Methods:
 ### <a name="__construct"></a> `__construct(int $error, ?\danog\MadelineProto\Exception $previous = NULL)`
@@ -49,7 +49,7 @@ Parameters:
 
 
 
-### <a name="extension"></a> `extension(string $extensionName): self`
+### <a name="extension"></a> `extension(string $extensionName): \danog\MadelineProto\Exception`
 
 Complain about missing extensions.
 
@@ -57,6 +57,12 @@ Complain about missing extensions.
 Parameters:
 
 * `$extensionName`: `string` Extension name  
+
+
+
+### <a name="getTLTrace"></a> `getTLTrace(): string`
+
+Get TL trace.
 
 
 
@@ -104,12 +110,6 @@ Parameters:
 ### <a name="getTraceAsString"></a> `getTraceAsString(): string`
 
 
-
-
-
-### <a name="getTLTrace"></a> `getTLTrace(): string`
-
-Get TL trace.
 
 
 

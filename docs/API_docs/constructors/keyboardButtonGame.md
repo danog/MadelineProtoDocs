@@ -15,6 +15,7 @@ Button to start a game
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|style|[KeyboardButtonStyle](/API_docs/types/KeyboardButtonStyle.html) | Optional|
 |text|[string](/API_docs/types/string.html) | Yes|Button text|
 
 
@@ -25,5 +26,5 @@ Button to start a game
 ### Example:
 
 ```
-$keyboardButtonGame = ['_' => 'keyboardButtonGame', 'text' => 'string'];
+$keyboardButtonGame = ['_' => 'keyboardButtonGame', 'style' => KeyboardButtonStyle, 'text' => 'string'];
 ```  

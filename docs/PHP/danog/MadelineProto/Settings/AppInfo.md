@@ -21,21 +21,21 @@ App information.
 * [`init(): void`](#init)
 * [`hasApiInfo(): bool`](#hasApiInfo)
 * [`getApiId(): int`](#getApiId)
-* [`setApiId(int $apiId): self`](#setApiId)
+* [`setApiId(int $apiId): \danog\MadelineProto\Settings\AppInfo`](#setApiId)
 * [`getApiHash(): string`](#getApiHash)
-* [`setApiHash(string $apiHash): self`](#setApiHash)
+* [`setApiHash(string $apiHash): \danog\MadelineProto\Settings\AppInfo`](#setApiHash)
 * [`getDeviceModel(): string`](#getDeviceModel)
-* [`setDeviceModel(string $deviceModel): self`](#setDeviceModel)
+* [`setDeviceModel(string $deviceModel): \danog\MadelineProto\Settings\AppInfo`](#setDeviceModel)
 * [`getSystemVersion(): string`](#getSystemVersion)
-* [`setSystemVersion(string $systemVersion): self`](#setSystemVersion)
+* [`setSystemVersion(string $systemVersion): \danog\MadelineProto\Settings\AppInfo`](#setSystemVersion)
 * [`getAppVersion(): string`](#getAppVersion)
-* [`setAppVersion(string $appVersion): self`](#setAppVersion)
+* [`setAppVersion(string $appVersion): \danog\MadelineProto\Settings\AppInfo`](#setAppVersion)
 * [`getLangCode(): string`](#getLangCode)
-* [`setLangCode(string $langCode): self`](#setLangCode)
+* [`setLangCode(string $langCode): \danog\MadelineProto\Settings\AppInfo`](#setLangCode)
 * [`getSystemLangCode(): string`](#getSystemLangCode)
-* [`setSystemLangCode(string $langCode): self`](#setSystemLangCode)
+* [`setSystemLangCode(string $langCode): \danog\MadelineProto\Settings\AppInfo`](#setSystemLangCode)
 * [`getLangPack(): string`](#getLangPack)
-* [`setLangPack(string $langPack): self`](#setLangPack)
+* [`setLangPack(string $langPack): \danog\MadelineProto\Settings\AppInfo`](#setLangPack)
 * [`getShowPrompt(): bool`](#getShowPrompt)
 * [`setShowPrompt(bool $showPrompt): static`](#setShowPrompt)
 
@@ -64,7 +64,7 @@ Get API ID.
 
 
 
-### <a name="setApiId"></a> `setApiId(int $apiId): self`
+### <a name="setApiId"></a> `setApiId(int $apiId): \danog\MadelineProto\Settings\AppInfo`
 
 Set API ID.
 
@@ -81,7 +81,7 @@ Get API hash.
 
 
 
-### <a name="setApiHash"></a> `setApiHash(string $apiHash): self`
+### <a name="setApiHash"></a> `setApiHash(string $apiHash): \danog\MadelineProto\Settings\AppInfo`
 
 Set API hash.
 
@@ -98,7 +98,7 @@ Get device model.
 
 
 
-### <a name="setDeviceModel"></a> `setDeviceModel(string $deviceModel): self`
+### <a name="setDeviceModel"></a> `setDeviceModel(string $deviceModel): \danog\MadelineProto\Settings\AppInfo`
 
 Set device model.
 
@@ -115,7 +115,7 @@ Get system version.
 
 
 
-### <a name="setSystemVersion"></a> `setSystemVersion(string $systemVersion): self`
+### <a name="setSystemVersion"></a> `setSystemVersion(string $systemVersion): \danog\MadelineProto\Settings\AppInfo`
 
 Set system version.
 
@@ -132,7 +132,7 @@ Get app version.
 
 
 
-### <a name="setAppVersion"></a> `setAppVersion(string $appVersion): self`
+### <a name="setAppVersion"></a> `setAppVersion(string $appVersion): \danog\MadelineProto\Settings\AppInfo`
 
 Set app version.
 
@@ -149,7 +149,7 @@ Get language code.
 
 
 
-### <a name="setLangCode"></a> `setLangCode(string $langCode): self`
+### <a name="setLangCode"></a> `setLangCode(string $langCode): \danog\MadelineProto\Settings\AppInfo`
 
 Set language code.
 
@@ -166,7 +166,7 @@ Get system language code.
 
 
 
-### <a name="setSystemLangCode"></a> `setSystemLangCode(string $langCode): self`
+### <a name="setSystemLangCode"></a> `setSystemLangCode(string $langCode): \danog\MadelineProto\Settings\AppInfo`
 
 Set system language code.
 
@@ -183,7 +183,7 @@ Get language pack.
 
 
 
-### <a name="setLangPack"></a> `setLangPack(string $langPack): self`
+### <a name="setLangPack"></a> `setLangPack(string $langPack): \danog\MadelineProto\Settings\AppInfo`
 
 Set language pack.
 

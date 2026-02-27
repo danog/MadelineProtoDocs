@@ -17,6 +17,7 @@ Can only be sent or received as part of a reply keyboard, use [keyboardButtonWeb
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|style|[KeyboardButtonStyle](/API_docs/types/KeyboardButtonStyle.html) | Optional|
 |text|[string](/API_docs/types/string.html) | Yes|Button text|
 |url|[string](/API_docs/types/string.html) | Yes|[Web app URL](https://core.telegram.org/api/bots/webapps)|
 
@@ -28,5 +29,5 @@ Can only be sent or received as part of a reply keyboard, use [keyboardButtonWeb
 ### Example:
 
 ```
-$keyboardButtonSimpleWebView = ['_' => 'keyboardButtonSimpleWebView', 'text' => 'string', 'url' => 'string'];
+$keyboardButtonSimpleWebView = ['_' => 'keyboardButtonSimpleWebView', 'style' => KeyboardButtonStyle, 'text' => 'string', 'url' => 'string'];
 ```  

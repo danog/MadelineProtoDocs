@@ -16,6 +16,7 @@ Button to request a user to [authorize](../methods/messages.acceptUrlAuth.html) 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |request\_write\_access|[Bool](/API_docs/types/Bool.html) | Optional|Set this flag to request the permission for your bot to send messages to the user.|
+|style|[KeyboardButtonStyle](/API_docs/types/KeyboardButtonStyle.html) | Optional|
 |text|[string](/API_docs/types/string.html) | Yes|Button text|
 |fwd\_text|[string](/API_docs/types/string.html) | Optional|New text of the button in forwarded messages.|
 |url|[string](/API_docs/types/string.html) | Yes|An HTTP URL to be opened with user authorization data added to the query string when the button is pressed. If the user refuses to provide authorization data, the original URL without information about the user will be opened. The data added is the same as described in [Receiving authorization data](https://core.telegram.org/widgets/login#receiving-authorization-data).<br>NOTE: You must always check the hash of the received data to verify the authentication and the integrity of the data as described in [Checking authorization](https://core.telegram.org/widgets/login#checking-authorization).|
@@ -29,5 +30,5 @@ Button to request a user to [authorize](../methods/messages.acceptUrlAuth.html) 
 ### Example:
 
 ```
-$inputKeyboardButtonUrlAuth = ['_' => 'inputKeyboardButtonUrlAuth', 'request_write_access' => Bool, 'text' => 'string', 'fwd_text' => 'string', 'url' => 'string', 'bot' => InputUser];
+$inputKeyboardButtonUrlAuth = ['_' => 'inputKeyboardButtonUrlAuth', 'request_write_access' => Bool, 'style' => KeyboardButtonStyle, 'text' => 'string', 'fwd_text' => 'string', 'url' => 'string', 'bot' => InputUser];
 ```  

@@ -15,6 +15,7 @@ Clipboard button: when clicked, the attached text must be copied to the clipboar
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|style|[KeyboardButtonStyle](/API_docs/types/KeyboardButtonStyle.html) | Optional|
 |text|[string](/API_docs/types/string.html) | Yes|Title of the button|
 |copy\_text|[string](/API_docs/types/string.html) | Yes|The text that will be copied to the clipboard|
 
@@ -26,5 +27,5 @@ Clipboard button: when clicked, the attached text must be copied to the clipboar
 ### Example:
 
 ```
-$keyboardButtonCopy = ['_' => 'keyboardButtonCopy', 'text' => 'string', 'copy_text' => 'string'];
+$keyboardButtonCopy = ['_' => 'keyboardButtonCopy', 'style' => KeyboardButtonStyle, 'text' => 'string', 'copy_text' => 'string'];
 ```  

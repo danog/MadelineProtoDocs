@@ -22,7 +22,7 @@ Master class for message entities.
 ## Method list:
 * [`__construct(int $offset, int $length)`](#__construct)
 * [`fromRawEntities(list<array> $entities): list<self>`](#fromRawEntities)
-* [`fromRawEntity(self|array $entity): self`](#fromRawEntity)
+* [`fromRawEntity(\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array $entity): \danog\MadelineProto\EventHandler\Message\Entities\MessageEntity`](#fromRawEntity)
 * [`toBotAPI(): array`](#toBotAPI)
 * [`toMTProto(): array`](#toMTProto)
 
@@ -50,14 +50,14 @@ Parameters:
 
 
 
-### <a name="fromRawEntity"></a> `fromRawEntity(self|array $entity): self`
+### <a name="fromRawEntity"></a> `fromRawEntity(\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array $entity): \danog\MadelineProto\EventHandler\Message\Entities\MessageEntity`
 
 
 
 
 Parameters:
 
-* `$entity`: `self|array`   
+* `$entity`: `\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array`   
 
 
 

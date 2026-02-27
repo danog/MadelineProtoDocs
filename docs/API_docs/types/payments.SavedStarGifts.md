@@ -22,5 +22,7 @@ redirect_from: /API_docs/types/payments_SavedStarGifts.html
 
 [$MadelineProto->payments->getSavedStarGift](/API_docs/methods/payments.getSavedStarGift.html)  
 
+[$MadelineProto->payments->getCraftStarGifts](/API_docs/methods/payments.getCraftStarGifts.html)  
+
 
 

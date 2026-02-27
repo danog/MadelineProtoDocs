@@ -837,6 +837,10 @@ $MadelineProto->[channels->getFullChannel](/API_docs/methods/channels.getFullCha
 
 ***
 <br><br>
+$MadelineProto->[channels->getFutureCreatorAfterLeave](/API_docs/methods/channels.getFutureCreatorAfterLeave.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), \]) === [$User](/API_docs/types/User.html)<a name="channels.getFutureCreatorAfterLeave"></a>  
+
+***
+<br><br>
 $MadelineProto->[channels->getGroupsForDiscussion](/API_docs/methods/channels.getGroupsForDiscussion.html)(\[\]) === [$messages.Chats](/API_docs/types/messages.Chats.html)<a name="channels.getGroupsForDiscussion"></a>  
 
 ***
@@ -1321,7 +1325,7 @@ $MadelineProto->[messages->acceptEncryption](/API_docs/methods/messages.acceptEn
 
 ***
 <br><br>
-$MadelineProto->[messages->acceptUrlAuth](/API_docs/methods/messages.acceptUrlAuth.html)(\[write_allowed: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), msg_id: $[int](/API_docs/types/int.html), button_id: $[int](/API_docs/types/int.html), url: $[string](/API_docs/types/string.html), \]) === [$UrlAuthResult](/API_docs/types/UrlAuthResult.html)<a name="messages.acceptUrlAuth"></a>  
+$MadelineProto->[messages->acceptUrlAuth](/API_docs/methods/messages.acceptUrlAuth.html)(\[write_allowed: $[Bool](/API_docs/types/Bool.html), share_phone_number: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), msg_id: $[int](/API_docs/types/int.html), button_id: $[int](/API_docs/types/int.html), url: $[string](/API_docs/types/string.html), \]) === [$UrlAuthResult](/API_docs/types/UrlAuthResult.html)<a name="messages.acceptUrlAuth"></a>  
 
 ***
 <br><br>
@@ -1574,6 +1578,10 @@ $MadelineProto->[messages->getDiscussionMessage](/API_docs/methods/messages.getD
 ***
 <br><br>
 $MadelineProto->[messages->getDocumentByHash](/API_docs/methods/messages.getDocumentByHash.html)(\[sha256: $[bytes](/API_docs/types/bytes.html), size: $[long](/API_docs/types/long.html), mime_type: $[string](/API_docs/types/string.html), \]) === [$Document](/API_docs/types/Document.html)<a name="messages.getDocumentByHash"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->getEmojiGameInfo](/API_docs/methods/messages.getEmojiGameInfo.html)(\[\]) === [$messages.EmojiGameInfo](/API_docs/types/messages.EmojiGameInfo.html)<a name="messages.getEmojiGameInfo"></a>  
 
 ***
 <br><br>
@@ -2173,6 +2181,10 @@ $MadelineProto->[messages->startHistoryImport](/API_docs/methods/messages.startH
 
 ***
 <br><br>
+$MadelineProto->[messages->summarizeText](/API_docs/methods/messages.summarizeText.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), id: $[int](/API_docs/types/int.html), to_lang: $[string](/API_docs/types/string.html), \]) === [$TextWithEntities](/API_docs/types/TextWithEntities.html)<a name="messages.summarizeText"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->toggleBotInAttachMenu](/API_docs/methods/messages.toggleBotInAttachMenu.html)(\[write_allowed: $[Bool](/API_docs/types/Bool.html), bot: $[InputUser](/API_docs/types/InputUser.html), enabled: $[Bool](/API_docs/types/Bool.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.toggleBotInAttachMenu"></a>  
 
 ***
@@ -2309,6 +2321,10 @@ $MadelineProto->[payments->convertStarGift](/API_docs/methods/payments.convertSt
 
 ***
 <br><br>
+$MadelineProto->[payments->craftStarGift](/API_docs/methods/payments.craftStarGift.html)(\[stargift: \[$[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html)\], \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.craftStarGift"></a>  
+
+***
+<br><br>
 $MadelineProto->[payments->createStarGiftCollection](/API_docs/methods/payments.createStarGiftCollection.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), title: $[string](/API_docs/types/string.html), stargift: \[$[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html)\], \]) === [$StarGiftCollection](/API_docs/types/StarGiftCollection.html)<a name="payments.createStarGiftCollection"></a>  
 
 ***
@@ -2341,6 +2357,10 @@ $MadelineProto->[payments->getConnectedStarRefBots](/API_docs/methods/payments.g
 
 ***
 <br><br>
+$MadelineProto->[payments->getCraftStarGifts](/API_docs/methods/payments.getCraftStarGifts.html)(\[gift_id: $[long](/API_docs/types/long.html), offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$payments.SavedStarGifts](/API_docs/types/payments.SavedStarGifts.html)<a name="payments.getCraftStarGifts"></a>  
+
+***
+<br><br>
 $MadelineProto->[payments->getGiveawayInfo](/API_docs/methods/payments.getGiveawayInfo.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), msg_id: $[int](/API_docs/types/int.html), \]) === [$payments.GiveawayInfo](/API_docs/types/payments.GiveawayInfo.html)<a name="payments.getGiveawayInfo"></a>  
 
 ***
@@ -2357,7 +2377,7 @@ $MadelineProto->[payments->getPremiumGiftCodeOptions](/API_docs/methods/payments
 
 ***
 <br><br>
-$MadelineProto->[payments->getResaleStarGifts](/API_docs/methods/payments.getResaleStarGifts.html)(\[sort_by_price: $[Bool](/API_docs/types/Bool.html), sort_by_num: $[Bool](/API_docs/types/Bool.html), attributes_hash: $[long](/API_docs/types/long.html), gift_id: $[long](/API_docs/types/long.html), attributes: \[$[StarGiftAttributeId](/API_docs/types/StarGiftAttributeId.html)\], offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$payments.ResaleStarGifts](/API_docs/types/payments.ResaleStarGifts.html)<a name="payments.getResaleStarGifts"></a>  
+$MadelineProto->[payments->getResaleStarGifts](/API_docs/methods/payments.getResaleStarGifts.html)(\[sort_by_price: $[Bool](/API_docs/types/Bool.html), sort_by_num: $[Bool](/API_docs/types/Bool.html), for_craft: $[Bool](/API_docs/types/Bool.html), attributes_hash: $[long](/API_docs/types/long.html), gift_id: $[long](/API_docs/types/long.html), attributes: \[$[StarGiftAttributeId](/API_docs/types/StarGiftAttributeId.html)\], offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$payments.ResaleStarGifts](/API_docs/types/payments.ResaleStarGifts.html)<a name="payments.getResaleStarGifts"></a>  
 
 ***
 <br><br>

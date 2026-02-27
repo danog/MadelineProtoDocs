@@ -17,17 +17,17 @@ Metric settings.
 
 
 ## Method list:
-* [`setReturnMetricsFromStartAndLoop(bool $enable): self`](#setReturnMetricsFromStartAndLoop)
+* [`setReturnMetricsFromStartAndLoop(bool $enable): \danog\MadelineProto\Settings\Metrics`](#setReturnMetricsFromStartAndLoop)
 * [`getReturnMetricsFromStartAndLoop(): bool`](#getReturnMetricsFromStartAndLoop)
-* [`setEnablePrometheusCollection(bool $enable): self`](#setEnablePrometheusCollection)
+* [`setEnablePrometheusCollection(bool $enable): \danog\MadelineProto\Settings\Metrics`](#setEnablePrometheusCollection)
 * [`getEnablePrometheusCollection(): bool`](#getEnablePrometheusCollection)
-* [`setEnableMemprofCollection(bool $enable): self`](#setEnableMemprofCollection)
+* [`setEnableMemprofCollection(bool $enable): \danog\MadelineProto\Settings\Metrics`](#setEnableMemprofCollection)
 * [`getEnableMemprofCollection(): bool`](#getEnableMemprofCollection)
-* [`setMetricsBindTo(?\Amp\Socket\SocketAddress $metricsBindTo): self`](#setMetricsBindTo)
+* [`setMetricsBindTo(?\Amp\Socket\SocketAddress $metricsBindTo): \danog\MadelineProto\Settings\Metrics`](#setMetricsBindTo)
 * [`getMetricsBindTo(): ?\Amp\Socket\SocketAddress`](#getMetricsBindTo)
 
 ## Methods:
-### <a name="setReturnMetricsFromStartAndLoop"></a> `setReturnMetricsFromStartAndLoop(bool $enable): self`
+### <a name="setReturnMetricsFromStartAndLoop"></a> `setReturnMetricsFromStartAndLoop(bool $enable): \danog\MadelineProto\Settings\Metrics`
 
 Whether to expose prometheus/memprof metrics with startAndLoop, by providing a ?metrics or ?pprof query string.
 
@@ -44,7 +44,7 @@ Whether to expose prometheus/memprof metrics with startAndLoop, by providing a ?
 
 
 
-### <a name="setEnablePrometheusCollection"></a> `setEnablePrometheusCollection(bool $enable): self`
+### <a name="setEnablePrometheusCollection"></a> `setEnablePrometheusCollection(bool $enable): \danog\MadelineProto\Settings\Metrics`
 
 Whether to enable additional prometheus stat collection for this session.
 
@@ -61,7 +61,7 @@ Whether additional prometheus stat collection is enabled for this session.
 
 
 
-### <a name="setEnableMemprofCollection"></a> `setEnableMemprofCollection(bool $enable): self`
+### <a name="setEnableMemprofCollection"></a> `setEnableMemprofCollection(bool $enable): \danog\MadelineProto\Settings\Metrics`
 
 Whether to enable memprof memory stat collection for this session.
 
@@ -78,7 +78,7 @@ Whether to enable memprof memory stat collection for this session.
 
 
 
-### <a name="setMetricsBindTo"></a> `setMetricsBindTo(?\Amp\Socket\SocketAddress $metricsBindTo): self`
+### <a name="setMetricsBindTo"></a> `setMetricsBindTo(?\Amp\Socket\SocketAddress $metricsBindTo): \danog\MadelineProto\Settings\Metrics`
 
 Whether to expose metrics on the specified endpoint via HTTP.
 

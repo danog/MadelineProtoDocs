@@ -50,6 +50,8 @@ You can also provide a [MessageMedia](MessageMedia.html), [Message](Message.html
 
 [inputMediaTodo](/API_docs/constructors/inputMediaTodo.html)  
 
+[inputMediaStakeDice](/API_docs/constructors/inputMediaStakeDice.html)  
+
 
 
 ### Methods that return an object of this type (methods):

@@ -15,6 +15,7 @@ Button that links directly to a user profile
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|style|[KeyboardButtonStyle](/API_docs/types/KeyboardButtonStyle.html) | Optional|
 |text|[string](/API_docs/types/string.html) | Yes|Button text|
 |user\_id|[InputUser](/API_docs/types/InputUser.html) | Optional|User ID|
 
@@ -26,5 +27,5 @@ Button that links directly to a user profile
 ### Example:
 
 ```
-$inputKeyboardButtonUserProfile = ['_' => 'inputKeyboardButtonUserProfile', 'text' => 'string', 'user_id' => InputUser];
+$inputKeyboardButtonUserProfile = ['_' => 'inputKeyboardButtonUserProfile', 'style' => KeyboardButtonStyle, 'text' => 'string', 'user_id' => InputUser];
 ```  

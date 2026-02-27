@@ -22,6 +22,7 @@ Indicates an error returned by Telegram's API.
 
 ## Method list:
 * [`getLocalization(): string`](#getLocalization)
+* [`getTLTrace(): string`](#getTLTrace)
 * [`getMessage(): string`](#getMessage)
 * [`getCode()`](#getCode)
 * [`getFile(): string`](#getFile)
@@ -29,12 +30,17 @@ Indicates an error returned by Telegram's API.
 * [`getTrace(): array`](#getTrace)
 * [`getPrevious(): ?Throwable`](#getPrevious)
 * [`getTraceAsString(): string`](#getTraceAsString)
-* [`getTLTrace(): string`](#getTLTrace)
 
 ## Methods:
 ### <a name="getLocalization"></a> `getLocalization(): string`
 
 Get localized error name.
+
+
+
+### <a name="getTLTrace"></a> `getTLTrace(): string`
+
+Get TL trace.
 
 
 
@@ -82,12 +88,6 @@ Get localized error name.
 ### <a name="getTraceAsString"></a> `getTraceAsString(): string`
 
 
-
-
-
-### <a name="getTLTrace"></a> `getTLTrace(): string`
-
-Get TL trace.
 
 
 

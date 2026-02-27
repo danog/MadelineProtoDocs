@@ -17,7 +17,7 @@ A [sticker](https://core.telegram.org/api/stickers) applied on the backdrop of a
 |----------|---------------|----------|-------------|
 |name|[string](/API_docs/types/string.html) | Yes|Name of the symbol|
 |document|[Document](/API_docs/types/Document.html) | Optional|The symbol|
-|rarity\_permille|[int](/API_docs/types/int.html) | Yes|The number of upgraded gifts that receive this backdrop for each 1000 gifts upgraded.|
+|rarity|[StarGiftAttributeRarity](/API_docs/types/StarGiftAttributeRarity.html) | Yes|
 
 
 
@@ -27,5 +27,5 @@ A [sticker](https://core.telegram.org/api/stickers) applied on the backdrop of a
 ### Example:
 
 ```
-$starGiftAttributePattern = ['_' => 'starGiftAttributePattern', 'name' => 'string', 'document' => Document, 'rarity_permille' => int];
+$starGiftAttributePattern = ['_' => 'starGiftAttributePattern', 'name' => 'string', 'document' => Document, 'rarity' => StarGiftAttributeRarity];
 ```  

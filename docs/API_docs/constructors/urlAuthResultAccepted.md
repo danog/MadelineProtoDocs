@@ -15,7 +15,7 @@ Details about an accepted authorization request, for more info [click here »](h
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|url|[string](/API_docs/types/string.html) | Yes|The URL name of the website on which the user has logged in.|
+|url|[string](/API_docs/types/string.html) | Optional|The URL name of the website on which the user has logged in.|
 
 
 

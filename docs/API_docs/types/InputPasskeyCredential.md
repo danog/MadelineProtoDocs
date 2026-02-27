@@ -13,6 +13,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [inputPasskeyCredentialPublicKey](/API_docs/constructors/inputPasskeyCredentialPublicKey.html)  
 
+[inputPasskeyCredentialFirebasePNV](/API_docs/constructors/inputPasskeyCredentialFirebasePNV.html)  
+
 
 
 ### Methods that return an object of this type (methods):

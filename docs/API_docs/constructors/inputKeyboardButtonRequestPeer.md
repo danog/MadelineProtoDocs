@@ -18,6 +18,7 @@ Prompts the user to select and share one or more peers with the bot using [messa
 |name\_requested|[Bool](/API_docs/types/Bool.html) | Optional|Set this flag to request the peer's name.|
 |username\_requested|[Bool](/API_docs/types/Bool.html) | Optional|Set this flag to request the peer's `@username` (if any).|
 |photo\_requested|[Bool](/API_docs/types/Bool.html) | Optional|Set this flag to request the peer's photo (if any).|
+|style|[KeyboardButtonStyle](/API_docs/types/KeyboardButtonStyle.html) | Optional|
 |text|[string](/API_docs/types/string.html) | Yes|Button text|
 |button\_id|[int](/API_docs/types/int.html) | Yes|Button ID, to be passed to [messages.sendBotRequestedPeer](../methods/messages.sendBotRequestedPeer.html).|
 |peer\_type|[RequestPeerType](/API_docs/types/RequestPeerType.html) | Yes|Filtering criteria to use for the peer selection list shown to the user. <br>The list should display all existing peers of the specified type, and should also offer an option for the user to create and immediately use one or more (up to `max_quantity`) peers of the specified type, if needed.|
@@ -31,5 +32,5 @@ Prompts the user to select and share one or more peers with the bot using [messa
 ### Example:
 
 ```
-$inputKeyboardButtonRequestPeer = ['_' => 'inputKeyboardButtonRequestPeer', 'name_requested' => Bool, 'username_requested' => Bool, 'photo_requested' => Bool, 'text' => 'string', 'button_id' => int, 'peer_type' => RequestPeerType, 'max_quantity' => int];
+$inputKeyboardButtonRequestPeer = ['_' => 'inputKeyboardButtonRequestPeer', 'name_requested' => Bool, 'username_requested' => Bool, 'photo_requested' => Bool, 'style' => KeyboardButtonStyle, 'text' => 'string', 'button_id' => int, 'peer_type' => RequestPeerType, 'max_quantity' => int];
 ```  

@@ -18,15 +18,15 @@ File management settings.
 
 ## Method list:
 * [`getAllowAutomaticUpload(): bool`](#getAllowAutomaticUpload)
-* [`setAllowAutomaticUpload(bool $allowAutomaticUpload): self`](#setAllowAutomaticUpload)
+* [`setAllowAutomaticUpload(bool $allowAutomaticUpload): \danog\MadelineProto\Settings\Files`](#setAllowAutomaticUpload)
 * [`getUploadParallelChunks(): int`](#getUploadParallelChunks)
-* [`setUploadParallelChunks(int $uploadParallelChunks): self`](#setUploadParallelChunks)
+* [`setUploadParallelChunks(int $uploadParallelChunks): \danog\MadelineProto\Settings\Files`](#setUploadParallelChunks)
 * [`getDownloadParallelChunks(): int`](#getDownloadParallelChunks)
-* [`setDownloadParallelChunks(int $downloadParallelChunks): self`](#setDownloadParallelChunks)
+* [`setDownloadParallelChunks(int $downloadParallelChunks): \danog\MadelineProto\Settings\Files`](#setDownloadParallelChunks)
 * [`getReportBrokenMedia(): bool`](#getReportBrokenMedia)
-* [`setReportBrokenMedia(bool $reportBrokenMedia): self`](#setReportBrokenMedia)
+* [`setReportBrokenMedia(bool $reportBrokenMedia): \danog\MadelineProto\Settings\Files`](#setReportBrokenMedia)
 * [`getDownloadLink(): ?string`](#getDownloadLink)
-* [`setDownloadLink(?string $downloadLink): self`](#setDownloadLink)
+* [`setDownloadLink(?string $downloadLink): \danog\MadelineProto\Settings\Files`](#setDownloadLink)
 
 ## Methods:
 ### <a name="getAllowAutomaticUpload"></a> `getAllowAutomaticUpload(): bool`
@@ -35,7 +35,7 @@ Get allow automatic upload of files from file paths present in constructors?
 
 
 
-### <a name="setAllowAutomaticUpload"></a> `setAllowAutomaticUpload(bool $allowAutomaticUpload): self`
+### <a name="setAllowAutomaticUpload"></a> `setAllowAutomaticUpload(bool $allowAutomaticUpload): \danog\MadelineProto\Settings\Files`
 
 Set allow automatic upload of files from file paths present in constructors?
 
@@ -52,7 +52,7 @@ Get upload parallel chunk count.
 
 
 
-### <a name="setUploadParallelChunks"></a> `setUploadParallelChunks(int $uploadParallelChunks): self`
+### <a name="setUploadParallelChunks"></a> `setUploadParallelChunks(int $uploadParallelChunks): \danog\MadelineProto\Settings\Files`
 
 Set upload parallel chunk count.
 
@@ -69,7 +69,7 @@ Get download parallel chunk count.
 
 
 
-### <a name="setDownloadParallelChunks"></a> `setDownloadParallelChunks(int $downloadParallelChunks): self`
+### <a name="setDownloadParallelChunks"></a> `setDownloadParallelChunks(int $downloadParallelChunks): \danog\MadelineProto\Settings\Files`
 
 Set download parallel chunk count.
 
@@ -86,7 +86,7 @@ Get whether to report undownloadable media to TSF.
 
 
 
-### <a name="setReportBrokenMedia"></a> `setReportBrokenMedia(bool $reportBrokenMedia): self`
+### <a name="setReportBrokenMedia"></a> `setReportBrokenMedia(bool $reportBrokenMedia): \danog\MadelineProto\Settings\Files`
 
 Set whether to report undownloadable media to TSF.
 
@@ -103,7 +103,7 @@ Get custom download link URL for CLI bots, used by `getDownloadLink`.
 
 
 
-### <a name="setDownloadLink"></a> `setDownloadLink(?string $downloadLink): self`
+### <a name="setDownloadLink"></a> `setDownloadLink(?string $downloadLink): \danog\MadelineProto\Settings\Files`
 
 Only needed for CLI bots, not bots started via web.
   

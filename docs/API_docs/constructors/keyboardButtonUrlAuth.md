@@ -15,6 +15,7 @@ Button to request a user to authorize via URL using [Seamless Telegram Login](ht
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|style|[KeyboardButtonStyle](/API_docs/types/KeyboardButtonStyle.html) | Optional|
 |text|[string](/API_docs/types/string.html) | Yes|Button label|
 |fwd\_text|[string](/API_docs/types/string.html) | Optional|New text of the button in forwarded messages.|
 |url|[string](/API_docs/types/string.html) | Yes|An HTTP URL to be opened with user authorization data added to the query string when the button is pressed. If the user refuses to provide authorization data, the original URL without information about the user will be opened. The data added is the same as described in [Receiving authorization data](https://core.telegram.org/widgets/login#receiving-authorization-data).<br><br>**NOTE**: Services must **always** check the hash of the received data to verify the authentication and the integrity of the data as described in [Checking authorization](https://core.telegram.org/widgets/login#checking-authorization).|
@@ -28,5 +29,5 @@ Button to request a user to authorize via URL using [Seamless Telegram Login](ht
 ### Example:
 
 ```
-$keyboardButtonUrlAuth = ['_' => 'keyboardButtonUrlAuth', 'text' => 'string', 'fwd_text' => 'string', 'url' => 'string', 'button_id' => int];
+$keyboardButtonUrlAuth = ['_' => 'keyboardButtonUrlAuth', 'style' => KeyboardButtonStyle, 'text' => 'string', 'fwd_text' => 'string', 'url' => 'string', 'button_id' => int];
 ```  

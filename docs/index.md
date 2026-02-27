@@ -1270,16 +1270,21 @@ Some of MadelineProto's core components are also available as separate, standalo
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/auth.finishPasskeyLogin.html" name="auth.finishPasskeyLogin">auth.finishPasskeyLogin</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/auth.initPasskeyLogin.html" name="auth.initPasskeyLogin">auth.initPasskeyLogin</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#base64urlDecode" name="base64urlDecode">base64URL decode: base64urlDecode</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/channels.getFutureCreatorAfterLeave.html" name="channels.getFutureCreatorAfterLeave">channels.getFutureCreatorAfterLeave</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/contacts.updateContactNote.html" name="contacts.updateContactNote">contacts.updateContactNote</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.createForumTopic.html" name="messages.createForumTopic">messages.createForumTopic</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.deleteTopicHistory.html" name="messages.deleteTopicHistory">messages.deleteTopicHistory</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.editForumTopic.html" name="messages.editForumTopic">messages.editForumTopic</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.getEmojiGameInfo.html" name="messages.getEmojiGameInfo">messages.getEmojiGameInfo</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.getForumTopics.html" name="messages.getForumTopics">messages.getForumTopics</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.getForumTopicsByID.html" name="messages.getForumTopicsByID">messages.getForumTopicsByID</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.reorderPinnedForumTopics.html" name="messages.reorderPinnedForumTopics">messages.reorderPinnedForumTopics</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.summarizeText.html" name="messages.summarizeText">messages.summarizeText</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.updatePinnedForumTopic.html" name="messages.updatePinnedForumTopic">messages.updatePinnedForumTopic</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleDecode" name="rleDecode">null-byte RLE decode: rleDecode</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleEncode" name="rleEncode">null-byte RLE encode: rleEncode</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.craftStarGift.html" name="payments.craftStarGift">payments.craftStarGift</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getCraftStarGifts.html" name="payments.getCraftStarGifts">payments.getCraftStarGifts</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getStarGiftActiveAuctions.html" name="payments.getStarGiftActiveAuctions">payments.getStarGiftActiveAuctions</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getStarGiftAuctionAcquiredGifts.html" name="payments.getStarGiftAuctionAcquiredGifts">payments.getStarGiftAuctionAcquiredGifts</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.getStarGiftAuctionState.html" name="payments.getStarGiftAuctionState">payments.getStarGiftAuctionState</a>

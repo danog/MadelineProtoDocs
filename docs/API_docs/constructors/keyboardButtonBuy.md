@@ -15,6 +15,7 @@ Button to buy a product
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|style|[KeyboardButtonStyle](/API_docs/types/KeyboardButtonStyle.html) | Optional|
 |text|[string](/API_docs/types/string.html) | Yes|Button text|
 
 
@@ -25,5 +26,5 @@ Button to buy a product
 ### Example:
 
 ```
-$keyboardButtonBuy = ['_' => 'keyboardButtonBuy', 'text' => 'string'];
+$keyboardButtonBuy = ['_' => 'keyboardButtonBuy', 'style' => KeyboardButtonStyle, 'text' => 'string'];
 ```  

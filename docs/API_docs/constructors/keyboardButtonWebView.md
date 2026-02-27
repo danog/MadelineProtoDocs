@@ -17,6 +17,7 @@ Can only be sent or received as part of an inline keyboard, use [keyboardButtonS
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|style|[KeyboardButtonStyle](/API_docs/types/KeyboardButtonStyle.html) | Optional|
 |text|[string](/API_docs/types/string.html) | Yes|Button text|
 |url|[string](/API_docs/types/string.html) | Yes|[Web app url](https://core.telegram.org/api/bots/webapps)|
 
@@ -28,5 +29,5 @@ Can only be sent or received as part of an inline keyboard, use [keyboardButtonS
 ### Example:
 
 ```
-$keyboardButtonWebView = ['_' => 'keyboardButtonWebView', 'text' => 'string', 'url' => 'string'];
+$keyboardButtonWebView = ['_' => 'keyboardButtonWebView', 'style' => KeyboardButtonStyle, 'text' => 'string', 'url' => 'string'];
 ```  

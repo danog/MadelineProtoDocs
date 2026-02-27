@@ -18,7 +18,7 @@ Cryptography settings.
 
 ## Method list:
 * [`getMaxAuthTries(): int`](#getMaxAuthTries)
-* [`setMaxAuthTries(int<1, max> $maxAuthTries): self`](#setMaxAuthTries)
+* [`setMaxAuthTries(int<1, max> $maxAuthTries): \danog\MadelineProto\Settings\Auth`](#setMaxAuthTries)
 
 ## Methods:
 ### <a name="getMaxAuthTries"></a> `getMaxAuthTries(): int`
@@ -27,7 +27,7 @@ Get max tries for generating auth key.
 
 
 
-### <a name="setMaxAuthTries"></a> `setMaxAuthTries(int<1, max> $maxAuthTries): self`
+### <a name="setMaxAuthTries"></a> `setMaxAuthTries(int<1, max> $maxAuthTries): \danog\MadelineProto\Settings\Auth`
 
 Set max tries for generating auth key.
 

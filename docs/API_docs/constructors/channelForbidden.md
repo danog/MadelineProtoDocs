@@ -17,6 +17,7 @@ Indicates a channel/supergroup we can't access because we were banned, or for so
 |----------|---------------|----------|-------------|
 |broadcast|[Bool](/API_docs/types/Bool.html) | Optional|Is this a channel|
 |megagroup|[Bool](/API_docs/types/Bool.html) | Optional|Is this a supergroup|
+|monoforum|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[long](/API_docs/types/long.html) | Yes|Channel ID|
 |access\_hash|[long](/API_docs/types/long.html) | Yes|Access hash|
 |title|[string](/API_docs/types/string.html) | Yes|Title|
@@ -30,5 +31,5 @@ Indicates a channel/supergroup we can't access because we were banned, or for so
 ### Example:
 
 ```
-$channelForbidden = ['_' => 'channelForbidden', 'broadcast' => Bool, 'megagroup' => Bool, 'id' => long, 'access_hash' => long, 'title' => 'string', 'until_date' => int];
+$channelForbidden = ['_' => 'channelForbidden', 'broadcast' => Bool, 'megagroup' => Bool, 'monoforum' => Bool, 'id' => long, 'access_hash' => long, 'title' => 'string', 'until_date' => int];
 ```  

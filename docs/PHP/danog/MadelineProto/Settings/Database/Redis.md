@@ -19,7 +19,7 @@ Redis backend settings.
 ## Method list:
 * [`getOrmSettings(): \danog\AsyncOrm\Settings`](#getOrmSettings)
 * [`getDatabase(): int`](#getDatabase)
-* [`setDatabase(int $database): self`](#setDatabase)
+* [`setDatabase(int $database): \danog\MadelineProto\Settings\Database\Redis`](#setDatabase)
 * [`getUri(): string`](#getUri)
 * [`setUri(string $uri): static`](#setUri)
 * [`getEphemeralFilesystemPrefix(): ?string`](#getEphemeralFilesystemPrefix)
@@ -59,7 +59,7 @@ Get database number.
 
 
 
-### <a name="setDatabase"></a> `setDatabase(int $database): self`
+### <a name="setDatabase"></a> `setDatabase(int $database): \danog\MadelineProto\Settings\Database\Redis`
 
 Set database number.
 

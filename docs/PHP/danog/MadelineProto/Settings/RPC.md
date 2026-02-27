@@ -18,13 +18,13 @@ RPC settings.
 
 ## Method list:
 * [`getRpcDropTimeout(): int`](#getRpcDropTimeout)
-* [`setRpcDropTimeout(int $rpcDropTimeout): self`](#setRpcDropTimeout)
+* [`setRpcDropTimeout(int $rpcDropTimeout): \danog\MadelineProto\Settings\RPC`](#setRpcDropTimeout)
 * [`getRpcResendTimeout(): int`](#getRpcResendTimeout)
-* [`setRpcResendTimeout(int $rpcResendTimeout): self`](#setRpcResendTimeout)
+* [`setRpcResendTimeout(int $rpcResendTimeout): \danog\MadelineProto\Settings\RPC`](#setRpcResendTimeout)
 * [`getFloodTimeout(): int`](#getFloodTimeout)
-* [`setFloodTimeout(int $floodTimeout): self`](#setFloodTimeout)
+* [`setFloodTimeout(int $floodTimeout): \danog\MadelineProto\Settings\RPC`](#setFloodTimeout)
 * [`getGzipEncodeIfGt(): int`](#getGzipEncodeIfGt)
-* [`setGzipEncodeIfGt(int $gzipEncodeIfGt): self`](#setGzipEncodeIfGt)
+* [`setGzipEncodeIfGt(int $gzipEncodeIfGt): \danog\MadelineProto\Settings\RPC`](#setGzipEncodeIfGt)
 
 ## Methods:
 ### <a name="getRpcDropTimeout"></a> `getRpcDropTimeout(): int`
@@ -33,7 +33,7 @@ Get RPC drop timeout.
 
 
 
-### <a name="setRpcDropTimeout"></a> `setRpcDropTimeout(int $rpcDropTimeout): self`
+### <a name="setRpcDropTimeout"></a> `setRpcDropTimeout(int $rpcDropTimeout): \danog\MadelineProto\Settings\RPC`
 
 Set RPC drop timeout.
 
@@ -50,7 +50,7 @@ Get RPC resend timeout.
 
 
 
-### <a name="setRpcResendTimeout"></a> `setRpcResendTimeout(int $rpcResendTimeout): self`
+### <a name="setRpcResendTimeout"></a> `setRpcResendTimeout(int $rpcResendTimeout): \danog\MadelineProto\Settings\RPC`
 
 Set RPC resend timeout.
 
@@ -67,7 +67,7 @@ Get flood timeout: if FLOOD_WAIT_ time is bigger than this, throw exception inst
 
 
 
-### <a name="setFloodTimeout"></a> `setFloodTimeout(int $floodTimeout): self`
+### <a name="setFloodTimeout"></a> `setFloodTimeout(int $floodTimeout): \danog\MadelineProto\Settings\RPC`
 
 Set flood timeout: if FLOOD_WAIT_ time is bigger than this, throw exception instead of waiting asynchronously.
   
@@ -86,7 +86,7 @@ Get encode payload with GZIP if bigger than.
 
 
 
-### <a name="setGzipEncodeIfGt"></a> `setGzipEncodeIfGt(int $gzipEncodeIfGt): self`
+### <a name="setGzipEncodeIfGt"></a> `setGzipEncodeIfGt(int $gzipEncodeIfGt): \danog\MadelineProto\Settings\RPC`
 
 Set encode payload with GZIP if bigger than.
 

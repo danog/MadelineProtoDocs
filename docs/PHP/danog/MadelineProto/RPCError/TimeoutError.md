@@ -27,6 +27,7 @@ Represents a request timeout RPC error returned by telegram (as opposed to one r
 
 ## Method list:
 * [`getLocalization(): string`](#getLocalization)
+* [`getTLTrace(): string`](#getTLTrace)
 * [`getMessage(): string`](#getMessage)
 * [`getCode()`](#getCode)
 * [`getFile(): string`](#getFile)
@@ -34,12 +35,17 @@ Represents a request timeout RPC error returned by telegram (as opposed to one r
 * [`getTrace(): array`](#getTrace)
 * [`getPrevious(): ?Throwable`](#getPrevious)
 * [`getTraceAsString(): string`](#getTraceAsString)
-* [`getTLTrace(): string`](#getTLTrace)
 
 ## Methods:
 ### <a name="getLocalization"></a> `getLocalization(): string`
 
 Get localized error name.
+
+
+
+### <a name="getTLTrace"></a> `getTLTrace(): string`
+
+Get TL trace.
 
 
 
@@ -87,12 +93,6 @@ Get localized error name.
 ### <a name="getTraceAsString"></a> `getTraceAsString(): string`
 
 
-
-
-
-### <a name="getTLTrace"></a> `getTLTrace(): string`
-
-Get TL trace.
 
 
 

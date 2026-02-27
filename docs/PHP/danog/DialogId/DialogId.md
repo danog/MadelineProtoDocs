@@ -31,7 +31,7 @@ Represents the type of a bot API dialog ID.
 * `$name`: `string` 
 
 ## Method list:
-* [`getType(integer $id): self`](#getType)
+* [`getType(integer $id): \danog\DialogId\DialogId`](#getType)
 * [`isSupergroupOrChannel(int $id): bool`](#isSupergroupOrChannel)
 * [`isSupergroupOrChannelOrMonoforum(int $id): bool`](#isSupergroupOrChannelOrMonoforum)
 * [`isMonoforum(int $id): bool`](#isMonoforum)
@@ -52,7 +52,7 @@ Represents the type of a bot API dialog ID.
 * [`cases(): array`](#cases)
 
 ## Methods:
-### <a name="getType"></a> `getType(integer $id): self`
+### <a name="getType"></a> `getType(integer $id): \danog\DialogId\DialogId`
 
 Get the type of a dialog using just its bot API dialog ID.
 

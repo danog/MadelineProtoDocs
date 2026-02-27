@@ -15,6 +15,7 @@ A button that allows the user to create and send a poll when pressed; available 
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|style|[KeyboardButtonStyle](/API_docs/types/KeyboardButtonStyle.html) | Optional|
 |quiz|[Bool](/API_docs/types/Bool.html) | Optional|If set, only quiz polls can be sent|
 |text|[string](/API_docs/types/string.html) | Yes|Button text|
 
@@ -26,5 +27,5 @@ A button that allows the user to create and send a poll when pressed; available 
 ### Example:
 
 ```
-$keyboardButtonRequestPoll = ['_' => 'keyboardButtonRequestPoll', 'quiz' => Bool, 'text' => 'string'];
+$keyboardButtonRequestPoll = ['_' => 'keyboardButtonRequestPoll', 'style' => KeyboardButtonStyle, 'quiz' => Bool, 'text' => 'string'];
 ```  

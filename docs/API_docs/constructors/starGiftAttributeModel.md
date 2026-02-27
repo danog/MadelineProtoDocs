@@ -15,9 +15,10 @@ The model of a [collectible gift »](https://core.telegram.org/api/gifts#collect
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|crafted|[Bool](/API_docs/types/Bool.html) | Optional|
 |name|[string](/API_docs/types/string.html) | Yes|Name of the model|
 |document|[Document](/API_docs/types/Document.html) | Optional|The [sticker](https://core.telegram.org/api/stickers) representing the upgraded gift|
-|rarity\_permille|[int](/API_docs/types/int.html) | Yes|The number of upgraded gifts that receive this backdrop for each 1000 gifts upgraded.|
+|rarity|[StarGiftAttributeRarity](/API_docs/types/StarGiftAttributeRarity.html) | Yes|
 
 
 
@@ -27,5 +28,5 @@ The model of a [collectible gift »](https://core.telegram.org/api/gifts#collect
 ### Example:
 
 ```
-$starGiftAttributeModel = ['_' => 'starGiftAttributeModel', 'name' => 'string', 'document' => Document, 'rarity_permille' => int];
+$starGiftAttributeModel = ['_' => 'starGiftAttributeModel', 'crafted' => Bool, 'name' => 'string', 'document' => Document, 'rarity' => StarGiftAttributeRarity];
 ```  

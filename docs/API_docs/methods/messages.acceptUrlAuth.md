@@ -18,6 +18,7 @@ Use this to accept a Seamless Telegram Login authorization request, for more inf
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |write\_allowed|[Bool](/API_docs/types/Bool.html) | Set this flag to allow the bot to send messages to you (if requested) | Optional|
+|share\_phone\_number|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The location of the message | Optional|
 |msg\_id|[int](/API_docs/types/int.html) | Message ID of the message with the login button | Optional|
 |button\_id|[int](/API_docs/types/int.html) | ID of the login button | Optional|
@@ -47,6 +48,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$UrlAuthResult = $MadelineProto->messages->acceptUrlAuth(write_allowed: $Bool, peer: $InputPeer, msg_id: $int, button_id: $int, url: 'string', );
+$UrlAuthResult = $MadelineProto->messages->acceptUrlAuth(write_allowed: $Bool, share_phone_number: $Bool, peer: $InputPeer, msg_id: $int, button_id: $int, url: 'string', );
 ```
 

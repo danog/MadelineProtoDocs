@@ -18,11 +18,11 @@ Peer database settings.
 
 ## Method list:
 * [`getFullInfoCacheTime(): int`](#getFullInfoCacheTime)
-* [`setFullInfoCacheTime(int $fullInfoCacheTime): self`](#setFullInfoCacheTime)
+* [`setFullInfoCacheTime(int $fullInfoCacheTime): \danog\MadelineProto\Settings\Peer`](#setFullInfoCacheTime)
 * [`getFullFetch(): bool`](#getFullFetch)
-* [`setFullFetch(bool $fullFetch): self`](#setFullFetch)
+* [`setFullFetch(bool $fullFetch): \danog\MadelineProto\Settings\Peer`](#setFullFetch)
 * [`getCacheAllPeersOnStartup(): bool`](#getCacheAllPeersOnStartup)
-* [`setCacheAllPeersOnStartup(bool $cacheAllPeersOnStartup): self`](#setCacheAllPeersOnStartup)
+* [`setCacheAllPeersOnStartup(bool $cacheAllPeersOnStartup): \danog\MadelineProto\Settings\Peer`](#setCacheAllPeersOnStartup)
 
 ## Methods:
 ### <a name="getFullInfoCacheTime"></a> `getFullInfoCacheTime(): int`
@@ -31,7 +31,7 @@ Get cache time for full peer information (seconds).
 
 
 
-### <a name="setFullInfoCacheTime"></a> `setFullInfoCacheTime(int $fullInfoCacheTime): self`
+### <a name="setFullInfoCacheTime"></a> `setFullInfoCacheTime(int $fullInfoCacheTime): \danog\MadelineProto\Settings\Peer`
 
 Set cache time for full peer information (seconds).
 
@@ -48,7 +48,7 @@ Get should madeline fetch the full member list of every group it meets?
 
 
 
-### <a name="setFullFetch"></a> `setFullFetch(bool $fullFetch): self`
+### <a name="setFullFetch"></a> `setFullFetch(bool $fullFetch): \danog\MadelineProto\Settings\Peer`
 
 Set should madeline fetch the full member list of every group it meets?
 
@@ -65,7 +65,7 @@ Get whether to cache all peers on startup for userbots.
 
 
 
-### <a name="setCacheAllPeersOnStartup"></a> `setCacheAllPeersOnStartup(bool $cacheAllPeersOnStartup): self`
+### <a name="setCacheAllPeersOnStartup"></a> `setCacheAllPeersOnStartup(bool $cacheAllPeersOnStartup): \danog\MadelineProto\Settings\Peer`
 
 Set whether to cache all peers on startup for userbots.
 

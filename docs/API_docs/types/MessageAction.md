@@ -131,6 +131,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageActionStarGiftPurchaseOfferDeclined](/API_docs/constructors/messageActionStarGiftPurchaseOfferDeclined.html)  
 
+[messageActionNewCreatorPending](/API_docs/constructors/messageActionNewCreatorPending.html)  
+
+[messageActionChangeCreator](/API_docs/constructors/messageActionChangeCreator.html)  
+
 
 
 ### Methods that return an object of this type (methods):

@@ -33,6 +33,7 @@ If your account does get banned, write to [recover@telegram.org](mailto:recover@
 
 There were cases when several **normal user accounts that did nothing wrong** were banned when telegram deployed a new spambot detection system: this is bad for the community, and it is bad for Telegram, so please do not abuse.  
 
+By default, SMS authorization is disabled for new API IDs: if a MadelineProto-based project requires SMS authorization, the developer should request permission from Telegram to use SMS codes by sending an email to sms@telegram.org, specifying #enableSMS in the email subject.
 
 ## Automatic
 

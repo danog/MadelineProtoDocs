@@ -35,7 +35,7 @@ Used to signify non-content related updates such as reactions.
 * `$keyboard`: `(danog\MadelineProto\EventHandler\Keyboard\InlineKeyboard | danog\MadelineProto\EventHandler\Keyboard\ReplyKeyboard | null)` Inline or reply keyboard.
 * `$imported`: `bool` Whether this message was [imported from a foreign chat service](https://core.telegram.org/api/import)
 * `$psaType`: `?string` For Public Service Announcement messages, the PSA type
-* `$nextSent`: `?self` 
+* `$nextSent`: `?danog\MadelineProto\EventHandler\Message` 
 * `$views`: `?int` View counter for messages from channels or forwarded from channels
 * `$forwards`: `?int` Forward counter for messages from channels or forwarded from channels
 * `$signature`: `?string` Author of the post, if signatures are enabled for messages from channels or forwarded from channels

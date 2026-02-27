@@ -974,6 +974,8 @@ Here's a full list of all MTProto filters (click on each filter name to view the
 * [onUpdateDeleteGroupCallMessages &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateDeleteGroupCallMessages.html) - 
 * [onUpdateStarGiftAuctionState &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateStarGiftAuctionState.html) - 
 * [onUpdateStarGiftAuctionUserState &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateStarGiftAuctionUserState.html) - 
+* [onUpdateEmojiGameInfo &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateEmojiGameInfo.html) - 
+* [onUpdateStarGiftCraftFail &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateStarGiftCraftFail.html) - 
 
 
 <!-- cut_here_end mtprotofilters -->

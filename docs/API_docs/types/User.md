@@ -66,6 +66,8 @@ You can also provide one of the following objects, instead, MadelineProto will h
 
 [$MadelineProto->channels->getMessageAuthor](/API_docs/methods/channels.getMessageAuthor.html)  
 
+[$MadelineProto->channels->getFutureCreatorAfterLeave](/API_docs/methods/channels.getFutureCreatorAfterLeave.html)  
+
 [$MadelineProto->bots->getAdminedBots](/API_docs/methods/bots.getAdminedBots.html)  
 
 

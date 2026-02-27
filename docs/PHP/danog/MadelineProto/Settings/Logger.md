@@ -19,13 +19,13 @@ Logger settings.
 ## Method list:
 * [`__construct()`](#__construct)
 * [`getType(): MadelineProtoLogger::LOGGER_*`](#getType)
-* [`setType(MadelineProtoLogger::LOGGER_* $type): self`](#setType)
+* [`setType(MadelineProtoLogger::LOGGER_* $type): \danog\MadelineProto\Settings\Logger`](#setType)
 * [`getExtra(): callable|string|null`](#getExtra)
-* [`setExtra((null|callable|string) $extra): self`](#setExtra)
+* [`setExtra((null|callable|string) $extra): \danog\MadelineProto\Settings\Logger`](#setExtra)
 * [`getLevel(): MadelineProtoLogger::LEVEL_*`](#getLevel)
-* [`setLevel(MadelineProtoLogger::LEVEL_* $level): self`](#setLevel)
+* [`setLevel(MadelineProtoLogger::LEVEL_* $level): \danog\MadelineProto\Settings\Logger`](#setLevel)
 * [`getMaxSize(): int`](#getMaxSize)
-* [`setMaxSize(int $maxSize): self`](#setMaxSize)
+* [`setMaxSize(int $maxSize): \danog\MadelineProto\Settings\Logger`](#setMaxSize)
 
 ## Methods:
 ### <a name="__construct"></a> `__construct()`
@@ -45,7 +45,7 @@ Get $type Logger type.
 
 
 
-### <a name="setType"></a> `setType(MadelineProtoLogger::LOGGER_* $type): self`
+### <a name="setType"></a> `setType(MadelineProtoLogger::LOGGER_* $type): \danog\MadelineProto\Settings\Logger`
 
 Set $type Logger type.
 
@@ -67,7 +67,7 @@ Get extra parameter for logger.
 
 
 
-### <a name="setExtra"></a> `setExtra((null|callable|string) $extra): self`
+### <a name="setExtra"></a> `setExtra((null|callable|string) $extra): \danog\MadelineProto\Settings\Logger`
 
 Set extra parameter for logger.
 
@@ -89,7 +89,7 @@ Get logging level.
 
 
 
-### <a name="setLevel"></a> `setLevel(MadelineProtoLogger::LEVEL_* $level): self`
+### <a name="setLevel"></a> `setLevel(MadelineProtoLogger::LEVEL_* $level): \danog\MadelineProto\Settings\Logger`
 
 Set logging level.
 
@@ -111,7 +111,7 @@ Get maximum filesize for logger, in case of file logging.
 
 
 
-### <a name="setMaxSize"></a> `setMaxSize(int $maxSize): self`
+### <a name="setMaxSize"></a> `setMaxSize(int $maxSize): \danog\MadelineProto\Settings\Logger`
 
 Set maximum filesize for logger, in case of file logging.
 

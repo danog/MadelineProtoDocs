@@ -15,6 +15,7 @@ URL button
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|style|[KeyboardButtonStyle](/API_docs/types/KeyboardButtonStyle.html) | Optional|
 |text|[string](/API_docs/types/string.html) | Yes|Button label|
 |url|[string](/API_docs/types/string.html) | Yes|URL|
 
@@ -26,5 +27,5 @@ URL button
 ### Example:
 
 ```
-$keyboardButtonUrl = ['_' => 'keyboardButtonUrl', 'text' => 'string', 'url' => 'string'];
+$keyboardButtonUrl = ['_' => 'keyboardButtonUrl', 'style' => KeyboardButtonStyle, 'text' => 'string', 'url' => 'string'];
 ```  

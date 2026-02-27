@@ -18,7 +18,7 @@ Serialization settings.
 
 ## Method list:
 * [`getInterval(): int`](#getInterval)
-* [`setInterval(int $interval): self`](#setInterval)
+* [`setInterval(int $interval): \danog\MadelineProto\Settings\Serialization`](#setInterval)
 
 ## Methods:
 ### <a name="getInterval"></a> `getInterval(): int`
@@ -27,7 +27,7 @@ Get serialization interval, in seconds.
 
 
 
-### <a name="setInterval"></a> `setInterval(int $interval): self`
+### <a name="setInterval"></a> `setInterval(int $interval): \danog\MadelineProto\Settings\Serialization`
 
 Set serialization interval, in seconds.
 

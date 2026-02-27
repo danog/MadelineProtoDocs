@@ -18,7 +18,7 @@ Secret chat settings.
 
 ## Method list:
 * [`getAccept(): (bool|array<int>)`](#getAccept)
-* [`setAccept((bool|array<int>) $accept): self`](#setAccept)
+* [`setAccept((bool|array<int>) $accept): \danog\MadelineProto\Settings\SecretChats`](#setAccept)
 
 ## Methods:
 ### <a name="getAccept"></a> `getAccept(): (bool|array<int>)`
@@ -27,7 +27,7 @@ Get boolean or array of IDs.
 
 
 
-### <a name="setAccept"></a> `setAccept((bool|array<int>) $accept): self`
+### <a name="setAccept"></a> `setAccept((bool|array<int>) $accept): \danog\MadelineProto\Settings\SecretChats`
 
 Set boolean or array of IDs.
 

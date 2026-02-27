@@ -22,29 +22,29 @@ This update represents a VoIP Telegram call.
 * `$date`: `int` When was the call created
 
 ## Method list:
-* [`accept(): self`](#accept)
-* [`discard(\danog\MadelineProto\VoIP\DiscardReason $reason = \danog\MadelineProto\VoIP\DiscardReason::HANGUP, int<1, 5> $rating = NULL, string $comment = NULL): self`](#discard)
+* [`accept(): \danog\MadelineProto\VoIP`](#accept)
+* [`discard(\danog\MadelineProto\VoIP\DiscardReason $reason = \danog\MadelineProto\VoIP\DiscardReason::HANGUP, int<1, 5> $rating = NULL, string $comment = NULL): \danog\MadelineProto\VoIP`](#discard)
 * [`getVisualization(): ?list{string, string, string, string}`](#getVisualization)
-* [`play(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): self`](#play)
-* [`setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file): self`](#setOutput)
-* [`then(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): self`](#then)
-* [`skip(): self`](#skip)
-* [`stop(): self`](#stop)
-* [`pause(): self`](#pause)
+* [`play(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): \danog\MadelineProto\VoIP`](#play)
+* [`setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file): \danog\MadelineProto\VoIP`](#setOutput)
+* [`then(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): \danog\MadelineProto\VoIP`](#then)
+* [`skip(): \danog\MadelineProto\VoIP`](#skip)
+* [`stop(): \danog\MadelineProto\VoIP`](#stop)
+* [`pause(): \danog\MadelineProto\VoIP`](#pause)
 * [`isPaused(): boolean`](#isPaused)
-* [`resume(): self`](#resume)
-* [`playOnHold(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): self`](#playOnHold)
+* [`resume(): \danog\MadelineProto\VoIP`](#resume)
+* [`playOnHold(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): \danog\MadelineProto\VoIP`](#playOnHold)
 * [`getCurrent(): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`](#getCurrent)
 * [`getCallState(): \danog\MadelineProto\VoIP\CallState`](#getCallState)
 
 ## Methods:
-### <a name="accept"></a> `accept(): self`
+### <a name="accept"></a> `accept(): \danog\MadelineProto\VoIP`
 
 Accept call.
 
 
 
-### <a name="discard"></a> `discard(\danog\MadelineProto\VoIP\DiscardReason $reason = \danog\MadelineProto\VoIP\DiscardReason::HANGUP, int<1, 5> $rating = NULL, string $comment = NULL): self`
+### <a name="discard"></a> `discard(\danog\MadelineProto\VoIP\DiscardReason $reason = \danog\MadelineProto\VoIP\DiscardReason::HANGUP, int<1, 5> $rating = NULL, string $comment = NULL): \danog\MadelineProto\VoIP`
 
 Discard call.
 
@@ -68,7 +68,7 @@ Get call emojis (will return null if the call is not inited yet).
 
 
 
-### <a name="play"></a> `play(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): self`
+### <a name="play"></a> `play(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): \danog\MadelineProto\VoIP`
 
 Play file.
 
@@ -86,7 +86,7 @@ Parameters:
 
 
 
-### <a name="setOutput"></a> `setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file): self`
+### <a name="setOutput"></a> `setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file): \danog\MadelineProto\VoIP`
 
 Set output file or stream for incoming OPUS audio packets.
   
@@ -105,7 +105,7 @@ Parameters:
 
 
 
-### <a name="then"></a> `then(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): self`
+### <a name="then"></a> `then(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): \danog\MadelineProto\VoIP`
 
 Play file.
 
@@ -123,19 +123,19 @@ Parameters:
 
 
 
-### <a name="skip"></a> `skip(): self`
+### <a name="skip"></a> `skip(): \danog\MadelineProto\VoIP`
 
 When called, skips to the next file in the playlist.
 
 
 
-### <a name="stop"></a> `stop(): self`
+### <a name="stop"></a> `stop(): \danog\MadelineProto\VoIP`
 
 Stops playing all files, clears the main and the hold playlist.
 
 
 
-### <a name="pause"></a> `pause(): self`
+### <a name="pause"></a> `pause(): \danog\MadelineProto\VoIP`
 
 Pauses the currently playing file.
 
@@ -147,13 +147,13 @@ Whether the currently playing file is paused.
 
 
 
-### <a name="resume"></a> `resume(): self`
+### <a name="resume"></a> `resume(): \danog\MadelineProto\VoIP`
 
 Resumes the currently playing file.
 
 
 
-### <a name="playOnHold"></a> `playOnHold(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): self`
+### <a name="playOnHold"></a> `playOnHold(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): \danog\MadelineProto\VoIP`
 
 Files to play on hold.
 

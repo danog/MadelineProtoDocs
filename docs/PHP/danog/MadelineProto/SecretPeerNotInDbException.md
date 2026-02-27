@@ -20,7 +20,8 @@ Indicates that the specified secret chat wasn't found.
 
 ## Method list:
 * [`__construct()`](#__construct)
-* [`extension(string $extensionName): self`](#extension)
+* [`extension(string $extensionName): \danog\MadelineProto\Exception`](#extension)
+* [`getTLTrace(): string`](#getTLTrace)
 * [`getMessage(): string`](#getMessage)
 * [`getCode()`](#getCode)
 * [`getFile(): string`](#getFile)
@@ -28,7 +29,6 @@ Indicates that the specified secret chat wasn't found.
 * [`getTrace(): array`](#getTrace)
 * [`getPrevious(): ?Throwable`](#getPrevious)
 * [`getTraceAsString(): string`](#getTraceAsString)
-* [`getTLTrace(): string`](#getTLTrace)
 
 ## Methods:
 ### <a name="__construct"></a> `__construct()`
@@ -37,7 +37,7 @@ Indicates that the specified secret chat wasn't found.
 
 
 
-### <a name="extension"></a> `extension(string $extensionName): self`
+### <a name="extension"></a> `extension(string $extensionName): \danog\MadelineProto\Exception`
 
 Complain about missing extensions.
 
@@ -45,6 +45,12 @@ Complain about missing extensions.
 Parameters:
 
 * `$extensionName`: `string` Extension name  
+
+
+
+### <a name="getTLTrace"></a> `getTLTrace(): string`
+
+Get TL trace.
 
 
 
@@ -92,12 +98,6 @@ Parameters:
 ### <a name="getTraceAsString"></a> `getTraceAsString(): string`
 
 
-
-
-
-### <a name="getTLTrace"></a> `getTLTrace(): string`
-
-Get TL trace.
 
 
 

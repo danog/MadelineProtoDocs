@@ -48,6 +48,8 @@ Plugin event handler class.
 * [`getPeriodicLoops(): array<string, \danog\Loop\PeriodicLoop>`](#getPeriodicLoops)
 * [`getReportPeers(): (string|int|array<(string|int)>)`](#getReportPeers)
 * [`getPlugins(): array<class-string<\danog\MadelineProto\EventHandler>>`](#getPlugins)
+* [`initDbProperties(\danog\AsyncOrm\Settings $settings, string $tablePrefix): void`](#initDbProperties)
+* [`saveDbProperties(): void`](#saveDbProperties)
 * [`MTProtoToBotAPI(array $data): array`](#MTProtoToBotAPI)
 * [`MTProtoToTd(mixed $params): array`](#MTProtoToTd)
 * [`MTProtoToTdcli(mixed $params): array`](#MTProtoToTdcli)
@@ -267,8 +269,6 @@ Plugin event handler class.
 * [`wrapMessage(array $message, bool $scheduled = false): ?\danog\MadelineProto\EventHandler\AbstractMessage`](#wrapMessage)
 * [`wrapPin(array $message): ?\danog\MadelineProto\EventHandler\Pinned`](#wrapPin)
 * [`wrapUpdate(array $update): ?\danog\MadelineProto\EventHandler\Update`](#wrapUpdate)
-* [`initDbProperties(\danog\AsyncOrm\Settings $settings, string $tablePrefix): void`](#initDbProperties)
-* [`saveDbProperties(): void`](#saveDbProperties)
 
 ## Methods:
 ### <a name="getPluginPaths"></a> `getPluginPaths(): array|string|null`
@@ -358,6 +358,29 @@ Get peers where to send error reports.
 ### <a name="getPlugins"></a> `getPlugins(): array<class-string<\danog\MadelineProto\EventHandler>>`
 
 Obtain a list of plugin event handlers to use, in addition with those found by getPluginPath.
+
+
+
+### <a name="initDbProperties"></a> `initDbProperties(\danog\AsyncOrm\Settings $settings, string $tablePrefix): void`
+
+Initialize database properties.
+
+
+Parameters:
+
+* `$settings`: `\danog\AsyncOrm\Settings`   
+* `$tablePrefix`: `string`   
+
+
+#### See also: 
+* `\danog\AsyncOrm\Settings`
+
+
+
+
+### <a name="saveDbProperties"></a> `saveDbProperties(): void`
+
+Save all properties.
 
 
 
@@ -3806,29 +3829,6 @@ Parameters:
 #### See also: 
 * [`\danog\MadelineProto\EventHandler\Update`: Represents a generic update.](../../danog/MadelineProto/EventHandler/Update.html)
 
-
-
-
-### <a name="initDbProperties"></a> `initDbProperties(\danog\AsyncOrm\Settings $settings, string $tablePrefix): void`
-
-Initialize database properties.
-
-
-Parameters:
-
-* `$settings`: `\danog\AsyncOrm\Settings`   
-* `$tablePrefix`: `string`   
-
-
-#### See also: 
-* `\danog\AsyncOrm\Settings`
-
-
-
-
-### <a name="saveDbProperties"></a> `saveDbProperties(): void`
-
-Save all properties.
 
 
 

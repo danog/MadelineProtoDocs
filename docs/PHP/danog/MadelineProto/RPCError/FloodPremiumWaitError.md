@@ -27,6 +27,7 @@ Represents a FLOOD_PREMIUM_WAIT_ RPC error returned by telegram.
 * [`getWaitTimeLeft(): int<0, max>`](#getWaitTimeLeft)
 * [`wait(?\Amp\Cancellation $cancellation = NULL): void`](#wait)
 * [`getLocalization(): string`](#getLocalization)
+* [`getTLTrace(): string`](#getTLTrace)
 * [`getMessage(): string`](#getMessage)
 * [`getCode()`](#getCode)
 * [`getFile(): string`](#getFile)
@@ -34,7 +35,6 @@ Represents a FLOOD_PREMIUM_WAIT_ RPC error returned by telegram.
 * [`getTrace(): array`](#getTrace)
 * [`getPrevious(): ?Throwable`](#getPrevious)
 * [`getTraceAsString(): string`](#getTraceAsString)
-* [`getTLTrace(): string`](#getTLTrace)
 
 ## Methods:
 ### <a name="getWaitTime"></a> `getWaitTime(): positive-int`
@@ -78,6 +78,12 @@ Parameters:
 ### <a name="getLocalization"></a> `getLocalization(): string`
 
 Get localized error name.
+
+
+
+### <a name="getTLTrace"></a> `getTLTrace(): string`
+
+Get TL trace.
 
 
 
@@ -125,12 +131,6 @@ Get localized error name.
 ### <a name="getTraceAsString"></a> `getTraceAsString(): string`
 
 
-
-
-
-### <a name="getTLTrace"></a> `getTLTrace(): string`
-
-Get TL trace.
 
 
 

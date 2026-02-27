@@ -16,6 +16,7 @@ Represents a query sent by the user by clicking on a button in an inline message
 
 
 ## Properties
+* `$inlineMessageId`: `string` Inline message ID
 * `$data`: `string` Data associated with the callback button. Be aware that a bad client can send arbitrary data in this field.
 * `$matches`: `list<string>` Regex matches, if a filter regex is present.
 * `$matchesAll`: `array<array-key, (array<array-key, (list{string, int} | null | string)> | mixed)>` 
@@ -23,28 +24,13 @@ Regex matches, if a filter multiple match regex is present
 * `$queryId`: `int` Query ID
 * `$userId`: `int` ID of the user that pressed the button
 * `$chatInstance`: `int` Global identifier, uniquely corresponding to the chat to which the message with the callback button was sent. Useful for high scores in games.
-* `$inlineMessageId`: `string` Inline message ID
 
 ## Method list:
-* [`answer(?string $message = NULL, bool $alert = false, (string|null) $url = NULL, int $cacheTime = 300): bool`](#answer)
 * [`editText(string $message, (array|null) $replyMarkup = NULL, ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, bool $noWebpage = false): void`](#editText)
 * [`editReplyMarkup(array $replyMarkup): void`](#editReplyMarkup)
+* [`answer(?string $message = NULL, bool $alert = false, (string|null) $url = NULL, int $cacheTime = 300): bool`](#answer)
 
 ## Methods:
-### <a name="answer"></a> `answer(?string $message = NULL, bool $alert = false, (string|null) $url = NULL, int $cacheTime = 300): bool`
-
-
-
-
-Parameters:
-
-* `$message`: `?string` Popup to show  
-* `$alert`: `bool` Whether to show the message as a popup instead of a toast notification  
-* `$url`: `(string|null)` URL to open  
-* `$cacheTime`: `int` Cache validity (default set to 5 min based on telegram official docs ...)  
-
-
-
 ### <a name="editText"></a> `editText(string $message, (array|null) $replyMarkup = NULL, ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, bool $noWebpage = false): void`
 
 Edit message text.
@@ -72,6 +58,20 @@ Edit message keyboard.
 Parameters:
 
 * `$replyMarkup`: `array` Reply markup for inline keyboards  
+
+
+
+### <a name="answer"></a> `answer(?string $message = NULL, bool $alert = false, (string|null) $url = NULL, int $cacheTime = 300): bool`
+
+
+
+
+Parameters:
+
+* `$message`: `?string` Popup to show  
+* `$alert`: `bool` Whether to show the message as a popup instead of a toast notification  
+* `$url`: `(string|null)` URL to open  
+* `$cacheTime`: `int` Cache validity (default set to 5 min based on telegram official docs ...)  
 
 
 

@@ -25,7 +25,7 @@ Broadcast filter.
 
 ## Method list:
 * [`__construct(bool $allowUsers, bool $allowBots, bool $allowGroups, bool $allowChannels, array $blacklist = [], ?array $whitelist = NULL)`](#__construct)
-* [`default(): self`](#default)
+* [`default(): \danog\MadelineProto\Broadcast\Filter`](#default)
 
 ## Methods:
 ### <a name="__construct"></a> `__construct(bool $allowUsers, bool $allowBots, bool $allowGroups, bool $allowChannels, array $blacklist = [], ?array $whitelist = NULL)`
@@ -44,7 +44,7 @@ Parameters:
 
 
 
-### <a name="default"></a> `default(): self`
+### <a name="default"></a> `default(): \danog\MadelineProto\Broadcast\Filter`
 
 
 
