@@ -39,7 +39,7 @@ Note that unlike what the name suggests, the method can be used to fetch both "s
 ### Can users use this method: **YES**
 
 
-### Can bots use this method: **NO**
+### Can bots use this method: **YES**
 
 
 ### Can bots use this method over a business connection with the `businessConnectionId` flag: **YES**

@@ -28,7 +28,7 @@ Get songs [pinned to the user's profile, see here »](https://core.telegram.org/
 ### Can users use this method: **YES**
 
 
-### Can bots use this method: **NO**
+### Can bots use this method: **YES**
 
 
 ### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
