@@ -1676,8 +1676,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="payments.transferStarGift.html" name="payments.transferStarGift">Transfer a collectible gift to another user or channel: can only be used if transfer is free (i.e. messageActionStarGiftUnique.transfer_stars is not set); see here » for more info on the full flow (including the different flow to use in case the transfer isn't free): payments.transferStarGift</a>
 
-* <a href="channels.editCreator.html" name="channels.editCreator">Transfer channel ownership: channels.editCreator</a>
-
 * <a href="messages.translateText.html" name="messages.translateText">Translate a given text: messages.translateText</a>
 
 * <a href="messages.migrateChat.html" name="messages.migrateChat">Turn a basic group into a supergroup: messages.migrateChat</a>
@@ -1912,13 +1910,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#base64urlDecode" name="base64urlDecode">base64URL decode: base64urlDecode</a>
 
-* <a href="channels.getFutureCreatorAfterLeave.html" name="channels.getFutureCreatorAfterLeave">channels.getFutureCreatorAfterLeave</a>
-
 * <a href="contacts.updateContactNote.html" name="contacts.updateContactNote">contacts.updateContactNote</a>
+
+* <a href="messages.checkUrlAuthMatchCode.html" name="messages.checkUrlAuthMatchCode">messages.checkUrlAuthMatchCode</a>
 
 * <a href="messages.createForumTopic.html" name="messages.createForumTopic">messages.createForumTopic</a>
 
+* <a href="messages.declineUrlAuth.html" name="messages.declineUrlAuth">messages.declineUrlAuth</a>
+
 * <a href="messages.deleteTopicHistory.html" name="messages.deleteTopicHistory">messages.deleteTopicHistory</a>
+
+* <a href="messages.editChatCreator.html" name="messages.editChatCreator">messages.editChatCreator</a>
+
+* <a href="messages.editChatParticipantRank.html" name="messages.editChatParticipantRank">messages.editChatParticipantRank</a>
 
 * <a href="messages.editForumTopic.html" name="messages.editForumTopic">messages.editForumTopic</a>
 
@@ -1927,6 +1931,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages.getForumTopics.html" name="messages.getForumTopics">messages.getForumTopics</a>
 
 * <a href="messages.getForumTopicsByID.html" name="messages.getForumTopicsByID">messages.getForumTopicsByID</a>
+
+* <a href="messages.getFutureChatCreatorAfterLeave.html" name="messages.getFutureChatCreatorAfterLeave">messages.getFutureChatCreatorAfterLeave</a>
 
 * <a href="messages.reorderPinnedForumTopics.html" name="messages.reorderPinnedForumTopics">messages.reorderPinnedForumTopics</a>
 

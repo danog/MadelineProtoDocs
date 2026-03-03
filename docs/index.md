@@ -1188,7 +1188,6 @@ Some of MadelineProto's core components are also available as separate, standalo
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/channels.toggleSlowMode.html" name="channels.toggleSlowMode">Toggle supergroup slow mode: if enabled, users will only be able to send one message every seconds seconds: channels.toggleSlowMode</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.transcribeAudio.html" name="messages.transcribeAudio">Transcribe voice message: messages.transcribeAudio</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/payments.transferStarGift.html" name="payments.transferStarGift">Transfer a collectible gift to another user or channel: can only be used if transfer is free (i.e. messageActionStarGiftUnique.transfer_stars is not set); see here » for more info on the full flow (including the different flow to use in case the transfer isn't free): payments.transferStarGift</a>
-    * <a href="https://docs.madelineproto.xyz/API_docs/methods/channels.editCreator.html" name="channels.editCreator">Transfer channel ownership: channels.editCreator</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.translateText.html" name="messages.translateText">Translate a given text: messages.translateText</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.migrateChat.html" name="messages.migrateChat">Turn a basic group into a supergroup: messages.migrateChat</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.uninstallStickerSet.html" name="messages.uninstallStickerSet">Uninstall a stickerset: messages.uninstallStickerSet</a>
@@ -1270,14 +1269,18 @@ Some of MadelineProto's core components are also available as separate, standalo
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/auth.finishPasskeyLogin.html" name="auth.finishPasskeyLogin">auth.finishPasskeyLogin</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/auth.initPasskeyLogin.html" name="auth.initPasskeyLogin">auth.initPasskeyLogin</a>
     * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#base64urlDecode" name="base64urlDecode">base64URL decode: base64urlDecode</a>
-    * <a href="https://docs.madelineproto.xyz/API_docs/methods/channels.getFutureCreatorAfterLeave.html" name="channels.getFutureCreatorAfterLeave">channels.getFutureCreatorAfterLeave</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/contacts.updateContactNote.html" name="contacts.updateContactNote">contacts.updateContactNote</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.checkUrlAuthMatchCode.html" name="messages.checkUrlAuthMatchCode">messages.checkUrlAuthMatchCode</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.createForumTopic.html" name="messages.createForumTopic">messages.createForumTopic</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.declineUrlAuth.html" name="messages.declineUrlAuth">messages.declineUrlAuth</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.deleteTopicHistory.html" name="messages.deleteTopicHistory">messages.deleteTopicHistory</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.editChatCreator.html" name="messages.editChatCreator">messages.editChatCreator</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.editChatParticipantRank.html" name="messages.editChatParticipantRank">messages.editChatParticipantRank</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.editForumTopic.html" name="messages.editForumTopic">messages.editForumTopic</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.getEmojiGameInfo.html" name="messages.getEmojiGameInfo">messages.getEmojiGameInfo</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.getForumTopics.html" name="messages.getForumTopics">messages.getForumTopics</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.getForumTopicsByID.html" name="messages.getForumTopicsByID">messages.getForumTopicsByID</a>
+    * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.getFutureChatCreatorAfterLeave.html" name="messages.getFutureChatCreatorAfterLeave">messages.getFutureChatCreatorAfterLeave</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.reorderPinnedForumTopics.html" name="messages.reorderPinnedForumTopics">messages.reorderPinnedForumTopics</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.summarizeText.html" name="messages.summarizeText">messages.summarizeText</a>
     * <a href="https://docs.madelineproto.xyz/API_docs/methods/messages.updatePinnedForumTopic.html" name="messages.updatePinnedForumTopic">messages.updatePinnedForumTopic</a>

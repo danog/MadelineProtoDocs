@@ -135,6 +135,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageActionChangeCreator](/API_docs/constructors/messageActionChangeCreator.html)  
 
+[messageActionNoForwardsToggle](/API_docs/constructors/messageActionNoForwardsToggle.html)  
+
+[messageActionNoForwardsRequest](/API_docs/constructors/messageActionNoForwardsRequest.html)  
+
 
 
 ### Methods that return an object of this type (methods):

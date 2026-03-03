@@ -16,6 +16,7 @@ Represents the creator of the group
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |user\_id|[long](/API_docs/types/long.html) | Yes|ID of the user that created the group|
+|rank|[string](/API_docs/types/string.html) | Optional|
 
 
 
@@ -25,5 +26,5 @@ Represents the creator of the group
 ### Example:
 
 ```
-$chatParticipantCreator = ['_' => 'chatParticipantCreator', 'user_id' => long];
+$chatParticipantCreator = ['_' => 'chatParticipantCreator', 'user_id' => long, 'rank' => 'string'];
 ```  

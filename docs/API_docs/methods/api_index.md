@@ -797,10 +797,6 @@ $MadelineProto->[channels->editBanned](/API_docs/methods/channels.editBanned.htm
 
 ***
 <br><br>
-$MadelineProto->[channels->editCreator](/API_docs/methods/channels.editCreator.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), user_id: $[InputUser](/API_docs/types/InputUser.html), password: $[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.editCreator"></a>  
-
-***
-<br><br>
 $MadelineProto->[channels->editLocation](/API_docs/methods/channels.editLocation.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), geo_point: $[InputGeoPoint](/API_docs/types/InputGeoPoint.html), address: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="channels.editLocation"></a>  
 
 ***
@@ -834,10 +830,6 @@ $MadelineProto->[channels->getChannels](/API_docs/methods/channels.getChannels.h
 ***
 <br><br>
 $MadelineProto->[channels->getFullChannel](/API_docs/methods/channels.getFullChannel.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), \]) === [$messages.ChatFull](/API_docs/types/messages.ChatFull.html)<a name="channels.getFullChannel"></a>  
-
-***
-<br><br>
-$MadelineProto->[channels->getFutureCreatorAfterLeave](/API_docs/methods/channels.getFutureCreatorAfterLeave.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), \]) === [$User](/API_docs/types/User.html)<a name="channels.getFutureCreatorAfterLeave"></a>  
 
 ***
 <br><br>
@@ -1325,7 +1317,7 @@ $MadelineProto->[messages->acceptEncryption](/API_docs/methods/messages.acceptEn
 
 ***
 <br><br>
-$MadelineProto->[messages->acceptUrlAuth](/API_docs/methods/messages.acceptUrlAuth.html)(\[write_allowed: $[Bool](/API_docs/types/Bool.html), share_phone_number: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), msg_id: $[int](/API_docs/types/int.html), button_id: $[int](/API_docs/types/int.html), url: $[string](/API_docs/types/string.html), \]) === [$UrlAuthResult](/API_docs/types/UrlAuthResult.html)<a name="messages.acceptUrlAuth"></a>  
+$MadelineProto->[messages->acceptUrlAuth](/API_docs/methods/messages.acceptUrlAuth.html)(\[write_allowed: $[Bool](/API_docs/types/Bool.html), share_phone_number: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), msg_id: $[int](/API_docs/types/int.html), button_id: $[int](/API_docs/types/int.html), url: $[string](/API_docs/types/string.html), match_code: $[string](/API_docs/types/string.html), \]) === [$UrlAuthResult](/API_docs/types/UrlAuthResult.html)<a name="messages.acceptUrlAuth"></a>  
 
 ***
 <br><br>
@@ -1353,6 +1345,10 @@ $MadelineProto->[messages->checkQuickReplyShortcut](/API_docs/methods/messages.c
 
 ***
 <br><br>
+$MadelineProto->[messages->checkUrlAuthMatchCode](/API_docs/methods/messages.checkUrlAuthMatchCode.html)(\[url: $[string](/API_docs/types/string.html), match_code: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.checkUrlAuthMatchCode"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->clearAllDrafts](/API_docs/methods/messages.clearAllDrafts.html)(\[\]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.clearAllDrafts"></a>  
 
 ***
@@ -1374,6 +1370,10 @@ $MadelineProto->[messages->createChat](/API_docs/methods/messages.createChat.htm
 ***
 <br><br>
 $MadelineProto->[messages->createForumTopic](/API_docs/methods/messages.createForumTopic.html)(\[title_missing: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), title: $[string](/API_docs/types/string.html), icon_color: $[int](/API_docs/types/int.html), icon_emoji_id: $[long](/API_docs/types/long.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.createForumTopic"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->declineUrlAuth](/API_docs/methods/messages.declineUrlAuth.html)(\[url: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.declineUrlAuth"></a>  
 
 ***
 <br><br>
@@ -1441,7 +1441,15 @@ $MadelineProto->[messages->editChatAdmin](/API_docs/methods/messages.editChatAdm
 
 ***
 <br><br>
+$MadelineProto->[messages->editChatCreator](/API_docs/methods/messages.editChatCreator.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), user_id: $[InputUser](/API_docs/types/InputUser.html), password: $[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.editChatCreator"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->editChatDefaultBannedRights](/API_docs/methods/messages.editChatDefaultBannedRights.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), banned_rights: $[ChatBannedRights](/API_docs/types/ChatBannedRights.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.editChatDefaultBannedRights"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->editChatParticipantRank](/API_docs/methods/messages.editChatParticipantRank.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), participant: $[InputPeer](/API_docs/types/InputPeer.html), rank: $[string](/API_docs/types/string.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.editChatParticipantRank"></a>  
 
 ***
 <br><br>
@@ -1658,6 +1666,10 @@ $MadelineProto->[messages->getForumTopicsByID](/API_docs/methods/messages.getFor
 ***
 <br><br>
 $MadelineProto->[messages->getFullChat](/API_docs/methods/messages.getFullChat.html)(\[chat_id: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$messages.ChatFull](/API_docs/types/messages.ChatFull.html)<a name="messages.getFullChat"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->getFutureChatCreatorAfterLeave](/API_docs/methods/messages.getFutureChatCreatorAfterLeave.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$User](/API_docs/types/User.html)<a name="messages.getFutureChatCreatorAfterLeave"></a>  
 
 ***
 <br><br>
@@ -1997,7 +2009,7 @@ $MadelineProto->[messages->requestSimpleWebView](/API_docs/methods/messages.requ
 
 ***
 <br><br>
-$MadelineProto->[messages->requestUrlAuth](/API_docs/methods/messages.requestUrlAuth.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), msg_id: $[int](/API_docs/types/int.html), button_id: $[int](/API_docs/types/int.html), url: $[string](/API_docs/types/string.html), \]) === [$UrlAuthResult](/API_docs/types/UrlAuthResult.html)<a name="messages.requestUrlAuth"></a>  
+$MadelineProto->[messages->requestUrlAuth](/API_docs/methods/messages.requestUrlAuth.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), msg_id: $[int](/API_docs/types/int.html), button_id: $[int](/API_docs/types/int.html), url: $[string](/API_docs/types/string.html), in_app_origin: $[string](/API_docs/types/string.html), \]) === [$UrlAuthResult](/API_docs/types/UrlAuthResult.html)<a name="messages.requestUrlAuth"></a>  
 
 ***
 <br><br>
@@ -2197,7 +2209,7 @@ $MadelineProto->[messages->toggleDialogPin](/API_docs/methods/messages.toggleDia
 
 ***
 <br><br>
-$MadelineProto->[messages->toggleNoForwards](/API_docs/methods/messages.toggleNoForwards.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), enabled: $[Bool](/API_docs/types/Bool.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.toggleNoForwards"></a>  
+$MadelineProto->[messages->toggleNoForwards](/API_docs/methods/messages.toggleNoForwards.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), enabled: $[Bool](/API_docs/types/Bool.html), request_msg_id: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.toggleNoForwards"></a>  
 
 ***
 <br><br>

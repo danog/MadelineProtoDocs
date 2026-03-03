@@ -154,6 +154,10 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->messages->createForumTopic](/API_docs/methods/messages.createForumTopic.html)  
 
+[$MadelineProto->messages->editChatCreator](/API_docs/methods/messages.editChatCreator.html)  
+
+[$MadelineProto->messages->editChatParticipantRank](/API_docs/methods/messages.editChatParticipantRank.html)  
+
 [$MadelineProto->channels->createChannel](/API_docs/methods/channels.createChannel.html)  
 
 [$MadelineProto->channels->editAdmin](/API_docs/methods/channels.editAdmin.html)  
@@ -175,8 +179,6 @@ $message = $MadelineProto->extractMessageId($Updates);
 [$MadelineProto->channels->deleteHistory](/API_docs/methods/channels.deleteHistory.html)  
 
 [$MadelineProto->channels->togglePreHistoryHidden](/API_docs/methods/channels.togglePreHistoryHidden.html)  
-
-[$MadelineProto->channels->editCreator](/API_docs/methods/channels.editCreator.html)  
 
 [$MadelineProto->channels->toggleSlowMode](/API_docs/methods/channels.toggleSlowMode.html)  
 

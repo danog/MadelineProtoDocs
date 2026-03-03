@@ -18,6 +18,7 @@ Group member.
 |user\_id|[long](/API_docs/types/long.html) | Yes|Member user ID|
 |inviter\_id|[long](/API_docs/types/long.html) | Yes|ID of the user that added the member to the group|
 |date|[int](/API_docs/types/int.html) | Yes|Date added to the group|
+|rank|[string](/API_docs/types/string.html) | Optional|
 
 
 
@@ -27,5 +28,5 @@ Group member.
 ### Example:
 
 ```
-$chatParticipant = ['_' => 'chatParticipant', 'user_id' => long, 'inviter_id' => long, 'date' => int];
+$chatParticipant = ['_' => 'chatParticipant', 'user_id' => long, 'inviter_id' => long, 'date' => int, 'rank' => 'string'];
 ```  

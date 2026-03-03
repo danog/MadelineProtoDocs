@@ -34,6 +34,7 @@ Filter only certain admin log events
 |send|[Bool](/API_docs/types/Bool.html) | Optional|A message was posted in a channel|
 |forums|[Bool](/API_docs/types/Bool.html) | Optional|[Forum](https://core.telegram.org/api/forum)-related events|
 |sub\_extend|[Bool](/API_docs/types/Bool.html) | Optional|[Telegram Star subscription extension events »](../constructors/channelAdminLogEventActionParticipantSubExtend.html)|
+|edit\_rank|[Bool](/API_docs/types/Bool.html) | Optional|
 
 
 
@@ -43,5 +44,5 @@ Filter only certain admin log events
 ### Example:
 
 ```
-$channelAdminLogEventsFilter = ['_' => 'channelAdminLogEventsFilter', 'join' => Bool, 'leave' => Bool, 'invite' => Bool, 'ban' => Bool, 'unban' => Bool, 'kick' => Bool, 'unkick' => Bool, 'promote' => Bool, 'demote' => Bool, 'info' => Bool, 'settings' => Bool, 'pinned' => Bool, 'edit' => Bool, 'delete' => Bool, 'group_call' => Bool, 'invites' => Bool, 'send' => Bool, 'forums' => Bool, 'sub_extend' => Bool];
+$channelAdminLogEventsFilter = ['_' => 'channelAdminLogEventsFilter', 'join' => Bool, 'leave' => Bool, 'invite' => Bool, 'ban' => Bool, 'unban' => Bool, 'kick' => Bool, 'unkick' => Bool, 'promote' => Bool, 'demote' => Bool, 'info' => Bool, 'settings' => Bool, 'pinned' => Bool, 'edit' => Bool, 'delete' => Bool, 'group_call' => Bool, 'invites' => Bool, 'send' => Bool, 'forums' => Bool, 'sub_extend' => Bool, 'edit_rank' => Bool];
 ```  

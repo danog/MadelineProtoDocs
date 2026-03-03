@@ -113,6 +113,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [channelAdminLogEventActionToggleAutotranslation](/API_docs/constructors/channelAdminLogEventActionToggleAutotranslation.html)  
 
+[channelAdminLogEventActionParticipantEditRank](/API_docs/constructors/channelAdminLogEventActionParticipantEditRank.html)  
+
 
 
 ### Methods that return an object of this type (methods):

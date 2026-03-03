@@ -19,6 +19,7 @@ Enable or disable [content protection](https://telegram.org/blog/protected-conte
 |----------|---------------|-------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The chat or channel | Optional|
 |enabled|[Bool](/API_docs/types/Bool.html) | Enable or disable content protection | Yes|
+|request\_msg\_id|[int](/API_docs/types/int.html) |  | Optional|
 
 
 ### Return type: [Updates](/API_docs/types/Updates.html)
@@ -44,6 +45,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->toggleNoForwards(peer: $InputPeer, enabled: $Bool, );
+$Updates = $MadelineProto->messages->toggleNoForwards(peer: $InputPeer, enabled: $Bool, request_msg_id: $int, );
 ```
 

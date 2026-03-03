@@ -18,6 +18,7 @@ Chat admin
 |user\_id|[long](/API_docs/types/long.html) | Yes|ID of a group member that is admin|
 |inviter\_id|[long](/API_docs/types/long.html) | Yes|ID of the user that added the member to the group|
 |date|[int](/API_docs/types/int.html) | Yes|Date when the user was added|
+|rank|[string](/API_docs/types/string.html) | Optional|
 
 
 
@@ -27,5 +28,5 @@ Chat admin
 ### Example:
 
 ```
-$chatParticipantAdmin = ['_' => 'chatParticipantAdmin', 'user_id' => long, 'inviter_id' => long, 'date' => int];
+$chatParticipantAdmin = ['_' => 'chatParticipantAdmin', 'user_id' => long, 'inviter_id' => long, 'date' => int, 'rank' => 'string'];
 ```  
