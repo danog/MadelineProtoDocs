@@ -17,6 +17,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [inputReplyToMonoForum](/API_docs/constructors/inputReplyToMonoForum.html)  
 
+[inputReplyToEphemeralMessage](/API_docs/constructors/inputReplyToEphemeralMessage.html)  
+
 
 
 ### Methods that return an object of this type (methods):

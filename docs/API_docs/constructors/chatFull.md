@@ -20,6 +20,7 @@ When updating the [local peer database »](https://core.telegram.org/api/peers),
 |can\_set\_username|[Bool](/API_docs/types/Bool.html) | Optional|Can we change the username of this chat|
 |has\_scheduled|[Bool](/API_docs/types/Bool.html) | Optional|Whether [scheduled messages](https://core.telegram.org/api/scheduled-messages) are available|
 |translations\_disabled|[Bool](/API_docs/types/Bool.html) | Optional|Whether the [real-time chat translation popup](https://core.telegram.org/api/translation) should be hidden.|
+|has\_welcome\_messages|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[long](/API_docs/types/long.html) | Yes|ID of the chat|
 |about|[string](/API_docs/types/string.html) | Yes|About string for this chat|
 |participants|[ChatParticipants](/API_docs/types/ChatParticipants.html) | Yes|Participant list|
@@ -46,5 +47,5 @@ When updating the [local peer database »](https://core.telegram.org/api/peers),
 ### Example:
 
 ```
-$chatFull = ['_' => 'chatFull', 'can_set_username' => Bool, 'has_scheduled' => Bool, 'translations_disabled' => Bool, 'id' => long, 'about' => 'string', 'participants' => ChatParticipants, 'chat_photo' => Photo, 'notify_settings' => PeerNotifySettings, 'exported_invite' => ExportedChatInvite, 'bot_info' => [BotInfo, BotInfo], 'pinned_msg_id' => int, 'folder_id' => int, 'call' => InputGroupCall, 'ttl_period' => int, 'groupcall_default_join_as' => Peer, 'theme_emoticon' => 'string', 'requests_pending' => int, 'recent_requesters' => [long, long], 'available_reactions' => ChatReactions, 'reactions_limit' => int];
+$chatFull = ['_' => 'chatFull', 'can_set_username' => Bool, 'has_scheduled' => Bool, 'translations_disabled' => Bool, 'has_welcome_messages' => Bool, 'id' => long, 'about' => 'string', 'participants' => ChatParticipants, 'chat_photo' => Photo, 'notify_settings' => PeerNotifySettings, 'exported_invite' => ExportedChatInvite, 'bot_info' => [BotInfo, BotInfo], 'pinned_msg_id' => int, 'folder_id' => int, 'call' => InputGroupCall, 'ttl_period' => int, 'groupcall_default_join_as' => Peer, 'theme_emoticon' => 'string', 'requests_pending' => int, 'recent_requesters' => [long, long], 'available_reactions' => ChatReactions, 'reactions_limit' => int];
 ```  

@@ -15,6 +15,7 @@ Describes a bot command that can be used in a chat
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|ephemeral|[Bool](/API_docs/types/Bool.html) | Optional|
 |command|[string](/API_docs/types/string.html) | Yes|`/command` name|
 |description|[string](/API_docs/types/string.html) | Yes|Description of the command|
 
@@ -26,5 +27,5 @@ Describes a bot command that can be used in a chat
 ### Example:
 
 ```
-$botCommand = ['_' => 'botCommand', 'command' => 'string', 'description' => 'string'];
+$botCommand = ['_' => 'botCommand', 'ephemeral' => Bool, 'command' => 'string', 'description' => 'string'];
 ```  

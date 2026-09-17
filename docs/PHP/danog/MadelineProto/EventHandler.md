@@ -206,7 +206,7 @@ Event handler.
 * [`renderPromStats(?\Prometheus\RendererInterface $renderer = NULL): string`](#renderPromStats)
 * [`report(string $message, string $parseMode = ''): void`](#report)
 * [`reportMemoryProfile(): void`](#reportMemoryProfile)
-* [`requestCall(mixed $user): \danog\MadelineProto\VoIP`](#requestCall)
+* [`requestCall(mixed $user, bool $video = false): \danog\MadelineProto\VoIP`](#requestCall)
 * [`requestSecretChat(mixed $user): int`](#requestSecretChat)
 * [`resetUpdateState(): void`](#resetUpdateState)
 * [`restart(): void`](#restart)
@@ -269,6 +269,32 @@ Event handler.
 * [`wrapMessage(array $message, bool $scheduled = false): ?\danog\MadelineProto\EventHandler\AbstractMessage`](#wrapMessage)
 * [`wrapPin(array $message): ?\danog\MadelineProto\EventHandler\Pinned`](#wrapPin)
 * [`wrapUpdate(array $update): ?\danog\MadelineProto\EventHandler\Update`](#wrapUpdate)
+* [`createGroupCall(mixed $peer, (string|null) $title = NULL, (int|null) $scheduleDate = NULL, bool $rtmpStream = false): \danog\MadelineProto\GroupCall`](#createGroupCall)
+* [`discardGroupCall(int $id): void`](#discardGroupCall)
+* [`exportGroupCallInvite(int $id, bool $canSelfUnmute = false): string`](#exportGroupCallInvite)
+* [`getAllGroupCalls(): array<int, \danog\MadelineProto\EventHandler\Message\Service\DialogGroupCall\GroupCall>`](#getAllGroupCalls)
+* [`getCallRemoteMediaState(int $id): ?\danog\MadelineProto\VoIP\MediaState`](#getCallRemoteMediaState)
+* [`getGroupCall(mixed $peer): ?\danog\MadelineProto\GroupCall`](#getGroupCall)
+* [`getGroupCallBySlug(string $slug): ?\danog\MadelineProto\GroupCall`](#getGroupCallBySlug)
+* [`getGroupCallParticipants(int $id): array<int, \danog\MadelineProto\EventHandler\Participant>`](#getGroupCallParticipants)
+* [`getGroupCallState(int $id): ?\danog\MadelineProto\GroupCall\GroupCallState`](#getGroupCallState)
+* [`groupCallGetCurrent(int $id): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`](#groupCallGetCurrent)
+* [`groupCallPausePlay(int $id): void`](#groupCallPausePlay)
+* [`groupCallPlay(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): void`](#groupCallPlay)
+* [`groupCallPlayOnHold(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): void`](#groupCallPlayOnHold)
+* [`groupCallResumePlay(int $id): void`](#groupCallResumePlay)
+* [`groupCallSetOutput(int $id, mixed $participant, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file): void`](#groupCallSetOutput)
+* [`groupCallSkipPlay(int $id): void`](#groupCallSkipPlay)
+* [`groupCallStopPlay(int $id): void`](#groupCallStopPlay)
+* [`inviteToGroupCall(int $id, mixed ...$users): void`](#inviteToGroupCall)
+* [`isCallMuted(int $id): bool`](#isCallMuted)
+* [`isGroupCallMuted(int $id): bool`](#isGroupCallMuted)
+* [`isGroupCallPlayPaused(int $id): bool`](#isGroupCallPlayPaused)
+* [`joinGroupCall(mixed $peer, bool $muted = false, mixed $joinAs = NULL, (string|null) $inviteHash = NULL): \danog\MadelineProto\GroupCall`](#joinGroupCall)
+* [`leaveGroupCall(int $id): void`](#leaveGroupCall)
+* [`setCallMuted(int $id, bool $muted = true): void`](#setCallMuted)
+* [`setGroupCallMuted(int $id, bool $muted = true): void`](#setGroupCallMuted)
+* [`setGroupCallTitle(int $id, string $title): void`](#setGroupCallTitle)
 
 ## Methods:
 ### <a name="startAndLoop"></a> `startAndLoop(string $session, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): void`
@@ -2431,7 +2457,7 @@ Report memory profile with memprof.
 
 
 
-### <a name="requestCall"></a> `requestCall(mixed $user): \danog\MadelineProto\VoIP`
+### <a name="requestCall"></a> `requestCall(mixed $user, bool $video = false): \danog\MadelineProto\VoIP`
 
 Request VoIP call.
 
@@ -2439,6 +2465,7 @@ Request VoIP call.
 Parameters:
 
 * `$user`: `mixed` User  
+* `$video`: `bool` Whether to start a video call.  
 
 
 #### See also: 
@@ -3823,6 +3850,372 @@ Parameters:
 #### See also: 
 * [`\danog\MadelineProto\EventHandler\Update`: Represents a generic update.](../../danog/MadelineProto/EventHandler/Update.html)
 
+
+
+
+### <a name="createGroupCall"></a> `createGroupCall(mixed $peer, (string|null) $title = NULL, (int|null) $scheduleDate = NULL, bool $rtmpStream = false): \danog\MadelineProto\GroupCall`
+
+Create a group call (video chat or livestream) in the specified group or channel.
+  
+Requires the `manage_call` admin right, see  
+[video chats/livestreams »](https://core.telegram.org/api/group-calls#video-chats-livestreams).  
+
+
+Parameters:
+
+* `$peer`: `mixed` The group or channel where the call should be created.  
+* `$title`: `(string|null)` Custom title, defaults to the group/channel name.  
+* `$scheduleDate`: `(int|null)` If set, creates a scheduled call for the specified UNIX timestamp.  
+* `$rtmpStream`: `bool` Whether the call's media is published by an external RTMP application.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\GroupCall`: This update represents a Telegram group call (a video chat, a livestream or a live story).](../../danog/MadelineProto/GroupCall.html)
+
+
+
+
+### <a name="discardGroupCall"></a> `discardGroupCall(int $id): void`
+
+End a group call for all participants.
+
+
+Parameters:
+
+* `$id`: `int`   
+
+
+
+### <a name="exportGroupCallInvite"></a> `exportGroupCallInvite(int $id, bool $canSelfUnmute = false): string`
+
+Export an invite link for a group call.
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$canSelfUnmute`: `bool` Whether users joining with this link may speak without asking; admins only.  
+
+
+
+### <a name="getAllGroupCalls"></a> `getAllGroupCalls(): array<int, \danog\MadelineProto\EventHandler\Message\Service\DialogGroupCall\GroupCall>`
+
+Get all group calls we're currently tracking, indexed by their ID.
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message\Service\DialogGroupCall\GroupCall`: The group call has started or ended.](../../danog/MadelineProto/EventHandler/Message/Service/DialogGroupCall/GroupCall.html)
+
+
+
+
+### <a name="getCallRemoteMediaState"></a> `getCallRemoteMediaState(int $id): ?\danog\MadelineProto\VoIP\MediaState`
+
+Get the media state of the other party of a call, as reported by their client.
+
+
+Parameters:
+
+* `$id`: `int`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\VoIP\MediaState`: The media state of the other party of a one-to-one call, as reported by its `MediaState`](../../danog/MadelineProto/VoIP/MediaState.html)
+
+
+
+
+### <a name="getGroupCall"></a> `getGroupCall(mixed $peer): ?\danog\MadelineProto\GroupCall`
+
+Get the group call (video chat or livestream) currently active in a group or channel.
+
+
+Parameters:
+
+* `$peer`: `mixed`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\GroupCall`: This update represents a Telegram group call (a video chat, a livestream or a live story).](../../danog/MadelineProto/GroupCall.html)
+
+
+
+
+### <a name="getGroupCallBySlug"></a> `getGroupCallBySlug(string $slug): ?\danog\MadelineProto\GroupCall`
+
+Get a group call from its
+[conference deep link »](https://core.telegram.org/api/links#conference-links) slug.  
+
+
+Parameters:
+
+* `$slug`: `string`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\GroupCall`: This update represents a Telegram group call (a video chat, a livestream or a live story).](../../danog/MadelineProto/GroupCall.html)
+
+
+
+
+### <a name="getGroupCallParticipants"></a> `getGroupCallParticipants(int $id): array<int, \danog\MadelineProto\EventHandler\Participant>`
+
+Get the participants of a group call, indexed by their bot API peer ID.
+
+
+Parameters:
+
+* `$id`: `int`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Participant`: Info about a channel participant.](../../danog/MadelineProto/EventHandler/Participant.html)
+
+
+
+
+### <a name="getGroupCallState"></a> `getGroupCallState(int $id): ?\danog\MadelineProto\GroupCall\GroupCallState`
+
+Get the state of a group call.
+
+
+Parameters:
+
+* `$id`: `int`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\GroupCall\GroupCallState`: State of a group call we are interacting with.](../../danog/MadelineProto/GroupCall/GroupCallState.html)
+
+
+
+
+### <a name="groupCallGetCurrent"></a> `groupCallGetCurrent(int $id): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`
+
+Get the file that is currently being played in a group call.
+
+
+Parameters:
+
+* `$id`: `int`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
+
+
+
+
+### <a name="groupCallPausePlay"></a> `groupCallPausePlay(int $id): void`
+
+Pause playback of the current audio file in a group call.
+
+
+Parameters:
+
+* `$id`: `int`   
+
+
+
+### <a name="groupCallPlay"></a> `groupCallPlay(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): void`
+
+Play a file in a group call.
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$file`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
+* `\Amp\ByteStream\ReadableStream`
+
+
+
+
+### <a name="groupCallPlayOnHold"></a> `groupCallPlayOnHold(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): void`
+
+Files to play on hold in a group call.
+
+
+Parameters:
+
+* `$id`: `int`   
+* `...$files`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
+* `\Amp\ByteStream\ReadableStream`
+
+
+
+
+### <a name="groupCallResumePlay"></a> `groupCallResumePlay(int $id): void`
+
+Resume playback of the current audio file in a group call.
+
+
+Parameters:
+
+* `$id`: `int`   
+
+
+
+### <a name="groupCallSetOutput"></a> `groupCallSetOutput(int $id, mixed $participant, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file): void`
+
+Set the output file or stream for the incoming audio of a group call participant.
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$participant`: `mixed`   
+* `$file`: `\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
+* `\Amp\ByteStream\WritableStream`
+
+
+
+
+### <a name="groupCallSkipPlay"></a> `groupCallSkipPlay(int $id): void`
+
+Skip to the next file in the playlist of a group call.
+
+
+Parameters:
+
+* `$id`: `int`   
+
+
+
+### <a name="groupCallStopPlay"></a> `groupCallStopPlay(int $id): void`
+
+Stop playing all files in a group call, clearing the main and the hold playlist.
+
+
+Parameters:
+
+* `$id`: `int`   
+
+
+
+### <a name="inviteToGroupCall"></a> `inviteToGroupCall(int $id, mixed ...$users): void`
+
+Invite users to a group call.
+
+
+Parameters:
+
+* `$id`: `int`   
+* `...$users`: `mixed`   
+
+
+
+### <a name="isCallMuted"></a> `isCallMuted(int $id): bool`
+
+Whether our own audio stream is muted in a call.
+
+
+Parameters:
+
+* `$id`: `int`   
+
+
+
+### <a name="isGroupCallMuted"></a> `isGroupCallMuted(int $id): bool`
+
+Whether our own audio stream is muted in a group call.
+
+
+Parameters:
+
+* `$id`: `int`   
+
+
+
+### <a name="isGroupCallPlayPaused"></a> `isGroupCallPlayPaused(int $id): bool`
+
+Whether the currently playing audio file of a group call is paused.
+
+
+Parameters:
+
+* `$id`: `int`   
+
+
+
+### <a name="joinGroupCall"></a> `joinGroupCall(mixed $peer, bool $muted = false, mixed $joinAs = NULL, (string|null) $inviteHash = NULL): \danog\MadelineProto\GroupCall`
+
+Join the group call currently active in a group or channel.
+
+
+Parameters:
+
+* `$peer`: `mixed` The group or channel whose call should be joined.  
+* `$muted`: `bool` Whether to join muted.  
+* `$joinAs`: `mixed` Peer to join as, defaults to ourselves.  
+* `$inviteHash`: `(string|null)` Invite hash from a video chat invite link, if any.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\GroupCall`: This update represents a Telegram group call (a video chat, a livestream or a live story).](../../danog/MadelineProto/GroupCall.html)
+
+
+
+
+### <a name="leaveGroupCall"></a> `leaveGroupCall(int $id): void`
+
+Leave a group call, without ending it for the other participants.
+
+
+Parameters:
+
+* `$id`: `int`   
+
+
+
+### <a name="setCallMuted"></a> `setCallMuted(int $id, bool $muted = true): void`
+
+Mute or unmute our own audio stream in a call.
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$muted`: `bool`   
+
+
+
+### <a name="setGroupCallMuted"></a> `setGroupCallMuted(int $id, bool $muted = true): void`
+
+Mute or unmute our own audio stream in a group call.
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$muted`: `bool`   
+
+
+
+### <a name="setGroupCallTitle"></a> `setGroupCallTitle(int $id, string $title): void`
+
+Change the title of a group call.
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$title`: `string`   
 
 
 

@@ -89,6 +89,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [pageBlockBlockquoteBlocks](/API_docs/constructors/pageBlockBlockquoteBlocks.html)  
 
+[pageBlockButtonRow](/API_docs/constructors/pageBlockButtonRow.html)  
+
+[pageBlockDocument](/API_docs/constructors/pageBlockDocument.html)  
+
 
 
 ### Methods that return an object of this type (methods):

@@ -25,5 +25,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$MadelineProto->stories->report](/API_docs/methods/stories.report.html)  
 
+[$MadelineProto->ephemeral->reportMessage](/API_docs/methods/ephemeral.reportMessage.html)  
+
 
 

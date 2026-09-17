@@ -304,5 +304,13 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->stories->startLive](/API_docs/methods/stories.startLive.html)  
 
+[$MadelineProto->communities->create](/API_docs/methods/communities.create.html)  
+
+[$MadelineProto->communities->toggleCommunityCollapsedInDialogs](/API_docs/methods/communities.toggleCommunityCollapsedInDialogs.html)  
+
+[$MadelineProto->ephemeral->sendMessage](/API_docs/methods/ephemeral.sendMessage.html)  
+
+[$MadelineProto->ephemeral->editMessage](/API_docs/methods/ephemeral.editMessage.html)  
+
 
 

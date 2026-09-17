@@ -56,6 +56,10 @@ You can also provide one of the following objects, instead, MadelineProto will h
 
 [channelForbidden](/API_docs/constructors/channelForbidden.html)  
 
+[communityForbidden](/API_docs/constructors/communityForbidden.html)  
+
+[community](/API_docs/constructors/community.html)  
+
 
 
 ### Methods that return an object of this type (methods):

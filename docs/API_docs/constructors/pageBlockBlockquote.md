@@ -15,6 +15,7 @@ Quote (equivalent to the HTML `<blockquote>`)
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|collapsed|[Bool](/API_docs/types/Bool.html) | Optional|
 |text|[RichText](/API_docs/types/RichText.html) | Yes|Quote contents|
 |caption|[RichText](/API_docs/types/RichText.html) | Yes|Caption|
 
@@ -26,5 +27,5 @@ Quote (equivalent to the HTML `<blockquote>`)
 ### Example:
 
 ```
-$pageBlockBlockquote = ['_' => 'pageBlockBlockquote', 'text' => RichText, 'caption' => RichText];
+$pageBlockBlockquote = ['_' => 'pageBlockBlockquote', 'collapsed' => Bool, 'text' => RichText, 'caption' => RichText];
 ```  

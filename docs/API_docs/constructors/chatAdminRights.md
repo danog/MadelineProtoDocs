@@ -32,6 +32,8 @@ Represents the rights of an admin in a [channel/supergroup](https://core.telegra
 |delete\_stories|[Bool](/API_docs/types/Bool.html) | Optional|If set, allows the admin to delete [stories](https://core.telegram.org/api/stories) posted by the other admins of the [channel](https://core.telegram.org/api/channel).|
 |manage\_direct\_messages|[Bool](/API_docs/types/Bool.html) | Optional|If set, allows the admin to manage the [direct messages monoforum »](https://core.telegram.org/api/monoforum) and [decline suggested posts »](https://core.telegram.org/api/suggested-posts).|
 |manage\_ranks|[Bool](/API_docs/types/Bool.html) | Optional|
+|manage\_linked\_peers|[Bool](/API_docs/types/Bool.html) | Optional|
+|manage\_welcome\_messages|[Bool](/API_docs/types/Bool.html) | Optional|
 
 
 
@@ -41,5 +43,5 @@ Represents the rights of an admin in a [channel/supergroup](https://core.telegra
 ### Example:
 
 ```
-$chatAdminRights = ['_' => 'chatAdminRights', 'change_info' => Bool, 'post_messages' => Bool, 'edit_messages' => Bool, 'delete_messages' => Bool, 'ban_users' => Bool, 'invite_users' => Bool, 'pin_messages' => Bool, 'add_admins' => Bool, 'anonymous' => Bool, 'manage_call' => Bool, 'other' => Bool, 'manage_topics' => Bool, 'post_stories' => Bool, 'edit_stories' => Bool, 'delete_stories' => Bool, 'manage_direct_messages' => Bool, 'manage_ranks' => Bool];
+$chatAdminRights = ['_' => 'chatAdminRights', 'change_info' => Bool, 'post_messages' => Bool, 'edit_messages' => Bool, 'delete_messages' => Bool, 'ban_users' => Bool, 'invite_users' => Bool, 'pin_messages' => Bool, 'add_admins' => Bool, 'anonymous' => Bool, 'manage_call' => Bool, 'other' => Bool, 'manage_topics' => Bool, 'post_stories' => Bool, 'edit_stories' => Bool, 'delete_stories' => Bool, 'manage_direct_messages' => Bool, 'manage_ranks' => Bool, 'manage_linked_peers' => Bool, 'manage_welcome_messages' => Bool];
 ```  

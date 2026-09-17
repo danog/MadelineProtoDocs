@@ -13,6 +13,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
+|can\_stop|[Bool](/API_docs/types/Bool.html) | Optional|
+|keep\_on\_stop|[Bool](/API_docs/types/Bool.html) | Optional|
 |text|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Yes|
 
 
@@ -23,5 +25,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$sendMessageTextDraftAction = ['_' => 'sendMessageTextDraftAction', 'text' => TextWithEntities];
+$sendMessageTextDraftAction = ['_' => 'sendMessageTextDraftAction', 'can_stop' => Bool, 'keep_on_stop' => Bool, 'text' => TextWithEntities];
 ```  

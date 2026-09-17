@@ -15,7 +15,8 @@ Bot or inline keyboard
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
-|rows|Array of [KeyboardButtonRow](/API_docs/types/KeyboardButtonRow.html) | Yes|Bot or inline keyboard rows|
+|force\_reply|[Bool](/API_docs/types/Bool.html) | Optional|
+|rows|Array of [KeyboardInlineButtonRow](/API_docs/types/KeyboardInlineButtonRow.html) | Yes|Bot or inline keyboard rows|
 
 
 
@@ -25,5 +26,5 @@ Bot or inline keyboard
 ### Example:
 
 ```
-$replyInlineMarkup = ['_' => 'replyInlineMarkup', 'rows' => [KeyboardButtonRow, KeyboardButtonRow]];
+$replyInlineMarkup = ['_' => 'replyInlineMarkup', 'force_reply' => Bool, 'rows' => [KeyboardInlineButtonRow, KeyboardInlineButtonRow]];
 ```  

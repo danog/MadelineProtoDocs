@@ -25,5 +25,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [$MadelineProto->messages->requestMainWebView](/API_docs/methods/messages.requestMainWebView.html)  
 
+[$MadelineProto->messages->requestChatJoinWebView](/API_docs/methods/messages.requestChatJoinWebView.html)  
+
 
 

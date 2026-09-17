@@ -21,6 +21,7 @@ Search for messages and peers globally
 |groups\_only|[Bool](/API_docs/types/Bool.html) | Whether to search only in groups | Optional|
 |users\_only|[Bool](/API_docs/types/Bool.html) | Whether to search only in private chats | Optional|
 |folder\_id|[int](/API_docs/types/int.html) | [Peer folder ID, for more info click here](https://core.telegram.org/api/folders#peer-folders) | Optional|
+|community|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) |  | Optional|
 |q|[string](/API_docs/types/string.html) | Query | Optional|
 |filter|[MessagesFilter](/API_docs/types/MessagesFilter.html) | Global search filter | Optional|
 |min\_date|[int](/API_docs/types/int.html) | If a positive value was specified, the method will return only messages with date bigger than min\_date | Optional|
@@ -54,6 +55,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_Messages = $MadelineProto->messages->searchGlobal(broadcasts_only: $Bool, groups_only: $Bool, users_only: $Bool, folder_id: $int, q: 'string', filter: $MessagesFilter, min_date: $int, max_date: $int, offset_rate: $int, offset_peer: $InputPeer, offset_id: $int, limit: $int, );
+$messages_Messages = $MadelineProto->messages->searchGlobal(broadcasts_only: $Bool, groups_only: $Bool, users_only: $Bool, folder_id: $int, community: $InputChannel, q: 'string', filter: $MessagesFilter, min_date: $int, max_date: $int, offset_rate: $int, offset_peer: $InputPeer, offset_id: $int, limit: $int, );
 ```
 

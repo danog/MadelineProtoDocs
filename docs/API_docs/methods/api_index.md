@@ -613,7 +613,15 @@ $MadelineProto->[auth->exportLoginToken](/API_docs/methods/auth.exportLoginToken
 
 ***
 <br><br>
+$MadelineProto->[auth->finishFirebasePnvLogin](/API_docs/methods/auth.finishFirebasePnvLogin.html)(\[google_token: $[string](/API_docs/types/string.html), \]) === [$auth.Authorization](/API_docs/types/auth.Authorization.html)<a name="auth.finishFirebasePnvLogin"></a>  
+
+***
+<br><br>
 $MadelineProto->[auth->finishPasskeyLogin](/API_docs/methods/auth.finishPasskeyLogin.html)(\[credential: $[InputPasskeyCredential](/API_docs/types/InputPasskeyCredential.html), from_dc_id: $[int](/API_docs/types/int.html), from_auth_key_id: $[long](/API_docs/types/long.html), \]) === [$auth.Authorization](/API_docs/types/auth.Authorization.html)<a name="auth.finishPasskeyLogin"></a>  
+
+***
+<br><br>
+$MadelineProto->[auth->firebasePnvSignUp](/API_docs/methods/auth.firebasePnvSignUp.html)(\[no_joined_notifications: $[Bool](/API_docs/types/Bool.html), first_name: $[string](/API_docs/types/string.html), last_name: $[string](/API_docs/types/string.html), \]) === [$auth.Authorization](/API_docs/types/auth.Authorization.html)<a name="auth.firebasePnvSignUp"></a>  
 
 ***
 <br><br>
@@ -630,6 +638,10 @@ $MadelineProto->[auth->importLoginToken](/API_docs/methods/auth.importLoginToken
 ***
 <br><br>
 $MadelineProto->[auth->importWebTokenAuthorization](/API_docs/methods/auth.importWebTokenAuthorization.html)(\[api_id: $[int](/API_docs/types/int.html), api_hash: $[string](/API_docs/types/string.html), web_auth_token: $[string](/API_docs/types/string.html), \]) === [$auth.Authorization](/API_docs/types/auth.Authorization.html)<a name="auth.importWebTokenAuthorization"></a>  
+
+***
+<br><br>
+$MadelineProto->[auth->initFirebasePnvLogin](/API_docs/methods/auth.initFirebasePnvLogin.html)(\[api_id: $[int](/API_docs/types/int.html), api_hash: $[string](/API_docs/types/string.html), \]) === [$auth.FirebasePnvIntent](/API_docs/types/auth.FirebasePnvIntent.html)<a name="auth.initFirebasePnvLogin"></a>  
 
 ***
 <br><br>
@@ -897,7 +909,7 @@ $MadelineProto->[channels->getAdminLog](/API_docs/methods/channels.getAdminLog.h
 
 ***
 <br><br>
-$MadelineProto->[channels->getAdminedPublicChannels](/API_docs/methods/channels.getAdminedPublicChannels.html)(\[by_location: $[Bool](/API_docs/types/Bool.html), check_limit: $[Bool](/API_docs/types/Bool.html), for_personal: $[Bool](/API_docs/types/Bool.html), \]) === [$messages.Chats](/API_docs/types/messages.Chats.html)<a name="channels.getAdminedPublicChannels"></a>  
+$MadelineProto->[channels->getAdminedPublicChannels](/API_docs/methods/channels.getAdminedPublicChannels.html)(\[by_location: $[Bool](/API_docs/types/Bool.html), check_limit: $[Bool](/API_docs/types/Bool.html), for_personal: $[Bool](/API_docs/types/Bool.html), for_community_peer: $[Bool](/API_docs/types/Bool.html), \]) === [$messages.Chats](/API_docs/types/messages.Chats.html)<a name="channels.getAdminedPublicChannels"></a>  
 
 ***
 <br><br>
@@ -1109,6 +1121,42 @@ $MadelineProto->[chatlists->leaveChatlist](/API_docs/methods/chatlists.leaveChat
 
 ***
 <br><br>
+$MadelineProto->[communities->create](/API_docs/methods/communities.create.html)(\[hidden: $[Bool](/API_docs/types/Bool.html), title: $[string](/API_docs/types/string.html), about: $[string](/API_docs/types/string.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="communities.create"></a>  
+
+***
+<br><br>
+$MadelineProto->[communities->getJoinedCommunities](/API_docs/methods/communities.getJoinedCommunities.html)(\[\]) === [$messages.Chats](/API_docs/types/messages.Chats.html)<a name="communities.getJoinedCommunities"></a>  
+
+***
+<br><br>
+$MadelineProto->[communities->getParticipantJoinedChats](/API_docs/methods/communities.getParticipantJoinedChats.html)(\[community: $[InputChannel](/API_docs/types/InputChannel.html), participant: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$communities.ParticipantJoinedChats](/API_docs/types/communities.ParticipantJoinedChats.html)<a name="communities.getParticipantJoinedChats"></a>  
+
+***
+<br><br>
+$MadelineProto->[communities->getPeerLinkRequests](/API_docs/methods/communities.getPeerLinkRequests.html)(\[community: $[InputChannel](/API_docs/types/InputChannel.html), offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$communities.PeerLinkRequests](/API_docs/types/communities.PeerLinkRequests.html)<a name="communities.getPeerLinkRequests"></a>  
+
+***
+<br><br>
+$MadelineProto->[communities->toggleAllPeerLinkRequestApproval](/API_docs/methods/communities.toggleAllPeerLinkRequestApproval.html)(\[reject: $[Bool](/API_docs/types/Bool.html), community: $[InputChannel](/API_docs/types/InputChannel.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="communities.toggleAllPeerLinkRequestApproval"></a>  
+
+***
+<br><br>
+$MadelineProto->[communities->toggleCommunityCollapsedInDialogs](/API_docs/methods/communities.toggleCommunityCollapsedInDialogs.html)(\[collapsed: $[Bool](/API_docs/types/Bool.html), community: $[InputChannel](/API_docs/types/InputChannel.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="communities.toggleCommunityCollapsedInDialogs"></a>  
+
+***
+<br><br>
+$MadelineProto->[communities->toggleParticipantBanned](/API_docs/methods/communities.toggleParticipantBanned.html)(\[unban: $[Bool](/API_docs/types/Bool.html), community: $[InputChannel](/API_docs/types/InputChannel.html), participant: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="communities.toggleParticipantBanned"></a>  
+
+***
+<br><br>
+$MadelineProto->[communities->togglePeerLink](/API_docs/methods/communities.togglePeerLink.html)(\[visible: $[Bool](/API_docs/types/Bool.html), hidden: $[Bool](/API_docs/types/Bool.html), deleted: $[Bool](/API_docs/types/Bool.html), community: $[InputChannel](/API_docs/types/InputChannel.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="communities.togglePeerLink"></a>  
+
+***
+<br><br>
+$MadelineProto->[communities->togglePeerLinkRequestApproval](/API_docs/methods/communities.togglePeerLinkRequestApproval.html)(\[reject: $[Bool](/API_docs/types/Bool.html), community: $[InputChannel](/API_docs/types/InputChannel.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="communities.togglePeerLinkRequestApproval"></a>  
+
+***
+<br><br>
 $MadelineProto->[contacts->acceptContact](/API_docs/methods/contacts.acceptContact.html)(\[id: $[InputUser](/API_docs/types/InputUser.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="contacts.acceptContact"></a>  
 
 ***
@@ -1218,6 +1266,38 @@ $MadelineProto->[contacts->unblock](/API_docs/methods/contacts.unblock.html)(\[m
 ***
 <br><br>
 $MadelineProto->[contacts->updateContactNote](/API_docs/methods/contacts.updateContactNote.html)(\[id: $[InputUser](/API_docs/types/InputUser.html), note: $[TextWithEntities](/API_docs/types/TextWithEntities.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="contacts.updateContactNote"></a>  
+
+***
+<br><br>
+$MadelineProto->[ephemeral->deleteAllWelcomeMessages](/API_docs/methods/ephemeral.deleteAllWelcomeMessages.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="ephemeral.deleteAllWelcomeMessages"></a>  
+
+***
+<br><br>
+$MadelineProto->[ephemeral->deleteMessage](/API_docs/methods/ephemeral.deleteMessage.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), receiver_id: $[InputUser](/API_docs/types/InputUser.html), id: $[int](/API_docs/types/int.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="ephemeral.deleteMessage"></a>  
+
+***
+<br><br>
+$MadelineProto->[ephemeral->deleteWelcomeMessage](/API_docs/methods/ephemeral.deleteWelcomeMessage.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), id: $[int](/API_docs/types/int.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="ephemeral.deleteWelcomeMessage"></a>  
+
+***
+<br><br>
+$MadelineProto->[ephemeral->editMessage](/API_docs/methods/ephemeral.editMessage.html)(\[invert_media: $[Bool](/API_docs/types/Bool.html), welcome: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), receiver_id: $[InputUser](/API_docs/types/InputUser.html), id: $[int](/API_docs/types/int.html), message: $[string](/API_docs/types/string.html), media: $[InputMedia](/API_docs/types/InputMedia.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], reply_markup: $[ReplyMarkup](/API_docs/types/ReplyMarkup.html), rich_message: $[InputRichMessage](/API_docs/types/InputRichMessage.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="ephemeral.editMessage"></a>  
+
+***
+<br><br>
+$MadelineProto->[ephemeral->getCallbackAnswer](/API_docs/methods/ephemeral.getCallbackAnswer.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), id: $[int](/API_docs/types/int.html), data: $[bytes](/API_docs/types/bytes.html), \]) === [$messages.BotCallbackAnswer](/API_docs/types/messages.BotCallbackAnswer.html)<a name="ephemeral.getCallbackAnswer"></a>  
+
+***
+<br><br>
+$MadelineProto->[ephemeral->getWelcomeMessages](/API_docs/methods/ephemeral.getWelcomeMessages.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), hash: $[long](/API_docs/types/long.html), \]) === [$ephemeral.WelcomeMessages](/API_docs/types/ephemeral.WelcomeMessages.html)<a name="ephemeral.getWelcomeMessages"></a>  
+
+***
+<br><br>
+$MadelineProto->[ephemeral->reportMessage](/API_docs/methods/ephemeral.reportMessage.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), id: $[int](/API_docs/types/int.html), option: $[bytes](/API_docs/types/bytes.html), message: $[string](/API_docs/types/string.html), \]) === [$ReportResult](/API_docs/types/ReportResult.html)<a name="ephemeral.reportMessage"></a>  
+
+***
+<br><br>
+$MadelineProto->[ephemeral->sendMessage](/API_docs/methods/ephemeral.sendMessage.html)(\[invert_media: $[Bool](/API_docs/types/Bool.html), welcome: $[Bool](/API_docs/types/Bool.html), anchor: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), receiver_id: $[InputUser](/API_docs/types/InputUser.html), query_id: $[long](/API_docs/types/long.html), message: $[string](/API_docs/types/string.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], media: $[InputMedia](/API_docs/types/InputMedia.html), reply_markup: $[ReplyMarkup](/API_docs/types/ReplyMarkup.html), rich_message: $[InputRichMessage](/API_docs/types/InputRichMessage.html), reply_to: $[InputReplyTo](/API_docs/types/InputReplyTo.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="ephemeral.sendMessage"></a>  
 
 ***
 <br><br>
@@ -1453,6 +1533,10 @@ $MadelineProto->[messages->composeMessageWithAI](/API_docs/methods/messages.comp
 
 ***
 <br><br>
+$MadelineProto->[messages->composeRichMessageWithAI](/API_docs/methods/messages.composeRichMessageWithAI.html)(\[proofread: $[Bool](/API_docs/types/Bool.html), emojify: $[Bool](/API_docs/types/Bool.html), text: $[InputRichMessage](/API_docs/types/InputRichMessage.html), translate_to_lang: $[string](/API_docs/types/string.html), tone: $[InputAiComposeTone](/API_docs/types/InputAiComposeTone.html), \]) === [$messages.ComposedRichMessageWithAI](/API_docs/types/messages.ComposedRichMessageWithAI.html)<a name="messages.composeRichMessageWithAI"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->createChat](/API_docs/methods/messages.createChat.html)(\[users: \[$[InputUser](/API_docs/types/InputUser.html)\], title: $[string](/API_docs/types/string.html), ttl_period: $[int](/API_docs/types/int.html), \]) === [$messages.InvitedUsers](/API_docs/types/messages.InvitedUsers.html)<a name="messages.createChat"></a>  
 
 ***
@@ -1593,7 +1677,7 @@ $MadelineProto->[messages->faveSticker](/API_docs/methods/messages.faveSticker.h
 
 ***
 <br><br>
-$MadelineProto->[messages->forwardMessages](/API_docs/methods/messages.forwardMessages.html)(\[silent: $[Bool](/API_docs/types/Bool.html), background: $[Bool](/API_docs/types/Bool.html), with_my_score: $[Bool](/API_docs/types/Bool.html), drop_author: $[Bool](/API_docs/types/Bool.html), drop_media_captions: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), allow_paid_floodskip: $[Bool](/API_docs/types/Bool.html), from_peer: $[InputPeer](/API_docs/types/InputPeer.html), id: \[$[int](/API_docs/types/int.html)\], to_peer: $[InputPeer](/API_docs/types/InputPeer.html), top_msg_id: $[int](/API_docs/types/int.html), reply_to: $[InputReplyTo](/API_docs/types/InputReplyTo.html), schedule_date: $[int](/API_docs/types/int.html), schedule_repeat_period: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), quick_reply_shortcut: $[InputQuickReplyShortcut](/API_docs/types/InputQuickReplyShortcut.html), effect: $[long](/API_docs/types/long.html), video_timestamp: $[int](/API_docs/types/int.html), allow_paid_stars: $[long](/API_docs/types/long.html), suggested_post: $[SuggestedPost](/API_docs/types/SuggestedPost.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.forwardMessages"></a>  
+$MadelineProto->[messages->forwardMessages](/API_docs/methods/messages.forwardMessages.html)(\[silent: $[Bool](/API_docs/types/Bool.html), background: $[Bool](/API_docs/types/Bool.html), with_my_score: $[Bool](/API_docs/types/Bool.html), drop_author: $[Bool](/API_docs/types/Bool.html), drop_media_captions: $[Bool](/API_docs/types/Bool.html), noforwards: $[Bool](/API_docs/types/Bool.html), allow_paid_floodskip: $[Bool](/API_docs/types/Bool.html), from_ephemeral: $[Bool](/API_docs/types/Bool.html), from_peer: $[InputPeer](/API_docs/types/InputPeer.html), id: \[$[int](/API_docs/types/int.html)\], to_peer: $[InputPeer](/API_docs/types/InputPeer.html), top_msg_id: $[int](/API_docs/types/int.html), reply_to: $[InputReplyTo](/API_docs/types/InputReplyTo.html), schedule_date: $[int](/API_docs/types/int.html), schedule_repeat_period: $[int](/API_docs/types/int.html), send_as: $[InputPeer](/API_docs/types/InputPeer.html), quick_reply_shortcut: $[InputQuickReplyShortcut](/API_docs/types/InputQuickReplyShortcut.html), effect: $[long](/API_docs/types/long.html), video_timestamp: $[int](/API_docs/types/int.html), allow_paid_stars: $[long](/API_docs/types/long.html), suggested_post: $[SuggestedPost](/API_docs/types/SuggestedPost.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.forwardMessages"></a>  
 
 ***
 <br><br>
@@ -2121,6 +2205,10 @@ $MadelineProto->[messages->requestAppWebView](/API_docs/methods/messages.request
 
 ***
 <br><br>
+$MadelineProto->[messages->requestChatJoinWebView](/API_docs/methods/messages.requestChatJoinWebView.html)(\[query_id: $[long](/API_docs/types/long.html), theme_params: $[DataJSON](/API_docs/types/DataJSON.html), platform: $[string](/API_docs/types/string.html), \]) === [$WebViewResult](/API_docs/types/WebViewResult.html)<a name="messages.requestChatJoinWebView"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->requestEncryption](/API_docs/methods/messages.requestEncryption.html)(\[user_id: $[InputUser](/API_docs/types/InputUser.html), g_a: $[bytes](/API_docs/types/bytes.html), \]) === [$EncryptedChat](/API_docs/types/EncryptedChat.html)<a name="messages.requestEncryption"></a>  
 
 ***
@@ -2173,7 +2261,7 @@ $MadelineProto->[messages->searchEmojiStickerSets](/API_docs/methods/messages.se
 
 ***
 <br><br>
-$MadelineProto->[messages->searchGlobal](/API_docs/methods/messages.searchGlobal.html)(\[broadcasts_only: $[Bool](/API_docs/types/Bool.html), groups_only: $[Bool](/API_docs/types/Bool.html), users_only: $[Bool](/API_docs/types/Bool.html), folder_id: $[int](/API_docs/types/int.html), q: $[string](/API_docs/types/string.html), filter: $[MessagesFilter](/API_docs/types/MessagesFilter.html), min_date: $[int](/API_docs/types/int.html), max_date: $[int](/API_docs/types/int.html), offset_rate: $[int](/API_docs/types/int.html), offset_peer: $[InputPeer](/API_docs/types/InputPeer.html), offset_id: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), \]) === [$messages.Messages](/API_docs/types/messages.Messages.html)<a name="messages.searchGlobal"></a>  
+$MadelineProto->[messages->searchGlobal](/API_docs/methods/messages.searchGlobal.html)(\[broadcasts_only: $[Bool](/API_docs/types/Bool.html), groups_only: $[Bool](/API_docs/types/Bool.html), users_only: $[Bool](/API_docs/types/Bool.html), folder_id: $[int](/API_docs/types/int.html), community: $[InputChannel](/API_docs/types/InputChannel.html), q: $[string](/API_docs/types/string.html), filter: $[MessagesFilter](/API_docs/types/MessagesFilter.html), min_date: $[int](/API_docs/types/int.html), max_date: $[int](/API_docs/types/int.html), offset_rate: $[int](/API_docs/types/int.html), offset_peer: $[InputPeer](/API_docs/types/InputPeer.html), offset_id: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), \]) === [$messages.Messages](/API_docs/types/messages.Messages.html)<a name="messages.searchGlobal"></a>  
 
 ***
 <br><br>
@@ -2366,6 +2454,10 @@ $MadelineProto->[messages->toggleTodoCompleted](/API_docs/methods/messages.toggl
 ***
 <br><br>
 $MadelineProto->[messages->transcribeAudio](/API_docs/methods/messages.transcribeAudio.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), msg_id: $[int](/API_docs/types/int.html), \]) === [$messages.TranscribedAudio](/API_docs/types/messages.TranscribedAudio.html)<a name="messages.transcribeAudio"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->translateRichMessage](/API_docs/methods/messages.translateRichMessage.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), id: \[$[int](/API_docs/types/int.html)\], text: \[$[InputRichMessage](/API_docs/types/InputRichMessage.html)\], to_lang: $[string](/API_docs/types/string.html), tone: $[string](/API_docs/types/string.html), \]) === [$messages.TranslatedRichMessage](/API_docs/types/messages.TranslatedRichMessage.html)<a name="messages.translateRichMessage"></a>  
 
 ***
 <br><br>

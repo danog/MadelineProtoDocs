@@ -21,6 +21,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [inputNotifyForumTopic](/API_docs/constructors/inputNotifyForumTopic.html)  
 
+[inputNotifyCommunity](/API_docs/constructors/inputNotifyCommunity.html)  
+
 
 
 ### Methods that return an object of this type (methods):

@@ -18,8 +18,14 @@ This update represents a VoIP Telegram call.
 ## Properties
 * `$callID`: `int` Phone call ID
 * `$outgoing`: `bool` Whether the call is an outgoing call
+* `$video`: `bool` Whether this is a video call.
 * `$otherID`: `int` ID of the other user in the call
 * `$date`: `int` When was the call created
+* `$discardReason`: `?danog\MadelineProto\VoIP\DiscardReason` Why the call was discarded, if it was.
+* `$conferenceSlug`: `?string` If the call was upgraded to a [conference call »](https://core.telegram.org/api/group-calls#conference-calls),
+the [conference deep link »](https://core.telegram.org/api/links#conference-links) slug of the new conference.
+
+Conference calls are end-to-end encrypted and cannot be joined by MadelineProto yet.
 
 ## Method list:
 * [`accept(): \danog\MadelineProto\VoIP`](#accept)
@@ -28,6 +34,8 @@ This update represents a VoIP Telegram call.
 * [`play(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): \danog\MadelineProto\VoIP`](#play)
 * [`setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file): \danog\MadelineProto\VoIP`](#setOutput)
 * [`then(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): \danog\MadelineProto\VoIP`](#then)
+* [`playVideo(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): \danog\MadelineProto\VoIP`](#playVideo)
+* [`stopVideo(): \danog\MadelineProto\VoIP`](#stopVideo)
 * [`skip(): \danog\MadelineProto\VoIP`](#skip)
 * [`stop(): \danog\MadelineProto\VoIP`](#stop)
 * [`pause(): \danog\MadelineProto\VoIP`](#pause)
@@ -35,6 +43,9 @@ This update represents a VoIP Telegram call.
 * [`resume(): \danog\MadelineProto\VoIP`](#resume)
 * [`playOnHold(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): \danog\MadelineProto\VoIP`](#playOnHold)
 * [`getCurrent(): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`](#getCurrent)
+* [`setMuted(bool $muted = true): \danog\MadelineProto\VoIP`](#setMuted)
+* [`isMuted(): bool`](#isMuted)
+* [`getRemoteMediaState(): ?\danog\MadelineProto\VoIP\MediaState`](#getRemoteMediaState)
 * [`getCallState(): \danog\MadelineProto\VoIP\CallState`](#getCallState)
 
 ## Methods:
@@ -123,6 +134,30 @@ Parameters:
 
 
 
+### <a name="playVideo"></a> `playVideo(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): \danog\MadelineProto\VoIP`
+
+Play the VP8 video and OPUS audio of a WebM file.
+
+
+Parameters:
+
+* `$file`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
+* `\Amp\ByteStream\ReadableStream`
+
+
+
+
+### <a name="stopVideo"></a> `stopVideo(): \danog\MadelineProto\VoIP`
+
+Stop transmitting video.
+
+
+
 ### <a name="skip"></a> `skip(): \danog\MadelineProto\VoIP`
 
 When called, skips to the next file in the playlist.
@@ -181,6 +216,36 @@ Will return a string with the object ID of the stream if we're currently playing
 #### See also: 
 * [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
 * [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
+
+
+
+
+### <a name="setMuted"></a> `setMuted(bool $muted = true): \danog\MadelineProto\VoIP`
+
+Mute or unmute our own audio stream.
+
+
+Parameters:
+
+* `$muted`: `bool`   
+
+
+
+### <a name="isMuted"></a> `isMuted(): bool`
+
+Whether our own audio stream is muted.
+
+
+
+### <a name="getRemoteMediaState"></a> `getRemoteMediaState(): ?\danog\MadelineProto\VoIP\MediaState`
+
+Get the media state of the other party, as reported by their client.
+  
+Will return null if the call is not connected yet.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\VoIP\MediaState`: The media state of the other party of a one-to-one call, as reported by its `MediaState`](../../danog/MadelineProto/VoIP/MediaState.html)
 
 
 

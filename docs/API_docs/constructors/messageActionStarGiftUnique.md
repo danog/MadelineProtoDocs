@@ -23,6 +23,7 @@ A [gift »](https://core.telegram.org/api/gifts) was upgraded to a [collectible 
 |assigned|[Bool](/API_docs/types/Bool.html) | Optional|
 |from\_offer|[Bool](/API_docs/types/Bool.html) | Optional|
 |craft|[Bool](/API_docs/types/Bool.html) | Optional|
+|name\_hidden|[Bool](/API_docs/types/Bool.html) | Optional|
 |gift|[StarGift](/API_docs/types/StarGift.html) | Yes|The collectible gift.|
 |can\_export\_at|[int](/API_docs/types/int.html) | Optional|If set, indicates that the current gift can't be [exported to the TON blockchain »](https://core.telegram.org/api/gifts#withdraw-a-collectible-gift-to-the-ton-blockchain) yet: the owner will be able to export it at the specified unixtime.|
 |transfer\_stars|[long](/API_docs/types/long.html) | Optional|If set, indicates that the gift can be [transferred »](https://core.telegram.org/api/gifts#transferring-collectible-gifts) to another user by paying the specified amount of stars.|
@@ -34,6 +35,7 @@ A [gift »](https://core.telegram.org/api/gifts) was upgraded to a [collectible 
 |can\_resell\_at|[int](/API_docs/types/int.html) | Optional|If set, indicates that the current gift can't be [resold »](https://core.telegram.org/api/gifts#reselling-collectible-gifts) yet: the owner will be able to put it up for sale at the specified unixtime.|
 |drop\_original\_details\_stars|[long](/API_docs/types/long.html) | Optional|
 |can\_craft\_at|[int](/API_docs/types/int.html) | Optional|
+|message|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Optional|
 
 
 
@@ -43,5 +45,5 @@ A [gift »](https://core.telegram.org/api/gifts) was upgraded to a [collectible 
 ### Example:
 
 ```
-$messageActionStarGiftUnique = ['_' => 'messageActionStarGiftUnique', 'upgrade' => Bool, 'transferred' => Bool, 'saved' => Bool, 'refunded' => Bool, 'prepaid_upgrade' => Bool, 'assigned' => Bool, 'from_offer' => Bool, 'craft' => Bool, 'gift' => StarGift, 'can_export_at' => int, 'transfer_stars' => long, 'from_id' => Peer, 'peer' => long, 'saved_id' => long, 'resale_amount' => StarsAmount, 'can_transfer_at' => int, 'can_resell_at' => int, 'drop_original_details_stars' => long, 'can_craft_at' => int];
+$messageActionStarGiftUnique = ['_' => 'messageActionStarGiftUnique', 'upgrade' => Bool, 'transferred' => Bool, 'saved' => Bool, 'refunded' => Bool, 'prepaid_upgrade' => Bool, 'assigned' => Bool, 'from_offer' => Bool, 'craft' => Bool, 'name_hidden' => Bool, 'gift' => StarGift, 'can_export_at' => int, 'transfer_stars' => long, 'from_id' => Peer, 'peer' => long, 'saved_id' => long, 'resale_amount' => StarsAmount, 'can_transfer_at' => int, 'can_resell_at' => int, 'drop_original_details_stars' => long, 'can_craft_at' => int, 'message' => TextWithEntities];
 ```  

@@ -13,6 +13,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
+|can\_stop|[Bool](/API_docs/types/Bool.html) | Optional|
+|keep\_on\_stop|[Bool](/API_docs/types/Bool.html) | Optional|
 |rich\_message|[RichMessage](/API_docs/types/RichMessage.html) | Yes|
 
 
@@ -23,5 +25,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$sendMessageRichMessageDraftAction = ['_' => 'sendMessageRichMessageDraftAction', 'rich_message' => RichMessage];
+$sendMessageRichMessageDraftAction = ['_' => 'sendMessageRichMessageDraftAction', 'can_stop' => Bool, 'keep_on_stop' => Bool, 'rich_message' => RichMessage];
 ```  

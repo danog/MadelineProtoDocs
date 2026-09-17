@@ -162,6 +162,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.setChatAvailableReactions.html" name="messages.setChatAvailableReactions">Change the set of message reactions » that can be used in a certain group, supergroup or channel: messages.setChatAvailableReactions</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#setGroupCallTitle" name="setGroupCallTitle">Change the title of a group call: setGroupCallTitle</a>
+
 * <a href="messages.editChatTitle.html" name="messages.editChatTitle">Changes chat name and sends a service message on it: messages.editChatTitle</a>
 
 * <a href="messages.editChatPhoto.html" name="messages.editChatPhoto">Changes chat photo and sends a service message on it: messages.editChatPhoto</a>
@@ -291,6 +293,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#stringToStream" name="stringToStream">Converts a string into an async amphp stream: stringToStream</a>
 
 * <a href="account.createBusinessChatLink.html" name="account.createBusinessChatLink">Create a business chat deep link »: account.createBusinessChatLink</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#createGroupCall" name="createGroupCall">Create a group call (video chat or livestream) in the specified group or channel: createGroupCall</a>
 
 * <a href="phone.createGroupCall.html" name="phone.createGroupCall">Create a group call or livestream: phone.createGroupCall</a>
 
@@ -480,6 +484,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="payments.toggleChatStarGiftNotifications.html" name="payments.toggleChatStarGiftNotifications">Enables or disables the reception of notifications every time a gift » is received by the specified channel, can only be invoked by admins with post_messages admin rights: payments.toggleChatStarGiftNotifications</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#discardGroupCall" name="discardGroupCall">End a group call for all participants: discardGroupCall</a>
+
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#htmlEscape" name="htmlEscape">Escape string for MadelineProto's HTML entity converter: htmlEscape</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#markdownUrlEscape" name="markdownUrlEscape">Escape string for URL: markdownUrlEscape</a>
@@ -495,6 +501,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="chatlists.exportChatlistInvite.html" name="chatlists.exportChatlistInvite">Export a folder », creating a chat folder deep link »: chatlists.exportChatlistInvite</a>
 
 * <a href="messages.exportChatInvite.html" name="messages.exportChatInvite">Export an invite link for a chat: messages.exportChatInvite</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#exportGroupCallInvite" name="exportGroupCallInvite">Export an invite link for a group call: exportGroupCallInvite</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#exportAuthorization" name="exportAuthorization">Export authorization: exportAuthorization</a>
 
@@ -568,6 +576,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getPaidReactionPrivacy.html" name="messages.getPaidReactionPrivacy">Fetches an updatePaidReactionPrivacy update with the current default paid reaction privacy, see here » for more info: messages.getPaidReactionPrivacy</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#groupCallPlayOnHold" name="groupCallPlayOnHold">Files to play on hold in a group call: groupCallPlayOnHold</a>
+
 * <a href="messages.getMessageEditData.html" name="messages.getMessageEditData">Find out if a media message's caption can be edited: messages.getMessageEditData</a>
 
 * <a href="smsjobs.finishJob.html" name="smsjobs.finishJob">Finish an SMS job (official clients only): smsjobs.finishJob</a>
@@ -606,6 +616,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getDocumentByHash.html" name="messages.getDocumentByHash">Get a document by its SHA256 hash, mainly used for gifs: messages.getDocumentByHash</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getGroupCallBySlug" name="getGroupCallBySlug">Get a group call from its: getGroupCallBySlug</a>
+
 * <a href="payments.getStarGifts.html" name="payments.getStarGifts">Get a list of available gifts, see here » for more info: payments.getStarGifts</a>
 
 * <a href="bots.getAdminedBots.html" name="bots.getAdminedBots">Get a list of bots owned by the current user: bots.getAdminedBots</a>
@@ -637,6 +649,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="account.getChatThemes.html" name="account.getChatThemes">Get all available chat themes »: account.getChatThemes</a>
 
 * <a href="contacts.getSaved.html" name="contacts.getSaved">Get all contacts, requires a takeout session, see here » for more info: contacts.getSaved</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getAllGroupCalls" name="getAllGroupCalls">Get all group calls we're currently tracking, indexed by their ID: getAllGroupCalls</a>
 
 * <a href="channels.getGroupsForDiscussion.html" name="channels.getGroupsForDiscussion">Get all groups that can be used as discussion groups: channels.getGroupsForDiscussion</a>
 
@@ -898,11 +912,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getOutboxReadDate.html" name="messages.getOutboxReadDate">Get the exact read date of one of our messages, sent to a private chat with another user: messages.getOutboxReadDate</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#groupCallGetCurrent" name="groupCallGetCurrent">Get the file that is currently being played in a group call: groupCallGetCurrent</a>
+
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#callGetCurrent" name="callGetCurrent">Get the file that is currently being played: callGetCurrent</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getGroupCall" name="getGroupCall">Get the group call (video chat or livestream) currently active in a group or channel: getGroupCall</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getCallRemoteMediaState" name="getCallRemoteMediaState">Get the media state of the other party of a call, as reported by their client: getCallRemoteMediaState</a>
 
 * <a href="messages.getSearchCounters.html" name="messages.getSearchCounters">Get the number of results that would be found by a messages.search call with the same parameters: messages.getSearchCounters</a>
 
 * <a href="account.getPaidMessagesRevenue.html" name="account.getPaidMessagesRevenue">Get the number of stars we have received from the specified user thanks to paid messages »; the received amount will be equal to the sent amount multiplied by stars_paid_message_commission_permille divided by 1000: account.getPaidMessagesRevenue</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getGroupCallParticipants" name="getGroupCallParticipants">Get the participants of a group call, indexed by their bot API peer ID: getGroupCallParticipants</a>
 
 * <a href="channels.getParticipants.html" name="channels.getParticipants">Get the participants of a supergroup/channel: channels.getParticipants</a>
 
@@ -915,6 +937,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="help.getPeerColors.html" name="help.getPeerColors">Get the set of accent color palettes » that can be used for message accents: help.getPeerColors</a>
 
 * <a href="help.getPeerProfileColors.html" name="help.getPeerProfileColors">Get the set of accent color palettes » that can be used in profile page backgrounds: help.getPeerProfileColors</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getGroupCallState" name="getGroupCallState">Get the state of a group call: getGroupCallState</a>
 
 * <a href="contacts.getContactIDs.html" name="contacts.getContactIDs">Get the telegram IDs of all contacts.: contacts.getContactIDs</a>
 
@@ -1026,6 +1050,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="channels.inviteToChannel.html" name="channels.inviteToChannel">Invite users to a channel/supergroup: channels.inviteToChannel</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#inviteToGroupCall" name="inviteToGroupCall">Invite users to a group call: inviteToGroupCall</a>
+
 * <a href="invokeWithBusinessConnection.html" name="invokeWithBusinessConnection">Invoke a method using a Telegram Business Bot connection, see here » for more info, including a list of the methods that can be wrapped in this constructor: invokeWithBusinessConnection</a>
 
 * <a href="invokeWithTakeout.html" name="invokeWithTakeout">Invoke a method within a takeout session, see here » for more info: invokeWithTakeout</a>
@@ -1048,11 +1074,15 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="chatlists.joinChatlistUpdates.html" name="chatlists.joinChatlistUpdates">Join channels and supergroups recently added to a chat folder deep link »: chatlists.joinChatlistUpdates</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#joinGroupCall" name="joinGroupCall">Join the group call currently active in a group or channel: joinGroupCall</a>
+
 * <a href="payments.launchPrepaidGiveaway.html" name="payments.launchPrepaidGiveaway">Launch a prepaid giveaway »: payments.launchPrepaidGiveaway</a>
 
 * <a href="payments.editConnectedStarRefBot.html" name="payments.editConnectedStarRefBot">Leave a bot's affiliate program »: payments.editConnectedStarRefBot</a>
 
 * <a href="channels.leaveChannel.html" name="channels.leaveChannel">Leave a channel/supergroup: channels.leaveChannel</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#leaveGroupCall" name="leaveGroupCall">Leave a group call, without ending it for the other participants: leaveGroupCall</a>
 
 * <a href="phone.leaveGroupCall.html" name="phone.leaveGroupCall">Leave a group call: phone.leaveGroupCall</a>
 
@@ -1133,6 +1163,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="account.saveAutoSaveSettings.html" name="account.saveAutoSaveSettings">Modify autosave settings: account.saveAutoSaveSettings</a>
 
 * <a href="channels.editAdmin.html" name="channels.editAdmin">Modify the admin rights of a user in a supergroup/channel: channels.editAdmin</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#setCallMuted" name="setCallMuted">Mute or unmute our own audio stream in a call: setCallMuted</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#setGroupCallMuted" name="setGroupCallMuted">Mute or unmute our own audio stream in a group call: setGroupCallMuted</a>
 
 * <a href="messages.readMessageContents.html" name="messages.readMessageContents">Notifies the sender about the recipient having listened a voice message or watched a video, emitting an updateReadMessagesContents: messages.readMessageContents</a>
 
@@ -1244,6 +1278,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.toggleConnectedBotPaused.html" name="account.toggleConnectedBotPaused">Pause or unpause a specific chat, temporarily disconnecting it from all business bots »: account.toggleConnectedBotPaused</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#groupCallPausePlay" name="groupCallPausePlay">Pause playback of the current audio file in a group call: groupCallPausePlay</a>
+
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#pausePlay" name="pausePlay">Pauses playback of the current audio file in the call: pausePlay</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#validateEventHandlerClass" name="validateEventHandlerClass">Perform static analysis on a certain event handler class, to make sure it satisfies some performance requirements: validateEventHandlerClass</a>
@@ -1261,6 +1297,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="messages.toggleDialogPin.html" name="messages.toggleDialogPin">Pin/unpin a dialog: messages.toggleDialogPin</a>
 
 * <a href="payments.toggleStarGiftsPinnedToTop.html" name="payments.toggleStarGiftsPinnedToTop">Pins a received gift on top of the profile of the user or owned channels by using payments.toggleStarGiftsPinnedToTop: payments.toggleStarGiftsPinnedToTop</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#groupCallPlay" name="groupCallPlay">Play a file in a group call: groupCallPlay</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#callPlay" name="callPlay">Play file in call: callPlay</a>
 
@@ -1395,6 +1433,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="contacts.resolvePhone.html" name="contacts.resolvePhone">Resolve a phone number to get user info, if their privacy settings allow it: contacts.resolvePhone</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#restart" name="restart">Restart update loop: restart</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#groupCallResumePlay" name="groupCallResumePlay">Resume playback of the current audio file in a group call: groupCallResumePlay</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#resumePlay" name="resumePlay">Resumes playback of the current audio file in the call: resumePlay</a>
 
@@ -1608,6 +1648,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="bots.setBotGroupDefaultAdminRights.html" name="bots.setBotGroupDefaultAdminRights">Set the default suggested admin rights for bots being added as admins to groups, see here for more info on how to handle them »: bots.setBotGroupDefaultAdminRights</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#groupCallSetOutput" name="groupCallSetOutput">Set the output file or stream for the incoming audio of a group call participant: groupCallSetOutput</a>
+
 * <a href="account.setAuthorizationTTL.html" name="account.setAuthorizationTTL">Set time-to-live of current session: account.setAuthorizationTTL</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#setWebhook" name="setWebhook">Set webhook update handler: setWebhook</a>
@@ -1622,6 +1664,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.togglePeerTranslations.html" name="messages.togglePeerTranslations">Show or hide the real-time chat translation popup for a certain chat: messages.togglePeerTranslations</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#groupCallSkipPlay" name="groupCallSkipPlay">Skip to the next file in the playlist of a group call: groupCallSkipPlay</a>
+
 * <a href="account.updateBusinessWorkHours.html" name="account.updateBusinessWorkHours">Specify a set of Telegram Business opening hours.: account.updateBusinessWorkHours</a>
 
 * <a href="messages.startBot.html" name="messages.startBot">Start a conversation with a bot using a deep linking parameter: messages.startBot</a>
@@ -1635,6 +1679,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="phone.joinGroupCallPresentation.html" name="phone.joinGroupCallPresentation">Start screen sharing in a call: phone.joinGroupCallPresentation</a>
 
 * <a href="contacts.blockFromReplies.html" name="contacts.blockFromReplies">Stop getting notifications about discussion replies of a certain user in @replies: contacts.blockFromReplies</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#groupCallStopPlay" name="groupCallStopPlay">Stop playing all files in a group call, clearing the main and the hold playlist: groupCallStopPlay</a>
 
 * <a href="phone.leaveGroupCallPresentation.html" name="phone.leaveGroupCallPresentation">Stop screen sharing in a group call: phone.leaveGroupCallPresentation</a>
 
@@ -1796,7 +1842,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#fullChatLastUpdated" name="fullChatLastUpdated">When was full info for this chat last cached: fullChatLastUpdated</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#isCallMuted" name="isCallMuted">Whether our own audio stream is muted in a call: isCallMuted</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#isGroupCallMuted" name="isGroupCallMuted">Whether our own audio stream is muted in a group call: isGroupCallMuted</a>
+
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#isPlayPaused" name="isPlayPaused">Whether the currently playing audio file is paused: isPlayPaused</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#isGroupCallPlayPaused" name="isGroupCallPlayPaused">Whether the currently playing audio file of a group call is paused: isGroupCallPlayPaused</a>
 
 * <a href="account.getContactSignUpNotification.html" name="account.getContactSignUpNotification">Whether the user will receive notifications when contacts sign up: account.getContactSignUpNotification</a>
 
@@ -1928,7 +1980,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="auth.checkPaidAuth.html" name="auth.checkPaidAuth">auth.checkPaidAuth</a>
 
+* <a href="auth.finishFirebasePnvLogin.html" name="auth.finishFirebasePnvLogin">auth.finishFirebasePnvLogin</a>
+
 * <a href="auth.finishPasskeyLogin.html" name="auth.finishPasskeyLogin">auth.finishPasskeyLogin</a>
+
+* <a href="auth.firebasePnvSignUp.html" name="auth.firebasePnvSignUp">auth.firebasePnvSignUp</a>
+
+* <a href="auth.initFirebasePnvLogin.html" name="auth.initFirebasePnvLogin">auth.initFirebasePnvLogin</a>
 
 * <a href="auth.initPasskeyLogin.html" name="auth.initPasskeyLogin">auth.initPasskeyLogin</a>
 
@@ -1950,13 +2008,49 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="bots.setJoinChatResults.html" name="bots.setJoinChatResults">bots.setJoinChatResults</a>
 
+* <a href="communities.create.html" name="communities.create">communities.create</a>
+
+* <a href="communities.getJoinedCommunities.html" name="communities.getJoinedCommunities">communities.getJoinedCommunities</a>
+
+* <a href="communities.getParticipantJoinedChats.html" name="communities.getParticipantJoinedChats">communities.getParticipantJoinedChats</a>
+
+* <a href="communities.getPeerLinkRequests.html" name="communities.getPeerLinkRequests">communities.getPeerLinkRequests</a>
+
+* <a href="communities.toggleAllPeerLinkRequestApproval.html" name="communities.toggleAllPeerLinkRequestApproval">communities.toggleAllPeerLinkRequestApproval</a>
+
+* <a href="communities.toggleCommunityCollapsedInDialogs.html" name="communities.toggleCommunityCollapsedInDialogs">communities.toggleCommunityCollapsedInDialogs</a>
+
+* <a href="communities.toggleParticipantBanned.html" name="communities.toggleParticipantBanned">communities.toggleParticipantBanned</a>
+
+* <a href="communities.togglePeerLink.html" name="communities.togglePeerLink">communities.togglePeerLink</a>
+
+* <a href="communities.togglePeerLinkRequestApproval.html" name="communities.togglePeerLinkRequestApproval">communities.togglePeerLinkRequestApproval</a>
+
 * <a href="contacts.updateContactNote.html" name="contacts.updateContactNote">contacts.updateContactNote</a>
+
+* <a href="ephemeral.deleteAllWelcomeMessages.html" name="ephemeral.deleteAllWelcomeMessages">ephemeral.deleteAllWelcomeMessages</a>
+
+* <a href="ephemeral.deleteMessage.html" name="ephemeral.deleteMessage">ephemeral.deleteMessage</a>
+
+* <a href="ephemeral.deleteWelcomeMessage.html" name="ephemeral.deleteWelcomeMessage">ephemeral.deleteWelcomeMessage</a>
+
+* <a href="ephemeral.editMessage.html" name="ephemeral.editMessage">ephemeral.editMessage</a>
+
+* <a href="ephemeral.getCallbackAnswer.html" name="ephemeral.getCallbackAnswer">ephemeral.getCallbackAnswer</a>
+
+* <a href="ephemeral.getWelcomeMessages.html" name="ephemeral.getWelcomeMessages">ephemeral.getWelcomeMessages</a>
+
+* <a href="ephemeral.reportMessage.html" name="ephemeral.reportMessage">ephemeral.reportMessage</a>
+
+* <a href="ephemeral.sendMessage.html" name="ephemeral.sendMessage">ephemeral.sendMessage</a>
 
 * <a href="messages.addPollAnswer.html" name="messages.addPollAnswer">messages.addPollAnswer</a>
 
 * <a href="messages.checkUrlAuthMatchCode.html" name="messages.checkUrlAuthMatchCode">messages.checkUrlAuthMatchCode</a>
 
 * <a href="messages.composeMessageWithAI.html" name="messages.composeMessageWithAI">messages.composeMessageWithAI</a>
+
+* <a href="messages.composeRichMessageWithAI.html" name="messages.composeRichMessageWithAI">messages.composeRichMessageWithAI</a>
 
 * <a href="messages.createForumTopic.html" name="messages.createForumTopic">messages.createForumTopic</a>
 
@@ -1998,9 +2092,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.reportReadMetrics.html" name="messages.reportReadMetrics">messages.reportReadMetrics</a>
 
+* <a href="messages.requestChatJoinWebView.html" name="messages.requestChatJoinWebView">messages.requestChatJoinWebView</a>
+
 * <a href="messages.setBotGuestChatResult.html" name="messages.setBotGuestChatResult">messages.setBotGuestChatResult</a>
 
 * <a href="messages.summarizeText.html" name="messages.summarizeText">messages.summarizeText</a>
+
+* <a href="messages.translateRichMessage.html" name="messages.translateRichMessage">messages.translateRichMessage</a>
 
 * <a href="messages.updatePinnedForumTopic.html" name="messages.updatePinnedForumTopic">messages.updatePinnedForumTopic</a>
 

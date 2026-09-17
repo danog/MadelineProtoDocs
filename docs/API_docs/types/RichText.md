@@ -69,6 +69,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [textDate](/API_docs/constructors/textDate.html)  
 
+[textDiff](/API_docs/constructors/textDiff.html)  
+
+[textButton](/API_docs/constructors/textButton.html)  
+
 
 
 ### Methods that return an object of this type (methods):

@@ -36,5 +36,7 @@ redirect_from: /API_docs/types/messages_Chats.html
 
 [$MadelineProto->stories->getChatsToSend](/API_docs/methods/stories.getChatsToSend.html)  
 
+[$MadelineProto->communities->getJoinedCommunities](/API_docs/methods/communities.getJoinedCommunities.html)  
+
 
 

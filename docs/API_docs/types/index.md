@@ -95,6 +95,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [BusinessWorkHours](/API_docs/types/BusinessWorkHours.html)<a name="BusinessWorkHours"></a>  
 
+[ButtonType](/API_docs/types/ButtonType.html)<a name="ButtonType"></a>  
+
 [CdnConfig](/API_docs/types/CdnConfig.html)<a name="CdnConfig"></a>  
 
 [CdnPublicKey](/API_docs/types/CdnPublicKey.html)<a name="CdnPublicKey"></a>  
@@ -140,6 +142,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [ChatTheme](/API_docs/types/ChatTheme.html)<a name="ChatTheme"></a>  
 
 [CodeSettings](/API_docs/types/CodeSettings.html)<a name="CodeSettings"></a>  
+
+[CommunityPeer](/API_docs/types/CommunityPeer.html)<a name="CommunityPeer"></a>  
+
+[CommunityPeerRequest](/API_docs/types/CommunityPeerRequest.html)<a name="CommunityPeerRequest"></a>  
 
 [Config](/API_docs/types/Config.html)<a name="Config"></a>  
 
@@ -207,6 +213,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [EncryptedMessage](/API_docs/types/EncryptedMessage.html)<a name="EncryptedMessage"></a>  
 
+[EphemeralMessage](/API_docs/types/EphemeralMessage.html)<a name="EphemeralMessage"></a>  
+
 [Error](/API_docs/types/Error.html)<a name="Error"></a>  
 
 [ExportedChatInvite](/API_docs/types/ExportedChatInvite.html)<a name="ExportedChatInvite"></a>  
@@ -262,6 +270,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [InlineBotSwitchPM](/API_docs/types/InlineBotSwitchPM.html)<a name="InlineBotSwitchPM"></a>  
 
 [InlineBotWebView](/API_docs/types/InlineBotWebView.html)<a name="InlineBotWebView"></a>  
+
+[InlineButtonType](/API_docs/types/InlineButtonType.html)<a name="InlineButtonType"></a>  
 
 [InlineQueryPeerType](/API_docs/types/InlineQueryPeerType.html)<a name="InlineQueryPeerType"></a>  
 
@@ -407,6 +417,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [KeyboardButtonStyle](/API_docs/types/KeyboardButtonStyle.html)<a name="KeyboardButtonStyle"></a>  
 
+[KeyboardInlineButton](/API_docs/types/KeyboardInlineButton.html)<a name="KeyboardInlineButton"></a>  
+
+[KeyboardInlineButtonRow](/API_docs/types/KeyboardInlineButtonRow.html)<a name="KeyboardInlineButtonRow"></a>  
+
 [LabeledPrice](/API_docs/types/LabeledPrice.html)<a name="LabeledPrice"></a>  
 
 [LangPackDifference](/API_docs/types/LangPackDifference.html)<a name="LangPackDifference"></a>  
@@ -470,6 +484,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [Page](/API_docs/types/Page.html)<a name="Page"></a>  
 
 [PageBlock](/API_docs/types/PageBlock.html)<a name="PageBlock"></a>  
+
+[PageButton](/API_docs/types/PageButton.html)<a name="PageButton"></a>  
 
 [PageCaption](/API_docs/types/PageCaption.html)<a name="PageCaption"></a>  
 
@@ -584,6 +600,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [RequirementToContact](/API_docs/types/RequirementToContact.html)<a name="RequirementToContact"></a>  
 
 [RestrictionReason](/API_docs/types/RestrictionReason.html)<a name="RestrictionReason"></a>  
+
+[RichButtonStyle](/API_docs/types/RichButtonStyle.html)<a name="RichButtonStyle"></a>  
 
 [RichMessage](/API_docs/types/RichMessage.html)<a name="RichMessage"></a>  
 
@@ -857,6 +875,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [auth.ExportedAuthorization](/API_docs/types/auth.ExportedAuthorization.html)<a name="auth.ExportedAuthorization"></a>  
 
+[auth.FirebasePnvIntent](/API_docs/types/auth.FirebasePnvIntent.html)<a name="auth.FirebasePnvIntent"></a>  
+
 [auth.LoggedOut](/API_docs/types/auth.LoggedOut.html)<a name="auth.LoggedOut"></a>  
 
 [auth.LoginToken](/API_docs/types/auth.LoginToken.html)<a name="auth.LoginToken"></a>  
@@ -899,6 +919,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [chatlists.ExportedInvites](/API_docs/types/chatlists.ExportedInvites.html)<a name="chatlists.ExportedInvites"></a>  
 
+[communities.ParticipantJoinedChats](/API_docs/types/communities.ParticipantJoinedChats.html)<a name="communities.ParticipantJoinedChats"></a>  
+
+[communities.PeerLinkRequests](/API_docs/types/communities.PeerLinkRequests.html)<a name="communities.PeerLinkRequests"></a>  
+
 [contacts.Blocked](/API_docs/types/contacts.Blocked.html)<a name="contacts.Blocked"></a>  
 
 [contacts.ContactBirthdays](/API_docs/types/contacts.ContactBirthdays.html)<a name="contacts.ContactBirthdays"></a>  
@@ -914,6 +938,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [contacts.SponsoredPeers](/API_docs/types/contacts.SponsoredPeers.html)<a name="contacts.SponsoredPeers"></a>  
 
 [contacts.TopPeers](/API_docs/types/contacts.TopPeers.html)<a name="contacts.TopPeers"></a>  
+
+[ephemeral.WelcomeMessages](/API_docs/types/ephemeral.WelcomeMessages.html)<a name="ephemeral.WelcomeMessages"></a>  
 
 [fragment.CollectibleInfo](/API_docs/types/fragment.CollectibleInfo.html)<a name="fragment.CollectibleInfo"></a>  
 
@@ -996,6 +1022,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [messages.CheckedHistoryImportPeer](/API_docs/types/messages.CheckedHistoryImportPeer.html)<a name="messages.CheckedHistoryImportPeer"></a>  
 
 [messages.ComposedMessageWithAI](/API_docs/types/messages.ComposedMessageWithAI.html)<a name="messages.ComposedMessageWithAI"></a>  
+
+[messages.ComposedRichMessageWithAI](/API_docs/types/messages.ComposedRichMessageWithAI.html)<a name="messages.ComposedRichMessageWithAI"></a>  
 
 [messages.DhConfig](/API_docs/types/messages.DhConfig.html)<a name="messages.DhConfig"></a>  
 
@@ -1080,6 +1108,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [messages.Stickers](/API_docs/types/messages.Stickers.html)<a name="messages.Stickers"></a>  
 
 [messages.TranscribedAudio](/API_docs/types/messages.TranscribedAudio.html)<a name="messages.TranscribedAudio"></a>  
+
+[messages.TranslatedRichMessage](/API_docs/types/messages.TranslatedRichMessage.html)<a name="messages.TranslatedRichMessage"></a>  
 
 [messages.TranslatedText](/API_docs/types/messages.TranslatedText.html)<a name="messages.TranslatedText"></a>  
 

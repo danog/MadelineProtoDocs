@@ -25,6 +25,10 @@ Why was the call discarded?
 
 * `danog\MadelineProto\VoIP\DiscardReason::BUSY`: The phone call was discarded because the user is busy in another call
 
+* `danog\MadelineProto\VoIP\DiscardReason::MIGRATE_CONFERENCE_CALL`: The phone call was upgraded to a [conference call »](https://core.telegram.org/api/group-calls#conference-calls).
+  
+  Do not pass this reason manually, use `VoIP::migrateToConference()` instead.
+
 ## Properties
 * `$name`: `string` 
 * `$value`: `string` 

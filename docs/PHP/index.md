@@ -93,6 +93,7 @@ Async PHP client API for the telegram MTProto protocol.
 * [\danog\MadelineProto\EventHandlerIssue: Represents an event handler issue.](/PHP/danog/MadelineProto/EventHandlerIssue.html)
 * [\danog\MadelineProto\Exception: Basic exception.](/PHP/danog/MadelineProto/Exception.html)
 * [\danog\MadelineProto\FileCallback: File callback interface.](/PHP/danog/MadelineProto/FileCallback.html)
+* [\danog\MadelineProto\GroupCall: This update represents a Telegram group call (a video chat, a livestream or a live story).](/PHP/danog/MadelineProto/GroupCall.html)
 * [\danog\MadelineProto\LocalFile: Indicates a local file to upload.](/PHP/danog/MadelineProto/LocalFile.html)
 * [\danog\MadelineProto\Logger: Logger class.](/PHP/danog/MadelineProto/Logger.html)
 * [\danog\MadelineProto\MyTelegramOrgWrapper: Wrapper for my.telegram.org.](/PHP/danog/MadelineProto/MyTelegramOrgWrapper.html)
@@ -350,6 +351,8 @@ Async PHP client API for the telegram MTProto protocol.
 * [\danog\MadelineProto\EventHandler\User\Status\Online: Online status of the user.](/PHP/danog/MadelineProto/EventHandler/User/Status/Online.html)
 * [\danog\MadelineProto\EventHandler\User\Status\Recently: Online status: last seen recently.](/PHP/danog/MadelineProto/EventHandler/User/Status/Recently.html)
 * [\danog\MadelineProto\EventHandler\Wallpaper\WallpaperSettings: Info on how to generate a wallpaper, according to [these instructions »](https://core.telegram.org/api/wallpapers).](/PHP/danog/MadelineProto/EventHandler/Wallpaper/WallpaperSettings.html)
+* [\danog\MadelineProto\GroupCall\GroupCallState: State of a group call we are interacting with.](/PHP/danog/MadelineProto/GroupCall/GroupCallState.html)
+* [\danog\MadelineProto\GroupCall\Participant: A participant of a group call, mirroring](/PHP/danog/MadelineProto/GroupCall/Participant.html)
 * [\danog\DialogId\DialogId: Represents the type of a bot API dialog ID.](/PHP/danog/DialogId/DialogId.html)
 * [\danog\MadelineProto\RPCError\AllowPaymentRequiredError: This peer only accepts [paid messages &raquo;](https://core.telegram.org/api/paid-messages): this error is only emitted for older layers without paid messages support, so the client must be updated in order to use paid messages.  .](/PHP/danog/MadelineProto/RPCError/AllowPaymentRequiredError.html)
 * [\danog\MadelineProto\RPCError\BalanceTooLowError: The transaction cannot be completed because the current [Telegram Stars balance](https://core.telegram.org/api/stars) is too low.](/PHP/danog/MadelineProto/RPCError/BalanceTooLowError.html)
@@ -419,6 +422,7 @@ Async PHP client API for the telegram MTProto protocol.
 * [\danog\MadelineProto\RPCError\TopicClosedError: This topic was closed, you can't send messages to it anymore.](/PHP/danog/MadelineProto/RPCError/TopicClosedError.html)
 * [\danog\MadelineProto\RPCError\TopicDeletedError: The specified topic was deleted.](/PHP/danog/MadelineProto/RPCError/TopicDeletedError.html)
 * [\danog\MadelineProto\RPCError\UserBannedInChannelError: You're banned from sending messages in supergroups/channels.](/PHP/danog/MadelineProto/RPCError/UserBannedInChannelError.html)
+* [\danog\MadelineProto\RPCError\UserBotToBotDisabledError: Bot-to-bot messaging is disabled because one of the two bots hasn't enabled the Bot to Bot setting in @BotFather.](/PHP/danog/MadelineProto/RPCError/UserBotToBotDisabledError.html)
 * [\danog\MadelineProto\RPCError\UserIsBlockedError: You were blocked by this user.](/PHP/danog/MadelineProto/RPCError/UserIsBlockedError.html)
 * [\danog\MadelineProto\RPCError\UserIsBotError: Bots can't send messages to other bots.](/PHP/danog/MadelineProto/RPCError/UserIsBotError.html)
 * [\danog\MadelineProto\RPCError\UsernameInvalidError: The provided username is not valid.](/PHP/danog/MadelineProto/RPCError/UsernameInvalidError.html)
@@ -455,6 +459,7 @@ Async PHP client API for the telegram MTProto protocol.
 * [\danog\MadelineProto\TL\Types\LoginQrCode: Represents a login QR code.](/PHP/danog/MadelineProto/TL/Types/LoginQrCode.html)
 * [\danog\MadelineProto\VoIP\CallState](/PHP/danog/MadelineProto/VoIP/CallState.html)
 * [\danog\MadelineProto\VoIP\DiscardReason: Why was the call discarded?](/PHP/danog/MadelineProto/VoIP/DiscardReason.html)
+* [\danog\MadelineProto\VoIP\MediaState: The media state of the other party of a one-to-one call, as reported by its `MediaState`](/PHP/danog/MadelineProto/VoIP/MediaState.html)
 * [\danog\MadelineProto\VoIP\VoIPState: VoIP protcol state.](/PHP/danog/MadelineProto/VoIP/VoIPState.html)
 
 

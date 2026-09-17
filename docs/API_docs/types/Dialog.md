@@ -15,6 +15,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [dialogFolder](/API_docs/constructors/dialogFolder.html)  
 
+[dialogCommunity](/API_docs/constructors/dialogCommunity.html)  
+
 
 
 ### Methods that return an object of this type (methods):

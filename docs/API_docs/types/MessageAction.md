@@ -145,6 +145,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageActionManagedBotCreated](/API_docs/constructors/messageActionManagedBotCreated.html)  
 
+[messageActionChangeCommunity](/API_docs/constructors/messageActionChangeCommunity.html)  
+
+[messageActionChatJoinedViaCommunity](/API_docs/constructors/messageActionChatJoinedViaCommunity.html)  
+
 
 
 ### Methods that return an object of this type (methods):

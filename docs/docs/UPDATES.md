@@ -791,6 +791,9 @@ Here's a full list of the concrete object types on which bound methods and prope
 * [danog\MadelineProto\EventHandler\User\Username &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/User/Username.html) - Changes were made to the user’s first name, last name or username.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/User/Username.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/User/Username.html#method-list)
+* [danog\MadelineProto\GroupCall &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/GroupCall.html) - This update represents a Telegram group call (a video chat, a livestream or a live story).
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/GroupCall.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/GroupCall.html#method-list)
 * [danog\MadelineProto\VoIP &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/VoIP.html) - This update represents a VoIP Telegram call.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/VoIP.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/VoIP.html#method-list)

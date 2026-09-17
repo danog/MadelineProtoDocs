@@ -17,6 +17,7 @@ Bot keyboard button
 |----------|---------------|----------|-------------|
 |style|[KeyboardButtonStyle](/API_docs/types/KeyboardButtonStyle.html) | Optional|
 |text|[string](/API_docs/types/string.html) | Yes|Button text|
+|type|[ButtonType](/API_docs/types/ButtonType.html) | Yes|
 
 
 
@@ -26,5 +27,5 @@ Bot keyboard button
 ### Example:
 
 ```
-$keyboardButton = ['_' => 'keyboardButton', 'style' => KeyboardButtonStyle, 'text' => 'string'];
+$keyboardButton = ['_' => 'keyboardButton', 'style' => KeyboardButtonStyle, 'text' => 'string', 'type' => ButtonType];
 ```  

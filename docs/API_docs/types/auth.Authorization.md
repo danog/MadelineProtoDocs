@@ -36,5 +36,9 @@ redirect_from: /API_docs/types/auth_Authorization.html
 
 [$MadelineProto->auth->finishPasskeyLogin](/API_docs/methods/auth.finishPasskeyLogin.html)  
 
+[$MadelineProto->auth->finishFirebasePnvLogin](/API_docs/methods/auth.finishFirebasePnvLogin.html)  
+
+[$MadelineProto->auth->firebasePnvSignUp](/API_docs/methods/auth.firebasePnvSignUp.html)  
+
 
 

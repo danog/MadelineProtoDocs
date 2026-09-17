@@ -24,6 +24,7 @@ Forwards messages by their IDs.
 |drop\_media\_captions|[Bool](/API_docs/types/Bool.html) | Whether to strip captions from media | Optional|
 |noforwards|[Bool](/API_docs/types/Bool.html) | Only for bots, disallows further re-forwarding and saving of the messages, even if the destination chat doesn't have [content protection](https://telegram.org/blog/protected-content-delete-by-date-and-more) enabled | Optional|
 |allow\_paid\_floodskip|[Bool](/API_docs/types/Bool.html) | Bots only: if set, allows sending up to 1000 messages per second, ignoring [broadcasting limits](https://core.telegram.org/bots/faq#how-can-i-message-all-of-my-bot-39s-subscribers-at-once) for a fee of 0.1 Telegram Stars per message. The relevant Stars will be withdrawn from the bot's balance. | Optional|
+|from\_ephemeral|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |from\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Source of messages | Optional|
 |id|Array of [int](/API_docs/types/int.html) | IDs of messages | Yes|
 |to\_peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Destination peer | Optional|
@@ -62,6 +63,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Updates = $MadelineProto->messages->forwardMessages(silent: $Bool, background: $Bool, with_my_score: $Bool, drop_author: $Bool, drop_media_captions: $Bool, noforwards: $Bool, allow_paid_floodskip: $Bool, from_peer: $InputPeer, id: [$int, $int], to_peer: $InputPeer, top_msg_id: $int, reply_to: $InputReplyTo, schedule_date: $int, schedule_repeat_period: $int, send_as: $InputPeer, quick_reply_shortcut: $InputQuickReplyShortcut, effect: $long, video_timestamp: $int, allow_paid_stars: $long, suggested_post: $SuggestedPost, );
+$Updates = $MadelineProto->messages->forwardMessages(silent: $Bool, background: $Bool, with_my_score: $Bool, drop_author: $Bool, drop_media_captions: $Bool, noforwards: $Bool, allow_paid_floodskip: $Bool, from_ephemeral: $Bool, from_peer: $InputPeer, id: [$int, $int], to_peer: $InputPeer, top_msg_id: $int, reply_to: $InputReplyTo, schedule_date: $int, schedule_repeat_period: $int, send_as: $InputPeer, quick_reply_shortcut: $InputQuickReplyShortcut, effect: $long, video_timestamp: $int, allow_paid_stars: $long, suggested_post: $SuggestedPost, );
 ```
 

@@ -20,5 +20,7 @@ redirect_from: /API_docs/types/messages_BotCallbackAnswer.html
 
 [$MadelineProto->messages->getBotCallbackAnswer](/API_docs/methods/messages.getBotCallbackAnswer.html)  
 
+[$MadelineProto->ephemeral->getCallbackAnswer](/API_docs/methods/ephemeral.getCallbackAnswer.html)  
+
 
 

@@ -331,6 +331,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateWebBrowserException](/API_docs/constructors/updateWebBrowserException.html)  
 
+[updateNewEphemeralMessage](/API_docs/constructors/updateNewEphemeralMessage.html)  
+
+[updateDeleteEphemeralMessages](/API_docs/constructors/updateDeleteEphemeralMessages.html)  
+
+[updateEditEphemeralMessage](/API_docs/constructors/updateEditEphemeralMessage.html)  
+
+[updateEphemeralBotCallbackQuery](/API_docs/constructors/updateEphemeralBotCallbackQuery.html)  
+
+[updateBotStarsSubscription](/API_docs/constructors/updateBotStarsSubscription.html)  
+
 
 
 ### Methods that return an object of this type (methods):

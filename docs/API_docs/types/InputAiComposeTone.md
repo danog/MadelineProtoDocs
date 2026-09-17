@@ -17,6 +17,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [inputAiComposeToneSlug](/API_docs/constructors/inputAiComposeToneSlug.html)  
 
+[inputAiComposeToneSingleUse](/API_docs/constructors/inputAiComposeToneSingleUse.html)  
+
 
 
 ### Methods that return an object of this type (methods):
