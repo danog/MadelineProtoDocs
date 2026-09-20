@@ -1,5 +1,5 @@
 ---
-title: "danog\\MadelineProto\\EventHandler\\SimpleFilter\\IsEdited: Allows messages that were edited."
+title: "danog\\MadelineProto\\EventHandler\\SimpleFilter\\IsEdited: "
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
@@ -11,7 +11,7 @@ parent: "MadelineProto API"
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Allows messages that were edited.  
+  
 
 
 

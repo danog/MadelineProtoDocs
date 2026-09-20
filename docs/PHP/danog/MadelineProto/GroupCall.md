@@ -43,19 +43,17 @@ See https://core.telegram.org/api/group-calls for more info.
 * [`setTitle(string $title): \danog\MadelineProto\GroupCall`](#setTitle)
 * [`invite(mixed ...$users): \danog\MadelineProto\GroupCall`](#invite)
 * [`exportInvite(bool $canSelfUnmute = false): string`](#exportInvite)
-* [`setOutput(mixed $participant, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file): \danog\MadelineProto\GroupCall`](#setOutput)
-* [`play(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): \danog\MadelineProto\GroupCall`](#play)
-* [`playBlocking(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): \danog\MadelineProto\GroupCall`](#playBlocking)
-* [`then(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): \danog\MadelineProto\GroupCall`](#then)
-* [`playVideo(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): \danog\MadelineProto\GroupCall`](#playVideo)
-* [`stopVideo(): \danog\MadelineProto\GroupCall`](#stopVideo)
-* [`skip(): \danog\MadelineProto\GroupCall`](#skip)
-* [`stop(): \danog\MadelineProto\GroupCall`](#stop)
-* [`pause(): \danog\MadelineProto\GroupCall`](#pause)
-* [`isPaused(): bool`](#isPaused)
-* [`resume(): \danog\MadelineProto\GroupCall`](#resume)
-* [`playOnHold(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): \danog\MadelineProto\GroupCall`](#playOnHold)
-* [`getCurrent(): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`](#getCurrent)
+* [`setOutput(mixed $participant, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream|null $file = NULL): \danog\MadelineProto\GroupCall`](#setOutput)
+* [`play(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\GroupCall`](#play)
+* [`playBlocking(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\GroupCall`](#playBlocking)
+* [`then(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\GroupCall`](#then)
+* [`skip(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\GroupCall`](#skip)
+* [`stop(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\GroupCall`](#stop)
+* [`pause(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\GroupCall`](#pause)
+* [`isPaused(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): bool`](#isPaused)
+* [`resume(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\GroupCall`](#resume)
+* [`playOnHold(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): \danog\MadelineProto\GroupCall`](#playOnHold)
+* [`getCurrent(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`](#getCurrent)
 
 ## Methods:
 ### <a name="join"></a> `join(bool $muted = false, mixed $joinAs = NULL, (string|null) $inviteHash = NULL): \danog\MadelineProto\GroupCall`
@@ -158,17 +156,22 @@ Parameters:
 
 
 
-### <a name="setOutput"></a> `setOutput(mixed $participant, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file): \danog\MadelineProto\GroupCall`
+### <a name="setOutput"></a> `setOutput(mixed $participant, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream|null $file = NULL): \danog\MadelineProto\GroupCall`
 
-Set the output file or stream for the incoming audio of a specific participant.
+Record group call audio, writing an OGG OPUS stream.
   
-Will write an OGG OPUS stream to the specified file or stream.  
+Call it either way:  
+ - `setOutput($participant, $file)` records that one participant's incoming audio to the file  
+   or stream.  
+ - `setOutput(new LocalDirectory($dir))` records *every* transmitting participant, each into its  
+   own `<dir>/<peerId>.ogg` file (participants that start transmitting later are picked up too);  
+   our own audio is never recorded.  
 
 
 Parameters:
 
 * `$participant`: `mixed`   
-* `$file`: `\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream`   
+* `$file`: `\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream|null`   
 
 
 #### See also: 
@@ -178,25 +181,32 @@ Parameters:
 
 
 
-### <a name="play"></a> `play(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): \danog\MadelineProto\GroupCall`
+### <a name="play"></a> `play(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\GroupCall`
 
-Play file.
+Play a file, transmitting its audio and, if it carries a transmittable one, its video.
+  
+A WebM/Matroska file with VP8, VP9 or H.264 video has its video transmitted too; any other  
+file (or a raw audio stream) is played as audio only. Frames are demuxed in pure PHP and sent  
+as-is where possible, so no transcoding (and thus no FFI extension) is required for  
+pre-encoded WebM/OGG-OPUS input.  
 
 
 Parameters:
 
 * `$file`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
 
 
 #### See also: 
 * [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
 * [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
 * `\Amp\ByteStream\ReadableStream`
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
 
 
 
 
-### <a name="playBlocking"></a> `playBlocking(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): \danog\MadelineProto\GroupCall`
+### <a name="playBlocking"></a> `playBlocking(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\GroupCall`
 
 Play a file, blocking until it has finished playing if a stream is provided.
 
@@ -204,17 +214,19 @@ Play a file, blocking until it has finished playing if a stream is provided.
 Parameters:
 
 * `$file`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
 
 
 #### See also: 
 * [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
 * [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
 * `\Amp\ByteStream\ReadableStream`
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
 
 
 
 
-### <a name="then"></a> `then(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): \danog\MadelineProto\GroupCall`
+### <a name="then"></a> `then(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\GroupCall`
 
 Play file.
 
@@ -222,81 +234,111 @@ Play file.
 Parameters:
 
 * `$file`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
 
 
 #### See also: 
 * [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
 * [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
 * `\Amp\ByteStream\ReadableStream`
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
 
 
 
 
-### <a name="playVideo"></a> `playVideo(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file): \danog\MadelineProto\GroupCall`
-
-Play the VP8 video and OPUS audio of a WebM file.
-
-
-Parameters:
-
-* `$file`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
-
-
-#### See also: 
-* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
-* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
-* `\Amp\ByteStream\ReadableStream`
-
-
-
-
-### <a name="stopVideo"></a> `stopVideo(): \danog\MadelineProto\GroupCall`
-
-Stop transmitting video.
-
-
-
-### <a name="skip"></a> `skip(): \danog\MadelineProto\GroupCall`
+### <a name="skip"></a> `skip(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\GroupCall`
 
 When called, skips to the next file in the playlist.
 
 
+Parameters:
 
-### <a name="stop"></a> `stop(): \danog\MadelineProto\GroupCall`
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
+
+
+
+
+### <a name="stop"></a> `stop(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\GroupCall`
 
 Stops playing all files, clears the main and the hold playlist.
 
 
+Parameters:
 
-### <a name="pause"></a> `pause(): \danog\MadelineProto\GroupCall`
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
+
+
+
+
+### <a name="pause"></a> `pause(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\GroupCall`
 
 Pauses the currently playing file.
 
 
+Parameters:
 
-### <a name="isPaused"></a> `isPaused(): bool`
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
+
+
+
+
+### <a name="isPaused"></a> `isPaused(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): bool`
 
 Whether the currently playing file is paused.
 
 
+Parameters:
 
-### <a name="resume"></a> `resume(): \danog\MadelineProto\GroupCall`
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
+
+
+
+
+### <a name="resume"></a> `resume(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\GroupCall`
 
 Resumes the currently playing file.
 
 
+Parameters:
 
-### <a name="playOnHold"></a> `playOnHold(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): \danog\MadelineProto\GroupCall`
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
+
+
+
+
+### <a name="playOnHold"></a> `playOnHold(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): \danog\MadelineProto\GroupCall`
 
 Files to play on hold.
 
 
 Parameters:
 
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
 * `...$files`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
 
 
 #### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
 * [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
 * [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
 * `\Amp\ByteStream\ReadableStream`
@@ -304,7 +346,7 @@ Parameters:
 
 
 
-### <a name="getCurrent"></a> `getCurrent(): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`
+### <a name="getCurrent"></a> `getCurrent(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`
 
 Get the file that is currently being played.
   
@@ -312,7 +354,13 @@ Will return a string with the object ID of the stream if we're currently playing
 otherwise returns the related LocalFile or RemoteUrl.  
 
 
+Parameters:
+
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
 #### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
 * [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
 * [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
 

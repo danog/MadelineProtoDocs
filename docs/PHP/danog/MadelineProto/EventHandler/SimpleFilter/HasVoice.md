@@ -1,5 +1,5 @@
 ---
-title: "danog\\MadelineProto\\EventHandler\\SimpleFilter\\HasVoice: Allows only voice messages"
+title: "danog\\MadelineProto\\EventHandler\\SimpleFilter\\HasVoice: "
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
@@ -11,7 +11,7 @@ parent: "MadelineProto API"
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Allows only voice messages  
+  
 
 
 

@@ -395,33 +395,33 @@ Here's the full list of simple filter interfaces (see [attribute filters](#attri
 
 <!-- cut_here simplefilters -->
 
-* [danog\MadelineProto\EventHandler\SimpleFilter\Ended &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/Ended.html) - Represents an ended call
-* [danog\MadelineProto\EventHandler\SimpleFilter\FromAdmin &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/FromAdmin.html) - Allows messages from the bot admin
-* [danog\MadelineProto\EventHandler\SimpleFilter\FromAdminOrOutgoing &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/FromAdminOrOutgoing.html) - Allows messages from the bot admin or outgoing messages
-* [danog\MadelineProto\EventHandler\SimpleFilter\HasAudio &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasAudio.html) - Allows only audio messages
-* [danog\MadelineProto\EventHandler\SimpleFilter\HasDocument &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasDocument.html) - Allows only documents
-* [danog\MadelineProto\EventHandler\SimpleFilter\HasDocumentPhoto &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasDocumentPhoto.html) - Allows only document photos
-* [danog\MadelineProto\EventHandler\SimpleFilter\HasGif &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasGif.html) - Allows only GIFs
-* [danog\MadelineProto\EventHandler\SimpleFilter\HasMedia &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasMedia.html) - Allows only media messages
-* [danog\MadelineProto\EventHandler\SimpleFilter\HasMultiplePoll &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasMultiplePoll.html) - Allows only messages that contain a multiple poll
-* [danog\MadelineProto\EventHandler\SimpleFilter\HasNoMedia &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasNoMedia.html) - Allows only messages with no media
-* [danog\MadelineProto\EventHandler\SimpleFilter\HasPhoto &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasPhoto.html) - Allows only photos
-* [danog\MadelineProto\EventHandler\SimpleFilter\HasPoll &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasPoll.html) - Allows only messages that contain a poll
-* [danog\MadelineProto\EventHandler\SimpleFilter\HasQuizPoll &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasQuizPoll.html) - Allows only messages that contain a quiz poll
-* [danog\MadelineProto\EventHandler\SimpleFilter\HasRoundVideo &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasRoundVideo.html) - Allows only round videos
-* [danog\MadelineProto\EventHandler\SimpleFilter\HasSinglePoll &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasSinglePoll.html) - Allows only messages that contain a single poll
-* [danog\MadelineProto\EventHandler\SimpleFilter\HasSticker &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasSticker.html) - Allows only stickers
-* [danog\MadelineProto\EventHandler\SimpleFilter\HasTopic &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasTopic.html) - Allow only messages coming from groups that has topics (Supergroups only).
-* [danog\MadelineProto\EventHandler\SimpleFilter\HasVideo &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasVideo.html) - Allows only videos
-* [danog\MadelineProto\EventHandler\SimpleFilter\HasVoice &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasVoice.html) - Allows only voice messages
-* [danog\MadelineProto\EventHandler\SimpleFilter\Incoming &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/Incoming.html) - Represents an incoming message
-* [danog\MadelineProto\EventHandler\SimpleFilter\IsEdited &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/IsEdited.html) - Allows messages that were edited.
-* [danog\MadelineProto\EventHandler\SimpleFilter\IsForwarded &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/IsForwarded.html) - Allows only forwarded messages
-* [danog\MadelineProto\EventHandler\SimpleFilter\IsNotEdited &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/IsNotEdited.html) - Allows messages that weren't edited.
-* [danog\MadelineProto\EventHandler\SimpleFilter\IsReply &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/IsReply.html) - Allows only messages that reply to other messages
-* [danog\MadelineProto\EventHandler\SimpleFilter\IsReplyToSelf &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/IsReplyToSelf.html) - Allows only messages that reply to one of our messages
-* [danog\MadelineProto\EventHandler\SimpleFilter\Outgoing &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/Outgoing.html) - Represents an outgoing message
-* [danog\MadelineProto\EventHandler\SimpleFilter\Running &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/Running.html) - Allow only currently running calls
+* [danog\MadelineProto\EventHandler\SimpleFilter\Ended &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/Ended.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\FromAdmin &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/FromAdmin.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\FromAdminOrOutgoing &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/FromAdminOrOutgoing.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\HasAudio &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasAudio.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\HasDocument &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasDocument.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\HasDocumentPhoto &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasDocumentPhoto.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\HasGif &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasGif.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\HasMedia &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasMedia.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\HasMultiplePoll &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasMultiplePoll.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\HasNoMedia &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasNoMedia.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\HasPhoto &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasPhoto.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\HasPoll &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasPoll.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\HasQuizPoll &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasQuizPoll.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\HasRoundVideo &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasRoundVideo.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\HasSinglePoll &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasSinglePoll.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\HasSticker &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasSticker.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\HasTopic &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasTopic.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\HasVideo &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasVideo.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\HasVoice &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasVoice.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\Incoming &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/Incoming.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\IsEdited &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/IsEdited.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\IsForwarded &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/IsForwarded.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\IsNotEdited &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/IsNotEdited.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\IsReply &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/IsReply.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\IsReplyToSelf &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/IsReplyToSelf.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\Outgoing &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/Outgoing.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\Running &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/Running.html) - 
 
 
 <!-- cut_here_end simplefilters -->
@@ -635,6 +635,9 @@ abstract class AbstractFilterFromSenders extends Filter
     private readonly array $peers;
     /** @var list<int> */
     private readonly array $peersResolved;
+    /**
+     * @psalm-mutation-free
+     */
     public function __construct(string|int ...$idOrUsername)
     {
         $this->peers = array_unique($idOrUsername);
@@ -653,6 +656,9 @@ abstract class AbstractFilterFromSenders extends Filter
         $this->peersResolved = $res;
         return $this;
     }
+    /**
+     * @psalm-mutation-free
+     */
     #[\Override]
     public function apply(Update $update): bool
     {
@@ -740,9 +746,15 @@ use danog\MadelineProto\EventHandler\Update;
 #[Attribute(Attribute::TARGET_METHOD)]
 final class FilterNot extends Filter
 {
+    /**
+     * @psalm-mutation-free
+     */
     public function __construct(private readonly Filter $filter)
     {
     }
+    /**
+     * @psalm-mutation-free
+     */
     #[\Override]
     public function initialize(EventHandler $API): Filter
     {

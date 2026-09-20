@@ -49,7 +49,7 @@ Some tools.
 * [`isAltervista(): bool`](#isAltervista)
 * [`openFileAppendOnly(string $path): \Amp\File\File`](#openFileAppendOnly)
 * [`getStreamPipe(): \Amp\ByteStream\Pipe`](#getStreamPipe)
-* [`openBuffered(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL): Closure(int): ?string`](#openBuffered)
+* [`openBuffered(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL, int $offset = 0): Closure(int): ?string`](#openBuffered)
 * [`validateEventHandlerClass(class-string<\danog\MadelineProto\EventHandler> $class): list<\danog\MadelineProto\EventHandlerIssue>`](#validateEventHandlerClass)
 * [`canConvertOgg(): bool`](#canConvertOgg)
 * [`canUseFFmpeg(?\Amp\Cancellation $cancellation = NULL): bool`](#canUseFFmpeg)
@@ -387,15 +387,20 @@ Obtains a pipe that can be used to upload a file from a stream.
 
 
 
-### <a name="openBuffered"></a> `openBuffered(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL): Closure(int): ?string`
+### <a name="openBuffered"></a> `openBuffered(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL, int $offset = 0): Closure(int): ?string`
 
-Provide a buffered reader for a file, URL or amp stream.
+Provide a buffered reader for a file, URL or amp stream, optionally starting at a byte offset.
+  
+The `$offset` makes a demuxer resumable across a serialize/unserialize cycle: a `LocalFile` is  
+seeked and a `RemoteUrl` is fetched with a `Range` request. A raw {@see ReadableStream} cannot  
+be seeked, so a non-zero offset on one is rejected.  
 
 
 Parameters:
 
 * `$stream`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
 * `$cancellation`: `?\Amp\Cancellation`   
+* `$offset`: `int`   
 
 
 #### See also: 

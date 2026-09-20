@@ -33,19 +33,24 @@ Async OGG stream reader and writer.
 * `danog\MadelineProto\Ogg::STATE_END`: 
 
 ## Properties
+* `$pageOffset`: `int` Byte offset of the OGG page currently being read.
+
+This is a page boundary, so re-opening the file here with the `$startOffset` constructor
+argument resumes reading exactly this page, which is what makes playback byte-offset
+resumable across a serialize/unserialize cycle.
 * `$opusPackets`: `iterable<string>` Opus packet iterator.
 * `$vendorString`: `string` 
 * `$comments`: `list<string>` 
 
 ## Method list:
-* [`__construct(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL)`](#__construct)
+* [`__construct(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL, int $startOffset = 0)`](#__construct)
 * [`validate(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, ?\Amp\Cancellation $cancellation = NULL): void`](#validate)
 * [`convert((\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream) $in, (\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream) $oggOut, ?\Amp\Cancellation $cancellation = NULL): void`](#convert)
 * [`validateOgg(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $f): void`](#validateOgg)
 * [`convertWav((\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream) $wavIn, (\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream) $oggOut, ?\Amp\Cancellation $cancellation = NULL): void`](#convertWav)
 
 ## Methods:
-### <a name="__construct"></a> `__construct(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL)`
+### <a name="__construct"></a> `__construct(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL, int $startOffset = 0)`
 
 Constructor.
 
@@ -54,6 +59,7 @@ Parameters:
 
 * `$stream`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
 * `$cancellation`: `?\Amp\Cancellation`   
+* `$startOffset`: `int`   
 
 
 #### See also: 

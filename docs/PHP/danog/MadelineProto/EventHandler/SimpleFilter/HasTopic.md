@@ -1,5 +1,5 @@
 ---
-title: "danog\\MadelineProto\\EventHandler\\SimpleFilter\\HasTopic: Allow only messages coming from groups that has topics (Supergroups only)."
+title: "danog\\MadelineProto\\EventHandler\\SimpleFilter\\HasTopic: "
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
@@ -11,7 +11,7 @@ parent: "MadelineProto API"
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Allow only messages coming from groups that has topics (Supergroups only).  
+  
 
 
 

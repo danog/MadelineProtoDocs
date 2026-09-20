@@ -27,6 +27,10 @@ A participant of a group call, mirroring
 * `$self`: `bool` Whether this participant is ourselves.
 * `$justJoined`: `bool` Whether the participant just joined.
 * `$videoJoined`: `bool` Whether the participant is transmitting video.
+* `$videoSources`: `list<int>` Signed SSRCs of this participant's camera video streams, empty if none.
+* `$presentationSources`: `list<int>` Signed SSRCs of this participant's screen-share (presentation) streams, empty if none.
+* `$videoEndpoint`: `?string` The SFU endpoint id of this participant's camera stream, needed to subscribe to it.
+* `$presentationEndpoint`: `?string` The SFU endpoint id of this participant's screen-share stream, needed to subscribe to it.
 * `$volume`: `int` Playback volume, from 1 to 20000 where 10000 is 100%.
 * `$about`: `?string` Bio of the participant, if any.
 * `$raiseHandRating`: `?int` Raised hand rating, if the participant raised their hand.

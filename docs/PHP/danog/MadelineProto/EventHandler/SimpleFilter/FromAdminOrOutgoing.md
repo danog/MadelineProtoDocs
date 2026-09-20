@@ -1,5 +1,5 @@
 ---
-title: "danog\\MadelineProto\\EventHandler\\SimpleFilter\\FromAdminOrOutgoing: Allows messages from the bot admin or outgoing messages"
+title: "danog\\MadelineProto\\EventHandler\\SimpleFilter\\FromAdminOrOutgoing: "
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
@@ -11,7 +11,7 @@ parent: "MadelineProto API"
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Allows messages from the bot admin or outgoing messages  
+  
 
 
 

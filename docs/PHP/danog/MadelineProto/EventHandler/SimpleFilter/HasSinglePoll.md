@@ -1,5 +1,5 @@
 ---
-title: "danog\\MadelineProto\\EventHandler\\SimpleFilter\\HasSinglePoll: Allows only messages that contain a single poll"
+title: "danog\\MadelineProto\\EventHandler\\SimpleFilter\\HasSinglePoll: "
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
@@ -11,7 +11,7 @@ parent: "MadelineProto API"
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Allows only messages that contain a single poll  
+  
 
 
 
