@@ -212,7 +212,7 @@ PonyHandler::startAndLoop('session.madeline');
 
 ## Group calls (video chats and livestreams)
 
-Group calls are handled through the `GroupCall` object, which implements the `MultiCall` interface (a superset of the one-to-one `Call` interface used above: the same playlist, mute, screen-share and recording controls, plus multi-party management).
+Group calls are handled through the `GroupCall` object, which implements the `MultiCall` interface (a superset of the one-to-one `Call` interface used above: the same playlist, mute, screen-share and recording controls, plus multi-party management). What a video chat shares with a live story lives in their common base class, `AbstractGroupCall`; what only a video chat offers (title, scheduling, server-side recording, raising a hand, kicking) lives on `GroupCall` itself.
 
 ```php
 use danog\MadelineProto\LocalFile;
@@ -274,13 +274,13 @@ public function onCallMessage(GroupCallMessage $message): void
 
 ### Livestreams, RTMP and stream mode
 
-Large livestreams (and every RTMP livestream) are received in [stream mode](https://core.telegram.org/api/group-calls#stream-mode): the server serves the mixed media as downloadable chunks rather than over WebRTC. `isStreamMode()` tells whether a call is in stream mode; nothing can be transmitted in it, but the mixed audio can be recorded with `setOutput(new LocalFile('stream.ogg'))` (no participant, any format).
+Large livestreams (and every RTMP livestream) are received in [stream mode](https://core.telegram.org/api/group-calls#stream-mode): the server serves the mixed media as downloadable chunks rather than over WebRTC. `isStreamMode()` tells whether a call is in stream mode; nothing can be transmitted in it, but it can be recorded with `setOutput()` without specifying a participant: an RTMP livestream's audio and video into a `.mkv`/`.webm` file (or its audio into a `.ogg`), and an automatically-scaled livestream's mixed audio into any format. Recording into a `LocalDirectory` additionally writes each publisher's video of an automatically-scaled livestream to `video-<endpoint>.mkv`. The MP4 segments the server uses are demuxed in pure PHP by the `Mp4` class, which can also be used on its own.
 
 To publish an RTMP livestream, get the RTMP URL and stream key with `getGroupCallStreamRtmpUrl($peer)`, then create the call with `createGroupCall($peer, rtmpStream: true)` and publish to it with any RTMP tool (OBS, ffmpeg...).
 
 ### Live stories
 
-A [live story](https://core.telegram.org/api/group-calls#live-stories) is a livestream posted as a story, of which we are the only publisher: `startLive($peer, caption: 'Hi!')` starts one and returns its `GroupCall`, which is then used as any other group call (`play()` to stream, `sendMessage()` and `sendReaction()` to comment). Viewers may donate Telegram Stars: `setPaidMessagesStars($stars)` sets the minimum donation required to comment, `donate($stars)` donates, and `getStars()` returns the donations received so far and the top donors.
+A [live story](https://core.telegram.org/api/group-calls#live-stories) is a livestream posted as a story, of which we are the only publisher: `startLive($peer, caption: 'Hi!')` starts one and returns a `LiveStory`, which is used like any other group call (`play()` to stream, `sendMessage()` and `sendReaction()` to comment) and arrives in event handlers as a `LiveStory` update. Viewers may donate Telegram Stars: `setPaidMessagesStars($stars)` sets the minimum donation required to comment, `donate($stars)` donates, and `getStars()` returns the donations received so far and the top donors.
 
 ## Conference calls
 
