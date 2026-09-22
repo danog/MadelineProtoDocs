@@ -1340,7 +1340,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.sendReaction.html" name="messages.sendReaction">React to message: messages.sendReaction</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#groupCallSetOutput" name="groupCallSetOutput">Record group call media: one participant's camera or screen-share to a file/stream, or every: groupCallSetOutput</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#groupCallSetOutput" name="groupCallSetOutput">Record group call media: one participant's audio, camera and screen-share to a file/stream, or: groupCallSetOutput</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#refreshFullPeerCache" name="refreshFullPeerCache">Refresh full peer cache for a certain peer: refreshFullPeerCache</a>
 

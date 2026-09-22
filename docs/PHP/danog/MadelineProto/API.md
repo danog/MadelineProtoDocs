@@ -102,7 +102,7 @@ Main API wrapper for MadelineProto.
 * [`callGetCurrent(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`](#callGetCurrent)
 * [`callPlay(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#callPlay)
 * [`callPlayOnHold(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): void`](#callPlayOnHold)
-* [`callSetOutput(int $id, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera, ?\danog\MadelineProto\RecordingFormat $format = NULL): void`](#callSetOutput)
+* [`callSetOutput(int $id, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, ?\danog\MadelineProto\RecordingFormat $format = NULL): void`](#callSetOutput)
 * [`canConvertOgg(): bool`](#canConvertOgg)
 * [`canUseFFmpeg(?\Amp\Cancellation $cancellation = NULL): bool`](#canUseFFmpeg)
 * [`cancelBroadcast(integer $id): void`](#cancelBroadcast)
@@ -210,7 +210,7 @@ Main API wrapper for MadelineProto.
 * [`groupCallPlay(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#groupCallPlay)
 * [`groupCallPlayOnHold(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): void`](#groupCallPlayOnHold)
 * [`groupCallResumePlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#groupCallResumePlay)
-* [`groupCallSetOutput(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\LocalDirectory|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera, ?\danog\MadelineProto\RecordingFormat $format = NULL): void`](#groupCallSetOutput)
+* [`groupCallSetOutput(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\LocalDirectory|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): void`](#groupCallSetOutput)
 * [`groupCallSkipPlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#groupCallSkipPlay)
 * [`groupCallStopPlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#groupCallStopPlay)
 * [`hasAdmins(): bool`](#hasAdmins)
@@ -680,7 +680,7 @@ Parameters:
 
 
 
-### <a name="callSetOutput"></a> `callSetOutput(int $id, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera, ?\danog\MadelineProto\RecordingFormat $format = NULL): void`
+### <a name="callSetOutput"></a> `callSetOutput(int $id, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, ?\danog\MadelineProto\RecordingFormat $format = NULL): void`
 
 Set the output file or stream for the incoming media of a call.
   
@@ -694,14 +694,12 @@ Parameters:
 
 * `$id`: `int`   
 * `$file`: `\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream`   
-* `$dest`: `\danog\MadelineProto\MediaDestination`   
 * `$format`: `?\danog\MadelineProto\RecordingFormat`   
 
 
 #### See also: 
 * [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
 * `\Amp\ByteStream\WritableStream`
-* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
 * [`\danog\MadelineProto\RecordingFormat`: Container format of a call recording, as passed to {@see Call::setOutput()}.](../../danog/MadelineProto/RecordingFormat.html)
 
 
@@ -2212,10 +2210,10 @@ Parameters:
 
 
 
-### <a name="groupCallSetOutput"></a> `groupCallSetOutput(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\LocalDirectory|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera, ?\danog\MadelineProto\RecordingFormat $format = NULL): void`
+### <a name="groupCallSetOutput"></a> `groupCallSetOutput(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\LocalDirectory|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): void`
 
-Record group call media: one participant's camera or screen-share to a file/stream, or every
-transmitting participant into its own file under a LocalDirectory.  
+Record group call media: one participant's audio, camera and screen-share to a file/stream, or
+every transmitting participant into its own file under a LocalDirectory.  
 
 
 Parameters:
@@ -2223,7 +2221,6 @@ Parameters:
 * `$id`: `int`   
 * `$file`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\LocalDirectory|\Amp\ByteStream\WritableStream`   
 * `$participant`: `mixed`   
-* `$dest`: `\danog\MadelineProto\MediaDestination`   
 * `$format`: `?\danog\MadelineProto\RecordingFormat`   
 
 
@@ -2231,7 +2228,6 @@ Parameters:
 * [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
 * [`\danog\MadelineProto\LocalDirectory`: Indicates a local directory to write output into.](../../danog/MadelineProto/LocalDirectory.html)
 * `\Amp\ByteStream\WritableStream`
-* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
 * [`\danog\MadelineProto\RecordingFormat`: Container format of a call recording, as passed to {@see Call::setOutput()}.](../../danog/MadelineProto/RecordingFormat.html)
 
 
