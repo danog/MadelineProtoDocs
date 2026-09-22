@@ -1,6 +1,6 @@
 ---
 title: "danog\\MadelineProto\\LocalDirectory: Indicates a local directory to write output into."
-description: "\nUsed with {@see GroupCall::setOutput()} to record every transmitting participant of a group call\ninto its own file inside the directory.\n"
+description: "\nUsed with {@see EventHandler\\Call::setOutput()} to record a call into a directory: every recorded participant\ngets a numbered series of `<n>_<streams>.mkv` files there (`<peerId>.<n>_<streams>.mkv` in multi-party calls),\none per combination of audio, camera video and screen share they send.\n"
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
@@ -14,8 +14,9 @@ parent: "MadelineProto API"
 Indicates a local directory to write output into.  
 
 
-Used with {@see GroupCall::setOutput()} to record every transmitting participant of a group call
-into its own file inside the directory.
+Used with {@see EventHandler\Call::setOutput()} to record a call into a directory: every recorded participant
+gets a numbered series of `<n>_<streams>.mkv` files there (`<peerId>.<n>_<streams>.mkv` in multi-party calls),
+one per combination of audio, camera video and screen share they send.
 
 
 ## Properties

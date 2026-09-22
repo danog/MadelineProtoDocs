@@ -1,6 +1,6 @@
 ---
 title: "danog\\MadelineProto\\Tgcalls\\E2E\\ConferenceCall: Controller for a Telegram end-to-end encrypted conference call"
-description: "([end-to-end group calls](https://core.telegram.org/api/end-to-end/group-calls)).\n\nIt owns the two block subchains ({@see ConferenceChain} + {@see Verification}), turns the accepted\nblocks into media-encryption epochs, and drives a {@see GroupConnection} whose RTP frames are\nend-to-end encrypted by a {@see FrameCryptor} — the SFU only ever forwards ciphertext. It is both\nthe connection's owner and the cryptor's key provider.\n\nThis is the public object returned by {@see \\danog\\MadelineProto\\MTProto::createConferenceCall()}\nand {@see \\danog\\MadelineProto\\MTProto::joinConferenceCall()}; it implements the common\n{@see Call} media interface plus conference-specific controls (verification, encrypted messages).\n"
+description: "([end-to-end group calls](https://core.telegram.org/api/end-to-end/group-calls)).\n\nIt owns the two block subchains ({@see ConferenceChain} + {@see Verification}), turns the accepted\nblocks into media-encryption epochs, and drives a {@see GroupConnection} whose RTP frames are\nend-to-end encrypted by a {@see FrameCryptor} — the SFU only ever forwards ciphertext. It is both\nthe connection's owner and the cryptor's key provider.\n\nThis is the internal controller; the public handle library users receive from\n{@see \\danog\\MadelineProto\\MTProto::createConferenceCall()} and\n{@see \\danog\\MadelineProto\\MTProto::joinConferenceCall()} is the {@see ConferenceCallUpdate}\nreturned by {@see self::getPublic()}, which delegates back here by call id. The controller\nimplements the common {@see Call} media interface plus conference-specific controls (verification,\nencrypted messages).\n"
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
@@ -20,9 +20,12 @@ blocks into media-encryption epochs, and drives a {@see GroupConnection} whose R
 end-to-end encrypted by a {@see FrameCryptor} — the SFU only ever forwards ciphertext. It is both
 the connection's owner and the cryptor's key provider.
 
-This is the public object returned by {@see \danog\MadelineProto\MTProto::createConferenceCall()}
-and {@see \danog\MadelineProto\MTProto::joinConferenceCall()}; it implements the common
-{@see Call} media interface plus conference-specific controls (verification, encrypted messages).
+This is the internal controller; the public handle library users receive from
+{@see \danog\MadelineProto\MTProto::createConferenceCall()} and
+{@see \danog\MadelineProto\MTProto::joinConferenceCall()} is the {@see ConferenceCallUpdate}
+returned by {@see self::getPublic()}, which delegates back here by call id. The controller
+implements the common {@see Call} media interface plus conference-specific controls (verification,
+encrypted messages).
 
 
 ## Properties
@@ -33,18 +36,27 @@ and {@see \danog\MadelineProto\MTProto::joinConferenceCall()}; it implements the
 * [`resumeAfterRestart(): void`](#resumeAfterRestart)
 * [`setCall(array $call): void`](#setCall)
 * [`getInputCall(): array`](#getInputCall)
+* [`getPublic(): \danog\MadelineProto\EventHandler\Calls\ConferenceCall`](#getPublic)
 * [`isJoined(): bool`](#isJoined)
+* [`isCallEnded(): bool`](#isCallEnded)
+* [`getCallState(): \danog\MadelineProto\GroupCall\GroupCallState`](#getCallState)
 * [`isSharingScreen(): bool`](#isSharingScreen)
 * [`activeEpochs(): array`](#activeEpochs)
 * [`selfSeed(): string`](#selfSeed)
 * [`publicKeyForSsrc(int $ssrc): ?string`](#publicKeyForSsrc)
 * [`create(bool $muted = false): void`](#create)
-* [`join(bool $muted = false): void`](#join)
-* [`removeParticipant(int ...$userIds): void`](#removeParticipant)
+* [`join(bool $muted = false): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#join)
+* [`editParticipant(mixed $participant, ?bool $muted = NULL, ?int $volume = NULL, ?bool $videoPaused = NULL): void`](#editParticipant)
+* [`toggleSettings(?bool $joinMuted = NULL, bool $resetInviteHash = false, ?bool $messagesEnabled = NULL): void`](#toggleSettings)
+* [`setTitle(string $title): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#setTitle)
+* [`invite(mixed ...$users): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#invite)
+* [`exportInvite(bool $canSelfUnmute = false): string`](#exportInvite)
+* [`removeParticipant(mixed ...$participants): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#removeParticipant)
 * [`syncChain(int $subChainId): void`](#syncChain)
-* [`enablePresentation(): void`](#enablePresentation)
-* [`disablePresentation(): void`](#disablePresentation)
+* [`enablePresentation(): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#enablePresentation)
+* [`disablePresentation(): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#disablePresentation)
 * [`play(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#play)
+* [`playBlocking(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#playBlocking)
 * [`then(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#then)
 * [`playOnHold(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#playOnHold)
 * [`skip(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#skip)
@@ -57,11 +69,11 @@ and {@see \danog\MadelineProto\MTProto::joinConferenceCall()}; it implements the
 * [`isMuted(): bool`](#isMuted)
 * [`discard(): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#discard)
 * [`leave(): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#leave)
-* [`getParticipants(): array<int, array{public_key: string, permissions: int}>`](#getParticipants)
-* [`startVerification(): void`](#startVerification)
-* [`getEmojis(): (list<string>|null)`](#getEmojis)
-* [`sendMessage(string $message): void`](#sendMessage)
-* [`setParticipants(list<array{user_id: int, source: int, video: list<int>, presentation: list<int>, videoEndpoint: ?string, presentationEndpoint: ?string}> $participants): void`](#setParticipants)
+* [`getParticipants(): array<int, array{public_key: string, permissions: int, version: int}>`](#getParticipants)
+* [`getVisualization(): (list<string>|null)`](#getVisualization)
+* [`sendMessage(string $message, ?\danog\MadelineProto\ParseMode $parseMode = NULL, ?int $paidStars = NULL, mixed $sendAs = NULL): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#sendMessage)
+* [`sendReaction(string $emoji, ?int $customEmojiId = NULL): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#sendReaction)
+* [`setOutput(\danog\MadelineProto\LocalFile|\danog\MadelineProto\LocalDirectory|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#setOutput)
 * [`getChain(): \danog\MadelineProto\Tgcalls\E2E\ConferenceChain`](#getChain)
 * [`log(string $message, int $level = \danog\MadelineProto\Logger::NOTICE): void`](#log)
 * [`onIncomingSource(int $source): void`](#onIncomingSource)
@@ -113,9 +125,40 @@ Parameters:
 Return value: The inputGroupCall, once the conference exists.
 
 
+### <a name="getPublic"></a> `getPublic(): \danog\MadelineProto\EventHandler\Calls\ConferenceCall`
+
+The public {@see ConferenceCallUpdate} handle for this conference, built lazily once the call
+exists. This is the object handed to library users; it delegates every operation back to this  
+controller by call id.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Calls\ConferenceCall`: This update represents a Telegram [end-to-end encrypted conference call »](https://core.telegram.org/api/end-to-end/group-calls).](../../../../danog/MadelineProto/EventHandler/Calls/ConferenceCall.html)
+
+
+
+
 ### <a name="isJoined"></a> `isJoined(): bool`
 
 Whether we are currently in the conference (joined and not left/forbidden).
+
+
+
+### <a name="isCallEnded"></a> `isCallEnded(): bool`
+
+Whether we left (or discarded) the conference for good: the playback machinery stops then, but
+not while we are merely between a drop and the automatic re-join.  
+
+
+
+### <a name="getCallState"></a> `getCallState(): \danog\MadelineProto\GroupCall\GroupCallState`
+
+Get the state of the conference call.
+
+
+#### See also: 
+* [`\danog\MadelineProto\GroupCall\GroupCallState`: State of a group call we are interacting with.](../../../../danog/MadelineProto/GroupCall/GroupCallState.html)
+
 
 
 
@@ -160,7 +203,7 @@ Parameters:
 
 
 
-### <a name="join"></a> `join(bool $muted = false): void`
+### <a name="join"></a> `join(bool $muted = false): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
 
 Join an existing conference call: fetch the chain, add ourselves in a new block, and join with
 that block.  
@@ -172,7 +215,72 @@ Parameters:
 
 
 
-### <a name="removeParticipant"></a> `removeParticipant(int ...$userIds): void`
+### <a name="editParticipant"></a> `editParticipant(mixed $participant, ?bool $muted = NULL, ?int $volume = NULL, ?bool $videoPaused = NULL): void`
+
+Change a participant's state (phone.editGroupCallParticipant): mute them for ourselves, set our
+playback volume of them, or pause/resume our own video.  
+
+
+Parameters:
+
+* `$participant`: `mixed`   
+* `$muted`: `?bool`   
+* `$volume`: `?int`   
+* `$videoPaused`: `?bool`   
+
+
+
+### <a name="toggleSettings"></a> `toggleSettings(?bool $joinMuted = NULL, bool $resetInviteHash = false, ?bool $messagesEnabled = NULL): void`
+
+Change the conference's settings (phone.toggleGroupCallSettings): whether new members join
+muted, whether in-call messages are enabled, or invalidate its conference link.  
+
+
+Parameters:
+
+* `$joinMuted`: `?bool`   
+* `$resetInviteHash`: `bool`   
+* `$messagesEnabled`: `?bool`   
+
+
+
+### <a name="setTitle"></a> `setTitle(string $title): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
+
+Change the title of the conference call.
+
+
+Parameters:
+
+* `$title`: `string`   
+
+
+
+### <a name="invite"></a> `invite(mixed ...$users): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
+
+Invite users to the conference call (phone.inviteConferenceCallParticipant), ringing them; once
+they accept they add themselves to the chain with their own self-join block.  
+
+
+Parameters:
+
+* `...$users`: `mixed`   
+
+
+
+### <a name="exportInvite"></a> `exportInvite(bool $canSelfUnmute = false): string`
+
+The [conference link »](https://core.telegram.org/api/links#conference-links) of the call: it is
+created with the call and carried by its groupCall (`invite_link`), so, like official clients, we  
+read it from there rather than exporting one.  
+
+
+Parameters:
+
+* `$canSelfUnmute`: `bool`   
+
+
+
+### <a name="removeParticipant"></a> `removeParticipant(mixed ...$participants): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
 
 Remove participants from the conference: build a block dropping them and rekeying for the
 remaining members, then submit it with phone.deleteConferenceCallParticipants. Requires the  
@@ -182,7 +290,7 @@ takes over.
 
 Parameters:
 
-* `...$userIds`: `int`   
+* `...$participants`: `mixed`   
 
 
 
@@ -197,7 +305,7 @@ Parameters:
 
 
 
-### <a name="enablePresentation"></a> `enablePresentation(): void`
+### <a name="enablePresentation"></a> `enablePresentation(): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
 
 Start sharing a screen: a second WebRTC connection (phone.joinGroupCallPresentation) whose
 video is end-to-end encrypted with the same conference keys, on its own packet channel so its  
@@ -205,7 +313,7 @@ sequence numbers never collide with the camera's. Idempotent.
 
 
 
-### <a name="disablePresentation"></a> `disablePresentation(): void`
+### <a name="disablePresentation"></a> `disablePresentation(): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
 
 Stop sharing the screen: tear down the presentation connection and tell the server.
 
@@ -214,6 +322,26 @@ Stop sharing the screen: tear down the presentation connection and tell the serv
 ### <a name="play"></a> `play(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
 
 
+
+
+Parameters:
+
+* `$file`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../../danog/MadelineProto/RemoteUrl.html)
+* `\Amp\ByteStream\ReadableStream`
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../../../danog/MadelineProto/MediaDestination.html)
+
+
+
+
+### <a name="playBlocking"></a> `playBlocking(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
+
+Play a file, blocking until it has finished playing if a stream is provided.
 
 
 Parameters:
@@ -388,7 +516,8 @@ Parameters:
 
 ### <a name="discard"></a> `discard(): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
 
-Discard (leave) the conference call.
+End the conference for everyone (phone.discardGroupCall, allowed to its creator only) and leave
+it; if the server refuses, just leave.  
 
 
 
@@ -399,47 +528,81 @@ stop receiving its updates.
 
 
 
-### <a name="getParticipants"></a> `getParticipants(): array<int, array{public_key: string, permissions: int}>`
+### <a name="getParticipants"></a> `getParticipants(): array<int, array{public_key: string, permissions: int, version: int}>`
 
 The participants currently in the conference, keyed by user id, each with their Ed25519
 `public_key` and `permissions` bits from the shared-state chain.  
 
 
 
-### <a name="startVerification"></a> `startVerification(): void`
+### <a name="getVisualization"></a> `getVisualization(): (list<string>|null)`
 
-Begin (or restart) verification for the current chain head: broadcast our nonce commit, then
-its reveal. All participants then converge on the same four emojis.  
-
-
-
-### <a name="getEmojis"></a> `getEmojis(): (list<string>|null)`
-
-The four verification emojis, or null until every participant's nonce has been revealed.
+The four verification emojis of the current chain head, or null until every member has committed
+and revealed their nonce for it.  
 
 
 
-### <a name="sendMessage"></a> `sendMessage(string $message): void`
+### <a name="sendMessage"></a> `sendMessage(string $message, ?\danog\MadelineProto\ParseMode $parseMode = NULL, ?int $paidStars = NULL, mixed $sendAs = NULL): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
 
-Send an end-to-end encrypted in-call message to every participant (channel 0), encrypted with
-{@see CallPacket} for the current epochs.  
+Send an end-to-end encrypted in-call message to every participant: a `groupCallMessage` JSON
+document, as [the protocol](https://core.telegram.org/api/end-to-end/group-calls#in-call-messages)  
+defines, encrypted with {@see CallPacket} on channel 0 for the current epochs.  
 
 
 Parameters:
 
 * `$message`: `string`   
+* `$parseMode`: `?\danog\MadelineProto\ParseMode`   
+* `$paidStars`: `?int`   
+* `$sendAs`: `mixed`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../danog/MadelineProto/ParseMode.html)
 
 
 
-### <a name="setParticipants"></a> `setParticipants(list<array{user_id: int, source: int, video: list<int>, presentation: list<int>, videoEndpoint: ?string, presentationEndpoint: ?string}> $participants): void`
 
-Update the SSRC -> user id map from the group call participant list, so incoming media can be
-attributed to a sender's public key, and tell the connection which sources to receive.  
+### <a name="sendReaction"></a> `sendReaction(string $emoji, ?int $customEmojiId = NULL): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
+
+Send an end-to-end encrypted in-call reaction: a single emoji, or a custom emoji with `$emoji`
+as its fallback.  
 
 
 Parameters:
 
-* `$participants`: `list<array{user_id: int, source: int, video: list<int>, presentation: list<int>, videoEndpoint: ?string, presentationEndpoint: ?string}>`   
+* `$emoji`: `string`   
+* `$customEmojiId`: `?int`   
+
+
+
+### <a name="setOutput"></a> `setOutput(\danog\MadelineProto\LocalFile|\danog\MadelineProto\LocalDirectory|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
+
+Record conference call media (all end-to-end encrypted; the SFU only ever sees ciphertext, but
+incoming frames are decrypted before they are muxed, so recordings are plaintext).  
+  
+Only a {@see LocalDirectory} is accepted: every *transmitting* participant — or only the given  
+`$participant` — is recorded as `<dir>/<userId>.<n>_<streams>.mkv` files, one per combination of  
+the audio, camera video and screen share they send, which they can turn on and off at any time  
+(see {@see \danog\MadelineProto\EventHandler\Call::setOutput()}). Participants that start  
+transmitting later are picked up too; our own media is never recorded.  
+  
+`$format` picks the Matroska DocType ({@see RecordingFormat::matroskaFor()}); OGG OPUS is not supported.  
+
+
+Parameters:
+
+* `$file`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\LocalDirectory|\Amp\ByteStream\WritableStream`   
+* `$participant`: `mixed`   
+* `$format`: `?\danog\MadelineProto\RecordingFormat`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\LocalDirectory`: Indicates a local directory to write output into.](../../../../danog/MadelineProto/LocalDirectory.html)
+* `\Amp\ByteStream\WritableStream`
+* [`\danog\MadelineProto\RecordingFormat`: Container format of a call recording, as passed to {@see Call::setOutput()}.](../../../../danog/MadelineProto/RecordingFormat.html)
+
 
 
 

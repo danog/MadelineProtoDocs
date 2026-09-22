@@ -20,7 +20,7 @@ Async OGG stream writer.
 
 ## Method list:
 * [`__construct(\Amp\ByteStream\WritableStream $out, ?int $streamId = NULL)`](#__construct)
-* [`writeHeader(int $channels, int $sampleRate, string $opusVersion): void`](#writeHeader)
+* [`writeHeader(int $channels, int $sampleRate, string $opusVersion, (string|null) $opusHead = NULL): void`](#writeHeader)
 * [`writeChunk(string $chunk, int $granuleDiff, bool $eos): void`](#writeChunk)
 
 ## Methods:
@@ -41,9 +41,9 @@ Parameters:
 
 
 
-### <a name="writeHeader"></a> `writeHeader(int $channels, int $sampleRate, string $opusVersion): void`
+### <a name="writeHeader"></a> `writeHeader(int $channels, int $sampleRate, string $opusVersion, (string|null) $opusHead = NULL): void`
 
-
+Write the OpusHead and OpusTags header pages.
 
 
 Parameters:
@@ -51,6 +51,9 @@ Parameters:
 * `$channels`: `int`   
 * `$sampleRate`: `int`   
 * `$opusVersion`: `string`   
+* `$opusHead`: `(string|null)` A complete OpusHead packet to use verbatim (for a multichannel or
+                             pre-existing stream), instead of building a family-0 one from
+                             `$channels` and `$sampleRate`.  
 
 
 

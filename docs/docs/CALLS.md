@@ -308,3 +308,5 @@ $call->leave();
 ```
 
 Invitations arrive as `DialogConferenceCall` service messages, which can be accepted with `join()` or declined with `decline()`. A one-to-one call can be upgraded to a conference with `migrateCallToConference($callId)`.
+
+<a href="https://docs.madelineproto.xyz/docs/FILES.html">Next section</a>

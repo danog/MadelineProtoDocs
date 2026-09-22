@@ -306,7 +306,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.createTheme.html" name="account.createTheme">Create a theme: account.createTheme</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#createConferenceCall" name="createConferenceCall">Create and join a new end-to-end encrypted conference call, with ourselves as the only participant: createConferenceCall</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#createConferenceCall" name="createConferenceCall">Create and join a new end-to-end encrypted conference call, with ourselves as the only: createConferenceCall</a>
 
 * <a href="phone.createConferenceCall.html" name="phone.createConferenceCall">Create and optionally join a new conference call: phone.createConferenceCall</a>
 
@@ -327,6 +327,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getPromHistogram" name="getPromHistogram">Creates and returns a prometheus histogram: getPromHistogram</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getPromSummary" name="getPromSummary">Creates and returns a prometheus summary: getPromSummary</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#declineConferenceCallInvite" name="declineConferenceCallInvite">Decline an invitation to a conference call: declineConferenceCallInvite</a>
 
 * <a href="phone.declineConferenceCallInvite.html" name="phone.declineConferenceCallInvite">Declines a conference call invite: phone.declineConferenceCallInvite</a>
 
@@ -654,7 +656,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="contacts.getSaved.html" name="contacts.getSaved">Get all contacts, requires a takeout session, see here » for more info: contacts.getSaved</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getAllGroupCalls" name="getAllGroupCalls">Get all group calls we're currently tracking, indexed by their ID: getAllGroupCalls</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getAllGroupCalls" name="getAllGroupCalls">Get all group calls (video chats, livestreams and live stories) we're currently tracking, indexed by their ID: getAllGroupCalls</a>
 
 * <a href="channels.getGroupsForDiscussion.html" name="channels.getGroupsForDiscussion">Get all groups that can be used as discussion groups: channels.getGroupsForDiscussion</a>
 
@@ -663,6 +665,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getAllCalls" name="getAllCalls">Get all pending and running calls, indexed by user ID: getAllCalls</a>
 
 * <a href="account.getAllSecureValues.html" name="account.getAllSecureValues">Get all saved Telegram Passport documents, for more info see the passport docs »: account.getAllSecureValues</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getConferenceCallBySlug" name="getConferenceCallBySlug">Get an [end-to-end encrypted conference call »](https://core.telegram.org/api/group-calls#conference-calls): getConferenceCallBySlug</a>
 
 * <a href="phone.exportGroupCallInvite.html" name="phone.exportGroupCallInvite">Get an invite link for a group call or livestream: phone.exportGroupCallInvite</a>
 
@@ -908,6 +912,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="stories.getPeerMaxIDs.html" name="stories.getPeerMaxIDs">Get the IDs of the maximum read stories for a set of peers: stories.getPeerMaxIDs</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getGroupCallStreamRtmpUrl" name="getGroupCallStreamRtmpUrl">Get the RTMP URL and stream key to publish an [RTMP livestream »](https://core.telegram.org/api/group-calls#creating-and-publishing-an-rtmp-livestream): getGroupCallStreamRtmpUrl</a>
+
 * <a href="channels.getAdminLog.html" name="channels.getAdminLog">Get the admin log of a channel/supergroup: channels.getAdminLog</a>
 
 * <a href="payments.getStarsStatus.html" name="payments.getStarsStatus">Get the current Telegram Stars balance of the current account (with peer=inputPeerSelf), or the stars balance of the bot specified in peer: payments.getStarsStatus</a>
@@ -1075,6 +1081,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="channels.joinChannel.html" name="channels.joinChannel">Join a channel/supergroup: channels.joinChannel</a>
 
 * <a href="phone.joinGroupCall.html" name="phone.joinGroupCall">Join a group call: phone.joinGroupCall</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#joinConferenceCallBySlug" name="joinConferenceCallBySlug">Join an end-to-end encrypted conference call from its conference link slug: joinConferenceCallBySlug</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#joinConferenceCallByInviteMessage" name="joinConferenceCallByInviteMessage">Join an end-to-end encrypted conference call from the service message that invited us to it: joinConferenceCallByInviteMessage</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#joinConferenceCall" name="joinConferenceCall">Join an existing end-to-end encrypted conference call: joinConferenceCall</a>
 
@@ -1314,7 +1324,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getBotCallbackAnswer.html" name="messages.getBotCallbackAnswer">Press an inline callback button and get a callback answer from the bot: messages.getBotCallbackAnswer</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#openBuffered" name="openBuffered">Provide a buffered reader for a file, URL or amp stream: openBuffered</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#openBuffered" name="openBuffered">Provide a buffered reader for a file, URL or amp stream, optionally starting at a byte offset: openBuffered</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getStream" name="getStream">Provide a stream for a file, URL or amp stream: getStream</a>
 
@@ -1330,7 +1340,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.sendReaction.html" name="messages.sendReaction">React to message: messages.sendReaction</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#groupCallSetOutput" name="groupCallSetOutput">Record group call audio: one participant to a file/stream, or every transmitting participant: groupCallSetOutput</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#groupCallSetOutput" name="groupCallSetOutput">Record group call media: one participant's camera or screen-share to a file/stream, or every: groupCallSetOutput</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#refreshFullPeerCache" name="refreshFullPeerCache">Refresh full peer cache for a certain peer: refreshFullPeerCache</a>
 
@@ -1530,6 +1540,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="phone.saveCallLog.html" name="phone.saveCallLog">Save phone call debug information: phone.saveCallLog</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#saveDefaultGroupCallJoinAs" name="saveDefaultGroupCallJoinAs">Save the peer we join the video chats and livestreams of a group or channel as by default: saveDefaultGroupCallJoinAs</a>
+
 * <a href="help.saveAppLog.html" name="help.saveAppLog">Saves logs of application on the server: help.saveAppLog</a>
 
 * <a href="messages.searchEmojiStickerSets.html" name="messages.searchEmojiStickerSets">Search for custom emoji stickersets »: messages.searchEmojiStickerSets</a>
@@ -1638,8 +1650,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.updateBusinessIntro.html" name="account.updateBusinessIntro">Set or remove the Telegram Business introduction »: account.updateBusinessIntro</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#callSetOutput" name="callSetOutput">Set output file or stream for incoming OPUS audio packets in a call: callSetOutput</a>
-
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#setReportPeers" name="setReportPeers">Set peer(s) where to send errors occurred in the event loop: setReportPeers</a>
 
 * <a href="account.setContentSettings.html" name="account.setContentSettings">Set sensitive content settings (for viewing or hiding NSFW content): account.setContentSettings</a>
@@ -1655,6 +1665,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="bots.setBotBroadcastDefaultAdminRights.html" name="bots.setBotBroadcastDefaultAdminRights">Set the default suggested admin rights for bots being added as admins to channels, see here for more info on how to handle them »: bots.setBotBroadcastDefaultAdminRights</a>
 
 * <a href="bots.setBotGroupDefaultAdminRights.html" name="bots.setBotGroupDefaultAdminRights">Set the default suggested admin rights for bots being added as admins to groups, see here for more info on how to handle them »: bots.setBotGroupDefaultAdminRights</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#callSetOutput" name="callSetOutput">Set the output file or stream for the incoming media of a call: callSetOutput</a>
 
 * <a href="account.setAuthorizationTTL.html" name="account.setAuthorizationTTL">Set time-to-live of current session: account.setAuthorizationTTL</a>
 
@@ -1673,6 +1685,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#groupCallSkipPlay" name="groupCallSkipPlay">Skip to the next file in the playlist of a group call: groupCallSkipPlay</a>
 
 * <a href="account.updateBusinessWorkHours.html" name="account.updateBusinessWorkHours">Specify a set of Telegram Business opening hours.: account.updateBusinessWorkHours</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#startLive" name="startLive">Start a [live story »](https://core.telegram.org/api/group-calls#live-stories): a livestream posted: startLive</a>
 
 * <a href="messages.startBot.html" name="messages.startBot">Start a conversation with a bot using a deep linking parameter: messages.startBot</a>
 
@@ -1717,6 +1731,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="auth.resetAuthorizations.html" name="auth.resetAuthorizations">Terminates all user's authorized sessions except for the current one: auth.resetAuthorizations</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#testFibers" name="testFibers">Test fibers: testFibers</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getGroupCallJoinAs" name="getGroupCallJoinAs">The peers we may join the video chats and livestreams of a group or channel as: ourselves, the: getGroupCallJoinAs</a>
 
 * <a href="channels.toggleAutotranslation.html" name="channels.toggleAutotranslation">Toggle autotranslation in a channel, for all users: see here » for more info: channels.toggleAutotranslation</a>
 
@@ -1771,6 +1787,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="account.updateProfile.html" name="account.updateProfile">Updates user profile: account.updateProfile</a>
 
 * <a href="payments.upgradeStarGift.html" name="payments.upgradeStarGift">Upgrade a gift to a collectible gift: can only be used if the upgrade was already paid by the gift sender; see here » for more info on the full flow (including the different flow to use in case the upgrade was not paid by the gift sender): payments.upgradeStarGift</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#migrateCallToConference" name="migrateCallToConference">Upgrade a one-to-one call to an [end-to-end encrypted conference call »](https://core.telegram.org/api/group-calls#conference-calls):: migrateCallToConference</a>
 
 * <a href="photos.uploadContactProfilePhoto.html" name="photos.uploadContactProfilePhoto">Upload a custom profile picture for a contact, or suggest a new profile picture to a contact: photos.uploadContactProfilePhoto</a>
 
