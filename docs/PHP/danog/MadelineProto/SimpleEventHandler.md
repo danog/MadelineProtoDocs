@@ -167,7 +167,6 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`getSponsoredMessages((int|string|array) $peer): ?array`](#getSponsoredMessages)
 * [`getStream(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL, ?int $size = NULL): \Amp\ByteStream\ReadableStream`](#getStream)
 * [`getStreamPipe(): \Amp\ByteStream\Pipe`](#getStreamPipe)
-* [`getTL(): \danog\MadelineProto\TL\TLInterface`](#getTL)
 * [`getType(mixed $id): \danog\MadelineProto\API::PEER_TYPE_*`](#getType)
 * [`getUpdates(array{offset?: int, limit?: int, timeout?: float} $params = []): list<array{update_id: mixed, update: mixed}>`](#getUpdates)
 * [`getWebMessage(string $message): string`](#getWebMessage)
@@ -2083,17 +2082,6 @@ Obtains a pipe that can be used to upload a file from a stream.
 
 #### See also: 
 * `\Amp\ByteStream\Pipe`
-
-
-
-
-### <a name="getTL"></a> `getTL(): \danog\MadelineProto\TL\TLInterface`
-
-Get TL serializer.
-
-
-#### See also: 
-* [\danog\MadelineProto\TL\TLInterface](../../danog/MadelineProto/TL/TLInterface.html)
 
 
 

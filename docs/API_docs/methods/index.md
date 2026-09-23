@@ -610,8 +610,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getMethodNamespaces" name="getMethodNamespaces">Get TL namespaces: getMethodNamespaces</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getTL" name="getTL">Get TL serializer: getTL</a>
-
 * <a href="help.getPremiumPromo.html" name="help.getPremiumPromo">Get Telegram Premium promotion information: help.getPremiumPromo</a>
 
 * <a href="payments.getStarsRevenueStats.html" name="payments.getStarsRevenueStats">Get Telegram Star revenue statistics »: payments.getStarsRevenueStats</a>
