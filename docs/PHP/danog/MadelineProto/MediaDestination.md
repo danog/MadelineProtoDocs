@@ -1,6 +1,6 @@
 ---
 title: "danog\\MadelineProto\\MediaDestination: Which media stream of a call a playback or recording operation targets."
-description: "\nA call carries two independent outgoing video streams: the main camera stream (transmitted\nalongside the microphone audio) and a separate presentation (screen-sharing) stream. The playlist\ncontrols ({@see Call::play()} and friends) take one of these to say which stream they act on; it\ndefaults to {@see self::Camera}. Recordings ({@see Call::setOutput()}) always hold both.\n"
+description: "\nA call carries two independent outgoing video streams: the main camera stream (transmitted\nalongside the microphone audio) and a separate presentation (screen-sharing) stream. The playlist\ncontrols ({@see Call::play()} and friends) take one of these to say which stream they act on; it\ndefaults to {@see self::Camera}. Recordings ({@see Call::setOutput()}) pick their streams with {@see CallStream} flags instead.\n"
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
@@ -17,7 +17,7 @@ Which media stream of a call a playback or recording operation targets.
 A call carries two independent outgoing video streams: the main camera stream (transmitted
 alongside the microphone audio) and a separate presentation (screen-sharing) stream. The playlist
 controls ({@see Call::play()} and friends) take one of these to say which stream they act on; it
-defaults to {@see self::Camera}. Recordings ({@see Call::setOutput()}) always hold both.
+defaults to {@see self::Camera}. Recordings ({@see Call::setOutput()}) pick their streams with {@see CallStream} flags instead.
 
 
 

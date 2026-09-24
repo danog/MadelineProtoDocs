@@ -1,27 +1,26 @@
 ---
-title: "danog\\MadelineProto\\Test\\CallRecorderSegmentsTest: A series recorder (the {@see \\danog\\MadelineProto\\EventHandler\\Call::setOutputFolder()} mode) follows the"
-description: "party turning its mic, camera and screen share on and off: every change of the flowing streams closes\nthe file and continues in `<base>.<n>_<streams>.mkv` with exactly those streams.\n"
+title: "danog\\MadelineProto\\Test\\IncomingMediaTest: The incoming media router reports every change of a participant's streams and codecs, and every"
+description: "recording starting or ending, exactly once — the raw material of a CallStreams update.\n"
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
 ---
-# `danog\MadelineProto\Test\CallRecorderSegmentsTest`
+# `danog\MadelineProto\Test\IncomingMediaTest`
 [Back to index](../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-A series recorder (the {@see \danog\MadelineProto\EventHandler\Call::setOutputFolder()} mode) follows the  
+The incoming media router reports every change of a participant's streams and codecs, and every  
 
-party turning its mic, camera and screen share on and off: every change of the flowing streams closes
-the file and continues in `<base>.<n>_<streams>.mkv` with exactly those streams.
+recording starting or ending, exactly once — the raw material of a CallStreams update.
 
 
 
 ## Method list:
-* [`testSegmentsFollowTheStreams(): void`](#testSegmentsFollowTheStreams)
-* [`testCodecChangeStartsANewSegment(): void`](#testCodecChangeStartsANewSegment)
-* [`testDirectoryStemAndNothingRecorded(): void`](#testDirectoryStemAndNothingRecorded)
+* [`testStreamsAndCodecsAreReportedOnce(): void`](#testStreamsAndCodecsAreReportedOnce)
+* [`testRecordingEventsCarryTheFile(): void`](#testRecordingEventsCarryTheFile)
+* [`testCloseFinishesTheRecording(): void`](#testCloseFinishesTheRecording)
 * [`any(): \PHPUnit\Framework\MockObject\Rule\AnyInvokedCount`](#any)
 * [`never(): \PHPUnit\Framework\MockObject\Rule\InvokedCount`](#never)
 * [`atLeast(int $requiredInvocations): \PHPUnit\Framework\MockObject\Rule\InvokedAtLeastCount`](#atLeast)
@@ -230,19 +229,19 @@ the file and continues in `<base>.<n>_<streams>.mkv` with exactly those streams.
 * [`resetCount(): void`](#resetCount)
 
 ## Methods:
-### <a name="testSegmentsFollowTheStreams"></a> `testSegmentsFollowTheStreams(): void`
+### <a name="testStreamsAndCodecsAreReportedOnce"></a> `testStreamsAndCodecsAreReportedOnce(): void`
 
 
 
 
 
-### <a name="testCodecChangeStartsANewSegment"></a> `testCodecChangeStartsANewSegment(): void`
+### <a name="testRecordingEventsCarryTheFile"></a> `testRecordingEventsCarryTheFile(): void`
 
 
 
 
 
-### <a name="testDirectoryStemAndNothingRecorded"></a> `testDirectoryStemAndNothingRecorded(): void`
+### <a name="testCloseFinishesTheRecording"></a> `testCloseFinishesTheRecording(): void`
 
 
 

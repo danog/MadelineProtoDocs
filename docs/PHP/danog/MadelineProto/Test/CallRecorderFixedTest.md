@@ -1,27 +1,29 @@
 ---
-title: "danog\\MadelineProto\\Test\\CallRecorderSegmentsTest: A series recorder (the {@see \\danog\\MadelineProto\\EventHandler\\Call::setOutputFolder()} mode) follows the"
-description: "party turning its mic, camera and screen share on and off: every change of the flowing streams closes\nthe file and continues in `<base>.<n>_<streams>.mkv` with exactly those streams.\n"
+title: "danog\\MadelineProto\\Test\\CallRecorderFixedTest: A fixed recorder (the {@see \\danog\\MadelineProto\\EventHandler\\Call::setOutput()} mode) writes one file"
+description: "whose tracks never change: a stream turned off just stops being written, a stream not chosen is\nignored, and only a change of codec finishes the file.\n"
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
 ---
-# `danog\MadelineProto\Test\CallRecorderSegmentsTest`
+# `danog\MadelineProto\Test\CallRecorderFixedTest`
 [Back to index](../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-A series recorder (the {@see \danog\MadelineProto\EventHandler\Call::setOutputFolder()} mode) follows the  
+A fixed recorder (the {@see \danog\MadelineProto\EventHandler\Call::setOutput()} mode) writes one file  
 
-party turning its mic, camera and screen share on and off: every change of the flowing streams closes
-the file and continues in `<base>.<n>_<streams>.mkv` with exactly those streams.
+whose tracks never change: a stream turned off just stops being written, a stream not chosen is
+ignored, and only a change of codec finishes the file.
 
 
 
 ## Method list:
-* [`testSegmentsFollowTheStreams(): void`](#testSegmentsFollowTheStreams)
-* [`testCodecChangeStartsANewSegment(): void`](#testCodecChangeStartsANewSegment)
-* [`testDirectoryStemAndNothingRecorded(): void`](#testDirectoryStemAndNothingRecorded)
+* [`testAudioOnlyOpensAtOnceAndFollowsMuting(): void`](#testAudioOnlyOpensAtOnceAndFollowsMuting)
+* [`testVideoWaitsForTheKeyframeAndSurvivesTheCameraToggling(): void`](#testVideoWaitsForTheKeyframeAndSurvivesTheCameraToggling)
+* [`testCodecChangeFinishesTheFile(): void`](#testCodecChangeFinishesTheFile)
+* [`testEveryAvailableStreamWhenNoneIsChosen(): void`](#testEveryAvailableStreamWhenNoneIsChosen)
+* [`testChosenStreamsAreValidated(): void`](#testChosenStreamsAreValidated)
 * [`any(): \PHPUnit\Framework\MockObject\Rule\AnyInvokedCount`](#any)
 * [`never(): \PHPUnit\Framework\MockObject\Rule\InvokedCount`](#never)
 * [`atLeast(int $requiredInvocations): \PHPUnit\Framework\MockObject\Rule\InvokedAtLeastCount`](#atLeast)
@@ -230,19 +232,31 @@ the file and continues in `<base>.<n>_<streams>.mkv` with exactly those streams.
 * [`resetCount(): void`](#resetCount)
 
 ## Methods:
-### <a name="testSegmentsFollowTheStreams"></a> `testSegmentsFollowTheStreams(): void`
+### <a name="testAudioOnlyOpensAtOnceAndFollowsMuting"></a> `testAudioOnlyOpensAtOnceAndFollowsMuting(): void`
 
 
 
 
 
-### <a name="testCodecChangeStartsANewSegment"></a> `testCodecChangeStartsANewSegment(): void`
+### <a name="testVideoWaitsForTheKeyframeAndSurvivesTheCameraToggling"></a> `testVideoWaitsForTheKeyframeAndSurvivesTheCameraToggling(): void`
 
 
 
 
 
-### <a name="testDirectoryStemAndNothingRecorded"></a> `testDirectoryStemAndNothingRecorded(): void`
+### <a name="testCodecChangeFinishesTheFile"></a> `testCodecChangeFinishesTheFile(): void`
+
+
+
+
+
+### <a name="testEveryAvailableStreamWhenNoneIsChosen"></a> `testEveryAvailableStreamWhenNoneIsChosen(): void`
+
+
+
+
+
+### <a name="testChosenStreamsAreValidated"></a> `testChosenStreamsAreValidated(): void`
 
 
 

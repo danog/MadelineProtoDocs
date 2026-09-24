@@ -1,6 +1,6 @@
 ---
-title: "danog\\MadelineProto\\RecordingFormat: Container format of a call recording, as passed to {@see Call::setOutput()}."
-description: "\n{@see self::Webm} and {@see self::Mkv} both mux the incoming audio and video into a Matroska\nfile in pure PHP (the peer's frames are stored as-is, so the video track is whatever codec the\npeer sends — VP8/VP9/H.264/AV1 — and the audio is OPUS); they differ only in the declared EBML\nDocType. {@see self::Opus} keeps the audio-only behaviour, writing an OGG OPUS stream.\n\nWhen no format is passed to {@see Call::setOutput()}, it is autodetected from the extension of the\ntarget — but only if a {@see LocalFile} was given; a raw stream, whose extension is unknown,\ndefaults to {@see self::Opus}.\n"
+title: "danog\\MadelineProto\\RecordingFormat: Container format of a call recording, as passed to {@see Call::setOutput()} and {@see Call::setOutputFolder()}."
+description: "\n{@see self::Webm} and {@see self::Mkv} both mux the incoming audio and video into a Matroska\nfile in pure PHP (the peer's frames are stored as-is, so the video track is whatever codec the\npeer sends — VP8/VP9/H.264/AV1 — and the audio is OPUS); they differ only in the declared EBML\nDocType. {@see self::Opus} keeps the audio-only behaviour, writing an OGG OPUS stream.\n\nWhen no format is passed to {@see Call::setOutput()}, it is autodetected from the extension of the\ntarget — but only if a {@see LocalFile} was given; a raw stream, whose extension is unknown,\ndefaults to {@see self::Webm}. A {@see Call::setOutputFolder()} recording defaults to {@see self::Mkv}.\n"
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
@@ -11,7 +11,7 @@ parent: "MadelineProto API"
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Container format of a call recording, as passed to {@see Call::setOutput()}.  
+Container format of a call recording, as passed to {@see Call::setOutput()} and {@see Call::setOutputFolder()}.  
 
 
 {@see self::Webm} and {@see self::Mkv} both mux the incoming audio and video into a Matroska
@@ -21,7 +21,7 @@ DocType. {@see self::Opus} keeps the audio-only behaviour, writing an OGG OPUS s
 
 When no format is passed to {@see Call::setOutput()}, it is autodetected from the extension of the
 target — but only if a {@see LocalFile} was given; a raw stream, whose extension is unknown,
-defaults to {@see self::Opus}.
+defaults to {@see self::Webm}. A {@see Call::setOutputFolder()} recording defaults to {@see self::Mkv}.
 
 
 

@@ -63,7 +63,8 @@ process restart and over IPC.
 * [`isSharingScreen(): bool`](#isSharingScreen)
 * [`enablePresentation(): static`](#enablePresentation)
 * [`disablePresentation(): static`](#disablePresentation)
-* [`setOutput(\danog\MadelineProto\LocalFile|\danog\MadelineProto\LocalDirectory|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): static`](#setOutput)
+* [`setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?int $streams = NULL): int`](#setOutput)
+* [`setOutputFolder(\danog\MadelineProto\LocalDirectory $dir, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): static`](#setOutputFolder)
 * [`setMuted(bool $muted = true): static`](#setMuted)
 * [`isMuted(): bool`](#isMuted)
 * [`play(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`](#play)
@@ -323,16 +324,20 @@ Stop sharing the screen.
 
 
 
-### <a name="setOutput"></a> `setOutput(\danog\MadelineProto\LocalFile|\danog\MadelineProto\LocalDirectory|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): static`
+### <a name="setOutput"></a> `setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?int $streams = NULL): int`
 
-Record conference call media, muxed into a Matroska file in pure PHP.
+Record one participant into a single file (or stream) with a fixed set of tracks, muxed into
+Matroska in pure PHP. Every recording is plaintext — the frames are decrypted before they are muxed.  
   
-Only a {@see LocalDirectory} is accepted: it records every transmitting participant — or only the  
-given `$participant` — as `<dir>/<userId>.<n>_<streams>.mkv` files, one per combination of the  
-audio, camera video and screen share they send, each on or off at any time (see  
-{@see Call::setOutput()}; participants that start transmitting later are picked up too). Our own  
-media is never recorded. Every recording is plaintext — the frames are decrypted before they are  
-muxed.  
+`$participant` (a user id, username or peer) is required: every participant is recorded to its  
+own file, see {@see self::setOutputFolder()} to record everyone at once. Our own media is never recorded.  
+  
+The file holds the streams chosen with `$streams` — a bitmask of {@see CallStream::AUDIO},  
+{@see CallStream::VIDEO} and {@see CallStream::SCREEN}, every one of which must be available — or,  
+when null, every stream the participant currently sends; the available streams are returned. The  
+tracks are fixed for the whole file: a stream turned off stops being written and resumes when it  
+comes back, and only a change of codec or the end of the call finishes the file (see  
+{@see Call::setOutput()}); every such event is reported by a {@see CallStreams} update.  
   
 Participants' frames are stored as-is, so the video tracks are whatever codec they send and the  
 audio is OPUS; `$format` picks the {@see RecordingFormat::Mkv} (default) or {@see RecordingFormat::Webm}  
@@ -341,16 +346,45 @@ DocType, autodetected from a `.webm` extension. Audio-only OGG OPUS recordings a
 
 Parameters:
 
-* `$file`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\LocalDirectory|\Amp\ByteStream\WritableStream`   
+* `$file`: `\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream`   
+* `$participant`: `mixed`   
+* `$format`: `?\danog\MadelineProto\RecordingFormat`   
+* `$streams`: `?int` The streams to record, as a bitmask of {@see CallStream} flags, or null for every available one.  
+
+
+Return value: The streams the participant currently sends, as a bitmask of {@see CallStream} flags.
+
+#### See also: 
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
+* `\Amp\ByteStream\WritableStream`
+* [`\danog\MadelineProto\RecordingFormat`: Container format of a call recording, as passed to {@see Call::setOutput()} and {@see Call::setOutputFolder()}.](../../../../danog/MadelineProto/RecordingFormat.html)
+
+
+
+
+### <a name="setOutputFolder"></a> `setOutputFolder(\danog\MadelineProto\LocalDirectory $dir, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): static`
+
+Record conference call media into a directory, muxed into Matroska files in pure PHP.
+  
+Records every transmitting participant — or only the given `$participant` — as  
+`<dir>/<userId>.<n>_<streams>.mkv` files, one per combination of the audio, camera video and  
+screen share they send, each on or off at any time (see {@see Call::setOutputFolder()};  
+participants that start transmitting later are picked up too). Our own media is never recorded.  
+Every recording is plaintext — the frames are decrypted before they are muxed.  
+  
+`$format` picks the {@see RecordingFormat::Mkv} (default) or {@see RecordingFormat::Webm} DocType.  
+
+
+Parameters:
+
+* `$dir`: `\danog\MadelineProto\LocalDirectory`   
 * `$participant`: `mixed`   
 * `$format`: `?\danog\MadelineProto\RecordingFormat`   
 
 
 #### See also: 
-* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
 * [`\danog\MadelineProto\LocalDirectory`: Indicates a local directory to write output into.](../../../../danog/MadelineProto/LocalDirectory.html)
-* `\Amp\ByteStream\WritableStream`
-* [`\danog\MadelineProto\RecordingFormat`: Container format of a call recording, as passed to {@see Call::setOutput()}.](../../../../danog/MadelineProto/RecordingFormat.html)
+* [`\danog\MadelineProto\RecordingFormat`: Container format of a call recording, as passed to {@see Call::setOutput()} and {@see Call::setOutputFolder()}.](../../../../danog/MadelineProto/RecordingFormat.html)
 
 
 

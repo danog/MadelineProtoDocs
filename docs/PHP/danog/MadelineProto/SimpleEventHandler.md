@@ -69,7 +69,8 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`callGetCurrent(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`](#callGetCurrent)
 * [`callPlay(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#callPlay)
 * [`callPlayOnHold(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): void`](#callPlayOnHold)
-* [`callSetOutput(int $id, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, ?\danog\MadelineProto\RecordingFormat $format = NULL): void`](#callSetOutput)
+* [`callSetOutput(int $id, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?int $streams = NULL): int`](#callSetOutput)
+* [`callSetOutputFolder(int $id, \danog\MadelineProto\LocalDirectory $dir, ?\danog\MadelineProto\RecordingFormat $format = NULL): void`](#callSetOutputFolder)
 * [`canConvertOgg(): bool`](#canConvertOgg)
 * [`canUseFFmpeg(?\Amp\Cancellation $cancellation = NULL): bool`](#canUseFFmpeg)
 * [`cancelBroadcast(integer $id): void`](#cancelBroadcast)
@@ -176,7 +177,8 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`groupCallPlay(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#groupCallPlay)
 * [`groupCallPlayOnHold(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): void`](#groupCallPlayOnHold)
 * [`groupCallResumePlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#groupCallResumePlay)
-* [`groupCallSetOutput(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\LocalDirectory|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): void`](#groupCallSetOutput)
+* [`groupCallSetOutput(int $id, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?int $streams = NULL): int`](#groupCallSetOutput)
+* [`groupCallSetOutputFolder(int $id, \danog\MadelineProto\LocalDirectory $dir, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): void`](#groupCallSetOutputFolder)
 * [`groupCallSkipPlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#groupCallSkipPlay)
 * [`groupCallStopPlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#groupCallStopPlay)
 * [`hasAdmins(): bool`](#hasAdmins)
@@ -710,14 +712,10 @@ Parameters:
 
 
 
-### <a name="callSetOutput"></a> `callSetOutput(int $id, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, ?\danog\MadelineProto\RecordingFormat $format = NULL): void`
+### <a name="callSetOutput"></a> `callSetOutput(int $id, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?int $streams = NULL): int`
 
-Set the output file or stream for the incoming media of a call.
-  
-A {@see RecordingFormat::Webm} or {@see RecordingFormat::Mkv} target records both the incoming  
-audio and video, muxed into a Matroska file in pure PHP; {@see RecordingFormat::Opus} keeps the  
-audio-only behaviour, writing an OGG OPUS stream. When `$format` is null it is autodetected from  
-the extension of `$file`, but only if a {@see LocalFile} was passed (a raw stream defaults to OGG).  
+Record the incoming media of a call into one file (or stream) with a fixed set of tracks, see
+{@see \danog\MadelineProto\EventHandler\Calls\PrivateCall::setOutput()}.  
 
 
 Parameters:
@@ -725,12 +723,35 @@ Parameters:
 * `$id`: `int`   
 * `$file`: `\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream`   
 * `$format`: `?\danog\MadelineProto\RecordingFormat`   
+* `$streams`: `?int` The streams to record, as a bitmask of {@see CallStream} flags, or null for every available one.  
 
+
+Return value: The streams the other party currently sends, as a bitmask of {@see CallStream} flags (0 while unknown).
 
 #### See also: 
 * [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
 * `\Amp\ByteStream\WritableStream`
-* [`\danog\MadelineProto\RecordingFormat`: Container format of a call recording, as passed to {@see Call::setOutput()}.](../../danog/MadelineProto/RecordingFormat.html)
+* [`\danog\MadelineProto\RecordingFormat`: Container format of a call recording, as passed to {@see Call::setOutput()} and {@see Call::setOutputFolder()}.](../../danog/MadelineProto/RecordingFormat.html)
+
+
+
+
+### <a name="callSetOutputFolder"></a> `callSetOutputFolder(int $id, \danog\MadelineProto\LocalDirectory $dir, ?\danog\MadelineProto\RecordingFormat $format = NULL): void`
+
+Record the incoming media of a call into a directory, one numbered file per combination of
+streams the other party sends, see {@see \danog\MadelineProto\EventHandler\Calls\PrivateCall::setOutputFolder()}.  
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$dir`: `\danog\MadelineProto\LocalDirectory`   
+* `$format`: `?\danog\MadelineProto\RecordingFormat`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\LocalDirectory`: Indicates a local directory to write output into.](../../danog/MadelineProto/LocalDirectory.html)
+* [`\danog\MadelineProto\RecordingFormat`: Container format of a call recording, as passed to {@see Call::setOutput()} and {@see Call::setOutputFolder()}.](../../danog/MadelineProto/RecordingFormat.html)
 
 
 
@@ -2229,25 +2250,49 @@ Parameters:
 
 
 
-### <a name="groupCallSetOutput"></a> `groupCallSetOutput(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\LocalDirectory|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): void`
+### <a name="groupCallSetOutput"></a> `groupCallSetOutput(int $id, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?int $streams = NULL): int`
 
-Record group call media: one participant's audio, camera and screen-share to a file/stream, or
-every transmitting participant into its own file under a LocalDirectory.  
+Record one participant of a group call (or, in stream mode, its mixed stream) into a single file
+(or stream) with a fixed set of tracks, see {@see \danog\MadelineProto\EventHandler\Calls\AbstractGroupCall::setOutput()}.  
 
 
 Parameters:
 
 * `$id`: `int`   
-* `$file`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\LocalDirectory|\Amp\ByteStream\WritableStream`   
+* `$file`: `\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream`   
+* `$participant`: `mixed`   
+* `$format`: `?\danog\MadelineProto\RecordingFormat`   
+* `$streams`: `?int` The streams to record, as a bitmask of {@see CallStream} flags, or null for every available one.  
+
+
+Return value: The streams the participant currently sends, as a bitmask of {@see CallStream} flags.
+
+#### See also: 
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
+* `\Amp\ByteStream\WritableStream`
+* [`\danog\MadelineProto\RecordingFormat`: Container format of a call recording, as passed to {@see Call::setOutput()} and {@see Call::setOutputFolder()}.](../../danog/MadelineProto/RecordingFormat.html)
+
+
+
+
+### <a name="groupCallSetOutputFolder"></a> `groupCallSetOutputFolder(int $id, \danog\MadelineProto\LocalDirectory $dir, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): void`
+
+Record group call media into a directory: every transmitting participant (or only the given
+one) as its own numbered series of files, see  
+{@see \danog\MadelineProto\EventHandler\Calls\AbstractGroupCall::setOutputFolder()}.  
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$dir`: `\danog\MadelineProto\LocalDirectory`   
 * `$participant`: `mixed`   
 * `$format`: `?\danog\MadelineProto\RecordingFormat`   
 
 
 #### See also: 
-* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
 * [`\danog\MadelineProto\LocalDirectory`: Indicates a local directory to write output into.](../../danog/MadelineProto/LocalDirectory.html)
-* `\Amp\ByteStream\WritableStream`
-* [`\danog\MadelineProto\RecordingFormat`: Container format of a call recording, as passed to {@see Call::setOutput()}.](../../danog/MadelineProto/RecordingFormat.html)
+* [`\danog\MadelineProto\RecordingFormat`: Container format of a call recording, as passed to {@see Call::setOutput()} and {@see Call::setOutputFolder()}.](../../danog/MadelineProto/RecordingFormat.html)
 
 
 

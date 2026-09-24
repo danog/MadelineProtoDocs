@@ -40,7 +40,6 @@ encrypted messages).
 * [`isJoined(): bool`](#isJoined)
 * [`isCallEnded(): bool`](#isCallEnded)
 * [`getCallState(): \danog\MadelineProto\GroupCall\GroupCallState`](#getCallState)
-* [`isSharingScreen(): bool`](#isSharingScreen)
 * [`activeEpochs(): array`](#activeEpochs)
 * [`selfSeed(): string`](#selfSeed)
 * [`publicKeyForSsrc(int $ssrc): ?string`](#publicKeyForSsrc)
@@ -48,38 +47,38 @@ encrypted messages).
 * [`join(bool $muted = false): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#join)
 * [`editParticipant(mixed $participant, ?bool $muted = NULL, ?int $volume = NULL, ?bool $videoPaused = NULL): void`](#editParticipant)
 * [`toggleSettings(?bool $joinMuted = NULL, bool $resetInviteHash = false, ?bool $messagesEnabled = NULL): void`](#toggleSettings)
-* [`setTitle(string $title): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#setTitle)
 * [`invite(mixed ...$users): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#invite)
 * [`exportInvite(bool $canSelfUnmute = false): string`](#exportInvite)
 * [`removeParticipant(mixed ...$participants): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#removeParticipant)
 * [`syncChain(int $subChainId): void`](#syncChain)
-* [`enablePresentation(): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#enablePresentation)
-* [`disablePresentation(): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#disablePresentation)
-* [`play(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#play)
-* [`playBlocking(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#playBlocking)
 * [`then(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#then)
-* [`playOnHold(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#playOnHold)
-* [`skip(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#skip)
-* [`stop(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#stop)
-* [`pause(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#pause)
-* [`isPaused(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): bool`](#isPaused)
-* [`resume(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#resume)
-* [`getCurrent(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|string|null`](#getCurrent)
-* [`setMuted(bool $muted = true): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#setMuted)
-* [`isMuted(): bool`](#isMuted)
 * [`discard(): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#discard)
 * [`leave(): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#leave)
 * [`getParticipants(): array<int, array{public_key: string, permissions: int, version: int}>`](#getParticipants)
 * [`getVisualization(): (list<string>|null)`](#getVisualization)
 * [`sendMessage(string $message, ?\danog\MadelineProto\ParseMode $parseMode = NULL, ?int $paidStars = NULL, mixed $sendAs = NULL): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#sendMessage)
 * [`sendReaction(string $emoji, ?int $customEmojiId = NULL): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#sendReaction)
-* [`setOutput(\danog\MadelineProto\LocalFile|\danog\MadelineProto\LocalDirectory|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#setOutput)
+* [`setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?int $streams = NULL): int`](#setOutput)
+* [`setOutputFolder(\danog\MadelineProto\LocalDirectory $dir, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#setOutputFolder)
 * [`getChain(): \danog\MadelineProto\Tgcalls\E2E\ConferenceChain`](#getChain)
 * [`log(string $message, int $level = \danog\MadelineProto\Logger::NOTICE): void`](#log)
 * [`onIncomingSource(int $source): void`](#onIncomingSource)
 * [`onConnectionFailed(): void`](#onConnectionFailed)
-* [`setVideoStopped(bool $stopped): void`](#setVideoStopped)
-* [`setPresentationPaused(bool $paused): void`](#setPresentationPaused)
+* [`play(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`](#play)
+* [`playBlocking(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`](#playBlocking)
+* [`playOnHold(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): static`](#playOnHold)
+* [`skip(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`](#skip)
+* [`stop(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`](#stop)
+* [`pause(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`](#pause)
+* [`resume(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`](#resume)
+* [`getCurrent(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|string|null`](#getCurrent)
+* [`isPaused(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): bool`](#isPaused)
+* [`enablePresentation(): static`](#enablePresentation)
+* [`disablePresentation(): static`](#disablePresentation)
+* [`isSharingScreen(): bool`](#isSharingScreen)
+* [`setMuted(bool $muted = true): static`](#setMuted)
+* [`isMuted(): bool`](#isMuted)
+* [`setTitle(string $title): static`](#setTitle)
 
 ## Methods:
 ### <a name="__construct"></a> `__construct(\danog\MadelineProto\MTProto $API)`
@@ -162,12 +161,6 @@ Get the state of the conference call.
 
 
 
-### <a name="isSharingScreen"></a> `isSharingScreen(): bool`
-
-Whether a screen-share is currently being transmitted.
-
-
-
 ### <a name="activeEpochs"></a> `activeEpochs(): array`
 
 
@@ -244,17 +237,6 @@ Parameters:
 
 
 
-### <a name="setTitle"></a> `setTitle(string $title): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
-
-Change the title of the conference call.
-
-
-Parameters:
-
-* `$title`: `string`   
-
-
-
 ### <a name="invite"></a> `invite(mixed ...$users): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
 
 Invite users to the conference call (phone.inviteConferenceCallParticipant), ringing them; once
@@ -305,60 +287,6 @@ Parameters:
 
 
 
-### <a name="enablePresentation"></a> `enablePresentation(): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
-
-Start sharing a screen: a second WebRTC connection (phone.joinGroupCallPresentation) whose
-video is end-to-end encrypted with the same conference keys, on its own packet channel so its  
-sequence numbers never collide with the camera's. Idempotent.  
-
-
-
-### <a name="disablePresentation"></a> `disablePresentation(): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
-
-Stop sharing the screen: tear down the presentation connection and tell the server.
-
-
-
-### <a name="play"></a> `play(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
-
-
-
-
-Parameters:
-
-* `$file`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
-* `$dest`: `\danog\MadelineProto\MediaDestination`   
-
-
-#### See also: 
-* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
-* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../../danog/MadelineProto/RemoteUrl.html)
-* `\Amp\ByteStream\ReadableStream`
-* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../../../danog/MadelineProto/MediaDestination.html)
-
-
-
-
-### <a name="playBlocking"></a> `playBlocking(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
-
-Play a file, blocking until it has finished playing if a stream is provided.
-
-
-Parameters:
-
-* `$file`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
-* `$dest`: `\danog\MadelineProto\MediaDestination`   
-
-
-#### See also: 
-* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
-* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../../danog/MadelineProto/RemoteUrl.html)
-* `\Amp\ByteStream\ReadableStream`
-* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../../../danog/MadelineProto/MediaDestination.html)
-
-
-
-
 ### <a name="then"></a> `then(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
 
 
@@ -375,141 +303,6 @@ Parameters:
 * [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../../danog/MadelineProto/RemoteUrl.html)
 * `\Amp\ByteStream\ReadableStream`
 * [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../../../danog/MadelineProto/MediaDestination.html)
-
-
-
-
-### <a name="playOnHold"></a> `playOnHold(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
-
-
-
-
-Parameters:
-
-* `$dest`: `\danog\MadelineProto\MediaDestination`   
-* `...$files`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
-
-
-#### See also: 
-* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../../../danog/MadelineProto/MediaDestination.html)
-* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
-* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../../danog/MadelineProto/RemoteUrl.html)
-* `\Amp\ByteStream\ReadableStream`
-
-
-
-
-### <a name="skip"></a> `skip(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
-
-
-
-
-Parameters:
-
-* `$dest`: `\danog\MadelineProto\MediaDestination`   
-
-
-#### See also: 
-* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../../../danog/MadelineProto/MediaDestination.html)
-
-
-
-
-### <a name="stop"></a> `stop(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
-
-
-
-
-Parameters:
-
-* `$dest`: `\danog\MadelineProto\MediaDestination`   
-
-
-#### See also: 
-* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../../../danog/MadelineProto/MediaDestination.html)
-
-
-
-
-### <a name="pause"></a> `pause(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
-
-
-
-
-Parameters:
-
-* `$dest`: `\danog\MadelineProto\MediaDestination`   
-
-
-#### See also: 
-* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../../../danog/MadelineProto/MediaDestination.html)
-
-
-
-
-### <a name="isPaused"></a> `isPaused(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): bool`
-
-
-
-
-Parameters:
-
-* `$dest`: `\danog\MadelineProto\MediaDestination`   
-
-
-#### See also: 
-* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../../../danog/MadelineProto/MediaDestination.html)
-
-
-
-
-### <a name="resume"></a> `resume(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
-
-
-
-
-Parameters:
-
-* `$dest`: `\danog\MadelineProto\MediaDestination`   
-
-
-#### See also: 
-* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../../../danog/MadelineProto/MediaDestination.html)
-
-
-
-
-### <a name="getCurrent"></a> `getCurrent(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|string|null`
-
-
-
-
-Parameters:
-
-* `$dest`: `\danog\MadelineProto\MediaDestination`   
-
-
-#### See also: 
-* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../../../danog/MadelineProto/MediaDestination.html)
-* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
-* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../../danog/MadelineProto/RemoteUrl.html)
-
-
-
-
-### <a name="setMuted"></a> `setMuted(bool $muted = true): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
-
-
-
-
-Parameters:
-
-* `$muted`: `bool`   
-
-
-
-### <a name="isMuted"></a> `isMuted(): bool`
-
 
 
 
@@ -576,32 +369,46 @@ Parameters:
 
 
 
-### <a name="setOutput"></a> `setOutput(\danog\MadelineProto\LocalFile|\danog\MadelineProto\LocalDirectory|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
+### <a name="setOutput"></a> `setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?int $streams = NULL): int`
 
-Record conference call media (all end-to-end encrypted; the SFU only ever sees ciphertext, but
-incoming frames are decrypted before they are muxed, so recordings are plaintext).  
-  
-Only a {@see LocalDirectory} is accepted: every *transmitting* participant — or only the given  
-`$participant` — is recorded as `<dir>/<userId>.<n>_<streams>.mkv` files, one per combination of  
-the audio, camera video and screen share they send, which they can turn on and off at any time  
-(see {@see \danog\MadelineProto\EventHandler\Call::setOutput()}). Participants that start  
-transmitting later are picked up too; our own media is never recorded.  
-  
-`$format` picks the Matroska DocType ({@see RecordingFormat::matroskaFor()}); OGG OPUS is not supported.  
+Record one participant's (decrypted) media into a single file (or stream) with a fixed set of
+tracks, see {@see GroupMediaTrait::recordParticipant()}.  
 
 
 Parameters:
 
-* `$file`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\LocalDirectory|\Amp\ByteStream\WritableStream`   
+* `$file`: `\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream`   
+* `$participant`: `mixed`   
+* `$format`: `?\danog\MadelineProto\RecordingFormat`   
+* `$streams`: `?int` The {@see CallStream} flags to record, or null for every available one.  
+
+
+Return value: The streams the participant currently sends, as {@see CallStream} flags.
+
+#### See also: 
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
+* `\Amp\ByteStream\WritableStream`
+* [`\danog\MadelineProto\RecordingFormat`: Container format of a call recording, as passed to {@see Call::setOutput()} and {@see Call::setOutputFolder()}.](../../../../danog/MadelineProto/RecordingFormat.html)
+
+
+
+
+### <a name="setOutputFolder"></a> `setOutputFolder(\danog\MadelineProto\LocalDirectory $dir, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
+
+Record the conference (decrypted) into a directory, as numbered series of Matroska files, one
+per participant, see {@see GroupMediaTrait::recordFolder()}.  
+
+
+Parameters:
+
+* `$dir`: `\danog\MadelineProto\LocalDirectory`   
 * `$participant`: `mixed`   
 * `$format`: `?\danog\MadelineProto\RecordingFormat`   
 
 
 #### See also: 
-* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
 * [`\danog\MadelineProto\LocalDirectory`: Indicates a local directory to write output into.](../../../../danog/MadelineProto/LocalDirectory.html)
-* `\Amp\ByteStream\WritableStream`
-* [`\danog\MadelineProto\RecordingFormat`: Container format of a call recording, as passed to {@see Call::setOutput()}.](../../../../danog/MadelineProto/RecordingFormat.html)
+* [`\danog\MadelineProto\RecordingFormat`: Container format of a call recording, as passed to {@see Call::setOutput()} and {@see Call::setOutputFolder()}.](../../../../danog/MadelineProto/RecordingFormat.html)
 
 
 
@@ -646,25 +453,210 @@ Parameters:
 
 
 
-### <a name="setVideoStopped"></a> `setVideoStopped(bool $stopped): void`
+### <a name="play"></a> `play(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`
 
-
-
-
-Parameters:
-
-* `$stopped`: `bool`   
-
-
-
-### <a name="setPresentationPaused"></a> `setPresentationPaused(bool $paused): void`
-
-
+Play a file, transmitting its audio and, if it carries a transmittable one, its video.
 
 
 Parameters:
 
-* `$paused`: `bool`   
+* `$file`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../../danog/MadelineProto/RemoteUrl.html)
+* `\Amp\ByteStream\ReadableStream`
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../../../danog/MadelineProto/MediaDestination.html)
+
+
+
+
+### <a name="playBlocking"></a> `playBlocking(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`
+
+Play a file, blocking until it has finished playing if a stream was passed.
+
+
+Parameters:
+
+* `$file`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../../danog/MadelineProto/RemoteUrl.html)
+* `\Amp\ByteStream\ReadableStream`
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../../../danog/MadelineProto/MediaDestination.html)
+
+
+
+
+### <a name="playOnHold"></a> `playOnHold(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): static`
+
+Set the files to play, on loop, while the given stream's main playlist is empty.
+
+
+Parameters:
+
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+* `...$files`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../../../danog/MadelineProto/MediaDestination.html)
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../../danog/MadelineProto/RemoteUrl.html)
+* `\Amp\ByteStream\ReadableStream`
+
+
+
+
+### <a name="skip"></a> `skip(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`
+
+Skip to the next file in the playlist.
+
+
+Parameters:
+
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../../../danog/MadelineProto/MediaDestination.html)
+
+
+
+
+### <a name="stop"></a> `stop(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`
+
+Stop playing all files, clearing the main and the hold playlist; stopping the presentation
+stops sharing the screen.  
+
+
+Parameters:
+
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../../../danog/MadelineProto/MediaDestination.html)
+
+
+
+
+### <a name="pause"></a> `pause(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`
+
+Pause playback of the current file.
+
+
+Parameters:
+
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../../../danog/MadelineProto/MediaDestination.html)
+
+
+
+
+### <a name="resume"></a> `resume(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`
+
+Resume playback of the current file.
+
+
+Parameters:
+
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../../../danog/MadelineProto/MediaDestination.html)
+
+
+
+
+### <a name="getCurrent"></a> `getCurrent(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|string|null`
+
+The file or stream currently being played, if any.
+
+
+Parameters:
+
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../../../danog/MadelineProto/MediaDestination.html)
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../../danog/MadelineProto/RemoteUrl.html)
+
+
+
+
+### <a name="isPaused"></a> `isPaused(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): bool`
+
+Whether playback of the current file is paused.
+
+
+Parameters:
+
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../../../danog/MadelineProto/MediaDestination.html)
+
+
+
+
+### <a name="enablePresentation"></a> `enablePresentation(): static`
+
+Start the separate screen-share connection (phone.joinGroupCallPresentation) if it is not up
+yet. The screen-share is a fully separate WebRTC connection with its own SSRC and transport;  
+see https://core.telegram.org/api/group-calls. Idempotent.  
+
+
+
+### <a name="disablePresentation"></a> `disablePresentation(): static`
+
+Stop sharing the screen: tear down the presentation connection and leave it server-side.
+
+
+
+### <a name="isSharingScreen"></a> `isSharingScreen(): bool`
+
+Whether a screen-share is currently being transmitted.
+
+
+
+### <a name="setMuted"></a> `setMuted(bool $muted = true): static`
+
+Mute or unmute ourselves.
+
+
+Parameters:
+
+* `$muted`: `bool`   
+
+
+
+### <a name="isMuted"></a> `isMuted(): bool`
+
+Whether we are muted.
+
+
+
+### <a name="setTitle"></a> `setTitle(string $title): static`
+
+Change the title of the call.
+
+
+Parameters:
+
+* `$title`: `string`   
 
 
 

@@ -62,7 +62,8 @@ See https://core.telegram.org/api/group-calls for more info.
 * [`setVideoPaused(bool $paused): static`](#setVideoPaused)
 * [`setJoinMuted(bool $joinMuted): static`](#setJoinMuted)
 * [`resetInviteHash(): static`](#resetInviteHash)
-* [`setOutput(\danog\MadelineProto\LocalFile|\danog\MadelineProto\LocalDirectory|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): static`](#setOutput)
+* [`setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?int $streams = NULL): int`](#setOutput)
+* [`setOutputFolder(\danog\MadelineProto\LocalDirectory $dir, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): static`](#setOutputFolder)
 * [`play(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`](#play)
 * [`playBlocking(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`](#playBlocking)
 * [`then(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`](#then)
@@ -295,36 +296,71 @@ Invalidate every invite link exported so far (admins only).
 
 
 
-### <a name="setOutput"></a> `setOutput(\danog\MadelineProto\LocalFile|\danog\MadelineProto\LocalDirectory|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): static`
+### <a name="setOutput"></a> `setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?int $streams = NULL): int`
 
-Record group call media, muxed into a Matroska file in pure PHP.
+Record one participant into a single file (or stream) with a fixed set of tracks, muxed into
+Matroska in pure PHP.  
   
-Only a {@see LocalDirectory} is accepted: it records every transmitting participant — or only the  
-given `$participant` — as `<dir>/<peerId>.<n>_<streams>.mkv` files, one per combination of the  
-audio, camera video and screen share they send, each on or off at any time (see  
-{@see Call::setOutput()}; participants that start transmitting later are picked up too). Our own  
-media is never recorded.  
+`$participant` (a user id, username or peer) is required — every participant is recorded to  
+its own file, see {@see self::setOutputFolder()} to record everyone at once — except in  
+[stream mode »](https://core.telegram.org/api/group-calls#stream-mode) ({@see self::isStreamMode()}),  
+where there is a single mixed audio (and, for an RTMP livestream, video) stream rather than one per  
+participant: pass no `$participant`, and any {@see RecordingFormat}. Our own media is never recorded.  
+  
+The file holds the streams chosen with `$streams` — a bitmask of {@see CallStream::AUDIO},  
+{@see CallStream::VIDEO} and {@see CallStream::SCREEN}, every one of which must be available — or,  
+when null, every stream the participant currently sends; the available streams are returned. The  
+tracks are fixed for the whole file: a stream turned off stops being written and resumes when it  
+comes back, and only a change of codec or the end of the call finishes the file (see  
+{@see Call::setOutput()}); every such event is reported by a {@see CallStreams} update.  
   
 Participants' frames are stored as-is, so the video tracks are whatever codec they send and the  
 audio is OPUS; `$format` picks the {@see RecordingFormat::Mkv} (default) or {@see RecordingFormat::Webm}  
-DocType, autodetected from a `.webm` extension. Audio-only OGG OPUS recordings are not supported,  
-except in [stream mode »](https://core.telegram.org/api/group-calls#stream-mode) ({@see self::isStreamMode()}),  
-where there is a single mixed audio stream rather than one per participant: pass no `$participant`  
-(a {@see LocalDirectory} records it as `<dir>/stream.ogg`), and any {@see RecordingFormat}.  
+DocType, autodetected from a `.webm` extension.  
 
 
 Parameters:
 
-* `$file`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\LocalDirectory|\Amp\ByteStream\WritableStream`   
+* `$file`: `\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream`   
+* `$participant`: `mixed`   
+* `$format`: `?\danog\MadelineProto\RecordingFormat`   
+* `$streams`: `?int` The streams to record, as a bitmask of {@see CallStream} flags, or null for every available one.  
+
+
+Return value: The streams the participant currently sends, as a bitmask of {@see CallStream} flags.
+
+#### See also: 
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
+* `\Amp\ByteStream\WritableStream`
+* [`\danog\MadelineProto\RecordingFormat`: Container format of a call recording, as passed to {@see Call::setOutput()} and {@see Call::setOutputFolder()}.](../../../../danog/MadelineProto/RecordingFormat.html)
+
+
+
+
+### <a name="setOutputFolder"></a> `setOutputFolder(\danog\MadelineProto\LocalDirectory $dir, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): static`
+
+Record group call media into a directory, muxed into Matroska files in pure PHP.
+  
+Records every transmitting participant — or only the given `$participant` — as  
+`<dir>/<peerId>.<n>_<streams>.mkv` files, one per combination of the audio, camera video and  
+screen share they send, each on or off at any time (see {@see Call::setOutputFolder()};  
+participants that start transmitting later are picked up too). Our own media is never recorded.  
+In [stream mode »](https://core.telegram.org/api/group-calls#stream-mode) the mixed stream is  
+recorded as `<dir>/stream.mkv` (or `.ogg` for {@see RecordingFormat::Opus}).  
+  
+`$format` picks the {@see RecordingFormat::Mkv} (default) or {@see RecordingFormat::Webm} DocType.  
+
+
+Parameters:
+
+* `$dir`: `\danog\MadelineProto\LocalDirectory`   
 * `$participant`: `mixed`   
 * `$format`: `?\danog\MadelineProto\RecordingFormat`   
 
 
 #### See also: 
-* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
 * [`\danog\MadelineProto\LocalDirectory`: Indicates a local directory to write output into.](../../../../danog/MadelineProto/LocalDirectory.html)
-* `\Amp\ByteStream\WritableStream`
-* [`\danog\MadelineProto\RecordingFormat`: Container format of a call recording, as passed to {@see Call::setOutput()}.](../../../../danog/MadelineProto/RecordingFormat.html)
+* [`\danog\MadelineProto\RecordingFormat`: Container format of a call recording, as passed to {@see Call::setOutput()} and {@see Call::setOutputFolder()}.](../../../../danog/MadelineProto/RecordingFormat.html)
 
 
 
