@@ -39,27 +39,27 @@ encrypted messages).
 * [`getPublic(): \danog\MadelineProto\EventHandler\Calls\ConferenceCall`](#getPublic)
 * [`isJoined(): bool`](#isJoined)
 * [`isCallEnded(): bool`](#isCallEnded)
-* [`getCallState(): \danog\MadelineProto\GroupCall\GroupCallState`](#getCallState)
+* [`getCallState(): \danog\MadelineProto\EventHandler\Calls\GroupCallState`](#getCallState)
 * [`activeEpochs(): array`](#activeEpochs)
 * [`selfSeed(): string`](#selfSeed)
 * [`publicKeyForSsrc(int $ssrc): ?string`](#publicKeyForSsrc)
 * [`create(bool $muted = false): void`](#create)
 * [`join(bool $muted = false): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#join)
-* [`editParticipant(mixed $participant, ?bool $muted = NULL, ?int $volume = NULL, ?bool $videoPaused = NULL): void`](#editParticipant)
+* [`editParticipant(array|string|int $participant, ?bool $muted = NULL, ?int $volume = NULL, ?bool $videoPaused = NULL): void`](#editParticipant)
 * [`toggleSettings(?bool $joinMuted = NULL, bool $resetInviteHash = false, ?bool $messagesEnabled = NULL): void`](#toggleSettings)
-* [`invite(mixed ...$users): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#invite)
+* [`invite(string|int ...$users): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#invite)
 * [`exportInvite(bool $canSelfUnmute = false): string`](#exportInvite)
-* [`removeParticipant(mixed ...$participants): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#removeParticipant)
+* [`removeParticipant(string|int ...$participants): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#removeParticipant)
 * [`syncChain(int $subChainId): void`](#syncChain)
 * [`then(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#then)
 * [`discard(): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#discard)
 * [`leave(): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#leave)
-* [`getParticipants(): array<int, array{public_key: string, permissions: int, version: int}>`](#getParticipants)
+* [`getParticipants(): array<int, \danog\MadelineProto\EventHandler\Calls\ConferenceCallParticipant>`](#getParticipants)
 * [`getVisualization(): (list<string>|null)`](#getVisualization)
 * [`sendMessage(string $message, ?\danog\MadelineProto\ParseMode $parseMode = NULL, ?int $paidStars = NULL, mixed $sendAs = NULL): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#sendMessage)
 * [`sendReaction(string $emoji, ?int $customEmojiId = NULL): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#sendReaction)
-* [`setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?int $streams = NULL): int`](#setOutput)
-* [`setOutputFolder(\danog\MadelineProto\LocalDirectory $dir, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#setOutputFolder)
+* [`setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, string|int|null $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?StreamMask $streams = NULL): StreamMask`](#setOutput)
+* [`setOutputFolder(\danog\MadelineProto\LocalDirectory $dir, string|int|null $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`](#setOutputFolder)
 * [`getChain(): \danog\MadelineProto\Tgcalls\E2E\ConferenceChain`](#getChain)
 * [`log(string $message, int $level = \danog\MadelineProto\Logger::NOTICE): void`](#log)
 * [`onIncomingSource(int $source): void`](#onIncomingSource)
@@ -150,13 +150,13 @@ not while we are merely between a drop and the automatic re-join.
 
 
 
-### <a name="getCallState"></a> `getCallState(): \danog\MadelineProto\GroupCall\GroupCallState`
+### <a name="getCallState"></a> `getCallState(): \danog\MadelineProto\EventHandler\Calls\GroupCallState`
 
 Get the state of the conference call.
 
 
 #### See also: 
-* [`\danog\MadelineProto\GroupCall\GroupCallState`: State of a group call we are interacting with.](../../../../danog/MadelineProto/GroupCall/GroupCallState.html)
+* [`\danog\MadelineProto\EventHandler\Calls\GroupCallState`: State of a group call we are interacting with.](../../../../danog/MadelineProto/EventHandler/Calls/GroupCallState.html)
 
 
 
@@ -208,7 +208,7 @@ Parameters:
 
 
 
-### <a name="editParticipant"></a> `editParticipant(mixed $participant, ?bool $muted = NULL, ?int $volume = NULL, ?bool $videoPaused = NULL): void`
+### <a name="editParticipant"></a> `editParticipant(array|string|int $participant, ?bool $muted = NULL, ?int $volume = NULL, ?bool $videoPaused = NULL): void`
 
 Change a participant's state (phone.editGroupCallParticipant): mute them for ourselves, set our
 playback volume of them, or pause/resume our own video.  
@@ -216,7 +216,7 @@ playback volume of them, or pause/resume our own video.
 
 Parameters:
 
-* `$participant`: `mixed`   
+* `$participant`: `array|string|int`   
 * `$muted`: `?bool`   
 * `$volume`: `?int`   
 * `$videoPaused`: `?bool`   
@@ -237,7 +237,7 @@ Parameters:
 
 
 
-### <a name="invite"></a> `invite(mixed ...$users): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
+### <a name="invite"></a> `invite(string|int ...$users): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
 
 Invite users to the conference call (phone.inviteConferenceCallParticipant), ringing them; once
 they accept they add themselves to the chain with their own self-join block.  
@@ -245,7 +245,7 @@ they accept they add themselves to the chain with their own self-join block.
 
 Parameters:
 
-* `...$users`: `mixed`   
+* `...$users`: `string|int`   
 
 
 
@@ -262,7 +262,7 @@ Parameters:
 
 
 
-### <a name="removeParticipant"></a> `removeParticipant(mixed ...$participants): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
+### <a name="removeParticipant"></a> `removeParticipant(string|int ...$participants): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
 
 Remove participants from the conference: build a block dropping them and rekeying for the
 remaining members, then submit it with phone.deleteConferenceCallParticipants. Requires the  
@@ -272,7 +272,7 @@ takes over.
 
 Parameters:
 
-* `...$participants`: `mixed`   
+* `...$participants`: `string|int`   
 
 
 
@@ -321,10 +321,15 @@ stop receiving its updates.
 
 
 
-### <a name="getParticipants"></a> `getParticipants(): array<int, array{public_key: string, permissions: int, version: int}>`
+### <a name="getParticipants"></a> `getParticipants(): array<int, \danog\MadelineProto\EventHandler\Calls\ConferenceCallParticipant>`
 
 The participants currently in the conference, keyed by user id, each with their Ed25519
-`public_key` and `permissions` bits from the shared-state chain.  
+public key, permission bits and protocol version from the shared-state chain.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Calls\ConferenceCallParticipant`: A participant of an end-to-end encrypted {@see ConferenceCall}, as reconstructed from the](../../../../danog/MadelineProto/EventHandler/Calls/ConferenceCallParticipant.html)
+
 
 
 
@@ -369,7 +374,7 @@ Parameters:
 
 
 
-### <a name="setOutput"></a> `setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?int $streams = NULL): int`
+### <a name="setOutput"></a> `setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, string|int|null $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?StreamMask $streams = NULL): StreamMask`
 
 Record one participant's (decrypted) media into a single file (or stream) with a fixed set of
 tracks, see {@see GroupMediaTrait::recordParticipant()}.  
@@ -378,9 +383,9 @@ tracks, see {@see GroupMediaTrait::recordParticipant()}.
 Parameters:
 
 * `$file`: `\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream`   
-* `$participant`: `mixed`   
+* `$participant`: `string|int|null`   
 * `$format`: `?\danog\MadelineProto\RecordingFormat`   
-* `$streams`: `?int` The {@see CallStream} flags to record, or null for every available one.  
+* `$streams`: `?StreamMask` The {@see CallStream} flags to record, or null for every available one.  
 
 
 Return value: The streams the participant currently sends, as {@see CallStream} flags.
@@ -389,11 +394,12 @@ Return value: The streams the participant currently sends, as {@see CallStream} 
 * [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
 * `\Amp\ByteStream\WritableStream`
 * [`\danog\MadelineProto\RecordingFormat`: Container format of a call recording, as passed to {@see Call::setOutput()} and {@see Call::setOutputFolder()}.](../../../../danog/MadelineProto/RecordingFormat.html)
+* `StreamMask`
 
 
 
 
-### <a name="setOutputFolder"></a> `setOutputFolder(\danog\MadelineProto\LocalDirectory $dir, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
+### <a name="setOutputFolder"></a> `setOutputFolder(\danog\MadelineProto\LocalDirectory $dir, string|int|null $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): \danog\MadelineProto\Tgcalls\E2E\ConferenceCall`
 
 Record the conference (decrypted) into a directory, as numbered series of Matroska files, one
 per participant, see {@see GroupMediaTrait::recordFolder()}.  
@@ -402,7 +408,7 @@ per participant, see {@see GroupMediaTrait::recordFolder()}.
 Parameters:
 
 * `$dir`: `\danog\MadelineProto\LocalDirectory`   
-* `$participant`: `mixed`   
+* `$participant`: `string|int|null`   
 * `$format`: `?\danog\MadelineProto\RecordingFormat`   
 
 

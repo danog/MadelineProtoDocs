@@ -48,11 +48,9 @@ See https://core.telegram.org/api/group-calls for more info.
 * `$duration`: `?int` Duration of the call in seconds, once it has ended.
 
 ## Method list:
-* [`join(bool $muted = false, mixed $joinAs = NULL, (string|null) $inviteHash = NULL): static`](#join)
-* [`setTitle(string $title): static`](#setTitle)
-* [`invite(mixed ...$users): static`](#invite)
+* [`join(bool $muted = false, (string|int|null) $joinAs = NULL, (string|null) $inviteHash = NULL): static`](#join)
 * [`exportInvite(bool $canSelfUnmute = false): string`](#exportInvite)
-* [`removeParticipant(mixed ...$participants): static`](#removeParticipant)
+* [`removeParticipant(string|int ...$participants): static`](#removeParticipant)
 * [`raiseHand(bool $raised = true): static`](#raiseHand)
 * [`startRecording((string|null) $title = NULL, bool $video = false, bool $portrait = false): static`](#startRecording)
 * [`stopRecording(): static`](#stopRecording)
@@ -60,25 +58,27 @@ See https://core.telegram.org/api/group-calls for more info.
 * [`setStartSubscription(bool $subscribed): static`](#setStartSubscription)
 * [`leave(): static`](#leave)
 * [`discard(): static`](#discard)
+* [`invite(string|int ...$users): static`](#invite)
+* [`setTitle(string $title): static`](#setTitle)
 * [`isJoined(): bool`](#isJoined)
-* [`getCallState(): \danog\MadelineProto\GroupCall\GroupCallState`](#getCallState)
-* [`getParticipants(): array<int, \danog\MadelineProto\GroupCall\Participant>`](#getParticipants)
-* [`getParticipant(mixed $participant): ?\danog\MadelineProto\GroupCall\Participant`](#getParticipant)
+* [`getCallState(): \danog\MadelineProto\EventHandler\Calls\GroupCallState`](#getCallState)
+* [`getParticipants(): array<int, TParticipant>`](#getParticipants)
+* [`getParticipant(string|int $participant): (TParticipant|null)`](#getParticipant)
 * [`getVisualization(): ?array`](#getVisualization)
 * [`setMuted(bool $muted = true): static`](#setMuted)
 * [`isMuted(): bool`](#isMuted)
-* [`sendMessage(string $message, (\danog\MadelineProto\ParseMode|null) $parseMode = NULL, (int|null) $paidStars = NULL, mixed $sendAs = NULL): static`](#sendMessage)
+* [`sendMessage(string $message, (\danog\MadelineProto\ParseMode|null) $parseMode = NULL, (int|null) $paidStars = NULL, (string|int|null) $sendAs = NULL): static`](#sendMessage)
 * [`sendReaction(string $emoji, (int|null) $customEmojiId = NULL): static`](#sendReaction)
 * [`deleteMessages(list<int> $ids, bool $reportSpam = false): static`](#deleteMessages)
-* [`deleteParticipantMessages(mixed $participant, bool $reportSpam = false): static`](#deleteParticipantMessages)
+* [`deleteParticipantMessages(string|int $participant, bool $reportSpam = false): static`](#deleteParticipantMessages)
 * [`setMessagesEnabled(bool $enabled): static`](#setMessagesEnabled)
-* [`muteParticipant(mixed $participant, bool $muted = true): static`](#muteParticipant)
-* [`setParticipantVolume(mixed $participant, int $volume): static`](#setParticipantVolume)
+* [`muteParticipant(string|int $participant, bool $muted = true): static`](#muteParticipant)
+* [`setParticipantVolume(string|int $participant, int<1, 20000> $volume): static`](#setParticipantVolume)
 * [`setVideoPaused(bool $paused): static`](#setVideoPaused)
 * [`setJoinMuted(bool $joinMuted): static`](#setJoinMuted)
 * [`resetInviteHash(): static`](#resetInviteHash)
-* [`setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?int $streams = NULL): int`](#setOutput)
-* [`setOutputFolder(\danog\MadelineProto\LocalDirectory $dir, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): static`](#setOutputFolder)
+* [`setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, string|int|null $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, (StreamMask|null) $streams = NULL): StreamMask`](#setOutput)
+* [`setOutputFolder(\danog\MadelineProto\LocalDirectory $dir, string|int|null $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): static`](#setOutputFolder)
 * [`play(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`](#play)
 * [`playBlocking(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`](#playBlocking)
 * [`then(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`](#then)
@@ -96,7 +96,7 @@ See https://core.telegram.org/api/group-calls for more info.
 * [`isRtmpMode(): bool`](#isRtmpMode)
 
 ## Methods:
-### <a name="join"></a> `join(bool $muted = false, mixed $joinAs = NULL, (string|null) $inviteHash = NULL): static`
+### <a name="join"></a> `join(bool $muted = false, (string|int|null) $joinAs = NULL, (string|null) $inviteHash = NULL): static`
 
 Join the group call.
 
@@ -104,30 +104,8 @@ Join the group call.
 Parameters:
 
 * `$muted`: `bool` Whether to join muted.  
-* `$joinAs`: `mixed` Peer to join as: ourselves, or a channel we own (see {@see MTProto::getGroupCallJoinAs()}).  
+* `$joinAs`: `(string|int|null)` Peer to join as: ourselves, or a channel we own (see {@see MTProto::getGroupCallJoinAs()}).  
 * `$inviteHash`: `(string|null)` Invite hash from a [video chat invite link »](https://core.telegram.org/api/links#video-chat-livestream-links), if any.  
-
-
-
-### <a name="setTitle"></a> `setTitle(string $title): static`
-
-Change the title of the group call.
-
-
-Parameters:
-
-* `$title`: `string`   
-
-
-
-### <a name="invite"></a> `invite(mixed ...$users): static`
-
-Invite users to the group call.
-
-
-Parameters:
-
-* `...$users`: `mixed`   
 
 
 
@@ -142,7 +120,7 @@ Parameters:
 
 
 
-### <a name="removeParticipant"></a> `removeParticipant(mixed ...$participants): static`
+### <a name="removeParticipant"></a> `removeParticipant(string|int ...$participants): static`
 
 Remove participants from the group call.
   
@@ -153,7 +131,7 @@ a supergroup or channel), which also drops them from the call. Requires the `ban
 
 Parameters:
 
-* `...$participants`: `mixed`   
+* `...$participants`: `string|int`   
 
 
 
@@ -218,46 +196,68 @@ End the group call for all participants.
 
 
 
+### <a name="invite"></a> `invite(string|int ...$users): static`
+
+Invite users to the group call (or, for a live story, to watch it).
+
+
+Parameters:
+
+* `...$users`: `string|int`   
+
+
+
+### <a name="setTitle"></a> `setTitle(string $title): static`
+
+Change the title of the group call.
+
+
+Parameters:
+
+* `$title`: `string`   
+
+
+
 ### <a name="isJoined"></a> `isJoined(): bool`
 
 Whether we are currently in the group call (joined and not left).
 
 
 
-### <a name="getCallState"></a> `getCallState(): \danog\MadelineProto\GroupCall\GroupCallState`
+### <a name="getCallState"></a> `getCallState(): \danog\MadelineProto\EventHandler\Calls\GroupCallState`
 
 Get the state of the group call.
 
 
 #### See also: 
-* [`\danog\MadelineProto\GroupCall\GroupCallState`: State of a group call we are interacting with.](../../../../danog/MadelineProto/GroupCall/GroupCallState.html)
+* [`\danog\MadelineProto\EventHandler\Calls\GroupCallState`: State of a group call we are interacting with.](../../../../danog/MadelineProto/EventHandler/Calls/GroupCallState.html)
 
 
 
 
-### <a name="getParticipants"></a> `getParticipants(): array<int, \danog\MadelineProto\GroupCall\Participant>`
+### <a name="getParticipants"></a> `getParticipants(): array<int, TParticipant>`
 
 Get all known participants, indexed by their bot API peer ID.
 
 
 #### See also: 
-* [`\danog\MadelineProto\GroupCall\Participant`: A participant of a group call, mirroring](../../../../danog/MadelineProto/GroupCall/Participant.html)
+* `TParticipant`
 
 
 
 
-### <a name="getParticipant"></a> `getParticipant(mixed $participant): ?\danog\MadelineProto\GroupCall\Participant`
+### <a name="getParticipant"></a> `getParticipant(string|int $participant): (TParticipant|null)`
 
 A participant of the call by their id, username or peer, or null if they are not in it.
 
 
 Parameters:
 
-* `$participant`: `mixed`   
+* `$participant`: `string|int`   
 
 
 #### See also: 
-* [`\danog\MadelineProto\GroupCall\Participant`: A participant of a group call, mirroring](../../../../danog/MadelineProto/GroupCall/Participant.html)
+* `TParticipant`
 
 
 
@@ -285,7 +285,7 @@ Whether our own audio stream is muted.
 
 
 
-### <a name="sendMessage"></a> `sendMessage(string $message, (\danog\MadelineProto\ParseMode|null) $parseMode = NULL, (int|null) $paidStars = NULL, mixed $sendAs = NULL): static`
+### <a name="sendMessage"></a> `sendMessage(string $message, (\danog\MadelineProto\ParseMode|null) $parseMode = NULL, (int|null) $paidStars = NULL, (string|int|null) $sendAs = NULL): static`
 
 Send an [in-call message »](https://core.telegram.org/api/group-calls#in-call-messages), shown as
 an overlay by the participants' clients (there is no chat history), if messages are enabled.  
@@ -296,7 +296,7 @@ Parameters:
 * `$message`: `string` The text; markup in `$parseMode` is converted to entities.  
 * `$parseMode`: `(\danog\MadelineProto\ParseMode|null)` Whether to parse HTML or Markdown markup in the text.  
 * `$paidStars`: `(int|null)` Live stories only: Telegram Stars to donate with the message (at least {@see self::$sendPaidMessagesStars}).  
-* `$sendAs`: `mixed` Live stories only: the peer to send the message as.  
+* `$sendAs`: `(string|int|null)` Live stories only: the peer to send the message as.  
 
 
 #### See also: 
@@ -329,14 +329,14 @@ Parameters:
 
 
 
-### <a name="deleteParticipantMessages"></a> `deleteParticipantMessages(mixed $participant, bool $reportSpam = false): static`
+### <a name="deleteParticipantMessages"></a> `deleteParticipantMessages(string|int $participant, bool $reportSpam = false): static`
 
 Delete every in-call message of a participant (admins only).
 
 
 Parameters:
 
-* `$participant`: `mixed`   
+* `$participant`: `string|int`   
 * `$reportSpam`: `bool` Also report them as spam.  
 
 
@@ -352,7 +352,7 @@ Parameters:
 
 
 
-### <a name="muteParticipant"></a> `muteParticipant(mixed $participant, bool $muted = true): static`
+### <a name="muteParticipant"></a> `muteParticipant(string|int $participant, bool $muted = true): static`
 
 Mute or unmute a participant (admins only; a participant muted by an admin may not unmute
 themselves), or, for a non-admin, mute a participant only for ourselves.  
@@ -360,20 +360,20 @@ themselves), or, for a non-admin, mute a participant only for ourselves.
 
 Parameters:
 
-* `$participant`: `mixed`   
+* `$participant`: `string|int`   
 * `$muted`: `bool`   
 
 
 
-### <a name="setParticipantVolume"></a> `setParticipantVolume(mixed $participant, int $volume): static`
+### <a name="setParticipantVolume"></a> `setParticipantVolume(string|int $participant, int<1, 20000> $volume): static`
 
 Set our local playback volume of a participant.
 
 
 Parameters:
 
-* `$participant`: `mixed`   
-* `$volume`: `int` From 1 to 20000, where 10000 is 100%.  
+* `$participant`: `string|int`   
+* `$volume`: `int<1, 20000>` From 1 to 20000, where 10000 is 100%.  
 
 
 
@@ -406,7 +406,7 @@ Invalidate every invite link exported so far (admins only).
 
 
 
-### <a name="setOutput"></a> `setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?int $streams = NULL): int`
+### <a name="setOutput"></a> `setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, string|int|null $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, (StreamMask|null) $streams = NULL): StreamMask`
 
 Record one participant into a single file (or stream) with a fixed set of tracks, muxed into
 Matroska in pure PHP.  
@@ -432,9 +432,9 @@ DocType, autodetected from a `.webm` extension.
 Parameters:
 
 * `$file`: `\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream`   
-* `$participant`: `mixed`   
+* `$participant`: `string|int|null`   
 * `$format`: `?\danog\MadelineProto\RecordingFormat`   
-* `$streams`: `?int` The streams to record, as a bitmask of {@see CallStream} flags, or null for every available one.  
+* `$streams`: `(StreamMask|null)` The streams to record, as a bitmask of {@see CallStream} flags, or null for every available one.  
 
 
 Return value: The streams the participant currently sends, as a bitmask of {@see CallStream} flags.
@@ -443,11 +443,12 @@ Return value: The streams the participant currently sends, as a bitmask of {@see
 * [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
 * `\Amp\ByteStream\WritableStream`
 * [`\danog\MadelineProto\RecordingFormat`: Container format of a call recording, as passed to {@see Call::setOutput()} and {@see Call::setOutputFolder()}.](../../../../danog/MadelineProto/RecordingFormat.html)
+* `StreamMask`
 
 
 
 
-### <a name="setOutputFolder"></a> `setOutputFolder(\danog\MadelineProto\LocalDirectory $dir, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): static`
+### <a name="setOutputFolder"></a> `setOutputFolder(\danog\MadelineProto\LocalDirectory $dir, string|int|null $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): static`
 
 Record group call media into a directory, muxed into Matroska files in pure PHP.
   
@@ -464,7 +465,7 @@ recorded as `<dir>/stream.mkv` (or `.ogg` for {@see RecordingFormat::Opus}).
 Parameters:
 
 * `$dir`: `\danog\MadelineProto\LocalDirectory`   
-* `$participant`: `mixed`   
+* `$participant`: `string|int|null`   
 * `$format`: `?\danog\MadelineProto\RecordingFormat`   
 
 

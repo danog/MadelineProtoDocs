@@ -1,12 +1,12 @@
 ---
-title: "danog\\MadelineProto\\GroupCall\\GroupCallStars: The [Telegram Stars donations](https://core.telegram.org/api/group-calls#paid-live-story-donations)"
+title: "danog\\MadelineProto\\EventHandler\\Calls\\GroupCallStars: The [Telegram Stars donations](https://core.telegram.org/api/group-calls#paid-live-story-donations)"
 description: "received by a live story, from [phone.groupCallStars](https://core.telegram.org/constructor/phone.groupCallStars).\n"
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
 ---
-# `danog\MadelineProto\GroupCall\GroupCallStars`
-[Back to index](../../../index.html)
+# `danog\MadelineProto\EventHandler\Calls\GroupCallStars`
+[Back to index](../../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   

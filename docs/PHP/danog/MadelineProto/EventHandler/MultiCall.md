@@ -26,16 +26,18 @@ concrete classes: {@see Calls\AbstractGroupCall} for everything a video chat and
 
 
 ## Method list:
+* [`getParticipants(): array<int, TParticipant>`](#getParticipants)
+* [`getParticipant(string|int $participant): (TParticipant|null)`](#getParticipant)
 * [`leave(): static`](#leave)
 * [`setTitle(string $title): static`](#setTitle)
-* [`invite(mixed ...$users): static`](#invite)
+* [`invite((string|int) ...$users): static`](#invite)
 * [`exportInvite(bool $canSelfUnmute = false): string`](#exportInvite)
-* [`removeParticipant(mixed ...$participants): static`](#removeParticipant)
-* [`sendMessage(string $message, (\danog\MadelineProto\ParseMode|null) $parseMode = NULL, (int|null) $paidStars = NULL, mixed $sendAs = NULL): static`](#sendMessage)
+* [`removeParticipant((string|int) ...$participants): static`](#removeParticipant)
+* [`sendMessage(string $message, (\danog\MadelineProto\ParseMode|null) $parseMode = NULL, (int|null) $paidStars = NULL, (string|int|null) $sendAs = NULL): static`](#sendMessage)
 * [`sendReaction(string $emoji, (int|null) $customEmojiId = NULL): static`](#sendReaction)
 * [`setMessagesEnabled(bool $enabled): static`](#setMessagesEnabled)
-* [`muteParticipant(mixed $participant, bool $muted = true): static`](#muteParticipant)
-* [`setParticipantVolume(mixed $participant, int $volume): static`](#setParticipantVolume)
+* [`muteParticipant(string|int $participant, bool $muted = true): static`](#muteParticipant)
+* [`setParticipantVolume(string|int $participant, int<1, 20000> $volume): static`](#setParticipantVolume)
 * [`setVideoPaused(bool $paused): static`](#setVideoPaused)
 * [`setJoinMuted(bool $joinMuted): static`](#setJoinMuted)
 * [`resetInviteHash(): static`](#resetInviteHash)
@@ -44,9 +46,7 @@ concrete classes: {@see Calls\AbstractGroupCall} for everything a video chat and
 * [`join(bool $muted = false): static`](#join)
 * [`discard(): static`](#discard)
 * [`isJoined(): bool`](#isJoined)
-* [`getCallState(): \danog\MadelineProto\VoIP\CallState|\danog\MadelineProto\GroupCall\GroupCallState`](#getCallState)
-* [`getParticipants(): array<int, mixed>`](#getParticipants)
-* [`getParticipant(mixed $participant): mixed`](#getParticipant)
+* [`getCallState(): \danog\MadelineProto\VoIP\CallState|\danog\MadelineProto\EventHandler\Calls\GroupCallState`](#getCallState)
 * [`getVisualization(): (list<string>|null)`](#getVisualization)
 * [`play(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`](#play)
 * [`playBlocking(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`](#playBlocking)
@@ -63,10 +63,41 @@ concrete classes: {@see Calls\AbstractGroupCall} for everything a video chat and
 * [`enablePresentation(): static`](#enablePresentation)
 * [`disablePresentation(): static`](#disablePresentation)
 * [`isSharingScreen(): bool`](#isSharingScreen)
-* [`setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?int $streams = NULL): int`](#setOutput)
-* [`setOutputFolder(\danog\MadelineProto\LocalDirectory $dir, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): static`](#setOutputFolder)
+* [`setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, string|int|null $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, (StreamMask|null) $streams = NULL): StreamMask`](#setOutput)
+* [`setOutputFolder(\danog\MadelineProto\LocalDirectory $dir, string|int|null $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): static`](#setOutputFolder)
 
 ## Methods:
+### <a name="getParticipants"></a> `getParticipants(): array<int, TParticipant>`
+
+The participants currently known to be in the call, keyed by their bot API id.
+  
+The element type is call-type specific: a {@see Calls\GroupCallParticipant} (or, for a live  
+story, a {@see Calls\LiveStoryParticipant}) for a group call, a {@see Calls\ConferenceCallParticipant}  
+for a conference.  
+
+
+#### See also: 
+* `TParticipant`
+
+
+
+
+### <a name="getParticipant"></a> `getParticipant(string|int $participant): (TParticipant|null)`
+
+A participant of the call by their id, username or peer, or null if they are not in it.
+
+
+Parameters:
+
+* `$participant`: `string|int`   
+
+
+#### See also: 
+* `TParticipant`
+
+
+
+
 ### <a name="leave"></a> `leave(): static`
 
 Leave the call, keeping it running for the other participants (unlike {@see Call::discard()},
@@ -85,14 +116,14 @@ Parameters:
 
 
 
-### <a name="invite"></a> `invite(mixed ...$users): static`
+### <a name="invite"></a> `invite((string|int) ...$users): static`
 
 Invite users to the call.
 
 
 Parameters:
 
-* `...$users`: `mixed` The users to invite (user ids, usernames or peers).  
+* `...$users`: `(string|int)` The users to invite (user ids, usernames or peers).  
 
 
 
@@ -107,18 +138,18 @@ Parameters:
 
 
 
-### <a name="removeParticipant"></a> `removeParticipant(mixed ...$participants): static`
+### <a name="removeParticipant"></a> `removeParticipant((string|int) ...$participants): static`
 
 Remove participants from the call.
 
 
 Parameters:
 
-* `...$participants`: `mixed` The participants to remove (user ids, usernames or peers).  
+* `...$participants`: `(string|int)` The participants to remove (user ids, usernames or peers).  
 
 
 
-### <a name="sendMessage"></a> `sendMessage(string $message, (\danog\MadelineProto\ParseMode|null) $parseMode = NULL, (int|null) $paidStars = NULL, mixed $sendAs = NULL): static`
+### <a name="sendMessage"></a> `sendMessage(string $message, (\danog\MadelineProto\ParseMode|null) $parseMode = NULL, (int|null) $paidStars = NULL, (string|int|null) $sendAs = NULL): static`
 
 Send an [in-call message »](https://core.telegram.org/api/group-calls#in-call-messages) to the
 participants of the call, shown as an overlay by their clients (there is no chat history).  
@@ -129,7 +160,7 @@ Parameters:
 * `$message`: `string` The text; markup in `$parseMode` is converted to entities.  
 * `$parseMode`: `(\danog\MadelineProto\ParseMode|null)` Whether to parse HTML or Markdown markup in the text.  
 * `$paidStars`: `(int|null)` Live stories only: Telegram Stars to donate with the message (at least the story's minimum, see {@see Calls\LiveStory::setPaidMessagesStars()}).  
-* `$sendAs`: `mixed` Live stories only: the peer to send the message as.  
+* `$sendAs`: `(string|int|null)` Live stories only: the peer to send the message as.  
 
 
 #### See also: 
@@ -162,7 +193,7 @@ Parameters:
 
 
 
-### <a name="muteParticipant"></a> `muteParticipant(mixed $participant, bool $muted = true): static`
+### <a name="muteParticipant"></a> `muteParticipant(string|int $participant, bool $muted = true): static`
 
 Mute or unmute a participant (admins only), or, for a non-admin, mute a participant only for
 ourselves. A participant muted by an admin may not unmute themselves.  
@@ -170,20 +201,20 @@ ourselves. A participant muted by an admin may not unmute themselves.
 
 Parameters:
 
-* `$participant`: `mixed`   
+* `$participant`: `string|int`   
 * `$muted`: `bool`   
 
 
 
-### <a name="setParticipantVolume"></a> `setParticipantVolume(mixed $participant, int $volume): static`
+### <a name="setParticipantVolume"></a> `setParticipantVolume(string|int $participant, int<1, 20000> $volume): static`
 
 Set our local playback volume of a participant.
 
 
 Parameters:
 
-* `$participant`: `mixed`   
-* `$volume`: `int` From 1 to 20000, where 10000 is 100%.  
+* `$participant`: `string|int`   
+* `$volume`: `int<1, 20000>` From 1 to 20000, where 10000 is 100%.  
 
 
 
@@ -255,7 +286,7 @@ call we joined and did not leave.
 
 
 
-### <a name="getCallState"></a> `getCallState(): \danog\MadelineProto\VoIP\CallState|\danog\MadelineProto\GroupCall\GroupCallState`
+### <a name="getCallState"></a> `getCallState(): \danog\MadelineProto\VoIP\CallState|\danog\MadelineProto\EventHandler\Calls\GroupCallState`
 
 The state of the call: a {@see CallState} for a one-to-one call, a {@see GroupCallState} for a
 multi-party call.  
@@ -263,30 +294,8 @@ multi-party call.
 
 #### See also: 
 * [\danog\MadelineProto\VoIP\CallState](../../../danog/MadelineProto/VoIP/CallState.html)
-* [`\danog\MadelineProto\GroupCall\GroupCallState`: State of a group call we are interacting with.](../../../danog/MadelineProto/GroupCall/GroupCallState.html)
+* [`\danog\MadelineProto\EventHandler\Calls\GroupCallState`: State of a group call we are interacting with.](../../../danog/MadelineProto/EventHandler/Calls/GroupCallState.html)
 
-
-
-
-### <a name="getParticipants"></a> `getParticipants(): array<int, mixed>`
-
-The participants currently known to be in the call, keyed by their bot API id.
-  
-The element type is call-type specific, so the concrete class documents it: the other party's  
-{@see \danog\MadelineProto\VoIP\MediaState} for a one-to-one call, a  
-{@see \danog\MadelineProto\GroupCall\Participant} for a group call, the chain state for a conference.  
-
-
-
-### <a name="getParticipant"></a> `getParticipant(mixed $participant): mixed`
-
-A participant of the call by their id, username or peer, or null if they are not in it; the
-element type is the same as {@see self::getParticipants()}'s.  
-
-
-Parameters:
-
-* `$participant`: `mixed`   
 
 
 
@@ -524,7 +533,7 @@ Whether a screen-share is currently being transmitted.
 
 
 
-### <a name="setOutput"></a> `setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?int $streams = NULL): int`
+### <a name="setOutput"></a> `setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, string|int|null $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, (StreamMask|null) $streams = NULL): StreamMask`
 
 Record the incoming media of a participant into one file (or stream) with a fixed set of tracks.
   
@@ -561,9 +570,9 @@ a raw stream, whose extension is unknown, defaults to WebM.
 Parameters:
 
 * `$file`: `\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream`   
-* `$participant`: `mixed`   
+* `$participant`: `string|int|null`   
 * `$format`: `?\danog\MadelineProto\RecordingFormat`   
-* `$streams`: `?int` The streams to record, as a bitmask of {@see CallStream} flags, or null for every available one.  
+* `$streams`: `(StreamMask|null)` The streams to record, as a bitmask of {@see CallStream} flags, or null for every available one.  
 
 
 Return value: The streams the participant currently sends, as a bitmask of {@see CallStream} flags.
@@ -572,11 +581,12 @@ Return value: The streams the participant currently sends, as a bitmask of {@see
 * [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../danog/MadelineProto/LocalFile.html)
 * `\Amp\ByteStream\WritableStream`
 * [`\danog\MadelineProto\RecordingFormat`: Container format of a call recording, as passed to {@see Call::setOutput()} and {@see Call::setOutputFolder()}.](../../../danog/MadelineProto/RecordingFormat.html)
+* `StreamMask`
 
 
 
 
-### <a name="setOutputFolder"></a> `setOutputFolder(\danog\MadelineProto\LocalDirectory $dir, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): static`
+### <a name="setOutputFolder"></a> `setOutputFolder(\danog\MadelineProto\LocalDirectory $dir, string|int|null $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): static`
 
 Record the incoming media of the call into a directory, following every change of the streams.
   
@@ -602,7 +612,7 @@ The files are Matroska ({@see RecordingFormat::Mkv} by default, or {@see Recordi
 Parameters:
 
 * `$dir`: `\danog\MadelineProto\LocalDirectory`   
-* `$participant`: `mixed`   
+* `$participant`: `string|int|null`   
 * `$format`: `?\danog\MadelineProto\RecordingFormat`   
 
 

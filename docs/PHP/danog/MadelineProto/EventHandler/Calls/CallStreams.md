@@ -1,6 +1,6 @@
 ---
 title: "danog\\MadelineProto\\EventHandler\\Calls\\CallStreams: The streams a participant of a call sends (their microphone, camera and screen share, see"
-description: "{@see CallStream}) or their codecs changed, or a recording of them started or ended.\n\nEmitted for every call type: the other party of a one-to-one {@see PrivateCall}, and every\nparticipant of a {@see GroupCall}, {@see LiveStory} or {@see ConferenceCall}. In\n[stream mode »](https://core.telegram.org/api/group-calls#stream-mode) the mixed stream is\nreported as participant `0`.\n\nUse {@see self::$streams} to decide what to record with {@see Call::setOutput()}: the file's\ntracks are fixed when it is opened, so a stream that becomes available afterwards is not\nadded to it — call {@see Call::setOutput()} again to start a new file with it.\n"
+description: "{@see CallStream}) or their codecs changed, or a recording of them ended.\n\nEmitted for every call type: the other party of a one-to-one {@see PrivateCall}, and every\nparticipant of a {@see GroupCall}, {@see LiveStory} or {@see ConferenceCall}. In\n[stream mode »](https://core.telegram.org/api/group-calls#stream-mode) the mixed stream is\nreported as participant `0`.\n\nUse {@see self::$streams} to decide what to record with {@see Call::setOutput()}: the file's\ntracks are fixed when it is opened, so a stream that becomes available afterwards is not\nadded to it — call {@see Call::setOutput()} again to start a new file with it.\n"
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
@@ -13,7 +13,7 @@ parent: "MadelineProto API"
 
 The streams a participant of a call sends (their microphone, camera and screen share, see  
 
-{@see CallStream}) or their codecs changed, or a recording of them started or ended.
+{@see CallStream}) or their codecs changed, or a recording of them ended.
 
 Emitted for every call type: the other party of a one-to-one {@see PrivateCall}, and every
 participant of a {@see GroupCall}, {@see LiveStory} or {@see ConferenceCall}. In
@@ -28,29 +28,31 @@ added to it — call {@see Call::setOutput()} again to start a new file with it.
 ## Properties
 * `$call`: `danog\MadelineProto\EventHandler\Call` The call.
 * `$participant`: `int` Bot API id of the participant whose streams these are (`0` for the mixed stream of a stream-mode group call).
-* `$streams`: `int` The streams the participant currently sends: a bitmask of {@see CallStream::AUDIO},
+* `$streams`: `StreamMask` The streams the participant currently sends: a bitmask of {@see CallStream::AUDIO},
 {@see CallStream::VIDEO} and {@see CallStream::SCREEN}.
 * `$codecs`: `array<int, string>` The codec of every stream media was received for so far, as a Matroska codec ID (`A_OPUS`,
 `V_VP8`, `V_VP9`, `V_MPEG4/ISO/AVC`, `V_MPEGH/ISO/HEVC`, `V_AV1`), keyed by stream:
 {@see CallStream::AUDIO}, {@see CallStream::VIDEO} or {@see CallStream::SCREEN}. A stream that is
 on but whose first frame has not arrived yet is not listed.
-* `$recording`: `?danog\MadelineProto\RecordingEvent` Whether a recording of this participant started or ended, or null if the streams merely changed.
-* `$file`: `?danog\MadelineProto\LocalFile` The file the recording that started or ended is written to, if it is a local file: the one
-passed to {@see Call::setOutput()}, or the file {@see Call::setOutputFolder()} opened for the
-participant. Null for a recording into a stream, or if no recording event is reported.
+* `$recordingStopped`: `bool` Whether a recording of this participant just ended (false when the streams merely changed).
 
 ## Method list:
-* [`has(int $stream): bool`](#has)
+* [`has(StreamMask $stream): bool`](#has)
 
 ## Methods:
-### <a name="has"></a> `has(int $stream): bool`
+### <a name="has"></a> `has(StreamMask $stream): bool`
 
 Whether the participant currently sends a given stream ({@see CallStream::AUDIO}, {@see CallStream::VIDEO} or {@see CallStream::SCREEN}).
 
 
 Parameters:
 
-* `$stream`: `int`   
+* `$stream`: `StreamMask`   
+
+
+#### See also: 
+* `StreamMask`
+
 
 
 

@@ -521,16 +521,22 @@ Here's a full list of the concrete object types on which bound methods and prope
 * [danog\MadelineProto\EventHandler\Calls\AbstractGroupCall &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/AbstractGroupCall.html) - What a [video chat/livestream »](https://core.telegram.org/api/group-calls#video-chats-livestreams)
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/AbstractGroupCall.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/AbstractGroupCall.html#method-list)
+* [danog\MadelineProto\EventHandler\Calls\AbstractGroupCallMessage &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/AbstractGroupCallMessage.html) - What an in-call message of a video chat ({@see GroupCallMessage}) and of a live story
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/AbstractGroupCallMessage.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/AbstractGroupCallMessage.html#method-list)
 * [danog\MadelineProto\EventHandler\Calls\CallStreams &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/CallStreams.html) - The streams a participant of a call sends (their microphone, camera and screen share, see
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/CallStreams.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/CallStreams.html#method-list)
 * [danog\MadelineProto\EventHandler\Calls\ConferenceCall &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/ConferenceCall.html) - This update represents a Telegram [end-to-end encrypted conference call »](https://core.telegram.org/api/end-to-end/group-calls).
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/ConferenceCall.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/ConferenceCall.html#method-list)
+* [danog\MadelineProto\EventHandler\Calls\ConferenceCallMessage &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/ConferenceCallMessage.html) - An end-to-end encrypted [in-call message or reaction »](https://core.telegram.org/api/end-to-end/group-calls#conference-in-call-messages)
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/ConferenceCallMessage.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/ConferenceCallMessage.html#method-list)
 * [danog\MadelineProto\EventHandler\Calls\GroupCall &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/GroupCall.html) - This update represents a Telegram [video chat or livestream »](https://core.telegram.org/api/group-calls#video-chats-livestreams):
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/GroupCall.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/GroupCall.html#method-list)
-* [danog\MadelineProto\EventHandler\Calls\GroupCallMessage &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/GroupCallMessage.html) - An [in-call message or reaction »](https://core.telegram.org/api/group-calls#in-call-messages) sent in
+* [danog\MadelineProto\EventHandler\Calls\GroupCallMessage &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/GroupCallMessage.html) - An [in-call message or reaction »](https://core.telegram.org/api/group-calls#in-call-messages) sent in a [video chat or livestream »](https://core.telegram.org/api/group-calls#video-chats-livestreams)
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/GroupCallMessage.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/GroupCallMessage.html#method-list)
 * [danog\MadelineProto\EventHandler\Calls\GroupCallMessagesDeleted &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/GroupCallMessagesDeleted.html) - Some [in-call messages »](https://core.telegram.org/api/group-calls#in-call-messages) of a group call
@@ -542,6 +548,12 @@ Here's a full list of the concrete object types on which bound methods and prope
 * [danog\MadelineProto\EventHandler\Calls\LiveStory &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/LiveStory.html) - This update represents a Telegram [live story »](https://core.telegram.org/api/group-calls#live-stories):
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/LiveStory.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/LiveStory.html#method-list)
+* [danog\MadelineProto\EventHandler\Calls\LiveStoryMessage &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/LiveStoryMessage.html) - An [in-call message or reaction »](https://core.telegram.org/api/group-calls#in-call-messages) sent in a [live story »](https://core.telegram.org/api/group-calls#live-stories) ({@see LiveStory}).
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/LiveStoryMessage.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/LiveStoryMessage.html#method-list)
+* [danog\MadelineProto\EventHandler\Calls\MultiCallMessage &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/MultiCallMessage.html) - An [in-call message or reaction »](https://core.telegram.org/api/group-calls#in-call-messages) sent in a multi-party call, shown as an overlay by the participants' clients (there is no chat history).
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/MultiCallMessage.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/MultiCallMessage.html#method-list)
 * [danog\MadelineProto\EventHandler\Calls\PrivateCall &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/PrivateCall.html) - This update represents a private (one-to-one) VoIP Telegram call.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/PrivateCall.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/PrivateCall.html#method-list)

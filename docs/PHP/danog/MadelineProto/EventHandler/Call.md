@@ -1,6 +1,6 @@
 ---
 title: "danog\\MadelineProto\\EventHandler\\Call: Common interface implemented by every call type: one-to-one {@see Calls\\PrivateCall} calls, and the"
-description: "multi-party {@see Calls\\GroupCall} (video chats, livestreams) and {@see Calls\\ConferenceCall} (end-to-end\nencrypted conference) calls, which additionally implement {@see MultiCall}.\n\nIt covers the whole surface shared by all call types, so code can drive any call uniformly:\n - the lifecycle ({@see self::join()}, {@see self::discard()}, {@see self::isJoined()}, {@see self::getCallState()}),\n - who is in the call ({@see self::getParticipants()}) and, for end-to-end encrypted calls, the\n   key verification emojis ({@see self::getVisualization()}),\n - the playlist/DJ playback controls and the mute controls,\n - screen sharing ({@see self::enablePresentation()} and friends) and\n - recording ({@see self::setOutput()} and {@see self::setOutputFolder()}).\n\nEvery playlist control takes a {@see MediaDestination} selecting the stream it acts on: the main\ncamera+mic stream (default) or a separate presentation (screen-share) stream, which is started on\nfirst use.\n"
+description: "multi-party {@see Calls\\GroupCall} (video chats, livestreams) and {@see Calls\\ConferenceCall} (end-to-end\nencrypted conference) calls, which additionally implement {@see MultiCall}.\n\nIt covers the whole surface shared by all call types, so code can drive any call uniformly:\n - the lifecycle ({@see self::join()}, {@see self::discard()}, {@see self::isJoined()}, {@see self::getCallState()}),\n - who is in a multi-party call ({@see MultiCall::getParticipants()}) and, for end-to-end encrypted calls, the\n   key verification emojis ({@see self::getVisualization()}),\n - the playlist/DJ playback controls and the mute controls,\n - screen sharing ({@see self::enablePresentation()} and friends) and\n - recording ({@see self::setOutput()} and {@see self::setOutputFolder()}).\n\nEvery playlist control takes a {@see MediaDestination} selecting the stream it acts on: the main\ncamera+mic stream (default) or a separate presentation (screen-share) stream, which is started on\nfirst use.\n"
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
@@ -18,7 +18,7 @@ encrypted conference) calls, which additionally implement {@see MultiCall}.
 
 It covers the whole surface shared by all call types, so code can drive any call uniformly:
  - the lifecycle ({@see self::join()}, {@see self::discard()}, {@see self::isJoined()}, {@see self::getCallState()}),
- - who is in the call ({@see self::getParticipants()}) and, for end-to-end encrypted calls, the
+ - who is in a multi-party call ({@see MultiCall::getParticipants()}) and, for end-to-end encrypted calls, the
    key verification emojis ({@see self::getVisualization()}),
  - the playlist/DJ playback controls and the mute controls,
  - screen sharing ({@see self::enablePresentation()} and friends) and
@@ -34,9 +34,7 @@ first use.
 * [`join(bool $muted = false): static`](#join)
 * [`discard(): static`](#discard)
 * [`isJoined(): bool`](#isJoined)
-* [`getCallState(): \danog\MadelineProto\VoIP\CallState|\danog\MadelineProto\GroupCall\GroupCallState`](#getCallState)
-* [`getParticipants(): array<int, mixed>`](#getParticipants)
-* [`getParticipant(mixed $participant): mixed`](#getParticipant)
+* [`getCallState(): \danog\MadelineProto\VoIP\CallState|\danog\MadelineProto\EventHandler\Calls\GroupCallState`](#getCallState)
 * [`getVisualization(): (list<string>|null)`](#getVisualization)
 * [`play(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`](#play)
 * [`playBlocking(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`](#playBlocking)
@@ -53,8 +51,8 @@ first use.
 * [`enablePresentation(): static`](#enablePresentation)
 * [`disablePresentation(): static`](#disablePresentation)
 * [`isSharingScreen(): bool`](#isSharingScreen)
-* [`setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?int $streams = NULL): int`](#setOutput)
-* [`setOutputFolder(\danog\MadelineProto\LocalDirectory $dir, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): static`](#setOutputFolder)
+* [`setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, string|int|null $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, (StreamMask|null) $streams = NULL): StreamMask`](#setOutput)
+* [`setOutputFolder(\danog\MadelineProto\LocalDirectory $dir, string|int|null $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): static`](#setOutputFolder)
 
 ## Methods:
 ### <a name="join"></a> `join(bool $muted = false): static`
@@ -82,7 +80,7 @@ call we joined and did not leave.
 
 
 
-### <a name="getCallState"></a> `getCallState(): \danog\MadelineProto\VoIP\CallState|\danog\MadelineProto\GroupCall\GroupCallState`
+### <a name="getCallState"></a> `getCallState(): \danog\MadelineProto\VoIP\CallState|\danog\MadelineProto\EventHandler\Calls\GroupCallState`
 
 The state of the call: a {@see CallState} for a one-to-one call, a {@see GroupCallState} for a
 multi-party call.  
@@ -90,30 +88,8 @@ multi-party call.
 
 #### See also: 
 * [\danog\MadelineProto\VoIP\CallState](../../../danog/MadelineProto/VoIP/CallState.html)
-* [`\danog\MadelineProto\GroupCall\GroupCallState`: State of a group call we are interacting with.](../../../danog/MadelineProto/GroupCall/GroupCallState.html)
+* [`\danog\MadelineProto\EventHandler\Calls\GroupCallState`: State of a group call we are interacting with.](../../../danog/MadelineProto/EventHandler/Calls/GroupCallState.html)
 
-
-
-
-### <a name="getParticipants"></a> `getParticipants(): array<int, mixed>`
-
-The participants currently known to be in the call, keyed by their bot API id.
-  
-The element type is call-type specific, so the concrete class documents it: the other party's  
-{@see \danog\MadelineProto\VoIP\MediaState} for a one-to-one call, a  
-{@see \danog\MadelineProto\GroupCall\Participant} for a group call, the chain state for a conference.  
-
-
-
-### <a name="getParticipant"></a> `getParticipant(mixed $participant): mixed`
-
-A participant of the call by their id, username or peer, or null if they are not in it; the
-element type is the same as {@see self::getParticipants()}'s.  
-
-
-Parameters:
-
-* `$participant`: `mixed`   
 
 
 
@@ -351,7 +327,7 @@ Whether a screen-share is currently being transmitted.
 
 
 
-### <a name="setOutput"></a> `setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?int $streams = NULL): int`
+### <a name="setOutput"></a> `setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, string|int|null $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, (StreamMask|null) $streams = NULL): StreamMask`
 
 Record the incoming media of a participant into one file (or stream) with a fixed set of tracks.
   
@@ -388,9 +364,9 @@ a raw stream, whose extension is unknown, defaults to WebM.
 Parameters:
 
 * `$file`: `\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream`   
-* `$participant`: `mixed`   
+* `$participant`: `string|int|null`   
 * `$format`: `?\danog\MadelineProto\RecordingFormat`   
-* `$streams`: `?int` The streams to record, as a bitmask of {@see CallStream} flags, or null for every available one.  
+* `$streams`: `(StreamMask|null)` The streams to record, as a bitmask of {@see CallStream} flags, or null for every available one.  
 
 
 Return value: The streams the participant currently sends, as a bitmask of {@see CallStream} flags.
@@ -399,11 +375,12 @@ Return value: The streams the participant currently sends, as a bitmask of {@see
 * [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../danog/MadelineProto/LocalFile.html)
 * `\Amp\ByteStream\WritableStream`
 * [`\danog\MadelineProto\RecordingFormat`: Container format of a call recording, as passed to {@see Call::setOutput()} and {@see Call::setOutputFolder()}.](../../../danog/MadelineProto/RecordingFormat.html)
+* `StreamMask`
 
 
 
 
-### <a name="setOutputFolder"></a> `setOutputFolder(\danog\MadelineProto\LocalDirectory $dir, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): static`
+### <a name="setOutputFolder"></a> `setOutputFolder(\danog\MadelineProto\LocalDirectory $dir, string|int|null $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): static`
 
 Record the incoming media of the call into a directory, following every change of the streams.
   
@@ -429,7 +406,7 @@ The files are Matroska ({@see RecordingFormat::Mkv} by default, or {@see Recordi
 Parameters:
 
 * `$dir`: `\danog\MadelineProto\LocalDirectory`   
-* `$participant`: `mixed`   
+* `$participant`: `string|int|null`   
 * `$format`: `?\danog\MadelineProto\RecordingFormat`   
 
 

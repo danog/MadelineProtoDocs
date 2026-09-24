@@ -1,19 +1,20 @@
 ---
-title: "danog\\MadelineProto\\EventHandler\\Calls\\GroupCallMessage: An [in-call message or reaction »](https://core.telegram.org/api/group-calls#in-call-messages) sent in a [video chat or livestream »](https://core.telegram.org/api/group-calls#video-chats-livestreams)"
-description: "({@see GroupCall}), mirroring [groupCallMessage](https://core.telegram.org/constructor/groupCallMessage).\n"
+title: "danog\\MadelineProto\\EventHandler\\Calls\\AbstractGroupCallMessage: What an in-call message of a video chat ({@see GroupCallMessage}) and of a live story"
+description: "({@see LiveStoryMessage}) have in common: both are server-side (not end-to-end encrypted) messages\nof a group call, with a server-assigned {@see self::$id} and moderation.\n"
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
 ---
-# `danog\MadelineProto\EventHandler\Calls\GroupCallMessage`
+# `danog\MadelineProto\EventHandler\Calls\AbstractGroupCallMessage`
 [Back to index](../../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-An [in-call message or reaction »](https://core.telegram.org/api/group-calls#in-call-messages) sent in a [video chat or livestream »](https://core.telegram.org/api/group-calls#video-chats-livestreams)  
+What an in-call message of a video chat ({@see GroupCallMessage}) and of a live story  
 
-({@see GroupCall}), mirroring [groupCallMessage](https://core.telegram.org/constructor/groupCallMessage).
+({@see LiveStoryMessage}) have in common: both are server-side (not end-to-end encrypted) messages
+of a group call, with a server-assigned {@see self::$id} and moderation.
 
 
 ## Properties

@@ -136,8 +136,8 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`getGroupCall(mixed $peer): ?\danog\MadelineProto\EventHandler\Calls\GroupCall`](#getGroupCall)
 * [`getGroupCallBySlug(string $slug): ?\danog\MadelineProto\EventHandler\Calls\GroupCall`](#getGroupCallBySlug)
 * [`getGroupCallJoinAs(mixed $peer): list<int>`](#getGroupCallJoinAs)
-* [`getGroupCallParticipants(int $id): array<int, \danog\MadelineProto\EventHandler\Participant>`](#getGroupCallParticipants)
-* [`getGroupCallState(int $id): \danog\MadelineProto\GroupCall\GroupCallState`](#getGroupCallState)
+* [`getGroupCallParticipants(int $id): array<int, \danog\MadelineProto\EventHandler\Calls\AbstractGroupCallParticipant>`](#getGroupCallParticipants)
+* [`getGroupCallState(int $id): \danog\MadelineProto\EventHandler\Calls\GroupCallState`](#getGroupCallState)
 * [`getGroupCallStreamRtmpUrl(mixed $peer, bool $revoke = false, bool $liveStory = false): array{url: string, key: string}`](#getGroupCallStreamRtmpUrl)
 * [`getHTTPClient(): \Amp\Http\Client\HttpClient`](#getHTTPClient)
 * [`getHint(): string`](#getHint)
@@ -1676,7 +1676,7 @@ Parameters:
 
 
 
-### <a name="getGroupCallParticipants"></a> `getGroupCallParticipants(int $id): array<int, \danog\MadelineProto\EventHandler\Participant>`
+### <a name="getGroupCallParticipants"></a> `getGroupCallParticipants(int $id): array<int, \danog\MadelineProto\EventHandler\Calls\AbstractGroupCallParticipant>`
 
 Get the participants of a group call, indexed by their bot API peer ID.
 
@@ -1687,12 +1687,12 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\EventHandler\Participant`: Info about a channel participant.](../../danog/MadelineProto/EventHandler/Participant.html)
+* [`\danog\MadelineProto\EventHandler\Calls\AbstractGroupCallParticipant`: What a participant of a video chat ({@see GroupCallParticipant}) and of a live story](../../danog/MadelineProto/EventHandler/Calls/AbstractGroupCallParticipant.html)
 
 
 
 
-### <a name="getGroupCallState"></a> `getGroupCallState(int $id): \danog\MadelineProto\GroupCall\GroupCallState`
+### <a name="getGroupCallState"></a> `getGroupCallState(int $id): \danog\MadelineProto\EventHandler\Calls\GroupCallState`
 
 Get the state of a group call.
 
@@ -1703,7 +1703,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\GroupCall\GroupCallState`: State of a group call we are interacting with.](../../danog/MadelineProto/GroupCall/GroupCallState.html)
+* [`\danog\MadelineProto\EventHandler\Calls\GroupCallState`: State of a group call we are interacting with.](../../danog/MadelineProto/EventHandler/Calls/GroupCallState.html)
 
 
 

@@ -1,12 +1,12 @@
 ---
-title: "danog\\MadelineProto\\GroupCall\\GroupCallDonor: A donor of a [live story](https://core.telegram.org/api/group-calls#live-stories), from"
+title: "danog\\MadelineProto\\EventHandler\\Calls\\GroupCallDonor: A donor of a [live story](https://core.telegram.org/api/group-calls#live-stories), from"
 description: "[groupCallDonor](https://core.telegram.org/constructor/groupCallDonor).\n"
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
 ---
-# `danog\MadelineProto\GroupCall\GroupCallDonor`
-[Back to index](../../../index.html)
+# `danog\MadelineProto\EventHandler\Calls\GroupCallDonor`
+[Back to index](../../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   

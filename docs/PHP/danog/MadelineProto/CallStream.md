@@ -35,35 +35,45 @@ turn on and off at any time. A *set* of streams is a bitmask of these flags, as 
 
 
 ## Method list:
-* [`names(int $streams): list<string>`](#names)
-* [`describe(int $streams): string`](#describe)
-* [`of(bool $audio, bool $video, bool $screen): int`](#of)
-* [`validate(int $streams): void`](#validate)
+* [`names(StreamMask $streams): list<string>`](#names)
+* [`describe(StreamMask $streams): string`](#describe)
+* [`of(bool $audio, bool $video, bool $screen): StreamMask`](#of)
+* [`validate(StreamMask $streams): void`](#validate)
 
 ## Methods:
-### <a name="names"></a> `names(int $streams): list<string>`
+### <a name="names"></a> `names(StreamMask $streams): list<string>`
 
 The names of the streams in a set, in order: `audio`, `video`, `screen`.
 
 
 Parameters:
 
-* `$streams`: `int`   
+* `$streams`: `StreamMask`   
+
+
+#### See also: 
+* `StreamMask`
 
 
 
-### <a name="describe"></a> `describe(int $streams): string`
+
+### <a name="describe"></a> `describe(StreamMask $streams): string`
 
 A human-readable description of a set of streams: `audio+video`, or `nothing` for an empty set.
 
 
 Parameters:
 
-* `$streams`: `int`   
+* `$streams`: `StreamMask`   
+
+
+#### See also: 
+* `StreamMask`
 
 
 
-### <a name="of"></a> `of(bool $audio, bool $video, bool $screen): int`
+
+### <a name="of"></a> `of(bool $audio, bool $video, bool $screen): StreamMask`
 
 Build a set from the state of each stream.
 
@@ -75,15 +85,25 @@ Parameters:
 * `$screen`: `bool`   
 
 
+#### See also: 
+* `StreamMask`
 
-### <a name="validate"></a> `validate(int $streams): void`
+
+
+
+### <a name="validate"></a> `validate(StreamMask $streams): void`
 
 Check that a set only holds known flags.
 
 
 Parameters:
 
-* `$streams`: `int`   
+* `$streams`: `StreamMask`   
+
+
+#### See also: 
+* `StreamMask`
+
 
 
 

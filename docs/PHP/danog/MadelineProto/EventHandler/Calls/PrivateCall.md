@@ -34,13 +34,12 @@ Conference calls are end-to-end encrypted and cannot be joined by MadelineProto 
 * [`discard(\danog\MadelineProto\VoIP\DiscardReason $reason = \danog\MadelineProto\VoIP\DiscardReason::HANGUP, int<1, 5> $rating = NULL, string $comment = NULL): static`](#discard)
 * [`isJoined(): bool`](#isJoined)
 * [`getCallState(): \danog\MadelineProto\VoIP\CallState`](#getCallState)
-* [`getParticipants(): array<int, \danog\MadelineProto\VoIP\MediaState>`](#getParticipants)
-* [`getParticipant(mixed $participant): ?\danog\MadelineProto\VoIP\MediaState`](#getParticipant)
+* [`getRemoteMediaState(): ?\danog\MadelineProto\VoIP\MediaState`](#getRemoteMediaState)
 * [`getVisualization(): ?list{string, string, string, string}`](#getVisualization)
 * [`play(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`](#play)
 * [`playBlocking(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`](#playBlocking)
-* [`setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?int $streams = NULL): int`](#setOutput)
-* [`setOutputFolder(\danog\MadelineProto\LocalDirectory $dir, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): static`](#setOutputFolder)
+* [`setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, string|int|null $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, (StreamMask|null) $streams = NULL): StreamMask`](#setOutput)
+* [`setOutputFolder(\danog\MadelineProto\LocalDirectory $dir, string|int|null $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): static`](#setOutputFolder)
 * [`then(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`](#then)
 * [`skip(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`](#skip)
 * [`stop(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): static`](#stop)
@@ -102,28 +101,12 @@ Get call state.
 
 
 
-### <a name="getParticipants"></a> `getParticipants(): array<int, \danog\MadelineProto\VoIP\MediaState>`
+### <a name="getRemoteMediaState"></a> `getRemoteMediaState(): ?\danog\MadelineProto\VoIP\MediaState`
 
 The other party of the call, keyed by their user ID, with their media state (mute, camera and
 screencast status) as reported by their client.  
   
 Empty until the call is connected and the other party has reported their media state.  
-
-
-#### See also: 
-* [`\danog\MadelineProto\VoIP\MediaState`: The media state of the other party of a one-to-one call, as reported by its `MediaState`](../../../../danog/MadelineProto/VoIP/MediaState.html)
-
-
-
-
-### <a name="getParticipant"></a> `getParticipant(mixed $participant): ?\danog\MadelineProto\VoIP\MediaState`
-
-The media state of the other party, if `$participant` is them and the call is connected.
-
-
-Parameters:
-
-* `$participant`: `mixed`   
 
 
 #### See also: 
@@ -183,7 +166,7 @@ Parameters:
 
 
 
-### <a name="setOutput"></a> `setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?int $streams = NULL): int`
+### <a name="setOutput"></a> `setOutput(\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, string|int|null $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, (StreamMask|null) $streams = NULL): StreamMask`
 
 Record the other party into one file (or stream) with a fixed set of tracks.
   
@@ -210,9 +193,9 @@ streams is accepted, the recording starts with the chosen ones once media flows,
 Parameters:
 
 * `$file`: `\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream`   
-* `$participant`: `mixed`   
+* `$participant`: `string|int|null`   
 * `$format`: `?\danog\MadelineProto\RecordingFormat`   
-* `$streams`: `?int` The streams to record, as a bitmask of {@see CallStream} flags, or null for every available one.  
+* `$streams`: `(StreamMask|null)` The streams to record, as a bitmask of {@see CallStream} flags, or null for every available one.  
 
 
 Return value: The streams the other party currently sends, as a bitmask of {@see CallStream} flags.
@@ -221,11 +204,12 @@ Return value: The streams the other party currently sends, as a bitmask of {@see
 * [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
 * `\Amp\ByteStream\WritableStream`
 * [`\danog\MadelineProto\RecordingFormat`: Container format of a call recording, as passed to {@see Call::setOutput()} and {@see Call::setOutputFolder()}.](../../../../danog/MadelineProto/RecordingFormat.html)
+* `StreamMask`
 
 
 
 
-### <a name="setOutputFolder"></a> `setOutputFolder(\danog\MadelineProto\LocalDirectory $dir, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): static`
+### <a name="setOutputFolder"></a> `setOutputFolder(\danog\MadelineProto\LocalDirectory $dir, string|int|null $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): static`
 
 Record the other party into a directory, as `<dir>/0_<streams>.mkv`, `<dir>/1_<streams>.mkv`, …:
 one file per combination of streams (audio, camera, screencast) they send, a new one each time  
@@ -236,7 +220,7 @@ other party, and is therefore optional.
 Parameters:
 
 * `$dir`: `\danog\MadelineProto\LocalDirectory`   
-* `$participant`: `mixed`   
+* `$participant`: `string|int|null`   
 * `$format`: `?\danog\MadelineProto\RecordingFormat`   
 
 
