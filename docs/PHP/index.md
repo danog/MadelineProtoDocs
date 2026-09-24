@@ -92,10 +92,6 @@ Async PHP client API for the telegram MTProto protocol.
 * [\danog\MadelineProto\TL\Conversion\Extension: Manages generation of extensions for files.](/PHP/danog/MadelineProto/TL/Conversion/Extension.html)
 
 ## Classes
-* [\danog\MadelineProto\Test\CallRecorderCodecTest: End-to-end, offline: the video of a Matroska file is packetized into RTP payloads exactly as we](/PHP/danog/MadelineProto/Test/CallRecorderCodecTest.html)
-* [\danog\MadelineProto\Test\CallRecorderFixedTest: A fixed recorder (the {@see \danog\MadelineProto\EventHandler\Call::setOutput()} mode) writes one file](/PHP/danog/MadelineProto/Test/CallRecorderFixedTest.html)
-* [\danog\MadelineProto\Test\CallRecorderSegmentsTest: A series recorder (the {@see \danog\MadelineProto\EventHandler\Call::setOutputFolder()} mode) follows the](/PHP/danog/MadelineProto/Test/CallRecorderSegmentsTest.html)
-* [\danog\MadelineProto\Test\IncomingMediaTest: The incoming media router reports every change of a participant's streams and codecs, and every](/PHP/danog/MadelineProto/Test/IncomingMediaTest.html)
 * [\danog\MadelineProto\API: Main API wrapper for MadelineProto.](/PHP/danog/MadelineProto/API.html)
 * [\danog\MadelineProto\BotApiFileId: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](/PHP/danog/MadelineProto/BotApiFileId.html)
 * [\danog\MadelineProto\CallStream: The media streams a participant of a call can send, as bit flags.](/PHP/danog/MadelineProto/CallStream.html)
