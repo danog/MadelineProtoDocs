@@ -157,7 +157,7 @@ PonyHandler::startAndLoop('session.madeline');
 
 ## Recording calls
 
-To record the incoming audio stream in a call, simply use `setOutput`:
+To record the incoming media of a call, use `setOutput` (one file with a fixed set of tracks) or `setOutputFolder` (a directory, one file per combination of streams):
 
 ```php
 <?php
@@ -169,11 +169,14 @@ if (!file_exists('madeline.php')) {
 }
 include 'madeline.php';
 
+use danog\MadelineProto\CallStream;
+use danog\MadelineProto\EventHandler\Calls\CallStreams;
 use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
 use danog\MadelineProto\VoIP;
 use danog\MadelineProto\RemoteUrl;
+use danog\MadelineProto\LocalDirectory;
 use danog\MadelineProto\LocalFile;
-use danog\MadelineProto\MediaDestination;
+use danog\MadelineProto\RecordingEvent;
 use danog\MadelineProto\EventHandler\Attributes\Handler;
 use Amp\ByteStream\WritableStream;
 
@@ -185,16 +188,42 @@ class PonyHandler extends \danog\MadelineProto\SimpleEventHandler
         $call->join();
         $call->play(new RemoteUrl('http://icestreaming.rai.it/1.mp3'));
 
-        // Records the incoming audio as an OGG OPUS stream: a .mkv or .webm name records both audio and video instead.
+        // Records the incoming audio as an OGG OPUS stream: a .mkv or .webm name records video too.
         $call->setOutput(new LocalFile('output.ogg'));
 
-        // Records the other party's screencast, if they share their screen.
-        $call->setOutput(new LocalFile('screen.mkv'), dest: MediaDestination::Presentation);
+        // Records every stream the other party is sending right now (mic, camera, screen share)
+        // into one Matroska file, and returns them as a bitmask of CallStream flags.
+        $streams = $call->setOutput(new LocalFile('call.mkv'));
+
+        // Records only the audio and the screen share: every chosen stream must be available,
+        // or an exception is thrown.
+        $call->setOutput(new LocalFile('screen.mkv'), streams: CallStream::AUDIO | CallStream::SCREEN);
+
+        // Records into a directory instead: a new numbered file (0_audio.mkv, 1_audio,video.mkv, …)
+        // every time the other party turns a stream on or off.
+        $call->setOutputFolder(new LocalDirectory('recordings'));
 
         // $stream can also be a WritableStream.
-        // Can be used to pipe OGG OPUS audio data to ffmpeg, asterisk via amphp/process, amphp/socket, etc...
+        // Can be used to pipe OGG OPUS or WebM data to ffmpeg, asterisk via amphp/process, amphp/socket, etc...
         //
         //$call->setOutput($stream);
+    }
+
+    // Emitted for every call type, whenever the streams a participant sends (or their codecs)
+    // change, and whenever a recording starts or ends.
+    #[Handler]
+    public function onStreams(CallStreams $update): void
+    {
+        $this->logger("Participant {$update->participant} of {$update->call} sends ".CallStream::describe($update->streams).': '.json_encode($update->codecs));
+        if ($update->recording === RecordingEvent::Started) {
+            $this->logger("Recording {$update->file?->file} started");
+        } elseif ($update->recording === RecordingEvent::Ended) {
+            $this->logger("Recording {$update->file?->file} ended");
+        } elseif ($update->has(CallStream::VIDEO)) {
+            // The camera is on: a file opened before it came on keeps its tracks, so start a new
+            // one holding it (finishing the previous one).
+            $update->call->setOutput(new LocalFile('call_video.mkv'), $update->participant, streams: CallStream::AUDIO | CallStream::VIDEO);
+        }
     }
 
     // Plays incoming audio files into a Telegram call
@@ -207,6 +236,8 @@ class PonyHandler extends \danog\MadelineProto\SimpleEventHandler
 
 PonyHandler::startAndLoop('session.madeline');
 ```
+
+A file recorded with `setOutput` keeps its tracks for its whole duration: a stream the participant turns off simply stops being written and resumes when it comes back, and a stream that becomes available later is not added (call `setOutput` again to start a new file with it). Only a change of codec of a video stream, or the end of the call, finishes the file early. A `setOutputFolder` recording follows every change instead, closing the current file and opening a new one named after the streams it holds (`<n>_<streams>.mkv`, with `streams` listing `audio`, `video` and `screen`).
 
 <a href="https://docs.madelineproto.xyz/docs/FILES.html">Next section</a>
 
@@ -229,8 +260,9 @@ $call = $this->joinGroupCall('@mygroup', muted: false, joinAs: '@mychannel');
 // Playback and recording work exactly like in one-to-one calls.
 $call->play(new RemoteUrl('http://icestreaming.rai.it/1.mp3'));
 $call->play(new LocalFile('slides.webm'), MediaDestination::Presentation); // screen-share
-$call->setOutput(new LocalDirectory('recordings'));                        // one .mkv per participant
-$call->setOutput(new LocalFile('bob.mkv'), '@bob');                        // a single participant
+$call->setOutputFolder(new LocalDirectory('recordings'));                  // one numbered .mkv series per participant
+$call->setOutput(new LocalFile('bob.mkv'), '@bob');                        // a single participant, one file with fixed tracks
+$call->setOutput(new LocalFile('bob_audio.mkv'), '@bob', streams: CallStream::AUDIO);
 
 // Manage the call (admin operations require the right admin rights).
 $call->setTitle('New title');
@@ -274,7 +306,7 @@ public function onCallMessage(GroupCallMessage $message): void
 
 ### Livestreams, RTMP and stream mode
 
-Large livestreams (and every RTMP livestream) are received in [stream mode](https://core.telegram.org/api/group-calls#stream-mode): the server serves the mixed media as downloadable chunks rather than over WebRTC. `isStreamMode()` tells whether a call is in stream mode; nothing can be transmitted in it, but it can be recorded with `setOutput()` without specifying a participant: an RTMP livestream's audio and video into a `.mkv`/`.webm` file (or its audio into a `.ogg`), and an automatically-scaled livestream's mixed audio into any format. Recording into a `LocalDirectory` additionally writes each publisher's video of an automatically-scaled livestream to `video-<endpoint>.mkv`. The MP4 segments the server uses are demuxed in pure PHP by the `Mp4` class, which can also be used on its own.
+Large livestreams (and every RTMP livestream) are received in [stream mode](https://core.telegram.org/api/group-calls#stream-mode): the server serves the mixed media as downloadable chunks rather than over WebRTC. `isStreamMode()` tells whether a call is in stream mode; nothing can be transmitted in it, but it can be recorded with `setOutput()` without specifying a participant: an RTMP livestream's audio and video into a `.mkv`/`.webm` file (or its audio into a `.ogg`), and an automatically-scaled livestream's mixed audio into any format. Recording into a directory with `setOutputFolder()` writes the mixed stream to `stream.mkv` (or `.ogg`) and additionally each publisher's video of an automatically-scaled livestream to `video-<endpoint>.mkv`. The MP4 segments the server uses are demuxed in pure PHP by the `Mp4` class, which can also be used on its own.
 
 To publish an RTMP livestream, get the RTMP URL and stream key with `getGroupCallStreamRtmpUrl($peer)`, then create the call with `createGroupCall($peer, rtmpStream: true)` and publish to it with any RTMP tool (OBS, ffmpeg...).
 
@@ -297,7 +329,8 @@ $call = $this->joinConferenceCallBySlug('abcdef');
 $call = $this->joinConferenceCallByInviteMessage($msgId);
 
 $call->play(new LocalFile('song.ogg'));
-$call->setOutput(new LocalDirectory('recordings')); // decrypted, one .mkv per participant
+$call->setOutputFolder(new LocalDirectory('recordings')); // decrypted, one numbered .mkv series per participant
+$call->setOutput(new LocalFile('alice.mkv'), '@alice');    // decrypted, a single participant
 
 // The key verification emojis, which every participant must compare.
 $emojis = $call->getVisualization();
