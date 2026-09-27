@@ -1,17 +1,17 @@
 ---
-title: "danog\\MadelineProto\\EventHandler\\Message\\PrivateMessage: Represents an incoming or outgoing private message."
+title: "danog\\MadelineProto\\EventHandler\\GroupOrChannelMessage: Represents a group or channel message."
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
 ---
-# `danog\MadelineProto\EventHandler\Message\PrivateMessage`
-[Back to index](../../../../index.html)
+# `danog\MadelineProto\EventHandler\GroupOrChannelMessage`
+[Back to index](../../../index.html)
 
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Represents an incoming or outgoing private message.  
+Represents a group or channel message.  
 
 
 
@@ -59,11 +59,13 @@ All messages associated to the same album will have an identical grouped ID.
 * `$ttlPeriod`: `?int` Time-to-live of the message
 
 ## Method list:
-* [`screenShot(): \danog\MadelineProto\EventHandler\Message\Service\DialogScreenshotTaken`](#screenShot)
-* [`getCall(): ?\danog\MadelineProto\EventHandler\Calls\PrivateCall`](#getCall)
-* [`canRequestCall(bool $video = false): bool`](#canRequestCall)
-* [`requestCall(bool $video = false): \danog\MadelineProto\EventHandler\Calls\PrivateCall`](#requestCall)
-* [`getCallDenialReason(bool $video = false): ?\danog\MadelineProto\EventHandler\Calls\CallDenialReason`](#getCallDenialReason)
+* [`getMember((string|integer|null) $member = NULL): \danog\MadelineProto\EventHandler\Participant`](#getMember)
+* [`enableProtection(): void`](#enableProtection)
+* [`disableProtection(): void`](#disableProtection)
+* [`getCall(): ?\danog\MadelineProto\EventHandler\Calls\GroupCall`](#getCall)
+* [`canRequestCall(): bool`](#canRequestCall)
+* [`requestCall((string|null) $title = NULL, (int|null) $scheduleDate = NULL, bool $rtmpStream = false): \danog\MadelineProto\EventHandler\Calls\GroupCall`](#requestCall)
+* [`getCallDenialReason(): ?\danog\MadelineProto\EventHandler\Calls\CallDenialReason`](#getCallDenialReason)
 * [`pin(bool $pmOneside = false, bool $silent = false): void`](#pin)
 * [`unpin(bool $pmOneside = false, bool $silent = false): ?\danog\MadelineProto\EventHandler\Update`](#unpin)
 * [`getOurReactions(): list<(string|int)>`](#getOurReactions)
@@ -102,68 +104,82 @@ All messages associated to the same album will have an identical grouped ID.
 * [`disableAutoTranslate(): bool`](#disableAutoTranslate)
 
 ## Methods:
-### <a name="screenShot"></a> `screenShot(): \danog\MadelineProto\EventHandler\Message\Service\DialogScreenshotTaken`
+### <a name="getMember"></a> `getMember((string|integer|null) $member = NULL): \danog\MadelineProto\EventHandler\Participant`
 
-
-
-
-#### See also: 
-* [`\danog\MadelineProto\EventHandler\Message\Service\DialogScreenshotTaken`: A screenshot of the chat was taken.](../../../../danog/MadelineProto/EventHandler/Message/Service/DialogScreenshotTaken.html)
-
-
-
-
-### <a name="getCall"></a> `getCall(): ?\danog\MadelineProto\EventHandler\Calls\PrivateCall`
-
-Get the pending or running one-to-one call with the other user of this chat, if any.
-
-
-#### See also: 
-* [`\danog\MadelineProto\EventHandler\Calls\PrivateCall`: This update represents a private (one-to-one) VoIP Telegram call.](../../../../danog/MadelineProto/EventHandler/Calls/PrivateCall.html)
-
-
-
-
-### <a name="canRequestCall"></a> `canRequestCall(bool $video = false): bool`
-
-Whether {@see self::requestCall()} will succeed, i.e. there is already a call with the other user,
-or we can call them.  
+Get info about a [channel/supergroup](https://core.telegram.org/api/channel) participant.
 
 
 Parameters:
 
-* `$video`: `bool` Whether to check if a video call can be started.  
+* `$member`: `(string|integer|null)` Participant to get info about; can be empty or null to get info about the sender of the message.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Participant`: Info about a channel participant.](../../../danog/MadelineProto/EventHandler/Participant.html)
 
 
 
-### <a name="requestCall"></a> `requestCall(bool $video = false): \danog\MadelineProto\EventHandler\Calls\PrivateCall`
 
-Get the pending or running one-to-one call with the other user of this chat, or call them if there is none.
+### <a name="enableProtection"></a> `enableProtection(): void`
+
+Enable [content protection](https://telegram.org/blog/protected-content-delete-by-date-and-more) on a chat.
+
+
+
+### <a name="disableProtection"></a> `disableProtection(): void`
+
+Disable [content protection](https://telegram.org/blog/protected-content-delete-by-date-and-more) on a chat.
+
+
+
+### <a name="getCall"></a> `getCall(): ?\danog\MadelineProto\EventHandler\Calls\GroupCall`
+
+Get the video chat or livestream currently active in this chat, if any.
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Calls\GroupCall`: This update represents a Telegram [video chat or livestream »](https://core.telegram.org/api/group-calls#video-chats-livestreams):](../../../danog/MadelineProto/EventHandler/Calls/GroupCall.html)
+
+
+
+
+### <a name="canRequestCall"></a> `canRequestCall(): bool`
+
+Whether {@see self::requestCall()} will succeed, i.e. there is already an active video chat or
+livestream, or we have the rights to create one (`manage_call` admin right).  
+
+
+
+### <a name="requestCall"></a> `requestCall((string|null) $title = NULL, (int|null) $scheduleDate = NULL, bool $rtmpStream = false): \danog\MadelineProto\EventHandler\Calls\GroupCall`
+
+Get the video chat or livestream currently active in this chat, or create one if there is none.
+  
+Requires the `manage_call` admin right to create a new call, see  
+[video chats/livestreams »](https://core.telegram.org/api/group-calls#video-chats-livestreams).  
+  
+Note that the call is not joined automatically, use `join()` on the returned call to join it.  
 
 
 Parameters:
 
-* `$video`: `bool` Whether to start a video call.  
+* `$title`: `(string|null)` Custom title for a newly created call, defaults to the chat name.  
+* `$scheduleDate`: `(int|null)` If set, a newly created call is scheduled to start at the specified UNIX timestamp.  
+* `$rtmpStream`: `bool` Whether the media of a newly created call is published by an external RTMP application.  
 
 
 #### See also: 
-* [`\danog\MadelineProto\EventHandler\Calls\PrivateCall`: This update represents a private (one-to-one) VoIP Telegram call.](../../../../danog/MadelineProto/EventHandler/Calls/PrivateCall.html)
+* [`\danog\MadelineProto\EventHandler\Calls\GroupCall`: This update represents a Telegram [video chat or livestream »](https://core.telegram.org/api/group-calls#video-chats-livestreams):](../../../danog/MadelineProto/EventHandler/Calls/GroupCall.html)
 
 
 
 
-### <a name="getCallDenialReason"></a> `getCallDenialReason(bool $video = false): ?\danog\MadelineProto\EventHandler\Calls\CallDenialReason`
+### <a name="getCallDenialReason"></a> `getCallDenialReason(): ?\danog\MadelineProto\EventHandler\Calls\CallDenialReason`
 
-Returns why we can't call the other user, or null if we can.
-
-
-Parameters:
-
-* `$video`: `bool` Whether to check if a video call can be started.  
+Returns why we can't create a group call in this chat, or null if we can.
 
 
 #### See also: 
-* [`\danog\MadelineProto\EventHandler\Calls\CallDenialReason`: Reason why a call or group call cannot be started in a chat, the value is a human-readable description.](../../../../danog/MadelineProto/EventHandler/Calls/CallDenialReason.html)
+* [`\danog\MadelineProto\EventHandler\Calls\CallDenialReason`: Reason why a call or group call cannot be started in a chat, the value is a human-readable description.](../../../danog/MadelineProto/EventHandler/Calls/CallDenialReason.html)
 
 
 
@@ -192,7 +208,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\EventHandler\Update`: Represents a generic update.](../../../../danog/MadelineProto/EventHandler/Update.html)
+* [`\danog\MadelineProto\EventHandler\Update`: Represents a generic update.](../../../danog/MadelineProto/EventHandler/Update.html)
 
 
 
@@ -215,7 +231,7 @@ Parameters:
 
 
 #### See also: 
-* [\danog\MadelineProto\EventHandler\Message\ReportReason](../../../../danog/MadelineProto/EventHandler/Message/ReportReason.html)
+* [\danog\MadelineProto\EventHandler\Message\ReportReason](../../../danog/MadelineProto/EventHandler/Message/ReportReason.html)
 
 
 
@@ -301,7 +317,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../danog/MadelineProto/ParseMode.html)
+* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../danog/MadelineProto/ParseMode.html)
 
 
 
@@ -332,7 +348,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../danog/MadelineProto/ParseMode.html)
+* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../danog/MadelineProto/ParseMode.html)
 
 
 
@@ -426,9 +442,9 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../danog/MadelineProto/ParseMode.html)
+* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../danog/MadelineProto/ParseMode.html)
 * `\Amp\Cancellation`
-* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../danog/MadelineProto/EventHandler/Message.html)
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../danog/MadelineProto/EventHandler/Message.html)
 
 
 
@@ -464,13 +480,13 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../danog/MadelineProto/EventHandler/Message.html)
-* [`\danog\MadelineProto\EventHandler\Media`: Represents a generic media.](../../../../danog/MadelineProto/EventHandler/Media.html)
-* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
-* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../../danog/MadelineProto/RemoteUrl.html)
-* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](../../../../danog/MadelineProto/BotApiFileId.html)
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../danog/MadelineProto/EventHandler/Message.html)
+* [`\danog\MadelineProto\EventHandler\Media`: Represents a generic media.](../../../danog/MadelineProto/EventHandler/Media.html)
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../danog/MadelineProto/RemoteUrl.html)
+* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](../../../danog/MadelineProto/BotApiFileId.html)
 * `\Amp\ByteStream\ReadableStream`
-* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../danog/MadelineProto/ParseMode.html)
+* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../danog/MadelineProto/ParseMode.html)
 * `\Amp\Cancellation`
 
 
@@ -513,13 +529,13 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../danog/MadelineProto/EventHandler/Message.html)
-* [`\danog\MadelineProto\EventHandler\Media`: Represents a generic media.](../../../../danog/MadelineProto/EventHandler/Media.html)
-* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
-* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../../danog/MadelineProto/RemoteUrl.html)
-* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](../../../../danog/MadelineProto/BotApiFileId.html)
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../danog/MadelineProto/EventHandler/Message.html)
+* [`\danog\MadelineProto\EventHandler\Media`: Represents a generic media.](../../../danog/MadelineProto/EventHandler/Media.html)
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../danog/MadelineProto/RemoteUrl.html)
+* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](../../../danog/MadelineProto/BotApiFileId.html)
 * `\Amp\ByteStream\ReadableStream`
-* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../danog/MadelineProto/ParseMode.html)
+* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../danog/MadelineProto/ParseMode.html)
 * `\Amp\Cancellation`
 
 
@@ -554,13 +570,13 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../danog/MadelineProto/EventHandler/Message.html)
-* [`\danog\MadelineProto\EventHandler\Media`: Represents a generic media.](../../../../danog/MadelineProto/EventHandler/Media.html)
-* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
-* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../../danog/MadelineProto/RemoteUrl.html)
-* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](../../../../danog/MadelineProto/BotApiFileId.html)
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../danog/MadelineProto/EventHandler/Message.html)
+* [`\danog\MadelineProto\EventHandler\Media`: Represents a generic media.](../../../danog/MadelineProto/EventHandler/Media.html)
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../danog/MadelineProto/RemoteUrl.html)
+* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](../../../danog/MadelineProto/BotApiFileId.html)
 * `\Amp\ByteStream\ReadableStream`
-* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../danog/MadelineProto/ParseMode.html)
+* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../danog/MadelineProto/ParseMode.html)
 * `\Amp\Cancellation`
 
 
@@ -598,13 +614,13 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../danog/MadelineProto/EventHandler/Message.html)
-* [`\danog\MadelineProto\EventHandler\Media`: Represents a generic media.](../../../../danog/MadelineProto/EventHandler/Media.html)
-* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
-* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../../danog/MadelineProto/RemoteUrl.html)
-* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](../../../../danog/MadelineProto/BotApiFileId.html)
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../danog/MadelineProto/EventHandler/Message.html)
+* [`\danog\MadelineProto\EventHandler\Media`: Represents a generic media.](../../../danog/MadelineProto/EventHandler/Media.html)
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../danog/MadelineProto/RemoteUrl.html)
+* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](../../../danog/MadelineProto/BotApiFileId.html)
 * `\Amp\ByteStream\ReadableStream`
-* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../danog/MadelineProto/ParseMode.html)
+* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../danog/MadelineProto/ParseMode.html)
 * `\Amp\Cancellation`
 
 
@@ -639,13 +655,13 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../danog/MadelineProto/EventHandler/Message.html)
-* [`\danog\MadelineProto\EventHandler\Media`: Represents a generic media.](../../../../danog/MadelineProto/EventHandler/Media.html)
-* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
-* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../../danog/MadelineProto/RemoteUrl.html)
-* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](../../../../danog/MadelineProto/BotApiFileId.html)
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../danog/MadelineProto/EventHandler/Message.html)
+* [`\danog\MadelineProto\EventHandler\Media`: Represents a generic media.](../../../danog/MadelineProto/EventHandler/Media.html)
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../danog/MadelineProto/RemoteUrl.html)
+* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](../../../danog/MadelineProto/BotApiFileId.html)
 * `\Amp\ByteStream\ReadableStream`
-* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../danog/MadelineProto/ParseMode.html)
+* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../danog/MadelineProto/ParseMode.html)
 * `\Amp\Cancellation`
 
 
@@ -680,13 +696,13 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../danog/MadelineProto/EventHandler/Message.html)
-* [`\danog\MadelineProto\EventHandler\Media`: Represents a generic media.](../../../../danog/MadelineProto/EventHandler/Media.html)
-* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
-* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../../danog/MadelineProto/RemoteUrl.html)
-* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](../../../../danog/MadelineProto/BotApiFileId.html)
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../danog/MadelineProto/EventHandler/Message.html)
+* [`\danog\MadelineProto\EventHandler\Media`: Represents a generic media.](../../../danog/MadelineProto/EventHandler/Media.html)
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../danog/MadelineProto/RemoteUrl.html)
+* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](../../../danog/MadelineProto/BotApiFileId.html)
 * `\Amp\ByteStream\ReadableStream`
-* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../danog/MadelineProto/ParseMode.html)
+* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../danog/MadelineProto/ParseMode.html)
 * `\Amp\Cancellation`
 
 
@@ -720,11 +736,11 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../danog/MadelineProto/EventHandler/Message.html)
-* [`\danog\MadelineProto\EventHandler\Media`: Represents a generic media.](../../../../danog/MadelineProto/EventHandler/Media.html)
-* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../../danog/MadelineProto/LocalFile.html)
-* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../../danog/MadelineProto/RemoteUrl.html)
-* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](../../../../danog/MadelineProto/BotApiFileId.html)
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../danog/MadelineProto/EventHandler/Message.html)
+* [`\danog\MadelineProto\EventHandler\Media`: Represents a generic media.](../../../danog/MadelineProto/EventHandler/Media.html)
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../../danog/MadelineProto/RemoteUrl.html)
+* [`\danog\MadelineProto\BotApiFileId`: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](../../../danog/MadelineProto/BotApiFileId.html)
 * `\Amp\ByteStream\ReadableStream`
 * `\Amp\Cancellation`
 
@@ -753,9 +769,9 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../danog/MadelineProto/ParseMode.html)
+* [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../danog/MadelineProto/ParseMode.html)
 * `\Amp\Cancellation`
-* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../danog/MadelineProto/EventHandler/Message.html)
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../danog/MadelineProto/EventHandler/Message.html)
 
 
 
@@ -778,7 +794,7 @@ Get user stories.
 
 
 #### See also: 
-* [`\danog\MadelineProto\EventHandler\AbstractStory`: Represents a Telegram Story.](../../../../danog/MadelineProto/EventHandler/AbstractStory.html)
+* [`\danog\MadelineProto\EventHandler\AbstractStory`: Represents a Telegram Story.](../../../danog/MadelineProto/EventHandler/AbstractStory.html)
 
 
 
@@ -795,7 +811,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\EventHandler\Action`: In-progress actions.](../../../../danog/MadelineProto/EventHandler/Action.html)
+* [`\danog\MadelineProto\EventHandler\Action`: In-progress actions.](../../../danog/MadelineProto/EventHandler/Action.html)
 
 
 
@@ -825,7 +841,7 @@ Parameters:
 
 #### See also: 
 * `max`
-* [`\danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`: The Time-To-Live of messages in this chat was changed.](../../../../danog/MadelineProto/EventHandler/Message/Service/DialogSetTTL.html)
+* [`\danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`: The Time-To-Live of messages in this chat was changed.](../../../danog/MadelineProto/EventHandler/Message/Service/DialogSetTTL.html)
 
 
 
@@ -836,7 +852,7 @@ Disable Time-To-Live of all messages in the specified chat.
 
 
 #### See also: 
-* [`\danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`: The Time-To-Live of messages in this chat was changed.](../../../../danog/MadelineProto/EventHandler/Message/Service/DialogSetTTL.html)
+* [`\danog\MadelineProto\EventHandler\Message\Service\DialogSetTTL`: The Time-To-Live of messages in this chat was changed.](../../../danog/MadelineProto/EventHandler/Message/Service/DialogSetTTL.html)
 
 
 

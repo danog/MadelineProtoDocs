@@ -62,12 +62,16 @@ All messages associated to the same album will have an identical grouped ID.
 * [`getDiscussion(): ?\danog\MadelineProto\EventHandler\Message\GroupMessage`](#getDiscussion)
 * [`disableSignatures(): void`](#disableSignatures)
 * [`enableSignatures(): void`](#enableSignatures)
-* [`getMember((string|integer) $member): \danog\MadelineProto\EventHandler\Participant`](#getMember)
 * [`view(): void`](#view)
 * [`hideHistory(): void`](#hideHistory)
 * [`unhideHistory(): void`](#unhideHistory)
+* [`getMember((string|integer|null) $member = NULL): \danog\MadelineProto\EventHandler\Participant`](#getMember)
 * [`enableProtection(): void`](#enableProtection)
 * [`disableProtection(): void`](#disableProtection)
+* [`getCall(): ?\danog\MadelineProto\EventHandler\Calls\GroupCall`](#getCall)
+* [`canRequestCall(): bool`](#canRequestCall)
+* [`requestCall((string|null) $title = NULL, (int|null) $scheduleDate = NULL, bool $rtmpStream = false): \danog\MadelineProto\EventHandler\Calls\GroupCall`](#requestCall)
+* [`getCallDenialReason(): ?\danog\MadelineProto\EventHandler\Calls\CallDenialReason`](#getCallDenialReason)
 * [`pin(bool $pmOneside = false, bool $silent = false): void`](#pin)
 * [`unpin(bool $pmOneside = false, bool $silent = false): ?\danog\MadelineProto\EventHandler\Update`](#unpin)
 * [`getOurReactions(): list<(string|int)>`](#getOurReactions)
@@ -135,22 +139,6 @@ Enable message signatures in channels.
 
 
 
-### <a name="getMember"></a> `getMember((string|integer) $member): \danog\MadelineProto\EventHandler\Participant`
-
-Get info about a [channel/supergroup](https://core.telegram.org/api/channel) participant.
-
-
-Parameters:
-
-* `$member`: `(string|integer)` Participant to get info about.  
-
-
-#### See also: 
-* [`\danog\MadelineProto\EventHandler\Participant`: Info about a channel participant.](../../../../danog/MadelineProto/EventHandler/Participant.html)
-
-
-
-
 ### <a name="view"></a> `view(): void`
 
 Increase the view counter of a current message in the channel.
@@ -169,15 +157,83 @@ Unhide message history for new channel users.
 
 
 
+### <a name="getMember"></a> `getMember((string|integer|null) $member = NULL): \danog\MadelineProto\EventHandler\Participant`
+
+Get info about a [channel/supergroup](https://core.telegram.org/api/channel) participant.
+
+
+Parameters:
+
+* `$member`: `(string|integer|null)` Participant to get info about; can be empty or null to get info about the sender of the message.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Participant`: Info about a channel participant.](../../../../danog/MadelineProto/EventHandler/Participant.html)
+
+
+
+
 ### <a name="enableProtection"></a> `enableProtection(): void`
 
-Enable [content protection](https://telegram.org/blog/protected-content-delete-by-date-and-more) on a channel.
+Enable [content protection](https://telegram.org/blog/protected-content-delete-by-date-and-more) on a chat.
 
 
 
 ### <a name="disableProtection"></a> `disableProtection(): void`
 
-Disable [content protection](https://telegram.org/blog/protected-content-delete-by-date-and-more) on a channel.
+Disable [content protection](https://telegram.org/blog/protected-content-delete-by-date-and-more) on a chat.
+
+
+
+### <a name="getCall"></a> `getCall(): ?\danog\MadelineProto\EventHandler\Calls\GroupCall`
+
+Get the video chat or livestream currently active in this chat, if any.
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Calls\GroupCall`: This update represents a Telegram [video chat or livestream »](https://core.telegram.org/api/group-calls#video-chats-livestreams):](../../../../danog/MadelineProto/EventHandler/Calls/GroupCall.html)
+
+
+
+
+### <a name="canRequestCall"></a> `canRequestCall(): bool`
+
+Whether {@see self::requestCall()} will succeed, i.e. there is already an active video chat or
+livestream, or we have the rights to create one (`manage_call` admin right).  
+
+
+
+### <a name="requestCall"></a> `requestCall((string|null) $title = NULL, (int|null) $scheduleDate = NULL, bool $rtmpStream = false): \danog\MadelineProto\EventHandler\Calls\GroupCall`
+
+Get the video chat or livestream currently active in this chat, or create one if there is none.
+  
+Requires the `manage_call` admin right to create a new call, see  
+[video chats/livestreams »](https://core.telegram.org/api/group-calls#video-chats-livestreams).  
+  
+Note that the call is not joined automatically, use `join()` on the returned call to join it.  
+
+
+Parameters:
+
+* `$title`: `(string|null)` Custom title for a newly created call, defaults to the chat name.  
+* `$scheduleDate`: `(int|null)` If set, a newly created call is scheduled to start at the specified UNIX timestamp.  
+* `$rtmpStream`: `bool` Whether the media of a newly created call is published by an external RTMP application.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Calls\GroupCall`: This update represents a Telegram [video chat or livestream »](https://core.telegram.org/api/group-calls#video-chats-livestreams):](../../../../danog/MadelineProto/EventHandler/Calls/GroupCall.html)
+
+
+
+
+### <a name="getCallDenialReason"></a> `getCallDenialReason(): ?\danog\MadelineProto\EventHandler\Calls\CallDenialReason`
+
+Returns why we can't create a group call in this chat, or null if we can.
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Calls\CallDenialReason`: Reason why a call or group call cannot be started in a chat, the value is a human-readable description.](../../../../danog/MadelineProto/EventHandler/Calls/CallDenialReason.html)
+
 
 
 

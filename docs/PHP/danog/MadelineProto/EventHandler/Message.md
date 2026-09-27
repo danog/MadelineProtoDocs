@@ -73,6 +73,10 @@ All messages associated to the same album will have an identical grouped ID.
 * [`editReplyMarkup(array $replyMarkup): \danog\MadelineProto\EventHandler\Message`](#editReplyMarkup)
 * [`replyOrEdit(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, (array|null) $replyMarkup = NULL, (int|null) $scheduleDate = NULL, bool $noWebpage = false): \danog\MadelineProto\EventHandler\Message`](#replyOrEdit)
 * [`forward((integer|string) $peer, list<int> $id = [], bool $dropAuthor = false, bool $dropCaption = false, int $topicId = 1, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $score = false, (integer|null) $scheduleDate = NULL, (integer|string|null) $sendAs = NULL): non-empty-list<\danog\MadelineProto\EventHandler\Message>`](#forward)
+* [`getCall(): ?\danog\MadelineProto\EventHandler\Call`](#getCall)
+* [`canRequestCall(): bool`](#canRequestCall)
+* [`getCallDenialReason(): ?\danog\MadelineProto\EventHandler\Calls\CallDenialReason`](#getCallDenialReason)
+* [`requestCall(): \danog\MadelineProto\EventHandler\Call`](#requestCall)
 * [`getHTML(bool $allowTelegramTags = false): string`](#getHTML)
 * [`isReply(): bool`](#isReply)
 * [`getReply(class-string<T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?T`](#getReply)
@@ -288,6 +292,54 @@ Parameters:
 
 #### See also: 
 * `non-empty-list`
+
+
+
+
+### <a name="getCall"></a> `getCall(): ?\danog\MadelineProto\EventHandler\Call`
+
+Get the call currently associated with this chat, if any.
+  
+For private and secret chats this is the pending or running one-to-one call with the other user;  
+for groups and channels, the currently active video chat or livestream.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Call`: Common interface implemented by every call type: one-to-one {@see Calls\PrivateCall} calls, and the](../../../danog/MadelineProto/EventHandler/Call.html)
+
+
+
+
+### <a name="canRequestCall"></a> `canRequestCall(): bool`
+
+Whether {@see self::requestCall()} will succeed in this chat, i.e. there is already a call we can
+return, or our permissions (and the other party's privacy settings) allow us to start a new one.  
+
+
+
+### <a name="getCallDenialReason"></a> `getCallDenialReason(): ?\danog\MadelineProto\EventHandler\Calls\CallDenialReason`
+
+Returns why we can't start a new call in this chat, or null if we can.
+  
+Unlike {@see self::canRequestCall()}, this does not take into account an already existing call.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Calls\CallDenialReason`: Reason why a call or group call cannot be started in a chat, the value is a human-readable description.](../../../danog/MadelineProto/EventHandler/Calls/CallDenialReason.html)
+
+
+
+
+### <a name="requestCall"></a> `requestCall(): \danog\MadelineProto\EventHandler\Call`
+
+Get the call currently associated with this chat, or start a new one if there is none.
+  
+For private and secret chats this calls the other user;  
+for groups and channels, this creates a video chat or livestream (use `join()` on the returned call to join it).  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Call`: Common interface implemented by every call type: one-to-one {@see Calls\PrivateCall} calls, and the](../../../danog/MadelineProto/EventHandler/Call.html)
 
 
 

@@ -62,6 +62,7 @@ Async PHP client API for the telegram MTProto protocol.
 * [\danog\MadelineProto\EventHandler\ChatInvite: Chat invite link that was used by the user to send the [join request »](https://core.telegram.org/api/invites#join-requests).](/PHP/danog/MadelineProto/EventHandler/ChatInvite.html)
 * [\danog\MadelineProto\EventHandler\ChatInviteRequester: Indicates someone has requested to join a chat or channel.](/PHP/danog/MadelineProto/EventHandler/ChatInviteRequester.html)
 * [\danog\MadelineProto\EventHandler\Delete: Indicates that some messages were deleted.](/PHP/danog/MadelineProto/EventHandler/Delete.html)
+* [\danog\MadelineProto\EventHandler\GroupOrChannelMessage: Represents a group or channel message.](/PHP/danog/MadelineProto/EventHandler/GroupOrChannelMessage.html)
 * [\danog\MadelineProto\EventHandler\Keyboard: Represents an inline or reply keyboard.](/PHP/danog/MadelineProto/EventHandler/Keyboard.html)
 * [\danog\MadelineProto\EventHandler\Media: Represents a generic media.](/PHP/danog/MadelineProto/EventHandler/Media.html)
 * [\danog\MadelineProto\EventHandler\Message: Represents an incoming or outgoing message.](/PHP/danog/MadelineProto/EventHandler/Message.html)
@@ -98,6 +99,7 @@ Async PHP client API for the telegram MTProto protocol.
 ## Classes
 * [\danog\MadelineProto\API: Main API wrapper for MadelineProto.](/PHP/danog/MadelineProto/API.html)
 * [\danog\MadelineProto\BotApiFileId: Indicates a bot API file ID to upload using sendDocument, sendPhoto etc...](/PHP/danog/MadelineProto/BotApiFileId.html)
+* [\danog\MadelineProto\CallNotAllowedException: Thrown when a call or group call cannot be started in a chat, because of our own permissions,](/PHP/danog/MadelineProto/CallNotAllowedException.html)
 * [\danog\MadelineProto\CallStream: The media streams a participant of a call can send, as bit flags.](/PHP/danog/MadelineProto/CallStream.html)
 * [\danog\MadelineProto\Conversion](/PHP/danog/MadelineProto/Conversion.html)
 * [\danog\MadelineProto\EventHandlerIssue: Represents an event handler issue.](/PHP/danog/MadelineProto/EventHandlerIssue.html)
@@ -158,6 +160,7 @@ Async PHP client API for the telegram MTProto protocol.
 * [\danog\MadelineProto\EventHandler\Action\UploadVideo: User is uploading a video.](/PHP/danog/MadelineProto/EventHandler/Action/UploadVideo.html)
 * [\danog\MadelineProto\EventHandler\Attributes\Cron: Attribute that enables periodic execution of a certain method.](/PHP/danog/MadelineProto/EventHandler/Attributes/Cron.html)
 * [\danog\MadelineProto\EventHandler\Attributes\Handler: Attribute that marks a handler method.](/PHP/danog/MadelineProto/EventHandler/Attributes/Handler.html)
+* [\danog\MadelineProto\EventHandler\Calls\CallDenialReason: Reason why a call or group call cannot be started in a chat, the value is a human-readable description.](/PHP/danog/MadelineProto/EventHandler/Calls/CallDenialReason.html)
 * [\danog\MadelineProto\EventHandler\Calls\CallStreams: The streams a participant of a call sends (their microphone, camera and screen share, see](/PHP/danog/MadelineProto/EventHandler/Calls/CallStreams.html)
 * [\danog\MadelineProto\EventHandler\Calls\ConferenceCall: This update represents a Telegram [end-to-end encrypted conference call »](https://core.telegram.org/api/end-to-end/group-calls).](/PHP/danog/MadelineProto/EventHandler/Calls/ConferenceCall.html)
 * [\danog\MadelineProto\EventHandler\Calls\ConferenceCallMessage: An end-to-end encrypted [in-call message or reaction »](https://core.telegram.org/api/end-to-end/group-calls#conference-in-call-messages)](/PHP/danog/MadelineProto/EventHandler/Calls/ConferenceCallMessage.html)

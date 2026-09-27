@@ -104,7 +104,7 @@ Main API wrapper for MadelineProto.
 * [`callGetCurrent(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`](#callGetCurrent)
 * [`callPlay(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#callPlay)
 * [`callPlayOnHold(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): void`](#callPlayOnHold)
-* [`callSetOutput(int $id, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?int $streams = NULL): int`](#callSetOutput)
+* [`callSetOutput(int $id, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?StreamMask $streams = NULL): StreamMask`](#callSetOutput)
 * [`callSetOutputFolder(int $id, \danog\MadelineProto\LocalDirectory $dir, ?\danog\MadelineProto\RecordingFormat $format = NULL): void`](#callSetOutputFolder)
 * [`canConvertOgg(): bool`](#canConvertOgg)
 * [`canUseFFmpeg(?\Amp\Cancellation $cancellation = NULL): bool`](#canUseFFmpeg)
@@ -114,7 +114,7 @@ Main API wrapper for MadelineProto.
 * [`completePhoneLogin(string $code): array`](#completePhoneLogin)
 * [`completeSignup(string $first_name, string $last_name = ''): array`](#completeSignup)
 * [`createConferenceCall(bool $muted = false): \danog\MadelineProto\EventHandler\Calls\ConferenceCall`](#createConferenceCall)
-* [`createGroupCall(mixed $peer, (string|null) $title = NULL, (int|null) $scheduleDate = NULL, bool $rtmpStream = false): \danog\MadelineProto\EventHandler\Calls\GroupCall`](#createGroupCall)
+* [`createGroupCall((string|int) $peer, (string|null) $title = NULL, (int|null) $scheduleDate = NULL, bool $rtmpStream = false): \danog\MadelineProto\EventHandler\Calls\GroupCall`](#createGroupCall)
 * [`declineConferenceCallInvite(int $msgId): void`](#declineConferenceCallInvite)
 * [`discardCall(int $id, \danog\MadelineProto\VoIP\DiscardReason $reason = \danog\MadelineProto\VoIP\DiscardReason::HANGUP, int<1, 5> $rating = NULL, string $comment = NULL): void`](#discardCall)
 * [`discardGroupCall(int $id): void`](#discardGroupCall)
@@ -168,12 +168,12 @@ Main API wrapper for MadelineProto.
 * [`getFileInfo(mixed $constructor): array`](#getFileInfo)
 * [`getFullDialogs(): array<int, array>`](#getFullDialogs)
 * [`getFullInfo(mixed $id): array`](#getFullInfo)
-* [`getGroupCall(mixed $peer): ?\danog\MadelineProto\EventHandler\Calls\GroupCall`](#getGroupCall)
+* [`getGroupCall(string|int $peer): ?\danog\MadelineProto\EventHandler\Calls\GroupCall`](#getGroupCall)
 * [`getGroupCallBySlug(string $slug): ?\danog\MadelineProto\EventHandler\Calls\GroupCall`](#getGroupCallBySlug)
-* [`getGroupCallJoinAs(mixed $peer): list<int>`](#getGroupCallJoinAs)
+* [`getGroupCallJoinAs(string|int $peer): list<int>`](#getGroupCallJoinAs)
 * [`getGroupCallParticipants(int $id): array<int, \danog\MadelineProto\EventHandler\Calls\AbstractGroupCallParticipant>`](#getGroupCallParticipants)
 * [`getGroupCallState(int $id): \danog\MadelineProto\EventHandler\Calls\GroupCallState`](#getGroupCallState)
-* [`getGroupCallStreamRtmpUrl(mixed $peer, bool $revoke = false, bool $liveStory = false): array{url: string, key: string}`](#getGroupCallStreamRtmpUrl)
+* [`getGroupCallStreamRtmpUrl((string|int) $peer, bool $revoke = false, bool $liveStory = false): array{url: string, key: string}`](#getGroupCallStreamRtmpUrl)
 * [`getHTTPClient(): \Amp\Http\Client\HttpClient`](#getHTTPClient)
 * [`getHint(): string`](#getHint)
 * [`getId(mixed $id): int`](#getId)
@@ -212,8 +212,8 @@ Main API wrapper for MadelineProto.
 * [`groupCallPlay(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#groupCallPlay)
 * [`groupCallPlayOnHold(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): void`](#groupCallPlayOnHold)
 * [`groupCallResumePlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#groupCallResumePlay)
-* [`groupCallSetOutput(int $id, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?int $streams = NULL): int`](#groupCallSetOutput)
-* [`groupCallSetOutputFolder(int $id, \danog\MadelineProto\LocalDirectory $dir, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): void`](#groupCallSetOutputFolder)
+* [`groupCallSetOutput(int $id, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, string|int|null $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?StreamMask $streams = NULL): StreamMask`](#groupCallSetOutput)
+* [`groupCallSetOutputFolder(int $id, \danog\MadelineProto\LocalDirectory $dir, string|int|null $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): void`](#groupCallSetOutputFolder)
 * [`groupCallSkipPlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#groupCallSkipPlay)
 * [`groupCallStopPlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#groupCallStopPlay)
 * [`hasAdmins(): bool`](#hasAdmins)
@@ -226,7 +226,7 @@ Main API wrapper for MadelineProto.
 * [`importAuthorization(array<int, string> $authorization, int $mainDcID): array`](#importAuthorization)
 * [`inflateStripped(string $stripped): string`](#inflateStripped)
 * [`initSelfRestart(): void`](#initSelfRestart)
-* [`inviteToGroupCall(int $id, mixed ...$users): void`](#inviteToGroupCall)
+* [`inviteToGroupCall(int $id, string|int ...$users): void`](#inviteToGroupCall)
 * [`isAltervista(): bool`](#isAltervista)
 * [`isArrayOrAlike(mixed $var): bool`](#isArrayOrAlike)
 * [`isBot(mixed $peer): bool`](#isBot)
@@ -244,7 +244,7 @@ Main API wrapper for MadelineProto.
 * [`joinConferenceCall(array $call, bool $muted = false): \danog\MadelineProto\EventHandler\Calls\ConferenceCall`](#joinConferenceCall)
 * [`joinConferenceCallByInviteMessage(int $msgId, bool $muted = false): \danog\MadelineProto\EventHandler\Calls\ConferenceCall`](#joinConferenceCallByInviteMessage)
 * [`joinConferenceCallBySlug(string $slug, bool $muted = false): \danog\MadelineProto\EventHandler\Calls\ConferenceCall`](#joinConferenceCallBySlug)
-* [`joinGroupCall(mixed $peer, bool $muted = false, mixed $joinAs = NULL, (string|null) $inviteHash = NULL): \danog\MadelineProto\EventHandler\Calls\GroupCall`](#joinGroupCall)
+* [`joinGroupCall((string|int) $peer, bool $muted = false, (string|int|null) $joinAs = NULL, (string|null) $inviteHash = NULL): \danog\MadelineProto\EventHandler\Calls\GroupCall`](#joinGroupCall)
 * [`leaveGroupCall(int $id): void`](#leaveGroupCall)
 * [`logger(mixed $param, int $level = \danog\MadelineProto\Logger::NOTICE, string $file = ''): void`](#logger)
 * [`logout(): void`](#logout)
@@ -285,7 +285,7 @@ Main API wrapper for MadelineProto.
 * [`rethrow(Throwable $e): void`](#rethrow)
 * [`rleDecode(string $string): string`](#rleDecode)
 * [`rleEncode(string $string): string`](#rleEncode)
-* [`saveDefaultGroupCallJoinAs(mixed $peer, mixed $joinAs): void`](#saveDefaultGroupCallJoinAs)
+* [`saveDefaultGroupCallJoinAs((string|int) $peer, (string|int) $joinAs): void`](#saveDefaultGroupCallJoinAs)
 * [`sendAudio((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?string $mimeType = NULL, (integer|null) $duration = NULL, (string|null) $title = NULL, (string|null) $performer = NULL, ?int $ttl = NULL, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#sendAudio)
 * [`sendCustomEvent(mixed $payload): void`](#sendCustomEvent)
 * [`sendDocument((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?string $mimeType = NULL, ?int $ttl = NULL, bool $spoiler = false, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#sendDocument)
@@ -306,7 +306,7 @@ Main API wrapper for MadelineProto.
 * [`skipPlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#skipPlay)
 * [`sleep(float $time): void`](#sleep)
 * [`start(): array`](#start)
-* [`startLive(mixed $peer, (string|null) $caption = NULL, (\danog\MadelineProto\ParseMode|null) $parseMode = NULL, list<array<string, mixed>> $privacyRules = [  0 =>   [    '_' => 'inputPrivacyValueAllowAll',  ],], bool $pinned = false, bool $noForwards = false, bool $rtmpStream = false, (bool|null) $messagesEnabled = NULL, (int|null) $sendPaidMessagesStars = NULL): \danog\MadelineProto\EventHandler\Calls\LiveStory`](#startLive)
+* [`startLive((string|int) $peer, (string|null) $caption = NULL, (\danog\MadelineProto\ParseMode|null) $parseMode = NULL, list<array<string, mixed>> $privacyRules = [  0 =>   [    '_' => 'inputPrivacyValueAllowAll',  ],], bool $pinned = false, bool $noForwards = false, bool $rtmpStream = false, (bool|null) $messagesEnabled = NULL, (int|null) $sendPaidMessagesStars = NULL): \danog\MadelineProto\EventHandler\Calls\LiveStory`](#startLive)
 * [`stop(): void`](#stop)
 * [`stopPlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#stopPlay)
 * [`stringToStream(string $str): \Amp\ByteStream\ReadableBuffer`](#stringToStream)
@@ -683,7 +683,7 @@ Parameters:
 
 
 
-### <a name="callSetOutput"></a> `callSetOutput(int $id, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?int $streams = NULL): int`
+### <a name="callSetOutput"></a> `callSetOutput(int $id, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?StreamMask $streams = NULL): StreamMask`
 
 Record the incoming media of a call into one file (or stream) with a fixed set of tracks, see
 {@see \danog\MadelineProto\EventHandler\Calls\PrivateCall::setOutput()}.  
@@ -694,7 +694,7 @@ Parameters:
 * `$id`: `int`   
 * `$file`: `\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream`   
 * `$format`: `?\danog\MadelineProto\RecordingFormat`   
-* `$streams`: `?int` The streams to record, as a bitmask of {@see CallStream} flags, or null for every available one.  
+* `$streams`: `?StreamMask` The streams to record, as a bitmask of {@see CallStream} flags, or null for every available one.  
 
 
 Return value: The streams the other party currently sends, as a bitmask of {@see CallStream} flags (0 while unknown).
@@ -703,6 +703,7 @@ Return value: The streams the other party currently sends, as a bitmask of {@see
 * [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
 * `\Amp\ByteStream\WritableStream`
 * [`\danog\MadelineProto\RecordingFormat`: Container format of a call recording, as passed to {@see Call::setOutput()} and {@see Call::setOutputFolder()}.](../../danog/MadelineProto/RecordingFormat.html)
+* `StreamMask`
 
 
 
@@ -825,7 +826,7 @@ Parameters:
 
 
 
-### <a name="createGroupCall"></a> `createGroupCall(mixed $peer, (string|null) $title = NULL, (int|null) $scheduleDate = NULL, bool $rtmpStream = false): \danog\MadelineProto\EventHandler\Calls\GroupCall`
+### <a name="createGroupCall"></a> `createGroupCall((string|int) $peer, (string|null) $title = NULL, (int|null) $scheduleDate = NULL, bool $rtmpStream = false): \danog\MadelineProto\EventHandler\Calls\GroupCall`
 
 Create a group call (video chat or livestream) in the specified group or channel.
   
@@ -835,7 +836,7 @@ Requires the `manage_call` admin right, see
 
 Parameters:
 
-* `$peer`: `mixed` The group or channel where the call should be created.  
+* `$peer`: `(string|int)` The group or channel where the call should be created.  
 * `$title`: `(string|null)` Custom title, defaults to the group/channel name.  
 * `$scheduleDate`: `(int|null)` If set, creates a scheduled call for the specified UNIX timestamp.  
 * `$rtmpStream`: `bool` Whether the call's media is published by an external RTMP application.  
@@ -1600,14 +1601,14 @@ Parameters:
 
 
 
-### <a name="getGroupCall"></a> `getGroupCall(mixed $peer): ?\danog\MadelineProto\EventHandler\Calls\GroupCall`
+### <a name="getGroupCall"></a> `getGroupCall(string|int $peer): ?\danog\MadelineProto\EventHandler\Calls\GroupCall`
 
 Get the group call (video chat or livestream) currently active in a group or channel.
 
 
 Parameters:
 
-* `$peer`: `mixed`   
+* `$peer`: `string|int`   
 
 
 #### See also: 
@@ -1633,7 +1634,7 @@ Parameters:
 
 
 
-### <a name="getGroupCallJoinAs"></a> `getGroupCallJoinAs(mixed $peer): list<int>`
+### <a name="getGroupCallJoinAs"></a> `getGroupCallJoinAs(string|int $peer): list<int>`
 
 The peers we may join the video chats and livestreams of a group or channel as: ourselves, the
 channels we own, and (for anonymous admins) the group itself. Bot API IDs.  
@@ -1643,7 +1644,7 @@ See [joining a group call on behalf of owned channels »](https://core.telegram.
 
 Parameters:
 
-* `$peer`: `mixed`   
+* `$peer`: `string|int`   
 
 
 
@@ -1679,7 +1680,7 @@ Parameters:
 
 
 
-### <a name="getGroupCallStreamRtmpUrl"></a> `getGroupCallStreamRtmpUrl(mixed $peer, bool $revoke = false, bool $liveStory = false): array{url: string, key: string}`
+### <a name="getGroupCallStreamRtmpUrl"></a> `getGroupCallStreamRtmpUrl((string|int) $peer, bool $revoke = false, bool $liveStory = false): array{url: string, key: string}`
 
 Get the RTMP URL and stream key to publish an [RTMP livestream »](https://core.telegram.org/api/group-calls#creating-and-publishing-an-rtmp-livestream)
 to, in a group or channel (create the call with `rtmpStream` afterwards, see {@see self::createGroupCall()}),  
@@ -1688,7 +1689,7 @@ or as a live story (see {@see self::startLive()}).
 
 Parameters:
 
-* `$peer`: `mixed` The group or channel (or, for a live story, the user, group or channel it is posted as).  
+* `$peer`: `(string|int)` The group or channel (or, for a live story, the user, group or channel it is posted as).  
 * `$revoke`: `bool` Whether to generate a new stream key, invalidating the previous one.  
 * `$liveStory`: `bool` Whether the key is for a live story rather than a video chat/livestream.  
 
@@ -2221,7 +2222,7 @@ Parameters:
 
 
 
-### <a name="groupCallSetOutput"></a> `groupCallSetOutput(int $id, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?int $streams = NULL): int`
+### <a name="groupCallSetOutput"></a> `groupCallSetOutput(int $id, \danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream $file, string|int|null $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL, ?StreamMask $streams = NULL): StreamMask`
 
 Record one participant of a group call (or, in stream mode, its mixed stream) into a single file
 (or stream) with a fixed set of tracks, see {@see \danog\MadelineProto\EventHandler\Calls\AbstractGroupCall::setOutput()}.  
@@ -2231,9 +2232,9 @@ Parameters:
 
 * `$id`: `int`   
 * `$file`: `\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream`   
-* `$participant`: `mixed`   
+* `$participant`: `string|int|null`   
 * `$format`: `?\danog\MadelineProto\RecordingFormat`   
-* `$streams`: `?int` The streams to record, as a bitmask of {@see CallStream} flags, or null for every available one.  
+* `$streams`: `?StreamMask` The streams to record, as a bitmask of {@see CallStream} flags, or null for every available one.  
 
 
 Return value: The streams the participant currently sends, as a bitmask of {@see CallStream} flags.
@@ -2242,11 +2243,12 @@ Return value: The streams the participant currently sends, as a bitmask of {@see
 * [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
 * `\Amp\ByteStream\WritableStream`
 * [`\danog\MadelineProto\RecordingFormat`: Container format of a call recording, as passed to {@see Call::setOutput()} and {@see Call::setOutputFolder()}.](../../danog/MadelineProto/RecordingFormat.html)
+* `StreamMask`
 
 
 
 
-### <a name="groupCallSetOutputFolder"></a> `groupCallSetOutputFolder(int $id, \danog\MadelineProto\LocalDirectory $dir, mixed $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): void`
+### <a name="groupCallSetOutputFolder"></a> `groupCallSetOutputFolder(int $id, \danog\MadelineProto\LocalDirectory $dir, string|int|null $participant = NULL, ?\danog\MadelineProto\RecordingFormat $format = NULL): void`
 
 Record group call media into a directory: every transmitting participant (or only the given
 one) as its own numbered series of files, see  
@@ -2257,7 +2259,7 @@ Parameters:
 
 * `$id`: `int`   
 * `$dir`: `\danog\MadelineProto\LocalDirectory`   
-* `$participant`: `mixed`   
+* `$participant`: `string|int|null`   
 * `$format`: `?\danog\MadelineProto\RecordingFormat`   
 
 
@@ -2410,7 +2412,7 @@ Initialize self-restart hack.
 
 
 
-### <a name="inviteToGroupCall"></a> `inviteToGroupCall(int $id, mixed ...$users): void`
+### <a name="inviteToGroupCall"></a> `inviteToGroupCall(int $id, string|int ...$users): void`
 
 Invite users to a group call.
 
@@ -2418,7 +2420,7 @@ Invite users to a group call.
 Parameters:
 
 * `$id`: `int`   
-* `...$users`: `mixed`   
+* `...$users`: `string|int`   
 
 
 
@@ -2608,16 +2610,16 @@ Parameters:
 
 
 
-### <a name="joinGroupCall"></a> `joinGroupCall(mixed $peer, bool $muted = false, mixed $joinAs = NULL, (string|null) $inviteHash = NULL): \danog\MadelineProto\EventHandler\Calls\GroupCall`
+### <a name="joinGroupCall"></a> `joinGroupCall((string|int) $peer, bool $muted = false, (string|int|null) $joinAs = NULL, (string|null) $inviteHash = NULL): \danog\MadelineProto\EventHandler\Calls\GroupCall`
 
 Join the group call currently active in a group or channel.
 
 
 Parameters:
 
-* `$peer`: `mixed` The group or channel whose call should be joined.  
+* `$peer`: `(string|int)` The group or channel whose call should be joined.  
 * `$muted`: `bool` Whether to join muted.  
-* `$joinAs`: `mixed` Peer to join as, defaults to ourselves.  
+* `$joinAs`: `(string|int|null)` Peer to join as, defaults to ourselves.  
 * `$inviteHash`: `(string|null)` Invite hash from a video chat invite link, if any.  
 
 
@@ -3136,15 +3138,15 @@ Parameters:
 
 
 
-### <a name="saveDefaultGroupCallJoinAs"></a> `saveDefaultGroupCallJoinAs(mixed $peer, mixed $joinAs): void`
+### <a name="saveDefaultGroupCallJoinAs"></a> `saveDefaultGroupCallJoinAs((string|int) $peer, (string|int) $joinAs): void`
 
 Save the peer we join the video chats and livestreams of a group or channel as by default.
 
 
 Parameters:
 
-* `$peer`: `mixed` The group or channel.  
-* `$joinAs`: `mixed` The peer to join as (one of {@see self::getGroupCallJoinAs()}).  
+* `$peer`: `(string|int)` The group or channel.  
+* `$joinAs`: `(string|int)` The peer to join as (one of {@see self::getGroupCallJoinAs()}).  
 
 
 
@@ -3685,7 +3687,7 @@ Log in to telegram (via CLI or web).
 
 
 
-### <a name="startLive"></a> `startLive(mixed $peer, (string|null) $caption = NULL, (\danog\MadelineProto\ParseMode|null) $parseMode = NULL, list<array<string, mixed>> $privacyRules = [  0 =>   [    '_' => 'inputPrivacyValueAllowAll',  ],], bool $pinned = false, bool $noForwards = false, bool $rtmpStream = false, (bool|null) $messagesEnabled = NULL, (int|null) $sendPaidMessagesStars = NULL): \danog\MadelineProto\EventHandler\Calls\LiveStory`
+### <a name="startLive"></a> `startLive((string|int) $peer, (string|null) $caption = NULL, (\danog\MadelineProto\ParseMode|null) $parseMode = NULL, list<array<string, mixed>> $privacyRules = [  0 =>   [    '_' => 'inputPrivacyValueAllowAll',  ],], bool $pinned = false, bool $noForwards = false, bool $rtmpStream = false, (bool|null) $messagesEnabled = NULL, (int|null) $sendPaidMessagesStars = NULL): \danog\MadelineProto\EventHandler\Calls\LiveStory`
 
 Start a [live story »](https://core.telegram.org/api/group-calls#live-stories): a livestream posted
 as a story, of which we are the single publisher (everyone else joins as a listener).  
@@ -3693,7 +3695,7 @@ as a story, of which we are the single publisher (everyone else joins as a liste
 
 Parameters:
 
-* `$peer`: `mixed` Who to post the live story as: ourselves, or a group or channel we administer.  
+* `$peer`: `(string|int)` Who to post the live story as: ourselves, or a group or channel we administer.  
 * `$caption`: `(string|null)` Caption of the story.  
 * `$parseMode`: `(\danog\MadelineProto\ParseMode|null)` Whether to parse HTML or Markdown markup in the caption.  
 * `$privacyRules`: `list<array<string, mixed>>` Who may see the story, as [InputPrivacyRule](https://core.telegram.org/type/InputPrivacyRule)s; everyone by default.  

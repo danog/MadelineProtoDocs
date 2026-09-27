@@ -60,6 +60,10 @@ All messages associated to the same album will have an identical grouped ID.
 
 ## Method list:
 * [`screenShot(): \danog\MadelineProto\EventHandler\Message\Service\DialogScreenshotTaken`](#screenShot)
+* [`getCall(): ?\danog\MadelineProto\EventHandler\Calls\PrivateCall`](#getCall)
+* [`canRequestCall(bool $video = false): bool`](#canRequestCall)
+* [`requestCall(bool $video = false): \danog\MadelineProto\EventHandler\Calls\PrivateCall`](#requestCall)
+* [`getCallDenialReason(bool $video = false): ?\danog\MadelineProto\EventHandler\Calls\CallDenialReason`](#getCallDenialReason)
 * [`pin(bool $pmOneside = false, bool $silent = false): void`](#pin)
 * [`unpin(bool $pmOneside = false, bool $silent = false): ?\danog\MadelineProto\EventHandler\Update`](#unpin)
 * [`getOurReactions(): list<(string|int)>`](#getOurReactions)
@@ -105,6 +109,61 @@ Notify the other user in a private chat that a screenshot of the chat was taken.
 
 #### See also: 
 * [`\danog\MadelineProto\EventHandler\Message\Service\DialogScreenshotTaken`: A screenshot of the chat was taken.](../../../danog/MadelineProto/EventHandler/Message/Service/DialogScreenshotTaken.html)
+
+
+
+
+### <a name="getCall"></a> `getCall(): ?\danog\MadelineProto\EventHandler\Calls\PrivateCall`
+
+Get the pending or running one-to-one call with the other user of this chat, if any.
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Calls\PrivateCall`: This update represents a private (one-to-one) VoIP Telegram call.](../../../danog/MadelineProto/EventHandler/Calls/PrivateCall.html)
+
+
+
+
+### <a name="canRequestCall"></a> `canRequestCall(bool $video = false): bool`
+
+Whether {@see self::requestCall()} will succeed, i.e. there is already a call with the other user,
+or we can call them.  
+
+
+Parameters:
+
+* `$video`: `bool` Whether to check if a video call can be started.  
+
+
+
+### <a name="requestCall"></a> `requestCall(bool $video = false): \danog\MadelineProto\EventHandler\Calls\PrivateCall`
+
+Get the pending or running one-to-one call with the other user of this chat, or call them if there is none.
+
+
+Parameters:
+
+* `$video`: `bool` Whether to start a video call.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Calls\PrivateCall`: This update represents a private (one-to-one) VoIP Telegram call.](../../../danog/MadelineProto/EventHandler/Calls/PrivateCall.html)
+
+
+
+
+### <a name="getCallDenialReason"></a> `getCallDenialReason(bool $video = false): ?\danog\MadelineProto\EventHandler\Calls\CallDenialReason`
+
+Returns why we can't call the other user, or null if we can.
+
+
+Parameters:
+
+* `$video`: `bool` Whether to check if a video call can be started.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Calls\CallDenialReason`: Reason why a call or group call cannot be started in a chat, the value is a human-readable description.](../../../danog/MadelineProto/EventHandler/Calls/CallDenialReason.html)
 
 
 

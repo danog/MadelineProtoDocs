@@ -180,6 +180,9 @@ Here's the full list of all concrete types:
 * [danog\MadelineProto\EventHandler\Delete\DeleteScheduledMessages &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Delete/DeleteScheduledMessages.html) - Some [scheduled messages](https://core.telegram.org/api/scheduled-messages) were deleted from the schedule queue of a chat.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Delete/DeleteScheduledMessages.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Delete/DeleteScheduledMessages.html#method-list)
+* [danog\MadelineProto\EventHandler\GroupOrChannelMessage &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/GroupOrChannelMessage.html) - Represents a group or channel message.
+  * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/GroupOrChannelMessage.html#properties)
+  * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/GroupOrChannelMessage.html#method-list)
 * [danog\MadelineProto\EventHandler\InlineQuery &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/InlineQuery.html) - An incoming inline query.
   * [Full property list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/InlineQuery.html#properties)
   * [Full bound method list &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/InlineQuery.html#method-list)
