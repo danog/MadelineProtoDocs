@@ -7,10 +7,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Telegram RPC API
 
-[Back to main documentation](..)  
+[Back to main documentationfh](..)  
 
 
-[Methods](methods/)
+[Methods](methodshg/)
 
 [Constructors](constructors/)
 
