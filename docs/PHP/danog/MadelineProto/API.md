@@ -81,6 +81,8 @@ Main API wrapper for MadelineProto.
 * `$aicompose`: `\danog\MadelineProto\Namespace\Aicompose` 
 * `$communities`: `\danog\MadelineProto\Namespace\Communities` 
 * `$ephemeral`: `\danog\MadelineProto\Namespace\Ephemeral` 
+* `$toncenter`: `\danog\MadelineProto\Namespace\Toncenter` 
+* `$wallet`: `\danog\MadelineProto\Namespace\Wallet` 
 
 ## Method list:
 * [`getWebAPITemplate(): string`](#getWebAPITemplate)

@@ -335,7 +335,8 @@ Unlike {@see self::canRequestCall()}, this does not take into account an already
 Get the call currently associated with this chat, or start a new one if there is none.
   
 For private and secret chats this calls the other user;  
-for groups and channels, this creates a video chat or livestream (use `join()` on the returned call to join it).  
+for groups and channels, this creates a video chat or livestream (use `join()` on the returned call to join it:  
+`requestCall()->join()` works in every chat, as joining an outgoing one-to-one call does nothing).  
 
 
 #### See also: 

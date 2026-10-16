@@ -41,6 +41,8 @@ Plugin event handler class.
 * `$aicompose`: `\danog\MadelineProto\Namespace\Aicompose` 
 * `$communities`: `\danog\MadelineProto\Namespace\Communities` 
 * `$ephemeral`: `\danog\MadelineProto\Namespace\Ephemeral` 
+* `$toncenter`: `\danog\MadelineProto\Namespace\Toncenter` 
+* `$wallet`: `\danog\MadelineProto\Namespace\Wallet` 
 
 ## Method list:
 * [`getPluginPaths(): array|string|null`](#getPluginPaths)

@@ -12,7 +12,7 @@ MadelineProto can do everything official clients can do, and more!
 
 * It is [fully async](https://docs.madelineproto.xyz/docs/ASYNC.html)!
 
-* *It can make phone calls!* [See here for instructions](https://docs.madelineproto.xyz/docs/CALLS.html)
+* *It can make and receive voice and video calls, stream and record video chats and livestreams, and join end-to-end encrypted conference calls!* [See here for instructions](https://docs.madelineproto.xyz/docs/CALLS.html)
 
 * It can be proxied (MTProxy, HTTP, socks5 and more)!
 

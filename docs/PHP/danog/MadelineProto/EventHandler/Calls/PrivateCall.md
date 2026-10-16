@@ -25,9 +25,8 @@ The old name {@see \danog\MadelineProto\VoIP} is kept as an alias for backwards 
 * `$date`: `int` When was the call created
 * `$discardReason`: `?danog\MadelineProto\VoIP\DiscardReason` Why the call was discarded, if it was.
 * `$conferenceSlug`: `?string` If the call was upgraded to a [conference call »](https://core.telegram.org/api/group-calls#conference-calls),
-the [conference deep link »](https://core.telegram.org/api/links#conference-links) slug of the new conference.
-
-Conference calls are end-to-end encrypted and cannot be joined by MadelineProto yet.
+the [conference deep link »](https://core.telegram.org/api/links#conference-links) slug of the new conference,
+which can be joined with {@see \danog\MadelineProto\API::joinConferenceCallBySlug()}.
 
 ## Method list:
 * [`join(bool $muted = false): static`](#join)
@@ -57,7 +56,7 @@ Conference calls are end-to-end encrypted and cannot be joined by MadelineProto 
 ## Methods:
 ### <a name="join"></a> `join(bool $muted = false): static`
 
-Accept the incoming call.
+Accept the incoming call (for an outgoing call, which we are already in, only applies `$muted`).
 
 
 Parameters:

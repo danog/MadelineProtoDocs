@@ -41,6 +41,8 @@ Plugin that offers a /restart command to admins that can be used to restart the 
 * `$aicompose`: `\danog\MadelineProto\Namespace\Aicompose` 
 * `$communities`: `\danog\MadelineProto\Namespace\Communities` 
 * `$ephemeral`: `\danog\MadelineProto\Namespace\Ephemeral` 
+* `$toncenter`: `\danog\MadelineProto\Namespace\Toncenter` 
+* `$wallet`: `\danog\MadelineProto\Namespace\Wallet` 
 
 ## Method list:
 * [`cmd(\danog\MadelineProto\EventHandler\SimpleFilter\Incoming&danog\MadelineProto\EventHandler\Message&danog\MadelineProto\EventHandler\SimpleFilter\FromAdmin $_): void`](#cmd)

@@ -41,6 +41,8 @@ Event handler.
 * `$aicompose`: `\danog\MadelineProto\Namespace\Aicompose` 
 * `$communities`: `\danog\MadelineProto\Namespace\Communities` 
 * `$ephemeral`: `\danog\MadelineProto\Namespace\Ephemeral` 
+* `$toncenter`: `\danog\MadelineProto\Namespace\Toncenter` 
+* `$wallet`: `\danog\MadelineProto\Namespace\Wallet` 
 
 ## Method list:
 * [`startAndLoop(string $session, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): void`](#startAndLoop)

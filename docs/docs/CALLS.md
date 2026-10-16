@@ -1,23 +1,44 @@
 ---
-title: "Telegram VoIP phone calls"
-description: "MadelineProto provides an easy wrapper to work with phone calls."
+title: "Telegram VoIP calls"
+description: "MadelineProto can make and receive voice and video calls, stream and record video chats and livestreams, and take part in end-to-end encrypted conference calls."
 nav_order: 21
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
-# Telegram VoIP phone calls
+# Telegram VoIP calls
 
-MadelineProto provides an easy wrapper to work with phone calls.
+MadelineProto can make and receive voice and video calls, stream and record video chats and livestreams, and take part in end-to-end encrypted conference calls.
+
+The whole call stack (WebRTC, the Telegram signaling protocols and the media demuxers) is written in pure PHP, so calls work everywhere MadelineProto works, webhosts included, without any extension or external program.
 
 [Full webradio example](https://github.com/danog/magnaluna)
 
-* Please read the whole [VoIP API documentation](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/VoIP.html) before proceeding.
+* [Call types](#call-types)
 * [Requesting a call](#requesting-a-call)
-* [Playing audio files](#playing-audio-files)
-  * [Webhost support!](#webhost-support)
 * [Accepting calls](#accepting-calls)
+* [Playing video files](#playing-video-files)
+* [Playing audio files](#playing-audio-files)
+* [Supported formats](#supported-formats)
+* [Playlists and screen sharing](#playlists-and-screen-sharing)
+* [Recording calls](#recording-calls)
+* [Group calls (video chats and livestreams)](#group-calls-video-chats-and-livestreams)
+  * [Livestreams, RTMP and stream mode](#livestreams-rtmp-and-stream-mode)
+  * [Live stories](#live-stories)
+* [Conference calls](#conference-calls)
+* [Restarts](#restarts)
 
+## Call types
+
+Every call implements the [Call](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Call.html) interface, so the same code can play files into and record any kind of call:
+
+* [PrivateCall](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/PrivateCall.html): a one-to-one voice or video call (`danog\MadelineProto\VoIP` is an alias kept for backwards compatibility).
+* [GroupCall](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/GroupCall.html): a video chat or livestream of a group or channel.
+* [LiveStory](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/LiveStory.html): a livestream posted as a story.
+* [ConferenceCall](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/ConferenceCall.html): an end-to-end encrypted multi-party call.
+
+The multi-party ones also implement the [MultiCall](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/MultiCall.html) interface, which adds participant management and in-call messages.
 
 ## Requesting a call
+
 ```php
 <?php
 
@@ -29,104 +50,42 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
+// A voice call...
 $call = $MadelineProto->requestCall('@danogentili');
+// ...or a video call.
+$call = $MadelineProto->requestCall('@danogentili', video: true);
 ```
 
-The [requestCall](https://docs.madelineproto.xyz/requestCall.html) function accepts one parameter with the ID/username/Peer/User/InputPeer of the person to call, and returns a VoIP object that can be used to play audio files, set the hold files, change the configuration and set the output file (see the [VoIP API documentation](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/VoIP.html) for more info).
+The [requestCall](https://docs.madelineproto.xyz/requestCall.html) function accepts the ID/username/Peer/User/InputPeer of the person to call, and returns a [PrivateCall](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Calls/PrivateCall.html) object, used to play files, record the call, mute ourselves and hang up with `discard()`.
 
-You can play audio files of any format as follows:
+Calls can only be made by users, not by bots.
 
-## Playing audio files
-
-To play audio files of any format, install `ffmpeg`, `libopus` and enable the PHP `ffi` extension.  
-
-If you can't do the above (for example on webhosts), **no problem**: simply pre-convert the files to a special format using [@libtgvoipbot, see here &raquo;](#webhost-support) for more info.  
-
-You can play audio files:
+From an event handler, messages can start calls directly: in a private chat, `requestCall()` returns the call already running with the other user, or calls them. `canRequestCall()` and `getCallDenialReason()` tell beforehand whether that will work, and why not (the user's privacy settings may not allow it, video calls may be unavailable...):
 
 ```php
-<?php
-
-if (!file_exists('madeline.php')) {
-    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
-}
-include 'madeline.php';
-
-use danog\MadelineProto\LocalFile;
-
-$MadelineProto = new \danog\MadelineProto\API('session.madeline');
-$MadelineProto->start();
-
-$call = $MadelineProto->requestCall('@danogentili');
-$call->play(new LocalFile("audio.mp3"))
-     ->then(new LocalFile("audio.flac"))
-     ->then(new LocalFile("audio.wav"))
-     ->then(new LocalFile("audio_with_video.mp4"));
-```
-
-You can also play remote streams (or simple remote files) by URL:
-
-```php
-<?php
-
-if (!file_exists('madeline.php')) {
-    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
-}
-include 'madeline.php';
-
+use danog\MadelineProto\EventHandler\Filter\FilterCommand;
+use danog\MadelineProto\EventHandler\Message\PrivateMessage;
+use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
 use danog\MadelineProto\RemoteUrl;
 
-$MadelineProto = new \danog\MadelineProto\API('session.madeline');
-$MadelineProto->start();
-
-$call = $MadelineProto->requestCall('@danogentili');
-$call->play(new RemoteUrl("http://icestreaming.rai.it/1.mp3"));
-```
-
-You can also play Telegram files, using AMP streams!
-
-
-## Webhost support
-
-Starting from MadelineProto 8, VoIP now works on webhosts, too, thanks to a pure PHP implementation of libtgvoip and a pure PHP OGG demuxer!
-
-The only limitation when running on webhosts is that audio files must be preconverted using by sending them to [@libtgvoip_bot](https://t.me/libtgvoip_bot) ([source code](https://github.com/danog/MadelineProto/blob/v8/examples/libtgvoipbot.php)), or by using the following script on your PC:
-
-```php
-<?php
-
-if (!file_exists('madeline.php')) {
-    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+#[FilterCommand('call')]
+public function callCommand(Incoming&PrivateMessage $message): void
+{
+    if ($reason = $message->getCallDenialReason(video: true)) {
+        $message->reply("Can't call you: {$reason->value}");
+        return;
+    }
+    $message->requestCall(video: true)->play(new RemoteUrl('https://paste.daniil.it/oncall.webm'));
 }
-include 'madeline.php';
-
-use danog\MadelineProto\LocalFile;
-
-\danog\MadelineProto\Ogg::convert(new LocalFile("in.mp3"), new LocalFile("out.ogg"));
 ```
 
-Copy out.ogg to your webhost, and then run this script on your webhost:
+In a group or channel, `requestCall()` returns the active video chat instead, or creates one (which requires the `manage_call` admin right): video chats are not joined automatically, so call `join()` on it before playing anything. `$message->requestCall()->join()` works in every chat, since joining an outgoing one-to-one call does nothing.
 
-```php
-<?php
-
-if (!file_exists('madeline.php')) {
-    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
-}
-include 'madeline.php';
-
-use danog\MadelineProto\LocalFile;
-
-$MadelineProto = new \danog\MadelineProto\API('session.madeline');
-$MadelineProto->start();
-
-$call = $MadelineProto->requestCall('@danogentili');
-$call->play(new LocalFile("out.ogg"));
-```
+`requestCall()` throws a `CallNotAllowedException` (whose `reason` is a `CallDenialReason`) when the call can't be made.
 
 ## Accepting calls
 
-Accepting calls is just as easy:
+Incoming calls arrive in the event handler as `PrivateCall` updates: accept them with `join()`.
 
 ```php
 <?php
@@ -138,22 +97,153 @@ if (!file_exists('madeline.php')) {
 }
 include 'madeline.php';
 
-use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
-use danog\MadelineProto\VoIP;
-use danog\MadelineProto\RemoteUrl;
 use danog\MadelineProto\EventHandler\Attributes\Handler;
+use danog\MadelineProto\EventHandler\Calls\PrivateCall;
+use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
+use danog\MadelineProto\RemoteUrl;
 
 class PonyHandler extends \danog\MadelineProto\SimpleEventHandler
 {
     #[Handler]
-    public function handleIncomingCall(VoIP&Incoming $call): void
+    public function handleIncomingCall(PrivateCall&Incoming $call): void
     {
-        $call->join()->play(new RemoteUrl('http://icestreaming.rai.it/1.mp3'));
+        $call->join()->play(new RemoteUrl('https://paste.daniil.it/oncall.webm'));
     }
 }
 
 PonyHandler::startAndLoop('session.madeline');
 ```
+
+`$call->video` tells whether the other party started a video call, and `getVisualization()` returns the four key verification emojis, which both parties can compare to make sure nobody is listening in.
+
+## Playing video files
+
+Playing a WebM or Matroska file with a video track transmits its video along with its audio, in every kind of call:
+
+```php
+<?php
+
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+use danog\MadelineProto\LocalFile;
+use danog\MadelineProto\RemoteUrl;
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$call = $MadelineProto->requestCall('@danogentili', video: true);
+$call->play(new RemoteUrl('https://paste.daniil.it/oncall.webm'))
+     ->then(new LocalFile('video.mkv'));
+```
+
+The video frames are sent exactly as they are stored in the file: nothing is decoded or re-encoded, so playing video needs no codec library, and costs about as much CPU as playing audio.
+
+In a one-to-one call, video is turned on as soon as a file with video starts playing (even in a call started as a voice call), and off when a file without video follows it. Only one video is transmitted at a time in a one-to-one call: while the screen is being shared (see [screen sharing](#playlists-and-screen-sharing)), the camera stream pauses.
+
+See [supported formats](#supported-formats) for the video codecs that can be played.
+
+## Playing audio files
+
+Audio files are played the same way:
+
+```php
+<?php
+
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+use danog\MadelineProto\LocalFile;
+use danog\MadelineProto\RemoteUrl;
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$call = $MadelineProto->requestCall('@danogentili');
+$call->play(new LocalFile('audio.webm'))     // WebM/Matroska with OPUS audio
+     ->then(new LocalFile('audio.ogg'))      // OGG OPUS created by MadelineProto
+     ->then(new RemoteUrl('https://example.com/audio.webm'));
+```
+
+Telegram files can be played as streams too, with no need to download them first:
+
+```php
+use danog\MadelineProto\EventHandler\Attributes\Handler;
+use danog\MadelineProto\EventHandler\Media\Document;
+use danog\MadelineProto\EventHandler\Message\PrivateMessage;
+use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
+
+// Plays the WebM and OGG files we receive into a call with the sender.
+#[Handler]
+public function playFile(Incoming&PrivateMessage $message): void
+{
+    if ($message->media instanceof Document
+        && in_array($message->media->mimeType, ['audio/ogg', 'video/webm'], true)
+        && $message->canRequestCall()
+    ) {
+        $message->requestCall()->play($message->media->getStream());
+    }
+}
+```
+
+## Supported formats
+
+MadelineProto plays these formats on its own, without ffmpeg or any extension:
+
+* **WebM and Matroska** (`.webm`, `.mkv`) files, with:
+  * **VP8**, **VP9** or **H.264** video (**AV1** can also be used in one-to-one calls, if the other party's app supports it);
+  * **OPUS** audio.
+  
+  Files may hold video and audio, video only or audio only. Other audio codecs (Vorbis, AAC...) are skipped with a warning, as are video tracks after the first one.
+* **OGG OPUS** files created by MadelineProto: with `\danog\MadelineProto\Ogg::convert()`, or by sending the file to [@libtgvoip_bot](https://t.me/libtgvoip_bot) ([source code](https://github.com/danog/MadelineProto/blob/v8/examples/libtgvoipbot.php)), which converts it for you.
+
+Files in these formats can be local files, URLs or streams.
+
+For video, VP8 is the safest choice in one-to-one calls, since every Telegram app can decode it. Since frames are sent as they are, they can't be re-encoded when someone joins mid-file, so keep keyframes frequent (every 1-2 seconds): a participant starts seeing the video at the next keyframe.
+
+Any WebM/Matroska encoder works. For example, if you have ffmpeg on your PC, a file can be converted once with:
+
+```bash
+ffmpeg -i input.mp4 -c:v libvpx -b:v 1M -g 60 -c:a libopus -b:a 64k output.webm
+```
+
+Then copy the WebM file to your server: playing it needs nothing but MadelineProto.
+
+Other formats (MP3, FLAC, WAV, MP4...) can only be played if the FFI extension, libopus and ffmpeg are installed on the server, in which case their audio is converted on the fly (any video is dropped). One-to-one calls with very old Telegram apps that don't support WebRTC also need OGG OPUS files created by MadelineProto (or on-the-fly conversion), and are audio only.
+
+## Playlists and screen sharing
+
+Every call has a playlist:
+
+```php
+use danog\MadelineProto\LocalFile;
+use danog\MadelineProto\MediaDestination;
+
+$call->play(new LocalFile('first.webm'));  // Starts playing now (or after the current file).
+$call->then(new LocalFile('second.webm')); // Queued after it.
+
+// Played on loop while the playlist is empty.
+$call->playOnHold(MediaDestination::Camera, new LocalFile('hold.webm'));
+
+$call->pause();
+$call->resume();
+$call->skip();          // Skips to the next file.
+$call->stop();          // Clears the playlist and the hold files.
+$call->getCurrent();    // The file being played.
+$call->setMuted(true);  // Mutes our own audio.
+
+// Plays a video as a screen share, next to the camera stream.
+$call->play(new LocalFile('slides.webm'), MediaDestination::Presentation);
+$call->disablePresentation(); // Stops sharing the screen.
+```
+
+Every playlist method takes a `MediaDestination`: `Camera` (the default) for the main audio and video stream, or `Presentation` for the screen share, which is started by the first file played into it, and transmits only the video of its files.
+
+`playBlocking()` works like `play()`, but if a stream was passed, it waits until it has been played.
 
 ## Recording calls
 
@@ -170,23 +260,21 @@ if (!file_exists('madeline.php')) {
 include 'madeline.php';
 
 use danog\MadelineProto\CallStream;
+use danog\MadelineProto\EventHandler\Attributes\Handler;
 use danog\MadelineProto\EventHandler\Calls\CallStreams;
+use danog\MadelineProto\EventHandler\Calls\PrivateCall;
 use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
-use danog\MadelineProto\VoIP;
-use danog\MadelineProto\RemoteUrl;
 use danog\MadelineProto\LocalDirectory;
 use danog\MadelineProto\LocalFile;
-use danog\MadelineProto\RecordingEvent;
-use danog\MadelineProto\EventHandler\Attributes\Handler;
-use Amp\ByteStream\WritableStream;
+use danog\MadelineProto\RemoteUrl;
 
 class PonyHandler extends \danog\MadelineProto\SimpleEventHandler
 {
     #[Handler]
-    public function handleIncomingCall(VoIP&Incoming $call): void
+    public function handleIncomingCall(PrivateCall&Incoming $call): void
     {
         $call->join();
-        $call->play(new RemoteUrl('http://icestreaming.rai.it/1.mp3'));
+        $call->play(new RemoteUrl('https://paste.daniil.it/oncall.webm'));
 
         // Records the incoming audio as an OGG OPUS stream: a .mkv or .webm name records video too.
         $call->setOutput(new LocalFile('output.ogg'));
@@ -210,56 +298,50 @@ class PonyHandler extends \danog\MadelineProto\SimpleEventHandler
     }
 
     // Emitted for every call type, whenever the streams a participant sends (or their codecs)
-    // change, and whenever a recording starts or ends.
+    // change, and whenever a recording ends.
     #[Handler]
     public function onStreams(CallStreams $update): void
     {
         $this->logger("Participant {$update->participant} of {$update->call} sends ".CallStream::describe($update->streams).': '.json_encode($update->codecs));
-        if ($update->recording === RecordingEvent::Started) {
-            $this->logger("Recording {$update->file?->file} started");
-        } elseif ($update->recording === RecordingEvent::Ended) {
-            $this->logger("Recording {$update->file?->file} ended");
+        if ($update->recordingStopped) {
+            $this->logger("The recording of {$update->participant} ended");
         } elseif ($update->has(CallStream::VIDEO)) {
             // The camera is on: a file opened before it came on keeps its tracks, so start a new
             // one holding it (finishing the previous one).
             $update->call->setOutput(new LocalFile('call_video.mkv'), $update->participant, streams: CallStream::AUDIO | CallStream::VIDEO);
         }
     }
-
-    // Plays incoming audio files into a Telegram call
-    #[Handler]
-    public function playAudio(Incoming&PrivateMessage&HasAudio $message): void
-    {
-        $this->requestCall($message->senderId)->play($message->media->getStream());
-    }
 }
 
 PonyHandler::startAndLoop('session.madeline');
 ```
 
+Recordings are written in pure PHP, without decoding anything: the video tracks keep the codec the participant sends (VP8, VP9, H.264 or AV1), and the audio is OPUS.
+
 A file recorded with `setOutput` keeps its tracks for its whole duration: a stream the participant turns off simply stops being written and resumes when it comes back, and a stream that becomes available later is not added (call `setOutput` again to start a new file with it). Only a change of codec of a video stream, or the end of the call, finishes the file early. A `setOutputFolder` recording follows every change instead, closing the current file and opening a new one named after the streams it holds (`<n>_<streams>.mkv`, with `streams` listing `audio`, `video` and `screen`).
 
-<a href="https://docs.madelineproto.xyz/docs/FILES.html">Next section</a>
+In multi-party calls, `setOutput` records one participant, passed as second parameter, while `setOutputFolder` records every participant that sends something to its own series of files (or just one, if passed). Our own media is never recorded.
 
 ## Group calls (video chats and livestreams)
 
-Group calls are handled through the `GroupCall` object, which implements the `MultiCall` interface (a superset of the one-to-one `Call` interface used above: the same playlist, mute, screen-share and recording controls, plus multi-party management). What a video chat shares with a live story lives in their common base class, `AbstractGroupCall`; what only a video chat offers (title, scheduling, server-side recording, raising a hand, kicking) lives on `GroupCall` itself.
+Group calls are handled through the `GroupCall` object, which implements the `MultiCall` interface (a superset of the `Call` interface used above: the same playlist, mute, screen-share and recording controls, plus multi-party management). What a video chat shares with a live story lives in their common base class, `AbstractGroupCall`; what only a video chat offers (scheduling, server-side recording, raising a hand) lives on `GroupCall` itself.
 
 ```php
-use danog\MadelineProto\LocalFile;
+use danog\MadelineProto\CallStream;
 use danog\MadelineProto\LocalDirectory;
+use danog\MadelineProto\LocalFile;
 use danog\MadelineProto\MediaDestination;
 use danog\MadelineProto\ParseMode;
 use danog\MadelineProto\RemoteUrl;
 
-// Create a video chat in a group or channel we administer (or a scheduled one, or an RTMP livestream)...
-$call = $this->createGroupCall('@mygroup', title: 'Weekly meeting');
+// Create a video chat in a group or channel we administer (or a scheduled one, or an RTMP livestream), and join it...
+$call = $this->createGroupCall('@mygroup', title: 'Weekly meeting')->join();
 // ...or join the one currently active there, optionally as one of our channels.
 $call = $this->joinGroupCall('@mygroup', muted: false, joinAs: '@mychannel');
 
 // Playback and recording work exactly like in one-to-one calls.
-$call->play(new RemoteUrl('http://icestreaming.rai.it/1.mp3'));
-$call->play(new LocalFile('slides.webm'), MediaDestination::Presentation); // screen-share
+$call->play(new LocalFile('video.webm'));                                   // camera and microphone
+$call->play(new LocalFile('slides.webm'), MediaDestination::Presentation); // screen share
 $call->setOutputFolder(new LocalDirectory('recordings'));                  // one numbered .mkv series per participant
 $call->setOutput(new LocalFile('bob.mkv'), '@bob');                        // a single participant, one file with fixed tracks
 $call->setOutput(new LocalFile('bob_audio.mkv'), '@bob', streams: CallStream::AUDIO);
@@ -289,9 +371,11 @@ $call->leave();   // leave, keeping the call running
 $call->discard(); // end the call for everyone
 ```
 
+Group calls and conference calls carry VP8, VP9 and H.264 video.
+
 Scheduled calls can be started early with `startScheduled()`, and `setStartSubscription(true)` asks for a notification when they start. `getGroupCallJoinAs($peer)` lists the peers we may join a call as, and `saveDefaultGroupCallJoinAs($peer, $joinAs)` stores the default.
 
-Your event handler receives a `GroupCall` update whenever a call starts, changes or ends, a `GroupCallParticipants` update when participants join, leave or change state, a `GroupCallMessage` update for every in-call message or reaction, and a `GroupCallMessagesDeleted` update when messages are deleted:
+Your event handler receives a `GroupCall` update whenever a call starts, changes or ends, a `GroupCallParticipants` update when participants join, leave or change state, a `GroupCallMessage` update for every in-call message or reaction (`LiveStoryMessage` and `ConferenceCallMessage` for live stories and conference calls), and a `GroupCallMessagesDeleted` update when messages are deleted:
 
 ```php
 use danog\MadelineProto\EventHandler\Attributes\Handler;
@@ -316,7 +400,7 @@ A [live story](https://core.telegram.org/api/group-calls#live-stories) is a live
 
 ## Conference calls
 
-[Conference calls](https://core.telegram.org/api/group-calls#conference-calls) are end-to-end encrypted multi-party calls not associated with any group, handled through the `ConferenceCall` object, which implements the same `MultiCall` interface:
+[Conference calls](https://core.telegram.org/api/group-calls#conference-calls) are end-to-end encrypted multi-party calls not associated with any group, handled through the `ConferenceCall` object, which implements the same `MultiCall` interface (they require the `sodium` and `openssl` PHP extensions):
 
 ```php
 // Create one (we are its only participant until someone joins)...
@@ -328,7 +412,7 @@ $call->invite('@alice');                 // or ring someone directly
 $call = $this->joinConferenceCallBySlug('abcdef');
 $call = $this->joinConferenceCallByInviteMessage($msgId);
 
-$call->play(new LocalFile('song.ogg'));
+$call->play(new LocalFile('video.webm'));                  // end-to-end encrypted audio and video
 $call->setOutputFolder(new LocalDirectory('recordings')); // decrypted, one numbered .mkv series per participant
 $call->setOutput(new LocalFile('alice.mkv'), '@alice');    // decrypted, a single participant
 
@@ -341,5 +425,13 @@ $call->leave();
 ```
 
 Invitations arrive as `DialogConferenceCall` service messages, which can be accepted with `join()` or declined with `decline()`. A one-to-one call can be upgraded to a conference with `migrateCallToConference($callId)`.
+
+## Restarts
+
+Calls survive restarts of MadelineProto: the calls we are in, their playlists and their recordings are saved in the session.
+
+After a restart, the WebM or OGG file that was playing continues where it left off, the rest of the playlist and the hold files are played after it, and recordings continue in the same file. Files, URLs and resumable streams (such as the ones returned by `getStream()` on Telegram media) survive restarts; other streams can't be saved in the session.
+
+When MadelineProto is used through its IPC server (i.e. not from an event handler), files, URLs and resumable streams are passed to the call by value; other streams are read from the client process, so `play()` blocks until they have been played. Files played on hold must be files, URLs or resumable streams.
 
 <a href="https://docs.madelineproto.xyz/docs/FILES.html">Next section</a>
