@@ -165,7 +165,7 @@ $MadelineProto->start();
 
 $call = $MadelineProto->requestCall('@danogentili');
 $call->play(new LocalFile('audio.webm'))     // WebM/Matroska with OPUS audio
-     ->then(new LocalFile('audio.ogg'))      // OGG OPUS created by MadelineProto
+     ->then(new LocalFile('audio.ogg'))      // OGG OPUS
      ->then(new RemoteUrl('https://example.com/audio.webm'));
 ```
 
@@ -199,13 +199,13 @@ MadelineProto plays these formats on its own, without ffmpeg or any extension:
   * **OPUS** audio.
   
   Files may hold video and audio, video only or audio only. Other audio codecs (Vorbis, AAC...) are skipped with a warning, as are video tracks after the first one.
-* **OGG OPUS** files created by MadelineProto: with `\danog\MadelineProto\Ogg::convert()`, or by sending the file to [@libtgvoip_bot](https://t.me/libtgvoip_bot) ([source code](https://github.com/danog/MadelineProto/blob/v8/examples/libtgvoipbot.php)), which converts it for you.
+* **OGG OPUS** (`.ogg`, `.opus`) files, mono or stereo, with any frame size.
 
 Files in these formats can be local files, URLs or streams.
 
 YouTube videos (h264, h265, VP8, VP9) can also be sent as-is, without re-encoding (including in streaming mode).
 
-Other formats (MP3, FLAC, WAV, MP4...) can only be played if the FFI extension, libopus and ffmpeg are installed on the server, in which case their audio is converted on the fly (any video is dropped). One-to-one calls with very old Telegram apps that don't support WebRTC also need OGG OPUS files created by MadelineProto (or on-the-fly conversion), and are audio only.
+Other formats (MP3, FLAC, WAV, MP4...) can only be played if the FFI extension, libopus and ffmpeg are installed on the server, in which case their audio is converted on the fly (any video is dropped).
 
 ## Playlists and screen sharing
 
