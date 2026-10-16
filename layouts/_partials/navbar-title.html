@@ -1,0 +1,30 @@
+{{- /* Hextra's navbar-title.html, plus the GitHub star button. */ -}}
+{{- $logoPath := .Site.Params.navbar.logo.path | default "images/logo.svg" -}}
+{{- $logoLink := .Site.Params.navbar.logo.link | default .Site.Home.RelPermalink -}}
+{{- $logoWidth := .Site.Params.navbar.logo.width | default "20" -}}
+{{- $logoHeight := .Site.Params.navbar.logo.height | default "20" -}}
+{{- $logoDarkPath := .Site.Params.navbar.logo.dark | default $logoPath -}}
+
+<a class="hx:flex hx:items-center hx:hover:opacity-75" href="{{ $logoLink }}">
+  {{- $displayTitle := (.Site.Params.navbar.displayTitle | default true) }}
+  {{- if (.Site.Params.navbar.displayLogo | default true) }}
+    <img class="hx:mr-2 hx:block hx:dark:hidden" src="{{ $logoPath | relURL }}" alt="{{ cond $displayTitle `Logo` .Site.Title }}" height="{{ $logoHeight }}" width="{{ $logoWidth }}" />
+    <img class="hx:mr-2 hx:hidden hx:dark:block" src="{{ $logoDarkPath | relURL }}" alt="{{ cond $displayTitle `Dark Logo` .Site.Title }}" height="{{ $logoHeight }}" width="{{ $logoWidth }}" />
+  {{- end }}
+  {{- if $displayTitle }}
+    <span class="hx:mr-2 hx:font-extrabold hx:inline hx:select-none">{{- .Site.Title -}}</span>
+  {{- end }}
+</a>
+
+{{- $repo := site.Params.github.repo -}}
+{{- $label := "on GitHub" -}}
+{{- with try (resources.GetRemote (printf "https://api.github.com/repos/%s" $repo)) -}}
+  {{- with .Err -}}
+    {{- warnf "Could not fetch the GitHub star count: %s" . -}}
+  {{- else with .Value -}}
+    {{- with (. | transform.Unmarshal).stargazers_count -}}
+      {{- $label = printf "%gk" (div (math.Floor (div (float .) 100)) 10) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end }}
+<a class="mp-star-button hx:ltr:mr-auto hx:rtl:ml-auto" href="https://github.com/{{ $repo }}" target="_blank" rel="noreferrer" title="Star MadelineProto on GitHub">⭐️ {{ $label }}</a>

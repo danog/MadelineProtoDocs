@@ -10,35 +10,37 @@ on:
 permissions:
   contents: read
 
+env:
+  HUGO_VERSION: 0.168.0
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    container:
-      image: danog/gojekyll
     steps:
-      - name: Setup
-        run: apt-get update && apt-get install -y git openssh-client
-
       - name: Checkout
         uses: actions/checkout@v4
         with:
           ssh-key: ${{ secrets.DEPLOY_KEY }}
           fetch-depth: 0
+          submodules: true
+
+      - name: Install Hugo
+        run: |
+          wget -q -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
+          sudo dpkg -i /tmp/hugo.deb
 
       - name: Build
         run: |
           set -ex
           git config --global user.email "daniil@daniil.it"
           git config --global user.name "Daniil Gentili"
-          git config --global --add safe.directory $PWD
-          cd docs
-          gojekyll build
+          python3 tools/build_content.py
           rm -rf /tmp/_site
-          cp -a _site /tmp/
-          cd ..
+          hugo --minify -d /tmp/_site
           git branch -D gh-pages || true
           git switch --orphan gh-pages
-          cp -a /tmp/_site/* .
+          git clean -ffdxq
+          cp -a /tmp/_site/. .
           git add -A
           git commit -am 'Update' >/dev/null
           git push -f origin gh-pages

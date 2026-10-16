@@ -1,0 +1,83 @@
+baseURL: "https://docs.madelineproto.xyz/"
+title: "MadelineProto"
+theme: hextra
+
+# Content is generated from docs/ by tools/build_content.py.
+uglyURLs: true
+disablePathToLower: true
+enableRobotsTXT: false
+disableKinds: [taxonomy, term, rss]
+
+outputs:
+  home: [html]
+  page: [html]
+  section: [html]
+
+caches:
+  getresource:
+    maxAge: 1h
+
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 3
+
+menu:
+  main:
+    - name: Docs
+      pageRef: /
+      weight: 1
+    - name: Telegram API
+      pageRef: /API_docs
+      weight: 2
+    - name: PHP API
+      pageRef: /PHP
+      weight: 3
+    - name: Search
+      weight: 4
+      params:
+        type: search
+    - name: Telegram channel
+      weight: 5
+      url: "https://t.me/MadelineProto"
+      params:
+        icon: telegram
+    - name: GitHub
+      weight: 6
+      url: "https://github.com/danog/MadelineProto"
+      params:
+        icon: github
+
+params:
+  description: Async PHP client API for the telegram MTProto protocol
+  images: ["/favicons/android-chrome-256x256.png"]
+  github:
+    repo: danog/MadelineProto
+  navbar:
+    displayTitle: true
+    displayLogo: false
+    width: full
+  page:
+    width: wide
+  theme:
+    default: dark
+    displayToggle: true
+  footer:
+    enable: true
+    displayCopyright: false
+    displayPoweredBy: false
+  editURL:
+    enable: true
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      index: heading
+      tokenize: forward
+  toc:
+    displayTags: false

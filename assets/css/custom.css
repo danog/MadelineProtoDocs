@@ -1,0 +1,32 @@
+.mp-star-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.125rem 0.625rem;
+  border: 1px solid rgb(0 0 0 / 0.1);
+  border-radius: 9999px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: background-color 0.15s;
+}
+
+.mp-star-button:hover {
+  background-color: rgb(0 0 0 / 0.05);
+}
+
+.dark .mp-star-button {
+  border-color: rgb(255 255 255 / 0.15);
+}
+
+.dark .mp-star-button:hover {
+  background-color: rgb(255 255 255 / 0.08);
+}
+
+/* Keep the navbar on one line on phones: the star button already links to GitHub. */
+@media (max-width: 767px) {
+  .hextra-nav-container a[title="GitHub"],
+  .hextra-nav-container a[title="Telegram channel"] {
+    display: none;
+  }
+}
