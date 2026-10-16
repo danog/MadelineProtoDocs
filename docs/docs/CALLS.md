@@ -203,7 +203,7 @@ MadelineProto plays these formats on its own, without ffmpeg or any extension:
 
 Files in these formats can be local files, URLs or streams.
 
-YouTube videos (h264, h265, VP8, VP9) can also be sent as-is, without re-encoding (including in streaming mode).
+YouTube videos (h264, h265, VP8, VP9 inside .webm, .mkv) can also be sent as-is, without re-encoding (including in streaming mode).
 
 Other formats (MP3, FLAC, WAV, MP4...) can only be played if the FFI extension, libopus and ffmpeg are installed on the server, in which case their audio is converted on the fly (any video is dropped).
 
