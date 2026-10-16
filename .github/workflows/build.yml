@@ -41,6 +41,7 @@ jobs:
           git switch --orphan gh-pages
           git clean -ffdxq
           cp -a /tmp/_site/. .
+          touch .nojekyll
           git add -A
           git commit -am 'Update' >/dev/null
           git push -f origin gh-pages
