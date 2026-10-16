@@ -842,7 +842,7 @@ Create and join a new end-to-end encrypted conference call, with ourselves as th
 participant. Others join it with {@see self::joinConferenceCall()} using the returned call id.  
   
 See [end-to-end encrypted group calls »](https://core.telegram.org/api/end-to-end/group-calls).  
-Requires the `sodium` and `openssl` PHP extensions.  
+Uses the `sodium` and `openssl` PHP extensions if available, for speed.  
 
 
 Parameters:
@@ -2594,7 +2594,7 @@ Whether we're currently connected to the test DCs.
 Join an existing end-to-end encrypted conference call.
   
 See [end-to-end encrypted group calls »](https://core.telegram.org/api/end-to-end/group-calls).  
-Requires the `sodium` and `openssl` PHP extensions.  
+Uses the `sodium` and `openssl` PHP extensions if available, for speed.  
 
 
 Parameters:

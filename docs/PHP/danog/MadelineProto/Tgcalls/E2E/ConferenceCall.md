@@ -38,6 +38,7 @@ encrypted messages).
 * [`getInputCall(): array`](#getInputCall)
 * [`getPublic(): \danog\MadelineProto\EventHandler\Calls\ConferenceCall`](#getPublic)
 * [`isJoined(): bool`](#isJoined)
+* [`getVoIPSettings(): \danog\MadelineProto\Settings\VoIP`](#getVoIPSettings)
 * [`isCallEnded(): bool`](#isCallEnded)
 * [`getCallState(): \danog\MadelineProto\EventHandler\Calls\GroupCallState`](#getCallState)
 * [`activeEpochs(): array`](#activeEpochs)
@@ -140,6 +141,17 @@ controller by call id.
 ### <a name="isJoined"></a> `isJoined(): bool`
 
 Whether we are currently in the conference (joined and not left/forbidden).
+
+
+
+### <a name="getVoIPSettings"></a> `getVoIPSettings(): \danog\MadelineProto\Settings\VoIP`
+
+
+
+
+#### See also: 
+* [`\danog\MadelineProto\Settings\VoIP`: VoIP settings.](../../../../danog/MadelineProto/Settings/VoIP.html)
+
 
 
 

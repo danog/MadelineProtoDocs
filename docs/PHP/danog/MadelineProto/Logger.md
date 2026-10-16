@@ -27,6 +27,9 @@ Logger class.
 
 * `danog\MadelineProto\Logger::ULTRA_VERBOSE`: Ultra verbose logging.
 
+* `danog\MadelineProto\Logger::MAX_ENTRY_LENGTH`: Maximum length of a log entry, in bytes: longer ones (like exceptions whose message contains a
+  huge query) only keep their beginning and their end.
+
 * `danog\MadelineProto\Logger::VERBOSE`: Verbose logging.
 
 * `danog\MadelineProto\Logger::NOTICE`: Notice logging.

@@ -237,6 +237,8 @@ Every playlist method takes a `MediaDestination`: `Camera` (the default) for the
 
 `playBlocking()` works like `play()`, but if a stream was passed, it waits until it has been played.
 
+Files are read just ahead of playback, to keep memory usage to a minimum, which matters when playing in many calls at once on webhosts with little RAM. When playing from slow sources (like slow URLs), you can read further ahead with `$settings->getVoip()->setPlaybackLookahead($milliseconds)`, at the cost of the file's bitrate times the lookahead of memory per call (between 0.5 and 2 MB per call for a 2-second lookahead on a 2 Mbps video, depending on the part being played).
+
 ## Recording calls
 
 To record the incoming media of a call, use `setOutput` (one file with a fixed set of tracks) or `setOutputFolder` (a directory, one file per combination of streams):
