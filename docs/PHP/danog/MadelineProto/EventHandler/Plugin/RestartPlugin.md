@@ -3098,7 +3098,9 @@ Report memory profile with memprof.
 
 ### <a name="requestCall"></a> `requestCall(mixed $user, bool $video = false): \danog\MadelineProto\EventHandler\Calls\PrivateCall`
 
-Request VoIP call.
+Request a one-to-one voice or video call.
+  
+See [the call documentation »](https://docs.madelineproto.xyz/docs/CALLS.html) for how to play videos into it.  
 
 
 Parameters:

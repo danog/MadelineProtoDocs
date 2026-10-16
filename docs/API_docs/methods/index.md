@@ -1426,7 +1426,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getEmojiGroups.html" name="messages.getEmojiGroups">Represents a list of emoji categories: messages.getEmojiGroups</a>
 
-* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#requestCall" name="requestCall">Request VoIP call: requestCall</a>
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#requestCall" name="requestCall">Request a one-to-one voice or video call: requestCall</a>
 
 * <a href="auth.requestFirebaseSms.html" name="auth.requestFirebaseSms">Request an SMS code via Firebase: auth.requestFirebaseSms</a>
 

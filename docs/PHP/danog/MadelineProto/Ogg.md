@@ -44,6 +44,7 @@ resumable across a serialize/unserialize cycle.
 
 ## Method list:
 * [`__construct(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL, int $startOffset = 0)`](#__construct)
+* [`packetDuration(string $packet): int`](#packetDuration)
 * [`validate(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, ?\Amp\Cancellation $cancellation = NULL): void`](#validate)
 * [`convert((\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream) $in, (\danog\MadelineProto\LocalFile|\Amp\ByteStream\WritableStream) $oggOut, ?\Amp\Cancellation $cancellation = NULL): void`](#convert)
 * [`validateOgg(\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $f): void`](#validateOgg)
@@ -68,6 +69,20 @@ Parameters:
 * `\Amp\ByteStream\ReadableStream`
 * `\Amp\Cancellation`
 
+
+
+
+### <a name="packetDuration"></a> `packetDuration(string $packet): int`
+
+Get the duration of an OPUS packet, in 48kHz samples (0 if the packet is malformed).
+  
+The duration is read from the TOC byte (and, for packets with an arbitrary number of frames,  
+from the frame count byte) of the packet, see [RFC 6716 §3.1](https://www.rfc-editor.org/rfc/rfc6716#section-3.1).  
+
+
+Parameters:
+
+* `$packet`: `string`   
 
 
 

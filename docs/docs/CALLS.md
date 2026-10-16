@@ -10,7 +10,7 @@ MadelineProto can make and receive voice and video calls, stream and record vide
 
 The whole call stack (WebRTC, the Telegram signaling protocols and the media demuxers) is written in pure PHP, so calls work everywhere MadelineProto works, webhosts included, without any extension or external program.
 
-[Full webradio example](https://github.com/danog/magnaluna)
+[Full video webradio example](https://github.com/danog/magnaluna): try it live on Telegram, [@magicalcrazypony](https://t.me/magicalcrazypony)!
 
 * [Call types](#call-types)
 * [Requesting a call](#requesting-a-call)
