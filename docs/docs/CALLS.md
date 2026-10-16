@@ -60,7 +60,7 @@ The [requestCall](https://docs.madelineproto.xyz/requestCall.html) function acce
 
 Calls can only be made by users, not by bots.
 
-From an event handler, messages can start calls directly: in a private chat, `requestCall()` returns the call already running with the other user, or calls them. `canRequestCall()` and `getCallDenialReason()` tell beforehand whether that will work, and why not (the user's privacy settings may not allow it, video calls may be unavailable...):
+From an event handler, messages can start calls directly: in a private chat, `requestCall()` returns the call already running with the other user, or calls them. `canRequestCall()` and `getCallDenialReason()` tell beforehand whether that will work, and why not (the user's privacy settings may not allow it, video calls may be unavailable for the other user...):
 
 ```php
 use danog\MadelineProto\EventHandler\Filter\FilterCommand;
@@ -195,7 +195,7 @@ public function playFile(Incoming&PrivateMessage $message): void
 MadelineProto plays these formats on its own, without ffmpeg or any extension:
 
 * **WebM and Matroska** (`.webm`, `.mkv`) files, with:
-  * **VP8**, **VP9** or **H.264** video (**AV1** can also be used in one-to-one calls, if the other party's app supports it);
+  * **VP8**, **VP9**, **H.264** or **H.265** video (**AV1** can also be used in one-to-one calls, if the other party's app supports it);
   * **OPUS** audio.
   
   Files may hold video and audio, video only or audio only. Other audio codecs (Vorbis, AAC...) are skipped with a warning, as are video tracks after the first one.
@@ -203,15 +203,7 @@ MadelineProto plays these formats on its own, without ffmpeg or any extension:
 
 Files in these formats can be local files, URLs or streams.
 
-For video, VP8 is the safest choice in one-to-one calls, since every Telegram app can decode it. Since frames are sent as they are, they can't be re-encoded when someone joins mid-file, so keep keyframes frequent (every 1-2 seconds): a participant starts seeing the video at the next keyframe.
-
-Any WebM/Matroska encoder works. For example, if you have ffmpeg on your PC, a file can be converted once with:
-
-```bash
-ffmpeg -i input.mp4 -c:v libvpx -b:v 1M -g 60 -c:a libopus -b:a 64k output.webm
-```
-
-Then copy the WebM file to your server: playing it needs nothing but MadelineProto.
+YouTube videos (h264, h265, VP8, VP9) can also be sent as-is, without re-encoding (including in streaming mode).
 
 Other formats (MP3, FLAC, WAV, MP4...) can only be played if the FFI extension, libopus and ffmpeg are installed on the server, in which case their audio is converted on the fly (any video is dropped). One-to-one calls with very old Telegram apps that don't support WebRTC also need OGG OPUS files created by MadelineProto (or on-the-fly conversion), and are audio only.
 
@@ -316,7 +308,7 @@ class PonyHandler extends \danog\MadelineProto\SimpleEventHandler
 PonyHandler::startAndLoop('session.madeline');
 ```
 
-Recordings are written in pure PHP, without decoding anything: the video tracks keep the codec the participant sends (VP8, VP9, H.264 or AV1), and the audio is OPUS.
+Recordings are written in pure PHP, without decoding anything: the video tracks keep the codec the participant sends (VP8, VP9, H.264, H.265 or AV1), and the audio is OPUS.
 
 A file recorded with `setOutput` keeps its tracks for its whole duration: a stream the participant turns off simply stops being written and resumes when it comes back, and a stream that becomes available later is not added (call `setOutput` again to start a new file with it). Only a change of codec of a video stream, or the end of the call, finishes the file early. A `setOutputFolder` recording follows every change instead, closing the current file and opening a new one named after the streams it holds (`<n>_<streams>.mkv`, with `streams` listing `audio`, `video` and `screen`).
 
@@ -371,7 +363,7 @@ $call->leave();   // leave, keeping the call running
 $call->discard(); // end the call for everyone
 ```
 
-Group calls and conference calls carry VP8, VP9 and H.264 video.
+Group calls and conference calls carry VP8, VP9, H.264 and H.265 video.
 
 Scheduled calls can be started early with `startScheduled()`, and `setStartSubscription(true)` asks for a notification when they start. `getGroupCallJoinAs($peer)` lists the peers we may join a call as, and `saveDefaultGroupCallJoinAs($peer, $joinAs)` stores the default.
 
@@ -400,7 +392,7 @@ A [live story](https://core.telegram.org/api/group-calls#live-stories) is a live
 
 ## Conference calls
 
-[Conference calls](https://core.telegram.org/api/group-calls#conference-calls) are end-to-end encrypted multi-party calls not associated with any group, handled through the `ConferenceCall` object, which implements the same `MultiCall` interface (they require the `sodium` and `openssl` PHP extensions):
+[Conference calls](https://core.telegram.org/api/group-calls#conference-calls) are end-to-end encrypted multi-party calls not associated with any group, handled through the `ConferenceCall` object, which implements the same `MultiCall` interface (their encryption is implemented in pure PHP too, and uses the `sodium` and `openssl` extensions if available, for speed):
 
 ```php
 // Create one (we are its only participant until someone joins)...
