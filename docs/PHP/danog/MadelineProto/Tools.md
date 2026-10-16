@@ -392,8 +392,10 @@ Obtains a pipe that can be used to upload a file from a stream.
 Provide a buffered reader for a file, URL or amp stream, optionally starting at a byte offset.
   
 The `$offset` makes a demuxer resumable across a serialize/unserialize cycle: a `LocalFile` is  
-seeked and a `RemoteUrl` is fetched with a `Range` request. A raw {@see ReadableStream} cannot  
-be seeked, so a non-zero offset on one is rejected.  
+seeked and a `RemoteUrl` is fetched with a `Range` request. A {@see ResumableStream} is skipped  
+forward from its current position (without downloading the skipped part, for a  
+{@see ResumableDownloadStream}). Any other {@see ReadableStream} cannot be seeked, so a non-zero  
+offset on one is rejected.  
 
 
 Parameters:

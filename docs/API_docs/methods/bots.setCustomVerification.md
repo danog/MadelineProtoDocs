@@ -20,7 +20,7 @@ Verify a user or chat [on behalf of an organization »](https://core.telegram.or
 |enabled|[Bool](/API_docs/types/Bool.html) | If set, adds the verification; otherwise removes verification. | Optional|
 |bot|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Must **not** be set if invoked by a bot, **must** be set to the ID of an owned bot if invoked by a user. | Optional|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The peer to verify | Optional|
-|custom\_description|[string](/API_docs/types/string.html) | Custom description for the verification, the UTF-8 length limit for this field is contained in [bot\_verification\_description\_length\_limit »](https://core.telegram.org/api/config#bot-verification-description-length-limit). <br>If not set, `Was verified by organization "organization_name"` will be used as description. | Optional|
+|custom\_description|[TextWithEntities](/API_docs/types/TextWithEntities.html) |  | Optional|
 
 
 ### Return type: [Bool](/API_docs/types/Bool.html)
@@ -46,6 +46,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->bots->setCustomVerification(enabled: $Bool, bot: $InputUser, peer: $InputPeer, custom_description: 'string', );
+$Bool = $MadelineProto->bots->setCustomVerification(enabled: $Bool, bot: $InputUser, peer: $InputPeer, custom_description: $TextWithEntities, );
 ```
 

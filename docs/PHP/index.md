@@ -13,6 +13,7 @@ Async PHP client API for the telegram MTProto protocol.
 
 
 ## Interfaces
+* [\danog\MadelineProto\ResumableStream: Indicates that a stream is resumable: it can be serialized, and once unserialized, reading continues](/PHP/danog/MadelineProto/ResumableStream.html)
 * [\danog\MadelineProto\EventHandler\SimpleFilter\Ended](/PHP/danog/MadelineProto/EventHandler/SimpleFilter/Ended.html)
 * [\danog\MadelineProto\EventHandler\SimpleFilter\FromAdmin](/PHP/danog/MadelineProto/EventHandler/SimpleFilter/FromAdmin.html)
 * [\danog\MadelineProto\EventHandler\SimpleFilter\FromAdminOrOutgoing](/PHP/danog/MadelineProto/EventHandler/SimpleFilter/FromAdminOrOutgoing.html)
@@ -122,12 +123,14 @@ Async PHP client API for the telegram MTProto protocol.
 * [\danog\MadelineProto\RecordingFormat: Container format of a call recording, as passed to {@see Call::setOutput()} and {@see Call::setOutputFolder()}.](/PHP/danog/MadelineProto/RecordingFormat.html)
 * [\danog\MadelineProto\RemoteUrl: Indicates a remote URL to upload.](/PHP/danog/MadelineProto/RemoteUrl.html)
 * [\danog\MadelineProto\ResponseException: Indicates an error thrown when an unexpected response is received from telegram's servers.](/PHP/danog/MadelineProto/ResponseException.html)
+* [\danog\MadelineProto\ResumableDownloadStream: A readable stream with the contents of a file downloaded from Telegram.](/PHP/danog/MadelineProto/ResumableDownloadStream.html)
 * [\danog\MadelineProto\SecretPeerNotInDbException: Indicates that the specified secret chat wasn't found.](/PHP/danog/MadelineProto/SecretPeerNotInDbException.html)
 * [\danog\MadelineProto\SecurityException: Indicates a security error.](/PHP/danog/MadelineProto/SecurityException.html)
 * [\danog\MadelineProto\Settings: Settings class used for configuring MadelineProto.](/PHP/danog/MadelineProto/Settings.html)
 * [\danog\MadelineProto\Shutdown: Class that controls script shutdown.](/PHP/danog/MadelineProto/Shutdown.html)
 * [\danog\MadelineProto\TextEntities: Class that converts HTML or markdown to a message + set of entities.](/PHP/danog/MadelineProto/TextEntities.html)
 * [\danog\MadelineProto\TransportError: Indicates a transport error returned by Telegram's API.](/PHP/danog/MadelineProto/TransportError.html)
+* [\danog\MadelineProto\UploadResumeException: Thrown when an interrupted upload can't be resumed, because its source ends before the offset to resume from.](/PHP/danog/MadelineProto/UploadResumeException.html)
 * [\danog\MadelineProto\EventHandler\Calls\PrivateCall: This update represents a private (one-to-one) VoIP Telegram call.](/PHP/danog/MadelineProto/EventHandler/Calls/PrivateCall.html)
 * [\danog\MadelineProto\Broadcast\Filter: Broadcast filter.](/PHP/danog/MadelineProto/Broadcast/Filter.html)
 * [\danog\MadelineProto\Broadcast\Progress: Broadcast progress.](/PHP/danog/MadelineProto/Broadcast/Progress.html)

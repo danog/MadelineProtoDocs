@@ -159,6 +159,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [ContactStatus](/API_docs/types/ContactStatus.html)<a name="ContactStatus"></a>  
 
+[CurrencyRate](/API_docs/types/CurrencyRate.html)<a name="CurrencyRate"></a>  
+
 [DataJSON](/API_docs/types/DataJSON.html)<a name="DataJSON"></a>  
 
 [DcOption](/API_docs/types/DcOption.html)<a name="DcOption"></a>  
@@ -399,6 +401,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [InputWallPaper](/API_docs/types/InputWallPaper.html)<a name="InputWallPaper"></a>  
 
+[InputWalletReplacement](/API_docs/types/InputWalletReplacement.html)<a name="InputWalletReplacement"></a>  
+
 [InputWebDocument](/API_docs/types/InputWebDocument.html)<a name="InputWebDocument"></a>  
 
 [InputWebFileLocation](/API_docs/types/InputWebFileLocation.html)<a name="InputWebFileLocation"></a>  
@@ -478,6 +482,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [NotifyPeer](/API_docs/types/NotifyPeer.html)<a name="NotifyPeer"></a>  
 
 [Null](/API_docs/types/Null.html)<a name="Null"></a>  
+
+[OnrampAvailability](/API_docs/types/OnrampAvailability.html)<a name="OnrampAvailability"></a>  
+
+[OnrampLimits](/API_docs/types/OnrampLimits.html)<a name="OnrampLimits"></a>  
+
+[OnrampMethodAvailability](/API_docs/types/OnrampMethodAvailability.html)<a name="OnrampMethodAvailability"></a>  
+
+[OnrampProviderInfo](/API_docs/types/OnrampProviderInfo.html)<a name="OnrampProviderInfo"></a>  
+
+[OnrampQuote](/API_docs/types/OnrampQuote.html)<a name="OnrampQuote"></a>  
+
+[OnrampSession](/API_docs/types/OnrampSession.html)<a name="OnrampSession"></a>  
 
 [OutboxReadDate](/API_docs/types/OutboxReadDate.html)<a name="OutboxReadDate"></a>  
 
@@ -792,6 +808,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [WallPaper](/API_docs/types/WallPaper.html)<a name="WallPaper"></a>  
 
 [WallPaperSettings](/API_docs/types/WallPaperSettings.html)<a name="WallPaperSettings"></a>  
+
+[WalletState](/API_docs/types/WalletState.html)<a name="WalletState"></a>  
+
+[WalletTransaction](/API_docs/types/WalletTransaction.html)<a name="WalletTransaction"></a>  
+
+[WalletTransactionPeer](/API_docs/types/WalletTransactionPeer.html)<a name="WalletTransactionPeer"></a>  
+
+[WalletUserAddress](/API_docs/types/WalletUserAddress.html)<a name="WalletUserAddress"></a>  
 
 [WebAuthorization](/API_docs/types/WebAuthorization.html)<a name="WebAuthorization"></a>  
 
@@ -1127,6 +1151,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [payments.ConnectedStarRefBots](/API_docs/types/payments.ConnectedStarRefBots.html)<a name="payments.ConnectedStarRefBots"></a>  
 
+[payments.CurrencyRates](/API_docs/types/payments.CurrencyRates.html)<a name="payments.CurrencyRates"></a>  
+
 [payments.ExportedInvoice](/API_docs/types/payments.ExportedInvoice.html)<a name="payments.ExportedInvoice"></a>  
 
 [payments.GiveawayInfo](/API_docs/types/payments.GiveawayInfo.html)<a name="payments.GiveawayInfo"></a>  
@@ -1239,6 +1265,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [stories.StoryViewsList](/API_docs/types/stories.StoryViewsList.html)<a name="stories.StoryViewsList"></a>  
 
+[string](/API_docs/types/string.html)<a name="string"></a>  
+
+[toncenter.ApiResponse](/API_docs/types/toncenter.ApiResponse.html)<a name="toncenter.ApiResponse"></a>  
+
+[toncenter.StreamingUrl](/API_docs/types/toncenter.StreamingUrl.html)<a name="toncenter.StreamingUrl"></a>  
+
 [updates.ChannelDifference](/API_docs/types/updates.ChannelDifference.html)<a name="updates.ChannelDifference"></a>  
 
 [updates.Difference](/API_docs/types/updates.Difference.html)<a name="updates.Difference"></a>  
@@ -1256,4 +1288,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [users.UserFull](/API_docs/types/users.UserFull.html)<a name="users.UserFull"></a>  
 
 [users.Users](/API_docs/types/users.Users.html)<a name="users.Users"></a>  
+
+[wallet.EncryptedSecretPhrasePart](/API_docs/types/wallet.EncryptedSecretPhrasePart.html)<a name="wallet.EncryptedSecretPhrasePart"></a>  
+
+[wallet.HolderDc](/API_docs/types/wallet.HolderDc.html)<a name="wallet.HolderDc"></a>  
+
+[wallet.SecretPhraseParts](/API_docs/types/wallet.SecretPhraseParts.html)<a name="wallet.SecretPhraseParts"></a>  
+
+[wallet.Transactions](/API_docs/types/wallet.Transactions.html)<a name="wallet.Transactions"></a>  
 

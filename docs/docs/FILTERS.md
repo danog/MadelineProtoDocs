@@ -1052,6 +1052,7 @@ Here's a full list of all MTProto filters (click on each filter name to view the
 * [onUpdateEditEphemeralMessage &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateEditEphemeralMessage.html) - 
 * [onUpdateEphemeralBotCallbackQuery &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateEphemeralBotCallbackQuery.html) - 
 * [onUpdateBotStarsSubscription &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBotStarsSubscription.html) - 
+* [onUpdateWalletState &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateWalletState.html) - 
 
 
 <!-- cut_here_end mtprotofilters -->

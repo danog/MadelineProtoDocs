@@ -40,7 +40,7 @@ Represents a static sticker.
 
 ## Method list:
 * [`getDownloadLink((string|null) $scriptUrl = NULL): string`](#getDownloadLink)
-* [`getStream((callable(float, float, float): voi)|null) $cb = NULL, int $offset = 0, int $end = -1, ?\Amp\Cancellation $cancellation = NULL): \Amp\ByteStream\ReadableStream`](#getStream)
+* [`getStream((callable(float, float, float): voi)|null) $cb = NULL, int $offset = 0, int $end = -1, ?\Amp\Cancellation $cancellation = NULL): \Amp\ByteStream\ReadableStream&danog\MadelineProto\ResumableStream`](#getStream)
 * [`downloadToDir(string $dir = NULL, (callable(float, float, float): voi)|null) $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): string`](#downloadToDir)
 * [`downloadToFile(string $file, (callable(float, float, float): voi)|null) $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): string`](#downloadToFile)
 * [`getDownloadInfo(): array{ext: string, name: string, mime: string, size: int, InputFileLocation: array, key_fingerprint?: string, key?: string, iv?: string}`](#getDownloadInfo)
@@ -57,9 +57,12 @@ Parameters:
 
 
 
-### <a name="getStream"></a> `getStream((callable(float, float, float): voi)|null) $cb = NULL, int $offset = 0, int $end = -1, ?\Amp\Cancellation $cancellation = NULL): \Amp\ByteStream\ReadableStream`
+### <a name="getStream"></a> `getStream((callable(float, float, float): voi)|null) $cb = NULL, int $offset = 0, int $end = -1, ?\Amp\Cancellation $cancellation = NULL): \Amp\ByteStream\ReadableStream&danog\MadelineProto\ResumableStream`
 
 Get a readable amp stream with the file contents.
+  
+The returned stream is resumable: it can be serialized, and once unserialized,  
+reading continues from the end of the last chunk read before serialization.  
 
 
 Parameters:
@@ -72,7 +75,7 @@ Parameters:
 
 #### See also: 
 * `\Amp\Cancellation`
-* `\Amp\ByteStream\ReadableStream`
+* `\Amp\ByteStream\ReadableStream&danog\MadelineProto\ResumableStream`
 
 
 

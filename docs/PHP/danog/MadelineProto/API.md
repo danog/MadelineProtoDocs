@@ -125,7 +125,7 @@ Main API wrapper for MadelineProto.
 * [`downloadToDir(mixed $messageMedia, (string|\danog\MadelineProto\FileCallbackInterface) $dir, callable $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): non-empty-string`](#downloadToDir)
 * [`downloadToFile(mixed $messageMedia, (string|\danog\MadelineProto\FileCallbackInterface) $file, callable $cb = NULL, ?\Amp\Cancellation $cancellation = NULL): non-empty-string`](#downloadToFile)
 * [`downloadToResponse((array|string|\danog\MadelineProto\FileCallbackInterface|\danog\MadelineProto\EventHandler\Message) $messageMedia, \Amp\Http\Server\Request $request, callable $cb = NULL, (null|int) $size = NULL, (null|string) $mime = NULL, (null|string) $name = NULL, ?\Amp\Cancellation $cancellation = NULL): \Amp\Http\Server\Response`](#downloadToResponse)
-* [`downloadToReturnedStream(mixed $messageMedia, callable $cb = NULL, int $offset = 0, int $end = -1, ?\Amp\Cancellation $cancellation = NULL): \Amp\ByteStream\ReadableStream`](#downloadToReturnedStream)
+* [`downloadToReturnedStream(mixed $messageMedia, callable $cb = NULL, int $offset = 0, int $end = -1, ?\Amp\Cancellation $cancellation = NULL): \Amp\ByteStream\ReadableStream&danog\MadelineProto\ResumableStream`](#downloadToReturnedStream)
 * [`downloadToStream(mixed $messageMedia, (mixed|\danog\MadelineProto\FileCallbackInterface|resource|\Amp\ByteStream\WritableStream) $stream, callable $cb = NULL, int $offset = 0, int $end = -1, ?\Amp\Cancellation $cancellation = NULL): void`](#downloadToStream)
 * [`echo(string $string): void`](#echo)
 * [`end(array<T> $what): T`](#end)
@@ -1037,9 +1037,13 @@ Parameters:
 
 
 
-### <a name="downloadToReturnedStream"></a> `downloadToReturnedStream(mixed $messageMedia, callable $cb = NULL, int $offset = 0, int $end = -1, ?\Amp\Cancellation $cancellation = NULL): \Amp\ByteStream\ReadableStream`
+### <a name="downloadToReturnedStream"></a> `downloadToReturnedStream(mixed $messageMedia, callable $cb = NULL, int $offset = 0, int $end = -1, ?\Amp\Cancellation $cancellation = NULL): \Amp\ByteStream\ReadableStream&danog\MadelineProto\ResumableStream`
 
 Download file to an amphp stream, returning it.
+  
+The returned stream is resumable: it can be serialized, and once unserialized,  
+reading continues from the end of the last chunk read before serialization.  
+The progress callback and cancellation are not preserved by serialization.  
 
 
 Parameters:
@@ -1053,7 +1057,7 @@ Parameters:
 
 #### See also: 
 * `\Amp\Cancellation`
-* `\Amp\ByteStream\ReadableStream`
+* `\Amp\ByteStream\ReadableStream&danog\MadelineProto\ResumableStream`
 
 
 
@@ -2786,8 +2790,10 @@ Parameters:
 Provide a buffered reader for a file, URL or amp stream, optionally starting at a byte offset.
   
 The `$offset` makes a demuxer resumable across a serialize/unserialize cycle: a `LocalFile` is  
-seeked and a `RemoteUrl` is fetched with a `Range` request. A raw {@see ReadableStream} cannot  
-be seeked, so a non-zero offset on one is rejected.  
+seeked and a `RemoteUrl` is fetched with a `Range` request. A {@see ResumableStream} is skipped  
+forward from its current position (without downloading the skipped part, for a  
+{@see ResumableDownloadStream}). Any other {@see ReadableStream} cannot be seeked, so a non-zero  
+offset on one is rejected.  
 
 
 Parameters:

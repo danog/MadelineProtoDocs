@@ -2134,7 +2134,21 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="payments.craftStarGift.html" name="payments.craftStarGift">payments.craftStarGift</a>
 
+* <a href="payments.createOnrampSession.html" name="payments.createOnrampSession">payments.createOnrampSession</a>
+
 * <a href="payments.getCraftStarGifts.html" name="payments.getCraftStarGifts">payments.getCraftStarGifts</a>
+
+* <a href="payments.getCurrencyRates.html" name="payments.getCurrencyRates">payments.getCurrencyRates</a>
+
+* <a href="payments.getOnrampAvailability.html" name="payments.getOnrampAvailability">payments.getOnrampAvailability</a>
+
+* <a href="payments.getOnrampBaseCurrencies.html" name="payments.getOnrampBaseCurrencies">payments.getOnrampBaseCurrencies</a>
+
+* <a href="payments.getOnrampLimits.html" name="payments.getOnrampLimits">payments.getOnrampLimits</a>
+
+* <a href="payments.getOnrampProviders.html" name="payments.getOnrampProviders">payments.getOnrampProviders</a>
+
+* <a href="payments.getOnrampQuote.html" name="payments.getOnrampQuote">payments.getOnrampQuote</a>
 
 * <a href="payments.getStarGiftActiveAuctions.html" name="payments.getStarGiftActiveAuctions">payments.getStarGiftActiveAuctions</a>
 
@@ -2164,6 +2178,28 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="stories.startLive.html" name="stories.startLive">stories.startLive</a>
 
+* <a href="toncenter.getStreamingUrl.html" name="toncenter.getStreamingUrl">toncenter.getStreamingUrl</a>
+
+* <a href="toncenter.performApiRequest.html" name="toncenter.performApiRequest">toncenter.performApiRequest</a>
+
 * <a href="users.suggestBirthday.html" name="users.suggestBirthday">users.suggestBirthday</a>
+
+* <a href="wallet.disableBackup.html" name="wallet.disableBackup">wallet.disableBackup</a>
+
+* <a href="wallet.enableBackup.html" name="wallet.enableBackup">wallet.enableBackup</a>
+
+* <a href="wallet.exportSecretPhrase.html" name="wallet.exportSecretPhrase">wallet.exportSecretPhrase</a>
+
+* <a href="wallet.fetchEncryptedSecretPhrasePart.html" name="wallet.fetchEncryptedSecretPhrasePart">wallet.fetchEncryptedSecretPhrasePart</a>
+
+* <a href="wallet.getBackupHolderDcs.html" name="wallet.getBackupHolderDcs">wallet.getBackupHolderDcs</a>
+
+* <a href="wallet.getState.html" name="wallet.getState">wallet.getState</a>
+
+* <a href="wallet.getTransactions.html" name="wallet.getTransactions">wallet.getTransactions</a>
+
+* <a href="wallet.getUserAddresses.html" name="wallet.getUserAddresses">wallet.getUserAddresses</a>
+
+* <a href="wallet.replaceWallet.html" name="wallet.replaceWallet">wallet.replaceWallet</a>
 
 

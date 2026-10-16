@@ -17,7 +17,7 @@ Describes a [bot verification icon »](https://core.telegram.org/api/bots/verifi
 |----------|---------------|----------|-------------|
 |bot\_id|[long](/API_docs/types/long.html) | Yes|ID of the bot that verified this peer|
 |icon|[long](/API_docs/types/long.html) | Yes|Verification icon|
-|description|[string](/API_docs/types/string.html) | Yes|Verification description|
+|description|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Yes|
 
 
 
@@ -27,5 +27,5 @@ Describes a [bot verification icon »](https://core.telegram.org/api/bots/verifi
 ### Example:
 
 ```
-$botVerification = ['_' => 'botVerification', 'bot_id' => long, 'icon' => long, 'description' => 'string'];
+$botVerification = ['_' => 'botVerification', 'bot_id' => long, 'icon' => long, 'description' => TextWithEntities];
 ```  

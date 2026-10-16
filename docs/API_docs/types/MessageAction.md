@@ -149,6 +149,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageActionChatJoinedViaCommunity](/API_docs/constructors/messageActionChatJoinedViaCommunity.html)  
 
+[messageActionGramTransfer](/API_docs/constructors/messageActionGramTransfer.html)  
+
 
 
 ### Methods that return an object of this type (methods):

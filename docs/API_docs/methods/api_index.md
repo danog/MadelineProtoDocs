@@ -821,7 +821,7 @@ $MadelineProto->[bots->setBotMenuButton](/API_docs/methods/bots.setBotMenuButton
 
 ***
 <br><br>
-$MadelineProto->[bots->setCustomVerification](/API_docs/methods/bots.setCustomVerification.html)(\[enabled: $[Bool](/API_docs/types/Bool.html), bot: $[InputUser](/API_docs/types/InputUser.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), custom_description: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="bots.setCustomVerification"></a>  
+$MadelineProto->[bots->setCustomVerification](/API_docs/methods/bots.setCustomVerification.html)(\[enabled: $[Bool](/API_docs/types/Bool.html), bot: $[InputUser](/API_docs/types/InputUser.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), custom_description: $[TextWithEntities](/API_docs/types/TextWithEntities.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="bots.setCustomVerification"></a>  
 
 ***
 <br><br>
@@ -2557,6 +2557,10 @@ $MadelineProto->[payments->craftStarGift](/API_docs/methods/payments.craftStarGi
 
 ***
 <br><br>
+$MadelineProto->[payments->createOnrampSession](/API_docs/methods/payments.createOnrampSession.html)(\[provider: $[string](/API_docs/types/string.html), crypto_currency: $[string](/API_docs/types/string.html), address: $[string](/API_docs/types/string.html), payment_method: $[string](/API_docs/types/string.html), base_currency: $[string](/API_docs/types/string.html), base_amount: $[string](/API_docs/types/string.html), memo: $[string](/API_docs/types/string.html), theme: $[string](/API_docs/types/string.html), success_return_url: $[string](/API_docs/types/string.html), fail_return_url: $[string](/API_docs/types/string.html), crypto_amount: $[string](/API_docs/types/string.html), \]) === [$OnrampSession](/API_docs/types/OnrampSession.html)<a name="payments.createOnrampSession"></a>  
+
+***
+<br><br>
 $MadelineProto->[payments->createStarGiftCollection](/API_docs/methods/payments.createStarGiftCollection.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), title: $[string](/API_docs/types/string.html), stargift: \[$[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html)\], \]) === [$StarGiftCollection](/API_docs/types/StarGiftCollection.html)<a name="payments.createStarGiftCollection"></a>  
 
 ***
@@ -2593,7 +2597,31 @@ $MadelineProto->[payments->getCraftStarGifts](/API_docs/methods/payments.getCraf
 
 ***
 <br><br>
+$MadelineProto->[payments->getCurrencyRates](/API_docs/methods/payments.getCurrencyRates.html)(\[\]) === [$payments.CurrencyRates](/API_docs/types/payments.CurrencyRates.html)<a name="payments.getCurrencyRates"></a>  
+
+***
+<br><br>
 $MadelineProto->[payments->getGiveawayInfo](/API_docs/methods/payments.getGiveawayInfo.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), msg_id: $[int](/API_docs/types/int.html), \]) === [$payments.GiveawayInfo](/API_docs/types/payments.GiveawayInfo.html)<a name="payments.getGiveawayInfo"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->getOnrampAvailability](/API_docs/methods/payments.getOnrampAvailability.html)(\[provider: $[string](/API_docs/types/string.html), crypto_currency: $[string](/API_docs/types/string.html), base_currency: $[string](/API_docs/types/string.html), \]) === [$OnrampAvailability](/API_docs/types/OnrampAvailability.html)<a name="payments.getOnrampAvailability"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->getOnrampBaseCurrencies](/API_docs/methods/payments.getOnrampBaseCurrencies.html)(\[provider: $[string](/API_docs/types/string.html), crypto_currency: $[string](/API_docs/types/string.html), \]) === [$Vector\_of\_string](/API_docs/types/string.html)<a name="payments.getOnrampBaseCurrencies"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->getOnrampLimits](/API_docs/methods/payments.getOnrampLimits.html)(\[provider: $[string](/API_docs/types/string.html), crypto_currency: $[string](/API_docs/types/string.html), base_currency: $[string](/API_docs/types/string.html), payment_method: $[string](/API_docs/types/string.html), \]) === [$OnrampLimits](/API_docs/types/OnrampLimits.html)<a name="payments.getOnrampLimits"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->getOnrampProviders](/API_docs/methods/payments.getOnrampProviders.html)(\[crypto_currency: $[string](/API_docs/types/string.html), \]) === [$Vector\_of\_OnrampProviderInfo](/API_docs/types/OnrampProviderInfo.html)<a name="payments.getOnrampProviders"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->getOnrampQuote](/API_docs/methods/payments.getOnrampQuote.html)(\[provider: $[string](/API_docs/types/string.html), crypto_currency: $[string](/API_docs/types/string.html), base_currency: $[string](/API_docs/types/string.html), base_amount: $[string](/API_docs/types/string.html), crypto_amount: $[string](/API_docs/types/string.html), payment_method: $[string](/API_docs/types/string.html), \]) === [$OnrampQuote](/API_docs/types/OnrampQuote.html)<a name="payments.getOnrampQuote"></a>  
 
 ***
 <br><br>
@@ -3217,6 +3245,14 @@ $MadelineProto->[stories->updateAlbum](/API_docs/methods/stories.updateAlbum.htm
 
 ***
 <br><br>
+$MadelineProto->[toncenter->getStreamingUrl](/API_docs/methods/toncenter.getStreamingUrl.html)(\[\]) === [$toncenter.StreamingUrl](/API_docs/types/toncenter.StreamingUrl.html)<a name="toncenter.getStreamingUrl"></a>  
+
+***
+<br><br>
+$MadelineProto->[toncenter->performApiRequest](/API_docs/methods/toncenter.performApiRequest.html)(\[post: $[Bool](/API_docs/types/Bool.html), endpoint: $[string](/API_docs/types/string.html), query: $[string](/API_docs/types/string.html), payload: $[string](/API_docs/types/string.html), \]) === [$toncenter.ApiResponse](/API_docs/types/toncenter.ApiResponse.html)<a name="toncenter.performApiRequest"></a>  
+
+***
+<br><br>
 $MadelineProto->[updates->getChannelDifference](/API_docs/methods/updates.getChannelDifference.html)(\[force: $[Bool](/API_docs/types/Bool.html), channel: $[InputChannel](/API_docs/types/InputChannel.html), filter: $[ChannelMessagesFilter](/API_docs/types/ChannelMessagesFilter.html), pts: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), \]) === [$updates.ChannelDifference](/API_docs/types/updates.ChannelDifference.html)<a name="updates.getChannelDifference"></a>  
 
 ***
@@ -3286,5 +3322,41 @@ $MadelineProto->[users->setSecureValueErrors](/API_docs/methods/users.setSecureV
 ***
 <br><br>
 $MadelineProto->[users->suggestBirthday](/API_docs/methods/users.suggestBirthday.html)(\[id: $[InputUser](/API_docs/types/InputUser.html), birthday: $[Birthday](/API_docs/types/Birthday.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="users.suggestBirthday"></a>  
+
+***
+<br><br>
+$MadelineProto->[wallet->disableBackup](/API_docs/methods/wallet.disableBackup.html)(\[password: $[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html), \]) === [$WalletState](/API_docs/types/WalletState.html)<a name="wallet.disableBackup"></a>  
+
+***
+<br><br>
+$MadelineProto->[wallet->enableBackup](/API_docs/methods/wallet.enableBackup.html)(\[parts: \[$[bytes](/API_docs/types/bytes.html)\], password: $[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html), \]) === [$WalletState](/API_docs/types/WalletState.html)<a name="wallet.enableBackup"></a>  
+
+***
+<br><br>
+$MadelineProto->[wallet->exportSecretPhrase](/API_docs/methods/wallet.exportSecretPhrase.html)(\[password: $[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html), \]) === [$wallet.SecretPhraseParts](/API_docs/types/wallet.SecretPhraseParts.html)<a name="wallet.exportSecretPhrase"></a>  
+
+***
+<br><br>
+$MadelineProto->[wallet->fetchEncryptedSecretPhrasePart](/API_docs/methods/wallet.fetchEncryptedSecretPhrasePart.html)(\[token: $[string](/API_docs/types/string.html), public_key: $[bytes](/API_docs/types/bytes.html), \]) === [$wallet.EncryptedSecretPhrasePart](/API_docs/types/wallet.EncryptedSecretPhrasePart.html)<a name="wallet.fetchEncryptedSecretPhrasePart"></a>  
+
+***
+<br><br>
+$MadelineProto->[wallet->getBackupHolderDcs](/API_docs/methods/wallet.getBackupHolderDcs.html)(\[\]) === [$Vector\_of\_wallet.HolderDc](/API_docs/types/wallet.HolderDc.html)<a name="wallet.getBackupHolderDcs"></a>  
+
+***
+<br><br>
+$MadelineProto->[wallet->getState](/API_docs/methods/wallet.getState.html)(\[\]) === [$WalletState](/API_docs/types/WalletState.html)<a name="wallet.getState"></a>  
+
+***
+<br><br>
+$MadelineProto->[wallet->getTransactions](/API_docs/methods/wallet.getTransactions.html)(\[inbound: $[Bool](/API_docs/types/Bool.html), outbound: $[Bool](/API_docs/types/Bool.html), offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$wallet.Transactions](/API_docs/types/wallet.Transactions.html)<a name="wallet.getTransactions"></a>  
+
+***
+<br><br>
+$MadelineProto->[wallet->getUserAddresses](/API_docs/methods/wallet.getUserAddresses.html)(\[force: $[Bool](/API_docs/types/Bool.html), id: \[$[InputUser](/API_docs/types/InputUser.html)\], \]) === [$Vector\_of\_WalletUserAddress](/API_docs/types/WalletUserAddress.html)<a name="wallet.getUserAddresses"></a>  
+
+***
+<br><br>
+$MadelineProto->[wallet->replaceWallet](/API_docs/methods/wallet.replaceWallet.html)(\[wallet: $[InputWalletReplacement](/API_docs/types/InputWalletReplacement.html), password: $[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html), \]) === [$WalletState](/API_docs/types/WalletState.html)<a name="wallet.replaceWallet"></a>  
 
 

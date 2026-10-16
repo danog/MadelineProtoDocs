@@ -341,6 +341,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateBotStarsSubscription](/API_docs/constructors/updateBotStarsSubscription.html)  
 
+[updateWalletState](/API_docs/constructors/updateWalletState.html)  
+
 
 
 ### Methods that return an object of this type (methods):

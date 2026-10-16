@@ -23,6 +23,8 @@ File management settings.
 * [`setUploadParallelChunks(int $uploadParallelChunks): \danog\MadelineProto\Settings\Files`](#setUploadParallelChunks)
 * [`getDownloadParallelChunks(): int`](#getDownloadParallelChunks)
 * [`setDownloadParallelChunks(int $downloadParallelChunks): \danog\MadelineProto\Settings\Files`](#setDownloadParallelChunks)
+* [`getResumeInterruptedCalls(): bool`](#getResumeInterruptedCalls)
+* [`setResumeInterruptedCalls(bool $resumeInterruptedCalls): \danog\MadelineProto\Settings\Files`](#setResumeInterruptedCalls)
 * [`getReportBrokenMedia(): bool`](#getReportBrokenMedia)
 * [`setReportBrokenMedia(bool $reportBrokenMedia): \danog\MadelineProto\Settings\Files`](#setReportBrokenMedia)
 * [`getDownloadLink(): ?string`](#getDownloadLink)
@@ -77,6 +79,29 @@ Set download parallel chunk count.
 Parameters:
 
 * `$downloadParallelChunks`: `int` Download parallel chunk count  
+
+
+
+### <a name="getResumeInterruptedCalls"></a> `getResumeInterruptedCalls(): bool`
+
+Get whether to resume interrupted calls that upload files after a restart.
+
+
+
+### <a name="setResumeInterruptedCalls"></a> `setResumeInterruptedCalls(bool $resumeInterruptedCalls): \danog\MadelineProto\Settings\Files`
+
+Set whether to resume interrupted calls that upload files after a restart.
+  
+If enabled, method calls and sendMedia calls (sendDocument, sendPhoto, ...) uploading a file that survives a restart  
+(a local file, a URL, a Telegram file or a resumable stream) are saved in the session until they complete:  
+if the session is restarted in the meantime, the call is made again once the session starts, resuming the interrupted upload.  
+  
+Disable it if your code already makes interrupted calls again after a restart, to avoid sending files twice.  
+
+
+Parameters:
+
+* `$resumeInterruptedCalls`: `bool` Whether to resume interrupted calls that upload files after a restart  
 
 
 
