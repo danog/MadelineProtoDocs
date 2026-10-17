@@ -33,7 +33,6 @@ encrypted messages).
 
 ## Method list:
 * [`__construct(\danog\MadelineProto\MTProto $API)`](#__construct)
-* [`resumeAfterRestart(): void`](#resumeAfterRestart)
 * [`setCall(array $call): void`](#setCall)
 * [`getInputCall(): array`](#getInputCall)
 * [`getPublic(): \danog\MadelineProto\EventHandler\Calls\ConferenceCall`](#getPublic)
@@ -95,14 +94,6 @@ Parameters:
 #### See also: 
 * `\danog\MadelineProto\MTProto`
 
-
-
-
-### <a name="resumeAfterRestart"></a> `resumeAfterRestart(): void`
-
-Resume the conference after the process restarted: reopen the media connection, re-register for
-push updates, restart the backstop poll and catch up on any blocks missed while stopped. Named  
-to avoid clashing with the {@see Call} playback {@see self::resume()}.  
 
 
 
@@ -514,6 +505,8 @@ Parameters:
 ### <a name="playOnHold"></a> `playOnHold(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): static`
 
 Set the files to play, on loop, while the given stream's main playlist is empty.
+  
+A hold file being played is replaced right away by the new ones (or stopped, if none are passed).  
 
 
 Parameters:
