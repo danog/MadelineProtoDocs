@@ -59,8 +59,13 @@ params:
   github:
     repo: danog/MadelineProto
   navbar:
-    displayTitle: true
-    displayLogo: false
+    displayTitle: false
+    displayLogo: true
+    logo:
+      path: logo.png
+      # logo.png is 1000x300.
+      width: 107
+      height: 32
     width: full
   page:
     width: wide
