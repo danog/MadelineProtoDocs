@@ -173,6 +173,8 @@ Parameters:
 ### <a name="playOnHold"></a> `playOnHold(\danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): static`
 
 Set the files to play, on loop, while the given stream's main playlist is empty.
+  
+A hold file being played is replaced right away by the new ones (or stopped, if none are passed).  
 
 
 Parameters:
