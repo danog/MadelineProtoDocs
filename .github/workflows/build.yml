@@ -6,6 +6,9 @@ concurrency:
 
 on:
   push:
+    # Not the branches of pull requests (like the daily build of MadelineProto's): they would be published.
+    branches:
+      - master
 
 permissions:
   contents: read
