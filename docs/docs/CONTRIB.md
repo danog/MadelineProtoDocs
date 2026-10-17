@@ -16,7 +16,8 @@ You can contribute in various ways.
 
 You can help by translating MadelineProto in your language.
 
-To do this, head over to [weblate.madelineproto.xyz &raquo;](https://weblate.madelineproto.xyz/projects/madelineproto/madelineproto/).
+The translations are the JSON files in the [langs directory &raquo;](https://github.com/danog/MadelineProto/tree/v8/langs), one per language, named by its language code (`en.json` is the reference): edit the one of your language (or add it, with the keys of `en.json`) and open a pull request.  
+Keep the placeholders (`%s`, `%d`, `%%`) and the HTML tags as they are.
 
 ## Contribution guide
 
