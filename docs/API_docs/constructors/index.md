@@ -1817,9 +1817,6 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$inputPageBlockMap](/API_docs/constructors/inputPageBlockMap.html) = \['geo' => [InputGeoPoint](/API_docs/types/InputGeoPoint.html), 'zoom' => [int](/API_docs/types/int.html), 'w' => [int](/API_docs/types/int.html), 'h' => [int](/API_docs/types/int.html), 'caption' => [PageCaption](/API_docs/types/PageCaption.html), \];<a name="inputPageBlockMap"></a>  
 
 ***
-<br><br>[$inputPasskeyCredentialFirebasePNV](/API_docs/constructors/inputPasskeyCredentialFirebasePNV.html) = \['pnv_token' => [string](/API_docs/types/string.html), \];<a name="inputPasskeyCredentialFirebasePNV"></a>  
-
-***
 <br><br>[$inputPasskeyCredentialPublicKey](/API_docs/constructors/inputPasskeyCredentialPublicKey.html) = \['id' => [string](/API_docs/types/string.html), 'raw_id' => [string](/API_docs/types/string.html), 'response' => [InputPasskeyResponse](/API_docs/types/InputPasskeyResponse.html), \];<a name="inputPasskeyCredentialPublicKey"></a>  
 
 ***
@@ -2174,7 +2171,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$inputWallPaperSlug](/API_docs/constructors/inputWallPaperSlug.html) = \['slug' => [string](/API_docs/types/string.html), \];<a name="inputWallPaperSlug"></a>  
 
 ***
-<br><br>[$inputWalletImported](/API_docs/constructors/inputWalletImported.html) = \['public_key' => [bytes](/API_docs/types/bytes.html), \];<a name="inputWalletImported"></a>  
+<br><br>[$inputWalletImported](/API_docs/constructors/inputWalletImported.html) = \['public_key' => [bytes](/API_docs/types/bytes.html), 'anchor_public_key' => [bytes](/API_docs/types/bytes.html), 'proof' => [WalletOwnershipProof](/API_docs/types/WalletOwnershipProof.html), \];<a name="inputWalletImported"></a>  
 
 ***
 <br><br>[$inputWalletNew](/API_docs/constructors/inputWalletNew.html) = \[\];<a name="inputWalletNew"></a>  
@@ -2375,7 +2372,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$messageActionGiveawayResults](/API_docs/constructors/messageActionGiveawayResults.html) = \['stars' => [Bool](/API_docs/types/Bool.html), 'winners_count' => [int](/API_docs/types/int.html), 'unclaimed_count' => [int](/API_docs/types/int.html), \];<a name="messageActionGiveawayResults"></a>  
 
 ***
-<br><br>[$messageActionGramTransfer](/API_docs/constructors/messageActionGramTransfer.html) = \['amount' => [long](/API_docs/types/long.html), 'peer_address' => [string](/API_docs/types/string.html), 'transaction_id' => [string](/API_docs/types/string.html), 'comment' => [string](/API_docs/types/string.html), \];<a name="messageActionGramTransfer"></a>  
+<br><br>[$messageActionGramTransfer](/API_docs/constructors/messageActionGramTransfer.html) = \['comment_encrypted' => [Bool](/API_docs/types/Bool.html), 'amount' => [long](/API_docs/types/long.html), 'peer_address' => [string](/API_docs/types/string.html), 'transaction_id' => [string](/API_docs/types/string.html), 'comment' => [string](/API_docs/types/string.html), \];<a name="messageActionGramTransfer"></a>  
 
 ***
 <br><br>[$messageActionGroupCall](/API_docs/constructors/messageActionGroupCall.html) = \['call' => [InputGroupCall](/API_docs/types/InputGroupCall.html), 'duration' => [int](/API_docs/types/int.html), \];<a name="messageActionGroupCall"></a>  
@@ -2495,6 +2492,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$messageActionTopicEdit](/API_docs/constructors/messageActionTopicEdit.html) = \['title' => [string](/API_docs/types/string.html), 'icon_emoji_id' => [long](/API_docs/types/long.html), 'closed' => [Bool](/API_docs/types/Bool.html), 'hidden' => [Bool](/API_docs/types/Bool.html), \];<a name="messageActionTopicEdit"></a>  
 
 ***
+<br><br>[$messageActionWalletTonConnectRequest](/API_docs/constructors/messageActionWalletTonConnectRequest.html) = \['accepted' => [Bool](/API_docs/types/Bool.html), 'declined' => [Bool](/API_docs/types/Bool.html), 'session_id' => [long](/API_docs/types/long.html), 'expires' => [int](/API_docs/types/int.html), 'topic' => [string](/API_docs/types/string.html), 'trace_id' => [string](/API_docs/types/string.html), 'dapp_name' => [string](/API_docs/types/string.html), \];<a name="messageActionWalletTonConnectRequest"></a>  
+
+***
 <br><br>[$messageActionWebViewDataSent](/API_docs/constructors/messageActionWebViewDataSent.html) = \['text' => [string](/API_docs/types/string.html), \];<a name="messageActionWebViewDataSent"></a>  
 
 ***
@@ -2565,6 +2565,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$messageEntityTextUrl](/API_docs/constructors/messageEntityTextUrl.html) = \['offset' => [int](/API_docs/types/int.html), 'length' => [int](/API_docs/types/int.html), 'url' => [string](/API_docs/types/string.html), \];<a name="messageEntityTextUrl"></a>  
+
+***
+<br><br>[$messageEntityTonAddress](/API_docs/constructors/messageEntityTonAddress.html) = \['offset' => [int](/API_docs/types/int.html), 'length' => [int](/API_docs/types/int.html), \];<a name="messageEntityTonAddress"></a>  
 
 ***
 <br><br>[$messageEntityUnderline](/API_docs/constructors/messageEntityUnderline.html) = \['offset' => [int](/API_docs/types/int.html), 'length' => [int](/API_docs/types/int.html), \];<a name="messageEntityUnderline"></a>  
@@ -4346,6 +4349,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$textSuperscript](/API_docs/constructors/textSuperscript.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="textSuperscript"></a>  
 
 ***
+<br><br>[$textTonAddress](/API_docs/constructors/textTonAddress.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="textTonAddress"></a>  
+
+***
 <br><br>[$textUnderline](/API_docs/constructors/textUnderline.html) = \['text' => [RichText](/API_docs/types/RichText.html), \];<a name="textUnderline"></a>  
 
 ***
@@ -4371,6 +4377,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 ***
 <br><br>[$todoList](/API_docs/constructors/todoList.html) = \['others_can_append' => [Bool](/API_docs/types/Bool.html), 'others_can_complete' => [Bool](/API_docs/types/Bool.html), 'title' => [TextWithEntities](/API_docs/types/TextWithEntities.html), 'list' => \[[TodoItem](/API_docs/types/TodoItem.html)\], \];<a name="todoList"></a>  
+
+***
+<br><br>[$tonConnectManifest](/API_docs/constructors/tonConnectManifest.html) = \['url' => [string](/API_docs/types/string.html), 'name' => [string](/API_docs/types/string.html), 'icon' => [WebDocument](/API_docs/types/WebDocument.html), \];<a name="tonConnectManifest"></a>  
+
+***
+<br><br>[$tonConnectNextEventId](/API_docs/constructors/tonConnectNextEventId.html) = \['event_id' => [long](/API_docs/types/long.html), \];<a name="tonConnectNextEventId"></a>  
+
+***
+<br><br>[$tonConnectRequest](/API_docs/constructors/tonConnectRequest.html) = \['session_id' => [long](/API_docs/types/long.html), 'msg_id' => [int](/API_docs/types/int.html), 'body' => [bytes](/API_docs/types/bytes.html), 'expires' => [int](/API_docs/types/int.html), 'topic' => [string](/API_docs/types/string.html), 'trace_id' => [string](/API_docs/types/string.html), \];<a name="tonConnectRequest"></a>  
+
+***
+<br><br>[$tonConnectSession](/API_docs/constructors/tonConnectSession.html) = \['pending' => [Bool](/API_docs/types/Bool.html), 'closing' => [Bool](/API_docs/types/Bool.html), 'closed' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'dapp_client_id' => [string](/API_docs/types/string.html), 'client_id' => [string](/API_docs/types/string.html), 'nonce' => [bytes](/API_docs/types/bytes.html), 'manifest' => [TonConnectManifest](/API_docs/types/TonConnectManifest.html), 'manifest_error' => [int](/API_docs/types/int.html), 'date' => [int](/API_docs/types/int.html), \];<a name="tonConnectSession"></a>  
 
 ***
 <br><br>[$toncenter.apiResponse](/API_docs/constructors/toncenter.apiResponse.html) = \['response' => [DataJSON](/API_docs/types/DataJSON.html), \];<a name="toncenter.apiResponse"></a>  
@@ -4841,6 +4859,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$updateSentStoryReaction](/API_docs/constructors/updateSentStoryReaction.html) = \['peer' => [long](/API_docs/types/long.html), 'story_id' => [int](/API_docs/types/int.html), 'reaction' => [Reaction](/API_docs/types/Reaction.html), \];<a name="updateSentStoryReaction"></a>  
 
 ***
+<br><br>[$updateSentWalletTransaction](/API_docs/constructors/updateSentWalletTransaction.html) = \['gasless' => [Bool](/API_docs/types/Bool.html), 'msg_hash' => [string](/API_docs/types/string.html), 'transaction' => [WalletTransaction](/API_docs/types/WalletTransaction.html), \];<a name="updateSentWalletTransaction"></a>  
+
+***
 <br><br>[$updateServiceNotification](/API_docs/constructors/updateServiceNotification.html) = \['popup' => [Bool](/API_docs/types/Bool.html), 'invert_media' => [Bool](/API_docs/types/Bool.html), 'inbox_date' => [int](/API_docs/types/int.html), 'type' => [string](/API_docs/types/string.html), 'message' => [string](/API_docs/types/string.html), 'media' => [MessageMedia](/API_docs/types/MessageMedia.html), 'entities' => \[[MessageEntity](/API_docs/types/MessageEntity.html)\], \];<a name="updateServiceNotification"></a>  
 
 ***
@@ -4913,7 +4934,16 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$updateUserTyping](/API_docs/constructors/updateUserTyping.html) = \['user_id' => [long](/API_docs/types/long.html), 'top_msg_id' => [int](/API_docs/types/int.html), 'action' => [SendMessageAction](/API_docs/types/SendMessageAction.html), \];<a name="updateUserTyping"></a>  
 
 ***
+<br><br>[$updateWalletGaslessInfo](/API_docs/constructors/updateWalletGaslessInfo.html) = \['available' => [Bool](/API_docs/types/Bool.html), 'left' => [int](/API_docs/types/int.html), 'reset_at' => [int](/API_docs/types/int.html), 'min_amount' => [long](/API_docs/types/long.html), 'relayer_address' => [string](/API_docs/types/string.html), \];<a name="updateWalletGaslessInfo"></a>  
+
+***
 <br><br>[$updateWalletState](/API_docs/constructors/updateWalletState.html) = \['state' => [WalletState](/API_docs/types/WalletState.html), \];<a name="updateWalletState"></a>  
+
+***
+<br><br>[$updateWalletTonConnectPendingDisconnect](/API_docs/constructors/updateWalletTonConnectPendingDisconnect.html) = \['session_ids' => \[[long](/API_docs/types/long.html)\], \];<a name="updateWalletTonConnectPendingDisconnect"></a>  
+
+***
+<br><br>[$updateWalletTonConnectSession](/API_docs/constructors/updateWalletTonConnectSession.html) = \['session' => [TonConnectSession](/API_docs/types/TonConnectSession.html), \];<a name="updateWalletTonConnectSession"></a>  
 
 ***
 <br><br>[$updateWebBrowserException](/API_docs/constructors/updateWebBrowserException.html) = \['delete' => [Bool](/API_docs/types/Bool.html), 'open_external_browser' => [Bool](/API_docs/types/Bool.html), 'exception' => [WebDomainException](/API_docs/types/WebDomainException.html), \];<a name="updateWebBrowserException"></a>  
@@ -4991,7 +5021,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$userEmpty](/API_docs/constructors/userEmpty.html) = \['id' => [long](/API_docs/types/long.html), \];<a name="userEmpty"></a>  
 
 ***
-<br><br>[$userFull](/API_docs/constructors/userFull.html) = \['blocked' => [Bool](/API_docs/types/Bool.html), 'phone_calls_available' => [Bool](/API_docs/types/Bool.html), 'phone_calls_private' => [Bool](/API_docs/types/Bool.html), 'can_pin_message' => [Bool](/API_docs/types/Bool.html), 'has_scheduled' => [Bool](/API_docs/types/Bool.html), 'video_calls_available' => [Bool](/API_docs/types/Bool.html), 'voice_messages_forbidden' => [Bool](/API_docs/types/Bool.html), 'translations_disabled' => [Bool](/API_docs/types/Bool.html), 'stories_pinned_available' => [Bool](/API_docs/types/Bool.html), 'blocked_my_stories_from' => [Bool](/API_docs/types/Bool.html), 'wallpaper_overridden' => [Bool](/API_docs/types/Bool.html), 'contact_require_premium' => [Bool](/API_docs/types/Bool.html), 'read_dates_private' => [Bool](/API_docs/types/Bool.html), 'sponsored_enabled' => [Bool](/API_docs/types/Bool.html), 'can_view_revenue' => [Bool](/API_docs/types/Bool.html), 'bot_can_manage_emoji_status' => [Bool](/API_docs/types/Bool.html), 'display_gifts_button' => [Bool](/API_docs/types/Bool.html), 'noforwards_my_enabled' => [Bool](/API_docs/types/Bool.html), 'noforwards_peer_enabled' => [Bool](/API_docs/types/Bool.html), 'unofficial_security_risk' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'about' => [string](/API_docs/types/string.html), 'settings' => [PeerSettings](/API_docs/types/PeerSettings.html), 'personal_photo' => [Photo](/API_docs/types/Photo.html), 'profile_photo' => [Photo](/API_docs/types/Photo.html), 'fallback_photo' => [Photo](/API_docs/types/Photo.html), 'notify_settings' => [PeerNotifySettings](/API_docs/types/PeerNotifySettings.html), 'bot_info' => [BotInfo](/API_docs/types/BotInfo.html), 'pinned_msg_id' => [int](/API_docs/types/int.html), 'common_chats_count' => [int](/API_docs/types/int.html), 'folder_id' => [int](/API_docs/types/int.html), 'ttl_period' => [int](/API_docs/types/int.html), 'theme' => [ChatTheme](/API_docs/types/ChatTheme.html), 'private_forward_name' => [string](/API_docs/types/string.html), 'bot_group_admin_rights' => [ChatAdminRights](/API_docs/types/ChatAdminRights.html), 'bot_broadcast_admin_rights' => [ChatAdminRights](/API_docs/types/ChatAdminRights.html), 'wallpaper' => [WallPaper](/API_docs/types/WallPaper.html), 'stories' => [PeerStories](/API_docs/types/PeerStories.html), 'business_work_hours' => [BusinessWorkHours](/API_docs/types/BusinessWorkHours.html), 'business_location' => [BusinessLocation](/API_docs/types/BusinessLocation.html), 'business_greeting_message' => [BusinessGreetingMessage](/API_docs/types/BusinessGreetingMessage.html), 'business_away_message' => [BusinessAwayMessage](/API_docs/types/BusinessAwayMessage.html), 'business_intro' => [BusinessIntro](/API_docs/types/BusinessIntro.html), 'birthday' => [Birthday](/API_docs/types/Birthday.html), 'personal_channel_id' => [long](/API_docs/types/long.html), 'personal_channel_message' => [int](/API_docs/types/int.html), 'stargifts_count' => [int](/API_docs/types/int.html), 'starref_program' => [StarRefProgram](/API_docs/types/StarRefProgram.html), 'bot_verification' => [BotVerification](/API_docs/types/BotVerification.html), 'send_paid_messages_stars' => [long](/API_docs/types/long.html), 'disallowed_gifts' => [DisallowedGiftsSettings](/API_docs/types/DisallowedGiftsSettings.html), 'stars_rating' => [StarsRating](/API_docs/types/StarsRating.html), 'stars_my_pending_rating' => [StarsRating](/API_docs/types/StarsRating.html), 'stars_my_pending_rating_date' => [int](/API_docs/types/int.html), 'main_tab' => [ProfileTab](/API_docs/types/ProfileTab.html), 'saved_music' => [Document](/API_docs/types/Document.html), 'note' => [TextWithEntities](/API_docs/types/TextWithEntities.html), 'bot_manager_id' => [long](/API_docs/types/long.html), 'gram_address' => [string](/API_docs/types/string.html), \];<a name="userFull"></a>  
+<br><br>[$userFull](/API_docs/constructors/userFull.html) = \['blocked' => [Bool](/API_docs/types/Bool.html), 'phone_calls_available' => [Bool](/API_docs/types/Bool.html), 'phone_calls_private' => [Bool](/API_docs/types/Bool.html), 'can_pin_message' => [Bool](/API_docs/types/Bool.html), 'has_scheduled' => [Bool](/API_docs/types/Bool.html), 'video_calls_available' => [Bool](/API_docs/types/Bool.html), 'voice_messages_forbidden' => [Bool](/API_docs/types/Bool.html), 'translations_disabled' => [Bool](/API_docs/types/Bool.html), 'stories_pinned_available' => [Bool](/API_docs/types/Bool.html), 'blocked_my_stories_from' => [Bool](/API_docs/types/Bool.html), 'wallpaper_overridden' => [Bool](/API_docs/types/Bool.html), 'contact_require_premium' => [Bool](/API_docs/types/Bool.html), 'read_dates_private' => [Bool](/API_docs/types/Bool.html), 'sponsored_enabled' => [Bool](/API_docs/types/Bool.html), 'can_view_revenue' => [Bool](/API_docs/types/Bool.html), 'bot_can_manage_emoji_status' => [Bool](/API_docs/types/Bool.html), 'display_gifts_button' => [Bool](/API_docs/types/Bool.html), 'noforwards_my_enabled' => [Bool](/API_docs/types/Bool.html), 'noforwards_peer_enabled' => [Bool](/API_docs/types/Bool.html), 'unofficial_security_risk' => [Bool](/API_docs/types/Bool.html), 'id' => [long](/API_docs/types/long.html), 'about' => [string](/API_docs/types/string.html), 'settings' => [PeerSettings](/API_docs/types/PeerSettings.html), 'personal_photo' => [Photo](/API_docs/types/Photo.html), 'profile_photo' => [Photo](/API_docs/types/Photo.html), 'fallback_photo' => [Photo](/API_docs/types/Photo.html), 'notify_settings' => [PeerNotifySettings](/API_docs/types/PeerNotifySettings.html), 'bot_info' => [BotInfo](/API_docs/types/BotInfo.html), 'pinned_msg_id' => [int](/API_docs/types/int.html), 'common_chats_count' => [int](/API_docs/types/int.html), 'folder_id' => [int](/API_docs/types/int.html), 'ttl_period' => [int](/API_docs/types/int.html), 'theme' => [ChatTheme](/API_docs/types/ChatTheme.html), 'private_forward_name' => [string](/API_docs/types/string.html), 'bot_group_admin_rights' => [ChatAdminRights](/API_docs/types/ChatAdminRights.html), 'bot_broadcast_admin_rights' => [ChatAdminRights](/API_docs/types/ChatAdminRights.html), 'wallpaper' => [WallPaper](/API_docs/types/WallPaper.html), 'stories' => [PeerStories](/API_docs/types/PeerStories.html), 'business_work_hours' => [BusinessWorkHours](/API_docs/types/BusinessWorkHours.html), 'business_location' => [BusinessLocation](/API_docs/types/BusinessLocation.html), 'business_greeting_message' => [BusinessGreetingMessage](/API_docs/types/BusinessGreetingMessage.html), 'business_away_message' => [BusinessAwayMessage](/API_docs/types/BusinessAwayMessage.html), 'business_intro' => [BusinessIntro](/API_docs/types/BusinessIntro.html), 'birthday' => [Birthday](/API_docs/types/Birthday.html), 'personal_channel_id' => [long](/API_docs/types/long.html), 'personal_channel_message' => [int](/API_docs/types/int.html), 'stargifts_count' => [int](/API_docs/types/int.html), 'starref_program' => [StarRefProgram](/API_docs/types/StarRefProgram.html), 'bot_verification' => [BotVerification](/API_docs/types/BotVerification.html), 'send_paid_messages_stars' => [long](/API_docs/types/long.html), 'disallowed_gifts' => [DisallowedGiftsSettings](/API_docs/types/DisallowedGiftsSettings.html), 'stars_rating' => [StarsRating](/API_docs/types/StarsRating.html), 'stars_my_pending_rating' => [StarsRating](/API_docs/types/StarsRating.html), 'stars_my_pending_rating_date' => [int](/API_docs/types/int.html), 'main_tab' => [ProfileTab](/API_docs/types/ProfileTab.html), 'saved_music' => [Document](/API_docs/types/Document.html), 'note' => [TextWithEntities](/API_docs/types/TextWithEntities.html), 'bot_manager_id' => [long](/API_docs/types/long.html), \];<a name="userFull"></a>  
 
 ***
 <br><br>[$userProfilePhoto](/API_docs/constructors/userProfilePhoto.html) = \['has_video' => [Bool](/API_docs/types/Bool.html), 'personal' => [Bool](/API_docs/types/Bool.html), 'photo_id' => [long](/API_docs/types/long.html), 'stripped_thumb' => [bytes](/API_docs/types/bytes.html), 'dc_id' => [int](/API_docs/types/int.html), \];<a name="userProfilePhoto"></a>  
@@ -5018,7 +5048,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$userStatusRecently](/API_docs/constructors/userStatusRecently.html) = \['by_me' => [Bool](/API_docs/types/Bool.html), \];<a name="userStatusRecently"></a>  
 
 ***
-<br><br>[$username](/API_docs/constructors/username.html) = \['editable' => [Bool](/API_docs/types/Bool.html), 'active' => [Bool](/API_docs/types/Bool.html), 'username' => [string](/API_docs/types/string.html), \];<a name="username"></a>  
+<br><br>[$username](/API_docs/constructors/username.html) = \['editable' => [Bool](/API_docs/types/Bool.html), 'active' => [Bool](/API_docs/types/Bool.html), 'deletable' => [Bool](/API_docs/types/Bool.html), 'expired' => [Bool](/API_docs/types/Bool.html), 'username' => [string](/API_docs/types/string.html), \];<a name="username"></a>  
 
 ***
 <br><br>[$users.savedMusic](/API_docs/constructors/users.savedMusic.html) = \['count' => [int](/API_docs/types/int.html), 'documents' => \[[Document](/API_docs/types/Document.html)\], \];<a name="users.savedMusic"></a>  
@@ -5060,13 +5090,43 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$wallet.encryptedSecretPhrasePart](/API_docs/constructors/wallet.encryptedSecretPhrasePart.html) = \['data' => [bytes](/API_docs/types/bytes.html), \];<a name="wallet.encryptedSecretPhrasePart"></a>  
 
 ***
+<br><br>[$wallet.existingBalance](/API_docs/constructors/wallet.existingBalance.html) = \['has_balance' => [Bool](/API_docs/types/Bool.html), 'url' => [string](/API_docs/types/string.html), \];<a name="wallet.existingBalance"></a>  
+
+***
 <br><br>[$wallet.holderDc](/API_docs/constructors/wallet.holderDc.html) = \['dc' => [int](/API_docs/types/int.html), 'public_key' => [bytes](/API_docs/types/bytes.html), \];<a name="wallet.holderDc"></a>  
+
+***
+<br><br>[$wallet.nftAttribute](/API_docs/constructors/wallet.nftAttribute.html) = \['trait_type' => [string](/API_docs/types/string.html), 'value' => [string](/API_docs/types/string.html), \];<a name="wallet.nftAttribute"></a>  
+
+***
+<br><br>[$wallet.nftItem](/API_docs/constructors/wallet.nftItem.html) = \['collection_address' => [string](/API_docs/types/string.html), 'address' => [string](/API_docs/types/string.html), 'owner_address' => [string](/API_docs/types/string.html), 'index' => [string](/API_docs/types/string.html), 'name' => [string](/API_docs/types/string.html), 'description' => [string](/API_docs/types/string.html), 'image' => [WebDocument](/API_docs/types/WebDocument.html), 'image_small' => [WebDocument](/API_docs/types/WebDocument.html), 'content_url' => [WebDocument](/API_docs/types/WebDocument.html), 'lottie' => [WebDocument](/API_docs/types/WebDocument.html), 'attributes' => \[[wallet.NftAttribute](/API_docs/types/wallet.NftAttribute.html)\], 'extra' => [DataJSON](/API_docs/types/DataJSON.html), \];<a name="wallet.nftItem"></a>  
+
+***
+<br><br>[$wallet.nftItems](/API_docs/constructors/wallet.nftItems.html) = \['items' => \[[wallet.NftItem](/API_docs/types/wallet.NftItem.html)\], 'next_offset' => [string](/API_docs/types/string.html), \];<a name="wallet.nftItems"></a>  
+
+***
+<br><br>[$wallet.proofChallenge](/API_docs/constructors/wallet.proofChallenge.html) = \['payload' => [string](/API_docs/types/string.html), 'expires' => [int](/API_docs/types/int.html), 'domain' => [string](/API_docs/types/string.html), \];<a name="wallet.proofChallenge"></a>  
 
 ***
 <br><br>[$wallet.secretPhraseParts](/API_docs/constructors/wallet.secretPhraseParts.html) = \['token' => [string](/API_docs/types/string.html), 'dcs' => \[[int](/API_docs/types/int.html)\], \];<a name="wallet.secretPhraseParts"></a>  
 
 ***
+<br><br>[$wallet.tonConnectChallenge](/API_docs/constructors/wallet.tonConnectChallenge.html) = \['challenge' => [bytes](/API_docs/types/bytes.html), 'event_id' => [long](/API_docs/types/long.html), \];<a name="wallet.tonConnectChallenge"></a>  
+
+***
+<br><br>[$wallet.tonConnectPending](/API_docs/constructors/wallet.tonConnectPending.html) = \['session' => [TonConnectSession](/API_docs/types/TonConnectSession.html), 'requests' => \[[TonConnectRequest](/API_docs/types/TonConnectRequest.html)\], \];<a name="wallet.tonConnectPending"></a>  
+
+***
+<br><br>[$wallet.tonConnectSessions](/API_docs/constructors/wallet.tonConnectSessions.html) = \['sessions' => \[[TonConnectSession](/API_docs/types/TonConnectSession.html)\], \];<a name="wallet.tonConnectSessions"></a>  
+
+***
 <br><br>[$wallet.transactions](/API_docs/constructors/wallet.transactions.html) = \['balance' => [long](/API_docs/types/long.html), 'transactions' => \[[WalletTransaction](/API_docs/types/WalletTransaction.html)\], 'next_offset' => [string](/API_docs/types/string.html), 'chats' => \[[Chat](/API_docs/types/Chat.html)\], 'users' => \[[User](/API_docs/types/User.html)\], \];<a name="wallet.transactions"></a>  
+
+***
+<br><br>[$wallet.userAddresses](/API_docs/constructors/wallet.userAddresses.html) = \['addresses' => \[[WalletUserAddress](/API_docs/types/WalletUserAddress.html)\], 'users' => \[[User](/API_docs/types/User.html)\], \];<a name="wallet.userAddresses"></a>  
+
+***
+<br><br>[$walletOwnershipProof](/API_docs/constructors/walletOwnershipProof.html) = \['timestamp' => [int](/API_docs/types/int.html), 'signature' => [bytes](/API_docs/types/bytes.html), \];<a name="walletOwnershipProof"></a>  
 
 ***
 <br><br>[$walletState](/API_docs/constructors/walletState.html) = \['backup_enabled' => [Bool](/API_docs/types/Bool.html), 'can_export_phrase' => [Bool](/API_docs/types/Bool.html), 'can_enable_backup' => [Bool](/API_docs/types/Bool.html), 'address' => [string](/API_docs/types/string.html), 'public_key' => [bytes](/API_docs/types/bytes.html), 'balance' => [long](/API_docs/types/long.html), \];<a name="walletState"></a>  
@@ -5075,10 +5135,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$walletStateEmpty](/API_docs/constructors/walletStateEmpty.html) = \['creating' => [Bool](/API_docs/types/Bool.html), \];<a name="walletStateEmpty"></a>  
 
 ***
-<br><br>[$walletTransaction](/API_docs/constructors/walletTransaction.html) = \['incoming' => [Bool](/API_docs/types/Bool.html), 'failed' => [Bool](/API_docs/types/Bool.html), 'key_change' => [Bool](/API_docs/types/Bool.html), 'id' => [string](/API_docs/types/string.html), 'amount' => [long](/API_docs/types/long.html), 'fee' => [long](/API_docs/types/long.html), 'date' => [int](/API_docs/types/int.html), 'peer' => [WalletTransactionPeer](/API_docs/types/WalletTransactionPeer.html), 'comment' => [string](/API_docs/types/string.html), 'tx_hash' => [string](/API_docs/types/string.html), \];<a name="walletTransaction"></a>  
+<br><br>[$walletTransaction](/API_docs/constructors/walletTransaction.html) = \['incoming' => [Bool](/API_docs/types/Bool.html), 'gasless' => [Bool](/API_docs/types/Bool.html), 'failed' => [Bool](/API_docs/types/Bool.html), 'key_change' => [Bool](/API_docs/types/Bool.html), 'comment_encrypted' => [Bool](/API_docs/types/Bool.html), 'id' => [string](/API_docs/types/string.html), 'amount' => [long](/API_docs/types/long.html), 'fee' => [long](/API_docs/types/long.html), 'date' => [int](/API_docs/types/int.html), 'peer' => [WalletTransactionPeer](/API_docs/types/WalletTransactionPeer.html), 'comment' => [string](/API_docs/types/string.html), 'tx_hash' => [string](/API_docs/types/string.html), 'nft' => [wallet.NftItem](/API_docs/types/wallet.NftItem.html), \];<a name="walletTransaction"></a>  
 
 ***
 <br><br>[$walletTransactionPeerAddress](/API_docs/constructors/walletTransactionPeerAddress.html) = \['address' => [string](/API_docs/types/string.html), 'domain' => [string](/API_docs/types/string.html), \];<a name="walletTransactionPeerAddress"></a>  
+
+***
+<br><br>[$walletTransactionPeerOnramp](/API_docs/constructors/walletTransactionPeerOnramp.html) = \['address' => [string](/API_docs/types/string.html), 'domain' => [string](/API_docs/types/string.html), 'provider_name' => [string](/API_docs/types/string.html), \];<a name="walletTransactionPeerOnramp"></a>  
 
 ***
 <br><br>[$walletTransactionPeerUnsupported](/API_docs/constructors/walletTransactionPeerUnsupported.html) = \[\];<a name="walletTransactionPeerUnsupported"></a>  
@@ -5087,7 +5150,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 <br><br>[$walletTransactionPeerUser](/API_docs/constructors/walletTransactionPeerUser.html) = \['user_id' => [long](/API_docs/types/long.html), 'address' => [string](/API_docs/types/string.html), 'domain' => [string](/API_docs/types/string.html), \];<a name="walletTransactionPeerUser"></a>  
 
 ***
-<br><br>[$walletUserAddress](/API_docs/constructors/walletUserAddress.html) = \['user_id' => [long](/API_docs/types/long.html), 'address' => [string](/API_docs/types/string.html), \];<a name="walletUserAddress"></a>  
+<br><br>[$walletUserAddress](/API_docs/constructors/walletUserAddress.html) = \['user_id' => [long](/API_docs/types/long.html), 'address' => [string](/API_docs/types/string.html), 'public_key' => [bytes](/API_docs/types/bytes.html), \];<a name="walletUserAddress"></a>  
 
 ***
 <br><br>[$webAuthorization](/API_docs/constructors/webAuthorization.html) = \['hash' => [long](/API_docs/types/long.html), 'bot_id' => [long](/API_docs/types/long.html), 'domain' => [string](/API_docs/types/string.html), 'browser' => [string](/API_docs/types/string.html), 'platform' => [string](/API_docs/types/string.html), 'date_created' => [int](/API_docs/types/int.html), 'date_active' => [int](/API_docs/types/int.html), 'ip' => [string](/API_docs/types/string.html), 'region' => [string](/API_docs/types/string.html), \];<a name="webAuthorization"></a>  

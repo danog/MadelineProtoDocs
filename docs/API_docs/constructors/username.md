@@ -17,6 +17,8 @@ Contains information about a username.
 |----------|---------------|----------|-------------|
 |editable|[Bool](/API_docs/types/Bool.html) | Optional|Whether the username is editable, meaning it wasn't bought on [fragment](https://fragment.com).|
 |active|[Bool](/API_docs/types/Bool.html) | Optional|Whether the username is active.|
+|deletable|[Bool](/API_docs/types/Bool.html) | Optional|
+|expired|[Bool](/API_docs/types/Bool.html) | Optional|
 |username|[string](/API_docs/types/string.html) | Yes|The username.|
 
 
@@ -27,5 +29,5 @@ Contains information about a username.
 ### Example:
 
 ```
-$username = ['_' => 'username', 'editable' => Bool, 'active' => Bool, 'username' => 'string'];
+$username = ['_' => 'username', 'editable' => Bool, 'active' => Bool, 'deletable' => Bool, 'expired' => Bool, 'username' => 'string'];
 ```  

@@ -73,6 +73,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [textButton](/API_docs/constructors/textButton.html)  
 
+[textTonAddress](/API_docs/constructors/textTonAddress.html)  
+
 
 
 ### Methods that return an object of this type (methods):

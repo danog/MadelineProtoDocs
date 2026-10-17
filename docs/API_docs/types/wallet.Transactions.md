@@ -20,5 +20,9 @@ redirect_from: /API_docs/types/wallet_Transactions.html
 
 [$MadelineProto->wallet->getTransactions](/API_docs/methods/wallet.getTransactions.html)  
 
+[$MadelineProto->wallet->getTransactionsByIDs](/API_docs/methods/wallet.getTransactionsByIDs.html)  
+
+[$MadelineProto->wallet->getTransactionsByMsgHash](/API_docs/methods/wallet.getTransactionsByMsgHash.html)  
+
 
 

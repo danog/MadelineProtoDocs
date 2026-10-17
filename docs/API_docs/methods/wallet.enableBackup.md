@@ -16,7 +16,8 @@ redirect_from: /API_docs/methods/wallet_enableBackup.html
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |parts|Array of [bytes](/API_docs/types/bytes.html) | Yes|
-|password|[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html) | Optional|
+|new\_public\_key|[bytes](/API_docs/types/bytes.html) | Optional|
+|proof|[WalletOwnershipProof](/API_docs/types/WalletOwnershipProof.html) | Optional|
 
 
 ### Return type: [WalletState](/API_docs/types/WalletState.html)
@@ -42,6 +43,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$WalletState = $MadelineProto->wallet->enableBackup(parts: ['bytes', 'bytes'], password: $InputCheckPasswordSRP, );
+$WalletState = $MadelineProto->wallet->enableBackup(parts: ['bytes', 'bytes'], new_public_key: 'bytes', proof: $WalletOwnershipProof, );
 ```
 

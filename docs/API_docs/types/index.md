@@ -777,6 +777,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [TodoList](/API_docs/types/TodoList.html)<a name="TodoList"></a>  
 
+[TonConnectManifest](/API_docs/types/TonConnectManifest.html)<a name="TonConnectManifest"></a>  
+
+[TonConnectNextEventId](/API_docs/types/TonConnectNextEventId.html)<a name="TonConnectNextEventId"></a>  
+
+[TonConnectRequest](/API_docs/types/TonConnectRequest.html)<a name="TonConnectRequest"></a>  
+
+[TonConnectSession](/API_docs/types/TonConnectSession.html)<a name="TonConnectSession"></a>  
+
 [TopPeer](/API_docs/types/TopPeer.html)<a name="TopPeer"></a>  
 
 [TopPeerCategory](/API_docs/types/TopPeerCategory.html)<a name="TopPeerCategory"></a>  
@@ -808,6 +816,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [WallPaper](/API_docs/types/WallPaper.html)<a name="WallPaper"></a>  
 
 [WallPaperSettings](/API_docs/types/WallPaperSettings.html)<a name="WallPaperSettings"></a>  
+
+[WalletOwnershipProof](/API_docs/types/WalletOwnershipProof.html)<a name="WalletOwnershipProof"></a>  
 
 [WalletState](/API_docs/types/WalletState.html)<a name="WalletState"></a>  
 
@@ -1291,9 +1301,27 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [wallet.EncryptedSecretPhrasePart](/API_docs/types/wallet.EncryptedSecretPhrasePart.html)<a name="wallet.EncryptedSecretPhrasePart"></a>  
 
+[wallet.ExistingBalance](/API_docs/types/wallet.ExistingBalance.html)<a name="wallet.ExistingBalance"></a>  
+
 [wallet.HolderDc](/API_docs/types/wallet.HolderDc.html)<a name="wallet.HolderDc"></a>  
+
+[wallet.NftAttribute](/API_docs/types/wallet.NftAttribute.html)<a name="wallet.NftAttribute"></a>  
+
+[wallet.NftItem](/API_docs/types/wallet.NftItem.html)<a name="wallet.NftItem"></a>  
+
+[wallet.NftItems](/API_docs/types/wallet.NftItems.html)<a name="wallet.NftItems"></a>  
+
+[wallet.ProofChallenge](/API_docs/types/wallet.ProofChallenge.html)<a name="wallet.ProofChallenge"></a>  
 
 [wallet.SecretPhraseParts](/API_docs/types/wallet.SecretPhraseParts.html)<a name="wallet.SecretPhraseParts"></a>  
 
+[wallet.TonConnectChallenge](/API_docs/types/wallet.TonConnectChallenge.html)<a name="wallet.TonConnectChallenge"></a>  
+
+[wallet.TonConnectPending](/API_docs/types/wallet.TonConnectPending.html)<a name="wallet.TonConnectPending"></a>  
+
+[wallet.TonConnectSessions](/API_docs/types/wallet.TonConnectSessions.html)<a name="wallet.TonConnectSessions"></a>  
+
 [wallet.Transactions](/API_docs/types/wallet.Transactions.html)<a name="wallet.Transactions"></a>  
+
+[wallet.UserAddresses](/API_docs/types/wallet.UserAddresses.html)<a name="wallet.UserAddresses"></a>  
 

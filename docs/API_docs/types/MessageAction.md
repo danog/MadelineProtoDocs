@@ -151,6 +151,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageActionGramTransfer](/API_docs/constructors/messageActionGramTransfer.html)  
 
+[messageActionWalletTonConnectRequest](/API_docs/constructors/messageActionWalletTonConnectRequest.html)  
+
 
 
 ### Methods that return an object of this type (methods):

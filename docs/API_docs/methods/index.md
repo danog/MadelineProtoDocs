@@ -2004,6 +2004,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="aicompose.updateTone.html" name="aicompose.updateTone">aicompose.updateTone</a>
 
+* <a href="auth.cancelWebTokenAuthorization.html" name="auth.cancelWebTokenAuthorization">auth.cancelWebTokenAuthorization</a>
+
 * <a href="auth.checkPaidAuth.html" name="auth.checkPaidAuth">auth.checkPaidAuth</a>
 
 * <a href="auth.finishFirebasePnvLogin.html" name="auth.finishFirebasePnvLogin">auth.finishFirebasePnvLogin</a>
@@ -2018,6 +2020,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#base64urlDecode" name="base64urlDecode">base64URL decode: base64urlDecode</a>
 
+* <a href="bots.addUsername.html" name="bots.addUsername">bots.addUsername</a>
+
 * <a href="bots.checkUsername.html" name="bots.checkUsername">bots.checkUsername</a>
 
 * <a href="bots.createBot.html" name="bots.createBot">bots.createBot</a>
@@ -2029,6 +2033,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="bots.getAccessSettings.html" name="bots.getAccessSettings">bots.getAccessSettings</a>
 
 * <a href="bots.getRequestedWebViewButton.html" name="bots.getRequestedWebViewButton">bots.getRequestedWebViewButton</a>
+
+* <a href="bots.removeUsername.html" name="bots.removeUsername">bots.removeUsername</a>
 
 * <a href="bots.requestWebViewButton.html" name="bots.requestWebViewButton">bots.requestWebViewButton</a>
 
@@ -2194,12 +2200,44 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="wallet.getBackupHolderDcs.html" name="wallet.getBackupHolderDcs">wallet.getBackupHolderDcs</a>
 
+* <a href="wallet.getExistingWaltBalance.html" name="wallet.getExistingWaltBalance">wallet.getExistingWaltBalance</a>
+
+* <a href="wallet.getGaslessInfo.html" name="wallet.getGaslessInfo">wallet.getGaslessInfo</a>
+
+* <a href="wallet.getNfts.html" name="wallet.getNfts">wallet.getNfts</a>
+
+* <a href="wallet.getProofChallenge.html" name="wallet.getProofChallenge">wallet.getProofChallenge</a>
+
 * <a href="wallet.getState.html" name="wallet.getState">wallet.getState</a>
 
 * <a href="wallet.getTransactions.html" name="wallet.getTransactions">wallet.getTransactions</a>
 
+* <a href="wallet.getTransactionsByIDs.html" name="wallet.getTransactionsByIDs">wallet.getTransactionsByIDs</a>
+
+* <a href="wallet.getTransactionsByMsgHash.html" name="wallet.getTransactionsByMsgHash">wallet.getTransactionsByMsgHash</a>
+
 * <a href="wallet.getUserAddresses.html" name="wallet.getUserAddresses">wallet.getUserAddresses</a>
 
 * <a href="wallet.replaceWallet.html" name="wallet.replaceWallet">wallet.replaceWallet</a>
+
+* <a href="wallet.sendTransfer.html" name="wallet.sendTransfer">wallet.sendTransfer</a>
+
+* <a href="wallet.tonConnectClaimRequest.html" name="wallet.tonConnectClaimRequest">wallet.tonConnectClaimRequest</a>
+
+* <a href="wallet.tonConnectCloseSession.html" name="wallet.tonConnectCloseSession">wallet.tonConnectCloseSession</a>
+
+* <a href="wallet.tonConnectCreateSession.html" name="wallet.tonConnectCreateSession">wallet.tonConnectCreateSession</a>
+
+* <a href="wallet.tonConnectGetPending.html" name="wallet.tonConnectGetPending">wallet.tonConnectGetPending</a>
+
+* <a href="wallet.tonConnectGetSessions.html" name="wallet.tonConnectGetSessions">wallet.tonConnectGetSessions</a>
+
+* <a href="wallet.tonConnectNextEventId.html" name="wallet.tonConnectNextEventId">wallet.tonConnectNextEventId</a>
+
+* <a href="wallet.tonConnectRegisterKey.html" name="wallet.tonConnectRegisterKey">wallet.tonConnectRegisterKey</a>
+
+* <a href="wallet.tonConnectSubmitConnectResult.html" name="wallet.tonConnectSubmitConnectResult">wallet.tonConnectSubmitConnectResult</a>
+
+* <a href="wallet.tonConnectSubmitResponse.html" name="wallet.tonConnectSubmitResponse">wallet.tonConnectSubmitResponse</a>
 
 

@@ -15,6 +15,7 @@ redirect_from: /API_docs/methods/auth_initFirebasePnvLogin.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
+|except\_ids|Array of [long](/API_docs/types/long.html) | Optional|
 |api\_id|[int](/API_docs/types/int.html) | Optional|
 |api\_hash|[string](/API_docs/types/string.html) | Optional|
 
@@ -42,6 +43,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$auth_FirebasePnvIntent = $MadelineProto->auth->initFirebasePnvLogin(api_id: $int, api_hash: 'string', );
+$auth_FirebasePnvIntent = $MadelineProto->auth->initFirebasePnvLogin(except_ids: [$long, $long], api_id: $int, api_hash: 'string', );
 ```
 

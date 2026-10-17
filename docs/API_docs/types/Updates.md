@@ -312,5 +312,9 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->ephemeral->editMessage](/API_docs/methods/ephemeral.editMessage.html)  
 
+[$MadelineProto->wallet->sendTransfer](/API_docs/methods/wallet.sendTransfer.html)  
+
+[$MadelineProto->wallet->getGaslessInfo](/API_docs/methods/wallet.getGaslessInfo.html)  
+
 
 

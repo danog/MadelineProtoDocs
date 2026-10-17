@@ -15,6 +15,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [walletTransactionPeerAddress](/API_docs/constructors/walletTransactionPeerAddress.html)  
 
+[walletTransactionPeerOnramp](/API_docs/constructors/walletTransactionPeerOnramp.html)  
+
 [walletTransactionPeerUnsupported](/API_docs/constructors/walletTransactionPeerUnsupported.html)  
 
 

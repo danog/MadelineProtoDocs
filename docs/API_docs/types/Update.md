@@ -343,6 +343,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateWalletState](/API_docs/constructors/updateWalletState.html)  
 
+[updateSentWalletTransaction](/API_docs/constructors/updateSentWalletTransaction.html)  
+
+[updateWalletGaslessInfo](/API_docs/constructors/updateWalletGaslessInfo.html)  
+
+[updateWalletTonConnectSession](/API_docs/constructors/updateWalletTonConnectSession.html)  
+
+[updateWalletTonConnectPendingDisconnect](/API_docs/constructors/updateWalletTonConnectPendingDisconnect.html)  
+
 
 
 ### Methods that return an object of this type (methods):

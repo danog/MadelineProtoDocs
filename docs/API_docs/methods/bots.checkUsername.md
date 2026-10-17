@@ -15,6 +15,7 @@ redirect_from: /API_docs/methods/bots_checkUsername.html
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
+|additional|[Bool](/API_docs/types/Bool.html) | Optional|
 |username|[string](/API_docs/types/string.html) | Optional|
 
 
@@ -41,6 +42,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Bool = $MadelineProto->bots->checkUsername(username: 'string', );
+$Bool = $MadelineProto->bots->checkUsername(additional: $Bool, username: 'string', );
 ```
 

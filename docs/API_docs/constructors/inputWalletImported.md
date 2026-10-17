@@ -14,6 +14,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 | Name     |    Type       | Required |
 |----------|---------------|----------|
 |public\_key|[bytes](/API_docs/types/bytes.html) | Yes|
+|anchor\_public\_key|[bytes](/API_docs/types/bytes.html) | Optional|
+|proof|[WalletOwnershipProof](/API_docs/types/WalletOwnershipProof.html) | Yes|
 
 
 
@@ -23,5 +25,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$inputWalletImported = ['_' => 'inputWalletImported', 'public_key' => 'bytes'];
+$inputWalletImported = ['_' => 'inputWalletImported', 'public_key' => 'bytes', 'anchor_public_key' => 'bytes', 'proof' => WalletOwnershipProof];
 ```  

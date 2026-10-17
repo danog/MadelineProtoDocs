@@ -589,6 +589,10 @@ $MadelineProto->[auth->cancelCode](/API_docs/methods/auth.cancelCode.html)(\[pho
 
 ***
 <br><br>
+$MadelineProto->[auth->cancelWebTokenAuthorization](/API_docs/methods/auth.cancelWebTokenAuthorization.html)(\[web_auth_token: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="auth.cancelWebTokenAuthorization"></a>  
+
+***
+<br><br>
 $MadelineProto->[auth->checkPaidAuth](/API_docs/methods/auth.checkPaidAuth.html)(\[phone_number: $[string](/API_docs/types/string.html), phone_code_hash: $[string](/API_docs/types/string.html), form_id: $[long](/API_docs/types/long.html), \]) === [$auth.SentCode](/API_docs/types/auth.SentCode.html)<a name="auth.checkPaidAuth"></a>  
 
 ***
@@ -641,7 +645,7 @@ $MadelineProto->[auth->importWebTokenAuthorization](/API_docs/methods/auth.impor
 
 ***
 <br><br>
-$MadelineProto->[auth->initFirebasePnvLogin](/API_docs/methods/auth.initFirebasePnvLogin.html)(\[api_id: $[int](/API_docs/types/int.html), api_hash: $[string](/API_docs/types/string.html), \]) === [$auth.FirebasePnvIntent](/API_docs/types/auth.FirebasePnvIntent.html)<a name="auth.initFirebasePnvLogin"></a>  
+$MadelineProto->[auth->initFirebasePnvLogin](/API_docs/methods/auth.initFirebasePnvLogin.html)(\[except_ids: \[$[long](/API_docs/types/long.html)\], api_id: $[int](/API_docs/types/int.html), api_hash: $[string](/API_docs/types/string.html), \]) === [$auth.FirebasePnvIntent](/API_docs/types/auth.FirebasePnvIntent.html)<a name="auth.initFirebasePnvLogin"></a>  
 
 ***
 <br><br>
@@ -697,6 +701,10 @@ $MadelineProto->[bots->addPreviewMedia](/API_docs/methods/bots.addPreviewMedia.h
 
 ***
 <br><br>
+$MadelineProto->[bots->addUsername](/API_docs/methods/bots.addUsername.html)(\[bot: $[InputUser](/API_docs/types/InputUser.html), username: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="bots.addUsername"></a>  
+
+***
+<br><br>
 $MadelineProto->[bots->allowSendMessage](/API_docs/methods/bots.allowSendMessage.html)(\[bot: $[InputUser](/API_docs/types/InputUser.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="bots.allowSendMessage"></a>  
 
 ***
@@ -713,7 +721,7 @@ $MadelineProto->[bots->checkDownloadFileParams](/API_docs/methods/bots.checkDown
 
 ***
 <br><br>
-$MadelineProto->[bots->checkUsername](/API_docs/methods/bots.checkUsername.html)(\[username: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="bots.checkUsername"></a>  
+$MadelineProto->[bots->checkUsername](/API_docs/methods/bots.checkUsername.html)(\[additional: $[Bool](/API_docs/types/Bool.html), username: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="bots.checkUsername"></a>  
 
 ***
 <br><br>
@@ -778,6 +786,10 @@ $MadelineProto->[bots->getRequestedWebViewButton](/API_docs/methods/bots.getRequ
 ***
 <br><br>
 $MadelineProto->[bots->invokeWebViewCustomMethod](/API_docs/methods/bots.invokeWebViewCustomMethod.html)(\[bot: $[InputUser](/API_docs/types/InputUser.html), custom_method: $[string](/API_docs/types/string.html), params: $[DataJSON](/API_docs/types/DataJSON.html), \]) === [$DataJSON](/API_docs/types/DataJSON.html)<a name="bots.invokeWebViewCustomMethod"></a>  
+
+***
+<br><br>
+$MadelineProto->[bots->removeUsername](/API_docs/methods/bots.removeUsername.html)(\[bot: $[InputUser](/API_docs/types/InputUser.html), username: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="bots.removeUsername"></a>  
 
 ***
 <br><br>
@@ -3325,11 +3337,11 @@ $MadelineProto->[users->suggestBirthday](/API_docs/methods/users.suggestBirthday
 
 ***
 <br><br>
-$MadelineProto->[wallet->disableBackup](/API_docs/methods/wallet.disableBackup.html)(\[password: $[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html), \]) === [$WalletState](/API_docs/types/WalletState.html)<a name="wallet.disableBackup"></a>  
+$MadelineProto->[wallet->disableBackup](/API_docs/methods/wallet.disableBackup.html)(\[password: $[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html), new_public_key: $[bytes](/API_docs/types/bytes.html), proof: $[WalletOwnershipProof](/API_docs/types/WalletOwnershipProof.html), \]) === [$WalletState](/API_docs/types/WalletState.html)<a name="wallet.disableBackup"></a>  
 
 ***
 <br><br>
-$MadelineProto->[wallet->enableBackup](/API_docs/methods/wallet.enableBackup.html)(\[parts: \[$[bytes](/API_docs/types/bytes.html)\], password: $[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html), \]) === [$WalletState](/API_docs/types/WalletState.html)<a name="wallet.enableBackup"></a>  
+$MadelineProto->[wallet->enableBackup](/API_docs/methods/wallet.enableBackup.html)(\[parts: \[$[bytes](/API_docs/types/bytes.html)\], new_public_key: $[bytes](/API_docs/types/bytes.html), proof: $[WalletOwnershipProof](/API_docs/types/WalletOwnershipProof.html), \]) === [$WalletState](/API_docs/types/WalletState.html)<a name="wallet.enableBackup"></a>  
 
 ***
 <br><br>
@@ -3345,6 +3357,22 @@ $MadelineProto->[wallet->getBackupHolderDcs](/API_docs/methods/wallet.getBackupH
 
 ***
 <br><br>
+$MadelineProto->[wallet->getExistingWaltBalance](/API_docs/methods/wallet.getExistingWaltBalance.html)(\[\]) === [$wallet.ExistingBalance](/API_docs/types/wallet.ExistingBalance.html)<a name="wallet.getExistingWaltBalance"></a>  
+
+***
+<br><br>
+$MadelineProto->[wallet->getGaslessInfo](/API_docs/methods/wallet.getGaslessInfo.html)(\[\]) === [$Updates](/API_docs/types/Updates.html)<a name="wallet.getGaslessInfo"></a>  
+
+***
+<br><br>
+$MadelineProto->[wallet->getNfts](/API_docs/methods/wallet.getNfts.html)(\[offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$wallet.NftItems](/API_docs/types/wallet.NftItems.html)<a name="wallet.getNfts"></a>  
+
+***
+<br><br>
+$MadelineProto->[wallet->getProofChallenge](/API_docs/methods/wallet.getProofChallenge.html)(\[\]) === [$wallet.ProofChallenge](/API_docs/types/wallet.ProofChallenge.html)<a name="wallet.getProofChallenge"></a>  
+
+***
+<br><br>
 $MadelineProto->[wallet->getState](/API_docs/methods/wallet.getState.html)(\[\]) === [$WalletState](/API_docs/types/WalletState.html)<a name="wallet.getState"></a>  
 
 ***
@@ -3353,10 +3381,58 @@ $MadelineProto->[wallet->getTransactions](/API_docs/methods/wallet.getTransactio
 
 ***
 <br><br>
-$MadelineProto->[wallet->getUserAddresses](/API_docs/methods/wallet.getUserAddresses.html)(\[force: $[Bool](/API_docs/types/Bool.html), id: \[$[InputUser](/API_docs/types/InputUser.html)\], \]) === [$Vector\_of\_WalletUserAddress](/API_docs/types/WalletUserAddress.html)<a name="wallet.getUserAddresses"></a>  
+$MadelineProto->[wallet->getTransactionsByIDs](/API_docs/methods/wallet.getTransactionsByIDs.html)(\[id: \[$[string](/API_docs/types/string.html)\], \]) === [$wallet.Transactions](/API_docs/types/wallet.Transactions.html)<a name="wallet.getTransactionsByIDs"></a>  
+
+***
+<br><br>
+$MadelineProto->[wallet->getTransactionsByMsgHash](/API_docs/methods/wallet.getTransactionsByMsgHash.html)(\[msg_hash: \[$[string](/API_docs/types/string.html)\], \]) === [$wallet.Transactions](/API_docs/types/wallet.Transactions.html)<a name="wallet.getTransactionsByMsgHash"></a>  
+
+***
+<br><br>
+$MadelineProto->[wallet->getUserAddresses](/API_docs/methods/wallet.getUserAddresses.html)(\[force: $[Bool](/API_docs/types/Bool.html), id: \[$[InputUser](/API_docs/types/InputUser.html)\], addresses: \[$[string](/API_docs/types/string.html)\], \]) === [$wallet.UserAddresses](/API_docs/types/wallet.UserAddresses.html)<a name="wallet.getUserAddresses"></a>  
 
 ***
 <br><br>
 $MadelineProto->[wallet->replaceWallet](/API_docs/methods/wallet.replaceWallet.html)(\[wallet: $[InputWalletReplacement](/API_docs/types/InputWalletReplacement.html), password: $[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html), \]) === [$WalletState](/API_docs/types/WalletState.html)<a name="wallet.replaceWallet"></a>  
+
+***
+<br><br>
+$MadelineProto->[wallet->sendTransfer](/API_docs/methods/wallet.sendTransfer.html)(\[data_normal: $[bytes](/API_docs/types/bytes.html), data_gasless: $[bytes](/API_docs/types/bytes.html), user_id: $[InputUser](/API_docs/types/InputUser.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="wallet.sendTransfer"></a>  
+
+***
+<br><br>
+$MadelineProto->[wallet->tonConnectClaimRequest](/API_docs/methods/wallet.tonConnectClaimRequest.html)(\[declined: $[Bool](/API_docs/types/Bool.html), session_id: $[long](/API_docs/types/long.html), msg_id: $[int](/API_docs/types/int.html), app_request_id: $[string](/API_docs/types/string.html), challenge_answer: $[bytes](/API_docs/types/bytes.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="wallet.tonConnectClaimRequest"></a>  
+
+***
+<br><br>
+$MadelineProto->[wallet->tonConnectCloseSession](/API_docs/methods/wallet.tonConnectCloseSession.html)(\[session_id: $[long](/API_docs/types/long.html), body: $[bytes](/API_docs/types/bytes.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="wallet.tonConnectCloseSession"></a>  
+
+***
+<br><br>
+$MadelineProto->[wallet->tonConnectCreateSession](/API_docs/methods/wallet.tonConnectCreateSession.html)(\[dapp_client_id: $[string](/API_docs/types/string.html), manifest_url: $[string](/API_docs/types/string.html), \]) === [$TonConnectSession](/API_docs/types/TonConnectSession.html)<a name="wallet.tonConnectCreateSession"></a>  
+
+***
+<br><br>
+$MadelineProto->[wallet->tonConnectGetPending](/API_docs/methods/wallet.tonConnectGetPending.html)(\[dapp_client_id: $[string](/API_docs/types/string.html), session_id: $[long](/API_docs/types/long.html), \]) === [$wallet.TonConnectPending](/API_docs/types/wallet.TonConnectPending.html)<a name="wallet.tonConnectGetPending"></a>  
+
+***
+<br><br>
+$MadelineProto->[wallet->tonConnectGetSessions](/API_docs/methods/wallet.tonConnectGetSessions.html)(\[\]) === [$wallet.TonConnectSessions](/API_docs/types/wallet.TonConnectSessions.html)<a name="wallet.tonConnectGetSessions"></a>  
+
+***
+<br><br>
+$MadelineProto->[wallet->tonConnectNextEventId](/API_docs/methods/wallet.tonConnectNextEventId.html)(\[session_id: $[long](/API_docs/types/long.html), \]) === [$TonConnectNextEventId](/API_docs/types/TonConnectNextEventId.html)<a name="wallet.tonConnectNextEventId"></a>  
+
+***
+<br><br>
+$MadelineProto->[wallet->tonConnectRegisterKey](/API_docs/methods/wallet.tonConnectRegisterKey.html)(\[session_id: $[long](/API_docs/types/long.html), client_id: $[string](/API_docs/types/string.html), \]) === [$wallet.TonConnectChallenge](/API_docs/types/wallet.TonConnectChallenge.html)<a name="wallet.tonConnectRegisterKey"></a>  
+
+***
+<br><br>
+$MadelineProto->[wallet->tonConnectSubmitConnectResult](/API_docs/methods/wallet.tonConnectSubmitConnectResult.html)(\[error: $[Bool](/API_docs/types/Bool.html), session_id: $[long](/API_docs/types/long.html), challenge_answer: $[bytes](/API_docs/types/bytes.html), body: $[bytes](/API_docs/types/bytes.html), trace_id: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="wallet.tonConnectSubmitConnectResult"></a>  
+
+***
+<br><br>
+$MadelineProto->[wallet->tonConnectSubmitResponse](/API_docs/methods/wallet.tonConnectSubmitResponse.html)(\[session_id: $[long](/API_docs/types/long.html), msg_id: $[int](/API_docs/types/int.html), body: $[bytes](/API_docs/types/bytes.html), trace_id: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="wallet.tonConnectSubmitResponse"></a>  
 
 

@@ -17,9 +17,10 @@ redirect_from: /API_docs/methods/wallet_getUserAddresses.html
 |----------|---------------|----------|
 |force|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|Array of [Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Yes|
+|addresses|Array of [string](/API_docs/types/string.html) | Yes|
 
 
-### Return type: [Vector\_of\_WalletUserAddress](/API_docs/types/WalletUserAddress.html)
+### Return type: [wallet.UserAddresses](/API_docs/types/wallet.UserAddresses.html)
 
 ### Can users use this method: **YES**
 
@@ -42,6 +43,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$Vector_of_WalletUserAddress = $MadelineProto->wallet->getUserAddresses(force: $Bool, id: [$InputUser, $InputUser], );
+$wallet_UserAddresses = $MadelineProto->wallet->getUserAddresses(force: $Bool, id: [$InputUser, $InputUser], addresses: ['string', 'string'], );
 ```
 

@@ -13,8 +13,9 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
-|user\_id|[long](/API_docs/types/long.html) | Yes|
+|user\_id|[long](/API_docs/types/long.html) | Optional|
 |address|[string](/API_docs/types/string.html) | Yes|
+|public\_key|[bytes](/API_docs/types/bytes.html) | Yes|
 
 
 
@@ -24,5 +25,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$walletUserAddress = ['_' => 'walletUserAddress', 'user_id' => long, 'address' => 'string'];
+$walletUserAddress = ['_' => 'walletUserAddress', 'user_id' => long, 'address' => 'string', 'public_key' => 'bytes'];
 ```  

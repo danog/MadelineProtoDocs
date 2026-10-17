@@ -13,6 +13,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
+|comment\_encrypted|[Bool](/API_docs/types/Bool.html) | Optional|
 |amount|[long](/API_docs/types/long.html) | Yes|
 |peer\_address|[string](/API_docs/types/string.html) | Yes|
 |transaction\_id|[string](/API_docs/types/string.html) | Yes|
@@ -26,5 +27,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$messageActionGramTransfer = ['_' => 'messageActionGramTransfer', 'amount' => long, 'peer_address' => 'string', 'transaction_id' => 'string', 'comment' => 'string'];
+$messageActionGramTransfer = ['_' => 'messageActionGramTransfer', 'comment_encrypted' => Bool, 'amount' => long, 'peer_address' => 'string', 'transaction_id' => 'string', 'comment' => 'string'];
 ```  

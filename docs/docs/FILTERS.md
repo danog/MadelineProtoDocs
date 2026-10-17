@@ -1053,6 +1053,10 @@ Here's a full list of all MTProto filters (click on each filter name to view the
 * [onUpdateEphemeralBotCallbackQuery &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateEphemeralBotCallbackQuery.html) - 
 * [onUpdateBotStarsSubscription &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBotStarsSubscription.html) - 
 * [onUpdateWalletState &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateWalletState.html) - 
+* [onUpdateSentWalletTransaction &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateSentWalletTransaction.html) - 
+* [onUpdateWalletGaslessInfo &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateWalletGaslessInfo.html) - 
+* [onUpdateWalletTonConnectSession &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateWalletTonConnectSession.html) - 
+* [onUpdateWalletTonConnectPendingDisconnect &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateWalletTonConnectPendingDisconnect.html) - 
 
 
 <!-- cut_here_end mtprotofilters -->
