@@ -42,16 +42,34 @@ menu:
       weight: 4
       params:
         type: search
-    - name: Telegram channel
+    - name: Theme
       weight: 5
+      params:
+        type: theme-toggle
+    - name: Telegram channel
+      weight: 6
       url: "https://t.me/MadelineProto"
       params:
         icon: telegram
     - name: GitHub
-      weight: 6
+      weight: 7
       url: "https://github.com/danog/MadelineProto"
       params:
         icon: github
+  sidebar:
+    - name: More
+      params:
+        type: separator
+      weight: 1
+    - name: "Star on GitHub"
+      url: "https://github.com/danog/MadelineProto"
+      weight: 2
+    - name: "@MadelineProto channel"
+      url: "https://t.me/MadelineProto"
+      weight: 3
+    - name: "Support groups"
+      url: "https://t.me/pwrtelegramgroup"
+      weight: 4
 
 params:
   description: Async PHP client API for the telegram MTProto protocol
@@ -59,13 +77,7 @@ params:
   github:
     repo: danog/MadelineProto
   navbar:
-    displayTitle: false
-    displayLogo: true
-    logo:
-      path: logo.png
-      # logo.png is 1000x300.
-      width: 107
-      height: 32
+    # layouts/_partials/navbar-title.html draws the glass logo (assets/mp-logo.svg).
     width: full
   page:
     width: wide
