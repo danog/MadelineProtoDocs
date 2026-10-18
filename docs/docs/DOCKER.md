@@ -11,10 +11,13 @@ MadelineProto offers an official MadelineProto docker image for the `linux/amd64
 The image comes with all dependencies pre-configured.  
 Both opcache and JIT are enabled by default, for maximum performance.  
 
+The image also contains `madeline.phar` (the version of MadelineProto the image was built with) at `/usr/local/lib/madelineproto/madeline.phar`, and the `madeline-server` command, which runs a [standalone IPC server](#standalone-ipc-server).  
+
 * [Getting started](#getting-started)
   * [CLI bot (recommended)](#cli-bot-recommended)
   * [Databases on docker](#databases-on-docker)
   * [Web docker](#web-docker)
+  * [Standalone IPC server](#standalone-ipc-server)
   * [Custom extensions](#custom-extensions)
 
 ## Getting started
@@ -205,6 +208,85 @@ Run `docker compose restart php-fpm` every time you change your code to reload c
 
 If you want to test locally without obtaining a certificate for a domain, replace `example.com` with `http://localhost:80` in the Caddyfile.  
 
+### Standalone IPC server
+
+The session can also be served by its own container, running a [standalone IPC server &raquo;](https://docs.madelineproto.xyz/docs/IPC.html), with the scripts that use it in other containers (or on other machines): they can be restarted or scaled independently, and only the server container needs the session volume.  
+
+First, generate a secret, and store it in a `.env` file in the same folder as the `docker-compose.yml` file:
+
+```bash
+echo "MADELINE_IPC_SECRET=$(openssl rand -hex 32)" > .env
+```
+
+Then create the following `docker-compose.yml` file:
+
+```yml
+services:
+  madeline:
+    image: hub.madelineproto.xyz/danog/madelineproto
+    restart: always
+    init: true
+    command: madeline-server /data/session.madeline
+    environment:
+      MADELINE_IPC_LISTEN: tcp://0.0.0.0:6100
+      MADELINE_IPC_SECRET: ${MADELINE_IPC_SECRET}
+      # Only needed to create the session
+      MADELINE_API_ID: ${MADELINE_API_ID}
+      MADELINE_API_HASH: ${MADELINE_API_HASH}
+    volumes:
+      - ./data:/data
+    # Not needed by the other containers of this file: only to connect from other machines
+    #ports:
+    #  - 6100:6100
+
+  app:
+    image: hub.madelineproto.xyz/danog/madelineproto
+    restart: always
+    init: true
+    tty: true
+    depends_on:
+      - madeline
+    environment:
+      MADELINE_IPC_SECRET: ${MADELINE_IPC_SECRET}
+    volumes:
+      - ./app:/app
+    command: php /app/script.php
+```
+
+Add your `MADELINE_API_ID` and `MADELINE_API_HASH` to the `.env` file to create a new session, or put an existing session folder in `data/session.madeline`.  
+
+Then create an `app/script.php` file, connecting to the `madeline` container:
+
+```php
+<?php
+
+require '/usr/local/lib/madelineproto/madeline.phar';
+
+use danog\MadelineProto\API;
+use danog\MadelineProto\Settings;
+
+$settings = new Settings;
+$settings->getIpc()
+    ->setEndpoint('tcp://madeline:6100')
+    ->setSecret(getenv('MADELINE_IPC_SECRET'));
+
+$MadelineProto = new API('session.madeline', $settings);
+// Logs in the first time, prompting in this container's terminal
+$MadelineProto->start();
+
+$MadelineProto->sendMessage(peer: '@danogentili', message: 'Hi from a remote IPC client!');
+```
+
+To log in the first time, run the script interactively, then start everything in the background:
+
+```bash
+docker compose up -d madeline
+docker compose run --rm app
+docker compose up --pull always -d
+```
+
+To expose the IPC server over HTTPS through a reverse proxy instead, see [here &raquo;](https://docs.madelineproto.xyz/docs/IPC.html#behind-a-reverse-proxy).
+
 ### Custom extensions
 
 Optionally, you may also add custom extensions by creating a custom docker image with the following `Dockerfile`, for example to install the `gd` and `bcmath` extensions:
@@ -238,4 +320,4 @@ services:
     command: php /app/bot.php
 ```
 
-<a href="https://docs.madelineproto.xyz/docs/METRICS.html">Next section</a>
+<a href="https://docs.madelineproto.xyz/docs/IPC.html">Next section</a>

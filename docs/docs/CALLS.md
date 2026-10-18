@@ -1,7 +1,7 @@
 ---
 title: "Telegram voice/video/group calls"
 description: "MadelineProto can make and receive voice and video calls, stream and record video chats and livestreams, and take part in end-to-end encrypted conference calls."
-nav_order: 21
+nav_order: 22
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # Telegram voice/video/group calls
