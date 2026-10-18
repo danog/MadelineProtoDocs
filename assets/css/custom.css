@@ -310,6 +310,87 @@ html:not(.dark) .highlight .chroma .gu { color:#1d6aa8 }
 
 /* ---------------------------------------------------------------- Navbar */
 
+/* The neon sign (assets/mp-logo.svg), after the old neon logo: it strikes and burns brighter on
+   hover, like logo-hover.png used to. */
+:root {
+  --mp-neon-tube: #c0127a;
+  --mp-neon-core: #ff8fd0;
+  --mp-neon-glow: #ff4fb8;
+  --mp-neon-glow-strength: 0.35;
+  --mp-neon-glow-hot: 0.8;
+}
+
+.dark {
+  --mp-neon-tube: #ff3fae;
+  --mp-neon-core: #ffe3f3;
+  --mp-neon-glow: #ff2fa8;
+  --mp-neon-glow-strength: 0.8;
+  --mp-neon-glow-hot: 1;
+}
+
+.mp-logo {
+  display: block;
+  height: 34px;
+  width: auto;
+  overflow: visible;
+}
+
+.mp-logo-link {
+  flex-shrink: 0;
+}
+
+/* Phones: leave room for the star, search, theme and menu buttons. */
+@media (max-width: 479px) {
+  .mp-logo {
+    height: 22px;
+  }
+}
+
+.mp-logo .mp-logo-tube {
+  stroke: var(--mp-neon-tube);
+  stroke-width: 2.2px;
+}
+
+.mp-logo .mp-logo-core {
+  stroke: var(--mp-neon-core);
+  stroke-width: 0.8px;
+}
+
+.mp-logo .mp-logo-glow {
+  stroke: var(--mp-neon-glow);
+  stroke-width: 4px;
+  opacity: var(--mp-neon-glow-strength);
+  transition: opacity 0.3s;
+}
+
+.mp-logo-link:hover .mp-logo-glow,
+.mp-logo-link:focus-visible .mp-logo-glow {
+  opacity: var(--mp-neon-glow-hot);
+}
+
+.mp-logo-link:focus-visible {
+  outline: 2px solid var(--mp-link);
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .mp-logo-link:hover .mp-logo,
+  .mp-logo-link:focus-visible .mp-logo {
+    animation: mp-neon-strike 0.7s linear;
+  }
+}
+
+@keyframes mp-neon-strike {
+  0% { opacity: 1; }
+  8% { opacity: 0.35; }
+  14% { opacity: 1; }
+  22% { opacity: 0.5; }
+  30% { opacity: 1; }
+  52% { opacity: 0.8; }
+  58%, 100% { opacity: 1; }
+}
+
 .hextra-search-trigger-label,
 .hextra-search-trigger-kbd {
   color: var(--mp-muted);
