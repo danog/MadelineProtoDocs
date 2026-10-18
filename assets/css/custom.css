@@ -1,26 +1,336 @@
+/*
+ * MadelineProto's look, after the old Just the Docs site: the violet-grey ink of its dark scheme,
+ * blue links everywhere and big light titles, now set in Recursive (casual sans for titles, linear
+ * mono for code).
+ *
+ * Every text color reaches WCAG AA contrast (4.5:1) on the surfaces it's drawn on: the old blue
+ * #2c84fa only reached 3.7:1 on code panels, and most Solarized tokens failed as well, so both are
+ * lightened in dark mode (and darkened in light mode) while keeping their hues.
+ */
+
+:root {
+  --mp-ink: #fcfbfd;
+  --mp-panel: #f3f1f6;
+  --mp-line: #e2dfe7;
+  --mp-text: #3b3942;
+  --mp-heading: #1f1d24;
+  --mp-muted: #625f6a;
+  --mp-link: #1f5fd9;
+
+  --mp-font-display: "Recursive", ui-sans-serif, system-ui, sans-serif;
+  --mp-font-mono: "Recursive", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+
+  --primary-hue: 220deg;
+  --primary-saturation: 75%;
+  --primary-lightness: 49%; /* #1f5fd9 */
+
+  --hx-color-white: var(--mp-ink);
+}
+
+.dark {
+  --mp-ink: #27262b;
+  --mp-panel: #302d36;
+  --mp-line: #44434d;
+  --mp-text: #e6e1e8;
+  --mp-heading: #f5f6fa;
+  --mp-muted: #b3b0b8;
+  --mp-link: #6aaaff;
+
+  --primary-hue: 215deg;
+  --primary-saturation: 100%;
+  --primary-lightness: 71%; /* #6aaaff */
+
+  --hx-color-dark: var(--mp-ink);
+  --hx-color-neutral-700: #5c5962;
+  --hx-color-neutral-800: var(--mp-line);
+  --hx-color-neutral-900: var(--mp-panel);
+  --hx-color-gray-50: var(--mp-heading);
+  --hx-color-gray-100: var(--mp-text);
+  --hx-color-gray-200: #d6d2d9;
+  --hx-color-gray-300: #c8c4cb;
+  --hx-color-gray-400: var(--mp-muted);
+  --hx-color-gray-500: #a5a2aa;
+  --hx-color-gray-600: #a5a2aa;
+}
+
+body {
+  color: var(--mp-text);
+}
+
+/* The faded edge above the sticky bottoms of the sidebar and the table of contents
+   (Hextra hard-codes white and #111) */
+@media not (prefers-contrast: more) {
+  .hx\:sticky.hx\:bottom-0 {
+    box-shadow: 0 -12px 16px var(--mp-ink);
+  }
+}
+
+/* ---------------------------------------------------------------- Titles */
+
+.content :where(h1, h2, h3, h4) {
+  font-family: var(--mp-font-display);
+  font-variation-settings: "CASL" 1, "MONO" 0;
+  color: var(--mp-heading);
+}
+
+.content h1 {
+  font-weight: 300;
+  font-size: clamp(2.25rem, 1.5rem + 2.2vw, 3.25rem);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.content h2 {
+  font-weight: 500;
+  font-size: 1.75rem;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.content h3 {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.content h4 {
+  font-weight: 600;
+}
+
+/* ------------------------------------------------------------------ Text */
+
+/* Keep prose to a readable measure; code blocks and tables still use the full column. */
+.content :where(p, li, blockquote, dd) {
+  max-width: 76ch;
+}
+
+.content p {
+  line-height: 1.7;
+}
+
+.content a:not(.subheading-anchor) {
+  color: var(--mp-link);
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: color-mix(in oklab, var(--mp-link) 40%, transparent);
+  text-underline-offset: 4px;
+}
+
+.content a:not(.subheading-anchor):hover {
+  text-decoration-color: currentColor;
+}
+
+/* The sidebar is a list of blue links, like before. */
+.hextra-sidebar-container a:not([aria-current="page"]) {
+  color: var(--mp-link);
+}
+
+.hextra-sidebar-container a:not([aria-current="page"]):hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.hextra-sidebar-container a[aria-current="page"] {
+  color: var(--mp-heading);
+  background-color: color-mix(in oklab, var(--mp-link) 16%, transparent);
+}
+
+/* ------------------------------------------------------------------ Code */
+
+.content code,
+.hextra-code-block pre,
+.hextra-code-block code {
+  font-family: var(--mp-font-mono);
+  font-variation-settings: "MONO" 1, "CASL" 0;
+}
+
+.content :where(code):not(:where(.hextra-code-block code, [class~=not-prose] *)) {
+  background-color: var(--mp-panel);
+  border-color: var(--mp-line);
+  color: var(--mp-heading);
+}
+
+.content a code {
+  color: inherit;
+}
+
+.hextra-code-block pre,
+.hextra-code-block .hextra-code-filename {
+  background-color: var(--mp-panel);
+}
+
+.dark .hextra-code-block pre,
+.dark .highlight .chroma {
+  color: #d3d8d8;
+}
+
+/* Solarized, lightened to AA on the code panel */
+.dark .highlight .chroma .x { color:#f2865a }
+.dark .highlight .chroma .k { color:#8fbf1f }
+.dark .highlight .chroma .kc { color:#f2865a }
+.dark .highlight .chroma .kd { color:#5cb0f0 }
+.dark .highlight .chroma .kn { color:#8fbf1f }
+.dark .highlight .chroma .kp { color:#8fbf1f }
+.dark .highlight .chroma .kr { color:#5cb0f0 }
+.dark .highlight .chroma .kt { color:#f47a72 }
+.dark .highlight .chroma .na { color:#93a1a1 }
+.dark .highlight .chroma .nc { color:#5cb0f0 }
+.dark .highlight .chroma .no { color:#f2865a }
+.dark .highlight .chroma .nd { color:#5cb0f0 }
+.dark .highlight .chroma .ni { color:#f2865a }
+.dark .highlight .chroma .ne { color:#f2865a }
+.dark .highlight .chroma .nt { color:#5cb0f0 }
+.dark .highlight .chroma .nb { color:#d6a720 }
+.dark .highlight .chroma .bp { color:#5cb0f0 }
+.dark .highlight .chroma .nv { color:#5cb0f0 }
+.dark .highlight .chroma .vc { color:#5cb0f0 }
+.dark .highlight .chroma .vg { color:#5cb0f0 }
+.dark .highlight .chroma .vi { color:#5cb0f0 }
+.dark .highlight .chroma .vm { color:#5cb0f0 }
+.dark .highlight .chroma .nf { color:#5cb0f0 }
+.dark .highlight .chroma .fm { color:#5cb0f0 }
+.dark .highlight .chroma .s { color:#3fc2b8 }
+.dark .highlight .chroma .sa { color:#3fc2b8 }
+.dark .highlight .chroma .sb { color:#a0abab }
+.dark .highlight .chroma .sc { color:#3fc2b8 }
+.dark .highlight .chroma .dl { color:#3fc2b8 }
+.dark .highlight .chroma .sd { color:#93a1a1 }
+.dark .highlight .chroma .s2 { color:#3fc2b8 }
+.dark .highlight .chroma .se { color:#f2865a }
+.dark .highlight .chroma .sh { color:#93a1a1 }
+.dark .highlight .chroma .si { color:#3fc2b8 }
+.dark .highlight .chroma .sx { color:#3fc2b8 }
+.dark .highlight .chroma .sr { color:#f47a72 }
+.dark .highlight .chroma .s1 { color:#3fc2b8 }
+.dark .highlight .chroma .ss { color:#3fc2b8 }
+.dark .highlight .chroma .m { color:#3fc2b8 }
+.dark .highlight .chroma .mb { color:#3fc2b8 }
+.dark .highlight .chroma .mf { color:#3fc2b8 }
+.dark .highlight .chroma .mh { color:#3fc2b8 }
+.dark .highlight .chroma .mi { color:#3fc2b8 }
+.dark .highlight .chroma .il { color:#3fc2b8 }
+.dark .highlight .chroma .mo { color:#3fc2b8 }
+.dark .highlight .chroma .o { color:#8fbf1f }
+.dark .highlight .chroma .ow { color:#8fbf1f }
+.dark .highlight .chroma .or { color:#8fbf1f }
+.dark .highlight .chroma .c { color:#a0abab }
+.dark .highlight .chroma .ch { color:#a0abab }
+.dark .highlight .chroma .cm { color:#a0abab }
+.dark .highlight .chroma .c1 { color:#a0abab }
+.dark .highlight .chroma .cs { color:#8fbf1f }
+.dark .highlight .chroma .cp { color:#8fbf1f }
+.dark .highlight .chroma .cpf { color:#8fbf1f }
+.dark .highlight .chroma .gd { color:#f47a72 }
+.dark .highlight .chroma .ge { font-style:italic }
+.dark .highlight .chroma .gr { color:#f47a72;font-weight:bold }
+.dark .highlight .chroma .gh { color:#f2865a }
+.dark .highlight .chroma .gi { color:#8fbf1f }
+.dark .highlight .chroma .gs { font-weight:bold }
+.dark .highlight .chroma .gu { color:#5cb0f0 }
+
+/* The same hues, darkened to AA on the light code panel */
+html:not(.dark) .hextra-code-block pre,
+html:not(.dark) .highlight .chroma {
+  color: #3b3942;
+}
+
+html:not(.dark) .highlight .chroma .x { color:#b0461a }
+html:not(.dark) .highlight .chroma .k { color:#4f7200 }
+html:not(.dark) .highlight .chroma .kc { color:#b0461a }
+html:not(.dark) .highlight .chroma .kd { color:#1d6aa8 }
+html:not(.dark) .highlight .chroma .kn { color:#4f7200 }
+html:not(.dark) .highlight .chroma .kp { color:#4f7200 }
+html:not(.dark) .highlight .chroma .kr { color:#1d6aa8 }
+html:not(.dark) .highlight .chroma .kt { color:#bf3530 }
+html:not(.dark) .highlight .chroma .na { color:#585560 }
+html:not(.dark) .highlight .chroma .nc { color:#1d6aa8 }
+html:not(.dark) .highlight .chroma .no { color:#b0461a }
+html:not(.dark) .highlight .chroma .nd { color:#1d6aa8 }
+html:not(.dark) .highlight .chroma .ni { color:#b0461a }
+html:not(.dark) .highlight .chroma .ne { color:#b0461a }
+html:not(.dark) .highlight .chroma .nt { color:#1d6aa8 }
+html:not(.dark) .highlight .chroma .nb { color:#846500 }
+html:not(.dark) .highlight .chroma .bp { color:#1d6aa8 }
+html:not(.dark) .highlight .chroma .nv { color:#1d6aa8 }
+html:not(.dark) .highlight .chroma .vc { color:#1d6aa8 }
+html:not(.dark) .highlight .chroma .vg { color:#1d6aa8 }
+html:not(.dark) .highlight .chroma .vi { color:#1d6aa8 }
+html:not(.dark) .highlight .chroma .vm { color:#1d6aa8 }
+html:not(.dark) .highlight .chroma .nf { color:#1d6aa8 }
+html:not(.dark) .highlight .chroma .fm { color:#1d6aa8 }
+html:not(.dark) .highlight .chroma .s { color:#12776f }
+html:not(.dark) .highlight .chroma .sa { color:#12776f }
+html:not(.dark) .highlight .chroma .sb { color:#67646e }
+html:not(.dark) .highlight .chroma .sc { color:#12776f }
+html:not(.dark) .highlight .chroma .dl { color:#12776f }
+html:not(.dark) .highlight .chroma .sd { color:#585560 }
+html:not(.dark) .highlight .chroma .s2 { color:#12776f }
+html:not(.dark) .highlight .chroma .se { color:#b0461a }
+html:not(.dark) .highlight .chroma .sh { color:#585560 }
+html:not(.dark) .highlight .chroma .si { color:#12776f }
+html:not(.dark) .highlight .chroma .sx { color:#12776f }
+html:not(.dark) .highlight .chroma .sr { color:#bf3530 }
+html:not(.dark) .highlight .chroma .s1 { color:#12776f }
+html:not(.dark) .highlight .chroma .ss { color:#12776f }
+html:not(.dark) .highlight .chroma .m { color:#12776f }
+html:not(.dark) .highlight .chroma .mb { color:#12776f }
+html:not(.dark) .highlight .chroma .mf { color:#12776f }
+html:not(.dark) .highlight .chroma .mh { color:#12776f }
+html:not(.dark) .highlight .chroma .mi { color:#12776f }
+html:not(.dark) .highlight .chroma .il { color:#12776f }
+html:not(.dark) .highlight .chroma .mo { color:#12776f }
+html:not(.dark) .highlight .chroma .o { color:#4f7200 }
+html:not(.dark) .highlight .chroma .ow { color:#4f7200 }
+html:not(.dark) .highlight .chroma .or { color:#4f7200 }
+html:not(.dark) .highlight .chroma .c { color:#67646e }
+html:not(.dark) .highlight .chroma .ch { color:#67646e }
+html:not(.dark) .highlight .chroma .cm { color:#67646e }
+html:not(.dark) .highlight .chroma .c1 { color:#67646e }
+html:not(.dark) .highlight .chroma .cs { color:#4f7200 }
+html:not(.dark) .highlight .chroma .cp { color:#4f7200 }
+html:not(.dark) .highlight .chroma .cpf { color:#4f7200 }
+html:not(.dark) .highlight .chroma .gd { color:#bf3530 }
+html:not(.dark) .highlight .chroma .ge { font-style:italic }
+html:not(.dark) .highlight .chroma .gr { color:#bf3530;font-weight:bold }
+html:not(.dark) .highlight .chroma .gh { color:#b0461a }
+html:not(.dark) .highlight .chroma .gi { color:#4f7200 }
+html:not(.dark) .highlight .chroma .gs { font-weight:bold }
+html:not(.dark) .highlight .chroma .gu { color:#1d6aa8 }
+
+/* ---------------------------------------------------------------- Tables */
+
+.content table :where(th, td) {
+  border-color: var(--mp-line);
+}
+
+.content table tr:nth-child(even) {
+  background-color: color-mix(in oklab, var(--mp-panel) 60%, transparent);
+}
+
+/* ---------------------------------------------------------------- Navbar */
+
+.hextra-search-trigger-label,
+.hextra-search-trigger-kbd {
+  color: var(--mp-muted);
+}
+
 .mp-star-button {
   display: inline-flex;
   align-items: center;
   gap: 0.25rem;
   padding: 0.125rem 0.625rem;
-  border: 1px solid rgb(0 0 0 / 0.1);
+  border: 1px solid var(--mp-line);
   border-radius: 9999px;
+  background-color: var(--mp-panel);
+  color: var(--mp-link);
   font-size: 0.8125rem;
-  font-weight: 500;
+  font-weight: 600;
   white-space: nowrap;
-  transition: background-color 0.15s;
 }
 
 .mp-star-button:hover {
-  background-color: rgb(0 0 0 / 0.05);
-}
-
-.dark .mp-star-button {
-  border-color: rgb(255 255 255 / 0.15);
-}
-
-.dark .mp-star-button:hover {
-  background-color: rgb(255 255 255 / 0.08);
+  border-color: var(--mp-link);
 }
 
 /* Keep the navbar on one line on phones: the star button already links to GitHub. */
@@ -29,4 +339,22 @@
   .hextra-nav-container a[title="Telegram channel"] {
     display: none;
   }
+}
+
+/* ---------------------------------------------------------------- Footer */
+
+.mp-footer {
+  padding: 2.5rem 0;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  color: var(--mp-muted);
+}
+
+.mp-footer a {
+  color: var(--mp-link);
+}
+
+.mp-footer a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
