@@ -308,55 +308,11 @@ html:not(.dark) .highlight .chroma .gu { color:#1d6aa8 }
 
 /* ---------------------------------------------------------------- Navbar */
 
-/* The logo (assets/mp-logo.svg): clear, lightly tinted glass letters, after the old logo: light
-   gathers along the inside of every edge, catches the top left edges and leaves softer at the bottom
-   right, over a diffuse shadow. */
-:root {
-  --mp-logo-top: rgb(120 165 240 / 0.22);
-  --mp-logo-bottom: rgb(40 100 220 / 0.42);
-  --mp-logo-rim: rgb(35 75 160 / 0.65);
-  --mp-logo-shine: rgb(255 255 255 / 0.95);
-  --mp-logo-bounce: rgb(255 255 255 / 0.6);
-  --mp-logo-drop: rgb(30 60 140 / 0.18);
-}
-
-.dark {
-  --mp-logo-top: rgb(170 205 255 / 0.16);
-  --mp-logo-bottom: rgb(70 140 255 / 0.36);
-  --mp-logo-rim: rgb(205 225 255 / 0.55);
-  --mp-logo-shine: rgb(255 255 255 / 0.95);
-  --mp-logo-bounce: rgb(200 225 255 / 0.45);
-  --mp-logo-drop: rgb(0 0 0 / 0.35);
-}
-
+/* The logo: docs/logo-{dark,light}.svg, purple glass letters after the old logo. */
+/* Hextra's hx:block / hx:hidden pick the logo for the theme: don't set display here. */
 .mp-logo {
-  display: block;
   height: 28px;
   width: auto;
-}
-
-.mp-logo .mp-logo-top {
-  stop-color: var(--mp-logo-top);
-}
-
-.mp-logo .mp-logo-bottom {
-  stop-color: var(--mp-logo-bottom);
-}
-
-.mp-logo .mp-logo-rim {
-  flood-color: var(--mp-logo-rim);
-}
-
-.mp-logo .mp-logo-shine {
-  flood-color: var(--mp-logo-shine);
-}
-
-.mp-logo .mp-logo-bounce {
-  flood-color: var(--mp-logo-bounce);
-}
-
-.mp-logo .mp-logo-drop {
-  flood-color: var(--mp-logo-drop);
 }
 
 .mp-logo-link {

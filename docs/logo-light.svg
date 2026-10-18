@@ -1,37 +1,37 @@
-<svg class="mp-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 277 39" width="277" height="39" role="img" aria-label="MadelineProto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 277 39" width="277" height="39" role="img" aria-label="MadelineProto">
   <defs>
     <linearGradient id="mp-logo-glass" x1="0" y1="0" x2="0" y2="1">
-      <stop class="mp-logo-top" offset="0"/>
-      <stop class="mp-logo-bottom" offset="1"/>
+      <stop offset="0" stop-color="rgb(110 70 210 / 0.3)"/>
+      <stop offset="1" stop-color="rgb(70 25 170 / 0.55)"/>
     </linearGradient>
     <filter id="mp-logo-liquid" x="-6%" y="-30%" width="112%" height="170%" color-interpolation-filters="sRGB">
       <!-- The letters' silhouette: the glass is translucent, so SourceAlpha is too faint to cut edges from. -->
       <feComponentTransfer in="SourceAlpha" result="shape"><feFuncA type="linear" slope="50"/></feComponentTransfer>
       <!-- The rim: light gathered inside every edge, where the glass is seen through its thickness. -->
-      <feMorphology in="shape" operator="erode" radius="1.1" result="core"/>
+      <feMorphology in="shape" operator="erode" radius="1.4" result="core"/>
       <feComposite in="shape" in2="core" operator="out" result="band"/>
-      <feGaussianBlur in="band" stdDeviation="0.6" result="band-soft"/>
+      <feGaussianBlur in="band" stdDeviation="1.1" result="band-soft"/>
       <feComposite in="band-soft" in2="shape" operator="in" result="band-in"/>
-      <feFlood class="mp-logo-rim"/>
+      <feFlood flood-color="rgb(60 25 140 / 0.39)"/>
       <feComposite in2="band-in" operator="in" result="rim"/>
       <!-- The highlight on the top left edges, facing the light. -->
       <feOffset in="shape" dx="0.8" dy="1.1" result="down"/>
       <feComposite in="shape" in2="down" operator="out" result="top-edge"/>
-      <feGaussianBlur in="top-edge" stdDeviation="0.45" result="top-soft"/>
+      <feGaussianBlur in="top-edge" stdDeviation="0.6" result="top-soft"/>
       <feComposite in="top-soft" in2="shape" operator="in" result="top-in"/>
-      <feFlood class="mp-logo-shine"/>
+      <feFlood flood-color="rgb(255 255 255 / 0.95)"/>
       <feComposite in2="top-in" operator="in" result="shine"/>
       <!-- The softer light leaving the glass at the bottom right. -->
       <feOffset in="shape" dx="-0.7" dy="-1" result="up"/>
       <feComposite in="shape" in2="up" operator="out" result="bottom-edge"/>
       <feGaussianBlur in="bottom-edge" stdDeviation="0.6" result="bottom-soft"/>
       <feComposite in="bottom-soft" in2="shape" operator="in" result="bottom-in"/>
-      <feFlood class="mp-logo-bounce"/>
+      <feFlood flood-color="rgb(255 255 255 / 0.6)"/>
       <feComposite in2="bottom-in" operator="in" result="bounce"/>
       <!-- A soft, diffuse shadow. -->
       <feGaussianBlur in="shape" stdDeviation="2" result="blur"/>
       <feOffset in="blur" dy="1.6" result="drop"/>
-      <feFlood class="mp-logo-drop"/>
+      <feFlood flood-color="rgb(60 25 140 / 0.2)"/>
       <feComposite in2="drop" operator="in" result="shadow"/>
       <feMerge>
         <feMergeNode in="shadow"/>

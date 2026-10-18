@@ -1,7 +1,8 @@
-{{- /* Hextra's navbar-title.html with the glass MadelineProto logo (assets/mp-logo.svg, inline so
-  custom.css can tint it), plus the GitHub star button. */ -}}
+{{- /* Hextra's navbar-title.html with the glass MadelineProto logo (docs/logo-{dark,light}.svg,
+  static files so that changing them doesn't re-render every page), plus the GitHub star button. */ -}}
 <a class="mp-logo-link hx:flex hx:items-center" href="{{ .Site.Home.RelPermalink }}">
-  {{- (resources.Get "mp-logo.svg").Content | safeHTML -}}
+  <img class="mp-logo hx:block hx:dark:hidden" src="{{ "logo-light.svg" | relURL }}" alt="MadelineProto" width="277" height="39" />
+  <img class="mp-logo hx:hidden hx:dark:block" src="{{ "logo-dark.svg" | relURL }}" alt="MadelineProto" width="277" height="39" />
 </a>
 
 {{- $repo := site.Params.github.repo -}}
