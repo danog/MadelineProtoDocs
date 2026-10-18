@@ -1,22 +1,23 @@
-{{- /* Recursive (variable: weight, casual and monospace axes) for titles and code, self-hosted. */ -}}
-{{- $latin := resources.Get "fonts/recursive-latin.woff2" | fingerprint -}}
-{{- $latinExt := resources.Get "fonts/recursive-latin-ext.woff2" | fingerprint -}}
-<link rel="preload" href="{{ $latin.RelPermalink }}" as="font" type="font/woff2" crossorigin />
+{{- /* IBM Plex Sans (variable weight) for titles and the logo, IBM Plex Mono for code, self-hosted. */ -}}
+{{- $latin := "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD" -}}
+{{- $latinExt := "U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF" -}}
+{{- $faces := slice
+  (dict "family" "IBM Plex Sans" "weight" "300 700" "file" "plex-sans")
+  (dict "family" "IBM Plex Mono" "weight" "400" "file" "plex-mono-400")
+  (dict "family" "IBM Plex Mono" "weight" "600" "file" "plex-mono-600")
+-}}
+<link rel="preload" href="{{ (resources.Get "fonts/plex-sans-latin.woff2" | fingerprint).RelPermalink }}" as="font" type="font/woff2" crossorigin />
 <style>
+{{- range $face := $faces }}
+{{- range slice (dict "subset" "latin-ext" "range" $latinExt) (dict "subset" "latin" "range" $latin) }}
   @font-face {
-    font-family: "Recursive";
+    font-family: "{{ $face.family }}";
     font-style: normal;
-    font-weight: 300 800;
+    font-weight: {{ $face.weight | safeCSS }};
     font-display: swap;
-    src: url("{{ $latinExt.RelPermalink }}") format("woff2");
-    unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    src: url("{{ (resources.Get (printf "fonts/%s-%s.woff2" $face.file .subset) | fingerprint).RelPermalink }}") format("woff2");
+    unicode-range: {{ .range | safeCSS }};
   }
-  @font-face {
-    font-family: "Recursive";
-    font-style: normal;
-    font-weight: 300 800;
-    font-display: swap;
-    src: url("{{ $latin.RelPermalink }}") format("woff2");
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-  }
+{{- end }}
+{{- end }}
 </style>
