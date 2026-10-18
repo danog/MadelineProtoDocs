@@ -102,7 +102,20 @@ Rich messages can also be:
 * Sent from the event handler with `$message->replyRich(...)`, `$message->sendRich(...)`, `$message->editRich(...)`, `$message->replyOrEditRich(...)`, `$query->editRich(...)` for callback queries, `$story->replyRich(...)` and `sendRichMessageToAdmins(...)`.
 * Passed to raw methods (`messages.sendMessage`, `messages.editMessage`, `inputBotInlineMessageRichMessage`, ...) as a bot API [InputRichMessage](https://core.telegram.org/bots/api#inputrichmessage) in the `rich_message` parameter, as an array or JSON string.
 
-Received rich messages are available in `$message->richMessage`: its `blocks` use the bot API [RichBlock](https://core.telegram.org/bots/api#richblock) format (with MadelineProto `Media` objects for media), `getText()` returns a plain text version, and it can be sent again as-is with `sendRichMessage`. `MTProtoToBotAPI` converts the `rich_message` of messages to bot API objects.
+Received rich messages are available in `$message->richMessage`, which has the same API as messages for their text and media:
+
+```php
+$rich = $message->richMessage;
+$rich->message;   // Plain text version
+$rich->entities;  // Entities of the styled text (headings are bold, quotes are block quotes, ...)
+$rich->getHTML(); // HTML version
+$rich->media;     // Media of the media blocks
+$rich->blocks;    // Blocks, in the bot API RichBlock format (with MadelineProto Media objects)
+
+$message->replyRich($rich); // Rich messages can be sent again as-is
+```
+
+`MTProtoToBotAPI` converts the `rich_message` of messages to bot API objects.
 
 ## reply_markup
 reply_markup accepts bot API reply markup objects as well as MTProto ones.
