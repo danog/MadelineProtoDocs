@@ -64,10 +64,10 @@ menu:
     - name: "⭐ on GitHub!"
       url: "https://github.com/danog/MadelineProto"
       weight: 2
-    - name: "📣 @MadelineProto channel"
+    - name: "@MadelineProto channel"
       url: "https://t.me/MadelineProto"
       weight: 3
-    - name: "💬 Support groups"
+    - name: "Support groups"
       url: "https://t.me/pwrtelegramgroup"
       weight: 4
 

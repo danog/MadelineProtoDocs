@@ -1,7 +1,7 @@
 /*
  * MadelineProto's look, after the old Just the Docs site: the violet-grey ink of its dark scheme,
- * blue links everywhere and big light titles, now set in Recursive (casual sans for titles, linear
- * mono for code).
+ * blue links everywhere and big light titles, now set in Recursive (linear sans for titles, linear
+ * mono for code), and a blue neon sign for a logo, like the old neon one.
  *
  * Every text color reaches WCAG AA contrast (4.5:1) on the surfaces it's drawn on: the old blue
  * #2c84fa only reached 3.7:1 on code panels, and most Solarized tokens failed as well, so both are
@@ -69,7 +69,7 @@ body {
 
 .content :where(h1, h2, h3, h4) {
   font-family: var(--mp-font-display);
-  font-variation-settings: "CASL" 1, "MONO" 0;
+  font-variation-settings: "CASL" 0, "MONO" 0;
   color: var(--mp-heading);
 }
 
@@ -310,21 +310,21 @@ html:not(.dark) .highlight .chroma .gu { color:#1d6aa8 }
 
 /* ---------------------------------------------------------------- Navbar */
 
-/* The neon sign (assets/mp-logo.svg), after the old neon logo: it strikes and burns brighter on
-   hover, like logo-hover.png used to. */
+/* The neon sign (assets/mp-logo.svg), after the old neon logo, in the link blue: it strikes and
+   burns brighter on hover, like logo-hover.png used to. */
 :root {
-  --mp-neon-tube: #c0127a;
-  --mp-neon-core: #ff8fd0;
-  --mp-neon-glow: #ff4fb8;
+  --mp-neon-tube: #1a5fd6;
+  --mp-neon-core: #8cc0ff;
+  --mp-neon-glow: #3d8bff;
   --mp-neon-glow-strength: 0.35;
   --mp-neon-glow-hot: 0.8;
 }
 
 .dark {
-  --mp-neon-tube: #ff3fae;
-  --mp-neon-core: #ffe3f3;
-  --mp-neon-glow: #ff2fa8;
-  --mp-neon-glow-strength: 0.8;
+  --mp-neon-tube: #3d9bff;
+  --mp-neon-core: #e3f1ff;
+  --mp-neon-glow: #2f86ff;
+  --mp-neon-glow-strength: 0.6;
   --mp-neon-glow-hot: 1;
 }
 
