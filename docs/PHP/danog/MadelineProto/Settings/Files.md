@@ -25,6 +25,8 @@ File management settings.
 * [`setDownloadParallelChunks(int $downloadParallelChunks): \danog\MadelineProto\Settings\Files`](#setDownloadParallelChunks)
 * [`getResumeInterruptedCalls(): bool`](#getResumeInterruptedCalls)
 * [`setResumeInterruptedCalls(bool $resumeInterruptedCalls): \danog\MadelineProto\Settings\Files`](#setResumeInterruptedCalls)
+* [`getSandboxDownloads(): bool`](#getSandboxDownloads)
+* [`setSandboxDownloads(bool $sandboxDownloads): \danog\MadelineProto\Settings\Files`](#setSandboxDownloads)
 * [`getReportBrokenMedia(): bool`](#getReportBrokenMedia)
 * [`setReportBrokenMedia(bool $reportBrokenMedia): \danog\MadelineProto\Settings\Files`](#setReportBrokenMedia)
 * [`getDownloadLink(): ?string`](#getDownloadLink)
@@ -102,6 +104,30 @@ Disable it if your code already makes interrupted calls again after a restart, t
 Parameters:
 
 * `$resumeInterruptedCalls`: `bool` Whether to resume interrupted calls that upload files after a restart  
+
+
+
+### <a name="getSandboxDownloads"></a> `getSandboxDownloads(): bool`
+
+Get whether files served to browsers can't run as pages of the website serving them.
+
+
+
+### <a name="setSandboxDownloads"></a> `setSandboxDownloads(bool $sandboxDownloads): \danog\MadelineProto\Settings\Files`
+
+Set whether files served to browsers can't run as pages of the website serving them.
+  
+Applies to the files served by the download script (getDownloadLink, downloadToBrowser) and by downloadToResponse:  
+their MIME type and name come from whoever sent them on Telegram, or from the query string of the download script.  
+If enabled, they're served with a sandboxing Content-Security-Policy and X-Content-Type-Options: nosniff, with  
+their MIME type normalized, and only media and plain text are shown inline (everything else is downloaded).  
+  
+Disable it only if the files served are trusted, and must be shown as pages of the website (HTML, SVG, PDF...).  
+
+
+Parameters:
+
+* `$sandboxDownloads`: `bool` Whether files served to browsers can't run as pages of the website serving them  
 
 
 

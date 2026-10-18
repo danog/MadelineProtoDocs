@@ -239,7 +239,7 @@ Plugin event handler class.
 * [`qrLogin(): ?\danog\MadelineProto\TL\Types\LoginQrCode`](#qrLogin)
 * [`random(integer $length): string`](#random)
 * [`randomInt(integer $modulus = 0): int`](#randomInt)
-* [`readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL): string`](#readLine)
+* [`readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL, bool $hidden = false, ?string $hideAfter = NULL): string`](#readLine)
 * [`refreshFullPeerCache(mixed $id): void`](#refreshFullPeerCache)
 * [`refreshPeerCache(mixed ...$ids): void`](#refreshPeerCache)
 * [`renderPromStats(?\Prometheus\RendererInterface $renderer = NULL): string`](#renderPromStats)
@@ -3004,7 +3004,7 @@ Parameters:
 
 
 
-### <a name="readLine"></a> `readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL): string`
+### <a name="readLine"></a> `readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL, bool $hidden = false, ?string $hideAfter = NULL): string`
 
 Asynchronously read line.
 
@@ -3013,6 +3013,10 @@ Parameters:
 
 * `$prompt`: `string` Prompt  
 * `$cancel`: `?\Amp\Cancellation`   
+* `$hidden`: `bool` Whether to hide what is typed (for tokens, passwords and codes), when reading from a terminal  
+* `$hideAfter`: `?string` Show what is typed until this character, censor what follows it with asterisks
+                          (for prompts that take either a phone number or a bot token, which contains a
+                          colon), when reading from a terminal  
 
 
 #### See also: 

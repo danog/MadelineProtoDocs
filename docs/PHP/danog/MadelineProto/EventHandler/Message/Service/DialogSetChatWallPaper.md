@@ -18,6 +18,7 @@ The [wallpaper](https://core.telegram.org/api/wallpapers) of the current chat wa
 ## Properties
 * `$wallpaper`: `Wallpaper` New [wallpaper](https://core.telegram.org/api/wallpapers)
 * `$same`: `bool` Whether the user applied a wallpaper previously sent by the other user in a DialogSetChatWallPaper message.
+* `$forBoth`: `bool` Whether the wallpaper was set for both users of the private chat.
 * `$id`: `int` Message ID
 * `$out`: `bool` Whether the message is outgoing
 * `$chatId`: `int` ID of the chat where the message was sent
@@ -32,7 +33,7 @@ The [wallpaper](https://core.telegram.org/api/wallpapers) of the current chat wa
 * `$ttlPeriod`: `?int` Time-to-live of the message
 
 ## Method list:
-* [`__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info, \danog\MadelineProto\EventHandler\Wallpaper $wallpaper, bool $same = false)`](#__construct)
+* [`__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info, \danog\MadelineProto\EventHandler\Wallpaper $wallpaper, bool $same = false, bool $forBoth = false)`](#__construct)
 * [`isReply(): bool`](#isReply)
 * [`getReply(class-string<T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?T`](#getReply)
 * [`delete(boolean $revoke = true): void`](#delete)
@@ -56,7 +57,7 @@ The [wallpaper](https://core.telegram.org/api/wallpapers) of the current chat wa
 * [`disableAutoTranslate(): bool`](#disableAutoTranslate)
 
 ## Methods:
-### <a name="__construct"></a> `__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info, \danog\MadelineProto\EventHandler\Wallpaper $wallpaper, bool $same = false)`
+### <a name="__construct"></a> `__construct(\danog\MadelineProto\MTProto $API, array $rawMessage, array $info, \danog\MadelineProto\EventHandler\Wallpaper $wallpaper, bool $same = false, bool $forBoth = false)`
 
 
 
@@ -68,6 +69,7 @@ Parameters:
 * `$info`: `array`   
 * `$wallpaper`: `\danog\MadelineProto\EventHandler\Wallpaper`   
 * `$same`: `bool`   
+* `$forBoth`: `bool`   
 
 
 #### See also: 

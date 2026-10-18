@@ -25,7 +25,7 @@ Async tools.
 * [`callFork(\Generator|\Amp\Future|callable $callable, mixed ...$args): \Amp\Future<T>`](#callFork)
 * [`flock(string $file, integer $operation, float $polling = 0.1, ?\Amp\Cancellation $token = NULL, ?\Closure $failureCb = NULL): ($token is null ? Closure(): void : (Closure(): void | null))`](#flock)
 * [`sleep(float $time): void`](#sleep)
-* [`readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL): string`](#readLine)
+* [`readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL, bool $hidden = false, ?string $hideAfter = NULL): string`](#readLine)
 * [`echo(string $string): void`](#echo)
 * [`mbStrlen(string $text): int`](#mbStrlen)
 * [`mbSubstr(string $text, integer $offset, (null|int) $length = NULL): string`](#mbSubstr)
@@ -114,7 +114,7 @@ Parameters:
 
 
 
-### <a name="readLine"></a> `readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL): string`
+### <a name="readLine"></a> `readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL, bool $hidden = false, ?string $hideAfter = NULL): string`
 
 Asynchronously read line.
 
@@ -123,6 +123,10 @@ Parameters:
 
 * `$prompt`: `string` Prompt  
 * `$cancel`: `?\Amp\Cancellation`   
+* `$hidden`: `bool` Whether to hide what is typed (for tokens, passwords and codes), when reading from a terminal  
+* `$hideAfter`: `?string` Show what is typed until this character, censor what follows it with asterisks
+                          (for prompts that take either a phone number or a bot token, which contains a
+                          colon), when reading from a terminal  
 
 
 #### See also: 

@@ -24,6 +24,7 @@ Represents an event handler issue.
 ## Method list:
 * [`__construct(string $message, string $file, int $line, bool $severe)`](#__construct)
 * [`log(): void`](#log)
+* [`getAlert(): \danog\MadelineProto\WebUI\Alert`](#getAlert)
 * [`getHTML(): string`](#getHTML)
 * [`throw(): void`](#throw)
 
@@ -44,6 +45,17 @@ Parameters:
 
 ### <a name="log"></a> `log(): void`
 
+
+
+
+
+### <a name="getAlert"></a> `getAlert(): \danog\MadelineProto\WebUI\Alert`
+
+
+
+
+#### See also: 
+* [`\danog\MadelineProto\WebUI\Alert`: A message shown on a page.](../../danog/MadelineProto/WebUI/Alert.html)
 
 
 

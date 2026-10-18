@@ -85,8 +85,6 @@ Main API wrapper for MadelineProto.
 * `$wallet`: `\danog\MadelineProto\Namespace\Wallet` 
 
 ## Method list:
-* [`getWebAPITemplate(): string`](#getWebAPITemplate)
-* [`setWebApiTemplate(string $template): void`](#setWebApiTemplate)
 * [`__construct(string $session, \danog\MadelineProto\SettingsAbstract $settings = NULL)`](#__construct)
 * [`startAndLoopMulti(array<\danog\MadelineProto\API> $instances, (array<class-string<\danog\MadelineProto\EventHandler>>|class-string<\danog\MadelineProto\EventHandler>) $eventHandler): void`](#startAndLoopMulti)
 * [`MTProtoToBotAPI(array $data): array`](#MTProtoToBotAPI)
@@ -273,7 +271,7 @@ Main API wrapper for MadelineProto.
 * [`qrLogin(): ?\danog\MadelineProto\TL\Types\LoginQrCode`](#qrLogin)
 * [`random(integer $length): string`](#random)
 * [`randomInt(integer $modulus = 0): int`](#randomInt)
-* [`readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL): string`](#readLine)
+* [`readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL, bool $hidden = false, ?string $hideAfter = NULL): string`](#readLine)
 * [`refreshFullPeerCache(mixed $id): void`](#refreshFullPeerCache)
 * [`refreshPeerCache(mixed ...$ids): void`](#refreshPeerCache)
 * [`renderPromStats(?\Prometheus\RendererInterface $renderer = NULL): string`](#renderPromStats)
@@ -349,23 +347,6 @@ Main API wrapper for MadelineProto.
 * [`wrapUpdate(array $update): ?\danog\MadelineProto\EventHandler\Update`](#wrapUpdate)
 
 ## Methods:
-### <a name="getWebAPITemplate"></a> `getWebAPITemplate(): string`
-
-Obtain the API ID UI template.
-
-
-
-### <a name="setWebApiTemplate"></a> `setWebApiTemplate(string $template): void`
-
-Set the API ID UI template.
-
-
-Parameters:
-
-* `$template`: `string`   
-
-
-
 ### <a name="__construct"></a> `__construct(string $session, \danog\MadelineProto\SettingsAbstract $settings = NULL)`
 
 Constructor function.
@@ -2976,7 +2957,7 @@ Parameters:
 
 
 
-### <a name="readLine"></a> `readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL): string`
+### <a name="readLine"></a> `readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL, bool $hidden = false, ?string $hideAfter = NULL): string`
 
 Asynchronously read line.
 
@@ -2985,6 +2966,10 @@ Parameters:
 
 * `$prompt`: `string` Prompt  
 * `$cancel`: `?\Amp\Cancellation`   
+* `$hidden`: `bool` Whether to hide what is typed (for tokens, passwords and codes), when reading from a terminal  
+* `$hideAfter`: `?string` Show what is typed until this character, censor what follows it with asterisks
+                          (for prompts that take either a phone number or a bot token, which contains a
+                          colon), when reading from a terminal  
 
 
 #### See also: 

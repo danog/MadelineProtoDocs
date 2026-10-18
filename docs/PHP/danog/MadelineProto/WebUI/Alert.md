@@ -1,0 +1,135 @@
+---
+title: "danog\\MadelineProto\\WebUI\\Alert: A message shown on a page."
+description: ""
+image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
+parent: "MadelineProto API"
+
+---
+# `danog\MadelineProto\WebUI\Alert`
+[Back to index](../../../index.html)
+
+> Author: Daniil Gentili <daniil@daniil.it>  
+  
+
+A message shown on a page.  
+
+
+
+## Properties
+* `$level`: `danog\MadelineProto\WebUI\AlertLevel` 
+* `$message`: `(danog\MadelineProto\WebUI\SafeHtml | string)` 
+* `$title`: `(danog\MadelineProto\WebUI\SafeHtml | string | null)` 
+* `$code`: `(danog\MadelineProto\WebUI\SafeHtml | string | null)` 
+
+## Method list:
+* [`__construct(\danog\MadelineProto\WebUI\AlertLevel $level, (string|\danog\MadelineProto\WebUI\SafeHtml) $message, (string|\danog\MadelineProto\WebUI\SafeHtml|null) $title = NULL, (string|\danog\MadelineProto\WebUI\SafeHtml|null) $code = NULL)`](#__construct)
+* [`info(\danog\MadelineProto\WebUI\SafeHtml|string $message, \danog\MadelineProto\WebUI\SafeHtml|string|null $title = NULL): \danog\MadelineProto\WebUI\Alert`](#info)
+* [`success(\danog\MadelineProto\WebUI\SafeHtml|string $message, \danog\MadelineProto\WebUI\SafeHtml|string|null $title = NULL): \danog\MadelineProto\WebUI\Alert`](#success)
+* [`warning(\danog\MadelineProto\WebUI\SafeHtml|string $message, \danog\MadelineProto\WebUI\SafeHtml|string|null $title = NULL): \danog\MadelineProto\WebUI\Alert`](#warning)
+* [`error(\danog\MadelineProto\WebUI\SafeHtml|string $message, \danog\MadelineProto\WebUI\SafeHtml|string|null $title = NULL): \danog\MadelineProto\WebUI\Alert`](#error)
+* [`jsonSerialize(): array`](#jsonSerialize)
+* [`toText(): string`](#toText)
+
+## Methods:
+### <a name="__construct"></a> `__construct(\danog\MadelineProto\WebUI\AlertLevel $level, (string|\danog\MadelineProto\WebUI\SafeHtml) $message, (string|\danog\MadelineProto\WebUI\SafeHtml|null) $title = NULL, (string|\danog\MadelineProto\WebUI\SafeHtml|null) $code = NULL)`
+
+
+
+
+Parameters:
+
+* `$level`: `\danog\MadelineProto\WebUI\AlertLevel`   
+* `$message`: `(string|\danog\MadelineProto\WebUI\SafeHtml)` Plain text (escaped when rendered) or trusted HTML  
+* `$title`: `(string|\danog\MadelineProto\WebUI\SafeHtml|null)` Optional title  
+* `$code`: `(string|\danog\MadelineProto\WebUI\SafeHtml|null)` Optional code snippet, like the code that fixes the issue  
+
+
+#### See also: 
+* [`\danog\MadelineProto\WebUI\AlertLevel`: Severity of an alert.](../../../danog/MadelineProto/WebUI/AlertLevel.html)
+* [`\danog\MadelineProto\WebUI\SafeHtml`: A trusted HTML fragment, output as-is by templates instead of being escaped.](../../../danog/MadelineProto/WebUI/SafeHtml.html)
+
+
+
+
+### <a name="info"></a> `info(\danog\MadelineProto\WebUI\SafeHtml|string $message, \danog\MadelineProto\WebUI\SafeHtml|string|null $title = NULL): \danog\MadelineProto\WebUI\Alert`
+
+
+
+
+Parameters:
+
+* `$message`: `\danog\MadelineProto\WebUI\SafeHtml|string`   
+* `$title`: `\danog\MadelineProto\WebUI\SafeHtml|string|null`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\WebUI\SafeHtml`: A trusted HTML fragment, output as-is by templates instead of being escaped.](../../../danog/MadelineProto/WebUI/SafeHtml.html)
+
+
+
+
+### <a name="success"></a> `success(\danog\MadelineProto\WebUI\SafeHtml|string $message, \danog\MadelineProto\WebUI\SafeHtml|string|null $title = NULL): \danog\MadelineProto\WebUI\Alert`
+
+
+
+
+Parameters:
+
+* `$message`: `\danog\MadelineProto\WebUI\SafeHtml|string`   
+* `$title`: `\danog\MadelineProto\WebUI\SafeHtml|string|null`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\WebUI\SafeHtml`: A trusted HTML fragment, output as-is by templates instead of being escaped.](../../../danog/MadelineProto/WebUI/SafeHtml.html)
+
+
+
+
+### <a name="warning"></a> `warning(\danog\MadelineProto\WebUI\SafeHtml|string $message, \danog\MadelineProto\WebUI\SafeHtml|string|null $title = NULL): \danog\MadelineProto\WebUI\Alert`
+
+
+
+
+Parameters:
+
+* `$message`: `\danog\MadelineProto\WebUI\SafeHtml|string`   
+* `$title`: `\danog\MadelineProto\WebUI\SafeHtml|string|null`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\WebUI\SafeHtml`: A trusted HTML fragment, output as-is by templates instead of being escaped.](../../../danog/MadelineProto/WebUI/SafeHtml.html)
+
+
+
+
+### <a name="error"></a> `error(\danog\MadelineProto\WebUI\SafeHtml|string $message, \danog\MadelineProto\WebUI\SafeHtml|string|null $title = NULL): \danog\MadelineProto\WebUI\Alert`
+
+
+
+
+Parameters:
+
+* `$message`: `\danog\MadelineProto\WebUI\SafeHtml|string`   
+* `$title`: `\danog\MadelineProto\WebUI\SafeHtml|string|null`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\WebUI\SafeHtml`: A trusted HTML fragment, output as-is by templates instead of being escaped.](../../../danog/MadelineProto/WebUI/SafeHtml.html)
+
+
+
+
+### <a name="jsonSerialize"></a> `jsonSerialize(): array`
+
+
+
+
+
+### <a name="toText"></a> `toText(): string`
+
+Get the alert as plain text, for the CLI and the logs.
+
+
+
+---
+Generated by [danog/phpdoc](https://phpdoc.daniil.it)
