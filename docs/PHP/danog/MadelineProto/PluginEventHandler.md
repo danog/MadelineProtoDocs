@@ -172,7 +172,7 @@ Plugin event handler class.
 * [`getStream(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL, ?int $size = NULL): \Amp\ByteStream\ReadableStream`](#getStream)
 * [`getStreamPipe(): \Amp\ByteStream\Pipe`](#getStreamPipe)
 * [`getType(mixed $id): \danog\MadelineProto\API::PEER_TYPE_*`](#getType)
-* [`getUpdates(array{offset?: int, limit?: int, timeout?: float} $params = []): list<array{update_id: mixed, update: mixed}>`](#getUpdates)
+* [`getUpdates(array{offset?: int, limit?: int, timeout?: float} $params = [], ?\Amp\Cancellation $cancellation = NULL): list<array{update_id: mixed, update: mixed}>`](#getUpdates)
 * [`getWebMessage(string $message): string`](#getWebMessage)
 * [`getWebWarnings(): string`](#getWebWarnings)
 * [`groupCallGetCurrent(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`](#groupCallGetCurrent)
@@ -2129,7 +2129,7 @@ Parameters:
 
 
 
-### <a name="getUpdates"></a> `getUpdates(array{offset?: int, limit?: int, timeout?: float} $params = []): list<array{update_id: mixed, update: mixed}>`
+### <a name="getUpdates"></a> `getUpdates(array{offset?: int, limit?: int, timeout?: float} $params = [], ?\Amp\Cancellation $cancellation = NULL): list<array{update_id: mixed, update: mixed}>`
 
 Only useful when consuming MadelineProto updates through an API in another language (like Javascript), **absolutely not recommended when directly writing MadelineProto bots**.
   
@@ -2140,7 +2140,13 @@ Only useful when consuming MadelineProto updates through an API in another langu
 
 Parameters:
 
-* `$params`: `array{offset?: int, limit?: int, timeout?: float}` Params  
+* `$params`: `array{offset?: int, limit?: int, timeout?: float}` Params: once the timeout expires, an empty array is returned  
+* `$cancellation`: `?\Amp\Cancellation` Cancellation: once cancelled, the wait stops with a CancelledException  
+
+
+#### See also: 
+* `\Amp\Cancellation`
+
 
 
 

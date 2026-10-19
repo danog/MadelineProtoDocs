@@ -444,6 +444,8 @@ Here's the full list of simple filter interfaces (see [attribute filters](#attri
 * [danog\MadelineProto\EventHandler\SimpleFilter\HasDocument &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasDocument.html) - 
 * [danog\MadelineProto\EventHandler\SimpleFilter\HasDocumentPhoto &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasDocumentPhoto.html) - 
 * [danog\MadelineProto\EventHandler\SimpleFilter\HasGif &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasGif.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\HasLiveLocation &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasLiveLocation.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\HasLocation &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasLocation.html) - 
 * [danog\MadelineProto\EventHandler\SimpleFilter\HasMedia &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasMedia.html) - 
 * [danog\MadelineProto\EventHandler\SimpleFilter\HasMultiplePoll &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasMultiplePoll.html) - 
 * [danog\MadelineProto\EventHandler\SimpleFilter\HasNoMedia &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasNoMedia.html) - 
@@ -454,6 +456,7 @@ Here's the full list of simple filter interfaces (see [attribute filters](#attri
 * [danog\MadelineProto\EventHandler\SimpleFilter\HasSinglePoll &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasSinglePoll.html) - 
 * [danog\MadelineProto\EventHandler\SimpleFilter\HasSticker &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasSticker.html) - 
 * [danog\MadelineProto\EventHandler\SimpleFilter\HasTopic &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasTopic.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\HasVenue &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasVenue.html) - 
 * [danog\MadelineProto\EventHandler\SimpleFilter\HasVideo &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasVideo.html) - 
 * [danog\MadelineProto\EventHandler\SimpleFilter\HasVoice &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/HasVoice.html) - 
 * [danog\MadelineProto\EventHandler\SimpleFilter\Incoming &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/Incoming.html) - 
@@ -553,6 +556,7 @@ Here's the full list of filter attributes (see the [MTProto filters &raquo;](#mt
 * [danog\MadelineProto\EventHandler\Filter\FilterFromSenders(string|int ...$idOrUsername) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterFromSenders.html) - Allow incoming or outgoing group messages made by a certain list of senders.
 * [danog\MadelineProto\EventHandler\Filter\FilterGroup &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterGroup.html) - Allow only updates coming from groups.
 * [danog\MadelineProto\EventHandler\Filter\FilterIncoming &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterIncoming.html) - Allow only incoming messages.
+* [danog\MadelineProto\EventHandler\Filter\FilterLocation &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterLocation.html) - Allow only messages that contain a location (a geo point, a live location or a venue).
 * [danog\MadelineProto\EventHandler\Filter\FilterMedia &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterMedia.html) - Allow any media messages.
 * [danog\MadelineProto\EventHandler\Filter\FilterMessage &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterMessage.html) - Allow any non-service message.
 * [danog\MadelineProto\EventHandler\Filter\FilterNoMedia &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterNoMedia.html) - Allow any messages except media messages.
@@ -583,6 +587,8 @@ Here's the full list of filter attributes (see the [MTProto filters &raquo;](#mt
 * [danog\MadelineProto\EventHandler\Filter\Combinator\FilterNot(Filter $filter) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/Combinator/FilterNot.html) - NOTs a filter.
 * [danog\MadelineProto\EventHandler\Filter\Combinator\FiltersAnd(Filter ...$filters) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/Combinator/FiltersAnd.html) - ANDs multiple filters.
 * [danog\MadelineProto\EventHandler\Filter\Combinator\FiltersOr(Filter ...$filters) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/Combinator/FiltersOr.html) - ORs multiple filters.
+* [danog\MadelineProto\EventHandler\Filter\Location\FilterLiveLocation &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/Location/FilterLiveLocation.html) - Allow only messages that contain a live location.
+* [danog\MadelineProto\EventHandler\Filter\Location\FilterVenue &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/Location/FilterVenue.html) - Allow only messages that contain a venue.
 * [danog\MadelineProto\EventHandler\Filter\Media\FilterAudio &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/Media/FilterAudio.html) - Allow only audio files.
 * [danog\MadelineProto\EventHandler\Filter\Media\FilterDocument &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/Media/FilterDocument.html) - Allow only documents.
 * [danog\MadelineProto\EventHandler\Filter\Media\FilterDocumentPhoto &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/Media/FilterDocumentPhoto.html) - Allow only documents containing an image.

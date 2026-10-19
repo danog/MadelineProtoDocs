@@ -397,6 +397,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [InputThemeSettings](/API_docs/types/InputThemeSettings.html)<a name="InputThemeSettings"></a>  
 
+[InputTonConnectOauthSession](/API_docs/types/InputTonConnectOauthSession.html)<a name="InputTonConnectOauthSession"></a>  
+
 [InputUser](/API_docs/types/InputUser.html)<a name="InputUser"></a>  
 
 [InputWallPaper](/API_docs/types/InputWallPaper.html)<a name="InputWallPaper"></a>  

@@ -24,6 +24,7 @@ Use this to accept a Seamless Telegram Login authorization request, for more inf
 |button\_id|[int](/API_docs/types/int.html) | ID of the login button | Optional|
 |url|[string](/API_docs/types/string.html) | URL used for [link URL authorization, click here for more info »](https://core.telegram.org/api/url-authorization#link-url-authorization) | Optional|
 |match\_code|[string](/API_docs/types/string.html) |  | Optional|
+|tonconnect\_session|[InputTonConnectOauthSession](/API_docs/types/InputTonConnectOauthSession.html) |  | Optional|
 
 
 ### Return type: [UrlAuthResult](/API_docs/types/UrlAuthResult.html)
@@ -49,6 +50,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$UrlAuthResult = $MadelineProto->messages->acceptUrlAuth(write_allowed: $Bool, share_phone_number: $Bool, peer: $InputPeer, msg_id: $int, button_id: $int, url: 'string', match_code: 'string', );
+$UrlAuthResult = $MadelineProto->messages->acceptUrlAuth(write_allowed: $Bool, share_phone_number: $Bool, peer: $InputPeer, msg_id: $int, button_id: $int, url: 'string', match_code: 'string', tonconnect_session: $InputTonConnectOauthSession, );
 ```
 
