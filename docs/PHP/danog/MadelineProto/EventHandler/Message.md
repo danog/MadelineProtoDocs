@@ -44,6 +44,7 @@ Used to signify non-content related updates such as reactions.
 
 All messages associated to the same album will have an identical grouped ID.
 * `$poll`: `?danog\MadelineProto\EventHandler\AbstractPoll` The poll
+* `$location`: `?danog\MadelineProto\EventHandler\AbstractLocation` The location (a geo point, a live location or a venue)
 * `$scheduled`: `bool` Whether this message is a scheduled message
 * `$id`: `int` Message ID
 * `$out`: `bool` Whether the message is outgoing

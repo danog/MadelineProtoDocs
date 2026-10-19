@@ -19,6 +19,7 @@ Details about the authorization request, for more info [click here »](https://c
 |request\_phone\_number|[Bool](/API_docs/types/Bool.html) | Optional|
 |match\_codes\_first|[Bool](/API_docs/types/Bool.html) | Optional|
 |is\_app|[Bool](/API_docs/types/Bool.html) | Optional|
+|request\_wallet|[Bool](/API_docs/types/Bool.html) | Optional|
 |bot|[User](/API_docs/types/User.html) | Optional|Username of a bot, which will be used for user authorization. If not specified, the current bot's username will be assumed. The url's domain must be the same as the domain linked with the bot. See [Linking your domain to the bot](https://core.telegram.org/widgets/login#linking-your-domain-to-the-bot) for more details.|
 |domain|[string](/API_docs/types/string.html) | Yes|The domain name of the website on which the user will log in.|
 |browser|[string](/API_docs/types/string.html) | Optional|
@@ -28,6 +29,8 @@ Details about the authorization request, for more info [click here »](https://c
 |match\_codes|Array of [string](/API_docs/types/string.html) | Optional|
 |user\_id\_hint|[long](/API_docs/types/long.html) | Optional|
 |verified\_app\_name|[string](/API_docs/types/string.html) | Optional|
+|tc\_session\_id|[long](/API_docs/types/long.html) | Optional|
+|tc\_client\_id|[string](/API_docs/types/string.html) | Optional|
 
 
 
@@ -37,5 +40,5 @@ Details about the authorization request, for more info [click here »](https://c
 ### Example:
 
 ```
-$urlAuthResultRequest = ['_' => 'urlAuthResultRequest', 'request_write_access' => Bool, 'request_phone_number' => Bool, 'match_codes_first' => Bool, 'is_app' => Bool, 'bot' => User, 'domain' => 'string', 'browser' => 'string', 'platform' => 'string', 'ip' => 'string', 'region' => 'string', 'match_codes' => ['string', 'string'], 'user_id_hint' => long, 'verified_app_name' => 'string'];
+$urlAuthResultRequest = ['_' => 'urlAuthResultRequest', 'request_write_access' => Bool, 'request_phone_number' => Bool, 'match_codes_first' => Bool, 'is_app' => Bool, 'request_wallet' => Bool, 'bot' => User, 'domain' => 'string', 'browser' => 'string', 'platform' => 'string', 'ip' => 'string', 'region' => 'string', 'match_codes' => ['string', 'string'], 'user_id_hint' => long, 'verified_app_name' => 'string', 'tc_session_id' => long, 'tc_client_id' => 'string'];
 ```  

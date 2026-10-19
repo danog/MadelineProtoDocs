@@ -1489,7 +1489,7 @@ $MadelineProto->[messages->acceptEncryption](/API_docs/methods/messages.acceptEn
 
 ***
 <br><br>
-$MadelineProto->[messages->acceptUrlAuth](/API_docs/methods/messages.acceptUrlAuth.html)(\[write_allowed: $[Bool](/API_docs/types/Bool.html), share_phone_number: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), msg_id: $[int](/API_docs/types/int.html), button_id: $[int](/API_docs/types/int.html), url: $[string](/API_docs/types/string.html), match_code: $[string](/API_docs/types/string.html), \]) === [$UrlAuthResult](/API_docs/types/UrlAuthResult.html)<a name="messages.acceptUrlAuth"></a>  
+$MadelineProto->[messages->acceptUrlAuth](/API_docs/methods/messages.acceptUrlAuth.html)(\[write_allowed: $[Bool](/API_docs/types/Bool.html), share_phone_number: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), msg_id: $[int](/API_docs/types/int.html), button_id: $[int](/API_docs/types/int.html), url: $[string](/API_docs/types/string.html), match_code: $[string](/API_docs/types/string.html), tonconnect_session: $[InputTonConnectOauthSession](/API_docs/types/InputTonConnectOauthSession.html), \]) === [$UrlAuthResult](/API_docs/types/UrlAuthResult.html)<a name="messages.acceptUrlAuth"></a>  
 
 ***
 <br><br>

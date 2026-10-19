@@ -18,15 +18,29 @@ Message entity representing a block quote.
 ## Properties
 * `$offset`: `int` Offset of message entity within message (in UTF-16 code units)
 * `$length`: `int` Length of message entity within message (in UTF-16 code units)
+* `$collapsed`: `bool` Whether the quote is collapsed by default (an expandable block quote)
 
 ## Method list:
+* [`__construct(int $offset, int $length, bool $collapsed = false)`](#__construct)
 * [`toBotAPI(): array`](#toBotAPI)
 * [`toMTProto(): array`](#toMTProto)
-* [`__construct(int $offset, int $length)`](#__construct)
 * [`fromRawEntities(list<array> $entities): list<self>`](#fromRawEntities)
 * [`fromRawEntity(\danog\MadelineProto\EventHandler\Message\Entities\MessageEntity|array $entity): \danog\MadelineProto\EventHandler\Message\Entities\MessageEntity`](#fromRawEntity)
 
 ## Methods:
+### <a name="__construct"></a> `__construct(int $offset, int $length, bool $collapsed = false)`
+
+
+
+
+Parameters:
+
+* `$offset`: `int`   
+* `$length`: `int`   
+* `$collapsed`: `bool`   
+
+
+
 ### <a name="toBotAPI"></a> `toBotAPI(): array`
 
 
@@ -36,18 +50,6 @@ Message entity representing a block quote.
 ### <a name="toMTProto"></a> `toMTProto(): array`
 
 
-
-
-
-### <a name="__construct"></a> `__construct(int $offset, int $length)`
-
-
-
-
-Parameters:
-
-* `$offset`: `int`   
-* `$length`: `int`   
 
 
 
