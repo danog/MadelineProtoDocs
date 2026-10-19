@@ -10,6 +10,8 @@ Scripts that don't start an event handler talk to the session through an IPC ser
 
 A MadelineProto session can only be used by one process at a time: when a plain script (one that doesn't call `startAndLoop`) creates an `API` instance, MadelineProto automatically starts an IPC server in a background process, which loads the session, and the script sends all its method calls to it. Later scripts connect to the same IPC server, which keeps running until the session is used by an event handler.  
 
+On Windows (10 1803+), enable the `sockets` extension (`extension=sockets` in `php.ini`): without it, the IPC server can't use UNIX sockets, and listens on TCP on `127.0.0.1` instead, which any program running on the machine can connect to (MadelineProto prints a warning).  
+
 This is the default, and it requires no configuration, but the IPC server can also be started separately: for example in its own docker container, with the scripts that use it in other containers or on other machines.  
 
 * [Standalone IPC server](#standalone-ipc-server)
