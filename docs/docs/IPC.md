@@ -35,11 +35,13 @@ Run the standalone IPC server of a session with:
 php madeline.phar madeline-server /path/to/session.madeline
 
 # With composer
-php vendor/danog/madelineproto/src/Ipc/Runner/entry.php madeline-server /path/to/session.madeline
+vendor/bin/madeline-server /path/to/session.madeline
 
 # In the official docker image, by default with the /data/session.madeline session
 madeline-server /data/session.madeline
 ```
+
+The session can also be passed with the `MADELINE_SESSION` environment variable, instead of as an argument.  
 
 It runs in the foreground, logs to standard output, and saves the session and exits cleanly when it receives SIGTERM or SIGINT (so it can be run by docker, systemd or any other supervisor).  
 

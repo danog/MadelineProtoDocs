@@ -1,6 +1,6 @@
 ---
 title: "danog\\MadelineProto\\Settings\\Ipc: IPC server settings."
-description: "\nBy default, scripts that don't start an event handler automatically start an IPC server in the background\n(a worker process), and talk to it through a socket in the session folder.\n\nThe IPC server can also be started separately, locally or on another machine (for example in a docker container):\ndisable autostart to connect to the IPC server of the session folder only if it's already running, or set an\nendpoint to connect to a remote IPC server, which listens on the TCP or HTTP endpoints set with setListen.\nSee https://docs.madelineproto.xyz/docs/IPC.html for more info.\n\nRemote connections are authenticated and encrypted with a shared secret, which must be set on both sides.\n\nTo start a standalone IPC server, run `php madeline.phar madeline-server /path/to/session.madeline` (or, with\ncomposer, `php vendor/danog/madelineproto/src/Ipc/Runner/entry.php madeline-server /path/to/session.madeline`),\nwith the MADELINE_IPC_LISTEN (comma-separated endpoints) and MADELINE_IPC_SECRET environment variables, plus\nMADELINE_API_ID and MADELINE_API_HASH to create a new session; the docker image provides the `madeline-server`\ncommand, which serves /data/session.madeline by default.\n"
+description: "\nBy default, scripts that don't start an event handler automatically start an IPC server in the background\n(a worker process), and talk to it through a socket in the session folder.\n\nThe IPC server can also be started separately, locally or on another machine (for example in a docker container):\ndisable autostart to connect to the IPC server of the session folder only if it's already running, or set an\nendpoint to connect to a remote IPC server, which listens on the TCP or HTTP endpoints set with setListen.\nSee https://docs.madelineproto.xyz/docs/IPC.html for more info.\n\nRemote connections are authenticated and encrypted with a shared secret, which must be set on both sides.\n\nTo start a standalone IPC server, run `php madeline.phar madeline-server /path/to/session.madeline` (or, with\ncomposer, `vendor/bin/madeline-server /path/to/session.madeline`),\nwith the MADELINE_IPC_LISTEN (comma-separated endpoints) and MADELINE_IPC_SECRET environment variables, plus\nMADELINE_API_ID and MADELINE_API_HASH to create a new session; the docker image provides the `madeline-server`\ncommand, which serves /data/session.madeline by default.\n"
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
@@ -25,7 +25,7 @@ See https://docs.madelineproto.xyz/docs/IPC.html for more info.
 Remote connections are authenticated and encrypted with a shared secret, which must be set on both sides.
 
 To start a standalone IPC server, run `php madeline.phar madeline-server /path/to/session.madeline` (or, with
-composer, `php vendor/danog/madelineproto/src/Ipc/Runner/entry.php madeline-server /path/to/session.madeline`),
+composer, `vendor/bin/madeline-server /path/to/session.madeline`),
 with the MADELINE_IPC_LISTEN (comma-separated endpoints) and MADELINE_IPC_SECRET environment variables, plus
 MADELINE_API_ID and MADELINE_API_HASH to create a new session; the docker image provides the `madeline-server`
 command, which serves /data/session.madeline by default.
