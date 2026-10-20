@@ -18,7 +18,7 @@ Convert a [collectible gift »](https://core.telegram.org/api/gifts) to an NFT o
 | Name     |    Type       | Description | Required |
 |----------|---------------|-------------|----------|
 |stargift|[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html) | The collectible gift to export. | Yes|
-|password|[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html) | The current user's 2FA password, passed as [specified here »](https://core.telegram.org/api/srp). | Yes|
+|tmp\_password|[bytes](/API_docs/types/bytes.html) |  | Yes|
 
 
 ### Return type: [payments.StarGiftWithdrawalUrl](/API_docs/types/payments.StarGiftWithdrawalUrl.html)
@@ -44,6 +44,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$payments_StarGiftWithdrawalUrl = $MadelineProto->payments->getStarGiftWithdrawalUrl(stargift: $InputSavedStarGift, password: $InputCheckPasswordSRP, );
+$payments_StarGiftWithdrawalUrl = $MadelineProto->payments->getStarGiftWithdrawalUrl(stargift: $InputSavedStarGift, tmp_password: 'bytes', );
 ```
 

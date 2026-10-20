@@ -1201,6 +1201,10 @@ $MadelineProto->[contacts->exportContactToken](/API_docs/methods/contacts.export
 
 ***
 <br><br>
+$MadelineProto->[contacts->exportNoPaidMessagesToken](/API_docs/methods/contacts.exportNoPaidMessagesToken.html)(\[revoke: $[Bool](/API_docs/types/Bool.html), temporary: $[Bool](/API_docs/types/Bool.html), \]) === [$ExportedNoPaidMessagesToken](/API_docs/types/ExportedNoPaidMessagesToken.html)<a name="contacts.exportNoPaidMessagesToken"></a>  
+
+***
+<br><br>
 $MadelineProto->[contacts->getBirthdays](/API_docs/methods/contacts.getBirthdays.html)(\[\]) === [$contacts.ContactBirthdays](/API_docs/types/contacts.ContactBirthdays.html)<a name="contacts.getBirthdays"></a>  
 
 ***
@@ -1242,6 +1246,10 @@ $MadelineProto->[contacts->importContactToken](/API_docs/methods/contacts.import
 ***
 <br><br>
 $MadelineProto->[contacts->importContacts](/API_docs/methods/contacts.importContacts.html)(\[contacts: \[$[InputContact](/API_docs/types/InputContact.html)\], \]) === [$contacts.ImportedContacts](/API_docs/types/contacts.ImportedContacts.html)<a name="contacts.importContacts"></a>  
+
+***
+<br><br>
+$MadelineProto->[contacts->importNoPaidMessagesToken](/API_docs/methods/contacts.importNoPaidMessagesToken.html)(\[user_id: $[InputUser](/API_docs/types/InputUser.html), token: $[string](/API_docs/types/string.html), \]) === [$User](/API_docs/types/User.html)<a name="contacts.importNoPaidMessagesToken"></a>  
 
 ***
 <br><br>
@@ -2033,6 +2041,10 @@ $MadelineProto->[messages->getSearchResultsPositions](/API_docs/methods/messages
 
 ***
 <br><br>
+$MadelineProto->[messages->getShareThemeBackdrops](/API_docs/methods/messages.getShareThemeBackdrops.html)(\[hash: $[int](/API_docs/types/int.html), \]) === [$ShareThemeBackdrops](/API_docs/types/ShareThemeBackdrops.html)<a name="messages.getShareThemeBackdrops"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->getSplitRanges](/API_docs/methods/messages.getSplitRanges.html)(\[\]) === [$Vector\_of\_MessageRange](/API_docs/types/MessageRange.html)<a name="messages.getSplitRanges"></a>  
 
 ***
@@ -2409,6 +2421,10 @@ $MadelineProto->[messages->setInlineGameScore](/API_docs/methods/messages.setInl
 
 ***
 <br><br>
+$MadelineProto->[messages->setShareTheme](/API_docs/methods/messages.setShareTheme.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), theme: $[ShareTheme](/API_docs/types/ShareTheme.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.setShareTheme"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->setTyping](/API_docs/methods/messages.setTyping.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), top_msg_id: $[int](/API_docs/types/int.html), action: $[SendMessageAction](/API_docs/types/SendMessageAction.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.setTyping"></a>  
 
 ***
@@ -2577,7 +2593,19 @@ $MadelineProto->[payments->createStarGiftCollection](/API_docs/methods/payments.
 
 ***
 <br><br>
+$MadelineProto->[payments->deleteStarGift](/API_docs/methods/payments.deleteStarGift.html)(\[stargift: $[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.deleteStarGift"></a>  
+
+***
+<br><br>
 $MadelineProto->[payments->deleteStarGiftCollection](/API_docs/methods/payments.deleteStarGiftCollection.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), collection_id: $[int](/API_docs/types/int.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.deleteStarGiftCollection"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->depositStarGift](/API_docs/methods/payments.depositStarGift.html)(\[hide_sender: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), slug: $[string](/API_docs/types/string.html), \]) === [$payments.StarGiftDepositPayload](/API_docs/types/payments.StarGiftDepositPayload.html)<a name="payments.depositStarGift"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->displayStarGift](/API_docs/methods/payments.displayStarGift.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), slug: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.displayStarGift"></a>  
 
 ***
 <br><br>
@@ -2689,7 +2717,7 @@ $MadelineProto->[payments->getStarGiftUpgradePreview](/API_docs/methods/payments
 
 ***
 <br><br>
-$MadelineProto->[payments->getStarGiftWithdrawalUrl](/API_docs/methods/payments.getStarGiftWithdrawalUrl.html)(\[stargift: $[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html), password: $[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html), \]) === [$payments.StarGiftWithdrawalUrl](/API_docs/types/payments.StarGiftWithdrawalUrl.html)<a name="payments.getStarGiftWithdrawalUrl"></a>  
+$MadelineProto->[payments->getStarGiftWithdrawalUrl](/API_docs/methods/payments.getStarGiftWithdrawalUrl.html)(\[stargift: $[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html), tmp_password: $[bytes](/API_docs/types/bytes.html), \]) === [$payments.StarGiftWithdrawalUrl](/API_docs/types/payments.StarGiftWithdrawalUrl.html)<a name="payments.getStarGiftWithdrawalUrl"></a>  
 
 ***
 <br><br>
@@ -2806,6 +2834,10 @@ $MadelineProto->[payments->upgradeStarGift](/API_docs/methods/payments.upgradeSt
 ***
 <br><br>
 $MadelineProto->[payments->validateRequestedInfo](/API_docs/methods/payments.validateRequestedInfo.html)(\[save: $[Bool](/API_docs/types/Bool.html), invoice: $[InputInvoice](/API_docs/types/InputInvoice.html), info: $[PaymentRequestedInfo](/API_docs/types/PaymentRequestedInfo.html), \]) === [$payments.ValidatedRequestedInfo](/API_docs/types/payments.ValidatedRequestedInfo.html)<a name="payments.validateRequestedInfo"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->withdrawStarGift](/API_docs/methods/payments.withdrawStarGift.html)(\[keep_on_profile: $[Bool](/API_docs/types/Bool.html), stargift: $[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html), tmp_password: $[bytes](/API_docs/types/bytes.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.withdrawStarGift"></a>  
 
 ***
 <br><br>
@@ -3398,6 +3430,10 @@ $MadelineProto->[wallet->replaceWallet](/API_docs/methods/wallet.replaceWallet.h
 ***
 <br><br>
 $MadelineProto->[wallet->sendTransfer](/API_docs/methods/wallet.sendTransfer.html)(\[data_normal: $[bytes](/API_docs/types/bytes.html), data_gasless: $[bytes](/API_docs/types/bytes.html), user_id: $[InputUser](/API_docs/types/InputUser.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="wallet.sendTransfer"></a>  
+
+***
+<br><br>
+$MadelineProto->[wallet->setCardStickers](/API_docs/methods/wallet.setCardStickers.html)(\[stickers: \[$[InputWalletCardSticker](/API_docs/types/InputWalletCardSticker.html)\], bg_nft_address: $[string](/API_docs/types/string.html), \]) === [$wallet.Card](/API_docs/types/wallet.Card.html)<a name="wallet.setCardStickers"></a>  
 
 ***
 <br><br>

@@ -227,6 +227,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [ExportedMessageLink](/API_docs/types/ExportedMessageLink.html)<a name="ExportedMessageLink"></a>  
 
+[ExportedNoPaidMessagesToken](/API_docs/types/ExportedNoPaidMessagesToken.html)<a name="ExportedNoPaidMessagesToken"></a>  
+
 [ExportedStoryLink](/API_docs/types/ExportedStoryLink.html)<a name="ExportedStoryLink"></a>  
 
 [FactCheck](/API_docs/types/FactCheck.html)<a name="FactCheck"></a>  
@@ -402,6 +404,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [InputUser](/API_docs/types/InputUser.html)<a name="InputUser"></a>  
 
 [InputWallPaper](/API_docs/types/InputWallPaper.html)<a name="InputWallPaper"></a>  
+
+[InputWalletCardSticker](/API_docs/types/InputWalletCardSticker.html)<a name="InputWalletCardSticker"></a>  
 
 [InputWalletReplacement](/API_docs/types/InputWalletReplacement.html)<a name="InputWalletReplacement"></a>  
 
@@ -664,6 +668,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [SendAsPeer](/API_docs/types/SendAsPeer.html)<a name="SendAsPeer"></a>  
 
 [SendMessageAction](/API_docs/types/SendMessageAction.html)<a name="SendMessageAction"></a>  
+
+[ShareTheme](/API_docs/types/ShareTheme.html)<a name="ShareTheme"></a>  
+
+[ShareThemeBackdropOption](/API_docs/types/ShareThemeBackdropOption.html)<a name="ShareThemeBackdropOption"></a>  
+
+[ShareThemeBackdrops](/API_docs/types/ShareThemeBackdrops.html)<a name="ShareThemeBackdrops"></a>  
 
 [ShippingOption](/API_docs/types/ShippingOption.html)<a name="ShippingOption"></a>  
 
@@ -1189,6 +1199,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [payments.StarGiftCollections](/API_docs/types/payments.StarGiftCollections.html)<a name="payments.StarGiftCollections"></a>  
 
+[payments.StarGiftDepositPayload](/API_docs/types/payments.StarGiftDepositPayload.html)<a name="payments.StarGiftDepositPayload"></a>  
+
 [payments.StarGiftUpgradeAttributes](/API_docs/types/payments.StarGiftUpgradeAttributes.html)<a name="payments.StarGiftUpgradeAttributes"></a>  
 
 [payments.StarGiftUpgradePreview](/API_docs/types/payments.StarGiftUpgradePreview.html)<a name="payments.StarGiftUpgradePreview"></a>  
@@ -1300,6 +1312,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [users.UserFull](/API_docs/types/users.UserFull.html)<a name="users.UserFull"></a>  
 
 [users.Users](/API_docs/types/users.Users.html)<a name="users.Users"></a>  
+
+[wallet.Card](/API_docs/types/wallet.Card.html)<a name="wallet.Card"></a>  
+
+[wallet.CardSticker](/API_docs/types/wallet.CardSticker.html)<a name="wallet.CardSticker"></a>  
 
 [wallet.EncryptedSecretPhrasePart](/API_docs/types/wallet.EncryptedSecretPhrasePart.html)<a name="wallet.EncryptedSecretPhrasePart"></a>  
 

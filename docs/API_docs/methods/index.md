@@ -2054,6 +2054,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="communities.togglePeerLinkRequestApproval.html" name="communities.togglePeerLinkRequestApproval">communities.togglePeerLinkRequestApproval</a>
 
+* <a href="contacts.exportNoPaidMessagesToken.html" name="contacts.exportNoPaidMessagesToken">contacts.exportNoPaidMessagesToken</a>
+
+* <a href="contacts.importNoPaidMessagesToken.html" name="contacts.importNoPaidMessagesToken">contacts.importNoPaidMessagesToken</a>
+
 * <a href="contacts.updateContactNote.html" name="contacts.updateContactNote">contacts.updateContactNote</a>
 
 * <a href="ephemeral.deleteAllWelcomeMessages.html" name="ephemeral.deleteAllWelcomeMessages">ephemeral.deleteAllWelcomeMessages</a>
@@ -2110,6 +2114,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getRichMessage.html" name="messages.getRichMessage">messages.getRichMessage</a>
 
+* <a href="messages.getShareThemeBackdrops.html" name="messages.getShareThemeBackdrops">messages.getShareThemeBackdrops</a>
+
 * <a href="messages.getUnreadPollVotes.html" name="messages.getUnreadPollVotes">messages.getUnreadPollVotes</a>
 
 * <a href="messages.readPollVotes.html" name="messages.readPollVotes">messages.readPollVotes</a>
@@ -2124,6 +2130,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.setBotGuestChatResult.html" name="messages.setBotGuestChatResult">messages.setBotGuestChatResult</a>
 
+* <a href="messages.setShareTheme.html" name="messages.setShareTheme">messages.setShareTheme</a>
+
 * <a href="messages.summarizeText.html" name="messages.summarizeText">messages.summarizeText</a>
 
 * <a href="messages.translateRichMessage.html" name="messages.translateRichMessage">messages.translateRichMessage</a>
@@ -2137,6 +2145,12 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="payments.craftStarGift.html" name="payments.craftStarGift">payments.craftStarGift</a>
 
 * <a href="payments.createOnrampSession.html" name="payments.createOnrampSession">payments.createOnrampSession</a>
+
+* <a href="payments.deleteStarGift.html" name="payments.deleteStarGift">payments.deleteStarGift</a>
+
+* <a href="payments.depositStarGift.html" name="payments.depositStarGift">payments.depositStarGift</a>
+
+* <a href="payments.displayStarGift.html" name="payments.displayStarGift">payments.displayStarGift</a>
 
 * <a href="payments.getCraftStarGifts.html" name="payments.getCraftStarGifts">payments.getCraftStarGifts</a>
 
@@ -2163,6 +2177,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="payments.resolveStarGiftOffer.html" name="payments.resolveStarGiftOffer">payments.resolveStarGiftOffer</a>
 
 * <a href="payments.sendStarGiftOffer.html" name="payments.sendStarGiftOffer">payments.sendStarGiftOffer</a>
+
+* <a href="payments.withdrawStarGift.html" name="payments.withdrawStarGift">payments.withdrawStarGift</a>
 
 * <a href="phone.deleteGroupCallMessages.html" name="phone.deleteGroupCallMessages">phone.deleteGroupCallMessages</a>
 
@@ -2217,6 +2233,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="wallet.replaceWallet.html" name="wallet.replaceWallet">wallet.replaceWallet</a>
 
 * <a href="wallet.sendTransfer.html" name="wallet.sendTransfer">wallet.sendTransfer</a>
+
+* <a href="wallet.setCardStickers.html" name="wallet.setCardStickers">wallet.setCardStickers</a>
 
 * <a href="wallet.tonConnectClaimRequest.html" name="wallet.tonConnectClaimRequest">wallet.tonConnectClaimRequest</a>
 
