@@ -80,6 +80,7 @@ See [here »](https://github.com/tdlib/td/blob/a24af0992245f838f2b4b418a0a2d5fa9
 |broadcast\_messages\_allowed|[Bool](/API_docs/types/Bool.html) | Optional|
 |monoforum|[Bool](/API_docs/types/Bool.html) | Optional|
 |forum\_tabs|[Bool](/API_docs/types/Bool.html) | Optional|
+|in\_news|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[long](/API_docs/types/long.html) | Yes|ID of the channel, see [here »](https://core.telegram.org/api/peers#peer-id) for more info and the available ID range.|
 |access\_hash|[long](/API_docs/types/long.html) | Optional|Access hash, see [here »](https://core.telegram.org/api/peers#access-hash) for more info|
 |title|[string](/API_docs/types/string.html) | Yes|Title|
@@ -102,6 +103,7 @@ See [here »](https://github.com/tdlib/td/blob/a24af0992245f838f2b4b418a0a2d5fa9
 |send\_paid\_messages\_stars|[long](/API_docs/types/long.html) | Optional|
 |linked\_monoforum\_id|[long](/API_docs/types/long.html) | Optional|
 |linked\_community\_id|[long](/API_docs/types/long.html) | Optional|
+|pinned\_msg\_id|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -111,5 +113,5 @@ See [here »](https://github.com/tdlib/td/blob/a24af0992245f838f2b4b418a0a2d5fa9
 ### Example:
 
 ```
-$channel = ['_' => 'channel', 'creator' => Bool, 'left' => Bool, 'broadcast' => Bool, 'verified' => Bool, 'megagroup' => Bool, 'restricted' => Bool, 'signatures' => Bool, 'min' => Bool, 'scam' => Bool, 'has_link' => Bool, 'has_geo' => Bool, 'slowmode_enabled' => Bool, 'call_active' => Bool, 'call_not_empty' => Bool, 'fake' => Bool, 'gigagroup' => Bool, 'noforwards' => Bool, 'join_to_send' => Bool, 'join_request' => Bool, 'forum' => Bool, 'stories_hidden' => Bool, 'stories_hidden_min' => Bool, 'stories_unavailable' => Bool, 'signature_profiles' => Bool, 'autotranslation' => Bool, 'broadcast_messages_allowed' => Bool, 'monoforum' => Bool, 'forum_tabs' => Bool, 'id' => long, 'access_hash' => long, 'title' => 'string', 'username' => 'string', 'photo' => ChatPhoto, 'date' => int, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'admin_rights' => ChatAdminRights, 'banned_rights' => ChatBannedRights, 'default_banned_rights' => ChatBannedRights, 'participants_count' => int, 'usernames' => [Username, Username], 'stories_max_id' => RecentStory, 'color' => PeerColor, 'profile_color' => PeerColor, 'emoji_status' => EmojiStatus, 'level' => int, 'subscription_until_date' => int, 'bot_verification_icon' => long, 'send_paid_messages_stars' => long, 'linked_monoforum_id' => long, 'linked_community_id' => long];
+$channel = ['_' => 'channel', 'creator' => Bool, 'left' => Bool, 'broadcast' => Bool, 'verified' => Bool, 'megagroup' => Bool, 'restricted' => Bool, 'signatures' => Bool, 'min' => Bool, 'scam' => Bool, 'has_link' => Bool, 'has_geo' => Bool, 'slowmode_enabled' => Bool, 'call_active' => Bool, 'call_not_empty' => Bool, 'fake' => Bool, 'gigagroup' => Bool, 'noforwards' => Bool, 'join_to_send' => Bool, 'join_request' => Bool, 'forum' => Bool, 'stories_hidden' => Bool, 'stories_hidden_min' => Bool, 'stories_unavailable' => Bool, 'signature_profiles' => Bool, 'autotranslation' => Bool, 'broadcast_messages_allowed' => Bool, 'monoforum' => Bool, 'forum_tabs' => Bool, 'in_news' => Bool, 'id' => long, 'access_hash' => long, 'title' => 'string', 'username' => 'string', 'photo' => ChatPhoto, 'date' => int, 'restriction_reason' => [RestrictionReason, RestrictionReason], 'admin_rights' => ChatAdminRights, 'banned_rights' => ChatBannedRights, 'default_banned_rights' => ChatBannedRights, 'participants_count' => int, 'usernames' => [Username, Username], 'stories_max_id' => RecentStory, 'color' => PeerColor, 'profile_color' => PeerColor, 'emoji_status' => EmojiStatus, 'level' => int, 'subscription_until_date' => int, 'bot_verification_icon' => long, 'send_paid_messages_stars' => long, 'linked_monoforum_id' => long, 'linked_community_id' => long, 'pinned_msg_id' => int];
 ```  

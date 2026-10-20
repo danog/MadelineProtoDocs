@@ -26,6 +26,7 @@ redirect_from: /API_docs/constructors/wallet_nftItem.html
 |lottie|[WebDocument](/API_docs/types/WebDocument.html) | Optional|
 |attributes|Array of [wallet.NftAttribute](/API_docs/constructors/wallet.NftAttribute.html) | Optional|
 |extra|[DataJSON](/API_docs/types/DataJSON.html) | Optional|
+|gift|[StarGift](/API_docs/types/StarGift.html) | Optional|
 
 
 
@@ -35,5 +36,5 @@ redirect_from: /API_docs/constructors/wallet_nftItem.html
 ### Example:
 
 ```
-$wallet_nftItem = ['_' => 'wallet.nftItem', 'collection_address' => 'string', 'address' => 'string', 'owner_address' => 'string', 'index' => 'string', 'name' => 'string', 'description' => 'string', 'image' => WebDocument, 'image_small' => WebDocument, 'content_url' => WebDocument, 'lottie' => WebDocument, 'attributes' => [wallet.NftAttribute, wallet.NftAttribute], 'extra' => DataJSON];
+$wallet_nftItem = ['_' => 'wallet.nftItem', 'collection_address' => 'string', 'address' => 'string', 'owner_address' => 'string', 'index' => 'string', 'name' => 'string', 'description' => 'string', 'image' => WebDocument, 'image_small' => WebDocument, 'content_url' => WebDocument, 'lottie' => WebDocument, 'attributes' => [wallet.NftAttribute, wallet.NftAttribute], 'extra' => DataJSON, 'gift' => StarGift];
 ```  

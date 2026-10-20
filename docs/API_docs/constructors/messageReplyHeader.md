@@ -29,6 +29,7 @@ Message replies and [thread](https://core.telegram.org/api/threads) information
 |quote\_offset|[int](/API_docs/types/int.html) | Optional|Offset of the message `quote_text` within the original message (in [UTF-16 code units](https://core.telegram.org/api/entities#entity-length)).|
 |todo\_item\_id|[int](/API_docs/types/int.html) | Optional|Can be set to reply to the specified item of a [todo list »](https://core.telegram.org/api/todo).|
 |poll\_option|[bytes](/API_docs/types/bytes.html) | Optional|
+|quote\_rich|Array of [RichText](/API_docs/types/RichText.html) | Optional|
 
 
 
@@ -38,5 +39,5 @@ Message replies and [thread](https://core.telegram.org/api/threads) information
 ### Example:
 
 ```
-$messageReplyHeader = ['_' => 'messageReplyHeader', 'reply_to_scheduled' => Bool, 'forum_topic' => Bool, 'quote' => Bool, 'reply_to_ephemeral' => Bool, 'reply_to_msg_id' => int, 'reply_to_peer_id' => Peer, 'reply_from' => MessageFwdHeader, 'reply_media' => MessageMedia, 'reply_to_top_id' => int, 'quote_text' => 'string', 'quote_entities' => [MessageEntity, MessageEntity], 'quote_offset' => int, 'todo_item_id' => int, 'poll_option' => 'bytes'];
+$messageReplyHeader = ['_' => 'messageReplyHeader', 'reply_to_scheduled' => Bool, 'forum_topic' => Bool, 'quote' => Bool, 'reply_to_ephemeral' => Bool, 'reply_to_msg_id' => int, 'reply_to_peer_id' => Peer, 'reply_from' => MessageFwdHeader, 'reply_media' => MessageMedia, 'reply_to_top_id' => int, 'quote_text' => 'string', 'quote_entities' => [MessageEntity, MessageEntity], 'quote_offset' => int, 'todo_item_id' => int, 'poll_option' => 'bytes', 'quote_rich' => [RichText, RichText]];
 ```  

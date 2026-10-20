@@ -19,6 +19,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [walletTransactionPeerUnsupported](/API_docs/constructors/walletTransactionPeerUnsupported.html)  
 
+[walletTransactionPeerChannel](/API_docs/constructors/walletTransactionPeerChannel.html)  
+
+[walletTransactionPeerTelegramGift](/API_docs/constructors/walletTransactionPeerTelegramGift.html)  
+
 
 
 ### Methods that return an object of this type (methods):
