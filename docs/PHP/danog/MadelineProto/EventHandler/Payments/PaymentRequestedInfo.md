@@ -1,5 +1,5 @@
 ---
-title: "danog\\MadelineProto\\EventHandler\\Payments\\PaymentRequestedInfo: "
+title: "danog\\MadelineProto\\EventHandler\\Payments\\PaymentRequestedInfo: Order info provided by the user."
 description: ""
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
@@ -11,29 +11,36 @@ parent: "MadelineProto API"
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-  
+Order info provided by the user.  
 
 
 
 ## Properties
-* `$name`: `string` User’s full name
-* `$phone`: `string` User’s phone number
-* `$email`: `string` User’s email address
+* `$name`: `?string` User’s full name
+* `$phone`: `?string` User’s phone number
+* `$email`: `?string` User’s email address
+* `$shippingAddress`: `?danog\MadelineProto\EventHandler\Payments\PostAddress` User’s shipping address
 
 ## Method list:
-* [`__construct(string $name, string $phone, string $email)`](#__construct)
+* [`__construct(?string $name, ?string $phone, ?string $email, ?\danog\MadelineProto\EventHandler\Payments\PostAddress $shippingAddress)`](#__construct)
 
 ## Methods:
-### <a name="__construct"></a> `__construct(string $name, string $phone, string $email)`
+### <a name="__construct"></a> `__construct(?string $name, ?string $phone, ?string $email, ?\danog\MadelineProto\EventHandler\Payments\PostAddress $shippingAddress)`
 
 
 
 
 Parameters:
 
-* `$name`: `string`   
-* `$phone`: `string`   
-* `$email`: `string`   
+* `$name`: `?string`   
+* `$phone`: `?string`   
+* `$email`: `?string`   
+* `$shippingAddress`: `?\danog\MadelineProto\EventHandler\Payments\PostAddress`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Payments\PostAddress`: Shipping address.](../../../../danog/MadelineProto/EventHandler/Payments/PostAddress.html)
+
 
 
 
