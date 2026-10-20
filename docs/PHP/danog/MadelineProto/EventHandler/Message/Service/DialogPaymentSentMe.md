@@ -88,7 +88,7 @@ Parameters:
 #### See also: 
 * `\danog\MadelineProto\MTProto`
 * [`\danog\MadelineProto\TL\Types\Bytes`: Bytes wrapper.](../../../../../danog/MadelineProto/TL/Types/Bytes.html)
-* [\danog\MadelineProto\EventHandler\Payments\PaymentRequestedInfo](../../../../../danog/MadelineProto/EventHandler/Payments/PaymentRequestedInfo.html)
+* [`\danog\MadelineProto\EventHandler\Payments\PaymentRequestedInfo`: Order info provided by the user.](../../../../../danog/MadelineProto/EventHandler/Payments/PaymentRequestedInfo.html)
 * [`\danog\MadelineProto\EventHandler\Payments\PaymentCharge`: Payment identifier.](../../../../../danog/MadelineProto/EventHandler/Payments/PaymentCharge.html)
 
 

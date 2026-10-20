@@ -42,6 +42,8 @@ Connection settings.
 * [`setTransport(class-string<\danog\MadelineProto\Stream\RawStreamInterface> $transport): \danog\MadelineProto\Settings\Connection`](#setTransport)
 * [`getRetry(): bool`](#getRetry)
 * [`setRetry(bool $retry): \danog\MadelineProto\Settings\Connection`](#setRetry)
+* [`getDirectFallback(): bool`](#getDirectFallback)
+* [`setDirectFallback(bool $directFallback): \danog\MadelineProto\Settings\Connection`](#setDirectFallback)
 * [`getTimeout(): float`](#getTimeout)
 * [`setTimeout(float $timeout): \danog\MadelineProto\Settings\Connection`](#setTimeout)
 * [`getPingInterval(): int`](#getPingInterval)
@@ -359,6 +361,26 @@ Set whether to retry connection.
 Parameters:
 
 * `$retry`: `bool` Whether to retry connection.  
+
+
+
+### <a name="getDirectFallback"></a> `getDirectFallback(): bool`
+
+Get whether to connect directly when the proxies fail.
+
+
+
+### <a name="setDirectFallback"></a> `setDirectFallback(bool $directFallback): \danog\MadelineProto\Settings\Connection`
+
+Set whether to connect directly (without the proxies) when the proxies fail.
+  
+Off by default: when proxies are set, Telegram and the URLs requested over HTTP are only ever  
+reached through them.  
+
+
+Parameters:
+
+* `$directFallback`: `bool` Whether to connect directly when the proxies fail.  
 
 
 
