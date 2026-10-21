@@ -1,21 +1,46 @@
 ---
 title: "MadelineProto on Docker"
-description: "MadelineProto offers an official MadelineProto docker image for the linux/amd64, linux/arm64 and linux/riscv64 platforms @ hub.madelineproto.xyz/danog/madelineproto."
+description: "MadelineProto offers an official MadelineProto docker image for the linux/amd64 and linux/arm64 platforms @ hub.madelineproto.xyz/danog/madelineproto."
 nav_order: 8
 image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ---
 # MadelineProto on Docker
 
-MadelineProto offers an official MadelineProto docker image for the `linux/amd64`, `linux/arm64` and `linux/riscv64` platforms @ `hub.madelineproto.xyz/danog/madelineproto`.  
+MadelineProto offers an official MadelineProto docker image for the `linux/amd64` and `linux/arm64` platforms @ `hub.madelineproto.xyz/danog/madelineproto`.  
 
 The image comes with all dependencies pre-configured.  
 Both opcache and JIT are enabled by default, for maximum performance.  
 
+* [Tags](#tags)
+* [User and permissions](#user-and-permissions)
 * [Getting started](#getting-started)
   * [CLI bot (recommended)](#cli-bot-recommended)
   * [Databases on docker](#databases-on-docker)
   * [Web docker](#web-docker)
   * [Custom extensions](#custom-extensions)
+
+## Tags
+
+* `latest` (the default): the image of the latest release of MadelineProto.  
+* `8.11.2`, `8.11`, `8`: the image of a specific release, of the latest release of a minor version, of the latest release of a major version.  
+* `next`: the image of the latest commit of the main branch, rebuilt on every push (`debian` is an alias).  
+
+The image contains PHP and the extensions used by MadelineProto, not MadelineProto itself: use `madeline.php` or composer to install it, as usual.  
+
+## User and permissions
+
+The image runs as the unprivileged `madeline` user, with UID and GID `1000` (home `/home/madeline`, working directory `/app`), not as root.  
+
+The files and folders mounted into the container (like `./app` below) must be readable and writable by UID `1000` (sessions, `madeline.php` and the phar it downloads are written there).  
+On most Linux distributions, the first user already has UID `1000`, and nothing needs to be done; otherwise, change the owner of the folder:  
+
+```bash
+sudo chown -R 1000:1000 app
+```
+
+Or run the container as your own user, with `user: "1001:1001"` in `docker-compose.yml` (or `--user 1001:1001` for `docker run`), replacing `1001` with the output of `id -u` and `id -g`.  
+
+**Upgrading from an older image**: older images ran as root, so files they created (sessions, `madeline.php`, the phar) belong to root: run `sudo chown -R 1000:1000 app` once, or keep running as root, which is not recommended, with `user: root` in `docker-compose.yml` (or `--user root` for `docker run`).  
 
 ## Getting started
 
@@ -207,17 +232,23 @@ If you want to test locally without obtaining a certificate for a domain, replac
 
 ### Custom extensions
 
-Optionally, you may also add custom extensions by creating a custom docker image with the following `Dockerfile`, for example to install the `gd` and `bcmath` extensions:
+Optionally, you may also add custom extensions by creating a custom docker image with the following `Dockerfile`, for example to install the `apcu` extension with [PIE](https://github.com/php/pie) (shipped with the image), as root, switching back to the unprivileged user afterwards:
 
 ```bash
 FROM hub.madelineproto.xyz/danog/madelineproto:latest
 
-ADD https://github.com/mlocati/docker-php-extension-installer/releases/latest/download/install-php-extensions /usr/local/bin/
+USER root
 
-RUN chmod +x /usr/local/bin/install-php-extensions && \
-    install-php-extensions gd bcmath && \
-    rm /usr/local/bin/install-php-extensions
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends autoconf dpkg-dev file g++ gcc libc-dev make pkg-config re2c && \
+    pie install apcu/apcu && \
+    apt-get purge -y autoconf dpkg-dev file g++ gcc libc-dev make pkg-config re2c && \
+    rm -rf /var/lib/apt/lists/*
+
+USER madeline
 ```
+
+The image doesn't include `pecl`: use `pie` instead, with any extension [published for PIE on Packagist](https://packagist.org/extensions).  
 
 And use the following `docker-compose.yml` file:
 
