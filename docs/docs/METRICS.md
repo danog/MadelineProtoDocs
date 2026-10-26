@@ -52,19 +52,19 @@ During this process, you'll install the Grafana agent, which will read the metri
 
 Once your account has been created, you'll be on your account dashboard. There, you should launch your Grafana instance by clicking the "Launch" button.
 
-![Grafana.com dashboard](https://spatie.be/docs/laravel-prometheus/v1/images/launch-grafana.jpg)
+![Grafana.com dashboard](https://docs.madelineproto.xyz/res/metrics/launch-grafana.jpg)
 
 At this point, you'll be redirected to your Grafana instance. There, you must go to "Connections" and add a new connection of type "Hosted prometheus Metrics".
 
-![Grafana.com new connection](https://spatie.be/docs/laravel-prometheus/v1/images/new-connection.jpg)
+![Grafana.com new connection](https://docs.madelineproto.xyz/res/metrics/new-connection.jpg)
 
 When creating a new connection, choose "Via Grafana Agent".
 
-![Grafana.com agent](https://spatie.be/docs/laravel-prometheus/v1/images/grafana-agent.jpg).
+![Grafana.com agent](https://docs.madelineproto.xyz/res/metrics/grafana-agent.jpg).
 
 Next, follow the wizard, install the agent, and create a new config.
 
-![Grafana.com config](https://spatie.be/docs/laravel-prometheus/v1/images/new-config.jpg).
+![Grafana.com config](https://docs.madelineproto.xyz/res/metrics/new-config.jpg).
 
 Follow, the steps to create the config file, and start the agent on your server. 
 
@@ -101,12 +101,14 @@ On the import screen, insert the ID of the MadelineProto dashboard, `21168`.
 
 Next, click your hosted prometheus instance as the source.
 
-![Grafana.com visualization](https://spatie.be/docs/laravel-prometheus/v1/images/prometheus-source.jpg)
+![Grafana.com visualization](https://docs.madelineproto.xyz/res/metrics/prometheus-source.jpg)
 
 And you're done!
 
 ![grafana dashboard preview](https://docs.madelineproto.xyz/grafana.png)
 
 Enjoy detailed MadelineProto metrics, powered by MadelineProto & Grafana!
+
+*Grafana.com screenshots by Spatie, from the laravel-prometheus documentation (MIT license).*
 
 <a href="https://docs.madelineproto.xyz/docs/INSTALLATION.html">Next section</a>
