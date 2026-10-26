@@ -23,6 +23,7 @@ The whole call stack (WebRTC, the Telegram signaling protocols and the media dem
 * [Group calls (video chats and livestreams)](#group-calls-video-chats-and-livestreams)
   * [Livestreams, RTMP and stream mode](#livestreams-rtmp-and-stream-mode)
   * [Live stories](#live-stories)
+  * [Streaming to a profile or livestream from its RTMP URL](#streaming-to-a-profile-or-livestream-from-its-rtmp-url)
 * [Conference calls](#conference-calls)
 * [Restarts](#restarts)
 
@@ -392,6 +393,55 @@ To publish an RTMP livestream, create the call with `createGroupCall($peer, rtmp
 
 A [live story](https://core.telegram.org/api/group-calls#live-stories) is a livestream posted as a story, of which we are the only publisher: `startLive($peer, caption: 'Hi!')` starts one and returns a `LiveStory`, which is used like any other group call (`play()` to stream, `sendMessage()` and `sendReaction()` to comment) and arrives in event handlers as a `LiveStory` update. Viewers may donate Telegram Stars: `setPaidMessagesStars($stars)` sets the minimum donation required to comment, `donate($stars)` donates, and `getStars()` returns the donations received so far and the top donors.
 
+To stream to the profile of the account MadelineProto is logged in as, start a live story as `'me'`. With `rtmpStream: true`, what is played is published over RTMP, as to an RTMP livestream (H.264 video and AAC audio, see above): MadelineProto gets the stream key of the live story itself, and the live story doesn't even need to be joined. Otherwise, join it and play files as in a video chat.
+
+```php
+use danog\MadelineProto\RemoteUrl;
+
+// Over RTMP: H.264 + AAC files (MP4 or Matroska).
+$live = $MadelineProto->startLive('me', caption: 'Live from MadelineProto!', rtmpStream: true);
+$live->play(new RemoteUrl('https://example.com/video.mp4'));
+
+// Or over WebRTC, like a video chat (WebM/OGG files, or anything ffmpeg can convert).
+$live = $MadelineProto->startLive('me');
+$live->join();
+$live->play(new RemoteUrl('https://example.com/video.webm'));
+
+// End it.
+$live->discard();
+```
+
+### Streaming to a profile or livestream from its RTMP URL
+
+The Telegram apps can start a live story on a user's profile, or an RTMP livestream in a group or channel, "with another app": they show an RTMP server URL and a stream key, for encoders like OBS or ffmpeg. MadelineProto can be that encoder for anyone who gives it the URL and key, without being an admin or joining anything: `startRtmpStream()` returns an `RtmpStream`, with the playlist controls of a call (`play()`, `then()`, `playOnHold()`, `skip()`, `stop()`, `pause()`, `resume()`, `getCurrent()`; they're the methods of the `MediaPlayer` interface, which every call implements too).
+
+```php
+use danog\MadelineProto\LocalFile;
+use danog\MadelineProto\MediaDestination;
+use danog\MadelineProto\RemoteUrl;
+use danog\MadelineProto\RtmpServers;
+
+// The server URL followed by the stream key, as copied from the app (or startRtmpStream($url, $key)).
+$stream = $MadelineProto->startRtmpStream('rtmps://dc4-1.rtmp.t.me/s/123456:AbCdEf', servers: RtmpServers::Telegram);
+
+$stream->playOnHold(MediaDestination::Camera, new LocalFile('loop.mp4')); // Looped while the playlist is empty
+$stream->play(new RemoteUrl('https://example.com/video.mp4'));
+$stream->skip();
+
+// Stop streaming for good.
+$stream->close();
+```
+
+As in RTMP livestreams, only H.264 video and AAC audio can be streamed, in MP4 or Matroska files. MadelineProto connects when the stream is started, waits for the connection before playing (so that the first frames, and with them the first keyframe, aren't lost), and reconnects if the connection drops. The stream keeps going, across restarts too, until it's closed: `getRtmpStreams()` lists the streams, `getRtmpStream($url)` finds the one to a URL and key, and starting a stream to the same URL and key again returns the same one.
+
+When the URL comes from someone else (the users of a bot, say), restrict where MadelineProto may connect with `servers`, so that it can't be pointed into your own network:
+
+* `RtmpServers::Telegram`: only Telegram's RTMP servers (`*.rtmp.t.me`).
+* `RtmpServers::Internet`: only servers on the internet: every address the server's name resolves to must be global (no loopback, private, link-local, shared or reserved address).
+* `RtmpServers::Any`: any server (the default).
+
+The check is made both when the stream starts (`startRtmpStream()` throws an `RtmpAddressException`) and at each connection, connecting to the address that was checked: a stream whose server is refused later is closed.
+
 ## Conference calls
 
 [Conference calls](https://core.telegram.org/api/group-calls#conference-calls) are end-to-end encrypted multi-party calls not associated with any group, handled through the `ConferenceCall` object, which implements the same `MultiCall` interface (their encryption is implemented in pure PHP too, and uses the `sodium` and `openssl` extensions if available, for speed):
@@ -422,7 +472,7 @@ Invitations arrive as `DialogConferenceCall` service messages, which can be acce
 
 ## Restarts
 
-Calls survive restarts of MadelineProto: the calls we are in, their playlists and their recordings are saved in the session.
+Calls survive restarts of MadelineProto: the calls we are in, their playlists and their recordings are saved in the session, and so are the RTMP streams (see above), which reconnect after a restart.
 
 After a restart, the WebM or OGG file that was playing continues where it left off, the rest of the playlist and the hold files are played after it, and recordings continue in the same file. Files, URLs and resumable streams (such as the ones returned by `getStream()` on Telegram media) survive restarts; other streams can't be saved in the session.
 
