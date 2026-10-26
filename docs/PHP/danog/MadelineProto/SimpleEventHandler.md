@@ -77,6 +77,7 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`canUseFFmpeg(?\Amp\Cancellation $cancellation = NULL): bool`](#canUseFFmpeg)
 * [`cancelBroadcast(integer $id): void`](#cancelBroadcast)
 * [`closeConnection(string $message): void`](#closeConnection)
+* [`closeRtmpStream(int $id): void`](#closeRtmpStream)
 * [`complete2faLogin(string $password): array`](#complete2faLogin)
 * [`completePhoneLogin(string $code): array`](#completePhoneLogin)
 * [`completeSignup(string $first_name, string $last_name = ''): array`](#completeSignup)
@@ -162,6 +163,8 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`getPropicInfo(mixed $data): ?\danog\MadelineProto\EventHandler\Media\Photo`](#getPropicInfo)
 * [`getPsrLogger(): \Psr\Log\LoggerInterface`](#getPsrLogger)
 * [`getPwrChat(mixed $id, bool $fullfetch = true): array`](#getPwrChat)
+* [`getRtmpStream(string $url, ?string $key = NULL): ?\danog\MadelineProto\EventHandler\Calls\RtmpStream`](#getRtmpStream)
+* [`getRtmpStreams(): array<int, \danog\MadelineProto\EventHandler\Calls\RtmpStream>`](#getRtmpStreams)
 * [`getSecretChat((array|int) $chat): \danog\MadelineProto\SecretChats\SecretChat`](#getSecretChat)
 * [`getSecretMessage(integer $chatId, integer $randomId): \danog\MadelineProto\EventHandler\Message\SecretMessage`](#getSecretMessage)
 * [`getSelf(): array|false`](#getSelf)
@@ -205,6 +208,8 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`isIpcWorker(): bool`](#isIpcWorker)
 * [`isPlayPaused(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): bool`](#isPlayPaused)
 * [`isPremium(): bool`](#isPremium)
+* [`isRtmpStreamConnected(int $id): bool`](#isRtmpStreamConnected)
+* [`isRtmpStreamPlayPaused(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): bool`](#isRtmpStreamPlayPaused)
 * [`isSelfBot(): bool`](#isSelfBot)
 * [`isSelfUser(): bool`](#isSelfUser)
 * [`isTestMode(): boolean`](#isTestMode)
@@ -252,6 +257,14 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`rethrow(Throwable $e): void`](#rethrow)
 * [`rleDecode(string $string): string`](#rleDecode)
 * [`rleEncode(string $string): string`](#rleEncode)
+* [`rtmpStreamGetCurrent(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`](#rtmpStreamGetCurrent)
+* [`rtmpStreamPausePlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#rtmpStreamPausePlay)
+* [`rtmpStreamPlay(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#rtmpStreamPlay)
+* [`rtmpStreamPlayBlocking(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#rtmpStreamPlayBlocking)
+* [`rtmpStreamPlayOnHold(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): void`](#rtmpStreamPlayOnHold)
+* [`rtmpStreamResumePlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#rtmpStreamResumePlay)
+* [`rtmpStreamSkipPlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#rtmpStreamSkipPlay)
+* [`rtmpStreamStopPlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#rtmpStreamStopPlay)
 * [`saveDefaultGroupCallJoinAs((string|int) $peer, (string|int) $joinAs): void`](#saveDefaultGroupCallJoinAs)
 * [`sendAudio((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?string $mimeType = NULL, (integer|null) $duration = NULL, (string|null) $title = NULL, (string|null) $performer = NULL, ?int $ttl = NULL, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#sendAudio)
 * [`sendCustomEvent(mixed $payload): void`](#sendCustomEvent)
@@ -274,6 +287,7 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`sleep(float $time): void`](#sleep)
 * [`start(): array`](#start)
 * [`startLive((string|int) $peer, (string|null) $caption = NULL, (\danog\MadelineProto\ParseMode|null) $parseMode = NULL, list<array<string, mixed>> $privacyRules = [  0 =>   [    '_' => 'inputPrivacyValueAllowAll',  ],], bool $pinned = false, bool $noForwards = false, bool $rtmpStream = false, (bool|null) $messagesEnabled = NULL, (int|null) $sendPaidMessagesStars = NULL): \danog\MadelineProto\EventHandler\Calls\LiveStory`](#startLive)
+* [`startRtmpStream(string $url, ?string $key = NULL, \danog\MadelineProto\RtmpServers $servers = \danog\MadelineProto\RtmpServers::Any): \danog\MadelineProto\EventHandler\Calls\RtmpStream`](#startRtmpStream)
 * [`stop(): void`](#stop)
 * [`stopPlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#stopPlay)
 * [`stringToStream(string $str): \Amp\ByteStream\ReadableBuffer`](#stringToStream)
@@ -800,6 +814,19 @@ Close connection with client, connected via web.
 Parameters:
 
 * `$message`: `string` Message  
+
+
+
+### <a name="closeRtmpStream"></a> `closeRtmpStream(int $id): void`
+
+Stop publishing to an RTMP stream for good.
+  
+See {@see RtmpStream::close()}.  
+
+
+Parameters:
+
+* `$id`: `int`   
 
 
 
@@ -2007,6 +2034,38 @@ Parameters:
 
 
 
+### <a name="getRtmpStream"></a> `getRtmpStream(string $url, ?string $key = NULL): ?\danog\MadelineProto\EventHandler\Calls\RtmpStream`
+
+What we publish to an RTMP server with a URL and stream key, if anything.
+  
+See {@see self::startRtmpStream()}.  
+
+
+Parameters:
+
+* `$url`: `string` The URL of the RTMP application, or, without `$key`, the URL followed by the stream key.  
+* `$key`: `?string` The stream key.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Calls\RtmpStream`: What is played, published to an RTMP server as an RTMP encoder would (OBS, ffmpeg...): to the RTMP](../../danog/MadelineProto/EventHandler/Calls/RtmpStream.html)
+
+
+
+
+### <a name="getRtmpStreams"></a> `getRtmpStreams(): array<int, \danog\MadelineProto\EventHandler\Calls\RtmpStream>`
+
+What we publish to RTMP servers.
+  
+See {@see self::startRtmpStream()}.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Calls\RtmpStream`: What is played, published to an RTMP server as an RTMP encoder would (OBS, ffmpeg...): to the RTMP](../../danog/MadelineProto/EventHandler/Calls/RtmpStream.html)
+
+
+
+
 ### <a name="getSecretChat"></a> `getSecretChat((array|int) $chat): \danog\MadelineProto\SecretChats\SecretChat`
 
 Get secret chat.
@@ -2575,6 +2634,38 @@ Parameters:
 ### <a name="isPremium"></a> `isPremium(): bool`
 
 Returns whether the current user is a premium user, cached.
+
+
+
+### <a name="isRtmpStreamConnected"></a> `isRtmpStreamConnected(int $id): bool`
+
+Whether we are connected to the server of an RTMP stream right now.
+  
+See {@see RtmpStream::isConnected()}.  
+
+
+Parameters:
+
+* `$id`: `int`   
+
+
+
+### <a name="isRtmpStreamPlayPaused"></a> `isRtmpStreamPlayPaused(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): bool`
+
+Whether the file played to an RTMP stream is paused.
+  
+See {@see RtmpStream::isPaused()}.  
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
+
 
 
 
@@ -3187,6 +3278,172 @@ Parameters:
 
 
 
+### <a name="rtmpStreamGetCurrent"></a> `rtmpStreamGetCurrent(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`
+
+The file played to an RTMP stream.
+  
+See {@see RtmpStream::getCurrent()}.  
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
+
+
+
+
+### <a name="rtmpStreamPausePlay"></a> `rtmpStreamPausePlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`
+
+Pause the file played to an RTMP stream.
+  
+See {@see RtmpStream::pause()}.  
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
+
+
+
+
+### <a name="rtmpStreamPlay"></a> `rtmpStreamPlay(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`
+
+Play a file to an RTMP stream.
+  
+See {@see RtmpStream::play()}.  
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$file`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
+* `\Amp\ByteStream\ReadableStream`
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
+
+
+
+
+### <a name="rtmpStreamPlayBlocking"></a> `rtmpStreamPlayBlocking(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`
+
+Play a file to an RTMP stream, blocking until it has finished playing if a stream was passed.
+  
+See {@see RtmpStream::playBlocking()}.  
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$file`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
+* `\Amp\ByteStream\ReadableStream`
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
+
+
+
+
+### <a name="rtmpStreamPlayOnHold"></a> `rtmpStreamPlayOnHold(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): void`
+
+Set the files to play on loop to an RTMP stream while its playlist is empty.
+  
+See {@see RtmpStream::playOnHold()}.  
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+* `...$files`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
+* `\Amp\ByteStream\ReadableStream`
+
+
+
+
+### <a name="rtmpStreamResumePlay"></a> `rtmpStreamResumePlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`
+
+Resume the file played to an RTMP stream.
+  
+See {@see RtmpStream::resume()}.  
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
+
+
+
+
+### <a name="rtmpStreamSkipPlay"></a> `rtmpStreamSkipPlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`
+
+Skip to the next file played to an RTMP stream.
+  
+See {@see RtmpStream::skip()}.  
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
+
+
+
+
+### <a name="rtmpStreamStopPlay"></a> `rtmpStreamStopPlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`
+
+Stop playing all files to an RTMP stream, clearing its playlists.
+  
+See {@see RtmpStream::stop()}.  
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
+
+
+
+
 ### <a name="saveDefaultGroupCallJoinAs"></a> `saveDefaultGroupCallJoinAs((string|int) $peer, (string|int) $joinAs): void`
 
 Save the peer we join the video chats and livestreams of a group or channel as by default.
@@ -3758,6 +4015,32 @@ Parameters:
 #### See also: 
 * [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../danog/MadelineProto/ParseMode.html)
 * [`\danog\MadelineProto\EventHandler\Calls\LiveStory`: This update represents a Telegram [live story »](https://core.telegram.org/api/group-calls#live-stories):](../../danog/MadelineProto/EventHandler/Calls/LiveStory.html)
+
+
+
+
+### <a name="startRtmpStream"></a> `startRtmpStream(string $url, ?string $key = NULL, \danog\MadelineProto\RtmpServers $servers = \danog\MadelineProto\RtmpServers::Any): \danog\MadelineProto\EventHandler\Calls\RtmpStream`
+
+Publish what is played to an RTMP server, as an RTMP encoder would (OBS, ffmpeg...).
+  
+To the RTMP livestream or live story of any group, channel or user that gave us its URL and stream key (shown  
+by the Telegram apps when starting one "with another app"), to YouTube, Twitch, or any other RTMP(S) server.  
+  
+Only H.264 video and AAC audio can be published, in MP4 or Matroska (WebM) files. The stream keeps  
+publishing (reconnecting if needed, and across restarts) until {@see RtmpStream::close()}d; publishing  
+again to the same URL and key returns the same stream.  
+
+
+Parameters:
+
+* `$url`: `string` The URL of the RTMP application, e.g. `rtmps://dc4-1.rtmp.t.me/s/`, or, without `$key`, the URL followed by the stream key, e.g. `rtmps://dc4-1.rtmp.t.me/s/123456:AbCdEf`.  
+* `$key`: `?string` The stream key.  
+* `$servers`: `\danog\MadelineProto\RtmpServers` Which servers it may connect to, checked at each connection: when whoever chooses the URL must not make us connect anywhere (into our network, say). Otherwise, the stream is closed.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\RtmpServers`: Which RTMP servers an RTMP stream may connect to, see {@see API::startRtmpStream()}: when whoever chooses the URL](../../danog/MadelineProto/RtmpServers.html)
+* [`\danog\MadelineProto\EventHandler\Calls\RtmpStream`: What is played, published to an RTMP server as an RTMP encoder would (OBS, ffmpeg...): to the RTMP](../../danog/MadelineProto/EventHandler/Calls/RtmpStream.html)
 
 
 
