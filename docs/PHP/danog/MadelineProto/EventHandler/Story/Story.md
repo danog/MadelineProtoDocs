@@ -27,7 +27,8 @@ Represents a Telegram story.
 * `$expireDate`: `int` Expiration date of the story
 * `$caption`: `string` Story caption
 * `$entities`: `list<MessageEntity>` Message [entities](https://core.telegram.org/api/entities) for story caption
-* `$media`: `(danog\MadelineProto\EventHandler\Media\Gif | danog\MadelineProto\EventHandler\Media\Photo | danog\MadelineProto\EventHandler\Media\Video)` Attached media.
+* `$media`: `(danog\MadelineProto\EventHandler\Media\Gif | danog\MadelineProto\EventHandler\Media\Photo | danog\MadelineProto\EventHandler\Media\Video | danog\MadelineProto\EventHandler\Calls\LiveStory)` Attached media: for a live story, the live story itself (its details are those of the story until it's used, e.g.
+joined, which fetches the call).
 * `$privacy`: `list<RuleDestination>` 
 * `$sentReaction`: `(string | int | null)` Our reaction to the story
 * `$reactionCount`: `?int` Reaction counter
