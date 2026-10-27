@@ -82,7 +82,6 @@ params:
   page:
     width: wide
   theme:
-    default: dark
     displayToggle: true
   footer:
     enable: true
