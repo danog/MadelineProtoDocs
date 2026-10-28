@@ -100,6 +100,8 @@ Parameters:
 ### <a name="setCall"></a> `setCall(array $call): void`
 
 Point this controller at an existing conference (its groupCall), before joining it.
+  
+Also takes how it was found (its link or invitation), see joinInput.  
 
 
 Parameters:
