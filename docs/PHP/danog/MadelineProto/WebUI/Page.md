@@ -32,14 +32,16 @@ gets it in the `$page` variable; in the browser, the web app renders it again wi
 * `$template`: `string` 
 * `$view`: `string` 
 * `$data`: `array` 
+* `$sessions`: `array` 
+* `$session`: `?string` 
 
 ## Method list:
-* [`__construct(string $title, (string|\danog\MadelineProto\WebUI\SafeHtml) $lead = '', ?\danog\MadelineProto\WebUI\Step $step = NULL, list<\danog\MadelineProto\WebUI\Field> $fields = [], ?string $submit = NULL, list<\danog\MadelineProto\WebUI\Alert> $alerts = [], list<\danog\MadelineProto\WebUI\Action> $actions = [], list<(string|\danog\MadelineProto\WebUI\SafeHtml)> $instructions = [], ?string $qrEndpoint = NULL, string $template = 'page', string $view = 'setup', array<string, mixed> $data = [])`](#__construct)
+* [`__construct(string $title, (string|\danog\MadelineProto\WebUI\SafeHtml) $lead = '', ?\danog\MadelineProto\WebUI\Step $step = NULL, list<\danog\MadelineProto\WebUI\Field> $fields = [], ?string $submit = NULL, list<\danog\MadelineProto\WebUI\Alert> $alerts = [], list<\danog\MadelineProto\WebUI\Action> $actions = [], list<(string|\danog\MadelineProto\WebUI\SafeHtml)> $instructions = [], ?string $qrEndpoint = NULL, string $template = 'page', string $view = 'setup', array<string, mixed> $data = [], array<string, string> $sessions = [], ?string $session = NULL)`](#__construct)
 * [`jsonSerialize(): array`](#jsonSerialize)
 * [`addAlert(\danog\MadelineProto\WebUI\Alert ...$alerts): \danog\MadelineProto\WebUI\Page`](#addAlert)
 
 ## Methods:
-### <a name="__construct"></a> `__construct(string $title, (string|\danog\MadelineProto\WebUI\SafeHtml) $lead = '', ?\danog\MadelineProto\WebUI\Step $step = NULL, list<\danog\MadelineProto\WebUI\Field> $fields = [], ?string $submit = NULL, list<\danog\MadelineProto\WebUI\Alert> $alerts = [], list<\danog\MadelineProto\WebUI\Action> $actions = [], list<(string|\danog\MadelineProto\WebUI\SafeHtml)> $instructions = [], ?string $qrEndpoint = NULL, string $template = 'page', string $view = 'setup', array<string, mixed> $data = [])`
+### <a name="__construct"></a> `__construct(string $title, (string|\danog\MadelineProto\WebUI\SafeHtml) $lead = '', ?\danog\MadelineProto\WebUI\Step $step = NULL, list<\danog\MadelineProto\WebUI\Field> $fields = [], ?string $submit = NULL, list<\danog\MadelineProto\WebUI\Alert> $alerts = [], list<\danog\MadelineProto\WebUI\Action> $actions = [], list<(string|\danog\MadelineProto\WebUI\SafeHtml)> $instructions = [], ?string $qrEndpoint = NULL, string $template = 'page', string $view = 'setup', array<string, mixed> $data = [], array<string, string> $sessions = [], ?string $session = NULL)`
 
 
 
@@ -58,6 +60,10 @@ Parameters:
 * `$template`: `string` Template used to render the page on the server  
 * `$view`: `string` View used to render the page in the web app  
 * `$data`: `array<string, mixed>` Additional variables for custom templates  
+* `$sessions`: `array<string, string>` The sessions to choose from (key => name), on the login pages of
+                                              {@see \danog\MadelineProto\API::startAndLoopMulti()}: those not
+                                              logged in yet  
+* `$session`: `?string` Key of the session of the page, among $sessions  
 
 
 #### See also: 
