@@ -178,12 +178,12 @@ use danog\MadelineProto\EventHandler\Media\Document;
 use danog\MadelineProto\EventHandler\Message\PrivateMessage;
 use danog\MadelineProto\EventHandler\SimpleFilter\Incoming;
 
-// Plays the WebM and OGG files we receive into a call with the sender.
+// Plays the WebM, MP4 and OGG files we receive into a call with the sender.
 #[Handler]
 public function playFile(Incoming&PrivateMessage $message): void
 {
     if ($message->media instanceof Document
-        && in_array($message->media->mimeType, ['audio/ogg', 'video/webm'], true)
+        && in_array($message->media->mimeType, ['audio/ogg', 'video/webm', 'video/mp4'], true)
         && $message->canRequestCall()
     ) {
         $message->requestCall()->play($message->media->getStream());
@@ -195,18 +195,21 @@ public function playFile(Incoming&PrivateMessage $message): void
 
 MadelineProto plays these formats on its own, without ffmpeg or any extension:
 
-* **WebM and Matroska** (`.webm`, `.mkv`) files, with:
+* **WebM, Matroska and MP4** (`.webm`, `.mkv`, `.mp4`) files, with:
   * **VP8**, **VP9**, **H.264** or **H.265** video (**AV1** can also be used in one-to-one calls, if the other party's app supports it);
-  * **OPUS** audio.
+  * **OPUS** or **AAC** audio.
   
-  Files may hold video and audio, video only or audio only. Other audio codecs (Vorbis, AAC...) are skipped with a warning, as are video tracks after the first one.
+  Files may hold video and audio, video only or audio only. Other audio codecs (Vorbis, MP3...) are skipped with a warning, as are video tracks after the first one.
+  The `moov` box of an MP4 file must precede its media data (`ffmpeg -i input -c copy -movflags +faststart output.mp4`), unless the file is fragmented or small.
 * **OGG OPUS** (`.ogg`, `.opus`) files, mono or stereo, with any frame size.
 
 Files in these formats can be local files, URLs or streams.
 
-YouTube videos (h264, h265, VP8, VP9 inside .webm, .mkv) can also be sent as-is, without re-encoding (including in streaming mode).
+Video, and OPUS audio, are sent as they are, without re-encoding. Calls can only carry OPUS audio, so AAC audio (AAC-LC, and HE-AAC without its high-frequency extension) is converted to OPUS on the fly: with ffmpeg and libopus if the FFI extension, libopus and ffmpeg are installed on the server, otherwise in pure PHP (which uses more CPU). [RTMP livestreams](#streaming-to-a-profile-or-livestream-from-its-rtmp-url) carry the AAC audio as it is.
 
-Other formats (MP3, FLAC, WAV, MP4...) can only be played if the FFI extension, libopus and ffmpeg are installed on the server, in which case their audio is converted on the fly (any video is dropped).
+YouTube videos (h264, h265, VP8, VP9 inside .webm, .mkv, .mp4) can also be sent as-is, without re-encoding (including in streaming mode).
+
+Other formats (MP3, FLAC, WAV...) can only be played if the FFI extension, libopus and ffmpeg are installed on the server, in which case their audio is converted on the fly (any video is dropped).
 
 ## Playlists and screen sharing
 
