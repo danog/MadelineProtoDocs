@@ -36,6 +36,8 @@ participant has donated ({@see self::$paidStarsTotal}).
 * `$about`: `?string` Bio of the participant, if any.
 * `$raiseHandRating`: `?int` Raised hand rating, if the participant raised their hand.
 * `$volumeByAdmin`: `bool` Whether the participant's volume was set by an admin.
+* `$retransmissionSources`: `array<int, int>` The retransmission (RTX) SSRC of each of the {@see self::$videoSources} and {@see self::$presentationSources} that
+has one (the second source of its FID group), signed, by SSRC: the SFU resends the lost packets of the stream on it.
 * `$peerId`: `int` Bot API ID of the peer this participant is (a user id, in a conference).
 
 ## Method list:
