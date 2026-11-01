@@ -465,6 +465,7 @@ Here's the full list of simple filter interfaces (see [attribute filters](#attri
 * [danog\MadelineProto\EventHandler\SimpleFilter\IsNotEdited &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/IsNotEdited.html) - 
 * [danog\MadelineProto\EventHandler\SimpleFilter\IsReply &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/IsReply.html) - 
 * [danog\MadelineProto\EventHandler\SimpleFilter\IsReplyToSelf &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/IsReplyToSelf.html) - 
+* [danog\MadelineProto\EventHandler\SimpleFilter\IsRichMessage &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/IsRichMessage.html) - 
 * [danog\MadelineProto\EventHandler\SimpleFilter\Outgoing &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/Outgoing.html) - 
 * [danog\MadelineProto\EventHandler\SimpleFilter\Running &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/SimpleFilter/Running.html) - 
 
@@ -569,6 +570,7 @@ Here's the full list of filter attributes (see the [MTProto filters &raquo;](#mt
 * [danog\MadelineProto\EventHandler\Filter\FilterRegexMatchAll(non-empty-string $regex, int $flags = 0, int $offset = 0) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterRegexMatchAll.html) - Allow only messages or button queries matching the specified regex.
 * [danog\MadelineProto\EventHandler\Filter\FilterReply &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterReply.html) - Allow messages that reply to other messages.
 * [danog\MadelineProto\EventHandler\Filter\FilterReplyToSelf &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterReplyToSelf.html) - Allow messages that reply to one of our messages.
+* [danog\MadelineProto\EventHandler\Filter\FilterRichMessage &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterRichMessage.html) - Allow only [rich messages](https://core.telegram.org/bots/api#richmessage) (sent with sendRichMessage).
 * [danog\MadelineProto\EventHandler\Filter\FilterRunning &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterRunning.html) - Allow only running calls.
 * [danog\MadelineProto\EventHandler\Filter\FilterSecret &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterSecret.html) - Allow only updates coming from secret chats.
 * [danog\MadelineProto\EventHandler\Filter\FilterSender(string|int $peer) &raquo;](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/EventHandler/Filter/FilterSender.html) - Allow incoming or outgoing group messages made by a certain sender.
