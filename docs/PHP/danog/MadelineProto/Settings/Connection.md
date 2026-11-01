@@ -27,8 +27,6 @@ Connection settings.
 * [`setSslSubdomains(array $sslSubdomains): \danog\MadelineProto\Settings\Connection`](#setSslSubdomains)
 * [`getMaxMediaSocketCount(): int`](#getMaxMediaSocketCount)
 * [`setMaxMediaSocketCount(int $maxMediaSocketCount): \danog\MadelineProto\Settings\Connection`](#setMaxMediaSocketCount)
-* [`getRobinPeriod(): int`](#getRobinPeriod)
-* [`setRobinPeriod(int $robinPeriod): \danog\MadelineProto\Settings\Connection`](#setRobinPeriod)
 * [`getProxies(): array<class-string<\danog\MadelineProto\Stream\StreamInterface>, array>`](#getProxies)
 * [`addProxy(class-string<\danog\MadelineProto\Stream\StreamInterface> $proxy, array $extra = []): \danog\MadelineProto\Settings\Connection`](#addProxy)
 * [`setProxies(array<class-string<\danog\MadelineProto\Stream\StreamInterface>, list<array>> $proxies): \danog\MadelineProto\Settings\Connection`](#setProxies)
@@ -187,23 +185,6 @@ Set maximum media socket count.
 Parameters:
 
 * `$maxMediaSocketCount`: `int` Maximum media socket count.  
-
-
-
-### <a name="getRobinPeriod"></a> `getRobinPeriod(): int`
-
-Get robin period (seconds).
-
-
-
-### <a name="setRobinPeriod"></a> `setRobinPeriod(int $robinPeriod): \danog\MadelineProto\Settings\Connection`
-
-Set robin period (seconds).
-
-
-Parameters:
-
-* `$robinPeriod`: `int` Robin period (seconds).  
 
 
 

@@ -43,6 +43,7 @@ Regex matches, if a filter multiple match regex is present
 
 ## Method list:
 * [`reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, (array|null) $replyMarkup = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $background = false, boolean $clearDraft = false, boolean $noWebpage = false, boolean $updateStickersetsOrder = false): \danog\MadelineProto\EventHandler\Message`](#reply)
+* [`replyRich((string|array|\danog\MadelineProto\EventHandler\Message\RichMessage) $message, \danog\MadelineProto\RichParseMode $parseMode = \danog\MadelineProto\RichParseMode::TEXT, (array|null) $replyMarkup = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $background = false, boolean $clearDraft = false, array $media = [], boolean $rtl = false, boolean $noAutolink = false): \danog\MadelineProto\EventHandler\Message`](#replyRich)
 * [`delete(): void`](#delete)
 * [`exportLink(): string`](#exportLink)
 * [`report(\danog\MadelineProto\EventHandler\Message\ReportReason $reason, string $message = ''): boolean`](#report)
@@ -74,6 +75,33 @@ Parameters:
 
 #### See also: 
 * [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../danog/MadelineProto/ParseMode.html)
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../danog/MadelineProto/EventHandler/Message.html)
+
+
+
+
+### <a name="replyRich"></a> `replyRich((string|array|\danog\MadelineProto\EventHandler\Message\RichMessage) $message, \danog\MadelineProto\RichParseMode $parseMode = \danog\MadelineProto\RichParseMode::TEXT, (array|null) $replyMarkup = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $background = false, boolean $clearDraft = false, array $media = [], boolean $rtl = false, boolean $noAutolink = false): \danog\MadelineProto\EventHandler\Message`
+
+Reply to the story with a [rich message](https://core.telegram.org/bots/api#sendrichmessage).
+
+
+Parameters:
+
+* `$message`: `(string|array|\danog\MadelineProto\EventHandler\Message\RichMessage)` Rich message: Markdown or HTML (depending on $parseMode), a list of blocks (Block objects or Bot API InputRichBlock arrays), a received RichMessage, or a Bot API InputRichMessage (see sendRichMessage)  
+* `$parseMode`: `\danog\MadelineProto\RichParseMode` How to parse a string $message: plain text (the default) is sent as a single paragraph, Markdown and HTML are parsed by Telegram.  
+* `$replyMarkup`: `(array|null)` Keyboard information.  
+* `$scheduleDate`: `(integer|null)` Schedule date.  
+* `$silent`: `boolean` Whether to send the message silently, without triggering notifications.  
+* `$background`: `boolean` Send this message as background message  
+* `$clearDraft`: `boolean` Clears the draft field  
+* `$media`: `array` Media referenced by Markdown or HTML messages, as a map from ID to file (see sendRichMessage).  
+* `$rtl`: `boolean` Whether the text is right-to-left  
+* `$noAutolink`: `boolean` Whether to skip the automatic detection of mentions, hashtags, URLs and so on  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message\RichMessage`: A rich message: structured text made of blocks (headings, paragraphs, lists, tables, quotes, media, buttons and so on).](../../../../danog/MadelineProto/EventHandler/Message/RichMessage.html)
+* [`\danog\MadelineProto\RichParseMode`: How to parse the text of a [rich message](https://core.telegram.org/bots/api#sendrichmessage).](../../../../danog/MadelineProto/RichParseMode.html)
 * [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../danog/MadelineProto/EventHandler/Message.html)
 
 

@@ -39,6 +39,7 @@ The [wallpaper](https://core.telegram.org/api/wallpapers) of the current chat wa
 * [`getReply(class-string<T> $class = 'danog\\MadelineProto\\EventHandler\\AbstractMessage'): ?T`](#getReply)
 * [`delete(boolean $revoke = true): void`](#delete)
 * [`reply(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $noWebpage = false, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, ?\Amp\Cancellation $cancellation = NULL, (integer|string|null) $peer = NULL): \danog\MadelineProto\EventHandler\Message`](#reply)
+* [`replyRich((string|array|\danog\MadelineProto\EventHandler\Message\RichMessage) $message, \danog\MadelineProto\RichParseMode $parseMode = \danog\MadelineProto\RichParseMode::TEXT, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, array $media = [], boolean $rtl = false, boolean $noAutolink = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#replyRich)
 * [`replyDocument((\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?string $mimeType = NULL, ?int $ttl = NULL, bool $spoiler = false, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL, (integer|string|null) $peer = NULL): \danog\MadelineProto\EventHandler\Message`](#replyDocument)
 * [`replyVideo((\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, string $mimeType = 'video/mp4', (integer|null) $ttl = NULL, boolean $spoiler = false, boolean $roundMessage = false, boolean $supportsStreaming = true, boolean $noSound = false, (integer|null) $duration = NULL, (integer|null) $width = NULL, (integer|null) $height = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, bool $updateStickersetsOrder = false, \Amp\Cancellation $cancellation = NULL, (integer|string|null) $peer = NULL): \danog\MadelineProto\EventHandler\Message`](#replyVideo)
 * [`replyGif((\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, (integer|null) $ttl = NULL, boolean $spoiler = false, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, ?\Amp\Cancellation $cancellation = NULL, (integer|string|null) $peer = NULL): \danog\MadelineProto\EventHandler\Message`](#replyGif)
@@ -47,6 +48,7 @@ The [wallpaper](https://core.telegram.org/api/wallpapers) of the current chat wa
 * [`replyPhoto((\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?int $ttl = NULL, bool $spoiler = false, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL, (integer|string|null) $peer = NULL): \danog\MadelineProto\EventHandler\Message`](#replyPhoto)
 * [`replySticker((\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, string $mimeType, string $emoji = '', ?callable $callback = NULL, ?string $fileName = NULL, ?int $ttl = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL, (integer|string|null) $peer = NULL): \danog\MadelineProto\EventHandler\Message`](#replySticker)
 * [`sendText(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $noWebpage = false, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#sendText)
+* [`sendRich((string|array|\danog\MadelineProto\EventHandler\Message\RichMessage) $message, \danog\MadelineProto\RichParseMode $parseMode = \danog\MadelineProto\RichParseMode::TEXT, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, array $media = [], boolean $rtl = false, boolean $noAutolink = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#sendRich)
 * [`block(): bool`](#block)
 * [`unblock(): bool`](#unblock)
 * [`getStories(): list<\danog\MadelineProto\EventHandler\AbstractStory>`](#getStories)
@@ -135,6 +137,37 @@ Parameters:
 
 #### See also: 
 * [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../../danog/MadelineProto/ParseMode.html)
+* `\Amp\Cancellation`
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../../danog/MadelineProto/EventHandler/Message.html)
+
+
+
+
+### <a name="replyRich"></a> `replyRich((string|array|\danog\MadelineProto\EventHandler\Message\RichMessage) $message, \danog\MadelineProto\RichParseMode $parseMode = \danog\MadelineProto\RichParseMode::TEXT, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, array $media = [], boolean $rtl = false, boolean $noAutolink = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`
+
+Reply to the message with a [rich message](https://core.telegram.org/bots/api#sendrichmessage).
+
+
+Parameters:
+
+* `$message`: `(string|array|\danog\MadelineProto\EventHandler\Message\RichMessage)` Rich message: Markdown or HTML (depending on $parseMode), a list of blocks (Block objects or Bot API InputRichBlock arrays), a received RichMessage, or a Bot API InputRichMessage (see sendRichMessage)  
+* `$parseMode`: `\danog\MadelineProto\RichParseMode` How to parse a string $message: plain text (the default) is sent as a single paragraph, Markdown and HTML are parsed by Telegram.  
+* `$replyMarkup`: `(array|null)` Keyboard information.  
+* `$sendAs`: `(integer|string|null)` Peer to send the message as.  
+* `$scheduleDate`: `(integer|null)` Schedule date.  
+* `$silent`: `boolean` Whether to send the message silently, without triggering notifications.  
+* `$noForwards`: `boolean` Only for bots, disallows further re-forwarding and saving of the messages, even if the destination chat doesn’t have [content protection](https://telegram.org/blog/protected-content-delete-by-date-and-more) enabled  
+* `$background`: `boolean` Send this message as background message  
+* `$clearDraft`: `boolean` Clears the draft field  
+* `$media`: `array` Media referenced by Markdown or HTML messages, as a map from ID to file (see sendRichMessage).  
+* `$rtl`: `boolean` Whether the text is right-to-left  
+* `$noAutolink`: `boolean` Whether to skip the automatic detection of mentions, hashtags, URLs and so on  
+* `$cancellation`: `?\Amp\Cancellation` Cancellation  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message\RichMessage`: A rich message: structured text made of blocks (headings, paragraphs, lists, tables, quotes, media, buttons and so on).](../../../../../danog/MadelineProto/EventHandler/Message/RichMessage.html)
+* [`\danog\MadelineProto\RichParseMode`: How to parse the text of a [rich message](https://core.telegram.org/bots/api#sendrichmessage).](../../../../../danog/MadelineProto/RichParseMode.html)
 * `\Amp\Cancellation`
 * [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../../danog/MadelineProto/EventHandler/Message.html)
 
@@ -469,6 +502,37 @@ Parameters:
 
 #### See also: 
 * [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../../../../danog/MadelineProto/ParseMode.html)
+* `\Amp\Cancellation`
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../../danog/MadelineProto/EventHandler/Message.html)
+
+
+
+
+### <a name="sendRich"></a> `sendRich((string|array|\danog\MadelineProto\EventHandler\Message\RichMessage) $message, \danog\MadelineProto\RichParseMode $parseMode = \danog\MadelineProto\RichParseMode::TEXT, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, array $media = [], boolean $rtl = false, boolean $noAutolink = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`
+
+Send a [rich message](https://core.telegram.org/bots/api#sendrichmessage) to the chat of the message.
+
+
+Parameters:
+
+* `$message`: `(string|array|\danog\MadelineProto\EventHandler\Message\RichMessage)` Rich message: Markdown or HTML (depending on $parseMode), a list of blocks (Block objects or Bot API InputRichBlock arrays), a received RichMessage, or a Bot API InputRichMessage (see sendRichMessage)  
+* `$parseMode`: `\danog\MadelineProto\RichParseMode` How to parse a string $message: plain text (the default) is sent as a single paragraph, Markdown and HTML are parsed by Telegram.  
+* `$replyMarkup`: `(array|null)` Keyboard information.  
+* `$sendAs`: `(integer|string|null)` Peer to send the message as.  
+* `$scheduleDate`: `(integer|null)` Schedule date.  
+* `$silent`: `boolean` Whether to send the message silently, without triggering notifications.  
+* `$noForwards`: `boolean` Only for bots, disallows further re-forwarding and saving of the messages, even if the destination chat doesn’t have [content protection](https://telegram.org/blog/protected-content-delete-by-date-and-more) enabled  
+* `$background`: `boolean` Send this message as background message  
+* `$clearDraft`: `boolean` Clears the draft field  
+* `$media`: `array` Media referenced by Markdown or HTML messages, as a map from ID to file (see sendRichMessage).  
+* `$rtl`: `boolean` Whether the text is right-to-left  
+* `$noAutolink`: `boolean` Whether to skip the automatic detection of mentions, hashtags, URLs and so on  
+* `$cancellation`: `?\Amp\Cancellation` Cancellation  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message\RichMessage`: A rich message: structured text made of blocks (headings, paragraphs, lists, tables, quotes, media, buttons and so on).](../../../../../danog/MadelineProto/EventHandler/Message/RichMessage.html)
+* [`\danog\MadelineProto\RichParseMode`: How to parse the text of a [rich message](https://core.telegram.org/bots/api#sendrichmessage).](../../../../../danog/MadelineProto/RichParseMode.html)
 * `\Amp\Cancellation`
 * [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../../danog/MadelineProto/EventHandler/Message.html)
 

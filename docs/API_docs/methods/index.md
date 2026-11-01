@@ -1598,6 +1598,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="account.acceptAuthorization.html" name="account.acceptAuthorization">Sends a Telegram Passport authorization form, effectively sharing data with the service: account.acceptAuthorization</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#sendRichMessageToAdmins" name="sendRichMessageToAdmins">Sends a [rich message](https://core.telegram.org/bots/api#sendrichmessage) to all report peers (admins of the bot), see sendRichMessage: sendRichMessageToAdmins</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#sendRichMessage" name="sendRichMessage">Sends a [rich message](https://core.telegram.org/bots/api#sendrichmessage): structured text made of blocks (headings, paragraphs, lists, tables, quotes, media, buttons and so on): sendRichMessage</a>
+
 * <a href="messages.setTyping.html" name="messages.setTyping">Sends a current user typing event (see SendMessageAction for all event types) to a conversation partner or group: messages.setTyping</a>
 
 * <a href="bots.sendCustomRequest.html" name="bots.sendCustomRequest">Sends a custom request; for bots only: bots.sendCustomRequest</a>
@@ -1725,6 +1729,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#stopPlay" name="stopPlay">Stops playing all files in the call, clears the main and the hold playlist: stopPlay</a>
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#getCdnConfig" name="getCdnConfig">Store RSA keys for CDN datacenters: getCdnConfig</a>
+
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#sendRichMessageDraft" name="sendRichMessageDraft">Streams a partial [rich message](https://core.telegram.org/bots/api#sendrichmessagedraft) to a private chat while it is being generated (e.g. by an AI), see sendRichMessage for the supported formats: sendRichMessageDraft</a>
 
 * <a href="payments.validateRequestedInfo.html" name="payments.validateRequestedInfo">Submit requested order information for validation: payments.validateRequestedInfo</a>
 
