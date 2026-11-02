@@ -17,6 +17,7 @@ A list of all of the methods that can be called with MadelineProto can be found 
 * [Files](https://docs.madelineproto.xyz/docs/FILES.html)
 * [Secret chats](#secret-chats)
 * [Entities (Markdown & HTML)](#entities)
+* [Rich messages](#rich-messages)
 * [reply_markup (keyboards & inline keyboards)](#reply_markup)
 * [bot API objects](#bot-api-objects)
 * [No result](#no-result)
@@ -61,6 +62,60 @@ $MadelineProto->messages->sendMessage(peer: '@danogentili', message: '<a href="h
 ```
 
 
+
+## Rich messages
+
+[Rich messages](https://core.telegram.org/bots/api#sendrichmessage) are messages made of structured blocks: headings, paragraphs, lists, tables, quotes, collapsible details, maths, maps, media and buttons.
+
+Send them with `sendRichMessage`, passing Markdown or HTML (parsed by Telegram), or a list of blocks in the format of the Bot API's [InputRichBlock](https://core.telegram.org/bots/api#inputrichblock) type:
+
+```php
+use danog\MadelineProto\LocalFile;
+use danog\MadelineProto\ParseMode;
+
+// Markdown (the default) or HTML
+$MadelineProto->sendRichMessage(
+    peer: '@danogentili',
+    message: "# Shopping list\n\n- [x] Milk\n- [ ] Eggs\n\n| Item | Price |\n|---|---|\n| Milk | 1€ |\n\n![A cat](tg://photo?id=cat)",
+    media: ['cat' => $MadelineProto->uploadPhoto(file: new LocalFile('cat.jpg'), peer: '@danogentili')],
+);
+$MadelineProto->sendRichMessage(peer: '@danogentili', message: '<h1>Title</h1><p>Some <b>HTML</b></p>', parseMode: ParseMode::HTML);
+
+// Blocks
+$MadelineProto->sendRichMessage(peer: '@danogentili', message: [
+    ['type' => 'heading', 'size' => 1, 'text' => 'Title'],
+    ['type' => 'paragraph', 'text' => ['Some ', ['type' => 'bold', 'text' => 'bold'], ' text']],
+    ['type' => 'list', 'items' => [
+        ['blocks' => [['type' => 'paragraph', 'text' => 'First']], 'type' => '1', 'value' => 1],
+        ['blocks' => [['type' => 'paragraph', 'text' => 'Second']], 'type' => '1', 'value' => 2],
+    ]],
+    ['type' => 'photo', 'photo' => ['type' => 'photo', 'media' => new LocalFile('cat.jpg')], 'caption' => ['text' => 'A cat']],
+    ['type' => 'buttons', 'buttons' => [['text' => 'Docs', 'url' => 'https://docs.madelineproto.xyz', 'style' => 'primary']]],
+]);
+```
+
+Media (in blocks, or referenced by ID in Markdown with `![alt](tg://photo?id=ID)` and `![alt](tg://document?id=ID)`) can be `Media` or `Message` objects, bot API file IDs, or files to upload (`LocalFile`, `RemoteUrl`, `ReadableStream`), optionally wrapped in a bot API InputMedia-like array to specify the type (`['type' => 'video', 'media' => new LocalFile('video.mp4')]`).
+
+Rich messages can also be:
+
+* Streamed while they're being generated (e.g. by an AI), with `sendRichMessageDraft` (call it again with the returned draft ID to update the draft, then send the final message with `sendRichMessage`).
+* Sent from the event handler with `$message->replyRich(...)`, `$message->sendRich(...)`, `$message->editRich(...)`, `$message->replyOrEditRich(...)`, `$query->editRich(...)` for callback queries, `$story->replyRich(...)` and `sendRichMessageToAdmins(...)`.
+* Passed to raw methods (`messages.sendMessage`, `messages.editMessage`, `inputBotInlineMessageRichMessage`, ...) as a bot API [InputRichMessage](https://core.telegram.org/bots/api#inputrichmessage) in the `rich_message` parameter, as an array or JSON string.
+
+Received rich messages are available in `$message->richMessage`, which has the same API as messages for their text and media:
+
+```php
+$rich = $message->richMessage;
+$rich->message;   // Plain text version
+$rich->entities;  // Entities of the styled text (headings are bold, quotes are block quotes, ...)
+$rich->getHTML(); // HTML version
+$rich->media;     // Media of the media blocks
+$rich->blocks;    // Blocks, in the bot API RichBlock format (with MadelineProto Media objects)
+
+$message->replyRich($rich); // Rich messages can be sent again as-is
+```
+
+`MTProtoToBotAPI` converts the `rich_message` of messages to bot API objects.
 
 ## reply_markup
 reply_markup accepts bot API reply markup objects as well as MTProto ones.
