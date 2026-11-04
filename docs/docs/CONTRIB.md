@@ -59,8 +59,7 @@ src/
     RPCErrorException - Handles RPC errors
     MTProto - Handles initial connection, generation of authorization keys, instantiation of classes, writing of client info
     Logger - Static logging class
-    prime.py and getpq.py - prime module (python) for p and q generation
-    PrimeModule.php - prime module (php) for p and q generation by wrapping the python module, using wolfram alpha or a built in PHP engine
+    p and q factorization: the MadelineCrypto extension (Crypto::factorize), or the danog/primemodule PHP fallbacks
     RSA - Handles RSA public keys and signatures
     Tools - Various tools (positive modulus, string2bin, python-like range)
 ```

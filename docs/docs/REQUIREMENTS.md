@@ -8,7 +8,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 MadelineProto requires the `mbstring`, `xml`, `json`, `fileinfo`, `gmp`, `openssl`, `iconv`, `gd` extensions to function properly.
 
-The `ffi` and `uv` extensions and the [PrimeModule](https://prime.madelineproto.xyz/) and `nghttp2` libraries are also highly recommended to improve performance.
+The `ffi` and `uv` extensions, the [MadelineCrypto](https://github.com/danog/MadelineCrypto) extension and the `nghttp2` library are also highly recommended to improve performance.
+
+MadelineCrypto is MadelineProto's native cryptography extension (faster encryption, calls and auth key generation), included in the docker image; elsewhere, install it with [PIE](https://github.com/php/pie) (prebuilt for Linux, Mac OS and Windows):
+
+```bash
+pie install danog/madelinecrypto
+```
 
 **PHP 8.3+ is required, 8.4 is recommended**.
 
@@ -49,10 +55,9 @@ sudo mkdir -p /etc/security/limits.d/
 echo '* soft nofile 1048576' | sudo tee -a /etc/security/limits.d/40-madelineproto.conf
 echo '* hard nofile 1048576' | sudo tee -a /etc/security/limits.d/40-madelineproto.conf
 
-cd /tmp
-sudo apt-get install build-essential
-git clone https://github.com/danog/PrimeModule-ext
-cd PrimeModule-ext && make -j$(nproc) && sudo make install
+curl -fsSL -o /tmp/pie.phar https://github.com/php/pie/releases/latest/download/pie.phar
+sudo install /tmp/pie.phar /usr/local/bin/pie
+sudo pie install danog/madelinecrypto
 
 ```
 
