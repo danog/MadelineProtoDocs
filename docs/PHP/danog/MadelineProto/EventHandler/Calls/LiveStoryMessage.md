@@ -23,10 +23,19 @@ donation ({@see self::$paidStars}); a donation with an empty text is a standalon
 * `$paidStars`: `?int` Telegram Stars donated with this message, if any.
 * `$id`: `int` ID of the message in the call.
 * `$fromAdmin`: `bool` Whether the sender is an admin of the call.
+* `$peerId`: `?int` Bot API ID of the peer the call belongs to (the group or channel of a video chat, the poster of a live story), if known.
 * `$callId`: `int` ID of the call the message was sent in.
 * `$fromId`: `int` Bot API ID of the sender.
 * `$date`: `int` When the message was sent.
 * `$message`: `danog\MadelineProto\EventHandler\Message\Entities\TextWithEntities` The text of the message (or the emoji of a reaction) with its entities.
+* `$out`: `bool` Whether we sent the message.
+* `$command`: `?string` Bot command (if present)
+* `$commandType`: `?danog\MadelineProto\EventHandler\CommandType` Bot command type (if present)
+* `$commandArgs`: `list<string>` Bot command arguments (if present)
+* `$matches`: `list<string>` 
+Regex matches, if a filter regex is present
+* `$matchesAll`: `array<array-key, (array<array-key, (list{string, int} | null | string)> | mixed)>` 
+Regex matches, if a filter multiple match regex is present
 
 ## Method list:
 * [`isReaction(): bool`](#isReaction)

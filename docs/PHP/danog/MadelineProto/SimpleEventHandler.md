@@ -77,6 +77,7 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`canUseFFmpeg(?\Amp\Cancellation $cancellation = NULL): bool`](#canUseFFmpeg)
 * [`cancelBroadcast(integer $id): void`](#cancelBroadcast)
 * [`closeConnection(string $message): void`](#closeConnection)
+* [`closeRtmpStream(int $id): void`](#closeRtmpStream)
 * [`complete2faLogin(string $password): array`](#complete2faLogin)
 * [`completePhoneLogin(string $code): array`](#completePhoneLogin)
 * [`completeSignup(string $first_name, string $last_name = ''): array`](#completeSignup)
@@ -162,6 +163,8 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`getPropicInfo(mixed $data): ?\danog\MadelineProto\EventHandler\Media\Photo`](#getPropicInfo)
 * [`getPsrLogger(): \Psr\Log\LoggerInterface`](#getPsrLogger)
 * [`getPwrChat(mixed $id, bool $fullfetch = true): array`](#getPwrChat)
+* [`getRtmpStream(string $url, ?string $key = NULL): ?\danog\MadelineProto\EventHandler\Calls\RtmpStream`](#getRtmpStream)
+* [`getRtmpStreams(): array<int, \danog\MadelineProto\EventHandler\Calls\RtmpStream>`](#getRtmpStreams)
 * [`getSecretChat((array|int) $chat): \danog\MadelineProto\SecretChats\SecretChat`](#getSecretChat)
 * [`getSecretMessage(integer $chatId, integer $randomId): \danog\MadelineProto\EventHandler\Message\SecretMessage`](#getSecretMessage)
 * [`getSelf(): array|false`](#getSelf)
@@ -171,7 +174,7 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`getStream(\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream $stream, ?\Amp\Cancellation $cancellation = NULL, ?int $size = NULL): \Amp\ByteStream\ReadableStream`](#getStream)
 * [`getStreamPipe(): \Amp\ByteStream\Pipe`](#getStreamPipe)
 * [`getType(mixed $id): \danog\MadelineProto\API::PEER_TYPE_*`](#getType)
-* [`getUpdates(array{offset?: int, limit?: int, timeout?: float} $params = []): list<array{update_id: mixed, update: mixed}>`](#getUpdates)
+* [`getUpdates(array{offset?: int, limit?: int, timeout?: float} $params = [], ?\Amp\Cancellation $cancellation = NULL): list<array{update_id: mixed, update: mixed}>`](#getUpdates)
 * [`getWebMessage(string $message): string`](#getWebMessage)
 * [`getWebWarnings(): string`](#getWebWarnings)
 * [`groupCallGetCurrent(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`](#groupCallGetCurrent)
@@ -205,6 +208,8 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`isIpcWorker(): bool`](#isIpcWorker)
 * [`isPlayPaused(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): bool`](#isPlayPaused)
 * [`isPremium(): bool`](#isPremium)
+* [`isRtmpStreamConnected(int $id): bool`](#isRtmpStreamConnected)
+* [`isRtmpStreamPlayPaused(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): bool`](#isRtmpStreamPlayPaused)
 * [`isSelfBot(): bool`](#isSelfBot)
 * [`isSelfUser(): bool`](#isSelfUser)
 * [`isTestMode(): boolean`](#isTestMode)
@@ -238,7 +243,7 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`qrLogin(): ?\danog\MadelineProto\TL\Types\LoginQrCode`](#qrLogin)
 * [`random(integer $length): string`](#random)
 * [`randomInt(integer $modulus = 0): int`](#randomInt)
-* [`readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL): string`](#readLine)
+* [`readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL, bool $hidden = false, ?string $hideAfter = NULL): string`](#readLine)
 * [`refreshFullPeerCache(mixed $id): void`](#refreshFullPeerCache)
 * [`refreshPeerCache(mixed ...$ids): void`](#refreshPeerCache)
 * [`renderPromStats(?\Prometheus\RendererInterface $renderer = NULL): string`](#renderPromStats)
@@ -252,18 +257,29 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`rethrow(Throwable $e): void`](#rethrow)
 * [`rleDecode(string $string): string`](#rleDecode)
 * [`rleEncode(string $string): string`](#rleEncode)
+* [`rtmpStreamGetCurrent(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`](#rtmpStreamGetCurrent)
+* [`rtmpStreamPausePlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#rtmpStreamPausePlay)
+* [`rtmpStreamPlay(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#rtmpStreamPlay)
+* [`rtmpStreamPlayBlocking(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#rtmpStreamPlayBlocking)
+* [`rtmpStreamPlayOnHold(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): void`](#rtmpStreamPlayOnHold)
+* [`rtmpStreamResumePlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#rtmpStreamResumePlay)
+* [`rtmpStreamSkipPlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#rtmpStreamSkipPlay)
+* [`rtmpStreamStopPlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#rtmpStreamStopPlay)
 * [`saveDefaultGroupCallJoinAs((string|int) $peer, (string|int) $joinAs): void`](#saveDefaultGroupCallJoinAs)
-* [`sendAudio((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?string $mimeType = NULL, (integer|null) $duration = NULL, (string|null) $title = NULL, (string|null) $performer = NULL, ?int $ttl = NULL, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#sendAudio)
+* [`sendAudio((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?string $mimeType = NULL, (integer|null) $duration = NULL, (string|null) $title = NULL, (string|null) $performer = NULL, ?int $ttl = NULL, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, ?\Amp\Cancellation $cancellation = NULL, (integer|string|null) $replyToPeer = NULL): \danog\MadelineProto\EventHandler\Message`](#sendAudio)
 * [`sendCustomEvent(mixed $payload): void`](#sendCustomEvent)
-* [`sendDocument((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?string $mimeType = NULL, ?int $ttl = NULL, bool $spoiler = false, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#sendDocument)
-* [`sendDocumentPhoto((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?int $ttl = NULL, bool $spoiler = false, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#sendDocumentPhoto)
-* [`sendGif((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, (integer|null) $ttl = NULL, boolean $spoiler = false, ?int $duration = NULL, ?int $width = NULL, ?int $height = NULL, string $thumbSeek = '00:00:01.000', (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#sendGif)
-* [`sendMessage((integer|string) $peer, string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $noWebpage = false, boolean $updateStickersetsOrder = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#sendMessage)
+* [`sendDocument((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?string $mimeType = NULL, ?int $ttl = NULL, bool $spoiler = false, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL, (integer|string|null) $replyToPeer = NULL): \danog\MadelineProto\EventHandler\Message`](#sendDocument)
+* [`sendDocumentPhoto((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?int $ttl = NULL, bool $spoiler = false, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL, (integer|string|null) $replyToPeer = NULL): \danog\MadelineProto\EventHandler\Message`](#sendDocumentPhoto)
+* [`sendGif((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, (integer|null) $ttl = NULL, boolean $spoiler = false, ?int $duration = NULL, ?int $width = NULL, ?int $height = NULL, string $thumbSeek = '00:00:01.000', (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, ?\Amp\Cancellation $cancellation = NULL, (integer|string|null) $replyToPeer = NULL): \danog\MadelineProto\EventHandler\Message`](#sendGif)
+* [`sendMessage((integer|string) $peer, string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $noWebpage = false, boolean $updateStickersetsOrder = false, ?\Amp\Cancellation $cancellation = NULL, (integer|string|null) $replyToPeer = NULL): \danog\MadelineProto\EventHandler\Message`](#sendMessage)
 * [`sendMessageToAdmins(string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, (array|null) $replyMarkup = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $noWebpage = false, ?\Amp\Cancellation $cancellation = NULL): list<\danog\MadelineProto\EventHandler\Message>`](#sendMessageToAdmins)
-* [`sendPhoto((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?int $ttl = NULL, bool $spoiler = false, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#sendPhoto)
-* [`sendSticker((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, string $mimeType, string $emoji = '', array $stickerSet = [  '_' => 'inputStickerSetEmpty',], ?callable $callback = NULL, ?string $fileName = NULL, ?int $ttl = NULL, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#sendSticker)
-* [`sendVideo((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, string $mimeType = 'video/mp4', (integer|null) $ttl = NULL, boolean $spoiler = false, boolean $roundMessage = false, boolean $supportsStreaming = true, boolean $noSound = false, (integer|null) $duration = NULL, (integer|null) $width = NULL, (integer|null) $height = NULL, string $thumbSeek = '00:00:01.000', (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, bool $updateStickersetsOrder = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#sendVideo)
-* [`sendVoice((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, (integer|null) $ttl = NULL, (integer|null) $duration = NULL, (array|null) $waveform = NULL, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#sendVoice)
+* [`sendPhoto((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?int $ttl = NULL, bool $spoiler = false, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL, (integer|string|null) $replyToPeer = NULL): \danog\MadelineProto\EventHandler\Message`](#sendPhoto)
+* [`sendRichMessage((integer|string) $peer, (string|array|\danog\MadelineProto\EventHandler\Message\RichMessage) $message, \danog\MadelineProto\RichParseMode $parseMode = \danog\MadelineProto\RichParseMode::TEXT, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, array $media = [], boolean $rtl = false, boolean $noAutolink = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`](#sendRichMessage)
+* [`sendRichMessageDraft((integer|string) $peer, (string|array|\danog\MadelineProto\EventHandler\Message\RichMessage) $message, \danog\MadelineProto\RichParseMode $parseMode = \danog\MadelineProto\RichParseMode::TEXT, array $media = [], ?integer $draftId = NULL, boolean $canStop = false, boolean $keepOnStop = false, boolean $rtl = false, boolean $noAutolink = false, (integer|null) $topMsgId = NULL, ?\Amp\Cancellation $cancellation = NULL): integer`](#sendRichMessageDraft)
+* [`sendRichMessageToAdmins((string|array|\danog\MadelineProto\EventHandler\Message\RichMessage) $message, \danog\MadelineProto\RichParseMode $parseMode = \danog\MadelineProto\RichParseMode::TEXT, (array|null) $replyMarkup = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, array $media = [], boolean $rtl = false, boolean $noAutolink = false, ?\Amp\Cancellation $cancellation = NULL): list<\danog\MadelineProto\EventHandler\Message>`](#sendRichMessageToAdmins)
+* [`sendSticker((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, string $mimeType, string $emoji = '', array $stickerSet = [  '_' => 'inputStickerSetEmpty',], ?callable $callback = NULL, ?string $fileName = NULL, ?int $ttl = NULL, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL, (integer|string|null) $replyToPeer = NULL): \danog\MadelineProto\EventHandler\Message`](#sendSticker)
+* [`sendVideo((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, string $mimeType = 'video/mp4', (integer|null) $ttl = NULL, boolean $spoiler = false, boolean $roundMessage = false, boolean $supportsStreaming = true, boolean $noSound = false, (integer|null) $duration = NULL, (integer|null) $width = NULL, (integer|null) $height = NULL, string $thumbSeek = '00:00:01.000', (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, bool $updateStickersetsOrder = false, \Amp\Cancellation $cancellation = NULL, (integer|string|null) $replyToPeer = NULL): \danog\MadelineProto\EventHandler\Message`](#sendVideo)
+* [`sendVoice((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, (integer|null) $ttl = NULL, (integer|null) $duration = NULL, (array|null) $waveform = NULL, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, ?\Amp\Cancellation $cancellation = NULL, (integer|string|null) $replyToPeer = NULL): \danog\MadelineProto\EventHandler\Message`](#sendVoice)
 * [`setCallMuted(int $id, bool $muted = true): void`](#setCallMuted)
 * [`setGroupCallMuted(int $id, bool $muted = true): void`](#setGroupCallMuted)
 * [`setGroupCallTitle(int $id, string $title): void`](#setGroupCallTitle)
@@ -274,6 +290,7 @@ Simple event handler class: by extending this class, you can use filters, crons 
 * [`sleep(float $time): void`](#sleep)
 * [`start(): array`](#start)
 * [`startLive((string|int) $peer, (string|null) $caption = NULL, (\danog\MadelineProto\ParseMode|null) $parseMode = NULL, list<array<string, mixed>> $privacyRules = [  0 =>   [    '_' => 'inputPrivacyValueAllowAll',  ],], bool $pinned = false, bool $noForwards = false, bool $rtmpStream = false, (bool|null) $messagesEnabled = NULL, (int|null) $sendPaidMessagesStars = NULL): \danog\MadelineProto\EventHandler\Calls\LiveStory`](#startLive)
+* [`startRtmpStream(string $url, ?string $key = NULL, \danog\MadelineProto\RtmpServers $servers = \danog\MadelineProto\RtmpServers::Any): \danog\MadelineProto\EventHandler\Calls\RtmpStream`](#startRtmpStream)
 * [`stop(): void`](#stop)
 * [`stopPlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`](#stopPlay)
 * [`stringToStream(string $str): \Amp\ByteStream\ReadableBuffer`](#stringToStream)
@@ -800,6 +817,19 @@ Close connection with client, connected via web.
 Parameters:
 
 * `$message`: `string` Message  
+
+
+
+### <a name="closeRtmpStream"></a> `closeRtmpStream(int $id): void`
+
+Stop publishing to an RTMP stream for good.
+  
+See {@see RtmpStream::close()}.  
+
+
+Parameters:
+
+* `$id`: `int`   
 
 
 
@@ -2007,6 +2037,38 @@ Parameters:
 
 
 
+### <a name="getRtmpStream"></a> `getRtmpStream(string $url, ?string $key = NULL): ?\danog\MadelineProto\EventHandler\Calls\RtmpStream`
+
+What we publish to an RTMP server with a URL and stream key, if anything.
+  
+See {@see self::startRtmpStream()}.  
+
+
+Parameters:
+
+* `$url`: `string` The URL of the RTMP application, or, without `$key`, the URL followed by the stream key.  
+* `$key`: `?string` The stream key.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Calls\RtmpStream`: What is played, published to an RTMP server as an RTMP encoder would (OBS, ffmpeg...): to the RTMP](../../danog/MadelineProto/EventHandler/Calls/RtmpStream.html)
+
+
+
+
+### <a name="getRtmpStreams"></a> `getRtmpStreams(): array<int, \danog\MadelineProto\EventHandler\Calls\RtmpStream>`
+
+What we publish to RTMP servers.
+  
+See {@see self::startRtmpStream()}.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Calls\RtmpStream`: What is played, published to an RTMP server as an RTMP encoder would (OBS, ffmpeg...): to the RTMP](../../danog/MadelineProto/EventHandler/Calls/RtmpStream.html)
+
+
+
+
 ### <a name="getSecretChat"></a> `getSecretChat((array|int) $chat): \danog\MadelineProto\SecretChats\SecretChat`
 
 Get secret chat.
@@ -2130,7 +2192,7 @@ Parameters:
 
 
 
-### <a name="getUpdates"></a> `getUpdates(array{offset?: int, limit?: int, timeout?: float} $params = []): list<array{update_id: mixed, update: mixed}>`
+### <a name="getUpdates"></a> `getUpdates(array{offset?: int, limit?: int, timeout?: float} $params = [], ?\Amp\Cancellation $cancellation = NULL): list<array{update_id: mixed, update: mixed}>`
 
 Only useful when consuming MadelineProto updates through an API in another language (like Javascript), **absolutely not recommended when directly writing MadelineProto bots**.
   
@@ -2141,7 +2203,13 @@ Only useful when consuming MadelineProto updates through an API in another langu
 
 Parameters:
 
-* `$params`: `array{offset?: int, limit?: int, timeout?: float}` Params  
+* `$params`: `array{offset?: int, limit?: int, timeout?: float}` Params: once the timeout expires, an empty array is returned  
+* `$cancellation`: `?\Amp\Cancellation` Cancellation: once cancelled, the wait stops with a CancelledException  
+
+
+#### See also: 
+* `\Amp\Cancellation`
+
 
 
 
@@ -2569,6 +2637,38 @@ Parameters:
 ### <a name="isPremium"></a> `isPremium(): bool`
 
 Returns whether the current user is a premium user, cached.
+
+
+
+### <a name="isRtmpStreamConnected"></a> `isRtmpStreamConnected(int $id): bool`
+
+Whether we are connected to the server of an RTMP stream right now.
+  
+See {@see RtmpStream::isConnected()}.  
+
+
+Parameters:
+
+* `$id`: `int`   
+
+
+
+### <a name="isRtmpStreamPlayPaused"></a> `isRtmpStreamPlayPaused(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): bool`
+
+Whether the file played to an RTMP stream is paused.
+  
+See {@see RtmpStream::isPaused()}.  
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
+
 
 
 
@@ -3005,7 +3105,7 @@ Parameters:
 
 
 
-### <a name="readLine"></a> `readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL): string`
+### <a name="readLine"></a> `readLine(string $prompt = '', ?\Amp\Cancellation $cancel = NULL, bool $hidden = false, ?string $hideAfter = NULL): string`
 
 Asynchronously read line.
 
@@ -3014,6 +3114,10 @@ Parameters:
 
 * `$prompt`: `string` Prompt  
 * `$cancel`: `?\Amp\Cancellation`   
+* `$hidden`: `bool` Whether to hide what is typed (for tokens, passwords and codes), when reading from a terminal  
+* `$hideAfter`: `?string` Show what is typed until this character, censor what follows it with asterisks
+                          (for prompts that take either a phone number or a bot token, which contains a
+                          colon), when reading from a terminal  
 
 
 #### See also: 
@@ -3177,6 +3281,172 @@ Parameters:
 
 
 
+### <a name="rtmpStreamGetCurrent"></a> `rtmpStreamGetCurrent(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): \danog\MadelineProto\RemoteUrl|\danog\MadelineProto\LocalFile|string|null`
+
+The file played to an RTMP stream.
+  
+See {@see RtmpStream::getCurrent()}.  
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
+
+
+
+
+### <a name="rtmpStreamPausePlay"></a> `rtmpStreamPausePlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`
+
+Pause the file played to an RTMP stream.
+  
+See {@see RtmpStream::pause()}.  
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
+
+
+
+
+### <a name="rtmpStreamPlay"></a> `rtmpStreamPlay(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`
+
+Play a file to an RTMP stream.
+  
+See {@see RtmpStream::play()}.  
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$file`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
+* `\Amp\ByteStream\ReadableStream`
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
+
+
+
+
+### <a name="rtmpStreamPlayBlocking"></a> `rtmpStreamPlayBlocking(int $id, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream $file, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`
+
+Play a file to an RTMP stream, blocking until it has finished playing if a stream was passed.
+  
+See {@see RtmpStream::playBlocking()}.  
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$file`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
+* `\Amp\ByteStream\ReadableStream`
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
+
+
+
+
+### <a name="rtmpStreamPlayOnHold"></a> `rtmpStreamPlayOnHold(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera, \danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream ...$files): void`
+
+Set the files to play on loop to an RTMP stream while its playlist is empty.
+  
+See {@see RtmpStream::playOnHold()}.  
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+* `...$files`: `\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\Amp\ByteStream\ReadableStream`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
+* [`\danog\MadelineProto\RemoteUrl`: Indicates a remote URL to upload.](../../danog/MadelineProto/RemoteUrl.html)
+* `\Amp\ByteStream\ReadableStream`
+
+
+
+
+### <a name="rtmpStreamResumePlay"></a> `rtmpStreamResumePlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`
+
+Resume the file played to an RTMP stream.
+  
+See {@see RtmpStream::resume()}.  
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
+
+
+
+
+### <a name="rtmpStreamSkipPlay"></a> `rtmpStreamSkipPlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`
+
+Skip to the next file played to an RTMP stream.
+  
+See {@see RtmpStream::skip()}.  
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
+
+
+
+
+### <a name="rtmpStreamStopPlay"></a> `rtmpStreamStopPlay(int $id, \danog\MadelineProto\MediaDestination $dest = \danog\MadelineProto\MediaDestination::Camera): void`
+
+Stop playing all files to an RTMP stream, clearing its playlists.
+  
+See {@see RtmpStream::stop()}.  
+
+
+Parameters:
+
+* `$id`: `int`   
+* `$dest`: `\danog\MadelineProto\MediaDestination`   
+
+
+#### See also: 
+* [`\danog\MadelineProto\MediaDestination`: Which media stream of a call a playback or recording operation targets.](../../danog/MadelineProto/MediaDestination.html)
+
+
+
+
 ### <a name="saveDefaultGroupCallJoinAs"></a> `saveDefaultGroupCallJoinAs((string|int) $peer, (string|int) $joinAs): void`
 
 Save the peer we join the video chats and livestreams of a group or channel as by default.
@@ -3189,7 +3459,7 @@ Parameters:
 
 
 
-### <a name="sendAudio"></a> `sendAudio((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?string $mimeType = NULL, (integer|null) $duration = NULL, (string|null) $title = NULL, (string|null) $performer = NULL, ?int $ttl = NULL, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`
+### <a name="sendAudio"></a> `sendAudio((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?string $mimeType = NULL, (integer|null) $duration = NULL, (string|null) $title = NULL, (string|null) $performer = NULL, ?int $ttl = NULL, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, ?\Amp\Cancellation $cancellation = NULL, (integer|string|null) $replyToPeer = NULL): \danog\MadelineProto\EventHandler\Message`
 
 Sends an audio.
   
@@ -3221,6 +3491,7 @@ Parameters:
 * `$clearDraft`: `boolean` Clears the draft field  
 * `$forceResend`: `boolean` Whether to forcefully resend the file, even if its type and name are the same.  
 * `$cancellation`: `?\Amp\Cancellation` Cancellation.  
+* `$replyToPeer`: `(integer|string|null)` Chat of the message to reply to, if not the destination chat (a cross-chat reply).  
 
 
 #### See also: 
@@ -3247,7 +3518,7 @@ Parameters:
 
 
 
-### <a name="sendDocument"></a> `sendDocument((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?string $mimeType = NULL, ?int $ttl = NULL, bool $spoiler = false, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`
+### <a name="sendDocument"></a> `sendDocument((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?string $mimeType = NULL, ?int $ttl = NULL, bool $spoiler = false, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL, (integer|string|null) $replyToPeer = NULL): \danog\MadelineProto\EventHandler\Message`
 
 Sends a document.
   
@@ -3278,6 +3549,7 @@ Parameters:
 * `$updateStickersetsOrder`: `boolean` Whether to move used stickersets to top  
 * `$forceResend`: `boolean` Whether to forcefully resend the file, even if its type and name are the same.  
 * `$cancellation`: `\Amp\Cancellation` Cancellation.  
+* `$replyToPeer`: `(integer|string|null)` Chat of the message to reply to, if not the destination chat (a cross-chat reply).  
 
 
 #### See also: 
@@ -3293,7 +3565,7 @@ Parameters:
 
 
 
-### <a name="sendDocumentPhoto"></a> `sendDocumentPhoto((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?int $ttl = NULL, bool $spoiler = false, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`
+### <a name="sendDocumentPhoto"></a> `sendDocumentPhoto((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?int $ttl = NULL, bool $spoiler = false, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL, (integer|string|null) $replyToPeer = NULL): \danog\MadelineProto\EventHandler\Message`
 
 Sends a photo.
   
@@ -3322,6 +3594,7 @@ Parameters:
 * `$updateStickersetsOrder`: `boolean` Whether to move used stickersets to top  
 * `$forceResend`: `boolean` Whether to forcefully resend the file, even if its type and name are the same.  
 * `$cancellation`: `\Amp\Cancellation` Cancellation.  
+* `$replyToPeer`: `(integer|string|null)` Chat of the message to reply to, if not the destination chat (a cross-chat reply).  
 
 
 #### See also: 
@@ -3337,7 +3610,7 @@ Parameters:
 
 
 
-### <a name="sendGif"></a> `sendGif((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, (integer|null) $ttl = NULL, boolean $spoiler = false, ?int $duration = NULL, ?int $width = NULL, ?int $height = NULL, string $thumbSeek = '00:00:01.000', (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`
+### <a name="sendGif"></a> `sendGif((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, (integer|null) $ttl = NULL, boolean $spoiler = false, ?int $duration = NULL, ?int $width = NULL, ?int $height = NULL, string $thumbSeek = '00:00:01.000', (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, ?\Amp\Cancellation $cancellation = NULL, (integer|string|null) $replyToPeer = NULL): \danog\MadelineProto\EventHandler\Message`
 
 Sends a gif.
   
@@ -3370,6 +3643,7 @@ Parameters:
 * `$clearDraft`: `boolean` Clears the draft field  
 * `$forceResend`: `boolean` Whether to forcefully resend the file, even if its type and name are the same.  
 * `$cancellation`: `?\Amp\Cancellation` Cancellation.  
+* `$replyToPeer`: `(integer|string|null)` Chat of the message to reply to, if not the destination chat (a cross-chat reply).  
 
 
 #### See also: 
@@ -3385,7 +3659,7 @@ Parameters:
 
 
 
-### <a name="sendMessage"></a> `sendMessage((integer|string) $peer, string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $noWebpage = false, boolean $updateStickersetsOrder = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`
+### <a name="sendMessage"></a> `sendMessage((integer|string) $peer, string $message, \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $noWebpage = false, boolean $updateStickersetsOrder = false, ?\Amp\Cancellation $cancellation = NULL, (integer|string|null) $replyToPeer = NULL): \danog\MadelineProto\EventHandler\Message`
 
 Sends a message.
 
@@ -3407,6 +3681,7 @@ Parameters:
 * `$noWebpage`: `boolean` Set this flag to disable generation of the webpage preview  
 * `$updateStickersetsOrder`: `boolean` Whether to move used stickersets to top  
 * `$cancellation`: `?\Amp\Cancellation` Cancellation  
+* `$replyToPeer`: `(integer|string|null)` Chat of the message to reply to, if not the destination chat (a cross-chat reply).  
 
 
 #### See also: 
@@ -3444,7 +3719,7 @@ Parameters:
 
 
 
-### <a name="sendPhoto"></a> `sendPhoto((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?int $ttl = NULL, bool $spoiler = false, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`
+### <a name="sendPhoto"></a> `sendPhoto((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, ?int $ttl = NULL, bool $spoiler = false, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, bool $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL, (integer|string|null) $replyToPeer = NULL): \danog\MadelineProto\EventHandler\Message`
 
 Sends a photo.
   
@@ -3473,6 +3748,7 @@ Parameters:
 * `$updateStickersetsOrder`: `boolean` Whether to move used stickersets to top  
 * `$forceResend`: `boolean` Whether to forcefully resend the file, even if its type and name are the same.  
 * `$cancellation`: `\Amp\Cancellation` Cancellation.  
+* `$replyToPeer`: `(integer|string|null)` Chat of the message to reply to, if not the destination chat (a cross-chat reply).  
 
 
 #### See also: 
@@ -3488,7 +3764,115 @@ Parameters:
 
 
 
-### <a name="sendSticker"></a> `sendSticker((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, string $mimeType, string $emoji = '', array $stickerSet = [  '_' => 'inputStickerSetEmpty',], ?callable $callback = NULL, ?string $fileName = NULL, ?int $ttl = NULL, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`
+### <a name="sendRichMessage"></a> `sendRichMessage((integer|string) $peer, (string|array|\danog\MadelineProto\EventHandler\Message\RichMessage) $message, \danog\MadelineProto\RichParseMode $parseMode = \danog\MadelineProto\RichParseMode::TEXT, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, array $media = [], boolean $rtl = false, boolean $noAutolink = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`
+
+Sends a [rich message](https://core.telegram.org/bots/api#sendrichmessage): structured text made of blocks (headings, paragraphs, lists, tables, quotes, media, buttons and so on).
+  
+The message can be passed as:  
+- Plain text (the default, sent as a single paragraph), or Markdown or HTML (with $parseMode), parsed by Telegram; media passed in $media can be embedded by ID, e.g. `![A cat](tg://photo?id=cat)` or `![A file](tg://document?id=file)` in Markdown.  
+- A list of blocks: typed Block objects (`new Paragraph(new Bold('Hello'))`, see the EventHandler\Message\Rich\Block namespace), arrays in the format of the Bot API's [InputRichBlock](https://core.telegram.org/bots/api#inputrichblock) type, or raw MTProto PageBlock constructors.  
+- A received RichMessage (`$message->richMessage`), to send it again.  
+- A full Bot API [InputRichMessage](https://core.telegram.org/bots/api#inputrichmessage), or a raw MTProto InputRichMessage constructor.  
+  
+$parseMode only applies to string messages, and $media only to Markdown and HTML: passing them with other messages throws.  
+  
+Media in Bot API blocks and in $media can be Message or Media objects, bot API file IDs, raw photos and documents, or files to upload (LocalFile, RemoteUrl, ReadableStream or URLs), optionally wrapped in a Bot API InputMedia-like array (`['type' => 'video', 'media' => new LocalFile('video.mp4'), 'duration' => 10]`). Files in $media are uploaded with the type of the tg://photo, tg://video, tg://audio or tg://document link that references them, unless the wrapper specifies a type.  
+
+
+Parameters:
+
+* `$peer`: `(integer|string)` Destination peer or username.  
+* `$message`: `(string|array|\danog\MadelineProto\EventHandler\Message\RichMessage)` Rich message to send  
+* `$parseMode`: `\danog\MadelineProto\RichParseMode` How to parse a string $message: plain text (the default) is sent as a single paragraph, Markdown and HTML are parsed by Telegram.  
+* `$replyToMsgId`: `(integer|null)` ID of message to reply to.  
+* `$topMsgId`: `(integer|null)` ID of thread where to send the message.  
+* `$replyMarkup`: `(array|null)` Keyboard information.  
+* `$sendAs`: `(integer|string|null)` Peer to send the message as.  
+* `$scheduleDate`: `(integer|null)` Schedule date.  
+* `$silent`: `boolean` Whether to send the message silently, without triggering notifications.  
+* `$noForwards`: `boolean` Only for bots, disallows further re-forwarding and saving of the messages, even if the destination chat doesn’t have [content protection](https://telegram.org/blog/protected-content-delete-by-date-and-more) enabled  
+* `$background`: `boolean` Send this message as background message  
+* `$clearDraft`: `boolean` Clears the draft field  
+* `$media`: `array` Media referenced by Markdown or HTML messages, as a map from ID (1-64 characters among A-Z, a-z, 0-9, _ and -) to file (a Message, Media, LocalFile, RemoteUrl, BotApiFileId or ReadableStream), or a list of Bot API InputRichMessageMedia objects.  
+* `$rtl`: `boolean` Whether the text is right-to-left  
+* `$noAutolink`: `boolean` Whether to skip the automatic detection of mentions, hashtags, URLs and so on  
+* `$cancellation`: `?\Amp\Cancellation` Cancellation  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message\RichMessage`: A rich message: structured text made of blocks (headings, paragraphs, lists, tables, quotes, media, buttons and so on).](../../danog/MadelineProto/EventHandler/Message/RichMessage.html)
+* [`\danog\MadelineProto\RichParseMode`: How to parse the text of a [rich message](https://core.telegram.org/bots/api#sendrichmessage).](../../danog/MadelineProto/RichParseMode.html)
+* `\Amp\Cancellation`
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../danog/MadelineProto/EventHandler/Message.html)
+
+
+
+
+### <a name="sendRichMessageDraft"></a> `sendRichMessageDraft((integer|string) $peer, (string|array|\danog\MadelineProto\EventHandler\Message\RichMessage) $message, \danog\MadelineProto\RichParseMode $parseMode = \danog\MadelineProto\RichParseMode::TEXT, array $media = [], ?integer $draftId = NULL, boolean $canStop = false, boolean $keepOnStop = false, boolean $rtl = false, boolean $noAutolink = false, (integer|null) $topMsgId = NULL, ?\Amp\Cancellation $cancellation = NULL): integer`
+
+Streams a partial [rich message](https://core.telegram.org/bots/api#sendrichmessagedraft) to a private chat while it is being generated (e.g. by an AI), see sendRichMessage for the supported formats.
+  
+Call it again with the returned draft ID to update the draft, then send the complete message with sendRichMessage.  
+  
+Media must have already been uploaded (e.g. with uploadPhoto, uploadVideo, uploadDocument and so on).  
+
+
+Parameters:
+
+* `$peer`: `(integer|string)` Destination peer or username.  
+* `$message`: `(string|array|\danog\MadelineProto\EventHandler\Message\RichMessage)` Partial rich message  
+* `$parseMode`: `\danog\MadelineProto\RichParseMode` How to parse a string $message: plain text (the default) is sent as a single paragraph, Markdown and HTML are parsed by Telegram.  
+* `$media`: `array` Media referenced by Markdown or HTML messages, as a map from ID to file (a Message, Media or BotApiFileId: new files can't be uploaded).  
+* `$draftId`: `?integer` ID of the draft to update (non-zero), if null a new draft ID is generated.  
+* `$canStop`: `boolean` Whether the user can stop the generation of the message  
+* `$keepOnStop`: `boolean` Whether the draft should be kept if the user stops the generation  
+* `$rtl`: `boolean` Whether the text is right-to-left  
+* `$noAutolink`: `boolean` Whether to skip the automatic detection of mentions, hashtags, URLs and so on  
+* `$topMsgId`: `(integer|null)` ID of thread where to send the draft.  
+* `$cancellation`: `?\Amp\Cancellation` Cancellation  
+
+
+Return value: The draft ID, to pass to the next calls to update the draft.
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message\RichMessage`: A rich message: structured text made of blocks (headings, paragraphs, lists, tables, quotes, media, buttons and so on).](../../danog/MadelineProto/EventHandler/Message/RichMessage.html)
+* [`\danog\MadelineProto\RichParseMode`: How to parse the text of a [rich message](https://core.telegram.org/bots/api#sendrichmessage).](../../danog/MadelineProto/RichParseMode.html)
+* `\Amp\Cancellation`
+
+
+
+
+### <a name="sendRichMessageToAdmins"></a> `sendRichMessageToAdmins((string|array|\danog\MadelineProto\EventHandler\Message\RichMessage) $message, \danog\MadelineProto\RichParseMode $parseMode = \danog\MadelineProto\RichParseMode::TEXT, (array|null) $replyMarkup = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, array $media = [], boolean $rtl = false, boolean $noAutolink = false, ?\Amp\Cancellation $cancellation = NULL): list<\danog\MadelineProto\EventHandler\Message>`
+
+Sends a [rich message](https://core.telegram.org/bots/api#sendrichmessage) to all report peers (admins of the bot), see sendRichMessage.
+
+
+Parameters:
+
+* `$message`: `(string|array|\danog\MadelineProto\EventHandler\Message\RichMessage)` Rich message: Markdown or HTML (depending on $parseMode), a list of blocks (Block objects or Bot API InputRichBlock arrays), a received RichMessage, or a Bot API InputRichMessage (see sendRichMessage)  
+* `$parseMode`: `\danog\MadelineProto\RichParseMode` How to parse a string $message: plain text (the default) is sent as a single paragraph, Markdown and HTML are parsed by Telegram.  
+* `$replyMarkup`: `(array|null)` Keyboard information.  
+* `$scheduleDate`: `(integer|null)` Schedule date.  
+* `$silent`: `boolean` Whether to send the message silently, without triggering notifications.  
+* `$noForwards`: `boolean` Only for bots, disallows further re-forwarding and saving of the messages, even if the destination chat doesn’t have [content protection](https://telegram.org/blog/protected-content-delete-by-date-and-more) enabled  
+* `$background`: `boolean` Send this message as background message  
+* `$clearDraft`: `boolean` Clears the draft field  
+* `$media`: `array` Media referenced by Markdown or HTML messages, as a map from ID to file (see sendRichMessage); uploaded once for all admins.  
+* `$rtl`: `boolean` Whether the text is right-to-left  
+* `$noAutolink`: `boolean` Whether to skip the automatic detection of mentions, hashtags, URLs and so on  
+* `$cancellation`: `?\Amp\Cancellation` Cancellation  
+
+
+#### See also: 
+* [`\danog\MadelineProto\EventHandler\Message\RichMessage`: A rich message: structured text made of blocks (headings, paragraphs, lists, tables, quotes, media, buttons and so on).](../../danog/MadelineProto/EventHandler/Message/RichMessage.html)
+* [`\danog\MadelineProto\RichParseMode`: How to parse the text of a [rich message](https://core.telegram.org/bots/api#sendrichmessage).](../../danog/MadelineProto/RichParseMode.html)
+* `\Amp\Cancellation`
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../danog/MadelineProto/EventHandler/Message.html)
+
+
+
+
+### <a name="sendSticker"></a> `sendSticker((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, string $mimeType, string $emoji = '', array $stickerSet = [  '_' => 'inputStickerSetEmpty',], ?callable $callback = NULL, ?string $fileName = NULL, ?int $ttl = NULL, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $updateStickersetsOrder = false, boolean $forceResend = false, \Amp\Cancellation $cancellation = NULL, (integer|string|null) $replyToPeer = NULL): \danog\MadelineProto\EventHandler\Message`
 
 Sends a sticker.
   
@@ -3517,6 +3901,7 @@ Parameters:
 * `$updateStickersetsOrder`: `boolean` Whether to move used stickersets to top  
 * `$forceResend`: `boolean` Whether to forcefully resend the file, even if its type and name are the same.  
 * `$cancellation`: `\Amp\Cancellation` Cancellation.  
+* `$replyToPeer`: `(integer|string|null)` Chat of the message to reply to, if not the destination chat (a cross-chat reply).  
 
 
 #### See also: 
@@ -3531,7 +3916,7 @@ Parameters:
 
 
 
-### <a name="sendVideo"></a> `sendVideo((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, string $mimeType = 'video/mp4', (integer|null) $ttl = NULL, boolean $spoiler = false, boolean $roundMessage = false, boolean $supportsStreaming = true, boolean $noSound = false, (integer|null) $duration = NULL, (integer|null) $width = NULL, (integer|null) $height = NULL, string $thumbSeek = '00:00:01.000', (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, bool $updateStickersetsOrder = false, \Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`
+### <a name="sendVideo"></a> `sendVideo((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream|null) $thumb = NULL, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, string $mimeType = 'video/mp4', (integer|null) $ttl = NULL, boolean $spoiler = false, boolean $roundMessage = false, boolean $supportsStreaming = true, boolean $noSound = false, (integer|null) $duration = NULL, (integer|null) $width = NULL, (integer|null) $height = NULL, string $thumbSeek = '00:00:01.000', (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, bool $updateStickersetsOrder = false, \Amp\Cancellation $cancellation = NULL, (integer|string|null) $replyToPeer = NULL): \danog\MadelineProto\EventHandler\Message`
 
 Sends a video.
   
@@ -3569,6 +3954,7 @@ Parameters:
 * `$forceResend`: `boolean` Whether to forcefully resend the file, even if its type and name are the same.  
 * `$updateStickersetsOrder`: `bool`   
 * `$cancellation`: `\Amp\Cancellation` Cancellation.  
+* `$replyToPeer`: `(integer|string|null)` Chat of the message to reply to, if not the destination chat (a cross-chat reply).  
 
 
 #### See also: 
@@ -3584,7 +3970,7 @@ Parameters:
 
 
 
-### <a name="sendVoice"></a> `sendVoice((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, (integer|null) $ttl = NULL, (integer|null) $duration = NULL, (array|null) $waveform = NULL, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, ?\Amp\Cancellation $cancellation = NULL): \danog\MadelineProto\EventHandler\Message`
+### <a name="sendVoice"></a> `sendVoice((integer|string) $peer, (\danog\MadelineProto\EventHandler\Message|\danog\MadelineProto\EventHandler\Media|\danog\MadelineProto\LocalFile|\danog\MadelineProto\RemoteUrl|\danog\MadelineProto\BotApiFileId|\Amp\ByteStream\ReadableStream) $file, string $caption = '', \danog\MadelineProto\ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, ?callable $callback = NULL, ?string $fileName = NULL, (integer|null) $ttl = NULL, (integer|null) $duration = NULL, (array|null) $waveform = NULL, (integer|null) $replyToMsgId = NULL, (integer|null) $topMsgId = NULL, (array|null) $replyMarkup = NULL, (integer|string|null) $sendAs = NULL, (integer|null) $scheduleDate = NULL, boolean $silent = false, boolean $noForwards = false, boolean $background = false, boolean $clearDraft = false, boolean $forceResend = false, ?\Amp\Cancellation $cancellation = NULL, (integer|string|null) $replyToPeer = NULL): \danog\MadelineProto\EventHandler\Message`
 
 Sends a voice.
   
@@ -3613,6 +3999,7 @@ Parameters:
 * `$clearDraft`: `boolean` Clears the draft field  
 * `$forceResend`: `boolean` Whether to forcefully resend the file, even if its type and name are the same.  
 * `$cancellation`: `?\Amp\Cancellation` Cancellation.  
+* `$replyToPeer`: `(integer|string|null)` Chat of the message to reply to, if not the destination chat (a cross-chat reply).  
 
 
 #### See also: 
@@ -3748,6 +4135,32 @@ Parameters:
 #### See also: 
 * [`\danog\MadelineProto\ParseMode`: Indicates a parsing mode for text.](../../danog/MadelineProto/ParseMode.html)
 * [`\danog\MadelineProto\EventHandler\Calls\LiveStory`: This update represents a Telegram [live story »](https://core.telegram.org/api/group-calls#live-stories):](../../danog/MadelineProto/EventHandler/Calls/LiveStory.html)
+
+
+
+
+### <a name="startRtmpStream"></a> `startRtmpStream(string $url, ?string $key = NULL, \danog\MadelineProto\RtmpServers $servers = \danog\MadelineProto\RtmpServers::Any): \danog\MadelineProto\EventHandler\Calls\RtmpStream`
+
+Publish what is played to an RTMP server, as an RTMP encoder would (OBS, ffmpeg...).
+  
+To the RTMP livestream or live story of any group, channel or user that gave us its URL and stream key (shown  
+by the Telegram apps when starting one "with another app"), to YouTube, Twitch, or any other RTMP(S) server.  
+  
+Only H.264 video and AAC audio can be published, in MP4 or Matroska (WebM) files. The stream keeps  
+publishing (reconnecting if needed, and across restarts) until {@see RtmpStream::close()}d; publishing  
+again to the same URL and key returns the same stream.  
+
+
+Parameters:
+
+* `$url`: `string` The URL of the RTMP application, e.g. `rtmps://dc4-1.rtmp.t.me/s/`, or, without `$key`, the URL followed by the stream key, e.g. `rtmps://dc4-1.rtmp.t.me/s/123456:AbCdEf`.  
+* `$key`: `?string` The stream key.  
+* `$servers`: `\danog\MadelineProto\RtmpServers` Which servers it may connect to, checked at each connection: when whoever chooses the URL must not make us connect anywhere (into our network, say). Otherwise, the stream is closed.  
+
+
+#### See also: 
+* [`\danog\MadelineProto\RtmpServers`: Which RTMP servers an RTMP stream may connect to, see {@see API::startRtmpStream()}: when whoever chooses the URL](../../danog/MadelineProto/RtmpServers.html)
+* [`\danog\MadelineProto\EventHandler\Calls\RtmpStream`: What is played, published to an RTMP server as an RTMP encoder would (OBS, ffmpeg...): to the RTMP](../../danog/MadelineProto/EventHandler/Calls/RtmpStream.html)
 
 
 

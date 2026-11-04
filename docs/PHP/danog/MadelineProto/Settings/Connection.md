@@ -27,8 +27,6 @@ Connection settings.
 * [`setSslSubdomains(array $sslSubdomains): \danog\MadelineProto\Settings\Connection`](#setSslSubdomains)
 * [`getMaxMediaSocketCount(): int`](#getMaxMediaSocketCount)
 * [`setMaxMediaSocketCount(int $maxMediaSocketCount): \danog\MadelineProto\Settings\Connection`](#setMaxMediaSocketCount)
-* [`getRobinPeriod(): int`](#getRobinPeriod)
-* [`setRobinPeriod(int $robinPeriod): \danog\MadelineProto\Settings\Connection`](#setRobinPeriod)
 * [`getProxies(): array<class-string<\danog\MadelineProto\Stream\StreamInterface>, array>`](#getProxies)
 * [`addProxy(class-string<\danog\MadelineProto\Stream\StreamInterface> $proxy, array $extra = []): \danog\MadelineProto\Settings\Connection`](#addProxy)
 * [`setProxies(array<class-string<\danog\MadelineProto\Stream\StreamInterface>, list<array>> $proxies): \danog\MadelineProto\Settings\Connection`](#setProxies)
@@ -42,6 +40,8 @@ Connection settings.
 * [`setTransport(class-string<\danog\MadelineProto\Stream\RawStreamInterface> $transport): \danog\MadelineProto\Settings\Connection`](#setTransport)
 * [`getRetry(): bool`](#getRetry)
 * [`setRetry(bool $retry): \danog\MadelineProto\Settings\Connection`](#setRetry)
+* [`getDirectFallback(): bool`](#getDirectFallback)
+* [`setDirectFallback(bool $directFallback): \danog\MadelineProto\Settings\Connection`](#setDirectFallback)
 * [`getTimeout(): float`](#getTimeout)
 * [`setTimeout(float $timeout): \danog\MadelineProto\Settings\Connection`](#setTimeout)
 * [`getPingInterval(): int`](#getPingInterval)
@@ -185,23 +185,6 @@ Set maximum media socket count.
 Parameters:
 
 * `$maxMediaSocketCount`: `int` Maximum media socket count.  
-
-
-
-### <a name="getRobinPeriod"></a> `getRobinPeriod(): int`
-
-Get robin period (seconds).
-
-
-
-### <a name="setRobinPeriod"></a> `setRobinPeriod(int $robinPeriod): \danog\MadelineProto\Settings\Connection`
-
-Set robin period (seconds).
-
-
-Parameters:
-
-* `$robinPeriod`: `int` Robin period (seconds).  
 
 
 
@@ -359,6 +342,26 @@ Set whether to retry connection.
 Parameters:
 
 * `$retry`: `bool` Whether to retry connection.  
+
+
+
+### <a name="getDirectFallback"></a> `getDirectFallback(): bool`
+
+Get whether to connect directly when the proxies fail.
+
+
+
+### <a name="setDirectFallback"></a> `setDirectFallback(bool $directFallback): \danog\MadelineProto\Settings\Connection`
+
+Set whether to connect directly (without the proxies) when the proxies fail.
+  
+Off by default: when proxies are set, Telegram and the URLs requested over HTTP are only ever  
+reached through them.  
+
+
+Parameters:
+
+* `$directFallback`: `bool` Whether to connect directly when the proxies fail.  
 
 
 

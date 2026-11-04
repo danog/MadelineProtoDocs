@@ -24,6 +24,7 @@ Reply to a message.
 |monoforum\_peer\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|Must be set to the ID of the topic when replying to a message within a [monoforum topic](https://core.telegram.org/api/monoforum).|
 |todo\_item\_id|[int](/API_docs/types/int.html) | Optional|Can be set to reply to the specified item of a [todo list »](https://core.telegram.org/api/todo).|
 |poll\_option|[bytes](/API_docs/types/bytes.html) | Optional|
+|quote\_rich|Array of [RichText](/API_docs/types/RichText.html) | Optional|
 
 
 
@@ -33,5 +34,5 @@ Reply to a message.
 ### Example:
 
 ```
-$inputReplyToMessage = ['_' => 'inputReplyToMessage', 'reply_to_msg_id' => int, 'top_msg_id' => int, 'reply_to_peer_id' => InputPeer, 'quote_text' => 'string', 'quote_entities' => [MessageEntity, MessageEntity], 'quote_offset' => int, 'monoforum_peer_id' => InputPeer, 'todo_item_id' => int, 'poll_option' => 'bytes'];
+$inputReplyToMessage = ['_' => 'inputReplyToMessage', 'reply_to_msg_id' => int, 'top_msg_id' => int, 'reply_to_peer_id' => InputPeer, 'quote_text' => 'string', 'quote_entities' => [MessageEntity, MessageEntity], 'quote_offset' => int, 'monoforum_peer_id' => InputPeer, 'todo_item_id' => int, 'poll_option' => 'bytes', 'quote_rich' => [RichText, RichText]];
 ```  

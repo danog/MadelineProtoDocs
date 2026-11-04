@@ -25,6 +25,7 @@ Represents a query sent by the user by clicking on a "Play game" button in a cha
 
 ## Method list:
 * [`editText(string $message, (array|null) $replyMarkup = NULL, ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, bool $noWebpage = false, (int|null) $scheduleDate = NULL): \danog\MadelineProto\EventHandler\Message`](#editText)
+* [`editRich((string|array|RichMessage) $message, (array|null) $replyMarkup = NULL, RichParseMode $parseMode = \danog\MadelineProto\RichParseMode::TEXT, (int|null) $scheduleDate = NULL, array $media = [], boolean $rtl = false, boolean $noAutolink = false): \danog\MadelineProto\EventHandler\Message`](#editRich)
 * [`editReplyMarkup(array $replyMarkup): \danog\MadelineProto\EventHandler\Message`](#editReplyMarkup)
 * [`delete(boolean $revoke = true): void`](#delete)
 * [`pin(bool $pmOneside = false, bool $silent = false): void`](#pin)
@@ -49,6 +50,30 @@ Parameters:
 
 #### See also: 
 * `ParseMode`
+* [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../danog/MadelineProto/EventHandler/Message.html)
+
+
+
+
+### <a name="editRich"></a> `editRich((string|array|RichMessage) $message, (array|null) $replyMarkup = NULL, RichParseMode $parseMode = \danog\MadelineProto\RichParseMode::TEXT, (int|null) $scheduleDate = NULL, array $media = [], boolean $rtl = false, boolean $noAutolink = false): \danog\MadelineProto\EventHandler\Message`
+
+Edit the message, replacing it with a [rich message](https://core.telegram.org/bots/api#sendrichmessage).
+
+
+Parameters:
+
+* `$message`: `(string|array|RichMessage)` Rich message: Markdown or HTML (depending on $parseMode), a list of blocks (Block objects or Bot API InputRichBlock arrays), a received RichMessage, or a Bot API InputRichMessage (see sendRichMessage)  
+* `$replyMarkup`: `(array|null)` Reply markup for inline keyboards  
+* `$parseMode`: `RichParseMode` How to parse a string $message: plain text (the default) is sent as a single paragraph, Markdown and HTML are parsed by Telegram.  
+* `$scheduleDate`: `(int|null)` Scheduled message date for scheduled messages  
+* `$media`: `array` Media referenced by Markdown or HTML messages, as a map from ID to file (see sendRichMessage).  
+* `$rtl`: `boolean` Whether the text is right-to-left  
+* `$noAutolink`: `boolean` Whether to skip the automatic detection of mentions, hashtags, URLs and so on  
+
+
+#### See also: 
+* `RichMessage`
+* `RichParseMode`
 * [`\danog\MadelineProto\EventHandler\Message`: Represents an incoming or outgoing message.](../../../../danog/MadelineProto/EventHandler/Message.html)
 
 

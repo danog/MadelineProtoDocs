@@ -15,16 +15,13 @@ parent: "MadelineProto API"
 
 
 
-## Properties
-* `$tdesktop_base_path`: `mixed` 
-* `$tdesktop_user_base_path`: `mixed` 
-* `$tdesktop_key`: `mixed` 
 
 ## Method list:
 * [`importAuthorization(array<int, string> $authorization, int $main_dc_id, string $session, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): \danog\MadelineProto\API`](#importAuthorization)
 * [`telethon(string $session, string $new_session, (\danog\MadelineProto\SettingsAbstract|null) $settings = NULL): \danog\MadelineProto\API`](#telethon)
 * [`pyrogram(string $session, string $new_session, (\danog\MadelineProto\SettingsAbstract|null) $settings = NULL): \danog\MadelineProto\API`](#pyrogram)
 * [`zerobias(array|string $session, string $new_session, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): \danog\MadelineProto\API`](#zerobias)
+* [`tdesktop(string $session, string $new_session, (\danog\MadelineProto\SettingsAbstract|null) $settings = NULL, string $passcode = '', string $key = 'data', (int|null) $account = NULL): \danog\MadelineProto\API`](#tdesktop)
 
 ## Methods:
 ### <a name="importAuthorization"></a> `importAuthorization(array<int, string> $authorization, int $main_dc_id, string $session, ?\danog\MadelineProto\SettingsAbstract $settings = NULL): \danog\MadelineProto\API`
@@ -95,6 +92,30 @@ Parameters:
 * `$session`: `array|string`   
 * `$new_session`: `string`   
 * `$settings`: `?\danog\MadelineProto\SettingsAbstract`   
+
+
+#### See also: 
+* `\danog\MadelineProto\SettingsAbstract`
+* [`\danog\MadelineProto\API`: Main API wrapper for MadelineProto.](../../danog/MadelineProto/API.html)
+
+
+
+
+### <a name="tdesktop"></a> `tdesktop(string $session, string $new_session, (\danog\MadelineProto\SettingsAbstract|null) $settings = NULL, string $passcode = '', string $key = 'data', (int|null) $account = NULL): \danog\MadelineProto\API`
+
+Convert a Telegram Desktop session.
+  
+Passcodes set by recent versions of Telegram Desktop are wrapped with argon2id or scrypt, which are not supported: turn off the local passcode before converting.  
+
+
+Parameters:
+
+* `$session`: `string` Telegram Desktop tdata directory (or its parent directory)  
+* `$new_session`: `string` MadelineProto session directory to create  
+* `$settings`: `(\danog\MadelineProto\SettingsAbstract|null)` Settings  
+* `$passcode`: `string` Local passcode, if any  
+* `$key`: `string` Data name, if Telegram Desktop is started with -key  
+* `$account`: `(int|null)` Index of the account to convert, the active one by default  
 
 
 #### See also: 

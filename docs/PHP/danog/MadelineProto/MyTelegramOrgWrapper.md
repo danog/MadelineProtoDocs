@@ -18,12 +18,13 @@ Wrapper for my.telegram.org.
 
 ## Method list:
 * [`__construct(\danog\MadelineProto\SettingsAbstract $settings)`](#__construct)
+* [`getPhoneNumber(): string`](#getPhoneNumber)
 * [`login(string $number): void`](#login)
-* [`completeLogin(string $password)`](#completeLogin)
+* [`completeLogin(string $password): bool`](#completeLogin)
 * [`loggedIn(): bool`](#loggedIn)
-* [`hasApp()`](#hasApp)
-* [`getApp()`](#getApp)
-* [`createApp(array $settings)`](#createApp)
+* [`hasApp(): bool`](#hasApp)
+* [`getApp(): array{api_id: int, api_hash: string}`](#getApp)
+* [`createApp(array{app_title: string, app_shortname: string, app_url?: string, app_platform?: string, app_desc?: string} $settings): array{api_id: int, api_hash: string}`](#createApp)
 
 ## Methods:
 ### <a name="__construct"></a> `__construct(\danog\MadelineProto\SettingsAbstract $settings)`
@@ -42,9 +43,15 @@ Parameters:
 
 
 
+### <a name="getPhoneNumber"></a> `getPhoneNumber(): string`
+
+Get the phone number used to log in.
+
+
+
 ### <a name="login"></a> `login(string $number): void`
 
-Login.
+Login: my.telegram.org sends a login code to the Telegram app of the account.
 
 
 Parameters:
@@ -53,14 +60,14 @@ Parameters:
 
 
 
-### <a name="completeLogin"></a> `completeLogin(string $password)`
+### <a name="completeLogin"></a> `completeLogin(string $password): bool`
 
 Complete login.
 
 
 Parameters:
 
-* `$password`: `string` Password  
+* `$password`: `string` The login code sent to the Telegram app  
 
 
 
@@ -70,26 +77,29 @@ Whether we are logged in.
 
 
 
-### <a name="hasApp"></a> `hasApp()`
+### <a name="hasApp"></a> `hasApp(): bool`
 
 Check if an app was already created.
 
 
 
-### <a name="getApp"></a> `getApp()`
+### <a name="getApp"></a> `getApp(): array{api_id: int, api_hash: string}`
 
 Get the currently created app.
 
 
 
-### <a name="createApp"></a> `createApp(array $settings)`
+### <a name="createApp"></a> `createApp(array{app_title: string, app_shortname: string, app_url?: string, app_platform?: string, app_desc?: string} $settings): array{api_id: int, api_hash: string}`
 
 Create an app.
+  
+Telegram does not allow creating apps from VPS, VPN and other datacenter IP ranges: the request is made  
+from the IP of the machine running MadelineProto.  
 
 
 Parameters:
 
-* `$settings`: `array` App parameters  
+* `$settings`: `array{app_title: string, app_shortname: string, app_url?: string, app_platform?: string, app_desc?: string}` App parameters  
 
 
 

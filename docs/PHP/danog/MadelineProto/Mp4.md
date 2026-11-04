@@ -1,6 +1,6 @@
 ---
 title: "danog\\MadelineProto\\Mp4: A pure PHP MP4 (ISO base media file format) demuxer, with the same shape as {@see Matroska}: it"
-description: "reads the file sequentially and yields its encoded frames, one at a time, with their track, codec\n(as a Matroska codec ID, so they can be muxed by {@see MatroskaWriter} as they are), type, timestamp\nand keyframe flag.\n\nBoth fragmented files (`moov` with `mvex`, then `moof`+`mdat` pairs, as served for group calls in\n[stream mode](https://core.telegram.org/api/group-calls#stream-mode) and by every live/DASH\nencoder) and progressive files whose `moov` precedes the `mdat` are supported. Progressive files\nwith the `moov` at the end cannot be demuxed sequentially.\n\nSupported codecs: H.264 (`avc1`/`avc3`), H.265 (`hvc1`/`hev1`), VP9 (`vp09`), AV1 (`av01`), AAC\n(`mp4a`) and Opus (`Opus`). Video samples keep the length-prefixed NAL units of the file, which is\nalso what Matroska expects.\n"
+description: "reads the file sequentially and yields its encoded frames, one at a time, with their track, codec\n(as a Matroska codec ID, so they can be muxed by {@see MatroskaWriter} as they are), type, timestamp\nand keyframe flag.\n\nBoth fragmented files (`moov` with `mvex`, then `moof`+`mdat` pairs, as served for group calls in\n[stream mode](https://core.telegram.org/api/group-calls#stream-mode) and by every live/DASH\nencoder) and progressive files whose `moov` precedes the `mdat` are supported. A progressive file\nwith the `moov` at the end (like the chunks of an RTMP livestream) is only supported if small: its\n`mdat` is buffered until the `moov` describes it.\n\nSupported codecs: H.264 (`avc1`/`avc3`), H.265 (`hvc1`/`hev1`), VP9 (`vp09`), AV1 (`av01`), AAC\n(`mp4a`) and Opus (`Opus`). Video samples keep the length-prefixed NAL units of the file, which is\nalso what Matroska expects.\n"
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
@@ -19,8 +19,9 @@ and keyframe flag.
 
 Both fragmented files (`moov` with `mvex`, then `moof`+`mdat` pairs, as served for group calls in
 [stream mode](https://core.telegram.org/api/group-calls#stream-mode) and by every live/DASH
-encoder) and progressive files whose `moov` precedes the `mdat` are supported. Progressive files
-with the `moov` at the end cannot be demuxed sequentially.
+encoder) and progressive files whose `moov` precedes the `mdat` are supported. A progressive file
+with the `moov` at the end (like the chunks of an RTMP livestream) is only supported if small: its
+`mdat` is buffered until the `moov` describes it.
 
 Supported codecs: H.264 (`avc1`/`avc3`), H.265 (`hvc1`/`hev1`), VP9 (`vp09`), AV1 (`av01`), AAC
 (`mp4a`) and Opus (`Opus`). Video samples keep the length-prefixed NAL units of the file, which is
@@ -29,6 +30,8 @@ also what Matroska expects.
 
 
 ## Constants
+* `danog\MadelineProto\Mp4::MOOV_AT_END`: The error of a progressive file whose moov follows a big mdat, which can't be read sequentially.
+
 * `danog\MadelineProto\Mp4::TRACK_TYPE_VIDEO`: 
 
 * `danog\MadelineProto\Mp4::TRACK_TYPE_AUDIO`: 

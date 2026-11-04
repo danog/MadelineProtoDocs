@@ -27,6 +27,7 @@ Regex matches, if a filter multiple match regex is present
 
 ## Method list:
 * [`editText(string $message, (array|null) $replyMarkup = NULL, ParseMode $parseMode = \danog\MadelineProto\ParseMode::TEXT, bool $noWebpage = false): void`](#editText)
+* [`editRich((string|array|RichMessage) $message, (array|null) $replyMarkup = NULL, RichParseMode $parseMode = \danog\MadelineProto\RichParseMode::TEXT, array $media = [], boolean $rtl = false, boolean $noAutolink = false): void`](#editRich)
 * [`editReplyMarkup(array $replyMarkup): void`](#editReplyMarkup)
 * [`answer(?string $message = NULL, bool $alert = false, (string|null) $url = NULL, int $cacheTime = 300): bool`](#answer)
 
@@ -46,6 +47,30 @@ Parameters:
 
 #### See also: 
 * `ParseMode`
+
+
+
+
+### <a name="editRich"></a> `editRich((string|array|RichMessage) $message, (array|null) $replyMarkup = NULL, RichParseMode $parseMode = \danog\MadelineProto\RichParseMode::TEXT, array $media = [], boolean $rtl = false, boolean $noAutolink = false): void`
+
+Edit the message, replacing it with a [rich message](https://core.telegram.org/bots/api#sendrichmessage).
+  
+Media must have already been uploaded (e.g. with uploadPhoto, uploadVideo, uploadDocument and so on).  
+
+
+Parameters:
+
+* `$message`: `(string|array|RichMessage)` Rich message: Markdown or HTML (depending on $parseMode), a list of blocks (Block objects or Bot API InputRichBlock arrays), a received RichMessage, or a Bot API InputRichMessage (see sendRichMessage)  
+* `$replyMarkup`: `(array|null)` Reply markup for inline keyboards  
+* `$parseMode`: `RichParseMode` How to parse a string $message: plain text (the default) is sent as a single paragraph, Markdown and HTML are parsed by Telegram.  
+* `$media`: `array` Media referenced by Markdown or HTML messages, as a map from ID to file (see sendRichMessage).  
+* `$rtl`: `boolean` Whether the text is right-to-left  
+* `$noAutolink`: `boolean` Whether to skip the automatic detection of mentions, hashtags, URLs and so on  
+
+
+#### See also: 
+* `RichMessage`
+* `RichParseMode`
 
 
 

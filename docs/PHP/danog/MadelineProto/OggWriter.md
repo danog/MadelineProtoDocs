@@ -19,25 +19,34 @@ Async OGG stream writer.
 * `$streamId`: `int` 
 
 ## Method list:
-* [`__construct(\Amp\ByteStream\WritableStream $out, ?int $streamId = NULL)`](#__construct)
+* [`__construct(\Amp\ByteStream\WritableStream|\danog\MadelineProto\LocalFile $out, ?int $streamId = NULL)`](#__construct)
+* [`resume(): bool`](#resume)
 * [`writeHeader(int $channels, int $sampleRate, string $opusVersion, (string|null) $opusHead = NULL): void`](#writeHeader)
 * [`writeChunk(string $chunk, int $granuleDiff, bool $eos): void`](#writeChunk)
 
 ## Methods:
-### <a name="__construct"></a> `__construct(\Amp\ByteStream\WritableStream $out, ?int $streamId = NULL)`
+### <a name="__construct"></a> `__construct(\Amp\ByteStream\WritableStream|\danog\MadelineProto\LocalFile $out, ?int $streamId = NULL)`
 
 Write an ogg OPUS file.
 
 
 Parameters:
 
-* `$out`: `\Amp\ByteStream\WritableStream`   
+* `$out`: `\Amp\ByteStream\WritableStream|\danog\MadelineProto\LocalFile`   
 * `$streamId`: `?int`   
 
 
 #### See also: 
 * `\Amp\ByteStream\WritableStream`
+* [`\danog\MadelineProto\LocalFile`: Indicates a local file to upload.](../../danog/MadelineProto/LocalFile.html)
 
+
+
+
+### <a name="resume"></a> `resume(): bool`
+
+Reopen the file at its end to continue the stream, after a restart. Returns false if it can't continue (it
+was ended, written to a stream, or the file no longer exists): the owner should then start a new one.  
 
 
 

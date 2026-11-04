@@ -1,6 +1,6 @@
 ---
-title: "danog\\MadelineProto\\Settings\\Templates: Web and CLI template settings for login."
-description: ""
+title: "danog\\MadelineProto\\Settings\\Templates: Web template settings for the login and status pages."
+description: "\nThe pages are rendered by native PHP templates (see {@see TemplateEngine}): to customize them, copy the\ntemplates you want to change from the builtin template directory ({@see TemplateEngine::BUILTIN_DIRECTORY})\nto a directory of yours, and add it with {@see self::addDirectory()}.\n"
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
@@ -11,30 +11,50 @@ parent: "MadelineProto API"
 > Author: Daniil Gentili <daniil@daniil.it>  
   
 
-Web and CLI template settings for login.  
+Web template settings for the login and status pages.  
 
+
+The pages are rendered by native PHP templates (see {@see TemplateEngine}): to customize them, copy the
+templates you want to change from the builtin template directory ({@see TemplateEngine::BUILTIN_DIRECTORY})
+to a directory of yours, and add it with {@see self::addDirectory()}.
 
 
 
 ## Method list:
-* [`getHtmlTemplate(): string`](#getHtmlTemplate)
-* [`setHtmlTemplate(string $htmlTemplate): \danog\MadelineProto\Settings\Templates`](#setHtmlTemplate)
+* [`getDirectories(): list<string>`](#getDirectories)
+* [`setDirectories(list<string> $directories): \danog\MadelineProto\Settings\Templates`](#setDirectories)
+* [`addDirectory(string $directory): \danog\MadelineProto\Settings\Templates`](#addDirectory)
 
 ## Methods:
-### <a name="getHtmlTemplate"></a> `getHtmlTemplate(): string`
+### <a name="getDirectories"></a> `getDirectories(): list<string>`
 
-Get web template used for querying app information.
+Get the template directories, searched in order before the builtin one.
 
 
 
-### <a name="setHtmlTemplate"></a> `setHtmlTemplate(string $htmlTemplate): \danog\MadelineProto\Settings\Templates`
+### <a name="setDirectories"></a> `setDirectories(list<string> $directories): \danog\MadelineProto\Settings\Templates`
 
-Set web template used for querying app information.
+Set the template directories, searched in order before the builtin one.
+  
+A directory only needs to contain the templates it overrides.  
 
 
 Parameters:
 
-* `$htmlTemplate`: `string` Web template used for querying app information.  
+* `$directories`: `list<string>` Template directories  
+
+
+
+### <a name="addDirectory"></a> `addDirectory(string $directory): \danog\MadelineProto\Settings\Templates`
+
+Add a template directory, searched before the ones that were already added and the builtin one.
+  
+A directory only needs to contain the templates it overrides.  
+
+
+Parameters:
+
+* `$directory`: `string` Template directory  
 
 
 

@@ -1,19 +1,8 @@
-{{- /* Hextra's navbar-title.html, plus the GitHub star button. */ -}}
-{{- $logoPath := .Site.Params.navbar.logo.path | default "images/logo.svg" -}}
-{{- $logoLink := .Site.Params.navbar.logo.link | default .Site.Home.RelPermalink -}}
-{{- $logoWidth := .Site.Params.navbar.logo.width | default "20" -}}
-{{- $logoHeight := .Site.Params.navbar.logo.height | default "20" -}}
-{{- $logoDarkPath := .Site.Params.navbar.logo.dark | default $logoPath -}}
-
-<a class="hx:flex hx:items-center hx:hover:opacity-75" href="{{ $logoLink }}">
-  {{- $displayTitle := (.Site.Params.navbar.displayTitle | default true) }}
-  {{- if (.Site.Params.navbar.displayLogo | default true) }}
-    <img class="hx:mr-2 hx:block hx:dark:hidden" src="{{ $logoPath | relURL }}" alt="{{ cond $displayTitle `Logo` .Site.Title }}" height="{{ $logoHeight }}" width="{{ $logoWidth }}" />
-    <img class="hx:mr-2 hx:hidden hx:dark:block" src="{{ $logoDarkPath | relURL }}" alt="{{ cond $displayTitle `Dark Logo` .Site.Title }}" height="{{ $logoHeight }}" width="{{ $logoWidth }}" />
-  {{- end }}
-  {{- if $displayTitle }}
-    <span class="hx:mr-2 hx:font-extrabold hx:inline hx:select-none">{{- .Site.Title -}}</span>
-  {{- end }}
+{{- /* Hextra's navbar-title.html with the glass MadelineProto logo (docs/logo-{dark,light}.svg,
+  static files so that changing them doesn't re-render every page), plus the GitHub star button. */ -}}
+<a class="mp-logo-link hx:flex hx:items-center" href="{{ .Site.Home.RelPermalink }}">
+  <img class="mp-logo hx:block hx:dark:hidden" src="{{ "logo-light.svg" | relURL }}" alt="MadelineProto" width="277" height="39" />
+  <img class="mp-logo hx:hidden hx:dark:block" src="{{ "logo-dark.svg" | relURL }}" alt="MadelineProto" width="277" height="39" />
 </a>
 
 {{- $repo := site.Params.github.repo -}}
@@ -27,4 +16,4 @@
     {{- end -}}
   {{- end -}}
 {{- end }}
-<a class="mp-star-button hx:ltr:mr-auto hx:rtl:ml-auto" href="https://github.com/{{ $repo }}" target="_blank" rel="noreferrer" title="Star MadelineProto on GitHub">⭐️ {{ $label }}</a>
+<a class="mp-star-button hx:ltr:mr-auto hx:rtl:ml-auto" href="https://github.com/{{ $repo }}" target="_blank" rel="noreferrer" title="Star MadelineProto on GitHub"><svg aria-hidden="true" viewBox="0 0 16 16" fill="currentColor"><path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/></svg>{{ $label }}</a>

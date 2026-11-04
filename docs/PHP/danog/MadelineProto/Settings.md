@@ -442,7 +442,7 @@ Get template settings.
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Templates`: Web and CLI template settings for login.](../../danog/MadelineProto/Settings/Templates.html)
+* [`\danog\MadelineProto\Settings\Templates`: Web template settings for the login and status pages.](../../danog/MadelineProto/Settings/Templates.html)
 
 
 
@@ -458,7 +458,7 @@ Parameters:
 
 
 #### See also: 
-* [`\danog\MadelineProto\Settings\Templates`: Web and CLI template settings for login.](../../danog/MadelineProto/Settings/Templates.html)
+* [`\danog\MadelineProto\Settings\Templates`: Web template settings for the login and status pages.](../../danog/MadelineProto/Settings/Templates.html)
 
 
 

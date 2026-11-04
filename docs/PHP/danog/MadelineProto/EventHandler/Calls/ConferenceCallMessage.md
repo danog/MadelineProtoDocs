@@ -24,6 +24,14 @@ Conference messages carry no server-assigned id and cannot be deleted or moderat
 * `$fromId`: `int` Bot API ID of the sender.
 * `$date`: `int` When the message was sent.
 * `$message`: `danog\MadelineProto\EventHandler\Message\Entities\TextWithEntities` The text of the message (or the emoji of a reaction) with its entities.
+* `$out`: `bool` Whether we sent the message.
+* `$command`: `?string` Bot command (if present)
+* `$commandType`: `?danog\MadelineProto\EventHandler\CommandType` Bot command type (if present)
+* `$commandArgs`: `list<string>` Bot command arguments (if present)
+* `$matches`: `list<string>` 
+Regex matches, if a filter regex is present
+* `$matchesAll`: `array<array-key, (array<array-key, (list{string, int} | null | string)> | mixed)>` 
+Regex matches, if a filter multiple match regex is present
 
 ## Method list:
 * [`isReaction(): bool`](#isReaction)

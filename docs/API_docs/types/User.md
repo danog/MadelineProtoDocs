@@ -64,6 +64,8 @@ You can also provide one of the following objects, instead, MadelineProto will h
 
 [$MadelineProto->contacts->importContactToken](/API_docs/methods/contacts.importContactToken.html)  
 
+[$MadelineProto->contacts->importNoPaidMessagesToken](/API_docs/methods/contacts.importNoPaidMessagesToken.html)  
+
 [$MadelineProto->messages->getFutureChatCreatorAfterLeave](/API_docs/methods/messages.getFutureChatCreatorAfterLeave.html)  
 
 [$MadelineProto->channels->getMessageAuthor](/API_docs/methods/channels.getMessageAuthor.html)  

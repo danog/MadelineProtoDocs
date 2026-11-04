@@ -24,6 +24,7 @@ parent: "MadelineProto API"
 * [`getMethodsNamespaced(): array`](#getMethodsNamespaced)
 * [`serializeObject(array $type, mixed $object, string $ctx, integer $layer = -1)`](#serializeObject)
 * [`serializeMethod(string $method, mixed $arguments)`](#serializeMethod)
+* [`convertTypeMismatch(string $type, mixed $object): mixed`](#convertTypeMismatch)
 * [`getLength((resource|string) $stream, array $type = [  'type' => '',  'connection' => NULL,  'encrypted' => false,]): int`](#getLength)
 * [`deserialize((string|resource) $stream, array $type)`](#deserialize)
 * [`getSecretLayer(): int`](#getSecretLayer)
@@ -92,6 +93,18 @@ Parameters:
 
 * `$method`: `string` Method name  
 * `$arguments`: `mixed` Arguments  
+
+
+
+### <a name="convertTypeMismatch"></a> `convertTypeMismatch(string $type, mixed $object): mixed`
+
+Convert a value passed for an object of a TL type to a constructor of that type, as done when serializing it.
+
+
+Parameters:
+
+* `$type`: `string`   
+* `$object`: `mixed`   
 
 
 

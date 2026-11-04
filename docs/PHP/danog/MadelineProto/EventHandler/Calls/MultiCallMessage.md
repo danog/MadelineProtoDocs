@@ -1,6 +1,6 @@
 ---
 title: "danog\\MadelineProto\\EventHandler\\Calls\\MultiCallMessage: An [in-call message or reaction »](https://core.telegram.org/api/group-calls#in-call-messages) sent in a multi-party call, shown as an overlay by the participants' clients (there is no chat history)."
-description: "\nThe concrete type depends on the call: a {@see GroupCallMessage} for a video chat or livestream, a\n{@see LiveStoryMessage} (which can carry a Telegram Stars donation) for a live story, or a\n{@see ConferenceCallMessage} for an end-to-end encrypted conference.\n\nA reaction is a message whose text is a single emoji (with, for a custom emoji, one custom emoji\nentity spanning it), see {@see self::isReaction()}.\n"
+description: "\nThe concrete type depends on the call: a {@see GroupCallMessage} for a video chat or livestream, a\n{@see LiveStoryMessage} (which can carry a Telegram Stars donation) for a live story, or a\n{@see ConferenceCallMessage} for an end-to-end encrypted conference.\n\nA reaction is a message whose text is a single emoji (with, for a custom emoji, one custom emoji\nentity spanning it), see {@see self::isReaction()}.\n\nLike chat messages, in-call messages can be matched by the message filters (commands, text, regexes,\nsender, incoming/outgoing, peer).\n"
 image: "https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png"
 parent: "MadelineProto API"
 
@@ -21,12 +21,23 @@ The concrete type depends on the call: a {@see GroupCallMessage} for a video cha
 A reaction is a message whose text is a single emoji (with, for a custom emoji, one custom emoji
 entity spanning it), see {@see self::isReaction()}.
 
+Like chat messages, in-call messages can be matched by the message filters (commands, text, regexes,
+sender, incoming/outgoing, peer).
+
 
 ## Properties
 * `$callId`: `int` ID of the call the message was sent in.
 * `$fromId`: `int` Bot API ID of the sender.
 * `$date`: `int` When the message was sent.
 * `$message`: `danog\MadelineProto\EventHandler\Message\Entities\TextWithEntities` The text of the message (or the emoji of a reaction) with its entities.
+* `$out`: `bool` Whether we sent the message.
+* `$command`: `?string` Bot command (if present)
+* `$commandType`: `?danog\MadelineProto\EventHandler\CommandType` Bot command type (if present)
+* `$commandArgs`: `list<string>` Bot command arguments (if present)
+* `$matches`: `list<string>` 
+Regex matches, if a filter regex is present
+* `$matchesAll`: `array<array-key, (array<array-key, (list{string, int} | null | string)> | mixed)>` 
+Regex matches, if a filter multiple match regex is present
 
 ## Method list:
 * [`isReaction(): bool`](#isReaction)
