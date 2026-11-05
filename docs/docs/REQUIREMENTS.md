@@ -10,7 +10,9 @@ MadelineProto requires the `mbstring`, `xml`, `json`, `fileinfo`, `gmp`, `openss
 
 The `ffi` and `uv` extensions, the [MadelineCrypto](https://github.com/danog/MadelineCrypto) extension and the `nghttp2` library are also highly recommended to improve performance.
 
-MadelineCrypto is MadelineProto's native cryptography extension (faster encryption, calls and auth key generation), included in the docker image; elsewhere, install it with [PIE](https://github.com/php/pie) (prebuilt for Linux, Mac OS and Windows):
+**[MadelineCrypto](https://github.com/danog/MadelineCrypto) is optional, but recommended for performance.** It's MadelineProto's native cryptography extension: without it MadelineProto works the same, using PHP implementations of the same algorithms, but with it MTProto encryption runs off the PHP thread, and calls and the generation of authorization keys are much faster.
+
+The [docker image](https://docs.madelineproto.xyz/docs/DOCKER.html) already includes it. Elsewhere, install it with [PIE](https://github.com/php/pie) (prebuilt for Linux, Mac OS and Windows):
 
 ```bash
 pie install danog/madelinecrypto
@@ -55,6 +57,7 @@ sudo mkdir -p /etc/security/limits.d/
 echo '* soft nofile 1048576' | sudo tee -a /etc/security/limits.d/40-madelineproto.conf
 echo '* hard nofile 1048576' | sudo tee -a /etc/security/limits.d/40-madelineproto.conf
 
+# Optional, recommended for performance: MadelineCrypto
 curl -fsSL -o /tmp/pie.phar https://github.com/php/pie/releases/latest/download/pie.phar
 sudo install /tmp/pie.phar /usr/local/bin/pie
 sudo pie install danog/madelinecrypto
