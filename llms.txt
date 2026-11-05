@@ -1,0 +1,54 @@
+# MadelineProto
+
+> Async PHP client API for the telegram MTProto protocol
+
+MadelineProto's documentation. Every page is also available as Markdown: replace `.html` with `.md` in its URL (e.g. https://docs.madelineproto.xyz/docs/FILES.md for https://docs.madelineproto.xyz/docs/FILES.html).
+
+## Docs
+
+- [MadelineProto](https://docs.madelineproto.xyz/index.md): Async PHP client API for the telegram MTProto protocol
+- [Creating a client](https://docs.madelineproto.xyz/docs/CREATING_A_CLIENT.md): This page explains how to create a MadelineProto instance.
+- [Login](https://docs.madelineproto.xyz/docs/LOGIN.md): There are many ways you can login with MadelineProto.
+- [Features](https://docs.madelineproto.xyz/docs/FEATURES.md): MadelineProto can do everything official clients can do, and more!
+- [Requirements](https://docs.madelineproto.xyz/docs/REQUIREMENTS.md): MadelineProto requires the mbstring, xml, json, fileinfo, gmp, openssl, iconv, gd extensions to function properly.
+- [MadelineProto on Docker](https://docs.madelineproto.xyz/docs/DOCKER.md): MadelineProto offers an official MadelineProto docker image for the linux/amd64 and linux/arm64 platforms @ hub.madelineproto.xyz/danog/madelineproto.
+- [Metrics](https://docs.madelineproto.xyz/docs/METRICS.md): MadelineProto can expose many useful metrics, that can be visualized using the official MadelineProto Grafana dashboard.
+- [Installation](https://docs.madelineproto.xyz/docs/INSTALLATION.md): There are various ways to install MadelineProto:
+- [Broadcasting messages to all users](https://docs.madelineproto.xyz/docs/BROADCAST.md): MadelineProto can be used to broadcast messages to all users, chats and channels of a bot or userbot.
+- [Handling updates (new messages & other events)](https://docs.madelineproto.xyz/docs/UPDATES.md): Update handling can be done in different ways:
+- [Filters](https://docs.madelineproto.xyz/docs/FILTERS.md): MadelineProto offers a very simple and intuitive message filtering system, based on PHP's type system and attributes.
+- [Plugins](https://docs.madelineproto.xyz/docs/PLUGINS.md): MadelineProto offers a native plugin system, based on event handlers!
+- [Database](https://docs.madelineproto.xyz/docs/DATABASE.md): MadelineProto optionally can keep some of its internal data in a database, such as mysql, mariadb, postgres or redis (you can also add your own!), reducing RAM usage.
+- [Settings](https://docs.madelineproto.xyz/docs/SETTINGS.md): MadelineProto has lots of settings that can be used to modify the behaviour of the library.
+- [Getting info about the current user](https://docs.madelineproto.xyz/docs/SELF.md): Here's how you can fetch info about the currently logged in user
+- [Exceptions](https://docs.madelineproto.xyz/docs/EXCEPTIONS.md): MadelineProto can throw lots of different exceptions.
+- [Avoiding FLOOD_WAITs](https://docs.madelineproto.xyz/docs/FLOOD_WAIT.md): If you make too many requests to telegram, you might get FLOOD_WAITed for a while. To avoid these flood waits, you must calculate the flood wait rate.
+- [Logging](https://docs.madelineproto.xyz/docs/LOGGING.md): MadelineProto provides a unified class for logging messages to the logging destination defined in settings.
+- [Telegram voice/video/group calls](https://docs.madelineproto.xyz/docs/CALLS.md): MadelineProto can make and receive voice and video calls, stream and record video chats and livestreams, and take part in end-to-end encrypted conference calls.
+- [Uploading and downloading files](https://docs.madelineproto.xyz/docs/FILES.md): MadelineProto provides fully parallelized wrapper methods to upload and download files that support bot API file ids, direct upload by URL and file renaming.
+- [Getting info about chats](https://docs.madelineproto.xyz/docs/CHAT_INFO.md): There are various methods that can be used to fetch info about chats, based on bot API id, Peer, User, Chat objects.
+- [Getting all chats (dialogs)](https://docs.madelineproto.xyz/docs/DIALOGS.md): There are two ways to get a list of all chats, depending if you logged in as a user, or as a bot.
+- [Inline buttons](https://docs.madelineproto.xyz/docs/INLINE_BUTTONS.md): You can easily click inline buttons using MadelineProto, just access the correct button:
+- [Secret chats](https://docs.madelineproto.xyz/docs/SECRET_CHATS.md): MadelineProto provides wrappers to work with secret chats.
+- [Using a proxy](https://docs.madelineproto.xyz/docs/PROXY.md): You can use a proxy with MadelineProto.
+- [Async](https://docs.madelineproto.xyz/docs/ASYNC.md): MadelineProto now features async, for incredible speed improvements, and parallel processing, all powered by amphp.
+- [FAQ](https://docs.madelineproto.xyz/docs/FAQ.md): Here's a list of common MadelineProto questions and answers.
+- [Upgrading from MadelineProto v7 to v8](https://docs.madelineproto.xyz/docs/UPGRADING.md): MadelineProto v8 is a major MadelineProto update, that removes a large number of long-deprecated APIs: I've created this upgrade checklist, to simplify the upgrade process.
+- [Using methods](https://docs.madelineproto.xyz/docs/USING_METHODS.md): There are simplifications for many, if not all of, these methods.
+- [Contributing](https://docs.madelineproto.xyz/docs/CONTRIB.md): You can contribute in various ways.
+- [Web templates for `$MadelineProto->start()`](https://docs.madelineproto.xyz/docs/TEMPLATES.md): The web template used for the $MadelineProto->start() and API ID web UIs can be changed.
+- [Working with updates in MTProto](https://docs.madelineproto.xyz/docs/UPDATES_INTERNAL.md): Apart from the basic operations required to work with MTProto update sequences, implementations also have to take care to postpone updates received via the socket while filling gaps in the event and Update sequences, as well as avoid filling gaps in the same sequence.
+
+## API reference
+
+The Telegram API reference (every method, constructor and type) and the PHP API reference (every class of MadelineProto), as indexes linking to each page.
+
+- [Telegram RPC API](https://docs.madelineproto.xyz/API_docs/index.md): MadelineProto API documentation (layer 233)
+- [Constructors](https://docs.madelineproto.xyz/API_docs/constructors/index.md): List of constructors
+- [Methods](https://docs.madelineproto.xyz/API_docs/methods/index.md): What do you want to do?
+- [Types](https://docs.madelineproto.xyz/API_docs/types/index.md): List of types
+- [MadelineProto API](https://docs.madelineproto.xyz/PHP/index.md): MadelineProto PHP API reference
+
+## Optional
+
+- [Full text of the docs](https://docs.madelineproto.xyz/llms-full.txt): every page of the Docs section above, in one file

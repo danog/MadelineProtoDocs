@@ -1,0 +1,25 @@
+# WebViewResult
+
+> constructors and methods of type WebViewResult
+
+[Back to types index](index.html)
+
+
+
+### Possible values (constructors):
+
+[webViewResultUrl](/API_docs/constructors/webViewResultUrl.html)  
+
+
+
+### Methods that return an object of this type (methods):
+
+[$MadelineProto->messages->requestWebView](/API_docs/methods/messages.requestWebView.html)  
+
+[$MadelineProto->messages->requestSimpleWebView](/API_docs/methods/messages.requestSimpleWebView.html)  
+
+[$MadelineProto->messages->requestAppWebView](/API_docs/methods/messages.requestAppWebView.html)  
+
+[$MadelineProto->messages->requestMainWebView](/API_docs/methods/messages.requestMainWebView.html)  
+
+[$MadelineProto->messages->requestChatJoinWebView](/API_docs/methods/messages.requestChatJoinWebView.html)

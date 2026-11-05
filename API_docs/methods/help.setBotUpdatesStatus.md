@@ -1,0 +1,48 @@
+# help.setBotUpdatesStatus
+
+> Informs the server about the number of pending bot updates if they haven't been processed for a long time; for bots only
+
+[Back to methods index](index.html)
+
+
+
+Informs the server about the number of pending bot updates if they haven't been processed for a long time; for bots only
+
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|pending\_updates\_count|[int](/API_docs/types/int.html) | Number of pending updates | Optional|
+|message|[string](/API_docs/types/string.html) | Error message, if present | Optional|
+
+
+### Return type: [Bool](/API_docs/types/Bool.html)
+
+### Can users use this method: **NO**
+
+
+### Can bots use this method: **YES**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$Bool = $MadelineProto->help->setBotUpdatesStatus(pending_updates_count: $int, message: 'string', );
+```
+
+
+## Return value 
+
+If the length of the provided message is bigger than 4096, the message will be split in chunks and the method will be called multiple times, with the same parameters (except for the message), and an array of [Bool](../types/Bool.html) will be returned instead.

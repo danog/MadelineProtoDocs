@@ -1,0 +1,35 @@
+# messages.Chats
+
+> constructors and methods of type messages.Chats
+
+[Back to types index](index.html)
+
+
+
+### Possible values (constructors):
+
+[messages.chats](/API_docs/constructors/messages.chats.html)  
+
+[messages.chatsSlice](/API_docs/constructors/messages.chatsSlice.html)  
+
+
+
+### Methods that return an object of this type (methods):
+
+[$MadelineProto->messages->getChats](/API_docs/methods/messages.getChats.html)  
+
+[$MadelineProto->messages->getCommonChats](/API_docs/methods/messages.getCommonChats.html)  
+
+[$MadelineProto->channels->getChannels](/API_docs/methods/channels.getChannels.html)  
+
+[$MadelineProto->channels->getAdminedPublicChannels](/API_docs/methods/channels.getAdminedPublicChannels.html)  
+
+[$MadelineProto->channels->getLeftChannels](/API_docs/methods/channels.getLeftChannels.html)  
+
+[$MadelineProto->channels->getGroupsForDiscussion](/API_docs/methods/channels.getGroupsForDiscussion.html)  
+
+[$MadelineProto->channels->getChannelRecommendations](/API_docs/methods/channels.getChannelRecommendations.html)  
+
+[$MadelineProto->stories->getChatsToSend](/API_docs/methods/stories.getChatsToSend.html)  
+
+[$MadelineProto->communities->getJoinedCommunities](/API_docs/methods/communities.getJoinedCommunities.html)

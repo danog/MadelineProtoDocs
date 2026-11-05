@@ -1,0 +1,42 @@
+# folders.editPeerFolders
+
+> Edit peers in [peer folder](https://core.telegram.org/api/folders#peer-folders)
+
+[Back to methods index](index.html)
+
+
+
+Edit peers in [peer folder](https://core.telegram.org/api/folders#peer-folders)
+
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|folder\_peers|Array of [InputFolderPeer](/API_docs/types/InputFolderPeer.html) | New peer list | Yes|
+
+
+### Return type: [Updates](/API_docs/types/Updates.html)
+
+### Can users use this method: **YES**
+
+
+### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$Updates = $MadelineProto->folders->editPeerFolders(folder_peers: [$InputFolderPeer, $InputFolderPeer], );
+```

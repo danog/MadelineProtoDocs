@@ -1,0 +1,44 @@
+# messages.clickSponsoredMessage
+
+> Informs the server that the user has interacted with a sponsored message in [one of the ways listed here »](https://core.telegram.org/api/sponsored-messages#clicking-on-sponsored-messages).
+
+[Back to methods index](index.html)
+
+
+
+Informs the server that the user has interacted with a sponsored message in [one of the ways listed here »](https://core.telegram.org/api/sponsored-messages#clicking-on-sponsored-messages).
+
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|media|[Bool](/API_docs/types/Bool.html) | The user clicked on the media | Optional|
+|fullscreen|[Bool](/API_docs/types/Bool.html) | The user expanded the video to full screen, and then clicked on it. | Optional|
+|random\_id|[bytes](/API_docs/types/bytes.html) | The ad's unique ID. | Yes|
+
+
+### Return type: [Bool](/API_docs/types/Bool.html)
+
+### Can users use this method: **YES**
+
+
+### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$Bool = $MadelineProto->messages->clickSponsoredMessage(media: $Bool, fullscreen: $Bool, random_id: 'bytes', );
+```

@@ -1,0 +1,46 @@
+# messages.requestUrlAuth
+
+> Get more info about a Seamless Telegram Login authorization request, for more info [click here »](https://core.telegram.org/api/url-authorization)
+
+[Back to methods index](index.html)
+
+
+
+Get more info about a Seamless Telegram Login authorization request, for more info [click here »](https://core.telegram.org/api/url-authorization)
+
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer where the message is located | Optional|
+|msg\_id|[int](/API_docs/types/int.html) | The message | Optional|
+|button\_id|[int](/API_docs/types/int.html) | The ID of the button with the authorization request | Optional|
+|url|[string](/API_docs/types/string.html) | URL used for [link URL authorization, click here for more info »](https://core.telegram.org/api/url-authorization#link-url-authorization) | Optional|
+|in\_app\_origin|[string](/API_docs/types/string.html) |  | Optional|
+
+
+### Return type: [UrlAuthResult](/API_docs/types/UrlAuthResult.html)
+
+### Can users use this method: **YES**
+
+
+### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$UrlAuthResult = $MadelineProto->messages->requestUrlAuth(peer: $InputPeer, msg_id: $int, button_id: $int, url: 'string', in_app_origin: 'string', );
+```

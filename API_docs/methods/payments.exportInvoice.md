@@ -1,0 +1,42 @@
+# payments.exportInvoice
+
+> Generate an [invoice deep link](https://core.telegram.org/api/links#invoice-links)
+
+[Back to methods index](index.html)
+
+
+
+Generate an [invoice deep link](https://core.telegram.org/api/links#invoice-links)
+
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|invoice\_media|[MessageMedia, Update, Message or InputMedia](/API_docs/types/InputMedia.html) | Invoice | Optional|
+
+
+### Return type: [payments.ExportedInvoice](/API_docs/types/payments.ExportedInvoice.html)
+
+### Can users use this method: **NO**
+
+
+### Can bots use this method: **YES**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **YES**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$payments_ExportedInvoice = $MadelineProto->payments->exportInvoice(invoice_media: $InputMedia, );
+```

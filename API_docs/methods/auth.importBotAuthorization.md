@@ -1,0 +1,44 @@
+# auth.importBotAuthorization
+
+> You cannot use this method directly, use the botLogin method instead (see https://docs.madelineproto.xyz for more info)
+
+[Back to methods index](index.html)
+
+
+
+You cannot use this method directly, use the botLogin method instead (see https://docs.madelineproto.xyz for more info)
+
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|api\_id|[int](/API_docs/types/int.html) | Application identifier (see. [App configuration](https://core.telegram.org/myapp)) | Optional|
+|api\_hash|[string](/API_docs/types/string.html) | Application identifier hash (see. [App configuration](https://core.telegram.org/myapp)) | Optional|
+|bot\_auth\_token|[string](/API_docs/types/string.html) | Bot token (see [bots](https://core.telegram.org/bots)) | Optional|
+
+
+### Return type: [auth.Authorization](/API_docs/types/auth.Authorization.html)
+
+### Can users use this method: **YES**
+
+
+### Can bots use this method: **YES**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$auth_Authorization = $MadelineProto->auth->importBotAuthorization(api_id: $int, api_hash: 'string', bot_auth_token: 'string', );
+```

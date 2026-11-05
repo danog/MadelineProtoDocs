@@ -1,0 +1,28 @@
+# decryptedMessageMediaAudio
+
+> Audio file attached to a secret chat message.
+
+[Back to constructors index](/API_docs/constructors/index.html)
+
+
+
+Audio file attached to a secret chat message.
+
+### Attributes:
+
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|duration|[int](/API_docs/types/int.html) | Yes|Audio duration in seconds|
+|mime\_type|[string](/API_docs/types/string.html) | Yes|MIME-type of the audio file<br>Parameter added in Layer 13.|
+|size|[int](/API_docs/types/int.html) | Yes|File size|
+
+
+
+### Type: [DecryptedMessageMedia](/API_docs/types/DecryptedMessageMedia.html)
+
+
+### Example:
+
+```
+$decryptedMessageMediaAudio_17 = ['_' => 'decryptedMessageMediaAudio', 'duration' => int, 'mime_type' => 'string', 'size' => int];
+```

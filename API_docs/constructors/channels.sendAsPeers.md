@@ -1,0 +1,28 @@
+# channels.sendAsPeers
+
+> A list of peers that can be used to send messages in a specific group
+
+[Back to constructors index](/API_docs/constructors/index.html)
+
+
+
+A list of peers that can be used to send messages in a specific group
+
+### Attributes:
+
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peers|Array of [SendAsPeer](/API_docs/types/SendAsPeer.html) | Yes|Peers that can be used to send messages to the group|
+|chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Mentioned chats|
+|users|Array of [User](/API_docs/types/User.html) | Yes|Mentioned users|
+
+
+
+### Type: [channels.SendAsPeers](/API_docs/types/channels.SendAsPeers.html)
+
+
+### Example:
+
+```
+$channels_sendAsPeers = ['_' => 'channels.sendAsPeers', 'peers' => [SendAsPeer, SendAsPeer], 'chats' => [Chat, Chat], 'users' => [User, User]];
+```

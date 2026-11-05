@@ -1,0 +1,30 @@
+# inputInvoiceStarGiftResale
+
+> Used to buy a collectible gift currently up on resale, see here for more info on the full flow.
+
+[Back to constructors index](/API_docs/constructors/index.html)
+
+
+
+Used to buy a [collectible gift](https://core.telegram.org/api/gifts#collectible-gifts) currently up on resale, see [here](https://core.telegram.org/api/gifts#reselling-collectible-gifts) for more info on the full flow.
+
+### Attributes:
+
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|ton|[Bool](/API_docs/types/Bool.html) | Optional|Buy the gift using TON.|
+|show\_name|[Bool](/API_docs/types/Bool.html) | Optional|
+|slug|[string](/API_docs/types/string.html) | Yes|Slug of the gift to buy.|
+|to\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|The receiver of the gift.|
+|message|[TextWithEntities](/API_docs/types/TextWithEntities.html) | Optional|
+
+
+
+### Type: [InputInvoice](/API_docs/types/InputInvoice.html)
+
+
+### Example:
+
+```
+$inputInvoiceStarGiftResale = ['_' => 'inputInvoiceStarGiftResale', 'ton' => Bool, 'show_name' => Bool, 'slug' => 'string', 'to_id' => InputPeer, 'message' => TextWithEntities];
+```

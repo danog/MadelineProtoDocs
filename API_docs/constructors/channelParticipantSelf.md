@@ -1,0 +1,31 @@
+# channelParticipantSelf
+
+> Myself
+
+[Back to constructors index](/API_docs/constructors/index.html)
+
+
+
+Myself
+
+### Attributes:
+
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|via\_request|[Bool](/API_docs/types/Bool.html) | Optional|Whether I joined upon specific approval of an admin|
+|user\_id|[long](/API_docs/types/long.html) | Yes|User ID|
+|inviter\_id|[long](/API_docs/types/long.html) | Yes|User that invited me to the channel/supergroup|
+|date|[int](/API_docs/types/int.html) | Yes|When did I join the channel/supergroup|
+|subscription\_until\_date|[int](/API_docs/types/int.html) | Optional|If set, contains the expiration date of the current [Telegram Star subscription period »](https://core.telegram.org/api/stars#star-subscriptions) for the specified participant.|
+|rank|[string](/API_docs/types/string.html) | Optional|
+
+
+
+### Type: [ChannelParticipant](/API_docs/types/ChannelParticipant.html)
+
+
+### Example:
+
+```
+$channelParticipantSelf = ['_' => 'channelParticipantSelf', 'via_request' => Bool, 'user_id' => long, 'inviter_id' => long, 'date' => int, 'subscription_until_date' => int, 'rank' => 'string'];
+```

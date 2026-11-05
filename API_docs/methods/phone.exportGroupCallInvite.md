@@ -1,0 +1,43 @@
+# phone.exportGroupCallInvite
+
+> Get an [invite link](https://core.telegram.org/api/links#video-chat-livestream-links) for a group call or livestream
+
+[Back to methods index](index.html)
+
+
+
+Get an [invite link](https://core.telegram.org/api/links#video-chat-livestream-links) for a group call or livestream
+
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|can\_self\_unmute|[Bool](/API_docs/types/Bool.html) | For livestreams or muted group chats, if set, users that join using this link will be able to speak without explicitly requesting permission by (for example by raising their hand). | Optional|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | The group call | Yes|
+
+
+### Return type: [phone.ExportedGroupCallInvite](/API_docs/types/phone.ExportedGroupCallInvite.html)
+
+### Can users use this method: **YES**
+
+
+### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$phone_ExportedGroupCallInvite = $MadelineProto->phone->exportGroupCallInvite(can_self_unmute: $Bool, call: $InputGroupCall, );
+```

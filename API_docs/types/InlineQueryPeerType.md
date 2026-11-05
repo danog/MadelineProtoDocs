@@ -1,0 +1,25 @@
+# InlineQueryPeerType
+
+> constructors and methods of type InlineQueryPeerType
+
+[Back to types index](index.html)
+
+
+
+### Possible values (constructors):
+
+[inlineQueryPeerTypeSameBotPM](/API_docs/constructors/inlineQueryPeerTypeSameBotPM.html)  
+
+[inlineQueryPeerTypePM](/API_docs/constructors/inlineQueryPeerTypePM.html)  
+
+[inlineQueryPeerTypeChat](/API_docs/constructors/inlineQueryPeerTypeChat.html)  
+
+[inlineQueryPeerTypeMegagroup](/API_docs/constructors/inlineQueryPeerTypeMegagroup.html)  
+
+[inlineQueryPeerTypeBroadcast](/API_docs/constructors/inlineQueryPeerTypeBroadcast.html)  
+
+[inlineQueryPeerTypeBotPM](/API_docs/constructors/inlineQueryPeerTypeBotPM.html)  
+
+
+
+### Methods that return an object of this type (methods):
