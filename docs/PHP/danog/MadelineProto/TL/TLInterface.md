@@ -23,7 +23,7 @@ parent: "MadelineProto API"
 * [`getMethodNamespaces(): array`](#getMethodNamespaces)
 * [`getMethodsNamespaced(): array`](#getMethodsNamespaced)
 * [`serializeObject(array $type, mixed $object, string $ctx, integer $layer = -1)`](#serializeObject)
-* [`serializeMethod(string $method, mixed $arguments)`](#serializeMethod)
+* [`serializeMethod(string $method, mixed $arguments, ?array $sent = NULL)`](#serializeMethod)
 * [`convertTypeMismatch(string $type, mixed $object): mixed`](#convertTypeMismatch)
 * [`getLength((resource|string) $stream, array $type = [  'type' => '',  'connection' => NULL,  'encrypted' => false,]): int`](#getLength)
 * [`deserialize((string|resource) $stream, array $type)`](#deserialize)
@@ -84,7 +84,7 @@ Parameters:
 
 
 
-### <a name="serializeMethod"></a> `serializeMethod(string $method, mixed $arguments)`
+### <a name="serializeMethod"></a> `serializeMethod(string $method, mixed $arguments, ?array $sent = NULL)`
 
 Serialize method.
 
@@ -93,6 +93,7 @@ Parameters:
 
 * `$method`: `string` Method name  
 * `$arguments`: `mixed` Arguments  
+* `$sent`: `?array` Set to the arguments as sent: the values the deserializer would return for them  
 
 
 
