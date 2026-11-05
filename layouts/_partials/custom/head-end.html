@@ -21,3 +21,12 @@
 {{- end }}
 {{- end }}
 </style>
+{{- /* The Markdown source of the page, next to it (tools/build_content.py writes it to static/): for AI agents and other tools. */ -}}
+{{- if in (slice "page" "section" "home") .Kind }}
+{{- $md := "" }}
+{{- if strings.HasSuffix .RelPermalink ".html" }}{{ $md = printf "%s.md" (strings.TrimSuffix ".html" .RelPermalink) }}
+{{- else if strings.HasSuffix .RelPermalink "/" }}{{ $md = printf "%sindex.md" .RelPermalink }}{{ end }}
+{{- with $md }}
+<link rel="alternate" type="text/markdown" href="{{ . }}" />
+{{- end }}
+{{- end }}
