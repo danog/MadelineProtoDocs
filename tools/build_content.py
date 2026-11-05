@@ -10,12 +10,14 @@ import json
 import os
 import re
 import shutil
+from urllib.parse import urljoin
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "docs")
 CONTENT = os.path.join(ROOT, "content")
 STATIC = os.path.join(ROOT, "static")
 EDIT_BASE = "https://github.com/danog/MadelineProtoDocs/edit/master/docs/"
+SITE = "https://docs.madelineproto.xyz"
 SECTIONS = ("docs", "API_docs", "PHP")
 
 # Leaf pages in these sections are hidden from the sidebar: their index pages
@@ -104,6 +106,73 @@ def convert(rel):
     os.makedirs(os.path.dirname(dest), exist_ok=True)
     with open(dest, "w", encoding="utf-8") as f:
         f.write(dump(out) + strip_first_heading(body))
+    PAGES.append({"rel": rel, "url": out["url"], "title": out["title"], "description": out.get("description", ""),
+                  "weight": out.get("weight", 10**6), "body": strip_first_heading(body)})
+
+
+# Every page, for the Markdown copies and llms.txt: rel (in docs/), url, title, description, weight, body.
+PAGES = []
+
+
+def md_url(url):
+    """/docs/FILES.html -> /docs/FILES.md, next to the HTML page (so relative links keep working)."""
+    return url[: -len(".html")] + ".md"
+
+
+def markdown_page(page):
+    head = f"# {page['title']}\n\n" + (f"> {page['description']}\n\n" if page["description"] else "")
+    return head + page["body"].strip() + "\n"
+
+
+def absolute_links(text, url):
+    """Relative links of a page (Markdown and HTML) made absolute, for text read out of its page (llms-full.txt)."""
+    base = SITE + url
+
+    def fix(target):
+        return target if re.match(r"[a-z][a-z0-9+.-]*:|#", target) else urljoin(base, target)
+
+    text = re.sub(r"\]\(([^)\s]+)", lambda m: "](" + fix(m.group(1)), text)
+    return re.sub(r'(href|src)="([^"]+)"', lambda m: f'{m.group(1)}="{fix(m.group(2))}"', text)
+
+
+def write_markdown_and_llms():
+    """The Markdown source of every page next to its HTML page, and llms.txt / llms-full.txt (llmstxt.org)."""
+    for page in PAGES:
+        dest = os.path.join(STATIC, md_url(page["url"]).lstrip("/"))
+        os.makedirs(os.path.dirname(dest), exist_ok=True)
+        with open(dest, "w", encoding="utf-8") as f:
+            f.write(markdown_page(page))
+
+    home = next(p for p in PAGES if p["rel"] == "index.md")
+    guides = sorted((p for p in PAGES if p["rel"].startswith("docs/")), key=lambda p: (p["weight"], p["title"]))
+    refs = [p for p in PAGES if p["rel"] in (
+        "API_docs/index.md", "API_docs/methods/index.md", "API_docs/constructors/index.md", "API_docs/types/index.md",
+        "PHP/index.md",
+    )]
+
+    def entry(p):
+        return f"- [{p['title']}]({SITE}{md_url(p['url'])})" + (f": {p['description']}" if p["description"] else "") + "\n"
+
+    llms = (
+        f"# MadelineProto\n\n> {home['description']}\n\n"
+        f"MadelineProto's documentation. Every page is also available as Markdown: replace `.html` with `.md` in its "
+        f"URL (e.g. {SITE}/docs/FILES.md for {SITE}/docs/FILES.html).\n\n"
+        f"## Docs\n\n- [{home['title']}]({SITE}{md_url(home['url'])}): {home['description']}\n"
+        + "".join(entry(p) for p in guides)
+        + "\n## API reference\n\nThe Telegram API reference (every method, constructor and type) and the PHP API "
+        "reference (every class of MadelineProto), as indexes linking to each page.\n\n"
+        + "".join(entry(p) for p in refs)
+        + f"\n## Optional\n\n- [Full text of the docs]({SITE}/llms-full.txt): every page of the Docs section above, "
+        "in one file\n"
+    )
+    with open(os.path.join(STATIC, "llms.txt"), "w", encoding="utf-8") as f:
+        f.write(llms)
+    full = "".join(
+        f"\n\n---\n\nSource: {SITE}{p['url']}\n\n" + absolute_links(markdown_page(p), p["url"])
+        for p in [home] + guides
+    )
+    with open(os.path.join(STATIC, "llms-full.txt"), "w", encoding="utf-8") as f:
+        f.write(f"# MadelineProto\n\n> {home['description']}" + full)
 
 
 def add_missing_section_indexes():
@@ -118,6 +187,8 @@ def add_missing_section_indexes():
             fm["sidebar"] = {"exclude": True}
         with open(os.path.join(root, "_index.md"), "w", encoding="utf-8") as f:
             f.write(dump(fm) + body)
+        PAGES.append({"rel": rel + "/index.md", "url": fm["url"], "title": fm["title"], "description": "",
+                      "weight": 10**6, "body": body})
 
 
 def copy_static():
@@ -148,6 +219,7 @@ def main():
                 count += 1
     add_missing_section_indexes()
     copy_static()
+    write_markdown_and_llms()
     print(f"Converted {count} pages")
 
 
