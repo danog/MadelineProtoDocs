@@ -351,6 +351,18 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [updateWalletTonConnectPendingDisconnect](/API_docs/constructors/updateWalletTonConnectPendingDisconnect.html)  
 
+[updateEditForumTopic](/API_docs/constructors/updateEditForumTopic.html)  
+
+[updateBotWidgetQuery](/API_docs/constructors/updateBotWidgetQuery.html)  
+
+[updateInlineBotWidgetQuery](/API_docs/constructors/updateInlineBotWidgetQuery.html)  
+
+[updateBotWidgetCopyQuery](/API_docs/constructors/updateBotWidgetCopyQuery.html)  
+
+[updateMessageWidgetData](/API_docs/constructors/updateMessageWidgetData.html)  
+
+[updateTranscribedAudioFile](/API_docs/constructors/updateTranscribedAudioFile.html)  
+
 
 
 ### Methods that return an object of this type (methods):

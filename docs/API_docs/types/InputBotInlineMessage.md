@@ -29,6 +29,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [inputBotInlineMessageRichMessage](/API_docs/constructors/inputBotInlineMessageRichMessage.html)  
 
+[inputBotInlineMessageWidget](/API_docs/constructors/inputBotInlineMessageWidget.html)  
+
+[inputBotInlineMessageWidgetId](/API_docs/constructors/inputBotInlineMessageWidgetId.html)  
+
 
 
 ### Methods that return an object of this type (methods):

@@ -2136,6 +2136,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.editForumTopic.html" name="messages.editForumTopic">messages.editForumTopic</a>
 
+* <a href="messages.editInlineBotMessageWidgetData.html" name="messages.editInlineBotMessageWidgetData">messages.editInlineBotMessageWidgetData</a>
+
+* <a href="messages.editMessageWidgetData.html" name="messages.editMessageWidgetData">messages.editMessageWidgetData</a>
+
+* <a href="messages.editWidgetData.html" name="messages.editWidgetData">messages.editWidgetData</a>
+
+* <a href="messages.getBotWidgetQueryAnswer.html" name="messages.getBotWidgetQueryAnswer">messages.getBotWidgetQueryAnswer</a>
+
 * <a href="messages.getEmojiGameInfo.html" name="messages.getEmojiGameInfo">messages.getEmojiGameInfo</a>
 
 * <a href="messages.getForumTopics.html" name="messages.getForumTopics">messages.getForumTopics</a>
@@ -2150,7 +2158,11 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getShareThemeBackdrops.html" name="messages.getShareThemeBackdrops">messages.getShareThemeBackdrops</a>
 
+* <a href="messages.getTranscriptionLangs.html" name="messages.getTranscriptionLangs">messages.getTranscriptionLangs</a>
+
 * <a href="messages.getUnreadPollVotes.html" name="messages.getUnreadPollVotes">messages.getUnreadPollVotes</a>
+
+* <a href="messages.getWidgetPublicData.html" name="messages.getWidgetPublicData">messages.getWidgetPublicData</a>
 
 * <a href="messages.readPollVotes.html" name="messages.readPollVotes">messages.readPollVotes</a>
 
@@ -2164,9 +2176,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.setBotGuestChatResult.html" name="messages.setBotGuestChatResult">messages.setBotGuestChatResult</a>
 
+* <a href="messages.setBotWidgetQueryAnswer.html" name="messages.setBotWidgetQueryAnswer">messages.setBotWidgetQueryAnswer</a>
+
 * <a href="messages.setShareTheme.html" name="messages.setShareTheme">messages.setShareTheme</a>
 
 * <a href="messages.summarizeText.html" name="messages.summarizeText">messages.summarizeText</a>
+
+* <a href="messages.transcribeAudioFile.html" name="messages.transcribeAudioFile">messages.transcribeAudioFile</a>
 
 * <a href="messages.translateRichMessage.html" name="messages.translateRichMessage">messages.translateRichMessage</a>
 

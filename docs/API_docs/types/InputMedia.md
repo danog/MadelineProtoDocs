@@ -52,6 +52,10 @@ You can also provide a [MessageMedia](MessageMedia.html), [Message](Message.html
 
 [inputMediaStakeDice](/API_docs/constructors/inputMediaStakeDice.html)  
 
+[inputMediaWidget](/API_docs/constructors/inputMediaWidget.html)  
+
+[inputMediaWidgetId](/API_docs/constructors/inputMediaWidgetId.html)  
+
 
 
 ### Methods that return an object of this type (methods):

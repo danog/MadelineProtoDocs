@@ -1067,6 +1067,12 @@ Here's a full list of all MTProto filters (click on each filter name to view the
 * [onUpdateWalletGaslessInfo &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateWalletGaslessInfo.html) - 
 * [onUpdateWalletTonConnectSession &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateWalletTonConnectSession.html) - 
 * [onUpdateWalletTonConnectPendingDisconnect &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateWalletTonConnectPendingDisconnect.html) - 
+* [onUpdateEditForumTopic &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateEditForumTopic.html) - 
+* [onUpdateBotWidgetQuery &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBotWidgetQuery.html) - 
+* [onUpdateInlineBotWidgetQuery &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateInlineBotWidgetQuery.html) - 
+* [onUpdateBotWidgetCopyQuery &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateBotWidgetCopyQuery.html) - 
+* [onUpdateMessageWidgetData &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateMessageWidgetData.html) - 
+* [onUpdateTranscribedAudioFile &raquo;](https://docs.madelineproto.xyz/API_docs/constructors/updateTranscribedAudioFile.html) - 
 
 
 <!-- cut_here_end mtprotofilters -->
