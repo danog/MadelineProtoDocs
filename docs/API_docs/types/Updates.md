@@ -164,6 +164,8 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->messages->deleteParticipantReaction](/API_docs/methods/messages.deleteParticipantReaction.html)  
 
+[$MadelineProto->messages->editMessageWidgetData](/API_docs/methods/messages.editMessageWidgetData.html)  
+
 [$MadelineProto->channels->createChannel](/API_docs/methods/channels.createChannel.html)  
 
 [$MadelineProto->channels->editAdmin](/API_docs/methods/channels.editAdmin.html)  

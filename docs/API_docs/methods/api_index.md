@@ -1037,7 +1037,7 @@ $MadelineProto->[channels->toggleAutotranslation](/API_docs/methods/channels.tog
 
 ***
 <br><br>
-$MadelineProto->[channels->toggleForum](/API_docs/methods/channels.toggleForum.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), enabled: $[Bool](/API_docs/types/Bool.html), tabs: $[Bool](/API_docs/types/Bool.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.toggleForum"></a>  
+$MadelineProto->[channels->toggleForum](/API_docs/methods/channels.toggleForum.html)(\[channel: $[InputChannel](/API_docs/types/InputChannel.html), enabled: $[Bool](/API_docs/types/Bool.html), tabs: $[Bool](/API_docs/types/Bool.html), sidebar: $[Bool](/API_docs/types/Bool.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="channels.toggleForum"></a>  
 
 ***
 <br><br>
@@ -1681,11 +1681,23 @@ $MadelineProto->[messages->editInlineBotMessage](/API_docs/methods/messages.edit
 
 ***
 <br><br>
+$MadelineProto->[messages->editInlineBotMessageWidgetData](/API_docs/methods/messages.editInlineBotMessageWidgetData.html)(\[id: $[InputBotInlineMessageID](/API_docs/types/InputBotInlineMessageID.html), public_data: $[string](/API_docs/types/string.html), chat_data: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.editInlineBotMessageWidgetData"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->editMessage](/API_docs/methods/messages.editMessage.html)(\[no_webpage: $[Bool](/API_docs/types/Bool.html), invert_media: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), id: $[int](/API_docs/types/int.html), message: $[string](/API_docs/types/string.html), media: $[InputMedia](/API_docs/types/InputMedia.html), reply_markup: $[ReplyMarkup](/API_docs/types/ReplyMarkup.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], schedule_date: $[int](/API_docs/types/int.html), schedule_repeat_period: $[int](/API_docs/types/int.html), quick_reply_shortcut_id: $[int](/API_docs/types/int.html), rich_message: $[InputRichMessage](/API_docs/types/InputRichMessage.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.editMessage"></a>  
 
 ***
 <br><br>
+$MadelineProto->[messages->editMessageWidgetData](/API_docs/methods/messages.editMessageWidgetData.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), id: $[int](/API_docs/types/int.html), public_data: $[string](/API_docs/types/string.html), chat_data: $[string](/API_docs/types/string.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.editMessageWidgetData"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->editQuickReplyShortcut](/API_docs/methods/messages.editQuickReplyShortcut.html)(\[shortcut_id: $[int](/API_docs/types/int.html), shortcut: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.editQuickReplyShortcut"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->editWidgetData](/API_docs/methods/messages.editWidgetData.html)(\[widget_id: $[long](/API_docs/types/long.html), public_data: $[string](/API_docs/types/string.html), cache_time: $[int](/API_docs/types/int.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.editWidgetData"></a>  
 
 ***
 <br><br>
@@ -1742,6 +1754,10 @@ $MadelineProto->[messages->getBotApp](/API_docs/methods/messages.getBotApp.html)
 ***
 <br><br>
 $MadelineProto->[messages->getBotCallbackAnswer](/API_docs/methods/messages.getBotCallbackAnswer.html)(\[game: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), msg_id: $[int](/API_docs/types/int.html), data: $[bytes](/API_docs/types/bytes.html), password: $[InputCheckPasswordSRP](/API_docs/types/InputCheckPasswordSRP.html), \]) === [$messages.BotCallbackAnswer](/API_docs/types/messages.BotCallbackAnswer.html)<a name="messages.getBotCallbackAnswer"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->getBotWidgetQueryAnswer](/API_docs/methods/messages.getBotWidgetQueryAnswer.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), msg_id: $[int](/API_docs/types/int.html), query_type: $[WidgetQueryType](/API_docs/types/WidgetQueryType.html), data: $[bytes](/API_docs/types/bytes.html), \]) === [$messages.BotWidgetQueryAnswer](/API_docs/types/messages.BotWidgetQueryAnswer.html)<a name="messages.getBotWidgetQueryAnswer"></a>  
 
 ***
 <br><br>
@@ -2069,6 +2085,10 @@ $MadelineProto->[messages->getTopReactions](/API_docs/methods/messages.getTopRea
 
 ***
 <br><br>
+$MadelineProto->[messages->getTranscriptionLangs](/API_docs/methods/messages.getTranscriptionLangs.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), \]) === [$Vector\_of\_string](/API_docs/types/string.html)<a name="messages.getTranscriptionLangs"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->getUnreadMentions](/API_docs/methods/messages.getUnreadMentions.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), top_msg_id: $[int](/API_docs/types/int.html), offset_id: $[int](/API_docs/types/int.html), add_offset: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), max_id: $[int](/API_docs/types/int.html), min_id: $[int](/API_docs/types/int.html), \]) === [$messages.Messages](/API_docs/types/messages.Messages.html)<a name="messages.getUnreadMentions"></a>  
 
 ***
@@ -2086,6 +2106,10 @@ $MadelineProto->[messages->getWebPage](/API_docs/methods/messages.getWebPage.htm
 ***
 <br><br>
 $MadelineProto->[messages->getWebPagePreview](/API_docs/methods/messages.getWebPagePreview.html)(\[message: $[string](/API_docs/types/string.html), entities: \[$[MessageEntity](/API_docs/types/MessageEntity.html)\], \]) === [$messages.WebPagePreview](/API_docs/types/messages.WebPagePreview.html)<a name="messages.getWebPagePreview"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->getWidgetPublicData](/API_docs/methods/messages.getWidgetPublicData.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), msg_id: $[int](/API_docs/types/int.html), hash: $[long](/API_docs/types/long.html), \]) === [$messages.WidgetPublicData](/API_docs/types/messages.WidgetPublicData.html)<a name="messages.getWidgetPublicData"></a>  
 
 ***
 <br><br>
@@ -2381,6 +2405,10 @@ $MadelineProto->[messages->setBotShippingResults](/API_docs/methods/messages.set
 
 ***
 <br><br>
+$MadelineProto->[messages->setBotWidgetQueryAnswer](/API_docs/methods/messages.setBotWidgetQueryAnswer.html)(\[query_id: $[long](/API_docs/types/long.html), result: $[string](/API_docs/types/string.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.setBotWidgetQueryAnswer"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->setChatAvailableReactions](/API_docs/methods/messages.setChatAvailableReactions.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), available_reactions: $[ChatReactions](/API_docs/types/ChatReactions.html), reactions_limit: $[int](/API_docs/types/int.html), paid_enabled: $[Bool](/API_docs/types/Bool.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="messages.setChatAvailableReactions"></a>  
 
 ***
@@ -2482,6 +2510,10 @@ $MadelineProto->[messages->toggleTodoCompleted](/API_docs/methods/messages.toggl
 ***
 <br><br>
 $MadelineProto->[messages->transcribeAudio](/API_docs/methods/messages.transcribeAudio.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), msg_id: $[int](/API_docs/types/int.html), \]) === [$messages.TranscribedAudio](/API_docs/types/messages.TranscribedAudio.html)<a name="messages.transcribeAudio"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->transcribeAudioFile](/API_docs/methods/messages.transcribeAudioFile.html)(\[file: $[InputFile](/API_docs/types/InputFile.html), \]) === [$messages.TranscribedAudio](/API_docs/types/messages.TranscribedAudio.html)<a name="messages.transcribeAudioFile"></a>  
 
 ***
 <br><br>

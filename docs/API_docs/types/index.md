@@ -819,6 +819,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [UserStatus](/API_docs/types/UserStatus.html)<a name="UserStatus"></a>  
 
+[UserWallet](/API_docs/types/UserWallet.html)<a name="UserWallet"></a>  
+
 [Username](/API_docs/types/Username.html)<a name="Username"></a>  
 
 [Vector t](/API_docs/types/Vector t.html)<a name="Vector t"></a>  
@@ -852,6 +854,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [WebViewMessageSent](/API_docs/types/WebViewMessageSent.html)<a name="WebViewMessageSent"></a>  
 
 [WebViewResult](/API_docs/types/WebViewResult.html)<a name="WebViewResult"></a>  
+
+[WidgetQueryType](/API_docs/types/WidgetQueryType.html)<a name="WidgetQueryType"></a>  
 
 [X](/API_docs/types/X.html)<a name="X"></a>  
 
@@ -1055,6 +1059,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messages.BotResults](/API_docs/types/messages.BotResults.html)<a name="messages.BotResults"></a>  
 
+[messages.BotWidgetQueryAnswer](/API_docs/types/messages.BotWidgetQueryAnswer.html)<a name="messages.BotWidgetQueryAnswer"></a>  
+
 [messages.ChatAdminsWithInvites](/API_docs/types/messages.ChatAdminsWithInvites.html)<a name="messages.ChatAdminsWithInvites"></a>  
 
 [messages.ChatFull](/API_docs/types/messages.ChatFull.html)<a name="messages.ChatFull"></a>  
@@ -1164,6 +1170,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [messages.WebPage](/API_docs/types/messages.WebPage.html)<a name="messages.WebPage"></a>  
 
 [messages.WebPagePreview](/API_docs/types/messages.WebPagePreview.html)<a name="messages.WebPagePreview"></a>  
+
+[messages.WidgetPublicData](/API_docs/types/messages.WidgetPublicData.html)<a name="messages.WidgetPublicData"></a>  
 
 [payments.BankCardData](/API_docs/types/payments.BankCardData.html)<a name="payments.BankCardData"></a>  
 

@@ -20,5 +20,7 @@ redirect_from: /API_docs/types/messages_TranscribedAudio.html
 
 [$MadelineProto->messages->transcribeAudio](/API_docs/methods/messages.transcribeAudio.html)  
 
+[$MadelineProto->messages->transcribeAudioFile](/API_docs/methods/messages.transcribeAudioFile.html)  
+
 
 
