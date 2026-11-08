@@ -1074,6 +1074,9 @@ Return value: Downloaded file name
 Download file to amphp/http-server response.
   
 Supports HEAD requests and content-ranges for parallel and resumed downloads.  
+  
+The first download chunk is read before returning the response, so initial download errors are thrown here.  
+Errors after the first chunk are wrapped in StreamException when reading the response body.  
 
 
 Parameters:
