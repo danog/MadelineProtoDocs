@@ -592,6 +592,7 @@ Async PHP client API for the telegram MTProto protocol.
 * [\danog\MadelineProto\Settings\Database\Postgres: Postgres backend settings.](/PHP/danog/MadelineProto/Settings/Database/Postgres.html)
 * [\danog\MadelineProto\Settings\Database\Redis: Redis backend settings.](/PHP/danog/MadelineProto/Settings/Database/Redis.html)
 * [\danog\MadelineProto\Settings\Database\SerializerType](/PHP/danog/MadelineProto/Settings/Database/SerializerType.html)
+* [\danog\MadelineProto\Settings\Database\Sqlite: SQLite backend settings.](/PHP/danog/MadelineProto/Settings/Database/Sqlite.html)
 * [\danog\MadelineProto\TL\Exception: TL deserialization exception.](/PHP/danog/MadelineProto/TL/Exception.html)
 * [\danog\MadelineProto\TL\Conversion\Exception: TL conversion exception.](/PHP/danog/MadelineProto/TL/Conversion/Exception.html)
 * [\danog\MadelineProto\TL\Types\Button: Clickable button.](/PHP/danog/MadelineProto/TL/Types/Button.html)
