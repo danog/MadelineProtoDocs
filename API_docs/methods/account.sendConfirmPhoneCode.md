@@ -1,0 +1,43 @@
+# account.sendConfirmPhoneCode
+
+> Send confirmation code to cancel account deletion, for more info [click here »](https://core.telegram.org/api/account-deletion)
+
+[Back to methods index](index.html)
+
+
+
+Send confirmation code to cancel account deletion, for more info [click here »](https://core.telegram.org/api/account-deletion)
+
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hash|[string](/API_docs/types/string.html) | The hash from the service notification, for more info [click here »](https://core.telegram.org/api/account-deletion) | Optional|
+|settings|[CodeSettings](/API_docs/types/CodeSettings.html) | Phone code settings | Yes|
+
+
+### Return type: [auth.SentCode](/API_docs/types/auth.SentCode.html)
+
+### Can users use this method: **YES**
+
+
+### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$auth_SentCode = $MadelineProto->account->sendConfirmPhoneCode(hash: 'string', settings: $CodeSettings, );
+```

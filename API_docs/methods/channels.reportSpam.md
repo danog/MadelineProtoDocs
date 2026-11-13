@@ -1,0 +1,44 @@
+# channels.reportSpam
+
+> Reports some messages from a user in a supergroup as spam; requires administrator rights in the supergroup
+
+[Back to methods index](index.html)
+
+
+
+Reports some messages from a user in a supergroup as spam; requires administrator rights in the supergroup
+
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Supergroup | Optional|
+|participant|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Participant whose messages should be reported | Optional|
+|id|Array of [int](/API_docs/types/int.html) | IDs of spam messages | Yes|
+
+
+### Return type: [Bool](/API_docs/types/Bool.html)
+
+### Can users use this method: **YES**
+
+
+### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$Bool = $MadelineProto->channels->reportSpam(channel: $InputChannel, participant: $InputPeer, id: [$int, $int], );
+```

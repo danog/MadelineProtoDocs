@@ -1,0 +1,43 @@
+# channels.updateEmojiStatus
+
+> Set an [emoji status](https://core.telegram.org/api/emoji-status) for a channel or supergroup.
+
+[Back to methods index](index.html)
+
+
+
+Set an [emoji status](https://core.telegram.org/api/emoji-status) for a channel or supergroup.
+
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | The channel/supergroup, must have at least [channel\_emoji\_status\_level\_min](https://core.telegram.org/api/config#channel-emoji-status-level-min)/[group\_emoji\_status\_level\_min](https://core.telegram.org/api/config#group-emoji-status-level-min) boosts. | Optional|
+|emoji\_status|[EmojiStatus](/API_docs/types/EmojiStatus.html) | [Emoji status](https://core.telegram.org/api/emoji-status) to set | Optional|
+
+
+### Return type: [Updates](/API_docs/types/Updates.html)
+
+### Can users use this method: **YES**
+
+
+### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$Updates = $MadelineProto->channels->updateEmojiStatus(channel: $InputChannel, emoji_status: $EmojiStatus, );
+```

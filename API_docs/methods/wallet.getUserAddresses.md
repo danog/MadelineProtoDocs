@@ -1,0 +1,42 @@
+# wallet.getUserAddresses
+
+> wallet.getUserAddresses parameters, return type and example
+
+[Back to methods index](index.html)
+
+
+
+### Parameters:
+
+| Name     |    Type       | Required |
+|----------|---------------|----------|
+|force|[Bool](/API_docs/types/Bool.html) | Optional|
+|id|Array of [Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | Yes|
+|addresses|Array of [string](/API_docs/types/string.html) | Yes|
+
+
+### Return type: [wallet.UserAddresses](/API_docs/types/wallet.UserAddresses.html)
+
+### Can users use this method: **YES**
+
+
+### Can bots use this method: **YES**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$wallet_UserAddresses = $MadelineProto->wallet->getUserAddresses(force: $Bool, id: [$InputUser, $InputUser], addresses: ['string', 'string'], );
+```

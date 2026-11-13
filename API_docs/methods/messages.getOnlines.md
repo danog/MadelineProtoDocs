@@ -1,0 +1,42 @@
+# messages.getOnlines
+
+> Get count of online users in a chat
+
+[Back to methods index](index.html)
+
+
+
+Get count of online users in a chat
+
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The chat | Optional|
+
+
+### Return type: [ChatOnlines](/API_docs/types/ChatOnlines.html)
+
+### Can users use this method: **YES**
+
+
+### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$ChatOnlines = $MadelineProto->messages->getOnlines(peer: $InputPeer, );
+```

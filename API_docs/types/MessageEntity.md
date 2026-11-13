@@ -1,0 +1,67 @@
+# MessageEntity
+
+> constructors and methods of type MessageEntity
+
+[Back to types index](index.html)
+
+
+
+### Possible values (constructors):
+
+[messageEntityUnknown](/API_docs/constructors/messageEntityUnknown.html)  
+
+[messageEntityMention](/API_docs/constructors/messageEntityMention.html)  
+
+[messageEntityHashtag](/API_docs/constructors/messageEntityHashtag.html)  
+
+[messageEntityBotCommand](/API_docs/constructors/messageEntityBotCommand.html)  
+
+[messageEntityUrl](/API_docs/constructors/messageEntityUrl.html)  
+
+[messageEntityEmail](/API_docs/constructors/messageEntityEmail.html)  
+
+[messageEntityBold](/API_docs/constructors/messageEntityBold.html)  
+
+[messageEntityItalic](/API_docs/constructors/messageEntityItalic.html)  
+
+[messageEntityCode](/API_docs/constructors/messageEntityCode.html)  
+
+[messageEntityPre](/API_docs/constructors/messageEntityPre.html)  
+
+[messageEntityTextUrl](/API_docs/constructors/messageEntityTextUrl.html)  
+
+[messageEntityMentionName](/API_docs/constructors/messageEntityMentionName.html)  
+
+[inputMessageEntityMentionName](/API_docs/constructors/inputMessageEntityMentionName.html)  
+
+[messageEntityPhone](/API_docs/constructors/messageEntityPhone.html)  
+
+[messageEntityCashtag](/API_docs/constructors/messageEntityCashtag.html)  
+
+[messageEntityUnderline](/API_docs/constructors/messageEntityUnderline.html)  
+
+[messageEntityStrike](/API_docs/constructors/messageEntityStrike.html)  
+
+[messageEntityBankCard](/API_docs/constructors/messageEntityBankCard.html)  
+
+[messageEntitySpoiler](/API_docs/constructors/messageEntitySpoiler.html)  
+
+[messageEntityCustomEmoji](/API_docs/constructors/messageEntityCustomEmoji.html)  
+
+[messageEntityBlockquote](/API_docs/constructors/messageEntityBlockquote.html)  
+
+[messageEntityFormattedDate](/API_docs/constructors/messageEntityFormattedDate.html)  
+
+[messageEntityDiffInsert](/API_docs/constructors/messageEntityDiffInsert.html)  
+
+[messageEntityDiffReplace](/API_docs/constructors/messageEntityDiffReplace.html)  
+
+[messageEntityDiffDelete](/API_docs/constructors/messageEntityDiffDelete.html)  
+
+[messageEntityTonAddress](/API_docs/constructors/messageEntityTonAddress.html)  
+
+[messageEntityBlockquote\_101](/API_docs/constructors/messageEntityBlockquote_101.html)  
+
+
+
+### Methods that return an object of this type (methods):

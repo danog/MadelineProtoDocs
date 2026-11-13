@@ -1,0 +1,47 @@
+# auth.exportLoginToken
+
+> Generate a login token, for [login via QR code](https://core.telegram.org/api/qr-login).  
+
+[Back to methods index](index.html)
+
+
+
+Generate a login token, for [login via QR code](https://core.telegram.org/api/qr-login).  
+The generated login token should be encoded using base64url, then shown as a `tg://login?token=base64encodedtoken` [deep link »](https://core.telegram.org/api/links#qr-code-login-links) in the QR code.
+
+For more info, see [login via QR code](https://core.telegram.org/api/qr-login).
+
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|api\_id|[int](/API_docs/types/int.html) | Application identifier (see. [App configuration](https://core.telegram.org/myapp)) | Optional|
+|api\_hash|[string](/API_docs/types/string.html) | Application identifier hash (see. [App configuration](https://core.telegram.org/myapp)) | Optional|
+|except\_ids|Array of [long](/API_docs/types/long.html) | List of already logged-in user IDs, to prevent logging in twice with the same user | Yes|
+
+
+### Return type: [auth.LoginToken](/API_docs/types/auth.LoginToken.html)
+
+### Can users use this method: **YES**
+
+
+### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$auth_LoginToken = $MadelineProto->auth->exportLoginToken(api_id: $int, api_hash: 'string', except_ids: [$long, $long], );
+```

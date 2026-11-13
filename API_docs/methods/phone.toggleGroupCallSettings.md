@@ -1,0 +1,46 @@
+# phone.toggleGroupCallSettings
+
+> Change group call settings
+
+[Back to methods index](index.html)
+
+
+
+Change group call settings
+
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|reset\_invite\_hash|[Bool](/API_docs/types/Bool.html) | Invalidate existing invite links | Optional|
+|call|[InputGroupCall](/API_docs/types/InputGroupCall.html) | Group call | Yes|
+|join\_muted|[Bool](/API_docs/types/Bool.html) | Whether all users will that join this group call are muted by default upon joining the group call | Optional|
+|messages\_enabled|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|send\_paid\_messages\_stars|[long](/API_docs/types/long.html) |  | Optional|
+
+
+### Return type: [Updates](/API_docs/types/Updates.html)
+
+### Can users use this method: **YES**
+
+
+### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$Updates = $MadelineProto->phone->toggleGroupCallSettings(reset_invite_hash: $Bool, call: $InputGroupCall, join_muted: $Bool, messages_enabled: $Bool, send_paid_messages_stars: $long, );
+```

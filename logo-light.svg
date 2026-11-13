@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 277 39" width="277" height="39" role="img" aria-label="MadelineProto">
+  <defs>
+    <linearGradient id="mp-logo-glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="rgb(110 70 210 / 0.3)"/>
+      <stop offset="1" stop-color="rgb(70 25 170 / 0.55)"/>
+    </linearGradient>
+    <filter id="mp-logo-liquid" x="-6%" y="-30%" width="112%" height="170%" color-interpolation-filters="sRGB">
+      <!-- The letters' silhouette: the glass is translucent, so SourceAlpha is too faint to cut edges from. -->
+      <feComponentTransfer in="SourceAlpha" result="shape"><feFuncA type="linear" slope="50"/></feComponentTransfer>
+      <!-- The rim: light gathered inside every edge, where the glass is seen through its thickness. -->
+      <feMorphology in="shape" operator="erode" radius="1.4" result="core"/>
+      <feComposite in="shape" in2="core" operator="out" result="band"/>
+      <feGaussianBlur in="band" stdDeviation="1.1" result="band-soft"/>
+      <feComposite in="band-soft" in2="shape" operator="in" result="band-in"/>
+      <feFlood flood-color="rgb(60 25 140 / 0.39)"/>
+      <feComposite in2="band-in" operator="in" result="rim"/>
+      <!-- The highlight on the top left edges, facing the light. -->
+      <feOffset in="shape" dx="0.8" dy="1.1" result="down"/>
+      <feComposite in="shape" in2="down" operator="out" result="top-edge"/>
+      <feGaussianBlur in="top-edge" stdDeviation="0.6" result="top-soft"/>
+      <feComposite in="top-soft" in2="shape" operator="in" result="top-in"/>
+      <feFlood flood-color="rgb(255 255 255 / 0.95)"/>
+      <feComposite in2="top-in" operator="in" result="shine"/>
+      <!-- The softer light leaving the glass at the bottom right. -->
+      <feOffset in="shape" dx="-0.7" dy="-1" result="up"/>
+      <feComposite in="shape" in2="up" operator="out" result="bottom-edge"/>
+      <feGaussianBlur in="bottom-edge" stdDeviation="0.6" result="bottom-soft"/>
+      <feComposite in="bottom-soft" in2="shape" operator="in" result="bottom-in"/>
+      <feFlood flood-color="rgb(255 255 255 / 0.6)"/>
+      <feComposite in2="bottom-in" operator="in" result="bounce"/>
+      <!-- A soft, diffuse shadow. -->
+      <feGaussianBlur in="shape" stdDeviation="2" result="blur"/>
+      <feOffset in="blur" dy="1.6" result="drop"/>
+      <feFlood flood-color="rgb(60 25 140 / 0.2)"/>
+      <feComposite in2="drop" operator="in" result="shadow"/>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+        <feMergeNode in="rim"/>
+        <feMergeNode in="bounce"/>
+        <feMergeNode in="shine"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <path fill="url(#mp-logo-glass)" filter="url(#mp-logo-liquid)" d="M6.2 32.9V5H12.3L16.3 12.5L19.3 18.3H19.4L22.5 12.5L26.4 5H32.6V32.9H27.2V13.8H27L25 18L19.4 28.2L13.8 18L11.7 13.6H11.5V32.9ZM56.9 32.9H53.8Q52.7 32.9 51.8 32.4Q50.9 31.8 50.3 30.8Q50 30.1 49.9 29.3H49.6Q49.2 31.3 47.5 32.3Q45.9 33.4 43.5 33.4Q40.4 33.4 38.6 31.7Q36.9 30 36.9 27.3Q36.9 25.1 38 23.6Q39.1 22.2 41.1 21.5Q43.1 20.7 45.9 20.7H49.4V19.3Q49.4 17.7 48.5 16.8Q47.6 15.8 45.6 15.8Q43.9 15.8 42.8 16.6Q41.7 17.4 41 18.4L37.8 15.5Q39 13.6 40.9 12.5Q42.8 11.5 46 11.5Q50.4 11.5 52.6 13.4Q54.9 15.4 54.9 19.1V28.6H56.9ZM49.4 24H46.3Q44.4 24 43.5 24.6Q42.5 25.2 42.5 26.5V27.1Q42.5 28.3 43.3 28.9Q44.1 29.5 45.5 29.5Q46.6 29.5 47.4 29.2Q48.3 28.9 48.8 28.2Q49.4 27.6 49.4 26.6ZM73.7 32.9V29.4H73.5Q73 31.2 71.4 32.3Q69.8 33.4 67.8 33.4Q65.1 33.4 63.3 32.1Q61.5 30.8 60.6 28.4Q59.6 25.9 59.6 22.4Q59.6 18.9 60.6 16.5Q61.5 14 63.3 12.7Q65.1 11.5 67.8 11.5Q69.8 11.5 71.4 12.6Q73 13.7 73.5 15.5H73.7V3.3H79.2V32.9ZM69.6 28.9Q70.7 28.9 71.7 28.5Q72.6 28.1 73.1 27.4Q73.7 26.6 73.7 25.6V19.2Q73.7 18.2 73.1 17.5Q72.6 16.8 71.7 16.4Q70.7 16 69.6 16Q67.7 16 66.6 17.3Q65.4 18.5 65.4 20.6V24.2Q65.4 26.3 66.6 27.6Q67.7 28.9 69.6 28.9ZM93.3 33.4Q90.2 33.4 87.9 32Q85.7 30.7 84.5 28.2Q83.3 25.8 83.3 22.4Q83.3 19.1 84.5 16.6Q85.6 14.2 87.8 12.8Q90 11.5 93.1 11.5Q96.5 11.5 98.6 13Q100.7 14.4 101.7 16.8Q102.7 19.3 102.7 22.1V23.8H89.1V24.2Q89.1 26.4 90.3 27.7Q91.5 29 93.9 29Q95.8 29 97 28.2Q98.2 27.5 99.2 26.3L102 29.7Q100.7 31.4 98.4 32.4Q96.2 33.4 93.3 33.4ZM93.2 15.6Q91.9 15.6 91 16.2Q90.1 16.7 89.6 17.8Q89.1 18.8 89.1 20.2V20.5H97V20.1Q97 18.8 96.6 17.8Q96.2 16.7 95.3 16.2Q94.5 15.6 93.2 15.6ZM115.1 32.9H112.4Q109.6 32.9 108.2 31.5Q106.9 30.1 106.9 27.5V3.3H112.4V28.6H115.1ZM121.4 9.3Q119.7 9.3 118.9 8.5Q118.2 7.8 118.2 6.6V5.8Q118.2 4.5 118.9 3.8Q119.7 3 121.4 3Q123.1 3 123.8 3.8Q124.6 4.5 124.6 5.8V6.6Q124.6 7.8 123.8 8.5Q123.1 9.3 121.4 9.3ZM118.6 32.9V12H124.1V32.9ZM135.2 32.9H129.7V12H135.2V15.5H135.4Q136 13.8 137.4 12.7Q138.8 11.5 141.2 11.5Q144.4 11.5 146.1 13.6Q147.9 15.8 147.9 19.7V32.9H142.3V20.2Q142.3 18.1 141.6 17.1Q140.9 16 139.2 16Q138.2 16 137.2 16.3Q136.3 16.7 135.8 17.4Q135.2 18.1 135.2 19.2ZM161.7 33.4Q158.6 33.4 156.4 32Q154.1 30.7 153 28.2Q151.8 25.8 151.8 22.4Q151.8 19.1 152.9 16.6Q154.1 14.2 156.3 12.8Q158.4 11.5 161.5 11.5Q164.9 11.5 167 13Q169.2 14.4 170.2 16.8Q171.2 19.3 171.2 22.1V23.8H157.5V24.2Q157.5 26.4 158.7 27.7Q159.9 29 162.4 29Q164.2 29 165.4 28.2Q166.6 27.5 167.6 26.3L170.5 29.7Q169.1 31.4 166.9 32.4Q164.6 33.4 161.7 33.4ZM161.6 15.6Q160.4 15.6 159.4 16.2Q158.5 16.7 158 17.8Q157.5 18.8 157.5 20.2V20.5H165.5V20.1Q165.5 18.8 165 17.8Q164.6 16.7 163.8 16.2Q162.9 15.6 161.6 15.6ZM181.3 32.9H175.7V5H188.5Q191.1 5 193 6.1Q194.9 7.2 195.9 9.2Q196.9 11.2 196.9 13.8Q196.9 16.4 195.9 18.4Q194.9 20.3 193 21.4Q191.1 22.6 188.5 22.6H181.3ZM181.3 9.9V17.6H187.9Q188.9 17.6 189.6 17.3Q190.3 16.9 190.7 16.3Q191 15.6 191 14.7V12.9Q191 11.9 190.7 11.3Q190.3 10.6 189.6 10.3Q188.9 9.9 187.9 9.9ZM206.6 32.9H201.1V12H206.6V16.4H206.8Q207.1 15.3 207.7 14.3Q208.4 13.2 209.5 12.6Q210.6 12 212.3 12H213.3V17.1H211.8Q210.1 17.1 208.9 17.5Q207.8 17.8 207.2 18.5Q206.6 19.2 206.6 20.4ZM225.3 33.4Q222.2 33.4 220.1 32Q217.9 30.7 216.7 28.2Q215.5 25.8 215.5 22.4Q215.5 19 216.7 16.6Q217.9 14.2 220.1 12.8Q222.2 11.5 225.3 11.5Q228.3 11.5 230.5 12.8Q232.7 14.2 233.9 16.6Q235 19 235 22.4Q235 25.8 233.9 28.2Q232.7 30.7 230.5 32Q228.3 33.4 225.3 33.4ZM225.3 29Q227.2 29 228.2 27.8Q229.3 26.6 229.3 24.5V20.4Q229.3 18.2 228.2 17Q227.2 15.9 225.3 15.9Q223.4 15.9 222.3 17Q221.3 18.2 221.3 20.4V24.5Q221.3 26.6 222.3 27.8Q223.4 29 225.3 29ZM249.7 32.9H246.1Q243.3 32.9 241.8 31.4Q240.3 30 240.3 27.2V16.3H237.3V12H238.8Q240 12 240.4 11.4Q240.9 10.8 240.9 9.8V6.3H245.8V12H250V16.3H245.8V28.6H249.7ZM262.5 33.4Q259.5 33.4 257.3 32Q255.1 30.7 253.9 28.2Q252.7 25.8 252.7 22.4Q252.7 19 253.9 16.6Q255.1 14.2 257.3 12.8Q259.5 11.5 262.5 11.5Q265.5 11.5 267.7 12.8Q269.9 14.2 271.1 16.6Q272.3 19 272.3 22.4Q272.3 25.8 271.1 28.2Q269.9 30.7 267.7 32Q265.5 33.4 262.5 33.4ZM262.5 29Q264.4 29 265.5 27.8Q266.5 26.6 266.5 24.5V20.4Q266.5 18.2 265.5 17Q264.4 15.9 262.5 15.9Q260.7 15.9 259.6 17Q258.5 18.2 258.5 20.4V24.5Q258.5 26.6 259.6 27.8Q260.7 29 262.5 29Z"/>
+</svg>

@@ -1,0 +1,44 @@
+# messages.toggleNoForwards
+
+> Enable or disable [content protection](https://telegram.org/blog/protected-content-delete-by-date-and-more) on a channel or chat
+
+[Back to methods index](index.html)
+
+
+
+Enable or disable [content protection](https://telegram.org/blog/protected-content-delete-by-date-and-more) on a channel or chat
+
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | The chat or channel | Optional|
+|enabled|[Bool](/API_docs/types/Bool.html) | Enable or disable content protection | Yes|
+|request\_msg\_id|[int](/API_docs/types/int.html) |  | Optional|
+
+
+### Return type: [Updates](/API_docs/types/Updates.html)
+
+### Can users use this method: **YES**
+
+
+### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$Updates = $MadelineProto->messages->toggleNoForwards(peer: $InputPeer, enabled: $Bool, request_msg_id: $int, );
+```

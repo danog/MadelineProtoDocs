@@ -1,0 +1,45 @@
+# stickers.changeSticker
+
+> Update the keywords, emojis or [mask coordinates](https://core.telegram.org/api/stickers#mask-stickers) of a sticker.
+
+[Back to methods index](index.html)
+
+
+
+Update the keywords, emojis or [mask coordinates](https://core.telegram.org/api/stickers#mask-stickers) of a sticker.
+
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|sticker|[MessageMedia, Update, Message or InputDocument](/API_docs/types/InputDocument.html) | The sticker | Optional|
+|emoji|[string](/API_docs/types/string.html) | If set, updates the emoji list associated to the sticker | Optional|
+|mask\_coords|[MaskCoords](/API_docs/types/MaskCoords.html) | If set, updates the [mask coordinates](https://core.telegram.org/api/stickers#mask-stickers) | Optional|
+|keywords|[string](/API_docs/types/string.html) | If set, updates the sticker keywords (separated by commas). Can't be provided for mask stickers. | Optional|
+
+
+### Return type: [messages.StickerSet](/API_docs/types/messages.StickerSet.html)
+
+### Can users use this method: **YES**
+
+
+### Can bots use this method: **YES**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$messages_StickerSet = $MadelineProto->stickers->changeSticker(sticker: $InputDocument, emoji: 'string', mask_coords: $MaskCoords, keywords: 'string', );
+```

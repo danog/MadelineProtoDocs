@@ -1,0 +1,49 @@
+# messages.getUnreadReactions
+
+> Get unread reactions to messages you sent
+
+[Back to methods index](index.html)
+
+
+
+Get unread reactions to messages you sent
+
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer | Optional|
+|top\_msg\_id|[int](/API_docs/types/int.html) | If set, considers only reactions to messages within the specified [forum topic](https://core.telegram.org/api/forum#forum-topics) | Optional|
+|saved\_peer\_id|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | If set, must be equal to the ID of a [monoforum topic](https://core.telegram.org/api/monoforum): will affect that topic in the monoforum passed in `peer`. | Optional|
+|offset\_id|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
+|add\_offset|[int](/API_docs/types/int.html) | [Offsets for pagination, for more info click here](https://core.telegram.org/api/offsets) | Optional|
+|limit|[int](/API_docs/types/int.html) | Maximum number of results to return, [see pagination](https://core.telegram.org/api/offsets) | Optional|
+|max\_id|[int](/API_docs/types/int.html) | Only return reactions for messages up until this message ID | Optional|
+|min\_id|[int](/API_docs/types/int.html) | Only return reactions for messages starting from this message ID | Optional|
+
+
+### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)
+
+### Can users use this method: **YES**
+
+
+### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$messages_Messages = $MadelineProto->messages->getUnreadReactions(peer: $InputPeer, top_msg_id: $int, saved_peer_id: $InputPeer, offset_id: $int, add_offset: $int, limit: $int, max_id: $int, min_id: $int, );
+```

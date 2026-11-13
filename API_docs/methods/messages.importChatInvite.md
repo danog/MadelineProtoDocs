@@ -1,0 +1,42 @@
+# messages.importChatInvite
+
+> Import a chat invite and join a private chat/supergroup/channel
+
+[Back to methods index](index.html)
+
+
+
+Import a chat invite and join a private chat/supergroup/channel
+
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|hash|[string](/API_docs/types/string.html) | `hash` from a [chat invite deep link](https://core.telegram.org/api/links#chat-invite-links) | Optional|
+
+
+### Return type: [messages.ChatInviteJoinResult](/API_docs/types/messages.ChatInviteJoinResult.html)
+
+### Can users use this method: **YES**
+
+
+### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$messages_ChatInviteJoinResult = $MadelineProto->messages->importChatInvite(hash: 'string', );
+```

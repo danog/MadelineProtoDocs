@@ -1,0 +1,26 @@
+# channelAdminLogEventActionToggleForum
+
+> Forum functionality was enabled or disabled.
+
+[Back to constructors index](/API_docs/constructors/index.html)
+
+
+
+[Forum](https://core.telegram.org/api/forum) functionality was enabled or disabled.
+
+### Attributes:
+
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|new\_value|[Bool](/API_docs/types/Bool.html) | Yes|Whether [forum](https://core.telegram.org/api/forum) functionality was enabled or disabled.|
+
+
+
+### Type: [ChannelAdminLogEventAction](/API_docs/types/ChannelAdminLogEventAction.html)
+
+
+### Example:
+
+```
+$channelAdminLogEventActionToggleForum = ['_' => 'channelAdminLogEventActionToggleForum', 'new_value' => Bool];
+```
