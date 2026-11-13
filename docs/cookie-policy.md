@@ -27,6 +27,6 @@ You can see what is stored on your device, block it and delete it at any time fr
 
 ## Data controller
 
-Daniil Gentili (VAT 01647560299), Viale Domenico Angeli, 97 - 45100 Rovigo (RO), Italy. Email: [daniil@daniil.it](mailto:daniil@daniil.it). For more information on how personal data is processed and on your rights, see the [privacy policy](privacy-policy.html).
+Daniil Gentili (VAT 01647560299). Email: [daniil@daniil.it](mailto:daniil@daniil.it). For more information on how personal data is processed and on your rights, see the [privacy policy](privacy-policy.html).
 
 *Latest update: October 26, 2026*

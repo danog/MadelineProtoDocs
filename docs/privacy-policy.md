@@ -20,7 +20,7 @@ You can access, rectify and erase your data, restrict or object to its processin
 
 ## Contact information
 
-**Data controller**: Daniil Gentili (VAT 01647560299), Viale Domenico Angeli, 97 - 45100 Rovigo (RO), Italy.  
+**Data controller**: Daniil Gentili (VAT 01647560299).  
 Email: [daniil@daniil.it](mailto:daniil@daniil.it)
 
 [Show the complete privacy policy »](privacy-policy-full.html) · [Cookie policy »](cookie-policy.html)

@@ -11,7 +11,7 @@ In short: this website is a static documentation site. It does not use analytics
 
 ## Data controller
 
-Daniil Gentili (VAT 01647560299), Viale Domenico Angeli, 97 - 45100 Rovigo (RO), Italy.  
+Daniil Gentili (VAT 01647560299).  
 Email: [daniil@daniil.it](mailto:daniil@daniil.it)
 
 ## Types of data processed
