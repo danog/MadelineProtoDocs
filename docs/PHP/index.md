@@ -588,6 +588,7 @@ Async PHP client API for the telegram MTProto protocol.
 * [\danog\MadelineProto\Settings\Templates: Web template settings for the login and status pages.](/PHP/danog/MadelineProto/Settings/Templates.html)
 * [\danog\MadelineProto\Settings\VoIP: VoIP settings.](/PHP/danog/MadelineProto/Settings/VoIP.html)
 * [\danog\MadelineProto\Settings\Database\Memory: Memory backend settings.](/PHP/danog/MadelineProto/Settings/Database/Memory.html)
+* [\danog\MadelineProto\Settings\Database\Mongo: MongoDB backend settings.](/PHP/danog/MadelineProto/Settings/Database/Mongo.html)
 * [\danog\MadelineProto\Settings\Database\Mysql: MySQL backend settings.](/PHP/danog/MadelineProto/Settings/Database/Mysql.html)
 * [\danog\MadelineProto\Settings\Database\Postgres: Postgres backend settings.](/PHP/danog/MadelineProto/Settings/Database/Postgres.html)
 * [\danog\MadelineProto\Settings\Database\Redis: Redis backend settings.](/PHP/danog/MadelineProto/Settings/Database/Redis.html)
