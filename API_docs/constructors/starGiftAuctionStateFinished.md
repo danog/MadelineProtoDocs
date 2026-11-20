@@ -1,0 +1,29 @@
+# starGiftAuctionStateFinished
+
+> starGiftAuctionStateFinished attributes, type and example
+
+[Back to constructors index](/API_docs/constructors/index.html)
+
+
+
+### Attributes:
+
+| Name     |    Type       | Required |
+|----------|---------------|----------|
+|start\_date|[int](/API_docs/types/int.html) | Yes|
+|end\_date|[int](/API_docs/types/int.html) | Yes|
+|average\_price|[long](/API_docs/types/long.html) | Yes|
+|listed\_count|[int](/API_docs/types/int.html) | Optional|
+|fragment\_listed\_count|[int](/API_docs/types/int.html) | Optional|
+|fragment\_listed\_url|[string](/API_docs/types/string.html) | Optional|
+
+
+
+### Type: [StarGiftAuctionState](/API_docs/types/StarGiftAuctionState.html)
+
+
+### Example:
+
+```
+$starGiftAuctionStateFinished = ['_' => 'starGiftAuctionStateFinished', 'start_date' => int, 'end_date' => int, 'average_price' => long, 'listed_count' => int, 'fragment_listed_count' => int, 'fragment_listed_url' => 'string'];
+```

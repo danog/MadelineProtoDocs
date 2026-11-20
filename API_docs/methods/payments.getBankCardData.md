@@ -1,0 +1,42 @@
+# payments.getBankCardData
+
+> Get info about a credit card
+
+[Back to methods index](index.html)
+
+
+
+Get info about a credit card
+
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|number|[string](/API_docs/types/string.html) | Credit card number | Optional|
+
+
+### Return type: [payments.BankCardData](/API_docs/types/payments.BankCardData.html)
+
+### Can users use this method: **YES**
+
+
+### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$payments_BankCardData = $MadelineProto->payments->getBankCardData(number: 'string', );
+```

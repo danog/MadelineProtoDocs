@@ -1,0 +1,29 @@
+# channelParticipant
+
+> Channel/supergroup participant
+
+[Back to constructors index](/API_docs/constructors/index.html)
+
+
+
+Channel/supergroup participant
+
+### Attributes:
+
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|user\_id|[long](/API_docs/types/long.html) | Yes|Participant user ID|
+|date|[int](/API_docs/types/int.html) | Yes|Date joined|
+|subscription\_until\_date|[int](/API_docs/types/int.html) | Optional|If set, contains the expiration date of the current [Telegram Star subscription period »](https://core.telegram.org/api/stars#star-subscriptions) for the specified participant.|
+|rank|[string](/API_docs/types/string.html) | Optional|
+
+
+
+### Type: [ChannelParticipant](/API_docs/types/ChannelParticipant.html)
+
+
+### Example:
+
+```
+$channelParticipant = ['_' => 'channelParticipant', 'user_id' => long, 'date' => int, 'subscription_until_date' => int, 'rank' => 'string'];
+```

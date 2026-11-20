@@ -1,0 +1,45 @@
+# channels.exportMessageLink
+
+> Get link and embed info of a message in a [channel/supergroup](https://core.telegram.org/api/channel)
+
+[Back to methods index](index.html)
+
+
+
+Get link and embed info of a message in a [channel/supergroup](https://core.telegram.org/api/channel)
+
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|grouped|[Bool](/API_docs/types/Bool.html) | Whether to include other grouped media (for albums) | Optional|
+|thread|[Bool](/API_docs/types/Bool.html) | Whether to also include a thread ID, if available, inside of the link | Optional|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | Channel | Optional|
+|id|[int](/API_docs/types/int.html) | Message ID | Optional|
+
+
+### Return type: [ExportedMessageLink](/API_docs/types/ExportedMessageLink.html)
+
+### Can users use this method: **YES**
+
+
+### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$ExportedMessageLink = $MadelineProto->channels->exportMessageLink(grouped: $Bool, thread: $Bool, channel: $InputChannel, id: $int, );
+```

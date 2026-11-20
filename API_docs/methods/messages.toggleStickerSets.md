@@ -1,0 +1,45 @@
+# messages.toggleStickerSets
+
+> Apply changes to multiple stickersets
+
+[Back to methods index](index.html)
+
+
+
+Apply changes to multiple stickersets
+
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|uninstall|[Bool](/API_docs/types/Bool.html) | Uninstall the specified stickersets | Optional|
+|archive|[Bool](/API_docs/types/Bool.html) | Archive the specified stickersets | Optional|
+|unarchive|[Bool](/API_docs/types/Bool.html) | Unarchive the specified stickersets | Optional|
+|stickersets|Array of [InputStickerSet](/API_docs/types/InputStickerSet.html) | Stickersets to act upon | Yes|
+
+
+### Return type: [Bool](/API_docs/types/Bool.html)
+
+### Can users use this method: **YES**
+
+
+### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$Bool = $MadelineProto->messages->toggleStickerSets(uninstall: $Bool, archive: $Bool, unarchive: $Bool, stickersets: [$InputStickerSet, $InputStickerSet], );
+```

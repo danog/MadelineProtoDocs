@@ -1,0 +1,47 @@
+# messages.setGameScore
+
+> Use this method to set the score of the specified user in a game sent as a normal message (bots only).
+
+[Back to methods index](index.html)
+
+
+
+Use this method to set the score of the specified user in a game sent as a normal message (bots only).
+
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|edit\_message|[Bool](/API_docs/types/Bool.html) | Set this flag if the game message should be automatically edited to include the current scoreboard | Optional|
+|force|[Bool](/API_docs/types/Bool.html) | Set this flag if the high score is allowed to decrease. This can be useful when fixing mistakes or banning cheaters | Optional|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Unique identifier of target chat | Optional|
+|id|[int](/API_docs/types/int.html) | Identifier of the sent message | Optional|
+|user\_id|[Username, chat ID, Update, Message or InputUser](/API_docs/types/InputUser.html) | User identifier | Optional|
+|score|[int](/API_docs/types/int.html) | New score | Optional|
+
+
+### Return type: [Updates](/API_docs/types/Updates.html)
+
+### Can users use this method: **NO**
+
+
+### Can bots use this method: **YES**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$Updates = $MadelineProto->messages->setGameScore(edit_message: $Bool, force: $Bool, peer: $InputPeer, id: $int, user_id: $InputUser, score: $int, );
+```
