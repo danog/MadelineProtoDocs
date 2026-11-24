@@ -25,6 +25,8 @@ See [here »](https://core.telegram.org/api/gifts#sending-gifts) for detailed do
 |sort\_by\_num|[Bool](/API_docs/types/Bool.html) | Sort gifts by number (ascending). | Optional|
 |for\_craft|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |stars\_only|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|ton\_only|[Bool](/API_docs/types/Bool.html) |  | Optional|
+|fragment\_only|[Bool](/API_docs/types/Bool.html) |  | Optional|
 |attributes\_hash|[long](/API_docs/types/long.html) | If a previous call to the method was made and [payments.resaleStarGifts](../constructors/payments.resaleStarGifts.html).`attributes_hash` was set, pass it here to avoid returning any results if they haven't changed. <br>Otherwise, set this flag and pass `0` to return [payments.resaleStarGifts](../constructors/payments.resaleStarGifts.html).`attributes_hash` and [payments.resaleStarGifts](../constructors/payments.resaleStarGifts.html).`attributes`, **these two fields will not be set** if this flag is not set. | Optional|
 |gift\_id|[long](/API_docs/types/long.html) | Mandatory identifier of the base gift from which the collectible gift was upgraded. | Yes|
 |attributes|Array of [StarGiftAttributeId](/API_docs/types/StarGiftAttributeId.html) | Optionally filter gifts with the specified attributes. If no attributes of a specific type are specified, all attributes of that type are allowed. | Optional|
@@ -55,6 +57,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$payments_ResaleStarGifts = $MadelineProto->payments->getResaleStarGifts(sort_by_price: $Bool, sort_by_num: $Bool, for_craft: $Bool, stars_only: $Bool, attributes_hash: $long, gift_id: $long, attributes: [$StarGiftAttributeId, $StarGiftAttributeId], offset: 'string', limit: $int, );
+$payments_ResaleStarGifts = $MadelineProto->payments->getResaleStarGifts(sort_by_price: $Bool, sort_by_num: $Bool, for_craft: $Bool, stars_only: $Bool, ton_only: $Bool, fragment_only: $Bool, attributes_hash: $long, gift_id: $long, attributes: [$StarGiftAttributeId, $StarGiftAttributeId], offset: 'string', limit: $int, );
 ```
 

@@ -155,6 +155,10 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [messageActionNoPaidMessagesTokenUsed](/API_docs/constructors/messageActionNoPaidMessagesTokenUsed.html)  
 
+[messageActionStarGiftOnchainOffer](/API_docs/constructors/messageActionStarGiftOnchainOffer.html)  
+
+[messageActionBotInvite](/API_docs/constructors/messageActionBotInvite.html)  
+
 
 
 ### Methods that return an object of this type (methods):

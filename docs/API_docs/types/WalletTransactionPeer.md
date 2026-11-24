@@ -23,6 +23,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [walletTransactionPeerTelegramGift](/API_docs/constructors/walletTransactionPeerTelegramGift.html)  
 
+[walletTransactionPeerOnchainGift](/API_docs/constructors/walletTransactionPeerOnchainGift.html)  
+
 
 
 ### Methods that return an object of this type (methods):

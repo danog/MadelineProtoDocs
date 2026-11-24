@@ -16,6 +16,7 @@ Empty draft
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |date|[int](/API_docs/types/int.html) | Optional|When was the draft last updated|
+|ai\_style|[InputAiComposeStyle](/API_docs/types/InputAiComposeStyle.html) | Optional|
 
 
 
@@ -25,5 +26,5 @@ Empty draft
 ### Example:
 
 ```
-$draftMessageEmpty = ['_' => 'draftMessageEmpty', 'date' => int];
+$draftMessageEmpty = ['_' => 'draftMessageEmpty', 'date' => int, 'ai_style' => InputAiComposeStyle];
 ```  

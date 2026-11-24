@@ -26,6 +26,7 @@ Represents a message [draft](https://core.telegram.org/api/drafts).
 |effect|[long](/API_docs/types/long.html) | Optional|A [message effect that should be played as specified here »](https://core.telegram.org/api/effects).|
 |suggested\_post|[SuggestedPost](/API_docs/types/SuggestedPost.html) | Optional|Used to [suggest a post to a channel, see here »](https://core.telegram.org/api/suggested-posts) for more info on the full flow.|
 |rich\_message|[RichMessage](/API_docs/types/RichMessage.html) | Optional|
+|ai\_style|[InputAiComposeStyle](/API_docs/types/InputAiComposeStyle.html) | Optional|
 
 
 
@@ -95,5 +96,5 @@ pre-formatted fixed-width code block written in the PHP programming language
 ### Example:
 
 ```
-$draftMessage = ['_' => 'draftMessage', 'no_webpage' => Bool, 'invert_media' => Bool, 'reply_to' => InputReplyTo, 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'media' => InputMedia, 'date' => int, 'effect' => long, 'suggested_post' => SuggestedPost, 'rich_message' => RichMessage];
+$draftMessage = ['_' => 'draftMessage', 'no_webpage' => Bool, 'invert_media' => Bool, 'reply_to' => InputReplyTo, 'message' => 'string', 'entities' => [MessageEntity, MessageEntity]parse_mode: 'string', , 'media' => InputMedia, 'date' => int, 'effect' => long, 'suggested_post' => SuggestedPost, 'rich_message' => RichMessage, 'ai_style' => InputAiComposeStyle];
 ```  

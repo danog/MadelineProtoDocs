@@ -17,6 +17,7 @@ Contains information about multiple [forum topics](https://core.telegram.org/api
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |order\_by\_create\_date|[Bool](/API_docs/types/Bool.html) | Optional|Whether the returned topics are ordered by creation date; if set, pagination by `offset_date` should use [forumTopic](../constructors/forumTopic.html).`date`; otherwise topics are ordered by the last message date, so paginate by the `date` of the [message](../types/Message.html) referenced by [forumTopic](../constructors/forumTopic.html).`top_message`.|
+|top\_icons|Array of [long](/API_docs/types/long.html) | Optional|
 |count|[int](/API_docs/types/int.html) | Yes|Total number of topics matching query; may be more than the topics contained in `topics`, in which case [pagination](https://core.telegram.org/api/offsets) is required.|
 |topics|Array of [ForumTopic](/API_docs/types/ForumTopic.html) | Yes|Forum topics|
 |messages|Array of [Message](/API_docs/types/Message.html) | Yes|Related messages (contains the messages mentioned by [forumTopic](../constructors/forumTopic.html).`top_message`).|
@@ -32,5 +33,5 @@ Contains information about multiple [forum topics](https://core.telegram.org/api
 ### Example:
 
 ```
-$messages_forumTopics = ['_' => 'messages.forumTopics', 'order_by_create_date' => Bool, 'count' => int, 'topics' => [ForumTopic, ForumTopic], 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User], 'pts' => int];
+$messages_forumTopics = ['_' => 'messages.forumTopics', 'order_by_create_date' => Bool, 'top_icons' => [long, long], 'count' => int, 'topics' => [ForumTopic, ForumTopic], 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User], 'pts' => int];
 ```  

@@ -17,6 +17,8 @@ redirect_from: /API_docs/methods/messages_getForumTopics.html
 |----------|---------------|----------|
 |peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Optional|
 |q|[string](/API_docs/types/string.html) | Optional|
+|icon\_emoji\_id|[long](/API_docs/types/long.html) | Optional|
+|closed|[Bool](/API_docs/types/Bool.html) | Optional|
 |offset\_date|[int](/API_docs/types/int.html) | Optional|
 |offset\_id|[int](/API_docs/types/int.html) | Optional|
 |offset\_topic|[int](/API_docs/types/int.html) | Optional|
@@ -46,6 +48,6 @@ include 'madeline.php';
 $MadelineProto = new \danog\MadelineProto\API('session.madeline');
 $MadelineProto->start();
 
-$messages_ForumTopics = $MadelineProto->messages->getForumTopics(peer: $InputPeer, q: 'string', offset_date: $int, offset_id: $int, offset_topic: $int, limit: $int, );
+$messages_ForumTopics = $MadelineProto->messages->getForumTopics(peer: $InputPeer, q: 'string', icon_emoji_id: $long, closed: $Bool, offset_date: $int, offset_id: $int, offset_topic: $int, limit: $int, );
 ```
 

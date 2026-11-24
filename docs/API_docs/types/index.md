@@ -279,6 +279,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [InlineQueryPeerType](/API_docs/types/InlineQueryPeerType.html)<a name="InlineQueryPeerType"></a>  
 
+[InputAiComposeStyle](/API_docs/types/InputAiComposeStyle.html)<a name="InputAiComposeStyle"></a>  
+
 [InputAiComposeTone](/API_docs/types/InputAiComposeTone.html)<a name="InputAiComposeTone"></a>  
 
 [InputAppEvent](/API_docs/types/InputAppEvent.html)<a name="InputAppEvent"></a>  
@@ -803,6 +805,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 [TopPeerCategoryPeers](/API_docs/types/TopPeerCategoryPeers.html)<a name="TopPeerCategoryPeers"></a>  
 
+[TranscriptionModel](/API_docs/types/TranscriptionModel.html)<a name="TranscriptionModel"></a>  
+
 [True](/API_docs/types/True.html)<a name="True"></a>  
 
 [Update](/API_docs/types/Update.html)<a name="Update"></a>  
@@ -830,6 +834,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [WallPaper](/API_docs/types/WallPaper.html)<a name="WallPaper"></a>  
 
 [WallPaperSettings](/API_docs/types/WallPaperSettings.html)<a name="WallPaperSettings"></a>  
+
+[WalletOnchainGiftAction](/API_docs/types/WalletOnchainGiftAction.html)<a name="WalletOnchainGiftAction"></a>  
 
 [WalletOwnershipProof](/API_docs/types/WalletOwnershipProof.html)<a name="WalletOwnershipProof"></a>  
 
@@ -1208,6 +1214,14 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 [payments.StarGiftCollections](/API_docs/types/payments.StarGiftCollections.html)<a name="payments.StarGiftCollections"></a>  
 
 [payments.StarGiftDepositPayload](/API_docs/types/payments.StarGiftDepositPayload.html)<a name="payments.StarGiftDepositPayload"></a>  
+
+[payments.StarGiftOnchainOfferTx](/API_docs/types/payments.StarGiftOnchainOfferTx.html)<a name="payments.StarGiftOnchainOfferTx"></a>  
+
+[payments.StarGiftOnchainOfferTxInitState](/API_docs/types/payments.StarGiftOnchainOfferTxInitState.html)<a name="payments.StarGiftOnchainOfferTxInitState"></a>  
+
+[payments.StarGiftOnchainOfferTxMessage](/API_docs/types/payments.StarGiftOnchainOfferTxMessage.html)<a name="payments.StarGiftOnchainOfferTxMessage"></a>  
+
+[payments.StarGiftOnchainSalePayload](/API_docs/types/payments.StarGiftOnchainSalePayload.html)<a name="payments.StarGiftOnchainSalePayload"></a>  
 
 [payments.StarGiftUpgradeAttributes](/API_docs/types/payments.StarGiftUpgradeAttributes.html)<a name="payments.StarGiftUpgradeAttributes"></a>  
 

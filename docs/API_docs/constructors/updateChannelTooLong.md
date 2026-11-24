@@ -18,6 +18,8 @@ If the difference is too long or if the channel isn't currently in the states, s
 |----------|---------------|----------|-------------|
 |channel\_id|[long](/API_docs/types/long.html) | Yes|The channel|
 |pts|[int](/API_docs/types/int.html) | Optional|The [PTS](https://core.telegram.org/api/updates).|
+|last\_msg\_id|[int](/API_docs/types/int.html) | Optional|
+|last\_msg\_date|[int](/API_docs/types/int.html) | Optional|
 
 
 
@@ -27,5 +29,5 @@ If the difference is too long or if the channel isn't currently in the states, s
 ### Example:
 
 ```
-$updateChannelTooLong = ['_' => 'updateChannelTooLong', 'channel_id' => long, 'pts' => int];
+$updateChannelTooLong = ['_' => 'updateChannelTooLong', 'channel_id' => long, 'pts' => int, 'last_msg_id' => int, 'last_msg_date' => int];
 ```  

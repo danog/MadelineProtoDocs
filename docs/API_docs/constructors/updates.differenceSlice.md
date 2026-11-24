@@ -16,6 +16,7 @@ Incomplete list of occurred events.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|topics|Array of [ForumTopic](/API_docs/types/ForumTopic.html) | Optional|
 |new\_messages|Array of [Message](/API_docs/types/Message.html) | Yes|List of new messages|
 |new\_encrypted\_messages|Array of [EncryptedMessage](/API_docs/types/EncryptedMessage.html) | Yes|New messages from the [encrypted event sequence](https://core.telegram.org/api/updates)|
 |other\_updates|Array of [Update](/API_docs/types/Update.html) | Yes|List of updates|
@@ -31,5 +32,5 @@ Incomplete list of occurred events.
 ### Example:
 
 ```
-$updates_differenceSlice = ['_' => 'updates.differenceSlice', 'new_messages' => [Message, Message], 'new_encrypted_messages' => [EncryptedMessage, EncryptedMessage], 'other_updates' => [Update, Update], 'chats' => [Chat, Chat], 'users' => [User, User], 'intermediate_state' => updates.State];
+$updates_differenceSlice = ['_' => 'updates.differenceSlice', 'topics' => [ForumTopic, ForumTopic], 'new_messages' => [Message, Message], 'new_encrypted_messages' => [EncryptedMessage, EncryptedMessage], 'other_updates' => [Update, Update], 'chats' => [Chat, Chat], 'users' => [User, User], 'intermediate_state' => updates.State];
 ```  
