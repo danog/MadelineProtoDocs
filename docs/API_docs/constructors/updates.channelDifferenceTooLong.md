@@ -33,6 +33,7 @@ It should be also noted that some messages like live location messages shouldn't
 |----------|---------------|----------|-------------|
 |final|[Bool](/API_docs/types/Bool.html) | Optional|Whether there are more updates that must be fetched (always false)|
 |timeout|[int](/API_docs/types/int.html) | Optional|Clients are supposed to refetch the channel difference after timeout seconds have elapsed|
+|topics|Array of [ForumTopic](/API_docs/types/ForumTopic.html) | Optional|
 |dialog|[Dialog](/API_docs/types/Dialog.html) | Yes|Dialog containing the latest [PTS](https://core.telegram.org/api/updates) that can be used to reset the channel state|
 |messages|Array of [Message](/API_docs/types/Message.html) | Yes|The latest messages|
 |chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Chats from messages|
@@ -46,5 +47,5 @@ It should be also noted that some messages like live location messages shouldn't
 ### Example:
 
 ```
-$updates_channelDifferenceTooLong = ['_' => 'updates.channelDifferenceTooLong', 'final' => Bool, 'timeout' => int, 'dialog' => Dialog, 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
+$updates_channelDifferenceTooLong = ['_' => 'updates.channelDifferenceTooLong', 'final' => Bool, 'timeout' => int, 'topics' => [ForumTopic, ForumTopic], 'dialog' => Dialog, 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

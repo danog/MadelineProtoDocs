@@ -13,6 +13,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 | Name     |    Type       | Required |
 |----------|---------------|----------|
+|collapsed|[Bool](/API_docs/types/Bool.html) | Optional|
 |blocks|Array of [PageBlock](/API_docs/types/PageBlock.html) | Yes|
 |caption|[RichText](/API_docs/types/RichText.html) | Yes|
 
@@ -24,5 +25,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$pageBlockBlockquoteBlocks = ['_' => 'pageBlockBlockquoteBlocks', 'blocks' => [PageBlock, PageBlock], 'caption' => RichText];
+$pageBlockBlockquoteBlocks = ['_' => 'pageBlockBlockquoteBlocks', 'collapsed' => Bool, 'blocks' => [PageBlock, PageBlock], 'caption' => RichText];
 ```  

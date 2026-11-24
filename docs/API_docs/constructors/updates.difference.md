@@ -16,6 +16,7 @@ Full list of occurred events.
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|topics|Array of [ForumTopic](/API_docs/types/ForumTopic.html) | Optional|
 |new\_messages|Array of [Message](/API_docs/types/Message.html) | Yes|List of new messages|
 |new\_encrypted\_messages|Array of [EncryptedMessage](/API_docs/types/EncryptedMessage.html) | Yes|List of new encrypted secret chat messages|
 |other\_updates|Array of [Update](/API_docs/types/Update.html) | Yes|List of updates|
@@ -31,5 +32,5 @@ Full list of occurred events.
 ### Example:
 
 ```
-$updates_difference = ['_' => 'updates.difference', 'new_messages' => [Message, Message], 'new_encrypted_messages' => [EncryptedMessage, EncryptedMessage], 'other_updates' => [Update, Update], 'chats' => [Chat, Chat], 'users' => [User, User], 'state' => updates.State];
+$updates_difference = ['_' => 'updates.difference', 'topics' => [ForumTopic, ForumTopic], 'new_messages' => [Message, Message], 'new_encrypted_messages' => [EncryptedMessage, EncryptedMessage], 'other_updates' => [Update, Update], 'chats' => [Chat, Chat], 'users' => [User, User], 'state' => updates.State];
 ```  

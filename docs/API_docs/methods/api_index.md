@@ -573,6 +573,10 @@ $MadelineProto->[aicompose->saveTone](/API_docs/methods/aicompose.saveTone.html)
 
 ***
 <br><br>
+$MadelineProto->[aicompose->setChatStyle](/API_docs/methods/aicompose.setChatStyle.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), style: $[InputAiComposeStyle](/API_docs/types/InputAiComposeStyle.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="aicompose.setChatStyle"></a>  
+
+***
+<br><br>
 $MadelineProto->[aicompose->updateTone](/API_docs/methods/aicompose.updateTone.html)(\[tone: $[InputAiComposeTone](/API_docs/types/InputAiComposeTone.html), display_author: $[Bool](/API_docs/types/Bool.html), emoji_id: $[long](/API_docs/types/long.html), title: $[string](/API_docs/types/string.html), prompt: $[string](/API_docs/types/string.html), \]) === [$AiComposeTone](/API_docs/types/AiComposeTone.html)<a name="aicompose.updateTone"></a>  
 
 ***
@@ -1877,7 +1881,7 @@ $MadelineProto->[messages->getFeaturedStickers](/API_docs/methods/messages.getFe
 
 ***
 <br><br>
-$MadelineProto->[messages->getForumTopics](/API_docs/methods/messages.getForumTopics.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), q: $[string](/API_docs/types/string.html), offset_date: $[int](/API_docs/types/int.html), offset_id: $[int](/API_docs/types/int.html), offset_topic: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), \]) === [$messages.ForumTopics](/API_docs/types/messages.ForumTopics.html)<a name="messages.getForumTopics"></a>  
+$MadelineProto->[messages->getForumTopics](/API_docs/methods/messages.getForumTopics.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), q: $[string](/API_docs/types/string.html), icon_emoji_id: $[long](/API_docs/types/long.html), closed: $[Bool](/API_docs/types/Bool.html), offset_date: $[int](/API_docs/types/int.html), offset_id: $[int](/API_docs/types/int.html), offset_topic: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), \]) === [$messages.ForumTopics](/API_docs/types/messages.ForumTopics.html)<a name="messages.getForumTopics"></a>  
 
 ***
 <br><br>
@@ -2089,6 +2093,10 @@ $MadelineProto->[messages->getTranscriptionLangs](/API_docs/methods/messages.get
 
 ***
 <br><br>
+$MadelineProto->[messages->getTranscriptionModels](/API_docs/methods/messages.getTranscriptionModels.html)(\[version: $[int](/API_docs/types/int.html), \]) === [$Vector\_of\_TranscriptionModel](/API_docs/types/TranscriptionModel.html)<a name="messages.getTranscriptionModels"></a>  
+
+***
+<br><br>
 $MadelineProto->[messages->getUnreadMentions](/API_docs/methods/messages.getUnreadMentions.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), top_msg_id: $[int](/API_docs/types/int.html), offset_id: $[int](/API_docs/types/int.html), add_offset: $[int](/API_docs/types/int.html), limit: $[int](/API_docs/types/int.html), max_id: $[int](/API_docs/types/int.html), min_id: $[int](/API_docs/types/int.html), \]) === [$messages.Messages](/API_docs/types/messages.Messages.html)<a name="messages.getUnreadMentions"></a>  
 
 ***
@@ -2134,6 +2142,10 @@ $MadelineProto->[messages->initHistoryImport](/API_docs/methods/messages.initHis
 ***
 <br><br>
 $MadelineProto->[messages->installStickerSet](/API_docs/methods/messages.installStickerSet.html)(\[stickerset: $[InputStickerSet](/API_docs/types/InputStickerSet.html), archived: $[Bool](/API_docs/types/Bool.html), \]) === [$messages.StickerSetInstallResult](/API_docs/types/messages.StickerSetInstallResult.html)<a name="messages.installStickerSet"></a>  
+
+***
+<br><br>
+$MadelineProto->[messages->inviteUsersToBot](/API_docs/methods/messages.inviteUsersToBot.html)(\[bot: $[InputUser](/API_docs/types/InputUser.html), users: \[$[InputUser](/API_docs/types/InputUser.html)\], \]) === [$Bool](/API_docs/types/Bool.html)<a name="messages.inviteUsersToBot"></a>  
 
 ***
 <br><br>
@@ -2569,6 +2581,10 @@ $MadelineProto->[messages->viewSponsoredMessage](/API_docs/methods/messages.view
 
 ***
 <br><br>
+$MadelineProto->[payments->acceptStarGiftOnchainOffer](/API_docs/methods/payments.acceptStarGiftOnchainOffer.html)(\[offer_msg_id: $[int](/API_docs/types/int.html), \]) === [$payments.StarGiftOnchainOfferTx](/API_docs/types/payments.StarGiftOnchainOfferTx.html)<a name="payments.acceptStarGiftOnchainOffer"></a>  
+
+***
+<br><br>
 $MadelineProto->[payments->applyGiftCode](/API_docs/methods/payments.applyGiftCode.html)(\[slug: $[string](/API_docs/types/string.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.applyGiftCode"></a>  
 
 ***
@@ -2585,7 +2601,19 @@ $MadelineProto->[payments->botCancelStarsSubscription](/API_docs/methods/payment
 
 ***
 <br><br>
+$MadelineProto->[payments->buyStarGiftOnchain](/API_docs/methods/payments.buyStarGiftOnchain.html)(\[show_name: $[Bool](/API_docs/types/Bool.html), slug: $[string](/API_docs/types/string.html), expected_amount: $[long](/API_docs/types/long.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), message: $[TextWithEntities](/API_docs/types/TextWithEntities.html), \]) === [$payments.StarGiftOnchainSalePayload](/API_docs/types/payments.StarGiftOnchainSalePayload.html)<a name="payments.buyStarGiftOnchain"></a>  
+
+***
+<br><br>
 $MadelineProto->[payments->canPurchaseStore](/API_docs/methods/payments.canPurchaseStore.html)(\[purpose: $[InputStorePaymentPurpose](/API_docs/types/InputStorePaymentPurpose.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.canPurchaseStore"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->cancelStarGiftOnchainOffer](/API_docs/methods/payments.cancelStarGiftOnchainOffer.html)(\[offer_msg_id: $[int](/API_docs/types/int.html), \]) === [$payments.StarGiftOnchainOfferTx](/API_docs/types/payments.StarGiftOnchainOfferTx.html)<a name="payments.cancelStarGiftOnchainOffer"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->cancelStarGiftOnchainSale](/API_docs/methods/payments.cancelStarGiftOnchainSale.html)(\[slug: $[string](/API_docs/types/string.html), \]) === [$payments.StarGiftOnchainSalePayload](/API_docs/types/payments.StarGiftOnchainSalePayload.html)<a name="payments.cancelStarGiftOnchainSale"></a>  
 
 ***
 <br><br>
@@ -2622,6 +2650,10 @@ $MadelineProto->[payments->createOnrampSession](/API_docs/methods/payments.creat
 ***
 <br><br>
 $MadelineProto->[payments->createStarGiftCollection](/API_docs/methods/payments.createStarGiftCollection.html)(\[peer: $[InputPeer](/API_docs/types/InputPeer.html), title: $[string](/API_docs/types/string.html), stargift: \[$[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html)\], \]) === [$StarGiftCollection](/API_docs/types/StarGiftCollection.html)<a name="payments.createStarGiftCollection"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->declineStarGiftOnchainOffer](/API_docs/methods/payments.declineStarGiftOnchainOffer.html)(\[offer_msg_id: $[int](/API_docs/types/int.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.declineStarGiftOnchainOffer"></a>  
 
 ***
 <br><br>
@@ -2709,7 +2741,7 @@ $MadelineProto->[payments->getPremiumGiftCodeOptions](/API_docs/methods/payments
 
 ***
 <br><br>
-$MadelineProto->[payments->getResaleStarGifts](/API_docs/methods/payments.getResaleStarGifts.html)(\[sort_by_price: $[Bool](/API_docs/types/Bool.html), sort_by_num: $[Bool](/API_docs/types/Bool.html), for_craft: $[Bool](/API_docs/types/Bool.html), stars_only: $[Bool](/API_docs/types/Bool.html), attributes_hash: $[long](/API_docs/types/long.html), gift_id: $[long](/API_docs/types/long.html), attributes: \[$[StarGiftAttributeId](/API_docs/types/StarGiftAttributeId.html)\], offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$payments.ResaleStarGifts](/API_docs/types/payments.ResaleStarGifts.html)<a name="payments.getResaleStarGifts"></a>  
+$MadelineProto->[payments->getResaleStarGifts](/API_docs/methods/payments.getResaleStarGifts.html)(\[sort_by_price: $[Bool](/API_docs/types/Bool.html), sort_by_num: $[Bool](/API_docs/types/Bool.html), for_craft: $[Bool](/API_docs/types/Bool.html), stars_only: $[Bool](/API_docs/types/Bool.html), ton_only: $[Bool](/API_docs/types/Bool.html), fragment_only: $[Bool](/API_docs/types/Bool.html), attributes_hash: $[long](/API_docs/types/long.html), gift_id: $[long](/API_docs/types/long.html), attributes: \[$[StarGiftAttributeId](/API_docs/types/StarGiftAttributeId.html)\], offset: $[string](/API_docs/types/string.html), limit: $[int](/API_docs/types/int.html), \]) === [$payments.ResaleStarGifts](/API_docs/types/payments.ResaleStarGifts.html)<a name="payments.getResaleStarGifts"></a>  
 
 ***
 <br><br>
@@ -2837,6 +2869,10 @@ $MadelineProto->[payments->sendStarGiftOffer](/API_docs/methods/payments.sendSta
 
 ***
 <br><br>
+$MadelineProto->[payments->sendStarGiftOnchainOffer](/API_docs/methods/payments.sendStarGiftOnchainOffer.html)(\[slug: $[string](/API_docs/types/string.html), amount: $[long](/API_docs/types/long.html), duration: $[int](/API_docs/types/int.html), \]) === [$payments.StarGiftOnchainOfferTx](/API_docs/types/payments.StarGiftOnchainOfferTx.html)<a name="payments.sendStarGiftOnchainOffer"></a>  
+
+***
+<br><br>
 $MadelineProto->[payments->sendStarsForm](/API_docs/methods/payments.sendStarsForm.html)(\[form_id: $[long](/API_docs/types/long.html), invoice: $[InputInvoice](/API_docs/types/InputInvoice.html), \]) === [$payments.PaymentResult](/API_docs/types/payments.PaymentResult.html)<a name="payments.sendStarsForm"></a>  
 
 ***
@@ -2857,6 +2893,10 @@ $MadelineProto->[payments->updateStarGiftCollection](/API_docs/methods/payments.
 
 ***
 <br><br>
+$MadelineProto->[payments->updateStarGiftOnchainPrice](/API_docs/methods/payments.updateStarGiftOnchainPrice.html)(\[slug: $[string](/API_docs/types/string.html), amount: $[long](/API_docs/types/long.html), \]) === [$payments.StarGiftOnchainSalePayload](/API_docs/types/payments.StarGiftOnchainSalePayload.html)<a name="payments.updateStarGiftOnchainPrice"></a>  
+
+***
+<br><br>
 $MadelineProto->[payments->updateStarGiftPrice](/API_docs/methods/payments.updateStarGiftPrice.html)(\[stargift: $[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html), resell_amount: $[StarsAmount](/API_docs/types/StarsAmount.html), \]) === [$Updates](/API_docs/types/Updates.html)<a name="payments.updateStarGiftPrice"></a>  
 
 ***
@@ -2870,6 +2910,10 @@ $MadelineProto->[payments->validateRequestedInfo](/API_docs/methods/payments.val
 ***
 <br><br>
 $MadelineProto->[payments->withdrawStarGift](/API_docs/methods/payments.withdrawStarGift.html)(\[keep_on_profile: $[Bool](/API_docs/types/Bool.html), stargift: $[InputSavedStarGift](/API_docs/types/InputSavedStarGift.html), tmp_password: $[bytes](/API_docs/types/bytes.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.withdrawStarGift"></a>  
+
+***
+<br><br>
+$MadelineProto->[payments->withdrawStarsRevenueToWallet](/API_docs/methods/payments.withdrawStarsRevenueToWallet.html)(\[ton: $[Bool](/API_docs/types/Bool.html), peer: $[InputPeer](/API_docs/types/InputPeer.html), amount: $[long](/API_docs/types/long.html), tmp_password: $[bytes](/API_docs/types/bytes.html), \]) === [$Bool](/API_docs/types/Bool.html)<a name="payments.withdrawStarsRevenueToWallet"></a>  
 
 ***
 <br><br>

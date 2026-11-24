@@ -16,6 +16,7 @@ Dialog info of multiple peers
 
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
+|topics|Array of [ForumTopic](/API_docs/types/ForumTopic.html) | Optional|
 |dialogs|Array of [Dialog](/API_docs/types/Dialog.html) | Yes|Dialog info|
 |messages|Array of [Message](/API_docs/types/Message.html) | Yes|Messages mentioned in dialog info|
 |chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|Chats|
@@ -30,5 +31,5 @@ Dialog info of multiple peers
 ### Example:
 
 ```
-$messages_peerDialogs = ['_' => 'messages.peerDialogs', 'dialogs' => [Dialog, Dialog], 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User], 'state' => updates.State];
+$messages_peerDialogs = ['_' => 'messages.peerDialogs', 'topics' => [ForumTopic, ForumTopic], 'dialogs' => [Dialog, Dialog], 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User], 'state' => updates.State];
 ```  

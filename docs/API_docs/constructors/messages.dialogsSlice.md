@@ -17,6 +17,7 @@ Incomplete list of dialogs with messages and auxiliary data.
 | Name     |    Type       | Required | Description |
 |----------|---------------|----------|-------------|
 |count|[int](/API_docs/types/int.html) | Yes|Total number of dialogs|
+|topics|Array of [ForumTopic](/API_docs/types/ForumTopic.html) | Optional|
 |dialogs|Array of [Dialog](/API_docs/types/Dialog.html) | Yes|List of dialogs|
 |messages|Array of [Message](/API_docs/types/Message.html) | Yes|List of last messages from dialogs|
 |chats|Array of [Chat](/API_docs/types/Chat.html) | Yes|List of chats mentioned in dialogs|
@@ -30,5 +31,5 @@ Incomplete list of dialogs with messages and auxiliary data.
 ### Example:
 
 ```
-$messages_dialogsSlice = ['_' => 'messages.dialogsSlice', 'count' => int, 'dialogs' => [Dialog, Dialog], 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
+$messages_dialogsSlice = ['_' => 'messages.dialogsSlice', 'count' => int, 'topics' => [ForumTopic, ForumTopic], 'dialogs' => [Dialog, Dialog], 'messages' => [Message, Message], 'chats' => [Chat, Chat], 'users' => [User, User]];
 ```  

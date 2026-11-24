@@ -18,6 +18,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |peer\_address|[string](/API_docs/types/string.html) | Yes|
 |transaction\_id|[string](/API_docs/types/string.html) | Yes|
 |comment|[string](/API_docs/types/string.html) | Optional|
+|onramp\_provider\_name|[string](/API_docs/types/string.html) | Optional|
 
 
 
@@ -27,5 +28,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$messageActionGramTransfer = ['_' => 'messageActionGramTransfer', 'comment_encrypted' => Bool, 'amount' => long, 'peer_address' => 'string', 'transaction_id' => 'string', 'comment' => 'string'];
+$messageActionGramTransfer = ['_' => 'messageActionGramTransfer', 'comment_encrypted' => Bool, 'amount' => long, 'peer_address' => 'string', 'transaction_id' => 'string', 'comment' => 'string', 'onramp_provider_name' => 'string'];
 ```  

@@ -238,6 +238,8 @@ $message = $MadelineProto->extractMessageId($Updates);
 
 [$MadelineProto->payments->craftStarGift](/API_docs/methods/payments.craftStarGift.html)  
 
+[$MadelineProto->payments->declineStarGiftOnchainOffer](/API_docs/methods/payments.declineStarGiftOnchainOffer.html)  
+
 [$MadelineProto->phone->discardCall](/API_docs/methods/phone.discardCall.html)  
 
 [$MadelineProto->phone->setCallRating](/API_docs/methods/phone.setCallRating.html)  

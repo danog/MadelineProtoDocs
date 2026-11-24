@@ -36,6 +36,8 @@ List of actions that are possible when interacting with this user, to be shown a
 |phone\_country|[string](/API_docs/types/string.html) | Optional|The country code of the user's phone number.|
 |name\_change\_date|[int](/API_docs/types/int.html) | Optional|When was the user's name last changed.|
 |photo\_change\_date|[int](/API_docs/types/int.html) | Optional|When was the user's photo last changed.|
+|bot\_inviter\_id|[long](/API_docs/types/long.html) | Optional|
+|bot\_owner\_id|[long](/API_docs/types/long.html) | Optional|
 
 
 
@@ -45,5 +47,5 @@ List of actions that are possible when interacting with this user, to be shown a
 ### Example:
 
 ```
-$peerSettings = ['_' => 'peerSettings', 'report_spam' => Bool, 'add_contact' => Bool, 'block_contact' => Bool, 'share_contact' => Bool, 'need_contacts_exception' => Bool, 'report_geo' => Bool, 'autoarchived' => Bool, 'invite_members' => Bool, 'request_chat_broadcast' => Bool, 'business_bot_paused' => Bool, 'business_bot_can_reply' => Bool, 'geo_distance' => int, 'request_chat_title' => 'string', 'request_chat_date' => int, 'business_bot_id' => long, 'business_bot_manage_url' => 'string', 'charge_paid_message_stars' => long, 'registration_month' => 'string', 'phone_country' => 'string', 'name_change_date' => int, 'photo_change_date' => int];
+$peerSettings = ['_' => 'peerSettings', 'report_spam' => Bool, 'add_contact' => Bool, 'block_contact' => Bool, 'share_contact' => Bool, 'need_contacts_exception' => Bool, 'report_geo' => Bool, 'autoarchived' => Bool, 'invite_members' => Bool, 'request_chat_broadcast' => Bool, 'business_bot_paused' => Bool, 'business_bot_can_reply' => Bool, 'geo_distance' => int, 'request_chat_title' => 'string', 'request_chat_date' => int, 'business_bot_id' => long, 'business_bot_manage_url' => 'string', 'charge_paid_message_stars' => long, 'registration_month' => 'string', 'phone_country' => 'string', 'name_change_date' => int, 'photo_change_date' => int, 'bot_inviter_id' => long, 'bot_owner_id' => long];
 ```  

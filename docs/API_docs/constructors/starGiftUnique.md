@@ -22,6 +22,11 @@ The sticker that represents the gift is contained in a [starGiftAttributeModel](
 |theme\_available|[Bool](/API_docs/types/Bool.html) | Optional|A chat theme associated to this gift is available, [see here »](https://core.telegram.org/api/themes#chat-themes) for more info on how to use it.|
 |burned|[Bool](/API_docs/types/Bool.html) | Optional|
 |crafted|[Bool](/API_docs/types/Bool.html) | Optional|
+|onchain\_sale|[Bool](/API_docs/types/Bool.html) | Optional|
+|fixed\_sale|[Bool](/API_docs/types/Bool.html) | Optional|
+|my\_sale|[Bool](/API_docs/types/Bool.html) | Optional|
+|offer\_min\_amount|[long](/API_docs/types/long.html) | Optional|
+|fee\_bps|[int](/API_docs/types/int.html) | Optional|
 |id|[long](/API_docs/types/long.html) | Yes|Identifier of the collectible gift.|
 |gift\_id|[long](/API_docs/types/long.html) | Yes|Unique ID of the gift.|
 |title|[string](/API_docs/types/string.html) | Yes|Collectible title.|
@@ -53,5 +58,5 @@ The sticker that represents the gift is contained in a [starGiftAttributeModel](
 ### Example:
 
 ```
-$starGiftUnique = ['_' => 'starGiftUnique', 'require_premium' => Bool, 'resale_ton_only' => Bool, 'theme_available' => Bool, 'burned' => Bool, 'crafted' => Bool, 'id' => long, 'gift_id' => long, 'title' => 'string', 'slug' => 'string', 'num' => int, 'owner_id' => Peer, 'owner_name' => 'string', 'owner_address' => 'string', 'attributes' => [StarGiftAttribute, StarGiftAttribute], 'availability_issued' => int, 'availability_total' => int, 'gift_address' => 'string', 'resell_amount' => [StarsAmount, StarsAmount], 'released_by' => Peer, 'value_amount' => long, 'value_currency' => 'string', 'value_usd_amount' => long, 'theme_peer' => Peer, 'peer_color' => PeerColor, 'host_id' => Peer, 'offer_min_stars' => int, 'craft_chance_permille' => int];
+$starGiftUnique = ['_' => 'starGiftUnique', 'require_premium' => Bool, 'resale_ton_only' => Bool, 'theme_available' => Bool, 'burned' => Bool, 'crafted' => Bool, 'onchain_sale' => Bool, 'fixed_sale' => Bool, 'my_sale' => Bool, 'offer_min_amount' => long, 'fee_bps' => int, 'id' => long, 'gift_id' => long, 'title' => 'string', 'slug' => 'string', 'num' => int, 'owner_id' => Peer, 'owner_name' => 'string', 'owner_address' => 'string', 'attributes' => [StarGiftAttribute, StarGiftAttribute], 'availability_issued' => int, 'availability_total' => int, 'gift_address' => 'string', 'resell_amount' => [StarsAmount, StarsAmount], 'released_by' => Peer, 'value_amount' => long, 'value_currency' => 'string', 'value_usd_amount' => long, 'theme_peer' => Peer, 'peer_color' => PeerColor, 'host_id' => Peer, 'offer_min_stars' => int, 'craft_chance_permille' => int];
 ```  

@@ -18,6 +18,7 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 |failed|[Bool](/API_docs/types/Bool.html) | Optional|
 |key\_change|[Bool](/API_docs/types/Bool.html) | Optional|
 |comment\_encrypted|[Bool](/API_docs/types/Bool.html) | Optional|
+|suspected\_spam|[Bool](/API_docs/types/Bool.html) | Optional|
 |id|[string](/API_docs/types/string.html) | Yes|
 |amount|[long](/API_docs/types/long.html) | Yes|
 |fee|[long](/API_docs/types/long.html) | Yes|
@@ -35,5 +36,5 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 ### Example:
 
 ```
-$walletTransaction = ['_' => 'walletTransaction', 'incoming' => Bool, 'gasless' => Bool, 'failed' => Bool, 'key_change' => Bool, 'comment_encrypted' => Bool, 'id' => 'string', 'amount' => long, 'fee' => long, 'date' => int, 'peer' => WalletTransactionPeer, 'comment' => 'string', 'tx_hash' => 'string', 'nft' => wallet.NftItem];
+$walletTransaction = ['_' => 'walletTransaction', 'incoming' => Bool, 'gasless' => Bool, 'failed' => Bool, 'key_change' => Bool, 'comment_encrypted' => Bool, 'suspected_spam' => Bool, 'id' => 'string', 'amount' => long, 'fee' => long, 'date' => int, 'peer' => WalletTransactionPeer, 'comment' => 'string', 'tx_hash' => 'string', 'nft' => wallet.NftItem];
 ```  

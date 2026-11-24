@@ -2032,6 +2032,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="aicompose.saveTone.html" name="aicompose.saveTone">aicompose.saveTone</a>
 
+* <a href="aicompose.setChatStyle.html" name="aicompose.setChatStyle">aicompose.setChatStyle</a>
+
 * <a href="aicompose.updateTone.html" name="aicompose.updateTone">aicompose.updateTone</a>
 
 * <a href="auth.cancelWebTokenAuthorization.html" name="auth.cancelWebTokenAuthorization">auth.cancelWebTokenAuthorization</a>
@@ -2160,9 +2162,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="messages.getTranscriptionLangs.html" name="messages.getTranscriptionLangs">messages.getTranscriptionLangs</a>
 
+* <a href="messages.getTranscriptionModels.html" name="messages.getTranscriptionModels">messages.getTranscriptionModels</a>
+
 * <a href="messages.getUnreadPollVotes.html" name="messages.getUnreadPollVotes">messages.getUnreadPollVotes</a>
 
 * <a href="messages.getWidgetPublicData.html" name="messages.getWidgetPublicData">messages.getWidgetPublicData</a>
+
+* <a href="messages.inviteUsersToBot.html" name="messages.inviteUsersToBot">messages.inviteUsersToBot</a>
 
 * <a href="messages.readPollVotes.html" name="messages.readPollVotes">messages.readPollVotes</a>
 
@@ -2192,9 +2198,19 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#rleEncode" name="rleEncode">null-byte RLE encode: rleEncode</a>
 
+* <a href="payments.acceptStarGiftOnchainOffer.html" name="payments.acceptStarGiftOnchainOffer">payments.acceptStarGiftOnchainOffer</a>
+
+* <a href="payments.buyStarGiftOnchain.html" name="payments.buyStarGiftOnchain">payments.buyStarGiftOnchain</a>
+
+* <a href="payments.cancelStarGiftOnchainOffer.html" name="payments.cancelStarGiftOnchainOffer">payments.cancelStarGiftOnchainOffer</a>
+
+* <a href="payments.cancelStarGiftOnchainSale.html" name="payments.cancelStarGiftOnchainSale">payments.cancelStarGiftOnchainSale</a>
+
 * <a href="payments.craftStarGift.html" name="payments.craftStarGift">payments.craftStarGift</a>
 
 * <a href="payments.createOnrampSession.html" name="payments.createOnrampSession">payments.createOnrampSession</a>
+
+* <a href="payments.declineStarGiftOnchainOffer.html" name="payments.declineStarGiftOnchainOffer">payments.declineStarGiftOnchainOffer</a>
 
 * <a href="payments.deleteStarGift.html" name="payments.deleteStarGift">payments.deleteStarGift</a>
 
@@ -2228,7 +2244,13 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="payments.sendStarGiftOffer.html" name="payments.sendStarGiftOffer">payments.sendStarGiftOffer</a>
 
+* <a href="payments.sendStarGiftOnchainOffer.html" name="payments.sendStarGiftOnchainOffer">payments.sendStarGiftOnchainOffer</a>
+
+* <a href="payments.updateStarGiftOnchainPrice.html" name="payments.updateStarGiftOnchainPrice">payments.updateStarGiftOnchainPrice</a>
+
 * <a href="payments.withdrawStarGift.html" name="payments.withdrawStarGift">payments.withdrawStarGift</a>
+
+* <a href="payments.withdrawStarsRevenueToWallet.html" name="payments.withdrawStarsRevenueToWallet">payments.withdrawStarsRevenueToWallet</a>
 
 * <a href="phone.deleteGroupCallMessages.html" name="phone.deleteGroupCallMessages">phone.deleteGroupCallMessages</a>
 
