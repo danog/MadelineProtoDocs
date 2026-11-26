@@ -130,6 +130,8 @@ image: https://docs.madelineproto.xyz/favicons/android-chrome-256x256.png
 
 * <a href="payments.botCancelStarsSubscription.html" name="payments.botCancelStarsSubscription">Cancel a bot subscription: payments.botCancelStarsSubscription</a>
 
+* <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#cancelLogin" name="cancelLogin">Cancel a login in progress and return to the initial not-logged-in state: cancelLogin</a>
+
 * <a href="https://docs.madelineproto.xyz/PHP/danog/MadelineProto/API.html#cancelBroadcast" name="cancelBroadcast">Cancel a running broadcast: cancelBroadcast</a>
 
 * <a href="account.cancelPasswordEmail.html" name="account.cancelPasswordEmail">Cancel the code that was sent to verify an email to use as 2FA recovery method: account.cancelPasswordEmail</a>

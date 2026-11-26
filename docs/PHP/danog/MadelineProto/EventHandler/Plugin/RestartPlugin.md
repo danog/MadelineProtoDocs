@@ -78,6 +78,7 @@ Plugin that offers a /restart command to admins that can be used to restart the 
 * [`canConvertOgg(): bool`](#canConvertOgg)
 * [`canUseFFmpeg(?\Amp\Cancellation $cancellation = NULL): bool`](#canUseFFmpeg)
 * [`cancelBroadcast(integer $id): void`](#cancelBroadcast)
+* [`cancelLogin(): void`](#cancelLogin)
 * [`closeConnection(string $message): void`](#closeConnection)
 * [`closeRtmpStream(int $id): void`](#closeRtmpStream)
 * [`complete2faLogin(string $password): array`](#complete2faLogin)
@@ -822,6 +823,12 @@ Cancel a running broadcast.
 Parameters:
 
 * `$id`: `integer` Broadcast ID  
+
+
+
+### <a name="cancelLogin"></a> `cancelLogin(): void`
+
+Cancel a login in progress and return to the initial not-logged-in state.
 
 
 
