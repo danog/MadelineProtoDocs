@@ -1,0 +1,21 @@
+# payments.PaymentForm
+
+> constructors and methods of type payments.PaymentForm
+
+[Back to types index](index.html)
+
+
+
+### Possible values (constructors):
+
+[payments.paymentForm](/API_docs/constructors/payments.paymentForm.html)  
+
+[payments.paymentFormStars](/API_docs/constructors/payments.paymentFormStars.html)  
+
+[payments.paymentFormStarGift](/API_docs/constructors/payments.paymentFormStarGift.html)  
+
+
+
+### Methods that return an object of this type (methods):
+
+[$MadelineProto->payments->getPaymentForm](/API_docs/methods/payments.getPaymentForm.html)

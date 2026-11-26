@@ -1,0 +1,43 @@
+# channels.toggleSlowMode
+
+> Toggle supergroup slow mode: if enabled, users will only be able to send one message every `seconds` seconds
+
+[Back to methods index](index.html)
+
+
+
+Toggle supergroup slow mode: if enabled, users will only be able to send one message every `seconds` seconds
+
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|channel|[Username, chat ID, Update, Message or InputChannel](/API_docs/types/InputChannel.html) | The [supergroup](https://core.telegram.org/api/channel) | Optional|
+|seconds|[int](/API_docs/types/int.html) | Users will only be able to send one message every `seconds` seconds, `0` to disable the limitation | Optional|
+
+
+### Return type: [Updates](/API_docs/types/Updates.html)
+
+### Can users use this method: **YES**
+
+
+### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$Updates = $MadelineProto->channels->toggleSlowMode(channel: $InputChannel, seconds: $int, );
+```

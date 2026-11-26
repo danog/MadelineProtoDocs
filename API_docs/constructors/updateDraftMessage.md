@@ -1,0 +1,29 @@
+# updateDraftMessage
+
+> Notifies a change of a message draft.
+
+[Back to constructors index](/API_docs/constructors/index.html)
+
+
+
+Notifies a change of a message [draft](https://core.telegram.org/api/drafts).
+
+### Attributes:
+
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|peer|[long](/API_docs/types/long.html) | Yes|The peer to which the draft is associated|
+|top\_msg\_id|[int](/API_docs/types/int.html) | Optional|ID of the [forum topic](https://core.telegram.org/api/forum#forum-topics) to which the draft is associated|
+|saved\_peer\_id|[Peer](/API_docs/types/Peer.html) | Optional|If set, the draft is related to the specified [monoforum topic ID »](https://core.telegram.org/api/monoforum).|
+|draft|[DraftMessage](/API_docs/types/DraftMessage.html) | Optional|The draft|
+
+
+
+### Type: [Update](/API_docs/types/Update.html)
+
+
+### Example:
+
+```
+$updateDraftMessage = ['_' => 'updateDraftMessage', 'peer' => long, 'top_msg_id' => int, 'saved_peer_id' => Peer, 'draft' => DraftMessage];
+```

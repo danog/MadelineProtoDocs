@@ -1,0 +1,26 @@
+# peerChannel
+
+> Channel/supergroup
+
+[Back to constructors index](/API_docs/constructors/index.html)
+
+
+
+Channel/supergroup
+
+### Attributes:
+
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|channel\_id|[long](/API_docs/types/long.html) | Yes|Channel ID|
+
+
+
+### Type: [Peer](/API_docs/types/Peer.html)
+
+
+### Example:
+
+```
+$peerChannel = ['_' => 'peerChannel', 'channel_id' => long];
+```

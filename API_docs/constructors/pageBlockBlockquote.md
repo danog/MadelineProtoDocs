@@ -1,0 +1,28 @@
+# pageBlockBlockquote
+
+> Quote (equivalent to the HTML <blockquote>)
+
+[Back to constructors index](/API_docs/constructors/index.html)
+
+
+
+Quote (equivalent to the HTML `<blockquote>`)
+
+### Attributes:
+
+| Name     |    Type       | Required | Description |
+|----------|---------------|----------|-------------|
+|collapsed|[Bool](/API_docs/types/Bool.html) | Optional|
+|text|[RichText](/API_docs/types/RichText.html) | Yes|Quote contents|
+|caption|[RichText](/API_docs/types/RichText.html) | Yes|Caption|
+
+
+
+### Type: [PageBlock](/API_docs/types/PageBlock.html)
+
+
+### Example:
+
+```
+$pageBlockBlockquote = ['_' => 'pageBlockBlockquote', 'collapsed' => Bool, 'text' => RichText, 'caption' => RichText];
+```

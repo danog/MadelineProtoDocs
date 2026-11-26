@@ -1,0 +1,43 @@
+# messages.getScheduledHistory
+
+> Get scheduled messages
+
+[Back to methods index](index.html)
+
+
+
+Get scheduled messages
+
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|peer|[Username, chat ID, Update, Message or InputPeer](/API_docs/types/InputPeer.html) | Peer | Optional|
+|hash|Array of [long\|string](/API_docs/types/long\|string.html) | [Hash used for caching, for more info click here](https://core.telegram.org/api/offsets#hash-generation). <br>To generate the hash, populate the `ids` array with the `id`, `edit_date` (0 if unedited) and `date` (in this order) of the previously returned messages (in order, i.e. `ids = [id1, (edit_date1 ?? 0), date1, id2, (edit_date2 ?? 0), date2, ...]`). | Optional|
+
+
+### Return type: [messages.Messages](/API_docs/types/messages.Messages.html)
+
+### Can users use this method: **YES**
+
+
+### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$messages_Messages = $MadelineProto->messages->getScheduledHistory(peer: $InputPeer, hash: [$long\|string, $long\|string], );
+```

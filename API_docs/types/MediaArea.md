@@ -1,0 +1,31 @@
+# MediaArea
+
+> constructors and methods of type MediaArea
+
+[Back to types index](index.html)
+
+
+
+### Possible values (constructors):
+
+[mediaAreaVenue](/API_docs/constructors/mediaAreaVenue.html)  
+
+[inputMediaAreaVenue](/API_docs/constructors/inputMediaAreaVenue.html)  
+
+[mediaAreaGeoPoint](/API_docs/constructors/mediaAreaGeoPoint.html)  
+
+[mediaAreaSuggestedReaction](/API_docs/constructors/mediaAreaSuggestedReaction.html)  
+
+[mediaAreaChannelPost](/API_docs/constructors/mediaAreaChannelPost.html)  
+
+[inputMediaAreaChannelPost](/API_docs/constructors/inputMediaAreaChannelPost.html)  
+
+[mediaAreaUrl](/API_docs/constructors/mediaAreaUrl.html)  
+
+[mediaAreaWeather](/API_docs/constructors/mediaAreaWeather.html)  
+
+[mediaAreaStarGift](/API_docs/constructors/mediaAreaStarGift.html)  
+
+
+
+### Methods that return an object of this type (methods):

@@ -1,0 +1,46 @@
+# account.acceptAuthorization
+
+> Sends a Telegram Passport authorization form, effectively sharing data with the service
+
+[Back to methods index](index.html)
+
+
+
+Sends a Telegram Passport authorization form, effectively sharing data with the service
+
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|bot\_id|[long](/API_docs/types/long.html) | Bot ID | Yes|
+|scope|[string](/API_docs/types/string.html) | Telegram Passport element types requested by the service | Optional|
+|public\_key|[string](/API_docs/types/string.html) | Service's public key | Optional|
+|value\_hashes|Array of [SecureValueHash](/API_docs/types/SecureValueHash.html) | Types of values sent and their hashes | Yes|
+|credentials|[SecureCredentialsEncrypted](/API_docs/types/SecureCredentialsEncrypted.html) | Encrypted values | Yes|
+
+
+### Return type: [Bool](/API_docs/types/Bool.html)
+
+### Can users use this method: **YES**
+
+
+### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$Bool = $MadelineProto->account->acceptAuthorization(bot_id: $long, scope: 'string', public_key: 'string', value_hashes: [$SecureValueHash, $SecureValueHash], credentials: $SecureCredentialsEncrypted, );
+```

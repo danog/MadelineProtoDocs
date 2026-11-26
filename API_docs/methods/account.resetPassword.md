@@ -1,0 +1,37 @@
+# account.resetPassword
+
+> Initiate a 2FA password reset: can only be used if the user is already logged-in, [see here for more info »](https://core.telegram.org/api/srp#password-reset)
+
+[Back to methods index](index.html)
+
+
+
+Initiate a 2FA password reset: can only be used if the user is already logged-in, [see here for more info »](https://core.telegram.org/api/srp#password-reset)
+
+
+
+### Return type: [account.ResetPasswordResult](/API_docs/types/account.ResetPasswordResult.html)
+
+### Can users use this method: **YES**
+
+
+### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$account_ResetPasswordResult = $MadelineProto->account->resetPassword();
+```

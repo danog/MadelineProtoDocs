@@ -1,0 +1,44 @@
+# account.unregisterDevice
+
+> Deletes a device by its token, stops sending PUSH-notifications to it.
+
+[Back to methods index](index.html)
+
+
+
+Deletes a device by its token, stops sending PUSH-notifications to it.
+
+### Parameters:
+
+| Name     |    Type       | Description | Required |
+|----------|---------------|-------------|----------|
+|token\_type|[int](/API_docs/types/int.html) | Device token type, see [PUSH updates](https://core.telegram.org/api/push-updates#subscribing-to-notifications) for the possible values. | Optional|
+|token|[string](/API_docs/types/string.html) | Device token, see [PUSH updates](https://core.telegram.org/api/push-updates#subscribing-to-notifications) for the possible values. | Optional|
+|other\_uids|Array of [long](/API_docs/types/long.html) | List of user identifiers of other users currently using the client | Yes|
+
+
+### Return type: [Bool](/API_docs/types/Bool.html)
+
+### Can users use this method: **YES**
+
+
+### Can bots use this method: **NO**
+
+
+### Can bots use this method over a business connection with the `businessConnectionId` flag: **NO**
+
+
+### MadelineProto Example ([now async for huge speed and parallelism!](https://docs.madelineproto.xyz/docs/ASYNC.html)):
+
+
+```php
+if (!file_exists('madeline.php')) {
+    copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+}
+include 'madeline.php';
+
+$MadelineProto = new \danog\MadelineProto\API('session.madeline');
+$MadelineProto->start();
+
+$Bool = $MadelineProto->account->unregisterDevice(token_type: $int, token: 'string', other_uids: [$long, $long], );
+```

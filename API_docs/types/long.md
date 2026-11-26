@@ -1,0 +1,7 @@
+# long
+
+> A 64 bit signed integer ranging from -9223372036854775808 to 9223372036854775807
+
+[Back to constructor index](index.html)
+
+A 64 bit signed integer ranging from `-9223372036854775808` to `9223372036854775807`.
